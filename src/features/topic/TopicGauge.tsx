@@ -68,7 +68,7 @@ export function TopicGauge() {
       </button>
       <button
         type="button"
-        aria-label={messages.ui.prevYear}
+        aria-label={messages.ui.prevItem}
         onClick={() => setT(prev(t) ?? t)}
         className={button}
       >
@@ -136,7 +136,7 @@ export function TopicGauge() {
       </div>
       <button
         type="button"
-        aria-label={messages.ui.nextYear}
+        aria-label={messages.ui.nextItem}
         onClick={() => setT(next(t) ?? t)}
         className={button}
       >

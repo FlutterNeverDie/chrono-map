@@ -98,6 +98,8 @@ export const ar: Messages = {
     language: "اللغة",
     prevYear: "السنة السابقة",
     nextYear: "السنة التالية",
+    prevItem: "العنصر السابق",
+    nextItem: "العنصر التالي",
     selectYear: "اختر السنة",
     toDark: "التبديل إلى الوضع الداكن",
     toLight: "التبديل إلى الوضع الفاتح",

@@ -98,6 +98,8 @@ export const en: Messages = {
     language: "Language",
     prevYear: "Previous year",
     nextYear: "Next year",
+    prevItem: "Previous item",
+    nextItem: "Next item",
     selectYear: "Select year",
     toDark: "Switch to dark mode",
     toLight: "Switch to light mode",

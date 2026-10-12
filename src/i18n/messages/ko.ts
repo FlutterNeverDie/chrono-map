@@ -96,6 +96,8 @@ export const ko = {
     language: "언어",
     prevYear: "1년 전",
     nextYear: "1년 후",
+    prevItem: "이전 항목",
+    nextItem: "다음 항목",
     selectYear: "연도 선택",
     toDark: "다크 모드로 전환",
     toLight: "일반 모드로 전환",

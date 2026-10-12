@@ -98,6 +98,8 @@ export const fr: Messages = {
     language: "Langue",
     prevYear: "Année précédente",
     nextYear: "Année suivante",
+    prevItem: "Élément précédent",
+    nextItem: "Élément suivant",
     selectYear: "Choisir l'année",
     toDark: "Passer en mode sombre",
     toLight: "Passer en mode clair",
