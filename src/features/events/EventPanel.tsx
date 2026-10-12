@@ -2,6 +2,8 @@
 
 import clsx from "clsx";
 import { useUi } from "@/store/ui";
+import { usePeriod } from "@/store/timeline";
+import { formatPeriodRange } from "@/lib/period";
 import { fill } from "@/i18n";
 import { useI18n } from "@/i18n/I18nProvider";
 import { ChevronDownIcon, ChevronUpIcon } from "@/components/ui/icons";
@@ -12,7 +14,8 @@ import { EventList, useRankedEvents } from "./EventList";
  * 모바일: 하단 게이지 위 접이식 시트 / 데스크톱(lg): 오른쪽 패널
  */
 export function EventPanel() {
-  const { messages } = useI18n();
+  const { locale, messages } = useI18n();
+  const period = usePeriod();
   const open = useUi((s) => s.panelOpen);
   const setOpen = useUi((s) => s.setPanelOpen);
   const count = useRankedEvents().length;
@@ -31,6 +34,9 @@ export function EventPanel() {
       >
         <span>
           {messages.ui.events} · {fill(messages.ui.eventCount, { n: count })}
+          <span className="ms-2 text-base font-medium text-muted lg:text-lg">
+            {formatPeriodRange(period, locale)}
+          </span>
         </span>
         <span aria-hidden className="text-muted lg:hidden">
           {open ? (

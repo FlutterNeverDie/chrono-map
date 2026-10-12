@@ -1,0 +1,35 @@
+# 지도 위 나라 이름 수정 — 中文 (zh)
+# 형식: 원본 이름(영어, public/borders/*.json의 "n" 값 그대로) = 이 언어 이름
+# 여기 적은 이름이 Wikidata 자동 이름보다 우선한다. 적용: npm run borders
+# 표기 원칙(독도·동해 등)은 content/CLAUDE.md
+
+(Kingdom of France) = 法兰西王国
+Assyrian Egypt = 亚述统治下的埃及
+Chola Empire = 朱罗王朝
+Denmark-England = 丹麦-英格兰
+Duchy of Mecklenburg = 梅克伦堡公国
+First Toungoo Empire = 第一东吁王朝
+French Africa = 法属非洲
+French Louisiana = 法属路易斯安那
+German Africa = 德属非洲
+Gothia = 哥特领
+Habsburg Monarchy = 哈布斯堡君主国
+Hashemite Arab Federation = 哈希姆阿拉伯联邦
+Joseon = 朝鲜王朝
+Kingdom of France = 法兰西王国
+Later Han = 东汉
+Lohara Dynasty = 洛哈拉王朝
+Median Kingdom = 米底王国
+Mongol Khanate = 蒙古汗国
+Muhammad Ali dynasty = 穆罕默德·阿里王朝
+Muzaffarids = 穆扎法尔王朝
+Nawab of Awadh = 奥德土邦
+Pahang Sultanate = 彭亨苏丹国
+Principality of Svaneti = 斯瓦涅季公国
+Southern Wu = 南吴
+Sultanate of Bima = 比马苏丹国
+Sultanate of Sambaliung = 桑巴利翁苏丹国
+Tibet = 西藏
+Tibetans = 西藏
+Zand Dynasty = 赞德王朝
+Éire = 爱尔兰

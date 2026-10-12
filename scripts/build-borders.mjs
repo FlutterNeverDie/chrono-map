@@ -13,7 +13,7 @@
 //   index.json          스냅샷 연도 목록
 //   <연도>.json         그 연도에 존재한 정치체 영역(TopoJSON)
 //   names/<언어>.json   정치체 이름(원본 영어) → 언어별 이름
-//                       Wikidata에서 받고, content/polity-names.txt가 있으면 그 값이 우선
+//                       Wikidata에서 받고, content/polity-names/<언어>.txt에 적은 이름이 우선
 import { execFileSync } from "node:child_process";
 import {
   existsSync,
@@ -34,7 +34,7 @@ const SIMPLIFIED = root("data-raw/cliopatria/simplified.geojson");
 const LABELS = root("data-raw/cliopatria/labels.geojson");
 const NAME_CACHE = root("data-raw/cliopatria/wikidata-names.json");
 const TITLE_CACHE = root("data-raw/cliopatria/wikipedia-qids.json");
-const NAME_OVERRIDES = root("content/polity-names.txt");
+const NAME_OVERRIDES_DIR = root("content/polity-names");
 const OUT = root("public/borders");
 
 const LOCALES = ["ko", "en", "zh", "es", "hi", "ar", "fr", "pt"];
@@ -290,25 +290,22 @@ for (let i = 0; i < newQids.length; i += 50) {
 }
 if (newQids.length) process.stdout.write("\n");
 
-// 4) 사람이 고친 이름이 Wikidata보다 우선 (content/polity-names.txt)
+// 4) 사람이 고친 이름이 Wikidata보다 우선 (content/polity-names/<언어>.txt, 한 줄에 "원본 이름 = 번역")
 const overrides = {};
-let current = null;
-readFileSync(NAME_OVERRIDES, "utf8")
-  .split("\n")
-  .forEach((raw, i) => {
-    const text = raw.replace(/#.*/, "").trim();
-    if (!text) return;
-    if (text.startsWith("@")) {
-      current = text.slice(1).trim();
-      overrides[current] ??= {};
-      return;
-    }
-    const [locale, ...rest] = text.split(":");
-    if (!current || !LOCALES.includes(locale.trim())) {
-      throw new Error(`content/polity-names.txt:${i + 1} 형식 오류: ${raw}`);
-    }
-    overrides[current][locale.trim()] = rest.join(":").trim();
-  });
+for (const locale of LOCALES) {
+  const file = `${NAME_OVERRIDES_DIR}/${locale}.txt`;
+  if (!existsSync(file)) continue;
+  readFileSync(file, "utf8")
+    .split("\n")
+    .forEach((raw, i) => {
+      const text = raw.trim();
+      if (!text || text.startsWith("#")) return;
+      const eq = text.indexOf(" = ");
+      if (eq < 0) throw new Error(`content/polity-names/${locale}.txt:${i + 1} "원본 이름 = 번역" 형식이 아님: ${raw}`);
+      const name = text.slice(0, eq).trim();
+      (overrides[name] ??= {})[locale] = text.slice(eq + 3).trim();
+    });
+}
 
 // 이름표 열쇠는 원본 정치체 이름(Name). 여러 정치체가 한 위키 항목을 같이 쓰기도 해서(예: 북송·남송 → 송나라) ID를 열쇠로 쓰지 않는다.
 const qidOfName = new Map();
@@ -319,7 +316,7 @@ for (const f of features) {
 }
 for (const name of Object.keys(overrides)) {
   if (!features.some((f) => f.properties.Name === name)) {
-    console.warn(`content/polity-names.txt: 원본에 없는 정치체 이름 "${name}"`);
+    console.warn(`content/polity-names: 원본에 없는 정치체 이름 "${name}"`);
   }
 }
 

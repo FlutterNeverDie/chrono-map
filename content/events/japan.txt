@@ -61,3 +61,10 @@ summary.hi: शोगुनेट का पतन हुआ और सम्र
 summary.ar: سقطت حكومة الشوغون وبدأت إصلاحات لبناء دولة حديثة يتصدرها الإمبراطور.
 summary.fr: Le shogunat tomba et des réformes furent lancées pour bâtir un État moderne centré sur l'empereur.
 summary.pt: O xogunato caiu e começaram reformas para construir um Estado moderno centrado no imperador.
+
+@ fukushima-accident
+wikipedia: Fukushima nuclear accident
+when: 2011
+coords: 141.03, 37.42
+category: science
+importance: 4

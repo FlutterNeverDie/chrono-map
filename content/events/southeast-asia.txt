@@ -62,3 +62,10 @@ summary.hi: सुकर्णो ने इंडोनेशिया की �
 summary.ar: أعلن سوكارنو استقلال إندونيسيا.
 summary.fr: Soekarno proclama l'indépendance de l'Indonésie.
 summary.pt: Sukarno proclamou a independência da Indonésia.
+
+@ asian-financial-crisis
+wikipedia: 1997 Asian financial crisis
+when: 1997
+coords: 100.5, 13.75
+category: economy
+importance: 4

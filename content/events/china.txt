@@ -92,3 +92,17 @@ summary.hi: झू युआनझांग ने युआन को खदे
 summary.ar: طرد جو يوان جانغ أسرة يوان وأسس سلالة مينغ.
 summary.fr: Zhu Yuanzhang chassa les Yuan et fonda la dynastie Ming.
 summary.pt: Zhu Yuanzhang expulsou os Yuan e fundou a dinastia Ming.
+
+@ prc-proclamation
+wikipedia: Proclamation of the People's Republic of China
+when: 1949
+coords: 116.39, 39.91
+category: politics
+importance: 5
+
+@ covid-19-pandemic
+wikipedia: COVID-19 pandemic
+when: 2019 ~ 2023
+coords: 114.3, 30.59
+category: science
+importance: 5

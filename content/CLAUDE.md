@@ -7,7 +7,7 @@
 | --- | --- | --- |
 | `events/<지역id>.txt` | 사건. 파일 이름 = 지역 (korea, china, …) | `npm run content` (dev/build 때 자동) |
 | `rankings/<시점id>.txt` | 그 시점에서 중요한 사건 순서 | `npm run content` |
-| `polity-names.txt` | 지도 위 나라 이름 수정 | `npm run borders` |
+| `polity-names/<언어>.txt` | 지도 위 나라 이름 수정·보충. 한 줄에 `원본 이름 = 번역` | `npm run borders` |
 | `wikipedia.json` | **자동 생성, 직접 고치지 않음.** 사건별 위키백과 요약(8개 언어) | `npm run wiki`로 받음 → `npm run content`가 합침 |
 
 지역 id: korea, china, japan, central-asia, southeast-asia, india, middle-east, europe, africa, north-america, south-america, oceania
@@ -52,7 +52,7 @@ hunminjeongeum
 ## 표기 원칙 (나라마다 입장이 다른 내용)
 
 1. **대한민국 관련 영토·명칭은 대한민국 입장을 따른다.** 독도는 대한민국 영토, 바다 이름은 동해(영어 East Sea).
-   직접 쓰는 제목·장소·나라 이름(`polity-names.txt`)에 적용한다.
+   직접 쓰는 제목·장소·나라 이름(`polity-names/`)에 적용한다.
 2. 그 밖의 분쟁·논쟁 사안은 각 언어 위키백과의 표기를 그대로 따른다(설명은 위키백과 원문이므로 가공하지 않는다).
 3. 직접 쓰는 문구에서 분쟁 중인 지명은 한쪽 입장만 단정하지 말고 병기한다(1번 제외).
 4. 원칙과 맞지 않는 위키백과 문서는 다른 문서로 연결하거나, 그 사건만 `summary`를 직접 써서 대체한다.

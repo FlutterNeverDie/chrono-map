@@ -1,4 +1,50 @@
 {
+  "1988 Summer Olympics": {
+    "qid": "Q8470",
+    "fetched": "2026-10-12",
+    "pages": {
+      "ko": {
+        "title": "1988년 하계 올림픽",
+        "extract": "1988년 하계 올림픽(영어: 1988 Summer Olympics, Games of the XXIV Olympiad)은 1988년 9월 17일부터 10월 2일의 16일 동안 대한민국의 서울에서 개최된 하계 올림픽이다. 코리아나가 부른 '손에 손 잡고'가 공식 주제곡이었으며, 한국어 버전과 영어 버전이 있다. 현재 1988년 하계 올림픽에 참가했던 나라들의 국기들은 올림픽공원에 게양되어 있다. 그리고 성화봉송은 1936년 베를린 올림픽 마라톤 금메달리스트 손기정 선수가 했다.",
+        "url": "https://ko.wikipedia.org/wiki/1988%EB%85%84_%ED%95%98%EA%B3%84_%EC%98%AC%EB%A6%BC%ED%94%BD"
+      },
+      "en": {
+        "title": "1988 Summer Olympics",
+        "extract": "The 1988 Summer Olympics, officially the Games of the XXIV Olympiad and officially branded as Seoul 1988, were an international multi-sport event held from 17 September to 2 October 1988 in Seoul, South Korea. 159 nations were represented at the games by a total of 8,391 athletes. 237 events were held and 27,221 volunteers helped to prepare the Olympics.",
+        "url": "https://en.wikipedia.org/wiki/1988_Summer_Olympics"
+      },
+      "zh": {
+        "title": "1988年夏季奥林匹克运动会",
+        "extract": "第二十四届夏季奥林匹克运动会，又称1988年夏季奥运会，汉城奥运会，于1988年9月17日至10月2日在大韩民国首都首尔（彼时汉语世界称汉城）揭幕，先前的亚洲运动会在同一地方举行。",
+        "url": "https://zh.wikipedia.org/wiki/1988%E5%B9%B4%E5%A4%8F%E5%AD%A3%E5%A5%A5%E6%9E%97%E5%8C%B9%E5%85%8B%E8%BF%90%E5%8A%A8%E4%BC%9A"
+      },
+      "es": {
+        "title": "Juegos Olímpicos de Seúl 1988",
+        "extract": "Los Juegos Olímpicos de Seúl 1988, oficialmente conocidos como los Juegos de la XXIV Olimpiada, fueron un evento multideportivo internacional, celebrado en la ciudad de Seúl, Corea del Sur, entre el 17 de septiembre y el 2 de octubre de 1988. En esta edición participaron 8391 atletas —6197 hombres y 2194 mujeres— de 159 países. Si se suman los árbitros, la cifra asciende a 13 304 personas de 160 países.",
+        "url": "https://es.wikipedia.org/wiki/Juegos_Ol%C3%ADmpicos_de_Se%C3%BAl_1988"
+      },
+      "hi": {
+        "title": "1988 ग्रीष्मकालीन ओलंपिक",
+        "extract": "1988 ग्रीष्मकालीन ओलंपिक्स, आधिकारिक तौर पर XXIV ओलंपियाड खेलों के नाम से जाना जाने वाला एक अंतरराष्ट्रीय मल्टी-स्पोर्ट कार्यक्रम था जो 17 सितंबर से 2 अक्टूबर 1988 को सियोल, दक्षिण कोरिया में मनाया गया। वे एशिया में आयोजित होने वाली दूसरी गर्मियों की ओलंपिक खेलों और 1964 ग्रीष्मकालीन ओलंपिक के बाद टोक्यो, जापान में आयोजित हुई थीं। सिओल ग्रीष्मकालीन ओलंपिक की मेजबानी करने वाला सबसे बड़ा शहर है, जिसे जल्द ही 2020 में टोक्यो में बदल दिया जाएगा।",
+        "url": "https://hi.wikipedia.org/wiki/1988_%E0%A4%97%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%B7%E0%A5%8D%E0%A4%AE%E0%A4%95%E0%A4%BE%E0%A4%B2%E0%A5%80%E0%A4%A8_%E0%A4%93%E0%A4%B2%E0%A4%82%E0%A4%AA%E0%A4%BF%E0%A4%95"
+      },
+      "ar": {
+        "title": "الألعاب الأولمبية الصيفية 1988",
+        "extract": "دورة ألعاب صيف 1988 هي دورة ألعاب أولمبياد جرت في سيول، كوريا الجنوبية. وكانت ثاني دورة ألعاب أولمبية تعقد في آسيا بعد دورة ألعاب صيف 1964 في طوكيو، اليابان.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%A3%D9%84%D8%B9%D8%A7%D8%A8_%D8%A7%D9%84%D8%A3%D9%88%D9%84%D9%85%D8%A8%D9%8A%D8%A9_%D8%A7%D9%84%D8%B5%D9%8A%D9%81%D9%8A%D8%A9_1988"
+      },
+      "fr": {
+        "title": "Jeux olympiques d'été de 1988",
+        "extract": "Les Jeux olympiques d'été de 1988, officiellement appelés Jeux de la XXIVe olympiade de l'ère moderne, ont été célébrés du 17 septembre au 2 octobre 1988 à Séoul, en Corée du Sud. Pour la deuxième fois après Tokyo en 1964, le continent asiatique est l'hôte de Jeux d'été.",
+        "url": "https://fr.wikipedia.org/wiki/Jeux_olympiques_d'%C3%A9t%C3%A9_de_1988"
+      },
+      "pt": {
+        "title": "Jogos Olímpicos de Verão de 1988",
+        "extract": "Jogos Olímpicos de Verão de 1988, oficialmente denominados Jogos da XXIV Olimpíada, foram os Jogos Olímpicos realizados em Seul, Coreia do Sul, entre 17 de setembro e 2 de outubro, com a participação recorde de 159 países e 8 391 atletas.",
+        "url": "https://pt.wikipedia.org/wiki/Jogos_Ol%C3%ADmpicos_de_Ver%C3%A3o_de_1988"
+      }
+    }
+  },
   "1994 South African general election": {
     "qid": "Q957012",
     "fetched": "2026-10-12",
@@ -37,6 +83,129 @@
         "title": "Eleições gerais na África do Sul em 1994",
         "extract": "O dia 27 de abril é o “Dia da Liberdade” para os sul-africanos. A data marcou a primeira eleição que não foi determinada pelas regras do apartheid desde 1948. Até então, a cor restringia a participação nas eleições de tal modo que, de uma população de quase 28 milhões, apenas 3 milhões eram eleitores. A eleição de 1994, sem restrições raciais, foi possível em função das negociações de paz que envolveram toda a sociedade sul-africana após a libertação de Nelson Mandela, em 1990. O partido do mais famoso dissidente político do mundo, Congresso Nacional Africano, foi o grande vencedor do pleito, o que garantiu a eleição de Mandela para a presidência da República.",
         "url": "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%B5es_gerais_na_%C3%81frica_do_Sul_em_1994"
+      }
+    }
+  },
+  "1997 Asian financial crisis": {
+    "qid": "Q80880",
+    "fetched": "2026-10-12",
+    "pages": {
+      "ko": {
+        "title": "1997년 아시아 금융 위기",
+        "extract": "아시아 금융 위기(한국 한자: - 金融危機, 영어: 1997 Asian financial crisis)는 동남아시아와 동아시아 지역에서 1997년 7월부터 시작되어 세계 경제에 불안을 야기한 일련의 금융 위기 사태를 뜻한다. 아시아 금융 위기는 세계 금융 위기로 전개되지 않고 1998년과 1999년을 지나며 진화되었다. 1997년 7월 2일 미 달러화에 대한 태국의 밧 태환 포기가 국제적인 금융 위기를 촉발했다. 대한민국, 인도네시아와 태국이 가장 큰 영향을 받았으며, 홍콩, 라오스, 말레이시아와 필리핀 또한 경기 침체를 겪었다.",
+        "url": "https://ko.wikipedia.org/wiki/1997%EB%85%84_%EC%95%84%EC%8B%9C%EC%95%84_%EA%B8%88%EC%9C%B5_%EC%9C%84%EA%B8%B0"
+      },
+      "en": {
+        "title": "1997 Asian financial crisis",
+        "extract": "A financial crisis gripped much of East and Southeast Asia during the late 1990s. It began in Thailand in July 1997 before spreading to several other countries with a ripple effect, raising fears of a worldwide economic meltdown due to financial contagion. However, the recovery in 1998–1999 was rapid, and worries of a meltdown quickly subsided.",
+        "url": "https://en.wikipedia.org/wiki/1997_Asian_financial_crisis"
+      },
+      "zh": {
+        "title": "亞洲金融風暴",
+        "extract": "亚洲金融风暴是1997年爆发的一场金融危机，从1997年7月开始席卷东亚大部分地区。1990年代初期热钱涌入东南亚，因为实际生产力不如帐面，导致经济出现泡沫，结果由于泰国放弃固定汇率制而爆发，随后进一步波及至邻近亚洲国家的货币、股票市场及其他资产，相关资产的价值也因此暴跌。该事件在泰国又称“冬阴汤危机”。风暴打破了亚洲经济急速发展的幻象，而随后资本的投资减少，使亚洲各国经济遭受严重打击，纷纷进入经济衰退。危机还导致社会动荡和政局不稳，一些国家也因此陷入混乱。除此之外，危机甚至因而影响了俄罗斯和拉丁美洲经济。",
+        "url": "https://zh.wikipedia.org/wiki/%E4%BA%9E%E6%B4%B2%E9%87%91%E8%9E%8D%E9%A2%A8%E6%9A%B4"
+      },
+      "es": {
+        "title": "Crisis financiera asiática",
+        "extract": "La crisis financiera asiática fue un período de dificultad financiera que se apoderó de Asia en julio de 1997 y aumentó el temor de un desastre económico mundial por contagio financiero. También conocida como la crisis del Fondo Monetario Internacional, comenzó el 2 de julio de 1997 con la devaluación de la moneda tailandesa. Por efecto dominó, le sucedieron numerosas devaluaciones en Malasia, Indonesia y Filipinas, lo que repercutió también en Taiwán, Hong Kong y Corea del Sur. Sin embargo, lo que parecía ser una crisis regional se convirtió con el tiempo en lo que se denominó la \"primera gran crisis de la globalización\", y existe una gran incertidumbre sobre la verdadera magnitud del impacto de sus efectos en la economía mundial. Solo durante las primeras semanas, un millón de tailandeses y 21 millones de indonesios pasaron a engrosar las filas de los oficialmente pobres.",
+        "url": "https://es.wikipedia.org/wiki/Crisis_financiera_asi%C3%A1tica"
+      },
+      "hi": {
+        "title": "एशियाई वित्तीय संकट",
+        "extract": "एशियाई वित्तीय संकट, वह अवधि थी, जो जुलाई 1997 में शुरू हुई।बहुत से पूर्व एशिया की मजबूती में थी और आर्थिक संभोग के चलते दुनिया भर में आर्थिक मंदी की आशंका को उठाया गया था।",
+        "url": "https://hi.wikipedia.org/wiki/%E0%A4%8F%E0%A4%B6%E0%A4%BF%E0%A4%AF%E0%A4%BE%E0%A4%88_%E0%A4%B5%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A5%80%E0%A4%AF_%E0%A4%B8%E0%A4%82%E0%A4%95%E0%A4%9F"
+      },
+      "ar": {
+        "title": "الأزمة المالية الآسيوية 1997",
+        "extract": "الأزمة المالية الآسيوية هي فترة تأزُّم مالي أصابت معظم قارة آسيا بدءاً من شهر يوليو عام 1997، وتسبَّبت بمخاوف من تحوُّلها إلى أزمة عالمية.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%A3%D8%B2%D9%85%D8%A9_%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%8A%D8%A9_%D8%A7%D9%84%D8%A2%D8%B3%D9%8A%D9%88%D9%8A%D8%A9_1997"
+      },
+      "fr": {
+        "title": "Crise économique asiatique",
+        "extract": "La crise économique asiatique est une crise économique qui touche les pays de l’Asie du Sud-Est et les pays avoisinants la région à partir de juillet 1997. Cette crise se propage, quoique de manière diluée, à d’autres pays émergents, dont notamment la Russie, l'Argentine et le Brésil. Cette crise est due aux déséquilibres macroéconomiques accumulés par les pays asiatiques qui ont bénéficié d'un afflux massif de capitaux étrangers dans les années 1980 et 1990.",
+        "url": "https://fr.wikipedia.org/wiki/Crise_%C3%A9conomique_asiatique"
+      },
+      "pt": {
+        "title": "Crise financeira asiática de 1997",
+        "extract": "A crise financeira asiática de 1997 foi um período de crise financeira que atingiu grande parte do Sudeste e Oriente asiático a partir de julho de 1997 e levou temores de um colapso econômico mundial devido ao contágio financeiro.",
+        "url": "https://pt.wikipedia.org/wiki/Crise_financeira_asi%C3%A1tica_de_1997"
+      }
+    }
+  },
+  "2000 inter-Korean summit": {
+    "qid": "Q12580295",
+    "fetched": "2026-10-12",
+    "pages": {
+      "ko": {
+        "title": "2000년 남북정상회담",
+        "extract": "2000년 남북정상회담(二千年南北頂上會談)은 대한민국 대통령 김대중과 조선민주주의인민공화국 국방위원장 김정일이 평양에서 2000년 6월 13일부터 6월 15일까지 2박 3일 동안 진행한 회담이다. 제1차 남북정상회담이었고 회담 결과로 마지막날 6·15 남북 공동선언이 발표됐다. 미국의 AP통신은 2000년 12월 25일 '2000년 세계 10대 뉴스'를 발표하였는데 이 남북정상회담은 5위를 차지하였다.",
+        "url": "https://ko.wikipedia.org/wiki/2000%EB%85%84_%EB%82%A8%EB%B6%81%EC%A0%95%EC%83%81%ED%9A%8C%EB%8B%B4"
+      },
+      "en": {
+        "title": "2000 inter-Korean summit",
+        "extract": "The 2000 inter-Korean summit was a meeting between South Korean president Kim Dae-jung and North Korean leader Kim Jong Il, which took place in Pyongyang, North Korea from 13 to 15 June 2000. Following the summit, the two countries signed the June 15th North–South Joint Declaration, agreeing to resolve the issue of reunification independently, immediately address humanitarian concerns, and establish cooperative relations in all areas.",
+        "url": "https://en.wikipedia.org/wiki/2000_inter-Korean_summit"
+      },
+      "zh": {
+        "title": "2000年朝韓首腦會晤",
+        "extract": "2000年朝韩首脑会晤 于2000年6月13日至6月15日由大韩民国总统金大中与朝鲜民主主义人民共和国最高领导人、朝鲜劳动党总书记金正日在平壤会面。会后，两国签署《南北共同宣言》，双方同意通过自主地解决统一问题、立即解决人道主义问题和建立各方面的合作关系。",
+        "url": "https://zh.wikipedia.org/wiki/2000%E5%B9%B4%E6%9C%9D%E9%9F%93%E9%A6%96%E8%85%A6%E6%9C%83%E6%99%A4"
+      },
+      "ar": {
+        "title": "قمة الكوريتين 2000",
+        "extract": "قمة الكوريتين 2000، ( ) هو اجتماع بين رئيس كوريا الجنوبية كيم داي جونغ والزعيم الكوري الشمالي كيم جونغ إل، وهذا اللقاء جرى في بيونغ يانغ من 13 يونيو إلى 15 يونيو من عام 2000. وقد كان هذا أول لقاء بين الكوريتين منذ اندلاع الحرب الكورية في عام 1950. وقد تلتها فيما بعد كل من القمة الثانية في 2007 والثالثة في 2018.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%82%D9%85%D8%A9_%D8%A7%D9%84%D9%83%D9%88%D8%B1%D9%8A%D8%AA%D9%8A%D9%86_2000"
+      },
+      "fr": {
+        "title": "Sommet inter-coréen de 2000",
+        "extract": "Le Sommet inter-coréen de 2000 est une rencontre entre les dirigeants des deux Corées, Kim Dae-jung, président de la Corée du Sud, et Kim Jong-il, dirigeant suprême de la Corée du Nord.",
+        "url": "https://fr.wikipedia.org/wiki/Sommet_inter-cor%C3%A9en_de_2000"
+      }
+    }
+  },
+  "2008 financial crisis": {
+    "qid": "Q896666",
+    "fetched": "2026-10-12",
+    "pages": {
+      "ko": {
+        "title": "세계 금융 위기 (2007~2008년)",
+        "extract": "2008년 세계 금융 위기(2008年世界金融危機) 또는 세계 금융 위기(GFC), 2008년 공황은 미국을 중심으로 발생한 전 세계적인 대규모 금융위기이다. 그 원인으로는 주택 소유자와 금융기관 모두의 자산 가치에 대한 과도한 투기가 있으며 이는 2000년대 미국 주택 버블로 이어졌다. 이 투기세는 서브프라임 모기지에 대한 약탈적 대출과 규제의 미비로 인해 더욱 악화되었다. 주택 가격이 상승하던 시기에 이루어진 자산 기반 재융자는 소비 증가를 부추겼으나, 주택 가격이 하락하자 이는 더 이상 지속될 수 없었다. 금융 위기의 발발은 2007년 초에 시작된 서브프라임 모기지 사태로, 미국 부동산과 연결된 주택저당증권(MBS) 및 이와 연계된 방대한 파생상품(파생금융상품)망의 가치가 폭락하면서 시작되었다. 이로 인해 발생한 유동성 위기는 2007년 중반까지 글로벌 금융 기관으로 확산되었고, 2008년 9월 리먼 브라더스의 파산으로 정점에 달했다. 이는 여러 국가에서 주가 대폭락과 뱅크런을 촉발했다. 이 위기는 2007년 중반 시작된 글로벌 경기 침체인 대침체와 2007년~2009년 미국 약세장을 악화시켰다. 또한 2008년~2011년 아이슬란드 금융 위기와 유럽 국가 부채 위기의 원인이 되기도 했다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84_%EA%B8%88%EC%9C%B5_%EC%9C%84%EA%B8%B0_(2007~2008%EB%85%84)"
+      },
+      "en": {
+        "title": "2008 financial crisis",
+        "extract": "A major worldwide financial crisis centered in the United States took place in 2008. The immediate cause of the crisis was the collapse of the 2000s U.S. housing bubble, which involved excessive speculation in property values by both homeowners and financial institutions, exacerbated by predatory lending and by deficiencies in regulation. The first phase was the subprime mortgage crisis, which began in early 2007 as mortgage-backed securities (MBS) tied to U.S. real estate, and a vast web of derivatives linked to those MBS, collapsed in value. A liquidity crisis spread to global institutions by mid-2007 and climaxed with the bankruptcy of Lehman Brothers in September 2008, which triggered a stock market crash and bank runs in several countries. The crisis exacerbated the Great Recession, a global recession that began in late 2007, and contributed to major crises in Iceland and the eurozone.",
+        "url": "https://en.wikipedia.org/wiki/2008_financial_crisis"
+      },
+      "zh": {
+        "title": "2008年環球金融危機",
+        "extract": "2008年环球金融危机，又称2008年世界金融危机、次贷危机、信用危机、2008年华尔街金融危机、2008年金融崩溃，在2008年又出现了金融海啸及华尔街海啸等名称，是一场在2007年8月9日开始浮现的金融危机。自次级房屋信贷危机爆发后，投资者开始对按揭证券的价值失去信心，引发流动性危机，当中经历2008年环球股灾。即使多国中央银行多次向金融市场注入巨额资金，也无法阻止这场金融危机的爆发。直到2008年9月，这场金融危机开始失控，并导致多间相当大型的金融机构倒闭或被政府接管，引发经济衰退。",
+        "url": "https://zh.wikipedia.org/wiki/2008%E5%B9%B4%E7%92%B0%E7%90%83%E9%87%91%E8%9E%8D%E5%8D%B1%E6%A9%9F"
+      },
+      "es": {
+        "title": "Crisis financiera de 2007-2008",
+        "extract": "La crisis financiera de 2007-2008 fue la crisis financiera más grave desde la Gran Depresión (1929). La opinión predominante es que fue causada por la asunción de riesgos excesivos por parte de las instituciones financieras estadounidenses relacionados con los préstamos abusivos dirigidos a compradores de viviendas de bajos ingresos, que provocó el estallido de la burbuja inmobiliaria de los Estados Unidos.",
+        "url": "https://es.wikipedia.org/wiki/Crisis_financiera_de_2007-2008"
+      },
+      "hi": {
+        "title": "2007-2009 का वित्तीय संकट",
+        "extract": "2008-वर्तमान वित्तीय संकट एक ऐसा वित्तीय संकट है जो संयुक्त राज्य अमेरिका में चलनिधि की कमी से पैदा हुआ। यह बड़ी वित्तीय संस्थाओं के पतन, राष्ट्रीय सरकारों द्वारा बैंकों की \"जमानत\" और दुनिया भर में शेयर बाज़ार की गिरावट का कारक बना। कई क्षेत्रों में, आवास बाज़ार को भी नुकसान उठाना पड़ा, जिसके परिणामस्वरूप कई निष्कासन, प्रतिबंध और दीर्घकालिक रिक्तियां सामने आईं. कई अर्थशास्त्रियों का मानना है कि यह 1930 दशक की महान मंदी के बाद का सबसे खराब वित्तीय संकट\nहै। इसकी वजह से प्रमुख व्यवसायों की विफलता, ट्रिलियन अमेरिकी डॉलरों में अनुमानित उपभोक्ता संपत्ति में ह्रास, सरकारों द्वारा पर्याप्त वित्तीय प्रतिबद्धताएं और आर्थिक गतिविधियों में महत्त्वपूर्ण गिरावट देखी गई। विशेषज्ञों द्वारा निर्दिष्ट विभिन्न मापदंड़ों में कई कारण प्रस्तावित किए गए हैं। दोनों बाज़ार-आधारित और विनियामक समाधान लागू किए गए या विचाराधीन हैं, जबकि 2010-2011 की अवधि के लिए वैश्विक अर्थव्यवस्था पर महत्त्वपूर्ण जोखिम मौजूद हैं। हालांकि इस आर्थिक अवधि को कई बार \"महान मंदी\" के रूप में सन्दर्भित किया जा रहा है, लेकिन यही वाक्यांश पिछले कई दशकों की प्रत्येक मंदी के सन्दर्भ में प्रयुक्त किया गया।",
+        "url": "https://hi.wikipedia.org/wiki/2007-2009_%E0%A4%95%E0%A4%BE_%E0%A4%B5%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A5%80%E0%A4%AF_%E0%A4%B8%E0%A4%82%E0%A4%95%E0%A4%9F"
+      },
+      "ar": {
+        "title": "الأزمة المالية 2008",
+        "extract": "شهد عام 2008 أزمةً ماليةً عالميةً كبرى تمركزت في الولايات المتحدة. شملت أسبابها المضاربات المفرطة على قيم العقارات من جانب أصحاب المنازل والمؤسسات المالية، مما أدى إلى ظهور «فقاعة الإسكان» في الولايات المتحدة خلال العقد الأول من القرن الحادي والعشرين. وتفاقم هذا الوضع بسبب الإقراض الجائر للرهون العقارية عالية المخاطر، إضافةً إلى أوجه القصور في التنظيم والرقابة. كما أدت عمليات إعادة التمويل النقدي إلى زيادة في الاستهلاك لم يعد من الممكن استمرارها بعد انخفاض أسعار المنازل. وكانت المرحلة الأولى من الأزمة هي «أزمة الرهن العقاري عالي المخاطر»، التي بدأت في أوائل عام 2007، حيث انهارت قيمة الأوراق المالية المدعومة بالرهن العقاري المرتبطة بالعقارات الأمريكية، إلى جانب شبكة واسعة من المشتقات المرتبطة بتلك الأوراق. وانتشرت أزمة السيولة إلى المؤسسات العالمية بحلول منتصف عام 2007، وبلغت ذروتها بإفلاس بنك «ليمان براذرز» في سبتمبر 2008، مما تسبب في انهيار أسواق الأسهم وهروب الودائع المصرفية في عدة بلدان. أدت الأزمة إلى تفاقم «الركود الكبير»، وهو ركود عالمي بدأ في أواخر عام 2007، بالإضافة إلى «السوق الهابطة» في الولايات المتحدة خلال الفترة من 2007 إلى 2009. كما ساهمت في الأزمة المالية الأيسلندية (2008–2011) وأزمة منطقة اليورو.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%A3%D8%B2%D9%85%D8%A9_%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%8A%D8%A9_2008"
+      },
+      "fr": {
+        "title": "Crise financière mondiale de 2007-2008",
+        "extract": "La crise financière mondiale de 2007-2008 est une crise financière, marquée par une crise de liquidité et parfois par des crises de solvabilité tant au niveau des banques que des États, et une raréfaction du crédit aux entreprises. Amorcée en juillet 2007, elle trouve son origine dans le dégonflement de bulles de prix et les pertes importantes des établissements financiers provoquées par la crise des subprimes. Elle s'inscrit dans le cadre de la « Grande Récession » amorcée en 2008 et dont les effets se font sentir au-delà de 2010.",
+        "url": "https://fr.wikipedia.org/wiki/Crise_financi%C3%A8re_mondiale_de_2007-2008"
+      },
+      "pt": {
+        "title": "Crise financeira de 2007–2008",
+        "extract": "Crise financeira de 2007–2008 foi uma conjuntura econômica global que foi precipitada pela falência do tradicional banco de investimento norte-americano Lehman Brothers, fundado em 1850. Em efeito dominó, outras grandes instituições financeiras quebraram, no processo também conhecido como Crise do subprime.",
+        "url": "https://pt.wikipedia.org/wiki/Crise_financeira_de_2007%E2%80%932008"
       }
     }
   },
@@ -132,6 +301,52 @@
       }
     }
   },
+  "Arab Spring": {
+    "qid": "Q33761",
+    "fetched": "2026-10-12",
+    "pages": {
+      "ko": {
+        "title": "아랍의 봄",
+        "extract": "아랍의 봄(Arab Spring, 아랍어: الثورات العربية)은 전례가 없는 시위 운동 및 혁명의 물결로, 2010년 12월 이래 중동과 북아프리카(및 인근 지역 포함)에서 일어난 반정부 시위들이다. 알제리, 바레인, 이집트, 이란, 요르단, 리비아, 모로코, 튀니지, 예멘 등 중동(서아시아)과 북아프리카 일부 지역 모두 대규모 반정부 시위가 일어났으며, 이라크, 쿠웨이트, 모리타니, 오만, 사우디아라비아, 소말리아, 수단, 시리아에서도 규모가 작은 반정부 시위가 발생하였다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%95%84%EB%9E%8D%EC%9D%98_%EB%B4%84"
+      },
+      "en": {
+        "title": "Arab Spring",
+        "extract": "The Arab Spring was a series of pro-democracy anti-government protests, uprisings, and armed rebellions that spread across much of the Arab world in the early 2010s. It began in Tunisia in response to the death of Mohamed Bouazizi by self-immolation. From Tunisia, the protests initially spread to five other countries: Libya, Egypt, Yemen, Syria and Bahrain. The rulers deposed include: Zine El Abidine Ben Ali of Tunisia, Muammar Gaddafi of Libya, and Hosni Mubarak of Egypt, all in 2011; and Ali Abdullah Saleh of Yemen in 2012. Major uprisings and social violence occurred, including riots, civil wars, or insurgencies. Sustained street demonstrations took place in Morocco, Iraq, Algeria, Lebanon, Jordan, Kuwait, Oman and Sudan. Minor protests took place in Djibouti, Mauritania, Palestine, Saudi Arabia and the Western Sahara. A major slogan of the demonstrators in the Arab world is ash-shaʻb yurīd isqāṭ an-niẓām!.",
+        "url": "https://en.wikipedia.org/wiki/Arab_Spring"
+      },
+      "zh": {
+        "title": "阿拉伯之春",
+        "extract": "阿拉伯之春 是指自2010年底开始的，阿拉伯世界的一次革命浪潮。自从2010年12月17日突尼西亚爆发茉莉花革命以来，阿拉伯世界的一些国家民众纷纷走上街头，要求推翻本国专制政体，并乐观地把“一个新中东即将诞生”预见为这个运动的前景，认为“阿拉伯之春”属于“谙熟互联网、要求和世界其它大部分地区一样享有基本民主权利的年轻一代”。",
+        "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E6%8B%89%E4%BC%AF%E4%B9%8B%E6%98%A5"
+      },
+      "es": {
+        "title": "Primavera Árabe",
+        "extract": "La Primavera Árabe fue una serie de manifestaciones populares, levantamientos y rebeliones armadas antigubernamentales a favor de la democracia que se extendieron por gran parte del mundo árabe a principios de la década de 2010, en clamor de, según los manifestantes, la democracia y los derechos sociales organizada por la población árabe.",
+        "url": "https://es.wikipedia.org/wiki/Primavera_%C3%81rabe"
+      },
+      "hi": {
+        "title": "२०१० से प्रारंभ होने वाली अरब जगत की क्रांतिकारी लहर",
+        "extract": "मध्य पश्चिमी एशिया एवं उत्तरी अफ्रीका में श्रृखंलाबद्ध विरोध-प्रदर्शन एवं धरण-प्रदर्शन का दौर २०१० मे आरंभ हुआ। इस विद्रोह को अरब जागृति, अरब स्प्रिंग या अरब विद्रोह कहतें हैं। अरब स्प्रिंग क्रान्ति की एक ऐसी लहर थी जिसने धरना-प्रदर्शन, विरोध-प्रदर्शन, दंगा तथा सशस्त्र संघर्ष की बदौलत पूरे अरब जगत के संग समूचे विश्व को हिला कर रख दिया था।",
+        "url": "https://hi.wikipedia.org/wiki/%E0%A5%A8%E0%A5%A6%E0%A5%A7%E0%A5%A6_%E0%A4%B8%E0%A5%87_%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%B0%E0%A4%82%E0%A4%AD_%E0%A4%B9%E0%A5%8B%E0%A4%A8%E0%A5%87_%E0%A4%B5%E0%A4%BE%E0%A4%B2%E0%A5%80_%E0%A4%85%E0%A4%B0%E0%A4%AC_%E0%A4%9C%E0%A4%97%E0%A4%A4_%E0%A4%95%E0%A5%80_%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%82%E0%A4%A4%E0%A4%BF%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%80_%E0%A4%B2%E0%A4%B9%E0%A4%B0"
+      },
+      "ar": {
+        "title": "الربيع العربي",
+        "extract": "الثورات العربية، أو الربيع العربي أو ثورات الربيع العربي في الإعلام، هي حركات احتجاجية سلمية ضخمة انطلقت في بعض البلدان العربية خلال أواخر عام 2010 ومطلع 2011، متأثرة بالثورة التونسية التي اندلعت جراء إحراق محمد البوعزيزي نفسه ونجحت في الإطاحة بالرئيس السابق زين العابدين بن علي، وكان من أسبابها الأساسية انتشار الفساد والركود الاقتصاديّ وسوء الأحوال المَعيشية، إضافة إلى التضييق السياسيّ والأمني وعدم نزاهة الانتخابات في معظم البلاد العربية. ولا زالت هذه الحركة مستمرة حتى هذه اللحظة. نجحت الثورات بالإطاحة بستة أنظمة حتى الآن، فبعدَ الثورة التونسية نجحت ثورة 25 يناير المصرية بإسقاط الرئيس السابق محمد حسني مبارك، ثم ثورة 17 فبراير الليبية بقتل معمر القذافي وإسقاط نظامه، فالثورة اليمنية التي أجبرت علي عبد الله صالح على التنحي، وأما الحركات الاحتجاجية فقد بلغت جميع أنحاء الوطن العربي، وكانت أكبرها هي حركة الاحتجاجات في سوريا. تميزت هذه الثورات بظهور هتاف عربيّ ظهر لأول مرة في تونس وأصبح شهيرًا في كل الدول العربية وهو: «الشعب يريد إسقاط النظام».\n، ثم بعدها كانت الثورة في تونس عندما أضرم الشاب محمد البوعزيزي النار في نفسه احتجاجاً على الأوضاع المعيشية والاقتصادية المتردية، وعدم تمكنه من تأمين قوت عائلته، فاندلعت بذلك الثورة التونسية، وانتهت في 14 يناير عندما غادر زين العابدين بن علي البلاد بطائرة إلى مدينة جدة في السعودية، واستلم من بعده السلطة محمد الغنوشي الوزير الأول السابق، فالباجي قائد السبسي. وبعدها بتسعة أيام، اندلعت ثورة 25 يناير المصرية تليها بأيام الثورة اليمنية، وفي 11 فبراير التالي أعلن محمد حسني مبارك تنحيه عن السلطة، ثم سُجن وحوكم بتهمة قتل المتظاهرين خلال الثورة. وإثر نجاح الثورتين التونسية والمصرية بإسقاط نظامين بدأت الاحتجاجات السلميَّة المُطالبة بإنهاء الفساد وتحسين الأوضاع المعيشية بل وأحياناً إسقاط الأنظمة بالانتشار سريعاً في أنحاء الوطن العربي الأخرى، فبلغت الأردن والبحرين والجزائر وجيبوتي والسعودية والسودان والعراق وعُمان وفلسطين والكويت ولبنان والمغرب وموريتانيا.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%B1%D8%A8%D9%8A%D8%B9_%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A"
+      },
+      "fr": {
+        "title": "Printemps arabe",
+        "extract": "Le « Printemps arabe » est un ensemble de contestations populaires, d'ampleur et d'intensité très variables, qui se sont produites dans de nombreux pays du monde arabe à partir de décembre 2010.",
+        "url": "https://fr.wikipedia.org/wiki/Printemps_arabe"
+      },
+      "pt": {
+        "title": "Primavera Árabe",
+        "extract": "Primavera Árabe foi uma série de protestos antigovernamentais, revoltas e rebeliões armadas que se espalharam por grande parte do mundo árabe no início da década de 2010. A onda revolucionária teve início na Tunísia em resposta à corrupção e estagnação econômica. Da Tunísia, os protestos se espalharam para outros cinco países: Líbia, Egito, Iêmen, Síria e Bahrein. Os governantes foram depostos ou ocorreram grandes revoltas e violência social, incluindo motins, guerras civis, ou insurgências. Manifestações de rua sustentadas ocorreram em Marrocos, Iraque, Argélia, Líbano, Jordânia, Kuwait, Omã e Sudão. Pequenos protestos ocorreram no Djibuti, Mauritânia, Estado da Palestina, Arábia Saudita e no Saara Ocidental ocupado pelo Marrocos.",
+        "url": "https://pt.wikipedia.org/wiki/Primavera_%C3%81rabe"
+      }
+    }
+  },
   "Assassination of Julius Caesar": {
     "qid": "Q1025466",
     "fetched": "2026-10-12",
@@ -199,6 +414,98 @@
       }
     }
   },
+  "COVID-19 pandemic": {
+    "qid": "Q81068910",
+    "fetched": "2026-10-12",
+    "pages": {
+      "ko": {
+        "title": "코로나19 범유행",
+        "extract": "코로나19 범유행은 2019년 11월 중국 후베이성 우한시에서 처음 확인된 SARS-CoV-2의 감염증인 코로나바이러스감염증-19가 전 세계적으로 유행하고 있는 상황을 말한다. 세계보건기구는 2020년 1월에 국제적 공중보건 비상사태를 선언하였고, 3월에는 펜데믹 즉 세계적 범유행으로 격상시켰다. 2023년 3월 기준으로 6.76억 이상의 확진자와 688만 명 이상의 사망자가 나타났다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%BD%94%EB%A1%9C%EB%82%9819_%EB%B2%94%EC%9C%A0%ED%96%89"
+      },
+      "en": {
+        "title": "COVID-19 pandemic",
+        "extract": "The global COVID-19 pandemic, caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), began with an outbreak in Wuhan, China, in December 2019. It spread to other parts of Asia and then worldwide in early 2020. The World Health Organization (WHO) declared the outbreak a public health emergency of international concern (PHEIC) on 30 January 2020 and assessed it as having become a pandemic on 11 March. The WHO declared that the public health emergency caused by COVID-19 had ended in May 2023, while noting that COVID-19 continued to be a global health threat.",
+        "url": "https://en.wikipedia.org/wiki/COVID-19_pandemic"
+      },
+      "zh": {
+        "title": "2019冠状病毒病疫情",
+        "extract": "2019冠状病毒病疫情是由严重急性呼吸系统综合征冠状病毒2（SARS-CoV-2）导致的2019冠状病毒病（COVID-19）所引发的全球大流行疫情。该疾病在2019年末于中华人民共和国湖北省武汉市首次爆发，随后在2020年初迅速扩散至全球多国，逐渐变成一场全球大流行瘟疫。截止至2025年2月，世界卫生组织于全球已累计报告777,368,929例确诊病例，其中7,087,731人死亡，病死率约为0.91%，是人类历史上大规模流行病之一。世界各国对该病病死率的估计值差异甚大，多数国家该病的观测病死率在0.5%—5.0%之间。",
+        "url": "https://zh.wikipedia.org/wiki/2019%E5%86%A0%E7%8A%B6%E7%97%85%E6%AF%92%E7%97%85%E7%96%AB%E6%83%85"
+      },
+      "es": {
+        "title": "Pandemia de COVID-19",
+        "extract": "La pandemia de COVID-19, conocida también como pandemia de coronavirus, fue una pandemia derivada de la enfermedad causada por el virus SARS-CoV-2. Inicialmente fue llamada «neumonía de Wuhan», puesto que los primeros casos fueron identificados en diciembre de 2019 en la ciudad china de Wuhan, al reportarse casos de un grupo de personas enfermas con un tipo de neumonía desconocida. La mayoría de los afectados tenía vinculación con trabajadores del Mercado mayorista de mariscos de Huanan. La Organización Mundial de la Salud (OMS) la declaró una emergencia de salud pública de importancia internacional el 30 de enero de 2020, condición que mantuvo hasta el 5 de mayo de 2023, cuando la OMS decretó el fin de la emergencia sanitaria. El curso de la enfermedad se encuentra en endémico, debido a que ya no se reportan casos con tanta frecuencia como en sus primeros años.",
+        "url": "https://es.wikipedia.org/wiki/Pandemia_de_COVID-19"
+      },
+      "hi": {
+        "title": "कोविड-19 विश्वमारी",
+        "extract": "कोरोना वायरस विश्वमारी (2019–20) की शुरुआत एक नए किस्म के कोरोनवायरस (2019-nCoV) के संक्रमण के रूप में मध्य चीन के वुहान शहर में 2019 के मध्य दिसंबर में हुई। बहुत से लोगों को बिना किसी कारण निमोनिया होने लगा और यह देखा गया की पीड़ित लोगों में से अधिकतर लोग वुहान सी फूड मार्केट में मछलियाँ बेचते हैं तथा जीवित पशुओं का भी व्यापर करते हैं। चीनी वैज्ञानिकों ने बाद में कोरोनावायरस की एक नई नस्ल की पहचान की जिसे 2019-nCoV प्रारंभिक पदनाम दिया गया। इस नए वायरस में कम से कम 70 प्रतिशत वही जीनोम अनुक्रम पाए गए जो सार्स-कोरोनावायरस में पाए जाते हैं। संक्रमण का पता लगाने के लिए एक विशिष्ट नैदानिक पीसीआर परीक्षण के विकास के साथ कई मामलों की पुष्टि उन लोगों में हुई जो सीधे बाजार से जुड़े हुए थे और उन लोगों में भी इस वायरस का पता लगा जो सीधे उस मार्केट से नहीं जुड़े हुए थे। पहले यह स्पष्ट नहीं था कि यह वायरस सार्स जितनी ही गंभीरता या घातकता का है अथवा नहीं।",
+        "url": "https://hi.wikipedia.org/wiki/%E0%A4%95%E0%A5%8B%E0%A4%B5%E0%A4%BF%E0%A4%A1-19_%E0%A4%B5%E0%A4%BF%E0%A4%B6%E0%A5%8D%E0%A4%B5%E0%A4%AE%E0%A4%BE%E0%A4%B0%E0%A5%80"
+      },
+      "ar": {
+        "title": "جائحة فيروس كورونا",
+        "extract": "جائحة فيروس كورونا(1) أو جائحة كوفيد-19 والمعروفة أيضًا باسم جائحة كورونا، هي جائحةٌ عالميةٌ لمرض فيروس كورونا 2019 (كوفيد-19)، تسبب بها فيروس كورونا 2 المرتبط بالمتلازمة التنفسية الحادة الشديدة (سارس-كوف-2). بدأ بتفشٍ في مدينة ووهان الصينية في أوائل شهر ديسمبر عام 2019، وانتشرت إلى أجزاء أخرى من آسيا، ثم إلى جميع أنحاء العالم في أوائل عام 2020. أعلنت منظمة الصحة العالمية رسميًا في 30 يناير أن تفشي الفيروس يُشكل حالة طوارئ صحية عامة تبعث على القلق الدولي، وأكدت تحول الفاشية إلى جائحة يوم 11 مارس. أعلنت منظمة الصحة العالمية أن حالة الطوارئ الصحية العامة الناجمة عن كوفيد-19 قد انتهت في مايو 2023، مع الإشارة إلى أن كوفيد-19 لا يزال يشكل تهديدًا صحيًا عالميًا.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%AC%D8%A7%D8%A6%D8%AD%D8%A9_%D9%81%D9%8A%D8%B1%D9%88%D8%B3_%D9%83%D9%88%D8%B1%D9%88%D9%86%D8%A7"
+      },
+      "fr": {
+        "title": "Pandémie de Covid-19",
+        "extract": "La pandémie de Covid-19, l'épidémie de Covid-19, la crise Covid, le temps du Covid ou la période Covid est une pandémie d'une maladie infectieuse émergente, appelée la maladie à coronavirus 2019 ou Covid-19, provoquée par le coronavirus SARS-CoV-2. Elle apparaît le 16 novembre 2019 à Wuhan, dans la province du Hubei, avant de se propager dans le monde. Elle entraîne de très nombreuses mesures de protection dans l'ensemble des pays du monde et marque universellement le début des années 2020.",
+        "url": "https://fr.wikipedia.org/wiki/Pand%C3%A9mie_de_Covid-19"
+      },
+      "pt": {
+        "title": "Pandemia de COVID-19",
+        "extract": "Pandemia de COVID-19, também conhecida como pandemia de coronavírus, é uma pandemia da doença por coronavírus 2019 (COVID-19), causada pelo coronavírus da síndrome respiratória aguda grave 2 (SARS-CoV-2). O vírus foi identificado pela primeira vez a partir de um surto em Wuhan, China, em dezembro de 2019. As tentativas de contê-lo falharam, permitindo que o vírus se espalhasse para outras áreas da China e, posteriormente, para todo o mundo. Em 30 de janeiro de 2020, a Organização Mundial da Saúde (OMS) classificou o surto como Emergência de Saúde Pública de Âmbito Internacional (PHEIC) e, em 11 de março de 2020, como pandemia. A OMS declarou o fim da PHEIC no dia 5 de maio de 2023, apesar de ainda continuar a se referir a ela como uma pandemia. Até 22 de fevereiro de 2026, conforme a OMS, 779 056 637 casos foram confirmados em 233 países e territórios, com 7 111 504 mortes atribuídas à doença, tornando-se a quinta mais mortal da história.",
+        "url": "https://pt.wikipedia.org/wiki/Pandemia_de_COVID-19"
+      }
+    }
+  },
+  "Dissolution of the Soviet Union": {
+    "qid": "Q5167679",
+    "fetched": "2026-10-12",
+    "pages": {
+      "ko": {
+        "title": "소련의 붕괴",
+        "extract": "소련의 붕괴(러시아어: распад СССР)는 1991년 12월 26일 소련 최고 소비에트의 142-Н 선언에 따라 공식적으로 소련이 해체되면서 이루어졌다. 이 선언문은 모든 소련의 공화국의 독립을 인정하며 독립국가연합(CIS) 수립을 허용하는 안이었다. 그 전날인 1991년 12월 25일엔 소련의 대통령이자 소련의 지도자였던 미하일 고르바초프가 대통령직을 사임하고 소련 지도부를 해체했으며 소련의 핵무기 발사 시스템을 포함한 전권을 러시아의 대통령 보리스 옐친에게 승계했다. 이날 저녁 7시 32분, 모스크바 크렘린에 마지막으로 소련의 국기가 내려가고 혁명 이전에 사용된 러시아의 국기가 게양되었다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%86%8C%EB%A0%A8%EC%9D%98_%EB%B6%95%EA%B4%B4"
+      },
+      "en": {
+        "title": "Dissolution of the Soviet Union",
+        "extract": "On 26 December 1991, the Soviet Union was formally dissolved and ceased to exist as a sovereign state and subject of international law. It also brought an end to the Soviet Union's federal government and to Soviet leader Mikhail Gorbachev's efforts to reform the Soviet political and economic system in an attempt to stop a period of political and economic stagnation.",
+        "url": "https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union"
+      },
+      "zh": {
+        "title": "苏联解体",
+        "extract": "1991年12月25日唯一一任苏联总统米哈伊尔·戈尔巴乔夫宣布辞职，苏联最高苏维埃于1991年12月26日通过决议宣布苏联停止存在，标志着苏联解体，意味立国69年的苏联作为主权国家不复存在。除波罗的海三国以外的原12个苏联加盟共和国自此从法律上取得主权国家地位。",
+        "url": "https://zh.wikipedia.org/wiki/%E8%8B%8F%E8%81%94%E8%A7%A3%E4%BD%93"
+      },
+      "es": {
+        "title": "Disolución de la Unión Soviética",
+        "extract": "La disolución de la Unión Soviética o la disolución de la URSS fue la desintegración de las estructuras políticas federales y el Gobierno central de la Unión de Repúblicas Socialistas Soviéticas (URSS), que culminó con la independencia de las quince repúblicas de la Unión Soviética entre el 11 de marzo de 1990 y el 26 de diciembre de 1991. El Tratado de Belavezha fue un acuerdo firmado el 8 de diciembre de 1991 principalmente por los presidentes de la RSFS de Rusia, de la RSS de Ucrania y del Sóviet Supremo de la RSS de Bielorrusia en la reserva natural de Belovézhskaya Puscha. La firma del Tratado fue comunicada por teléfono al presidente de la Unión Soviética Mijaíl Gorbachov por Shushkévich. Estos acuerdos declararon la disolución oficial de la URSS —al poner fin a la vigencia del Tratado de Creación de la URSS (1922)— y el establecimiento de Estados en las antiguas Repúblicas de la Unión Soviética. La disolución del Estado comunista más grande del mundo también marcó el fin de la Guerra Fría.",
+        "url": "https://es.wikipedia.org/wiki/Disoluci%C3%B3n_de_la_Uni%C3%B3n_Sovi%C3%A9tica"
+      },
+      "hi": {
+        "title": "सोवियत संघ का विघटन",
+        "extract": "सोवियत संघ, २६ दिसम्बर १९९१ को विघटित घोषित हुआ। इस घोषणा में सोवियत संघ के भूतपूर्व गणतन्त्रों को स्वतन्त्रत मान लिया गया। विघटन के पूर्व मिखाइल गोर्वाचेव, सोवियत संघ के राष्ट्रपति थे। विघटन की घोषणा के एक दिन पूर्व उन्होने पदत्याग दिया था। विघटन की इस प्रक्रिया आरम्भ आम तौर पर गोर्वाचेव के सत्ता ग्रहण करने के साथ जोड़ा जाता है। वास्तव में सोवियत संघ के विघटन की प्रक्रिया बहुत पहले शुरू हो चुकी थी। सोवियत संघ के निपात के अनेक बुनियादी एवं ऐतिहासिक कारण हैं जो सतही नजर डालने पर नहीं दिखते।",
+        "url": "https://hi.wikipedia.org/wiki/%E0%A4%B8%E0%A5%8B%E0%A4%B5%E0%A4%BF%E0%A4%AF%E0%A4%A4_%E0%A4%B8%E0%A4%82%E0%A4%98_%E0%A4%95%E0%A4%BE_%E0%A4%B5%E0%A4%BF%E0%A4%98%E0%A4%9F%E0%A4%A8"
+      },
+      "ar": {
+        "title": "تفكك الاتحاد السوفيتي",
+        "extract": "كان تفكك الاتحاد السوفيتي إشارة لانتهاء الوجود القانوني لدولة اتحاد الجمهوريات السوفيتية الاشتراكية. وقد حدث ذلك التفكك في 26 ديسمبر 1991. عقب إصدار مجلس السوفييت الأعلى للاتحاد السوفيتي الإعلان رقم (H-142) والذي أُعلِن فيه الاعتراف باستقلال الجمهوريات السوفيتية السابقة، وإنشاء رابطة الدول المستقلة لتحل محل الاتحاد السوفيتي.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%AA%D9%81%D9%83%D9%83_%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF_%D8%A7%D9%84%D8%B3%D9%88%D9%81%D9%8A%D8%AA%D9%8A"
+      },
+      "fr": {
+        "title": "Dislocation de l'URSS",
+        "extract": "La dislocation de l'URSS, également dénommée dissolution de l'URSS, éclatement de l'URSS, effondrement de l'URSS ou encore chute de l'URSS, se produit le 26 décembre 1991 lorsque le Soviet suprême de l'Union soviétique et le Soviet des républiques du Soviet suprême de l'Union soviétique, par la déclaration no 142-N créent la Communauté des États indépendants (CEI) et reconnaissent officiellement les indépendances, proclamées les mois précédents, des républiques de l'Union des républiques socialistes soviétiques (URSS), reconnaissant ainsi formellement la disparition de l'Union soviétique en tant qu'État et sujet de droit international. La veille, le 25 décembre, le président soviétique Mikhaïl Gorbatchev, huitième et dernier dirigeant de l'URSS, avait démissionné, déclarant son poste supprimé et transférant ses pouvoirs, y compris le contrôle des codes de lancement de missiles nucléaires, au président de la fédération de Russie, Boris Eltsine. Ce soir-là, à 19 h 32, le drapeau soviétique est abaissé pour la dernière fois du Kremlin et est, le lendemain à l'aube, remplacé par le drapeau russe.",
+        "url": "https://fr.wikipedia.org/wiki/Dislocation_de_l'URSS"
+      },
+      "pt": {
+        "title": "Dissolução da União Soviética",
+        "extract": "A União Soviética foi formalmente dissolvida como Estado soberano e sujeito de direito internacional em 26 de dezembro de 1991, por meio da Declaração n.º 142-Н do Soviete das Repúblicas do Soviete Supremo da União Soviética. Isso também pôs fim ao governo federal da União Soviética e ao esforço do secretário-geral do PCUS, Mikhail Gorbachev, de reformar o sistema político e econômico soviético em uma tentativa de interromper um período de impasse político e retrocesso econômico.",
+        "url": "https://pt.wikipedia.org/wiki/Dissolu%C3%A7%C3%A3o_da_Uni%C3%A3o_Sovi%C3%A9tica"
+      }
+    }
+  },
   "Fall of Constantinople": {
     "qid": "Q160077",
     "fetched": "2026-10-12",
@@ -242,6 +549,52 @@
         "title": "Queda de Constantinopla",
         "extract": "Queda de Constantinopla foi a captura da capital do Império Bizantino pelo exército invasor otomano no domingo de Pentecostes, 29 de maio de 1453. Os atacantes foram comandados pelo sultão Maomé II, o Conquistador, de 21 anos, que derrotou soldados comandados pelo imperador Constantino XI Paleólogo e assumiu o controle da capital imperial, encerrando um cerco militar de 53 dias, iniciado em 6 de abril de 1453. Após conquistar a cidade, o sultão Maomé II transferiu a capital do Estado otomano de Edirne para Constantinopla e estabeleceu sua corte ali.",
         "url": "https://pt.wikipedia.org/wiki/Queda_de_Constantinopla"
+      }
+    }
+  },
+  "Fall of the Berlin Wall": {
+    "qid": "Q69163529",
+    "fetched": "2026-10-12",
+    "pages": {
+      "ko": {
+        "title": "베를린 장벽 붕괴",
+        "extract": "베를린 장벽 붕괴는 1989년 11월 9일, 동유럽과 중앙유럽에서 철의 장막이 무너지고 공산주의의 몰락의 시작을 알리는 세계 역사의 중추적인 사건이다. 독일 내 국경의 붕괴는 그 직후에 일어났다. 3주 뒤 몰타 회담에서 냉전 종식이 선언됐고, 이듬해 10월 독일의 재통일이 이뤄졌다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%B2%A0%EB%A5%BC%EB%A6%B0_%EC%9E%A5%EB%B2%BD_%EB%B6%95%EA%B4%B4"
+      },
+      "en": {
+        "title": "Fall of the Berlin Wall",
+        "extract": "The Berlin Wall fell on 9 November 1989 during the Peaceful Revolution, marking the beginning of the destruction of the figurative Iron Curtain, as East Berlin transit restrictions were overwhelmed and discarded. Sections of the wall were breached, and planned deconstruction began the following June. It was one of the series of events that started the fall of communism in Central and Eastern Europe. The fall of the inner German border took place shortly afterward. An end to the Cold War was declared at the Malta Summit in early December, and German reunification took place in October the following year.",
+        "url": "https://en.wikipedia.org/wiki/Fall_of_the_Berlin_Wall"
+      },
+      "zh": {
+        "title": "柏林墙倒塌",
+        "extract": "柏林墙于1989年11月9日和平革命期间倒塌，是世界历史的关键事件，标志着铁幕倒塌、东欧及中欧的共产政权开始倒台。不久后，德国国内边界开放，次年10月两德统一。",
+        "url": "https://zh.wikipedia.org/wiki/%E6%9F%8F%E6%9E%97%E5%A2%99%E5%80%92%E5%A1%8C"
+      },
+      "es": {
+        "title": "Caída del Muro de Berlín",
+        "extract": "La caída del Muro de Berlín fue una revuelta popular producida en la capital de Alemania Oriental, Berlín Oriental, el 9 de noviembre de 1989, como consecuencia de la cual quedaron derribadas las fortificaciones defensivas que la separaban de Berlín Occidental —que no pertenecía a Alemania Occidental—, junto a la frontera abierta de facto.",
+        "url": "https://es.wikipedia.org/wiki/Ca%C3%ADda_del_Muro_de_Berl%C3%ADn"
+      },
+      "hi": {
+        "title": "बर्लिन की दीवार का गिरना",
+        "extract": "बर्लिन की दीवार का पतन, 9 नवंबर 1989 को, विश्व इतिहास में एक महत्वपूर्ण घटना थी जिसने लौह परदा के गिरने को चिह्नित किया था। आंतरिक जर्मन सीमा का पतन इसके कुछ ही समय बाद हुआ। माल्टा शिखर सम्मेलन में तीन सप्ताह बाद शीत युद्ध की समाप्ति हुई और जर्मनी का पुनर्मिलन अगले वर्ष के दौरान हुआ।",
+        "url": "https://hi.wikipedia.org/wiki/%E0%A4%AC%E0%A4%B0%E0%A5%8D%E0%A4%B2%E0%A4%BF%E0%A4%A8_%E0%A4%95%E0%A5%80_%E0%A4%A6%E0%A5%80%E0%A4%B5%E0%A4%BE%E0%A4%B0_%E0%A4%95%E0%A4%BE_%E0%A4%97%E0%A4%BF%E0%A4%B0%E0%A4%A8%E0%A4%BE"
+      },
+      "ar": {
+        "title": "سقوط جدار برلين",
+        "extract": "سقوط جدار برلين ، في 9 نوفمبر 1989، كان حدثا محوريا في تاريخ العالم الذي شهد سقوط الستار الحديدي. فسقطت الحدود الألمانية الداخلية بعد فترة وجيزة. وتم إعلان انتهاء الحرب الباردة في قمة مالطا بعد ثلاثة أسابيع، وتمت إعادة توحيد ألمانيا خلال العام التالي.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%B3%D9%82%D9%88%D8%B7_%D8%AC%D8%AF%D8%A7%D8%B1_%D8%A8%D8%B1%D9%84%D9%8A%D9%86"
+      },
+      "fr": {
+        "title": "Chute du mur de Berlin",
+        "extract": "La chute du mur de Berlin ou simplement chute du Mur a lieu dans la nuit du 9 novembre 1989 lorsque des Berlinois de l'Est, avertis par les médias ouest-allemands de la décision des autorités est-allemandes de ne plus soumettre le passage en Allemagne de l'Ouest à une autorisation préalable donnée au compte-gouttes, forcent sans violence l'ouverture des points de passage aménagés entre Berlin-Est et Berlin-Ouest. Les premières destructions physiques du Mur commencent cette nuit même. Les Berlinois de l'Est se répandent par milliers dans Berlin-Ouest, dont l'accès leur a été interdit pendant près de trente ans, depuis l'édification du Mur dans la nuit du 12 au 13 août 1961, sauf à disposer d'autorisations très rares. Cela donne lieu à des scènes de fraternité avec leurs tout aussi nombreux homologues de la partie ouest, et à un fameux concert improvisé du violoncelliste Mstislav Rostropovitch devant un pan du mur.",
+        "url": "https://fr.wikipedia.org/wiki/Chute_du_mur_de_Berlin"
+      },
+      "pt": {
+        "title": "Queda do Muro de Berlim",
+        "extract": "A queda do muro de Berlim, em 9 de novembro de 1989, foi um evento crucial na história mundial que marcou a queda da Cortina de Ferro e o início da queda do comunismo na Europa Oriental e Central. A queda da fronteira interna da Alemanha ocorreu pouco depois. O fim da Guerra Fria foi declarado na Cúpula de Malta três semanas depois e a reunificação da Alemanha ocorreu em outubro do ano seguinte.",
+        "url": "https://pt.wikipedia.org/wiki/Queda_do_Muro_de_Berlim"
       }
     }
   },
@@ -450,6 +803,47 @@
       }
     }
   },
+  "Fukushima nuclear accident": {
+    "qid": "Q171178",
+    "fetched": "2026-10-12",
+    "pages": {
+      "ko": {
+        "title": "후쿠시마 제1 원자력 발전소 사고",
+        "extract": "후쿠시마 제1 원자력 발전소 사고(일본어: 福島第一原子力発電所事故)는 2011년 3월 11일 도호쿠 지방 태평양 해역 지진으로 인해 리히터 규모 7.3 의 지진과 지진 해일로 도쿄전력이 운영하는 후쿠시마 제1 원자력 발전소의 원자로 1-4호기에서 발생한 누출 사고이다. 체르노빌 원자력 발전소 사고와 함께 국제 원자력 사고 등급(INES)의 최고 단계인 7단계 대사고, 즉 심각한 사고(Major Accident)를 기록하였다. 현재도 계속적으로 원자로에서 방사능 물질이 공기중으로 누출되고 있으며, 빗물과 원자로 밑을 흐르는 지하수에 의해 방사능에 오염된 방사능 오염수가 태평양 바다로 계속적으로 누출되고 있다. 누출된 방사능 물질로 인해 후쿠시마 제1 원자력 발전소 인근 지대의 방사능 오염이 심각한 상황이다.",
+        "url": "https://ko.wikipedia.org/wiki/%ED%9B%84%EC%BF%A0%EC%8B%9C%EB%A7%88_%EC%A0%9C1_%EC%9B%90%EC%9E%90%EB%A0%A5_%EB%B0%9C%EC%A0%84%EC%86%8C_%EC%82%AC%EA%B3%A0"
+      },
+      "en": {
+        "title": "Fukushima nuclear accident",
+        "extract": "On 11 March 2011, a major nuclear accident started at the Fukushima Daiichi Nuclear Power Plant in Ōkuma, Fukushima, Japan. The direct cause was the Tōhoku earthquake and tsunami, which resulted in electrical grid failure and damaged nearly all of the power plant's backup energy sources. The subsequent inability to sufficiently cool reactors after shutdown compromised containment and resulted in the release of radioactive contaminants into the surrounding environment. It is regarded by the United Nations Scientific Committee on the Effects of Atomic Radiation as the worst nuclear incident since the Chernobyl disaster.",
+        "url": "https://en.wikipedia.org/wiki/Fukushima_nuclear_accident"
+      },
+      "zh": {
+        "title": "福岛第一核电站事故",
+        "extract": "福岛第一核电站事故 是2011年3月11日在日本福岛第一核电厂发生的核事故，由日本东北地方太平洋近海地震和伴随而来的海啸所引发。在国际核事件分级表（INES）中，福岛第一核电站事故与切尔诺贝利核事故是目前仅有的两起特大事故（第7级）。2015年3月调查发现，炉心内所有核燃料都已熔毁。这次事故是东日本大震灾的次生灾害之一。截至2019年3月，这次事故造成的受灾区域面积几乎与名古屋市相同（337平方公里）。",
+        "url": "https://zh.wikipedia.org/wiki/%E7%A6%8F%E5%B2%9B%E7%AC%AC%E4%B8%80%E6%A0%B8%E7%94%B5%E7%AB%99%E4%BA%8B%E6%95%85"
+      },
+      "es": {
+        "title": "Accidente nuclear de Fukushima I",
+        "extract": "El accidente nuclear de Fukushima I  comenzó en la central nuclear Fukushima I el 11 de marzo de 2011 a las 14:46 después de un terremoto de magnitud 9,0 en la escala sismológica de magnitud de momento que además provocó un tsunami en la costa noreste de Japón. La planta nuclear, operada por la empresa Tokyo Electric Power Company (TEPCO), contenía seis reactores de agua en ebullición construidos entre 1971 y 1979.",
+        "url": "https://es.wikipedia.org/wiki/Accidente_nuclear_de_Fukushima_I"
+      },
+      "ar": {
+        "title": "كارثة فوكوشيما",
+        "extract": "كارثة فوكوشيما هي كارثة تطورت بعد زلزال اليابان الكبير في 11 مارس 2011 ضمن مفاعل فوكوشيما 1 النووي. حيث أدت مشاكل التبريد إلى ارتفاع في ضغط المفاعل، تبعتها مشكلة في التحكم بالتنفيس نتج عنها زيادة في النشاط الإشعاعي.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%83%D8%A7%D8%B1%D8%AB%D8%A9_%D9%81%D9%88%D9%83%D9%88%D8%B4%D9%8A%D9%85%D8%A7"
+      },
+      "fr": {
+        "title": "Accident nucléaire de Fukushima",
+        "extract": "L'accident nucléaire de Fukushima, aussi appelé catastrophe nucléaire de Fukushima, est un accident industriel majeur survenu au Japon à la suite du tsunami du 11 mars 2011. Le séisme initiateur, d'une magnitude 9, soulève une vague qui atteint 30 mètres de haut sur certaines parties de la côte orientale japonaise et qui se répand jusqu'à dix kilomètres à l'intérieur des terres, faisant plus de 18 000 morts par noyade. La vague atteint une hauteur de 15 mètres au niveau de la centrale nucléaire de Fukushima Daiichi, située sur le littoral, et met hors service les systèmes assurant le refroidissement des réacteurs et des piscines de stockage du combustible irradié, ce qui entraîne la fusion des cœurs des réacteurs 1, 2 et 3 ainsi que la surchauffe de la piscine de désactivation du réacteur 4.",
+        "url": "https://fr.wikipedia.org/wiki/Accident_nucl%C3%A9aire_de_Fukushima"
+      },
+      "pt": {
+        "title": "Acidente nuclear de Fukushima I",
+        "extract": "Acidente nuclear de Fukushima Daiichi  refere-se a um desastre nuclear que ocorreu na usina homônima na costa nordeste do Japão, que teve três dos seus seis reatores nucleares derretidos por danos causados nos seus sistemas de resfriamento pelo sismo e tsunâmi de Tohoku, o que resultou em explosões por acumulação de hidrogênio criado pela degradação térmica do revestimento de zircônio dos elementos combustíveis. A primeira explosão ocorreu em 12 de março de 2011 no reator 1 e a segunda aconteceu em 14 de março no reator 3, sendo que ambas destruíram parte dos edifícios de seus respectivos reatores. O reator 4 teve incêndios em seu prédio devido ao vazamento de hidrogênio do reator 3. Logo após o acidente, cerca de 164 mil residentes das áreas circundantes foram deslocados permanente ou temporariamente. Esta resposta resultou em pelo menos 51 mortes, sendo mais atribuídas ao estresse subsequente ou ao medo de riscos radiológicos. O acidente de Fukushima foi classificado como nível 7 na Escala Internacional de Acidentes Nucleares (INES), a classificação mais alta, compartilhando esse status apenas com o desastre nuclear de Chernobyl, ocorrido em 1986 na União Soviética.",
+        "url": "https://pt.wikipedia.org/wiki/Acidente_nuclear_de_Fukushima_I"
+      }
+    }
+  },
   "Genghis Khan": {
     "qid": "Q720",
     "fetched": "2026-10-12",
@@ -493,6 +887,52 @@
         "title": "Gengis Khan",
         "extract": "Gengis Khan, também grafado como Gengis Cã, Gêngis Cã ou Gengiscão, foi estadista, governador militar e o primeiro grão-cã, fundador do Império Mongol. No início do século XIII, uniu todas as tribos nómadas das estepes da Ásia Central sob a égide da identidade política mongol. Durante o seu reinado, entre 1206 e 1227, Gengis Cã governou as dinastias Xia Ocidental e Jin no Norte da China; o Canato Caraquitai no Turquestão e Transoxiana; lançou campanhas contra os corasmianos na Corásmia, Coração e Irão, os georgianos no Cáucaso, os principados russos na Estepe dos Quipechaques, os quipechaques e os búlgaros do Volga. Como resultado, Gengis Cã estabeleceu um império que se estendia do Oceano Pacífico ao Mar Cáspio e ao norte do Mar Negro.",
         "url": "https://pt.wikipedia.org/wiki/Gengis_Khan"
+      }
+    }
+  },
+  "Great Depression": {
+    "qid": "Q8698",
+    "fetched": "2026-10-12",
+    "pages": {
+      "ko": {
+        "title": "대공황",
+        "extract": "대공황(大恐慌, Great Depression)은 1929년부터 1939년까지 이어진 심각한 전 세계적인 경제 불황이다. 이 기간 높은 실업률과 빈곤, 공업 생산 및 국제 무역의 급격한 감소, 전 세계적인 은행 및 기업 파산이 일어났다. 1929년 세계 최대 경제대국인 미국에서 시작된 이 공황이 경제적 전염으로 전 세계에 퍼졌으며, 종종 대공황의 시작으로 여겨지는 폭락 사태인 1929년 월스트리트 대폭락이 그 시발점이었다. 가장 많은 실업자를 기록한 국가에는 미국, 영국, 독일이 있다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%8C%80%EA%B3%B5%ED%99%A9"
+      },
+      "en": {
+        "title": "Great Depression",
+        "extract": "The Great Depression was a severe global economic downturn from 1929 to 1939. The period was marked by high rates of unemployment and poverty, drastic reductions in industrial production and international trade, and widespread bank and business failures around the world. The economic contagion began in 1929 in the United States, the largest economy in the world, with the devastating Wall Street crash of 1929 often considered the beginning of the Depression. Among the countries with the most unemployed were the U.S., the United Kingdom, and Germany.",
+        "url": "https://en.wikipedia.org/wiki/Great_Depression"
+      },
+      "zh": {
+        "title": "大萧条",
+        "extract": "大萧条，又称经济大危机、经济大恐慌，是指1929年—1939年之间全球经济大衰退、第二次世界大战前最严重的全球经济衰退。大萧条是二十世纪持续时间最长、影响最广、强度最大的经济衰退。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E8%90%A7%E6%9D%A1"
+      },
+      "es": {
+        "title": "Gran Depresión",
+        "extract": "La Gran Depresión, también conocida como la Crisis de 1929, fue una gran crisis financiera mundial originada en los Estados Unidos que se prolongó durante la década de 1930, en los años previos a la Segunda Guerra Mundial. Su duración depende de los países que se analicen, pero en la mayoría comenzó alrededor de 1929 y se extendió hasta finales de los años treinta. Fue la depresión más larga en el tiempo, de mayor profundidad y la que afectó a un mayor número de países en el siglo XX. En el siglo XXI ha sido utilizada como paradigma de hasta qué punto se puede producir un grave deterioro de la economía a escala mundial.",
+        "url": "https://es.wikipedia.org/wiki/Gran_Depresi%C3%B3n"
+      },
+      "hi": {
+        "title": "महामन्दी",
+        "extract": "इतिहास में महामंदी या भीषण मन्दी (1928-1934) के नाम से जानी जाने वाली यह घटना एक विश्वव्यापी आर्थिक मंदी थी। यह सन १९२९ के लगभग शुरू हुई और १९३९-४० तक जारी रही। विश्व के आधुनिक इतिहास में यह सबसे बड़ी और सर्वाधिक महत्व की मंदी थी। इस घटना ने पूरी दुनिया में ऐसा कहर मचाया था कि उससे उबरने में कई साल लग गए। उसके बड़े व्यापक आर्थिक व राजनीतिक प्रभाव हुए। इससे फासीवाद बढ़ा और अंतत: द्वितीय विश्वयुद्ध की नौबत आई। हालांकि यही युद्ध दुनिया को महामंदी से निकालने का माध्यम भी बना। इसी दौर ने साहित्यकारों और फिल्मकारों को भी आकर्षित किया और इस विषय पर कई किताबें लिखी गईं। अनेक फिल्में भी बनीं और खूब लोकप्रिय भी हुईं।",
+        "url": "https://hi.wikipedia.org/wiki/%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AE%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A5%80"
+      },
+      "ar": {
+        "title": "الكساد الكبير",
+        "extract": "الكساد الكبير أو الانهيار الكبير أو الكساد العظيم كساد اقتصادي عالمي حاد حدث خلال ثلاثينيات القرن العشرين وبداية عقد الأربعينيات انطلاقًا من الولايات المتحدة. اختلف توقيت الكساد الكبير في جميع أنحاء العالم. في معظم البلدان، بدأ في عام 1929 واستمر حتى أواخر الثلاثينيات. كان هذا الكساد هو الأطول والأعمق والأكثر انتشارًا في القرن العشرين. ويُعَدُّ أكبر وأشهر الأزمات الاقتصادية في القرن العشرين، ويقول المؤرخون أنها بدأت مع انهيار سوق الأسهم الأمريكية في 29 أكتوبر 1929 والمسمى بالثلاثاء الأسود. يُستخدم الكساد الكبير على نطاق واسع مثالًا على مدى شدة تدهور الاقتصاد العالمي.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%83%D8%B3%D8%A7%D8%AF_%D8%A7%D9%84%D9%83%D8%A8%D9%8A%D8%B1"
+      },
+      "fr": {
+        "title": "Grande Dépression",
+        "extract": "La Grande Dépression ou « crise économique des années 1930 », dite encore « crise de 29 », est une longue phase de crise économique et de récession qui frappe l'économie mondiale à partir du krach boursier américain de 1929 jusqu'à la Seconde Guerre mondiale.",
+        "url": "https://fr.wikipedia.org/wiki/Grande_D%C3%A9pression"
+      },
+      "pt": {
+        "title": "Grande Depressão",
+        "extract": "Grande Depressão, também conhecida como Crise de 1929, foi a maior crise financeira na história dos Estados Unidos, que teve início em 1929 e persistiu ao longo da década de 1930, terminando apenas com a Segunda Guerra Mundial. A Grande Depressão é considerada o pior e o mais longo período de recessão econômica do sistema capitalista do século XX. Este período de depressão econômica causou altas taxas de desemprego, quedas drásticas do produto interno bruto de diversos países, bem como quedas drásticas na produção industrial, preços de ações, e em praticamente todo o medidor de atividade econômica, em diversos países no mundo.",
+        "url": "https://pt.wikipedia.org/wiki/Grande_Depress%C3%A3o"
       }
     }
   },
@@ -737,6 +1177,52 @@
       }
     }
   },
+  "Iraq War": {
+    "qid": "Q545449",
+    "fetched": "2026-10-12",
+    "pages": {
+      "ko": {
+        "title": "이라크 전쟁",
+        "extract": "이라크 전쟁(영어: Iraq War) 또는 제2차 걸프 전쟁, 이라크 자유 작전(영어: Operation lraq Freedom)은 2003년 3월 20일 미국의 이라크 침공으로 시작되어, 2011년 12월 15일 종전되었다. 그리고 미군이 이라크에서 철수하자마자 이라크는 내란에 휩싸였다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EB%9D%BC%ED%81%AC_%EC%A0%84%EC%9F%81"
+      },
+      "en": {
+        "title": "Iraq War",
+        "extract": "The Iraq War, also referred to as the Second Gulf War, was a protracted armed conflict in Iraq from 2003 to 2011. It began with the invasion by a United States–led coalition, which resulted in the overthrow of the Ba'athist government of Saddam Hussein. During the US occupation of Iraq, the conflict persisted as an insurgency that arose against coalition forces and the newly established Iraqi government. US forces were officially withdrawn in 2011. In 2014, the US became re-engaged in Iraq, leading a new coalition under Combined Joint Task Force – Operation Inherent Resolve, as the conflict evolved into the ongoing Islamic State insurgency.",
+        "url": "https://en.wikipedia.org/wiki/Iraq_War"
+      },
+      "zh": {
+        "title": "伊拉克战争",
+        "extract": "伊拉克战争又称第二次波斯湾战争，是2003年到2011年的一场在伊拉克旷日持久的武装冲突。战争始于以美国为首并由英国、澳大利亚和波兰等国参与的多国联军入侵伊拉克，联军虽然成功推翻了萨达姆·海珊二十多年的专制，但入侵行为直接导致了伊拉克在接下来十年的大部分时间里出现各种激进武装分子，有些是为反抗联军的入侵，有一些则是借机割据的叛乱势力。其中美国入侵伊拉克的理由是声称伊拉克拥有大规模杀伤性武器，并对美国及其盟友构成威胁。此外，一些美国官员声称萨达姆包庇和支持基地组织，组织针对美国的911事件。然而，众多证据及调查表明萨达姆政权与阿盖达组织之间没有任何关系，与袭击事件之间没有联系，在联军入侵后虽在伊拉克发现部分化学武器，但无活跃的大规模杀伤性武器计划。2016年，英国发表齐尔考特调查报告，结论是当时并非所有和平替代方案都得到了审查，英国和美国的行为破坏了联合国安理会及国际法的正当性，确定战争的法律依据“远非令人满意”，战争是不必要的，大规模杀伤性武器也并不存在。",
+        "url": "https://zh.wikipedia.org/wiki/%E4%BC%8A%E6%8B%89%E5%85%8B%E6%88%98%E4%BA%89"
+      },
+      "es": {
+        "title": "Guerra de Irak",
+        "extract": "La guerra de Irak fue un conflicto bélico prolongado que se desarrolló en Irak entre 2003 a 2011. El conflicto comenzó con la invasión de Irak por parte de la coalición liderada por Estados Unidos que derrocó al gobierno baazista de Sadam Huseín. El conflicto continuó durante gran parte de la década siguiente, cuando surgió una insurgencia para oponerse a las fuerzas de la coalición y al gobierno iraquí posterior a la invasión. Las tropas estadounidenses se retiraron oficialmente a finales de 2011. En 2014, Estados Unidos volvió a involucrarse en Irak, liderando una nueva coalición bajo la Fuerza de Tarea Conjunta Combinada – Operación Resolución Inherente, a medida que el conflicto evolucionaba hacia la insurgencia en curso del Estado Islámico.",
+        "url": "https://es.wikipedia.org/wiki/Guerra_de_Irak"
+      },
+      "hi": {
+        "title": "इराक युद्ध",
+        "extract": "इराक युद्ध 2003 से लेकर 2011 तक यह युद्ध दो चरणों में हुआ। आखिर में अमेरिका और नाटो सैनिकों की जीत हुई।",
+        "url": "https://hi.wikipedia.org/wiki/%E0%A4%87%E0%A4%B0%E0%A4%BE%E0%A4%95_%E0%A4%AF%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A7"
+      },
+      "ar": {
+        "title": "حرب العراق",
+        "extract": "حرب العراق هي نزاع مسلح طويل الأمد بدأ مع غزو العراق عام 2003 من قبل قوات التحالف بقيادة الولايات المتحدة. أطاح الغزو بحكومة صدام حسين. ومع ذلك، فقد استمر الصراع في الكثير من أوقات العقد المقبل على أنَّه تمرد وظهرت معارضة لقوات الاحتلال وحكومة ما بعد الغزو العراقية. قتل ما يقدر بنحو 151,000 إلى 600,000 عراقي أو أكثر في 3–4 سنوات الأولى من الصراع. أعلنت الولايات المتحدة رسمياً انسحابها من البلاد في عام 2011 لكن عادت وشاركت في 2014 على رأس ائتلاف جديد؛ واستمر التمرد والصراع المسلح الأهلي.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%AD%D8%B1%D8%A8_%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82"
+      },
+      "fr": {
+        "title": "Guerre d'Irak",
+        "extract": "La guerre d'Irak, ou deuxième guerre du Golfe, commence officiellement le 20 mars 2003 avec l'invasion de l'Irak par la coalition menée par les États-Unis contre le parti Baas de Saddam Hussein. L'invasion conduit à la défaite rapide de l'armée irakienne, à l'arrestation et à l'exécution de Saddam Hussein ainsi qu'à la mise en place d'un nouveau gouvernement.",
+        "url": "https://fr.wikipedia.org/wiki/Guerre_d'Irak"
+      },
+      "pt": {
+        "title": "Guerra do Iraque",
+        "extract": "Guerra do Iraque, também referida como Ocupação do Iraque ou Segunda Guerra do Golfo, ou Terceira Guerra do Golfo ou ainda como Operação Liberdade do Iraque, foi um conflito que começou no dia 20 de março de 2003 com a invasão do Iraque, por uma coalizão militar multinacional liderada pelos Estados Unidos. Esta fase do conflito foi encerrada no dia 18 de dezembro de 2011 com a retirada das tropas americanas do território iraquiano após oito anos de ocupação. O conflito aconteceu no contexto da Guerra ao Terror, lançada pelo presidente americano George W. Bush após os atentados de 11 de setembro de 2001.",
+        "url": "https://pt.wikipedia.org/wiki/Guerra_do_Iraque"
+      }
+    }
+  },
   "Joseon": {
     "qid": "Q28179",
     "fetched": "2026-10-12",
@@ -775,6 +1261,52 @@
         "title": "Dinastia Joseon",
         "extract": "A Dinastia Joseon, também conhecida como Chosŏn, Choson ou Chosun, oficialmente: Reino de Grande Joseon, foi a última e mais longa dinastia da história da Coreia. Fundada pelo general Yi Seong-gye, existiu entre 1392 e 1897, cerca de 500 anos, até à proclamação do Império Coreano (1897-1910), que foi uma continuação da dinastia. A sua área de influência abrangia toda a península coreana e as suas fronteiras setentrionais alcançavam aos rios Amnok e Duman. Durante a sua história, teve 26 monarcas.",
         "url": "https://pt.wikipedia.org/wiki/Dinastia_Joseon"
+      }
+    }
+  },
+  "Korean War": {
+    "qid": "Q8663",
+    "fetched": "2026-10-12",
+    "pages": {
+      "ko": {
+        "title": "6.25 전쟁",
+        "extract": "6.25 전쟁(六二五戰爭) 또는 한국 전쟁(문화어: 조선 전쟁, 조국해방전쟁, 영어: Korean War, 중국어 정체: 韓國戰爭/朝鮮戰爭, 중국어 간체: 韩国战争/朝鲜战争, 러시아어: Корейская война)은 1950년 6월 25일에 조선인민군이 '폭풍 작전' 계획에 따라 삼팔선 전역에 걸쳐 기습적으로 대한민국을 침공하면서(남침) 발발한 전쟁이다.",
+        "url": "https://ko.wikipedia.org/wiki/6.25_%EC%A0%84%EC%9F%81"
+      },
+      "en": {
+        "title": "Korean War",
+        "extract": "The Korean War was an armed conflict fought on the Korean Peninsula between North Korea and South Korea and their allies. North Korea was supported by China and the Soviet Union, while South Korea was supported by the United Nations led by the United States under the auspices of the United Nations Command (UNC).",
+        "url": "https://en.wikipedia.org/wiki/Korean_War"
+      },
+      "zh": {
+        "title": "朝鲜战争",
+        "extract": "朝鲜战争是1950年至1953年期间，位于朝鲜半岛上的朝鲜民主主义人民共和国进攻大韩民国引发的战争，战争爆发后16国组成的联合国军（以美军为主力）出兵支持韩国，中华人民共和国以中国人民志愿军的名义出兵支持朝鲜，苏联则通过军事物资支援与空军支持出兵朝鲜，使战争升级为影响东亚地缘政治的区域性冲突，同时也令此战成为自中国的第二次国共内战后在冷战时期东西方阵营间的第二场代理人战争。",
+        "url": "https://zh.wikipedia.org/wiki/%E6%9C%9D%E9%B2%9C%E6%88%98%E4%BA%89"
+      },
+      "es": {
+        "title": "Guerra de Corea",
+        "extract": "La guerra de Corea, también denominada como guerra civil coreana, fue un conflicto armado en la península de Corea que se libró entre Corea del Norte, Corea del Sur y sus respectivos aliados. Corea del Norte contaba con el apoyo de la República Popular China y la Unión Soviética, mientras que Corea del Sur contaba con el apoyo del Comando de las Naciones Unidas (UNC) liderado por los Estados Unidos. El conflicto fue la primera gran guerra subsidiaria de la Guerra Fría. Los combates terminaron en 1953 con un armisticio pero sin un tratado de paz, lo que dio lugar al actual conflicto coreano.",
+        "url": "https://es.wikipedia.org/wiki/Guerra_de_Corea"
+      },
+      "hi": {
+        "title": "कोरियाई युद्ध",
+        "extract": "कोरियाई युद्ध (1950-53) का प्रारंभ 25 जून, 1950 को उत्तरी कोरिया से दक्षिणी कोरिया पर आक्रमण के साथ हुआ।यह शीत युद्ध काल में लड़ा गया सबसे पहला और सबसे बड़ा संघर्ष था। एक तरफ़ उत्तर कोरिया था जिसका समर्थन कम्युनिस्ट सोवियत संघ तथा साम्यवादी चीन कर रहे थे, दूसरी तरफ़ दक्षिणी कोरिया था जिसकी रक्षा अमेरिका कर रहा था।युद्ध अन्त में बिना निर्णय ही समाप्त हुआ परन्तु जन क्षति तथा तनाव बहुत ज्यादा बढ़ गया था।",
+        "url": "https://hi.wikipedia.org/wiki/%E0%A4%95%E0%A5%8B%E0%A4%B0%E0%A4%BF%E0%A4%AF%E0%A4%BE%E0%A4%88_%E0%A4%AF%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A7"
+      },
+      "ar": {
+        "title": "الحرب الكورية",
+        "extract": "الحرب الكورية هي حرب أهلية اندلعت في شبه الجزيرة الكورية بين عامي 1950–1953. كانت شبه الجزيرة الكورية مقسمة إلى جزئين شمالي وجنوبي، الجزء الشمالي يقع تحت سيطرة الاتحاد السوفيتي، والجزء الجنوبي خاضع لسيطرة لجنة الأمم المتحدة المؤقتة لكوريا بقيادة الولايات المتحدة. بدأت الحرب في 25 يونيو 1950 عندما هاجمت كوريا الشمالية كوريا الجنوبية وتوسّع نطاق الحرب بعد ذلك عندما دخلت الأمم المتحدة بقيادة الولايات المتحدة، ثم الصين، وأصبحت أطرافاً في الصراع. انتهى الصراع عندما تم التوصل إلى اتفاق وقف إطلاق النار في 27 يوليو 1953.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%AD%D8%B1%D8%A8_%D8%A7%D9%84%D9%83%D9%88%D8%B1%D9%8A%D8%A9"
+      },
+      "fr": {
+        "title": "Guerre de Corée",
+        "extract": "Du 25 juin 1950 au 27 juillet 1953, la guerre de Corée oppose la république de Corée, soutenue par les Nations unies, à la république populaire démocratique de Corée, soutenue par la république populaire de Chine et l'Union des républiques socialistes soviétiques. Elle résulte de la partition de la Corée à la suite d'un accord entre les Soviétiques, ayant libéré la Mandchourie et le nord de la Corée de l'emprise du Japon, et les Alliés victorieux de la guerre du Pacifique contre le Japon également, à la fin de la Seconde Guerre mondiale. C'est un des premiers conflits de la guerre froide. Il inclut la participation de la Chine communiste, qui vient de conquérir Hainan de mars à mai 1950. Celle-ci profite du conflit pour organiser son expansion et sa stabilisation avec l'annexion du Tibet le 7 octobre 1950, la répression de révoltes anticommunistes dans le Guizhou et une campagne contre les archipels tenus par les nationalistes chinois de Chiang Kai-shek, réfugiés à Taïwan après 1952.",
+        "url": "https://fr.wikipedia.org/wiki/Guerre_de_Cor%C3%A9e"
+      },
+      "pt": {
+        "title": "Guerra da Coreia",
+        "extract": "Guerra da Coreia foi um conflito armado travado entre a Coreia do Norte e a Coreia do Sul, no contexto macro da Guerra Fria. As Nações Unidas, com os Estados Unidos como sua principal força, vieram em ajuda aos sul-coreanos. A China, por sua vez, interveio em favor do norte, com a União Soviética dando-lhes apoio logístico e político.",
+        "url": "https://pt.wikipedia.org/wiki/Guerra_da_Coreia"
       }
     }
   },
@@ -821,6 +1353,47 @@
         "title": "Mansa Muça",
         "extract": "Muça I, comumente referido como Mansa Muça, foi o nono mansa, que se traduz como \"rei dos reis\" ou \"imperador\", do Império do Mali, além de ser reconhecido como o homem mais rico da história nos últimos mil anos, conforme estudo publicado em 2012 e que procedeu à atualização monetária dos valores, onde Muça teria uma fortuna estimada, naquele ano, de quatrocentos bilhões de dólares. No momento da ascensão de Muça ao trono, o Império do Mali consistia nos territórios anteriormente pertencentes ao Império do Gana e Mali; e áreas circundantes. Muça obteve muitos títulos, incluindo Emir do Mali; Senhor das Minas dos Uangaras; e conquistador de Ganata, Futa Jalom e pelo menos outra dúzia de estados.",
         "url": "https://pt.wikipedia.org/wiki/Mansa_Mu%C3%A7a"
+      }
+    }
+  },
+  "March 1st Movement": {
+    "qid": "Q482525",
+    "fetched": "2026-10-12",
+    "pages": {
+      "ko": {
+        "title": "3·1 운동",
+        "extract": "3·1 운동는 일제강점기의 조선인들이 일본 제국의 지배에 항거하여 한일병합조약의 무효와 조선의 독립 선언을 목적으로 1919년 3월 1일을 기해 일어난 비폭력 만세 운동이다. 기미년에 일어났다 하여 기미독립운동이라고도 부르며, 조선인민민주주의공화국에서는 3.1 인민봉기라고도 부른다. 고종이 독살되었다는 소문이 퍼진 것을 계기로 고종의 장례가 있던 1919년 3월 1일에 맞추어 조선 전역에서 봉기하였다.",
+        "url": "https://ko.wikipedia.org/wiki/3%C2%B71_%EC%9A%B4%EB%8F%99"
+      },
+      "en": {
+        "title": "March First Movement",
+        "extract": "The March First Movement was a series of protests against Japanese colonial rule that was held throughout Korea and internationally by the Korean diaspora beginning on March 1, 1919. Protests were largely concentrated in March and April of that year, although related protests continued until 1921. In South Korea, the movement is remembered as a landmark event of not only the Korean independence movement, but of all of Korean history.",
+        "url": "https://en.wikipedia.org/wiki/March_First_Movement"
+      },
+      "zh": {
+        "title": "三一運動",
+        "extract": "三一运动 又称三一独立运动（삼일독립운동／三一獨立運動）、三一万岁运动（삼일만세운동／三一萬歲運動）等，是朝鲜地区人民在朝鲜日占时期发动的一场全国性独立运动，得名自其发起时间1919年3月1日；因发生于己未年，故又有己未独立运动（기미독립운동／己未獨立運動）、己未运动（기미운동／己未運動）之称。朝鲜民主主义人民共和国将三一运动称为“三·一人民起义 ”。",
+        "url": "https://zh.wikipedia.org/wiki/%E4%B8%89%E4%B8%80%E9%81%8B%E5%8B%95"
+      },
+      "es": {
+        "title": "Movimiento Primero de Marzo",
+        "extract": "El Movimiento Primero de Marzo o Movimiento de Independencia del Primero de Marzo o también Movimiento Samil fue uno de los primeros movimientos de resistencia en Corea contra la ocupación japonesa. Movimiento Samil significa literalmente «movimiento tres-uno», en referencia al primero de marzo de 1919, día en que el evento ocurrió. Este día es festivo en Corea del Sur.",
+        "url": "https://es.wikipedia.org/wiki/Movimiento_Primero_de_Marzo"
+      },
+      "ar": {
+        "title": "حركة الأول من مارس",
+        "extract": "حركة الأول من مارس، المعروفة أيضًا باسم حركة سام-إل ، هي حركة احتجاجية نفذها الشعب الكوري والطلاب للمطالبة بالاستقلال عن اليابان، واحتجاجًا على الضم القسري نحو طريقة الحياة اليابانية. أصدر 33 من القادة الثقافيين والدينيين الكوريين إعلانًا بدعم من آلاف الطلاب والمدنيين في سيول. كان هناك أكثر من 1000 مظاهرة في العديد من المدن الأخرى. قُمعت تلك المظاهرات بوحشية، إذ نقل المؤرخ الكوري بارك أون سيك عن مقتل 7500 وجرح 16000 وإلقاء القبض على 46 ألف. كانت هذه المظاهرات من بين أولى التصرفات العامة للمقاومة الكورية أثناء حكم اليابان لكوريا من عام 1910 إلى عام 1945. وقع الحدث في 1 مارس 1919، ومن هنا جاء اسم الحركة، التي تعني حرفيا حركة الثلاثة واحد أو «حركة أول مارس» بالكورية. يشار إليها أيضًا أحيانًا باسم مظاهرات مان سي.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%AD%D8%B1%D9%83%D8%A9_%D8%A7%D9%84%D8%A3%D9%88%D9%84_%D9%85%D9%86_%D9%85%D8%A7%D8%B1%D8%B3"
+      },
+      "fr": {
+        "title": "Mouvement du 1er mars",
+        "extract": "Le mouvement du 1er mars 1919 est l'une des premières manifestations populaires coréennes dirigées contre l'occupation japonaise et l'une des plus importantes du mouvement d'indépendance coréen. Le 1er mars est aujourd'hui un jour férié en Corée du Sud.",
+        "url": "https://fr.wikipedia.org/wiki/Mouvement_du_1er_mars"
+      },
+      "pt": {
+        "title": "Movimento Primeiro de Março",
+        "extract": "O Movimento Primeiro de Março, ou Movimento Sam-il (3-1), foi uma das primeiras demonstrações públicas da resistência coreana durante a ocupação do Império Coreano pelo Japão. O nome refere-se a um evento que ocorreu em 1º de março de 1919, daí o nome do movimento, significando literalmente \"Movimento Três Um\" ou \"Movimento Primeiro de Março\" em coreano. Ele é às vezes chamado de Demonstrações Manse.",
+        "url": "https://pt.wikipedia.org/wiki/Movimento_Primeiro_de_Mar%C3%A7o"
       }
     }
   },
@@ -993,6 +1566,47 @@
       }
     }
   },
+  "Proclamation of the People's Republic of China": {
+    "qid": "Q10872057",
+    "fetched": "2026-10-12",
+    "pages": {
+      "ko": {
+        "title": "중화인민공화국 개국대전",
+        "extract": "중화인민공화국 개국대전(중국어: 中华人民共和国开国大典) 또는 중화인민공화국의 선포는 1949년 10월 1일 베이징시의 톈안먼 광장에서 중국공산당 중앙위원회 주석 마오쩌둥에 의해 선포되었다. 중국공산당 하의 새로운 국가 정부인 중앙인민정부는 마오쩌둥이 거행한 의식에서 선포되었으며, 이는 현대 중국의 기틀을 마련하는 계기가 되었다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%A4%91%ED%99%94%EC%9D%B8%EB%AF%BC%EA%B3%B5%ED%99%94%EA%B5%AD_%EA%B0%9C%EA%B5%AD%EB%8C%80%EC%A0%84"
+      },
+      "en": {
+        "title": "Proclamation of the People's Republic of China",
+        "extract": "The People's Republic of China was proclaimed by Mao Zedong, the chairman of the Chinese Communist Party (CCP), on October 1, 1949, in Tiananmen Square in Beijing. The government of a new state under the CCP, formally called the Central People's Government, was proclaimed by Mao at the ceremony, which marked the foundation of contemporary China.",
+        "url": "https://en.wikipedia.org/wiki/Proclamation_of_the_People's_Republic_of_China"
+      },
+      "zh": {
+        "title": "中華人民共和國中央人民政府成立典禮",
+        "extract": "中华人民共和国中央人民政府成立典礼 （或称开国大典）是指1949年10月1日在北京（前称北平）为中华人民共和国中央人民政府成立而举行的仪式，标志著中华人民共和国的建立。中华人民共和国政府此后定10月1日为国庆节。",
+        "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9C%8B%E4%B8%AD%E5%A4%AE%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%E6%88%90%E7%AB%8B%E5%85%B8%E7%A6%AE"
+      },
+      "es": {
+        "title": "Proclamación de la República Popular China",
+        "extract": "La proclamación de la República Popular China fue hecha por Mao Zedong, presidente del Partido Comunista de China (PCC), el 1 de octubre de 1949, en la Plaza de Tiananmén de Pekín. Mao proclamó el gobierno de un nuevo estado bajo el PCC, formalmente llamado Gobierno Popular Central, en la ceremonia que marcó la fundación de la República Popular China.",
+        "url": "https://es.wikipedia.org/wiki/Proclamaci%C3%B3n_de_la_Rep%C3%BAblica_Popular_China"
+      },
+      "ar": {
+        "title": "إعلان جمهورية الصين الشعبية",
+        "extract": "أعلن عن تأسيس جمهورية الصين الشعبية رسميًا من قبل ماو تسي تونغ رئيس الحزب الشيوعي الصيني في 1 أكتوبر 1949 الساعة 3:00 مساءً في ميدان تيانانمين في بكين العاصمة الجديدة للصين. وأُعلن رسمياً عن تشكيل الحكومة الشعبية المركزية تحت قيادة الحزب الشيوعي الصيني كحكومة للدولة الجديدة خلال خطاب الإعلان الذي ألقاه الرئيس في حفل التأسيس.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%A5%D8%B9%D9%84%D8%A7%D9%86_%D8%AC%D9%85%D9%87%D9%88%D8%B1%D9%8A%D8%A9_%D8%A7%D9%84%D8%B5%D9%8A%D9%86_%D8%A7%D9%84%D8%B4%D8%B9%D8%A8%D9%8A%D8%A9"
+      },
+      "fr": {
+        "title": "Proclamation de la République populaire de Chine",
+        "extract": "La naissance de la République populaire de Chine est proclamée par Mao Zedong, président du Parti communiste chinois, le 1er octobre 1949 sur la place Tian'anmen à Pékin. Le gouvernement du nouvel État sous la férule du PCC, nommé formellement le « gouvernement central du peuple », est proclamé par Mao au cours de cette cérémonie, qui marque la fondation de la Chine contemporaine.",
+        "url": "https://fr.wikipedia.org/wiki/Proclamation_de_la_R%C3%A9publique_populaire_de_Chine"
+      },
+      "pt": {
+        "title": "Proclamação da República Popular da China",
+        "extract": "A República Popular da China foi proclamada por Mao Tsé-Tung, presidente do Partido Comunista da China (PCC), em 1.º de outubro de 1949, na Praça da Paz Celestial, em Pequim. O governo do novo Estado sob o PCC, formalmente denominado Governo Popular Central, foi proclamado por Mao na cerimônia, que marcou a fundação da China contemporânea.",
+        "url": "https://pt.wikipedia.org/wiki/Proclama%C3%A7%C3%A3o_da_Rep%C3%BAblica_Popular_da_China"
+      }
+    }
+  },
   "Qin's wars of unification": {
     "qid": "Q2986801",
     "fetched": "2026-10-12",
@@ -1026,6 +1640,144 @@
         "title": "Guerras de unificação da China",
         "extract": "As Guerras de unificação da China foram uma série de campanhas militares ocorridas no final do século III a.C. entre o Estado de Qin e seus rivais: Han, Zhao, Yan, Wei, Chu e Qi. Por volta do ano 221 a.C. o território chinês estava unificado e foi lançada uma campanha de conquista sobre o sul do rio Yangtze. Estas campanhas foram o término do Período dos Reinos Combatentes e o início da dinastia Qin.",
         "url": "https://pt.wikipedia.org/wiki/Guerras_de_unifica%C3%A7%C3%A3o_da_China"
+      }
+    }
+  },
+  "Russian invasion of Ukraine": {
+    "qid": "Q110999040",
+    "fetched": "2026-10-12",
+    "pages": {
+      "ko": {
+        "title": "러시아의 우크라이나 침공",
+        "extract": "러시아의 우크라이나 침공(러시아어: Вторжение России на Украину, 우크라이나어: Російське вторгнення в Україну)은 2022년 2월 24일 러시아가 우크라이나의 영토를 침공한 후 현재까지 이어지는 러시아와 우크라이나 사이의 전쟁으로 이는 러시아-우크라이나 전쟁의 일부이다. 2022년 2월 24일, 러시아는 우크라이나를 침공했다. 이는 2014년에 시작된 두 국가 간 분쟁이 크게 확대되어 제2차 세계 대전 이후 유럽에서 가장 규모가 크고 치명적인 전쟁이 되었다. 이 전투로 인해 수십만 명의 군인 사상자와 수만 명의 우크라이나 민간인 사상자가 발생했다. 2025년 기준, 러시아군은 우크라이나 영토의 약 20%를 점령하고 있다. 4,100만 명의 인구 중 약 800만 명의 우크라이나인이 국내에서 피난했으며, 2023년 4월까지 820만 명 이상이 국외로 피난하여 제2차 세계 대전 이후 유럽의 가장 큰 난민 위기를 초래했다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%9F%AC%EC%8B%9C%EC%95%84%EC%9D%98_%EC%9A%B0%ED%81%AC%EB%9D%BC%EC%9D%B4%EB%82%98_%EC%B9%A8%EA%B3%B5"
+      },
+      "en": {
+        "title": "Russo-Ukrainian war (2022–present)",
+        "extract": "On 24 February 2022, Russia invaded Ukraine, starting the largest and deadliest war in Europe since World War II, in a major escalation of the existing war between the two countries that began when Russia attacked Ukraine in 2014. The fighting has caused hundreds of thousands of military casualties and tens of thousands of Ukrainian civilian casualties. Russian troops \noccupy roughly 20% of Ukraine. From a population of 41 million, about 8 million Ukrainians have been internally displaced and 6–7 million have fled the country, creating Europe's largest refugee crisis since World War II.",
+        "url": "https://en.wikipedia.org/wiki/Russo-Ukrainian_war_(2022%E2%80%93present)"
+      },
+      "zh": {
+        "title": "俄烏戰爭 (2022年至今)",
+        "extract": "在经历了长约一年的军事危机后，俄罗斯于2022年2月24日全面入侵乌克兰，标志着自2014年广场革命、并吞克里米亚和顿巴斯战争以来俄乌两国地缘政治冲突的重大升级。此次入侵为自第二次世界大战以来发生在欧洲大陆的最大规模的战争之一。",
+        "url": "https://zh.wikipedia.org/wiki/%E4%BF%84%E7%83%8F%E6%88%B0%E7%88%AD_(2022%E5%B9%B4%E8%87%B3%E4%BB%8A)"
+      },
+      "es": {
+        "title": "Guerra ruso-ucraniana",
+        "extract": "La guerra ruso-ucraniana, también conocida como la Guerra de Ucrania, que se inició con la invasión rusa de Ucrania el 24 de febrero de 2022, constituye una escalada del conflicto ruso-ucraniano que comenzó tras los sucesos del Euromaidán en 2014. Se trata del mayor conflicto militar convencional en Europa desde la Segunda Guerra Mundial. La cifra precisa de víctimas se desconoce; se estima que hasta principios de 2026, había causado la muerte de más de 25 000 civiles ucranianos y más de 200 000 soldados entre ambos bandos. Los combates también han generado la mayor crisis de refugiados en el continente desde la Segunda Guerra Mundial: más de 7,3 millones de ucranianos han abandonado el país y más de 7,1 millones se han desplazado internamente. Además, la guerra ha causado daño ambiental significativo y ha puesto en peligro la disponibilidad de alimentos a nivel mundial.",
+        "url": "https://es.wikipedia.org/wiki/Guerra_ruso-ucraniana"
+      },
+      "hi": {
+        "title": "यूक्रेन पर रूसी आक्रमण, 2022",
+        "extract": "20 फरवरी 2022 को, रूस ने रूस-यूक्रेनी युद्ध के एक प्रमुख विस्तार में यूक्रेन के कुछ हिस्सों पर आक्रमण किया और कब्जा कर लिया, जो 2014 में शुरू हुआ था। इस आक्रमण के कारण दोनों पक्षों में हजारों मौतें हुईं और द्वितीय विश्व युद्ध के बाद से यूरोप का सबसे बड़ा शरणार्थी संकट पैदा हो गया। जून तक लगभग 8 मिलियन यूक्रेनियन अपने देश के भीतर विस्थापित हो गए थे, और फरवरी 2023 तक 8 मिलियन से अधिक देश छोड़कर भाग गए थे।",
+        "url": "https://hi.wikipedia.org/wiki/%E0%A4%AF%E0%A5%82%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A5%87%E0%A4%A8_%E0%A4%AA%E0%A4%B0_%E0%A4%B0%E0%A5%82%E0%A4%B8%E0%A5%80_%E0%A4%86%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A4%A3%2C_2022"
+      },
+      "ar": {
+        "title": "الغزو الروسي لأوكرانيا",
+        "extract": "الغزو الروسي لأوكرانيا هو غزوٌ شنّته روسيا على أوكرانيا في 24 فبراير 2022، غزت روسيا أوكرانيا في تصعيد كبير للحرب الروسية الأوكرانية التي بدأت في عام 2014. تسبب الغزو وهو أكبر صراع في أوروبا منذ الحرب العالمية الثانية في سقوط مئات الآلاف من الضحايا العسكريين وعشرات الآلاف من الضحايا المدنيين الأوكرانيين. اعتبارا من عام 2024 تحتل القوات الروسية حوالي 20٪ من أوكرانيا. من عدد سكان يبلغ 41 مليون نسمة نزح حوالي 8 ملايين أوكراني داخليا وفر أكثر من 8.2 مليون من البلاد بحلول أبريل 2023 مما أدى إلى أكبر أزمة لاجئين في أوروبا منذ الحرب العالمية الثانية.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%BA%D8%B2%D9%88_%D8%A7%D9%84%D8%B1%D9%88%D8%B3%D9%8A_%D9%84%D8%A3%D9%88%D9%83%D8%B1%D8%A7%D9%86%D9%8A%D8%A7"
+      },
+      "fr": {
+        "title": "Invasion de l'Ukraine par la Russie",
+        "extract": "L'invasion de l'Ukraine par la Russie est un conflit déclenché le 24 février 2022 sur l'ordre du président russe Vladimir Poutine, à partir de la Russie, de la Biélorussie et des territoires ukrainiens occupés par les Russes depuis le début de la guerre russo-ukrainienne en 2014, à savoir la Crimée et les républiques populaires autoproclamées de Donetsk et de Lougansk.",
+        "url": "https://fr.wikipedia.org/wiki/Invasion_de_l'Ukraine_par_la_Russie"
+      },
+      "pt": {
+        "title": "Invasão da Ucrânia pela Rússia (2022–presente)",
+        "extract": "Invasão da Ucrânia pela Rússia em 2022, denominada pelo governo russo como \"Operação Militar Especial na Ucrânia\", é uma invasão militar em larga escala lançada pela Rússia contra a Ucrânia, um de seus países vizinhos, a sudoeste, marcando uma escalada acentuada para um conflito que começou em 2014. Vários analistas chamaram a invasão de o maior confronto militar na Europa desde a Segunda Guerra Mundial. A guerra gerou uma enorme onda migratória da Ucrânia e da Rússia, além de uma crise alimentar global, aumento no preço dos combustíveis e inflação.",
+        "url": "https://pt.wikipedia.org/wiki/Invas%C3%A3o_da_Ucr%C3%A2nia_pela_R%C3%BAssia_(2022%E2%80%93presente)"
+      }
+    }
+  },
+  "Russian Revolution": {
+    "qid": "Q8729",
+    "fetched": "2026-10-12",
+    "pages": {
+      "ko": {
+        "title": "러시아 혁명",
+        "extract": "러시아 혁명(러시아어: Русская революция, 영어: Russian Revolution)은 20세기 초 러시아 제국에서 발생한 정치·사회적 변화로, 1917년 2월 혁명과 10월 혁명으로 구성된다. 2월 혁명은 제1차 세계 대전 중 경제적 어려움과 사회적 불만이 고조되면서 발생하였으며, 그 결과 러시아 제국의 마지막 황제였던 니콜라이 2세가 퇴위하고 임시정부가 수립되었다. 이로 인해 300년 이상 지속된 로마노프 왕조가 종말을 맞이하였으며, 러시아는 입헌 공화정으로 전환될 가능성을 모색하는 과정에 들어갔다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%9F%AC%EC%8B%9C%EC%95%84_%ED%98%81%EB%AA%85"
+      },
+      "en": {
+        "title": "Russian Revolution",
+        "extract": "The Russian Revolution was a period of political and social change in Russia starting in 1917. This period saw Russia abolish its monarchy and adopt a socialist form of government following two successive revolutions and a civil war. It can be seen as the precursor to other revolutions that occurred in the aftermath of World War I, such as the German Revolution of 1918–1919. The Russian Revolution was a key event of the 20th century.",
+        "url": "https://en.wikipedia.org/wiki/Russian_Revolution"
+      },
+      "zh": {
+        "title": "1917年俄国革命",
+        "extract": "1917年俄国革命 是指1917年在原俄罗斯帝国境内发生的一系列革命运动。在第一次世界大战中，俄罗斯帝国在军事上进退失据，在俄国政局不稳、民心越发不安之下，在3月（儒略历2月）的二月革命中，革命者推翻了罗曼诺夫王朝，建立俄国临时政府。而其后在同年11月（儒略历10月）的十月革命中，布尔什维克则推翻了新建的临时政府，建立苏维埃俄国，并在1918年3月与交战中的德意志帝国签订《布列斯特-立陶夫斯克条约》。十月革命后，拥护旧有帝政或临时政府的白军与苏维埃工农红军对抗，非红、非白的其他政治派系也乘机起兵，俄国内战爆发；而俄罗斯皇帝专政的溃灭，亦促成旧帝国疆域内各民族的独立运动。",
+        "url": "https://zh.wikipedia.org/wiki/1917%E5%B9%B4%E4%BF%84%E5%9B%BD%E9%9D%A9%E5%91%BD"
+      },
+      "es": {
+        "title": "Revolución rusa",
+        "extract": "El término Revolución rusa agrupa todos los sucesos que condujeron al derrocamiento del régimen zarista imperial durante la Revolución de Febrero, la posterior instauración de un Gobierno Provisional, entre febrero y octubre de 1917, que proclamó la República Rusa, y la disolución de la República Rusa tras la Revolución de Octubre que proclamó la República Socialista Federativa Soviética de Rusia.",
+        "url": "https://es.wikipedia.org/wiki/Revoluci%C3%B3n_rusa"
+      },
+      "hi": {
+        "title": "रूसी क्रांति",
+        "extract": "सन 1917 की रूस की क्रान्ति विश्व इतिहास की सबसे महत्वपूर्ण घटनाओं में से एक है। इसके परिणामस्वरूप रूस से ज़ार के स्वेच्छाचारी शासन का अन्त हुआ तथा रूसी सोवियत संघात्मक समाजवादी गणराज्य की स्थापना हुई। यह क्रान्ति दो भागों में हुई थी - मार्च 1917 में, तथा अक्टूबर 1917 में। पहली क्रांति के फलस्वरूप सम्राट को पद-त्याग के लिये विवश होना पड़ा तथा एक अस्थायी सरकार बनी। अक्टूबर की क्रान्ति के फलस्वरूप अस्थायी सरकार को हटाकर बोलसेविक सरकार की स्थापना की गयी।",
+        "url": "https://hi.wikipedia.org/wiki/%E0%A4%B0%E0%A5%82%E0%A4%B8%E0%A5%80_%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%82%E0%A4%A4%E0%A4%BF"
+      },
+      "ar": {
+        "title": "الثورة الروسية",
+        "extract": "الثورة الروسية هو مصطلح يعبر عن سلسلة من الاضطرابات الشعبية حدثت في روسيا عام 1917، والتي كان لها الدور الأبرز في تغيير مجرى التاريخ، وقد قامت بها أساسًا الجماهير الروسية الجائعة، منهيةً بذلك الحكم القيصري، ومقيمة مكانه حكومة مؤقتة، أفضت إلى إنشاء الاتحاد السوفياتي. اندلعت الثورة الأولى في فبراير 1917 ، أما الثورة الثانية التي اندلعت في أكتوبر، أزال على إثرها البلاشفة الحكومة المؤقتة واستبدلوها بحكومة اشتراكية، تلا ذلك الفصل الأخير من الثورة وهو الحرب الأهلية الروسية.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%AB%D9%88%D8%B1%D8%A9_%D8%A7%D9%84%D8%B1%D9%88%D8%B3%D9%8A%D8%A9"
+      },
+      "fr": {
+        "title": "Révolution russe",
+        "extract": "La révolution russe est l’ensemble des événements ayant conduit en février 1917 au renversement spontané du régime tsariste de Russie, puis en octobre de la même année à la prise de pouvoir par les bolcheviks et à l’installation d’un régime léniniste (« communiste »). Cette dernière débouche sur une guerre civile d'une grande violence, opposant les bolcheviks aux Armées blanches et à un ensemble d'autres adversaires. Le conflit est accompagné d'un effondrement de l'économie russe, qui avait débuté pendant la Première Guerre mondiale, et d'une famine particulièrement meurtrière : il s'achève par la victoire des bolcheviks et par la reconstitution, sous l'égide de l'URSS, de la majorité des territoires de l'ex-empire. La révolution en Russie donnera naissance à l'Union soviétique, un régime politique fondé par Lénine.",
+        "url": "https://fr.wikipedia.org/wiki/R%C3%A9volution_russe"
+      },
+      "pt": {
+        "title": "Revolução Russa de 1917",
+        "extract": "A Revolução Russa de 1917 foi um período de mudança política e social na Rússia, iniciado em 1917. Nesse período, a Rússia aboliu sua monarquia e adotou uma forma socialista de governo após duas revoluções sucessivas e uma guerra civil. Pode ser vista como precursora de outras revoluções ocorridas em meio às consequências da Primeira Guerra Mundial, como a Revolução Alemã de 1918-1919. A Revolução Russa foi um acontecimento fundamental do século XX.",
+        "url": "https://pt.wikipedia.org/wiki/Revolu%C3%A7%C3%A3o_Russa_de_1917"
+      }
+    }
+  },
+  "September 11 attacks": {
+    "qid": "Q10806",
+    "fetched": "2026-10-12",
+    "pages": {
+      "ko": {
+        "title": "9·11 테러",
+        "extract": "9·11 테러(영어: September 11 attacks, 9/11 attacks) 또는 약칭인 9/11은 2001년 9월 11일 화요일 아침 미국의 친 이스라엘 중동 정책에 대항하는 이슬람 과격 테러 단체인 알카에다가 일으킨 4차례의 연쇄 자살 테러 공격을 의미한다.",
+        "url": "https://ko.wikipedia.org/wiki/9%C2%B711_%ED%85%8C%EB%9F%AC"
+      },
+      "en": {
+        "title": "September 11 attacks",
+        "extract": "The September 11 attacks, colloquially known as 9/11, were a coordinated series of suicide attacks perpetrated by the Islamic terrorist organization al-Qaeda against the United States in 2001. A total of 19 hijackers commandeered four commercial passenger airliners. The first two planes were flown into each of the Twin Towers at the World Trade Center in New York City, while the third plane crashed into the Pentagon, the headquarters of the United States Department of Defense, in Arlington County, Virginia. The fourth plane crashed in a rural field in Pennsylvania during a passenger revolt.",
+        "url": "https://en.wikipedia.org/wiki/September_11_attacks"
+      },
+      "zh": {
+        "title": "九一一袭击事件",
+        "extract": "九一一袭击事件 为基地组织的恐怖分子于2001年9月11日对美国发动的一系列恐怖攻击。2001年9月11日早晨，19名恐怖分子劫持四架民航客机后，其中两架飞机分别冲撞纽约世界贸易中心双塔的一号大楼（北塔）及二号大楼（南塔）、第三架撞向位于弗吉尼亚州阿灵顿县的五角大楼、第四架飞机则在恐怖分子飞向华盛顿特区途中，因部分乘客与机组人员试图夺回飞机控制权，最终坠毁于宾夕法尼亚州萨默塞特县的乡村尚克斯维尔附近。世界贸易中心双塔在被飞机冲撞后的两小时内先后发生渐进式倒塌，并波及附近建筑。",
+        "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E4%B8%80%E4%B8%80%E8%A2%AD%E5%87%BB%E4%BA%8B%E4%BB%B6"
+      },
+      "es": {
+        "title": "Atentados del 11 de septiembre de 2001",
+        "extract": "Los atentados del 11 de septiembre de 2001 fueron una serie de cuatro ataques terroristas yihadistas suicidas cometidos en los Estados Unidos en la mañana del martes 11 de septiembre de 2001, por el grupo terrorista Al Qaeda. Fueron los atentados terroristas más mortíferos de la historia, dejando 2 996 muertos y alrededor de 25 000 heridos.",
+        "url": "https://es.wikipedia.org/wiki/Atentados_del_11_de_septiembre_de_2001"
+      },
+      "hi": {
+        "title": "11 सितम्बर 2001 के हमले",
+        "extract": "11 सितंबर के हमले 11 सितम्बर 2001 को संयुक्त राज्य अमेरिका पर अल-क़ायदा द्वारा समन्वित आत्मघाती हमलों की एक श्रंखला थी।\nउस दिन सबेरे, 19 अल कायदा आतंकवादियों ने चार वाणिज्यिक यात्री जेट वायुयानों का अपहरण कर लिया। अपहरणकर्ताओं ने जानबूझकर उनमें से दो विमानों को वर्ल्ड ट्रेड सेंटर, न्यूयॉर्क शहर के ट्विन टावर्स के साथ टकरा दिया, जिससे विमानों पर सवार सभी लोग तथा भवनों के अंदर काम करने वाले अन्य अनेक लोग भी मारे गए। दोनों भवन दो घंटे के अंदर ढह गए, पास की इमारतें नष्ट हो गईं और अन्य क्षतिग्रस्त हुईं। अपहरणकर्ताओं ने तीसरे विमान को बस वाशिंगटन डी॰सी॰ के बाहर, आर्लिंगटन, वर्जीनिया में पेंटागन में टकरा दिया। अपहरणकर्ताओं द्वारा वाशिंगटन डी॰सी॰ की ओर पुनर्निर्देशित किए गए चौथे विमान के कुछ यात्रियों एवं उड़ान चालक दल द्वारा विमान का नियंत्रण फिर से लेने के प्रयास के बाद, विमान ग्रामीण पेंसिल्वेनिया में शैंक्सविले के पास एक खेत में जा टकराया। किसी भी उड़ान से कोई भी जीवित नहीं बचा।",
+        "url": "https://hi.wikipedia.org/wiki/11_%E0%A4%B8%E0%A4%BF%E0%A4%A4%E0%A4%AE%E0%A5%8D%E0%A4%AC%E0%A4%B0_2001_%E0%A4%95%E0%A5%87_%E0%A4%B9%E0%A4%AE%E0%A4%B2%E0%A5%87"
+      },
+      "ar": {
+        "title": "هجمات 11 سبتمبر",
+        "extract": "هجمات 11 سبتمبر أو هجمات 11 أيلول وتُعرف كذلك باسم أحداث 11 سبتمبر واختصارًا 9/11 هي مجموعة من الهجمات استهدفت الولايات المتحدة في يوم الثلاثاء الموافق 11 سبتمبر 2001، وجرت بواسطة أربع طائرات نقل مدنية تجارية، تقودها أربع فرق تابعة لتنظيم القاعدة، وُجِهت لتصطدم بأهداف محددة، وقد نجحت ثلاث منها في ذلك، بينما سقطت الرابعة بعد أن استطاع ركَّاب الطائرة السيطرة عليها من يد الخاطفين لتغيير اتجاهها، ما أدَّى إلى سقوطها وانفجارها في نطاق أراضي ولاية بنسلفانيا.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%87%D8%AC%D9%85%D8%A7%D8%AA_11_%D8%B3%D8%A8%D8%AA%D9%85%D8%A8%D8%B1"
+      },
+      "fr": {
+        "title": "Attentats du 11 septembre 2001",
+        "extract": "Les attentats du 11 septembre 2001 sont quatre tueries de masse terroristes islamistes perpétrées le même jour aux États-Unis et provoquant la mort de 2 977 personnes, à Manhattan, à Arlington (Virginie) et à Shanksville (Pennsylvanie), en moins de deux heures, entre 8 h 14 et 10 h 3. Ils sont réalisés par des membres du réseau djihadiste Al-Qaïda, deux jours après l'attentat-suicide de l'organisation tuant le commandant anti-talibans et ancien ministre de la Défense Ahmed Chah Massoud en Afghanistan. Ils visent des bâtiments symboliques du nord-est des États-Unis, dont le World Trade Center (WTC). C'est l'attaque la plus meurtrière de l'histoire du terrorisme ; elle marque durablement le début du XXIe siècle. L'opération Bojinka, découverte en janvier 1995, est considérée par les services de renseignement américains comme un plan précurseur de ces attentats.",
+        "url": "https://fr.wikipedia.org/wiki/Attentats_du_11_septembre_2001"
+      },
+      "pt": {
+        "title": "Ataques de 11 de setembro de 2001",
+        "extract": "Ataques ou atentados terroristas de 11 de setembro de 2001 foram uma série de ataques suicidas contra os Estados Unidos coordenados pela organização fundamentalista islâmica Al-Qaeda em 11 de setembro de 2001. Na manhã daquele dia, dezenove terroristas sequestraram quatro aviões comerciais de passageiros. Os sequestradores colidiram intencionalmente dois dos aviões contra as Torres Gêmeas do complexo empresarial do World Trade Center, na cidade de Nova Iorque, matando todos a bordo e muitas das pessoas que trabalhavam nos edifícios. Ambos os prédios desmoronaram menos de duas horas após os impactos, destruindo edifícios vizinhos e causando vários outros danos. O terceiro avião de passageiros colidiu contra o Pentágono, a sede do Departamento de Defesa dos Estados Unidos, no Condado de Arlington, Virgínia, nos arredores de Washington, D.C.. O quarto avião caiu em um campo aberto próximo de Shanksville, na Pensilvânia, depois de alguns de seus passageiros e tripulantes terem tentado retomar o controle da aeronave dos sequestradores, que a tinham reencaminhado na direção da capital norte-americana. Não houve sobreviventes em qualquer um dos voos.",
+        "url": "https://pt.wikipedia.org/wiki/Ataques_de_11_de_setembro_de_2001"
       }
     }
   },
@@ -1185,6 +1937,98 @@
         "title": "Voyages de Christophe Colomb",
         "extract": "Entre 1492 et 1504, l'explorateur et navigateur italien Christophe Colomb mène quatre expéditions maritimes transatlantiques au nom des rois catholiques d'Espagne, à destination des Caraïbes, de l'Amérique centrale et de l'Amérique du Sud. Ces voyages, nommés ici voyages de Christophe Colomb, permettent aux Européens de découvrir le « Nouveau Monde ». C'est une avancée majeure dans la période connue en Europe sous le nom d'Âge des grandes découvertes, qui voit la colonisation européenne des Amériques, un échange biologique important et le développement du commerce transatlantique. Ces événements, dont les effets et les conséquences se font encore sentir aujourd'hui, sont souvent considérés comme le point de départ de l'époque moderne.",
         "url": "https://fr.wikipedia.org/wiki/Voyages_de_Christophe_Colomb"
+      }
+    }
+  },
+  "World War I": {
+    "qid": "Q361",
+    "fetched": "2026-10-12",
+    "pages": {
+      "ko": {
+        "title": "제1차 세계 대전",
+        "extract": "제1차 세계 대전(第一次世界大戰, 영어: World War I, First World War, WWI/WW1)은 1914년 7월 28일부터 1918년 11월 11일까지 일어난 유럽을 중심으로 한 세계 대전이다. 1914년 오스트리아-헝가리가 세르비아에게 선전포고를 하며 시작되었고, 1918년 독일의 항복으로 끝이 났다. 제2차 세계 대전이 발생하기 전까지는 단순히 세계 대전(世界大戰, 영어: World War) 또는 대전쟁(大戰爭, 영어: Great War)이라고 불렸다. 미국에서는 처음에 유럽 전쟁(영어: European War)이라고 불렸다. 제1차 세계 대전으로 병사 990만명 이상이 사망했다. 기술 및 산업의 고도화와 전술적 교착 상태로 인해 사상자 비율이 악화되었다. 제1차 세계 대전은 사망자가 많았던 전쟁 중 하나이며, 참전국의 수많은 혁명 등을 포함하여 주요한 정치적 변화가 일어났다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%A0%9C1%EC%B0%A8_%EC%84%B8%EA%B3%84_%EB%8C%80%EC%A0%84"
+      },
+      "en": {
+        "title": "World War I",
+        "extract": "World War I, or the First World War, also known as the Great War, was a global conflict between two coalitions: the Allies and the Central Powers. One of the deadliest conflicts in history, World War I caused 15 to 22 million deaths, including those resulting from war crimes and genocides. The war also contributed to the spread of the Spanish flu pandemic. The conflict saw important developments in weaponry, including machine guns, artillery, aircraft, chemical weapons, and tanks.",
+        "url": "https://en.wikipedia.org/wiki/World_War_I"
+      },
+      "zh": {
+        "title": "第一次世界大战",
+        "extract": "第一次世界大战是1914年至1918年发生的全球军事冲突，交战双方分别为法国、英国、俄罗斯帝国所率之协约国，与德国、奥匈帝国、奥斯曼帝国所统之同盟国。这场战争是当时历史上规模最大的战争，各国动员至少6,700万人参与这场军事冲突。主要战场位于欧洲，但也外溢至中东、非洲、亚太等地区。欧洲战场的参战国皆进入总体战状态，几乎将自身国家的全部经济、工业、科学技术用于战争之上，火炮、机枪、化学武器得到广泛使用，而西线战场因军队部署密度过高出现堑壕战这一作战形式。第一次世界大战是历史上最致命的军事冲突之一，军人死亡人数达1千万、受伤人数达2千万，另有数百万平民死于种族灭绝、饥荒、流感。这场战争导致德意志帝国、俄罗斯帝国、奥匈帝国、奥斯曼帝国解体，大量新国家诞生。",
+        "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%B8%96%E7%95%8C%E5%A4%A7%E6%88%98"
+      },
+      "es": {
+        "title": "Primera Guerra Mundial",
+        "extract": "La Primera Guerra Mundial, también conocida como la Gran Guerra, fue un conflicto mundial entre dos coaliciones: los Aliados y las Potencias Centrales. Los combates tuvieron lugar principalmente en Europa y Oriente Medio, así como en partes de África y Asia-Pacífico. En Europa los combates se caracterizaron por la guerra de trincheras, el uso generalizado de artillería, ametralladoras, armas químicas (gas) y la introducción de tanques y aviones. La Primera Guerra Mundial fue uno de los conflictos más mortíferos de la historia, con un saldo de unos 10 millones de militares muertos y más de 20 millones de heridos, además de unos 10 millones de muertos civiles por causas que incluían el genocidio. El movimiento de grandes cantidades de personas fue un factor importante en la mortal pandemia de gripe española.",
+        "url": "https://es.wikipedia.org/wiki/Primera_Guerra_Mundial"
+      },
+      "hi": {
+        "title": "प्रथम विश्व युद्ध",
+        "extract": "प्रथम विश्व युद्ध यूरोप में होने वाला यह एक वैश्विक युद्ध था जो 28जुलाई 1914 से 11 नवंबर 1918 तक चला था। इसे महान युद्ध या \"सभी युद्धों को समाप्त करने वाला युद्ध\" के रूप में जाना जाता था। इस युद्ध ने 6 करोड़ यूरोपीय व्यक्तियों (गोरों) सहित 7 करोड़ से अधिक सैन्य कर्मियों को एकत्र करने का नेतृत्व किया, जो इसे इतिहास के सबसे बड़े युद्धों में से एक बनाता है। यह इतिहास में सबसे घातक संघर्षों में से एक था, जिसमें अनुमानित 9 करोड़ सिपाहियों की मौत और युद्ध के प्रत्यक्ष परिणाम के स्वरूप में 1.3 करोड़ नागरिकों की मृत्यु, जबकि 1918 के स्पैनिश फ्लू महामारी ने दुनिया भर में 1.7-10 करोड़ की मौत का कारण बना, जिसमें कि यूरोप में अनुमानित 26.4 लाख मौतें और संयुक्त राज्य में 6.75 लाख स्पैनिश फ्लू से हुई यह पूरी तरह से 1919 में खत्म हुई थी |",
+        "url": "https://hi.wikipedia.org/wiki/%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A5%E0%A4%AE_%E0%A4%B5%E0%A4%BF%E0%A4%B6%E0%A5%8D%E0%A4%B5_%E0%A4%AF%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A7"
+      },
+      "ar": {
+        "title": "الحرب العالمية الأولى",
+        "extract": "اَلْحَرْبُ ٱلْعَالَمِيَّةُ ٱلْأُولَىٰ عُرِفَتْ حينئذٍ بالْحَرِبِ ٱلْعُظْمَىٰ حرب عالمية نشبت بدايةً في أوروبا دامت من 28 يوليو 1914 إلى 11 نوفمبر 1918. وُصِفتْ وقتها بـ«الحرب التي ستنهي كل الحروب». جُمِعَ لها أكثر من سبعين مليون عسكري، 60 مليونًا منهم أوربِّيون، للمشاركة في واحدةٍ من أكبر حروب التاريخ، ولقي أكثر من تسعة ملايين مقاتل وسبعة ملايين مدني مصرعهم نتيجتها، وتعتبر أيضًا عاملاً مساهماً في عدد من جرائم الإبادة الجماعية والإنفلونزا الإسبانية عام 1918، والتي تسببت بما بين 50 و100 مليون حالة وفاة في أنحاء العالم. تفاقم معدل الخسائر العسكرية بسبب التطور التقاني والصناعي للمتحاربين، والركود التكتيكي الناجم عن حرب الخنادق القاسية. تعدُّ هذه الحرب أحد أعنف الصراعات في التاريخ، وتسببت في التمهيد لتغييرات سياسية كبيرة تضمنت ثورات 1917–1923 في العديد من الدول المشتركة. ساهمت الصراعات غير المحلولة في نهاية النزاع في اندلاع الحرب العالمية الثانية بعد عشرين سنة.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%AD%D8%B1%D8%A8_%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D8%A9_%D8%A7%D9%84%D8%A3%D9%88%D9%84%D9%89"
+      },
+      "fr": {
+        "title": "Première Guerre mondiale",
+        "extract": "La Première Guerre mondiale, aussi appelée la « Grande Guerre », est un conflit militaire impliquant dans un premier temps les puissances européennes et s'étendant ensuite à plusieurs continents. Cette guerre s'est déroulée de 1914 à 1918. Par conséquent, elle est parfois désignée par le chrononyme « guerre de 14-18 ».",
+        "url": "https://fr.wikipedia.org/wiki/Premi%C3%A8re_Guerre_mondiale"
+      },
+      "pt": {
+        "title": "Primeira Guerra Mundial",
+        "extract": "Primeira Guerra Mundial foi um conflito bélico global centrado na Europa, que começou em 28 de julho de 1914 e durou até 11 de novembro de 1918. A guerra envolveu todas as grandes potências do mundo, que se organizaram em duas alianças opostas: os Aliados e os Impérios Centrais. Originalmente a Tríplice Aliança era formada pela Alemanha, Áustria-Hungria e a Itália; mas como a Áustria-Hungria tinha tomado a ofensiva, violando o acordo, a Itália não entrou na guerra pela Tríplice Aliança e posteriormente lutou pelo lado oposto. Estas alianças reorganizaram-se e expandiram-se com mais nações que entraram na guerra. Em última análise, mais de setenta milhões de militares, incluindo sessenta milhões de europeus, foram mobilizados em uma das maiores guerras da história. Mais de nove milhões de combatentes foram mortos, em grande parte por causa de avanços tecnológicos que determinaram um crescimento enorme na letalidade de armas, mas sem melhorias correspondentes em proteção ou mobilidade. Foi o sexto conflito mais mortal na história da humanidade e que posteriormente abriu caminho para várias mudanças políticas, como revoluções em muitas das nações envolvidas.",
+        "url": "https://pt.wikipedia.org/wiki/Primeira_Guerra_Mundial"
+      }
+    }
+  },
+  "World War II": {
+    "qid": "Q362",
+    "fetched": "2026-10-12",
+    "pages": {
+      "ko": {
+        "title": "제2차 세계 대전",
+        "extract": "제2차 세계 대전(한국 한자: 第二次世界大戰, 영어: World War II, Second World War, WWII/WW2)은 1939년 9월 1일부터 1945년 9월 2일까지 일어났던 세계 대전이다. 당시 강대국 전부와 세계 대부분의 국가가 전쟁에 개입해 연합국과 추축국이라는 적대적인 두 군사동맹이 생겨났다. 제2차 세계 대전은 30개국 이상에서 1억명이 넘는 군인이 직접 참전한 총력전이다. 세계 대전 참전국은 총체적인 경제적, 산업적, 과학적 역량을 전부 전쟁 수행에 쏟아 부어 민간 자원과 군사 자원의 경계가 모호해졌다. 항공기도 전쟁에서 중요한 역할을 맡아 항공기를 통해 인구 밀집지대의 전략폭격이 수행되었고 유일하게 실전 사용된 핵무기 2발도 배치하고 투하하는 데 항공기가 사용되었다. 제2차 세계 대전은 인류 역사상 사망자가 가장 많은 전쟁으로 총 사망자는 7,500만명 정도로 추정되며 이 중 대부분이 민간인이었다. 또한 수천만 명이 홀로코스트를 포함한 대량학살, 기아, 학살, 질병 등으로 사망했다. 제2차 세계 대전에서 추축국이 패배해 독일과 일본이 연합국에게 점령당했으며 전쟁범죄를 일으킨 독일과 일본의 주요 지도자에 대한 재판이 열렸다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%A0%9C2%EC%B0%A8_%EC%84%B8%EA%B3%84_%EB%8C%80%EC%A0%84"
+      },
+      "en": {
+        "title": "World War II",
+        "extract": "World War II, or the Second World War, was a global conflict between two coalitions: the Allies and the Axis powers. Nearly all of the world's countries participated, with many engaging in total war on an unprecedented scale. World War II was the deadliest conflict in history, causing the deaths of 60 to 75 million people, a majority of whom were civilians. Millions died as a result of massacres, starvation, disease, and genocides, including the Holocaust. After the Allied victory, Germany, Austria, Japan, and Korea were occupied, and German and Japanese leaders were tried for war crimes.",
+        "url": "https://en.wikipedia.org/wiki/World_War_II"
+      },
+      "zh": {
+        "title": "第二次世界大战",
+        "extract": "第二次世界大战是1939年至1945年发生的全球军事冲突，交战双方分为同盟国和轴心国，涉及彼时大多数国家。这场战争是历史上规模最大的战争，导致6,000万至7,500万人死亡，其中上千万人死于屠杀、饥荒、疾病和种族灭绝。战争末期，同盟国占领德国、奥地利、日本和朝鲜等地，德日军政领导人因战争罪受审。",
+        "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E4%B8%96%E7%95%8C%E5%A4%A7%E6%88%98"
+      },
+      "es": {
+        "title": "Segunda Guerra Mundial",
+        "extract": "La Segunda Guerra Mundial fue un conflicto militar global desarrollado entre 1939 y 1945, en el que participaron la mayoría de las naciones del mundo —incluidas todas las grandes potencias— agrupadas en dos alianzas militares opuestas: los Aliados y el Eje. Fue la mayor contienda bélica en la historia de la humanidad, con más de cien millones de militares movilizados y un estado de guerra total en que los grandes contendientes destinaron toda su capacidad económica, militar y científica al servicio del esfuerzo bélico, borrando la distinción entre recursos civiles y militares. Marcada por hechos de enorme repercusión que incluyeron la muerte masiva de civiles, la Segunda Guerra Mundial fue la más mortífera de la historia, con un resultado de entre 50 y 70 millones de víctimas, el 2,5 % de la población mundial de esa época.",
+        "url": "https://es.wikipedia.org/wiki/Segunda_Guerra_Mundial"
+      },
+      "hi": {
+        "title": "द्वितीय विश्वयुद्ध",
+        "extract": "द्वितीय विश्वयुद्ध १९३९ से १९४५ तक चलने वाला विश्व-स्तरीय युद्ध था। लगभग ७० देशों की थल-जल-वायु सेनाएँ इस युद्ध में सम्मलित थीं। इस युद्ध में विश्व दो भागों मे बँटा हुआ था - मित्र राष्ट्र और धुरी राष्ट्र। इस युद्ध के दौरान पूर्ण युद्ध का मनोभाव प्रचलन में आया क्योंकि इस युद्ध में लिप्त सारी महाशक्तियों ने अपनी आर्थिक, औद्योगिक तथा वैज्ञानिक क्षमता इस युद्ध में झोंक दी थी। इस युद्ध में विभिन्न राष्ट्रों के लगभग १० करोड़ सैनिकों ने हिस्सा लिया, तथा यह मानव इतिहास का सबसे ज़्यादा घातक युद्ध साबित हुआ। इस महायुद्ध में ५ से ७ करोड़ व्यक्तियों की जानें गईं क्योंकि इसके महत्वपूर्ण घटनाक्रम में असैनिक नागरिकों का नरसंहार- जिसमें होलोकॉस्ट भी शामिल है- तथा परमाणु हथियारों का एकमात्र इस्तेमाल शामिल है । इसी कारण यह मानव इतिहास का सबसे भयंकर युद्ध था।",
+        "url": "https://hi.wikipedia.org/wiki/%E0%A4%A6%E0%A5%8D%E0%A4%B5%E0%A4%BF%E0%A4%A4%E0%A5%80%E0%A4%AF_%E0%A4%B5%E0%A4%BF%E0%A4%B6%E0%A5%8D%E0%A4%B5%E0%A4%AF%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A7"
+      },
+      "ar": {
+        "title": "الحرب العالمية الثانية",
+        "extract": "الحرب العالمية الثانية هي حرب دولية بدأت في الأول من سبتمبر من عام 1939 في أوروبا وانتهت في الثاني من سبتمبر عام 1945 شاركت فيها أو تأثَّرت بها الغالبية العظمى من دول العالم منها الدول العظمى في حِلفَين عسكريَّين متنازعين هما: قوات الحلفاء ودول المحور، كما أنَّها الحرب الأوسع في التاريخ، وشارك فيها بصورة مباشرة أكثر من 100 مليون شخص من أكثر من 30 بلدًا، وقد وضعت الدول الرئيسية كافَّة قدراتها العسكرية والاقتصادية والصناعية والعلمية في خدمة المجهود الحربي.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%AD%D8%B1%D8%A8_%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D8%A9_%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A%D8%A9"
+      },
+      "fr": {
+        "title": "Seconde Guerre mondiale",
+        "extract": "La Seconde Guerre mondiale, ou Deuxième Guerre mondiale, est un conflit armé à l'échelle planétaire qui dure du 1er septembre 1939 au 2 septembre 1945. Ce conflit oppose schématiquement les Alliés et l'Axe.",
+        "url": "https://fr.wikipedia.org/wiki/Seconde_Guerre_mondiale"
+      },
+      "pt": {
+        "title": "Segunda Guerra Mundial",
+        "extract": "Segunda Guerra Mundial foi um conflito militar global que durou de 1939 a 1945, envolvendo a maioria das nações do mundo — incluindo todas as grandes potências — organizadas em duas alianças militares opostas: os Aliados e o Eixo. Foi a guerra mais abrangente da história, com mais de 100 milhões de militares mobilizados. Em estado de \"guerra total\", os principais envolvidos dedicaram toda sua capacidade econômica, industrial e científica a serviço dos esforços de guerra, deixando de lado a distinção entre recursos civis e militares. Marcado por um número significante de ataques contra civis, incluindo o Holocausto e a única vez em que armas nucleares foram utilizadas em combate, foi o conflito mais letal da história da humanidade, que resultou na morte de 50-70 milhões de pessoas.",
+        "url": "https://pt.wikipedia.org/wiki/Segunda_Guerra_Mundial"
       }
     }
   },

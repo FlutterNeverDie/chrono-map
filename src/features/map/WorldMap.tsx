@@ -195,8 +195,9 @@ export function WorldMap() {
   }, [lon]);
 
   // 확대할수록 작은 나라 이름도 보여준다. 선택한 나라는 항상
+  // 나라가 적은 시대(고대 초기 등)는 작은 나라도 이름을 모두 보여준다
   const labeled = useMemo(() => {
-    const minArea = LABEL_MIN_AREA / (zoom * zoom);
+    const minArea = polities.length <= 30 ? 0 : LABEL_MIN_AREA / (zoom * zoom);
     return polities
       .filter(
         (p) =>
@@ -209,6 +210,68 @@ export function WorldMap() {
 
   // 글자·핀은 확대해도 화면에서 거의 같은 크기로 (지도 좌표 ÷ 배율)
   const unit = 1 / zoom;
+
+  // 이름 배치: 큰 나라부터 놓고, 이미 놓인 이름과 겹치면 뺀다(선택한 나라는 항상 먼저)
+  const placedLabels = (() => {
+    const ordered = [...labeled].sort(
+      (a, b) =>
+        Number(b.properties.n === selectedPolity) -
+        Number(a.properties.n === selectedPolity),
+    );
+    const boxes: { x0: number; x1: number; y0: number; y1: number }[] = [];
+    const placed: {
+      key: string;
+      x: number;
+      y: number;
+      fontSize: number;
+      text: string;
+    }[] = [];
+    ordered.forEach((p, i) => {
+      const at = project(p.properties.l!);
+      if (!at) return;
+      // 기본 8.5, 큰 나라일수록 최대 15까지 (지도 좌표 단위)
+      const base = Math.min(
+        15,
+        8.5 + Math.log10(Math.max(1, p.properties.a / LABEL_MIN_AREA)) * 4,
+      );
+      const selected = p.properties.n === selectedPolity;
+      const fontSize = round2(
+        (selected ? Math.max(base, 13) : base) * Math.pow(unit, 0.8),
+      );
+      const text = nameOf(p.properties);
+      // 글자 폭 추정: 한글·한자 등은 글자 크기만큼, 라틴 문자는 약 0.58배
+      const width = [...text].reduce(
+        (w, ch) => w + (ch.charCodeAt(0) > 0x2e80 ? 1 : 0.58) * fontSize,
+        0,
+      );
+      const boxAt = (y: number) => ({
+        x0: at[0] - width / 2,
+        x1: at[0] + width / 2,
+        y0: y - fontSize,
+        y1: y + fontSize * 0.25,
+      });
+      const free = (b: ReturnType<typeof boxAt>) =>
+        !boxes.some(
+          (o) => b.x0 < o.x1 && b.x1 > o.x0 && b.y0 < o.y1 && b.y1 > o.y0,
+        );
+      // 제자리가 막히면 위아래로 조금씩 비켜 본다
+      const y = [0, 1.3, -1.3, 2.6, -2.6]
+        .map((step) => at[1] + step * fontSize)
+        .find((cy) => free(boxAt(cy)));
+      // 나라가 적은 시대(고대 초기)·선택한 나라는 자리가 없어도 표시한다
+      if (y === undefined && !selected && polities.length > 30) return;
+      const finalY = round1(y ?? at[1]);
+      boxes.push(boxAt(finalY));
+      placed.push({
+        key: `${p.properties.n}-${i}`,
+        x: at[0],
+        y: finalY,
+        fontSize,
+        text,
+      });
+    });
+    return placed;
+  })();
   const copies = v.w > MAP_WIDTH ? [-MAP_WIDTH, 0, MAP_WIDTH] : [0];
 
   const onPointerDown = (e: React.PointerEvent<SVGSVGElement>) => {
@@ -411,29 +474,16 @@ export function WorldMap() {
             paintOrder="stroke"
             className="pointer-events-none"
           >
-            {labeled.map((p, i) => {
-              const at = project(p.properties.l!);
-              if (!at) return null;
-              // 기본 8.5, 큰 나라일수록 최대 15까지 (지도 좌표 단위)
-              const base = Math.min(
-                15,
-                8.5 +
-                  Math.log10(Math.max(1, p.properties.a / LABEL_MIN_AREA)) *
-                    4,
-              );
-              const size =
-                p.properties.n === selectedPolity ? Math.max(base, 13) : base;
-              return (
-                <text
-                  key={`${p.properties.n}-${i}`}
-                  x={at[0]}
-                  y={at[1]}
-                  fontSize={round2(size * Math.pow(unit, 0.8))}
-                >
-                  {nameOf(p.properties)}
-                </text>
-              );
-            })}
+            {placedLabels.map((label) => (
+              <text
+                key={label.key}
+                x={label.x}
+                y={label.y}
+                fontSize={label.fontSize}
+              >
+                {label.text}
+              </text>
+            ))}
           </g>
         </g>
       ))}

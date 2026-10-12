@@ -14,6 +14,7 @@ import { formatPeriod, stepPeriod } from "@/lib/period";
 import eras from "@/data/eras.json";
 import { ChevronLeftIcon, ChevronRightIcon } from "@/components/ui/icons";
 import { useI18n } from "@/i18n/I18nProvider";
+import { useYearUrl } from "./useYearUrl";
 import type { Messages } from "@/i18n";
 
 const stepButton =
@@ -26,6 +27,7 @@ export function YearGauge({ className }: { className?: string }) {
   const setYear = useTimeline((s) => s.setYear);
   const currentEra = eras.findLast((e) => year >= e.start);
 
+  useYearUrl();
   const period = usePeriod();
   const label = formatPeriod(period, locale);
   const position = yearToPosition(period.start);
@@ -88,13 +90,18 @@ export function YearGauge({ className }: { className?: string }) {
           {eras.map((era) => {
             const current = era.id === currentEra?.id;
             const left = (yearToPosition(era.start) / MAX_POSITION) * 100;
+            // 다음 시대 눈금까지가 이름이 쓸 수 있는 폭 (넘치면 말줄임)
+            const next = eras[eras.indexOf(era) + 1];
+            const room =
+              (next ? (yearToPosition(next.start) / MAX_POSITION) * 100 : 100) -
+              left;
             return (
               <button
                 key={era.id}
                 type="button"
                 onClick={() => setYear(Math.max(MIN_YEAR, era.start))}
-                className="pointer-events-auto absolute top-0 -translate-x-px ps-1.5 whitespace-nowrap"
-                style={{ left: `${left}%` }}
+                className="pointer-events-auto absolute top-0 -translate-x-px truncate ps-1.5 pe-1 whitespace-nowrap"
+                style={{ left: `${left}%`, maxWidth: `${room}%` }}
               >
                 <span
                   aria-hidden
@@ -104,7 +111,7 @@ export function YearGauge({ className }: { className?: string }) {
                   className={clsx(
                     current
                       ? "font-semibold text-foreground"
-                      : "sr-only sm:not-sr-only",
+                      : "sr-only sm:not-sr-only sm:whitespace-nowrap",
                   )}
                 >
                   {messages.eras[era.id as keyof Messages["eras"]]}

@@ -30,3 +30,17 @@ summary.hi: मुहम्मद मक्का से मदीना चल�
 summary.ar: هاجر النبي محمد من مكة إلى المدينة، وأصبحت الهجرة بداية التقويم الهجري.
 summary.fr: Mahomet quitta La Mecque pour Médine ; cet événement marque le début du calendrier islamique.
 summary.pt: Maomé migrou de Meca para Medina, marco inicial do calendário islâmico.
+
+@ iraq-war
+wikipedia: Iraq War
+when: 2003 ~ 2011
+coords: 44.36, 33.31
+category: war
+importance: 4
+
+@ arab-spring
+wikipedia: Arab Spring
+when: 2010 ~ 2012
+coords: 10.18, 36.8
+category: politics
+importance: 4

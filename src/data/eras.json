@@ -1,5 +1,5 @@
 [
-  { "id": "ancient", "name": "고대", "start": -3000, "end": 476 },
+  { "id": "ancient", "name": "고대", "start": -3500, "end": 476 },
   { "id": "medieval", "name": "중세", "start": 476, "end": 1453 },
   { "id": "early-modern", "name": "근세", "start": 1453, "end": 1789 },
   { "id": "modern", "name": "근대", "start": 1789, "end": 1945 },

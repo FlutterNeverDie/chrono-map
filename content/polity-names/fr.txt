@@ -1,0 +1,40 @@
+# 지도 위 나라 이름 수정 — Français (fr)
+# 형식: 원본 이름(영어, public/borders/*.json의 "n" 값 그대로) = 이 언어 이름
+# 여기 적은 이름이 Wikidata 자동 이름보다 우선한다. 적용: npm run borders
+# 표기 원칙(독도·동해 등)은 content/CLAUDE.md
+
+(Kingdom of France) = Royaume de France
+Assyrian Egypt = Égypte assyrienne
+Chauhan Dynasty = Dynastie Chauhan
+Denmark-England = Danemark-Angleterre
+Durrani Dynasty = Empire durrani
+Free City of Bremen = Ville libre de Brême
+French Louisiana = Louisiane française
+Gaza/Hamas = Gaza (Hamas)
+German Africa = Afrique allemande
+Habsburg Monarchy = Monarchie de Habsbourg
+Joseon = Joseon
+Kingdom of Champasak = Royaume de Champassak
+Kingdom of France = Royaume de France
+Later Han = Han orientaux
+Libyan Arab Republic = République arabe libyenne
+Magadha - Haryanka dynasty = Magadha (dynastie Haryanka)
+Maitraka Dynasty = Dynastie Maitraka
+Majeerteen Sultanate = Sultanat Majeerteen
+Maukhari Dynasty = Dynastie Maukhari
+Median Kingdom = Royaume mède
+Pahang Sultanate = Sultanat de Pahang
+Pro-Swedish Poland = Pologne pro-suédoise
+Qasimids = Qasimides
+Southern Wu = Wu du Sud
+Sultan of Yogyakarta = Sultanat de Yogyakarta
+Sultanate of Jambi = Sultanat de Jambi
+Sultanate of Kedah = Sultanat de Kedah
+Sultanate of Sambaliung = Sultanat de Sambaliung
+Sultanate of Selangor = Sultanat de Selangor
+Sultanate of Terengganu = Sultanat de Terengganu
+Sumerian City-States = Cités-États sumériennes
+Talpur Dynasty = Dynastie Talpur
+Tibet = Tibet
+Tibetans = Tibet
+Xionites = Xionites

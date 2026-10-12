@@ -107,3 +107,23 @@ export function formatPeriod(p: Period, locale: Locale): string {
       return `década de ${d}`;
   }
 }
+
+const RANGE: Record<Locale, { bc: string; ad: string }> = {
+  ko: { bc: "기원전 {a}–{b}년", ad: "{a}–{b}년" },
+  en: { bc: "{a}–{b} BC", ad: "{a}–{b}" },
+  zh: { bc: "公元前{a}–{b}年", ad: "{a}–{b}年" },
+  es: { bc: "{a}–{b} a. C.", ad: "{a}–{b}" },
+  hi: { bc: "{a}–{b} ई.पू.", ad: "{a}–{b}" },
+  ar: { bc: "{a}–{b} ق.م", ad: "{a}–{b}" },
+  fr: { bc: "{a}–{b} av. J.-C.", ad: "{a}–{b}" },
+  pt: { bc: "{a}–{b} a.C.", ad: "{a}–{b}" },
+};
+
+/** 기간의 실제 연도 범위: "1490–1499년", "기원전 300–201년", "300–201 BC" … */
+export function formatPeriodRange(p: Period, locale: Locale): string {
+  const f = RANGE[locale];
+  const [a, b] = [Math.abs(p.start), Math.abs(p.end)];
+  return (p.start < 0 ? f.bc : f.ad)
+    .replace("{a}", String(a))
+    .replace("{b}", String(b));
+}

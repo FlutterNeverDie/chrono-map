@@ -123,3 +123,31 @@ summary.hi: द्वितीय विश्व युद्ध में ज�
 summary.ar: أدى استسلام اليابان في الحرب العالمية الثانية إلى تحرر كوريا من الحكم الاستعماري الياباني.
 summary.fr: La capitulation du Japon à la fin de la Seconde Guerre mondiale libéra la Corée de la domination coloniale japonaise.
 summary.pt: A rendição do Japão na Segunda Guerra Mundial libertou a Coreia do domínio colonial japonês.
+
+@ march-1st-movement
+wikipedia: March 1st Movement
+when: 1919
+coords: 126.98, 37.57
+category: politics
+importance: 5
+
+@ korean-war
+wikipedia: Korean War
+when: 1950 ~ 1953
+coords: 127.0, 38.0
+category: war
+importance: 5
+
+@ seoul-olympics
+wikipedia: 1988 Summer Olympics
+when: 1988
+coords: 127.07, 37.52
+category: culture
+importance: 4
+
+@ inter-korean-summit-2000
+wikipedia: 2000 inter-Korean summit
+when: 2000
+coords: 125.75, 39.03
+category: politics
+importance: 4

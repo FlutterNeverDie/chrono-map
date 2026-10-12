@@ -27,13 +27,13 @@ export function HomeScreen({ locale }: { locale: Locale }) {
         </div>
 
         {/* 상단: 연도 · 시점 */}
-        <div className="pointer-events-none absolute inset-x-0 top-0 z-30 flex flex-col gap-2 p-3 lg:flex-row lg:items-start">
+        <div className="pointer-events-none absolute inset-x-0 top-0 z-30 flex flex-col gap-2 p-3 lg:flex-row lg:items-start lg:gap-3">
           <header className="pointer-events-auto flex h-12 w-fit items-center rounded-lg border border-line bg-surface/95 px-4 backdrop-blur">
             <h1 className="text-base font-bold tracking-[0.06em] text-foreground uppercase">
               {messages.siteName}
             </h1>
           </header>
-          <div className="pointer-events-auto min-w-0 lg:absolute lg:inset-x-0 lg:top-3 lg:mx-auto lg:w-fit">
+          <div className="pointer-events-auto min-w-0 lg:max-w-[calc(100%-36rem)] xl:max-w-[calc(100%-40rem)]">
             <ViewpointBar />
           </div>
         </div>

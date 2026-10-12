@@ -2,7 +2,8 @@ import { scaleLinear } from "d3-scale";
 
 export const MIN_POSITION = 0;
 export const MAX_POSITION = 1000;
-export const MIN_YEAR = -3000;
+/** 문명 시작: 국경 데이터(Cliopatria)의 첫 국가인 수메르 도시국가(기원전 3400년)를 포함하는 기원전 35세기 */
+export const MIN_YEAR = -3500;
 export const MAX_YEAR = new Date().getFullYear();
 
 /**

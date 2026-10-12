@@ -1,0 +1,10 @@
+# 지도 위 나라 이름 수정 — हिन्दी (hi)
+# 형식: 원본 이름(영어, public/borders/*.json의 "n" 값 그대로) = 이 언어 이름
+# 여기 적은 이름이 Wikidata 자동 이름보다 우선한다. 적용: npm run borders
+# 표기 원칙(독도·동해 등)은 content/CLAUDE.md
+
+(Kingdom of France) = फ़्रांस राज्य
+Joseon = जोसॉन
+Kingdom of France = फ़्रांस राज्य
+Tibet = तिब्बत
+Tibetans = तिब्बत
