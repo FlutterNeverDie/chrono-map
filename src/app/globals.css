@@ -1,22 +1,67 @@
 @import "tailwindcss";
 
+/* 테마는 <html data-theme="light|dark">로 전환 (layout.tsx의 초기화 스크립트) */
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+/* 일반 모드(기본): 종이 세계지도 느낌 */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #faf6ec;
+  --foreground: #2b2418;
+  --surface: #fffdf7;
+  --line: #e4dcc8;
+  --muted: #6f6450;
+  --chip: #efe7d4;
+  --accent: #c2410c;
+
+  --map-ocean: #cfe6f2;
+  --map-graticule: rgb(60 110 150 / 0.18);
+  --map-land: #f4ecd6;
+  --map-border: #a8997a;
+  --map-region-opacity: 0.38;
+  --map-label: #3b2f1e;
+  --map-label-halo: rgb(255 255 255 / 0.75);
+  --map-pin-stroke: #ffffff;
+  --map-pin-ring: #3b2f1e;
+}
+
+/* 다크 모드 */
+[data-theme="dark"] {
+  --background: #0b1220;
+  --foreground: #e5e7eb;
+  --surface: #111a2c;
+  --line: #22304a;
+  --muted: #94a3b8;
+  --chip: #1c2740;
+  --accent: #f59e0b;
+
+  --map-ocean: #0a1628;
+  --map-graticule: rgb(255 255 255 / 0.06);
+  --map-land: #1b2638;
+  --map-border: #334560;
+  --map-region-opacity: 0.45;
+  --map-label: #e2e8f0;
+  --map-label-halo: rgb(10 22 40 / 0.85);
+  --map-pin-stroke: #0b1220;
+  --map-pin-ring: #f8fafc;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-surface: var(--surface);
+  --color-line: var(--line);
+  --color-muted: var(--muted);
+  --color-chip: var(--chip);
+  --color-accent: var(--accent);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  color-scheme: light;
+}
+html[data-theme="dark"] {
+  color-scheme: dark;
 }
 
 body {

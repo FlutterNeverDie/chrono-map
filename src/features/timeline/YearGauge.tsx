@@ -13,13 +13,19 @@ import {
 } from "@/lib/timeScale";
 import { formatYear } from "@/lib/year";
 import eras from "@/data/eras.json";
+import { ChevronLeftIcon, ChevronRightIcon } from "@/components/ui/icons";
+import { useI18n } from "@/i18n/I18nProvider";
+import type { Messages } from "@/i18n";
 
-type Props = { orientation: "horizontal" | "vertical"; className?: string };
+const stepButton =
+  "flex size-10 shrink-0 items-center justify-center rounded-md text-muted transition-colors hover:bg-chip hover:text-foreground active:bg-chip";
 
-export function YearGauge({ orientation, className }: Props) {
+/** 연도 게이지: 남는 가로폭을 모두 쓴다 (모바일·데스크톱 공통) */
+export function YearGauge({ className }: { className?: string }) {
+  const { locale, messages } = useI18n();
   const year = useTimeline((s) => s.year);
   const setYear = useTimeline((s) => s.setYear);
-  const vertical = orientation === "vertical";
+  const currentEra = eras.findLast((e) => year >= e.start);
 
   const step = (delta: number) => {
     let next = Math.min(MAX_YEAR, Math.max(MIN_YEAR, year + delta));
@@ -28,67 +34,69 @@ export function YearGauge({ orientation, className }: Props) {
   };
 
   return (
+    // 아랍어(RTL)에서도 시간 축은 왼쪽(과거) → 오른쪽(현재)
     <div
-      className={clsx(
-        "flex items-center gap-2",
-        vertical ? "h-full flex-col-reverse" : "w-full",
-        className,
-      )}
+      dir="ltr"
+      className={clsx("flex min-w-0 items-center gap-1", className)}
     >
       <button
         type="button"
-        aria-label="1년 전"
+        aria-label={messages.ui.prevYear}
         onClick={() => step(-1)}
-        className="flex size-11 shrink-0 items-center justify-center rounded-full bg-neutral-100 text-lg dark:bg-neutral-800"
+        className={stepButton}
       >
-        {vertical ? "▼" : "◀"}
+        <ChevronLeftIcon className="size-5" />
       </button>
 
-      <div className={clsx("relative flex-1", vertical ? "w-full" : "h-full")}>
+      <div className="relative min-w-0 flex-1 px-2">
         <Slider.Root
-          orientation={orientation}
           min={MIN_POSITION}
           max={MAX_POSITION}
           step={1}
           value={[yearToPosition(year)]}
           onValueChange={([p]) => setYear(positionToYear(p))}
-          className={clsx(
-            "relative flex touch-none select-none items-center",
-            vertical ? "mx-auto h-full w-11 flex-col" : "h-11 w-full",
-          )}
+          className="relative flex h-10 w-full touch-none items-center select-none"
         >
-          <Slider.Track
-            className={clsx(
-              "relative grow rounded-full bg-neutral-200 dark:bg-neutral-700",
-              vertical ? "w-1.5" : "h-1.5",
-            )}
-          >
-            <Slider.Range className="absolute rounded-full bg-amber-500" />
+          <Slider.Track className="relative h-1 grow rounded-full bg-line">
+            <Slider.Range className="absolute h-full rounded-full bg-accent" />
           </Slider.Track>
+          {/* 보이는 손잡이는 작게, 터치 영역은 44px */}
           <Slider.Thumb
-            aria-label="연도 선택"
-            aria-valuetext={formatYear(year)}
-            className="block size-7 rounded-full border-4 border-amber-500 bg-white shadow focus:outline-none focus-visible:ring-4 focus-visible:ring-amber-300"
-          />
+            aria-label={messages.ui.selectYear}
+            aria-valuetext={formatYear(year, locale)}
+            className="group flex size-11 items-center justify-center focus:outline-none"
+          >
+            <span className="block size-4 rounded-full border-2 border-accent bg-surface shadow-sm transition-transform group-focus-visible:ring-4 group-focus-visible:ring-accent/30 group-active:scale-110" />
+          </Slider.Thumb>
         </Slider.Root>
 
-        {/* 시대 레이블 (F-03) */}
-        <div
-          className={clsx(
-            "pointer-events-none absolute text-[11px] text-neutral-500",
-            vertical ? "inset-y-0 left-full ml-1" : "inset-x-0 top-full",
-          )}
-        >
+        {/* 시대 눈금 (F-03): 누르면 그 시대 시작으로 이동. 좁은 화면은 현재 시대 이름만 */}
+        <div className="pointer-events-none absolute inset-x-2 top-full h-4 text-[11px] leading-none text-muted">
           {eras.map((era) => {
-            const at = (yearToPosition(era.start) / MAX_POSITION) * 100;
+            const current = era.id === currentEra?.id;
+            const left = (yearToPosition(era.start) / MAX_POSITION) * 100;
             return (
-              <span
+              <button
                 key={era.id}
-                className="absolute whitespace-nowrap"
-                style={vertical ? { bottom: `${at}%` } : { left: `${at}%` }}
+                type="button"
+                onClick={() => setYear(Math.max(MIN_YEAR, era.start))}
+                className="pointer-events-auto absolute top-0 -translate-x-px ps-1.5 whitespace-nowrap"
+                style={{ left: `${left}%` }}
               >
-                {era.name}
-              </span>
+                <span
+                  aria-hidden
+                  className="absolute start-0 -top-1 h-2.5 w-px bg-line"
+                />
+                <span
+                  className={clsx(
+                    current
+                      ? "font-semibold text-foreground"
+                      : "sr-only sm:not-sr-only",
+                  )}
+                >
+                  {messages.eras[era.id as keyof Messages["eras"]]}
+                </span>
+              </button>
             );
           })}
         </div>
@@ -96,11 +104,11 @@ export function YearGauge({ orientation, className }: Props) {
 
       <button
         type="button"
-        aria-label="1년 후"
+        aria-label={messages.ui.nextYear}
         onClick={() => step(1)}
-        className="flex size-11 shrink-0 items-center justify-center rounded-full bg-neutral-100 text-lg dark:bg-neutral-800"
+        className={stepButton}
       >
-        {vertical ? "▲" : "▶"}
+        <ChevronRightIcon className="size-5" />
       </button>
     </div>
   );

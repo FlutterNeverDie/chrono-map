@@ -1,0 +1,125 @@
+# 유럽 (europe) 사건 — 형식은 content/CLAUDE.md 참고
+
+@ caesar-assassination
+when: -44
+coords: 12.48, 41.89
+category: politics
+importance: 4
+source: https://ko.wikipedia.org/wiki/율리우스_카이사르
+title.ko: 카이사르 암살
+title.en: Assassination of Julius Caesar
+title.zh: 恺撒遇刺
+title.es: Asesinato de Julio César
+title.hi: जूलियस सीज़र की हत्या
+title.ar: اغتيال يوليوس قيصر
+title.fr: Assassinat de Jules César
+title.pt: Assassinato de Júlio César
+place.ko: 로마
+place.en: Rome
+place.zh: 罗马
+place.es: Roma
+place.hi: रोम
+place.ar: روما
+place.fr: Rome
+place.pt: Roma
+summary.ko: 율리우스 카이사르가 로마 원로원 회의장에서 암살되었다.
+summary.en: Julius Caesar was assassinated at a meeting of the Roman Senate.
+summary.zh: 尤利乌斯·恺撒在罗马元老院会议上遇刺身亡。
+summary.es: Julio César fue asesinado durante una reunión del Senado romano.
+summary.hi: जूलियस सीज़र की रोमन सीनेट की बैठक में हत्या कर दी गई।
+summary.ar: اغتيل يوليوس قيصر خلال اجتماع لمجلس الشيوخ الروماني.
+summary.fr: Jules César fut assassiné lors d'une séance du Sénat romain.
+summary.pt: Júlio César foi assassinado durante uma sessão do Senado romano.
+
+@ western-rome-fall
+when: 476
+coords: 12.2, 44.4
+category: politics
+importance: 5
+source: https://ko.wikipedia.org/wiki/서로마_제국
+title.ko: 서로마 제국 멸망
+title.en: Fall of the Western Roman Empire
+title.zh: 西罗马帝国灭亡
+title.es: Caída del Imperio romano de Occidente
+title.hi: पश्चिमी रोमन साम्राज्य का पतन
+title.ar: سقوط الإمبراطورية الرومانية الغربية
+title.fr: Chute de l'Empire romain d'Occident
+title.pt: Queda do Império Romano do Ocidente
+place.ko: 이탈리아
+place.en: Italy
+place.zh: 意大利
+place.es: Italia
+place.hi: इटली
+place.ar: إيطاليا
+place.fr: Italie
+place.pt: Itália
+summary.ko: 게르만 출신 오도아케르가 마지막 황제 로물루스 아우구스툴루스를 폐위했다.
+summary.en: Odoacer deposed Romulus Augustulus, the last Western Roman emperor.
+summary.zh: 奥多亚克废黜了西罗马帝国最后一位皇帝罗慕路斯·奥古斯都路斯。
+summary.es: Odoacro depuso a Rómulo Augústulo, el último emperador romano de Occidente.
+summary.hi: ओडोएसर ने अंतिम पश्चिमी रोमन सम्राट रोमुलस ऑगस्टुलस को पदच्युत कर दिया।
+summary.ar: خلع أودواكر رومولوس أغسطس، آخر أباطرة الإمبراطورية الرومانية الغربية.
+summary.fr: Odoacre déposa Romulus Augustule, dernier empereur romain d'Occident.
+summary.pt: Odoacro depôs Rômulo Augusto, o último imperador romano do Ocidente.
+
+@ constantinople-fall
+when: 1453
+coords: 28.98, 41.01
+category: war
+importance: 5
+source: https://ko.wikipedia.org/wiki/콘스탄티노폴리스_함락
+title.ko: 콘스탄티노폴리스 함락
+title.en: Fall of Constantinople
+title.zh: 君士坦丁堡陷落
+title.es: Caída de Constantinopla
+title.hi: कुस्तुंतुनिया का पतन
+title.ar: سقوط القسطنطينية
+title.fr: Chute de Constantinople
+title.pt: Queda de Constantinopla
+place.ko: 콘스탄티노폴리스
+place.en: Constantinople
+place.zh: 君士坦丁堡
+place.es: Constantinopla
+place.hi: कुस्तुंतुनिया
+place.ar: القسطنطينية
+place.fr: Constantinople
+place.pt: Constantinopla
+summary.ko: 오스만 제국의 메흐메트 2세가 콘스탄티노폴리스를 점령해 비잔티움 제국이 멸망했다.
+summary.en: Mehmed II of the Ottoman Empire captured Constantinople, ending the Byzantine Empire.
+summary.zh: 奥斯曼帝国穆罕默德二世攻占君士坦丁堡，拜占庭帝国灭亡。
+summary.es: Mehmed II del Imperio otomano tomó Constantinopla y puso fin al Imperio bizantino.
+summary.hi: उस्मानी साम्राज्य के मेहमद द्वितीय ने कुस्तुंतुनिया पर कब्ज़ा किया और बीजान्टिन साम्राज्य का अंत हुआ।
+summary.ar: فتح السلطان العثماني محمد الثاني القسطنطينية فانتهت الإمبراطورية البيزنطية.
+summary.fr: Mehmed II, sultan ottoman, prit Constantinople, mettant fin à l'Empire byzantin.
+summary.pt: Maomé II, do Império Otomano, conquistou Constantinopla, pondo fim ao Império Bizantino.
+
+@ french-revolution
+when: 1789 ~ 1799
+coords: 2.35, 48.86
+category: politics
+importance: 5
+source: https://ko.wikipedia.org/wiki/프랑스_혁명
+title.ko: 프랑스 혁명
+title.en: French Revolution
+title.zh: 法国大革命
+title.es: Revolución francesa
+title.hi: फ़्रांसीसी क्रांति
+title.ar: الثورة الفرنسية
+title.fr: Révolution française
+title.pt: Revolução Francesa
+place.ko: 파리
+place.en: Paris
+place.zh: 巴黎
+place.es: París
+place.hi: पेरिस
+place.ar: باريس
+place.fr: Paris
+place.pt: Paris
+summary.ko: 바스티유 습격으로 시작된 혁명이 프랑스 절대왕정을 무너뜨렸다.
+summary.en: Beginning with the storming of the Bastille, the revolution brought down France's absolute monarchy.
+summary.zh: 以攻占巴士底狱为开端的革命推翻了法国的君主专制。
+summary.es: Iniciada con la toma de la Bastilla, la revolución derribó la monarquía absoluta de Francia.
+summary.hi: बास्तील पर धावे से शुरू हुई क्रांति ने फ़्रांस की निरंकुश राजशाही को उखाड़ फेंका।
+summary.ar: بدأت الثورة باقتحام سجن الباستيل وأسقطت الملكية المطلقة في فرنسا.
+summary.fr: Ouverte par la prise de la Bastille, la Révolution renversa la monarchie absolue en France.
+summary.pt: Iniciada com a tomada da Bastilha, a revolução derrubou a monarquia absoluta na França.

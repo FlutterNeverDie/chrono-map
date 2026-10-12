@@ -1,1 +1,1 @@
-export { ContinentCards } from "./ContinentCards";
+export { EventPanel } from "./EventPanel";

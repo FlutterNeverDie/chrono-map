@@ -1,0 +1,52 @@
+import type { HistoryEvent, RegionId } from "./types";
+import { yearDistance } from "./events";
+import { yearWindow } from "./timeScale";
+
+/**
+ * 시점별 사건 정렬.
+ *
+ * 1) 시점별 순서 데이터(content/rankings/<시점>.txt)에 있는 사건이 먼저, 그 순서대로.
+ * 2) 나머지는 점수 순:
+ *    - 지역 가까움: 시점의 regions 목록에서 앞일수록 가산 (그 나라 입장에서 가까운 역사)
+ *    - importance: 세계사 기준 중요도
+ *    - 시간 가까움: 선택 연도에 가까울수록(진행 중이면 최대) 가산
+ *
+ * 순서 데이터가 나중에 채워지면 1)이 자동으로 우선한다. 가중치는 여기서만 조정한다.
+ */
+export const RANK_WEIGHTS = { region: 2, importance: 3, time: 5 };
+
+export type RankContext = {
+  year: number;
+  /** 이 시점에서 가까운 지역 순서 (data/viewpoints.ts) */
+  regionOrder: RegionId[];
+  /** 이 시점의 중요 사건 id 순서 (없으면 빈 배열) */
+  ranking: string[];
+};
+
+export function scoreEvent(e: HistoryEvent, ctx: RankContext): number {
+  const regionIndex = ctx.regionOrder.indexOf(e.region);
+  const regionScore =
+    regionIndex < 0 ? 0 : ctx.regionOrder.length - regionIndex;
+  const timeScore =
+    1 - Math.min(1, yearDistance(e, ctx.year) / yearWindow(ctx.year));
+  return (
+    regionScore * RANK_WEIGHTS.region +
+    e.importance * RANK_WEIGHTS.importance +
+    timeScore * RANK_WEIGHTS.time
+  );
+}
+
+export function rankEvents(
+  events: HistoryEvent[],
+  ctx: RankContext,
+): HistoryEvent[] {
+  const listed = new Map(ctx.ranking.map((id, i) => [id, i]));
+  return [...events].sort((a, b) => {
+    const ra = listed.get(a.id);
+    const rb = listed.get(b.id);
+    if (ra !== undefined || rb !== undefined) {
+      return (ra ?? Infinity) - (rb ?? Infinity);
+    }
+    return scoreEvent(b, ctx) - scoreEvent(a, ctx) || a.start - b.start;
+  });
+}

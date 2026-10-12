@@ -1,0 +1,63 @@
+# 중앙아시아 (central-asia) 사건 — 형식은 content/CLAUDE.md 참고
+
+@ genghis-khan
+when: 1206
+coords: 106.9, 47.9
+category: politics
+importance: 5
+source: https://ko.wikipedia.org/wiki/칭기즈_칸
+title.ko: 칭기즈 칸 즉위
+title.en: Genghis Khan is proclaimed
+title.zh: 成吉思汗即位
+title.es: Proclamación de Gengis Kan
+title.hi: चंगेज़ ख़ान का राज्यारोहण
+title.ar: تنصيب جنكيز خان
+title.fr: Proclamation de Gengis Khan
+title.pt: Proclamação de Gengis Khan
+place.ko: 몽골 고원
+place.en: Mongolian Plateau
+place.zh: 蒙古高原
+place.es: Meseta de Mongolia
+place.hi: मंगोलिया का पठार
+place.ar: هضبة منغوليا
+place.fr: Plateau mongol
+place.pt: Planalto da Mongólia
+summary.ko: 테무친이 몽골 부족을 통합하고 칭기즈 칸으로 추대되었다.
+summary.en: Temüjin united the Mongol tribes and was proclaimed Genghis Khan.
+summary.zh: 铁木真统一蒙古各部，被推举为成吉思汗。
+summary.es: Temuyín unificó a las tribus mongolas y fue proclamado Gengis Kan.
+summary.hi: तेमुजिन ने मंगोल कबीलों को एकजुट किया और चंगेज़ ख़ान घोषित हुआ।
+summary.ar: وحّد تيموجين القبائل المغولية ونُصّب جنكيز خان.
+summary.fr: Temüjin unifia les tribus mongoles et fut proclamé Gengis Khan.
+summary.pt: Temujin unificou as tribos mongóis e foi proclamado Gengis Khan.
+
+@ timurid-empire
+when: 1370
+coords: 66.96, 39.65
+category: politics
+importance: 4
+source: https://ko.wikipedia.org/wiki/티무르_제국
+title.ko: 티무르 제국 건국
+title.en: Founding of the Timurid Empire
+title.zh: 帖木儿帝国建立
+title.es: Fundación del Imperio timúrida
+title.hi: तैमूरी साम्राज्य की स्थापना
+title.ar: تأسيس الدولة التيمورية
+title.fr: Fondation de l'Empire timouride
+title.pt: Fundação do Império Timúrida
+place.ko: 사마르칸트
+place.en: Samarkand
+place.zh: 撒马尔罕
+place.es: Samarcanda
+place.hi: समरक़ंद
+place.ar: سمرقند
+place.fr: Samarcande
+place.pt: Samarcanda
+summary.ko: 티무르가 사마르칸트를 수도로 삼아 제국을 세웠다.
+summary.en: Timur founded an empire with Samarkand as its capital.
+summary.zh: 帖木儿以撒马尔罕为都城建立帝国。
+summary.es: Tamerlán fundó un imperio con capital en Samarcanda.
+summary.hi: तैमूर ने समरक़ंद को राजधानी बनाकर साम्राज्य की स्थापना की।
+summary.ar: أسس تيمورلنك إمبراطورية عاصمتها سمرقند.
+summary.fr: Tamerlan fonda un empire avec Samarcande pour capitale.
+summary.pt: Tamerlão fundou um império com capital em Samarcanda.

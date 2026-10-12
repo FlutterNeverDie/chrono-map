@@ -1,0 +1,63 @@
+# 오세아니아 (oceania) 사건 — 형식은 content/CLAUDE.md 참고
+
+@ cook-australia
+when: 1770
+coords: 151.2, -34.0
+category: exploration
+importance: 4
+source: https://ko.wikipedia.org/wiki/제임스_쿡
+title.ko: 쿡의 오스트레일리아 동해안 도달
+title.en: Cook reaches Australia's east coast
+title.zh: 库克抵达澳大利亚东海岸
+title.es: Cook llega a la costa este de Australia
+title.hi: कुक का ऑस्ट्रेलिया के पूर्वी तट पर पहुँचना
+title.ar: وصول كوك إلى الساحل الشرقي لأستراليا
+title.fr: Cook atteint la côte est de l'Australie
+title.pt: Cook chega à costa leste da Austrália
+place.ko: 보터니만
+place.en: Botany Bay
+place.zh: 植物学湾
+place.es: Bahía Botánica
+place.hi: बॉटनी बे
+place.ar: خليج بوتاني
+place.fr: Botany Bay
+place.pt: Baía de Botany
+summary.ko: 제임스 쿡이 오스트레일리아 동해안에 도착해 해안을 탐사했다.
+summary.en: James Cook reached and charted the east coast of Australia.
+summary.zh: 詹姆斯·库克抵达并测绘了澳大利亚东海岸。
+summary.es: James Cook llegó a la costa este de Australia y la cartografió.
+summary.hi: जेम्स कुक ऑस्ट्रेलिया के पूर्वी तट पर पहुँचे और उसका नक्शा बनाया।
+summary.ar: وصل جيمس كوك إلى الساحل الشرقي لأستراليا ورسم خرائطه.
+summary.fr: James Cook atteignit la côte est de l'Australie et en dressa la carte.
+summary.pt: James Cook chegou à costa leste da Austrália e a mapeou.
+
+@ australia-federation
+when: 1901
+coords: 149.13, -35.28
+category: politics
+importance: 4
+source: https://ko.wikipedia.org/wiki/오스트레일리아_연방
+title.ko: 오스트레일리아 연방 성립
+title.en: Federation of Australia
+title.zh: 澳大利亚联邦成立
+title.es: Federación de Australia
+title.hi: ऑस्ट्रेलियाई संघ का गठन
+title.ar: قيام الاتحاد الأسترالي
+title.fr: Fédération de l'Australie
+title.pt: Federação da Austrália
+place.ko: 오스트레일리아
+place.en: Australia
+place.zh: 澳大利亚
+place.es: Australia
+place.hi: ऑस्ट्रेलिया
+place.ar: أستراليا
+place.fr: Australie
+place.pt: Austrália
+summary.ko: 오스트레일리아의 여러 식민지가 하나의 연방 국가로 통합되었다.
+summary.en: Australia's colonies united as a single federal nation.
+summary.zh: 澳大利亚各殖民地联合成为一个联邦国家。
+summary.es: Las colonias australianas se unieron en una única nación federal.
+summary.hi: ऑस्ट्रेलिया के उपनिवेश मिलकर एक संघीय राष्ट्र बने।
+summary.ar: اتحدت المستعمرات الأسترالية في دولة اتحادية واحدة.
+summary.fr: Les colonies australiennes s'unirent en une seule nation fédérale.
+summary.pt: As colônias australianas uniram-se numa única nação federal.

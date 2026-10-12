@@ -1,0 +1,95 @@
+# 아프리카 (africa) 사건 — 형식은 content/CLAUDE.md 참고
+
+@ giza-great-pyramid
+when: -2560
+precision: century
+coords: 31.13, 29.98
+category: culture
+importance: 5
+source: https://ko.wikipedia.org/wiki/쿠푸왕의_피라미드
+title.ko: 기자의 대피라미드 건설
+title.en: Construction of the Great Pyramid of Giza
+title.zh: 吉萨大金字塔建成
+title.es: Construcción de la Gran Pirámide de Guiza
+title.hi: गीज़ा के महान पिरामिड का निर्माण
+title.ar: بناء الهرم الأكبر في الجيزة
+title.fr: Construction de la grande pyramide de Gizeh
+title.pt: Construção da Grande Pirâmide de Gizé
+place.ko: 이집트 기자
+place.en: Giza, Egypt
+place.zh: 埃及吉萨
+place.es: Guiza, Egipto
+place.hi: गीज़ा, मिस्र
+place.ar: الجيزة، مصر
+place.fr: Gizeh, Égypte
+place.pt: Gizé, Egito
+summary.ko: 이집트 고왕국 제4왕조의 쿠푸 왕 시기에 기자의 대피라미드가 세워졌다.
+summary.en: The Great Pyramid of Giza was built during the reign of King Khufu of Egypt's Fourth Dynasty.
+summary.zh: 埃及第四王朝胡夫法老在位期间建成了吉萨大金字塔。
+summary.es: La Gran Pirámide de Guiza se construyó durante el reinado del faraón Keops, de la IV dinastía de Egipto.
+summary.hi: मिस्र के चौथे राजवंश के राजा खुफ़ु के शासनकाल में गीज़ा का महान पिरामिड बनाया गया।
+summary.ar: بُني الهرم الأكبر في الجيزة في عهد الملك خوفو من الأسرة المصرية الرابعة.
+summary.fr: La grande pyramide de Gizeh fut construite sous le règne du pharaon Khéops, de la IVe dynastie égyptienne.
+summary.pt: A Grande Pirâmide de Gizé foi construída durante o reinado do faraó Quéops, da IV dinastia do Egito.
+
+@ mansa-musa-hajj
+when: 1324
+coords: -4.0, 16.8
+category: economy
+importance: 4
+source: https://ko.wikipedia.org/wiki/만사_무사
+title.ko: 만사 무사의 메카 순례
+title.en: Mansa Musa's pilgrimage to Mecca
+title.zh: 曼萨·穆萨朝觐麦加
+title.es: Peregrinación de Mansa Musa a La Meca
+title.hi: मनसा मूसा की मक्का यात्रा
+title.ar: حج منسا موسى إلى مكة
+title.fr: Pèlerinage de Mansa Moussa à La Mecque
+title.pt: Peregrinação de Mansa Musa a Meca
+place.ko: 말리 제국
+place.en: Mali Empire
+place.zh: 马里帝国
+place.es: Imperio de Malí
+place.hi: माली साम्राज्य
+place.ar: إمبراطورية مالي
+place.fr: Empire du Mali
+place.pt: Império do Mali
+summary.ko: 말리 제국의 왕 만사 무사가 막대한 황금을 가지고 메카로 순례를 떠났다.
+summary.en: Mansa Musa, ruler of the Mali Empire, made his pilgrimage to Mecca carrying vast amounts of gold.
+summary.zh: 马里帝国国王曼萨·穆萨携带大量黄金前往麦加朝觐。
+summary.es: Mansa Musa, soberano del Imperio de Malí, peregrinó a La Meca llevando enormes cantidades de oro.
+summary.hi: माली साम्राज्य के शासक मनसा मूसा भारी मात्रा में सोना लेकर मक्का की तीर्थयात्रा पर गए।
+summary.ar: أدى منسا موسى، حاكم إمبراطورية مالي، فريضة الحج إلى مكة حاملًا كميات هائلة من الذهب.
+summary.fr: Mansa Moussa, souverain de l'Empire du Mali, fit le pèlerinage à La Mecque avec d'immenses quantités d'or.
+summary.pt: Mansa Musa, soberano do Império do Mali, peregrinou a Meca levando enormes quantidades de ouro.
+
+@ mandela-president
+when: 1994
+coords: 28.19, -25.75
+category: politics
+importance: 5
+source: https://ko.wikipedia.org/wiki/넬슨_만델라
+title.ko: 만델라 대통령 당선
+title.en: Mandela is elected president
+title.zh: 曼德拉当选总统
+title.es: Mandela es elegido presidente
+title.hi: मंडेला राष्ट्रपति चुने गए
+title.ar: انتخاب مانديلا رئيسًا
+title.fr: Mandela élu président
+title.pt: Mandela é eleito presidente
+place.ko: 남아프리카 공화국
+place.en: South Africa
+place.zh: 南非
+place.es: Sudáfrica
+place.hi: दक्षिण अफ़्रीका
+place.ar: جنوب أفريقيا
+place.fr: Afrique du Sud
+place.pt: África do Sul
+summary.ko: 아파르트헤이트 종식 후 첫 다인종 선거에서 넬슨 만델라가 대통령이 되었다.
+summary.en: Nelson Mandela became president in the first multiracial elections after apartheid.
+summary.zh: 种族隔离结束后的首次多种族选举中，纳尔逊·曼德拉当选总统。
+summary.es: Nelson Mandela fue elegido presidente en las primeras elecciones multirraciales tras el apartheid.
+summary.hi: रंगभेद समाप्त होने के बाद पहले बहुनस्लीय चुनाव में नेल्सन मंडेला राष्ट्रपति बने।
+summary.ar: أصبح نيلسون مانديلا رئيسًا في أول انتخابات متعددة الأعراق بعد نظام الفصل العنصري.
+summary.fr: Nelson Mandela fut élu président lors des premières élections multiraciales après l'apartheid.
+summary.pt: Nelson Mandela foi eleito presidente nas primeiras eleições multirraciais após o apartheid.

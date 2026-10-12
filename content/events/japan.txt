@@ -1,0 +1,63 @@
+# 일본 (japan) 사건 — 형식은 content/CLAUDE.md 참고
+
+@ edo-shogunate
+when: 1603
+coords: 139.69, 35.69
+category: politics
+importance: 4
+source: https://ko.wikipedia.org/wiki/에도_막부
+title.ko: 에도 막부 성립
+title.en: Establishment of the Edo shogunate
+title.zh: 江户幕府成立
+title.es: Establecimiento del shogunato Edo
+title.hi: एदो शोगुनेट की स्थापना
+title.ar: تأسيس شوغونية إيدو
+title.fr: Établissement du shogunat d'Edo
+title.pt: Estabelecimento do xogunato Edo
+place.ko: 에도
+place.en: Edo
+place.zh: 江户
+place.es: Edo
+place.hi: एदो
+place.ar: إيدو
+place.fr: Edo
+place.pt: Edo
+summary.ko: 도쿠가와 이에야스가 에도에 막부를 열었다.
+summary.en: Tokugawa Ieyasu established his shogunate in Edo.
+summary.zh: 德川家康在江户开设幕府。
+summary.es: Tokugawa Ieyasu estableció su shogunato en Edo.
+summary.hi: तोकुगावा इएयासु ने एदो में अपना शोगुनेट स्थापित किया।
+summary.ar: أسس توكوغاوا إياسو حكومة الشوغونية في إيدو.
+summary.fr: Tokugawa Ieyasu établit son shogunat à Edo.
+summary.pt: Tokugawa Ieyasu estabeleceu seu xogunato em Edo.
+
+@ meiji-restoration
+when: 1868
+coords: 139.75, 35.68
+category: politics
+importance: 5
+source: https://ko.wikipedia.org/wiki/메이지_유신
+title.ko: 메이지 유신
+title.en: Meiji Restoration
+title.zh: 明治维新
+title.es: Restauración Meiji
+title.hi: मेइजी पुनर्स्थापना
+title.ar: إصلاح ميجي
+title.fr: Restauration de Meiji
+title.pt: Restauração Meiji
+place.ko: 도쿄
+place.en: Tokyo
+place.zh: 东京
+place.es: Tokio
+place.hi: टोक्यो
+place.ar: طوكيو
+place.fr: Tokyo
+place.pt: Tóquio
+summary.ko: 막부가 무너지고 천황 중심의 근대 국가 체제로 개혁이 시작되었다.
+summary.en: The shogunate fell and reforms began to build a modern state centered on the emperor.
+summary.zh: 幕府倒台，日本开始以天皇为中心建设近代国家的改革。
+summary.es: Cayó el shogunato y comenzaron las reformas para construir un Estado moderno en torno al emperador.
+summary.hi: शोगुनेट का पतन हुआ और सम्राट के इर्द-गिर्द आधुनिक राष्ट्र बनाने के सुधार शुरू हुए।
+summary.ar: سقطت حكومة الشوغون وبدأت إصلاحات لبناء دولة حديثة يتصدرها الإمبراطور.
+summary.fr: Le shogunat tomba et des réformes furent lancées pour bâtir un État moderne centré sur l'empereur.
+summary.pt: O xogunato caiu e começaram reformas para construir um Estado moderno centrado no imperador.

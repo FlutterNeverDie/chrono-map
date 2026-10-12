@@ -1,0 +1,32 @@
+# 중동 (middle-east) 사건 — 형식은 content/CLAUDE.md 참고
+
+@ hijra
+when: 622
+coords: 39.6, 24.47
+category: religion
+importance: 5
+source: https://ko.wikipedia.org/wiki/헤지라
+title.ko: 헤지라
+title.en: The Hijra
+title.zh: 希吉拉（迁徙）
+title.es: La Hégira
+title.hi: हिजरत
+title.ar: الهجرة النبوية
+title.fr: L'Hégire
+title.pt: A Hégira
+place.ko: 메디나
+place.en: Medina
+place.zh: 麦地那
+place.es: Medina
+place.hi: मदीना
+place.ar: المدينة المنورة
+place.fr: Médine
+place.pt: Medina
+summary.ko: 무함마드가 메카에서 메디나로 이주했다. 이슬람력의 기원이 된다.
+summary.en: Muhammad migrated from Mecca to Medina, marking the start of the Islamic calendar.
+summary.zh: 穆罕默德从麦加迁往麦地那，此年成为伊斯兰历的纪元。
+summary.es: Mahoma emigró de La Meca a Medina; este hecho marca el inicio del calendario islámico.
+summary.hi: मुहम्मद मक्का से मदीना चले गए; इसी से इस्लामी पंचांग की शुरुआत होती है।
+summary.ar: هاجر النبي محمد من مكة إلى المدينة، وأصبحت الهجرة بداية التقويم الهجري.
+summary.fr: Mahomet quitta La Mecque pour Médine ; cet événement marque le début du calendrier islamique.
+summary.pt: Maomé migrou de Meca para Medina, marco inicial do calendário islâmico.

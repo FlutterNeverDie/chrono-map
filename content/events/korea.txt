@@ -1,0 +1,125 @@
+# 한국 (korea) 사건 — 형식은 content/CLAUDE.md 참고
+
+@ joseon-founding
+when: 1392
+coords: 126.55, 37.97
+category: politics
+importance: 5
+source: https://ko.wikipedia.org/wiki/조선
+title.ko: 조선 건국
+title.en: Founding of Joseon
+title.zh: 朝鲜王朝建立
+title.es: Fundación de Joseon
+title.hi: जोसॉन राजवंश की स्थापना
+title.ar: تأسيس مملكة جوسون
+title.fr: Fondation de Joseon
+title.pt: Fundação de Joseon
+place.ko: 개경
+place.en: Gaegyeong
+place.zh: 开京
+place.es: Gaegyeong
+place.hi: गैग्योंग
+place.ar: كيغيونغ
+place.fr: Gaegyeong
+place.pt: Gaegyeong
+summary.ko: 이성계가 고려를 무너뜨리고 조선을 세웠다.
+summary.en: Yi Seong-gye overthrew Goryeo and founded the Joseon dynasty.
+summary.zh: 李成桂推翻高丽，建立朝鲜王朝。
+summary.es: Yi Seong-gye derrocó a Goryeo y fundó la dinastía Joseon.
+summary.hi: यी सॉन्ग-ग्ये ने गोरयो को उखाड़ फेंका और जोसॉन राजवंश की स्थापना की।
+summary.ar: أطاح يي سونغ-غيه بمملكة غوريو وأسس سلالة جوسون.
+summary.fr: Yi Seong-gye renversa Goryeo et fonda la dynastie Joseon.
+summary.pt: Yi Seong-gye derrubou Goryeo e fundou a dinastia Joseon.
+
+@ hunminjeongeum
+when: 1443
+coords: 126.98, 37.58
+category: culture
+importance: 5
+source: https://ko.wikipedia.org/wiki/훈민정음
+title.ko: 훈민정음 창제
+title.en: Creation of Hangul (Hunminjeongeum)
+title.zh: 训民正音创制
+title.es: Creación del alfabeto coreano (Hangul)
+title.hi: हंगुल (हुनमिनजोंगम) की रचना
+title.ar: ابتكار الأبجدية الكورية (هانغول)
+title.fr: Création de l'alphabet coréen (hangeul)
+title.pt: Criação do alfabeto coreano (Hangul)
+place.ko: 조선 한양
+place.en: Hanyang, Joseon
+place.zh: 朝鲜汉阳
+place.es: Hanyang, Joseon
+place.hi: हान्यांग, जोसॉन
+place.ar: هانيانغ، جوسون
+place.fr: Hanyang, Joseon
+place.pt: Hanyang, Joseon
+summary.ko: 조선의 세종이 훈민정음을 창제하고 1446년에 반포했다.
+summary.en: King Sejong of Joseon created Hunminjeongeum (Hangul) and promulgated it in 1446.
+summary.zh: 朝鲜世宗创制训民正音（韩文），并于1446年颁布。
+summary.es: El rey Sejong de Joseon creó el Hunminjeongeum (hangul) y lo promulgó en 1446.
+summary.hi: जोसॉन के राजा सेजोंग ने हुनमिनजोंगम (हंगुल) की रचना की और 1446 में इसे प्रकाशित किया।
+summary.ar: ابتكر الملك سيجونغ من جوسون أبجدية هونمينجونغوم (هانغول) وأصدرها عام 1446.
+summary.fr: Le roi Sejong de Joseon créa le Hunminjeongeum (hangeul) et le promulgua en 1446.
+summary.pt: O rei Sejong de Joseon criou o Hunminjeongeum (hangul) e o promulgou em 1446.
+
+@ imjin-war
+when: 1592 ~ 1598
+coords: 129.04, 35.1
+category: war
+importance: 5
+source: https://ko.wikipedia.org/wiki/임진왜란
+title.ko: 임진왜란
+title.en: Imjin War
+title.zh: 壬辰倭乱
+title.es: Guerra Imjin
+title.hi: इमजिन युद्ध
+title.ar: حرب إمجين
+title.fr: Guerre d'Imjin
+title.pt: Guerra Imjin
+place.ko: 조선
+place.en: Joseon
+place.zh: 朝鲜
+place.es: Joseon
+place.hi: जोसॉन
+place.ar: جوسون
+place.fr: Joseon
+place.pt: Joseon
+summary.ko: 도요토미 히데요시가 조선을 침략해 7년간 전쟁이 이어졌다.
+summary.en: Toyotomi Hideyoshi invaded Joseon, beginning a seven-year war.
+summary.zh: 丰臣秀吉入侵朝鲜，战争持续七年。
+summary.es: Toyotomi Hideyoshi invadió Joseon, dando inicio a una guerra de siete años.
+summary.hi: तोयोतोमी हिदेयोशी ने जोसॉन पर आक्रमण किया, जिससे सात साल लंबा युद्ध शुरू हुआ।
+summary.ar: غزا تويوتومي هيديوشي مملكة جوسون، فاندلعت حرب استمرت سبع سنوات.
+summary.fr: Toyotomi Hideyoshi envahit Joseon, déclenchant une guerre de sept ans.
+summary.pt: Toyotomi Hideyoshi invadiu Joseon, iniciando uma guerra de sete anos.
+
+@ korea-liberation
+when: 1945
+coords: 126.98, 37.57
+category: politics
+importance: 5
+source: https://ko.wikipedia.org/wiki/광복절
+title.ko: 광복
+title.en: Liberation of Korea
+title.zh: 朝鲜半岛光复
+title.es: Liberación de Corea
+title.hi: कोरिया की मुक्ति
+title.ar: تحرير كوريا
+title.fr: Libération de la Corée
+title.pt: Libertação da Coreia
+place.ko: 한반도
+place.en: Korean Peninsula
+place.zh: 朝鲜半岛
+place.es: Península de Corea
+place.hi: कोरियाई प्रायद्वीप
+place.ar: شبه الجزيرة الكورية
+place.fr: Péninsule coréenne
+place.pt: Península Coreana
+summary.ko: 제2차 세계 대전에서 일본이 항복하며 한반도가 일제 강점에서 벗어났다.
+summary.en: Japan's surrender in World War II freed Korea from Japanese colonial rule.
+summary.zh: 第二次世界大战中日本投降，朝鲜半岛摆脱日本殖民统治。
+summary.es: La rendición de Japón en la Segunda Guerra Mundial liberó a Corea del dominio colonial japonés.
+summary.hi: द्वितीय विश्व युद्ध में जापान के आत्मसमर्पण से कोरिया जापानी औपनिवेशिक शासन से मुक्त हुआ।
+summary.ar: أدى استسلام اليابان في الحرب العالمية الثانية إلى تحرر كوريا من الحكم الاستعماري الياباني.
+summary.fr: La capitulation du Japon à la fin de la Seconde Guerre mondiale libéra la Corée de la domination coloniale japonaise.
+summary.pt: A rendição do Japão na Segunda Guerra Mundial libertou a Coreia do domínio colonial japonês.

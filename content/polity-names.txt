@@ -1,0 +1,167 @@
+# 지도 위 나라(정치체) 이름 수정
+#
+# 기본 이름은 Wikidata에서 자동으로 받는데, 원본 데이터의 연결이 틀리거나 어색한 경우가 있다.
+# 여기 적은 이름이 자동 이름보다 우선한다. 적용: npm run borders
+#
+# 형식
+#   @ 원본 이름(영어, public/borders/*.json의 "n" 값 그대로)
+#   ko: 한국어 이름
+#   en: English name          ← 필요한 언어만 적어도 된다 (ko en zh es hi ar fr pt)
+
+@ Joseon
+ko: 조선
+en: Joseon
+zh: 朝鲜王朝
+es: Joseon
+hi: जोसॉन
+ar: جوسون
+fr: Joseon
+pt: Joseon
+
+@ Kingdom of France
+ko: 프랑스 왕국
+en: Kingdom of France
+zh: 法兰西王国
+es: Reino de Francia
+hi: फ़्रांस राज्य
+ar: مملكة فرنسا
+fr: Royaume de France
+pt: Reino da França
+
+@ (Kingdom of France)
+ko: 프랑스 왕국
+en: Kingdom of France
+zh: 法兰西王国
+es: Reino de Francia
+hi: फ़्रांस राज्य
+ar: مملكة فرنسا
+fr: Royaume de France
+pt: Reino da França
+
+@ Tibet
+ko: 티베트
+en: Tibet
+zh: 西藏
+es: Tíbet
+hi: तिब्बत
+ar: التبت
+fr: Tibet
+pt: Tibete
+
+@ Tibetans
+ko: 티베트
+en: Tibet
+zh: 西藏
+es: Tíbet
+hi: तिब्बत
+ar: التبت
+fr: Tibet
+pt: Tibete
+
+@ Mongol Khanate
+ko: 몽골 칸국
+en: Mongol Khanate
+zh: 蒙古汗国
+
+@ Mali Empire
+ko: 말리 제국
+
+@ Sultanate of Bengal
+ko: 벵골 술탄국
+
+@ Shan States
+ko: 샨 국
+
+# ── 자동 이름이 없는 정치체의 한국어 이름 ──
+@ Hamdanid Emirates
+ko: 함단 왕조
+@ Lohara Dynasty
+ko: 로하라 왕조
+@ Najahid Dynasty
+ko: 나자흐 왕조
+@ Sind-Habbari Dynasty
+ko: 신드 하바리 왕조
+@ Habsburg Monarchy
+ko: 합스부르크 군주국
+zh: 哈布斯堡君主国
+fr: Monarchie de Habsbourg
+@ First Toungoo Empire
+ko: 제1차 따웅우 왕조
+@ Lakhmid Kingdom
+ko: 라흠 왕국
+@ Wadai Empire
+ko: 와다이 제국
+@ Talpur Dynasty
+ko: 탈푸르 왕조
+@ Muhammad Ali dynasty
+ko: 무함마드 알리 왕조
+@ Turk Shahis
+ko: 투르크 샤히 왕조
+@ Qarlugs
+ko: 카를루크
+@ Libyan Arab Republic
+ko: 리비아 아랍 공화국
+@ Rasulid Dynasty
+ko: 라술 왕조
+@ Muzaffarids
+ko: 무자파르 왕조
+@ Germiyanids
+ko: 게르미얀 공국
+@ Sarbadars
+ko: 사르바다르
+@ Jesuit Reducciones
+ko: 예수회 레두크시온
+@ Nawabs of Bengal
+ko: 벵골 나와브국
+@ Minaeans
+ko: 마인 왕국
+@ Gothia
+ko: 고티아
+@ Türgesh
+ko: 튀르기시
+@ English Colonial Empire
+ko: 잉글랜드 식민 제국
+@ Pro-Swedish Poland
+ko: 친스웨덴 폴란드
+@ Federal League
+ko: 연방 동맹
+@ Qasimids
+ko: 카심 왕조
+@ Ziyadid dynasty
+ko: 지야드 왕조
+@ Southern Wu
+ko: 남오
+@ German Africa
+ko: 독일령 아프리카
+@ Zand Dynasty
+ko: 잔드 왕조
+@ Seleucid Empire
+ko: 셀레우코스 제국
+@ Burgundian Kingdom
+ko: 부르군트 왕국
+@ Durrani Dynasty
+ko: 두라니 제국
+@ Chauhan Dynasty
+ko: 차우한 왕조
+@ Assyrian Egypt
+ko: 아시리아령 이집트
+@ Provisional Priamurye Government
+ko: 프리아무르 임시정부
+@ Turks
+ko: 돌궐
+@ Sosso Empire
+ko: 소소 제국
+@ Golconda Sultanate
+ko: 골콘다 술탄국
+@ Denmark-England
+ko: 덴마크-잉글랜드
+@ Fihrids
+ko: 피흐르 왕조
+@ State of Buenos Aires
+ko: 부에노스아이레스 주
+@ Median Kingdom
+ko: 메디아 왕국
+@ Later Han
+ko: 후한
+@ Hashemite Arab Federation
+ko: 하심 아랍 연방

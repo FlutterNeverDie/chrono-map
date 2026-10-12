@@ -1,16 +1,32 @@
-# features/map — 세계 지도 뷰 (F-04)
+# features/map — 세계 지도 (F-04)
 
 ## 책임
-- SVG 세계 지도 렌더링과 사건 핀 표시. 사건 필터링 로직은 갖지 않는다(이미 걸러진 사건 배열을 props로 받는다).
+- 화면 전체 평면 지도, 선택 연도의 역사 국경, 사건 핀, 시점 바(`ViewpointBar`), 국경 데이터 출처 표기(`Attribution`).
 
-## 구현 규칙
-- 지도 데이터: `world-atlas/countries-110m.json`(가벼운 해상도)만 사용. 50m 이상 금지(모바일 용량).
-- 투영: d3-geo `geoNaturalEarth1` 기본. 좌표는 `[경도, 위도]` 순서.
-- 확대/이동: d3-zoom. 모바일 핀치 줌·드래그 지원, 페이지 스크롤과 충돌하지 않게 `touch-action`을 지도 영역에만 지정.
-- 클라이언트 컴포넌트(`"use client"`). 지도 모듈은 `next/dynamic`으로 지연 로드해 첫 화면(LCP)을 막지 않는다.
+## 지도
+- 투영: **평면 메르카토르**(`geoMercator`), 위도 82°N ~ 58°S, 지도 좌표계 `1000 × MAP_HEIGHT`. `baseMap.ts`의 `makeProjection(centerLon)`만 쓴다.
+- 크기: 배율 1에서 세로(위도 전체)를 화면 높이에 맞추고, 가로는 화면 비율만큼 보여준다(ResizeObserver로 viewBox 계산). 화면이 360°보다 넓으면 좌우에 지도를 이어 붙인다. 지도는 하단 바 위 영역(`bottom: var(--bar-h)`)에만 그린다.
+- 확대(배율 1~8, `useUi.zoom`): 휠(커서 위치 고정), 두 손가락 핀치, 두 번 클릭, `ZoomControls`(+/−). 가로 이동은 회전(lon), 세로 이동은 확대했을 때만(centerY).
+- 확대해도 핀·글자·국경선은 화면에서 거의 같은 크기(핀·글자는 ÷배율, 선은 `vector-effect: non-scaling-stroke`). 확대할수록 작은 나라 이름도 표시.
+- 나라를 누르면 강조(진하게 + 테두리)하고 이름을 항상 표시. 다시 누르면 해제.
+- 바탕: `world-atlas/land-110m.json` 해안선(현대). 그 위에 연도별 국경.
+- 시점: `data/viewpoints.ts`의 9개 경도. 시점이 바뀌면 600ms 동안 가까운 방향으로 회전, 끝나면 `centerLon` 저장.
+- 끌기: 좌우로 끌면 경도가 바뀐다(끝없이 이어짐). 끌기 시작하면 시점 선택 해제(null), 끝나면 `centerLon` 저장. 5px 미만은 핀 탭.
+- 좌표 반올림(`geoPath().digits(1)`, `project()` 소수 1자리) — 서버/브라우저 부동소수점 차이로 하이드레이션 경고가 나기 때문.
+
+## 역사 국경 (`borders.ts`)
+- 데이터: `public/borders/<연도>.json`(TopoJSON, 스냅샷 222개), `index.json`(연도 목록), `names/<언어>.json`(원본 이름 → 언어별 이름).
+- 생성: `npm run borders`(scripts/build-borders.mjs). 원본 Cliopatria(Seshat), **CC BY 4.0 → 화면에 출처 표기(`Attribution`) 필수**.
+- 선택 연도 이하에서 가장 가까운 스냅샷을 쓴다. 파일은 한 번 받으면 캐시, 받는 동안은 이전 지도를 유지.
+- 이름표 열쇠는 원본 이름(`n`). 이름은 영어 위키백과 문서 → Wikidata 항목 → 언어별 이름표(없으면 그 언어 위키백과 제목) 순서로 찾는다. 원본의 Wikidata ID는 틀린 경우가 많아 마지막 수단(예: Byzantine Empire → "비잔티움 제국의 대외 관계").
+- 틀리거나 빠진 이름은 `content/polity-names.txt`에서 고친다. 이름이 없는 언어는 화면에서 영어 이름으로 대신한다.
+- 변환 때 작은 조각(약 40km² 미만)은 빼고, 압축 후 뒤집힌 도형(넓이 > 반구)이 있으면 실패한다. 화면에서도 같은 검사로 걸러낸다(725~800년 지도 전체가 칠해지던 버그).
+- 색은 정치체마다 고정(해시). 이름은 면적 20만 km² 이상, 큰 순서로 최대 45개, 핀보다 위에(터치는 통과).
+
+## 색·테마
+- CSS 변수(`--map-ocean`, `--map-land`, `--map-border`, `--map-region-opacity`, `--map-label` 등)만 사용. SVG 속성에서 `var()`가 안 먹는 경우(fillOpacity)는 `style`로.
 
 ## 모바일 규칙
-- 모바일 기본 뷰는 카드 뷰이고 지도는 "지도로 보기" 전환으로 연다.
-- 핀 터치 영역 최소 44px(보이는 점은 작아도 투명 히트 영역을 키운다).
-- 핀 탭 → 하단 시트로 사건 요약 표시(hover 툴팁 금지).
-- 겹치는 핀이 많으면 `importance`가 낮은 것부터 숨긴다.
+- 핀은 보이는 점 r=4, 터치 영역 r=16.
+- 핀 탭 → `useUi.selectEvent(id)` → 사건 패널이 열리고 해당 카드로 스크롤(hover 툴팁 금지).
+- 시점 바는 모바일에서 가로 스크롤.

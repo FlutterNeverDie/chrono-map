@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# content/*.txt에서 생성 (npm run content)
+/src/data/generated/
+
+# 원본 데이터 (스크립트로 내려받음)
+/data-raw/

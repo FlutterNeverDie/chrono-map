@@ -3,7 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "content": "tsx scripts/build-content.ts",
+    "borders": "node scripts/build-borders.mjs",
+    "predev": "npm run content",
     "dev": "next dev",
+    "prebuild": "npm run content",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"
@@ -36,9 +40,12 @@
     "@types/topojson-client": "^3.1.5",
     "eslint": "^9",
     "eslint-config-next": "16.4.0",
+    "mapshaper": "^0.7.83",
     "prettier": "^3.9.10",
     "prettier-plugin-tailwindcss": "^0.8.1",
     "tailwindcss": "^4",
+    "topojson-server": "^3.0.1",
+    "tsx": "^4.23.15",
     "typescript": "^5"
   }
 }

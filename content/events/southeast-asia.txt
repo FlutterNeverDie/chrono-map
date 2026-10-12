@@ -1,0 +1,64 @@
+# 동남아시아 (southeast-asia) 사건 — 형식은 content/CLAUDE.md 참고
+
+@ angkor-wat
+when: 1113
+precision: decade
+coords: 103.87, 13.41
+category: culture
+importance: 4
+source: https://ko.wikipedia.org/wiki/앙코르와트
+title.ko: 앙코르 와트 건설 시작
+title.en: Construction of Angkor Wat begins
+title.zh: 吴哥窟开始兴建
+title.es: Comienza la construcción de Angkor Wat
+title.hi: अंकोरवाट का निर्माण आरंभ
+title.ar: بدء بناء أنغكور وات
+title.fr: Début de la construction d'Angkor Vat
+title.pt: Início da construção de Angkor Wat
+place.ko: 캄보디아 앙코르
+place.en: Angkor, Cambodia
+place.zh: 柬埔寨吴哥
+place.es: Angkor, Camboya
+place.hi: अंगकोर, कंबोडिया
+place.ar: أنغكور، كمبوديا
+place.fr: Angkor, Cambodge
+place.pt: Angkor, Camboja
+summary.ko: 크메르 제국의 수리야바르만 2세 시기에 앙코르 와트 건설이 시작되었다.
+summary.en: Construction of Angkor Wat began under Suryavarman II of the Khmer Empire.
+summary.zh: 高棉帝国苏利耶跋摩二世在位时开始兴建吴哥窟。
+summary.es: La construcción de Angkor Wat comenzó bajo Suryavarman II del Imperio jemer.
+summary.hi: ख्मेर साम्राज्य के सूर्यवर्मन द्वितीय के शासनकाल में अंकोरवाट का निर्माण शुरू हुआ।
+summary.ar: بدأ بناء أنغكور وات في عهد سوريافارمان الثاني من إمبراطورية الخمير.
+summary.fr: La construction d'Angkor Vat commença sous Suryavarman II, souverain de l'Empire khmer.
+summary.pt: A construção de Angkor Wat começou sob Suryavarman II, do Império Khmer.
+
+@ indonesia-independence
+when: 1945
+coords: 106.85, -6.21
+category: politics
+importance: 4
+source: https://ko.wikipedia.org/wiki/인도네시아
+title.ko: 인도네시아 독립 선언
+title.en: Indonesian Declaration of Independence
+title.zh: 印度尼西亚独立宣言
+title.es: Proclamación de independencia de Indonesia
+title.hi: इंडोनेशिया की स्वतंत्रता की घोषणा
+title.ar: إعلان استقلال إندونيسيا
+title.fr: Proclamation d'indépendance de l'Indonésie
+title.pt: Proclamação da independência da Indonésia
+place.ko: 자카르타
+place.en: Jakarta
+place.zh: 雅加达
+place.es: Yakarta
+place.hi: जकार्ता
+place.ar: جاكرتا
+place.fr: Jakarta
+place.pt: Jacarta
+summary.ko: 수카르노가 인도네시아의 독립을 선언했다.
+summary.en: Sukarno proclaimed Indonesia's independence.
+summary.zh: 苏加诺宣布印度尼西亚独立。
+summary.es: Sukarno proclamó la independencia de Indonesia.
+summary.hi: सुकर्णो ने इंडोनेशिया की स्वतंत्रता की घोषणा की।
+summary.ar: أعلن سوكارنو استقلال إندونيسيا.
+summary.fr: Soekarno proclama l'indépendance de l'Indonésie.
+summary.pt: Sukarno proclamou a independência da Indonésia.

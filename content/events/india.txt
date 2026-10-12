@@ -1,0 +1,63 @@
+# 인도 (india) 사건 — 형식은 content/CLAUDE.md 참고
+
+@ mughal-empire
+when: 1526
+coords: 76.97, 29.39
+category: politics
+importance: 4
+source: https://ko.wikipedia.org/wiki/무굴_제국
+title.ko: 무굴 제국 건국
+title.en: Founding of the Mughal Empire
+title.zh: 莫卧儿帝国建立
+title.es: Fundación del Imperio mogol
+title.hi: मुग़ल साम्राज्य की स्थापना
+title.ar: تأسيس الإمبراطورية المغولية في الهند
+title.fr: Fondation de l'Empire moghol
+title.pt: Fundação do Império Mogol
+place.ko: 파니파트
+place.en: Panipat
+place.zh: 帕尼帕特
+place.es: Panipat
+place.hi: पानीपत
+place.ar: بانيبات
+place.fr: Panipat
+place.pt: Panipat
+summary.ko: 바부르가 파니파트 전투에서 승리하고 무굴 제국을 세웠다.
+summary.en: Babur won the First Battle of Panipat and founded the Mughal Empire.
+summary.zh: 巴布尔在第一次帕尼帕特战役中获胜，建立莫卧儿帝国。
+summary.es: Babur venció en la primera batalla de Panipat y fundó el Imperio mogol.
+summary.hi: बाबर ने पानीपत की पहली लड़ाई जीतकर मुग़ल साम्राज्य की स्थापना की।
+summary.ar: انتصر بابر في معركة بانيبات الأولى وأسس الإمبراطورية المغولية.
+summary.fr: Babur remporta la première bataille de Panipat et fonda l'Empire moghol.
+summary.pt: Babur venceu a primeira batalha de Panipat e fundou o Império Mogol.
+
+@ india-independence
+when: 1947
+coords: 77.21, 28.61
+category: politics
+importance: 5
+source: https://ko.wikipedia.org/wiki/인도_독립_운동
+title.ko: 인도 독립
+title.en: Independence of India
+title.zh: 印度独立
+title.es: Independencia de la India
+title.hi: भारत की स्वतंत्रता
+title.ar: استقلال الهند
+title.fr: Indépendance de l'Inde
+title.pt: Independência da Índia
+place.ko: 뉴델리
+place.en: New Delhi
+place.zh: 新德里
+place.es: Nueva Delhi
+place.hi: नई दिल्ली
+place.ar: نيودلهي
+place.fr: New Delhi
+place.pt: Nova Délhi
+summary.ko: 인도가 영국으로부터 독립했고 파키스탄과 분리되었다.
+summary.en: India gained independence from Britain and was partitioned from Pakistan.
+summary.zh: 印度脱离英国独立，并与巴基斯坦分治。
+summary.es: La India se independizó del Reino Unido y quedó separada de Pakistán.
+summary.hi: भारत ब्रिटेन से स्वतंत्र हुआ और पाकिस्तान से विभाजित हुआ।
+summary.ar: نالت الهند استقلالها عن بريطانيا وانفصلت عنها باكستان.
+summary.fr: L'Inde obtint son indépendance du Royaume-Uni et fut séparée du Pakistan.
+summary.pt: A Índia tornou-se independente do Reino Unido e foi separada do Paquistão.

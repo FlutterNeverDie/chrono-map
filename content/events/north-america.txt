@@ -1,0 +1,94 @@
+# 북아메리카 (north-america) 사건 — 형식은 content/CLAUDE.md 참고
+
+@ columbus-voyage
+when: 1492
+coords: -74.5, 24.1
+category: exploration
+importance: 5
+source: https://ko.wikipedia.org/wiki/크리스토퍼_콜럼버스
+title.ko: 콜럼버스의 아메리카 도달
+title.en: Columbus reaches the Americas
+title.zh: 哥伦布抵达美洲
+title.es: Colón llega a América
+title.hi: कोलंबस का अमेरिका पहुँचना
+title.ar: وصول كولومبوس إلى الأمريكتين
+title.fr: Christophe Colomb atteint l'Amérique
+title.pt: Colombo chega às Américas
+place.ko: 바하마 제도
+place.en: The Bahamas
+place.zh: 巴哈马群岛
+place.es: Bahamas
+place.hi: बहामास
+place.ar: جزر البهاما
+place.fr: Bahamas
+place.pt: Bahamas
+summary.ko: 크리스토퍼 콜럼버스가 대서양을 건너 바하마 제도에 도착했다.
+summary.en: Christopher Columbus crossed the Atlantic and reached the Bahamas.
+summary.zh: 克里斯托弗·哥伦布横渡大西洋，抵达巴哈马群岛。
+summary.es: Cristóbal Colón cruzó el Atlántico y llegó a las Bahamas.
+summary.hi: क्रिस्टोफ़र कोलंबस अटलांटिक पार कर बहामास पहुँचे।
+summary.ar: عبر كريستوفر كولومبوس المحيط الأطلسي ووصل إلى جزر البهاما.
+summary.fr: Christophe Colomb traversa l'Atlantique et atteignit les Bahamas.
+summary.pt: Cristóvão Colombo atravessou o Atlântico e chegou às Bahamas.
+
+@ us-independence
+when: 1776
+coords: -75.15, 39.95
+category: politics
+importance: 5
+source: https://ko.wikipedia.org/wiki/미국_독립_선언
+title.ko: 미국 독립 선언
+title.en: US Declaration of Independence
+title.zh: 美国独立宣言
+title.es: Declaración de Independencia de Estados Unidos
+title.hi: अमेरिकी स्वतंत्रता की घोषणा
+title.ar: إعلان استقلال الولايات المتحدة
+title.fr: Déclaration d'indépendance des États-Unis
+title.pt: Declaração de Independência dos EUA
+place.ko: 필라델피아
+place.en: Philadelphia
+place.zh: 费城
+place.es: Filadelfia
+place.hi: फ़िलाडेल्फ़िया
+place.ar: فيلادلفيا
+place.fr: Philadelphie
+place.pt: Filadélfia
+summary.ko: 북아메리카 13개 식민지가 영국으로부터 독립을 선언했다.
+summary.en: The Thirteen Colonies declared independence from Great Britain.
+summary.zh: 北美十三个殖民地宣布脱离英国独立。
+summary.es: Las Trece Colonias declararon su independencia de Gran Bretaña.
+summary.hi: तेरह उपनिवेशों ने ग्रेट ब्रिटेन से स्वतंत्रता की घोषणा की।
+summary.ar: أعلنت المستعمرات الثلاث عشرة استقلالها عن بريطانيا العظمى.
+summary.fr: Les Treize colonies déclarèrent leur indépendance vis-à-vis de la Grande-Bretagne.
+summary.pt: As Treze Colônias declararam independência da Grã-Bretanha.
+
+@ apollo-11
+when: 1969
+coords: -80.6, 28.57
+category: science
+importance: 5
+source: https://ko.wikipedia.org/wiki/아폴로_11호
+title.ko: 아폴로 11호 달 착륙
+title.en: Apollo 11 Moon landing
+title.zh: 阿波罗11号登月
+title.es: Alunizaje del Apolo 11
+title.hi: अपोलो 11 का चंद्रमा पर उतरना
+title.ar: هبوط أبولو 11 على القمر
+title.fr: Alunissage d'Apollo 11
+title.pt: Pouso da Apollo 11 na Lua
+place.ko: 미국 케네디 우주센터
+place.en: Kennedy Space Center, USA
+place.zh: 美国肯尼迪航天中心
+place.es: Centro Espacial Kennedy, EE. UU.
+place.hi: कैनेडी अंतरिक्ष केंद्र, अमेरिका
+place.ar: مركز كينيدي للفضاء، الولايات المتحدة
+place.fr: Centre spatial Kennedy, États-Unis
+place.pt: Centro Espacial Kennedy, EUA
+summary.ko: 아폴로 11호의 닐 암스트롱과 버즈 올드린이 인류 최초로 달에 착륙했다.
+summary.en: Neil Armstrong and Buzz Aldrin of Apollo 11 became the first humans to land on the Moon.
+summary.zh: 阿波罗11号的尼尔·阿姆斯特朗和巴兹·奥尔德林成为首批登上月球的人类。
+summary.es: Neil Armstrong y Buzz Aldrin, del Apolo 11, fueron los primeros seres humanos en pisar la Luna.
+summary.hi: अपोलो 11 के नील आर्मस्ट्रांग और बज़ एल्ड्रिन चंद्रमा पर उतरने वाले पहले मनुष्य बने।
+summary.ar: أصبح نيل أرمسترونغ وباز ألدرين من رحلة أبولو 11 أول إنسانين يهبطان على القمر.
+summary.fr: Neil Armstrong et Buzz Aldrin, d'Apollo 11, devinrent les premiers humains à marcher sur la Lune.
+summary.pt: Neil Armstrong e Buzz Aldrin, da Apollo 11, tornaram-se os primeiros humanos a pousar na Lua.

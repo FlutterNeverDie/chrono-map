@@ -1,0 +1,63 @@
+# 남아메리카 (south-america) 사건 — 형식은 content/CLAUDE.md 참고
+
+@ cajamarca
+when: 1532
+coords: -78.5, -7.16
+category: war
+importance: 4
+source: https://ko.wikipedia.org/wiki/카하마르카_전투
+title.ko: 카하마르카 전투
+title.en: Battle of Cajamarca
+title.zh: 卡哈马卡战役
+title.es: Batalla de Cajamarca
+title.hi: काखामार्का का युद्ध
+title.ar: معركة كاخاماركا
+title.fr: Bataille de Cajamarca
+title.pt: Batalha de Cajamarca
+place.ko: 페루 카하마르카
+place.en: Cajamarca, Peru
+place.zh: 秘鲁卡哈马卡
+place.es: Cajamarca, Perú
+place.hi: काखामार्का, पेरू
+place.ar: كاخاماركا، بيرو
+place.fr: Cajamarca, Pérou
+place.pt: Cajamarca, Peru
+summary.ko: 프란시스코 피사로가 잉카 황제 아타우알파를 사로잡았다.
+summary.en: Francisco Pizarro captured the Inca emperor Atahualpa.
+summary.zh: 弗朗西斯科·皮萨罗俘虏了印加皇帝阿塔瓦尔帕。
+summary.es: Francisco Pizarro capturó al emperador inca Atahualpa.
+summary.hi: फ़्रांसिस्को पिज़ारो ने इंका सम्राट अताहुआल्पा को बंदी बना लिया।
+summary.ar: أسر فرانسيسكو بيزارو إمبراطور الإنكا أتاوالبا.
+summary.fr: Francisco Pizarro captura l'empereur inca Atahualpa.
+summary.pt: Francisco Pizarro capturou o imperador inca Atahualpa.
+
+@ brazil-independence
+when: 1822
+coords: -46.6, -23.5
+category: politics
+importance: 4
+source: https://ko.wikipedia.org/wiki/브라질의_독립
+title.ko: 브라질 독립
+title.en: Independence of Brazil
+title.zh: 巴西独立
+title.es: Independencia de Brasil
+title.hi: ब्राज़ील की स्वतंत्रता
+title.ar: استقلال البرازيل
+title.fr: Indépendance du Brésil
+title.pt: Independência do Brasil
+place.ko: 브라질
+place.en: Brazil
+place.zh: 巴西
+place.es: Brasil
+place.hi: ब्राज़ील
+place.ar: البرازيل
+place.fr: Brésil
+place.pt: Brasil
+summary.ko: 브라질이 포르투갈로부터 독립을 선언했다.
+summary.en: Brazil declared independence from Portugal.
+summary.zh: 巴西宣布脱离葡萄牙独立。
+summary.es: Brasil declaró su independencia de Portugal.
+summary.hi: ब्राज़ील ने पुर्तगाल से स्वतंत्रता की घोषणा की।
+summary.ar: أعلنت البرازيل استقلالها عن البرتغال.
+summary.fr: Le Brésil proclama son indépendance vis-à-vis du Portugal.
+summary.pt: O Brasil declarou independência de Portugal.
