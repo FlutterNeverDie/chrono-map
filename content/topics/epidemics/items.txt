@@ -1,0 +1,132 @@
+# 역병 지도 항목 — 형식은 content/topics/CLAUDE.md
+# spread: 시기 경도, 위도 | 시기 경도, 위도 …  (발원지에서 퍼져 나간 주요 지점, 대략적인 위치·시기)
+
+@ plague-of-athens
+wikipedia: Plague of Athens
+when: -430 ~ -426
+coords: 23.73, 37.98
+importance: 4
+
+@ antonine-plague
+wikipedia: Antonine Plague
+when: 165 ~ 180
+coords: 44.52, 33.1
+spread: 166 12.48, 41.89 | 168 16.86, 48.11
+importance: 4
+
+@ plague-of-cyprian
+wikipedia: Plague of Cyprian
+when: 249 ~ 262
+coords: 29.92, 31.2
+spread: 250 12.48, 41.89 | 251 10.32, 36.85
+importance: 3
+
+@ plague-of-justinian
+wikipedia: Plague of Justinian
+when: 541 ~ 549
+coords: 32.55, 31.04
+spread: 541 29.92, 31.2 | 542-04 28.98, 41.01 | 543 12.48, 41.89 | 543 4.83, 45.76 | 544 -3.7, 40.42
+importance: 5
+
+@ black-death
+wikipedia: Black Death
+when: 1346 ~ 1353
+coords: 35.38, 45.03
+spread: 1347-05 28.98, 41.01 | 1347-09 29.92, 31.2 | 1347-10 15.55, 38.19 | 1347-11 5.37, 43.3 | 1348-01 8.93, 44.41 | 1348-04 11.25, 43.77 | 1348-06 2.35, 48.86 | 1348-11 -0.13, 51.5 | 1349-05 5.32, 60.39 | 1349-07 8.68, 50.11 | 1350-03 18.07, 59.33 | 1351 28.33, 57.82 | 1353 37.62, 55.75
+importance: 5
+
+@ cocoliztli
+wikipedia: Cocoliztli epidemics
+when: 1545 ~ 1548
+coords: -99.13, 19.43
+importance: 3
+
+@ great-plague-of-london
+wikipedia: Great Plague of London
+when: 1665 ~ 1666
+coords: -0.13, 51.5
+importance: 3
+
+@ first-cholera-pandemic
+wikipedia: 1817–1824 cholera pandemic
+when: 1817 ~ 1824
+coords: 88.36, 22.57
+spread: 1819 79.86, 6.93 | 1820 100.5, 13.75 | 1821 106.85, -6.21 | 1821 58.38, 23.59 | 1821 47.78, 30.5 | 1822 129.87, 32.75 | 1823 48.03, 46.35
+importance: 4
+
+@ third-plague-pandemic
+wikipedia: Third plague pandemic
+when: 1855 ~ 1960
+coords: 102.71, 25.04
+spread: 1894-05 114.17, 22.32 | 1896-09 72.88, 19.08 | 1899 29.92, 31.2 | 1900-03 -122.42, 37.77 | 1900 151.21, -33.87 | 1910 126.65, 45.75
+importance: 4
+
+@ russian-flu
+wikipedia: 1889–1890 pandemic
+when: 1889-10 ~ 1890-12
+coords: 30.31, 59.94
+spread: 1889-12 2.35, 48.86 | 1889-12 -0.13, 51.5 | 1890-01 -73.94, 40.67
+importance: 3
+
+@ spanish-flu
+wikipedia: Spanish flu
+when: 1918-03 ~ 1920-12
+coords: -96.8, 39.06
+spread: 1918-04 -4.49, 48.39 | 1918-05 -3.7, 40.42 | 1918-08 -13.23, 8.48 | 1918-09 -71.06, 42.36 | 1918-09 72.88, 19.08 | 1918-10 18.42, -33.92 | 1918-10 126.98, 37.57 | 1918-11 174.76, -36.85 | 1919-01 151.21, -33.87
+importance: 5
+
+@ asian-flu
+wikipedia: 1957–1958 influenza pandemic
+when: 1957-02 ~ 1958-12
+coords: 106.71, 26.58
+spread: 1957-04 114.17, 22.32 | 1957-05 103.82, 1.35 | 1957-06 -122.42, 37.77 | 1957-09 -0.13, 51.5
+importance: 3
+
+@ hong-kong-flu
+wikipedia: Hong Kong flu
+when: 1968-07 ~ 1969-12
+coords: 114.17, 22.32
+spread: 1968-09 -117.16, 32.72 | 1968-12 2.35, 48.86 | 1969-01 139.69, 35.69
+importance: 3
+
+@ hiv-aids
+wikipedia: HIV/AIDS
+when: 1981-06 ~ 2025-12
+coords: 15.27, -4.32
+spread: 1981-06 -118.24, 34.05 | 1982 -74.01, 40.71 | 1983 2.35, 48.86 | 1985 28.05, -26.2
+importance: 5
+
+@ sars
+wikipedia: 2002–2004 SARS outbreak
+when: 2002-11 ~ 2004-05
+coords: 113.26, 23.13
+spread: 2003-02 114.17, 22.32 | 2003-03 105.85, 21.03 | 2003-03 103.82, 1.35 | 2003-03 -79.38, 43.65 | 2003-04 121.56, 25.03
+importance: 4
+
+@ swine-flu
+wikipedia: 2009 swine flu pandemic
+when: 2009-03 ~ 2010-08
+coords: -97.3, 19.3
+spread: 2009-04 -99.13, 19.43 | 2009-04 -117.16, 32.72 | 2009-05 139.69, 35.69 | 2009-05 126.98, 37.57 | 2009-06 -0.13, 51.5
+importance: 4
+
+@ mers
+wikipedia: Middle East respiratory syndrome
+when: 2012-06 ~ 2015-12
+coords: 39.17, 21.54
+spread: 2014-04 54.37, 24.45 | 2015-05 127.1, 37.0
+importance: 3
+
+@ west-africa-ebola
+wikipedia: Western African Ebola virus epidemic
+when: 2013-12 ~ 2016-06
+coords: -10.07, 8.62
+spread: 2014-03 -13.68, 9.64 | 2014-05 -13.23, 8.48 | 2014-06 -10.8, 6.3 | 2014-07 3.38, 6.45
+importance: 4
+
+@ covid-19
+wikipedia: COVID-19 pandemic
+when: 2019-12 ~ 2023-05
+coords: 114.3, 30.59
+spread: 2020-01 100.5, 13.75 | 2020-01 139.69, 35.69 | 2020-01 126.98, 37.57 | 2020-01 -122.33, 47.61 | 2020-02 128.6, 35.87 | 2020-02 9.19, 45.46 | 2020-02 51.39, 35.69 | 2020-03 -74.01, 40.71 | 2020-03 -3.7, 40.42 | 2020-03 -0.13, 51.5 | 2020-03 -46.63, -23.55 | 2020-04 77.21, 28.61 | 2020-04 28.05, -26.2
+importance: 5

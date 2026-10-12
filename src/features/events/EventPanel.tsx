@@ -10,6 +10,7 @@ import { localeHref } from "@/i18n/locales";
 import { ChevronDownIcon, ChevronUpIcon } from "@/components/ui/icons";
 import { EventList, useRankedEvents } from "./EventList";
 import { CategoryFilter } from "./CategoryFilter";
+import { OtherMaps } from "./OtherMaps";
 
 /**
  * 지도 위에 떠 있는 사건 목록.
@@ -50,6 +51,7 @@ export function EventPanel() {
         </span>
       </button>
       <div className={clsx(open ? "block" : "hidden", "lg:block")}>
+        <OtherMaps />
         <CategoryFilter />
       </div>
       <div

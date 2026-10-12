@@ -10,9 +10,11 @@
     "wars:fetch": "tsx scripts/campaigns/fetch.ts",
     "wars:borders": "tsx scripts/campaigns/borders.ts",
     "wars:build": "tsx scripts/campaigns/build.ts",
-    "predev": "npm run content && npm run wars:build",
+    "topics:fetch": "tsx scripts/topics/fetch.ts",
+    "topics:build": "tsx scripts/topics/build.ts",
+    "predev": "npm run content && npm run wars:build && npm run topics:build",
     "dev": "next dev",
-    "prebuild": "npm run content && npm run wars:build",
+    "prebuild": "npm run content && npm run wars:build && npm run topics:build",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"

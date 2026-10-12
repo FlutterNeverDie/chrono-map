@@ -1,0 +1,240 @@
+# 발명 지도 항목 — 형식은 content/topics/CLAUDE.md
+# 위치는 처음 발명·시연된 곳(대표 지점), 선사시대는 대략적인 시기(precision: approx)
+
+@ control-of-fire
+wikipedia: Control of fire by early humans
+when: -1000000
+precision: approx
+coords: 23.13, -27.83
+importance: 5
+
+@ pottery
+wikipedia: Pottery
+when: -18000
+precision: approx
+coords: 117.04, 28.29
+importance: 4
+
+@ agriculture
+wikipedia: Neolithic Revolution
+when: -10000
+precision: approx
+coords: 40.0, 36.0
+importance: 5
+
+@ wheel
+wikipedia: Wheel
+when: -3500
+precision: approx
+coords: 44.4, 32.5
+importance: 5
+
+@ writing
+wikipedia: Cuneiform
+when: -3200
+precision: approx
+coords: 45.64, 31.32
+importance: 5
+
+@ iron-smelting
+wikipedia: Ferrous metallurgy
+when: -1200
+precision: approx
+coords: 35.0, 39.0
+importance: 4
+
+@ alphabet
+wikipedia: Phoenician alphabet
+when: -1050
+precision: approx
+coords: 35.65, 34.12
+importance: 4
+
+@ paper
+wikipedia: Paper
+when: 105
+coords: 112.45, 34.62
+importance: 5
+
+@ gunpowder
+wikipedia: Gunpowder
+when: 850
+precision: approx
+coords: 108.94, 34.34
+importance: 5
+
+@ compass
+wikipedia: Compass
+when: 1040
+precision: approx
+coords: 113.65, 34.76
+importance: 4
+
+@ movable-type
+wikipedia: Movable type
+when: 1040
+precision: approx
+coords: 114.3, 34.8
+importance: 4
+
+@ jikji
+wikipedia: Jikji
+when: 1377
+coords: 127.49, 36.64
+importance: 4
+
+@ printing-press
+wikipedia: Printing press
+when: 1440
+coords: 8.27, 50.0
+importance: 5
+
+@ hangul
+wikipedia: Hangul
+when: 1443
+coords: 126.98, 37.58
+importance: 4
+
+@ telescope
+wikipedia: Telescope
+when: 1608
+coords: 3.61, 51.5
+importance: 4
+
+@ steam-engine
+wikipedia: Watt steam engine
+when: 1776
+coords: -1.9, 52.48
+importance: 5
+
+@ smallpox-vaccine
+wikipedia: Smallpox vaccine
+when: 1796
+coords: -2.46, 51.69
+importance: 5
+
+@ battery
+wikipedia: Voltaic pile
+when: 1800
+coords: 9.08, 45.81
+importance: 4
+
+@ steam-locomotive
+wikipedia: Steam locomotive
+when: 1804
+coords: -3.38, 51.75
+importance: 4
+
+@ photography
+wikipedia: View from the Window at Le Gras
+when: 1826
+coords: 4.75, 46.78
+importance: 4
+
+@ telegraph
+wikipedia: Electrical telegraph
+when: 1837
+coords: -0.13, 51.5
+importance: 4
+
+@ telephone
+wikipedia: Invention of the telephone
+when: 1876
+coords: -71.06, 42.36
+importance: 5
+
+@ light-bulb
+wikipedia: Incandescent light bulb
+when: 1879
+coords: -74.36, 40.56
+importance: 5
+
+@ automobile
+wikipedia: Benz Patent-Motorwagen
+when: 1886
+coords: 8.47, 49.49
+importance: 5
+
+@ radio
+wikipedia: Invention of radio
+when: 1895
+coords: 11.34, 44.49
+importance: 4
+
+@ airplane
+wikipedia: Wright Flyer
+when: 1903
+coords: -75.67, 36.02
+importance: 5
+
+@ television
+wikipedia: Television
+when: 1927
+coords: -122.42, 37.77
+importance: 4
+
+@ penicillin
+wikipedia: Penicillin
+when: 1928
+coords: -0.17, 51.52
+importance: 5
+
+@ v2-rocket
+wikipedia: V-2 rocket
+when: 1944
+coords: 13.79, 54.14
+importance: 4
+
+@ nuclear-weapon
+wikipedia: Trinity (nuclear test)
+when: 1945
+coords: -106.48, 33.68
+importance: 5
+
+@ eniac
+wikipedia: ENIAC
+when: 1945
+coords: -75.19, 39.95
+importance: 5
+
+@ transistor
+wikipedia: Transistor
+when: 1947
+coords: -74.4, 40.68
+importance: 5
+
+@ icbm
+wikipedia: R-7 Semyorka
+when: 1957
+coords: 63.3, 45.92
+importance: 4
+
+@ sputnik
+wikipedia: Sputnik 1
+when: 1957
+coords: 63.34, 45.96
+importance: 5
+
+@ arpanet
+wikipedia: ARPANET
+when: 1969
+coords: -118.44, 34.07
+importance: 5
+
+@ world-wide-web
+wikipedia: World Wide Web
+when: 1989
+coords: 6.05, 46.23
+importance: 5
+
+@ smartphone
+wikipedia: IPhone (1st generation)
+when: 2007
+coords: -122.03, 37.33
+importance: 4
+
+@ chatgpt
+wikipedia: ChatGPT
+when: 2022
+coords: -122.42, 37.77
+importance: 4

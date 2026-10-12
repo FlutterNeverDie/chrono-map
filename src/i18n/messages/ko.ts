@@ -3,6 +3,14 @@ export const ko = {
   metaTitle: "크로노맵 — 연도별 세계사 지도",
   metaDescription:
     "연도 게이지를 움직여 같은 시기 세계 각 지역의 역사를 한눈에 보세요.",
+  maps: {
+    now: "이 시기",
+    all: "전체",
+    count: "{n}건",
+    empty: "이 시기에 표시할 항목이 없어요",
+    origin: "발원지",
+    latest: "최근 등장",
+  },
   wars: {
     tab: "전쟁 지도",
     indexTitle: "전쟁 지도",
@@ -105,6 +113,7 @@ export const ko = {
     readMore: "위키백과에서 계속 읽기",
     details: "자세히",
     collapse: "접기",
+    otherMaps: "이 시기의 다른 지도",
     close: "닫기",
     allCategories: "전체",
     category: "분류",

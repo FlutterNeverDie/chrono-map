@@ -1,0 +1,23 @@
+# 주제 지도 설정 — 형식은 content/topics/CLAUDE.md
+order: 1
+mode: span
+scale: -430, 500, 1300, 1700, 1850, 1950, 2025
+show-month-from: 1800
+view: 40, 30, 1
+color: #b4232a
+title.ko: 역병 지도
+title.en: Epidemics map
+title.zh: 瘟疫地图
+title.es: Mapa de epidemias
+title.hi: महामारी मानचित्र
+title.ar: خريطة الأوبئة
+title.fr: Carte des épidémies
+title.pt: Mapa das epidemias
+description.ko: 흑사병부터 코로나19까지, 인류 역사에 큰 흔적을 남긴 전염병이 어디서 시작해 어떻게 퍼졌는지 지도로 보세요.
+description.en: From the Black Death to COVID-19, see where history's great epidemics began and how they spread.
+description.zh: 从黑死病到新冠疫情，在地图上查看人类历史上重大传染病的起源与传播。
+description.es: De la peste negra a la COVID-19: mira en un mapa dónde empezaron las grandes epidemias de la historia y cómo se propagaron.
+description.hi: ब्लैक डेथ से कोविड-19 तक, देखें कि इतिहास की बड़ी महामारियाँ कहाँ शुरू हुईं और कैसे फैलीं।
+description.ar: من الموت الأسود إلى كوفيد-19، شاهد على الخريطة أين بدأت أكبر أوبئة التاريخ وكيف انتشرت.
+description.fr: De la peste noire au COVID-19, voyez où sont nées les grandes épidémies de l'histoire et comment elles se sont propagées.
+description.pt: Da peste negra à COVID-19, veja onde começaram as grandes epidemias da história e como se espalharam.

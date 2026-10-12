@@ -119,7 +119,9 @@ export function BattlePanel() {
       >
         {war && tab === "now" && (
           <div className="mb-3 rounded-lg bg-chip/60 p-4">
-            <h2 className="text-lg font-bold lg:text-2xl">{campaignTitle(c, locale)}</h2>
+            <h2 className="text-lg font-bold lg:text-2xl">
+              {campaignTitle(c, locale)}
+            </h2>
             <p className="mt-0.5 text-sm text-muted">
               {formatRange(c.start, c.end, c.unit, locale)}
             </p>

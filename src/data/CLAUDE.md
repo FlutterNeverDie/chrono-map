@@ -7,6 +7,7 @@
 - `viewpoints.ts`: 지도 시점 8개(id, 가운데 경도, 가까운 지역 순서). 이름은 i18n 사전 `viewpoints`. 버튼 순서는 경도 순으로 자동 정렬(지도 왼쪽 → 오른쪽: 북미, 남미, 서유럽 … 동아시아, 오세아니아).
 - `categories.ts`: 사건 카테고리 목록.
 - `eras.json`: 시대 정의(게이지 레이블).
+- `mapMarkers.ts`: 본 지도 하단 띠·"이 시기의 다른 지도"용 표식. 작은 색인(`campaign-index.json`, `topic-index.json`)만 읽는다 — 지도가 추가되면 자동 반영. `MAP_LANES`(띠 목록), `MAP_MARKERS`, `markersIn(from, to)`.
 
 ## 규칙
 

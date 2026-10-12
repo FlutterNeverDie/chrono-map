@@ -1,0 +1,22 @@
+# 주제 지도 설정 — 형식은 content/topics/CLAUDE.md
+order: 2
+mode: persist
+scale: -1000000, -10000, -3000, 0, 1000, 1500, 1800, 1900, 1950, 2025
+view: 60, 30, 1
+color: #1f6feb
+title.ko: 발명 지도
+title.en: Inventions map
+title.zh: 发明地图
+title.es: Mapa de inventos
+title.hi: आविष्कार मानचित्र
+title.ar: خريطة الاختراعات
+title.fr: Carte des inventions
+title.pt: Mapa das invenções
+description.ko: 불과 문자부터 비행기와 미사일, 인터넷까지, 인류의 대표 발명이 언제 어디서 나왔는지 지도로 보세요.
+description.en: From fire and writing to airplanes, missiles and the internet, see when and where humanity's landmark inventions appeared.
+description.zh: 从火与文字到飞机、导弹和互联网，在地图上查看人类代表性发明出现的时间和地点。
+description.es: Del fuego y la escritura a los aviones, los misiles e internet: mira cuándo y dónde surgieron los grandes inventos.
+description.hi: आग और लेखन से हवाई जहाज़, मिसाइल और इंटरनेट तक — देखें कि मानवता के बड़े आविष्कार कब और कहाँ हुए।
+description.ar: من النار والكتابة إلى الطائرات والصواريخ والإنترنت، شاهد متى وأين ظهرت أبرز اختراعات البشرية.
+description.fr: Du feu et de l'écriture à l'avion, aux missiles et à Internet : voyez quand et où sont nées les grandes inventions.
+description.pt: Do fogo e da escrita ao avião, aos mísseis e à internet: veja quando e onde surgiram as grandes invenções.

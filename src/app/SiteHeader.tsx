@@ -4,15 +4,18 @@ import { useState, type ReactNode } from "react";
 import clsx from "clsx";
 import { useI18n } from "@/i18n/I18nProvider";
 import { LanguageSelect } from "@/i18n/LanguageSelect";
-import { localePath } from "@/i18n/locales";
+import { localeHref, localePath } from "@/i18n/locales";
+import { pick } from "@/lib/localize";
+import topicIndex from "@/data/generated/topic-index.json";
 import { WarsDialog } from "@/features/campaign";
 import { ThemeToggle } from "@/components/ui/ThemeToggle";
 
-export type SiteSection = "chronomap" | "wars";
+/** "chronomap" | "wars" | "map:<주제 지도 id>" */
+export type SiteSection = string;
 
 /**
  * 모든 지도 화면이 같이 쓰는 상단 바.
- * 왼쪽: 지도 탭(크로노맵 링크 / 전쟁 지도 = 목록 대화상자) · 가운데: 화면별 도구(children) · 오른쪽: 언어·테마 설정
+ * 왼쪽: 지도 탭(크로노맵 / 전쟁 지도 = 목록 대화상자 / 주제 지도들) · 가운데: 화면별 도구(children) · 오른쪽: 언어·테마 설정
  * 모바일은 [탭 | 설정] 한 줄 + 도구 한 줄.
  */
 export function SiteHeader({
@@ -37,7 +40,7 @@ export function SiteHeader({
 
   return (
     <div className="pointer-events-none absolute inset-x-0 top-0 z-30 flex flex-wrap items-start gap-2 p-3 lg:flex-nowrap lg:gap-3">
-      <nav className="pointer-events-auto flex h-12 shrink-0 items-center gap-0.5 rounded-lg border border-line bg-surface/95 p-1 backdrop-blur">
+      <nav className="pointer-events-auto flex h-12 max-w-full shrink-0 items-center gap-0.5 overflow-x-auto rounded-lg border border-line bg-surface/95 p-1 backdrop-blur [scrollbar-width:none] max-lg:max-w-[calc(100%-9.5rem)]">
         <a
           href={localePath(locale)}
           aria-current={current === "chronomap" ? "page" : undefined}
@@ -55,6 +58,19 @@ export function SiteHeader({
         >
           {messages.wars.tab}
         </button>
+        {/* 주제 지도 탭: content/topics에 지도를 추가하면 자동으로 늘어난다 */}
+        {(topicIndex as { id: string; title: Record<string, string> }[]).map(
+          (t) => (
+            <a
+              key={t.id}
+              href={localeHref(locale, `maps/${t.id}`)}
+              aria-current={current === `map:${t.id}` ? "page" : undefined}
+              className={tabClass(current === `map:${t.id}`)}
+            >
+              {pick(t.title, locale)}
+            </a>
+          ),
+        )}
       </nav>
       <WarsDialog
         open={warsOpen}

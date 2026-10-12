@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { EVENTS } from "@/data/content";
 import { CAMPAIGNS } from "@/features/campaign/data";
+import { TOPICS } from "@/features/topic/data";
 import { LOCALES, localeHref } from "@/i18n/locales";
 import { SITE_URL } from "./site";
 
@@ -14,6 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "about",
     "privacy",
     ...CAMPAIGNS.map((c) => `wars/${c.id}`),
+    ...TOPICS.map((t) => `maps/${t.id}`),
     ...EVENTS.map((e) => `event/${e.id}`),
   ];
   return paths.flatMap((path) =>

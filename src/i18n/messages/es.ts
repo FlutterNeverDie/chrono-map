@@ -5,6 +5,14 @@ export const es: Messages = {
   metaTitle: "ChronoMap — Mapa de la historia mundial por año",
   metaDescription:
     "Desliza por el tiempo y descubre qué ocurría en cada región del mundo en el mismo año.",
+  maps: {
+    now: "Este periodo",
+    all: "Todo",
+    count: "{n}",
+    empty: "Nada que mostrar en este periodo",
+    origin: "Origen",
+    latest: "Más recientes",
+  },
   wars: {
     tab: "Mapas de guerras",
     indexTitle: "Mapas de guerras",
@@ -107,6 +115,7 @@ export const es: Messages = {
     readMore: "Seguir leyendo en Wikipedia",
     details: "Detalles",
     collapse: "Ver menos",
+    otherMaps: "Otros mapas de este periodo",
     close: "Cerrar",
     allCategories: "Todo",
     category: "Categoría",

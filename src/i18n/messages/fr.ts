@@ -5,6 +5,14 @@ export const fr: Messages = {
   metaTitle: "ChronoMap — Carte de l'histoire mondiale par année",
   metaDescription:
     "Faites défiler le temps et découvrez ce qui se passait dans chaque région du monde la même année.",
+  maps: {
+    now: "Cette période",
+    all: "Tout",
+    count: "{n}",
+    empty: "Rien à afficher pour cette période",
+    origin: "Origine",
+    latest: "Les plus récents",
+  },
   wars: {
     tab: "Cartes des guerres",
     indexTitle: "Cartes des guerres",
@@ -107,6 +115,7 @@ export const fr: Messages = {
     readMore: "Lire la suite sur Wikipédia",
     details: "Détails",
     collapse: "Réduire",
+    otherMaps: "Autres cartes de cette période",
     close: "Fermer",
     allCategories: "Tout",
     category: "Catégorie",

@@ -4,6 +4,14 @@ export const zh: Messages = {
   siteName: "ChronoMap",
   metaTitle: "ChronoMap — 按年份浏览的世界历史地图",
   metaDescription: "拖动年份滑块，一览同一时期世界各地发生的历史事件。",
+  maps: {
+    now: "当前时期",
+    all: "全部",
+    count: "{n} 项",
+    empty: "这一时期没有可显示的项目",
+    origin: "起源地",
+    latest: "最新出现",
+  },
   wars: {
     tab: "战争地图",
     indexTitle: "战争地图",
@@ -106,6 +114,7 @@ export const zh: Messages = {
     readMore: "在维基百科上继续阅读",
     details: "详情",
     collapse: "收起",
+    otherMaps: "这一时期的其他地图",
     close: "关闭",
     allCategories: "全部",
     category: "分类",

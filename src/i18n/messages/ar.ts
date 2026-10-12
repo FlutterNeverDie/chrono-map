@@ -5,6 +5,14 @@ export const ar: Messages = {
   metaTitle: "ChronoMap — خريطة تاريخ العالم حسب السنة",
   metaDescription:
     "تنقّل عبر الزمن واكتشف ما كان يحدث في كل منطقة من العالم في السنة نفسها.",
+  maps: {
+    now: "هذه الفترة",
+    all: "الكل",
+    count: "{n}",
+    empty: "لا شيء لعرضه في هذه الفترة",
+    origin: "المنشأ",
+    latest: "الأحدث",
+  },
   wars: {
     tab: "خرائط الحروب",
     indexTitle: "خرائط الحروب",
@@ -107,6 +115,7 @@ export const ar: Messages = {
     readMore: "تابع القراءة في ويكيبيديا",
     details: "التفاصيل",
     collapse: "عرض أقل",
+    otherMaps: "خرائط أخرى لهذه الفترة",
     close: "إغلاق",
     allCategories: "الكل",
     category: "التصنيف",

@@ -1,0 +1,743 @@
+{
+  "Plague of Athens": {
+    "pages": {
+      "ko": {
+        "title": "아테네 역병",
+        "extract": "아테네 역병(헬라어: Λοιμός τῶν Ἀθηνῶν Loimos tôn Athênôn; 영어: Plague of Athens)은 펠로폰네소스 전쟁(기원전 430년) 2년차에 아테네의 승리가 눈 앞에 있을 때 아테네 국가 자체를 황폐화 시켰던 전염병이다. 이 전염병으로 인해 약 75,000명에서 100,000명이 사망했다. 이 전염병은 아테네 주요 항구이자 유일한 식량 공급원인 피레우스(Piraeus)를 통해서 아테네의 주요 도시로 퍼진 것으로 추정된다. 많은 동부 지중해의 지역에서 동일 질병이 발생했지만, 아테네만큼 큰 영향을 끼치지는 않았다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%95%84%ED%85%8C%EB%84%A4_%EC%97%AD%EB%B3%91"
+      },
+      "en": {
+        "title": "Plague of Athens",
+        "extract": "The Plague of Athens was an epidemic that devastated the city-state of Athens in ancient Greece during the second year of the Peloponnesian War when an Athenian victory still seemed within reach. The plague killed an estimated 75,000 to 100,000 people, around 25% of the population, and is believed to have entered Athens through Piraeus, the city's port and sole source of food and supplies. Thucydides, an Athenian survivor, wrote that much of the eastern Mediterranean also saw an outbreak of the disease, albeit with less impact.",
+        "url": "https://en.wikipedia.org/wiki/Plague_of_Athens"
+      },
+      "zh": {
+        "title": "雅典大瘟疫",
+        "extract": "雅典大瘟疫是一场在大约公元前430年左右爆发的一场瘟疫，发生在伯罗奔尼撒战争的第二年，几乎摧毁了希腊城邦，据说这场瘟疫导致将近过半的古希腊人惨死当中。一般认为瘟疫是从比雷埃夫斯进入雅典的，比雷埃夫斯是雅典的港口，也是唯一食物及补给的来源。地中海东部的许多地区也有发生瘟疫，但影响较小。瘟疫后来又在公元前429年及西元前427（426）年的冬天出现。目前提出可能造成这次瘟疫的病原体已达30种。",
+        "url": "https://zh.wikipedia.org/wiki/%E9%9B%85%E5%85%B8%E5%A4%A7%E7%98%9F%E7%96%AB"
+      },
+      "es": {
+        "title": "Plaga de Atenas",
+        "extract": "La plaga de Atenas o peste de Atenas fue una epidemia devastadora que afectó principalmente a la ciudad-estado de Atenas en el año 430 a. C., en el segundo año de la guerra del Peloponeso. Se cree que debió llegar a Atenas a través de El Pireo, el puerto de la ciudad y única fuente de comida y suministros. La ciudad-estado de Esparta y gran parte del Mediterráneo oriental también fueron afectados por la epidemia, aunque en menor medida. La plaga volvió en dos ocasiones, en el 429 a. C. y en el invierno del 426 y 425 a. C.",
+        "url": "https://es.wikipedia.org/wiki/Plaga_de_Atenas"
+      },
+      "ar": {
+        "title": "طاعون أثينا",
+        "extract": "طاعون أثينا  هو الوباء الذي دمر دولة مدينة أثينا قديما في اليونان خلال السنة الثانية من الحرب البيلوبونيسية عندما انتصار الأثينيين. قتل الطاعون ما يقدر بنحو 75,000 إلى 100,000 شخص، أي حوالي ربع السكان، ويُعتقد أنه دخل أثينا عبر بيرايوس، ميناء المدينة والمصدر الوحيد للغذاء والإمدادات. كما شهِد جزء كبير من شرق البحر الأبيض المتوسط تفشي المرض، وإن كان تأثيره أقل.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%B7%D8%A7%D8%B9%D9%88%D9%86_%D8%A3%D8%AB%D9%8A%D9%86%D8%A7"
+      },
+      "fr": {
+        "title": "Peste d'Athènes",
+        "extract": "La peste d'Athènes est le nom sous lequel est désignée une épidémie qui toucha par vagues la Grèce antique de 430 à 426 av. J.-C. Elle éclata au début de la saison chaude et sèche de 430, s'affaiblit et modéra ses atteintes pendant deux ans, fut endémique en 428 et 427, avec une recrudescence au début de l'hiver 427, pour disparaître dans les derniers mois de l'an 426. Elle a été rapportée par Thucydide, dans le Livre II de La Guerre du Péloponnèse, dans un texte d'importance emblématique qui n'a cessé de susciter l'intérêt des philosophes, des historiens et des médecins.",
+        "url": "https://fr.wikipedia.org/wiki/Peste_d'Ath%C3%A8nes"
+      },
+      "pt": {
+        "title": "Peste de Atenas",
+        "extract": "A Peste de Atenas, a Praga de Atenas ou a Peste do Egito foi uma epidemia que ocorreu pela primeira vez em 430 a.C. em Atenas, Grécia, durante o segundo ano da Guerra do Peloponeso.",
+        "url": "https://pt.wikipedia.org/wiki/Peste_de_Atenas"
+      }
+    }
+  },
+  "Antonine Plague": {
+    "pages": {
+      "ko": {
+        "title": "안토니누스 역병",
+        "extract": "안토니누스 역병(영어: The Antonine Plague)은 165년에서 180년 사이에 발생한 전염병이다. 갈렌의 전염병(Plague of Galen)이라고도 부르는데, 로마 제국에 거주하던 그리스 의사이자 작가인 갈렌이 이를 기술했기 때문이다. 로마 군대가 로마-파르티아 전쟁 중에 로마 전역에 복귀한 군인들로 인해 로마 전역에 전염병이 퍼지게 되었다. 학자들은 천연두 혹은 홍역으로 생각하고 있지만, 실제 원인은 완전히 규명되지 않았다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%95%88%ED%86%A0%EB%8B%88%EB%88%84%EC%8A%A4_%EC%97%AD%EB%B3%91"
+      },
+      "en": {
+        "title": "Antonine Plague",
+        "extract": "The Antonine Plague of AD 165 to 180, also known as the Plague of Galen, was a prolonged and destructive epidemic, which affected the Roman Empire. It was possibly contracted and spread by soldiers who were returning from a campaign in the Near East.",
+        "url": "https://en.wikipedia.org/wiki/Antonine_Plague"
+      },
+      "zh": {
+        "title": "安東尼大瘟疫",
+        "extract": "发生于约公元165年至180年的安东尼大瘟疫，也被称为盖伦瘟疫（以描述它的医生盖伦命名），是已知的第一个影响罗马帝国的流行病，可能是由从近东地区战役中返回的士兵感染和传播的。学者们普遍认为该次瘟疫主要以天花或麻疹所致。瘟疫可能夺去了罗马皇帝维鲁斯的生命，他于169年去世，与马可·奥勒留系共同摄政王。两位皇帝皆因被前任皇帝安东尼·皮乌斯所收养而登上王位，因此他们的姓氏安东尼（Antoninus）与大流行有关。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%AE%89%E6%9D%B1%E5%B0%BC%E5%A4%A7%E7%98%9F%E7%96%AB"
+      },
+      "es": {
+        "title": "Peste antonina",
+        "extract": "La peste antonina, 165-180, conocida también como la plaga de Galeno, porque fue este médico quien la describió, fue una epidemia de viruela o sarampión que afectó al Imperio romano. Fue llevada por las tropas que regresaban de la guerra pártica de Lucio Vero en Mesopotamia. La epidemia pudo causar la muerte del emperador romano Lucio Vero, quien falleció en 169 como corregente de Marco Aurelio, cuyo nombre de familia «Antonino» quedó asociado a la pandemia. La enfermedad volvió a estallar nueve años más tarde, según el historiador romano Dion Casio, y causó hasta 2000 muertes por día en Roma, una cuarta parte de las personas infectadas murió por ella. Se ha estimado que perecieron cinco millones de personas en total, aproximadamente un tercio de la población en algunas zonas, y, además, diezmó al ejército romano.",
+        "url": "https://es.wikipedia.org/wiki/Peste_antonina"
+      },
+      "ar": {
+        "title": "الطاعون الأنطوني",
+        "extract": "الطاعون الأنطوني هو وباء ضرب الإمبراطورية الرومانية في نهاية السلالة الأنطونية، خلال عهد ماركوس أوريليوس وخلفه كومودوس، بين سنتي 165 و190 م. حيث أرجع هذا الوباء أو بالأحرى الجائحة إلى الإمبراطورية الرومانية من طرف القوات العائدين من الحملات التي قاموا بها في الشرق الأدنى.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%B7%D8%A7%D8%B9%D9%88%D9%86_%D8%A7%D9%84%D8%A3%D9%86%D8%B7%D9%88%D9%86%D9%8A"
+      },
+      "fr": {
+        "title": "Peste antonine",
+        "extract": "On appelle peste antonine l’épidémie qui frappa l’Empire romain à la fin de la dynastie antonine, durant les règnes de Marc Aurèle et Commode, entre 165 et 190. Elle doit son surnom « antonine » à la dynastie qui dirigeait alors l'Empire romain : les Antonins. Les historiens anglais la nomment parfois aussi Galenic plague du nom de Galien, le célèbre médecin de l'époque. Malgré son appellation de peste, il s'agissait probablement plutôt d'une fièvre hémorragique ou d'un typhus. Cette peste fait l'objet de débats quant à sa contribution au déclin de l'Empire romain.",
+        "url": "https://fr.wikipedia.org/wiki/Peste_antonine"
+      },
+      "pt": {
+        "title": "Peste antonina",
+        "extract": "A peste antonina ou peste dos Antoninos, de 165 a 180 da era cristã, também conhecida como Peste de Galeno, foi uma epidemia prolongada e devastadora que assolou o Império Romano na segunda metade do século II. É provável que tenha sido contraída e disseminada por soldados que retornavam de campanhas no Oriente Próximo. Os estudiosos geralmente acreditam que a praga tenha sido varíola, devido às erupções cutâneas vermelhas e negras que cobriam todo o corpo (Horgan), embora o sarampo também tenha sido sugerido. Evidências genéticas recentes indicam fortemente que a forma mais grave de varíola surgiu na Europa muito mais tarde. Até o momento, não há evidências genéticas provenientes da Peste Antonina.",
+        "url": "https://pt.wikipedia.org/wiki/Peste_antonina"
+      }
+    }
+  },
+  "Plague of Cyprian": {
+    "pages": {
+      "ko": {
+        "title": "키프로스 역병",
+        "extract": "키프로스 역병(영어: Plague of Cyprian)은 서기 250년에서 270년까지 로마 제국을 괴롭힌 전염병이다. 에티오피아에서 최초 발병했다고 알려져 있다. 키프로스 역병은 에티오피아에서 그리스를 거쳐 시리아를 지나 로마 제국에서 크게 발병했다.",
+        "url": "https://ko.wikipedia.org/wiki/%ED%82%A4%ED%94%84%EB%A1%9C%EC%8A%A4_%EC%97%AD%EB%B3%91"
+      },
+      "en": {
+        "title": "Plague of Cyprian",
+        "extract": "The Plague of Cyprian was a pandemic which afflicted the Roman Empire from about AD 249 to 262, or 251/2 to 270. The plague is thought to have caused widespread manpower shortages for food production and the Roman army, severely weakening the empire during the Crisis of the Third Century. Its modern name refers to Cyprian, a bishop of Carthage and early Christian writer who documented the plague in his treatise On the Plague. Its pathogen has not been identified; possibilities include smallpox, measles, and viral hemorrhagic fever. Cyprian noted that the plague attacked the \"just and unjust\" alike, and the response to it has strong ties to Christian beliefs and religion.",
+        "url": "https://en.wikipedia.org/wiki/Plague_of_Cyprian"
+      },
+      "zh": {
+        "title": "西普里安瘟疫",
+        "extract": "西普里安瘟疫 是一场大流行病，大约在公元249年至262年 或251/2至270年间发生于罗马帝国。人们普遍认为瘟疫造成粮食生产和罗马军队的广泛人力短缺，在三世纪危机严重削弱了帝国。 它的现代名称是为纪念早期的基督教作家迦太基主教圣西普里安，他见证并描述了瘟疫。 由于来源稀少，瘟疫的诱因并不能确定，但病因可能有包括天花，流行性流感和埃博拉出血热等病毒。罗马皇帝克劳狄二世可能染上了此次瘟疫而于270年病逝。",
+        "url": "https://zh.wikipedia.org/wiki/%E8%A5%BF%E6%99%AE%E9%87%8C%E5%AE%89%E7%98%9F%E7%96%AB"
+      },
+      "es": {
+        "title": "Peste cipriana",
+        "extract": "La peste cipriana o de Cipriano es el nombre que se da a una pandemia que afligió al Imperio romano desde alrededor del año 249 hasta el 269. Se cree que la epidemia causó escasez de mano de obra para la producción de comida y también en el ejército romano, debilitando gravemente al imperio durante la crisis del siglo III. Su nombre moderno conmemora a san Cipriano, obispo de Cartago, un antiguo escritor cristiano que fue testigo y describió la plaga. Se especula sobre cuál sería el concreto agente de la plaga, debido a lo escaso de las fuentes, pero entre los sospechosos se encuentran la viruela, la gripe y la fiebre hemorrágica viral (filovirus), como el virus del Ébola.",
+        "url": "https://es.wikipedia.org/wiki/Peste_cipriana"
+      },
+      "ar": {
+        "title": "طاعون قبرص",
+        "extract": "طاعون قبرص هو جائحة أصابت الإمبراطورية الرومانية في الفترة من 249 إلى 262. يُعتقد أن الطاعون تسبب في نقص كبير في القوى العاملة لإنتاج الغذاء والجيش الروماني، مما أدى إلى إضعاف الإمبراطورية بشدة خلال أزمة القرن الثالث. تذكر المصادر أحداثًا متضاربة حول هذا الطاعون، ومن أشهر المصادر ما جاء في كتابات قبريانوس القرطاجي أسقف قرطاج الذي شهد ووصف الطاعون.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%B7%D8%A7%D8%B9%D9%88%D9%86_%D9%82%D8%A8%D8%B1%D8%B5"
+      },
+      "fr": {
+        "title": "Peste de Cyprien",
+        "extract": "La peste de Cyprien est le nom traditionnel d'une épidémie qui toucha diverses régions de l'Empire romain durant le IIIe siècle et pour laquelle Cyprien, évêque de Carthage, principal commentateur de cette pandémie, évoqua une vengeance divine.",
+        "url": "https://fr.wikipedia.org/wiki/Peste_de_Cyprien"
+      },
+      "pt": {
+        "title": "Peste de Cipriano",
+        "extract": "A Peste ou Praga de Cipriano é o nome atribuído a uma pandemia, provavelmente de varíola ou sarampo, que afligiu o Império Romano por duas décadas durante a Crise do terceiro século. Sua origem é desconhecida, embora os autores clássicos tenham postulado que fosse a Etiópia. Seu nome deriva do Bispo Cipriano de Cartago que descreveu-a ca. 250. Ela afetou inúmeras cidades populosas do período como Alexandria, no Egito, e Roma, na Itália, ceifando milhares de vidas.",
+        "url": "https://pt.wikipedia.org/wiki/Peste_de_Cipriano"
+      }
+    }
+  },
+  "Plague of Justinian": {
+    "pages": {
+      "ko": {
+        "title": "유스티니아누스 페스트",
+        "extract": "유스티니아누스 페스트(Plague of Justinian)는 541년에서 542년까지 동로마 제국, 사산 제국, 그리고 지중해 연안 전역에 걸쳐 발생한 페스트 범유행이다. 역사상 가장 끔찍한 페스트 범유행 중 하나였으며, 2천 5백만 ~ 5천만 명의 사람이 사망했다. 유스티니아누스 자신도 이 병에 걸렸지만, 살아남았다고 한다. 유스티니아누스 페스트는 750년 경까지 이어지는 제1차 페스트 범유행의 시작이었다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%9C%A0%EC%8A%A4%ED%8B%B0%EB%8B%88%EC%95%84%EB%88%84%EC%8A%A4_%ED%8E%98%EC%8A%A4%ED%8A%B8"
+      },
+      "en": {
+        "title": "Plague of Justinian",
+        "extract": "The plague of Justinian or Justinianic plague was an epidemic of plague that afflicted the entire Mediterranean Basin, Europe, and the Near East, especially the Sasanian Empire and the Byzantine Empire. The plague is named for the Byzantine Emperor Justinian I who, according to his court historian Procopius, contracted the disease and recovered in 542, at the height of the epidemic which killed about a fifth of the population in the imperial capital Constantinople. The contagion arrived in Roman Egypt in 541, spread around the Mediterranean Sea until 544, and persisted in Northern Europe and the Arabian Peninsula until 549. By 543, the plague had spread to every corner of Justinian's empire.",
+        "url": "https://en.wikipedia.org/wiki/Plague_of_Justinian"
+      },
+      "zh": {
+        "title": "查士丁尼大瘟疫",
+        "extract": "查士丁尼大瘟疫 是公元541至549年影响了整个地中海盆地、欧洲和近东地区，特别是东罗马帝国和它的死敌萨珊波斯帝国的一场腺鼠疫瘟疫。这场大瘟疫以时任东罗马皇帝查士丁尼一世的名字命名。根据他的宫廷历史学家普罗科匹厄斯的说法，查士丁尼感染了这种疾病但于542年康复，当时正值疫情最严重时期，帝国首都君士坦丁堡约五分之一的人口死亡。",
+        "url": "https://zh.wikipedia.org/wiki/%E6%9F%A5%E5%A3%AB%E4%B8%81%E5%B0%BC%E5%A4%A7%E7%98%9F%E7%96%AB"
+      },
+      "es": {
+        "title": "Plaga de Justiniano",
+        "extract": "La plaga de Justiniano fue una pandemia que afectó al Imperio romano de Oriente o Imperio bizantino, incluyendo a la ciudad de Constantinopla y otras partes de Europa, Asia y África entre los años 541 y 750. Es el inicio de la Primera pandemia de peste conocida. Se calcula que, entre estos años, la población de esos continentes perdió entre 25 y 50 millones de personas, es decir, entre el 13 % y el 26 % de la población estimada en el siglo VI. Se ha llegado a considerar como una de las más grandes plagas de la historia. Se supone que la causa fue la peste bubónica, y las investigaciones más recientes confirman que se trata de la misma plaga bubónica relacionada con las infecciones actuales o de la época medieval. Al menos dieciocho olas de peste se extendieron por la cuenca del Mediterráneo hacia áreas distantes como Persia e Irlanda entre 541 y 750.El primer brote fue del 541-4 en el Mediterráneo y hasta 549 en el norte de Europa.",
+        "url": "https://es.wikipedia.org/wiki/Plaga_de_Justiniano"
+      },
+      "ar": {
+        "title": "طاعون جستنيان",
+        "extract": "طاعون جستنيان أو وباء جستنيان : وباء أصاب الإمبراطورية البيزنطية وخاصة عاصمتها القسطنطينية، وكذلك الإمبراطورية الساسانية والمدن الساحلية حول البحر الأبيض المتوسط بأكمله، حيث كانت السفن التجارية تؤوي الفئران التي تحمل البراغيث المصابة بالطاعون.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%B7%D8%A7%D8%B9%D9%88%D9%86_%D8%AC%D8%B3%D8%AA%D9%86%D9%8A%D8%A7%D9%86"
+      },
+      "fr": {
+        "title": "Peste de Justinien",
+        "extract": "La peste de Justinien, dite aussi pestis inguinaria ou pestis glandularia en latin, est la première pandémie connue de peste, survenue de 541 à 767, dans tout le bassin méditerranéen et le Moyen-Orient.",
+        "url": "https://fr.wikipedia.org/wiki/Peste_de_Justinien"
+      },
+      "pt": {
+        "title": "Praga de Justiniano",
+        "extract": "A praga de Justiniano ou peste de Justiniano foi uma pandemia, ocorrida no reinado do imperador Justiniano I (r. 527–565), causada pela peste bubônica que afetou o mundo mediterrâneo, com maior incidência no Império Bizantino entre os anos de 541 e 544.",
+        "url": "https://pt.wikipedia.org/wiki/Praga_de_Justiniano"
+      }
+    }
+  },
+  "Black Death": {
+    "pages": {
+      "ko": {
+        "title": "흑사병",
+        "extract": "흑사병(黑死病, 영어: Black Death, Pestilence, Great Plague, Plague, Black Plague)은 14세기 유럽에서 7,500만~2억 명의 목숨을 앗아간 인류사상 최악의 범유행이다. 흑사병 병원균에 관한 많은 이설이 있었으나 2010년~2011년 남유럽인들을 대상으로 수행한 DNA 분석 결과 페스트의 병원균인 페스트균이 흑사병의 병원균으로 밝혀졌다.",
+        "url": "https://ko.wikipedia.org/wiki/%ED%9D%91%EC%82%AC%EB%B3%91"
+      },
+      "en": {
+        "title": "Black Death",
+        "extract": "The Black Death was a plague pandemic that occurred in Europe from 1346 to 1353. It was one of the most fatal pandemics in human history, leading to the death of up to 50 million people, around 30% to 60% of the European population and approximately 33% of the Middle Eastern population. The disease was caused by the bacterium Yersinia pestis, which is primarily spread by flea bites, though it may also spread through contact with infected tissues or fluids and, in pneumonic cases, through respiratory droplets.",
+        "url": "https://en.wikipedia.org/wiki/Black_Death"
+      },
+      "zh": {
+        "title": "黑死病",
+        "extract": "黑死病 是人类历史上最严重的瘟疫，于1347–1353年间在欧亚非大陆上流行，是第二次鼠疫大流行的开端。一般认为，该病起源于亚洲：一说起源于中亚（天山山脉附近）、一说起源东亚（大元帝国）。1346年该病已经开始在东方流行，1347年金帐汗国可汗札尼别的蒙古军队在攻打黑海城市卡法时引发了疾病的大规模传播。此病约在14世纪40年代散布到整个欧洲，这场瘟疫在全世界造成了大约7500万-2亿人死亡，是人类历史上致死人数最多的流行病；根据估计，瘟疫爆发期间的中世纪欧洲约有占人口总数30%-60%的人死于黑死病。",
+        "url": "https://zh.wikipedia.org/wiki/%E9%BB%91%E6%AD%BB%E7%97%85"
+      },
+      "es": {
+        "title": "Peste negra",
+        "extract": "La peste negra, muerte negra o epidemia de la peste (por antonomasia también la Pestilencia o la Gran Mortandad)[cita requerida] fue la pandemia de peste bubónica más devastadora de la historia de la humanidad, que afectó a Eurasia y el norte de África en el siglo XIV y que alcanzó un punto máximo entre 1347 y 1353. Es difícil conocer el número de fallecidos, pero modelos contemporáneos lo calculan entre 80 a 200 millones en Eurasia. Esto significa que provocó la muerte del 30% al 60% de la población de Europa. La teoría aceptada sobre el origen de la peste explica que fue un brote causado por una variante de la bacteria Yersinia pestis. Es común que la palabra «peste» se utilice como sinónimo de «muerte negra», aun cuando aquella deriva del latín «pestis», es decir, «enfermedad» o «epidemia», y no del agente patógeno.",
+        "url": "https://es.wikipedia.org/wiki/Peste_negra"
+      },
+      "hi": {
+        "title": "काली मौत",
+        "extract": "काली मौत  सन् 1346 से 1353 तक एफ्रो-यूरेशिया में हुई एक ब्यूबोनिक प्लेग महामारी था। यह मानव इतिहास में दर्ज सबसे घातक महामारी है। इस महामारी की वज़ह से यूरेशिया और उत्तरी अफ्रीका में 75 से 200 मिलियन लोगों की मौत हुई। यूरोप में यह महामारी 1347 से 1351 तक चरम पर थी। बुबोनिक प्लेग जीवाणु येरसिनिया पेस्टिस के कारण होता है।",
+        "url": "https://hi.wikipedia.org/wiki/%E0%A4%95%E0%A4%BE%E0%A4%B2%E0%A5%80_%E0%A4%AE%E0%A5%8C%E0%A4%A4"
+      },
+      "ar": {
+        "title": "الموت الأسود",
+        "extract": "يُعدّ الموت الأسود وباءً من الطاعون اجتاح أوروبا بين عامي 1346 و1353. ويُعتبر أحد أكثر الأوبئة فتكاً في التاريخ البشري، إذ أدى إلى وفاة ما يصل إلى 50 مليون نسمة، أي ما يُعادل 30% إلى 60% من سكان أوروبا، وحوالي 33% من سكان الشرق الأوسط. وتسببت في هذا المرض بكتيريا يرسينيا طاعونية ، والتي تنتقل أساساً عبر لدغات البرغوث، ورغم ذلك فقد تنتقل أيضاً عبر ملامسة الأنسجة أو السوائل المصابة، وفي حالات الطاعون الرئوي، عبر القطيرات التنفسية.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%85%D9%88%D8%AA_%D8%A7%D9%84%D8%A3%D8%B3%D9%88%D8%AF"
+      },
+      "fr": {
+        "title": "Peste noire",
+        "extract": "La peste noire, aussi appelée grande peste ou mort noire, est une pandémie de peste qui a sévi au milieu du XIVe siècle.",
+        "url": "https://fr.wikipedia.org/wiki/Peste_noire"
+      },
+      "pt": {
+        "title": "Peste Negra",
+        "extract": "Peste Negra foi uma das pandemias mais devastadoras registadas na história humana, tendo resultado na morte de 25 a 75 milhões de pessoas na Eurásia, atingindo o pico na Europa entre os anos de 1347 e 1351. Acredita-se que a bactéria Yersinia pestis, que resulta em várias formas de peste, tenha sido a causa. A Peste Negra foi o primeiro grande surto europeu de peste e a segunda pandemia da doença. A praga criou uma série de convulsões religiosas, sociais e económicas, com efeitos profundos no curso da história da Europa.",
+        "url": "https://pt.wikipedia.org/wiki/Peste_Negra"
+      }
+    }
+  },
+  "Cocoliztli epidemics": {
+    "pages": {
+      "ko": {
+        "title": "코코리츨리 유행",
+        "extract": "코코리츨리 유행(cocoliztli epidemic) 또는 대역병(the great pestilence)은 누에바에스파냐의 현 멕시코 지역에서 16세기에 발생하여 수백만의 사망자를 낸 전염병의 유행을 가리키는 말이다. 이 병을 두고 아즈텍의 원주민들은 나와틀어로 역병을 의미하는 '코코리츨리'(cocoliztli)라 불렀다. 특히 원주민에게 파괴적인 영향을 미쳐 해당 지역의 인구 분포 자체가 바뀌게 되는 등 멕시코 고지가 황폐화되었다. 사망자 수를 기준으로 볼 때 멕시코 역사상 최악의 전염병으로 언급된다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%BD%94%EC%BD%94%EB%A6%AC%EC%B8%A8%EB%A6%AC_%EC%9C%A0%ED%96%89"
+      },
+      "en": {
+        "title": "Cocoliztli epidemics",
+        "extract": "The Cocoliztli Epidemic or the Great Pestilence was an outbreak of a mysterious illness characterized by high fevers and bleeding which caused 5–15 million deaths in the North American territory of New Spain during the 16th century. The Aztec people called it cocoliztli, Nahuatl for pestilence. It ravaged the Mexican highlands in epidemic proportions, resulting in the demographic collapse of some Indigenous populations.",
+        "url": "https://en.wikipedia.org/wiki/Cocoliztli_epidemics"
+      },
+      "zh": {
+        "title": "科科利兹利流行病",
+        "extract": "科科利兹利流行病，或科科利兹特利流行病，是对16世纪发生在美洲新西班牙殖民地（今墨西哥地区）流行病疫情的总称。 疫情的病因不明，可能包含有多种流行病，主要症状包括高烧和耳鼻流血，当地的阿兹特克人将此病称为“科科利兹特利（Cocoliztli）”，意味“瘟疫”（纳瓦特尔语）。",
+        "url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E7%A7%91%E5%88%A9%E5%85%B9%E5%88%A9%E6%B5%81%E8%A1%8C%E7%97%85"
+      },
+      "es": {
+        "title": "Cocoliztli",
+        "extract": "El cocoliztli fue una enfermedad que afectó a los nativos de Mesoamérica, tras la llegada de los conquistadores españoles. Entre 1519 y 1600, la población indígena de México pasó de entre 15 y 30 millones a dos millones. Este colapso demográfico fue consecuencia, en gran medida, de una serie de epidemias de diversas enfermedades, entre ellas la viruela, el sarampión y el cocoliztli, que se creía era una fiebre hemorrágica viral de origen desconocido.",
+        "url": "https://es.wikipedia.org/wiki/Cocoliztli"
+      },
+      "ar": {
+        "title": "أوبئة الكوكوليتزلي",
+        "extract": "يمثل وباء الكوكوليتزلي، أو الوباء العظيم، مصطلحًا يصف ملايين الوفيات في إقليم إسبانيا الجديدة في منطقة المكسيك الحالية في القرن السادس عشر، وهي وفيات منسوبة إلى مرض واحد أو أكثر تسمى مجتمعةً كوكوليتزلي (cocoliztli)، وهو مرض غامض يتسم بحمى شديدة ونزف. فتك الوباء بالمرتفعات المكسيكية بنسب وبائية. أطلق الأزتك الأصليون اسم كوكوليتزلي على المرض الذي حمل تأثيرات مدمرة على التركيبة السكانية في المنطقة، خاصة بالنسبة إلى السكان الأصليين.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%A3%D9%88%D8%A8%D8%A6%D8%A9_%D8%A7%D9%84%D9%83%D9%88%D9%83%D9%88%D9%84%D9%8A%D8%AA%D8%B2%D9%84%D9%8A"
+      },
+      "fr": {
+        "title": "Cocoliztli",
+        "extract": "Le cocoliztli est le nom donné par les populations nahuas à une maladie contagieuse qui a causé des millions de morts en Nouvelle-Espagne au cours du XVIe siècle et jusqu'au XIXe siècle. Il s'agit probablement d'une fièvre paratyphoïde.",
+        "url": "https://fr.wikipedia.org/wiki/Cocoliztli"
+      }
+    }
+  },
+  "Great Plague of London": {
+    "pages": {
+      "ko": {
+        "title": "런던 대역병",
+        "extract": "런던 대역병(영어: Great Plague of London)은 1665년 ~ 1666년에 잉글랜드 왕국(오늘날의 영국)에서 발생한 최후의 흑사병(페스트) 대역병이다. 1347년 시작되어 1750년까지 계속된 제2차 페스트 범유행의 일부이다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%9F%B0%EB%8D%98_%EB%8C%80%EC%97%AD%EB%B3%91"
+      },
+      "en": {
+        "title": "Great Plague of London",
+        "extract": "The Great Plague of London, lasting from 1665 to 1666, was the most recent major epidemic of the bubonic plague to occur in England. It happened within the centuries-long Second Pandemic, a period of intermittent bubonic plague epidemics that originated in Central Asia in 1331, and included related diseases such as pneumonic plague and septicemic plague, which lasted until 1750.",
+        "url": "https://en.wikipedia.org/wiki/Great_Plague_of_London"
+      },
+      "zh": {
+        "title": "倫敦大瘟疫",
+        "extract": "伦敦大瘟疫是一场1665年至1666年间发生在英国的大规模传染病爆发，是第二次鼠疫大流行的疫情，超过10万人死于这次流行病，足足相当于当时伦敦人口的五分之一。该次的疾病后来被确认为是淋巴腺鼠疫，一种由鼠疫杆菌造成并以跳蚤为载体的细菌感染。与1347年至1353年期间侵袭全欧洲，并导致最少7,500万人死亡的黑死病相比，伦敦大瘟疫的规模要小得多，这场前后扰攘大约一年的流行病被人们形容为大灾难的原因，很大程度是由于它已经是英国本土最后一次广泛蔓延的鼠疫，之后随著英国政府著手改善地区卫生条件，鼠疫对英国民众的威胁也逐渐消失。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%80%AB%E6%95%A6%E5%A4%A7%E7%98%9F%E7%96%AB"
+      },
+      "es": {
+        "title": "Gran peste de Londres",
+        "extract": "La gran peste de Londres, que duró de 1665 a 1666, fue la última epidemia de peste bubónica en Inglaterra. Sucedió en el contexto de la segunda pandemia de peste bubónica en Europa, un período de epidemias intermitentes originadas en China en la década de 1330 —en lo que se conoce como la peste negra— y que duró hasta 1750.",
+        "url": "https://es.wikipedia.org/wiki/Gran_peste_de_Londres"
+      },
+      "ar": {
+        "title": "طاعون لندن العظيم",
+        "extract": "الطاعون الكبير أو العظيم (1665-1666) كان آخر طاعون دبلي حدث في مملكة إنجلترا. حدث ذلك في بعد عدة قرون من زمن الوباء الثاني، الممتد من أوبئة الطاعون الدبلي المتقطعة التي بدأت في أوروبا عام 1347، في السنة الأولى من الموت الأسود تفشي ووتحول إلى أشكالا أخرى مثل الطاعون الرئوي، واستمر حتى 1750.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%B7%D8%A7%D8%B9%D9%88%D9%86_%D9%84%D9%86%D8%AF%D9%86_%D8%A7%D9%84%D8%B9%D8%B8%D9%8A%D9%85"
+      },
+      "fr": {
+        "title": "Grande peste de Londres",
+        "extract": "La grande peste de Londres de 1665 est une épidémie de peste bubonique qui frappa la ville de Londres en Angleterre et fit environ 75 000 morts, soit environ 20 % de sa population.",
+        "url": "https://fr.wikipedia.org/wiki/Grande_peste_de_Londres"
+      },
+      "pt": {
+        "title": "Grande Peste de Londres",
+        "extract": "A Grande Peste de Londres foi a última epidemia de peste bubônica na Inglaterra, durando 1665 à 1666. Acontecendo no contexto da segunda epidemia de peste, a Grande Peste vitimou entre 75 000 a 100 000 pessoas, ou seja, praticamente um quinto da população de Londres na época, em dezoito meses. A doença era causada pela bactéria Yersinia pestis, geralmente transmitida através de um rato. A epidemia de 1665-1666 foi em menor escala do que a anterior de peste Negra que atingiu a Europa entre 1347 e 1353, mas é chamada como a \"grande peste\" porque foi uma das últimas a se espalhar pela Europa.",
+        "url": "https://pt.wikipedia.org/wiki/Grande_Peste_de_Londres"
+      }
+    }
+  },
+  "1817–1824 cholera pandemic": {
+    "pages": {
+      "ko": {
+        "title": "1차 콜레라 범유행",
+        "extract": "1차 콜레라 범유행(영어: The first cholera pandemic)은 아시아 콜레라 혹은 아시아 콜레라 대유행으로도 불린다. 1817년부터 1824년까지 창궐하였다. 범유행은 인도 콜카타 시에서 시작되어 동남아시아 전역, 중동, 동 아프리카와 지중해 연안까지 퍼졌다. 콜레라는 이전에 여러차례 인도 전역에 퍼져 있었지만, 당시 콜레라는 더욱 심하게 전파가 되었다. 영국 군인이 대거 콜레라에 걸려서 전 유럽이 이 병에 주목하게 되었다. 결국 수십만의 사망자를 낸 콜레라 전염병 중 첫번째 사례였다. 1차 콜레라 범유행은 전례없이 아시아 전역으로 확산된 질병이다.",
+        "url": "https://ko.wikipedia.org/wiki/1%EC%B0%A8_%EC%BD%9C%EB%A0%88%EB%9D%BC_%EB%B2%94%EC%9C%A0%ED%96%89"
+      },
+      "en": {
+        "title": "1817–1824 cholera pandemic",
+        "extract": "The first cholera pandemic (1817–1824), also known as the first Asiatic cholera pandemic or Asiatic cholera, began near the city of Calcutta and spread throughout South Asia and Southeast Asia to the Middle East, Eastern Africa and the Mediterranean coast. While cholera had spread across India many times previously, this outbreak went further; it reached as far as China and the Mediterranean Sea before subsiding. Millions of people died as a result of this pandemic, including approximately 10,000 troops in British service, which attracted European attention. This was the first of several cholera pandemics to sweep through Asia and Europe during the 19th and 20th centuries. This first pandemic spread over an unprecedented range of territory, affecting almost every country in Asia.",
+        "url": "https://en.wikipedia.org/wiki/1817%E2%80%931824_cholera_pandemic"
+      },
+      "zh": {
+        "title": "第一次霍乱大流行",
+        "extract": "第一次霍乱大流行，也称亚洲霍乱，是指于1817年-1824年间发生的霍乱大流行，是历史上第一次霍乱的大规模爆发。此次大流行起源于印度恒河三角洲流域，邻近加尔各答，随着英国殖民活动和商贸往来，疫情逐渐传播到了东南亚、中国、日本、中亚、中东、东非以及地中海沿岸地区。疫情造成的具体死亡人数不明确，但研究人员估计印度有数十万人死亡，而仅在1820年，印度尼西亚的爪哇岛上就有10万人死于霍乱。",
+        "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%9C%8D%E4%B9%B1%E5%A4%A7%E6%B5%81%E8%A1%8C"
+      },
+      "es": {
+        "title": "Primera pandemia de cólera",
+        "extract": "La primera pandemia de cólera (1817-1824), también conocida como la primera pandemia asiática de cólera o cólera asiático, comenzó cerca de la ciudad de Calcuta, posesión de la Compañía Británica de las Indias Orientales y se extendió por todo el sur y sudeste asiático hasta Oriente Medio, África oriental y la costa mediterránea. Si bien el cólera se había propagado por la India muchas veces antes, este brote fue más allá; llegó hasta China y el mar Mediterráneo antes de disminuir. Cientos de miles de personas murieron como resultado de esta pandemia, incluidos muchos soldados británicos, que atrajo la atención europea. Esta fue la primera de varias pandemias de cólera que arrasó Asia y Europa durante los siglos XIX y XX. Esta primera pandemia se extendió por una gama sin precedentes de territorio, afectando a casi todos los países de Asia.",
+        "url": "https://es.wikipedia.org/wiki/Primera_pandemia_de_c%C3%B3lera"
+      },
+      "ar": {
+        "title": "وباء الكوليرا الأول",
+        "extract": "حدث أول وباء للكوليرا خلال الفترة 1817-1824، ويعرف أيضًا باسم وباء الكوليرا الآسيوي الأولي أو الكوليرا الآسيوية الأولى، حيث بدأ بالقرب من مدينة كلكتا التي تقع شرق الهند لقد انتشر بعد ذلك في جميع أنحاء جنوب شرق آسيا واستمر في الانتشار إلى منطقة الشرق الأوسط وشرق أفريقيا وساحل البحر الأبيض المتوسط. انتشر وباء الكوليرا في الهند عدة مرات سابقة، حيث وصل الوباء للصين والبحر الأبيض المتوسط قبل انحساره. توفي مئات الأشخاص نتيجة هذا الوباء، تضمنت الوفيات العديد من الجنود البريطانيين، الأمر الذي جذب اهتمام أوروبا. كانت هذه هي الأولى التي يجتاح الوباء فيها آسيا وأوروبا خلال القرنين التاسع عشر والعشرين من بين العديد من أوبئة الكوليرا. انتشر هذا الوباء على نطاق غير مسبوق من الأراضي، مما أثر على كل بلد تقريبا في آسيا.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%88%D8%A8%D8%A7%D8%A1_%D8%A7%D9%84%D9%83%D9%88%D9%84%D9%8A%D8%B1%D8%A7_%D8%A7%D9%84%D8%A3%D9%88%D9%84"
+      }
+    }
+  },
+  "Third plague pandemic": {
+    "pages": {
+      "ko": {
+        "title": "제3차 페스트 범유행",
+        "extract": "제3차 페스트 범유행(Third plague pandemic)은 1855년 중국 윈난성에서 발생했다. 페스트는 인간이 거주하는 모든 대륙에 확산되었고, 인도와 중국 두 나라에서만 1천 2백만 명 이상이 사망했다. 세계보건기구에 의하면 제3차 범유행은 페스트 사망자가 연간 200명 이하로 떨어진 1959년까지 계속된 것으로 상정된다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%A0%9C3%EC%B0%A8_%ED%8E%98%EC%8A%A4%ED%8A%B8_%EB%B2%94%EC%9C%A0%ED%96%89"
+      },
+      "en": {
+        "title": "Third plague pandemic",
+        "extract": "The third plague pandemic was a major plague pandemic that began in Yunnan, China, in 1855. Its name refers to its status as the third of at least three known major pandemics caused by the spread of the bacterium Yersinia pestis. This episode of bubonic plague spread to all inhabited continents, and ultimately led to at least 15 million deaths worldwide, including 10–12 million in British Raj India and 2.2 million in China. Though it is estimated to have killed fewer people than the second plague pandemic, the third plague pandemic had one of the highest death tolls among pandemics in human history.",
+        "url": "https://en.wikipedia.org/wiki/Third_plague_pandemic"
+      },
+      "zh": {
+        "title": "第三次鼠疫大流行",
+        "extract": "第三次鼠疫大流行，是人类历史上鼠疫的第三次大流行，起始于1855年清朝咸丰年间中国的云南，直到20世纪中叶逐渐结束。此次鼠疫为腺鼠疫，于1890年代传播到香港、广州等地，此后逐渐传播到世界上至少60余个国家和地区，造成疫情大流行，导致全球约1200万至1500万人死亡，是人类历史上致死人数最多的流行病之一。",
+        "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%B8%89%E6%AC%A1%E9%BC%A0%E7%96%AB%E5%A4%A7%E6%B5%81%E8%A1%8C"
+      },
+      "es": {
+        "title": "Tercera pandemia de peste",
+        "extract": "La tercera pandemia de peste, también llamada peste de China, fue una gran pandemia de peste bubónica que comenzó en Yunnan, China, en 1855 durante el quinto año del emperador Xianfeng de la dinastía Qing.",
+        "url": "https://es.wikipedia.org/wiki/Tercera_pandemia_de_peste"
+      },
+      "ar": {
+        "title": "الوباء الثالث",
+        "extract": "الوباء الثالث هو وباء واسعٌ من الطاعون الدبلي أصاب مقاطعة يونان الصينية عام 1855، لينتشر لاحقاً إلى جميع قارات العالم المأهولة. تسبَّب الوباء الثالث في نهاية المطاف بمقتل 12 مليون إنسانٍ في الهند والصين وحدهما، وبحسب منظمة الصحة العالمية فقد كان يعتبر الوباء حدثاً حاضراً حتى عام 1959، عندما انخفض معدل الوفيات العالمي منه إلى نحو 200 شخصٍ سنوياً.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%88%D8%A8%D8%A7%D8%A1_%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB"
+      },
+      "fr": {
+        "title": "Peste de Chine",
+        "extract": "La peste de Chine, dite aussi peste mandchoue, peste de Mandchourie ou peste de Hong Kong, est le nom de la troisième pandémie de peste, la dernière connue. Apparue en Chine au cours du XIXe siècle, elle éclate comme pandémie en 1894 en touchant Hong Kong.",
+        "url": "https://fr.wikipedia.org/wiki/Peste_de_Chine"
+      }
+    }
+  },
+  "1889–1890 pandemic": {
+    "pages": {
+      "en": {
+        "title": "1889–1890 pandemic",
+        "extract": "The 1889–1890 pandemic, often referred to as the \"Asiatic flu\" or \"Russian flu\", was a worldwide respiratory viral pandemic. It was the last great pandemic of the 19th century, and is among the deadliest pandemics in history. The pandemic killed about 1 million people out of a world population of about 1.5 billion. The most reported effects of the pandemic took place from October 1889 to December 1890, with recurrences in March to June 1891, November 1891 to June 1892, the northern winter of 1893–1894, and early 1895.",
+        "url": "https://en.wikipedia.org/wiki/1889%E2%80%931890_pandemic"
+      },
+      "zh": {
+        "title": "1889—1890年流感大流行",
+        "extract": "1889—1890年流感大流行，又称“俄国流感 ”，是指于1889年爆发的一次流感大流行。最主要的一波疫情发生于1889年-1890年，此后1890年-1892年又发生了两波较大规模的疫情。此次大流行共造成了全球约100万人死亡，是历史上致死人数最多的流行病之一，也是十九世纪最严重的疫情之一。",
+        "url": "https://zh.wikipedia.org/wiki/1889%E2%80%941890%E5%B9%B4%E6%B5%81%E6%84%9F%E5%A4%A7%E6%B5%81%E8%A1%8C"
+      },
+      "es": {
+        "title": "Pandemia de gripe de 1889-1890",
+        "extract": "La pandemia de gripe de 1889-1890, también conocida como gripe rusa, fue una pandemia de gripe que tuvo lugar entre octubre de 1889 y diciembre de 1890, con reapariciones en marzo-junio de 1891, noviembre de 1891-junio de 1892, la primavera de 1893 y el invierno de 1893-1894. La pandemia infectó a más de 25 millones de personas y causó la muerte de alrededor de un millón de personas en todo el mundo, lo que la convierte en una de las pandemias más mortíferas de la historia.",
+        "url": "https://es.wikipedia.org/wiki/Pandemia_de_gripe_de_1889-1890"
+      },
+      "ar": {
+        "title": "وباء الإنفلونزا (1889–1890)",
+        "extract": "وباء الإنفلونزا الذي ظهر عامي 1889:1890 كان وباء انفلونزا قاتل حيث قتل مليون شخص حول العالم، في فترة التفشي كان يطلق عليها انلفونزا آسيوية أو انلفونزا روسية وليس لها علاقة بوباء 1978:1977 التي سببها انلفونزا H1N1، والتي سميت أيضا بالإنفلونزا الروسية. لبعض الوقت كانت سلالة فيروس الإنفلونزا ترجح حدسيا لنوع فرعي من انلفونزا فيروس A نوع H3N8.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%88%D8%A8%D8%A7%D8%A1_%D8%A7%D9%84%D8%A5%D9%86%D9%81%D9%84%D9%88%D9%86%D8%B2%D8%A7_(1889%E2%80%931890)"
+      },
+      "fr": {
+        "title": "Grippe russe de 1889-1890",
+        "extract": "La pandémie de 1889-1890 est réputée être une pandémie de grippe mortelle qui a tué environ un million de personnes dans le monde. L'épidémie a été surnommée « grippe asiatique » ou « grippe russe ».",
+        "url": "https://fr.wikipedia.org/wiki/Grippe_russe_de_1889-1890"
+      },
+      "pt": {
+        "title": "Pandemia de gripe de 1889–1890",
+        "extract": "A pandemia de gripe de 1889–1890, também chamada de \"gripe russa\" ou de \"gripe asiática\" causou a morte de 1 milhão a 1 milhão e meio de pessoas ― sendo 200 a 300 mil pessoas, somente na Europa ― entre 1889 e 1890, no final da segunda metade do século XIX. Foi primeiramente reportada na Bukhara, Rússia, antigo Império Russo .Estudos recentes provam que, de maio a agosto de 1889, em Bucara, houve uma epidemia não de gripe, mas de malária. Acredita-se que tenha sido a malária tropical causada por P. Falciparum. Os maiores efeitos da pandemia foram registrados num primeiro surto entre outubro de 1889 e dezembro de 1890, mas ocorrências surgiram de março a junho de 1891; de novembro de 1891 a junho de 1892; no inverno de 1893–1894, e em inícios de 1895.",
+        "url": "https://pt.wikipedia.org/wiki/Pandemia_de_gripe_de_1889%E2%80%931890"
+      }
+    }
+  },
+  "Spanish flu": {
+    "pages": {
+      "ko": {
+        "title": "스페인 독감",
+        "extract": "스페인 독감(스페인어: gripe española, 영어: Spanish flu) 또는 1918년 인플루엔자 범유행(스페인어: Pandemia de gripe de 1918, 영어: 1918 flu pandemic)은 1918년에 발생했던 인플루엔자 바이러스이다. 20세기에 들어서서 가장 크게 유행하고 치명률이 높았던 전염병이다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%8E%98%EC%9D%B8_%EB%8F%85%EA%B0%90"
+      },
+      "en": {
+        "title": "Spanish flu",
+        "extract": "The 1918–1920 flu pandemic, also known as the Great Influenza epidemic or by the misleading name Spanish flu, was an exceptionally deadly global influenza pandemic caused by the H1N1 subtype of the influenza A virus. The earliest probable cases were documented in March 1918 in Haskell County, Kansas, United States, with further cases recorded in France, Germany and the United Kingdom in April. Two years later, nearly a third of the global population, or an estimated 500 million people, had been infected. Estimates of deaths range from 17 million to 50 million, and possibly as high as 100 million, making it one of the deadliest pandemics in history.",
+        "url": "https://en.wikipedia.org/wiki/Spanish_flu"
+      },
+      "zh": {
+        "title": "西班牙流感",
+        "extract": "西班牙流感，又称1918年流感大流行，是1918年1月至1920年4月间爆发的异常致命的流感大流行，造成当时世界人口约三分之一（5亿人）感染，大约造成了全球2000万至5000万人死亡（各方估计值在1741万至1亿人之间），是人类历史上致死人数最多的流行病之一，仅次于黑死病。",
+        "url": "https://zh.wikipedia.org/wiki/%E8%A5%BF%E7%8F%AD%E7%89%99%E6%B5%81%E6%84%9F"
+      },
+      "es": {
+        "title": "Pandemia de gripe de 1918",
+        "extract": "La pandemia de gripe de 1918, popularmente gripe española o trancazo, inicialmente en España también Soldado de Nápoles, fue una pandemia causada por un brote del virus de la gripe tipo A, subtipo H1N1. A diferencia de otras epidemias de gripe que afectan principalmente a niños y ancianos, sus víctimas fueron también jóvenes y adultos con buena salud, y también animales, entre ellos perros y gatos. Se considera una de las pandemias más devastadoras de la historia humana, ya que en solo un año acabó con la vida de entre 20 y 40 millones de personas. Esta cifra de muertos, que incluía una alta mortalidad infantil, se considera uno de los ejemplos de crisis de mortalidad.",
+        "url": "https://es.wikipedia.org/wiki/Pandemia_de_gripe_de_1918"
+      },
+      "hi": {
+        "title": "स्पेनी फ्लू",
+        "extract": "स्पैनिश फ्लू सन १९१८ में पूरे विश्व में फैली एक विश्वमारी थी जिसे 1918 की फ्लू महामारी भी कहते हैं। यह जनवरी 1918 में पैदा हुई और दिसम्बर 1920 तक चली और इसने 50 करोड़ लोगों को संक्रमित किया जो उस समय की दुनिया की आबादी का एक चौथाई है। इससे मरने वालों की संख्या अनुमानतः १७० लाख से लेकर ५ करोड़ के बीच है। कुछ अनुमानों के अनुसार मरने वालों की संख्या १० करोड़ से भी अधिक हो सकती है। यह मानव इतिहास में सबसे घातक महामारियों में से एक थी।",
+        "url": "https://hi.wikipedia.org/wiki/%E0%A4%B8%E0%A5%8D%E0%A4%AA%E0%A5%87%E0%A4%A8%E0%A5%80_%E0%A4%AB%E0%A5%8D%E0%A4%B2%E0%A5%82"
+      },
+      "ar": {
+        "title": "الإنفلونزا الإسبانية",
+        "extract": "جائحة إنفلونزا 1918 أو ما عرف بالإنفلونزا الأسبانية أو الوافدة الإسبانيولية هي جائحة إنفلونزا قاتلة انتشرت في أعقاب الحرب العالمية الأولى في أوروبا والعالم وخلفت ملايين القتلى، وتسبب بهذه الجائحة نوع خبيث ومدمر من فيروس الإنفلونزا (أ) من نوع فيروس الإنفلونزا أ H1N1.\nوتميز الفيروس بسرعة العدوى حيث تقدر الإحصائيات الحديثة أن حوالي 500 مليون شخص أصيبوا بالعدوى وأظهروا علامات إكلينيكية واضحة، وما بين 50 إلى 100 مليون شخصا توفوا جراء الإصابة بالمرض أي ما يعادل ضعف المتوفيين في الحرب العالمية الأولى.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%A5%D9%86%D9%81%D9%84%D9%88%D9%86%D8%B2%D8%A7_%D8%A7%D9%84%D8%A5%D8%B3%D8%A8%D8%A7%D9%86%D9%8A%D8%A9"
+      },
+      "fr": {
+        "title": "Grippe espagnole",
+        "extract": "La grippe espagnole, également appelée « pandémie grippale de l'année 1918 », est une pandémie de grippe A (H1N1), due à une souche particulièrement virulente et contagieuse qui s'est répandue en mars 1918 et a fini par s'éteindre dans la seconde moitié de l'année 1919. Quelques derniers cas sporadiques ont eu lieu en Nouvelle-Calédonie en juillet 1921.",
+        "url": "https://fr.wikipedia.org/wiki/Grippe_espagnole"
+      },
+      "pt": {
+        "title": "Gripe espanhola",
+        "extract": "A gripe espanhola, também conhecida como gripe de 1918, foi uma vasta e mortal pandemia do vírus influenza. De janeiro de 1918 a dezembro de 1920, infectou uma estimativa de 500 milhões de pessoas, cerca de um quarto da população mundial na época. Estima-se que o número de mortos esteja entre 17 milhões e 50 milhões, e possivelmente até 100 milhões, tornando-a uma das epidemias mais mortais da história da humanidade. A gripe espanhola foi a primeira de duas pandemias causadas pelo influenzavirus H1N1, sendo a segunda ocorrida em 2009.",
+        "url": "https://pt.wikipedia.org/wiki/Gripe_espanhola"
+      }
+    }
+  },
+  "1957–1958 influenza pandemic": {
+    "pages": {
+      "ko": {
+        "title": "아시아 독감",
+        "extract": "아시아 독감은 1957년 인플루엔자 범유행을 일으킨 사건을 말한다. 아시아 독감은 미국에서 7만명의 사망자를 발생시켰다. 1957년 2월 말에 중국 구이저우성에서 첫번째로 발견되었다. 1957년 6월에는 미국으로 퍼져서 1958년까지 유행하였다. 전 세계적으로 최소 1백만명 이상, 추정 2백만명이 사망했다. 아시아 독감은 인플루엔자 A 바이러스의 아형 H2N2로 인한 전염병이었다. 바이러스 균주는 조류 인플루엔자(거위, 혹은 야생 오리로 추정)와 사람의 인플루엔자 바이러스의 재조합이었다. 새로운 바이러스가 출현했기에 많은 사람들이 면역이 안되어 사망하였다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%95%84%EC%8B%9C%EC%95%84_%EB%8F%85%EA%B0%90"
+      },
+      "en": {
+        "title": "1957–1958 influenza pandemic",
+        "extract": "The 1957–1958 Asian flu pandemic was a global pandemic of influenza A virus subtype H2N2 that originated in Guizhou in Southern China. The number of excess deaths caused by the pandemic is estimated to be 1–4 million around the world, making it one of the deadliest pandemics in history. A decade later, a reassorted viral strain H3N2 further caused the Hong Kong flu pandemic (1968–1970).",
+        "url": "https://en.wikipedia.org/wiki/1957%E2%80%931958_influenza_pandemic"
+      },
+      "zh": {
+        "title": "亚洲流感",
+        "extract": "亚洲流感，又称1957–58年流感大流行，是一种于1957年2月在中华人民共和国贵州省爆发的流行性感冒，该病随后在同年传向全世界，包括新加坡、香港、美国、英国等地，疫情一直持续到1958年（甚至1959年）。亚洲流感是人类历史上致死人数最多的流行病之一，依据世界卫生组织数据，全球约有100万-400万人死于亚洲流感。",
+        "url": "https://zh.wikipedia.org/wiki/%E4%BA%9A%E6%B4%B2%E6%B5%81%E6%84%9F"
+      },
+      "es": {
+        "title": "Pandemia de gripe de 1957-1958",
+        "extract": "La pandemia de gripe de 1957-1958, también conocida como gripe asiática, fue una pandemia de gripe causada por un brote de Influenzavirus A H2N2 que se inició en China. Tuvo una alta mortalidad, con estimaciones de alrededor de 1–4 millones de personas fallecidas por causa de la pandemia, lo que la convierte en una de las pandemias más mortíferas de la historia tuvo lugar por cruzarse con virus de patos silvestres de las cepas,gracias a esta mutación la llamada «Peste asiática » \n].",
+        "url": "https://es.wikipedia.org/wiki/Pandemia_de_gripe_de_1957-1958"
+      },
+      "ar": {
+        "title": "جائحة الإنفلونزا 1957-1958",
+        "extract": "جائحة الإنفلونزا الآسيوية 1957-1958، جائحة عالمية ناتجة عن فيروس الإنفلونزا أ H2N2، نشأت في قويتشو في جنوب الصين. يقدر عدد الوفيات الناجمة عن جائحة 1957-1958 بنحو مليون إلى أربعة ملايين شخص حول العالم، ما يجعلها إحدى أشد الأوبئة فتكًا في التاريخ. بعد عقد من الزمن، تسببت سلالة H3N2 الفيروسية المعاد تشكيلها في حدوث وباء إنفلونزا هونغ كونغ (1968-1969).",
+        "url": "https://ar.wikipedia.org/wiki/%D8%AC%D8%A7%D8%A6%D8%AD%D8%A9_%D8%A7%D9%84%D8%A5%D9%86%D9%81%D9%84%D9%88%D9%86%D8%B2%D8%A7_1957-1958"
+      },
+      "fr": {
+        "title": "Grippe asiatique",
+        "extract": "La grippe asiatique est une pandémie de grippe A (H2N2) qui a duré de 1956 à 1958. Selon les Centres pour le contrôle et la prévention des maladies, la pandémie aurait tué 1,1 million de personnes, alors que l'Organisation mondiale de la santé (OMS) avance 1–4 millions de personnes. C'est l'une des pandémies les plus meurtrières de l'histoire.",
+        "url": "https://fr.wikipedia.org/wiki/Grippe_asiatique"
+      },
+      "pt": {
+        "title": "Gripe asiática",
+        "extract": "A pandemia de gripe de 1957 a 1958, também conhecida como gripe asiática, foi uma pandemia global do vírus da gripe A, subtipo H2N2, que se originou em Guizhou, China e matou pelo menos um milhão de pessoas em todo o mundo.",
+        "url": "https://pt.wikipedia.org/wiki/Gripe_asi%C3%A1tica"
+      }
+    }
+  },
+  "Hong Kong flu": {
+    "pages": {
+      "ko": {
+        "title": "홍콩 독감",
+        "extract": "홍콩 독감(香港毒感; 영어: Hong Kong flu)은 1968년에 처음으로 발병한 인플루엔자바이러스 A형의 H3N2 아형(A/H3N2형)에 의한 홍콩발 인플루엔자이다. 같은 해에 확산되어 1969년까지 계속되었다. 세계적으로 1백만명 이상의 사망을 초래했다. 홍콩 독감은 인플루엔자 A 바이러스의 H3N2 균주에 의해 유발되었으며, H2N2 유형의 유전자가 새로운 바이러스를 생성하는 복제 과정 중에 변이가 발생하여 H3N2가 탄생하였다. 당시 사망률은 스페인 독감의 사망률 2%보다 낮은 0.37%로 추산된다.",
+        "url": "https://ko.wikipedia.org/wiki/%ED%99%8D%EC%BD%A9_%EB%8F%85%EA%B0%90"
+      },
+      "en": {
+        "title": "Hong Kong flu",
+        "extract": "The Hong Kong flu, also known as the 1968 flu pandemic, was an influenza pandemic that occurred between 1968 and 1970 and which killed between one and four million people globally. It is among the deadliest pandemics in history, and was caused by an H3N2 strain of the influenza A virus. The virus was descended from H2N2 through antigenic shift, a genetic process in which genes from multiple subtypes are reassorted to form a new virus.",
+        "url": "https://en.wikipedia.org/wiki/Hong_Kong_flu"
+      },
+      "zh": {
+        "title": "1968年流感疫情",
+        "extract": "1968年流感疫情，又称香港流感，发生时也有报刊称之为毛泽东流感，是一种于1968年7月在香港爆发的流行性感冒，该病随后在同年传到全世界，大规模疫情一直持续到1969年（甚至1970年）。香港流感是人类历史上致死人数最多的流行病之一，依据世界卫生组织（WHO）数据，全球约有100万-400万人死于香港流感。香港流感由H3N2病毒致病，该病毒是1957-58年死亡率更高的“亚洲流感 ”病毒H2N2的变种，亚洲流感此前也造成了全球100万-400万人死亡。H3N2病毒此后并未消亡，而是成为季节性流感。",
+        "url": "https://zh.wikipedia.org/wiki/1968%E5%B9%B4%E6%B5%81%E6%84%9F%E7%96%AB%E6%83%85"
+      },
+      "es": {
+        "title": "Pandemia de gripe de 1968",
+        "extract": "La pandemia de gripe de 1968, más conocida como gripe de Hong Kong, fue una pandemia de gripe ocurrida en 1968, al aparecer una nueva variación de la hemaglutinina del virus Influenza A subtipo H3N2, que además contenía la neuraminidasa N2 del subtipo H2N2, mediante el cambio antigénico. Se estima que entre 1–4 millones de personas murieron durante la pandemia de gripe de Hong Kong, lo que la convierte en una de las pandemias más mortíferas de la historia.",
+        "url": "https://es.wikipedia.org/wiki/Pandemia_de_gripe_de_1968"
+      },
+      "ar": {
+        "title": "إنفلونزا هونغ كونغ",
+        "extract": "كانت إنفلونزا هونغ كونغ، والتي تُعرف أيضًا باسم جائحة إنفلونزا عام 1968، وباءً للإنفلونزا أدى تفشيه في عامي 1968 و1969 إلى مقتل ما بين مليون وأربعة ملايين شخص حول العالم. تعد من بين الأوبئة الأكثر فتكًا في التاريخ، ونتجت عن سلالة إتش3 إن2 من فيروس الأنفلونزا أيه. ينحدر الفيروس من إتش2 إن2 عبر الزيحان المستضدي، وهي عملية جينية تختلط فيها الجينات من عدة أنواع فرعية لتشكيل فيروس جديد.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%A5%D9%86%D9%81%D9%84%D9%88%D9%86%D8%B2%D8%A7_%D9%87%D9%88%D9%86%D8%BA_%D9%83%D9%88%D9%86%D8%BA"
+      },
+      "fr": {
+        "title": "Grippe de Hong Kong",
+        "extract": "La grippe de 1968 ou grippe de Hong Kong est une pandémie de grippe qui s'est répandue dans le monde entier à partir de l'été 1968 et jusqu’au printemps 1970. Elle a environ tué un à quatre millions de personnes et a été causée par une souche réassortie H3N2 du virus H2N2 de la grippe A.",
+        "url": "https://fr.wikipedia.org/wiki/Grippe_de_Hong_Kong"
+      },
+      "pt": {
+        "title": "Gripe de Hong Kong",
+        "extract": "A Gripe de Hong Kong foi a terceira pandemia de gripe do século XX, em 1968, em Hong Kong.",
+        "url": "https://pt.wikipedia.org/wiki/Gripe_de_Hong_Kong"
+      }
+    }
+  },
+  "HIV/AIDS": {
+    "pages": {
+      "ko": {
+        "title": "후천면역결핍증후군",
+        "extract": "후천 면역 결핍 증후군(後天免疫缺乏症候群, 영어: Acquired Immune Deficiency Syndrome; AIDS, 에이즈)는 HIV라는 바이러스에 감염되어 발병하면 나타나는 전염병이다. HIV는 바이러스의 이름이며, 에이즈는 HIV에 감염된 환자가 발병하면 나타나는 증상들을 일컫는다.",
+        "url": "https://ko.wikipedia.org/wiki/%ED%9B%84%EC%B2%9C%EB%A9%B4%EC%97%AD%EA%B2%B0%ED%95%8D%EC%A6%9D%ED%9B%84%EA%B5%B0"
+      },
+      "en": {
+        "title": "HIV/AIDS",
+        "extract": "The human immunodeficiency virus (HIV) is a retrovirus that attacks the immune system. Without treatment, it can lead to a spectrum of conditions including acquired immunodeficiency syndrome (AIDS). It is a preventable disease. It can be managed with treatment and become a manageable chronic health condition. While there is no cure or vaccine for HIV, antiretroviral treatment can slow the course of the disease, and, if used before significant disease progression, can extend the life expectancy of someone living with HIV to a nearly standard level. An HIV-positive person on treatment can expect to live a normal life, and die with the virus, not of it. Effective treatment for HIV-positive people involves a life-long regimen of medicine to suppress the virus, making the viral load undetectable. Early testing can show if treatment is needed to stop progression and to prevent infecting others.",
+        "url": "https://en.wikipedia.org/wiki/HIV%2FAIDS"
+      },
+      "zh": {
+        "title": "艾滋病",
+        "extract": "获得性免疫缺陷综合征，通称艾滋病（AIDS），ICD-11称人类免疫缺陷病毒病，是一种由人类免疫缺乏病毒（HIV）感染造成的疾病。目前，该病尚无有效的治疗方法，人们一旦感染艾滋病毒，就会终生携带，但通过妥善治疗，艾滋病毒可得到控制。",
+        "url": "https://zh.wikipedia.org/wiki/%E8%89%BE%E6%BB%8B%E7%97%85"
+      },
+      "es": {
+        "title": "VIH/sida",
+        "extract": "La infección por el virus de la inmunodeficiencia humana y el síndrome de inmunodeficiencia adquirida (VIH/sida) son un espectro de enfermedades causadas por la infección provocada por el virus de la inmunodeficiencia humana (VIH). Tras la infección inicial, una persona puede no notar síntoma alguno o bien puede experimentar un periodo breve de cuadro tipo influenza. Típicamente, le sigue un periodo prolongado sin síntomas. A medida que la infección progresa, interfiere más con el sistema inmunitario, aumentando el riesgo de infecciones comunes como la tuberculosis, además de otras infecciones oportunistas y tumores que raramente afectan a las personas con un sistema inmunitario indemne. Estos síntomas tardíos de infección se conocen como sida, etapa que a menudo también está asociada con pérdida de peso.",
+        "url": "https://es.wikipedia.org/wiki/VIH%2Fsida"
+      },
+      "hi": {
+        "title": "एड्स",
+        "extract": "उपार्जित प्रतिरक्षी अपूर्णता सहलक्षण (एड्स) मानवीय प्रतिरक्षी अपूर्णता विषाणु (मा॰प्र॰अ॰स॰) (एच॰आई॰वी) संक्रमण के बाद की स्थिति है, जिसमें मानव अपने प्राकृतिक प्रतिरक्षण क्षमता खो देता है। एड्स स्वयं कोई बीमारी नही है, पर एड्स से पीड़ित मानव शरीर संक्रामक बीमारियों, जो कि जीवाणु और विषाणु आदि से होती हैं, के प्रति अपनी प्राकृतिक प्रतिरोधी शक्ति खो बैठता है क्योंकि एच.आई.वी रक्त में उपस्थित प्रतिरोधी पदार्थ लसीका-कोशो पर आक्रमण करता है। एड्स पीड़ित के शरीर में प्रतिरोधक क्षमता के क्रमशः क्षय होने से कोई भी अवसरवादी संक्रमण, यानि आम सर्दी जुकाम से ले कर क्षय रोग जैसे रोग तक सहजता से हो जाते हैं और उनका इलाज करना कठिन हो जाता हैं। एच.आई.वी. संक्रमण को एड्स की स्थिति तक पहुंचने में ८ से १० वर्ष या इससे भी अधिक समय लग सकता है। एच.आई.वी से ग्रस्त व्यक्ति अनेक वर्षों तक बिना किसी विशेष लक्षणों के बिना रह सकते हैं।",
+        "url": "https://hi.wikipedia.org/wiki/%E0%A4%8F%E0%A4%A1%E0%A5%8D%E0%A4%B8"
+      },
+      "ar": {
+        "title": "إيدز",
+        "extract": "مرض الإيدز أو الإيدس أو السيدا أو التَنَقْصُم أو متلازمة نقص المناعة المكتسبة أو متلازمة العَوَز المناعي المكتسب هو مرض يصيب الجهاز المناعي البشري ويسببه فيروس نقص المناعة البشرية فيروس إتش أي في (HIV) وتؤدي الإصابة بهذه الحالة المرضية إلى التقليل من فاعلية الجهاز المناعي للإنسان تدريجيًّا ليترك المصابين به عرضة للإصابة بأنواع من العدوى الانتهازية والأورام. وينتقل فيروس نقص المناعة إلى المصاب عن طريق حدوث اتصال مباشر بين غشاء مخاطي أو مجرى الدم وبين سائل جسدي يحتوي على هذا الفيروس مثل: الدم أو السائل المنوي للذكر أو السائل المهبلي للأنثى أو المذي أو لبن الرضاعة الطبيعية. من ثم، يمكن أن ينتقل هذا الفيروس من خلال الاتصال الجنسي غير الآمن سواء الشرجي أو المهبلي أو الفموي، أو من خلال عملية نقل الدم، أو من خلال إبر الحقن الملوثة بهذا الفيروس، أو يمكن أن ينتقل من الأم إلى جنينها خلال مرحلة الحمل أو الولادة أو الرضاعة أو من خلال أي عملية تعرض أخرى لأي من السوائل الجسدية سالفة الذكر.\nويعتبر مرض الإيدز حاليًا جائحة. ففي عام 2007، تم تقدير عدد المصابين الأحياء بهذا المرض حول العالم بنحو 33.2 مليون شخص. كذلك، فإن هذا المرض قد أودى بحياة ما يُقدر بحوالي 2.1 مليون شخص من بينهم 330 ألف طفل. وقد ظهر أن ما يزيد عن ثلاثة أرباع هذه الوفيات تحدث في ذلك الجزء من القارة الإفريقية الذي يقع جنوب الصحراء الكبرى. مما يعيق تحقيق النمو الاقتصادي ويدمر رأس المال البشري.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%A5%D9%8A%D8%AF%D8%B2"
+      },
+      "fr": {
+        "title": "Syndrome d'immunodéficience acquise",
+        "extract": "Le syndrome d'immunodéficience acquise, plus connu sous son acronyme SIDA, est un ensemble de symptômes consécutifs à la destruction de cellules du système immunitaire par le virus de l'immunodéficience humaine (VIH). Le SIDA est le dernier stade de l'infection au VIH, lorsque l'immunodépression est sévère. Il conduit à la mort par suite des maladies opportunistes auxquelles il donne lieu. Un patient atteint du sida est appelé « sidéen », terme qui a progressivement remplacé le terme plus ancien « sidatique ».",
+        "url": "https://fr.wikipedia.org/wiki/Syndrome_d'immunod%C3%A9ficience_acquise"
+      },
+      "pt": {
+        "title": "Síndrome da imunodeficiência adquirida",
+        "extract": "Síndrome da imunodeficiência adquirida é uma doença do sistema imunológico humano causada pelo vírus da imunodeficiência humana. Durante a infecção inicial, uma pessoa pode passar por um breve período doente, com sintomas semelhantes aos da gripe. Normalmente isto é seguido por um período prolongado sem qualquer outro sintoma. À medida que a doença progride, ela interfere mais e mais no sistema imunológico, tornando a pessoa muito mais propensa a ter outros tipos de doenças, como infecções oportunistas e câncer, que geralmente não afetam as pessoas com um sistema imunológico saudável.",
+        "url": "https://pt.wikipedia.org/wiki/S%C3%ADndrome_da_imunodefici%C3%AAncia_adquirida"
+      }
+    }
+  },
+  "2002–2004 SARS outbreak": {
+    "pages": {
+      "ko": {
+        "title": "사스 유행",
+        "extract": "사스 유행 또는 중증급성호흡기증후군 유행은 2002년 11월 16일 중국 광둥성 포산시 순더구에서 시작된 중증급성호흡기증후군 코로나바이러스(SARS -CoV)의 감염증인 중증급성호흡기증후군(사스, SARS)으로 인해 2003년까지 아시아, 북미, 남미, 유럽 및 호주에서 발생한 바이러스 감염증 유행이다. 중국에서 베트남으로 이동한 여행객으로 인해 본격적으로 세계로 확산되었으며, 이를 치료하던 카를로 우르바니에 의해 위험성이 경고되어 세계보건기구의 본격적인 대응이 이루어졌다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%82%AC%EC%8A%A4_%EC%9C%A0%ED%96%89"
+      },
+      "en": {
+        "title": "2002–2004 SARS outbreak",
+        "extract": "The 2002–2004 outbreak of SARS, caused by severe acute respiratory syndrome coronavirus, infected over 8,000 people from 30 countries and territories, and resulted in at least 774 deaths worldwide.",
+        "url": "https://en.wikipedia.org/wiki/2002%E2%80%932004_SARS_outbreak"
+      },
+      "zh": {
+        "title": "嚴重急性呼吸系統綜合症疫情",
+        "extract": "严重急性呼吸系统综合症疫情，是一次由严重急性呼吸系统综合症冠状病毒（SARS-CoV）所引发的流行病疫情。在2002年11月至2003年9月间散布于29个国家和地区的疫情。疫情的原发疫源地为中华人民共和国广东省顺德市。疫情造成全球超过8,000人感染，导致包括医务人员在内的774例病人死亡。此次疫情初期，相关消息被地方政府掩盖，而有关讯息就透过参与SARS治疗的医师，网际网路及SMS在中国社会传播，最终被世界卫生组织在视察时知晓，后世界卫生组织及国际压力迫使中华人民共和国方面承认了疫情的严重性，并允诺与世界卫生组织充分合作。在疫情扩散期间发生了一系列事件：引起社会恐慌，包括医务人员在内的多名患者死亡，引起联合国、世界卫生组织及媒体的关注。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%9A%B4%E9%87%8D%E6%80%A5%E6%80%A7%E5%91%BC%E5%90%B8%E7%B3%BB%E7%B5%B1%E7%B6%9C%E5%90%88%E7%97%87%E7%96%AB%E6%83%85"
+      },
+      "es": {
+        "title": "Epidemia de síndrome respiratorio agudo grave de 2002-2004",
+        "extract": "La epidemia de SARS de 2002-2004 fue una epidemia ocasionada por el Síndrome Respiratorio Agudo Grave causado por SARS-CoV. El brote se identificó por primera vez en Foshan, Cantón, China, en noviembre de 2002. Más de 8,000 personas de 29 países y territorios diferentes se infectaron, y al menos 774 murieron en todo el mundo. La Organización Mundial de la Salud declaró el SARS contenido el 5 de julio de 2003, sin embargo, se informaron varios casos de la enfermedad hasta mayo de 2004.",
+        "url": "https://es.wikipedia.org/wiki/Epidemia_de_s%C3%ADndrome_respiratorio_agudo_grave_de_2002-2004"
+      },
+      "ar": {
+        "title": "تفشي السارس 2002-2004",
+        "extract": "تفشي السارس 2002-2004، وباء تضمن المتلازمة التنفسية الحادة الوخيمة (سارس) الناجمة عن الفيروس التاجي. سُجلت أول حالات التفشي في فوشان، غوانغدونغ، الصين، في 16 نوفمبر 2002.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%AA%D9%81%D8%B4%D9%8A_%D8%A7%D9%84%D8%B3%D8%A7%D8%B1%D8%B3_2002-2004"
+      },
+      "fr": {
+        "title": "Épidémie de SRAS de 2002-2004",
+        "extract": "L’épidémie de SRAS de 2002-2004 est une épidémie de syndrome respiratoire aigu sévère, une maladie émergente causée par le coronavirus SARS-CoV, ayant commencé en novembre 2002 à Foshan en Chine. Plus de 8 000 personnes sont infectées et au moins 916 personnes en sont décédées dans le monde.",
+        "url": "https://fr.wikipedia.org/wiki/%C3%89pid%C3%A9mie_de_SRAS_de_2002-2004"
+      },
+      "pt": {
+        "title": "Epidemia de SARS",
+        "extract": "A epidemia de síndrome respiratória aguda grave ou epidemia de SARS aconteceu entre 2002 e 2004 e foi ocasionada pela síndrome respiratória aguda grave (SARS), doença causada pelo coronavírus SARS-CoV. A doença foi identificada pela primeira vez em Foshan, Cantão, China em 16 de novembro de 2002.",
+        "url": "https://pt.wikipedia.org/wiki/Epidemia_de_SARS"
+      }
+    }
+  },
+  "2009 swine flu pandemic": {
+    "pages": {
+      "ko": {
+        "title": "2009년 인플루엔자 범유행",
+        "extract": "2009년 인플루엔자 범유행(스페인어: Pandemia de gripe A de 2009)은 인플루엔자바이러스 A형 H1N1 아종의 변종에 의해 발생했다. 최초 발병은 2009년 3월 말 미국 캘리포니아주 샌디에고에서 발열, 기침 및 구토로 내원한 10세 소아의 비인두 흡입 검체에서 처음으로 검출되었다. 멕시코에서도 비슷한 시기에 발생하였다. 이후 빠른 속도로 유럽과 아시아로 확산되었다.",
+        "url": "https://ko.wikipedia.org/wiki/2009%EB%85%84_%EC%9D%B8%ED%94%8C%EB%A3%A8%EC%97%94%EC%9E%90_%EB%B2%94%EC%9C%A0%ED%96%89"
+      },
+      "en": {
+        "title": "2009 swine flu pandemic",
+        "extract": "The 2009 swine flu pandemic, caused by the H1N1/swine flu/influenza virus and declared by the World Health Organization (WHO) from June 2009 to August 2010, was the third recent flu pandemic involving the H1N1 virus. The first identified human case was in La Gloria, Mexico, a rural town in Veracruz. The virus appeared to be a new strain of H1N1 that resulted from a previous triple reassortment of bird, swine, and human flu viruses which further combined with a Eurasian pig flu virus, leading to the term \"swine flu\".",
+        "url": "https://en.wikipedia.org/wiki/2009_swine_flu_pandemic"
+      },
+      "zh": {
+        "title": "2009年H1N1流感大流行",
+        "extract": "2009年H1N1流感大流行，也称2009年猪流感大流行，是于2009年春季至2010年8月间发生的一场全球性流感大流行。此次大流行是最近一次由甲型H1N1流感病毒引起的流感大流行，第一次是1918年的西班牙流感，第二次是1977年俄国流感。",
+        "url": "https://zh.wikipedia.org/wiki/2009%E5%B9%B4H1N1%E6%B5%81%E6%84%9F%E5%A4%A7%E6%B5%81%E8%A1%8C"
+      },
+      "es": {
+        "title": "Pandemia de gripe A (H1N1) de 2009-2010",
+        "extract": "La pandemia de gripe A (H1N1) de 2009-2010 fue una pandemia causada por la variante /09 del Influenzavirus A. Las denominaciones gripe A (H1N1), usadas por numerosos medios de comunicación, pueden dar lugar a confusiones, ya que ha habido otras pandemias de gripe A (H1N1) en épocas pasadas. Por esta razón, este virus fue conocido oficialmente por la Organización Mundial de la Salud (OMS) como Virus H1N1/09 Pandémico, haciendo referencia al año de su aparición. La enfermedad causada por esta nueva cepa viral es conocida como gripe porcina, gripe norteamericana y nueva gripe, nombres que han sido objeto de diversas controversias. El 30 de abril de 2009, la OMS decidió denominarla gripe A (H1N1). Esta es una descripción del virus: la letra A designa la familia de los virus de la gripe humana y de la de algunos animales como cerdos y aves, y las letras H y N corresponden a las proteínas de la superficie del virus que lo caracterizan.",
+        "url": "https://es.wikipedia.org/wiki/Pandemia_de_gripe_A_(H1N1)_de_2009-2010"
+      },
+      "ar": {
+        "title": "جائحة إنفلونزا الخنازير 2009",
+        "extract": "جائحة إنفلونزا الخنازير 2009 H1N1 هي جائحة إنفلونزا تسببها سلالة فيروس إنفلونزا جديدة تصيب البشر. اُكتُشف هذا الفيروس الجديد لأول مرة لدى البشر في المكسيك في أبريل 2009. ينتشر هذا الفيروس من شخص لأخر على نطاق عالمي، بنفس الطريقة التي تنتشر بها الإنفلونزا الموسمية العادية. يوم 11 يونيو 2009، أعلنت منظمة الصحة العالمية عن ظهور وباء H1N1 2009.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%AC%D8%A7%D8%A6%D8%AD%D8%A9_%D8%A5%D9%86%D9%81%D9%84%D9%88%D9%86%D8%B2%D8%A7_%D8%A7%D9%84%D8%AE%D9%86%D8%A7%D8%B2%D9%8A%D8%B1_2009"
+      },
+      "fr": {
+        "title": "Pandémie de grippe A (H1N1) de 2009",
+        "extract": "La pandémie de grippe A (H1N1) de 2009 est une pandémie mondiale de grippe qui dure de 2009 à 2010. On estime qu'elle est responsable de 280 000 morts. C'est la seconde pandémie historique causée par le sous-type H1N1 du virus de la grippe A, la première étant la grippe de 1918.",
+        "url": "https://fr.wikipedia.org/wiki/Pand%C3%A9mie_de_grippe_A_(H1N1)_de_2009"
+      },
+      "pt": {
+        "title": "Pandemia de gripe A de 2009",
+        "extract": "A pandemia de gripe A de 2009 foi uma pandemia de uma variante de gripe suína cujos primeiros casos ocorreram no México em meados do mês de março de 2009. Veio a espalhar-se pelo mundo, tendo começado pela América do Norte, atingindo pouco tempo depois a Europa e a Oceania. A pandemia durou cerca de 20 meses, de janeiro de 2009 a agosto de 2010, e é a segunda das duas pandemias envolvendo o vírus da gripe H1N1, embora uma nova cepa. O vírus foi identificado como uma nova cepa do já conhecido Influenza A subtipo H1N1, o mesmo vírus responsável pelo maior número de casos de gripe entre humanos, o que tornou possível também a designação nova gripe A, em oposição à gripe A comum. Ele contém ARN típico de vírus aviários, suínos e humanos, incluindo elementos dos vírus suínos europeus e asiáticos. Os sintomas da doença são o aparecimento repentino de febre, tosse, dor de cabeça intensa, dores musculares e nas articulações, irritação nos olhos e fluxo nasal.",
+        "url": "https://pt.wikipedia.org/wiki/Pandemia_de_gripe_A_de_2009"
+      }
+    }
+  },
+  "Middle East respiratory syndrome": {
+    "pages": {
+      "ko": {
+        "title": "중동호흡기증후군",
+        "extract": "중동호흡기증후군(中東呼吸器症候群, 의학: Middle East Respiratory Syndrome; MERS 머스, 메르스[*])은 중동호흡기증후군 코로나바이러스(MERS-CoV)에 의한 바이러스성, 급성 호흡기 감염병이다. MERS-CoV는 박쥐로부터 유래한 베타코로나바이러스이다. 낙타나 박쥐 따위의 동물이 바이러스의 주요 매개체로 추정되고 있다. 낙타에서는 MERS-CoV의 항체가 있음이 알려졌으나, 낙타의 감염이 정확히 어디에서 근원했는지는 확인되지 않았다. 2012년 런던의 첫 환자로부터 발견된, 'HCoV-EMC/2012'로 알려진 MERS-CoV의 한 균주는 이집트 무덤 박쥐(Taphozous perforatus)에서 나온 것과 100% 일치하는 것으로 밝혀졌다. 영어 발음에 근거한 MERS의 한글 표기법은 머스지만, 2015년 대한민국 중동호흡기증후군 유행 당시 언론 보도 이후 대다수의 대한민국 사람들이 이를 메르스로 표기하고 발음하면서 관용으로 굳어져 국립국어원에서 이뤄진 실무소위를 통해 표준어가 되었다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%A4%91%EB%8F%99%ED%98%B8%ED%9D%A1%EA%B8%B0%EC%A6%9D%ED%9B%84%EA%B5%B0"
+      },
+      "en": {
+        "title": "MERS",
+        "extract": "Middle East respiratory syndrome (MERS) is a viral respiratory infection caused by Middle East respiratory syndrome–related coronavirus (MERS-CoV). Symptoms may range from none, to mild, to severe depending on age and risk level. Typical symptoms include fever, cough, diarrhea, and shortness of breath. The disease is typically more severe in those with other health problems.",
+        "url": "https://en.wikipedia.org/wiki/MERS"
+      },
+      "zh": {
+        "title": "中東呼吸綜合症",
+        "extract": "中东呼吸综合症 是一种由中东呼吸综合症冠状病毒（前称“2012年新型冠状病毒”）所引起的新型人畜共患的呼吸系统传染病。患者常见的症状为发烧、咳嗽、喉咙痛或胸痛、腹泻或呕吐。",
+        "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E6%9D%B1%E5%91%BC%E5%90%B8%E7%B6%9C%E5%90%88%E7%97%87"
+      },
+      "es": {
+        "title": "Síndrome respiratorio de Oriente Medio",
+        "extract": "El síndrome respiratorio de Oriente Medio, también conocido como fiebre del camello, es una zoonosis que provoca una infección respiratoria viral causada por el coronavirus MERS-CoV. Una de las principales causas de contagio es el contacto con camellos y puede ser contraído tanto por mujeres, hombres y niños.",
+        "url": "https://es.wikipedia.org/wiki/S%C3%ADndrome_respiratorio_de_Oriente_Medio"
+      },
+      "ar": {
+        "title": "متلازمة الشرق الأوسط التنفسية",
+        "extract": "متلازمة الشرق الأوسط التنفسية والمعروفة أيضا باسم انفلونزا الإبل هي التهاب الجهاز التنفسي الفيروسي الناتج عن فيروس كورونا. وقد تتراوح أعراضه بين معتدلة إلى حادة ومنها الحمى والسعال والإسهال وضيق النفس، وعادة ما يكون المرض أكثر حدة لدى الذين يعانون من مشاكل صحية أخرى.\nقد ثبت أن لدى الإبل أجسام مضادة لمتلازمة الشرق الأوسط التنفسية-فيروس كورونا ولكن لم يتم تحديد المصدر الأساسي للإصابة الإبل به. يعتقد أن إصابة الإبل به مرتبطة بانتشاره إلى البشر بطريقة غير معروفة، ويتطلب انتشاره بين البشر عادة اتصال مباشر مع الشخص المصاب ويعتبر انتشاره غير شائع خارج المستشفيات وبالتالي يعتبر خطره على سكان العالم منخفض إلى حدا ما.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%AA%D9%84%D8%A7%D8%B2%D9%85%D8%A9_%D8%A7%D9%84%D8%B4%D8%B1%D9%82_%D8%A7%D9%84%D8%A3%D9%88%D8%B3%D8%B7_%D8%A7%D9%84%D8%AA%D9%86%D9%81%D8%B3%D9%8A%D8%A9"
+      },
+      "fr": {
+        "title": "Syndrome respiratoire du Moyen-Orient",
+        "extract": "Le syndrome respiratoire du Moyen-Orient (MERS) est une infection respiratoire virale causée par le coronavirus MERS-CoV. Les symptômes sont d'une gravité variable et certains cas peuvent rester asymptomatiques. Les principaux symptômes sont la fièvre, la toux et des difficultés respiratoires. Des troubles digestifs comme la diarrhée sont aussi signalés. Les cas de pneumonie aigüe sont fréquents mais pas systématiques. La gravité de la maladie est accrue chez les patients présentant des comorbidités. La mortalité représente environ 35 % des cas diagnostiqués sachant que les symptômes bénins ne sont généralement pas diagnostiqués. La maladie produit des bouffées épidémiques, principalement au Moyen-Orient.",
+        "url": "https://fr.wikipedia.org/wiki/Syndrome_respiratoire_du_Moyen-Orient"
+      },
+      "pt": {
+        "title": "Síndrome respiratória do Médio Oriente",
+        "extract": "Síndrome respiratória do Médio Oriente é uma infeção respiratória viral causada pelo coronavírus MERS (MERS-CoV). Os sintomas podem variar de ligeiros a graves. Os mais comuns são febre, tosse, diarreia e falta de ar. Os sintomas geralmente começam-se a manifestar de 2 a 14 dias após a exposição ao vírus. A doença é geralmente mais grave em pessoas com outros problemas de saúde.",
+        "url": "https://pt.wikipedia.org/wiki/S%C3%ADndrome_respirat%C3%B3ria_do_M%C3%A9dio_Oriente"
+      }
+    }
+  },
+  "Western African Ebola virus epidemic": {
+    "pages": {
+      "ko": {
+        "title": "서아프리카 에볼라 유행",
+        "extract": "서아프리카 에볼라 유행은 2013년 12월부터 서아프리카에 위치한 기니에 시작된, 에볼라 바이러스로 발생하는 에볼라 출혈열 유행병이지만 2014년 3월까지 감지되지 않았다. 이 유행은 1976년 에볼라의 첫 발견 이후 역사상 가장 큰 규모의 에볼라 유행이다. 2014년 10월 1일 WHO 발표 기준, 23,406명이 감염되었으며 9,467명이 사망했다. 이 중 실험실에서 확인된 경우는 4,108명 감염, 2,078명 사망을 확인했다. 이 에볼라 바이러스 유행병은 자이르 에볼라의 변종인것으로 확인되었다. 유럽 위원회 및 서아프리카 경제 공동체를 포함한 다양한 조직들이 이 유행병에 대응하기 위한 기금을 마련하기 시작했다. 또한, 국경 없는 의사회, 사마리아인의 지갑, 적십자 등의 비영리 자원 봉사 단체에서도 전문적인 의료 지원을 하고 있다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%84%9C%EC%95%84%ED%94%84%EB%A6%AC%EC%B9%B4_%EC%97%90%EB%B3%BC%EB%9D%BC_%EC%9C%A0%ED%96%89"
+      },
+      "en": {
+        "title": "Western African Ebola epidemic",
+        "extract": "The 2013–2016 epidemic of Ebola virus disease, centered in West Africa, was the most widespread outbreak of the disease in history. It caused major loss of life and socioeconomic disruption in the region, mainly in Guinea, Liberia and Sierra Leone. The first cases were recorded in Guinea in December 2013; the disease spread to neighbouring Liberia and Sierra Leone, with minor outbreaks occurring in Nigeria and Mali. Secondary infections of medical workers occurred in the United States and Spain. Isolated cases were recorded in Senegal, the United Kingdom and Italy. The number of cases peaked in October 2014 and then began to decline gradually, following the commitment of substantial international resources.",
+        "url": "https://en.wikipedia.org/wiki/Western_African_Ebola_epidemic"
+      },
+      "zh": {
+        "title": "西非伊波拉病毒疫症",
+        "extract": "西非伊波拉病毒疫症，是2013年12月始于西非，由伊波拉病毒引发之疾病大流行。此乃伊波拉出血热史上最严重的一次爆发，亦为该病首次登陆西非。此次疫情录得的最高临床致死率为71%；就诊病人的死亡率则为57-59%。伊波拉出血热首次于1976年出现在现时的刚果及南苏丹，并常于非洲撒哈拉以南的地区造成间歇性流行。这一次的爆发源于2013年12月的畿内亚，后散播至利比里亚及塞拉利昂。尼日利亚及塞内加尔曾出现20人及1人的少数感染个案，但是两国至今没有再增添新的病例；马里也曾有数人染病，而英国也有一名隔离患者。美国与西班牙均出现境外移入个案，患者都是医护人员，但是病毒没有进一步扩散。截至2016年1月14日，世界卫生组织及多国政府共录得28,637宗感染个案及11,315宗死亡案例。不过，他们相信这比实际的数字低。",
+        "url": "https://zh.wikipedia.org/wiki/%E8%A5%BF%E9%9D%9E%E4%BC%8A%E6%B3%A2%E6%8B%89%E7%97%85%E6%AF%92%E7%96%AB%E7%97%87"
+      },
+      "es": {
+        "title": "Epidemia de ébola de 2014-2016",
+        "extract": "La epidemia de ébola de 2014-2016 fue el mayor brote epidémico de la enfermedad por el virus del Ébola, originado en diciembre de 2013 en Guinea, y extendido posteriormente a Liberia, Sierra Leona, Nigeria, Senegal, Estados Unidos, España, Malí y Reino Unido. La OMS declaró el fin de la emergencia de salud pública de importancia internacional el 29 de marzo de 2016, aunque mantiene la vigilancia en los países más afectados por la aparición de casos aislados debido a restos aislados del brote.",
+        "url": "https://es.wikipedia.org/wiki/Epidemia_de_%C3%A9bola_de_2014-2016"
+      },
+      "hi": {
+        "title": "पश्चिमी अफ्रीकी इबोला महामारी",
+        "extract": "इबोला वायरस रोग की आज तक की सबसे बड़े पैमाने की महामारी गिनी में दिसंबर 2013 में शुरू हुई और जून 2016 तक चली।",
+        "url": "https://hi.wikipedia.org/wiki/%E0%A4%AA%E0%A4%B6%E0%A5%8D%E0%A4%9A%E0%A4%BF%E0%A4%AE%E0%A5%80_%E0%A4%85%E0%A4%AB%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%95%E0%A5%80_%E0%A4%87%E0%A4%AC%E0%A5%8B%E0%A4%B2%E0%A4%BE_%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AE%E0%A4%BE%E0%A4%B0%E0%A5%80"
+      },
+      "ar": {
+        "title": "وباء إيبولا في غرب إفريقيا",
+        "extract": "انتشرت في بعض بلدان غرب أفريقيا فاشية لوباء الإيبولا القاتل (EVD). بدأت الفاشية أولا في الانتشار في غينيا خلال مارس 2014. ومنذ بدايات هذه الفاشية وحتى الآن، انتشر الفيروس إلى ليبيريا وسيراليون، ونيجيريا. وتعتبر الجائحة الحالية هي أشد حالة تفشي مسجل لفيروس إيبولا بالنظر لعدد حالات الاصابات البشرية والوفيات. في 8 أغسطس 2014، أعلنت منظمة الصحة العالمية (WHO) أن الجائحة تشكل حالة طوارئ صحية عامة تسترعي الاهتمام الدولي على مستوى العالم. اعتبارا من 6 أغسطس 2014، ذكرت التقارير الصادرة عن منظمة الصحة العالمية أن مجموع الحالات مشتبه بها قد وصل ل 1779 حالة منها 961 حالة وفاة والتي تم التأكد معمليا أن منها 1134 حالة اصابة و622 حالة وفاة قد نتجت عن فيروس الإيبولا. تبرعت منظمات مختلفة بالأموال وحشدت الموظفين للمساعدة في مواجهة تفشي المرض، ومنها المجموعة الاقتصادية لدول غرب إفريقيا (ايكواس) والمراكز الأميركية لمكافحة الأمراض والوقاية منها (CDC)، والمفوضية الأوروبية. وتعمل أيضا في تلك المنطقة المنكوبة عدد من الجمعيات الخيرية شملت منظمة أطباء بلا حدود والصليب الأحمر، ومحفظة السامري. وفي 14 يناير 2016 أعلنت منظمة الصحة العالمية أن غرب أفريقيا أصبحت منطقة خالية من هذا الوباء.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%88%D8%A8%D8%A7%D8%A1_%D8%A5%D9%8A%D8%A8%D9%88%D9%84%D8%A7_%D9%81%D9%8A_%D8%BA%D8%B1%D8%A8_%D8%A5%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7"
+      },
+      "fr": {
+        "title": "Épidémie de maladie à virus Ebola en Afrique de l'Ouest",
+        "extract": "L'épidémie de maladie à virus Ebola en Afrique de l'Ouest est une épidémie qui fait rage entre 2013 et 2016, et qui fait plus de 28 000 victimes. Elle débute en Guinée avant de s'étendre au Liberia et à la Sierra Leone, puis, dans une moindre mesure, au Nigeria, au Mali, aux États-Unis, au Sénégal, en Espagne, au Royaume-Uni et en Italie. C'est la première fois que ce virus, sans traitement connu, sort d'Afrique centrale puis du continent africain.",
+        "url": "https://fr.wikipedia.org/wiki/%C3%89pid%C3%A9mie_de_maladie_%C3%A0_virus_Ebola_en_Afrique_de_l'Ouest"
+      },
+      "pt": {
+        "title": "Epidemia de ébola na África Ocidental",
+        "extract": "A epidemia do vírus Ebola da África Ocidental (2013-2016) foi a epidemia que mais disseminou a doença pelo vírus Ebola (EVD) na história - causando grande perda de vidas e perturbações socioeconômicas na região, principalmente na Guiné, Libéria e Serra Leoa.",
+        "url": "https://pt.wikipedia.org/wiki/Epidemia_de_%C3%A9bola_na_%C3%81frica_Ocidental"
+      }
+    }
+  },
+  "COVID-19 pandemic": {
+    "pages": {
+      "ko": {
+        "title": "코로나19 범유행",
+        "extract": "코로나19 범유행은 2019년 11월 중국 후베이성 우한시에서 처음 확인된 SARS-CoV-2의 감염증인 코로나바이러스감염증-19가 전 세계적으로 유행하고 있는 상황을 말한다. 세계보건기구는 2020년 1월에 국제적 공중보건 비상사태를 선언하였고, 3월에는 펜데믹 즉 세계적 범유행으로 격상시켰다. 2023년 3월 기준으로 6.76억 이상의 확진자와 688만 명 이상의 사망자가 나타났다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%BD%94%EB%A1%9C%EB%82%9819_%EB%B2%94%EC%9C%A0%ED%96%89"
+      },
+      "en": {
+        "title": "COVID-19 pandemic",
+        "extract": "The global COVID-19 pandemic, caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), began with an outbreak in Wuhan, China, in December 2019. It spread to other parts of Asia and then worldwide in early 2020. The World Health Organization (WHO) declared the outbreak a public health emergency of international concern (PHEIC) on 30 January 2020 and assessed it as having become a pandemic on 11 March. The WHO declared that the public health emergency caused by COVID-19 had ended in May 2023, while noting that COVID-19 continued to be a global health threat.",
+        "url": "https://en.wikipedia.org/wiki/COVID-19_pandemic"
+      },
+      "zh": {
+        "title": "2019冠状病毒病疫情",
+        "extract": "2019冠状病毒病疫情是由严重急性呼吸系统综合征冠状病毒2（SARS-CoV-2）导致的2019冠状病毒病（COVID-19）所引发的全球大流行疫情。该疾病在2019年末于中华人民共和国湖北省武汉市首次爆发，随后在2020年初迅速扩散至全球多国，逐渐变成一场全球大流行瘟疫。截止至2025年2月，世界卫生组织于全球已累计报告777,368,929例确诊病例，其中7,087,731人死亡，病死率约为0.91%，是人类历史上大规模流行病之一。世界各国对该病病死率的估计值差异甚大，多数国家该病的观测病死率在0.5%—5.0%之间。",
+        "url": "https://zh.wikipedia.org/wiki/2019%E5%86%A0%E7%8A%B6%E7%97%85%E6%AF%92%E7%97%85%E7%96%AB%E6%83%85"
+      },
+      "es": {
+        "title": "Pandemia de COVID-19",
+        "extract": "La pandemia de COVID-19, conocida también como pandemia de coronavirus, fue una pandemia derivada de la enfermedad causada por el virus SARS-CoV-2. Inicialmente fue llamada «neumonía de Wuhan», puesto que los primeros casos fueron identificados en diciembre de 2019 en la ciudad china de Wuhan, al reportarse casos de un grupo de personas enfermas con un tipo de neumonía desconocida. La mayoría de los afectados tenía vinculación con trabajadores del Mercado mayorista de mariscos de Huanan. La Organización Mundial de la Salud (OMS) la declaró una emergencia de salud pública de importancia internacional el 30 de enero de 2020, condición que mantuvo hasta el 5 de mayo de 2023, cuando la OMS decretó el fin de la emergencia sanitaria. El curso de la enfermedad se encuentra en endémico, debido a que ya no se reportan casos con tanta frecuencia como en sus primeros años.",
+        "url": "https://es.wikipedia.org/wiki/Pandemia_de_COVID-19"
+      },
+      "hi": {
+        "title": "कोविड-19 विश्वमारी",
+        "extract": "कोरोना वायरस विश्वमारी (2019–20) की शुरुआत एक नए किस्म के कोरोनवायरस (2019-nCoV) के संक्रमण के रूप में मध्य चीन के वुहान शहर में 2019 के मध्य दिसंबर में हुई। बहुत से लोगों को बिना किसी कारण निमोनिया होने लगा और यह देखा गया की पीड़ित लोगों में से अधिकतर लोग वुहान सी फूड मार्केट में मछलियाँ बेचते हैं तथा जीवित पशुओं का भी व्यापर करते हैं। चीनी वैज्ञानिकों ने बाद में कोरोनावायरस की एक नई नस्ल की पहचान की जिसे 2019-nCoV प्रारंभिक पदनाम दिया गया। इस नए वायरस में कम से कम 70 प्रतिशत वही जीनोम अनुक्रम पाए गए जो सार्स-कोरोनावायरस में पाए जाते हैं। संक्रमण का पता लगाने के लिए एक विशिष्ट नैदानिक पीसीआर परीक्षण के विकास के साथ कई मामलों की पुष्टि उन लोगों में हुई जो सीधे बाजार से जुड़े हुए थे और उन लोगों में भी इस वायरस का पता लगा जो सीधे उस मार्केट से नहीं जुड़े हुए थे। पहले यह स्पष्ट नहीं था कि यह वायरस सार्स जितनी ही गंभीरता या घातकता का है अथवा नहीं।",
+        "url": "https://hi.wikipedia.org/wiki/%E0%A4%95%E0%A5%8B%E0%A4%B5%E0%A4%BF%E0%A4%A1-19_%E0%A4%B5%E0%A4%BF%E0%A4%B6%E0%A5%8D%E0%A4%B5%E0%A4%AE%E0%A4%BE%E0%A4%B0%E0%A5%80"
+      },
+      "ar": {
+        "title": "جائحة فيروس كورونا",
+        "extract": "جائحة فيروس كورونا(1) أو جائحة كوفيد-19 والمعروفة أيضًا باسم جائحة كورونا، هي جائحةٌ عالميةٌ لمرض فيروس كورونا 2019 (كوفيد-19)، تسبب بها فيروس كورونا 2 المرتبط بالمتلازمة التنفسية الحادة الشديدة (سارس-كوف-2). بدأ بتفشٍ في مدينة ووهان الصينية في أوائل شهر ديسمبر عام 2019، وانتشرت إلى أجزاء أخرى من آسيا، ثم إلى جميع أنحاء العالم في أوائل عام 2020. أعلنت منظمة الصحة العالمية رسميًا في 30 يناير أن تفشي الفيروس يُشكل حالة طوارئ صحية عامة تبعث على القلق الدولي، وأكدت تحول الفاشية إلى جائحة يوم 11 مارس. أعلنت منظمة الصحة العالمية أن حالة الطوارئ الصحية العامة الناجمة عن كوفيد-19 قد انتهت في مايو 2023، مع الإشارة إلى أن كوفيد-19 لا يزال يشكل تهديدًا صحيًا عالميًا.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%AC%D8%A7%D8%A6%D8%AD%D8%A9_%D9%81%D9%8A%D8%B1%D9%88%D8%B3_%D9%83%D9%88%D8%B1%D9%88%D9%86%D8%A7"
+      },
+      "fr": {
+        "title": "Pandémie de Covid-19",
+        "extract": "La pandémie de Covid-19, l'épidémie de Covid-19, la crise Covid, le temps du Covid ou la période Covid est une pandémie d'une maladie infectieuse émergente, appelée la maladie à coronavirus 2019 ou Covid-19, provoquée par le coronavirus SARS-CoV-2. Elle apparaît le 16 novembre 2019 à Wuhan, dans la province du Hubei, avant de se propager dans le monde. Elle entraîne de très nombreuses mesures de protection dans l'ensemble des pays du monde et marque universellement le début des années 2020.",
+        "url": "https://fr.wikipedia.org/wiki/Pand%C3%A9mie_de_Covid-19"
+      },
+      "pt": {
+        "title": "Pandemia de COVID-19",
+        "extract": "Pandemia de COVID-19, também conhecida como pandemia de coronavírus, é uma pandemia da doença por coronavírus 2019 (COVID-19), causada pelo coronavírus da síndrome respiratória aguda grave 2 (SARS-CoV-2). O vírus foi identificado pela primeira vez a partir de um surto em Wuhan, China, em dezembro de 2019. As tentativas de contê-lo falharam, permitindo que o vírus se espalhasse para outras áreas da China e, posteriormente, para todo o mundo. Em 30 de janeiro de 2020, a Organização Mundial da Saúde (OMS) classificou o surto como Emergência de Saúde Pública de Âmbito Internacional (PHEIC) e, em 11 de março de 2020, como pandemia. A OMS declarou o fim da PHEIC no dia 5 de maio de 2023, apesar de ainda continuar a se referir a ela como uma pandemia. Até 22 de fevereiro de 2026, conforme a OMS, 779 056 637 casos foram confirmados em 233 países e territórios, com 7 111 504 mortes atribuídas à doença, tornando-se a quinta mais mortal da história.",
+        "url": "https://pt.wikipedia.org/wiki/Pandemia_de_COVID-19"
+      }
+    }
+  }
+}

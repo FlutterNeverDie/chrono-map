@@ -10,6 +10,7 @@ import { MAX_YEAR, MIN_YEAR, TIME_SCALE } from "@/data/timeline";
 const { positionToYear, yearToPosition } = TIME_SCALE;
 import { formatPeriod, periodOf, stepPeriod } from "@/lib/period";
 import eras from "@/data/eras.json";
+import { MapLanes } from "./MapLanes";
 import {
   ChevronLeftIcon,
   ChevronRightIcon,
@@ -86,6 +87,8 @@ export function YearGauge({ className }: { className?: string }) {
       </button>
 
       <div className="relative min-w-0 flex-1 px-2">
+        {/* 다른 지도(전쟁·역병·발명 …)가 있는 시기를 띠로 쌓아 보여준다 */}
+        <MapLanes period={period} />
         <Slider.Root
           min={MIN_POSITION}
           max={MAX_POSITION}

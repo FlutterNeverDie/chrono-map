@@ -5,6 +5,14 @@ export const hi: Messages = {
   metaTitle: "ChronoMap — वर्ष के अनुसार विश्व इतिहास का मानचित्र",
   metaDescription:
     "समय में आगे-पीछे जाएँ और देखें कि एक ही वर्ष में दुनिया के हर क्षेत्र में क्या हो रहा था।",
+  maps: {
+    now: "यह अवधि",
+    all: "सभी",
+    count: "{n}",
+    empty: "इस अवधि के लिए दिखाने को कुछ नहीं",
+    origin: "उद्गम",
+    latest: "सबसे नए",
+  },
   wars: {
     tab: "युद्ध मानचित्र",
     indexTitle: "युद्ध मानचित्र",
@@ -107,6 +115,7 @@ export const hi: Messages = {
     readMore: "विकिपीडिया पर आगे पढ़ें",
     details: "विवरण",
     collapse: "कम दिखाएँ",
+    otherMaps: "इस अवधि के अन्य मानचित्र",
     close: "बंद करें",
     allCategories: "सभी",
     category: "श्रेणी",
