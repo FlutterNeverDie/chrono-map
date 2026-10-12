@@ -133,3 +133,4 @@ Yaudheya Republic = República Yaudheya
 Yenisei Kyrgyz = Quirguizes do Ienissei
 Ziyadid dynasty = Dinastia Ziyadida
 Zululand = Zululândia
+British Africa = África Britânica

@@ -151,3 +151,10 @@ when: 2000
 coords: 125.75, 39.03
 category: politics
 importance: 4
+
+@ first-sino-japanese-war
+wikipedia: First Sino-Japanese War
+when: 1894 ~ 1895
+coords: 126.98, 37.58
+category: war
+importance: 3

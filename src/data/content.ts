@@ -9,3 +9,4 @@ const content = generated as unknown as Content;
 
 export const EVENTS = content.events;
 export const RANKINGS = content.rankings;
+export const LAST_YEAR = content.lastYear;

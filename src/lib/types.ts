@@ -84,4 +84,9 @@ export type HistoryEvent = {
 /** 시점별 "중요한 사건 순서"(사건 id 배열, 앞이 더 중요). content/rankings/*.txt에서 생성 */
 export type Rankings = Partial<Record<ViewpointId, string[]>>;
 
-export type Content = { events: HistoryEvent[]; rankings: Rankings };
+export type Content = {
+  events: HistoryEvent[];
+  rankings: Rankings;
+  /** 사건 중 가장 늦은 연도 — 연도 슬라이더의 끝 */
+  lastYear: number;
+};

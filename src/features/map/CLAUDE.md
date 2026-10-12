@@ -1,9 +1,11 @@
 # features/map — 세계 지도 (F-04)
 
 ## 책임
+
 - 화면 전체 평면 지도, 선택 연도의 역사 국경, 사건 핀, 시점 바(`ViewpointBar`), 국경 데이터 출처 표기(`Attribution`).
 
 ## 지도
+
 - 투영: **평면 메르카토르**(`geoMercator`), 위도 82°N ~ 58°S, 지도 좌표계 `1000 × MAP_HEIGHT`. `baseMap.ts`의 `makeProjection(centerLon)`만 쓴다.
 - 크기: 배율 1에서 세로(위도 전체)를 화면 높이에 맞추고, 가로는 화면 비율만큼 보여준다(ResizeObserver로 viewBox 계산). 화면이 360°보다 넓으면 좌우에 지도를 이어 붙인다. 지도는 하단 바 위 영역(`bottom: var(--bar-h)`)에만 그린다.
 - 확대(배율 1~8, `useUi.zoom`): 휠(커서 위치 고정), 두 손가락 핀치, 두 번 클릭, `ZoomControls`(+/−). 가로 이동은 회전(lon), 세로 이동은 확대했을 때만(centerY).
@@ -15,6 +17,7 @@
 - 좌표 반올림(`geoPath().digits(1)`, `project()` 소수 1자리) — 서버/브라우저 부동소수점 차이로 하이드레이션 경고가 나기 때문.
 
 ## 역사 국경 (`borders.ts`)
+
 - 데이터: `public/borders/<연도>.json`(TopoJSON, 스냅샷 222개), `index.json`(연도 목록), `names/<언어>.json`(원본 이름 → 언어별 이름).
 - 생성: `npm run borders`(scripts/build-borders.mjs). 원본 Cliopatria(Seshat), **CC BY 4.0 → 화면에 출처 표기(`Attribution`) 필수**.
 - 선택 연도 이하에서 가장 가까운 스냅샷을 쓴다. 파일은 한 번 받으면 캐시, 받는 동안은 이전 지도를 유지.
@@ -25,9 +28,11 @@
 - 이름 겹침 방지: 큰 나라부터 놓고, 겹치면 위아래로 비켜 보고, 그래도 자리가 없으면 뺀다(선택한 나라·고대 초기는 항상 표시).
 
 ## 색·테마
+
 - CSS 변수(`--map-ocean`, `--map-land`, `--map-border`, `--map-region-opacity`, `--map-label` 등)만 사용. SVG 속성에서 `var()`가 안 먹는 경우(fillOpacity)는 `style`로.
 
 ## 모바일 규칙
+
 - 핀은 보이는 점 r=4, 터치 영역 r=16.
 - 핀 탭 → `useUi.selectEvent(id)` → 사건 패널이 열리고 해당 카드로 스크롤(hover 툴팁 금지).
 - 시점 바는 모바일에서 가로 스크롤.

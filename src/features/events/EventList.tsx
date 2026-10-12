@@ -4,28 +4,31 @@ import { useEffect, useMemo } from "react";
 import clsx from "clsx";
 import { usePeriod } from "@/store/timeline";
 import { useRankingViewpoint, useUi } from "@/store/ui";
-import { isOngoing, visibleEvents } from "@/lib/events";
+import { isOngoing } from "@/lib/events";
+import { useVisibleEvents } from "@/store/useVisibleEvents";
 import { rankEvents } from "@/lib/ranking";
 import { eventSummary, eventTitle, pick } from "@/lib/localize";
 import { formatWhen } from "@/lib/year";
-import { EVENTS, RANKINGS } from "@/data/content";
+import { RANKINGS } from "@/data/content";
 import { REGION_BY_ID } from "@/data/regions";
 import { VIEWPOINT_BY_ID } from "@/data/viewpoints";
 import { useI18n } from "@/i18n/I18nProvider";
+import { localeHref } from "@/i18n/locales";
 import { ExternalIcon, PinIcon } from "@/components/ui/icons";
 
 /** 선택 연도 주변 사건을 현재 시점 기준 중요한 순서로 나열 */
 export function useRankedEvents() {
   const period = usePeriod();
+  const visible = useVisibleEvents();
   const viewpoint = useRankingViewpoint();
   return useMemo(
     () =>
-      rankEvents(visibleEvents(EVENTS, period), {
+      rankEvents(visible, {
         period,
         regionOrder: VIEWPOINT_BY_ID.get(viewpoint)!.regions,
         ranking: RANKINGS[viewpoint] ?? [],
       }),
-    [period, viewpoint],
+    [visible, period, viewpoint],
   );
 }
 
@@ -122,6 +125,13 @@ export function EventList() {
                     <ExternalIcon className="size-4" />
                   </a>
                   <span>{messages.ui.wikipedia} · CC BY-SA 4.0</span>
+                  <a
+                    href={localeHref(locale, `event/${e.id}`)}
+                    onClick={(ev) => ev.stopPropagation()}
+                    className="ms-auto font-medium text-foreground underline decoration-line underline-offset-2 hover:decoration-foreground"
+                  >
+                    {messages.ui.details}
+                  </a>
                 </p>
               )}
             </article>

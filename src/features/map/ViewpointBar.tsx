@@ -38,7 +38,7 @@ export function ViewpointBar() {
           aria-pressed={viewpoint === v.id}
           onClick={() => setViewpoint(v.id)}
           className={clsx(
-            "h-10 shrink-0 rounded-md px-3.5 text-[15px] whitespace-nowrap transition-colors lg:h-11 lg:px-4 lg:text-base",
+            "h-10 shrink-0 rounded-md px-3.5 text-[15px] whitespace-nowrap transition-colors lg:px-4 lg:text-base",
             viewpoint === v.id
               ? "bg-foreground font-semibold text-background"
               : "text-muted hover:bg-chip hover:text-foreground",

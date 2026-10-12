@@ -33,3 +33,4 @@ Tibet = 西藏
 Tibetans = 西藏
 Zand Dynasty = 赞德王朝
 Éire = 爱尔兰
+British Africa = 英属非洲

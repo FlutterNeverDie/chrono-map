@@ -97,3 +97,4 @@ Yenisei Kyrgyz = قرغيز ينيسي
 Zimbabwe Rhodesia = زيمبابوي روديسيا
 Zululand = أرض الزولو
 Đại Việt = داي فيت
+British Africa = أفريقيا البريطانية

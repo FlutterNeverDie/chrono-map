@@ -32,7 +32,7 @@ export function RootDocument({
       suppressHydrationWarning
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="h-full overflow-hidden">
+      <body className="min-h-full">
         {children}
         <Script id="theme-init" strategy="beforeInteractive">
           {themeScript}

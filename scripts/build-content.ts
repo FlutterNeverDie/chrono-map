@@ -36,7 +36,8 @@ if (errors.length) {
 }
 
 mkdirSync(OUT_DIR, { recursive: true });
-const content: Content = { events, rankings };
+const lastYear = Math.max(...events.map((e) => e.end));
+const content: Content = { events, rankings, lastYear };
 writeFileSync(join(OUT_DIR, "content.json"), JSON.stringify(content));
 const linked = events.filter((e) => e.wikipedia).length;
 console.log(

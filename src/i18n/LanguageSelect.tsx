@@ -2,7 +2,7 @@
 
 import { ChevronDownIcon, GlobeIcon } from "@/components/ui/icons";
 import { useI18n } from "./I18nProvider";
-import { LOCALES, LOCALE_INFO, isLocale, localePath } from "./locales";
+import { LOCALES, LOCALE_INFO, isLocale, switchLocalePath } from "./locales";
 
 /**
  * 언어 선택. 보이는 부분은 아이콘 + 언어 이름이고, 실제 선택은 그 위에 겹친 투명한
@@ -13,7 +13,7 @@ export function LanguageSelect() {
   const { locale, messages } = useI18n();
 
   return (
-    <label className="relative flex h-12 items-center gap-2 rounded-md px-3 text-base text-muted transition-colors focus-within:ring-2 focus-within:ring-accent/40 hover:bg-chip hover:text-foreground">
+    <label className="relative flex h-10 items-center gap-2 rounded-md px-2.5 text-[15px] text-muted transition-colors focus-within:ring-2 focus-within:ring-accent/40 hover:bg-chip hover:text-foreground">
       <GlobeIcon className="size-[22px] shrink-0" />
       <span className="font-medium text-foreground uppercase sm:hidden">
         {locale}
@@ -31,7 +31,10 @@ export function LanguageSelect() {
           try {
             localStorage.setItem("locale", next);
           } catch {}
-          window.location.assign(localePath(next));
+          window.location.assign(
+            switchLocalePath(window.location.pathname, locale, next) +
+              window.location.search,
+          );
         }}
         className="absolute inset-0 cursor-pointer opacity-0"
       >

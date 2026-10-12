@@ -33,7 +33,10 @@
 
 ```
 content/               사람·AI가 편집하는 원본 데이터(사건, 시점별 순서, 나라 이름 수정) → content/CLAUDE.md
+content/ww2/           2차대전 지도 데이터(전투, 진영)                        → content/ww2/CLAUDE.md
 public/borders/        연도별 역사 국경 + 언어별 나라 이름 (생성물, git에 올림)
+public/ww2/borders/    2차대전 연도별 국경 1937~1945 (생성물, git에 올림)
+public/geo/            확대 시 쓰는 자세한 해안선(50m)
 src/
   app/                 라우트와 화면 조립만. 로직은 features로 위임   → src/app/CLAUDE.md
   i18n/                언어 목록·번역 사전·언어 선택                  → CLAUDE.md
@@ -41,7 +44,8 @@ src/
     timeline/          연도 게이지, 시대 레이블                        → CLAUDE.md
     map/               평면 지도, 역사 국경, 시점 바, 사건 핀           → CLAUDE.md
     events/            시점별로 정렬된 사건 목록 패널                  → CLAUDE.md
-    filters/           지역·카테고리 필터 (예정)                       → CLAUDE.md
+    ww2/               2차대전 지도 (/ww2) — 본 지도와 코드 공유 안 함 → CLAUDE.md
+    pages/             글 페이지: 사건 상세·소개·개인정보처리방침        → CLAUDE.md
     ads/               AdSense 슬롯 (개발 완료 후)                     → CLAUDE.md
   components/ui/       도메인을 모르는 공용 UI(테마 토글 등)           → CLAUDE.md
   store/               zustand 전역 상태                               → CLAUDE.md
@@ -85,9 +89,15 @@ npm run dev     # 개발 서버 http://localhost:3000 (사건 데이터 변환 �
 npm run content # content/*.txt + wikipedia.json → src/data/generated/content.json
 npm run wiki    # 사건의 위키백과 요약(8개 언어) 받기 (새 문서만, 전부는 -- --all)
 npm run borders # 역사 국경 스냅샷 재생성 (원본 내려받기는 스크립트 주석 참고, 수 분 걸림)
+npm run draft   # Wikidata에서 사건 후보 → content/drafts (-- --promote 55 로 바로 추가)
+npm run ww2:fetch / ww2:borders / ww2:build   # 2차대전 지도 데이터 (content/ww2/CLAUDE.md)
 npm run build   # 정적 빌드 → out/  (백엔드 기능을 쓰면 여기서 실패한다)
 npm run lint
 ```
+
+## 개발 서버 주의
+
+- `globals.css`를 바꿨는데 화면에 반영이 안 되면 개발 서버 캐시 문제다: 서버를 끄고 `.next`를 지운 뒤 다시 실행.
 
 ## Git
 

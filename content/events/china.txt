@@ -106,3 +106,52 @@ when: 2019 ~ 2023
 coords: 114.3, 30.59
 category: science
 importance: 5
+
+@ first-opium-war
+wikipedia: First Opium War
+when: 1839 ~ 1842
+coords: 103.45, 35.84
+category: war
+importance: 3
+
+@ second-opium-war
+wikipedia: Second Opium War
+when: 1856 ~ 1860
+coords: 103, 38
+category: war
+importance: 3
+
+@ boxer-rebellion
+wikipedia: Boxer Rebellion
+when: 1899 ~ 1901
+coords: 105.1, 41.4
+category: politics
+importance: 3
+
+@ russo-japanese-war
+wikipedia: Russo-Japanese War
+when: 1904 ~ 1905
+coords: 125, 45
+category: war
+importance: 4
+
+@ 1911-revolution
+wikipedia: 1911 Revolution
+when: 1911 ~ 1912
+coords: 103, 38
+category: politics
+importance: 3
+
+@ mukden-incident
+wikipedia: Mukden incident
+when: 1931
+coords: 123.47, 41.83
+category: war
+importance: 3
+
+@ second-sino-japanese-war
+wikipedia: Second Sino-Japanese War
+when: 1937 ~ 1945
+coords: 105, 35
+category: war
+importance: 4

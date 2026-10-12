@@ -1,4 +1,4 @@
-import type { HistoryEvent } from "./types";
+import type { CategoryId, HistoryEvent } from "./types";
 import { distanceToPeriod, periodWindow, type Period } from "./period";
 
 /**
@@ -16,4 +16,14 @@ export function visibleEvents(
 ): HistoryEvent[] {
   const range = periodWindow(p);
   return events.filter((e) => distanceToPeriod(e, p) <= range);
+}
+
+/** 카테고리 필터. 고른 게 없으면 전부 통과 */
+export function filterByCategory(
+  events: HistoryEvent[],
+  categories: CategoryId[],
+): HistoryEvent[] {
+  return categories.length
+    ? events.filter((e) => categories.includes(e.category))
+    : events;
 }

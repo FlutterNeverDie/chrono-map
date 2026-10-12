@@ -9,6 +9,7 @@
 - `eras.json`: 시대 정의(게이지 레이블).
 
 ## 규칙
+
 - 지역·시점·카테고리 목록은 여기 한 곳에만 둔다(언어 목록은 `i18n/locales.ts`). 변환 스크립트(`scripts/build-content.ts`)도 이 파일들을 import해 검증한다.
 - 지역·시점을 추가하면: `lib/types.ts`의 유니온 → 이 폴더 정의 → 8개 언어 사전 → `content/events|rankings/<id>.txt` 순서로 고친다(타입 오류가 빠진 곳을 알려준다).
 - 지도 위 나라(정치체) 영역은 이 지역과 무관하다(`public/borders`, features/map).

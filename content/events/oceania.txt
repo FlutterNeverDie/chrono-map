@@ -61,3 +61,17 @@ summary.hi: ऑस्ट्रेलिया के उपनिवेश म�
 summary.ar: اتحدت المستعمرات الأسترالية في دولة اتحادية واحدة.
 summary.fr: Les colonies australiennes s'unirent en une seule nation fédérale.
 summary.pt: As colônias australianas uniram-se numa única nação federal.
+
+@ attack-on-pearl-harbor
+wikipedia: Attack on Pearl Harbor
+when: 1941
+coords: -157.95, 21.37
+category: war
+importance: 4
+
+@ battle-of-iwo-jima
+wikipedia: Battle of Iwo Jima
+when: 1945
+coords: 141.32, 24.78
+category: war
+importance: 3

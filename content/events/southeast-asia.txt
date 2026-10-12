@@ -69,3 +69,17 @@ when: 1997
 coords: 100.5, 13.75
 category: economy
 importance: 4
+
+@ first-indochina-war
+wikipedia: First Indochina War
+when: 1946 ~ 1954
+coords: 105.85, 21.03
+category: war
+importance: 3
+
+@ battle-of-dien-bien-phu
+wikipedia: Battle of Dien Bien Phu
+when: 1954
+coords: 103.02, 21.39
+category: war
+importance: 3

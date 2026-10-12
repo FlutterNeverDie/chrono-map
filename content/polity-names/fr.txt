@@ -38,3 +38,4 @@ Talpur Dynasty = Dynastie Talpur
 Tibet = Tibet
 Tibetans = Tibet
 Xionites = Xionites
+British Africa = Afrique britannique

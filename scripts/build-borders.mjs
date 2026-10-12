@@ -76,7 +76,7 @@ if (!existsSync(SIMPLIFIED)) {
       "-filter-fields",
       "Name,FromYear,ToYear,Area,Wikidata,Wikipedia",
       "-simplify",
-      "3%",
+      "20%",
       "weighted",
       "keep-shapes",
       "-o",
@@ -301,7 +301,10 @@ for (const locale of LOCALES) {
       const text = raw.trim();
       if (!text || text.startsWith("#")) return;
       const eq = text.indexOf(" = ");
-      if (eq < 0) throw new Error(`content/polity-names/${locale}.txt:${i + 1} "원본 이름 = 번역" 형식이 아님: ${raw}`);
+      if (eq < 0)
+        throw new Error(
+          `content/polity-names/${locale}.txt:${i + 1} "원본 이름 = 번역" 형식이 아님: ${raw}`,
+        );
       const name = text.slice(0, eq).trim();
       (overrides[name] ??= {})[locale] = text.slice(eq + 3).trim();
     });

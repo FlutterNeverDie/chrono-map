@@ -33,6 +33,17 @@ export function normalizeLon(lon: number): number {
 
 export const graticule = geoGraticule10();
 
-/** 육지 외곽선(현대 해안선). 나라 영역은 연도별 국경(borders.ts)이 그 위에 덮인다 */
+/** 육지(현대 해안선, 110m — 처음 화면용). 나라 영역은 이 모양으로 잘라 바다로 번지지 않게 한다 */
 const topology = world as unknown as Topology<{ land: GeometryCollection }>;
 export const land = feature(topology, topology.objects.land);
+
+/** 확대했을 때 쓰는 자세한 해안선(50m, 약 550KB). public/geo에 두고 필요할 때 한 번만 받는다 */
+let detailed: Promise<typeof land> | null = null;
+export function loadDetailedLand(): Promise<typeof land> {
+  detailed ??= fetch("/geo/land-50m.json")
+    .then((r) => r.json())
+    .then((t: Topology<{ land: GeometryCollection }>) =>
+      feature(t, t.objects.land),
+    );
+  return detailed;
+}

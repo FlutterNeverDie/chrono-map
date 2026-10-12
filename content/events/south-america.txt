@@ -61,3 +61,17 @@ summary.hi: ब्राज़ील ने पुर्तगाल से स�
 summary.ar: أعلنت البرازيل استقلالها عن البرتغال.
 summary.fr: Le Brésil proclama son indépendance vis-à-vis du Portugal.
 summary.pt: O Brasil declarou independência de Portugal.
+
+@ paraguayan-war
+wikipedia: Paraguayan War
+when: 1864 ~ 1870
+coords: -67.9, -39.1
+category: war
+importance: 3
+
+@ war-of-the-pacific
+wikipedia: War of the Pacific
+when: 1879 ~ 1884
+coords: -76, -9.4
+category: war
+importance: 3

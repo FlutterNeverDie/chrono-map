@@ -68,3 +68,10 @@ when: 2011
 coords: 141.03, 37.42
 category: science
 importance: 4
+
+@ battle-of-okinawa
+wikipedia: Battle of Okinawa
+when: 1945
+coords: 128, 26.5
+category: war
+importance: 3

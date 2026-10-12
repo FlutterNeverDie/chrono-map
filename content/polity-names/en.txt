@@ -9,3 +9,4 @@ Kingdom of France = Kingdom of France
 Mongol Khanate = Mongol Khanate
 Tibet = Tibet
 Tibetans = Tibet
+British Africa = British Africa

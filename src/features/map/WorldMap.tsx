@@ -4,11 +4,10 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { geoPath } from "d3-geo";
 import { usePeriod } from "@/store/timeline";
 import { MAX_ZOOM, useUi } from "@/store/ui";
-import { visibleEvents } from "@/lib/events";
+import { useVisibleEvents } from "@/store/useVisibleEvents";
 import { eventTitle } from "@/lib/localize";
 import { formatWhen } from "@/lib/year";
 import { formatPeriod } from "@/lib/period";
-import { EVENTS } from "@/data/content";
 import { REGION_BY_ID } from "@/data/regions";
 import { DEFAULT_VIEWPOINT, VIEWPOINT_BY_ID } from "@/data/viewpoints";
 import { fill } from "@/i18n";
@@ -18,6 +17,7 @@ import {
   MAP_WIDTH,
   graticule,
   land,
+  loadDetailedLand,
   makeProjection,
   normalizeLon,
 } from "./baseMap";
@@ -183,7 +183,21 @@ export function WorldMap() {
     return () => cancelAnimationFrame(frame);
   }, [viewpoint, setCenterLon, updateLon]);
 
-  const events = useMemo(() => visibleEvents(EVENTS, period), [period]);
+  // 해안선: 처음엔 가벼운 110m, 확대하면 자세한 50m로 바꾼다(한 번 받으면 계속 사용)
+  const [detailedLand, setDetailedLand] = useState<typeof land | null>(null);
+  useEffect(() => {
+    if (zoom < 1.5 || detailedLand) return;
+    let alive = true;
+    loadDetailedLand()
+      .then((l) => alive && setDetailedLand(l))
+      .catch(() => {});
+    return () => {
+      alive = false;
+    };
+  }, [zoom, detailedLand]);
+  const landShape = zoom >= 1.5 && detailedLand ? detailedLand : land;
+
+  const events = useVisibleEvents();
   const { path, project } = useMemo(() => {
     const projection = makeProjection(lon);
     // 서버(Node)와 브라우저의 부동소수점 끝자리가 달라 하이드레이션 불일치가 나지 않도록 반올림
@@ -272,6 +286,7 @@ export function WorldMap() {
     });
     return placed;
   })();
+  const landD = path(landShape) ?? "";
   const copies = v.w > MAP_WIDTH ? [-MAP_WIDTH, 0, MAP_WIDTH] : [0];
 
   const onPointerDown = (e: React.PointerEvent<SVGSVGElement>) => {
@@ -407,10 +422,17 @@ export function WorldMap() {
             strokeWidth={0.5}
             vectorEffect="non-scaling-stroke"
           />
-          <path d={path(land) ?? ""} fill="var(--map-land)" />
+          {/* 육지 + 나라 영역. 나라 색은 해안선 모양으로 잘라 바다로 번지지 않게 한다 */}
+          <defs>
+            <clipPath id={`land-clip-${offset}`}>
+              <path d={landD} />
+            </clipPath>
+          </defs>
+          <path d={landD} fill="var(--map-land)" />
 
           {/* 선택 연도의 나라 영역 */}
           <g
+            clipPath={`url(#land-clip-${offset})`}
             stroke="var(--map-border)"
             strokeWidth={0.6}
             strokeLinejoin="round"
@@ -437,6 +459,13 @@ export function WorldMap() {
               );
             })}
           </g>
+          <path
+            d={landD}
+            fill="none"
+            stroke="var(--map-border)"
+            strokeWidth={0.5}
+            vectorEffect="non-scaling-stroke"
+          />
 
           {/* 사건 핀: 보이는 점은 작게, 터치 영역(r=16)은 크게. 확대해도 화면 크기 유지 */}
           {events.map((e) => {

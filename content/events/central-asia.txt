@@ -61,3 +61,24 @@ summary.hi: तैमूर ने समरक़ंद को राजधा�
 summary.ar: أسس تيمورلنك إمبراطورية عاصمتها سمرقند.
 summary.fr: Tamerlan fonda un empire avec Samarcande pour capitale.
 summary.pt: Tamerlão fundou um império com capital em Samarcanda.
+
+@ russian-civil-war
+wikipedia: Russian Civil War
+when: 1917 ~ 1922
+coords: 105, 46
+category: war
+importance: 4
+
+@ first-nagorno-karabakh-war
+wikipedia: First Nagorno-Karabakh War
+when: 1988 ~ 1994
+coords: 47.7, 40.3
+category: war
+importance: 3
+
+@ second-nagorno-karabakh-war
+wikipedia: Second Nagorno-Karabakh War
+when: 2020
+coords: 47.7, 40.3
+category: war
+importance: 3

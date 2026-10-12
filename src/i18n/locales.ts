@@ -35,3 +35,23 @@ export function isLocale(value: string): value is Locale {
 export function localePath(locale: Locale): string {
   return locale === DEFAULT_LOCALE ? "/" : `/${locale}`;
 }
+
+/** 언어만 바꾼 같은 화면 경로: "/en/ww2?y=1942" → "/fr/ww2?y=1942", "/ww2" → "/en/ww2" */
+export function switchLocalePath(
+  pathname: string,
+  from: Locale,
+  to: Locale,
+): string {
+  const rest =
+    from === DEFAULT_LOCALE
+      ? pathname
+      : pathname.replace(new RegExp(`^/${from}(?=/|$)`), "");
+  const prefix = to === DEFAULT_LOCALE ? "" : `/${to}`;
+  return `${prefix}${rest === "/" ? "" : rest}` || "/";
+}
+
+/** 언어별 하위 경로: localeHref("ko", "about") → "/about", localeHref("en", "about") → "/en/about" */
+export function localeHref(locale: Locale, path = ""): string {
+  const base = locale === DEFAULT_LOCALE ? "" : `/${locale}`;
+  return path ? `${base}/${path}` : base || "/";
+}

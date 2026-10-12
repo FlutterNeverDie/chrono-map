@@ -1,6 +1,7 @@
 # app — 라우트 규칙
 
-- 라우트 파일 + 화면 조립용 `HomeScreen.tsx`, html 뼈대 `RootDocument.tsx`만 둔다. UI 로직은 `src/features`에서 가져온다.
+- 라우트 파일 + 화면 조립(`HomeScreen.tsx` 크로노맵, `Ww2Screen.tsx` 2차대전), 공용 상단 바 `SiteHeader.tsx`(지도 탭 · 화면별 도구 · 언어·테마), html 뼈대 `RootDocument.tsx`만 둔다. UI 로직은 `src/features`에서 가져온다.
+- 라우트(언어마다 `/` 또는 `/en` 아래): 지도 `/`, 2차대전 `/ww2`, 사건 상세 `/event/[id]`, `/about`, `/privacy`, 그리고 `sitemap.xml`·`robots.txt`(주소는 `site.ts`, 배포 시 `NEXT_PUBLIC_SITE_URL`).
 - 루트 레이아웃이 두 개다(다국어 + 한국어 기본 `/`):
   - `(home)/layout.tsx` + `page.tsx` → `/` (한국어). 전에 다른 언어를 골랐으면 그 언어 경로로 이동.
   - `[locale]/layout.tsx` + `page.tsx` → `/en`, `/zh` … (한국어 제외 7개, `generateStaticParams`).

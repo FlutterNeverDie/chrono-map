@@ -6,8 +6,10 @@ import { usePeriod } from "@/store/timeline";
 import { formatPeriodRange } from "@/lib/period";
 import { fill } from "@/i18n";
 import { useI18n } from "@/i18n/I18nProvider";
+import { localeHref } from "@/i18n/locales";
 import { ChevronDownIcon, ChevronUpIcon } from "@/components/ui/icons";
 import { EventList, useRankedEvents } from "./EventList";
+import { CategoryFilter } from "./CategoryFilter";
 
 /**
  * 지도 위에 떠 있는 사건 목록.
@@ -46,6 +48,9 @@ export function EventPanel() {
           )}
         </span>
       </button>
+      <div className={clsx(open ? "block" : "hidden", "lg:block")}>
+        <CategoryFilter />
+      </div>
       <div
         className={clsx(
           "overflow-y-auto overscroll-contain px-3 pb-3",
@@ -54,6 +59,20 @@ export function EventPanel() {
         )}
       >
         <EventList />
+        <p className="mt-4 flex gap-4 px-1 text-sm text-muted">
+          <a
+            href={localeHref(locale, "about")}
+            className="hover:text-foreground"
+          >
+            {messages.pages.about}
+          </a>
+          <a
+            href={localeHref(locale, "privacy")}
+            className="hover:text-foreground"
+          >
+            {messages.pages.privacy}
+          </a>
+        </p>
       </div>
     </section>
   );

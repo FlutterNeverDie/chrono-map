@@ -1,18 +1,21 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import * as Slider from "@radix-ui/react-slider";
 import clsx from "clsx";
 import { usePeriod, useTimeline } from "@/store/timeline";
-import {
-  MAX_POSITION,
-  MIN_POSITION,
-  MIN_YEAR,
-  positionToYear,
-  yearToPosition,
-} from "@/lib/timeScale";
-import { formatPeriod, stepPeriod } from "@/lib/period";
+import { MAX_POSITION, MIN_POSITION } from "@/lib/timeScale";
+import { MAX_YEAR, MIN_YEAR, TIME_SCALE } from "@/data/timeline";
+
+const { positionToYear, yearToPosition } = TIME_SCALE;
+import { formatPeriod, periodOf, stepPeriod } from "@/lib/period";
 import eras from "@/data/eras.json";
-import { ChevronLeftIcon, ChevronRightIcon } from "@/components/ui/icons";
+import {
+  ChevronLeftIcon,
+  ChevronRightIcon,
+  PauseIcon,
+  PlayIcon,
+} from "@/components/ui/icons";
 import { useI18n } from "@/i18n/I18nProvider";
 import { useYearUrl } from "./useYearUrl";
 import type { Messages } from "@/i18n";
@@ -34,12 +37,45 @@ export function YearGauge({ className }: { className?: string }) {
   const step = (direction: 1 | -1) =>
     setYear(stepPeriod(period, direction).start);
 
+  // 자동 재생 (F-10): 한 기간씩 앞으로, 끝에 닿으면 멈춤. 끝에서 누르면 처음부터
+  const lastStart = periodOf(MAX_YEAR).start;
+  const [playing, setPlaying] = useState(false);
+  useEffect(() => {
+    if (!playing) return;
+    const timer = setInterval(() => {
+      const current = periodOf(useTimeline.getState().year);
+      if (current.start >= lastStart) {
+        setPlaying(false);
+        return;
+      }
+      setYear(stepPeriod(current, 1).start);
+    }, 1200);
+    return () => clearInterval(timer);
+  }, [playing, lastStart, setYear]);
+  const togglePlay = () => {
+    if (!playing && period.start >= lastStart) setYear(MIN_YEAR);
+    setPlaying(!playing);
+  };
+
   return (
     // 아랍어(RTL)에서도 시간 축은 왼쪽(과거) → 오른쪽(현재)
     <div
       dir="ltr"
       className={clsx("flex min-w-0 items-center gap-1", className)}
     >
+      <button
+        type="button"
+        aria-label={playing ? messages.ui.pause : messages.ui.play}
+        aria-pressed={playing}
+        onClick={togglePlay}
+        className={clsx(stepButton, playing && "bg-chip text-foreground")}
+      >
+        {playing ? (
+          <PauseIcon className="size-5" />
+        ) : (
+          <PlayIcon className="size-5" />
+        )}
+      </button>
       <button
         type="button"
         aria-label={messages.ui.prevYear}

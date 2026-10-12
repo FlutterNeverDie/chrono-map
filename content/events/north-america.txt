@@ -113,3 +113,94 @@ when: 2007 ~ 2009
 coords: -74.01, 40.71
 category: economy
 importance: 5
+
+@ french-and-indian-war
+wikipedia: French and Indian War
+when: 1754 ~ 1763
+coords: -105, 47
+category: war
+importance: 3
+
+@ american-revolution
+wikipedia: American Revolution
+when: 1763 ~ 1783
+coords: -76.61, 39.28
+category: politics
+importance: 4
+
+@ haitian-revolution
+wikipedia: Haitian Revolution
+when: 1804
+coords: -72.33, 19.1
+category: politics
+importance: 3
+
+@ war-of-1812
+wikipedia: War of 1812
+when: 1812 ~ 1815
+coords: -105, 47
+category: war
+importance: 4
+
+@ mexican-american-war
+wikipedia: Mexican–American War
+when: 1840 ~ 1848
+coords: -102, 23
+category: war
+importance: 3
+
+@ battle-of-gettysburg
+wikipedia: Battle of Gettysburg
+when: 1863
+coords: -77.23, 39.81
+category: war
+importance: 3
+
+@ alaska-purchase
+wikipedia: Alaska Purchase
+when: 1867
+coords: -77.04, 38.9
+category: politics
+importance: 3
+
+@ spanish-american-war
+wikipedia: Spanish–American War
+when: 1898
+coords: -75, 15
+category: war
+importance: 4
+
+@ mexican-revolution
+wikipedia: Mexican Revolution
+when: 1910 ~ 1920
+coords: -102, 23
+category: politics
+importance: 3
+
+@ bretton-woods-system
+wikipedia: Bretton Woods system
+when: 1944
+coords: -71.45, 44.25
+category: politics
+importance: 3
+
+@ cuban-revolution
+wikipedia: Cuban Revolution
+when: 1959
+coords: -79.5, 22
+category: politics
+importance: 4
+
+@ treaty-on-the-non-proliferation-of-nuclear-weapons
+wikipedia: Treaty on the Non-Proliferation of Nuclear Weapons
+when: 1968
+coords: -77.04, 38.9
+category: politics
+importance: 3
+
+@ january-6-united-states-capitol-attack
+wikipedia: January 6 United States Capitol attack
+when: 2021
+coords: -77.01, 38.89
+category: politics
+importance: 3

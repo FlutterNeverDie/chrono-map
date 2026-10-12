@@ -136,6 +136,8 @@ export function readEvents(): { events: HistoryEvent[]; errors: string[] } {
             const r = parseWhen(value);
             if (typeof r === "string") return fail(n, r);
             [d.start, d.end] = r;
+            if (d.end > new Date().getFullYear())
+              return fail(n, `미래 연도: ${value}`);
             break;
           }
           case "precision":

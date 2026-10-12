@@ -44,3 +44,213 @@ when: 2010 ~ 2012
 coords: 10.18, 36.8
 category: politics
 importance: 4
+
+@ neolithic-revolution
+wikipedia: Neolithic Revolution
+when: -9001 ~ -3001
+coords: 40, 36
+category: politics
+importance: 4
+
+@ battle-of-kadesh
+wikipedia: Battle of Kadesh
+when: -1274
+coords: 36.5, 34.56
+category: war
+importance: 3
+
+@ battle-of-gaugamela
+wikipedia: Battle of Gaugamela
+when: -331
+coords: 43.25, 36.36
+category: war
+importance: 3
+
+@ first-jewish-roman-war
+wikipedia: First Jewish–Roman War
+when: 66 ~ 74
+coords: 35.31, 31.7
+category: politics
+importance: 3
+
+@ battle-of-badr
+wikipedia: Battle of Badr
+when: 624
+coords: 38.77, 23.73
+category: war
+importance: 4
+
+@ battle-of-uhud
+wikipedia: Battle of Uhud
+when: 625
+coords: 39.61, 24.5
+category: war
+importance: 3
+
+@ battle-of-the-trench
+wikipedia: Battle of the Trench
+when: 627
+coords: 39.6, 24.47
+category: war
+importance: 3
+
+@ muslim-conquest-of-persia
+wikipedia: Muslim conquest of Persia
+when: 633 ~ 654
+coords: 53, 33
+category: war
+importance: 3
+
+@ battle-of-the-yarmuk
+wikipedia: Battle of the Yarmuk
+when: 636
+coords: 35.95, 32.81
+category: war
+importance: 3
+
+@ battle-of-karbala
+wikipedia: Battle of Karbala
+when: 680
+coords: 44.03, 32.62
+category: war
+importance: 3
+
+@ battle-of-manzikert
+wikipedia: Battle of Manzikert
+when: 1071
+coords: 42.59, 39.1
+category: war
+importance: 3
+
+@ battle-of-hattin
+wikipedia: Battle of Hattin
+when: 1187
+coords: 35.46, 32.8
+category: war
+importance: 3
+
+@ siege-of-baghdad
+wikipedia: Siege of Baghdad
+when: 1258
+coords: 44.34, 33.35
+category: war
+importance: 3
+
+@ battle-of-ankara
+wikipedia: Battle of Ankara
+when: 1402
+coords: 32.95, 40.15
+category: war
+importance: 3
+
+@ arab-revolt
+wikipedia: Arab Revolt
+when: 1918
+coords: 36.29, 33.51
+category: politics
+importance: 3
+
+@ greco-turkish-war-1919-1922
+wikipedia: Greco-Turkish War (1919–1922)
+when: 1919 ~ 1922
+coords: 35, 39
+category: war
+importance: 3
+
+@ second-italo-ethiopian-war
+wikipedia: Second Italo-Ethiopian War
+when: 1935 ~ 1937
+coords: 37.47, 12.6
+category: war
+importance: 3
+
+@ 1948-palestine-war
+wikipedia: 1948 Palestine war
+when: 1940 ~ 1949
+coords: 36, 34
+category: war
+importance: 3
+
+@ nakba
+wikipedia: Nakba
+when: 1948
+coords: 35.24, 31.75
+category: politics
+importance: 3
+
+@ six-day-war
+wikipedia: Six-Day War
+when: 1967
+coords: 45, 28
+category: war
+importance: 4
+
+@ iranian-revolution
+wikipedia: Iranian Revolution
+when: 1970 ~ 1979
+coords: 53, 32
+category: politics
+importance: 4
+
+@ yom-kippur-war
+wikipedia: Yom Kippur War
+when: 1973
+coords: 35.6, 32.8
+category: war
+importance: 4
+
+@ iran-iraq-war
+wikipedia: Iran–Iraq War
+when: 1980 ~ 1988
+coords: 53, 32
+category: war
+importance: 4
+
+@ 1982-lebanon-war
+wikipedia: 1982 Lebanon War
+when: 1982 ~ 1985
+coords: 35.77, 33.83
+category: war
+importance: 3
+
+@ gulf-war
+wikipedia: Gulf War
+when: 1990 ~ 1991
+coords: 43, 33
+category: war
+importance: 4
+
+@ 2006-lebanon-war
+wikipedia: 2006 Lebanon War
+when: 2006
+coords: 35.33, 32.83
+category: war
+importance: 3
+
+@ russo-georgian-war
+wikipedia: Russo-Georgian War
+when: 2008
+coords: 44.42, 41.99
+category: war
+importance: 4
+
+@ gaza-war
+wikipedia: Gaza war
+when: 2020
+coords: 53, 32
+category: war
+importance: 5
+
+@ 2025-2026-iranian-protests
+wikipedia: 2025–2026 Iranian protests
+when: 2020
+coords: 53, 32
+category: politics
+importance: 3
+
+@ twelve-day-war
+wikipedia: Twelve-Day War
+when: 2025
+coords: 45, 28
+category: war
+importance: 3

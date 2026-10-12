@@ -113,3 +113,4 @@ Wadai Empire = 와다이 제국
 Zand Dynasty = 잔드 왕조
 Ziyadid dynasty = 지야드 왕조
 Éire = 아일랜드
+British Africa = 영국령 아프리카

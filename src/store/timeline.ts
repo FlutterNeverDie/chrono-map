@@ -1,7 +1,7 @@
 import { useMemo } from "react";
 import { create } from "zustand";
 import { periodOf, type Period } from "@/lib/period";
-import { MAX_YEAR, MIN_YEAR } from "@/lib/timeScale";
+import { MAX_YEAR, MIN_YEAR } from "@/data/timeline";
 
 type TimelineState = {
   /** 선택한 기간의 시작 연도 (기원전은 세기, 서기는 10년 단위로 맞춰 저장) */

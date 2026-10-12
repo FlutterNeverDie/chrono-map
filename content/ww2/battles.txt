@@ -1,0 +1,1148 @@
+# 2차대전 전투 (Wikidata 자동 + 직접 추가). 형식은 content/ww2/CLAUDE.md
+# links = 위키백과 언어판 수(중요도)
+
+@ marco-polo-bridge-incident
+wikipedia: Marco Polo Bridge incident
+when: 1937-07
+coords: 116.21, 39.85
+links: 50
+
+@ battle-of-shanghai
+wikipedia: Battle of Shanghai
+when: 1937-08 ~ 1937-11
+coords: 121.47, 31.23
+links: 36
+
+@ battle-of-nanking
+wikipedia: Battle of Nanking
+when: 1937-12
+coords: 118.78, 32.01
+links: 25
+
+@ battle-of-wuhan
+wikipedia: Battle of Wuhan
+when: 1938-06 ~ 1938-10
+coords: 114.3, 30.59
+links: 25
+
+@ battle-of-lake-khasan
+wikipedia: Battle of Lake Khasan
+when: 1938-07 ~ 1938-08
+coords: 130.61, 42.44
+links: 35
+
+@ battle-of-the-ebro
+wikipedia: Battle of the Ebro
+when: 1938-07 ~ 1938-11
+coords: 0.48, 41.16
+links: 25
+
+@ battles-of-khalkhin-gol
+wikipedia: Battles of Khalkhin Gol
+when: 1939-05 ~ 1939-09
+coords: 118.59, 47.73
+links: 49
+
+@ gleiwitz-incident
+wikipedia: Gleiwitz incident
+when: 1939-08
+coords: 18.69, 50.31
+links: 40
+
+@ battle-of-westerplatte
+wikipedia: Battle of Westerplatte
+when: 1939-09
+coords: 18.67, 54.41
+links: 37
+
+@ battle-of-the-bzura
+wikipedia: Battle of the Bzura
+when: 1939-09
+coords: 19.37, 52.23
+links: 33
+
+@ siege-of-warsaw-1939
+wikipedia: Siege of Warsaw (1939)
+when: 1939-09
+coords: 21.01, 52.23
+links: 33
+
+@ saar-offensive
+wikipedia: Saar Offensive
+when: 1939-09
+coords: 7.25, 49.17
+links: 36
+
+@ invasion-of-poland
+wikipedia: Invasion of Poland
+when: 1939-09 ~ 1939-10
+coords: 19, 52
+links: 79
+
+@ battle-of-changsha-1939
+wikipedia: Battle of Changsha (1939)
+when: 1939-09 ~ 1939-10
+coords: 112.97, 28.2
+links: 25
+
+@ operation-tannenberg
+wikipedia: Operation Tannenberg
+when: 1939-09 ~ 1940-01
+coords: 19.94, 50.05
+links: 29
+
+@ battle-of-the-atlantic
+wikipedia: Battle of the Atlantic
+when: 1939-09 ~ 1945-05
+coords: -30, 0
+links: 53
+
+@ winter-war
+wikipedia: Winter War
+when: 1939-11 ~ 1940-03
+coords: 29.0, 61.5
+links: 60
+
+@ battle-of-the-river-plate
+wikipedia: Battle of the River Plate
+when: 1939-12
+coords: -49, -34
+links: 41
+
+@ battle-of-suomussalmi
+wikipedia: Battle of Suomussalmi
+when: 1939-12 ~ 1940-01
+coords: 28.89, 64.89
+links: 33
+
+@ norwegian-heavy-water-sabotage
+wikipedia: Norwegian heavy water sabotage
+when: 1940-01 ~ 1944-01
+coords: 8.49, 59.87
+links: 29
+
+@ battles-of-narvik
+wikipedia: Battles of Narvik
+when: 1940-04 ~ 1940-06
+coords: 17.56, 68.42
+links: 29
+
+@ norwegian-campaign
+wikipedia: Norwegian campaign
+when: 1940-04 ~ 1940-06
+coords: 10.68, 59.93
+links: 34
+
+@ operation-weserubung
+wikipedia: Operation Weserübung
+when: 1940-04 ~ 1940-06
+coords: 10.73, 59.92
+links: 52
+
+@ battle-of-sedan-1940
+wikipedia: Battle of Sedan (1940)
+when: 1940-05
+coords: 4.94, 49.7
+links: 25
+
+@ german-invasion-of-belgium-1940
+wikipedia: German invasion of Belgium (1940)
+when: 1940-05
+coords: 4.67, 50.64
+links: 39
+
+@ battle-of-fort-eben-emael
+wikipedia: Battle of Fort Ében-Émael
+when: 1940-05
+coords: 5.68, 50.8
+links: 25
+
+@ german-invasion-of-the-netherlands
+wikipedia: German invasion of the Netherlands
+when: 1940-05
+coords: 5.55, 52.32
+links: 43
+
+@ battle-of-france
+wikipedia: Battle of France
+when: 1940-05 ~ 1940-06
+coords: 4.67, 50.64
+links: 75
+
+@ battle-of-dunkirk
+wikipedia: Battle of Dunkirk
+when: 1940-05 ~ 1940-06
+coords: 2.38, 51.05
+links: 51
+
+@ dunkirk-evacuation
+wikipedia: Dunkirk evacuation
+when: 1940-05 ~ 1940-06
+coords: 2.36, 51.06
+links: 56
+
+@ italian-invasion-of-france
+wikipedia: Italian invasion of France
+when: 1940-06
+coords: 6.87, 45.83
+links: 26
+
+@ east-african-campaign-world-war-ii
+wikipedia: East African campaign (World War II)
+when: 1940-06 ~ 1941-11
+coords: 36.85, -1.3
+links: 30
+
+@ siege-of-malta-world-war-ii
+wikipedia: Siege of Malta (World War II)
+when: 1940-06 ~ 1942-11
+coords: 14.51, 35.9
+links: 33
+
+@ western-desert-campaign
+wikipedia: Western Desert campaign
+when: 1940-06 ~ 1943-02
+coords: 28.95, 30.83
+links: 27
+
+@ north-african-campaign
+wikipedia: North African campaign
+when: 1940-06 ~ 1943-05
+coords: 31.22, 30.05
+links: 50
+
+@ attack-on-mers-el-kebir
+wikipedia: Attack on Mers-el-Kébir
+when: 1940-07
+coords: -0.69, 35.72
+links: 32
+
+@ battle-of-britain
+wikipedia: Battle of Britain
+when: 1940-07 ~ 1940-10
+coords: -0.13, 51.5
+links: 60
+
+@ battle-of-dakar
+wikipedia: Battle of Dakar
+when: 1940-09
+coords: -17.42, 14.68
+links: 25
+
+@ balkans-campaign-world-war-ii
+wikipedia: Balkans campaign (World War II)
+when: 1940-10 ~ 1941-06
+coords: 20, 41
+links: 39
+
+@ battle-of-taranto
+wikipedia: Battle of Taranto
+when: 1940-11
+coords: 17.21, 40.45
+links: 36
+
+@ operation-compass
+wikipedia: Operation Compass
+when: 1940-12 ~ 1941-02
+coords: 25.93, 31.61
+links: 44
+
+@ operation-sonnenblume
+wikipedia: Operation Sonnenblume
+when: 1941-02 ~ 1941-05
+coords: 17, 27
+links: 26
+
+@ battle-of-cape-matapan
+wikipedia: Battle of Cape Matapan
+when: 1941-03
+coords: 22, 35.35
+links: 31
+
+@ german-invasion-of-greece
+wikipedia: German invasion of Greece
+when: 1941-04
+coords: 23, 38.5
+links: 42
+
+@ siege-of-tobruk
+wikipedia: Siege of Tobruk
+when: 1941-04 ~ 1941-11
+coords: 23.96, 32.08
+links: 33
+
+@ battle-of-the-denmark-strait
+wikipedia: Battle of the Denmark Strait
+when: 1941-05
+coords: -31, 67.77
+links: 30
+
+@ battle-of-crete
+wikipedia: Battle of Crete
+when: 1941-05 ~ 1941-06
+coords: 24.06, 35.5
+links: 45
+
+@ defense-of-brest-fortress
+wikipedia: Defense of Brest Fortress
+when: 1941-06
+coords: 23.65, 52.08
+links: 30
+
+@ operation-battleaxe
+wikipedia: Operation Battleaxe
+when: 1941-06
+coords: 25.12, 31.5
+links: 26
+
+@ battle-of-brody-1941
+wikipedia: Battle of Brody (1941)
+when: 1941-06
+coords: 25.15, 50.08
+links: 28
+
+@ battle-of-bia-ystok-minsk
+wikipedia: Battle of Białystok–Minsk
+when: 1941-06 ~ 1941-07
+coords: 19, 52
+links: 36
+
+@ syria-lebanon-campaign
+wikipedia: Syria–Lebanon campaign
+when: 1941-06 ~ 1941-07
+coords: 35.77, 33.83
+links: 33
+
+@ operation-silver-fox
+wikipedia: Operation Silver Fox
+when: 1941-06 ~ 1941-11
+coords: 33.08, 68.97
+links: 25
+
+@ operation-barbarossa
+wikipedia: Operation Barbarossa
+when: 1941-06 ~ 1941-12
+coords: 30.5, 52.0
+links: 60
+
+@ battle-of-uman
+wikipedia: Battle of Uman
+when: 1941-07 ~ 1941-08
+coords: 30.67, 48.58
+links: 29
+
+@ battle-of-smolensk-1941
+wikipedia: Battle of Smolensk (1941)
+when: 1941-07 ~ 1941-09
+coords: 32.05, 54.78
+links: 40
+
+@ battle-of-kiev-1941
+wikipedia: Battle of Kiev (1941)
+when: 1941-08 ~ 1941-09
+coords: 30.52, 50.45
+links: 43
+
+@ siege-of-odessa
+wikipedia: Siege of Odessa
+when: 1941-08 ~ 1941-10
+coords: 30.73, 46.48
+links: 35
+
+@ arctic-convoys-of-world-war-ii
+wikipedia: Arctic convoys of World War II
+when: 1941-08 ~ 1945-05
+coords: 0, 90
+links: 26
+
+@ battle-of-moscow
+wikipedia: Battle of Moscow
+when: 1941-09 ~ 1942-04
+coords: 37.63, 55.75
+links: 65
+
+@ siege-of-leningrad
+wikipedia: Siege of Leningrad
+when: 1941-09 ~ 1944-01
+coords: 30.32, 59.93
+links: 73
+
+@ first-battle-of-kharkov
+wikipedia: First Battle of Kharkov
+when: 1941-10
+coords: 36.22, 49.99
+links: 36
+
+@ siege-of-sevastopol-1941-1942
+wikipedia: Siege of Sevastopol (1941–1942)
+when: 1941-10 ~ 1942-07
+coords: 33.54, 44.6
+links: 41
+
+@ operation-crusader
+wikipedia: Operation Crusader
+when: 1941-11 ~ 1941-12
+coords: 23.96, 32.08
+links: 37
+
+@ battle-of-rostov-1941
+wikipedia: Battle of Rostov (1941)
+when: 1941-11 ~ 1941-12
+coords: 39.71, 47.22
+links: 33
+
+@ battle-of-hong-kong
+wikipedia: Battle of Hong Kong
+when: 1941-12
+coords: 114.16, 22.28
+links: 30
+
+@ battle-of-guam-1941
+wikipedia: Battle of Guam (1941)
+when: 1941-12
+coords: 144.8, 13.5
+links: 29
+
+@ sinking-of-prince-of-wales-and-repulse
+wikipedia: Sinking of Prince of Wales and Repulse
+when: 1941-12
+coords: 104.48, 3.56
+links: 25
+
+@ battle-of-wake-island
+wikipedia: Battle of Wake Island
+when: 1941-12
+coords: 166.6, 19.29
+links: 28
+
+@ attack-on-pearl-harbor
+wikipedia: Attack on Pearl Harbor
+when: 1941-12
+coords: -157.95, 21.37
+links: 88
+
+@ dutch-east-indies-campaign
+wikipedia: Dutch East Indies campaign
+when: 1941-12 ~ 1942-03
+coords: 120, -5
+links: 25
+
+@ philippines-campaign-1941-1942
+wikipedia: Philippines campaign (1941–1942)
+when: 1941-12 ~ 1942-05
+coords: 121, 15
+links: 36
+
+@ battle-of-bataan
+wikipedia: Battle of Bataan
+when: 1942-01 ~ 1942-04
+coords: 120.5, 14.6
+links: 60
+
+@ demyansk-pocket
+wikipedia: Demyansk Pocket
+when: 1942-01 ~ 1942-05
+coords: 32.47, 57.65
+links: 30
+
+@ battles-of-rzhev
+wikipedia: Battles of Rzhev
+when: 1942-01 ~ 1943-03
+coords: 34.33, 56.27
+links: 29
+
+@ burma-campaign
+wikipedia: Burma campaign
+when: 1942-01 ~ 1945-07
+coords: 96, 21
+links: 32
+
+@ solomon-islands-campaign
+wikipedia: Solomon Islands campaign
+when: 1942-01 ~ 1945-08
+coords: 159.82, -9.47
+links: 33
+
+@ new-guinea-campaign
+wikipedia: New Guinea campaign
+when: 1942-01 ~ 1945-08
+coords: 140, -5
+links: 27
+
+@ battle-of-the-java-sea
+wikipedia: Battle of the Java Sea
+when: 1942-02
+coords: 111, -5
+links: 31
+
+@ bombing-of-darwin
+wikipedia: Bombing of Darwin
+when: 1942-02
+coords: 130.85, -12.47
+links: 26
+
+@ channel-dash
+wikipedia: Channel Dash
+when: 1942-02
+coords: 1.74, 50.98
+links: 28
+
+@ battle-of-los-angeles
+wikipedia: Battle of Los Angeles
+when: 1942-02
+coords: -118.24, 34.05
+links: 27
+
+@ fall-of-singapore
+wikipedia: Fall of Singapore
+when: 1942-02
+coords: 103.77, 1.35
+links: 45
+
+@ st-nazaire-raid
+wikipedia: St Nazaire Raid
+when: 1942-03
+coords: -2.2, 47.27
+links: 28
+
+@ indian-ocean-raid
+wikipedia: Indian Ocean raid
+when: 1942-03 ~ 1942-04
+coords: 80, -20
+links: 27
+
+@ second-battle-of-kharkov
+wikipedia: Second Battle of Kharkov
+when: 1942-05
+coords: 37.13, 49.23
+links: 42
+
+@ battle-of-the-coral-sea
+wikipedia: Battle of the Coral Sea
+when: 1942-05
+coords: 162.33, -16.27
+links: 49
+
+@ operation-anthropoid
+wikipedia: Operation Anthropoid
+when: 1942-05
+coords: 14.46, 50.12
+links: 32
+
+@ battle-of-gazala
+wikipedia: Battle of Gazala
+when: 1942-05 ~ 1942-06
+coords: 23.45, 31.95
+links: 37
+
+@ battle-of-bir-hakeim
+wikipedia: Battle of Bir Hakeim
+when: 1942-05 ~ 1942-06
+coords: 23.48, 31.59
+links: 30
+
+@ battle-of-madagascar
+wikipedia: Battle of Madagascar
+when: 1942-05 ~ 1942-11
+coords: 49.28, -12.27
+links: 32
+
+@ battle-of-midway
+wikipedia: Battle of Midway
+when: 1942-06
+coords: -178, 30
+links: 67
+
+@ case-blue
+wikipedia: Case Blue
+when: 1942-06 ~ 1942-11
+coords: 39.71, 47.22
+links: 36
+
+@ aleutian-islands-campaign
+wikipedia: Aleutian Islands campaign
+when: 1942-06 ~ 1943-08
+coords: 173.07, 52.83
+links: 32
+
+@ first-battle-of-el-alamein
+wikipedia: First Battle of El Alamein
+when: 1942-07
+coords: 28.94, 30.84
+links: 45
+
+@ battle-of-the-caucasus
+wikipedia: Battle of the Caucasus
+when: 1942-07 ~ 1943-10
+coords: 44.5, 42.75
+links: 29
+
+@ dieppe-raid
+wikipedia: Dieppe Raid
+when: 1942-08
+coords: 1.08, 49.93
+links: 44
+
+@ battle-of-the-eastern-solomons
+wikipedia: Battle of the Eastern Solomons
+when: 1942-08
+coords: 162.73, -8.39
+links: 26
+
+@ battle-of-savo-island
+wikipedia: Battle of Savo Island
+when: 1942-08
+coords: 159.82, -9.13
+links: 29
+
+@ battle-of-alam-el-halfa
+wikipedia: Battle of Alam el Halfa
+when: 1942-08 ~ 1942-09
+coords: 29.17, 30.67
+links: 28
+
+@ guadalcanal-campaign
+wikipedia: Guadalcanal campaign
+when: 1942-08 ~ 1943-02
+coords: 160, -9.42
+links: 46
+
+@ battle-of-stalingrad
+wikipedia: Battle of Stalingrad
+when: 1942-08 ~ 1943-02
+coords: 44.53, 48.72
+links: 108
+
+@ battle-of-the-santa-cruz-islands
+wikipedia: Battle of the Santa Cruz Islands
+when: 1942-10
+coords: 166.72, -8.63
+links: 27
+
+@ second-battle-of-el-alamein
+wikipedia: Second Battle of El Alamein
+when: 1942-10 ~ 1942-11
+coords: 28.94, 30.84
+links: 47
+
+@ operation-uranus
+wikipedia: Operation Uranus
+when: 1942-11
+coords: 44.52, 48.7
+links: 43
+
+@ operation-torch
+wikipedia: Operation Torch
+when: 1942-11
+coords: -2.03, 35.09
+links: 51
+
+@ scuttling-of-the-french-fleet-at-toulon
+wikipedia: Scuttling of the French fleet at Toulon
+when: 1942-11
+coords: 5.91, 43.11
+links: 26
+
+@ naval-battle-of-guadalcanal
+wikipedia: Naval Battle of Guadalcanal
+when: 1942-11
+coords: 159.9, -9.19
+links: 28
+
+@ operation-mars
+wikipedia: Operation Mars
+when: 1942-11 ~ 1942-12
+coords: 34.33, 56.27
+links: 32
+
+@ tunisian-campaign
+wikipedia: Tunisian campaign
+when: 1942-11 ~ 1943-05
+coords: 9, 34
+links: 35
+
+@ operation-winter-storm
+wikipedia: Operation Winter Storm
+when: 1942-12
+coords: 44.51, 48.71
+links: 28
+
+@ operation-iskra
+wikipedia: Operation Iskra
+when: 1943-01
+coords: 31.07, 59.9
+links: 29
+
+@ battle-of-kasserine-pass
+wikipedia: Battle of Kasserine Pass
+when: 1943-02
+coords: 8.74, 35.26
+links: 35
+
+@ third-battle-of-kharkov
+wikipedia: Third Battle of Kharkov
+when: 1943-02 ~ 1943-03
+coords: 36.32, 49.97
+links: 42
+
+@ operation-weiss
+wikipedia: Operation Weiss
+when: 1943-02 ~ 1943-04
+coords: 17.76, 43.65
+links: 25
+
+@ battle-of-the-bismarck-sea
+wikipedia: Battle of the Bismarck Sea
+when: 1943-03
+coords: 148.25, -7.25
+links: 29
+
+@ operation-mincemeat
+wikipedia: Operation Mincemeat
+when: 1943-04
+coords: -3.5, 40.2
+links: 32
+
+@ operation-chastise
+wikipedia: Operation Chastise
+when: 1943-05
+coords: 7.97, 51.35
+links: 28
+
+@ battle-of-prokhorovka
+wikipedia: Battle of Prokhorovka
+when: 1943-07
+coords: 36.67, 51.02
+links: 32
+
+@ battle-of-kursk
+wikipedia: Battle of Kursk
+when: 1943-07 ~ 1943-08
+coords: 36.1, 51.7
+links: 74
+
+@ allied-invasion-of-sicily
+wikipedia: Allied invasion of Sicily
+when: 1943-07 ~ 1943-08
+coords: 14.43, 36.88
+links: 54
+
+@ operation-kutuzov
+wikipedia: Operation Kutuzov
+when: 1943-07 ~ 1943-08
+coords: 36.07, 52.97
+links: 29
+
+@ italian-campaign-world-war-ii
+wikipedia: Italian campaign (World War II)
+when: 1943-07 ~ 1945-05
+coords: 12.5, 42.5
+links: 45
+
+@ smolensk-operation
+wikipedia: Smolensk operation
+when: 1943-08 ~ 1943-10
+coords: 32.05, 54.78
+links: 32
+
+@ battle-of-the-dnieper
+wikipedia: Battle of the Dnieper
+when: 1943-08 ~ 1943-12
+coords: 32.29, 46.5
+links: 37
+
+@ operation-achse
+wikipedia: Operation Achse
+when: 1943-09
+coords: 12.5, 42.5
+links: 28
+
+@ allied-invasion-of-italy
+wikipedia: Allied invasion of Italy
+when: 1943-09
+coords: 14.76, 40.68
+links: 33
+
+@ battle-of-tarawa
+wikipedia: Battle of Tarawa
+when: 1943-11
+coords: 172.98, 1.43
+links: 36
+
+@ battle-of-kiev-1943
+wikipedia: Battle of Kiev (1943)
+when: 1943-11 ~ 1943-12
+coords: 30.52, 50.45
+links: 28
+
+@ gilbert-and-marshall-islands-campaign
+wikipedia: Gilbert and Marshall Islands campaign
+when: 1943-11 ~ 1944-02
+coords: 168.66, 6.93
+links: 28
+
+@ battle-of-the-north-cape
+wikipedia: Battle of the North Cape
+when: 1943-12
+coords: 28.25, 72.52
+links: 25
+
+@ battle-of-korsun-cherkassy
+wikipedia: Battle of Korsun–Cherkassy
+when: 1944-01 ~ 1944-02
+coords: 31.28, 49.42
+links: 28
+
+@ battle-of-monte-cassino
+wikipedia: Battle of Monte Cassino
+when: 1944-01 ~ 1944-05
+coords: 13.81, 41.49
+links: 49
+
+@ battle-of-anzio
+wikipedia: Battle of Anzio
+when: 1944-01 ~ 1944-06
+coords: 12.62, 41.44
+links: 36
+
+@ german-invasion-of-hungary-1944
+wikipedia: German invasion of Hungary (1944)
+when: 1944-03
+coords: 19, 47
+links: 25
+
+@ battle-of-imphal
+wikipedia: Battle of Imphal
+when: 1944-03 ~ 1944-07
+coords: 93.95, 24.82
+links: 28
+
+@ crimean-offensive
+wikipedia: Crimean offensive
+when: 1944-04 ~ 1944-05
+coords: 34, 45
+links: 30
+
+@ battle-of-kohima
+wikipedia: Battle of Kohima
+when: 1944-04 ~ 1944-06
+coords: 94.1, 25.67
+links: 32
+
+@ operation-ichi-go
+wikipedia: Operation Ichi-Go
+when: 1944-04 ~ 1944-12
+coords: 111, 22.6
+links: 33
+
+@ battle-of-the-philippine-sea
+wikipedia: Battle of the Philippine Sea
+when: 1944-06
+coords: 130, 20
+links: 40
+
+@ battle-of-villers-bocage
+wikipedia: Battle of Villers-Bocage
+when: 1944-06
+coords: -0.66, 49.08
+links: 27
+
+@ battle-of-saipan
+wikipedia: Battle of Saipan
+when: 1944-06 ~ 1944-07
+coords: 145.75, 15.18
+links: 33
+
+@ operation-bagration
+wikipedia: Operation Bagration
+when: 1944-06 ~ 1944-08
+coords: 27.56, 53.9
+links: 54
+
+@ operation-overlord
+wikipedia: Operation Overlord
+when: 1944-06 ~ 1944-08
+coords: -0.57, 49.33
+links: 63
+
+@ battle-for-caen
+wikipedia: Battle for Caen
+when: 1944-06 ~ 1944-08
+coords: -0.36, 49.19
+links: 27
+
+@ normandy-landings
+wikipedia: Normandy landings
+when: 1944-06 ~ 1944-08
+coords: -0.6, 49.34
+links: 74
+
+@ mariana-and-palau-islands-campaign
+wikipedia: Mariana and Palau Islands campaign
+when: 1944-06 ~ 1944-11
+coords: 152, 12
+links: 31
+
+@ operation-cobra
+wikipedia: Operation Cobra
+when: 1944-07
+coords: -1.09, 49.12
+links: 30
+
+@ lvov-sandomierz-offensive
+wikipedia: Lvov-Sandomierz Offensive
+when: 1944-07 ~ 1944-08
+coords: 26, 50
+links: 27
+
+@ battle-of-tinian
+wikipedia: Battle of Tinian
+when: 1944-07 ~ 1944-08
+coords: 145.63, 15
+links: 27
+
+@ falaise-pocket
+wikipedia: Falaise pocket
+when: 1944-08
+coords: -0.19, 48.89
+links: 31
+
+@ liberation-of-paris
+wikipedia: Liberation of Paris
+when: 1944-08
+coords: 2.3, 48.87
+links: 48
+
+@ battle-of-guam-1944
+wikipedia: Battle of Guam (1944)
+when: 1944-08
+coords: 144.66, 13.4
+links: 31
+
+@ warsaw-uprising
+wikipedia: Warsaw Uprising
+when: 1944-08 ~ 1944-10
+coords: 21.01, 52.23
+links: 60
+
+@ battle-of-arnhem
+wikipedia: Battle of Arnhem
+when: 1944-09
+coords: 5.9, 51.98
+links: 29
+
+@ operation-market-garden
+wikipedia: Operation Market Garden
+when: 1944-09
+coords: 5.48, 51.44
+links: 50
+
+@ battle-of-angaur
+wikipedia: Battle of Angaur
+when: 1944-09 ~ 1944-10
+coords: 134.13, 6.9
+links: 25
+
+@ belgrade-offensive
+wikipedia: Belgrade offensive
+when: 1944-09 ~ 1944-11
+coords: 20.46, 44.82
+links: 34
+
+@ battle-of-peleliu
+wikipedia: Battle of Peleliu
+when: 1944-09 ~ 1944-11
+coords: 134.25, 7.02
+links: 36
+
+@ baltic-offensive
+wikipedia: Baltic offensive
+when: 1944-09 ~ 1944-11
+coords: 25, 57
+links: 26
+
+@ battle-of-leyte-gulf
+wikipedia: Battle of Leyte Gulf
+when: 1944-10
+coords: 125.36, 10.37
+links: 46
+
+@ battle-of-aachen
+wikipedia: Battle of Aachen
+when: 1944-10
+coords: 6.08, 50.78
+links: 41
+
+@ battle-of-debrecen
+wikipedia: Battle of Debrecen
+when: 1944-10
+coords: 21.64, 47.53
+links: 28
+
+@ operation-panzerfaust
+wikipedia: Operation Panzerfaust
+when: 1944-10
+coords: 19.04, 47.5
+links: 29
+
+@ battle-of-the-scheldt
+wikipedia: Battle of the Scheldt
+when: 1944-10 ~ 1944-11
+coords: 4.65, 51.55
+links: 30
+
+@ battle-of-leyte
+wikipedia: Battle of Leyte
+when: 1944-10 ~ 1944-12
+coords: 125.01, 11.17
+links: 26
+
+@ battle-of-hurtgen-forest
+wikipedia: Battle of Hürtgen Forest
+when: 1944-10 ~ 1945-02
+coords: 6.36, 50.71
+links: 33
+
+@ philippines-campaign-1944-1945
+wikipedia: Philippines campaign (1944–1945)
+when: 1944-10 ~ 1945-08
+coords: 123, 12
+links: 37
+
+@ operation-northwind-1944
+wikipedia: Operation Northwind (1944)
+when: 1944-12 ~ 1945-01
+coords: 7.5, 48.5
+links: 28
+
+@ battle-of-the-bulge
+wikipedia: Battle of the Bulge
+when: 1944-12 ~ 1945-01
+coords: 5.9, 50.2
+links: 64
+
+@ siege-of-budapest
+wikipedia: Siege of Budapest
+when: 1944-12 ~ 1945-02
+coords: 19.04, 47.5
+links: 39
+
+@ operation-bodenplatte
+wikipedia: Operation Bodenplatte
+when: 1945-01
+coords: 4.67, 50.64
+links: 28
+
+@ vistula-oder-offensive
+wikipedia: Vistula–Oder offensive
+when: 1945-01 ~ 1945-02
+coords: 19, 52
+links: 38
+
+@ east-prussian-offensive
+wikipedia: East Prussian offensive
+when: 1945-01 ~ 1945-04
+coords: 20.51, 54.71
+links: 31
+
+@ battle-of-iwo-jima
+wikipedia: Battle of Iwo Jima
+when: 1945-02 ~ 1945-03
+coords: 141.32, 24.78
+links: 65
+
+@ battle-of-manila-1945
+wikipedia: Battle of Manila (1945)
+when: 1945-02 ~ 1945-03
+coords: 120.97, 14.58
+links: 30
+
+@ operation-spring-awakening
+wikipedia: Operation Spring Awakening
+when: 1945-03
+coords: 18.35, 46.98
+links: 35
+
+@ operation-plunder
+wikipedia: Operation Plunder
+when: 1945-03
+coords: 7.55, 51.47
+links: 25
+
+@ operation-varsity
+wikipedia: Operation Varsity
+when: 1945-03
+coords: 6.6, 51.7
+links: 26
+
+@ operation-kikusui-i
+wikipedia: Operation Kikusui I
+when: 1945-04
+coords: 128.07, 30.37
+links: 38
+
+@ battle-of-konigsberg
+wikipedia: Battle of Königsberg
+when: 1945-04
+coords: 20.52, 54.72
+links: 27
+
+@ ruhr-pocket
+wikipedia: Ruhr pocket
+when: 1945-04
+coords: 7.55, 51.47
+links: 26
+
+@ battle-of-the-seelow-heights
+wikipedia: Battle of the Seelow Heights
+when: 1945-04
+coords: 14.4, 52.53
+links: 27
+
+@ battle-of-berlin
+wikipedia: Battle of Berlin
+when: 1945-04 ~ 1945-05
+coords: 13.38, 52.52
+links: 74
+
+@ battle-of-okinawa
+wikipedia: Battle of Okinawa
+when: 1945-04 ~ 1945-06
+coords: 128, 26.5
+links: 58
+
+@ prague-offensive
+wikipedia: Prague offensive
+when: 1945-05
+coords: 14.42, 50.09
+links: 39
+
+@ battle-of-castle-itter
+wikipedia: Battle of Castle Itter
+when: 1945-05
+coords: 12.14, 47.47
+links: 30
+
+@ borneo-campaign
+wikipedia: Borneo campaign
+when: 1945-05 ~ 1945-08
+coords: 114, -1
+links: 28
+
+@ soviet-invasion-of-manchuria
+wikipedia: Soviet invasion of Manchuria
+when: 1945-08
+coords: 125, 49
+links: 43
+
+@ atomic-bombings-of-hiroshima-and-nagasaki
+wikipedia: Atomic bombings of Hiroshima and Nagasaki
+when: 1945-08
+coords: 132.46, 34.39
+links: 60
+
+@ soviet-japanese-war
+wikipedia: Soviet–Japanese War
+when: 1945-08 ~ 1945-09
+coords: 143, 50.5
+links: 42

@@ -22,6 +22,11 @@
   --map-label-halo: rgb(255 255 255 / 0.75);
   --map-pin-stroke: #ffffff;
   --map-pin-ring: #3b2f1e;
+
+  /* 2차대전 지도 진영 색 */
+  --ww2-axis: #c0392b;
+  --ww2-allies: #2e6fbd;
+  --ww2-neutral: #b8ad96;
 }
 
 /* 다크 모드 */
@@ -43,6 +48,10 @@
   --map-label-halo: rgb(10 22 40 / 0.85);
   --map-pin-stroke: #0b1220;
   --map-pin-ring: #f8fafc;
+
+  --ww2-axis: #e05a4a;
+  --ww2-allies: #4f8fe0;
+  --ww2-neutral: #4a5568;
 }
 
 @theme inline {
@@ -67,5 +76,10 @@ html[data-theme="dark"] {
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-geist-sans), -apple-system, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  font-family:
+    var(--font-geist-sans),
+    -apple-system,
+    "Apple SD Gothic Neo",
+    "Noto Sans KR",
+    sans-serif;
 }
