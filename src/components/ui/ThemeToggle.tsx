@@ -44,12 +44,12 @@ export function ThemeToggle({
       }}
       aria-label={label}
       title={label}
-      className="flex size-10 shrink-0 items-center justify-center rounded-md text-muted transition-colors hover:bg-chip hover:text-foreground"
+      className="flex size-12 shrink-0 items-center justify-center rounded-md text-muted transition-colors hover:bg-chip hover:text-foreground"
     >
       {theme === "dark" ? (
-        <SunIcon className="size-[18px]" />
+        <SunIcon className="size-[22px]" />
       ) : (
-        <MoonIcon className="size-[18px]" />
+        <MoonIcon className="size-[22px]" />
       )}
     </button>
   );

@@ -2,9 +2,9 @@
 
 콘텐츠 원본은 `content/`(형식은 content/CLAUDE.md). 이 폴더는 코드에서 쓰는 정의만 둔다.
 
-- `content.ts`: **사건·시점별 순서의 유일한 진입점**(`EVENTS`, `RANKINGS`). `generated/content.json`(생성물, git 제외)을 감싼다.
+- `content.ts`: **사건·시점별 순서의 유일한 진입점**(`EVENTS`, `RANKINGS`). `generated/content.json`(생성물, git 제외 — `content/*.txt` + `content/wikipedia.json`을 합친 것)을 감싼다.
 - `regions.ts`: 사건 분류용 지역 12개(id, 색). 이름은 i18n 사전 `regions`.
-- `viewpoints.ts`: 지도 시점 9개(id, 가운데 경도, 가까운 지역 순서). 이름은 i18n 사전 `viewpoints`.
+- `viewpoints.ts`: 지도 시점 9개(id, 가운데 경도, 가까운 지역 순서). 이름은 i18n 사전 `viewpoints`. 버튼 순서는 경도 순으로 자동 정렬(지도 왼쪽 → 오른쪽: 북미, 남미, 서유럽 … 한국, 오세아니아).
 - `categories.ts`: 사건 카테고리 목록.
 - `eras.json`: 시대 정의(게이지 레이블).
 

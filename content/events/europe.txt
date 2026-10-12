@@ -1,11 +1,11 @@
 # 유럽 (europe) 사건 — 형식은 content/CLAUDE.md 참고
 
 @ caesar-assassination
+wikipedia: Assassination of Julius Caesar
 when: -44
 coords: 12.48, 41.89
 category: politics
 importance: 4
-source: https://ko.wikipedia.org/wiki/율리우스_카이사르
 title.ko: 카이사르 암살
 title.en: Assassination of Julius Caesar
 title.zh: 恺撒遇刺
@@ -32,11 +32,11 @@ summary.fr: Jules César fut assassiné lors d'une séance du Sénat romain.
 summary.pt: Júlio César foi assassinado durante uma sessão do Senado romano.
 
 @ western-rome-fall
+wikipedia: Fall of the Western Roman Empire
 when: 476
 coords: 12.2, 44.4
 category: politics
 importance: 5
-source: https://ko.wikipedia.org/wiki/서로마_제국
 title.ko: 서로마 제국 멸망
 title.en: Fall of the Western Roman Empire
 title.zh: 西罗马帝国灭亡
@@ -63,11 +63,11 @@ summary.fr: Odoacre déposa Romulus Augustule, dernier empereur romain d'Occiden
 summary.pt: Odoacro depôs Rômulo Augusto, o último imperador romano do Ocidente.
 
 @ constantinople-fall
+wikipedia: Fall of Constantinople
 when: 1453
 coords: 28.98, 41.01
 category: war
 importance: 5
-source: https://ko.wikipedia.org/wiki/콘스탄티노폴리스_함락
 title.ko: 콘스탄티노폴리스 함락
 title.en: Fall of Constantinople
 title.zh: 君士坦丁堡陷落
@@ -94,11 +94,11 @@ summary.fr: Mehmed II, sultan ottoman, prit Constantinople, mettant fin à l'Emp
 summary.pt: Maomé II, do Império Otomano, conquistou Constantinopla, pondo fim ao Império Bizantino.
 
 @ french-revolution
+wikipedia: French Revolution
 when: 1789 ~ 1799
 coords: 2.35, 48.86
 category: politics
 importance: 5
-source: https://ko.wikipedia.org/wiki/프랑스_혁명
 title.ko: 프랑스 혁명
 title.en: French Revolution
 title.zh: 法国大革命

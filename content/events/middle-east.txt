@@ -1,11 +1,11 @@
 # 중동 (middle-east) 사건 — 형식은 content/CLAUDE.md 참고
 
 @ hijra
+wikipedia: Hijrah
 when: 622
 coords: 39.6, 24.47
 category: religion
 importance: 5
-source: https://ko.wikipedia.org/wiki/헤지라
 title.ko: 헤지라
 title.en: The Hijra
 title.zh: 希吉拉（迁徙）

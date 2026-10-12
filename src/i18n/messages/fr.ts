@@ -55,6 +55,8 @@ export const fr: Messages = {
     ongoing: "En cours",
     zoomIn: "Zoom avant",
     zoomOut: "Zoom arrière",
+    wikipedia: "Wikipédia",
+    readMore: "Lire la suite sur Wikipédia",
     borderSource: "Données des frontières",
   },
 };

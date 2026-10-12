@@ -20,6 +20,9 @@
    동적 라우트는 반드시 `generateStaticParams()` + `dynamicParams = false`.
 3. **콘텐츠 원본은 `content/`의 텍스트 파일(서버 DB 없음).** 사건은 `content/events/<지역>.txt`, 시점별 순서는 `content/rankings/<시점>.txt`. `npm run content`가 `src/data/generated/content.json`으로 변환한다(dev/build 전에 자동, git에 안 올림). 형식은 `content/CLAUDE.md`.
    - 사건은 모두 기간(`start`~`end`)으로 다룬다. 한 해 사건은 `start === end`.
+   - 사건 설명은 **위키백과**(무료, CC BY-SA 4.0)에서 가져와 가공하지 않고 보여준다 — 출처 링크 표기 필수. `npm run wiki`가 `content/wikipedia.json`에 받아 두고(git에 올림), 빌드는 네트워크 없이 이 파일만 쓴다.
+   - 연도 선택 단위는 **기간**: 기원전은 세기(100년), 서기는 10년(`lib/period.ts`). 현재 기간은 게이지 손잡이 위에 표시한다.
+   - 대한민국 관련 영토·명칭은 대한민국 입장(독도, 동해). 그 밖의 분쟁은 각 언어 위키백과 표기 — `content/CLAUDE.md` 표기 원칙.
 4. **세계지도는 평면(메르카토르)이고 시점이 9개다.** 한국(기본)·동아시아·중앙아시아·서아시아·동유럽·서유럽·북아메리카·남아메리카·오세아니아. 시점을 고르면 그 경도가 가운데로 회전하고, 사건 목록이 그 시점 기준 중요도로 다시 정렬된다. 좌우로 끌면 끝없이 이어진다.
    - 지도의 나라 영역·이름은 **선택 연도의 역사 국경**(Cliopatria, CC BY 4.0 — 화면 출처 표기 필수). `public/borders/`는 `npm run borders`로 생성.
 5. **테마는 일반(기본)/다크.** 일반 = 종이 세계지도 느낌(하늘색 바다, 베이지 육지), 다크 = 남색 바다. 기기 설정을 따르지 않고 항상 일반으로 시작한다. 색은 `globals.css`의 CSS 변수로만 지정한다.
@@ -44,7 +47,7 @@ src/
   store/               zustand 전역 상태                               → CLAUDE.md
   data/                지역·시점·카테고리 정의 + 콘텐츠 진입점          → CLAUDE.md
   lib/                 순수 함수(타입, 연도 표기, 필터, 정렬)          → CLAUDE.md
-scripts/               데이터 변환 (build-content.ts, build-borders.mjs)
+scripts/               데이터 변환 (build-content.ts, fetch-wikipedia.ts, build-borders.mjs, lib/ 공용 파서)
 docs/                  기획서
 ```
 
@@ -71,6 +74,7 @@ app → features → (i18n, store, lib, data, components/ui)
 - 연도는 반드시 `lib/year.ts`의 `formatYear(year, locale)`로, 사건 텍스트는 `lib/localize.ts`의 `pick()`으로 표시.
 - 좌우 여백·위치는 RTL 대응을 위해 `ms-/me-/ps-/pe-/start-/end-` 논리 속성을 쓴다(`ml-/mr-/left-/right-` 지양).
 - 색만으로 지역을 구분하지 않는다(라벨·아이콘 병행).
+- 크기: 글자가 작다는 피드백이 있었다. 본문 16px 이상(큰 화면 17px), 보조 글자 14px 이상, 지도 위 버튼·하단 바 버튼은 48px(`size-12`/`h-12`). 이보다 줄이지 않는다.
 - 디자인: 이모지 금지 — 아이콘은 `components/ui/icons.tsx`의 선 아이콘만. 장식(그림자·그라데이션·큰 둥근 알약 모양)은 최소로, 테두리 1px + `rounded-md/lg` 정도의 절제된 스타일.
 - 색상은 하드코딩하지 않고 Tailwind 테마 색(`bg-surface`, `border-line`, `text-muted`, `bg-chip`, `text-accent`)이나 CSS 변수를 쓴다. 지역 고유색만 `data/regions.ts`에서 가져온다.
 
@@ -78,7 +82,8 @@ app → features → (i18n, store, lib, data, components/ui)
 
 ```bash
 npm run dev     # 개발 서버 http://localhost:3000 (사건 데이터 변환 포함)
-npm run content # content/*.txt → src/data/generated/content.json
+npm run content # content/*.txt + wikipedia.json → src/data/generated/content.json
+npm run wiki    # 사건의 위키백과 요약(8개 언어) 받기 (새 문서만, 전부는 -- --all)
 npm run borders # 역사 국경 스냅샷 재생성 (원본 내려받기는 스크립트 주석 참고, 수 분 걸림)
 npm run build   # 정적 빌드 → out/  (백엔드 기능을 쓰면 여기서 실패한다)
 npm run lint

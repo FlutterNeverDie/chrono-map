@@ -55,6 +55,8 @@ export const hi: Messages = {
     ongoing: "जारी",
     zoomIn: "ज़ूम इन",
     zoomOut: "ज़ूम आउट",
+    wikipedia: "विकिपीडिया",
+    readMore: "विकिपीडिया पर आगे पढ़ें",
     borderSource: "सीमा डेटा",
   },
 };

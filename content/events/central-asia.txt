@@ -1,11 +1,11 @@
 # 중앙아시아 (central-asia) 사건 — 형식은 content/CLAUDE.md 참고
 
 @ genghis-khan
+wikipedia: Genghis Khan
 when: 1206
 coords: 106.9, 47.9
 category: politics
 importance: 5
-source: https://ko.wikipedia.org/wiki/칭기즈_칸
 title.ko: 칭기즈 칸 즉위
 title.en: Genghis Khan is proclaimed
 title.zh: 成吉思汗即位
@@ -32,11 +32,11 @@ summary.fr: Temüjin unifia les tribus mongoles et fut proclamé Gengis Khan.
 summary.pt: Temujin unificou as tribos mongóis e foi proclamado Gengis Khan.
 
 @ timurid-empire
+wikipedia: Timurid Empire
 when: 1370
 coords: 66.96, 39.65
 category: politics
 importance: 4
-source: https://ko.wikipedia.org/wiki/티무르_제국
 title.ko: 티무르 제국 건국
 title.en: Founding of the Timurid Empire
 title.zh: 帖木儿帝国建立

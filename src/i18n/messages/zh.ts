@@ -54,6 +54,8 @@ export const zh: Messages = {
     ongoing: "进行中",
     zoomIn: "放大",
     zoomOut: "缩小",
+    wikipedia: "维基百科",
+    readMore: "在维基百科上继续阅读",
     borderSource: "疆域数据",
   },
 };

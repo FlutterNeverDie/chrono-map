@@ -2,7 +2,7 @@ import type { Locale } from "@/lib/types";
 import { getMessages } from "@/i18n";
 import { I18nProvider } from "@/i18n/I18nProvider";
 import { LanguageSelect } from "@/i18n/LanguageSelect";
-import { YearDisplay, YearGauge } from "@/features/timeline";
+import { YearGauge } from "@/features/timeline";
 import {
   Attribution,
   ViewpointBar,
@@ -21,25 +21,24 @@ export function HomeScreen({ locale }: { locale: Locale }) {
 
   return (
     <I18nProvider locale={locale} messages={messages}>
-      <div className="relative h-dvh w-full overflow-hidden bg-[var(--map-ocean)] [--bar-h:calc(6.5rem+env(safe-area-inset-bottom))] sm:[--bar-h:calc(4.25rem+env(safe-area-inset-bottom))]">
+      <div className="relative h-dvh w-full overflow-hidden bg-[var(--map-ocean)] [--bar-h:calc(8.25rem+env(safe-area-inset-bottom))] sm:[--bar-h:calc(5.5rem+env(safe-area-inset-bottom))]">
         <div className="absolute inset-x-0 top-0 bottom-[var(--bar-h)]">
           <WorldMap />
         </div>
 
         {/* 상단: 연도 · 시점 */}
         <div className="pointer-events-none absolute inset-x-0 top-0 z-30 flex flex-col gap-2 p-3 lg:flex-row lg:items-start">
-          <header className="pointer-events-auto w-fit rounded-lg border border-line bg-surface/95 px-3.5 py-2 backdrop-blur">
-            <h1 className="text-[11px] font-semibold tracking-[0.08em] text-accent uppercase">
+          <header className="pointer-events-auto flex h-12 w-fit items-center rounded-lg border border-line bg-surface/95 px-4 backdrop-blur">
+            <h1 className="text-base font-bold tracking-[0.06em] text-foreground uppercase">
               {messages.siteName}
             </h1>
-            <YearDisplay />
           </header>
           <div className="pointer-events-auto min-w-0 lg:absolute lg:inset-x-0 lg:top-3 lg:mx-auto lg:w-fit">
             <ViewpointBar />
           </div>
         </div>
 
-        <div className="absolute start-3 top-36 z-20 lg:top-24">
+        <div className="absolute start-3 top-32 z-20 lg:top-[4.5rem]">
           <ZoomControls />
         </div>
 
@@ -50,7 +49,7 @@ export function HomeScreen({ locale }: { locale: Locale }) {
         </div>
 
         {/* 하단 바: [언어 · 테마] [연도 게이지] */}
-        <nav className="absolute inset-x-0 bottom-0 z-30 flex h-[var(--bar-h)] flex-col-reverse justify-end gap-1 border-t border-line bg-surface px-2 pt-2 pb-[env(safe-area-inset-bottom)] sm:flex-row sm:items-start sm:gap-3 sm:px-3">
+        <nav className="absolute inset-x-0 bottom-0 z-30 flex h-[var(--bar-h)] flex-col-reverse justify-end gap-2 border-t border-line bg-surface px-2 pt-3 pb-[env(safe-area-inset-bottom)] sm:flex-row sm:items-start sm:gap-3 sm:px-3">
           <div className="flex shrink-0 items-center gap-0.5 sm:border-e sm:border-line sm:pe-3">
             <LanguageSelect />
             <ThemeToggle

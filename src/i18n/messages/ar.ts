@@ -55,6 +55,8 @@ export const ar: Messages = {
     ongoing: "مستمر",
     zoomIn: "تكبير",
     zoomOut: "تصغير",
+    wikipedia: "ويكيبيديا",
+    readMore: "تابع القراءة في ويكيبيديا",
     borderSource: "بيانات الحدود",
   },
 };

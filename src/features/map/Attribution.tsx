@@ -10,7 +10,7 @@ export function Attribution() {
       href="https://github.com/Seshat-Global-History-Databank/cliopatria"
       target="_blank"
       rel="noreferrer"
-      className="pointer-events-auto rounded bg-surface/70 px-1.5 py-0.5 text-[10px] text-muted backdrop-blur"
+      className="pointer-events-auto rounded bg-surface/70 px-1.5 py-0.5 text-xs text-muted backdrop-blur"
     >
       {messages.ui.borderSource}: Cliopatria (Seshat) · CC BY 4.0
     </a>

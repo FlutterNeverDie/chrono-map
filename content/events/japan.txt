@@ -1,11 +1,11 @@
 # 일본 (japan) 사건 — 형식은 content/CLAUDE.md 참고
 
 @ edo-shogunate
+wikipedia: Tokugawa shogunate
 when: 1603
 coords: 139.69, 35.69
 category: politics
 importance: 4
-source: https://ko.wikipedia.org/wiki/에도_막부
 title.ko: 에도 막부 성립
 title.en: Establishment of the Edo shogunate
 title.zh: 江户幕府成立
@@ -32,11 +32,11 @@ summary.fr: Tokugawa Ieyasu établit son shogunat à Edo.
 summary.pt: Tokugawa Ieyasu estabeleceu seu xogunato em Edo.
 
 @ meiji-restoration
+wikipedia: Meiji Restoration
 when: 1868
 coords: 139.75, 35.68
 category: politics
 importance: 5
-source: https://ko.wikipedia.org/wiki/메이지_유신
 title.ko: 메이지 유신
 title.en: Meiji Restoration
 title.zh: 明治维新

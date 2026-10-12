@@ -1,12 +1,12 @@
 # 동남아시아 (southeast-asia) 사건 — 형식은 content/CLAUDE.md 참고
 
 @ angkor-wat
+wikipedia: Angkor Wat
 when: 1113
 precision: decade
 coords: 103.87, 13.41
 category: culture
 importance: 4
-source: https://ko.wikipedia.org/wiki/앙코르와트
 title.ko: 앙코르 와트 건설 시작
 title.en: Construction of Angkor Wat begins
 title.zh: 吴哥窟开始兴建
@@ -33,11 +33,11 @@ summary.fr: La construction d'Angkor Vat commença sous Suryavarman II, souverai
 summary.pt: A construção de Angkor Wat começou sob Suryavarman II, do Império Khmer.
 
 @ indonesia-independence
+wikipedia: Proclamation of Indonesian Independence
 when: 1945
 coords: 106.85, -6.21
 category: politics
 importance: 4
-source: https://ko.wikipedia.org/wiki/인도네시아
 title.ko: 인도네시아 독립 선언
 title.en: Indonesian Declaration of Independence
 title.zh: 印度尼西亚独立宣言

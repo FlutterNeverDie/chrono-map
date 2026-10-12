@@ -53,6 +53,8 @@ export const ko = {
     ongoing: "진행 중",
     zoomIn: "확대",
     zoomOut: "축소",
+    wikipedia: "위키백과",
+    readMore: "위키백과에서 계속 읽기",
     borderSource: "국경 데이터",
   },
 };

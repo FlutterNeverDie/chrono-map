@@ -8,8 +8,8 @@ export type Viewpoint = {
   regions: RegionId[];
 };
 
-/** 지도 시점 9개. 이름은 i18n 사전 viewpoints */
-export const VIEWPOINTS: Viewpoint[] = [
+/** 지도 시점 9개. 이름은 i18n 사전 viewpoints. 화면 버튼 순서 = 아래 경도 순(지도 왼쪽 → 오른쪽) */
+const ALL_VIEWPOINTS: Viewpoint[] = [
   {
     id: "korea",
     lon: 127,
@@ -173,6 +173,9 @@ export const VIEWPOINTS: Viewpoint[] = [
     ],
   },
 ];
+
+/** 북아메리카 → 남아메리카 → 서유럽 → … → 오세아니아 (지도 위 배치와 같은 순서) */
+export const VIEWPOINTS = [...ALL_VIEWPOINTS].sort((a, b) => a.lon - b.lon);
 
 export const DEFAULT_VIEWPOINT: ViewpointId = "korea";
 

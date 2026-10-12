@@ -1,11 +1,11 @@
 # 남아메리카 (south-america) 사건 — 형식은 content/CLAUDE.md 참고
 
 @ cajamarca
+wikipedia: Battle of Cajamarca
 when: 1532
 coords: -78.5, -7.16
 category: war
 importance: 4
-source: https://ko.wikipedia.org/wiki/카하마르카_전투
 title.ko: 카하마르카 전투
 title.en: Battle of Cajamarca
 title.zh: 卡哈马卡战役
@@ -32,11 +32,11 @@ summary.fr: Francisco Pizarro captura l'empereur inca Atahualpa.
 summary.pt: Francisco Pizarro capturou o imperador inca Atahualpa.
 
 @ brazil-independence
+wikipedia: Independence of Brazil
 when: 1822
 coords: -46.6, -23.5
 category: politics
 importance: 4
-source: https://ko.wikipedia.org/wiki/브라질의_독립
 title.ko: 브라질 독립
 title.en: Independence of Brazil
 title.zh: 巴西独立

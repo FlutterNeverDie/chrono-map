@@ -2,11 +2,12 @@
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { geoPath } from "d3-geo";
-import { useTimeline } from "@/store/timeline";
+import { usePeriod } from "@/store/timeline";
 import { MAX_ZOOM, useUi } from "@/store/ui";
 import { visibleEvents } from "@/lib/events";
-import { pick } from "@/lib/localize";
-import { formatWhen, formatYear } from "@/lib/year";
+import { eventTitle } from "@/lib/localize";
+import { formatWhen } from "@/lib/year";
+import { formatPeriod } from "@/lib/period";
 import { EVENTS } from "@/data/content";
 import { REGION_BY_ID } from "@/data/regions";
 import { DEFAULT_VIEWPOINT, VIEWPOINT_BY_ID } from "@/data/viewpoints";
@@ -73,7 +74,7 @@ type Gesture = {
  */
 export function WorldMap() {
   const { locale, messages } = useI18n();
-  const year = useTimeline((s) => s.year);
+  const period = usePeriod();
   const viewpoint = useUi((s) => s.viewpoint);
   const setViewpoint = useUi((s) => s.setViewpoint);
   const setCenterLon = useUi((s) => s.setCenterLon);
@@ -81,7 +82,7 @@ export function WorldMap() {
   const setZoom = useUi((s) => s.setZoom);
   const selectEvent = useUi((s) => s.selectEvent);
   const selectedEventId = useUi((s) => s.selectedEventId);
-  const { polities, nameOf } = useBorders(year, locale);
+  const { polities, nameOf } = useBorders(period.start, locale);
 
   const svgRef = useRef<SVGSVGElement>(null);
   const [lon, setLon] = useState(DEFAULT_LON);
@@ -182,7 +183,7 @@ export function WorldMap() {
     return () => cancelAnimationFrame(frame);
   }, [viewpoint, setCenterLon, updateLon]);
 
-  const events = useMemo(() => visibleEvents(EVENTS, year), [year]);
+  const events = useMemo(() => visibleEvents(EVENTS, period), [period]);
   const { path, project } = useMemo(() => {
     const projection = makeProjection(lon);
     // 서버(Node)와 브라우저의 부동소수점 끝자리가 달라 하이드레이션 불일치가 나지 않도록 반올림
@@ -312,7 +313,7 @@ export function WorldMap() {
       preserveAspectRatio={size ? "none" : "xMidYMid slice"}
       role="img"
       aria-label={fill(messages.ui.mapLabel, {
-        year: formatYear(year, locale),
+        year: formatPeriod(period, locale),
       })}
       className="absolute inset-0 block h-full w-full cursor-grab touch-none select-none active:cursor-grabbing"
       onPointerDown={onPointerDown}
@@ -384,10 +385,10 @@ export function WorldMap() {
               <g
                 key={e.id}
                 data-event-id={e.id}
-                transform={`translate(${p[0]} ${p[1]}) scale(${round2(unit)})`}
+                transform={`translate(${p[0]} ${p[1]}) scale(${round2(unit * 1.2)})`}
                 className="cursor-pointer"
               >
-                <title>{`${formatWhen(e, locale)} ${pick(e.title, locale)}`}</title>
+                <title>{`${formatWhen(e, locale)} ${eventTitle(e, locale)}`}</title>
                 <circle r={16} fill="transparent" />
                 <circle r={selected ? 7.5 : 6} fill="var(--map-pin-stroke)" />
                 <circle
@@ -406,21 +407,22 @@ export function WorldMap() {
             textAnchor="middle"
             fill="var(--map-label)"
             stroke="var(--map-label-halo)"
-            strokeWidth={round2(2.5 * unit)}
+            strokeWidth={round2(3 * unit)}
             paintOrder="stroke"
             className="pointer-events-none"
           >
             {labeled.map((p, i) => {
               const at = project(p.properties.l!);
               if (!at) return null;
+              // 기본 8.5, 큰 나라일수록 최대 15까지 (지도 좌표 단위)
               const base = Math.min(
-                12,
-                7 +
+                15,
+                8.5 +
                   Math.log10(Math.max(1, p.properties.a / LABEL_MIN_AREA)) *
-                    3.5,
+                    4,
               );
               const size =
-                p.properties.n === selectedPolity ? Math.max(base, 11) : base;
+                p.properties.n === selectedPolity ? Math.max(base, 13) : base;
               return (
                 <text
                   key={`${p.properties.n}-${i}`}

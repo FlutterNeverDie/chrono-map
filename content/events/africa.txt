@@ -1,12 +1,12 @@
 # 아프리카 (africa) 사건 — 형식은 content/CLAUDE.md 참고
 
 @ giza-great-pyramid
+wikipedia: Great Pyramid of Giza
 when: -2560
 precision: century
 coords: 31.13, 29.98
 category: culture
 importance: 5
-source: https://ko.wikipedia.org/wiki/쿠푸왕의_피라미드
 title.ko: 기자의 대피라미드 건설
 title.en: Construction of the Great Pyramid of Giza
 title.zh: 吉萨大金字塔建成
@@ -33,11 +33,11 @@ summary.fr: La grande pyramide de Gizeh fut construite sous le règne du pharaon
 summary.pt: A Grande Pirâmide de Gizé foi construída durante o reinado do faraó Quéops, da IV dinastia do Egito.
 
 @ mansa-musa-hajj
+wikipedia: Mansa Musa
 when: 1324
 coords: -4.0, 16.8
 category: economy
 importance: 4
-source: https://ko.wikipedia.org/wiki/만사_무사
 title.ko: 만사 무사의 메카 순례
 title.en: Mansa Musa's pilgrimage to Mecca
 title.zh: 曼萨·穆萨朝觐麦加
@@ -64,11 +64,11 @@ summary.fr: Mansa Moussa, souverain de l'Empire du Mali, fit le pèlerinage à L
 summary.pt: Mansa Musa, soberano do Império do Mali, peregrinou a Meca levando enormes quantidades de ouro.
 
 @ mandela-president
+wikipedia: 1994 South African general election
 when: 1994
 coords: 28.19, -25.75
 category: politics
 importance: 5
-source: https://ko.wikipedia.org/wiki/넬슨_만델라
 title.ko: 만델라 대통령 당선
 title.en: Mandela is elected president
 title.zh: 曼德拉当选总统

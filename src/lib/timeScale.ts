@@ -23,11 +23,3 @@ export function positionToYear(position: number): number {
 export function yearToPosition(year: number): number {
   return Math.round(toPosition(year));
 }
-
-/** 선택 연도 기준으로 함께 보여줄 범위(±년). 오래된 시대일수록 넓다. */
-export function yearWindow(year: number): number {
-  if (year < 0) return 300;
-  if (year < 1500) return 100;
-  if (year < 1900) return 30;
-  return 10;
-}

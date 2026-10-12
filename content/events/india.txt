@@ -1,11 +1,11 @@
 # 인도 (india) 사건 — 형식은 content/CLAUDE.md 참고
 
 @ mughal-empire
+wikipedia: First Battle of Panipat
 when: 1526
 coords: 76.97, 29.39
 category: politics
 importance: 4
-source: https://ko.wikipedia.org/wiki/무굴_제국
 title.ko: 무굴 제국 건국
 title.en: Founding of the Mughal Empire
 title.zh: 莫卧儿帝国建立
@@ -32,11 +32,11 @@ summary.fr: Babur remporta la première bataille de Panipat et fonda l'Empire mo
 summary.pt: Babur venceu a primeira batalha de Panipat e fundou o Império Mogol.
 
 @ india-independence
+wikipedia: Indian Independence Act 1947
 when: 1947
 coords: 77.21, 28.61
 category: politics
 importance: 5
-source: https://ko.wikipedia.org/wiki/인도_독립_운동
 title.ko: 인도 독립
 title.en: Independence of India
 title.zh: 印度独立

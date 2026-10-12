@@ -1,11 +1,11 @@
 # 중국 (china) 사건 — 형식은 content/CLAUDE.md 참고
 
 @ qin-unification
+wikipedia: Qin's wars of unification
 when: -221
 coords: 108.7, 34.3
 category: politics
 importance: 5
-source: https://ko.wikipedia.org/wiki/진나라
 title.ko: 진의 중국 통일
 title.en: Qin unifies China
 title.zh: 秦统一中国
@@ -32,11 +32,11 @@ summary.fr: Le roi Zheng de Qin mit fin à la période des Royaumes combattants,
 summary.pt: O rei Zheng de Qin pôs fim ao período dos Reinos Combatentes, unificou a China e tornou-se o Primeiro Imperador.
 
 @ yuan-founding
+wikipedia: Yuan dynasty
 when: 1271
 coords: 116.4, 39.9
 category: politics
 importance: 4
-source: https://ko.wikipedia.org/wiki/원나라
 title.ko: 원 건국
 title.en: Founding of the Yuan dynasty
 title.zh: 元朝建立
@@ -63,11 +63,11 @@ summary.fr: Kubilai Khan adopta le nom dynastique de Grand Yuan.
 summary.pt: Kublai Khan adotou o nome dinástico de Grande Yuan.
 
 @ ming-founding
+wikipedia: Ming dynasty
 when: 1368
 coords: 118.8, 32.06
 category: politics
 importance: 4
-source: https://ko.wikipedia.org/wiki/명나라
 title.ko: 명 건국
 title.en: Founding of the Ming dynasty
 title.zh: 明朝建立

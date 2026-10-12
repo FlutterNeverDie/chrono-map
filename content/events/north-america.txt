@@ -1,11 +1,11 @@
 # 북아메리카 (north-america) 사건 — 형식은 content/CLAUDE.md 참고
 
 @ columbus-voyage
+wikipedia: Voyages of Christopher Columbus
 when: 1492
 coords: -74.5, 24.1
 category: exploration
 importance: 5
-source: https://ko.wikipedia.org/wiki/크리스토퍼_콜럼버스
 title.ko: 콜럼버스의 아메리카 도달
 title.en: Columbus reaches the Americas
 title.zh: 哥伦布抵达美洲
@@ -32,11 +32,11 @@ summary.fr: Christophe Colomb traversa l'Atlantique et atteignit les Bahamas.
 summary.pt: Cristóvão Colombo atravessou o Atlântico e chegou às Bahamas.
 
 @ us-independence
+wikipedia: United States Declaration of Independence
 when: 1776
 coords: -75.15, 39.95
 category: politics
 importance: 5
-source: https://ko.wikipedia.org/wiki/미국_독립_선언
 title.ko: 미국 독립 선언
 title.en: US Declaration of Independence
 title.zh: 美国独立宣言
@@ -63,11 +63,11 @@ summary.fr: Les Treize colonies déclarèrent leur indépendance vis-à-vis de l
 summary.pt: As Treze Colônias declararam independência da Grã-Bretanha.
 
 @ apollo-11
+wikipedia: Apollo 11
 when: 1969
 coords: -80.6, 28.57
 category: science
 importance: 5
-source: https://ko.wikipedia.org/wiki/아폴로_11호
 title.ko: 아폴로 11호 달 착륙
 title.en: Apollo 11 Moon landing
 title.zh: 阿波罗11号登月

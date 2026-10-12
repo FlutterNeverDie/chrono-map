@@ -55,6 +55,8 @@ export const en: Messages = {
     ongoing: "Ongoing",
     zoomIn: "Zoom in",
     zoomOut: "Zoom out",
+    wikipedia: "Wikipedia",
+    readMore: "Continue reading on Wikipedia",
     borderSource: "Border data",
   },
 };

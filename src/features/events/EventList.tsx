@@ -2,36 +2,36 @@
 
 import { useEffect, useMemo } from "react";
 import clsx from "clsx";
-import { useTimeline } from "@/store/timeline";
+import { usePeriod } from "@/store/timeline";
 import { useRankingViewpoint, useUi } from "@/store/ui";
 import { isOngoing, visibleEvents } from "@/lib/events";
 import { rankEvents } from "@/lib/ranking";
-import { pick } from "@/lib/localize";
+import { eventSummary, eventTitle, pick } from "@/lib/localize";
 import { formatWhen } from "@/lib/year";
 import { EVENTS, RANKINGS } from "@/data/content";
 import { REGION_BY_ID } from "@/data/regions";
 import { VIEWPOINT_BY_ID } from "@/data/viewpoints";
 import { useI18n } from "@/i18n/I18nProvider";
-import { PinIcon } from "@/components/ui/icons";
+import { ExternalIcon, PinIcon } from "@/components/ui/icons";
 
 /** 선택 연도 주변 사건을 현재 시점 기준 중요한 순서로 나열 */
 export function useRankedEvents() {
-  const year = useTimeline((s) => s.year);
+  const period = usePeriod();
   const viewpoint = useRankingViewpoint();
   return useMemo(
     () =>
-      rankEvents(visibleEvents(EVENTS, year), {
-        year,
+      rankEvents(visibleEvents(EVENTS, period), {
+        period,
         regionOrder: VIEWPOINT_BY_ID.get(viewpoint)!.regions,
         ranking: RANKINGS[viewpoint] ?? [],
       }),
-    [year, viewpoint],
+    [period, viewpoint],
   );
 }
 
 export function EventList() {
   const { locale, messages } = useI18n();
-  const year = useTimeline((s) => s.year);
+  const period = usePeriod();
   const selectedEventId = useUi((s) => s.selectedEventId);
   const selectEvent = useUi((s) => s.selectEvent);
   const events = useRankedEvents();
@@ -51,48 +51,80 @@ export function EventList() {
   }
 
   return (
-    <ol className="space-y-2.5">
+    <ol className="space-y-3">
       {events.map((e) => {
         const region = REGION_BY_ID.get(e.region)!;
+        const selected = e.id === selectedEventId;
+        const summary = eventSummary(e, locale);
+        const place = pick(e.place, locale);
         return (
           <li key={e.id} id={`event-${e.id}`}>
-            <button
-              type="button"
+            <article
               onClick={() => selectEvent(e.id)}
               className={clsx(
-                "w-full rounded-lg border bg-surface p-4 text-start transition-colors hover:border-muted/50",
-                e.id === selectedEventId
-                  ? "border-accent ring-2 ring-accent/40"
-                  : "border-line",
+                "cursor-pointer rounded-lg border bg-surface p-5 transition-colors",
+                selected
+                  ? "border-accent ring-2 ring-accent/30"
+                  : "border-line hover:border-muted/50",
               )}
             >
-              <p className="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-muted">
+              <p className="flex flex-wrap items-center gap-x-2.5 gap-y-1 text-[15px] text-muted">
                 <span className="inline-flex items-center gap-1.5 font-semibold text-foreground">
                   <span
                     aria-hidden
-                    className="size-2.5 rounded-full"
+                    className="size-3 rounded-full"
                     style={{ backgroundColor: region.color }}
                   />
                   {messages.regions[e.region]}
                 </span>
                 <span>{formatWhen(e, locale)}</span>
-                {isOngoing(e, year) && (
-                  <span className="rounded-full bg-accent/15 px-2 py-0.5 text-xs font-semibold text-accent">
+                {place && (
+                  <span className="inline-flex items-center gap-0.5">
+                    <PinIcon className="size-4 shrink-0" />
+                    {place}
+                  </span>
+                )}
+                {isOngoing(e, period) && (
+                  <span className="rounded bg-accent/12 px-2 py-0.5 text-[13px] font-semibold text-accent">
                     {messages.ui.ongoing}
                   </span>
                 )}
               </p>
-              <p className="mt-1.5 text-lg leading-snug font-bold">
-                {pick(e.title, locale)}
+              <h3 className="mt-2 text-xl leading-snug font-bold lg:text-[22px]">
+                <button
+                  type="button"
+                  className="text-start"
+                  aria-expanded={selected}
+                >
+                  {eventTitle(e, locale)}
+                </button>
+              </h3>
+              {/* 위키백과 첫 문단을 그대로 보여준다. 선택하면 전체, 아니면 4줄까지 */}
+              <p
+                lang={summary.lang}
+                className={clsx(
+                  "mt-1.5 text-base leading-relaxed text-muted lg:text-[17px]",
+                  !selected && "line-clamp-4",
+                )}
+              >
+                {summary.text}
               </p>
-              <p className="mt-1 text-[15px] leading-relaxed text-muted">
-                {pick(e.summary, locale)}
-              </p>
-              <p className="mt-1.5 flex items-center gap-1 text-sm text-muted">
-                <PinIcon className="size-3.5 shrink-0" />
-                {pick(e.place, locale)}
-              </p>
-            </button>
+              {summary.page && (
+                <p className="mt-3 flex flex-wrap items-center gap-x-3 text-sm text-muted">
+                  <a
+                    href={summary.page.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    onClick={(ev) => ev.stopPropagation()}
+                    className="inline-flex items-center gap-1 font-medium text-foreground underline decoration-line underline-offset-2 hover:decoration-foreground"
+                  >
+                    {messages.ui.readMore}
+                    <ExternalIcon className="size-4" />
+                  </a>
+                  <span>{messages.ui.wikipedia} · CC BY-SA 4.0</span>
+                </p>
+              )}
+            </article>
           </li>
         );
       })}

@@ -73,3 +73,9 @@ export const PinIcon = ({ className }: IconProps) => (
     <circle cx="12" cy="10" r="2.2" />
   </svg>
 );
+
+export const ExternalIcon = ({ className }: IconProps) => (
+  <svg {...base} className={className}>
+    <path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5" />
+  </svg>
+);

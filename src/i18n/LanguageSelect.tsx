@@ -13,15 +13,15 @@ export function LanguageSelect() {
   const { locale, messages } = useI18n();
 
   return (
-    <label className="relative flex h-10 items-center gap-1.5 rounded-md px-2.5 text-sm text-muted transition-colors focus-within:ring-2 focus-within:ring-accent/40 hover:bg-chip hover:text-foreground">
-      <GlobeIcon className="size-[18px] shrink-0" />
+    <label className="relative flex h-12 items-center gap-2 rounded-md px-3 text-base text-muted transition-colors focus-within:ring-2 focus-within:ring-accent/40 hover:bg-chip hover:text-foreground">
+      <GlobeIcon className="size-[22px] shrink-0" />
       <span className="font-medium text-foreground uppercase sm:hidden">
         {locale}
       </span>
       <span className="hidden font-medium text-foreground sm:inline">
         {LOCALE_INFO[locale].nativeName}
       </span>
-      <ChevronDownIcon className="size-3.5 shrink-0" />
+      <ChevronDownIcon className="size-4 shrink-0" />
       <select
         aria-label={messages.ui.language}
         value={locale}

@@ -55,6 +55,8 @@ export const pt: Messages = {
     ongoing: "Em andamento",
     zoomIn: "Aproximar",
     zoomOut: "Afastar",
+    wikipedia: "Wikipédia",
+    readMore: "Continuar lendo na Wikipédia",
     borderSource: "Dados de fronteiras",
   },
 };

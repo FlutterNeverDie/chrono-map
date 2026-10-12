@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "content": "tsx scripts/build-content.ts",
+    "wiki": "tsx scripts/fetch-wikipedia.ts",
     "borders": "node scripts/build-borders.mjs",
     "predev": "npm run content",
     "dev": "next dev",

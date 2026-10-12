@@ -1,11 +1,11 @@
 # 오세아니아 (oceania) 사건 — 형식은 content/CLAUDE.md 참고
 
 @ cook-australia
+wikipedia: First voyage of James Cook
 when: 1770
 coords: 151.2, -34.0
 category: exploration
 importance: 4
-source: https://ko.wikipedia.org/wiki/제임스_쿡
 title.ko: 쿡의 오스트레일리아 동해안 도달
 title.en: Cook reaches Australia's east coast
 title.zh: 库克抵达澳大利亚东海岸
@@ -32,11 +32,11 @@ summary.fr: James Cook atteignit la côte est de l'Australie et en dressa la car
 summary.pt: James Cook chegou à costa leste da Austrália e a mapeou.
 
 @ australia-federation
+wikipedia: Federation of Australia
 when: 1901
 coords: 149.13, -35.28
 category: politics
 importance: 4
-source: https://ko.wikipedia.org/wiki/오스트레일리아_연방
 title.ko: 오스트레일리아 연방 성립
 title.en: Federation of Australia
 title.zh: 澳大利亚联邦成立

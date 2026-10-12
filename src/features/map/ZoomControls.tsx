@@ -5,7 +5,7 @@ import { MinusIcon, PlusIcon } from "@/components/ui/icons";
 import { useI18n } from "@/i18n/I18nProvider";
 
 const button =
-  "flex size-10 items-center justify-center text-muted transition-colors hover:bg-chip hover:text-foreground disabled:opacity-35 disabled:hover:bg-transparent";
+  "flex size-12 items-center justify-center text-muted transition-colors hover:bg-chip hover:text-foreground disabled:opacity-35 disabled:hover:bg-transparent";
 
 /** 지도 확대·축소 버튼 (휠·핀치·두 번 탭과 같은 배율 상태를 쓴다) */
 export function ZoomControls() {
@@ -23,7 +23,7 @@ export function ZoomControls() {
         onClick={() => setZoom(zoom * 1.6)}
         className={button}
       >
-        <PlusIcon className="size-[18px]" />
+        <PlusIcon className="size-[22px]" />
       </button>
       <span aria-hidden className="h-px bg-line" />
       <button
@@ -34,7 +34,7 @@ export function ZoomControls() {
         onClick={() => setZoom(zoom / 1.6)}
         className={button}
       >
-        <MinusIcon className="size-[18px]" />
+        <MinusIcon className="size-[22px]" />
       </button>
     </div>
   );

@@ -40,10 +40,18 @@ export type CategoryId =
 /** 연도가 얼마나 정확한가. year가 아니면 "약 ~"으로 표시 */
 export type Precision = "year" | "decade" | "century";
 
-/** 언어별 문자열. 한국어는 필수, 나머지는 없으면 영어 → 한국어 순으로 대체 */
-export type Localized = { ko: string } & Partial<
-  Record<Exclude<Locale, "ko">, string>
->;
+/** 언어별 문자열. 있는 언어만 채운다(없으면 영어 → 한국어 순으로 대체 표시, lib/localize.ts) */
+export type LocalizedText = Partial<Record<Locale, string>>;
+
+/** 위키백과 문서 요약 하나 (REST API page/summary 결과 그대로) */
+export type WikiPage = {
+  /** 그 언어 위키백과의 문서 제목 */
+  title: string;
+  /** 문서 첫 문단 (가공하지 않은 원문) */
+  extract: string;
+  /** 문서 주소 — 출처 표기(CC BY-SA 4.0)에 쓴다 */
+  url: string;
+};
 
 export type HistoryEvent = {
   id: string;
@@ -60,9 +68,16 @@ export type HistoryEvent = {
   category: CategoryId;
   /** 세계사 전체 기준 중요도 1~5. 시점별 순서가 없을 때 정렬 기준 */
   importance: 1 | 2 | 3 | 4 | 5;
-  title: Localized;
-  place: Localized;
-  summary: Localized;
+  /** 내용의 출처가 되는 영어 위키백과 문서 제목 (예: "Apollo 11") */
+  wikipedia?: string;
+  /** 언어별 위키백과 요약 (`npm run wiki`로 받아 둔 content/wikipedia.json에서 채움) */
+  wiki: Partial<Record<Locale, WikiPage>>;
+  /** 직접 쓴 제목 — 있으면 위키백과 문서 제목보다 우선 (사건다운 이름이 필요할 때) */
+  title: LocalizedText;
+  place: LocalizedText;
+  /** 직접 쓴 요약 — 위키백과 요약이 없는 언어에서만 쓴다 */
+  summary: LocalizedText;
+  /** 위키백과 외 추가 출처 */
   sources: string[];
 };
 
