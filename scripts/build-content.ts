@@ -47,6 +47,8 @@ mkdirSync(OUT_DIR, { recursive: true });
 const lastYear = Math.max(...events.map((e) => e.end));
 const content: Content = { events, rankings, lastYear };
 writeFileSync(join(OUT_DIR, "content.json"), JSON.stringify(content));
+// 브라우저 코드(슬라이더 범위)가 쓰는 작은 값만 따로 — 큰 content.json이 브라우저 번들에 들어가지 않게
+writeFileSync(join(OUT_DIR, "content-meta.json"), JSON.stringify({ lastYear }));
 const linked = events.filter((e) => e.wikipedia).length;
 console.log(
   `사건 ${events.length}건(위키백과 연결 ${linked}건), 시점별 순서 ${Object.keys(rankings).length}개 → src/data/generated/content.json`,

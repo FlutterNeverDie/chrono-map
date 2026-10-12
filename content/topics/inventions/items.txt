@@ -238,3 +238,268 @@ wikipedia: ChatGPT
 when: 2022
 coords: -122.42, 37.77
 importance: 4
+
+@ bow-and-arrow
+wikipedia: Bow and arrow
+when: -64000
+precision: approx
+coords: 31.1, -29.47
+importance: 4
+
+@ plough
+wikipedia: Plough
+when: -6000
+precision: approx
+coords: 44.4, 33.3
+importance: 3
+
+@ bronze
+wikipedia: Bronze Age
+when: -3300
+precision: approx
+coords: 45.0, 32.0
+importance: 4
+
+@ abacus
+wikipedia: Abacus
+when: -2700
+precision: approx
+coords: 45.64, 31.32
+importance: 3
+
+@ glass
+wikipedia: Glass
+when: -2500
+precision: approx
+coords: 44.0, 33.5
+importance: 3
+
+@ coin
+wikipedia: Coin
+when: -600
+precision: approx
+coords: 28.04, 38.49
+importance: 4
+
+@ roman-concrete
+wikipedia: Roman concrete
+when: -200
+precision: approx
+coords: 12.48, 41.89
+importance: 3
+
+@ seismometer
+wikipedia: Seismometer
+when: 132
+coords: 112.45, 34.62
+importance: 2
+
+@ woodblock-printing
+wikipedia: Woodblock printing
+when: 220
+precision: approx
+coords: 112.45, 34.62
+importance: 3
+
+@ windmill
+wikipedia: Windmill
+when: 900
+precision: approx
+coords: 61.5, 31.0
+importance: 2
+
+@ cannon
+wikipedia: Cannon
+when: 1200
+precision: approx
+coords: 114.31, 34.8
+importance: 3
+
+@ eyeglasses
+wikipedia: Glasses
+when: 1286
+precision: approx
+coords: 10.4, 43.72
+importance: 3
+
+@ cheugugi
+wikipedia: Cheugugi
+when: 1441
+coords: 126.98, 37.57
+importance: 3
+
+@ microscope
+wikipedia: Microscope
+when: 1590
+precision: approx
+coords: 3.61, 51.5
+importance: 4
+
+@ turtle-ship
+wikipedia: Turtle ship
+when: 1592
+coords: 127.66, 34.76
+importance: 3
+
+@ pascal-calculator
+wikipedia: Pascal's calculator
+when: 1642
+coords: 2.35, 48.86
+importance: 2
+
+@ barometer
+wikipedia: Barometer
+when: 1643
+coords: 11.25, 43.77
+importance: 2
+
+@ pendulum-clock
+wikipedia: Pendulum clock
+when: 1656
+coords: 4.3, 52.08
+importance: 3
+
+@ lightning-rod
+wikipedia: Lightning rod
+when: 1752
+coords: -75.16, 39.95
+importance: 2
+
+@ spinning-jenny
+wikipedia: Spinning jenny
+when: 1764
+precision: approx
+coords: -2.4, 53.75
+importance: 3
+
+@ hot-air-balloon
+wikipedia: Hot air balloon
+when: 1783
+coords: 4.67, 45.24
+importance: 3
+
+@ steamboat
+wikipedia: Steamboat
+when: 1807
+coords: -74.0, 40.71
+importance: 3
+
+@ stethoscope
+wikipedia: Stethoscope
+when: 1816
+coords: 2.35, 48.86
+importance: 2
+
+@ electric-motor
+wikipedia: Electric motor
+when: 1821
+coords: -0.13, 51.51
+importance: 3
+
+@ bessemer-process
+wikipedia: Bessemer process
+when: 1856
+coords: -1.47, 53.38
+importance: 3
+
+@ pasteurization
+wikipedia: Pasteurization
+when: 1864
+coords: 2.35, 48.86
+importance: 2
+
+@ dynamite
+wikipedia: Dynamite
+when: 1867
+coords: 18.07, 59.33
+importance: 3
+
+@ phonograph
+wikipedia: Phonograph
+when: 1877
+coords: -74.33, 40.56
+importance: 3
+
+@ cinematograph
+wikipedia: Cinematograph
+when: 1895
+coords: 2.35, 48.86
+importance: 3
+
+@ x-ray
+wikipedia: X-ray
+when: 1895
+coords: 9.93, 49.79
+importance: 4
+
+@ liquid-fuel-rocket
+wikipedia: Liquid-propellant rocket
+when: 1926
+coords: -71.83, 42.19
+importance: 3
+
+@ radar
+wikipedia: Radar
+when: 1935
+coords: -1.16, 52.26
+importance: 3
+
+@ jet-engine
+wikipedia: Jet engine
+when: 1939
+coords: 12.1, 54.09
+importance: 4
+
+@ nuclear-power-plant
+wikipedia: Obninsk Nuclear Power Plant
+when: 1954
+coords: 36.6, 55.08
+importance: 3
+
+@ integrated-circuit
+wikipedia: Integrated circuit
+when: 1958
+coords: -96.8, 32.78
+importance: 4
+
+@ laser
+wikipedia: Laser
+when: 1960
+coords: -118.78, 34.03
+importance: 4
+
+@ mobile-phone
+wikipedia: Mobile phone
+when: 1973
+coords: -73.98, 40.75
+importance: 4
+
+@ microprocessor
+wikipedia: Intel 4004
+when: 1971
+coords: -121.96, 37.35
+importance: 4
+
+@ gps
+wikipedia: Global Positioning System
+when: 1978
+coords: -120.6, 34.74
+importance: 3
+
+@ lithium-ion-battery
+wikipedia: Lithium-ion battery
+when: 1991
+coords: 139.69, 35.69
+importance: 3
+
+@ crispr
+wikipedia: CRISPR gene editing
+when: 2012
+coords: -122.27, 37.87
+importance: 3
+
+@ mrna-vaccine
+wikipedia: MRNA vaccine
+when: 2020
+coords: 8.27, 50.0
+importance: 3

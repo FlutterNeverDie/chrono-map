@@ -82,3 +82,166 @@ when: 1808 ~ 1833
 coords: -66, -16
 category: war
 importance: 5
+
+@ caral
+wikipedia: Caral
+when: -2600
+precision: century
+coords: -77.52, -10.89
+category: culture
+importance: 3
+title.ko: 카랄 (아메리카 최초의 도시)
+
+@ nazca-lines
+wikipedia: Nazca lines
+when: -500
+precision: century
+coords: -75.13, -14.74
+category: culture
+importance: 2
+title.ko: 나스카 지상화
+
+@ inca-empire
+wikipedia: Inca Empire
+when: 1438
+coords: -71.97, -13.53
+category: politics
+importance: 4
+title.ko: 잉카 제국 성립
+
+@ machu-picchu
+wikipedia: Machu Picchu
+when: 1450
+precision: decade
+coords: -72.55, -13.16
+category: culture
+importance: 3
+title.ko: 마추픽추 건설
+
+@ cabral-brazil
+wikipedia: Pedro Álvares Cabral
+when: 1500
+coords: -39.06, -16.45
+category: exploration
+importance: 4
+title.ko: 카브랄의 브라질 도착
+
+@ magellan-expedition
+wikipedia: Magellan expedition
+when: 1519 ~ 1522
+coords: -70.9, -53.5
+category: exploration
+importance: 5
+title.ko: 마젤란의 세계 일주
+
+@ potosi-silver
+wikipedia: Cerro Rico
+when: 1545
+coords: -65.75, -19.58
+category: economy
+importance: 4
+title.ko: 포토시 은광 발견
+
+@ tupac-amaru-ii
+wikipedia: Rebellion of Túpac Amaru II
+when: 1780 ~ 1783
+coords: -71.97, -13.53
+category: war
+importance: 3
+title.ko: 투팍 아마루 2세의 반란
+
+@ may-revolution
+wikipedia: May Revolution
+when: 1810
+coords: -58.37, -34.6
+category: politics
+importance: 3
+title.ko: 5월 혁명 (아르헨티나)
+
+@ argentine-independence
+wikipedia: Argentine Declaration of Independence
+when: 1816
+coords: -65.2, -26.83
+category: politics
+importance: 3
+title.ko: 아르헨티나 독립 선언
+
+@ battle-of-boyaca
+wikipedia: Battle of Boyacá
+when: 1819
+coords: -73.4, 5.45
+category: war
+importance: 3
+title.ko: 보야카 전투
+
+@ battle-of-ayacucho
+wikipedia: Battle of Ayacucho
+when: 1824
+coords: -74.1, -13.0
+category: war
+importance: 3
+title.ko: 아야쿠초 전투
+
+@ beagle-voyage
+wikipedia: Second voyage of HMS Beagle
+when: 1831 ~ 1836
+coords: -90.5, -0.7
+category: science
+importance: 4
+title.ko: 비글호 항해 (다윈의 갈라파고스 탐사)
+
+@ lei-aurea
+wikipedia: Lei Áurea
+when: 1888
+coords: -43.17, -22.9
+category: politics
+importance: 3
+title.ko: 브라질 노예제 폐지
+
+@ brazil-republic
+wikipedia: Proclamation of the Republic (Brazil)
+when: 1889
+coords: -43.17, -22.9
+category: politics
+importance: 2
+title.ko: 브라질 공화국 선포
+
+@ chaco-war
+wikipedia: Chaco War
+when: 1932 ~ 1935
+coords: -60.5, -21.5
+category: war
+importance: 3
+title.ko: 차코 전쟁
+
+@ brazil-coup-1964
+wikipedia: 1964 Brazilian coup d'état
+when: 1964
+coords: -43.2, -22.9
+category: politics
+importance: 3
+title.ko: 브라질 군사 쿠데타
+
+@ chile-coup-1973
+wikipedia: 1973 Chilean coup d'état
+when: 1973
+coords: -70.65, -33.44
+category: politics
+importance: 4
+title.ko: 칠레 쿠데타 (피노체트)
+
+@ falklands-war
+wikipedia: Falklands War
+when: 1982
+coords: -59.0, -51.7
+category: war
+importance: 3
+title.ko: 포클랜드 전쟁 (말비나스 전쟁)
+
+@ mercosur
+wikipedia: Treaty of Asunción
+when: 1991
+coords: -57.6, -25.3
+category: economy
+importance: 2
+title.ko: 메르코수르 창설

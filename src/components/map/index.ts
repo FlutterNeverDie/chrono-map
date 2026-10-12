@@ -5,5 +5,7 @@ export {
   useMainBordersUrl,
   polityColor,
   loadJson,
+  loadPolities,
+  useSettled,
 } from "./borders";
 export type { Polity, PolityProps } from "./borders";

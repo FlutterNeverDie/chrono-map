@@ -109,3 +109,27 @@ export function itemSummary(i: TopicItem, locale: Locale) {
     return { text: i.wiki.en.extract, page: i.wiki.en, lang: "en" as Locale };
   return { text: "", page: undefined, lang: locale };
 }
+
+/**
+ * 슬라이더 위 항목 표식 자리. 위치는 슬라이더 위치값(0~MAX_POS).
+ * span은 기간 막대를 겹치지 않게 여러 줄로 쌓고(최대 3줄), persist는 한 줄 눈금.
+ */
+export function itemMarks(topic: Topic) {
+  const scale = topicScale(topic);
+  const rows: number[] = [];
+  return [...topic.items]
+    .sort((a, b) => a.start - b.start)
+    .map((i) => {
+      const from = scale.toPos(i.start);
+      const to =
+        topic.mode === "span" ? Math.max(scale.toPos(i.end), from + 4) : from;
+      let row = 0;
+      if (topic.mode === "span") {
+        row = rows.findIndex((end) => end + 3 < from);
+        if (row === -1)
+          row = rows.length < 3 ? rows.length : rows.indexOf(Math.min(...rows));
+        rows[row] = Math.max(rows[row] ?? -Infinity, to);
+      }
+      return { item: i, from, to, row };
+    });
+}

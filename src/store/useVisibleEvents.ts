@@ -1,5 +1,5 @@
 import { useMemo } from "react";
-import { EVENTS } from "@/data/content";
+import { useEvents } from "./events";
 import { filterByCategory, visibleEvents } from "@/lib/events";
 import { usePeriod } from "./timeline";
 import { useFilters } from "./filters";
@@ -8,8 +8,9 @@ import { useFilters } from "./filters";
 export function useVisibleEvents() {
   const period = usePeriod();
   const categories = useFilters((s) => s.categories);
+  const events = useEvents();
   return useMemo(
-    () => filterByCategory(visibleEvents(EVENTS, period), categories),
-    [period, categories],
+    () => filterByCategory(visibleEvents(events, period), categories),
+    [events, period, categories],
   );
 }

@@ -33,3 +33,28 @@ export function eventSummary(
   if (e.summary.en) return { text: e.summary.en, lang: "en" };
   return { text: e.summary.ko ?? "", lang: "ko" };
 }
+
+/** 언어 하나만 남긴 텍스트 (요청 언어 → 영어 → 한국어 대체에 필요한 것만) */
+function only(text: LocalizedText, locale: Locale): LocalizedText {
+  const out: LocalizedText = {};
+  for (const l of [locale, "en", "ko"] as Locale[])
+    if (text[l]) out[l] = text[l];
+  return out;
+}
+
+/**
+ * 화면(브라우저)에 보낼 사건: 그 언어 설명과 대체용 영어만 남긴다.
+ * 8개 언어 위키백과 요약을 모두 보내지 않아 페이지가 가벼워진다. eventTitle·eventSummary 결과는 같다.
+ */
+export function localizeEvent(e: HistoryEvent, locale: Locale): HistoryEvent {
+  const wiki: HistoryEvent["wiki"] = {};
+  if (e.wiki[locale]) wiki[locale] = e.wiki[locale];
+  else if (e.wiki.en) wiki.en = e.wiki.en;
+  return {
+    ...e,
+    wiki,
+    title: only(e.title, locale),
+    place: only(e.place, locale),
+    summary: only(e.summary, locale),
+  };
+}

@@ -6,7 +6,7 @@ import { useTimeline } from "@/store/timeline";
 
 /**
  * 선택 기간을 주소의 `?y=연도`와 맞춘다 (공유 링크, F-12).
- * 처음 열 때 주소에 y가 있으면 그 연도로 시작하고, 바뀔 때마다 주소를 갱신한다(기록은 남기지 않음).
+ * 처음 열 때 주소에 y가 있으면 그 연도로 시작하고, 연도가 멈추면(0.4초) 주소를 갱신한다(기록은 남기지 않음).
  */
 export function useYearUrl() {
   const year = useTimeline((s) => s.year);
@@ -29,9 +29,13 @@ export function useYearUrl() {
       if (periodOf(pending.current).start !== year) return;
       pending.current = null;
     }
-    const url = new URL(window.location.href);
-    if (url.searchParams.get("y") === String(year)) return;
-    url.searchParams.set("y", String(year));
-    window.history.replaceState(null, "", url);
+    // 끄는 동안 매번 주소를 바꾸면 브라우저가 History API 호출을 막는다(Safari는 30초에 100번 제한) → 멈춘 뒤 한 번만
+    const timer = setTimeout(() => {
+      const url = new URL(window.location.href);
+      if (url.searchParams.get("y") === String(year)) return;
+      url.searchParams.set("y", String(year));
+      window.history.replaceState(null, "", url);
+    }, 400);
+    return () => clearTimeout(timer);
   }, [year]);
 }

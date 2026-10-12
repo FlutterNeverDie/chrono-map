@@ -261,3 +261,135 @@ when: 1096 ~ 1291
 coords: 35.2, 31.78
 category: war
 importance: 5
+
+@ cuneiform
+wikipedia: Cuneiform
+when: -3200
+precision: century
+coords: 45.64, 31.32
+category: culture
+importance: 5
+title.ko: 쐐기 문자의 발명
+
+@ akkadian-empire
+wikipedia: Akkadian Empire
+when: -2300
+precision: century
+coords: 44.0, 33.1
+category: politics
+importance: 4
+title.ko: 아카드 제국 건국
+
+@ code-of-hammurabi
+wikipedia: Code of Hammurabi
+when: -1754
+coords: 44.42, 32.54
+category: politics
+importance: 4
+title.ko: 함무라비 법전
+
+@ battle-of-nineveh
+wikipedia: Fall of Nineveh
+when: -612
+coords: 43.15, 36.36
+category: war
+importance: 3
+title.ko: 니네베 함락 (아시리아 멸망)
+
+@ siege-of-jerusalem-587
+wikipedia: Siege of Jerusalem (587 BC)
+when: -587
+coords: 35.23, 31.78
+category: war
+importance: 3
+title.ko: 예루살렘 함락과 바빌론 유수
+
+@ fall-of-babylon
+wikipedia: Fall of Babylon
+when: -539
+coords: 44.42, 32.54
+category: war
+importance: 4
+title.ko: 키루스의 바빌론 정복
+
+@ crucifixion-of-jesus
+wikipedia: Crucifixion of Jesus
+when: 30
+precision: decade
+coords: 35.23, 31.78
+category: religion
+importance: 5
+title.ko: 예수의 십자가 처형
+
+@ conquest-of-mecca
+wikipedia: Conquest of Mecca
+when: 630
+coords: 39.83, 21.42
+category: religion
+importance: 4
+title.ko: 메카 정복
+
+@ house-of-wisdom
+wikipedia: House of Wisdom
+when: 830
+precision: decade
+coords: 44.37, 33.31
+category: science
+importance: 4
+title.ko: 바그다드 지혜의 집
+
+@ battle-of-ain-jalut
+wikipedia: Battle of Ain Jalut
+when: 1260
+coords: 35.36, 32.55
+category: war
+importance: 4
+title.ko: 아인잘루트 전투
+
+@ safavid-founding
+wikipedia: Safavid Iran
+when: 1501
+coords: 46.29, 38.08
+category: politics
+importance: 3
+title.ko: 사파비 왕조 건국
+
+@ sykes-picot
+wikipedia: Sykes–Picot Agreement
+when: 1916
+coords: 36.3, 33.5
+category: politics
+importance: 4
+title.ko: 사이크스-피코 협정
+
+@ balfour-declaration
+wikipedia: Balfour Declaration
+when: 1917
+coords: 35.23, 31.78
+category: politics
+importance: 4
+title.ko: 밸푸어 선언
+
+@ turkish-republic
+wikipedia: Proclamation of the Republic of Turkey
+when: 1923
+coords: 32.85, 39.93
+category: politics
+importance: 4
+title.ko: 터키 공화국 수립
+
+@ oil-crisis-1973
+wikipedia: 1973 oil crisis
+when: 1973
+coords: 46.7, 24.7
+category: economy
+importance: 4
+title.ko: 제1차 석유 파동
+
+@ syrian-civil-war
+wikipedia: Syrian civil war
+when: 2011 ~ 2024
+coords: 36.3, 33.5
+category: war
+importance: 4
+title.ko: 시리아 내전

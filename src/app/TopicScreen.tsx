@@ -10,13 +10,16 @@ import {
 } from "@/features/topic";
 import { SiteHeader } from "./SiteHeader";
 
-/** 주제 지도 화면 (/maps/[id]) — 역병·발명 등. 페이지가 고른 지도 하나만 클라이언트로 넘긴다 */
+/** 주제 지도 화면 (/maps/[id]) — 역병·발명 등, 그리고 전쟁 지도 첫 화면(/wars). 페이지가 고른 지도 하나만 클라이언트로 넘긴다 */
 export function TopicScreen({
   locale,
   topic,
+  section = `map:${topic.id}`,
 }: {
   locale: Locale;
   topic: Topic;
+  /** 상단 탭에서 강조할 곳 (전쟁 지도 첫 화면은 "wars") */
+  section?: string;
 }) {
   const messages = getMessages(locale);
   return (
@@ -26,7 +29,7 @@ export function TopicScreen({
           <div className="absolute inset-x-0 top-0 bottom-[var(--bar-h)]">
             <TopicMap />
           </div>
-          <SiteHeader current={`map:${topic.id}`} />
+          <SiteHeader current={section} />
           <TopicPanel />
           <div className="pointer-events-none absolute start-3 bottom-[calc(var(--bar-h)+0.5rem)] z-10 hidden rounded bg-surface/70 px-1.5 py-0.5 text-xs text-muted lg:block">
             {messages.ui.wikipedia} · CC BY-SA 4.0 · Cliopatria (Seshat) · CC BY

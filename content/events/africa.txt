@@ -128,3 +128,263 @@ when: -264 ~ -146
 coords: 10.32, 36.85
 category: war
 importance: 5
+
+@ narmer
+wikipedia: Narmer
+when: -3100
+precision: century
+coords: 32.78, 25.1
+category: politics
+importance: 4
+title.ko: 이집트 통일 (나르메르)
+
+@ carthage-founding
+wikipedia: Ancient Carthage
+when: -814
+coords: 10.32, 36.85
+category: politics
+importance: 3
+title.ko: 카르타고 건국
+
+@ library-of-alexandria
+wikipedia: Library of Alexandria
+when: -285
+precision: decade
+coords: 29.91, 31.2
+category: culture
+importance: 4
+title.ko: 알렉산드리아 도서관 설립
+
+@ ezana-of-axum
+wikipedia: Ezana of Axum
+when: 330
+precision: decade
+coords: 38.72, 14.13
+category: religion
+importance: 3
+title.ko: 악숨 왕국의 기독교 개종
+
+@ muslim-conquest-of-egypt
+wikipedia: Arab conquest of Egypt
+when: 639 ~ 642
+coords: 31.23, 30.0
+category: war
+importance: 4
+title.ko: 이슬람의 이집트 정복
+
+@ muslim-conquest-of-the-maghreb
+wikipedia: Muslim conquest of the Maghreb
+when: 647 ~ 709
+coords: 10.1, 35.68
+category: war
+importance: 3
+title.ko: 이슬람의 마그레브 정복
+
+@ al-azhar-university
+wikipedia: Al-Azhar University
+when: 970
+coords: 31.26, 30.05
+category: religion
+importance: 3
+title.ko: 알아즈하르 대학 설립
+
+@ great-zimbabwe
+wikipedia: Great Zimbabwe
+when: 1200
+precision: century
+coords: 30.93, -20.27
+category: culture
+importance: 3
+title.ko: 그레이트 짐바브웨
+
+@ battle-of-kirina
+wikipedia: Battle of Kirina
+when: 1235
+coords: -8.1, 12.6
+category: war
+importance: 3
+title.ko: 키리나 전투 (말리 제국 성립)
+
+@ conquest-of-ceuta
+wikipedia: Portuguese conquest of Ceuta
+when: 1415
+coords: -5.32, 35.89
+category: war
+importance: 3
+title.ko: 포르투갈의 세우타 정복
+
+@ bartolomeu-dias
+wikipedia: Bartolomeu Dias
+when: 1488
+coords: 18.47, -34.36
+category: exploration
+importance: 4
+title.ko: 디아스의 희망봉 도달
+
+@ ottoman-mamluk-war
+wikipedia: Ottoman–Mamluk War (1516–1517)
+when: 1516 ~ 1517
+coords: 31.23, 30.04
+category: war
+importance: 3
+title.ko: 오스만의 이집트 정복
+
+@ cape-colony
+wikipedia: Dutch Cape Colony
+when: 1652
+coords: 18.42, -33.92
+category: politics
+importance: 3
+title.ko: 케이프 식민지 건설
+
+@ french-invasion-of-egypt
+wikipedia: French invasion of Egypt and Syria
+when: 1798 ~ 1801
+coords: 31.23, 30.04
+category: war
+importance: 3
+title.ko: 나폴레옹의 이집트 원정
+
+@ invasion-of-algiers-1830
+wikipedia: Invasion of Algiers (1830)
+when: 1830
+coords: 3.06, 36.77
+category: war
+importance: 3
+title.ko: 프랑스의 알제리 침공
+
+@ suez-canal
+wikipedia: Suez Canal
+when: 1869
+coords: 32.35, 30.6
+category: economy
+importance: 4
+title.ko: 수에즈 운하 개통
+
+@ anglo-zulu-war
+wikipedia: Anglo-Zulu War
+when: 1879
+coords: 30.65, -28.36
+category: war
+importance: 3
+title.ko: 앵글로-줄루 전쟁
+
+@ scramble-for-africa
+wikipedia: Scramble for Africa
+when: 1881 ~ 1914
+coords: 20.0, 0.0
+category: politics
+importance: 4
+title.ko: 아프리카 분할
+
+@ congo-free-state
+wikipedia: Congo Free State
+when: 1885
+coords: 15.3, -4.3
+category: politics
+importance: 3
+title.ko: 콩고 자유국 수립
+
+@ battle-of-adwa
+wikipedia: Battle of Adwa
+when: 1896
+coords: 38.9, 14.16
+category: war
+importance: 3
+title.ko: 아도와 전투
+
+@ herero-nama-genocide
+wikipedia: Herero and Nama genocide
+when: 1904 ~ 1908
+coords: 17.08, -22.56
+category: war
+importance: 3
+title.ko: 헤레로·나마 학살
+
+@ el-alamein
+wikipedia: Second Battle of El Alamein
+when: 1942
+coords: 28.95, 30.83
+category: war
+importance: 4
+title.ko: 제2차 엘알라메인 전투
+
+@ apartheid
+wikipedia: Apartheid
+when: 1948
+coords: 28.19, -25.75
+category: politics
+importance: 4
+title.ko: 아파르트헤이트 시행
+
+@ egyptian-revolution-1952
+wikipedia: Egyptian revolution of 1952
+when: 1952
+coords: 31.23, 30.04
+category: politics
+importance: 3
+title.ko: 이집트 혁명
+
+@ algerian-war
+wikipedia: Algerian War
+when: 1954 ~ 1962
+coords: 3.06, 36.77
+category: war
+importance: 4
+title.ko: 알제리 독립 전쟁
+
+@ suez-crisis
+wikipedia: Suez Crisis
+when: 1956
+coords: 32.3, 30.6
+category: war
+importance: 4
+title.ko: 수에즈 위기
+
+@ year-of-africa
+wikipedia: Year of Africa
+when: 1960
+coords: 5.0, 10.0
+category: politics
+importance: 4
+title.ko: 아프리카의 해 (17개국 독립)
+
+@ oau-founding
+wikipedia: Organisation of African Unity
+when: 1963
+coords: 38.75, 9.03
+category: politics
+importance: 3
+title.ko: 아프리카 통일 기구 창설
+
+@ nigerian-civil-war
+wikipedia: Nigerian Civil War
+when: 1967 ~ 1970
+coords: 7.5, 6.0
+category: war
+importance: 3
+title.ko: 나이지리아 내전 (비아프라 전쟁)
+
+@ rwandan-genocide
+wikipedia: Rwandan genocide
+when: 1994
+coords: 30.06, -1.95
+category: war
+importance: 4
+title.ko: 르완다 집단학살
+
+@ second-congo-war
+wikipedia: Second Congo War
+when: 1998 ~ 2003
+coords: 25.0, -2.0
+category: war
+importance: 3
+title.ko: 제2차 콩고 전쟁
+
+@ tunisian-revolution
+wikipedia: Tunisian revolution
+when: 2010 ~ 2011
+coords: 10.18, 36.8
+category: politics
+importance: 3
+title.ko: 튀니지 재스민 혁명

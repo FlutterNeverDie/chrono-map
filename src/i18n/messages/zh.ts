@@ -99,6 +99,7 @@ export const zh: Messages = {
     nextYear: "下一年",
     prevItem: "上一项",
     nextItem: "下一项",
+    showMore: "显示更多",
     selectYear: "选择年份",
     toDark: "切换到深色模式",
     toLight: "切换到浅色模式",

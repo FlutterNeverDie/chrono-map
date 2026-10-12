@@ -11,6 +11,7 @@ import {
   PlayIcon,
 } from "@/components/ui/icons";
 import { useTopic, useTopicState, useTopicStore } from "./store";
+import { ItemMarks } from "./ItemMarks";
 import {
   MAX_POS,
   formatT,
@@ -75,6 +76,7 @@ export function TopicGauge() {
         <ChevronLeftIcon className="size-6" />
       </button>
       <div className="relative min-w-0 flex-1 px-2">
+        <ItemMarks />
         <Slider.Root
           min={0}
           max={MAX_POS}
@@ -123,7 +125,8 @@ export function TopicGauge() {
                 "pointer-events-auto absolute top-0 -translate-x-1/2 tabular-nums whitespace-nowrap",
                 i === 0 && "translate-x-0",
                 i === scale.marks.length - 1 && "-translate-x-full",
-                i % 2 === 1 &&
+                // 좁은 화면은 처음·끝만 (오래전 연도 글자가 길어 겹침)
+                i !== 0 &&
                   i !== scale.marks.length - 1 &&
                   "hidden sm:block",
               )}

@@ -4,6 +4,8 @@ import { useEffect, useMemo, useState } from "react";
 import clsx from "clsx";
 import { fill } from "@/i18n";
 import { useI18n } from "@/i18n/I18nProvider";
+import { localeHref } from "@/i18n/locales";
+import { pick } from "@/lib/localize";
 import {
   ChevronDownIcon,
   ChevronUpIcon,
@@ -164,6 +166,15 @@ export function TopicPanel() {
                       </a>
                       <span>{messages.ui.wikipedia} · CC BY-SA 4.0</span>
                     </p>
+                  )}
+                  {it.link && (
+                    <a
+                      href={localeHref(locale, it.link)}
+                      onClick={(e) => e.stopPropagation()}
+                      className="mt-3 inline-flex h-11 items-center rounded-md bg-foreground px-4 text-base font-semibold text-background"
+                    >
+                      {pick(topic.linkLabel ?? {}, locale)}
+                    </a>
                   )}
                 </article>
               </li>

@@ -67,10 +67,10 @@ export function TopicMap() {
         height={2000}
         fill="var(--map-ocean)"
       />
-      {vp.copies.map((offset) => (
+      {vp.copies.map((offset, copy) => (
         <g
-          key={offset}
-          transform={offset ? `translate(${offset} 0)` : undefined}
+          key={copy}
+          transform={`translate(${offset} 0)`}
         >
           <path
             d={vp.graticuleD}
@@ -80,14 +80,14 @@ export function TopicMap() {
             vectorEffect="non-scaling-stroke"
           />
           <defs>
-            <clipPath id={`topic-land-${offset}`}>
+            <clipPath id={`topic-land-${copy}`}>
               <path d={vp.landD} />
             </clipPath>
           </defs>
           <path d={vp.landD} fill="var(--map-land)" />
           {/* 배경: 그 해의 나라들(옅게) */}
           <g
-            clipPath={`url(#topic-land-${offset})`}
+            clipPath={`url(#topic-land-${copy})`}
             stroke="var(--map-border)"
             strokeWidth={0.4}
           >

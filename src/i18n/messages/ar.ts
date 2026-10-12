@@ -100,6 +100,7 @@ export const ar: Messages = {
     nextYear: "السنة التالية",
     prevItem: "العنصر السابق",
     nextItem: "العنصر التالي",
+    showMore: "عرض المزيد",
     selectYear: "اختر السنة",
     toDark: "التبديل إلى الوضع الداكن",
     toLight: "التبديل إلى الوضع الفاتح",

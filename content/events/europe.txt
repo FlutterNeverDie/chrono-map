@@ -774,3 +774,140 @@ when: 1803 ~ 1815
 coords: 2.35, 48.86
 category: war
 importance: 5
+
+@ edict-of-milan
+wikipedia: Edict of Milan
+when: 313
+coords: 9.19, 45.46
+category: religion
+importance: 4
+title.ko: 밀라노 칙령
+
+@ charlemagne-coronation
+wikipedia: Charlemagne
+when: 800
+coords: 12.45, 41.9
+category: politics
+importance: 4
+title.ko: 카롤루스 대제의 황제 대관
+
+@ east-west-schism
+wikipedia: East–West Schism
+when: 1054
+coords: 28.98, 41.01
+category: religion
+importance: 4
+title.ko: 동서 교회 분열
+
+@ magna-carta
+wikipedia: Magna Carta
+when: 1215
+coords: -0.56, 51.44
+category: politics
+importance: 4
+title.ko: 마그나 카르타
+
+@ black-death
+wikipedia: Black Death
+when: 1346 ~ 1353
+coords: 12.0, 45.0
+category: economy
+importance: 5
+title.ko: 흑사병
+
+@ printing-press
+wikipedia: Printing press
+when: 1450
+precision: decade
+coords: 8.27, 50.0
+category: science
+importance: 5
+title.ko: 구텐베르크의 인쇄술
+
+@ ninety-five-theses
+wikipedia: Ninety-five Theses
+when: 1517
+coords: 12.64, 51.87
+category: religion
+importance: 5
+title.ko: 루터의 95개조 반박문 (종교 개혁)
+
+@ copernicus
+wikipedia: De revolutionibus orbium coelestium
+when: 1543
+coords: 11.08, 49.45
+category: science
+importance: 4
+title.ko: 코페르니쿠스의 지동설
+
+@ peace-of-westphalia
+wikipedia: Peace of Westphalia
+when: 1648
+coords: 7.63, 51.96
+category: politics
+importance: 4
+title.ko: 베스트팔렌 조약
+
+@ principia
+wikipedia: Philosophiæ Naturalis Principia Mathematica
+when: 1687
+coords: -0.13, 51.51
+category: science
+importance: 5
+title.ko: 뉴턴의 프린키피아
+
+@ watt-steam-engine
+wikipedia: Watt steam engine
+when: 1776
+coords: -1.9, 52.48
+category: science
+importance: 5
+title.ko: 와트의 증기기관 (산업 혁명)
+
+@ communist-manifesto
+wikipedia: The Communist Manifesto
+when: 1848
+coords: -0.13, 51.51
+category: politics
+importance: 4
+title.ko: 공산당 선언
+
+@ origin-of-species
+wikipedia: On the Origin of Species
+when: 1859
+coords: -0.13, 51.51
+category: science
+importance: 5
+title.ko: 다윈의 종의 기원
+
+@ german-unification
+wikipedia: Unification of Germany
+when: 1871
+coords: 2.12, 48.8
+category: politics
+importance: 4
+title.ko: 독일 제국 선포
+
+@ chernobyl-disaster
+wikipedia: Chernobyl disaster
+when: 1986
+coords: 30.1, 51.39
+category: science
+importance: 4
+title.ko: 체르노빌 원자력 발전소 사고
+
+@ world-wide-web
+wikipedia: World Wide Web
+when: 1989
+coords: 6.05, 46.23
+category: science
+importance: 5
+title.ko: 월드 와이드 웹 발명
+
+@ maastricht-treaty
+wikipedia: Maastricht Treaty
+when: 1992
+coords: 5.69, 50.85
+category: politics
+importance: 4
+title.ko: 마스트리흐트 조약 (유럽 연합 출범)

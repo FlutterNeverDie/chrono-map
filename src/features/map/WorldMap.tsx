@@ -5,6 +5,7 @@ import { geoPath } from "d3-geo";
 import { usePeriod } from "@/store/timeline";
 import { MAX_ZOOM, useUi } from "@/store/ui";
 import { useVisibleEvents } from "@/store/useVisibleEvents";
+import { limitPins } from "@/lib/events";
 import { eventTitle } from "@/lib/localize";
 import { formatWhen } from "@/lib/year";
 import { formatPeriod } from "@/lib/period";
@@ -243,16 +244,22 @@ export function WorldMap() {
   }, [zoom, detailedLand]);
   const landShape = zoom >= 1.5 && detailedLand ? detailedLand : land;
 
-  const events = useVisibleEvents();
+  const visible = useVisibleEvents();
+  const events = useMemo(
+    () => limitPins(visible, selectedEventId),
+    [visible, selectedEventId],
+  );
+  // 성능: 투영은 경도 0에서 한 번만 하고, 좌우 이동(회전)은 그룹을 옮기는 것(translate)으로 처리한다.
+  // 메르카토르에서 경도 회전 = 가로 평행 이동이라 결과가 같고, 끌 때마다 모든 국경을 다시 계산하지 않는다.
   const { path, project } = useMemo(() => {
-    const projection = makeProjection(lon);
+    const projection = makeProjection(0);
     // 서버(Node)와 브라우저의 부동소수점 끝자리가 달라 하이드레이션 불일치가 나지 않도록 반올림
     const project = (coords: [number, number]) => {
       const p = projection(coords);
       return p && ([round1(p[0]), round1(p[1])] as const);
     };
     return { path: geoPath(projection).digits(1), project };
-  }, [lon]);
+  }, []);
 
   // 확대할수록 작은 나라 이름도 보여준다. 선택한 나라는 항상
   // 나라가 적은 시대(고대 초기 등)는 작은 나라도 이름을 모두 보여준다
@@ -272,7 +279,7 @@ export function WorldMap() {
   const unit = 1 / zoom;
 
   // 이름 배치: 큰 나라부터 놓고, 이미 놓인 이름과 겹치면 뺀다(선택한 나라는 항상 먼저)
-  const placedLabels = (() => {
+  const placedLabels = useMemo(() => {
     const ordered = [...labeled].sort(
       (a, b) =>
         Number(b.properties.n === selectedPolity) -
@@ -331,9 +338,133 @@ export function WorldMap() {
       });
     });
     return placed;
-  })();
-  const landD = path(landShape) ?? "";
-  const copies = v.w > MAP_WIDTH ? [-MAP_WIDTH, 0, MAP_WIDTH] : [0];
+  }, [labeled, selectedPolity, project, unit, nameOf, polities.length]);
+  const landD = useMemo(() => path(landShape) ?? "", [path, landShape]);
+  const graticuleD = useMemo(() => path(graticule) ?? "", [path]);
+  const polityDs = useMemo(
+    () => polities.map((p) => path(p) ?? ""),
+    [path, polities],
+  );
+  // 지금 경도만큼 옮긴 위치에 지도를 놓고, 화면에 걸치는 복사본만 그린다(끝없이 이어지는 지도)
+  const shift = round1((-lon * MAP_WIDTH) / 360);
+  const copies = [-2, -1, 0, 1, 2]
+    .map((k) => round1(shift + k * MAP_WIDTH))
+    .filter((o) => o < v.x + v.w && o + MAP_WIDTH > v.x);
+
+  // 지도 내용은 끌기 중에 바뀌지 않으므로 한 번 만들어 복사본마다 재사용(React가 다시 그리지 않는다)
+  const layer = useMemo(
+    () => (
+      <>
+        <path
+          d={graticuleD}
+          fill="none"
+          stroke="var(--map-graticule)"
+          strokeWidth={0.5}
+          vectorEffect="non-scaling-stroke"
+        />
+        {/* 육지 + 나라 영역. 나라 색은 해안선 모양으로 잘라 바다로 번지지 않게 한다 */}
+        <path d={landD} fill="var(--map-land)" />
+
+        {/* 선택 연도의 나라 영역 */}
+        <g
+          clipPath="url(#land-clip)"
+          stroke="var(--map-border)"
+          strokeWidth={0.6}
+          strokeLinejoin="round"
+        >
+          {polities.map((p, i) => {
+            const selected = p.properties.n === selectedPolity;
+            return (
+              <path
+                key={`${p.properties.n}-${i}`}
+                data-polity={p.properties.n}
+                d={polityDs[i]}
+                fill={polityColor(p.properties)}
+                vectorEffect="non-scaling-stroke"
+                style={
+                  selected
+                    ? {
+                        fillOpacity: "calc(var(--map-region-opacity) + 0.3)",
+                        stroke: "var(--map-label)",
+                        strokeWidth: 1.6,
+                      }
+                    : { fillOpacity: "var(--map-region-opacity)" }
+                }
+              />
+            );
+          })}
+        </g>
+        <path
+          d={landD}
+          fill="none"
+          stroke="var(--map-border)"
+          strokeWidth={0.5}
+          vectorEffect="non-scaling-stroke"
+        />
+
+        {/* 사건 핀: 보이는 점은 작게, 터치 영역(r=16)은 크게. 확대해도 화면 크기 유지 */}
+        {events.map((e) => {
+          const p = project(e.coords);
+          const region = REGION_BY_ID.get(e.region);
+          if (!p || !region) return null;
+          const selected = e.id === selectedEventId;
+          return (
+            <g
+              key={e.id}
+              data-event-id={e.id}
+              transform={`translate(${p[0]} ${p[1]}) scale(${round2(unit * 1.2)})`}
+              className="cursor-pointer"
+            >
+              <title>{`${formatWhen(e, locale)} ${eventTitle(e, locale)}`}</title>
+              <circle r={16} fill="transparent" />
+              <circle r={selected ? 7.5 : 6} fill="var(--map-pin-stroke)" />
+              <circle
+                r={selected ? 5 : 4}
+                fill={region.color}
+                stroke="var(--map-pin-ring)"
+                strokeWidth={selected ? 1.5 : 1}
+              />
+            </g>
+          );
+        })}
+
+        {/* 나라 이름: 큰 나라부터, 면적에 따라 글자 크기. 핀보다 위에 그리되 터치는 통과 */}
+        <g
+          fontWeight={600}
+          textAnchor="middle"
+          fill="var(--map-label)"
+          stroke="var(--map-label-halo)"
+          strokeWidth={round2(3 * unit)}
+          paintOrder="stroke"
+          className="pointer-events-none"
+        >
+          {placedLabels.map((label) => (
+            <text
+              key={label.key}
+              x={label.x}
+              y={label.y}
+              fontSize={label.fontSize}
+            >
+              {label.text}
+            </text>
+          ))}
+        </g>
+      </>
+    ),
+    [
+      graticuleD,
+      landD,
+      polities,
+      polityDs,
+      selectedPolity,
+      events,
+      project,
+      unit,
+      selectedEventId,
+      locale,
+      placedLabels,
+    ],
+  );
 
   const onPointerDown = (e: React.PointerEvent<SVGSVGElement>) => {
     e.currentTarget.setPointerCapture(e.pointerId);
@@ -456,110 +587,14 @@ export function WorldMap() {
         height={MAP_HEIGHT}
         fill="var(--map-ocean)"
       />
+      <defs>
+        <clipPath id="land-clip">
+          <path d={landD} />
+        </clipPath>
+      </defs>
       {copies.map((offset) => (
-        <g
-          key={offset}
-          transform={offset ? `translate(${offset} 0)` : undefined}
-        >
-          <path
-            d={path(graticule) ?? ""}
-            fill="none"
-            stroke="var(--map-graticule)"
-            strokeWidth={0.5}
-            vectorEffect="non-scaling-stroke"
-          />
-          {/* 육지 + 나라 영역. 나라 색은 해안선 모양으로 잘라 바다로 번지지 않게 한다 */}
-          <defs>
-            <clipPath id={`land-clip-${offset}`}>
-              <path d={landD} />
-            </clipPath>
-          </defs>
-          <path d={landD} fill="var(--map-land)" />
-
-          {/* 선택 연도의 나라 영역 */}
-          <g
-            clipPath={`url(#land-clip-${offset})`}
-            stroke="var(--map-border)"
-            strokeWidth={0.6}
-            strokeLinejoin="round"
-          >
-            {polities.map((p, i) => {
-              const selected = p.properties.n === selectedPolity;
-              return (
-                <path
-                  key={`${p.properties.n}-${i}`}
-                  data-polity={p.properties.n}
-                  d={path(p) ?? ""}
-                  fill={polityColor(p.properties)}
-                  vectorEffect="non-scaling-stroke"
-                  style={
-                    selected
-                      ? {
-                          fillOpacity: "calc(var(--map-region-opacity) + 0.3)",
-                          stroke: "var(--map-label)",
-                          strokeWidth: 1.6,
-                        }
-                      : { fillOpacity: "var(--map-region-opacity)" }
-                  }
-                />
-              );
-            })}
-          </g>
-          <path
-            d={landD}
-            fill="none"
-            stroke="var(--map-border)"
-            strokeWidth={0.5}
-            vectorEffect="non-scaling-stroke"
-          />
-
-          {/* 사건 핀: 보이는 점은 작게, 터치 영역(r=16)은 크게. 확대해도 화면 크기 유지 */}
-          {events.map((e) => {
-            const p = project(e.coords);
-            const region = REGION_BY_ID.get(e.region);
-            if (!p || !region) return null;
-            const selected = e.id === selectedEventId;
-            return (
-              <g
-                key={e.id}
-                data-event-id={e.id}
-                transform={`translate(${p[0]} ${p[1]}) scale(${round2(unit * 1.2)})`}
-                className="cursor-pointer"
-              >
-                <title>{`${formatWhen(e, locale)} ${eventTitle(e, locale)}`}</title>
-                <circle r={16} fill="transparent" />
-                <circle r={selected ? 7.5 : 6} fill="var(--map-pin-stroke)" />
-                <circle
-                  r={selected ? 5 : 4}
-                  fill={region.color}
-                  stroke="var(--map-pin-ring)"
-                  strokeWidth={selected ? 1.5 : 1}
-                />
-              </g>
-            );
-          })}
-
-          {/* 나라 이름: 큰 나라부터, 면적에 따라 글자 크기. 핀보다 위에 그리되 터치는 통과 */}
-          <g
-            fontWeight={600}
-            textAnchor="middle"
-            fill="var(--map-label)"
-            stroke="var(--map-label-halo)"
-            strokeWidth={round2(3 * unit)}
-            paintOrder="stroke"
-            className="pointer-events-none"
-          >
-            {placedLabels.map((label) => (
-              <text
-                key={label.key}
-                x={label.x}
-                y={label.y}
-                fontSize={label.fontSize}
-              >
-                {label.text}
-              </text>
-            ))}
-          </g>
+        <g key={offset} transform={`translate(${offset} 0)`}>
+          {layer}
         </g>
       ))}
     </svg>

@@ -5,4 +5,3 @@ export { TimeGauge } from "./TimeGauge";
 export { Legend } from "./Legend";
 export { campaignTitle, formatRange } from "./logic";
 export type { Campaign } from "./types";
-export { WarsDialog } from "./WarsDialog";

@@ -82,3 +82,180 @@ when: 1467 ~ 1615
 coords: 135.76, 35.01
 category: war
 importance: 5
+
+@ seventeen-article-constitution
+wikipedia: Seventeen-article constitution
+when: 604
+coords: 135.8, 34.47
+category: politics
+importance: 3
+title.ko: 17조 헌법
+
+@ taika-reform
+wikipedia: Taika Reform
+when: 645
+coords: 135.52, 34.68
+category: politics
+importance: 3
+title.ko: 다이카 개신
+
+@ heian-kyo
+wikipedia: Heian-kyō
+when: 794
+coords: 135.76, 35.01
+category: politics
+importance: 3
+title.ko: 헤이안쿄 천도
+
+@ tale-of-genji
+wikipedia: The Tale of Genji
+when: 1008
+precision: decade
+coords: 135.76, 35.01
+category: culture
+importance: 3
+title.ko: 겐지 이야기
+
+@ battle-of-dan-no-ura
+wikipedia: Battle of Dan-no-ura
+when: 1185
+coords: 130.96, 33.96
+category: war
+importance: 3
+title.ko: 단노우라 전투 (겐페이 전쟁 종결)
+
+@ kamakura-shogunate
+wikipedia: Kamakura shogunate
+when: 1185
+coords: 139.55, 35.32
+category: politics
+importance: 4
+title.ko: 가마쿠라 막부 성립
+
+@ mongol-invasions-of-japan
+wikipedia: Mongol invasions of Japan
+when: 1274 ~ 1281
+coords: 130.4, 33.6
+category: war
+importance: 3
+title.ko: 여몽 연합군의 일본 원정
+
+@ ashikaga-shogunate
+wikipedia: Ashikaga shogunate
+when: 1336
+coords: 135.76, 35.01
+category: politics
+importance: 3
+title.ko: 무로마치 막부 성립
+
+@ nanban-trade
+wikipedia: Nanban trade
+when: 1543
+coords: 131.0, 30.7
+category: economy
+importance: 2
+title.ko: 포르투갈인 도래와 조총 전래
+
+@ honno-ji-incident
+wikipedia: Honnō-ji Incident
+when: 1582
+coords: 135.76, 35.0
+category: politics
+importance: 3
+title.ko: 혼노지의 변
+
+@ battle-of-sekigahara
+wikipedia: Battle of Sekigahara
+when: 1600
+coords: 136.47, 35.37
+category: war
+importance: 4
+title.ko: 세키가하라 전투
+
+@ sakoku
+wikipedia: Sakoku
+when: 1639
+coords: 129.87, 32.74
+category: politics
+importance: 3
+title.ko: 에도 막부의 쇄국
+
+@ perry-expedition
+wikipedia: Perry Expedition
+when: 1853 ~ 1854
+coords: 139.72, 35.24
+category: politics
+importance: 4
+title.ko: 페리 내항 (흑선 내항)
+
+@ boshin-war
+wikipedia: Boshin War
+when: 1868 ~ 1869
+coords: 139.75, 35.68
+category: war
+importance: 3
+title.ko: 보신 전쟁
+
+@ ryukyu-disposition
+wikipedia: Ryukyu Disposition
+when: 1879
+coords: 127.68, 26.21
+category: politics
+importance: 2
+title.ko: 류큐 처분
+
+@ meiji-constitution
+wikipedia: Meiji Constitution
+when: 1889
+coords: 139.75, 35.68
+category: politics
+importance: 3
+title.ko: 대일본제국 헌법 공포
+
+@ battle-of-tsushima
+wikipedia: Battle of Tsushima
+when: 1905
+coords: 129.6, 34.3
+category: war
+importance: 3
+title.ko: 쓰시마 해전
+
+@ hiroshima-nagasaki
+wikipedia: Atomic bombings of Hiroshima and Nagasaki
+when: 1945
+coords: 132.45, 34.39
+category: war
+importance: 5
+title.ko: 히로시마·나가사키 원자폭탄 투하
+
+@ surrender-of-japan
+wikipedia: Surrender of Japan
+when: 1945
+coords: 139.75, 35.35
+category: war
+importance: 4
+title.ko: 일본의 항복
+
+@ san-francisco-treaty
+wikipedia: Treaty of San Francisco
+when: 1951
+coords: -122.42, 37.78
+category: politics
+importance: 3
+title.ko: 샌프란시스코 강화 조약
+
+@ tokaido-shinkansen
+wikipedia: Tokaido Shinkansen
+when: 1964
+coords: 139.77, 35.68
+category: science
+importance: 3
+title.ko: 도카이도 신칸센 개통
+
+@ japan-asset-bubble
+wikipedia: Japanese asset price bubble
+when: 1986 ~ 1991
+coords: 139.77, 35.68
+category: economy
+importance: 3
+title.ko: 일본 버블 경제

@@ -100,6 +100,7 @@ export const fr: Messages = {
     nextYear: "Année suivante",
     prevItem: "Élément précédent",
     nextItem: "Élément suivant",
+    showMore: "Voir plus",
     selectYear: "Choisir l'année",
     toDark: "Passer en mode sombre",
     toLight: "Passer en mode clair",

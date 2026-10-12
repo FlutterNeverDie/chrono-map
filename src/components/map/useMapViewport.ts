@@ -19,6 +19,7 @@ const mercY = (lat: number) =>
   Math.log(Math.tan(Math.PI / 4 + (lat * Math.PI) / 360));
 export const MAP_HEIGHT = Math.round(SCALE * (mercY(82) - mercY(-58)));
 export const yOfLat = (lat: number) => SCALE * (mercY(82) - mercY(lat));
+const round1 = (v: number) => Math.round(v * 10) / 10;
 export const normalizeLon = (lon: number) =>
   ((((lon + 180) % 360) + 360) % 360) - 180;
 export const makeProjection = (lon: number) =>
@@ -34,8 +35,27 @@ export const graticule = geoGraticule10();
 const landTopo = world as unknown as Topology<{ land: GeometryCollection }>;
 export const land = feature(landTopo, landTopo.objects.land);
 
+/**
+ * 성능: 투영은 경도 0에서 한 번만 하고, 좌우 이동(회전)은 지도 그룹을 옮기는 것(translate)으로 처리한다.
+ * 메르카토르에서 경도 회전 = 가로 평행 이동이라 결과가 같다. 도형 경로는 도형 객체마다 한 번만 계산해 둔다.
+ */
+const baseProjection = makeProjection(0);
+const basePath = geoPath(baseProjection).digits(1);
+const pathCache = new WeakMap<object, string>();
+const cachedPath = (obj: Parameters<typeof basePath>[0]): string => {
+  let d = pathCache.get(obj as object);
+  if (d === undefined) {
+    d = basePath(obj) ?? "";
+    pathCache.set(obj as object, d);
+  }
+  return d;
+};
+const project = (c: [number, number]) => {
+  const r = baseProjection(c);
+  return r && ([round1(r[0]), round1(r[1])] as const);
+};
+
 const MAX_ZOOM = 10;
-const round1 = (v: number) => Math.round(v * 10) / 10;
 
 /** 패널에 가리지 않게 가운데를 옮길 화면 픽셀 (오른쪽/왼쪽 패널은 가로, 아래 시트는 세로) */
 function overlayOffset(rect: DOMRect) {
@@ -178,14 +198,15 @@ export function useMapViewport(initial: {
     return () => cancelAnimationFrame(frame);
   }, []);
 
-  const { path, project } = useMemo(() => {
-    const projection = makeProjection(lon);
-    const project = (c: [number, number]) => {
-      const r = projection(c);
-      return r && ([round1(r[0]), round1(r[1])] as const);
-    };
-    return { path: geoPath(projection).digits(1), project };
-  }, [lon]);
+  // 지금 경도만큼 옮긴 자리에 지도 복사본을 놓는다(끝없이 이어지는 지도). 개수는 고정이라 끌 때 다시 만들지 않는다
+  const shift = round1((-lon * MAP_WIDTH) / 360);
+  const copyCount = Math.ceil(v.w / MAP_WIDTH / 2) + 1;
+  const copies = useMemo(() => {
+    const out: number[] = [];
+    for (let k = -copyCount; k <= copyCount; k++)
+      out.push(round1(shift + k * MAP_WIDTH));
+    return out;
+  }, [shift, copyCount]);
 
   /** svg에 그대로 펼쳐 넣는 속성. onTap(눌린 요소)은 끌기가 아닌 짧은 탭일 때만 */
   const svgProps = (onTap?: (target: Element) => void) => ({
@@ -233,13 +254,14 @@ export function useMapViewport(initial: {
     v,
     zoom,
     lon,
-    path,
+    /** 도형 → svg 경로 (경도 0 기준, 캐시됨) */
+    path: cachedPath,
     project,
     focusTo,
     svgProps,
-    /** 화면이 360°보다 넓으면 좌우에 지도를 이어 붙일 오프셋들 */
-    copies: v.w > MAP_WIDTH ? [-MAP_WIDTH, 0, MAP_WIDTH] : [0],
-    landD: path(land) ?? "",
-    graticuleD: path(graticule) ?? "",
+    /** 지도 복사본을 놓을 가로 위치들 — 각각 `translate(x 0)`으로 그리고, key·id는 순번(index)으로 */
+    copies,
+    landD: cachedPath(land),
+    graticuleD: cachedPath(graticule),
   };
 }

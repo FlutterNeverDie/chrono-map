@@ -211,3 +211,133 @@ when: 1861 ~ 1865
 coords: -84, 36
 category: war
 importance: 5
+
+@ olmecs
+wikipedia: Olmecs
+when: -1200
+precision: century
+coords: -94.65, 17.97
+category: culture
+importance: 3
+title.ko: 올멕 문명
+
+@ classic-maya-collapse
+wikipedia: Classic Maya collapse
+when: 800
+precision: century
+coords: -89.62, 17.22
+category: politics
+importance: 3
+title.ko: 고전기 마야 문명의 붕괴
+
+@ tenochtitlan
+wikipedia: Tenochtitlan
+when: 1325
+coords: -99.13, 19.43
+category: politics
+importance: 3
+title.ko: 테노치티틀란 건설
+
+@ fall-of-tenochtitlan
+wikipedia: Fall of Tenochtitlan
+when: 1521
+coords: -99.13, 19.43
+category: war
+importance: 4
+title.ko: 테노치티틀란 함락 (아스텍 멸망)
+
+@ jamestown
+wikipedia: Jamestown
+when: 1607
+coords: -76.78, 37.21
+category: politics
+importance: 3
+title.ko: 제임스타운 건설
+
+@ us-constitution
+wikipedia: Constitution of the United States
+when: 1787
+coords: -75.15, 39.95
+category: politics
+importance: 4
+title.ko: 미국 헌법 제정
+
+@ louisiana-purchase
+wikipedia: Louisiana Purchase
+when: 1803
+coords: -90.07, 29.95
+category: politics
+importance: 3
+title.ko: 루이지애나 매입
+
+@ california-gold-rush
+wikipedia: California gold rush
+when: 1848 ~ 1855
+coords: -120.9, 38.8
+category: economy
+importance: 3
+title.ko: 캘리포니아 골드러시
+
+@ emancipation-proclamation
+wikipedia: Emancipation Proclamation
+when: 1863
+coords: -77.03, 38.9
+category: politics
+importance: 4
+title.ko: 노예 해방 선언
+
+@ wright-flyer
+wikipedia: Wright Flyer
+when: 1903
+coords: -75.67, 36.02
+category: science
+importance: 5
+title.ko: 라이트 형제의 첫 동력 비행
+
+@ panama-canal
+wikipedia: Panama Canal
+when: 1914
+coords: -79.68, 9.08
+category: economy
+importance: 4
+title.ko: 파나마 운하 개통
+
+@ trinity-test
+wikipedia: Trinity (nuclear test)
+when: 1945
+coords: -106.48, 33.68
+category: science
+importance: 5
+title.ko: 트리니티 핵실험 (최초의 핵폭발)
+
+@ un-charter
+wikipedia: Charter of the United Nations
+when: 1945
+coords: -122.42, 37.78
+category: politics
+importance: 5
+title.ko: 국제연합 창설
+
+@ cuban-missile-crisis
+wikipedia: Cuban Missile Crisis
+when: 1962
+coords: -82.38, 23.13
+category: politics
+importance: 5
+title.ko: 쿠바 미사일 위기
+
+@ civil-rights-act-1964
+wikipedia: Civil Rights Act of 1964
+when: 1964
+coords: -77.03, 38.9
+category: politics
+importance: 4
+title.ko: 민권법 제정
+
+@ arpanet
+wikipedia: ARPANET
+when: 1969
+coords: -118.44, 34.07
+category: science
+importance: 4
+title.ko: 아르파넷 (인터넷의 시작)

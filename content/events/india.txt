@@ -117,3 +117,214 @@ when: 1775 ~ 1818
 coords: 76, 19
 category: war
 importance: 5
+
+@ mohenjo-daro
+wikipedia: Mohenjo-daro
+when: -2500
+precision: century
+coords: 68.14, 27.33
+category: culture
+importance: 4
+title.ko: 모헨조다로 (인더스 문명)
+
+@ vedic-period
+wikipedia: Vedic period
+when: -1500
+precision: century
+coords: 75.0, 31.0
+category: religion
+importance: 3
+title.ko: 베다 시대 시작
+
+@ gautama-buddha
+wikipedia: The Buddha
+when: -500
+precision: century
+coords: 84.99, 24.7
+category: religion
+importance: 5
+title.ko: 석가모니와 불교의 성립
+
+@ battle-of-the-hydaspes
+wikipedia: Battle of the Hydaspes
+when: -326
+coords: 73.6, 32.9
+category: war
+importance: 3
+title.ko: 히다스페스 전투 (알렉산드로스의 인도 원정)
+
+@ maurya-founding
+wikipedia: Maurya Empire
+when: -322
+coords: 85.14, 25.6
+category: politics
+importance: 4
+title.ko: 마우리아 왕조 건국
+
+@ kalinga-war
+wikipedia: Kalinga War
+when: -261
+coords: 85.8, 20.3
+category: war
+importance: 3
+title.ko: 칼링가 전쟁 (아소카의 불교 귀의)
+
+@ gupta-founding
+wikipedia: Gupta Empire
+when: 320
+coords: 85.14, 25.6
+category: politics
+importance: 3
+title.ko: 굽타 왕조 건국
+
+@ nalanda
+wikipedia: Nalanda mahavihara
+when: 427
+coords: 85.44, 25.14
+category: culture
+importance: 3
+title.ko: 날란다 승원 설립
+
+@ aryabhatiya
+wikipedia: Aryabhatiya
+when: 499
+coords: 85.14, 25.6
+category: science
+importance: 3
+title.ko: 아리아바타의 수학·천문학
+
+@ second-battle-of-tarain
+wikipedia: Second Battle of Tarain
+when: 1192
+coords: 76.85, 29.8
+category: war
+importance: 3
+title.ko: 제2차 타라인 전투
+
+@ delhi-sultanate
+wikipedia: Delhi Sultanate
+when: 1206
+coords: 77.2, 28.6
+category: politics
+importance: 3
+title.ko: 델리 술탄국 성립
+
+@ vijayanagara-empire
+wikipedia: Vijayanagara Empire
+when: 1336
+coords: 76.46, 15.33
+category: politics
+importance: 2
+title.ko: 비자야나가르 제국 건국
+
+@ vasco-da-gama-india
+wikipedia: Portuguese discovery of the sea route to India
+when: 1497 ~ 1499
+coords: 75.78, 11.25
+category: exploration
+importance: 5
+title.ko: 바스쿠 다 가마의 인도 항로 개척
+
+@ taj-mahal
+wikipedia: Taj Mahal
+when: 1632 ~ 1653
+coords: 78.04, 27.17
+category: culture
+importance: 3
+title.ko: 타지마할 건설
+
+@ third-battle-of-panipat
+wikipedia: Third Battle of Panipat
+when: 1761
+coords: 76.97, 29.39
+category: war
+importance: 3
+title.ko: 제3차 파니파트 전투
+
+@ indian-rebellion-1857
+wikipedia: Indian Rebellion of 1857
+when: 1857 ~ 1858
+coords: 77.7, 28.98
+category: war
+importance: 4
+title.ko: 세포이 항쟁
+
+@ indian-national-congress
+wikipedia: Indian National Congress
+when: 1885
+coords: 72.83, 18.94
+category: politics
+importance: 3
+title.ko: 인도 국민회의 창립
+
+@ jallianwala-bagh
+wikipedia: Jallianwala Bagh massacre
+when: 1919
+coords: 74.88, 31.62
+category: politics
+importance: 3
+title.ko: 암리차르 학살
+
+@ salt-march
+wikipedia: Salt March
+when: 1930
+coords: 72.8, 21.08
+category: politics
+importance: 4
+title.ko: 소금 행진
+
+@ partition-of-india
+wikipedia: Partition of India
+when: 1947
+coords: 74.5, 31.5
+category: politics
+importance: 4
+title.ko: 인도 분할
+
+@ gandhi-assassination
+wikipedia: Assassination of Mahatma Gandhi
+when: 1948
+coords: 77.21, 28.62
+category: politics
+importance: 3
+title.ko: 간디 암살
+
+@ constitution-of-india
+wikipedia: Constitution of India
+when: 1950
+coords: 77.21, 28.61
+category: politics
+importance: 3
+title.ko: 인도 헌법 시행
+
+@ green-revolution-india
+wikipedia: Green Revolution in India
+when: 1968
+coords: 75.85, 30.9
+category: economy
+importance: 3
+title.ko: 인도 녹색 혁명
+
+@ smiling-buddha
+wikipedia: Smiling Buddha
+when: 1974
+coords: 71.76, 27.08
+category: science
+importance: 3
+title.ko: 인도 첫 핵실험
+
+@ sri-lankan-civil-war
+wikipedia: Sri Lankan civil war
+when: 1983 ~ 2009
+coords: 80.4, 9.0
+category: war
+importance: 3
+title.ko: 스리랑카 내전
+
+@ india-liberalisation
+wikipedia: Economic liberalisation in India
+when: 1991
+coords: 77.21, 28.61
+category: economy
+importance: 3
+title.ko: 인도 경제 자유화

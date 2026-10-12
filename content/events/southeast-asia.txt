@@ -90,3 +90,221 @@ when: 1955 ~ 1975
 coords: 106.7, 16
 category: war
 importance: 5
+
+@ srivijaya
+wikipedia: Srivijaya
+when: 671
+precision: decade
+coords: 104.76, -2.99
+category: politics
+importance: 3
+title.ko: 스리위자야 성립
+
+@ borobudur
+wikipedia: Borobudur
+when: 800
+precision: decade
+coords: 110.2, -7.61
+category: religion
+importance: 3
+title.ko: 보로부두르 건립
+
+@ khmer-empire
+wikipedia: Khmer Empire
+when: 802
+coords: 104.1, 13.55
+category: politics
+importance: 3
+title.ko: 크메르 제국 성립
+
+@ battle-of-bach-dang-938
+wikipedia: Battle of Bạch Đằng (938)
+when: 938
+coords: 106.75, 20.9
+category: war
+importance: 3
+title.ko: 바익당 전투 (베트남 독립)
+
+@ battle-of-bach-dang-1288
+wikipedia: Battle of Bạch Đằng (1288)
+when: 1288
+coords: 106.75, 20.9
+category: war
+importance: 3
+title.ko: 바익당 전투 (몽골군 격퇴)
+
+@ majapahit
+wikipedia: Majapahit
+when: 1293
+coords: 112.37, -7.54
+category: politics
+importance: 3
+title.ko: 마자파힛 건국
+
+@ ayutthaya-kingdom
+wikipedia: Ayutthaya Kingdom
+when: 1351
+coords: 100.56, 14.35
+category: politics
+importance: 3
+title.ko: 아유타야 왕국 건국
+
+@ malacca-sultanate
+wikipedia: Malacca Sultanate
+when: 1400
+coords: 102.25, 2.2
+category: economy
+importance: 3
+title.ko: 믈라카 술탄국 건국
+
+@ capture-of-malacca
+wikipedia: Capture of Malacca (1511)
+when: 1511
+coords: 102.25, 2.2
+category: war
+importance: 3
+title.ko: 포르투갈의 믈라카 점령
+
+@ battle-of-mactan
+wikipedia: Battle of Mactan
+when: 1521
+coords: 123.97, 10.31
+category: exploration
+importance: 3
+title.ko: 막탄 전투 (마젤란의 죽음)
+
+@ manila-galleon
+wikipedia: Manila galleon
+when: 1565
+coords: 120.97, 14.6
+category: economy
+importance: 3
+title.ko: 마닐라 갤리온 무역
+
+@ batavia
+wikipedia: Batavia, Dutch East Indies
+when: 1619
+coords: 106.8, -6.13
+category: economy
+importance: 3
+title.ko: 바타비아 건설 (네덜란드의 동인도 지배)
+
+@ founding-of-singapore
+wikipedia: 1819 Singapore Treaty
+when: 1819
+coords: 103.85, 1.29
+category: economy
+importance: 3
+title.ko: 싱가포르 건설
+
+@ philippine-revolution
+wikipedia: Philippine Revolution
+when: 1896 ~ 1898
+coords: 120.98, 14.6
+category: war
+importance: 3
+title.ko: 필리핀 혁명
+
+@ philippine-american-war
+wikipedia: Philippine–American War
+when: 1899 ~ 1902
+coords: 120.98, 14.6
+category: war
+importance: 3
+title.ko: 필리핀-미국 전쟁
+
+@ fall-of-singapore
+wikipedia: Fall of Singapore
+when: 1942
+coords: 103.85, 1.29
+category: war
+importance: 4
+title.ko: 싱가포르 함락
+
+@ battle-of-leyte-gulf
+wikipedia: Battle of Leyte Gulf
+when: 1944
+coords: 125.5, 10.5
+category: war
+importance: 4
+title.ko: 레이테만 해전
+
+@ august-revolution
+wikipedia: August Revolution
+when: 1945
+coords: 105.85, 21.03
+category: politics
+importance: 3
+title.ko: 베트남 8월 혁명
+
+@ bandung-conference
+wikipedia: Bandung Conference
+when: 1955
+coords: 107.6, -6.9
+category: politics
+importance: 4
+title.ko: 반둥 회의
+
+@ singapore-independence
+wikipedia: Proclamation of Singapore
+when: 1965
+coords: 103.85, 1.29
+category: politics
+importance: 3
+title.ko: 싱가포르 독립
+
+@ indonesian-mass-killings
+wikipedia: Indonesian mass killings of 1965–66
+when: 1965 ~ 1966
+coords: 106.8, -6.2
+category: politics
+importance: 4
+title.ko: 인도네시아 대학살
+
+@ asean-declaration
+wikipedia: ASEAN Declaration
+when: 1967
+coords: 100.5, 13.75
+category: politics
+importance: 3
+title.ko: 아세안 창설
+
+@ fall-of-saigon
+wikipedia: Fall of Saigon
+when: 1975
+coords: 106.7, 10.78
+category: war
+importance: 4
+title.ko: 사이공 함락
+
+@ cambodian-genocide
+wikipedia: Cambodian genocide
+when: 1975 ~ 1979
+coords: 104.92, 11.56
+category: politics
+importance: 4
+title.ko: 캄보디아 대학살 (킬링필드)
+
+@ people-power-revolution
+wikipedia: People Power Revolution
+when: 1986
+coords: 121.05, 14.59
+category: politics
+importance: 3
+title.ko: 피플 파워 혁명
+
+@ doi-moi
+wikipedia: Đổi Mới
+when: 1986
+coords: 105.85, 21.03
+category: economy
+importance: 3
+title.ko: 도이머이 (베트남 개혁)
+
+@ indian-ocean-tsunami-2004
+wikipedia: 2004 Indian Ocean earthquake and tsunami
+when: 2004
+coords: 95.85, 3.3
+category: science
+importance: 3
+title.ko: 인도양 지진 해일

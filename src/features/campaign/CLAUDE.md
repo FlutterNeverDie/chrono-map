@@ -1,4 +1,6 @@
-# features/campaign — 전쟁 지도 (/wars, /wars/<id>)
+# features/campaign — 전쟁 지도 (/wars/<id>)
+
+첫 화면 `/wars`(모든 전쟁이 보이는 지도)는 주제 지도 화면을 재사용한다 — `src/app/warsTopic.ts`가 전쟁 목록을 주제 지도 데이터로 바꾼다.
 
 본 지도(features/map·events·timeline)와 **코드를 공유하지 않는다**. 공용은 i18n, components/ui, lib(types·year·localize)뿐.
 화면 조립은 `src/app/CampaignScreen.tsx`(상단 바 `SiteHeader`는 app 공용). 데이터 작성법은 `content/campaigns/CLAUDE.md`.
@@ -10,6 +12,5 @@
 - `CampaignMap.tsx`: 진영 색(진영 없으면 나라별 색) 영토, 해안선으로 자름, 전투 표시, 끌기·휠·두 번 클릭 확대, 전투 목록에서 고르면 그 전투로 이동(패널에 가리지 않게).
 - `BattlePanel.tsx`: "이 시기"(슬라이더 시점의 전투, 중요한 순 + 맨 위 전쟁 요약) / "전체 전투"(전쟁 전체 시간 순, 고르면 슬라이더도 그 시점으로). 글은 접어 두고 "자세히"로 그 자리에서 펼침. 위키백과 링크 + CC BY-SA 4.0.
 - `TimeGauge.tsx`: 기간 슬라이더 + 재생. `Legend.tsx`: 전쟁 이름 + 진영 범례.
-- `WarsDialog.tsx`: 상단 바 "전쟁 지도" 탭이 여는 목록 대화상자(페이지 이동 없음). `WarList.tsx`: 지역별 목록(대화상자·/wars 페이지 공용, 작은 색인 `campaign-index.json`만 씀).
-- `WarsIndex.tsx`·`meta.ts`: 검색 노출용 /wars 페이지, 페이지 메타데이터 (서버 컴포넌트).
+- `meta.ts`: 페이지 메타데이터(서버) — 각 전쟁 `campaignMetadata`, 첫 화면 `warsMetadata`.
 - 진영 색은 `globals.css`의 `--side-a`(빨강) `--side-b`(파랑) `--side-n`(기타).

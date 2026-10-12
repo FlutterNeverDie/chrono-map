@@ -158,3 +158,227 @@ when: 1894 ~ 1895
 coords: 126.98, 37.58
 category: war
 importance: 3
+
+@ gojoseon-han-war
+wikipedia: Han conquest of Old Chosŏn
+when: -109 ~ -108
+coords: 125.75, 39.03
+category: war
+importance: 3
+title.ko: 고조선 멸망 (고조선-한 전쟁)
+
+@ goguryeo-founding
+wikipedia: Goguryeo
+when: -37
+coords: 125.36, 41.27
+category: politics
+importance: 3
+title.ko: 고구려 건국
+
+@ battle-of-salsu
+wikipedia: Battle of Salsu
+when: 612
+coords: 125.6, 39.6
+category: war
+importance: 3
+title.ko: 살수대첩
+
+@ battle-of-baekgang
+wikipedia: Battle of Baekgang
+when: 663
+coords: 126.7, 36.0
+category: war
+importance: 3
+title.ko: 백강 전투
+
+@ goguryeo-tang-war
+wikipedia: Goguryeo–Tang War
+when: 645 ~ 668
+coords: 125.75, 39.03
+category: war
+importance: 3
+title.ko: 고구려-당 전쟁 (고구려 멸망)
+
+@ silla-tang-war
+wikipedia: Silla–Tang War
+when: 670 ~ 676
+coords: 127.05, 37.85
+category: war
+importance: 3
+title.ko: 나당 전쟁 (신라의 삼국 통일)
+
+@ balhae-founding
+wikipedia: Parhae
+when: 698
+coords: 128.2, 43.35
+category: politics
+importance: 3
+title.ko: 발해 건국
+
+@ goryeo-founding
+wikipedia: Goryeo
+when: 918
+coords: 126.55, 37.97
+category: politics
+importance: 4
+title.ko: 고려 건국
+
+@ battle-of-gwiju
+wikipedia: Battle of Kuju
+when: 1019
+coords: 125.25, 39.98
+category: war
+importance: 3
+title.ko: 귀주대첩
+
+@ mongol-invasions-of-korea
+wikipedia: Mongol invasions of Korea
+when: 1231 ~ 1270
+coords: 126.45, 37.75
+category: war
+importance: 3
+title.ko: 몽골의 고려 침입
+
+@ tripitaka-koreana
+wikipedia: Tripitaka Koreana
+when: 1251
+coords: 128.1, 35.8
+category: religion
+importance: 3
+title.ko: 팔만대장경 완성
+
+@ jikji
+wikipedia: Jikji
+when: 1377
+coords: 127.47, 36.64
+category: science
+importance: 4
+title.ko: 직지 인쇄 (현존 최고 금속활자본)
+
+@ battle-of-myeongnyang
+wikipedia: Battle of Myeongnyang
+when: 1597
+coords: 126.31, 34.57
+category: war
+importance: 3
+title.ko: 명량 해전
+
+@ second-manchu-invasion
+wikipedia: Qing invasion of Joseon
+when: 1636 ~ 1637
+coords: 127.18, 37.48
+category: war
+importance: 3
+title.ko: 병자호란
+
+@ ganghwa-treaty
+wikipedia: Japan–Korea Treaty of 1876
+when: 1876
+coords: 126.48, 37.75
+category: politics
+importance: 3
+title.ko: 강화도 조약
+
+@ donghak-revolution
+wikipedia: Tonghak Peasant Revolution
+when: 1894
+coords: 126.86, 35.57
+category: war
+importance: 3
+title.ko: 동학 농민 운동
+
+@ korean-empire
+wikipedia: Korean Empire
+when: 1897
+coords: 126.98, 37.57
+category: politics
+importance: 3
+title.ko: 대한제국 선포
+
+@ eulsa-treaty
+wikipedia: Japan–Korea Treaty of 1905
+when: 1905
+coords: 126.98, 37.57
+category: politics
+importance: 3
+title.ko: 을사늑약
+
+@ korea-annexation
+wikipedia: Japan–Korea Treaty of 1910
+when: 1910
+coords: 126.98, 37.57
+category: politics
+importance: 4
+title.ko: 경술국치 (일제의 국권 침탈)
+
+@ provisional-government
+wikipedia: Provisional Government of the Republic of Korea
+when: 1919
+coords: 121.47, 31.22
+category: politics
+importance: 3
+title.ko: 대한민국 임시정부 수립
+
+@ first-republic-of-korea
+wikipedia: First Republic of Korea
+when: 1948
+coords: 126.98, 37.57
+category: politics
+importance: 4
+title.ko: 대한민국 정부 수립
+
+@ jeju-uprising
+wikipedia: Jeju uprising
+when: 1948 ~ 1949
+coords: 126.53, 33.5
+category: politics
+importance: 3
+title.ko: 제주 4·3 사건
+
+@ korean-armistice
+wikipedia: Korean Armistice Agreement
+when: 1953
+coords: 126.68, 37.96
+category: war
+importance: 3
+title.ko: 정전 협정
+
+@ april-revolution
+wikipedia: April Revolution
+when: 1960
+coords: 126.98, 37.57
+category: politics
+importance: 3
+title.ko: 4·19 혁명
+
+@ may-16-coup
+wikipedia: May 16 coup
+when: 1961
+coords: 126.98, 37.57
+category: politics
+importance: 3
+title.ko: 5·16 군사정변
+
+@ gwangju-uprising
+wikipedia: Gwangju Uprising
+when: 1980
+coords: 126.85, 35.16
+category: politics
+importance: 3
+title.ko: 5·18 민주화 운동
+
+@ june-democratic-struggle
+wikipedia: June Democratic Struggle
+when: 1987
+coords: 126.98, 37.57
+category: politics
+importance: 3
+title.ko: 6월 민주 항쟁
+
+@ martial-law-2024
+wikipedia: 2024 South Korean martial law crisis
+when: 2024
+coords: 126.92, 37.53
+category: politics
+importance: 2
+title.ko: 12·3 비상계엄 사태

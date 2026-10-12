@@ -27,3 +27,20 @@ export function filterByCategory(
     ? events.filter((e) => categories.includes(e.category))
     : events;
 }
+
+/** 지도에 한 번에 찍는 핀 상한 — 사건이 몰린 시기에도 화면이 버벅이지 않게 */
+export const MAX_PINS = 60;
+
+/** 중요한 사건부터 최대 limit개(고른 사건은 항상 포함) */
+export function limitPins(
+  events: HistoryEvent[],
+  selectedId: string | null,
+  limit = MAX_PINS,
+): HistoryEvent[] {
+  if (events.length <= limit) return events;
+  const top = [...events]
+    .sort((a, b) => b.importance - a.importance)
+    .slice(0, limit);
+  const selected = events.find((e) => e.id === selectedId);
+  return selected && !top.includes(selected) ? [...top, selected] : top;
+}

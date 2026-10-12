@@ -130,10 +130,10 @@ export function CampaignMap() {
         height={2000}
         fill="var(--map-ocean)"
       />
-      {vp.copies.map((offset) => (
+      {vp.copies.map((offset, copy) => (
         <g
-          key={offset}
-          transform={offset ? `translate(${offset} 0)` : undefined}
+          key={copy}
+          transform={`translate(${offset} 0)`}
         >
           <path
             d={vp.graticuleD}
@@ -143,13 +143,13 @@ export function CampaignMap() {
             vectorEffect="non-scaling-stroke"
           />
           <defs>
-            <clipPath id={`war-land-${offset}`}>
+            <clipPath id={`war-land-${copy}`}>
               <path d={vp.landD} />
             </clipPath>
           </defs>
           <path d={vp.landD} fill="var(--map-land)" />
           <g
-            clipPath={`url(#war-land-${offset})`}
+            clipPath={`url(#war-land-${copy})`}
             stroke="var(--map-border)"
             strokeWidth={0.5}
             strokeLinejoin="round"

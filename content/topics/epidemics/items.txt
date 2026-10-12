@@ -130,3 +130,178 @@ when: 2019-12 ~ 2023-05
 coords: 114.3, 30.59
 spread: 2020-01 100.5, 13.75 | 2020-01 139.69, 35.69 | 2020-01 126.98, 37.57 | 2020-01 -122.33, 47.61 | 2020-02 128.6, 35.87 | 2020-02 9.19, 45.46 | 2020-02 51.39, 35.69 | 2020-03 -74.01, 40.71 | 2020-03 -3.7, 40.42 | 2020-03 -0.13, 51.5 | 2020-03 -46.63, -23.55 | 2020-04 77.21, 28.61 | 2020-04 28.05, -26.2
 importance: 5
+
+@ plague-of-amwas
+wikipedia: Plague of Amwas
+when: 638 ~ 639
+coords: 34.99, 31.84
+spread: 639 36.29, 33.51
+importance: 3
+
+@ japanese-smallpox-735
+wikipedia: 735–737 Japanese smallpox epidemic
+when: 735 ~ 737
+coords: 130.52, 33.51
+spread: 737 135.8, 34.69
+importance: 3
+
+@ sweating-sickness
+wikipedia: Sweating sickness
+when: 1485 ~ 1551
+coords: -0.13, 51.51
+spread: 1528 13.4, 52.52 | 1529 4.9, 52.37
+importance: 3
+
+@ mexico-smallpox-1520
+wikipedia: History of smallpox in Mexico
+when: 1520 ~ 1521
+coords: -96.13, 19.18
+spread: 1520 -99.13, 19.43
+importance: 4
+
+@ italian-plague-1629
+wikipedia: Italian plague of 1629–1631
+when: 1629 ~ 1631
+coords: 9.19, 45.46
+spread: 1630 11.25, 43.77 | 1630 12.32, 45.44
+importance: 3
+
+@ great-plague-of-seville
+wikipedia: Great Plague of Seville
+when: 1647 ~ 1652
+coords: -0.38, 39.47
+spread: 1649 -5.98, 37.39
+importance: 2
+
+@ great-plague-of-vienna
+wikipedia: Great Plague of Vienna
+when: 1679 ~ 1679
+coords: 16.37, 48.21
+importance: 2
+
+@ great-plague-of-marseille
+wikipedia: Great Plague of Marseille
+when: 1720 ~ 1722
+coords: 5.37, 43.3
+spread: 1721 4.36, 43.84
+importance: 3
+
+@ great-plague-of-1738
+wikipedia: Great Plague of 1738
+when: 1738 ~ 1740
+coords: 21.23, 45.75
+spread: 1738 20.46, 44.82
+importance: 2
+
+@ russian-plague-1770
+wikipedia: Russian plague of 1770–1772
+when: 1770 ~ 1772
+coords: 37.62, 55.76
+importance: 3
+
+@ north-american-smallpox
+wikipedia: 1775–1782 North American smallpox epidemic
+when: 1775 ~ 1782
+coords: -71.06, 42.36
+spread: 1779 -99.13, 19.43 | 1781 -104.99, 39.74
+importance: 2
+
+@ philadelphia-yellow-fever
+wikipedia: 1793 Philadelphia yellow fever epidemic
+when: 1793-08 ~ 1793-11
+coords: -75.16, 39.95
+importance: 2
+
+@ second-cholera-pandemic
+wikipedia: 1826–1837 cholera pandemic
+when: 1826 ~ 1837
+coords: 88.36, 22.57
+spread: 1829 49.12, 55.79 | 1830-09 37.62, 55.76 | 1831-10 -0.13, 51.51 | 1832-03 2.35, 48.86 | 1832-06 -74.0, 40.71
+importance: 4
+
+@ third-cholera-pandemic
+wikipedia: 1846–1860 cholera pandemic
+when: 1846 ~ 1860
+coords: 88.36, 22.57
+spread: 1848 37.62, 55.76 | 1849 -0.13, 51.51 | 1849 -90.07, 29.95 | 1854-08 -0.14, 51.51
+importance: 4
+
+@ fourth-cholera-pandemic
+wikipedia: 1863–1875 cholera pandemic
+when: 1863 ~ 1875
+coords: 88.36, 22.57
+spread: 1865 39.83, 21.42 | 1865 31.24, 30.04 | 1866 2.35, 48.86
+importance: 3
+
+@ fifth-cholera-pandemic
+wikipedia: 1881–1896 cholera pandemic
+when: 1881 ~ 1896
+coords: 88.36, 22.57
+spread: 1883 31.24, 30.04 | 1892 9.99, 53.55 | 1892 44.79, 41.72
+importance: 3
+
+@ sixth-cholera-pandemic
+wikipedia: 1899–1923 cholera pandemic
+when: 1899 ~ 1923
+coords: 88.36, 22.57
+spread: 1902 120.98, 14.6 | 1910 14.27, 40.85
+importance: 3
+
+@ samoa-measles
+wikipedia: 2019 Samoa measles outbreak
+when: 2019-10 ~ 2020-01
+coords: -171.76, -13.83
+importance: 2
+
+@ manchurian-plague
+wikipedia: Manchurian plague
+when: 1910-10 ~ 1911-04
+coords: 117.43, 49.6
+spread: 1910-11 126.64, 45.76 | 1911-01 123.43, 41.8
+importance: 3
+
+@ encephalitis-lethargica
+wikipedia: Encephalitis lethargica
+when: 1915 ~ 1926
+coords: 16.37, 48.21
+importance: 2
+
+@ seventh-cholera-pandemic
+wikipedia: 1961–1975 cholera pandemic
+when: 1961 ~ 1975
+coords: 119.42, -5.14
+spread: 1963 90.41, 23.81 | 1966 51.39, 35.69 | 1970 3.38, 6.52 | 1973 14.27, 40.85
+importance: 3
+
+@ russian-flu-1977
+wikipedia: 1977 Russian flu
+when: 1977-05 ~ 1979-12
+coords: 117.2, 39.13
+spread: 1977-11 37.62, 55.76
+importance: 2
+
+@ haiti-cholera
+wikipedia: 2010s Haiti cholera outbreak
+when: 2010-10 ~ 2019-02
+coords: -72.33, 18.54
+importance: 2
+
+@ zika
+wikipedia: 2015–2016 Zika virus epidemic
+when: 2015-04 ~ 2016-11
+coords: -38.5, -12.97
+spread: 2015-12 -46.63, -23.55 | 2016-01 -74.07, 4.71 | 2016-02 -80.19, 25.76
+importance: 3
+
+@ kivu-ebola
+wikipedia: Kivu Ebola epidemic
+when: 2018-08 ~ 2020-06
+coords: 29.46, 0.49
+importance: 2
+
+@ mpox-2022
+wikipedia: 2022–2023 mpox outbreak
+when: 2022-05 ~ 2023-05
+coords: -0.13, 51.51
+spread: 2022-05 -3.7, 40.42 | 2022-06 -74.0, 40.71 | 2022-07 -46.63, -23.55
+importance: 3

@@ -82,3 +82,133 @@ when: 1941 ~ 1945
 coords: 158, 8
 category: war
 importance: 5
+
+@ lapita-culture
+wikipedia: Lapita culture
+when: -1600
+precision: century
+coords: 166.0, -21.0
+category: exploration
+importance: 3
+title.ko: 라피타 문화 (태평양 이주)
+
+@ moai
+wikipedia: Moai
+when: 1250
+precision: century
+coords: -109.35, -27.12
+category: culture
+importance: 2
+title.ko: 이스터섬 모아이
+
+@ abel-tasman
+wikipedia: Abel Tasman
+when: 1642
+coords: 147.0, -42.9
+category: exploration
+importance: 3
+title.ko: 태즈먼의 태즈메이니아·뉴질랜드 발견
+
+@ first-fleet
+wikipedia: First Fleet
+when: 1788
+coords: 151.2, -33.86
+category: politics
+importance: 4
+title.ko: 오스트레일리아 식민지 건설 (제1함대)
+
+@ treaty-of-waitangi
+wikipedia: Treaty of Waitangi
+when: 1840
+coords: 174.07, -35.27
+category: politics
+importance: 3
+title.ko: 와이탕이 조약
+
+@ new-zealand-wars
+wikipedia: New Zealand Wars
+when: 1845 ~ 1872
+coords: 175.0, -38.5
+category: war
+importance: 2
+title.ko: 뉴질랜드 전쟁
+
+@ australian-gold-rushes
+wikipedia: Australian gold rushes
+when: 1851
+coords: 149.58, -33.42
+category: economy
+importance: 3
+title.ko: 오스트레일리아 골드러시
+
+@ nz-womens-suffrage
+wikipedia: Women's suffrage in New Zealand
+when: 1893
+coords: 174.78, -41.29
+category: politics
+importance: 3
+title.ko: 뉴질랜드 여성 참정권 (세계 최초)
+
+@ hawaii-overthrow
+wikipedia: Overthrow of the Hawaiian Kingdom
+when: 1893
+coords: -157.86, 21.31
+category: politics
+importance: 3
+title.ko: 하와이 왕국 전복
+
+@ battle-of-the-coral-sea
+wikipedia: Battle of the Coral Sea
+when: 1942
+coords: 155.0, -15.0
+category: war
+importance: 3
+title.ko: 산호해 해전
+
+@ battle-of-midway
+wikipedia: Battle of Midway
+when: 1942
+coords: -177.37, 28.21
+category: war
+importance: 4
+title.ko: 미드웨이 해전
+
+@ guadalcanal-campaign
+wikipedia: Guadalcanal campaign
+when: 1942 ~ 1943
+coords: 160.0, -9.5
+category: war
+importance: 3
+title.ko: 과달카날 전투
+
+@ castle-bravo
+wikipedia: Castle Bravo
+when: 1954
+coords: 165.27, 11.69
+category: science
+importance: 3
+title.ko: 캐슬 브라보 수소폭탄 실험
+
+@ sydney-opera-house
+wikipedia: Sydney Opera House
+when: 1973
+coords: 151.21, -33.86
+category: culture
+importance: 2
+title.ko: 시드니 오페라 하우스 개관
+
+@ bougainville-civil-war
+wikipedia: Bougainville conflict
+when: 1988 ~ 1998
+coords: 155.5, -6.2
+category: war
+importance: 2
+title.ko: 부건빌 내전
+
+@ mabo-decision
+wikipedia: Mabo v Queensland (No 2)
+when: 1992
+coords: 149.13, -35.3
+category: politics
+importance: 2
+title.ko: 마보 판결

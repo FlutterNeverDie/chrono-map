@@ -100,6 +100,7 @@ export const hi: Messages = {
     nextYear: "अगला वर्ष",
     prevItem: "पिछला आइटम",
     nextItem: "अगला आइटम",
+    showMore: "और देखें",
     selectYear: "वर्ष चुनें",
     toDark: "डार्क मोड पर जाएँ",
     toLight: "लाइट मोड पर जाएँ",

@@ -16,3 +16,12 @@ export function campaignMetadata(locale: Locale, id: string) {
     description: extract.slice(0, 160),
   };
 }
+
+/** 전쟁 지도 첫 화면(/wars) 제목·설명 */
+export function warsMetadata(locale: Locale) {
+  const m = getMessages(locale);
+  return {
+    title: `${m.wars.indexTitle} — ${m.siteName}`,
+    description: m.wars.indexDescription,
+  };
+}

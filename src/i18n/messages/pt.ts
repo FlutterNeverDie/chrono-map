@@ -100,6 +100,7 @@ export const pt: Messages = {
     nextYear: "Próximo ano",
     prevItem: "Item anterior",
     nextItem: "Próximo item",
+    showMore: "Ver mais",
     selectYear: "Selecionar ano",
     toDark: "Mudar para modo escuro",
     toLight: "Mudar para modo claro",

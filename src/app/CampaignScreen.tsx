@@ -27,7 +27,7 @@ export function CampaignScreen({
           <div className="absolute inset-x-0 top-0 bottom-[var(--bar-h)]">
             <CampaignMap />
           </div>
-          <SiteHeader current="wars" campaignId={campaign.id}>
+          <SiteHeader current="wars">
             <Legend />
           </SiteHeader>
           <BattlePanel />

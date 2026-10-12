@@ -9,6 +9,9 @@ import {
   ZoomControls,
 } from "@/features/map";
 import { EventPanel } from "@/features/events";
+import { EventsProvider } from "@/store/events";
+import { localizeEvent } from "@/lib/localize";
+import { EVENTS, RANKINGS } from "@/data/content";
 import { SiteHeader } from "./SiteHeader";
 
 /**
@@ -20,29 +23,35 @@ export function HomeScreen({ locale }: { locale: Locale }) {
 
   return (
     <I18nProvider locale={locale} messages={messages}>
-      <div className="relative h-dvh w-full overflow-hidden bg-[var(--map-ocean)] [--bar-h:calc(5.75rem+env(safe-area-inset-bottom))]">
-        <div className="absolute inset-x-0 top-0 bottom-[var(--bar-h)]">
-          <WorldMap />
+      {/* 사건은 이 언어에 필요한 부분만 브라우저로 보낸다 */}
+      <EventsProvider
+        events={EVENTS.map((e) => localizeEvent(e, locale))}
+        rankings={RANKINGS}
+      >
+        <div className="relative h-dvh w-full overflow-hidden bg-[var(--map-ocean)] [--bar-h:calc(5.75rem+env(safe-area-inset-bottom))]">
+          <div className="absolute inset-x-0 top-0 bottom-[var(--bar-h)]">
+            <WorldMap />
+          </div>
+
+          <SiteHeader current="chronomap">
+            <ViewpointBar />
+          </SiteHeader>
+
+          <div className="absolute start-3 top-36 z-20 lg:top-[4.75rem]">
+            <ZoomControls />
+          </div>
+
+          <EventPanel />
+
+          <div className="pointer-events-none absolute start-3 bottom-[calc(var(--bar-h)+0.5rem)] z-10 hidden lg:block">
+            <Attribution />
+          </div>
+
+          <nav className="absolute inset-x-0 bottom-0 z-30 flex h-[var(--bar-h)] items-start border-t border-line bg-surface px-2 pt-3 pb-[env(safe-area-inset-bottom)] sm:px-4">
+            <YearGauge className="w-full" />
+          </nav>
         </div>
-
-        <SiteHeader current="chronomap">
-          <ViewpointBar />
-        </SiteHeader>
-
-        <div className="absolute start-3 top-36 z-20 lg:top-[4.75rem]">
-          <ZoomControls />
-        </div>
-
-        <EventPanel />
-
-        <div className="pointer-events-none absolute start-3 bottom-[calc(var(--bar-h)+0.5rem)] z-10 hidden lg:block">
-          <Attribution />
-        </div>
-
-        <nav className="absolute inset-x-0 bottom-0 z-30 flex h-[var(--bar-h)] items-start border-t border-line bg-surface px-2 pt-3 pb-[env(safe-area-inset-bottom)] sm:px-4">
-          <YearGauge className="w-full" />
-        </nav>
-      </div>
+      </EventsProvider>
     </I18nProvider>
   );
 }

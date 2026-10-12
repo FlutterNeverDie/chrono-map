@@ -1,13 +1,12 @@
 "use client";
 
-import { useState, type ReactNode } from "react";
+import type { ReactNode } from "react";
 import clsx from "clsx";
 import { useI18n } from "@/i18n/I18nProvider";
 import { LanguageSelect } from "@/i18n/LanguageSelect";
 import { localeHref, localePath } from "@/i18n/locales";
 import { pick } from "@/lib/localize";
 import topicIndex from "@/data/generated/topic-index.json";
-import { WarsDialog } from "@/features/campaign";
 import { ThemeToggle } from "@/components/ui/ThemeToggle";
 
 /** "chronomap" | "wars" | "map:<주제 지도 id>" */
@@ -15,21 +14,17 @@ export type SiteSection = string;
 
 /**
  * 모든 지도 화면이 같이 쓰는 상단 바.
- * 왼쪽: 지도 탭(크로노맵 / 전쟁 지도 = 목록 대화상자 / 주제 지도들) · 가운데: 화면별 도구(children) · 오른쪽: 언어·테마 설정
+ * 왼쪽: 지도 탭(크로노맵 / 전쟁 지도 / 주제 지도들 — 누르면 바로 그 지도로) · 가운데: 화면별 도구(children) · 오른쪽: 언어·테마 설정
  * 모바일은 [탭 | 설정] 한 줄 + 도구 한 줄.
  */
 export function SiteHeader({
   current,
-  campaignId,
   children,
 }: {
   current: SiteSection;
-  /** 전쟁 지도 화면이면 그 전쟁 id (대화상자에서 표시) */
-  campaignId?: string;
   children?: ReactNode;
 }) {
   const { locale, messages } = useI18n();
-  const [warsOpen, setWarsOpen] = useState(false);
   const tabClass = (on: boolean) =>
     clsx(
       "flex h-10 items-center rounded-md px-3 text-[15px] whitespace-nowrap transition-colors",
@@ -48,16 +43,14 @@ export function SiteHeader({
         >
           {messages.siteName}
         </a>
-        {/* 전쟁 지도: 페이지 이동 대신 목록 대화상자 */}
-        <button
-          type="button"
-          aria-haspopup="dialog"
-          aria-expanded={warsOpen}
-          onClick={() => setWarsOpen(true)}
+        {/* 전쟁 지도: 모든 전쟁이 보이는 지도(/wars) → 전쟁을 골라 그 전쟁 지도로 */}
+        <a
+          href={localeHref(locale, "wars")}
+          aria-current={current === "wars" ? "page" : undefined}
           className={tabClass(current === "wars")}
         >
           {messages.wars.tab}
-        </button>
+        </a>
         {/* 주제 지도 탭: content/topics에 지도를 추가하면 자동으로 늘어난다 */}
         {(topicIndex as { id: string; title: Record<string, string> }[]).map(
           (t) => (
@@ -72,11 +65,6 @@ export function SiteHeader({
           ),
         )}
       </nav>
-      <WarsDialog
-        open={warsOpen}
-        onClose={() => setWarsOpen(false)}
-        current={campaignId}
-      />
 
       <div className="pointer-events-auto order-last w-full min-w-0 lg:order-none lg:w-auto lg:max-w-[calc(100%-36rem)] xl:max-w-[calc(100%-40rem)]">
         {children}

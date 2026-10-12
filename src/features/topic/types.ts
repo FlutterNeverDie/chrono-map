@@ -18,6 +18,8 @@ export type TopicItem = {
   spread: SpreadPoint[];
   importance: number;
   wiki: Partial<Record<Locale, WikiPage>>;
+  /** (선택) 더 자세한 지도로 가는 경로(언어 접두어 없이, 예: "wars/imjin-war") */
+  link?: string;
 };
 
 export type Topic = {
@@ -33,4 +35,6 @@ export type Topic = {
   title: Partial<Record<Locale, string>>;
   description: Partial<Record<Locale, string>>;
   items: TopicItem[];
+  /** (선택) 항목 link 버튼 문구 */
+  linkLabel?: Partial<Record<Locale, string>>;
 };
