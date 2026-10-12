@@ -1,0 +1,17 @@
+# 나라(정치체)별 진영: 원본 이름 = a | b | n [시작 ~ 끝]. 없으면 기타(n). 형식은 content/campaigns/CLAUDE.md
+
+Spanish Empire = a
+(Spanish Empire) = a
+Gran Colombia = b
+Río de la Plata = b
+Republic of Peru = b
+Bolivia = b
+Republic of Chile = b
+New Granada = b
+Republic of Venezuela = b
+Paraguay = b
+Federal League = b
+Cundinamarca = b
+Guayaquil Junta = b
+Oriental Republic of Uruguay = b
+First Mexican Empire = b

@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Napoleonic Wars
+region: europe
+when: 1803-05 ~ 1815-11
+unit: month
+borders-step: 1
+view: 15, 50, 2.6
+search: -10, 45, 35, 62
+min-links: 10
+side.a.ko: 프랑스 제국과 동맹
+side.a.en: French Empire & allies
+side.a.zh: 法兰西帝国及盟国
+side.a.es: Imperio francés y aliados
+side.a.hi: फ़्रांसीसी साम्राज्य और सहयोगी
+side.a.ar: الإمبراطورية الفرنسية وحلفاؤها
+side.a.fr: Empire français et alliés
+side.a.pt: Império Francês e aliados
+side.b.ko: 대프랑스 동맹
+side.b.en: Coalition powers
+side.b.zh: 反法同盟
+side.b.es: Coaliciones
+side.b.hi: गठबंधन शक्तियाँ
+side.b.ar: دول التحالف
+side.b.fr: Coalisés
+side.b.pt: Coligações

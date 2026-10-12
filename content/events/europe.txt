@@ -767,3 +767,10 @@ when: 2023
 coords: 50, 60
 category: war
 importance: 3
+
+@ napoleonic-wars
+wikipedia: Napoleonic Wars
+when: 1803 ~ 1815
+coords: 2.35, 48.86
+category: war
+importance: 5

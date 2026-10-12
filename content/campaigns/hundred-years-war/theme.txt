@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Hundred Years' War
+region: europe
+when: 1337 ~ 1453
+unit: year
+borders-step: 3
+view: 1, 48, 4.5
+search: -6, 10, 42, 56
+min-links: 5
+side.a.ko: 잉글랜드
+side.a.en: England
+side.a.zh: 英格兰
+side.a.es: Inglaterra
+side.a.hi: इंग्लैंड
+side.a.ar: إنجلترا
+side.a.fr: Angleterre
+side.a.pt: Inglaterra
+side.b.ko: 프랑스
+side.b.en: France
+side.b.zh: 法国
+side.b.es: Francia
+side.b.hi: फ़्रांस
+side.b.ar: فرنسا
+side.b.fr: France
+side.b.pt: França

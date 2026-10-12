@@ -36,7 +36,7 @@ export function localePath(locale: Locale): string {
   return locale === DEFAULT_LOCALE ? "/" : `/${locale}`;
 }
 
-/** 언어만 바꾼 같은 화면 경로: "/en/ww2?y=1942" → "/fr/ww2?y=1942", "/ww2" → "/en/ww2" */
+/** 언어만 바꾼 같은 화면 경로: "/en/wars/imjin-war" → "/fr/wars/imjin-war", "/wars" → "/en/wars" */
 export function switchLocalePath(
   pathname: string,
   from: Locale,

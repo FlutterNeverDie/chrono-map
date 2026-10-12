@@ -475,6 +475,52 @@
       }
     }
   },
+  "American Civil War": {
+    "qid": "Q8676",
+    "fetched": "2026-10-12",
+    "pages": {
+      "ko": {
+        "title": "남북 전쟁",
+        "extract": "남북 전쟁(南北戰爭, 영어: The American Civil War )은 미국에서 일어난 내전이다. 1861년 4월, 노예제를 지지하던 남부주들이 모여 남부연합을 형성하며 미합중국으로부터의 분리를 선언한 뒤, 아메리카 남부 연합군(이하 '남군')이 사우스캐롤라이나주 찰스턴 항의 섬터 요새 포격을 시작으로 1861년부터 1865년까지 4년 동안 벌어진 전쟁이다. 전쟁 결과 남부연합군이 패했고, 미국 전역에서 노예제를 폐지한 중요한 계기가 되었다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%82%A8%EB%B6%81_%EC%A0%84%EC%9F%81"
+      },
+      "en": {
+        "title": "American Civil War",
+        "extract": "The American Civil War was a civil war in the United States between the Union and the Confederacy, which was formed in 1861 by states that had seceded from the Union to preserve slavery in the United States. The South saw slavery as threatened because of the election of Abraham Lincoln as US president in 1860 and the growing abolitionist movement in the North. The war ended with Union victory, the dissolution of the Confederacy and the national abolition of slavery, freeing four million African Americans.",
+        "url": "https://en.wikipedia.org/wiki/American_Civil_War"
+      },
+      "zh": {
+        "title": "南北战争",
+        "extract": "美国内战，中文通称南北战争，是美国自1861年至1865年发生的内战，交战双方为北方的联邦阵营 以及南方的邦联阵营。战争爆发的起因为蓄奴州及自由州之间的政治对立，随著维持蓄奴的南方各州脱离联邦自立为美利坚联盟国，进而演变为全面内战，最终以北方联邦阵营的获胜与美国奴隶制度的废除落幕。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%8D%97%E5%8C%97%E6%88%98%E4%BA%89"
+      },
+      "es": {
+        "title": "Guerra de Secesión",
+        "extract": "La guerra de Secesión o guerra civil estadounidense/de Estados Unidos fue una guerra civil que se libró en Estados Unidos desde el 12 de abril de 1861 al 26 de mayo de 1865, que enfrentó a los estados de la Unión con la Confederación, esta última formada poco antes por estados que se habían separado de la Unión. El conflicto principal que condujo a la guerra fue una disputa sobre si se debía permitir que la esclavitud se expandiera a los territorios del oeste, lo que daría lugar a más estados esclavistas, o se le debía prohibir hacerlo, lo que muchos creían que pondría a la esclavitud en un camino de extinción definitiva.",
+        "url": "https://es.wikipedia.org/wiki/Guerra_de_Secesi%C3%B3n"
+      },
+      "hi": {
+        "title": "अमेरिकी गृहयुद्ध",
+        "extract": "अमेरिकी गृहयुद्ध सन् १८६१ से १८६५ के काल में संयुक्त राज्य अमेरिका के उत्तरी राज्यों और दक्षिणी राज्यों के बीच में लड़ा जाने वाला एक गृहयुद्ध था जिसमें उत्तरी राज्य विजयी हुए।",
+        "url": "https://hi.wikipedia.org/wiki/%E0%A4%85%E0%A4%AE%E0%A5%87%E0%A4%B0%E0%A4%BF%E0%A4%95%E0%A5%80_%E0%A4%97%E0%A5%83%E0%A4%B9%E0%A4%AF%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A7"
+      },
+      "ar": {
+        "title": "الحرب الأهلية الأمريكية",
+        "extract": "الحرب الأهلية الأمريكية كانت حرباً أهلية في الولايات المتحدة بين الاتحاد (الشمال) والكونفدرالية (الجنوب)، والتي تشكلت في عام 1861 من قبل الولايات التي انفصلت عن الاتحاد للحفاظ على العبودية في الولايات المتحدة، والتي اعتبروها مهددة بسبب انتخاب أبراهام لينكون وتنامي حركة إلغاء العبودية في الشمال. استمرت الحرب لأكثر من أربع سنوات بقليل، وانتهت بانتصار الاتحاد، وحلّ الكونفدرالية، وإلغاء العبودية، مما أدى إلى تحرير أربعة ملايين أمريكي من أصل أفريقي.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%AD%D8%B1%D8%A8_%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A%D8%A9_%D8%A7%D9%84%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D9%8A%D8%A9"
+      },
+      "fr": {
+        "title": "Guerre de Sécession",
+        "extract": "La guerre de Sécession ou guerre civile américaine est une guerre civile survenue entre 1861 et 1865 aux États-Unis d'Amérique. Elle oppose le gouvernement fédéral des États-Unis, rassemblant principalement des États situés au Nord et dirigé par le président Abraham Lincoln, et les États confédérés d'Amérique, dirigés par le président Jefferson Davis et rassemblant onze États du Sud qui avaient fait sécession des États-Unis.",
+        "url": "https://fr.wikipedia.org/wiki/Guerre_de_S%C3%A9cession"
+      },
+      "pt": {
+        "title": "Guerra Civil Americana",
+        "extract": "Guerra Civil Americana foi uma guerra civil nos Estados Unidos entre a União e a Confederação, que foi formada em 1861 por estados que se separaram da União para preservar a escravidão de afro-americanos, que eles consideravam ameaçada devido à eleição de Abraham Lincoln e ao crescente movimento abolicionista no Norte.",
+        "url": "https://pt.wikipedia.org/wiki/Guerra_Civil_Americana"
+      }
+    }
+  },
   "American Revolution": {
     "qid": "Q192769",
     "fetched": "2026-10-12",
@@ -564,6 +610,37 @@
         "title": "Angkor Wat",
         "extract": "Angkor Wat é um templo situado 5,5 km a norte da cidade de Siem Reap, na província homônima do Camboja. É o maior e mais bem preservado templo dos que integram o assentamento de Angkor. É também o único que restou com significado religioso importante — inicialmente hindu, e depois budista — desde a sua fundação. O templo é o ponto máximo do estilo clássico da arquitetura Khmer. É considerado como a maior estrutura religiosa já construída em termos de área, e um dos tesouros arqueológicos mais importantes do mundo. Tornou-se símbolo do Camboja, aparecendo em sua bandeira e sendo sua principal atração turística. Em 14 de dezembro de 1992 foi declarado pela UNESCO Patrimônio da Humanidade.",
         "url": "https://pt.wikipedia.org/wiki/Angkor_Wat"
+      }
+    }
+  },
+  "Anglo-Maratha wars": {
+    "qid": "Q2776612",
+    "fetched": "2026-10-12",
+    "pages": {
+      "en": {
+        "title": "Anglo-Maratha Wars",
+        "extract": "Anglo-Maratha Wars may refer to:First Anglo-Maratha War (1775–1782)\nSecond Anglo-Maratha War (1803–1805)\nThird Anglo-Maratha War (1817–1819)\nGwalior campaign (1843)",
+        "url": "https://en.wikipedia.org/wiki/Anglo-Maratha_Wars"
+      },
+      "zh": {
+        "title": "馬拉塔戰爭",
+        "extract": "马拉塔战争是英国和马拉塔人之间的一系列冲突。1775年，英国东印度公司从孟买的基地出发，在浦那与马拉塔人发生冲突，史称第一次马拉塔战争。该战争于1782年结束。",
+        "url": "https://zh.wikipedia.org/wiki/%E9%A6%AC%E6%8B%89%E5%A1%94%E6%88%B0%E7%88%AD"
+      },
+      "es": {
+        "title": "Guerras anglo-maratha",
+        "extract": "Las guerras anglo-maratha fueron tres guerras libradas por el territorio, en el subcontinente indio, entre el Imperio maratha y la Compañía Británica de las Indias Orientales, con la ayuda de tropas británicas.",
+        "url": "https://es.wikipedia.org/wiki/Guerras_anglo-maratha"
+      },
+      "hi": {
+        "title": "आंग्ल-मराठा युद्ध",
+        "extract": "भारत के इतिहास में तीन आंग्ल-मराठा युद्ध हुए हैं। ये तीनों युद्ध 1775 ई. से 1818 ई. तक चले। ये युद्ध ब्रिटिश सेनाओं और 'मराठा महासंघ' के बीच हुए थे। इन युद्धों का परिणाम यह हुआ कि मराठा महासंघ का पूरी तरह से विनाश हो गया। मराठों में पहले से ही आपस में काफ़ी भेदभाव थे, जिस कारण वह अंग्रेज़ों के विरुद्ध एकजुट नहीं हो सके। जहाँ रघुनाथराव ने ईस्ट इण्डिया कम्पनी से मित्रता करके पेशवा बनने का सपना देखा, और अंग्रेज़ों के साथ सूरत की सन्धि की, वहीं बाजीराव द्वितीय ने बसीन भागकर अंग्रेज़ों के साथ पहली वसई की संधि(1803-06) की और दूसरी बसिन कि संधि(1817-1818) की स्वतंत्रता को बेच दिया। पहला युद्ध(1775-1782 ई.) रघुनाथराव द्वारा महासंघ के पेशवा (मुख्यमंत्री) के दावे को लेकर ब्रिटिश समर्थन से प्रारम्भ हुआ। जनवरी 1779 ई. में बड़गाँव में अंग्रेज़ पराजित हो गए, लेकिन उन्होंने मराठों के साथ सालबाई की संधि होने तक युद्ध जारी रखा। इसमें अंग्रेज़ों को बंबई के पास 'सालसेत द्वीप' पर क़ब्ज़े के रूप में एकमात्र लाभ मिला। 1818 ई. में बाजीराव द्वितीय ने अंग्रेज़ों के आगे आत्म समर्पण कर दिया। अंग्रेज़ों ने उसे बन्दी बनाकर बिठूर भेज दिया था, जहाँ 1853 ई. में उसकी मृत्यु हो गई। मराठों के पतन में मुख्य भूमिका बाजीराव द्वितीय की ही रही थी, जिसने अपनी क़ायरता और धोखेबाज़ी से सम्पूर्ण मराठों और अपने कुल को कलंकित किया था।",
+        "url": "https://hi.wikipedia.org/wiki/%E0%A4%86%E0%A4%82%E0%A4%97%E0%A5%8D%E0%A4%B2-%E0%A4%AE%E0%A4%B0%E0%A4%BE%E0%A4%A0%E0%A4%BE_%E0%A4%AF%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A7"
+      },
+      "fr": {
+        "title": "Guerres anglo-marathes",
+        "extract": "Les guerres anglo-marathes sont un ensemble de trois conflits qui, entre 1779 et 1818, ont vu s'affronter, en Inde, l'Empire marathe et la Compagnie anglaise des Indes orientales, aidée par des troupes britanniques.",
+        "url": "https://fr.wikipedia.org/wiki/Guerres_anglo-marathes"
       }
     }
   },
@@ -3047,6 +3124,52 @@
         "title": "Guerra de Independência da Croácia",
         "extract": "A Guerra da Independência da Croácia ocorreu de 1991 a 1995 entre as forças croatas leais ao Governo da Croácia — que havia declarado independência da República Socialista Federativa da Iugoslávia — e o Exército Popular Iugoslavo (JNA) controlado pelos sérvios e forças de sérvios locais, com o JNA terminando suas operações de combate na Croácia em 1992. Na Croácia, a guerra é principalmente referida como a \"Guerra da Pátria\" e também como a \"Agressão da Grande Sérvia\". A maioria dos croatas queriam que a Croácia deixasse a Iugoslávia e se tornasse um país soberano, enquanto que muitos sérvios que viviam na Croácia, apoiados pela Sérvia, se opunham à secessão e queriam que as terras reivindicadas pelos sérvios estivessem em um estado comum com a Sérvia. A maioria dos sérvios buscaram um novo estado sérvio dentro de uma federação iugoslava — incluindo áreas da Croácia e Bósnia e Herzegovina com maiorias étnicas sérvias ou minorias significativas —, e tentou conquistar o máximo possível da Croácia. A Croácia declarou independência em 25 de junho de 1991, mas concordou em adiá-la através do Acordo de Brioni e cortar todos os laços restantes com a Iugoslávia em 8 de outubro de 1991.",
         "url": "https://pt.wikipedia.org/wiki/Guerra_de_Independ%C3%AAncia_da_Cro%C3%A1cia"
+      }
+    }
+  },
+  "Crusades": {
+    "qid": "Q12546",
+    "fetched": "2026-10-12",
+    "pages": {
+      "ko": {
+        "title": "십자군",
+        "extract": "십자군 전쟁(영어: Crusades)은 중세 라틴 교회의 공인을 받은 원정대와 이슬람 군대 사이에 레반트 지역의 지배권을 놓고 벌어진 종교전쟁(교황의 권력을 찾기 위한 전쟁)이다. 좁은 의미의 십자군이라고 하면 성지를 이슬람 세력으로부터 탈환하기 위해 지중해 동해안 지역에서 진행된 전쟁들을 가리키나, 넓은 의미에서 중세의 기독교회에서 주동한 다른 전쟁들을 십자군으로 보는 관점 또한 존재한다. 이교도나 이단의 토벌, 가톨릭 집단 내부의 분쟁, 정치적 이득 등 전쟁의 동기는 매우 다양했다. 십자군 시대에는 '십자군'이라는 말이 존재하지 않았으며, 1760년경을 전후하여 처음 사용례가 나타난다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%8B%AD%EC%9E%90%EA%B5%B0"
+      },
+      "en": {
+        "title": "Crusades",
+        "extract": "The Crusades were a series of military campaigns launched by the papacy between 1095 and 1291 against Muslim rulers for the recovery and defence of the Holy Land, as part of a wider crusading movement. The First Crusade was proclaimed by Pope Urban II at the Council of Clermont in November 1095—a call to arms for Christians to reconquer Jerusalem from the Muslims, with promises of spiritual reward. By this time, the papacy's position as head of the Catholic Church had strengthened, and earlier conflicts with secular rulers and wars on the frontiers of Western Christendom had prepared it for the direction of armed force in religious causes. The successes of the First Crusade led to the establishment of four Crusader states in the Levant, whose defence required further expeditions from Catholic Europe. The organisation of such large-scale campaigns demanded complex religious, social, and economic institutions, including crusade indulgences, military orders, and the taxation of clerical income. Over time, the crusading movement expanded to include campaigns against pagans, Christian dissidents, and other enemies of the papacy, promoted with similar spiritual rewards and continuing into the 18th century.",
+        "url": "https://en.wikipedia.org/wiki/Crusades"
+      },
+      "zh": {
+        "title": "十字軍東征",
+        "extract": "十字军东征 是教宗发动的一系列军事远征，其主要目标在于自穆斯林统治者手中夺回并保卫圣土。1095年11月，教宗乌尔巴诺二世于克莱芒会议正式发动第一次十字军东征，号召基督徒武装夺回耶路撒冷，并承诺参与者可获得属灵上的救赎与奖赏。至此，教宗作为天主教会领袖的地位已大幅强化，而此前教廷与世俗君主间的冲突，以及西方基督教世界边疆地区的战争，也为教宗以宗教名义组织武装行动奠定基础。第一次十字军的成功，使十字军在黎凡特建立四个十字军国家，而这些新兴政权的防卫，则持续需要来自欧洲天主教国家的新一轮远征支援。教廷与西欧社会为了组织如此大规模的军事行动，亦逐步发展出复杂的宗教、社会与经济制度，包括十字军赎罪制度、军事修会以及对神职收入课税等机制。随著时间推移，十字军运动的对象亦逐渐扩大，不仅涵盖穆斯林，亦包括异教徒、基督教异端以及其他教廷敌人，而相关远征活动甚至延续至18世纪。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%8D%81%E5%AD%97%E8%BB%8D%E6%9D%B1%E5%BE%81"
+      },
+      "es": {
+        "title": "Cruzadas",
+        "extract": "Las Cruzadas fueron una serie de guerras religiosas impulsadas por la Iglesia cristiana occidental durante la Plena Edad Media. Dichas campañas militares tenían como objetivo declarado recuperar para la Cristiandad la región de Oriente Próximo conocida como Tierra Santa, la cual se encontraba bajo el dominio del islam desde el siglo VII. Los participantes de las cruzadas, conocidos como cruzados, tomaban votos religiosos de manera temporal y se les concedía indulgencia por sus pecados.",
+        "url": "https://es.wikipedia.org/wiki/Cruzadas"
+      },
+      "hi": {
+        "title": "क्रूसयुद्ध",
+        "extract": "यूरोप के ईसाइयों ने 1095 और 1291 के बीच अपने धर्म की पवित्र भूमि फिलिस्तीन और उसकी राजधानी जेरूसलम में स्थित ईसा की समाधि का गिरजाघर मुसलमानों से छीनने और अपने अधिकार में करने के प्रयास में जो युद्ध किए उनको सलीबी युद्ध, ईसाई धर्मयुद्ध, क्रूसेड (crusades) अथवा क्रूश युद्ध कहा जाता है। इतिहासकार ऐसे सात क्रूश युद्ध मानते हैं।",
+        "url": "https://hi.wikipedia.org/wiki/%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A5%82%E0%A4%B8%E0%A4%AF%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A7"
+      },
+      "ar": {
+        "title": "حملات صليبية",
+        "extract": "الحملات الصليبيَّة أو الحروب الصليبيَّة أو حروب الفرنجة أو حروب الفرنج أو حروب اللاتين هي سلسلة حروب دينية شنّها المسيحيون اللاتين الكاثوليك الأوروبيون الغربيون من أواخر القرن الحادي عشر حتى الثلث الأخير من القرن الثالث عشر. كانت بشكل رئيسي حروب فرسان كاثوليك، وسميت بهذا الاسم لأنها كانت حملات كاثوليكية لاتينية تحت شعار الصليب من أجل الدفاع عن الأماكن المسيحية المقدسة، فكان الهدف الرئيسي للحملات الصليبية هو السيطرة فقط على الأراضي المقدسة في فلسطين كالقدس وبيت لحم والناصرة، ولذلك كانوا يخيطون على ألبستهم على الصدر والكتف علامة الصليب من قماش أحمر.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%AD%D9%85%D9%84%D8%A7%D8%AA_%D8%B5%D9%84%D9%8A%D8%A8%D9%8A%D8%A9"
+      },
+      "fr": {
+        "title": "Croisade",
+        "extract": "Une croisade, au Moyen Âge, est une expédition militaire bénie par la papauté, visant principalement à sécuriser ou reconquérir les lieux saints de la chrétienté en Terre sainte, en particulier Jérusalem et le Saint-Sépulcre. Conçue comme un « pèlerinage armé » doté d'indulgences spirituelles exceptionnelles, elle mobilise des milliers de participants — chevaliers, pèlerins, pauvres — venus de toute l'Europe occidentale latine. Ces participants sont appelés des pèlerins armés, puis, à partir du XIIIe siècle désignés comme croisés.",
+        "url": "https://fr.wikipedia.org/wiki/Croisade"
+      },
+      "pt": {
+        "title": "Cruzadas",
+        "extract": "Cruzadas foram uma série de guerras religiosas iniciadas, apoiadas e, às vezes, dirigidas pela Igreja Cristã Latina no período medieval. As mais conhecidas dessas expedições militares são aquelas realizadas na Terra Santa entre 1095 e 1291, que tinham o objetivo de reconquistar Jerusalém e seus arredores do domínio muçulmano, depois que a região foi invadida pelo Califado Ortodoxo séculos antes. Começando com a Primeira Cruzada, que resultou na conquista de Jerusalém em 1099, dezenas de campanhas militares foram organizadas, fornecendo um ponto focal da história europeia por séculos. As cruzadas declinaram rapidamente após o século XV.",
+        "url": "https://pt.wikipedia.org/wiki/Cruzadas"
       }
     }
   },
@@ -6166,6 +6289,52 @@
       }
     }
   },
+  "Mongol invasions and conquests": {
+    "qid": "Q2092093",
+    "fetched": "2026-10-12",
+    "pages": {
+      "ko": {
+        "title": "몽골 제국의 정복 전쟁",
+        "extract": "몽골 제국의 정복 전쟁(영어: Mongol invasions and conquests)은 13세기 내내 계속되어 광대한 몽골 제국을 형성했다. 1300년경이 되면 몽골 제국의 영역은 아시아의 거의 대부분과 동유럽에 이르렀다. 역사학자들은 몽골의 침략과 약탈을 인간의 역사상 가장 파괴적인 전쟁 중 하나였던 것으로 여기고 있다. 또한 몽골인들이 팽창하면서 선페스트가 그들을 따라 아시아와 유럽 전역으로 퍼졌고, 이는 흑사병이라는 대규모 인명손실로 이어진다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%AA%BD%EA%B3%A8_%EC%A0%9C%EA%B5%AD%EC%9D%98_%EC%A0%95%EB%B3%B5_%EC%A0%84%EC%9F%81"
+      },
+      "en": {
+        "title": "Mongol conquests",
+        "extract": "The Mongol conquests took place during the 13th and 14th centuries, creating the largest contiguous empire in history, the Mongol Empire (1206–1368), which by 1260 covered a significant portion of Eurasia. At its height, it stretched from the Pacific to Central Europe. As the Mongol Empire began to fragment from 1260, conflict between the Mongols and Eastern European polities continued for centuries. Mongols continued to rule China into the 14th century under the Yuan dynasty, while Mongol rule in Persia persisted into the 15th century under the Timurid Empire. In the Indian subcontinent, the later Mughal Empire survived into the 19th century.",
+        "url": "https://en.wikipedia.org/wiki/Mongol_conquests"
+      },
+      "zh": {
+        "title": "蒙古征戰",
+        "extract": "蒙古军征战，发生于13世纪初蒙古帝国建立后，成吉思汗及其子嗣率军在欧亚大陆各地征战，政权控制地区在一百多年间迅速扩张，其极盛时期之领土范围，使其成为有史以来连续性版图最辽阔的国家。",
+        "url": "https://zh.wikipedia.org/wiki/%E8%92%99%E5%8F%A4%E5%BE%81%E6%88%B0"
+      },
+      "es": {
+        "title": "Invasiones mongolas",
+        "extract": "Las invasiones de los mongoles se sucedieron durante todo el siglo XIII, dando como resultado el vasto Imperio mongol, que comprendía gran parte de Asia y Europa oriental hacia 1300. Los historiadores consideran que los ataques y las invasiones mongolas son algunos de los conflictos más mortíferos en la historia humana. Landers Brian ha explicado que «Un imperio en particular excedió a cualquiera que los que habían llegado antes, y cruzaron desde Asia a Europa en una orgía de violencia y destrucción. Los mongoles trajeron terror a Europa a una escala no vista hasta el siglo XX». Diana Lary sostiene que las invasiones de los mongoles indujeron el desplazamiento de la población «en una escala nunca antes vista», en particular en Asia central y Europa oriental. Y añade: «la inminente llegada de las hordas mongolas sembró el terror y el pánico». Tsai concluye: «Las conquistas de los mongoles sacudieron Eurasia y tuvieron gran influencia en la historia del mundo».",
+        "url": "https://es.wikipedia.org/wiki/Invasiones_mongolas"
+      },
+      "hi": {
+        "title": "मंगोल आक्रमण और विजय",
+        "extract": "मंगोल आक्रमण और विजय 13वीं और 14वीं शताब्दियों के दौरान हुए जिससे इतिहास का सबसे बड़े सन्निहित साम्राज्य मंगोल साम्राज्य (1206–1368) का निर्माण हुआ तथा सन् 1260 तक इसने यूरेशिया के एक बड़े हिस्से पर अधिकार कर लिया। इतिहासकार मंगोल विध्वंस को इतिहास की सबसे घातक प्रकरणों में से एक मानते हैं।",
+        "url": "https://hi.wikipedia.org/wiki/%E0%A4%AE%E0%A4%82%E0%A4%97%E0%A5%8B%E0%A4%B2_%E0%A4%86%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A4%A3_%E0%A4%94%E0%A4%B0_%E0%A4%B5%E0%A4%BF%E0%A4%9C%E0%A4%AF"
+      },
+      "ar": {
+        "title": "غزوات وفتوحات المغول",
+        "extract": "حدثت الغزوات والفتوحات المغولية خلال القرن الثالث عشر، مؤدية إلى إنشاء الإمبراطورية المغولية الضخمة التي غطت بحلول عام 1300 أجزاء واسعة من أوراسيا. يصف المؤرخون الدمار الذي أحدثه المنغوليون خلال توسعهم بأنه واحد من أكثر فصول التاريخ دموية. بالإضافة إلى ذلك، قد تكون الحملات المغولية نقلت الطاعون الدملي عبر الكثير من أجزاء آسيا وأوروبا، مما ساعد على إطلاق وباء الموت الأسود في القرن الرابع عشر.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%BA%D8%B2%D9%88%D8%A7%D8%AA_%D9%88%D9%81%D8%AA%D9%88%D8%AD%D8%A7%D8%AA_%D8%A7%D9%84%D9%85%D8%BA%D9%88%D9%84"
+      },
+      "fr": {
+        "title": "Conquêtes mongoles",
+        "extract": "Les conquêtes mongoles, ou invasions mongoles furent un ensemble de campagnes militaires successives et souvent victorieuses menées par l'Empire Mongol naissant, de 1206 à 1279. Elles commencèrent à sa fondation sous le règne de Genghis Khan mais se prolongèrent sur les générations de ses fils, petits-fils et arrière petit-fils. Elles aboutirent à la création du plus vaste empire contigu de l'histoire humaine. Ces invasions ont chacune des raisons précises et différentes, il n'y avait pas de plan de la conquête du monde chez les mongols. Contrairement aux idées répandues, elles n'étaient pas motivées par le pillage des villes, même si ce genre d'évènements a eu lieu. La domination de nombreux sujets était plus importante aux yeux des mongols que celle de territoires. Il apparaît aussi qu'une de leurs priorités était de soumettre tous les autres peuples nomades de la steppe. Ainsi, les conquêtes menées vers l'occident jusqu'en Hongrie avaient pour but de poursuivre d'autres nomades qui fuyaient leur avancée, les Coumans. En se réfugiant chez les princes russes, puis en Hongrie, ils mènent les mongols jusque dans ces pays.",
+        "url": "https://fr.wikipedia.org/wiki/Conqu%C3%AAtes_mongoles"
+      },
+      "pt": {
+        "title": "Conquistas e invasões mongóis",
+        "extract": "As invasões e conquistas mongóis aconteceram nos séculos XIII e XIV, criando o vasto Império Mongol que, por volta de 1300, já cobria grandes porções da Eurásia. Historiadores consideram as devastações causadas pelas invasões mongóis como um dos episódios mais letais da história militar humana. Além disso, as expedições mongóis podem ter sido um dos fatores principais para a expansão da peste bubônica pelo Eurásia, ajudando a alastrar a Peste Negra em meados do século XIV.",
+        "url": "https://pt.wikipedia.org/wiki/Conquistas_e_invas%C3%B5es_mong%C3%B3is"
+      }
+    }
+  },
   "Mukden incident": {
     "qid": "Q242099",
     "fetched": "2026-10-12",
@@ -6337,6 +6506,52 @@
         "title": "Nakba",
         "extract": "Nakba refere-se à limpeza étnica de árabes da Palestina, a partir de 1947 até o presente. Este processo se dá por meio de expulsões violentas e desapropriação de terras, propriedades e pertences, juntamente com a destruição de sua sociedade e tentativas de apagamento da cultura, identidade, direitos políticos e aspirações nacionais palestinas. O termo abrange a fragmentação da sociedade palestina e a rejeição, por parte do estado de Israel, do direito de retorno dos refugiados palestinos e seus descendentes.",
         "url": "https://pt.wikipedia.org/wiki/Nakba"
+      }
+    }
+  },
+  "Napoleonic Wars": {
+    "qid": "Q78994",
+    "fetched": "2026-10-12",
+    "pages": {
+      "ko": {
+        "title": "나폴레옹 전쟁",
+        "extract": "나폴레옹 전쟁(Napoleonic Wars, 1803년 ~ 1815년)은 프랑스 제1제국 및 그 동맹국과 영국이 재정 및 군사적으로 주도하는 연합군 사이에서 벌어진 일련의 전쟁이다. 전쟁은 프랑스 혁명과 그 여파로 일어난 프랑스 혁명 전쟁 당시 해결되지 못한 문제들이 원인이 되어 발발했다. 전쟁은 크게 5개 항목으로 분류되는데, 1805년의 제3차 대프랑스 동맹, 1806년부터 1807년까지의 제4차 대프랑스 동맹, 1809년의 제5차 대프랑스 동맹, 1813년의 제6차 대프랑스 동맹, 그리고 1815년의 제7차 대프랑스 동맹으로 구성되어 있다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%82%98%ED%8F%B4%EB%A0%88%EC%98%B9_%EC%A0%84%EC%9F%81"
+      },
+      "en": {
+        "title": "Napoleonic Wars",
+        "extract": "The Napoleonic Wars (1803–1815) were a global series of conflicts fought by a fluctuating array of European coalitions against the French First Republic (1803–1804) under the First Consul followed by the First French Empire (1804–1815) under the Emperor of the French, Napoleon. The wars originated in political forces arising from the French Revolution (1789–1799) and French Revolutionary Wars (1792–1802) and produced a period of French domination over continental Europe. The wars are categorised as seven conflicts, five named after the coalitions that fought Napoleon, plus two named for their respective theatres: the War of the Third Coalition, War of the Fourth Coalition, War of the Fifth Coalition, War of the Sixth Coalition, War of the Seventh Coalition, the Peninsular War, and the French invasion of Russia.",
+        "url": "https://en.wikipedia.org/wiki/Napoleonic_Wars"
+      },
+      "zh": {
+        "title": "拿破崙戰爭",
+        "extract": "拿破仑战争 是1803年至1815年发生的全球军事冲突，交战双方分别为拿破仑一世统治之法兰西第一帝国及其从属国，英国、俄罗斯帝国、奥地利帝国、普鲁士王国等反法同盟成员。这场战争是当时欧洲规模最大的战争，可被细分为第三次反法同盟（1805年）、第四次反法同盟（1806-1807年）、半岛战争（1807-1814年）、第五次反法同盟（1809年）、俄法战争（1812年）、第六次反法同盟（1813-1814年）、第七次反法同盟（1815年）。主要战场位于欧洲地区，但也外溢至中东、亚太、大西洋等地区。法兰西帝国在这场战争间征服大部分欧洲国家，但最终战败解体，欧洲各国重回权力均衡。",
+        "url": "https://zh.wikipedia.org/wiki/%E6%8B%BF%E7%A0%B4%E5%B4%99%E6%88%B0%E7%88%AD"
+      },
+      "es": {
+        "title": "Guerras napoleónicas",
+        "extract": "Las guerras napoleónicas, también llamadas guerras de la Coalición, fueron una serie de conflictos bélicos que tuvieron lugar entre el Primer Imperio francés, bajo el mando del emperador Napoleón I Bonaparte (1804-1815) y una serie fluctuante de coaliciones europeas. Fueron en parte una extensión de los conflictos que estallaron a causa de la Revolución francesa (1789-1799) y de las guerras revolucionarias francesas (1792-1802) (la Guerra de la Primera Coalición y la Guerra de la Segunda Coalición, y continuaron, a instigación y gracias al financiamiento del Reino Unido de Gran Bretaña e Irlanda, durante todo el Primer Imperio francés. Estas guerras produjeron un periodo de dominación francesa de la Europa continental.",
+        "url": "https://es.wikipedia.org/wiki/Guerras_napole%C3%B3nicas"
+      },
+      "hi": {
+        "title": "नेपोलियन के युद्ध",
+        "extract": "नेपोलियन बोनापार्ट जब तक सत्ता में रहा युद्धों में उलझा रहा जिनसे सारा यूरोप त्रस्त था। इन युद्धों को सम्मिलित रूप से नेपोलियन के युद्ध कहा जाता है। १८०३ से लेकर १८१५ तक कोई साठ युद्ध उसने लड़े थे जिसमें से सात में उसकी पराजय हुई ।",
+        "url": "https://hi.wikipedia.org/wiki/%E0%A4%A8%E0%A5%87%E0%A4%AA%E0%A5%8B%E0%A4%B2%E0%A4%BF%E0%A4%AF%E0%A4%A8_%E0%A4%95%E0%A5%87_%E0%A4%AF%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A7"
+      },
+      "ar": {
+        "title": "الحروب النابليونية",
+        "extract": "الحروب النابليونية هو مصطلح يستخدم في تعريف سلسلة الحروب التي وقعت في أوروبا خلال فترة حكم نابليون بونابرت لفرنسا. كانت هذه الحروب امتدادًا جزئيًا للحروب الثورية التي اشعلتها الثورة الفرنسية، والتي استمرت خلال فترة الإمبراطورية الفرنسية الأولى.\nلا يوجد إجماع حول تحديد متى انتهت الحروب الفرنسية ومتى بدأت حروب نابليون بونابرت. إن التاريخ المحتمل لبداية هذة الأخيرة هو 9 نوفمبر عام 1799، هذا اليوم الذي يوافق تولي بونابرت مقاليد الحكم في فرنسا من خلال انقلاب 18 برومير (فرنسا) .\nو لكن التاريخ الأكثر شيوعًا هو 18 مايو عام 1803 مع تجدد إعلان الحرب بين بريطانيا وفرنسا، بعد الاتهامات المتبادلة لانتهاك الإتفاقيات المنصوص عليها في معاهدة أميان، الحدث الذي انهى الفترة الوحيدة للسلام العام في أوروبا بين عام 1792 و1784.\nكما يعد يوم 12 ديسمبر عام 1804 آخر تاريخ محتمل لبداية الحرب، حيث توَج نابليون نفسه إمبراطورًا على فرنسا. انتهت الحروب النابليونية يوم 18 يوليو 1815 بعد هزيمة نابليون النهائية في معركة واترلو وتوقيع معاهدة باريس الثانية.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%AD%D8%B1%D9%88%D8%A8_%D8%A7%D9%84%D9%86%D8%A7%D8%A8%D9%84%D9%8A%D9%88%D9%86%D9%8A%D8%A9"
+      },
+      "fr": {
+        "title": "Guerres napoléoniennes",
+        "extract": "Les guerres napoléoniennes sont en partie le prolongement des guerres engendrées par la Révolution française de 1789, et durent tout au long du Premier Empire de Napoléon Ier. Il n’existe pas de consensus sur leur point de départ. Certains considèrent qu’elles commencent lors du coup d'état du 18 Brumaire an VIII par le général Bonaparte. D’autres prolongent les guerres de la Révolution française jusqu’en 1802, et estiment que la déclaration de guerre du Royaume-Uni à la France en 1803, après la courte période de paix qui suit le traité d'Amiens (1802), est le point de départ des guerres napoléoniennes.",
+        "url": "https://fr.wikipedia.org/wiki/Guerres_napol%C3%A9oniennes"
+      },
+      "pt": {
+        "title": "Guerras Napoleônicas",
+        "extract": "As Guerras Napoleônicas (português brasileiro) ou Guerras Napoleónicas (português europeu) foram uma série de conflitos colocando o Império Francês, liderado por Napoleão Bonaparte, contra uma série de alianças de nações europeias. Essas guerras revolucionaram os exércitos e táticas dos países da Europa, com grandes tropas sendo deslocadas para o combate de forma nunca antes vista no continente, acontecendo devido a algumas das primeiras conscrições em massa modernas. Este conflito foi uma continuação direta das chamadas Guerras Revolucionárias, que começaram em 1792 durante a Revolução Francesa. Inicialmente, o poderio da França cresceu exponencialmente, com os exércitos de Napoleão conquistando boa parte da Europa. No total, o imperador francês lutou em mais de sessenta batalhas e perdeu muito poucas, a maioria no fim da sua carreira. O poder francês no continente foi quebrado logo após a desastrosa invasão da Rússia em 1812. Napoleão foi derrotado em 1814 e enviado para o exílio na ilha de Elba, na costa da Itália; ele, contudo, alguns meses mais tarde, conseguiu escapar, marchou em Paris e retomou o poder na França, apenas para ser novamente deposto, em 1815, após a fracassada Batalha de Waterloo. O imperador francês foi novamente exilado, desta vez na distante ilha de Santa Helena, onde viria a morrer em 1821.",
+        "url": "https://pt.wikipedia.org/wiki/Guerras_Napole%C3%B4nicas"
       }
     }
   },
@@ -6521,6 +6736,52 @@
         "title": "Revolução de Outubro",
         "extract": "A Revolução de Outubro, também conhecida como a Revolução Bolchevique, Grande Revolução Socialista de Outubro, Revolução Vermelha, Golpe de Outubro ou Golpe Bolchevique foi a segunda fase da Revolução Russa de 1917, após a Revolução de Fevereiro, segundo a historiografia oficial da antiga União Soviética e de acordo com alguns grupos comunistas. A data de 25 de outubro de 1917 corresponde ao calendário juliano em vigor na Rússia czarista, mais tarde abolido pelo novo governo Bolchevique. No resto do mundo ocidental, sob o calendário gregoriano, os acontecimentos começaram a 7 de novembro de 1917.",
         "url": "https://pt.wikipedia.org/wiki/Revolu%C3%A7%C3%A3o_de_Outubro"
+      }
+    }
+  },
+  "Pacific War": {
+    "qid": "Q184425",
+    "fetched": "2026-10-12",
+    "pages": {
+      "ko": {
+        "title": "태평양 전쟁",
+        "extract": "태평양 전쟁(영어: Pacific War) 때때로 아시아-태평양 전쟁(영어: Asia–Pacific War)은 제2차 세계 대전의 전역 중 하나로 태평양과 동아시아에서 벌어진 전쟁이다. 아시아-태평양 전구와 남서 태평양 전구, 동남아시아 전역 등을 비롯한 태평양 일대의 넓은 지역과 중국, 그리고 만주 및 한반도 북부 일대가 태평양 전쟁의 전역 범위에 해당한다.",
+        "url": "https://ko.wikipedia.org/wiki/%ED%83%9C%ED%8F%89%EC%96%91_%EC%A0%84%EC%9F%81"
+      },
+      "en": {
+        "title": "Pacific War",
+        "extract": "The Pacific War, sometimes called the Asia–Pacific War or the Pacific Theater, was the theater of World War II fought between Japan and the Allies in East and Southeast Asia, the Pacific and Indian Oceans, and Oceania. It was geographically the largest theater of the war, including the Pacific Ocean theater, the South West Pacific theater, the Second Sino-Japanese War, and the brief Soviet–Japanese War, and included some of the largest naval battles in history. War between Japan and the Republic of China had begun in 1937, with hostilities dating back to Japan's invasion of Manchuria in 1931, but the Pacific War is more widely accepted to have begun in 1941, when the United States and United Kingdom were brought into the war.",
+        "url": "https://en.wikipedia.org/wiki/Pacific_War"
+      },
+      "zh": {
+        "title": "太平洋战争",
+        "extract": "太平洋战争，或称亚太战争及太平洋战区，是第二次世界大战地理规模最大的战区，横跨东亚、东南亚、太平洋、印度洋和大洋洲，并可细分为太平洋战区、西南太平洋战区、中国抗日战争及战争末期的苏日战争四大战区。尽管日本早于1931年就入侵中国东北，并于1937年和中国爆发全面战争，但史学界多认为太平洋战争乃始于1941年美英加入战争时。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%A4%AA%E5%B9%B3%E6%B4%8B%E6%88%98%E4%BA%89"
+      },
+      "es": {
+        "title": "Guerra del Pacífico (1937-1945)",
+        "extract": "El teatro de operaciones del Pacífico de la Segunda Guerra Mundial tuvo lugar en el océano Pacífico, sus islas y en Asia Oriental, entre 1941 y 1945. En la actualidad, muchos japoneses usan el término guerra del Pacífico, mientras que otros emplean Gran Guerra de Asia Oriental.",
+        "url": "https://es.wikipedia.org/wiki/Guerra_del_Pac%C3%ADfico_(1937-1945)"
+      },
+      "hi": {
+        "title": "प्रशांत युद्ध",
+        "extract": "प्रशांत युद्ध, जिसे कभी-कभी एशिया-प्रशांत युद्ध या प्रशांत क्षेत्रीय युद्ध के रूप में भी जाना जाता है, द्वितीय विश्व युद्ध का एक प्रमुख संघर्ष था, जो पूर्वी एशिया, प्रशांत महासागर, भारतीय महासागर और ओशिनिया में लड़ा गया। यह युद्ध का सबसे बड़ा भूगोलिक क्षेत्र था, जिसमें प्रशांत महासागर क्षेत्र, दक्षिण-पश्चिम प्रशांत क्षेत्र, दूसरा चीन-जापान युद्ध और युद्ध के अंतिम महीनों में सोवियत-जापानी युद्ध शामिल थे।",
+        "url": "https://hi.wikipedia.org/wiki/%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%B6%E0%A4%BE%E0%A4%82%E0%A4%A4_%E0%A4%AF%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A7"
+      },
+      "ar": {
+        "title": "حرب المحيط الهادئ",
+        "extract": "حرب المحيط الهادئ، وتسمَّى أيضاً في بعض الأحيان حرب منطقة آسيا والمحيط الهادئ. وتشير إلى الحرب التي دارت على نطاق واسع في أجزاء من المحيط الهادئ وجزره والشرق الأقصى من آسيا، كجزء من الحرب العالمية الثانية. بدأ مصطلح حرب المحيط الهادئ يستخدم لتشمل مسرح العمليات التي جرت بين القوات اليابانية والجيش السوفييتي الشرقي في عام 1945م المرابط في تلك المنطقة والتي شملت المحيط الهادئ، و جنوب غرب المحيط الهادئ، وجنوب شرق آسيا والأراضي الصينية، وبدأت حرب المحيط الهادئ يوم 7 ديسمبر 1941م مع غزو ملايا البريطانية والهجوم على بيرل هاربور في الولايات المتحدة من قِبل قوات الامبراطورية اليابانية. يعتبر بعض الكتّاب والمؤرخين العسكريين أن الصراع في آسيا والمحيط الهادئ يمكن ان يكون قد بدأ 7 يوليو 1937 بين الصين واليابان، أو ربما بدأ في 19 سبتمبر 1931م، عندما غزت اليابان منشوريا. ومع ذلك، فمن الأكثر قبولًا لدى الخبراء أنَّ حرب المحيط الهادئ نفسها بدأت في ديسمبر 1941م، والتي شهدت تحالف ضد الامبراطورية اليابانية، والتي أيدتها بعض القوى في آسيا مثل تايلاند ودول المحور ألمانيا وإيطاليا.ولكن الحرب بلغت ذروتها في تفجير القنبلتين الذريتين في هيروشيما وناغازاكي من قبل الولايات المتحدة والغزو السوفياتي لمنشوريا، مما أدى إلى الانتصار على اليابان ونهاية الحرب العالمية الثانية في 15 أغسطس 1945. واستسلمت اليابان رسميًا بتوقيع الاستسلام على متن البارجة الأمريكية يو اس اس ميسوري يوم 2 سبتمبر عام 1945م .",
+        "url": "https://ar.wikipedia.org/wiki/%D8%AD%D8%B1%D8%A8_%D8%A7%D9%84%D9%85%D8%AD%D9%8A%D8%B7_%D8%A7%D9%84%D9%87%D8%A7%D8%AF%D8%A6"
+      },
+      "fr": {
+        "title": "Guerre du Pacifique",
+        "extract": "La guerre du Pacifique comprend les campagnes menées à partir de 1941 dans la zone Asie-Pacifique, dans le cadre de l'affrontement entre les Alliés et l'empire du Japon. La politique expansionniste du Japon visait l'ensemble de la région. Cette guerre englobe l'ensemble des opérations militaires menées sur les fronts est-asiatique et océanien de la Seconde Guerre mondiale.",
+        "url": "https://fr.wikipedia.org/wiki/Guerre_du_Pacifique"
+      },
+      "pt": {
+        "title": "Guerra do Pacífico",
+        "extract": "A Guerra do Pacífico, as vezes chamada de Guerra Pacífico-Asiática, foi um dos teatros de operações da Segunda Guerra Mundial, travado no Pacífico e na Ásia Oriental. A luta aconteceu em diversas áreas, como no sudoeste do Pacífico, sudeste da Ásia e na China.",
+        "url": "https://pt.wikipedia.org/wiki/Guerra_do_Pac%C3%ADfico"
       }
     }
   },
@@ -6864,6 +7125,52 @@
         "title": "Proclamação da República Popular da China",
         "extract": "A República Popular da China foi proclamada por Mao Tsé-Tung, presidente do Partido Comunista da China (PCC), em 1.º de outubro de 1949, na Praça da Paz Celestial, em Pequim. O governo do novo Estado sob o PCC, formalmente denominado Governo Popular Central, foi proclamado por Mao na cerimônia, que marcou a fundação da China contemporânea.",
         "url": "https://pt.wikipedia.org/wiki/Proclama%C3%A7%C3%A3o_da_Rep%C3%BAblica_Popular_da_China"
+      }
+    }
+  },
+  "Punic Wars": {
+    "qid": "Q124988",
+    "fetched": "2026-10-12",
+    "pages": {
+      "ko": {
+        "title": "포에니 전쟁",
+        "extract": "포에니 전쟁(라틴어: Bella Punica)은 기원전 264년에서 기원전 146년 사이에 로마와 카르타고가 세 차례에 걸쳐 120년간 벌였던 전쟁을 말한다. '포에니(poeni, 포이니)'라는 말은 라틴어 Poenicus에서 나왔는데, 이는 페니키아인의라는 뜻으로 카르타고가 페니키아에 기원을 두고 있기 때문에 로마인들이 그렇게 부른 것이다.",
+        "url": "https://ko.wikipedia.org/wiki/%ED%8F%AC%EC%97%90%EB%8B%88_%EC%A0%84%EC%9F%81"
+      },
+      "en": {
+        "title": "Punic Wars",
+        "extract": "The Punic Wars were a series of wars fought between the Roman Republic and the Carthaginian Empire during the period 264 to 146 BC. Three such wars took place, involving a total of forty-three years of warfare on both land and sea across the western Mediterranean region, and a four-year-long revolt against Carthage.",
+        "url": "https://en.wikipedia.org/wiki/Punic_Wars"
+      },
+      "zh": {
+        "title": "布匿战争",
+        "extract": "布匿战争 是古罗马和古迦太基于前264年至前146年间爆发的三场战争，战场遍及地中海西部地区的陆地和海洋。战争初期，迦太基是西地中海的霸主，拥有庞大的海上帝国；罗马则在亚平宁半岛快速扩张，拥有强大的陆军。然而，罗马先在第一次布匿战争后并吞西西里岛，后在第二次布匿战争击败迦太基将领汉尼拔等人的远征军，并入侵位在非洲的迦太基领地，最终在第三次布匿战争中彻底毁灭迦太基城。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%B8%83%E5%8C%BF%E6%88%98%E4%BA%89"
+      },
+      "es": {
+        "title": "Guerras púnicas",
+        "extract": "Se conoce con el nombre de las guerras púnicas a los tres conflictos armados que enfrentaron entre los años 264 a C. y 146 a C. a las dos principales potencias del Mediterráneo occidental de la época: Roma y Cartago. Reciben su nombre del etnónimo latino Punicus usado por los romanos para referirse a los cartagineses y a sus ancestros fenicios. Por su parte, los cartagineses llamaron a estos conflictos «guerras romanas».",
+        "url": "https://es.wikipedia.org/wiki/Guerras_p%C3%BAnicas"
+      },
+      "hi": {
+        "title": "पुनिक युद्ध",
+        "extract": "पुनिक युद्ध प्राचीन रोम और कार्थेज के बीच तीन प्रमुख युद्धों की एक श्रृंखला थी। ये युद्ध भूमध्यसागरीय क्षेत्र पर नियंत्रण के लिए लड़े गए और प्राचीन इतिहास के सबसे निर्णायक संघर्षों में से एक माने जाते हैं। रोम ने इन युद्धों में कार्थेज को हराकर पश्चिमी भूमध्यसागर में अपना वर्चस्व स्थापित किया। प्रथम पुनिक युद्ध मुख्य रूप से सिसिली द्वीप के लिए हुआ, जबकि द्वितीय पुनिक युद्ध हनिबल की साहसिक सैन्य रणनीतियों के लिए प्रसिद्ध है। तृतीय पुनिक युद्ध के दौरान, रोम ने कार्थेज को पूरी तरह नष्ट कर दिया।",
+        "url": "https://hi.wikipedia.org/wiki/%E0%A4%AA%E0%A5%81%E0%A4%A8%E0%A4%BF%E0%A4%95_%E0%A4%AF%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A7"
+      },
+      "ar": {
+        "title": "الحروب البونيقية",
+        "extract": "الحروب البونيقية هي سلسلة من الحروب وقعت بين عامي 264 و 146 قبل الميلاد بين روما وقرطاج. وقعت ثلاثة صراعات بين هذه الدول في البر والبحر عبر منطقة البحر الأبيض المتوسط الغربية بلغ مجموعها 43 عامًا من القتال. تشمل الحروب البونيقية أيضًا التمرد الذي استمر أربع سنوات ضد قرطاج والذي بدأ في عام 241 قبل الميلاد. عانى كلا الجانبين من خسائر مادية وبشرية هائلة في كل حرب.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%AD%D8%B1%D9%88%D8%A8_%D8%A7%D9%84%D8%A8%D9%88%D9%86%D9%8A%D9%82%D9%8A%D8%A9"
+      },
+      "fr": {
+        "title": "Guerres puniques",
+        "extract": "Les trois guerres puniques ou guerres romano-carthaginoises opposent durant plus d’un siècle la Rome antique et la civilisation carthaginoise ou civilisation punique. Les Carthaginois sont appelés Carthaginienses ou Pœni en latin, déformation du nom des Phéniciens dont sont issus les Carthaginois, d’où le mot français « punique ».",
+        "url": "https://fr.wikipedia.org/wiki/Guerres_puniques"
+      },
+      "pt": {
+        "title": "Guerras Púnicas",
+        "extract": "As Guerras Púnicas consistiram numa série de três conflitos que opuseram a República Romana e a República de Cartago, cidade-estado fenícia, no período entre 264 a.C. e 146 a.C. Depois de um século de lutas, ao fim das Guerras Púnicas, Cartago foi totalmente destruída e Roma passou a dominar o mar Mediterrâneo.",
+        "url": "https://pt.wikipedia.org/wiki/Guerras_P%C3%BAnicas"
       }
     }
   },
@@ -7757,6 +8064,47 @@
       }
     }
   },
+  "Sengoku period": {
+    "qid": "Q204023",
+    "fetched": "2026-10-12",
+    "pages": {
+      "ko": {
+        "title": "센고쿠 시대",
+        "extract": "센고쿠 시대(일본어: 戦国時代, 전국시대)는 일본에 15세기 중반부터 16세기 후반까지 사회적, 정치적 변동이 계속된 내란의 시기이다. 1493년의 메이오 정변, 더 이르게는 1467년의 오닌의 난에서 시작한다고 보며, 1573년에 무로마치 막부 제15대 쇼군 아시카가 요시아키가 오다 노부나가에 의해 교토에서 추방되어 무로마치 막부가 무너질 때까지의 시대를 가리킨다. 무로마치 시대 말기, 혹은 오다 노부나가의 상락(1568년) 이후 오다 가문과 도요토미 가문이 정권을 잡은 시기를 '쇼쿠호 시대'(織豊時代) 또는 아즈치모모야마 시대라고 불러 구분하기도 한다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%84%BC%EA%B3%A0%EC%BF%A0_%EC%8B%9C%EB%8C%80"
+      },
+      "en": {
+        "title": "Sengoku period",
+        "extract": "The Sengoku period  was the period in Japanese history in which civil wars and social upheavals took place almost continuously in the 15th and 16th centuries. The Kyōtoku incident (1454), Ōnin War (1467), or Meiō incident (1493) are generally chosen as the period's start date, but there are many competing historiographies for its end date, ranging from 1568, the date of Oda Nobunaga's march on Kyoto, to the suppression of the Shimabara Rebellion in 1638, deep into what was traditionally considered the Edo period. Regardless of the dates chosen, the Sengoku period overlaps substantially with the Muromachi period (1336–1573).",
+        "url": "https://en.wikipedia.org/wiki/Sengoku_period"
+      },
+      "zh": {
+        "title": "战国时代 (日本)",
+        "extract": "战国时代，简称战国，是日本历史上的一个重要时期，一般是指1467年足利义政时期的应仁之乱（亦有始于明应之变的说法）开始的长达一百二十多年的政局纷乱及群雄割据的一段时期。最终，历经近一个半世纪的混战，关白丰臣秀吉在1590年小田原之战中消灭北条氏，此战役后全日本各大名皆臣服于丰臣政权，自应仁之乱后第一次全国统一，开启了安土桃山时代和平时期。",
+        "url": "https://zh.wikipedia.org/wiki/%E6%88%98%E5%9B%BD%E6%97%B6%E4%BB%A3_(%E6%97%A5%E6%9C%AC)"
+      },
+      "es": {
+        "title": "Período Sengoku",
+        "extract": "El período Sengoku  es un longevo período de guerra civil de la historia de Japón. Se inició a fines del período Muromachi en 1467 con la guerra de Ōnin hasta el período Azuchi-Momoyama en 1568. La paz final y el orden no llegaría hasta 1615, en el período Edo.",
+        "url": "https://es.wikipedia.org/wiki/Per%C3%ADodo_Sengoku"
+      },
+      "ar": {
+        "title": "فترة سينغوكو",
+        "extract": "فترة المقاطعات المتحاربة أو «سن غوكو جيداي» (戦国時代): من فترات التاريخ الياباني تخللتها الحرب الأهلية شبه المستمرة والاضطرابات الاجتماعية من 1467 إلى 1615.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%81%D8%AA%D8%B1%D8%A9_%D8%B3%D9%8A%D9%86%D8%BA%D9%88%D9%83%D9%88"
+      },
+      "fr": {
+        "title": "Époque Sengoku",
+        "extract": "L'époque Sengoku (戦国時代, Sengoku-jidai, littéralement « époque des provinces en guerre », en référence à la période des Royaumes combattants chinois) est une ère de l'histoire du Japon marquée par des turbulences sociales, des intrigues politiques et des conflits militaires quasi permanents, qui s'étend du milieu du XVe siècle à la fin du XVIe siècle au Japon. Au sens strict, cette période débute à la fin des guerres d'Ōnin en 1477 et dure jusqu'en 1573, lorsque le seigneur de la guerre Oda Nobunaga destitue le dernier shogun Ashikaga. Elle couvre approximativement la seconde moitié de l'époque de Muromachi entendue au sens large, qui correspond au shogunat des Ashikaga et s'étend de 1336 à 1573.",
+        "url": "https://fr.wikipedia.org/wiki/%C3%89poque_Sengoku"
+      },
+      "pt": {
+        "title": "Período Sengoku",
+        "extract": "Período Sengoku é considerado um dos períodos mais conturbadas, instáveis e sangrentos da história japonesa, marcada por constantes guerras civis e convulsões sociais ocorreram quase continuamente nos séculos XV e XVI. Para os historiadores, este período começou no final das Guerras de Ōnin em 1477, que durou até 1573, quando o senhor da guerra Oda Nobunaga depôs Ashikaga Yoshiaki, o décimo quinto xogum do clã Ashikaga. Entretanto, outras fontes indicam o incidente de Kyōtoku (1454) ou o incidente de Meiō (1493) como a data de início do período. Abrange aproximadamente a segunda metade do período Muromachi entendido em sentido lato, que corresponde ao xogunato Ashikaga e estende-se de 1336 a 1573.",
+        "url": "https://pt.wikipedia.org/wiki/Per%C3%ADodo_Sengoku"
+      }
+    }
+  },
   "September 11 attacks": {
     "qid": "Q10806",
     "fetched": "2026-10-12",
@@ -8074,6 +8422,47 @@
       }
     }
   },
+  "Spanish American wars of independence": {
+    "qid": "Q1123201",
+    "fetched": "2026-10-12",
+    "pages": {
+      "ko": {
+        "title": "스페인령 아메리카 독립 전쟁",
+        "extract": "스페인령 아메리카 독립 전쟁은 스페인령 아메리카의 여러 식민지에서 스페인 제국에 맞서 정치적 독립을 목적으로 여러 지역에서 벌어진 전쟁으로 유럽의 나폴레옹 전쟁 기간인 반도 전쟁 이후 발발한 독립 운동이다. 1809년 세빌레의 중앙위원회 군사정부에 반대하는 수크레와 키토에서 있었던 단기간의 군정이 전쟁의 도화선이었다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%8E%98%EC%9D%B8%EB%A0%B9_%EC%95%84%EB%A9%94%EB%A6%AC%EC%B9%B4_%EB%8F%85%EB%A6%BD_%EC%A0%84%EC%9F%81"
+      },
+      "en": {
+        "title": "Spanish American wars of independence",
+        "extract": "The Spanish American wars of independence were a series of conflicts across the Spanish Empire in the early 19th century. They began shortly after the outbreak of the Peninsular War and formed part of the broader Napoleonic Wars.",
+        "url": "https://en.wikipedia.org/wiki/Spanish_American_wars_of_independence"
+      },
+      "zh": {
+        "title": "西班牙美洲獨立戰爭",
+        "extract": "西班牙美洲独立战争 简称西属美洲独立战争，是19世纪西班牙美洲殖民地发生的大规模冲突，交战双方分别是殖民地起义者（爱国派），以及西班牙帝国与殖民地保皇派。此战除为独立战争外，还是美洲爱国派与保皇派的内战，独立战争结束后，南美洲几乎所有国家都获得独立。",
+        "url": "https://zh.wikipedia.org/wiki/%E8%A5%BF%E7%8F%AD%E7%89%99%E7%BE%8E%E6%B4%B2%E7%8D%A8%E7%AB%8B%E6%88%B0%E7%88%AD"
+      },
+      "es": {
+        "title": "Guerras de independencia hispanoamericanas",
+        "extract": "Las guerras de independencia hispanoamericanas fueron una serie de conflictos armados ocurridos a principios del siglo XIX, entre los años 1809 y 1829, que afectaron a todo el Imperio español y en los cuales se enfrentaron el bando a favor de mantener la autoridad de la Monarquía española, que fue derrotado y se conocería más tarde como «realista» o «virreinal», contra el bando a favor de la independencia o secesión de nuevos estados americanos, que triunfó y fue denominado posteriormente «revolucionario» o «patriota». Estos conflictos son considerados también guerras civiles y una combinación de diversos conflictos, tanto locales como globales.",
+        "url": "https://es.wikipedia.org/wiki/Guerras_de_independencia_hispanoamericanas"
+      },
+      "ar": {
+        "title": "حروب استقلال أمريكا الإسبانية",
+        "extract": "كانت حروب استقلال أمريكا الإسبانية حروبًا متعددة شُنت ضد الحكم الإسباني في أمريكا الإسبانية بهدف تحقيق الاستقلال، وقد وقعت في بدايات القرن التاسع عشر، بعد فترة قصيرة من الغزو الفرنسي لإسبانيا عام 1807 خلال الحروب النابليونية الأوروبية. على الرغم من وجود بحث على فكرة الهوية المستقلة لأمريكا إسبانية (الكريول) منفصلة عن هوية أيبيريا، لم يكن الاستقلال السياسي هدفًا في البداية لمعظم شعب أمريكا الإسبانية، ولم يكن بالضرورة أمرًا حتميًا. بعد استعادة الحكم من قِبل فيرديناند السابع عام 1814، ورفضه الدستور الليبرالي الإسباني لعام 1812، عزز النظام الملكي، كما الليبراليين، موقفهم تجاه ممتلكاته خلف البحار، وسعوا بدورهم بشكل متزايد للحصول على الاستقلال السياسي.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%AD%D8%B1%D9%88%D8%A8_%D8%A7%D8%B3%D8%AA%D9%82%D9%84%D8%A7%D9%84_%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D8%A7_%D8%A7%D9%84%D8%A5%D8%B3%D8%A8%D8%A7%D9%86%D9%8A%D8%A9"
+      },
+      "fr": {
+        "title": "Guerres d'indépendance hispano-américaines",
+        "extract": "Les guerres d'indépendance hispano-américaines furent les nombreuses guerres contre la domination espagnole en Amérique espagnole dans le but de l'indépendance politique qui eurent lieu au début du xixe siècle, peu de temps après l'invasion française de l'Espagne en 1807 pendant les guerres napoléoniennes en Europe. Bien qu'il y ait eu des recherches sur l'idée d'une identité hispano-américaine (« créole ») distincte de celle de la péninsule ibérique, l'indépendance politique n'était pas au départ l'objectif de la plupart des Hispano-Américains, ni nécessairement inévitable. Avec la restauration de Ferdinand VII en 1814, le roi rejeta tout type de souveraineté populaire. Le Triennat libéral de 1820 ne changea pas non plus la position de la constitution de Cadix de 1812 contre le séparatisme, tandis que les Latino-Américains étaient de plus en plus radicalisés, en quête d'indépendance politique.",
+        "url": "https://fr.wikipedia.org/wiki/Guerres_d'ind%C3%A9pendance_hispano-am%C3%A9ricaines"
+      },
+      "pt": {
+        "title": "Guerras de independência na América espanhola",
+        "extract": "As guerras de independência na América espanhola foram as numerosas guerras contra o Império Espanhol na América espanhola, que ocorreram durante o início do século XIX, a partir de 1808 até 1829. O conflito começou em 1808, com juntas estabelecidas no México e em Montevidéu, em reação aos acontecimentos da Guerra Peninsular. Os conflitos podem ser caracterizados tanto como uma guerra civil e uma guerra de libertação nacional como guerras internacionais, uma vez que a maioria dos combatentes de ambos os lados eram espanhóis e americanos, o objetivo do conflito por um lado foi a independência das colônias espanholas nas Américas. As guerras, em última instância, resultaram na formação de uma série de novos países independentes que se prolongam da Argentina e Chile, no sul, ao México, no norte. Apenas Cuba e Porto Rico permaneceram sob domínio espanhol, até a Guerra Hispano-Americana em 1898.",
+        "url": "https://pt.wikipedia.org/wiki/Guerras_de_independ%C3%AAncia_na_Am%C3%A9rica_espanhola"
+      }
+    }
+  },
   "Spanish–American War": {
     "qid": "Q12583",
     "fetched": "2026-10-12",
@@ -8199,6 +8588,52 @@
         "title": "Terceira Guerra Púnica",
         "extract": "A Terceira Guerra Púnica foi a terceira e última de três guerras travadas entre Roma e Cartago. As duas potências lutaram pela supremacia por quatro anos em confrontos inteiramente dentro do território cartaginês no Norte da África. A Segunda Guerra Púnica tinha acabado em 201 a.C. e um dos termos de paz proibia Cartago de guerrear sem a permissão de Roma. O rei númida Massinissa, aliado romano, explorou essa proibição e atacou o território cartaginês repetidas vezes com impunidade. Cartago enviou em 151 a.C. um exército sob Asdrúbal contra Massinissa apesar dos termos do tratado. Esta campanha terminou em desastre na Batalha de Oróscopa, com o exército cartaginês se rendendo. Facções anticartaginesas em Roma usaram essa ação como pretexto para o envio de uma expedição punitiva.",
         "url": "https://pt.wikipedia.org/wiki/Terceira_Guerra_P%C3%BAnica"
+      }
+    }
+  },
+  "Three Kingdoms": {
+    "qid": "Q185043",
+    "fetched": "2026-10-12",
+    "pages": {
+      "ko": {
+        "title": "삼국 시대 (중국)",
+        "extract": "중국의 삼국 시대는 조위(曹魏), 촉한(蜀漢), 동오(東吳)가 경쟁하던 시기로, 한(漢) 왕조의 멸망 이후인 서기 220년부터 280년까지 중국을 지배하였다. 이 시기는 후한(東漢) 왕조에 이어 시작되었고, 서진(西晉)의 사마염에 의해 종결되었다. 학계에서는 보통 조위가 건국된 220년을 시작점으로, 진(晉)이 오(吳)를 정복한 280년을 종점으로 삼아 삼국 시대를 구분한다. 삼국 이전인 184년부터 220년까지는 한의 권위가 무너지며 전국적으로 군웅할거와 내전이 벌어졌던 혼란의 시기였다. 반면 220년부터 263년까지는 조위, 촉한, 동오 간에 비교적 안정된 삼국 균형 체제가 유지되었다. 이러한 안정은 263년 조위가 촉을 정복하면서 깨졌고, 이어 266년 진이 조위를 찬탈하고 최종적으로 280년 진이 오를 멸망시킴으로써 삼국 시대는 막을 내렸다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%82%BC%EA%B5%AD_%EC%8B%9C%EB%8C%80_(%EC%A4%91%EA%B5%AD)"
+      },
+      "en": {
+        "title": "Three Kingdoms",
+        "extract": "The Three Kingdoms of Cao Wei, Shu Han, and Eastern Wu dominated China from 220 to 280 AD following the end of the Han dynasty. This period was preceded by the Eastern Han dynasty and was followed by the Western Jin dynasty. Academically, the periodisation begins with the establishment of Cao Wei in 220 AD and ends with the conquest of Wu by Jin in 280 AD. The period immediately preceding the Three Kingdoms, from 184 to 220 AD, was marked by chaotic infighting among warlords across China as Han authority collapsed. The period from 220 to 263 AD was marked by a comparatively stable arrangement between Cao Wei, Shu Han, and Eastern Wu. This stability broke down with the conquest of Shu by Wei in 263 AD, followed by the usurpation of Cao Wei by Jin in 266 AD and ultimately the conquest of Wu by Jin in 280 AD.",
+        "url": "https://en.wikipedia.org/wiki/Three_Kingdoms"
+      },
+      "zh": {
+        "title": "三国",
+        "extract": "三国 是曹魏、蜀汉及孙吴三个国家并立的中国历史时期，也是魏晋南北朝和六朝的开端时期。一般认为是从建安元年起算。东汉末年战争不断，使得人口急剧下降，经济严重损害，因此三国皆重视经济发展，加上战争带来的需求，各种技术都有许多进步。",
+        "url": "https://zh.wikipedia.org/wiki/%E4%B8%89%E5%9B%BD"
+      },
+      "es": {
+        "title": "Tres Reinos",
+        "extract": "Los Tres Reinos es un periodo de la historia de China. En un estricto sentido académico, se refiere al periodo comprendido entre la fundación de Wei, en el 220, y la conquista de los Wu por la dinastía Jin, en el 280. Sin embargo, muchos historiadores chinos amplían el punto del comienzo de este periodo a la rebelión de los turbantes amarillos, en el 184.",
+        "url": "https://es.wikipedia.org/wiki/Tres_Reinos"
+      },
+      "hi": {
+        "title": "तीन राजशाहियाँ",
+        "extract": "तीन राजशाहियाँ प्राचीन चीन के एक काल को कहते हैं जो हान राजवंश के सन् २२० ईसवी में सत्ता-रहित होने के फ़ौरन बाद शुरू हुआ और जिन राजवंश की सन् २६५ ईसवी में स्थापना तक चला। इस काल में तीन बड़े राज्यों - साओ वेई, पूर्वी वू और शु हान - के बीच चीन पर नियंत्रण प्राप्त करने के लिए खींचातानी चली। कभी-कभी इन राज्यों को सिर्फ़ 'वेई', 'वू' और 'शु' भी बुलाया जाता है। कुछ इतिहासकारों के अनुसार इस काल की शुरुआत वेई राज्य की २२० ई में स्थापना से हुई और अंत पूर्वी वू राज्य पर जिन राजवंश की २८० में विजय से हुआ। बहुत से चीनी इतिहासकार इस काल की शुरुआत सन् १८४ में हुए 'पीली पगड़ी विद्रोह' से करते हैं जो हान राजवंश काल का एक किसान विद्रोह था जिसमें ताओ धर्म के अनुयायी भी गुप्त रूप से मिले हुए थे।",
+        "url": "https://hi.wikipedia.org/wiki/%E0%A4%A4%E0%A5%80%E0%A4%A8_%E0%A4%B0%E0%A4%BE%E0%A4%9C%E0%A4%B6%E0%A4%BE%E0%A4%B9%E0%A4%BF%E0%A4%AF%E0%A4%BE%E0%A4%81"
+      },
+      "ar": {
+        "title": "حقبة الممالك الثلاث",
+        "extract": "الممالك الثلاث هي ثلاث ممالك قامت فعليا عام 221م، بعد استيلاء تساو بي على عرش مملكة هان في الصين وأعلن تأسيس أسرة واي، وانقسمت خلالها الصين إلى ثلاث إمبراطوريات:مملكة شو تقع في جنوب غرب الصين وأسسها ليو باي \nمملكة وو تقع في جنوب شرق الصين وأسسها سون تشوان \nمملكة واي تقع في شمال الصين وأسسها تساو تساو (220-265)",
+        "url": "https://ar.wikipedia.org/wiki/%D8%AD%D9%82%D8%A8%D8%A9_%D8%A7%D9%84%D9%85%D9%85%D8%A7%D9%84%D9%83_%D8%A7%D9%84%D8%AB%D9%84%D8%A7%D8%AB"
+      },
+      "fr": {
+        "title": "Trois Royaumes de Chine",
+        "extract": "L'ère des « Trois Royaumes » (chinois traditionnel : 三國 ; pinyin : Sānguó) est une période de l'histoire chinoise qui commence en 220, après la chute de la dynastie Han et s'achève avec la réunification de la Chine par la dynastie des Jin occidentaux, en 280. C'est le début de la Chine médiévale. Les Trois Royaumes sont ceux de Wei au nord le long du fleuve Jaune, de Wu dans le sud-est, et de Shu au sud-ouest dans le bassin du Sichuan.",
+        "url": "https://fr.wikipedia.org/wiki/Trois_Royaumes_de_Chine"
+      },
+      "pt": {
+        "title": "Três Reinos",
+        "extract": "O período dos Três Reinos é um período na história da China, parte de uma era da desunião chamada Seis Dinastias. Em um sentido acadêmico profundo, se aceita o período entre a fundação de Wei em 220 à conquista de Wu pela Dinastia de Jin em 280. Entretanto, muitos historiadores chineses estendem o ponto de partida deste período para antes da revolta dos Turbantes Amarelos, em 184. O período posterior, parte “não oficial” do período, 190 a 220, foi marcado por lutas caóticas entre generais em várias partes da China. A parte média do período, de 220 e de 263, foi marcada por um arranjo mais militar e estável entre três estados rivais, sendo eles os reinos de Wei, Shu e Wu.",
+        "url": "https://pt.wikipedia.org/wiki/Tr%C3%AAs_Reinos"
       }
     }
   },
@@ -8547,6 +8982,52 @@
         "title": "Revolução de Veludo",
         "extract": "A Revolução de Veludo refere-se à revolução não agressiva na antiga Checoslováquia que testemunhou a deposição do governo comunista daquele país. Esta é vista como uma das mais importantes revoluções de 1989.",
         "url": "https://pt.wikipedia.org/wiki/Revolu%C3%A7%C3%A3o_de_Veludo"
+      }
+    }
+  },
+  "Vietnam War": {
+    "qid": "Q8740",
+    "fetched": "2026-10-12",
+    "pages": {
+      "ko": {
+        "title": "베트남 전쟁",
+        "extract": "베트남 전쟁(1955년 11월 1일~ 1975년 4월 30일)은 베트남, 라오스, 캄보디아에서 북베트남 과 남베트남 및 그 동맹국들 사이에 벌어진 무력 충돌이었다. 북베트남은 소련과 중화인민공화국의 지원을 받았고, 남베트남은 미국과 기타 반공주의 국가들의 지원을 받았다. 이 분쟁은 인도차이나 전쟁 중 두 번째이자 소련과 미국 간의 냉전의 대리전이었다. 베트남 전쟁은 탈식민지 민족 해방 전쟁 중 하나이자 냉전의 전장이었으며, 시작부터 내전이 주요 특징이었다. 미국의 직접적인 군사 개입은 1965년부터 1973년 철수할 때까지 확대되었다. 전투는 라오스 내전과 캄보디아 내전으로 확산되었고, 이 전쟁들은 1975년 세 국가 모두 공산주의 국가가 되면서 막을 내렸다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%B2%A0%ED%8A%B8%EB%82%A8_%EC%A0%84%EC%9F%81"
+      },
+      "en": {
+        "title": "Vietnam War",
+        "extract": "The Vietnam War was an armed conflict in Vietnam, Laos, and Cambodia fought between North Vietnam and South Vietnam and their allies. North Vietnam was supported by the Soviet Union and China, while South Vietnam was supported by the United States and other anti-communist nations. The conflict was the second of the Indochina wars and a proxy war of the Cold War. The Vietnam War was one of the postcolonial wars of national liberation, a theater in the Cold War, and a civil war, with civil warfare a defining feature from the outset. Direct US military involvement escalated from 1965 until US forces were withdrawn in 1973. The fighting spilled into the Laotian and Cambodian civil wars, which ended with all three countries becoming communist in 1975.",
+        "url": "https://en.wikipedia.org/wiki/Vietnam_War"
+      },
+      "zh": {
+        "title": "越南战争",
+        "extract": "越南战争是1955年至1975年越南、老挝和柬埔寨发生的大规模冲突，交战双方为北越（越南民主共和国）与南越（越南共和国）及其各自盟友。北越得到苏联与中国的支持，南越则获得美国及其它反共国家的援助。这场冲突是印度支那战争中的第二场，也是冷战期间的一场代理人战争。越南战争既是后殖民时代争取独立的战争之一，也是冷战的重要战场，同时具备内战性质，从一开始，内部武装对抗就是其显著特征。美国直接军事介入从1965年开始升级，直至1973年撤军。战火蔓延至老挝和柬埔寨，最终三国均于1975年成为共产主义国家。",
+        "url": "https://zh.wikipedia.org/wiki/%E8%B6%8A%E5%8D%97%E6%88%98%E4%BA%89"
+      },
+      "es": {
+        "title": "Guerra de Vietnam",
+        "extract": "La guerra de Vietnam, también llamada Segunda Guerra de Indochina, y conocida en Vietnam como Guerra de Resistencia contra Estados Unidos fue un conflicto bélico librado entre 1955 y 1975 para reunificar Vietnam. Esta guerra enfrentó al gobierno comunista de Vietnam del Norte respaldado por China y la Unión Soviética, sus aliados, contra el gobierno de Vietnam del Sur, su principal aliado Estados Unidos y otras naciones aliadas. Se calcula que murieron entre 966 000 y 3 010 000 vietnamitas. Estados Unidos contabilizó 58 159 bajas y más de 1700 desaparecidos, en su contienda más larga hasta la guerra de Afganistán. Fue uno de los eventos más importantes de la Guerra Fría.",
+        "url": "https://es.wikipedia.org/wiki/Guerra_de_Vietnam"
+      },
+      "hi": {
+        "title": "वियतनाम युद्ध",
+        "extract": "वियतनाम युद्ध शीतयुद्ध काल में वियतनाम, लाओस तथा कंबोडिया की धरती पर लड़ी गयी एक भयंकर लड़ाई का नाम है। प्रथम हिन्दचीन युद्ध के बाद आरम्भ हुआ यह युद्ध उत्तरी वियतनाम तथा दक्षिण वियतनाम की सरकार के बीच में लड़ा गया। इसे \"द्वितीय हिन्दचीन युद्ध\" भी कहते हैं। इसे शीतयुद्ध के दौरान साम्यवादी और—विचारधारा के मध्य एक प्रतीकात्मक युद्ध के रूप में देखा जाता है।",
+        "url": "https://hi.wikipedia.org/wiki/%E0%A4%B5%E0%A4%BF%E0%A4%AF%E0%A4%A4%E0%A4%A8%E0%A4%BE%E0%A4%AE_%E0%A4%AF%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A7"
+      },
+      "ar": {
+        "title": "حرب فيتنام",
+        "extract": "حرب فيتنام ، والمعروفة أيضًا باسم الحرب الهندوصينية الثانية، وفي فيتنام يطلق عليها حرب المقاومة ضد أمريكا أو ببساطة الحرب الأمريكية، وهو نزاع وقع في فيتنام ولاوس وكمبوديا ابتداءً من 1 نوفمبر 1955، حتى سقوط سايغون في 30 أبريل 1975. وهي ثاني الحروب الهندوصينية وكانت أطراف الحرب الرسمية فيتنام الشمالية وفيتنام الجنوبية. تلقى الجيش الفيتنامي الشمالي الدعم من الاتحاد السوفيتي، والصين، وحلفاء شيوعيين آخرين، أما الجيش الفيتنامي الجنوبي فقد تلقى الدعم من الولايات المتحدة، وكوريا الجنوبية، وأستراليا، وتايلاند وحلفاء آخرين مناهضين للشيوعية. يرى بعض الأمريكيين أن هذه الحرب كانت بمثابة حرب بالوكالة في حقبة الحرب الباردة. وغالبية الأمريكيين يعتقدون أن الحرب كانت غير أخلاقية وغير مبررة.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%AD%D8%B1%D8%A8_%D9%81%D9%8A%D8%AA%D9%86%D8%A7%D9%85"
+      },
+      "fr": {
+        "title": "Guerre du Vietnam",
+        "extract": "La guerre du Vietnam — également appelée deuxième guerre d'Indochine ou guerre civile vietnamienne, ou encore guerre des Dix Mille Jours par les Vietnamiens, qui ne la considèrent pas comme un conflit indépendant de la guerre d'Indochine — est une guerre qui se déroule au Vietnam et oppose, de 1955 à 1975, d'une part le Nord Vietnam allié au « Việt Cộng », à d'autre part le Sud Vietnam militairement soutenu par l'armée des États-Unis — elle même appuyée par plusieurs alliés de la région du Pacifique.",
+        "url": "https://fr.wikipedia.org/wiki/Guerre_du_Vietnam"
+      },
+      "pt": {
+        "title": "Guerra do Vietnã",
+        "extract": "A Guerra do Vietnã (português brasileiro) ou Guerra do Vietname (português europeu), também conhecida como Segunda Guerra da Indochina, chamada no Vietnã de Guerra de Resistência contra a América ou simplesmente Guerra Americana, foi um grande conflito armado que aconteceu no Vietnã, Laos e Camboja de 1 de novembro de 1955 até a queda de Saigon em 30 de abril de 1975. Foi a segunda das Guerras da Indochina e foi oficialmente travada entre o Vietnã do Norte e o governo do Vietnã do Sul. O exército norte-vietnamita era apoiado pela União Soviética, China e outros aliados comunistas, enquanto os sul-vietnamitas eram apoiados pelos Estados Unidos, Coreia do Sul, Austrália, Tailândia, e outras nações anticomunistas pelo Mundo. Neste cenário, o conflito no Vietnã é descrito como uma guerra por procuração no contexto das tensões geopolíticas entre Estados Unidos e União Soviética no auge da Guerra Fria.",
+        "url": "https://pt.wikipedia.org/wiki/Guerra_do_Vietn%C3%A3"
       }
     }
   },

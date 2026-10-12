@@ -1,0 +1,25 @@
+# 나라(정치체)별 진영: 원본 이름 = a | b | n [시작 ~ 끝]. 없으면 기타(n). 형식은 content/campaigns/CLAUDE.md
+
+First French Empire = a
+(First French Empire) = a
+French Consulate = a
+(French Consulate) = a
+Confederation of the Rhine = a
+Duchy of Warsaw = a
+Kingdom of Naples (Napoleonic) = a
+Italian Republic = a
+Kingdom of Westphalia = a
+Grand Duchy of Berg = a
+Kingdom of Bavaria = a 1805-08 ~ 1813-10
+Kingdom of Spain = a ~ 1808-04
+Kingdom of Spain = b 1808-05 ~
+Kingdom of Great Britain = b
+(British Empire) = b
+Habsburg Monarchy = b
+(Habsburg Monarchy) = b
+Austrian Empire = b
+Kingdom of Prussia = b
+Russian Empire = b
+Kingdom of Portugal = b
+Kingdom of the Two Sicilies = b
+Kingdom of Sweden = b

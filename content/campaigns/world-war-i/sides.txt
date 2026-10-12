@@ -1,0 +1,27 @@
+# 나라(정치체)별 진영: 원본 이름 = a | b | n [시작 ~ 끝]. 없으면 기타(n). 형식은 content/campaigns/CLAUDE.md
+
+German Empire = a
+Austria-Hungary = a
+Ottoman Empire = a 1914-10 ~
+Principality of Bulgaria = a 1915-10 ~
+French Third Republic = b
+(French Third Republic) = b
+French Africa = b
+Kingdom of Great Britain = b
+(British Empire) = b
+British Empire = b
+British Africa = b
+British Raj = b
+Russian Empire = b ~ 1917-12
+Serbs = b
+Kingdom of Serbia = b
+Kingdom of Belgium = b
+Belgian Congo = b
+Empire of Japan = b
+Kingdom of Italy = b 1915-05 ~
+Italian Africa = b 1915-05 ~
+United Principalities of Moldavia and Wallachia = b 1916-08 ~
+Kingdom of Romania = b 1916-08 ~
+First Portuguese Republic = b 1916-03 ~
+First Hellenic Republic = b 1917-06 ~
+United States of America = b 1917-04 ~

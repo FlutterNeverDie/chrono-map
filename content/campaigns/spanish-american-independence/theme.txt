@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Spanish American wars of independence
+region: south-america
+when: 1808 ~ 1833
+unit: year
+borders-step: 1
+view: -65, -12, 2
+search: -82, -34, -56, 25
+min-links: 5
+side.a.ko: 스페인 제국
+side.a.en: Spanish Empire
+side.a.zh: 西班牙帝国
+side.a.es: Imperio español
+side.a.hi: स्पेनिश साम्राज्य
+side.a.ar: الإمبراطورية الإسبانية
+side.a.fr: Empire espagnol
+side.a.pt: Império Espanhol
+side.b.ko: 독립 세력
+side.b.en: Independence movements
+side.b.zh: 独立势力
+side.b.es: Independentistas
+side.b.hi: स्वतंत्रता आंदोलन
+side.b.ar: حركات الاستقلال
+side.b.fr: Indépendantistes
+side.b.pt: Independentistas

@@ -1,0 +1,127 @@
+# Vietnam War 전투 (Wikidata 자동 생성, 직접 고쳐도 됨). 형식은 content/campaigns/CLAUDE.md
+
+@ battle-of-ap-bac
+wikipedia: Battle of Ap Bac
+when: 1963-01
+coords: 106.2, 10.44
+links: 22
+
+@ battle-of-nam-dong
+wikipedia: Battle of Nam Dong
+when: 1964-07
+coords: 107.68, 16.12
+links: 8
+
+@ gulf-of-tonkin-incident
+wikipedia: Gulf of Tonkin incident
+when: 1964-08
+coords: 106.52, 19.78
+links: 38
+
+@ battle-of-binh-gia
+wikipedia: Battle of Binh Gia
+when: 1964-12 ~ 1965-01
+coords: 107.28, 10.65
+links: 8
+
+@ operation-starlite
+wikipedia: Operation Starlite
+when: 1965-01
+coords: 108.84, 15.3
+links: 9
+
+@ battle-of-ong-xoai
+wikipedia: Battle of Đồng Xoài
+when: 1965-06
+coords: 106.9, 11.54
+links: 9
+
+@ battle-of-ia-drang
+wikipedia: Battle of Ia Drang
+when: 1965-11
+coords: 107.72, 13.58
+links: 29
+
+@ battle-of-long-tan
+wikipedia: Battle of Long Tan
+when: 1966-08
+coords: 107.26, 10.55
+links: 16
+
+@ battle-of-dak-to
+wikipedia: Battle of Dak To
+when: 1967-11
+coords: 107.8, 14.65
+links: 14
+
+@ siege-of-khe-sanh
+wikipedia: Siege of Khe Sanh
+when: 1968-01 ~ 1968-07
+coords: 106.72, 16.65
+links: 35
+
+@ battle-of-saigon-1968
+wikipedia: Battle of Saigon (1968)
+when: 1968-01 ~ 1968-03
+coords: 106.67, 10.77
+links: 9
+
+@ tet-offensive
+wikipedia: Tet Offensive
+when: 1968-01 ~ 1968-09
+coords: 107, 11
+links: 45
+
+@ battle-of-hue
+wikipedia: Battle of Huế
+when: 1968-03
+coords: 107.58, 16.47
+links: 25
+
+@ battle-of-kham-duc
+wikipedia: Battle of Kham Duc
+when: 1968-05
+coords: 107.8, 15.44
+links: 8
+
+@ battle-of-hamburger-hill
+wikipedia: Battle of Hamburger Hill
+when: 1969-05
+coords: 107.17, 16.25
+links: 24
+
+@ operation-ivory-coast
+wikipedia: Operation Ivory Coast
+when: 1970-11
+coords: 105.5, 21.14
+links: 14
+
+@ battle-of-kontum
+wikipedia: Battle of Kontum
+when: 1972-05
+coords: 108.01, 14.36
+links: 8
+
+@ operation-babylift
+wikipedia: Operation Babylift
+when: 1975-04
+coords: 106.7, 10.84
+links: 16
+
+@ fall-of-saigon
+wikipedia: Fall of Saigon
+when: 1975-04
+coords: 106.7, 10.78
+links: 40
+
+@ battle-of-xuan-loc
+wikipedia: Battle of Xuân Lộc
+when: 1975-04
+coords: 107.24, 10.92
+links: 12
+
+@ fall-of-phnom-penh
+wikipedia: Fall of Phnom Penh
+when: 1975-04
+coords: 104.92, 11.57
+links: 14

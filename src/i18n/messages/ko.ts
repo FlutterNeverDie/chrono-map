@@ -3,18 +3,20 @@ export const ko = {
   metaTitle: "크로노맵 — 연도별 세계사 지도",
   metaDescription:
     "연도 게이지를 움직여 같은 시기 세계 각 지역의 역사를 한눈에 보세요.",
-  ww2: {
-    tab: "2차 세계대전",
-    title: "제2차 세계대전 지도",
-    description:
-      "1937년부터 1945년까지 제2차 세계대전의 영토 변화와 주요 전투를 지도로 보세요.",
-    axis: "추축국",
-    allies: "연합국",
-    neutral: "중립·기타",
+  wars: {
+    tab: "전쟁 지도",
+    indexTitle: "전쟁 지도",
+    indexDescription:
+      "세계사의 큰 전쟁을 지역별로 골라 영토 변화와 주요 전투를 지도로 보세요.",
+    others: "기타",
     battles: "전투",
+    now: "이 시기",
+    all: "전체 전투",
     battleCount: "{n}건",
-    noBattles: "이 달에 진행 중인 주요 전투가 없어요",
-    bordersNote: "국경은 연 단위, 진영은 월 단위",
+    noBattles: "이 시기에 진행 중인 주요 전투가 없어요",
+    world: "세계",
+    openMap: "전쟁 지도로 보기",
+    polityColors: "나라별 색",
   },
   pages: {
     backToMap: "지도에서 보기",
@@ -63,7 +65,6 @@ export const ko = {
     oceania: "오세아니아",
   },
   viewpoints: {
-    korea: "한국",
     "east-asia": "동아시아",
     "central-asia": "중앙아시아",
     "west-asia": "서아시아",
@@ -103,6 +104,8 @@ export const ko = {
     wikipedia: "위키백과",
     readMore: "위키백과에서 계속 읽기",
     details: "자세히",
+    collapse: "접기",
+    close: "닫기",
     allCategories: "전체",
     category: "분류",
     play: "재생",

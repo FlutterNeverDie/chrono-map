@@ -75,3 +75,10 @@ when: 1879 ~ 1884
 coords: -76, -9.4
 category: war
 importance: 3
+
+@ spanish-american-independence
+wikipedia: Spanish American wars of independence
+when: 1808 ~ 1833
+coords: -66, -16
+category: war
+importance: 5

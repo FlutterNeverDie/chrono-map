@@ -1,0 +1,13 @@
+# 나라(정치체)별 진영: 원본 이름 = a | b | n [시작 ~ 끝]. 없으면 기타(n). 형식은 content/campaigns/CLAUDE.md
+
+Kingdom of Jerusalem = a
+County of Edessa = a
+Principality of Antioch = a
+County of Tripoli = a
+Latin Empire = a
+Ayyubid Sultanate = b
+Mamluk Sultanate = b
+Fatimid Caliphate = b
+Zengid dynasty = b
+Sultanate of Rum = b
+Danishmendids = b

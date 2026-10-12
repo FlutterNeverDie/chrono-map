@@ -110,3 +110,10 @@ when: 2001 ~ 2021
 coords: 66, 33
 category: war
 importance: 4
+
+@ anglo-maratha-wars
+wikipedia: Anglo-Maratha wars
+when: 1775 ~ 1818
+coords: 76, 19
+category: war
+importance: 5

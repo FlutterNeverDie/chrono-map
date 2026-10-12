@@ -19,6 +19,9 @@ type UiState = {
   setPanelOpen: (open: boolean) => void;
   selectedEventId: string | null;
   selectEvent: (id: string | null) => void;
+  /** 지도를 이 좌표로 옮겨 달라는 요청(사건 목록에서 고를 때). nonce로 같은 곳도 다시 이동 */
+  focus: { coords: [number, number]; nonce: number } | null;
+  focusOn: (coords: [number, number]) => void;
 };
 
 export const useUi = create<UiState>((set) => ({
@@ -31,6 +34,9 @@ export const useUi = create<UiState>((set) => ({
   panelOpen: false,
   setPanelOpen: (panelOpen) => set({ panelOpen }),
   selectedEventId: null,
+  focus: null,
+  focusOn: (coords) =>
+    set((s) => ({ focus: { coords, nonce: (s.focus?.nonce ?? 0) + 1 } })),
   selectEvent: (selectedEventId) =>
     set({ selectedEventId, panelOpen: selectedEventId != null }),
 }));

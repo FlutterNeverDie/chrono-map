@@ -5,18 +5,20 @@ export const en: Messages = {
   metaTitle: "ChronoMap — World History Map by Year",
   metaDescription:
     "Slide through time and see what was happening across every region of the world in the same year.",
-  ww2: {
-    tab: "World War II",
-    title: "World War II Map",
-    description:
-      "See the territorial changes and major battles of World War II from 1937 to 1945 on a map.",
-    axis: "Axis",
-    allies: "Allies",
-    neutral: "Neutral & others",
+  wars: {
+    tab: "War maps",
+    indexTitle: "War maps",
+    indexDescription:
+      "Pick a major war by region and see its territorial changes and key battles on a map.",
+    others: "Others",
     battles: "Battles",
+    now: "This period",
+    all: "All battles",
     battleCount: "{n}",
-    noBattles: "No major battles under way this month",
-    bordersNote: "Borders by year, sides by month",
+    noBattles: "No major battles under way at this time",
+    world: "World",
+    openMap: "Open war map",
+    polityColors: "Colored by state",
   },
   pages: {
     backToMap: "View on the map",
@@ -65,7 +67,6 @@ export const en: Messages = {
     oceania: "Oceania",
   },
   viewpoints: {
-    korea: "Korea",
     "east-asia": "East Asia",
     "central-asia": "Central Asia",
     "west-asia": "West Asia",
@@ -105,6 +106,8 @@ export const en: Messages = {
     wikipedia: "Wikipedia",
     readMore: "Continue reading on Wikipedia",
     details: "Details",
+    collapse: "Show less",
+    close: "Close",
     allCategories: "All",
     category: "Category",
     play: "Play",

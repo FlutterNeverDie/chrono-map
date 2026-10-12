@@ -23,10 +23,10 @@
   --map-pin-stroke: #ffffff;
   --map-pin-ring: #3b2f1e;
 
-  /* 2차대전 지도 진영 색 */
-  --ww2-axis: #c0392b;
-  --ww2-allies: #2e6fbd;
-  --ww2-neutral: #b8ad96;
+  /* 전쟁 지도 진영 색 (a / b / 기타) */
+  --side-a: #c0392b;
+  --side-b: #2e6fbd;
+  --side-n: #b8ad96;
 }
 
 /* 다크 모드 */
@@ -49,9 +49,9 @@
   --map-pin-stroke: #0b1220;
   --map-pin-ring: #f8fafc;
 
-  --ww2-axis: #e05a4a;
-  --ww2-allies: #4f8fe0;
-  --ww2-neutral: #4a5568;
+  --side-a: #e05a4a;
+  --side-b: #4f8fe0;
+  --side-n: #4a5568;
 }
 
 @theme inline {

@@ -75,3 +75,10 @@ when: 1945
 coords: 128, 26.5
 category: war
 importance: 3
+
+@ sengoku-period
+wikipedia: Sengoku period
+when: 1467 ~ 1615
+coords: 135.76, 35.01
+category: war
+importance: 5

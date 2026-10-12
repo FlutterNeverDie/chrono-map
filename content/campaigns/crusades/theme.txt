@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Crusades
+region: middle-east
+when: 1095 ~ 1291
+unit: year
+borders-step: 3
+view: 36, 34, 4
+search: 25, 45, 25, 42
+min-links: 8
+side.a.ko: 십자군 국가
+side.a.en: Crusader states
+side.a.zh: 十字军国家
+side.a.es: Estados cruzados
+side.a.hi: क्रूसेडर राज्य
+side.a.ar: الدول الصليبية
+side.a.fr: États latins d'Orient
+side.a.pt: Estados cruzados
+side.b.ko: 이슬람 국가
+side.b.en: Muslim states
+side.b.zh: 穆斯林国家
+side.b.es: Estados musulmanes
+side.b.hi: मुस्लिम राज्य
+side.b.ar: الدول الإسلامية
+side.b.fr: États musulmans
+side.b.pt: Estados muçulmanos

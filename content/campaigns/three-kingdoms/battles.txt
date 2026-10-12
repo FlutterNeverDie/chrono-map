@@ -1,0 +1,163 @@
+# Three Kingdoms 전투 (Wikidata 자동 생성, 직접 고쳐도 됨). 형식은 content/campaigns/CLAUDE.md
+
+@ battle-of-xingyang-190
+wikipedia: Battle of Xingyang (190)
+when: 190
+coords: 113.35, 34.78
+links: 7
+
+@ battle-of-jieqiao
+wikipedia: Battle of Jieqiao
+when: 191
+coords: 115.27, 36.98
+links: 10
+
+@ battle-of-xiangyang-191
+wikipedia: Battle of Xiangyang (191)
+when: 191
+coords: 112.12, 32.01
+links: 10
+
+@ battle-of-yangcheng
+wikipedia: Battle of Yangcheng
+when: 191
+coords: 113.03, 34.46
+links: 8
+
+@ battle-of-yan-province
+wikipedia: Battle of Yan Province
+when: 194 ~ 195
+coords: 113.67, 34.09
+links: 7
+
+@ war-between-cao-cao-and-zhang-xiu
+wikipedia: War between Cao Cao and Zhang Xiu
+when: 197 ~ 199
+coords: 112.54, 33.01
+links: 8
+
+@ battle-of-xiapi
+wikipedia: Battle of Xiapi
+when: 199
+coords: 118.01, 34.34
+links: 14
+
+@ battle-of-guandu
+wikipedia: Battle of Guandu
+when: 200
+coords: 114.62, 34.91
+links: 25
+
+@ battle-of-bowang
+wikipedia: Battle of Bowang
+when: 202
+coords: 112.71, 33.17
+links: 10
+
+@ battle-of-xiakou
+wikipedia: Battle of Xiakou
+when: 203
+coords: 113.77, 31.06
+links: 7
+
+@ battle-of-red-cliffs
+wikipedia: Battle of Red Cliffs
+when: 208
+coords: 113.62, 29.87
+links: 38
+
+@ battle-of-jiangling-208
+wikipedia: Battle of Jiangling (208)
+when: 208
+coords: 120.26, 32.01
+links: 8
+
+@ battle-of-hefei-208
+wikipedia: Battle of Hefei (208)
+when: 208 ~ 209
+coords: 117.28, 31.87
+links: 5
+
+@ battle-of-changban
+wikipedia: Battle of Changban
+when: 208
+coords: 112.14, 32.05
+links: 14
+
+@ siege-of-jicheng
+wikipedia: Siege of Jicheng
+when: 213
+coords: 105.33, 34.74
+links: 5
+
+@ battle-of-xiaoyao-ford
+wikipedia: Battle of Xiaoyao Ford
+when: 214 ~ 215
+coords: 117.28, 31.86
+links: 10
+
+@ battle-of-qi-mountains
+wikipedia: Battle of Qi Mountains
+when: 214
+coords: 104.92, 33.4
+links: 3
+
+@ battle-of-ba
+wikipedia: Battle of Ba
+when: 215
+coords: 106.67, 33.17
+links: 5
+
+@ battle-of-mount-dingjun
+wikipedia: Battle of Mount Dingjun
+when: 218 ~ 219
+coords: 103.86, 32.88
+links: 13
+
+@ battle-of-fancheng
+wikipedia: Battle of Fancheng
+when: 219
+coords: 112.14, 32.05
+links: 12
+
+@ battle-of-xiaoting
+wikipedia: Battle of Xiaoting
+when: 221
+coords: 111.29, 30.69
+links: 16
+
+@ battle-of-ruxu-222-223
+wikipedia: Battle of Ruxu (222–223)
+when: 222 ~ 223
+coords: 117.89, 31.64
+links: 4
+
+@ battle-of-jieting
+wikipedia: Battle of Jieting
+when: 228
+coords: 105.97, 35
+links: 12
+
+@ battle-of-shiting
+wikipedia: Battle of Shiting
+when: 228
+coords: 116.55, 30.76
+links: 11
+
+@ siege-of-chencang
+wikipedia: Siege of Chencang
+when: 228 ~ 229
+coords: 107.38, 34.35
+links: 8
+
+@ battle-of-mount-qi
+wikipedia: Battle of Mount Qi
+when: 231
+coords: 104.92, 33.4
+links: 6
+
+@ battle-of-wuzhang-plains
+wikipedia: Battle of Wuzhang Plains
+when: 234
+coords: 107.38, 34.35
+links: 11

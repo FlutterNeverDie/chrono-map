@@ -1,0 +1,32 @@
+# 임진왜란: Wikidata에 날짜·좌표가 없어 자동으로 안 잡히는 전투를 직접 추가 (자동 생성이 덮어쓰지 않음)
+# 날짜는 양력(위키백과 기준) 월
+
+@ battle-of-sangju-1592
+wikipedia: Battle of Sangju (1592)
+when: 1592-06
+coords: 128.16, 36.41
+links: 15
+
+@ battle-of-jeokjinpo
+wikipedia: Battle of Jeokjinpo
+when: 1592-06
+coords: 128.42, 34.93
+links: 10
+
+@ battle-of-danghangpo
+wikipedia: Battle of Danghangpo
+when: 1592-07
+coords: 128.39, 35.04
+links: 12
+
+@ battle-of-busan-1592
+wikipedia: Battle of Busan
+when: 1592-10
+coords: 129.04, 35.1
+links: 15
+
+@ battle-of-byeokjegwan
+wikipedia: Battle of Byeokjegwan
+when: 1593-02
+coords: 126.88, 37.68
+links: 12

@@ -15,6 +15,7 @@ import { VIEWPOINT_BY_ID } from "@/data/viewpoints";
 import { useI18n } from "@/i18n/I18nProvider";
 import { localeHref } from "@/i18n/locales";
 import { ExternalIcon, PinIcon } from "@/components/ui/icons";
+import { ExpandableText } from "@/components/ui/ExpandableText";
 
 /** 선택 연도 주변 사건을 현재 시점 기준 중요한 순서로 나열 */
 export function useRankedEvents() {
@@ -37,6 +38,7 @@ export function EventList() {
   const period = usePeriod();
   const selectedEventId = useUi((s) => s.selectedEventId);
   const selectEvent = useUi((s) => s.selectEvent);
+  const focusOn = useUi((s) => s.focusOn);
   const events = useRankedEvents();
 
   // 지도에서 핀을 고르면 해당 카드로 스크롤
@@ -63,7 +65,10 @@ export function EventList() {
         return (
           <li key={e.id} id={`event-${e.id}`}>
             <article
-              onClick={() => selectEvent(e.id)}
+              onClick={() => {
+                selectEvent(e.id);
+                focusOn(e.coords);
+              }}
               className={clsx(
                 "cursor-pointer rounded-lg border bg-surface p-5 transition-colors",
                 selected
@@ -71,7 +76,7 @@ export function EventList() {
                   : "border-line hover:border-muted/50",
               )}
             >
-              <p className="flex flex-wrap items-center gap-x-2.5 gap-y-1 text-[15px] text-muted">
+              <p className="flex flex-wrap items-center gap-x-2.5 gap-y-1 text-[15px] text-muted lg:text-base">
                 <span className="inline-flex items-center gap-1.5 font-semibold text-foreground">
                   <span
                     aria-hidden
@@ -93,7 +98,7 @@ export function EventList() {
                   </span>
                 )}
               </p>
-              <h3 className="mt-2 text-xl leading-snug font-bold lg:text-[22px]">
+              <h3 className="mt-2 text-xl leading-snug font-bold lg:text-2xl xl:text-[26px]">
                 <button
                   type="button"
                   className="text-start"
@@ -102,18 +107,16 @@ export function EventList() {
                   {eventTitle(e, locale)}
                 </button>
               </h3>
-              {/* 위키백과 첫 문단을 그대로 보여준다. 선택하면 전체, 아니면 4줄까지 */}
-              <p
+              {/* 위키백과 첫 문단을 그대로 보여준다. 4줄까지 접어 두고 "자세히"로 그 자리에서 펼친다 */}
+              <ExpandableText
+                text={summary.text}
                 lang={summary.lang}
-                className={clsx(
-                  "mt-1.5 text-base leading-relaxed text-muted lg:text-[17px]",
-                  !selected && "line-clamp-4",
-                )}
-              >
-                {summary.text}
-              </p>
+                moreLabel={messages.ui.details}
+                lessLabel={messages.ui.collapse}
+                className="mt-2 text-base text-muted lg:text-lg xl:text-[19px]"
+              />
               {summary.page && (
-                <p className="mt-3 flex flex-wrap items-center gap-x-3 text-sm text-muted">
+                <p className="mt-3 flex flex-wrap items-center gap-x-3 text-sm text-muted lg:text-[15px]">
                   <a
                     href={summary.page.url}
                     target="_blank"
@@ -125,13 +128,15 @@ export function EventList() {
                     <ExternalIcon className="size-4" />
                   </a>
                   <span>{messages.ui.wikipedia} · CC BY-SA 4.0</span>
-                  <a
-                    href={localeHref(locale, `event/${e.id}`)}
-                    onClick={(ev) => ev.stopPropagation()}
-                    className="ms-auto font-medium text-foreground underline decoration-line underline-offset-2 hover:decoration-foreground"
-                  >
-                    {messages.ui.details}
-                  </a>
+                  {e.campaign && (
+                    <a
+                      href={localeHref(locale, `wars/${e.campaign}`)}
+                      onClick={(ev) => ev.stopPropagation()}
+                      className="inline-flex h-9 items-center rounded-md bg-foreground px-3 font-semibold text-background"
+                    >
+                      {messages.wars.openMap}
+                    </a>
+                  )}
                 </p>
               )}
             </article>

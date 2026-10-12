@@ -1,0 +1,739 @@
+# Napoleonic Wars 전투 (Wikidata 자동 생성, 직접 고쳐도 됨). 형식은 content/campaigns/CLAUDE.md
+
+@ battle-of-cape-finisterre-1805
+wikipedia: Battle of Cape Finisterre (1805)
+when: 1805-07
+coords: -9.27, 42.89
+links: 20
+
+@ battle-of-ivankovac
+wikipedia: Battle of Ivankovac
+when: 1805-08
+coords: 21.43, 43.97
+links: 10
+
+@ battle-of-ulm
+wikipedia: Battle of Ulm
+when: 1805-10
+coords: 9.98, 48.38
+links: 34
+
+@ battle-of-elchingen
+wikipedia: Battle of Elchingen
+when: 1805-10
+coords: 10.09, 48.45
+links: 14
+
+@ battle-of-haslach-jungingen
+wikipedia: Battle of Haslach-Jungingen
+when: 1805-10
+coords: 9.98, 48.4
+links: 12
+
+@ battle-of-wertingen
+wikipedia: Battle of Wertingen
+when: 1805-10
+coords: 10.68, 48.56
+links: 11
+
+@ battle-of-caldiero-1805
+wikipedia: Battle of Caldiero (1805)
+when: 1805-10
+coords: 11.19, 45.42
+links: 12
+
+@ battle-of-trafalgar
+wikipedia: Battle of Trafalgar
+when: 1805-10
+coords: -6.2, 36.25
+links: 78
+
+@ battle-of-amstetten
+wikipedia: Battle of Amstetten
+when: 1805-11
+coords: 14.82, 48.12
+links: 11
+
+@ battle-of-durenstein
+wikipedia: Battle of Dürenstein
+when: 1805-11
+coords: 15.52, 48.39
+links: 18
+
+@ battle-of-schongrabern
+wikipedia: Battle of Schöngrabern
+when: 1805-11
+coords: 16.07, 48.59
+links: 15
+
+@ battle-of-cape-ortegal
+wikipedia: Battle of Cape Ortegal
+when: 1805-11
+coords: -7.86, 43.82
+links: 13
+
+@ battle-of-austerlitz
+wikipedia: Battle of Austerlitz
+when: 1805-12
+coords: 16.76, 49.13
+links: 75
+
+@ battle-of-campo-tenese
+wikipedia: Battle of Campo Tenese
+when: 1806-03
+coords: 16.07, 39.88
+links: 12
+
+@ battle-of-maida
+wikipedia: Battle of Maida
+when: 1806-07
+coords: 16.37, 38.85
+links: 11
+
+@ battle-of-misar
+wikipedia: Battle of Mišar
+when: 1806-08
+coords: 19.76, 44.73
+links: 13
+
+@ battle-of-jena-auerstedt
+wikipedia: Battle of Jena–Auerstedt
+when: 1806-10
+coords: 11.58, 50.95
+links: 49
+
+@ battle-of-saalfeld
+wikipedia: Battle of Saalfeld
+when: 1806-10
+coords: 11.37, 50.65
+links: 14
+
+@ battle-of-schleiz
+wikipedia: Battle of Schleiz
+when: 1806-10
+coords: 11.82, 50.58
+links: 12
+
+@ battle-of-lubeck
+wikipedia: Battle of Lübeck
+when: 1806-11
+coords: 10.68, 53.87
+links: 16
+
+@ battle-of-pu-tusk-1806
+wikipedia: Battle of Pułtusk (1806)
+when: 1806-12
+coords: 21.08, 52.71
+links: 15
+
+@ battle-of-czarnowo
+wikipedia: Battle of Czarnowo
+when: 1806-12
+coords: 20.75, 52.45
+links: 10
+
+@ battle-of-golymin
+wikipedia: Battle of Golymin
+when: 1806-12
+coords: 20.87, 52.82
+links: 13
+
+@ siege-of-stralsund-1807
+wikipedia: Siege of Stralsund (1807)
+when: 1807-01 ~ 1807-08
+coords: 13.08, 54.3
+links: 11
+
+@ battle-of-eylau
+wikipedia: Battle of Eylau
+when: 1807-02
+coords: 20.63, 54.4
+links: 42
+
+@ siege-of-kolberg-1807
+wikipedia: Siege of Kolberg (1807)
+when: 1807-03 ~ 1807-07
+coords: 15.58, 54.18
+links: 13
+
+@ siege-of-danzig-1807
+wikipedia: Siege of Danzig (1807)
+when: 1807-03 ~ 1807-05
+coords: 18.63, 54.37
+links: 18
+
+@ battle-of-friedland
+wikipedia: Battle of Friedland
+when: 1807-06
+coords: 21.02, 54.45
+links: 43
+
+@ battle-of-heilsberg
+wikipedia: Battle of Heilsberg
+when: 1807-06
+coords: 20.58, 54.12
+links: 16
+
+@ battle-of-athos
+wikipedia: Battle of Athos
+when: 1807-06
+coords: 24.93, 40.07
+links: 12
+
+@ battle-of-copenhagen-1807
+wikipedia: Battle of Copenhagen (1807)
+when: 1807-08 ~ 1807-09
+coords: 12.57, 55.67
+links: 27
+
+@ battle-of-cabezon
+wikipedia: Battle of Cabezón
+when: 1808-06
+coords: -4.65, 41.73
+links: 12
+
+@ first-siege-of-girona-peninsular-war
+wikipedia: First Siege of Girona (Peninsular War)
+when: 1808-06
+coords: 2.82, 41.98
+links: 10
+
+@ battles-of-el-bruch
+wikipedia: Battles of El Bruch
+when: 1808-06
+coords: 1.78, 41.58
+links: 13
+
+@ siege-of-zaragoza-1808
+wikipedia: Siege of Zaragoza (1808)
+when: 1808-06 ~ 1808-08
+coords: -0.88, 41.65
+links: 12
+
+@ battle-of-medina-de-rioseco
+wikipedia: Battle of Medina de Rioseco
+when: 1808-07
+coords: -4.99, 41.89
+links: 14
+
+@ battle-of-bailen
+wikipedia: Battle of Bailén
+when: 1808-07
+coords: -3.8, 38.1
+links: 25
+
+@ battle-of-vimeiro
+wikipedia: Battle of Vimeiro
+when: 1808-08
+coords: -9.32, 39.18
+links: 17
+
+@ battle-of-rolica
+wikipedia: Battle of Roliça
+when: 1808-08
+coords: -9.18, 39.31
+links: 13
+
+@ battle-of-somosierra
+wikipedia: Battle of Somosierra
+when: 1808-11
+coords: -3.58, 41.13
+links: 21
+
+@ battle-of-tudela
+wikipedia: Battle of Tudela
+when: 1808-11
+coords: -1.61, 42.07
+links: 18
+
+@ battle-of-espinosa-de-los-monteros
+wikipedia: Battle of Espinosa de los Monteros
+when: 1808-11
+coords: -3.53, 43.07
+links: 13
+
+@ battle-of-gamonal
+wikipedia: Battle of Gamonal
+when: 1808-11
+coords: -3.67, 42.36
+links: 10
+
+@ battle-of-valmaseda
+wikipedia: Battle of Valmaseda
+when: 1808-11
+coords: -3.19, 43.2
+links: 11
+
+@ battle-of-sahagun
+wikipedia: Battle of Sahagún
+when: 1808-12
+coords: -5.03, 42.37
+links: 10
+
+@ battle-of-molins-de-rei
+wikipedia: Battle of Molins de Rei
+when: 1808-12
+coords: 2.02, 41.41
+links: 11
+
+@ siege-of-zaragoza-1809
+wikipedia: Siege of Zaragoza (1809)
+when: 1808-12 ~ 1809-02
+coords: -0.88, 41.65
+links: 15
+
+@ battle-of-corunna
+wikipedia: Battle of Corunna
+when: 1809-01
+coords: -8.41, 43.33
+links: 20
+
+@ battle-of-medellin
+wikipedia: Battle of Medellín
+when: 1809-03
+coords: -5.95, 38.97
+links: 11
+
+@ battle-of-ratisbon
+wikipedia: Battle of Ratisbon
+when: 1809-04
+coords: 12.1, 49.02
+links: 15
+
+@ battle-of-landshut-1809
+wikipedia: Battle of Landshut (1809)
+when: 1809-04
+coords: 12.15, 48.54
+links: 15
+
+@ battle-of-abensberg
+wikipedia: Battle of Abensberg
+when: 1809-04
+coords: 11.86, 48.81
+links: 18
+
+@ battle-of-sacile
+wikipedia: Battle of Sacile
+when: 1809-04
+coords: 12.5, 45.97
+links: 14
+
+@ battle-of-raszyn-1809
+wikipedia: Battle of Raszyn (1809)
+when: 1809-04
+coords: 20.91, 52.15
+links: 17
+
+@ battle-of-teugen-hausen
+wikipedia: Battle of Teugen–Hausen
+when: 1809-04
+coords: 12.01, 48.88
+links: 12
+
+@ battle-of-cegar
+wikipedia: Battle of Čegar
+when: 1809-04 ~ 1809-05
+coords: 21.94, 43.37
+links: 10
+
+@ battle-of-the-basque-roads
+wikipedia: Battle of the Basque Roads
+when: 1809-04
+coords: -1.19, 46
+links: 10
+
+@ second-battle-of-porto
+wikipedia: Second Battle of Porto
+when: 1809-05
+coords: -8.61, 41.15
+links: 10
+
+@ battle-of-ebelsberg
+wikipedia: Battle of Ebelsberg
+when: 1809-05
+coords: 14.29, 48.3
+links: 11
+
+@ battle-of-aspern-essling
+wikipedia: Battle of Aspern–Essling
+when: 1809-05
+coords: 16.5, 48.21
+links: 33
+
+@ battle-of-piave-river-1809
+wikipedia: Battle of Piave River (1809)
+when: 1809-05
+coords: 12.22, 45.83
+links: 12
+
+@ third-siege-of-girona-peninsular-war
+wikipedia: Third siege of Girona (Peninsular War)
+when: 1809-05 ~ 1809-12
+coords: 2.82, 41.98
+links: 10
+
+@ battle-of-raab-1809
+wikipedia: Battle of Raab (1809)
+when: 1809-06
+coords: 17.66, 47.64
+links: 12
+
+@ battle-of-talavera
+wikipedia: Battle of Talavera
+when: 1809-07
+coords: -4.83, 39.97
+links: 24
+
+@ battle-of-znaim
+wikipedia: Battle of Znaim
+when: 1809-07
+coords: 16.05, 48.86
+links: 12
+
+@ battle-of-wagram
+wikipedia: Battle of Wagram
+when: 1809-07
+coords: 16.56, 48.3
+links: 42
+
+@ battle-of-almonacid
+wikipedia: Battle of Almonacid
+when: 1809-08
+coords: -3.85, 39.76
+links: 10
+
+@ battle-of-ocana
+wikipedia: Battle of Ocaña
+when: 1809-11
+coords: -3.5, 39.95
+links: 15
+
+@ siege-of-cadiz
+wikipedia: Siege of Cádiz
+when: 1810-02 ~ 1812-08
+coords: -6.3, 36.53
+links: 11
+
+@ battle-of-bussaco
+wikipedia: Battle of Bussaco
+when: 1810-09
+coords: -8.34, 40.34
+links: 11
+
+@ battle-of-the-gebora
+wikipedia: Battle of the Gebora
+when: 1811-02
+coords: -6.98, 38.9
+links: 13
+
+@ battle-of-barrosa
+wikipedia: Battle of Barrosa
+when: 1811-03
+coords: -6.16, 36.34
+links: 11
+
+@ battle-of-lissa-1811
+wikipedia: Battle of Lissa (1811)
+when: 1811-03
+coords: 16.17, 43.09
+links: 16
+
+@ battle-of-albuera
+wikipedia: Battle of Albuera
+when: 1811-05
+coords: -6.82, 38.71
+links: 21
+
+@ battle-of-fuentes-de-onoro
+wikipedia: Battle of Fuentes de Oñoro
+when: 1811-05
+coords: -6.82, 40.58
+links: 11
+
+@ siege-of-ciudad-rodrigo-1812
+wikipedia: Siege of Ciudad Rodrigo (1812)
+when: 1812-01
+coords: -6.52, 40.6
+links: 11
+
+@ battle-of-pirano
+wikipedia: Battle of Pirano
+when: 1812-02
+coords: 13.5, 45.6
+links: 12
+
+@ siege-of-badajoz-1812
+wikipedia: Siege of Badajoz (1812)
+when: 1812-03 ~ 1812-04
+coords: -6.97, 38.88
+links: 17
+
+@ battle-of-salamanca
+wikipedia: Battle of Salamanca
+when: 1812-07
+coords: -5.62, 40.89
+links: 26
+
+@ battle-of-ostrovno
+wikipedia: Battle of Ostrovno
+when: 1812-07
+coords: 29.86, 55.14
+links: 10
+
+@ battle-of-saltanovka
+wikipedia: Battle of Saltanovka
+when: 1812-07
+coords: 30.23, 53.81
+links: 13
+
+@ battle-of-mir-1812
+wikipedia: Battle of Mir (1812)
+when: 1812-07
+coords: 26.47, 53.45
+links: 13
+
+@ first-battle-of-polotsk
+wikipedia: First Battle of Polotsk
+when: 1812-08
+coords: 28.8, 55.48
+links: 16
+
+@ battle-of-smolensk-1812
+wikipedia: Battle of Smolensk (1812)
+when: 1812-08
+coords: 32.05, 54.78
+links: 31
+
+@ battle-of-borodino
+wikipedia: Battle of Borodino
+when: 1812-09
+coords: 35.82, 55.52
+links: 64
+
+@ battle-of-maloyaroslavets
+wikipedia: Battle of Maloyaroslavets
+when: 1812-10
+coords: 36.46, 55.02
+links: 19
+
+@ second-battle-of-polotsk
+wikipedia: Second Battle of Polotsk
+when: 1812-10
+coords: 28.8, 55.48
+links: 11
+
+@ battle-of-tarutino
+wikipedia: Battle of Tarutino
+when: 1812-10
+coords: 37, 55.18
+links: 16
+
+@ battle-of-krasnoi
+wikipedia: Battle of Krasnoi
+when: 1812-11
+coords: 31.43, 54.56
+links: 14
+
+@ battle-of-berezina
+wikipedia: Battle of Berezina
+when: 1812-11
+coords: 28.35, 54.32
+links: 32
+
+@ battle-of-vyazma
+wikipedia: Battle of Vyazma
+when: 1812-11
+coords: 34.3, 55.2
+links: 10
+
+@ siege-of-lankaran
+wikipedia: Siege of Lankaran
+when: 1813-01
+coords: 38.65, 53.65
+links: 10
+
+@ german-campaign-of-1813
+wikipedia: German campaign of 1813
+when: 1813-01 ~ 1814-01
+coords: 10, 51
+links: 12
+
+@ battle-of-lutzen-1813
+wikipedia: Battle of Lützen (1813)
+when: 1813-05
+coords: 12.18, 51.22
+links: 30
+
+@ battle-of-bautzen-1813
+wikipedia: Battle of Bautzen (1813)
+when: 1813-05
+coords: 14.42, 51.18
+links: 25
+
+@ battle-of-vitoria
+wikipedia: Battle of Vitoria
+when: 1813-06
+coords: -2.68, 42.85
+links: 31
+
+@ siege-of-san-sebastian
+wikipedia: Siege of San Sebastián
+when: 1813-07 ~ 1813-09
+coords: -1.98, 43.32
+links: 11
+
+@ battle-of-dresden
+wikipedia: Battle of Dresden
+when: 1813-08
+coords: 13.73, 51.03
+links: 29
+
+@ battle-of-kulm
+wikipedia: Battle of Kulm
+when: 1813-08
+coords: 13.96, 50.71
+links: 24
+
+@ battle-of-the-katzbach
+wikipedia: Battle of the Katzbach
+when: 1813-08
+coords: 16.07, 51.13
+links: 15
+
+@ battle-of-san-marcial
+wikipedia: Battle of San Marcial
+when: 1813-08
+coords: -1.76, 43.33
+links: 10
+
+@ battle-of-gro-beeren
+wikipedia: Battle of Großbeeren
+when: 1813-09
+coords: 13.3, 52.35
+links: 21
+
+@ battle-of-dennewitz
+wikipedia: Battle of Dennewitz
+when: 1813-09
+coords: 13, 51.97
+links: 14
+
+@ battle-of-leipzig
+wikipedia: Battle of Leipzig
+when: 1813-10
+coords: 12.41, 51.31
+links: 65
+
+@ battle-of-hanau
+wikipedia: Battle of Hanau
+when: 1813-10
+coords: 8.92, 50.13
+links: 15
+
+@ battle-of-brienne
+wikipedia: Battle of Brienne
+when: 1814-01
+coords: 4.52, 48.39
+links: 16
+
+@ battle-of-la-rothiere
+wikipedia: Battle of La Rothière
+when: 1814-02
+coords: 4.56, 48.35
+links: 14
+
+@ battle-of-montmirail
+wikipedia: Battle of Montmirail
+when: 1814-02
+coords: 3.48, 48.9
+links: 14
+
+@ battle-of-champaubert
+wikipedia: Battle of Champaubert
+when: 1814-02
+coords: 3.78, 48.88
+links: 19
+
+@ battle-of-vauchamps
+wikipedia: Battle of Vauchamps
+when: 1814-02
+coords: 3.62, 48.88
+links: 13
+
+@ battle-of-chateau-thierry-1814
+wikipedia: Battle of Château-Thierry (1814)
+when: 1814-02
+coords: 3.4, 49.04
+links: 16
+
+@ battle-of-montereau
+wikipedia: Battle of Montereau
+when: 1814-02
+coords: 2.95, 48.4
+links: 12
+
+@ battle-of-craonne
+wikipedia: Battle of Craonne
+when: 1814-03
+coords: 3.72, 49.44
+links: 11
+
+@ battle-of-laon
+wikipedia: Battle of Laon
+when: 1814-03
+coords: 3.62, 49.57
+links: 16
+
+@ battle-of-arcis-sur-aube
+wikipedia: Battle of Arcis-sur-Aube
+when: 1814-03
+coords: 4.14, 48.54
+links: 17
+
+@ battle-of-paris-1814
+wikipedia: Battle of Paris (1814)
+when: 1814-03
+coords: 2.35, 48.86
+links: 29
+
+@ battle-of-reims-1814
+wikipedia: Battle of Reims (1814)
+when: 1814-03
+coords: 4.03, 49.26
+links: 11
+
+@ battle-of-toulouse-1814
+wikipedia: Battle of Toulouse (1814)
+when: 1814-04
+coords: 1.44, 43.6
+links: 15
+
+@ battle-of-tolentino
+wikipedia: Battle of Tolentino
+when: 1815-05
+coords: 13.29, 43.21
+links: 20
+
+@ battle-of-waterloo
+wikipedia: Battle of Waterloo
+when: 1815-06
+coords: 4.41, 50.68
+links: 95
+
+@ battle-of-quatre-bras
+wikipedia: Battle of Quatre Bras
+when: 1815-06
+coords: 4.45, 50.57
+links: 24
+
+@ battle-of-wavre
+wikipedia: Battle of Wavre
+when: 1815-06
+coords: 4.6, 50.72
+links: 18
+
+@ battle-of-ligny
+wikipedia: Battle of Ligny
+when: 1815-06
+coords: 4.58, 50.51
+links: 27

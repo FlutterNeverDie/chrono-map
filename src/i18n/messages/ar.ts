@@ -5,18 +5,20 @@ export const ar: Messages = {
   metaTitle: "ChronoMap — خريطة تاريخ العالم حسب السنة",
   metaDescription:
     "تنقّل عبر الزمن واكتشف ما كان يحدث في كل منطقة من العالم في السنة نفسها.",
-  ww2: {
-    tab: "الحرب العالمية الثانية",
-    title: "خريطة الحرب العالمية الثانية",
-    description:
-      "شاهد على الخريطة التغيرات الإقليمية والمعارك الكبرى في الحرب العالمية الثانية من 1937 إلى 1945.",
-    axis: "دول المحور",
-    allies: "الحلفاء",
-    neutral: "محايدون وآخرون",
+  wars: {
+    tab: "خرائط الحروب",
+    indexTitle: "خرائط الحروب",
+    indexDescription:
+      "اختر حربًا كبرى حسب المنطقة وشاهد على الخريطة التغيرات الإقليمية والمعارك الرئيسية.",
+    others: "أخرى",
     battles: "المعارك",
+    now: "هذه الفترة",
+    all: "كل المعارك",
     battleCount: "{n}",
-    noBattles: "لا معارك كبرى جارية في هذا الشهر",
-    bordersNote: "الحدود حسب السنة، والمعسكرات حسب الشهر",
+    noBattles: "لا معارك كبرى جارية في هذا الوقت",
+    world: "العالم",
+    openMap: "عرض خريطة الحرب",
+    polityColors: "ألوان حسب الدولة",
   },
   pages: {
     backToMap: "عرض على الخريطة",
@@ -65,7 +67,6 @@ export const ar: Messages = {
     oceania: "أوقيانوسيا",
   },
   viewpoints: {
-    korea: "كوريا",
     "east-asia": "شرق آسيا",
     "central-asia": "آسيا الوسطى",
     "west-asia": "غرب آسيا",
@@ -105,6 +106,8 @@ export const ar: Messages = {
     wikipedia: "ويكيبيديا",
     readMore: "تابع القراءة في ويكيبيديا",
     details: "التفاصيل",
+    collapse: "عرض أقل",
+    close: "إغلاق",
     allCategories: "الكل",
     category: "التصنيف",
     play: "تشغيل",

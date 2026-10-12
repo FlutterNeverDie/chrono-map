@@ -75,3 +75,10 @@ when: 1945
 coords: 141.32, 24.78
 category: war
 importance: 3
+
+@ pacific-war
+wikipedia: Pacific War
+when: 1941 ~ 1945
+coords: 158, 8
+category: war
+importance: 5

@@ -83,3 +83,10 @@ when: 1954
 coords: 103.02, 21.39
 category: war
 importance: 3
+
+@ vietnam-war
+wikipedia: Vietnam War
+when: 1955 ~ 1975
+coords: 106.7, 16
+category: war
+importance: 5

@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Punic Wars
+region: africa
+when: -264 ~ -146
+unit: year
+borders-step: 2
+view: 10, 39, 3.5
+search: -10, 20, 30, 46
+min-links: 5
+side.a.ko: 카르타고
+side.a.en: Carthage
+side.a.zh: 迦太基
+side.a.es: Cartago
+side.a.hi: कार्थेज
+side.a.ar: قرطاج
+side.a.fr: Carthage
+side.a.pt: Cartago
+side.b.ko: 로마
+side.b.en: Rome
+side.b.zh: 罗马
+side.b.es: Roma
+side.b.hi: रोम
+side.b.ar: روما
+side.b.fr: Rome
+side.b.pt: Roma

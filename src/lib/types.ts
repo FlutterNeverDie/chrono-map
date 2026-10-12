@@ -17,7 +17,6 @@ export type RegionId =
 
 /** 지도 시점. 목록·경도는 data/viewpoints.ts */
 export type ViewpointId =
-  | "korea"
   | "east-asia"
   | "central-asia"
   | "west-asia"
@@ -79,6 +78,8 @@ export type HistoryEvent = {
   summary: LocalizedText;
   /** 위키백과 외 추가 출처 */
   sources: string[];
+  /** 같은 위키백과 문서를 쓰는 전쟁 지도(/wars/<id>)가 있으면 그 id (빌드 때 자동 연결) */
+  campaign?: string;
 };
 
 /** 시점별 "중요한 사건 순서"(사건 id 배열, 앞이 더 중요). content/rankings/*.txt에서 생성 */

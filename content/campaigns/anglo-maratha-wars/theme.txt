@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Anglo-Maratha wars
+region: india
+when: 1775 ~ 1818
+unit: year
+borders-step: 2
+view: 78, 20, 3.5
+search: 68, 90, 8, 30
+min-links: 3
+side.a.ko: 마라타 제국
+side.a.en: Maratha Empire
+side.a.zh: 马拉塔帝国
+side.a.es: Imperio maratha
+side.a.hi: मराठा साम्राज्य
+side.a.ar: إمبراطورية المراثا
+side.a.fr: Empire marathe
+side.a.pt: Império Marata
+side.b.ko: 영국
+side.b.en: British
+side.b.zh: 英国
+side.b.es: Británicos
+side.b.hi: ब्रिटिश
+side.b.ar: البريطانيون
+side.b.fr: Britanniques
+side.b.pt: Britânicos

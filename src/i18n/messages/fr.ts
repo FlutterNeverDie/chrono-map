@@ -5,18 +5,20 @@ export const fr: Messages = {
   metaTitle: "ChronoMap — Carte de l'histoire mondiale par année",
   metaDescription:
     "Faites défiler le temps et découvrez ce qui se passait dans chaque région du monde la même année.",
-  ww2: {
-    tab: "Seconde Guerre mondiale",
-    title: "Carte de la Seconde Guerre mondiale",
-    description:
-      "Voyez sur une carte l'évolution des territoires et les grandes batailles de la Seconde Guerre mondiale de 1937 à 1945.",
-    axis: "Axe",
-    allies: "Alliés",
-    neutral: "Neutres et autres",
+  wars: {
+    tab: "Cartes des guerres",
+    indexTitle: "Cartes des guerres",
+    indexDescription:
+      "Choisissez une grande guerre par région et voyez sur une carte l'évolution des territoires et les batailles clés.",
+    others: "Autres",
     battles: "Batailles",
+    now: "Cette période",
+    all: "Toutes les batailles",
     battleCount: "{n}",
-    noBattles: "Aucune grande bataille en cours ce mois-ci",
-    bordersNote: "Frontières par année, camps par mois",
+    noBattles: "Aucune grande bataille en cours à ce moment",
+    world: "Monde",
+    openMap: "Voir la carte de la guerre",
+    polityColors: "Couleurs par État",
   },
   pages: {
     backToMap: "Voir sur la carte",
@@ -65,7 +67,6 @@ export const fr: Messages = {
     oceania: "Océanie",
   },
   viewpoints: {
-    korea: "Corée",
     "east-asia": "Asie de l'Est",
     "central-asia": "Asie centrale",
     "west-asia": "Asie de l'Ouest",
@@ -105,6 +106,8 @@ export const fr: Messages = {
     wikipedia: "Wikipédia",
     readMore: "Lire la suite sur Wikipédia",
     details: "Détails",
+    collapse: "Réduire",
+    close: "Fermer",
     allCategories: "Tout",
     category: "Catégorie",
     play: "Lecture",

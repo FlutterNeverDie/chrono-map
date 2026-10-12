@@ -1,0 +1,801 @@
+{
+  "Imjin War": {
+    "pages": {
+      "ko": {
+        "title": "임진왜란",
+        "extract": "임진왜란(壬辰倭亂)은 1592년부터 1598년까지 한반도에서 조선과 일본 사이에 벌어진 국제전이다. 도요토미 히데요시가 일본의 통일을 이룩한 이후 조선을 침공했다. 1592년 동래성 전투를 시작으로 일본군이 조선군을 격파하며 수도 한양이 1592년 6월 함락되었다. 선조는 일본군을 피해 도주했으나, 고니시 유키나가가 이끄는 일본군은 임진강을 건너 1592년 7월 평양성까지 함락했다. 평양성 함락 이후 가토 기요마사는 강원도와 함경도를 침략했고, 조선 조정은 의주로 피난을 간 뒤 명나라에 도움을 요청했다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%9E%84%EC%A7%84%EC%99%9C%EB%9E%80"
+      },
+      "en": {
+        "title": "Imjin War",
+        "extract": "The Imjin War was a series of two Japanese invasions of Korea: an initial invasion in 1592 also individually called the \"Imjin War\", a brief truce in 1596 between the conflicts, followed by a second invasion in 1597 called the Chŏngyu War. The conflict ended in 1598 with the withdrawal of Japanese forces from the Korean Peninsula after a military stalemate in Korea's southern provinces.",
+        "url": "https://en.wikipedia.org/wiki/Imjin_War"
+      },
+      "zh": {
+        "title": "萬曆朝鮮之役",
+        "extract": "万历朝鲜之役是1592年至1598年（大明万历二十年至二十六年；日本文禄元年至庆长三年）间，大明、大明藩属朝鲜国与日本（丰臣政权）之间爆发的两次战争，也是明朝万历三大征之一。明朝为抗倭援朝，先后两次派遣军队进入朝鲜半岛，与日军作战。朝鲜王朝方面称壬辰倭乱 以及丁酉再乱，日本方面称文禄庆长之役。",
+        "url": "https://zh.wikipedia.org/wiki/%E8%90%AC%E6%9B%86%E6%9C%9D%E9%AE%AE%E4%B9%8B%E5%BD%B9"
+      },
+      "es": {
+        "title": "Invasiones japonesas de Corea (1592-1598)",
+        "extract": "Las invasiones japonesas de Corea fueron un conflicto bélico desarrollado entre 1592 y 1598 en el que se vieron envueltos tres países asiáticos: Japón, China y Corea. El regente japonés Toyotomi Hideyoshi, uno de los «grandes pacificadores de Japón», decidió conquistar China, por lo que solicitó la asistencia de la dinastía Joseon, así como libre tránsito a través de la península de Corea. Debido a que Corea era un país vasallo de la dinastía Ming, la petición fue rechazada. Como respuesta, Hideyoshi preparó sus tropas y convocó a los distintos daimio para la invasión del país.",
+        "url": "https://es.wikipedia.org/wiki/Invasiones_japonesas_de_Corea_(1592-1598)"
+      },
+      "hi": {
+        "title": "कोरिया पर जापानी आक्रमण (1592-1598)",
+        "extract": "कोरिया पर जापानी आक्रमण, जिसे आमतौर पर इम्जिन युद्ध के रूप में जाना जाता है, में दो अलग-अलग अभी तक जुड़े हुए आक्रमण शामिल थे: 1592 में एक प्रारंभिक आक्रमण, 1596 में एक संक्षिप्त युद्धविराम और 1597 में दूसरा आक्रमण. कोरिया के दक्षिणी प्रांतों में एक सैन्य गतिरोध के बाद कोरियाई प्रायद्वीप से जापानी सेना की वापसी के साथ 1598 में संघर्ष समाप्त हो गया।",
+        "url": "https://hi.wikipedia.org/wiki/%E0%A4%95%E0%A5%8B%E0%A4%B0%E0%A4%BF%E0%A4%AF%E0%A4%BE_%E0%A4%AA%E0%A4%B0_%E0%A4%9C%E0%A4%BE%E0%A4%AA%E0%A4%BE%E0%A4%A8%E0%A5%80_%E0%A4%86%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A4%A3_(1592-1598)"
+      },
+      "ar": {
+        "title": "غزو اليابان لكوريا (1592-1598)",
+        "extract": "الغزو الياباني لكوريا 1592 – 1598 أو حرب إمنجن، تتألف من غزوتين منفصلتين لكنهما مرتبطتين، الغزو الأول في عام 1592 ، وهدنة قصيرة في 1596، وغزو ثانٍ في 1597. انتهى النزاع عام 1598 مع انسحاب القوات اليابانية من شبه الجزيرة الكورية بعد جمود عسكري في المقاطعات الساحلية الجنوبية في كوريا. في نهاية المطاف كانت النتيجة انتصار جوسون الكورية ومينغ الصينية وطرد اليابان من شبه الجزيرة.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%BA%D8%B2%D9%88_%D8%A7%D9%84%D9%8A%D8%A7%D8%A8%D8%A7%D9%86_%D9%84%D9%83%D9%88%D8%B1%D9%8A%D8%A7_(1592-1598)"
+      },
+      "fr": {
+        "title": "Guerre d'Imjin",
+        "extract": "Les invasions japonaises de la Corée se sont produites entre 1592 et 1598. Ce conflit a opposé la Corée de la dynastie Chosŏn et l'empire chinois au Japon. Il a été causé par le désir du régent Toyotomi Hideyoshi de conquérir la Chine. Cette guerre provoqua une crise financière au sein de la dynastie Ming. La Corée connut des pertes humaines sans précédent et vit s'illustrer l'amiral Yi Sun-sin lors des batailles navales.",
+        "url": "https://fr.wikipedia.org/wiki/Guerre_d'Imjin"
+      },
+      "pt": {
+        "title": "Guerra Imjin",
+        "extract": "A Guerra Imjin foi um conflito armado travado entre 1592 e 1598 na qual se envolveram três países asiáticos: Japão, China e Coreia. O regente japonês Toyotomi Hideyoshi, um dos \"grandes pacificadores do Japão\", decidiu conquistar a China, e solicitou a assistência da dinastia Joseon, assim como livre trânsito através da Península Coreana. Uma vez que a Coreia era um país vassalo da dinastia Ming, tal pedido foi rejeitado. Hideyoshi, então, começou a preparar as tropas e convocou daimyō distintos para a invasão do país, que foi iniciada em 1592.",
+        "url": "https://pt.wikipedia.org/wiki/Guerra_Imjin"
+      }
+    }
+  },
+  "Battle of Chungju": {
+    "pages": {
+      "ko": {
+        "title": "탄금대 전투",
+        "extract": "충주 탄금대 전투(忠州彈琴臺戰鬪)는 1592년 6월 7일 임진왜란 당시 신립이 이끄는 조선군이 충주 탄금대에서 전멸한 전투이다.",
+        "url": "https://ko.wikipedia.org/wiki/%ED%83%84%EA%B8%88%EB%8C%80_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Chungju",
+        "extract": "The Battle of Chungju or the Battle of Tangeumdae was the last battle of the Chungju Campaign fought between the Koreans and Japanese during the Japanese invasion of Korea in 1592. Chungju is located just south of the Han River and Seoul, Korea's capital. The defeat of the Korean forces at Chungju led directly to the capture of the capital of Hanseong by Japanese forces shortly thereafter.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Chungju"
+      },
+      "zh": {
+        "title": "彈琴臺之戰",
+        "extract": "弹琴台之战，又称忠州之战，是第一次朝鲜之役初期的一场战斗，发生在万历二十年/文禄元年（1592年）的阴历四月二十八日。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%BD%88%E7%90%B4%E8%87%BA%E4%B9%8B%E6%88%B0"
+      },
+      "fr": {
+        "title": "Bataille de Chungju",
+        "extract": "La bataille de Chungju ou bataille de Tangeumdae est la dernière bataille de la campagne de Chungju livrée entre les Coréens et les japonais au cours de l'invasion de la Corée par la Japonais en 1592. La ville de Chungju se trouve juste au sud du fleuve Han et de Séoul, la capitale coréenne. L'échec à la défendre conduit à la prise de la capitale quelques semaines plus tard.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Chungju"
+      }
+    }
+  },
+  "Siege of Dongnae": {
+    "pages": {
+      "ko": {
+        "title": "동래성 전투",
+        "extract": "동래성 전투(東萊城戰鬪)는 1592년 5월 25일(음력 4월 15일) 부산진 전투에 이어 일어난 임진왜란 두 번째 전투로 동래 부사 송상현이 2시간을 버티며 일본군을 끝까지 막아냈으나 결국 전사하고 동래성은 함락되었다. 이 전투에 패배로 대구.상주,김해,밀양,성주,충주까지 함락되고 만다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%8F%99%EB%9E%98%EC%84%B1_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Siege of Dongnae",
+        "extract": "The siege of Dongnae was a siege that occurred on May 25, 1592 during the 1592–1598 Japanese invasions of Korea. It resulted in the capture by Japanese forces of Dongnaeeupseong, a mountain fortress on the way to Hanseong (Seoul).",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Dongnae"
+      },
+      "zh": {
+        "title": "東萊城之戰",
+        "extract": "东莱城之战是第一次朝鲜之役初期的一场战斗，发生在万历二十年/天正二十年（1592年）的阴历四月十四。",
+        "url": "https://zh.wikipedia.org/wiki/%E6%9D%B1%E8%90%8A%E5%9F%8E%E4%B9%8B%E6%88%B0"
+      },
+      "fr": {
+        "title": "Siège de Dongrae",
+        "extract": "Le siège de Dongrae est une des premières batailles de la guerre Imjin (1592–1597).",
+        "url": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Dongrae"
+      }
+    }
+  },
+  "Siege of Busanjin": {
+    "pages": {
+      "ko": {
+        "title": "부산진 전투",
+        "extract": "부산진 전투(釜山鎭戰鬪)는 1592년에 발발한 임진왜란 당시 첫 번째 전투이다. 병력, 식량, 무기 등 모든 것이 부족했던 조선군이 패배하고 부산진성은 곧 함락되었다. 부산진성을 점령한 일본군은 동래성으로 진격하였으며, 일부는 남서쪽 다대포진으로 항하였다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%B6%80%EC%82%B0%EC%A7%84_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Siege of Busanjin",
+        "extract": "The siege of Busanjin was a battle fought at Busan on 24 May 1592, between Japanese and Korean forces. The attacks on Busan and the neighboring fort of Dadaejin were the first battles of the Japanese invasions of Korea (1592–98).",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Busanjin"
+      },
+      "zh": {
+        "title": "釜山鎮之戰",
+        "extract": "釜山镇之战是1592年5月24日至25日期间日本入侵朝鲜釜山镇的战斗。釜山镇之战与多大浦之战同时发生，这两场战役标志著壬辰倭乱的开始。",
+        "url": "https://zh.wikipedia.org/wiki/%E9%87%9C%E5%B1%B1%E9%8E%AE%E4%B9%8B%E6%88%B0"
+      },
+      "es": {
+        "title": "Sitio de Busán",
+        "extract": "El sitio de Busan fue una batalla que tuvo lugar en Busan el 24 de mayo de 1592, entre fuerzas coreanas y japonesas. Junto a la de Tadaejin, Busan fue el sitio de la primera batalla de la Guerra Imjin. Esta batalla marcó el comienzo de una larga y terrible guerra en la península de Corea.",
+        "url": "https://es.wikipedia.org/wiki/Sitio_de_Bus%C3%A1n"
+      },
+      "fr": {
+        "title": "Siège de Pusan",
+        "extract": "Le siège de Pusan ou siège de Busan est une bataille qui se tient à Pusan les 13 et 14 avril 1592, entre les forces japonaises et coréennes. Avec Dadaejin, Busan est le site de la première bataille de la guerre Imjin. \nCette bataille marque le début d'une longue guerre sur la péninsule Coréenne.",
+        "url": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Pusan"
+      }
+    }
+  },
+  "Battle of Dadaejin": {
+    "pages": {
+      "ko": {
+        "title": "다대포 전투",
+        "extract": "다대포 전투(多大浦戰鬪)는 1592년 임진왜란 당시 초반에 벌어진 전투로 병력, 식량, 무기 등 모든 것이 부족했던 조선군이 완패하고 다대포성은 함락되었다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%8B%A4%EB%8C%80%ED%8F%AC_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Dadaejin",
+        "extract": "The Battle of Dadaejin and the Siege of Busan were the first battles of the Japanese invasions of Korea (1592–1598) and occurred simultaneously on April 13–14, 1592.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Dadaejin"
+      },
+      "zh": {
+        "title": "多大浦之戰",
+        "extract": "多大浦之战，又称多大镇之战，是1592年5月24日至25日期间日本入侵朝鲜南部多大浦的战斗。多大浦之战与釜山镇之战同时发生，这两场战役标志著壬辰倭乱的开始。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%A4%9A%E5%A4%A7%E6%B5%A6%E4%B9%8B%E6%88%B0"
+      },
+      "fr": {
+        "title": "Bataille de Dadaejin",
+        "extract": "La bataille de Dadaejin, avec le siège de Busan, est une des premières batailles de la guerre Imjin. Toutes deux se déroulent presque simultanément en 1592. Dadaejin est également transcrit « Tadaejin ».",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Dadaejin"
+      }
+    }
+  },
+  "Battle of Okpo": {
+    "pages": {
+      "ko": {
+        "title": "옥포 해전",
+        "extract": "옥포 해전(玉浦海戰)은 1592년(선조 25) 음력 5월 7일(양력 6월 16일), 경상도 거제현 옥포 앞바다에서 이순신이 지휘한 조선 수군이 일본 수군의 도도 다카토라의 함대를 무찌른 해전이다. 이 해전은 충무공 이순신장군이 이룬 전승신화의 첫 승전이다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%98%A5%ED%8F%AC_%ED%95%B4%EC%A0%84"
+      },
+      "en": {
+        "title": "Battle of Okpo",
+        "extract": "The Battle of Okpo was a military engagement which took place during the Japanese invasions of Korea (1592–98), also known as the Imjin War. Korean commanders Yi Sun-sin and Wŏn Kyun's fleet destroyed a group of anchored Japanese transport ships. It was the first naval battle of the Imjin War, and the first victory of Admiral Yi against the Japanese naval fleet of Todo Takatora. A day later, after destroying an additional 18 Japanese transport vessels in nearby waters, Yi Sun-sin and Wŏn Kyun parted ways and returned to their home ports after receiving news of the fall of Hanseong. The Battle of Okpo caused anxiety and nervousness among the Japanese, because afterward Yi began to deploy his navy to attack Japanese supply and carrier vessels.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Okpo"
+      },
+      "zh": {
+        "title": "玉浦海战",
+        "extract": "玉浦海战，是1592年5月7日发生在现今韩国庆尚南道巨济岛玉浦湾的一场海战。此次海战是朝鲜王朝壬辰卫国战争的第一次海战，也是李舜臣将军军事生涯中的第一场胜仗。在巨济市建有纪念此次海战的纪念馆。",
+        "url": "https://zh.wikipedia.org/wiki/%E7%8E%89%E6%B5%A6%E6%B5%B7%E6%88%98"
+      },
+      "es": {
+        "title": "Batalla de Okpo",
+        "extract": "La batalla de Okpo fue una batalla naval que ocurrió durante la guerra Imjin. Tuvo lugar el 16 de junio de 1592 entre una flota naval japonesa y la flota naval coreana frente a la costa de la isla Geojedo. Fue la primera batalla naval de esa guerra, duró 2 días y se saldó con la victoria de la flota coreana.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Okpo"
+      },
+      "fr": {
+        "title": "Bataille d'Okpo",
+        "extract": "La bataille d'Okpo est livrée les 7 et 8 mai 1592 autour du port d'Okpo-dong de l'île de Geoje pendant la guerre Imjin. C'est à la fois la première bataille navale du conflit et la première victoire de l'amiral Yi Sun-sin contre la flotte japonaise de Tōdō Takatora. La bataille de Okpo provoque inquiétude et la nervosité chez les Japonais, car après la rencontre, Yi commence à déployer sa marine pour attaquer leurs navires de ravitaillement et de support.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_d'Okpo"
+      }
+    }
+  },
+  "Battle of Imjin River (1592)": {
+    "pages": {
+      "ko": {
+        "title": "임진강 전투 (1592년)",
+        "extract": "임진강 방어선은 임진왜란 시기이던 1592년 6월 27일 경기도 연천군 임진강 유역에서 조선의 한양 수복 계획 중 하나였으나, 왜군에게 패배하면서, 임진강 방어에 실패하고, 선조가 의주로 파천하는 계기를 맞게되고 훗날 이 패배는 10만 조선 대군이 1600에 일본군에게 패배하는 결과를 낳았다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%9E%84%EC%A7%84%EA%B0%95_%EC%A0%84%ED%88%AC_(1592%EB%85%84)"
+      },
+      "en": {
+        "title": "Battle of Imjin River (1592)",
+        "extract": "The Battle of Imjin River was a battle during the 1592 Japanese invasion of Korea. Kim Myŏngwŏn's northern defense was defeated and the Japanese were able to cross over and invade northern Korea.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Imjin_River_(1592)"
+      },
+      "zh": {
+        "title": "臨津江之戰 (1592年)",
+        "extract": "临津江之战是第一次万历朝鲜之役中的一场战役，发生在万历二十年（1592年）五月十八。",
+        "url": "https://zh.wikipedia.org/wiki/%E8%87%A8%E6%B4%A5%E6%B1%9F%E4%B9%8B%E6%88%B0_(1592%E5%B9%B4)"
+      },
+      "fr": {
+        "title": "Bataille de la rivière Imjin (1592)",
+        "extract": "La bataille de la rivière Imjin est une des batailles de la guerre Imjin. Elle se termine par une victoire des Japonais.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_la_rivi%C3%A8re_Imjin_(1592)"
+      },
+      "pt": {
+        "title": "Batalha do Rio Imjin",
+        "extract": "A Batalha do Rio Imjin foi uma batalha ocorrida durante a invasão japonesa da Coreia (1592-1598), resultando na vitória do Japão.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_do_Rio_Imjin"
+      }
+    }
+  },
+  "Siege of Pyongyang (1592)": {
+    "pages": {
+      "ko": {
+        "title": "제1차 평양성 전투",
+        "extract": "제1차 평양성 전투(第一次平壤城戰鬪) 또는 대동강 전투(大東江戰鬪)는 임진왜란 중의 한 전투이다. 전투의 결과로써 일본군은 공격대상인 평양성을 점령하게 되었다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%A0%9C1%EC%B0%A8_%ED%8F%89%EC%96%91%EC%84%B1_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Siege of Pyongyang (1592)",
+        "extract": "The siege of Pyongyang was part of the Japanese invasions of Korea. Konishi Yukinaga, a Japanese daimyō, captured Pyongyang and garrisoned his force there in the winter of 1592.",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Pyongyang_(1592)"
+      },
+      "zh": {
+        "title": "平壤之戰 (1592年)",
+        "extract": "平壤之战指的是万历朝鲜之役中于1592年发生在平壤附近的战斗。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%B9%B3%E5%A3%A4%E4%B9%8B%E6%88%B0_(1592%E5%B9%B4)"
+      },
+      "fr": {
+        "title": "Siège de Pyongyang (1592)",
+        "extract": "Le siège de Pyongyang de 1592 est un des épisodes des invasions japonaises de la Corée.",
+        "url": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Pyongyang_(1592)"
+      }
+    }
+  },
+  "Battle of Sacheon (1592)": {
+    "pages": {
+      "ko": {
+        "title": "사천 해전",
+        "extract": "사천 해전(泗川海戰)은 1592년 음력 5월 29일 사천에서 일어난 해전이다. 이때 일본 수군 13척이 전멸되었고 거북선이 최초로 실전에 투입되었다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%82%AC%EC%B2%9C_%ED%95%B4%EC%A0%84"
+      },
+      "en": {
+        "title": "Battle of Sacheon (1592)",
+        "extract": "The Battle of Sacheon was a naval engagement on May 29, 1592 during the Imjin War (1592–98). It occurred at Sacheon where Yi Sunsin's fleet managed to destroy 13 large Japanese ships. It was the first battle of Admiral Yi's 2nd Campaign in the Imjin War, between Japan and Korea, when the turtle ship was first used.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Sacheon_(1592)"
+      },
+      "zh": {
+        "title": "泗川海戰",
+        "extract": "泗川海战是万历朝鲜之役中的一场海战，发生于万历二十年（1592年）五月廿九。这场战争中，朝鲜第一次使用龟船，最终击败日军。",
+        "url": "https://zh.wikipedia.org/wiki/%E6%B3%97%E5%B7%9D%E6%B5%B7%E6%88%B0"
+      },
+      "es": {
+        "title": "Batalla de Sacheon",
+        "extract": "La batalla de Sacheon fue una batalla naval que enfrentó el 29 de mayo de 1592, cerca de Sacheon, a una armada coreana de 27 navíos de guerra mandada por el Almirante Yi Sun Sin contra una flota japonesa de 12 barcos. La batalla terminó con victoria coreana y fue la primera que conseguía este país durante las Invasiones japonesas a Corea.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Sacheon"
+      },
+      "fr": {
+        "title": "Bataille de Sacheon (1592)",
+        "extract": "La bataille navale de Sacheon qui se déroule le 29 mai 1592 est la première bataille de la seconde campagne de l'amiral Yi de la guerre Imjin, entre le Japon et la Corée au cours de laquelle un bateau tortue est employé pour la première fois.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Sacheon_(1592)"
+      }
+    }
+  },
+  "Battle of Dangpo (1592)": {
+    "pages": {
+      "ko": {
+        "title": "당포 해전 (1592년)",
+        "extract": "당포 해전(唐浦海戰)은 1592년(선조 25년) 7월 10일(음력 6월 2일) 전라좌수영 및 경상우수영의 연합함대가 지금의 경상남도 통영시 당포 앞바다에서 왜선 21척을 격침시킨 해전이다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%8B%B9%ED%8F%AC_%ED%95%B4%EC%A0%84_(1592%EB%85%84)"
+      },
+      "en": {
+        "title": "Battle of Dangpo (1592)",
+        "extract": "The Battle of Dangpo was a naval engagement during the Japanese invasions of Korea (1592–1598) on 10 July that resulted in Yi Sun-sin's victory.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Dangpo_(1592)"
+      },
+      "zh": {
+        "title": "唐浦海戰",
+        "extract": "唐浦海战是万历朝鲜之役中的海战，发生在万历二十年（1592年）六月初二统营沿岸的唐浦。最后朝鲜战胜。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%94%90%E6%B5%A6%E6%B5%B7%E6%88%B0"
+      },
+      "fr": {
+        "title": "Bataille de Dangpo",
+        "extract": "La bataille de Dangpo est une rencontre entre les forces navales japonaise et coréenne durant les invasions japonaises de la Corée de 1592–1598, qui se conclut par une victoire des Coréens.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Dangpo"
+      }
+    }
+  },
+  "Battle of Pyongyang (1592)": {
+    "pages": {
+      "ko": {
+        "title": "제2차 평양성 전투",
+        "extract": "제2차 평양성 전투(第二次平壤城戰鬪)는 임진왜란 중 발생한 전투이다. 평양성이 함락된 후 의주에 피란하던 선조는 여러 차례 명나라에 사신을 파견해 원군을 요청하였고 명나라 황제 만력제는 요동 부총병이자 당시 명나라에서 이름난 장수였던 조승훈을 우군 부총병으로 임명하고 3000명의 군사를 주어 조선의 명나라 1차 원군으로 파견되게 한다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%A0%9C2%EC%B0%A8_%ED%8F%89%EC%96%91%EC%84%B1_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Pyongyang (1592)",
+        "extract": "The Battle of Pyongyang was a military engagement in 1592, as part of the 1592–1598 Japanese invasions of Korea. On 23 August 1592 a Ming force of 6,000 under Zu Chengxun and Shi Ru attacked Japanese-occupied Pyeongyang and was defeated.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Pyongyang_(1592)"
+      }
+    }
+  },
+  "Siege of Yeongwon": {
+    "pages": {
+      "ko": {
+        "title": "영원산성 전투",
+        "extract": "영원산성 전투(領願山城戰鬪)는 임진왜란 초기 원주 목사 김제갑이 강원도로 쳐들어오는 왜군에 대항해 영원산성에서 벌인 항전으로 군민 모두가 항전하여 시간을 벌었기 때문에 강원도 지역 중 유일하게 원주 백성들만이 무사히 대피할 수 있었다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%98%81%EC%9B%90%EC%82%B0%EC%84%B1_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Siege of Yeongwon",
+        "extract": "The siege of Yeongwon Castle took place in 1592 during the Japanese invasions of Korea. Korean troops resisting the Japanese occupation came under siege in the fortress at Yeongwon, in Wonju. The Japanese forces broke into the castle during the night and defeated the Korean garrison.",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Yeongwon"
+      },
+      "fr": {
+        "title": "Siège de Yeongwon",
+        "extract": "Le siège de Yeongwon du mois d'août 1592 est un des premiers épisodes de la guerre Imjin qui a vu les forces japonaises de Hideyoshi Toyotomi envahir la Corée.",
+        "url": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Yeongwon"
+      }
+    }
+  },
+  "Battle of Hansan Island": {
+    "pages": {
+      "ko": {
+        "title": "한산도 대첩",
+        "extract": "한산도 대첩은 1592년 8월 15일에 발생했다. 조선의 제독 이순신의 함대는 일본 함선 약 100척을 격파하고 일본의 남해안 해상 작전을 저지했다.",
+        "url": "https://ko.wikipedia.org/wiki/%ED%95%9C%EC%82%B0%EB%8F%84_%EB%8C%80%EC%B2%A9"
+      },
+      "en": {
+        "title": "Battle of Hansan Island",
+        "extract": "The Battle of Hansan Island and the following engagement at Angolpo took place on 15 August 1592. In two naval encounters, Korean Admiral Yi Sun-sin's fleet managed to destroy roughly 100 Japanese ships and halted Japanese naval operations along the southern coast.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Hansan_Island"
+      },
+      "zh": {
+        "title": "闲山岛海战",
+        "extract": "闲山岛海战，又称闲山岛大捷，是1592年8月14日朝鲜王朝与日军在闲山岛附近的一场海战。朝鲜将领李舜臣的海军在此次海战中击沉47艘日船。此次海战成为朝鲜壬辰卫国战争中的转折点。",
+        "url": "https://zh.wikipedia.org/wiki/%E9%97%B2%E5%B1%B1%E5%B2%9B%E6%B5%B7%E6%88%98"
+      },
+      "es": {
+        "title": "Batalla de Isla Hansan",
+        "extract": "La batalla de Isla Hansan (한산도) tuvo lugar el 14 de agosto de 1592 entre la flota japonesa al mando del almirante Wakizaka Yasuharu y la flota coreana al mando del almirante Yi Sun Sin en el marco de la invasiones japonesas a Corea (1592-1598) también conocida como guerra Imjin. La batalla terminó con una rotunda victoria coreana.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Isla_Hansan"
+      },
+      "fr": {
+        "title": "Bataille de l'île Hansan",
+        "extract": "La bataille de l'île Hansan, aussi appelée bataille de Hansando, se déroule le 8 juillet 1592 près de l'île coréenne de Hansando. C'est l'une des plus importantes batailles navales de la guerre Imjin et la flotte coréenne de l'amiral Yi Sun-sin y remporte une grande victoire face à la flotte japonaise, dont elle détruit au moins 47 navires et en capture 12. Le succès de Yi dans cette bataille représente un tournant dans la première campagne de Hideyoshi. Cette bataille est aussi la première de la 3e campagne navale de l'amiral Yi.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_l'%C3%AEle_Hansan"
+      }
+    }
+  },
+  "Battle of Cheongju": {
+    "pages": {
+      "ko": {
+        "title": "청주 전투 (1592년)",
+        "extract": "청주 전투(淸州戰鬪) 또는 청주성 전투(淸州城 戰鬪), 청주성 싸움은 임진왜란 당시 최초로 조헌이 이끄는 의병과 영규가 이끄는 승병이 연합하여 전투를 치러 승리한 전투로 이 전투에서 청주성을 탈환했고 이후 제2차 금산 전투로 이어졌다. 지금도 금산에 가면 7백의총과 기념관을 통해 의병들의 애국심과 기개를 느껴볼 수 있다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%B2%AD%EC%A3%BC_%EC%A0%84%ED%88%AC_(1592%EB%85%84)"
+      },
+      "en": {
+        "title": "Battle of Cheongju",
+        "extract": "The Battle of Cheongju was during the Japanese invasions of Korea (1592–98). Cho Hŏn attacked the Japanese-held city of Cheongju and captured it on 6 September 1592.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Cheongju"
+      },
+      "fr": {
+        "title": "Bataille de Chongju",
+        "extract": "La bataille de Chongju est l'une des premières victoires terrestre des Coréens au cours de la guerre Imjin. Elle est par ailleurs remportée par des bénévoles irréguliers coréens qui comprennent en outre des moines guerriers bouddhistes.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Chongju"
+      }
+    }
+  },
+  "Siege of Jinju (1592)": {
+    "pages": {
+      "ko": {
+        "title": "진주대첩",
+        "extract": "진주대첩(晋州大捷)은 임진왜란 당시 진주성에서 조선과 일본 사이에 벌어진 전투로, 조선군의 승리로 끝났다. 도요토미 히데요시는 남도를 장악할 본거지이자 전라도 침입의 교두보 역할을 해낼 요충지가 바로 진주성이라고 간주하고 공략을 명령했다. 1592년 11월 7일(음력 10월 4일) 일본군은 군사 3만명을 이끌고 진주성을 포위하였다. 성내에는 진주 목사 김시민을 위시한 관군 3,800여 명과 백성이 합세해 결전을 준비했고, 성외에서는 곽재우가 이끄는 경상도 의병들이 일본군을 배후에서 견제하고 있었다. 하루 간의 전투 끝에 일본군은 진주성을 함락하지 못하고 군을 물렸으며, 전투 과정에서 조선군과 일본군에 큰 피해가 발생했다. 이 전투로 일본군이 호남 지방을 점령하지 못하면서 전체적인 계획에 차질을 빚게 되었다. 오늘날 대한민국에서는 한산도 대첩, 행주대첩과 함께 진주대첩을 임진왜란 3대첩으로 부르며 기리고 있고, 전투를 승리로 이끈 김시민은 사후에 충무공으로 추존되었다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%A7%84%EC%A3%BC%EB%8C%80%EC%B2%A9"
+      },
+      "en": {
+        "title": "Siege of Jinju (1592)",
+        "extract": "The first siege of Jinju was one of the major land battles during the Imjin War – the first occurred during the fall of 1592, and the second one in spring of 1593. The siege ended in a Korean victory and prevented the Japanese advance into Southwestern Korea. It was followed up by the second siege of Jinju the next year.",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Jinju_(1592)"
+      },
+      "zh": {
+        "title": "第一次晉州城之戰",
+        "extract": "第一次晋州城之战，又称晋州大捷，是第一次朝鲜之役中的一场战斗，发生在万历二十年/文禄元年（1592年）的阴历十月五日至十日。在这次战斗中，朝鲜军第一次装备了仿制的火绳枪。",
+        "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%99%89%E5%B7%9E%E5%9F%8E%E4%B9%8B%E6%88%B0"
+      },
+      "fr": {
+        "title": "Siège de Jinju (1592)",
+        "extract": "Le siège de Jinju de 1592 est le premier siège que connaît la ville de Jinju durant la guerre d'Imjin, avant le second en 1593. Tandis qu'en 1592, les Coréens remportent la victoire, en 1593 ce sont les Japonais qui s'emparent de la ville.",
+        "url": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Jinju_(1592)"
+      }
+    }
+  },
+  "Siege of Pyongyang (1593)": {
+    "pages": {
+      "ko": {
+        "title": "제4차 평양성 전투",
+        "extract": "평양성 포위전은 명나라-조선 연합군과 고니시 유키나가 휘하 일본 제1 사단이 싸운 군사적 충돌이었다. 이 전투는 연합군의 승리로 끝났지만, 1593년 2월 8일 밤 잔여 일본군은 평양시에서 성공적으로 퇴각했다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%A0%9C4%EC%B0%A8_%ED%8F%89%EC%96%91%EC%84%B1_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Siege of Pyongyang (1593)",
+        "extract": "The siege of Pyongyang was a military conflict fought between the allied Ming-Joseon army and the Japanese First Division under Konishi Yukinaga, who were besieged in the city of Pyongyang. The battle ended in victory for the allies although remnants of the Japanese forces successfully escaped from the city in the night of 8 February 1593.",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Pyongyang_(1593)"
+      },
+      "zh": {
+        "title": "平壤之战 (1593年)",
+        "extract": "平壤之战，又称第四次平壤城战斗，1593年（明神宗万历二十一年、朝鲜宣祖二十六年、日本后阳成天皇文禄二年）正月，万历朝鲜之役中，中国明朝、朝鲜王朝联军击败日军，收复平壤的作战。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%B9%B3%E5%A3%A4%E4%B9%8B%E6%88%98_(1593%E5%B9%B4)"
+      },
+      "fr": {
+        "title": "Siège de Pyongyang (1593)",
+        "extract": "Le siège de Pyongyang de 1593 est une bataille qui oppose l'alliance des Ming chinois et des Coréens Joseon aux forces japonaises lors de l'invasion japonaise de la Corée à la fin du XVIe siècle.",
+        "url": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Pyongyang_(1593)"
+      },
+      "pt": {
+        "title": "Cerco de Pyongyang (1593)",
+        "extract": "O Cerco de Pyongyang foi um conflito militar travado entre o exército aliado Ming - Joseon e a Primeira Divisão Japonesa sob o comando de Konishi Yukinaga. A batalha terminou com a vitória dos aliados, mas uma retirada bem-sucedida de Pyeongyang pelos japoneses remanescentes na noite de 8 de fevereiro de 1593.",
+        "url": "https://pt.wikipedia.org/wiki/Cerco_de_Pyongyang_(1593)"
+      }
+    }
+  },
+  "Battle of Haengju": {
+    "pages": {
+      "ko": {
+        "title": "행주대첩",
+        "extract": "행주대첩(幸州大捷)은 임진왜란 때 행주산성에서 권율이 지휘하는 조선군과 백성들이 일본군과 싸워 크게 이긴 전투이다.",
+        "url": "https://ko.wikipedia.org/wiki/%ED%96%89%EC%A3%BC%EB%8C%80%EC%B2%A9"
+      },
+      "en": {
+        "title": "Battle of Haengju",
+        "extract": "The Battle of Haengju took place on 14 March 1593 during the 1592–1598 Japanese invasion of Korea. The Japanese attack failed to overcome the fortress Haengjusanseong.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Haengju"
+      },
+      "zh": {
+        "title": "幸州山城之戰",
+        "extract": "幸州山城之战，又称幸州大捷，是第一次万历朝鲜之役中的一场战斗，地点位于朝鲜半岛的幸州山城，发生在万历二十一年/文禄二年（1593年）的阴历二月十二日。这场战斗的结果是朝鲜胜利，此战和晋州大捷与闲山岛大捷并称为壬辰卫国战争中的三大捷。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%B9%B8%E5%B7%9E%E5%B1%B1%E5%9F%8E%E4%B9%8B%E6%88%B0"
+      },
+      "fr": {
+        "title": "Siège de Haengju",
+        "extract": "Le siège de Haengju a lieu le 14 mars 1593 durant la première invasion japonaise de la Corée (1592–1598). Environ 3 000 défenseurs coréens dirigés par le général Kwon Yul (en) repoussent avec succès plus de 10 000 soldats japonais. Avec le siège de Jinju et la bataille de l'île Hansan, cet engagement est considéré comme la plus grande victoire coréenne au cours des sept années de guerre.",
+        "url": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Haengju"
+      },
+      "pt": {
+        "title": "Batalha de Haengju",
+        "extract": "A Batalha de Haengju ocorreu em 14 de março de 1593 durante a invasão japonesa da Coreia de 1592–1598. O ataque japonês não conseguiu superar a fortaleza de Haengju.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Haengju"
+      }
+    }
+  },
+  "Siege of Jinju (1593)": {
+    "pages": {
+      "ko": {
+        "title": "제2차 진주성 전투",
+        "extract": "제2차 진주성 전투(第二次晋州城戰鬪)는 1593년 7월 20일(음력 6월 22일)부터 같은 달 27일(음력 6월 29일)까지 진주성에서 벌어진 전투이다. 1593년 전쟁이 휴전기로 접어들면서 명나라와 일본 사이에 강화회담이 있었는데 그 결과 일본군은 북부 및 수도권 지역에서 철수, 남해안까지 물러나게 된다. 도요토미 히데요시는 그 과정에서 일본군 전군에 진주성을 공격할 것을 명령한다. 이는 강화협상을 위한 무력시위의 성격을 가지고 있었고, 또한 침략 첫 해에 가장 큰 패배를 당했던(제1차 진주성 전투) 진주성에 대한 보복의 성격도 가지고 있었다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%A0%9C2%EC%B0%A8_%EC%A7%84%EC%A3%BC%EC%84%B1_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Siege of Jinju (1593)",
+        "extract": "The second siege of Jinju was a battle fought on 1593 at Jinju Fortress during the Imjin War. It occurred from 20 July to 27 July and ended in the massacre of the entire garrison and a substantial portion of the population. The Second Battle of Jinju became the origin of the Uwajima Ushi-oni Festival in Uwajima, Ehime Prefecture, Japan.",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Jinju_(1593)"
+      },
+      "zh": {
+        "title": "第二次晉州城之戰",
+        "extract": "第二次晋州城之战是第一次万历朝鲜之役中的一场战斗，地点在朝鲜半岛的晋州城，发生在万历二十一年/文禄二年（1593年）的阴历六月廿一日至廿九日。这场战斗的结果是日军胜利，朝鲜几乎全军覆没。",
+        "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E6%99%89%E5%B7%9E%E5%9F%8E%E4%B9%8B%E6%88%B0"
+      },
+      "fr": {
+        "title": "Siège de Jinju (1593)",
+        "extract": "Le second siège de Jinju est une bataille de l'invasion de la Corée menée par le daimyo Toyotomi Hideyoshi en 1593 au château de Jinju. Contrairement au premier siège de Jinju, cette bataille se termine par une victoire des Japonais. Les Coréens défendent le château désespérément avec diverses armes, dont des arcs, des armes de poing, des canons de la classe « noirs », des coups de feu tirés à partir d'explosifs de mortiers, tuant de nombreux soldats japonais et détruisant des tours et des palissades de bambou. Les Coréens résistent pendant dix jours, jusqu'à ce qu'un pan de mur soit ébranlé par les sapeurs japonais cachés dans un panier blindé appelé « panier écaille de tortue », à l'origine du festival Uwajima Ushi-oni (en). La forteresse est finalement prise et le commandant de la garnison, Hwang Jin (en), tous ses défenseurs et des civils sont tués.",
+        "url": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Jinju_(1593)"
+      }
+    }
+  },
+  "Battle of Chilcheollyang": {
+    "pages": {
+      "ko": {
+        "title": "칠천량 해전",
+        "extract": "칠천량 해전(漆川梁海戰)은 1597년(선조 30년) 8월 27일 칠천도 부근에서 벌어진 해전으로 이 전투에서 삼도수군통제사 원균 등이 도주 중 전사하며. 칠천량 해전의 패배로 조선수군은 대부분 궤멸된다 이 전투는 한국사 5대 패전 중 하나이다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%B9%A0%EC%B2%9C%EB%9F%89_%ED%95%B4%EC%A0%84"
+      },
+      "en": {
+        "title": "Battle of Chilcheollyang",
+        "extract": "The Battle of Chilcheollyang was a naval engagement fought during the night of 28 August 1597, as part of the Imjin War. In this battle, the Japanese fleet decisively defeated the Joseon navy, destroying nearly the entire Korean fleet.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Chilcheollyang"
+      },
+      "zh": {
+        "title": "漆川梁海戰",
+        "extract": "漆川梁海战是发生在1597年8月27日万历朝鲜战争期间，巨济岛海域的一场海战，交战双方为日本水军与朝鲜水师，最后朝鲜水师覆没。",
+        "url": "https://zh.wikipedia.org/wiki/%E6%BC%86%E5%B7%9D%E6%A2%81%E6%B5%B7%E6%88%B0"
+      },
+      "es": {
+        "title": "Batalla de Chilchonnyang",
+        "extract": "La batalla de Chilchonnyang (jap. 漆川梁海戦, Shitsusenryō kaisen, kor. 칠천량해전, McCune-Reischauer: Ch‘ilch‘ŏnnyang haejŏn, romanización revisada: Chilcheonryang haejeon) tuvo lugar entre el 28 de agosto de 1597 durante la segunda invasión japonesa de Corea en Chilchonnyang, un angosto estrecho cerca de la isla Geoje.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Chilchonnyang"
+      },
+      "fr": {
+        "title": "Bataille de Chilchonryang",
+        "extract": "La bataille de Chilchonryang se déroule le 15 juillet 1597 pendant la guerre Imjin. Après que l'amiral coréen Yi Sun-sin, craignant à juste titre un piège, a refusé d'attaquer la flotte japonaise, il est démis de ses fonctions et remplacé par l'amiral Won Gyun. Celui-ci emmène la flotte coréenne à la rencontre de l'ennemi et attaque une flotte japonaise bien supérieure en nombre près de Pusan. La bataille est un désastre total pour les Coréens qui perdent la quasi-totalité de leur flotte. Yi Sun-sin est alors rétabli à son poste et remporte quelques mois plus tard la bataille de Myong-Yang.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Chilchonryang"
+      },
+      "pt": {
+        "title": "Batalha de Chilcheollyang",
+        "extract": "A batalha naval de Chilcheollyang ocorreu na noite de 28 de agosto de 1597. Isso resultou na destruição de quase toda a frota coreana.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Chilcheollyang"
+      }
+    }
+  },
+  "Siege of Namwon": {
+    "pages": {
+      "ko": {
+        "title": "남원 전투",
+        "extract": "남원 전투(南原戰鬪) 또는 남원성 전투(南原城戰鬪)는 1597년(선조 30년) 정유재란 당시 일본군이 전라도 남원성을 공격해 조명연합군과 벌인 전투로, 조명연합군뿐만 아니라 각지의 의병장들과 군민들까지 합세해 전투를 치렀으나 결국 패배해 모두 살해당하고 지휘관 이복남은 자결하였다. 남원에 함락은 훗날 황석산성에 비극으로 이어진다. 그 뿐만 아니라 전주성까지 함락되는 비극이 이어진다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%82%A8%EC%9B%90_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Siege of Namwon",
+        "extract": "The siege of Namwon was a military engagement that occurred from 23 September to 26 September 1597. It ended in Japanese victory.",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Namwon"
+      },
+      "zh": {
+        "title": "南原之戰",
+        "extract": "南原之战是第二次万历朝鲜之役中于1597年8月12日至8月15日（即万历二十五年七月廿三至七月廿六）发生在南原城的战斗。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%8D%97%E5%8E%9F%E4%B9%8B%E6%88%B0"
+      },
+      "fr": {
+        "title": "Siège de Namwon",
+        "extract": "Le siège de Namwon est une bataille de la guerre Imjin (1592-1598). Les armées de samouraïs japonais ont envahi la péninsule Coréenne et à l'été 1597 assiègent la ville de Namwon, défendue par une garnison combinée de Coréens et de troupes chinoises Ming. Les défenseurs sont en nombre inférieur et après de violents combats, le général chinois entame des négociations secrètes avec le commandant japonais. En échange d'un passage sûr pour lui et ses hommes, il laissera une porte ouverte et sans défense. Les deux parties honorent leur engagement. Les Chinois sont autorisés à se retirer tandis que les forces japonaises envahissent la ville. Les Coréens se battent mais sont tous tués, à l'exception d'un survivant.",
+        "url": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Namwon"
+      }
+    }
+  },
+  "Battle of Jiksan": {
+    "pages": {
+      "ko": {
+        "title": "직산 전투",
+        "extract": "직산 전투는 정유재란 기간 중 1597년 10월 16일 명나라와 일본군 사이에 벌어진 군사적 충돌이다. 이 전투는 양측 모두의 철수로 끝났다. 이 전투에서 일본군은 한성에 가장 가까이 도달했다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%A7%81%EC%82%B0_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Jiksan",
+        "extract": "The Battle of Jiksan was a military conflict fought between Ming and Japanese forces on 16 October 1597. It resulted in withdrawal by both sides. However the battle marked the furthest point the Japanese ever got to reaching Hanseong during the Second Invasion.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Jiksan"
+      },
+      "zh": {
+        "title": "稷山之戰",
+        "extract": "稷山之战是第二次万历朝鲜之役中于1597年10月17日（万历二十五年九月初七）发生的一场战斗。",
+        "url": "https://zh.wikipedia.org/wiki/%E7%A8%B7%E5%B1%B1%E4%B9%8B%E6%88%B0"
+      },
+      "fr": {
+        "title": "Bataille de Jiksan",
+        "extract": "La bataille de Jiksan du 7 septembre 1597 est une des batailles de la guerre Imjin, livrée par les forces Ming contre les envahisseurs japonais.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Jiksan"
+      }
+    }
+  },
+  "Battle of Myeongnyang": {
+    "pages": {
+      "ko": {
+        "title": "명량 해전",
+        "extract": "명량 해전(鳴梁海戰) 또는 명량 대첩(鳴梁大捷)은 1597년(선조 30) 음력 9월 16일(양력 10월 26일) 정유재란 당시 조선 수군이 이순신 장군의 지휘 아래 일본 수군의 대규모 함대를 상대로 승리를 거둔 전투이다. 조선은 삼도수군통제사였던 이순신이 모함으로 파직되고 원균이 지휘를 맡아 칠천량 해전에서 대패하면서 제해권을 상실한 상태였다. 이에 선조는 이순신을 다시 삼도수군통제사로 임명했으나, 계급을 낮춰 지휘 체계의 혼란이 발생하였다. 당시 조선 수군은 전선이 12척에 불과했으나, 이순신은 “아직도 전선 12척이 남아 있나이다”라는 결의로 수군 재건에 힘썼다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%AA%85%EB%9F%89_%ED%95%B4%EC%A0%84"
+      },
+      "en": {
+        "title": "Battle of Myeongnyang",
+        "extract": "The Battle of Myeongnyang was fought on October 26, 1597 between the Joseon Navy led by Admiral Yi Sun-sin and the Japanese navy in the Myeongnyang Strait, near Jindo Island, off the southwest corner of the Korean Peninsula. With only 13 ships remaining from Admiral Wŏn Kyun's disastrous defeat at the Battle of Chilcheollyang, Admiral Yi held the strait as a \"last stand\" battle against the Japanese navy, who were sailing to support their land army's advance towards the Joseon capital of Hanyang.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Myeongnyang"
+      },
+      "zh": {
+        "title": "鸣梁海战",
+        "extract": "鸣梁海战，又称鸣梁大捷，是公元1597年10月26日朝鲜王朝名将李舜臣与入侵的日本丰臣政权在朝鲜半岛鸣梁海峡的一场海战。李舜臣将军利用鸣梁海峡的特殊地理特征在此以十二艘板屋船为主力，击退日舰三百三十余艘，创下世界海战史上的一个奇迹。",
+        "url": "https://zh.wikipedia.org/wiki/%E9%B8%A3%E6%A2%81%E6%B5%B7%E6%88%98"
+      },
+      "es": {
+        "title": "Batalla de Myeongnyang",
+        "extract": "En la batalla de Myeongnyang, que tuvo lugar el 26 de octubre de 1597, la armada coreana, dirigida por el almirante Yi Sun-sin, derrotó a la flota japonesa en el estrecho de Myeongnyang, cerca de la isla Chin-do, en el extremo sudoeste de la península de Corea.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Myeongnyang"
+      },
+      "ar": {
+        "title": "معركة ميونغنيانغ",
+        "extract": "معركة ميونغنيانغ ، في 26 أكتوبر 1597، انتصر اسطول مملكة جوسون الكورية البحري، بقيادة الأدميرال يي سون شين، على الأسطول الضخم الياباني في مضيق ميونغنيانغ بالقرب من جزيرة جيندو، قبالة جنوب غرب شبه الجزيرة الكورية.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D9%85%D9%8A%D9%88%D9%86%D8%BA%D9%86%D9%8A%D8%A7%D9%86%D8%BA"
+      },
+      "fr": {
+        "title": "Bataille de Myong-Yang",
+        "extract": "La bataille de Myong-Yang est une bataille navale de la guerre Imjin ayant opposé les marines japonaise et coréenne le 26 octobre 1597 dans le détroit de Myong-Yang. La flotte coréenne commandée par l'amiral Yi Sun-sin remporta une victoire décisive malgré sa forte infériorité numérique. Elle ne disposait que de 13 navires face à 333 navires japonais dont 133 navires de guerre.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Myong-Yang"
+      },
+      "pt": {
+        "title": "Batalha de Myeongnyang",
+        "extract": "A Batalha de Myeongnyang, travada em 26 de outubro de 1597, foi uma importante batalha naval travada entre a marinha do Reino de Joseon, liderada pelo almirante Yi Sun-sin, e a frota japonesa no estreito de Myeongnyang, na costa da Península Coreana do Mar Amarelo, próximo à Ilha Jindo. Terminou como uma importante vitória para os coreanos.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Myeongnyang"
+      }
+    }
+  },
+  "Siege of Suncheon": {
+    "pages": {
+      "ko": {
+        "title": "왜교성 전투",
+        "extract": "왜교성 전투(倭橋城戰鬪)는 정유재란에 벌어진 조명연합군과 일본군이 격전한 전투며 이 전투에 패배는 훗날 7년의 전쟁을 끝내는 계기로 이어진다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%99%9C%EA%B5%90%EC%84%B1_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Siege of Suncheon",
+        "extract": "The siege of Suncheon or siege of Japanese fortress was an unsuccessful Korean and Chinese Allied Forces attempt to capture Suncheon Japanese Castle late in the Japanese invasions of Korea (1592–1598).",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Suncheon"
+      },
+      "zh": {
+        "title": "順天城之戰",
+        "extract": "顺天城之战，又称倭桥城之战，是明、朝联军发动的攻打顺天倭城（遗址位于今全罗南道顺天市）的战役。",
+        "url": "https://zh.wikipedia.org/wiki/%E9%A0%86%E5%A4%A9%E5%9F%8E%E4%B9%8B%E6%88%B0"
+      },
+      "fr": {
+        "title": "Siège de Suncheon",
+        "extract": "Le siège de Suncheon est une tentative infructueuse des forces alliées coréennes et chinoises de s'emparer du château japonais de Suncheon à la fin de la guerre Imjin.",
+        "url": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Suncheon"
+      }
+    }
+  },
+  "Battle of Sacheon (1598)": {
+    "pages": {
+      "ko": {
+        "title": "사천성 전투",
+        "extract": "사천성 전투(泗川城戰鬪)는 1598년 10월, 조선 경상도 사천 사천선진리성에서 시마즈 요시히로(島津義弘)가 인솔하는 일본군 7천 명이 약 4만 명의 조명연합군과 싸워 승리한 전투이다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%82%AC%EC%B2%9C%EC%84%B1_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Sacheon (1598)",
+        "extract": "The Battle of Sacheon (泗川) was a siege by Korean and Chinese forces against the Japanese fortification of Sacheon from 28 to 29 September 1598, during Toyotomi Hideyoshi's invasions of Korea.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Sacheon_(1598)"
+      },
+      "zh": {
+        "title": "泗川之戰",
+        "extract": "泗川之战是万历朝鲜之役中的一场战役，1598年10月，明将董一元率领3万大军攻击由岛津义弘防守的泗川城，爆发了泗川之战。",
+        "url": "https://zh.wikipedia.org/wiki/%E6%B3%97%E5%B7%9D%E4%B9%8B%E6%88%B0"
+      },
+      "fr": {
+        "title": "Siège de Sacheon (1598)",
+        "extract": "Le siège de Sacheon (泗川) de 1598 est un siège des fortifications japonaise de Sacheon par les forces chinoises et coréennes les 28 et 29 septembre 1598, au cours des invasions de la Corée par Toyotomi Hideyoshi. Les Japonais sont en mesure de résister au siège et, en raison d'une explosion fortuite d'un magasin de poudre de l'unité d'artillerie chinoise, attaquent et repoussent l'armée chinoise et coréenne. Il existe des versions contradictoires relativement au nombre d'hommes engagés et au nombre de tués, mais tous les témoignages concordent selon lesquels la garnison japonaise est en forte infériorité numérique et sort vainqueur.",
+        "url": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Sacheon_(1598)"
+      }
+    }
+  },
+  "Battle of Noryang": {
+    "pages": {
+      "ko": {
+        "title": "노량 해전",
+        "extract": "노량 해전(露梁海戰)은 정유재란 당시 1598년 12월 16일(선조 31년 음력 11월 19일) 이순신을 포함한 조명 연합수군이 경상우도 남해현 노량해협에서 일본의 함대와 싸운 전투이다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%85%B8%EB%9F%89_%ED%95%B4%EC%A0%84"
+      },
+      "en": {
+        "title": "Battle of Noryang",
+        "extract": "The Battle of Noryang, the last major battle of the Japanese invasions of Korea (1592–1598), was fought between the Japanese navy and the combined fleets of the Joseon Kingdom and the Ming dynasty. It took place in the early morning of 16 December 1598 and ended past dawn.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Noryang"
+      },
+      "zh": {
+        "title": "露梁海戰",
+        "extract": "露梁海战是一场于1598年12月16日在朝鲜半岛东南外海露梁海域展开的海战。参战双方为明朝与朝鲜王朝的联军，以及当时征伐朝鲜的日本丰臣政权军队。这场战役发生在朝鲜之役（朝鲜称“壬辰祖国战争”）第二回合冲突（日本称“庆长之役”）的后期。此次海战明朝和朝鲜王朝的军队联手阻击日军，终结丰臣秀吉的侵略计画，影响战后朝鲜半岛200年的和平局面。",
+        "url": "https://zh.wikipedia.org/wiki/%E9%9C%B2%E6%A2%81%E6%B5%B7%E6%88%B0"
+      },
+      "es": {
+        "title": "Batalla de Noryang",
+        "extract": "La batalla de Noryang, la última gran batalla de las Invasiones japonesas de Corea (1592-1598), se libró entre la marina japonesa y la combinación de flotas del Reino Joseon y la Dinastía Ming. Tuvo lugar en la madrugada del 16 de diciembre de 1598 y terminó pasada la mañana.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Noryang"
+      },
+      "ar": {
+        "title": "معركة نوريانغ",
+        "extract": "معركة نوريانغ، المعركة الكبرى الأخيرة للغزوات اليابانية لكوريا (1592-1598) بين البحرية اليابانية والأساطيل المشتركة لمملكة جوسون وسلالة مينغ في الصين. حدث ذلك في الصباح الباكر من يوم 16 كانون الأول 1598، وانتهى في الفجر التالي.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D9%86%D9%88%D8%B1%D9%8A%D8%A7%D9%86%D8%BA"
+      },
+      "fr": {
+        "title": "Bataille de No Ryang",
+        "extract": "La bataille navale de No Ryang est la dernière bataille de la guerre d'Imjin, qui oppose la Corée de la dynastie Chosŏn et la Chine de la dynastie Ming à l'Empire japonais de Hideyoshi Toyotomi de 1592 à 1598. Les flottes belligérantes sont menées, du côté sino-coréen, par l'amiral Yi Sun-sin et par le Chinois Chen Lin, tandis que, du côté japonais, Shimazu Yoshihiro est le commandant de la flotte.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_No_Ryang"
+      },
+      "pt": {
+        "title": "Batalha de Noryang",
+        "extract": "A Batalha de Noryang, a última grande batalha das invasões japonesas da Coreia (1592-1598), foi travada entre a marinha japonesa e as frotas combinadas do Reino Joseon e da dinastia Ming. Ocorreu na madrugada de 16 de dezembro de 1598 e terminou após a madrugada.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Noryang"
+      }
+    }
+  },
+  "Second siege of Ulsan": {
+    "pages": {
+      "en": {
+        "title": "Second siege of Ulsan",
+        "extract": "The allied army, number 29,500 men, laid siege to Tosan near Ulsan in late October. The fortress was too heavily fortified to attempt an assault, however a series of engagements did occur around the area, resulting in more than 2,000 Japanese casualties. Allied forces lifted the siege on 2 November, and Katō Kiyomasa's men departed for Japan shortly afterward. Hachisuka Iemasa and Kuroda Yoshitaka were reported by Nagataka Fukuhara for not pursuing the allied army, which incurred the wrath of Toyotomi Hideyoshi.",
+        "url": "https://en.wikipedia.org/wiki/Second_siege_of_Ulsan"
+      }
+    }
+  },
+  "Battle of Sangju (1592)": {
+    "pages": {
+      "ko": {
+        "title": "상주 전투 (1592년)",
+        "extract": "상주성 전투(尙州城 戰鬪) 혹은 상주 전투(尙州 戰鬪)는 임진왜란 초기 순변사 이일이 상주에서 군사를 모아 일본군과 싸웠으나 패배한 전투로 이후 상주 함락은 충주까지 무너지는 결과를 맞이한다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%83%81%EC%A3%BC_%EC%A0%84%ED%88%AC_(1592%EB%85%84)"
+      },
+      "en": {
+        "title": "Battle of Sangju (1592)",
+        "extract": "The Battle of Sangju was a battle during the Japanese invasions of Korea (1592–98). After capturing Busan and Dongnae, the Japanese army under Konishi Yukinaga advanced at a rapid rate of almost 20 kilometres (12 mi) per day towards the Joseon capital of Hanseong.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Sangju_(1592)"
+      },
+      "zh": {
+        "title": "尚州之戰",
+        "extract": "尚州之战是第一次朝鲜之役初期的一场战斗，发生在万历二十年/天正二十年（1592年）的阴历四月廿四。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%B0%9A%E5%B7%9E%E4%B9%8B%E6%88%B0"
+      },
+      "fr": {
+        "title": "Bataille de Sangju (1592)",
+        "extract": "La bataille de Sangju est l'une des premières batailles de la première phase des invasions japonaises de la Corée. Les Coréens tentent d'arrêter l'invasion japonaise et d'empêcher le siège du fort Ch'ungju. Cependant, le niveau technique supérieur des forces japonaises, en particulier les arquebuses, s'avère décisif. Comme la plupart des généraux coréens au début de la guerre, Yi Il commande mal. Les Japonais sont victorieux et poussent vers Chungju.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Sangju_(1592)"
+      }
+    }
+  },
+  "Battle of Jeokjinpo": {
+    "pages": {
+      "ko": {
+        "title": "적진포 해전",
+        "extract": "적진포 해전(赤珍浦海戰)은 옥포 해전과 합포 해전이 있은 그 다음날인 1592년 6월 17일(선조 25년 음력 5월 8일)에 발생했다. 전날의 여세를 몰아 조선 수군은 고성의 적진포에 정박 중이던 일본군 함대를 공격하여 모두 11척을 격침시켰다. 이순신의 1차 출정은 적진포 해전으로 마감하고 다시 본영으로 복귀한다. 이때에는 아직 거북선은 전투에 참여하지 않았다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%A0%81%EC%A7%84%ED%8F%AC_%ED%95%B4%EC%A0%84"
+      },
+      "en": {
+        "title": "Battle of Jeokjinpo",
+        "extract": "The Battle of Jeokjinpo was fought on 8 May 1592. After the Battle of Happo, further reports of an additional 13 Japanese ships prevented Yi Sun-sin and his fleet from resting long on the morning of 8 May. Admiral Yi once again ordered his fleet to pursue the Japanese in the direction of Jinhae. The Korean forces caught up with the Japanese ships at Jeokjinpo. The Koreans easily sank 11 Japanese warships.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Jeokjinpo"
+      },
+      "fr": {
+        "title": "Bataille de Jeokjinpo",
+        "extract": "La bataille de Jeokjinpo a eu lieu en 1592.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Jeokjinpo"
+      }
+    }
+  },
+  "Battle of Danghangpo": {
+    "pages": {
+      "ko": {
+        "title": "당항포 해전",
+        "extract": "당항포 해전(唐項浦海戰)은 1592년 음력 6월 5일(양력 7월 13일)에 이순신이 지휘하는 삼도수군 연합함대가 고성의 당황리 앞바다 당항포에서 왜군을 격파한 해전이다. 유인작전으로 먼 바다로 끌어내어 싸웠다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%8B%B9%ED%95%AD%ED%8F%AC_%ED%95%B4%EC%A0%84"
+      },
+      "en": {
+        "title": "Battle of Danghangpo",
+        "extract": "The Battle of Danghangpo was a naval engagement during the Japanese invasions of Korea (1592–98) that resulted in Korean victory.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Danghangpo"
+      },
+      "zh": {
+        "title": "唐項浦海戰",
+        "extract": "唐项浦海战，又称固城海战，是万历朝鲜之役中的海战，发生在万历二十年（1592年）六月初五固城沿岸的唐项浦。最后朝鲜战胜。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%94%90%E9%A0%85%E6%B5%A6%E6%B5%B7%E6%88%B0"
+      },
+      "fr": {
+        "title": "Bataille de Danghangpo",
+        "extract": "La bataille de Danghangpo est une bataille durant la guerre Imjin (1592-1598) entre les forces navales coréennes et japonaises.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Danghangpo"
+      }
+    }
+  },
+  "Battle of Busan": {
+    "pages": {
+      "ko": {
+        "title": "부산포 해전",
+        "extract": "부산포 해전(釜山浦海戰)은 1592년 10월 5일(음력 9월 1일), 부산포에 정박한 일본군 함대와 대립한 전투이다. 이 전투에서 녹도만호 정운이 전사하였고, 일본군은 100여 척의 함선을 잃었다. 이 전투 후 일본군은 더 이상 적극적인 해상 작전에 나서지 않았다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%B6%80%EC%82%B0%ED%8F%AC_%ED%95%B4%EC%A0%84"
+      },
+      "en": {
+        "title": "Battle of Busan",
+        "extract": "The Battle of Busan, also called Battle of Pusanpo or Battle of Busan Bay, was a 1592 naval bombardment of anchored Japanese ships at Busan. Korean admiral Yi Sun-sin managed to destroy over 100 Japanese ships and retreated with minimal casualties. It was a naval engagement that took place on the 1st day, 9th month of 1592 during the first phase of the Japanese invasions of Korea. It was a Korean surprise attack on the fleet of Toyotomi Hideyoshi stationed at Busan, and its main objective was to recapture Busan, which would thoroughly cutoff the supply line of the Japanese army. In this battle, officer Chŏng Un and six soldiers died, the Japanese lost over 100 ships, and the Japanese military lost control of the seas around the Joseon.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Busan"
+      },
+      "zh": {
+        "title": "釜山浦海戰",
+        "extract": "釜山浦海战，又称釜山海战或釜山湾海战，是1592年在釜山对停泊中的日本舰队发动的一次海上炮击行动。朝鲜海军统帅[李舜臣]]在此役中击沉、击毁了一百多艘日本船只，并以极小的伤亡安全撤离。 这是一场海战，发生于1592年九月初一，属于万历朝鲜之役第一阶段。此次战斗是朝鲜方面对驻扎在釜山的豊臣秀吉舰队发动的突袭，其主要目标是夺回釜山，从而彻底切断日本军队的补给线。战斗中，军官及六名士兵阵亡；日方损失一百余艘舰船，并丧失了对朝鲜沿海海域的制海权。",
+        "url": "https://zh.wikipedia.org/wiki/%E9%87%9C%E5%B1%B1%E6%B5%A6%E6%B5%B7%E6%88%B0"
+      },
+      "fr": {
+        "title": "Bataille de Pusan",
+        "extract": "La bataille de Pusan ou bataille de Busan de 1592 est un engagement naval qui se déroule le 1er septembre 1592 durant la première phase de la guerre Imjin. Il s'agit d'une attaque surprise des Coréens sur la flotte de Toyotomi Hideyoshi stationnée à Busan, et son objectif principal est de reprendre la ville de Busan pour Joseon, ce qui conduit à une coupure complète de la ligne d'approvisionnement des forces japonaises. Au cours de cette bataille, l'officier Woon et six marins trouvent la mort. Finalement les Japonais conservent le contrôle de Busan ainsi que le contrôle de la voie maritime du Japon à Busan. L'occupation de Busan par les forces japonaises se poursuit jusqu'en novembre 1597, lorsque le retrait de celles-ci se termine en raison de la mort de Hideyoshi.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Pusan"
+      }
+    }
+  },
+  "Battle of Byeokjegwan": {
+    "pages": {
+      "ko": {
+        "title": "벽제관 전투",
+        "extract": "벽제관 전투(碧蹄館戰鬪)는 1593년 2월 27일(음력 1월 27일) 임진왜란 중 벽제관(현재의 고양시 덕양구 벽제동 일대)에서 일어난 조명연합군과 일본군의 전투이다. 이 전투의 패배로 인해 권율에 행주산성이 표적이 된다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%B2%BD%EC%A0%9C%EA%B4%80_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Byeokjegwan",
+        "extract": "The Battle of Byeokjegwan was a military engagement fought in the winter of 27 February 1593, between the armies of the Ming dynasty led by Li Rusong and Japanese forces under Kobayakawa Takakage. It resulted in a Japanese victory and Ming retreat.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Byeokjegwan"
+      },
+      "zh": {
+        "title": "碧蹄館之戰",
+        "extract": "碧蹄馆之战，是万历朝鲜之役当中的一次战役。系于万历二十一年正月廿七（1593年2月27日），在国都西北的碧蹄馆（位于现在京畿道高阳市德阳区碧蹄洞一带）周边，由日本方面的宇喜多秀家、小早川隆景、立花宗茂与李如松、查大受、高彦伯率领的明朝及朝鲜联军对阵。",
+        "url": "https://zh.wikipedia.org/wiki/%E7%A2%A7%E8%B9%84%E9%A4%A8%E4%B9%8B%E6%88%B0"
+      },
+      "fr": {
+        "title": "Bataille de Byeokjegwan",
+        "extract": "La bataille de Byeokjegwan est le nom d'une bataille livrée le 27 janvier 1593, entre les armées de la dynastie Ming menées par Li Rusong et les forces japonaises sous le commandement de Tachibana Muneshige, Ukita Hideie, et Kobayakawa Takakage. Dans le contexte de l'invasion de la Corée par le Japon, c'est la première bataille terrestre de la guerre entre les deux parties.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Byeokjegwan"
+      }
+    }
+  }
+}

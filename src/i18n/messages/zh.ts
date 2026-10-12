@@ -4,18 +4,20 @@ export const zh: Messages = {
   siteName: "ChronoMap",
   metaTitle: "ChronoMap — 按年份浏览的世界历史地图",
   metaDescription: "拖动年份滑块，一览同一时期世界各地发生的历史事件。",
-  ww2: {
-    tab: "第二次世界大战",
-    title: "第二次世界大战地图",
-    description:
-      "在地图上查看1937年至1945年第二次世界大战的领土变化和主要战役。",
-    axis: "轴心国",
-    allies: "同盟国",
-    neutral: "中立及其他",
+  wars: {
+    tab: "战争地图",
+    indexTitle: "战争地图",
+    indexDescription:
+      "按地区选择世界史上的重大战争，在地图上查看领土变化和主要战役。",
+    others: "其他",
     battles: "战役",
+    now: "当前时期",
+    all: "全部战役",
     battleCount: "{n} 场",
-    noBattles: "本月没有进行中的主要战役",
-    bordersNote: "疆域按年，阵营按月",
+    noBattles: "这一时期没有进行中的主要战役",
+    world: "世界",
+    openMap: "查看战争地图",
+    polityColors: "按国家着色",
   },
   pages: {
     backToMap: "在地图上查看",
@@ -64,7 +66,6 @@ export const zh: Messages = {
     oceania: "大洋洲",
   },
   viewpoints: {
-    korea: "韩国",
     "east-asia": "东亚",
     "central-asia": "中亚",
     "west-asia": "西亚",
@@ -104,6 +105,8 @@ export const zh: Messages = {
     wikipedia: "维基百科",
     readMore: "在维基百科上继续阅读",
     details: "详情",
+    collapse: "收起",
+    close: "关闭",
     allCategories: "全部",
     category: "分类",
     play: "播放",

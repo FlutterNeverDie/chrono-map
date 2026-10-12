@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Vietnam War
+region: southeast-asia
+when: 1955-11 ~ 1975-04
+unit: month
+borders-step: 1
+view: 106, 15, 5
+search: 100, 110, 8, 24
+min-links: 8
+side.a.ko: 북베트남
+side.a.en: North Vietnam
+side.a.zh: 北越
+side.a.es: Vietnam del Norte
+side.a.hi: उत्तर वियतनाम
+side.a.ar: فيتنام الشمالية
+side.a.fr: Nord-Viêt Nam
+side.a.pt: Vietnã do Norte
+side.b.ko: 남베트남
+side.b.en: South Vietnam
+side.b.zh: 南越
+side.b.es: Vietnam del Sur
+side.b.hi: दक्षिण वियतनाम
+side.b.ar: فيتنام الجنوبية
+side.b.fr: Sud-Viêt Nam
+side.b.pt: Vietnã do Sul

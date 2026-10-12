@@ -1,0 +1,775 @@
+# American Civil War 전투 (Wikidata 자동 생성, 직접 고쳐도 됨). 형식은 content/campaigns/CLAUDE.md
+
+@ battle-of-cheat-mountain
+wikipedia: Battle of Cheat Mountain
+when: 1861-01 ~ 1861-09
+coords: -79.88, 38.62
+links: 8
+
+@ first-battle-of-lexington
+wikipedia: First Battle of Lexington
+when: 1861-01 ~ 1861-09
+coords: -93.87, 39.18
+links: 11
+
+@ battle-of-fort-sumter
+wikipedia: Battle of Fort Sumter
+when: 1861-04
+coords: -79.87, 32.75
+links: 42
+
+@ battle-of-aquia-creek
+wikipedia: Battle of Aquia Creek
+when: 1861-05 ~ 1861-06
+coords: -77.32, 38.39
+links: 8
+
+@ battle-of-boonville
+wikipedia: Battle of Boonville
+when: 1861-06
+coords: -92.66, 38.96
+links: 8
+
+@ battle-of-big-bethel
+wikipedia: Battle of Big Bethel
+when: 1861-06
+coords: -76.42, 37.09
+links: 13
+
+@ battle-of-philippi-1861
+wikipedia: Battle of Philippi (1861)
+when: 1861-06
+coords: -80.04, 39.15
+links: 10
+
+@ battle-of-fairfax-court-house-1861
+wikipedia: Battle of Fairfax Court House (1861)
+when: 1861-06
+coords: -77.31, 38.84
+links: 9
+
+@ first-battle-of-bull-run
+wikipedia: First Battle of Bull Run
+when: 1861-07
+coords: -77.52, 38.82
+links: 37
+
+@ battle-of-rich-mountain
+wikipedia: Battle of Rich Mountain
+when: 1861-07
+coords: -79.93, 38.87
+links: 10
+
+@ battle-of-hoke-s-run
+wikipedia: Battle of Hoke's Run
+when: 1861-07
+coords: -77.91, 39.52
+links: 9
+
+@ battle-of-blackburn-s-ford
+wikipedia: Battle of Blackburn's Ford
+when: 1861-07
+coords: -77.45, 38.8
+links: 10
+
+@ battle-of-wilson-s-creek
+wikipedia: Battle of Wilson's Creek
+when: 1861-08
+coords: -93.41, 37.1
+links: 19
+
+@ battle-of-ball-s-bluff
+wikipedia: Battle of Ball's Bluff
+when: 1861-10
+coords: -77.53, 39.13
+links: 11
+
+@ battle-of-belmont
+wikipedia: Battle of Belmont
+when: 1861-11
+coords: -89.12, 36.77
+links: 13
+
+@ battle-of-pea-ridge
+wikipedia: Battle of Pea Ridge
+when: 1862-01 ~ 1862-03
+coords: -94.03, 36.45
+links: 15
+
+@ second-battle-of-bull-run
+wikipedia: Second Battle of Bull Run
+when: 1862-01 ~ 1862-08
+coords: -77.52, 38.81
+links: 33
+
+@ battle-of-chickasaw-bayou
+wikipedia: Battle of Chickasaw Bayou
+when: 1862-01 ~ 1862-12
+coords: -90.85, 32.41
+links: 9
+
+@ jackson-s-valley-campaign
+wikipedia: Jackson's Valley campaign
+when: 1862-01 ~ 1862-06
+coords: -78.67, 38.65
+links: 18
+
+@ battle-of-fort-henry
+wikipedia: Battle of Fort Henry
+when: 1862-02
+coords: -88.04, 36.52
+links: 17
+
+@ battle-of-fort-donelson
+wikipedia: Battle of Fort Donelson
+when: 1862-02
+coords: -87.86, 36.49
+links: 20
+
+@ battle-of-hampton-roads
+wikipedia: Battle of Hampton Roads
+when: 1862-03
+coords: -76.32, 36.98
+links: 28
+
+@ first-battle-of-kernstown
+wikipedia: First Battle of Kernstown
+when: 1862-03
+coords: -78.2, 39.15
+links: 12
+
+@ siege-of-corinth
+wikipedia: Siege of Corinth
+when: 1862-04 ~ 1862-05
+coords: -88.53, 34.94
+links: 15
+
+@ battle-of-shiloh
+wikipedia: Battle of Shiloh
+when: 1862-04
+coords: -88.32, 35.15
+links: 31
+
+@ capture-of-new-orleans
+wikipedia: Capture of New Orleans
+when: 1862-04 ~ 1862-05
+coords: -90.06, 29.96
+links: 12
+
+@ siege-of-yorktown-1862
+wikipedia: Siege of Yorktown (1862)
+when: 1862-04 ~ 1862-05
+coords: -76.53, 37.18
+links: 13
+
+@ battle-of-forts-jackson-and-st-philip
+wikipedia: Battle of Forts Jackson and St. Philip
+when: 1862-04
+coords: -89.46, 29.36
+links: 10
+
+@ battle-of-mcdowell
+wikipedia: Battle of McDowell
+when: 1862-05
+coords: -79.48, 38.32
+links: 9
+
+@ battle-of-drewry-s-bluff
+wikipedia: Battle of Drewry's Bluff
+when: 1862-05
+coords: -77.42, 37.42
+links: 11
+
+@ battle-of-seven-pines
+wikipedia: Battle of Seven Pines
+when: 1862-05 ~ 1862-06
+coords: -77.3, 37.52
+links: 21
+
+@ battle-of-hanover-court-house
+wikipedia: Battle of Hanover Court House
+when: 1862-05
+coords: -77.38, 37.72
+links: 8
+
+@ first-battle-of-winchester
+wikipedia: First Battle of Winchester
+when: 1862-05
+coords: -78.17, 39.18
+links: 11
+
+@ battle-of-front-royal
+wikipedia: Battle of Front Royal
+when: 1862-05
+coords: -78.19, 38.94
+links: 8
+
+@ battle-of-williamsburg
+wikipedia: Battle of Williamsburg
+when: 1862-05
+coords: -76.67, 37.26
+links: 15
+
+@ battle-of-glendale
+wikipedia: Battle of Glendale
+when: 1862-06
+coords: -77.24, 37.44
+links: 8
+
+@ battle-of-port-republic
+wikipedia: Battle of Port Republic
+when: 1862-06
+coords: -78.79, 38.3
+links: 8
+
+@ battle-of-gaines-mill
+wikipedia: Battle of Gaines' Mill
+when: 1862-06
+coords: -77.29, 37.58
+links: 10
+
+@ battle-of-white-oak-swamp
+wikipedia: Battle of White Oak Swamp
+when: 1862-06
+coords: -77.21, 37.47
+links: 8
+
+@ battle-of-beaver-dam-creek
+wikipedia: Battle of Beaver Dam Creek
+when: 1862-06
+coords: -77.36, 37.6
+links: 8
+
+@ first-battle-of-memphis
+wikipedia: First Battle of Memphis
+when: 1862-06
+coords: -90.16, 35.13
+links: 11
+
+@ peninsula-campaign
+wikipedia: Peninsula campaign
+when: 1862-07
+coords: -76.61, 37.26
+links: 20
+
+@ battle-of-malvern-hill
+wikipedia: Battle of Malvern Hill
+when: 1862-07
+coords: -77.25, 37.41
+links: 15
+
+@ battle-of-cedar-mountain
+wikipedia: Battle of Cedar Mountain
+when: 1862-08
+coords: -78.07, 38.4
+links: 15
+
+@ battle-of-richmond
+wikipedia: Battle of Richmond
+when: 1862-08
+coords: -84.26, 37.68
+links: 8
+
+@ confederate-heartland-offensive
+wikipedia: Confederate Heartland Offensive
+when: 1862-08 ~ 1862-10
+coords: -85, 37.5
+links: 8
+
+@ battle-of-shepherdstown
+wikipedia: Battle of Shepherdstown
+when: 1862-09
+coords: -77.78, 39.43
+links: 11
+
+@ battle-of-south-mountain
+wikipedia: Battle of South Mountain
+when: 1862-09
+coords: -77.62, 39.49
+links: 16
+
+@ battle-of-chantilly
+wikipedia: Battle of Chantilly
+when: 1862-09
+coords: -77.37, 38.87
+links: 13
+
+@ battle-of-antietam
+wikipedia: Battle of Antietam
+when: 1862-09
+coords: -77.74, 39.47
+links: 41
+
+@ battle-of-harpers-ferry
+wikipedia: Battle of Harpers Ferry
+when: 1862-09
+coords: -77.73, 39.32
+links: 13
+
+@ battle-of-iuka
+wikipedia: Battle of Iuka
+when: 1862-09
+coords: -88.21, 34.79
+links: 8
+
+@ northern-virginia-campaign
+wikipedia: Northern Virginia campaign
+when: 1862-09
+coords: -77.52, 38.81
+links: 18
+
+@ second-battle-of-corinth
+wikipedia: Second Battle of Corinth
+when: 1862-10
+coords: -88.52, 34.97
+links: 8
+
+@ battle-of-perryville
+wikipedia: Battle of Perryville
+when: 1862-10
+coords: -84.97, 37.68
+links: 16
+
+@ battle-of-fredericksburg
+wikipedia: Battle of Fredericksburg
+when: 1862-12
+coords: -77.47, 38.3
+links: 34
+
+@ battle-of-stones-river
+wikipedia: Battle of Stones River
+when: 1862-12 ~ 1863-01
+coords: -86.43, 35.87
+links: 17
+
+@ battle-of-prairie-grove
+wikipedia: Battle of Prairie Grove
+when: 1862-12
+coords: -94.31, 35.98
+links: 9
+
+@ vicksburg-campaign
+wikipedia: Vicksburg campaign
+when: 1862-12 ~ 1863-07
+coords: -90.88, 32.35
+links: 22
+
+@ battle-of-galveston
+wikipedia: Battle of Galveston
+when: 1863-01
+coords: -94.77, 29.34
+links: 8
+
+@ battle-of-arkansas-post
+wikipedia: Battle of Arkansas Post
+when: 1863-01
+coords: -91.35, 34.02
+links: 12
+
+@ second-battle-of-winchester
+wikipedia: Second Battle of Winchester
+when: 1863-01 ~ 1863-06
+coords: -78.17, 39.18
+links: 8
+
+@ battle-of-chancellorsville
+wikipedia: Battle of Chancellorsville
+when: 1863-04 ~ 1863-05
+coords: -77.65, 38.31
+links: 38
+
+@ battle-of-port-gibson
+wikipedia: Battle of Port Gibson
+when: 1863-05
+coords: -91.02, 31.96
+links: 8
+
+@ siege-of-port-hudson
+wikipedia: Siege of Port Hudson
+when: 1863-05 ~ 1863-07
+coords: -91.28, 30.69
+links: 10
+
+@ siege-of-vicksburg
+wikipedia: Siege of Vicksburg
+when: 1863-05 ~ 1863-07
+coords: -90.85, 32.34
+links: 27
+
+@ second-battle-of-fredericksburg
+wikipedia: Second Battle of Fredericksburg
+when: 1863-05
+coords: -77.47, 38.3
+links: 9
+
+@ battle-of-champion-hill
+wikipedia: Battle of Champion Hill
+when: 1863-05
+coords: -90.53, 32.33
+links: 13
+
+@ battle-of-jackson
+wikipedia: Battle of Jackson
+when: 1863-05
+coords: -90.2, 32.29
+links: 8
+
+@ battle-of-big-black-river-bridge
+wikipedia: Battle of Big Black River Bridge
+when: 1863-05
+coords: -90.7, 32.35
+links: 11
+
+@ battle-of-brandy-station
+wikipedia: Battle of Brandy Station
+when: 1863-06
+coords: -77.88, 38.51
+links: 13
+
+@ battle-of-aldie
+wikipedia: Battle of Aldie
+when: 1863-06
+coords: -77.66, 38.98
+links: 8
+
+@ gettysburg-campaign
+wikipedia: Gettysburg campaign
+when: 1863-06 ~ 1863-07
+coords: -77.24, 39.81
+links: 16
+
+@ battle-of-gettysburg
+wikipedia: Battle of Gettysburg
+when: 1863-07
+coords: -77.23, 39.81
+links: 58
+
+@ second-battle-of-fort-wagner
+wikipedia: Second Battle of Fort Wagner
+when: 1863-07
+coords: -79.87, 32.73
+links: 11
+
+@ battle-of-honey-springs
+wikipedia: Battle of Honey Springs
+when: 1863-07
+coords: -95.49, 35.53
+links: 8
+
+@ battle-of-helena
+wikipedia: Battle of Helena
+when: 1863-07
+coords: -90.6, 34.53
+links: 9
+
+@ lawrence-massacre
+wikipedia: Lawrence Massacre
+when: 1863-08
+coords: -95.24, 38.96
+links: 10
+
+@ knoxville-campaign
+wikipedia: Knoxville campaign
+when: 1863-08 ~ 1863-12
+coords: -83.93, 35.96
+links: 8
+
+@ second-battle-of-fort-sumter
+wikipedia: Second Battle of Fort Sumter
+when: 1863-09
+coords: -79.87, 32.75
+links: 10
+
+@ battle-of-chickamauga
+wikipedia: Battle of Chickamauga
+when: 1863-09
+coords: -85.26, 34.92
+links: 28
+
+@ battle-of-mine-run
+wikipedia: Battle of Mine Run
+when: 1863-11 ~ 1863-12
+coords: -77.82, 38.34
+links: 9
+
+@ battle-of-missionary-ridge
+wikipedia: Battle of Missionary Ridge
+when: 1863-11
+coords: -85.26, 35.03
+links: 9
+
+@ chattanooga-campaign
+wikipedia: Chattanooga campaign
+when: 1863-11
+coords: -85.29, 35.03
+links: 21
+
+@ battle-of-fisher-s-hill
+wikipedia: Battle of Fisher's Hill
+when: 1864-01 ~ 1864-10
+coords: -78.4, 38.98
+links: 8
+
+@ battle-of-olustee
+wikipedia: Battle of Olustee
+when: 1864-02
+coords: -82.39, 30.21
+links: 10
+
+@ red-river-campaign
+wikipedia: Red River campaign
+when: 1864-03 ~ 1864-05
+coords: -93.66, 32.01
+links: 10
+
+@ battle-of-mansfield
+wikipedia: Battle of Mansfield
+when: 1864-04
+coords: -93.67, 32.01
+links: 9
+
+@ battle-of-fort-pillow
+wikipedia: Battle of Fort Pillow
+when: 1864-04
+coords: -89.85, 35.63
+links: 12
+
+@ battle-of-yellow-tavern
+wikipedia: Battle of Yellow Tavern
+when: 1864-05
+coords: -77.46, 37.66
+links: 13
+
+@ battle-of-old-church
+wikipedia: Battle of Old Church
+when: 1864-05
+coords: -77.22, 37.64
+links: 9
+
+@ battle-of-new-market
+wikipedia: Battle of New Market
+when: 1864-05
+coords: -78.67, 38.66
+links: 11
+
+@ battle-of-totopotomoy-creek
+wikipedia: Battle of Totopotomoy Creek
+when: 1864-05
+coords: -77.3, 37.63
+links: 8
+
+@ battle-of-cold-harbor
+wikipedia: Battle of Cold Harbor
+when: 1864-05 ~ 1864-06
+coords: -77.28, 37.59
+links: 29
+
+@ battle-of-north-anna
+wikipedia: Battle of North Anna
+when: 1864-05
+coords: -77.49, 37.89
+links: 12
+
+@ battle-of-cloyd-s-mountain
+wikipedia: Battle of Cloyd's Mountain
+when: 1864-05
+coords: -80.71, 37.17
+links: 8
+
+@ battle-of-spotsylvania-court-house
+wikipedia: Battle of Spotsylvania Court House
+when: 1864-05
+coords: -77.6, 38.22
+links: 22
+
+@ battle-of-the-wilderness
+wikipedia: Battle of the Wilderness
+when: 1864-05
+coords: -77.76, 38.32
+links: 25
+
+@ atlanta-campaign
+wikipedia: Atlanta campaign
+when: 1864-05 ~ 1864-09
+coords: -84.39, 33.75
+links: 20
+
+@ battle-of-trevilian-station
+wikipedia: Battle of Trevilian Station
+when: 1864-06
+coords: -78.07, 38.05
+links: 11
+
+@ battle-of-kennesaw-mountain
+wikipedia: Battle of Kennesaw Mountain
+when: 1864-06
+coords: -84.58, 33.97
+links: 9
+
+@ siege-of-petersburg
+wikipedia: Siege of Petersburg
+when: 1864-06 ~ 1865-03
+coords: -77.38, 37.22
+links: 21
+
+@ battle-of-piedmont
+wikipedia: Battle of Piedmont
+when: 1864-06
+coords: -78.9, 38.21
+links: 8
+
+@ second-battle-of-petersburg
+wikipedia: Second Battle of Petersburg
+when: 1864-06
+coords: -77.38, 37.22
+links: 8
+
+@ battle-of-the-crater
+wikipedia: Battle of the Crater
+when: 1864-07
+coords: -77.38, 37.22
+links: 14
+
+@ battle-of-monocacy
+wikipedia: Battle of Monocacy
+when: 1864-07
+coords: -77.39, 39.37
+links: 11
+
+@ battle-of-peachtree-creek
+wikipedia: Battle of Peachtree Creek
+when: 1864-07
+coords: -84.4, 33.81
+links: 8
+
+@ battle-of-ezra-church
+wikipedia: Battle of Ezra Church
+when: 1864-07
+coords: -84.44, 33.75
+links: 9
+
+@ battle-of-atlanta
+wikipedia: Battle of Atlanta
+when: 1864-07
+coords: -84.35, 33.75
+links: 19
+
+@ battle-of-fort-stevens
+wikipedia: Battle of Fort Stevens
+when: 1864-07
+coords: -77.03, 38.96
+links: 8
+
+@ battle-of-jonesborough
+wikipedia: Battle of Jonesborough
+when: 1864-08 ~ 1864-09
+coords: -84.36, 33.53
+links: 8
+
+@ battle-of-mobile-bay
+wikipedia: Battle of Mobile Bay
+when: 1864-08
+coords: -88.05, 30.24
+links: 17
+
+@ third-battle-of-winchester
+wikipedia: Third Battle of Winchester
+when: 1864-09
+coords: -78.13, 39.2
+links: 11
+
+@ battle-of-cedar-creek
+wikipedia: Battle of Cedar Creek
+when: 1864-10
+coords: -78.3, 39.02
+links: 14
+
+@ battle-of-westport
+wikipedia: Battle of Westport
+when: 1864-10
+coords: -94.59, 39.03
+links: 12
+
+@ battle-of-franklin
+wikipedia: Battle of Franklin
+when: 1864-11
+coords: -86.87, 35.92
+links: 16
+
+@ battle-of-spring-hill
+wikipedia: Battle of Spring Hill
+when: 1864-11
+coords: -86.93, 35.74
+links: 8
+
+@ sherman-s-march-to-the-sea
+wikipedia: Sherman's March to the Sea
+when: 1864-11 ~ 1864-12
+coords: -81.15, 32.13
+links: 27
+
+@ battle-of-nashville
+wikipedia: Battle of Nashville
+when: 1864-12
+coords: -86.81, 36.09
+links: 19
+
+@ battle-of-palmito-ranch
+wikipedia: Battle of Palmito Ranch
+when: 1865-01 ~ 1865-05
+coords: -97.29, 25.95
+links: 11
+
+@ battle-of-bentonville
+wikipedia: Battle of Bentonville
+when: 1865-01 ~ 1865-03
+coords: -78.32, 35.31
+links: 14
+
+@ carolinas-campaign
+wikipedia: Carolinas campaign
+when: 1865-01 ~ 1865-04
+coords: -81.15, 32.13
+links: 10
+
+@ battle-of-fort-stedman
+wikipedia: Battle of Fort Stedman
+when: 1865-03
+coords: -77.37, 37.23
+links: 8
+
+@ battle-of-waynesboro-virginia
+wikipedia: Battle of Waynesboro, Virginia
+when: 1865-03
+coords: -78.9, 38.07
+links: 9
+
+@ appomattox-campaign
+wikipedia: Appomattox campaign
+when: 1865-03 ~ 1865-04
+coords: -78.8, 37.38
+links: 17
+
+@ battle-of-five-forks
+wikipedia: Battle of Five Forks
+when: 1865-04
+coords: -77.62, 37.14
+links: 20
+
+@ battle-of-sailor-s-creek
+wikipedia: Battle of Sailor's Creek
+when: 1865-04
+coords: -78.23, 37.31
+links: 10
+
+@ battle-of-appomattox-court-house
+wikipedia: Battle of Appomattox Court House
+when: 1865-04
+coords: -78.8, 37.38
+links: 26
+
+@ third-battle-of-petersburg
+wikipedia: Third Battle of Petersburg
+when: 1865-04
+coords: -77.48, 37.18
+links: 8

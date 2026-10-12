@@ -1,0 +1,835 @@
+# Sengoku period 전투 (Wikidata 자동 생성, 직접 고쳐도 됨). 형식은 content/campaigns/CLAUDE.md
+
+@ siege-of-arai
+wikipedia: Siege of Arai
+when: 1516
+coords: 139.61, 35.16
+links: 5
+
+@ battle-of-arita-nakaide
+wikipedia: Battle of Arita-Nakaide
+when: 1517
+coords: 132.53, 34.67
+links: 10
+
+@ siege-of-edo
+wikipedia: Siege of Edo
+when: 1524
+coords: 139.73, 35.63
+links: 9
+
+@ siege-of-kamakura-1526
+wikipedia: Siege of Kamakura (1526)
+when: 1526
+coords: 139.56, 35.33
+links: 6
+
+@ battle-of-ozawahara
+wikipedia: Battle of Ozawahara
+when: 1530
+coords: 139.5, 35.59
+links: 5
+
+@ battle-of-un-no-kuchi
+wikipedia: Battle of Un no Kuchi
+when: 1536
+coords: 138.5, 36.04
+links: 6
+
+@ siege-of-musashi-matsuyama-1537
+wikipedia: Siege of Musashi-Matsuyama (1537)
+when: 1537
+coords: 139.42, 36.04
+links: 5
+
+@ battle-of-konodai-1538
+wikipedia: Battle of Kōnodai (1538)
+when: 1538
+coords: 139.9, 35.78
+links: 5
+
+@ siege-of-yoshida-koriyama-castle
+wikipedia: Siege of Yoshida-Kōriyama Castle
+when: 1540 ~ 1541
+coords: 132.7, 34.65
+links: 9
+
+@ siege-of-uehara
+wikipedia: Siege of Uehara
+when: 1541
+coords: 138.15, 36.01
+links: 5
+
+@ siege-of-kuwabara
+wikipedia: Siege of Kuwabara
+when: 1542
+coords: 138.14, 36.03
+links: 8
+
+@ siege-of-fukuyo
+wikipedia: Siege of Fukuyo
+when: 1542
+coords: 137.93, 35.59
+links: 5
+
+@ sieges-of-gassantoda-castle
+wikipedia: Sieges of Gassantoda Castle
+when: 1542 ~ 1543
+coords: 133.18, 35.36
+links: 7
+
+@ battle-of-sezawa
+wikipedia: Battle of Sezawa
+when: 1542
+coords: 138.24, 35.9
+links: 10
+
+@ battle-of-azukizaka-1542
+wikipedia: Battle of Azukizaka (1542)
+when: 1542
+coords: 137.18, 34.93
+links: 10
+
+@ siege-of-nagakubo
+wikipedia: Siege of Nagakubo
+when: 1543
+coords: 138.27, 36.27
+links: 5
+
+@ siege-of-kojinyama
+wikipedia: Siege of Kojinyama
+when: 1544
+coords: 137.99, 35.97
+links: 5
+
+@ siege-of-ryugasaki
+wikipedia: Siege of Ryūgasaki
+when: 1545
+coords: 137.98, 35.99
+links: 5
+
+@ siege-of-takato-1545
+wikipedia: Siege of Takatō (1545)
+when: 1545
+coords: 138.06, 35.83
+links: 7
+
+@ siege-of-kawagoe-castle
+wikipedia: Siege of Kawagoe Castle
+when: 1545 ~ 1546
+coords: 139.49, 35.92
+links: 9
+
+@ siege-of-shika-castle
+wikipedia: Siege of Shika Castle
+when: 1546 ~ 1547
+coords: 134.06, 35.46
+links: 5
+
+@ battle-of-uedahara
+wikipedia: Battle of Uedahara
+when: 1548
+coords: 138.21, 36.4
+links: 12
+
+@ battle-of-shiojiritoge
+wikipedia: Battle of Shiojiritoge
+when: 1548
+coords: 138.03, 36.07
+links: 8
+
+@ siege-of-fukashi
+wikipedia: Siege of Fukashi
+when: 1549
+coords: 137.97, 36.24
+links: 5
+
+@ sieges-of-toishi
+wikipedia: Sieges of Toishi
+when: 1550 ~ 1551
+coords: 138.29, 36.42
+links: 7
+
+@ tainei-ji-incident
+wikipedia: Tainei-ji incident
+when: 1551
+coords: 131.16, 34.33
+links: 7
+
+@ battle-of-akatsuka
+wikipedia: Battle of Akatsuka
+when: 1552
+coords: 136.95, 35.08
+links: 9
+
+@ battle-of-kiyosu-castle
+wikipedia: Battle of Kiyosu Castle
+when: 1552
+coords: 136.84, 35.19
+links: 6
+
+@ battles-of-kawanakajima
+wikipedia: Battles of Kawanakajima
+when: 1553 ~ 1564
+coords: 138.19, 36.65
+links: 23
+
+@ siege-of-katsurao
+wikipedia: Siege of Katsurao
+when: 1553
+coords: 138.18, 36.47
+links: 6
+
+@ siege-of-matsuo
+wikipedia: Siege of Matsuo
+when: 1554
+coords: 137.83, 35.49
+links: 5
+
+@ siege-of-kannomine
+wikipedia: Siege of Kannomine
+when: 1554
+coords: 132.91, 34.23
+links: 5
+
+@ siege-of-kiso-fukushima
+wikipedia: Siege of Kiso Fukushima
+when: 1554
+coords: 137.69, 35.86
+links: 5
+
+@ battle-of-muraki-castle
+wikipedia: Battle of Muraki Castle
+when: 1554
+coords: 136.97, 35
+links: 5
+
+@ battle-of-oshikibata
+wikipedia: Battle of Oshikibata
+when: 1554
+coords: 132.28, 34.36
+links: 6
+
+@ battle-of-miyajima
+wikipedia: Battle of Miyajima
+when: 1555
+coords: 132.32, 34.3
+links: 12
+
+@ battle-of-nagara-gawa
+wikipedia: Battle of Nagara-gawa
+when: 1556
+coords: 136.76, 35.45
+links: 10
+
+@ battle-of-ino
+wikipedia: Battle of Inō
+when: 1556
+coords: 136.89, 35.21
+links: 10
+
+@ battle-of-ukino
+wikipedia: Battle of Ukino
+when: 1558
+coords: 136.85, 35.31
+links: 7
+
+@ siege-of-terabe
+wikipedia: Siege of Terabe
+when: 1558
+coords: 137.17, 35.1
+links: 9
+
+@ battle-of-norada
+wikipedia: Battle of Norada
+when: 1560
+coords: 136.2, 35.2
+links: 7
+
+@ siege-of-marune
+wikipedia: Siege of Marune
+when: 1560
+coords: 136.95, 35.06
+links: 9
+
+@ battle-of-okehazama
+wikipedia: Battle of Okehazama
+when: 1560
+coords: 136.98, 35.06
+links: 28
+
+@ siege-of-odawara-1561
+wikipedia: Siege of Odawara (1561)
+when: 1561
+coords: 139.15, 35.25
+links: 10
+
+@ siege-of-moji
+wikipedia: Siege of Moji
+when: 1561
+coords: 130.97, 33.96
+links: 9
+
+@ siege-of-kaminogo-castle
+wikipedia: Siege of Kaminogō Castle
+when: 1562
+coords: 137.22, 34.83
+links: 5
+
+@ battle-of-kyokoji
+wikipedia: Battle of Kyōkōji
+when: 1562
+coords: 135.64, 34.62
+links: 5
+
+@ siege-of-musashi-matsuyama-1563
+wikipedia: Siege of Musashi-Matsuyama (1563)
+when: 1563
+coords: 139.42, 36.04
+links: 5
+
+@ battle-of-azukizaka-1564
+wikipedia: Battle of Azukizaka (1564)
+when: 1564
+coords: 137.18, 34.93
+links: 7
+
+@ battle-of-konodai-1564
+wikipedia: Battle of Kōnodai (1564)
+when: 1564
+coords: 139.9, 35.76
+links: 5
+
+@ siege-of-kuragano
+wikipedia: Siege of Kuragano
+when: 1565
+coords: 139.05, 36.3
+links: 5
+
+@ battle-of-fukuda-bay
+wikipedia: Battle of Fukuda Bay
+when: 1565
+coords: 129.82, 32.74
+links: 8
+
+@ siege-of-minowa
+wikipedia: Siege of Minowa
+when: 1566
+coords: 138.95, 36.4
+links: 5
+
+@ siege-of-inabayama-castle
+wikipedia: Siege of Inabayama Castle
+when: 1567
+coords: 136.78, 35.43
+links: 10
+
+@ siege-of-hachigata-1568
+wikipedia: Siege of Hachigata (1568)
+when: 1568
+coords: 139.2, 36.11
+links: 5
+
+@ battle-of-tatarahama-1569
+wikipedia: Battle of Tatarahama (1569)
+when: 1569
+coords: 130.44, 33.63
+links: 5
+
+@ siege-of-odawara-1569
+wikipedia: Siege of Odawara (1569)
+when: 1569
+coords: 139.15, 35.25
+links: 8
+
+@ siege-of-kanbara
+wikipedia: Siege of Kanbara
+when: 1569
+coords: 138.6, 35.12
+links: 5
+
+@ siege-of-kakegawa
+wikipedia: Siege of Kakegawa
+when: 1569
+coords: 138.01, 34.78
+links: 6
+
+@ battle-of-mimasetoge
+wikipedia: Battle of Mimasetoge
+when: 1569
+coords: 139.29, 35.53
+links: 8
+
+@ siege-of-choko-ji
+wikipedia: Siege of Chōkō-ji
+when: 1570
+coords: 136.13, 35.11
+links: 6
+
+@ siege-of-hanazawa
+wikipedia: Siege of Hanazawa
+when: 1570
+coords: 138.33, 34.9
+links: 5
+
+@ siege-of-kanegasaki-1570
+wikipedia: Siege of Kanegasaki (1570)
+when: 1570
+coords: 136.07, 35.67
+links: 11
+
+@ sieges-of-nagashima
+wikipedia: Sieges of Nagashima
+when: 1570 ~ 1574
+coords: 136.7, 35.09
+links: 10
+
+@ battle-of-anegawa
+wikipedia: Battle of Anegawa
+when: 1570
+coords: 136.32, 35.42
+links: 23
+
+@ siege-of-fukazawa
+wikipedia: Siege of Fukazawa
+when: 1571
+coords: 138.96, 35.32
+links: 5
+
+@ siege-of-mount-hiei
+wikipedia: Siege of Mount Hiei
+when: 1571
+coords: 135.84, 35.07
+links: 13
+
+@ siege-of-futamata
+wikipedia: Siege of Futamata
+when: 1572 ~ 1573
+coords: 137.81, 34.86
+links: 8
+
+@ siege-of-iwamura-castle
+wikipedia: Siege of Iwamura Castle
+when: 1572 ~ 1575
+coords: 137.45, 35.36
+links: 8
+
+@ battle-of-kizaki
+wikipedia: Battle of Kizaki
+when: 1572
+coords: 130.83, 32.04
+links: 6
+
+@ siege-of-odani-castle
+wikipedia: Siege of Odani Castle
+when: 1573
+coords: 136.28, 35.46
+links: 9
+
+@ siege-of-hikida-castle
+wikipedia: Siege of Hikida Castle
+when: 1573
+coords: 136.1, 35.6
+links: 6
+
+@ siege-of-ichijodani-castle
+wikipedia: Siege of Ichijōdani Castle
+when: 1573
+coords: 136.3, 36
+links: 9
+
+@ siege-of-noda-castle
+wikipedia: Siege of Noda Castle
+when: 1573
+coords: 137.47, 34.88
+links: 9
+
+@ battle-of-mikatagahara
+wikipedia: Battle of Mikatagahara
+when: 1573
+coords: 137.7, 34.79
+links: 25
+
+@ siege-of-itami-1574
+wikipedia: Siege of Itami (1574)
+when: 1574
+coords: 135.42, 34.78
+links: 5
+
+@ siege-of-yoshida-castle
+wikipedia: Siege of Yoshida Castle
+when: 1575
+coords: 137.39, 34.77
+links: 6
+
+@ battle-of-nagashino
+wikipedia: Battle of Nagashino
+when: 1575
+coords: 137.53, 34.92
+links: 30
+
+@ siege-of-nanao
+wikipedia: Siege of Nanao
+when: 1576 ~ 1577
+coords: 136.98, 37.01
+links: 6
+
+@ siege-of-mitsuji
+wikipedia: Siege of Mitsuji
+when: 1576
+coords: 135.52, 34.65
+links: 7
+
+@ battles-of-kizugawaguchi
+wikipedia: Battles of Kizugawaguchi
+when: 1576
+coords: 135.43, 34.63
+links: 5
+
+@ siege-of-shigisan
+wikipedia: Siege of Shigisan
+when: 1577
+coords: 135.67, 34.61
+links: 8
+
+@ battle-of-tedorigawa
+wikipedia: Battle of Tedorigawa
+when: 1577
+coords: 136.48, 36.48
+links: 9
+
+@ battle-of-mimigawa
+wikipedia: Battle of Mimigawa
+when: 1578
+coords: 131.48, 32.17
+links: 8
+
+@ siege-of-miki
+wikipedia: Siege of Miki
+when: 1578 ~ 1580
+coords: 134.99, 34.8
+links: 8
+
+@ siege-of-kozuki-castle
+wikipedia: Siege of Kōzuki Castle
+when: 1578
+coords: 134.32, 34.98
+links: 7
+
+@ siege-of-otate
+wikipedia: Siege of Otate
+when: 1578
+coords: 138.24, 37.17
+links: 7
+
+@ siege-of-itami-1579
+wikipedia: Siege of Itami (1579)
+when: 1579
+coords: 135.42, 34.78
+links: 8
+
+@ battle-of-omosu
+wikipedia: Battle of Omosu
+when: 1580
+coords: 138.89, 35.02
+links: 5
+
+@ siege-of-hijiyama
+wikipedia: Siege of Hijiyama
+when: 1581
+coords: 136.13, 34.77
+links: 5
+
+@ siege-of-takatenjin-1581
+wikipedia: Siege of Takatenjin (1581)
+when: 1581
+coords: 138.03, 34.7
+links: 6
+
+@ siege-of-tottori
+wikipedia: Siege of Tottori
+when: 1581
+coords: 134.24, 35.51
+links: 8
+
+@ battle-of-uchidehama
+wikipedia: Battle of Uchidehama
+when: 1582
+coords: 135.32, 34.73
+links: 5
+
+@ siege-of-takamatsu
+wikipedia: Siege of Takamatsu
+when: 1582
+coords: 133.82, 34.69
+links: 10
+
+@ siege-of-takato-1582
+wikipedia: Siege of Takatō (1582)
+when: 1582
+coords: 138.06, 35.83
+links: 10
+
+@ battle-of-tenmokuzan
+wikipedia: Battle of Tenmokuzan
+when: 1582
+coords: 138.81, 35.65
+links: 14
+
+@ siege-of-uozu
+wikipedia: Siege of Uozu
+when: 1582
+coords: 137.4, 36.81
+links: 8
+
+@ battle-of-kanagawa
+wikipedia: Battle of Kanagawa
+when: 1582
+coords: 139.12, 36.27
+links: 8
+
+@ battle-of-yamazaki
+wikipedia: Battle of Yamazaki
+when: 1582
+coords: 135.69, 34.91
+links: 21
+
+@ battle-of-nakatomigawa
+wikipedia: Battle of Nakatomigawa
+when: 1582
+coords: 134.52, 34.13
+links: 5
+
+@ battle-of-shizugatake
+wikipedia: Battle of Shizugatake
+when: 1583
+coords: 136.19, 35.51
+links: 20
+
+@ battle-of-komaki-and-nagakute
+wikipedia: Battle of Komaki and Nagakute
+when: 1584
+coords: 137.05, 35.17
+links: 14
+
+@ siege-of-kanie
+wikipedia: Siege of Kanie
+when: 1584
+coords: 136.79, 35.14
+links: 6
+
+@ siege-of-kaganoi
+wikipedia: Siege of Kaganoi
+when: 1584
+coords: 136.75, 35.03
+links: 7
+
+@ battle-of-okitanawate
+wikipedia: Battle of Okitanawate
+when: 1584
+coords: 130.36, 32.8
+links: 9
+
+@ siege-of-takehana
+wikipedia: Siege of Takehana
+when: 1584
+coords: 136.7, 35.32
+links: 5
+
+@ siege-of-suemori
+wikipedia: Siege of Suemori
+when: 1584
+coords: 136.77, 36.83
+links: 5
+
+@ siege-of-ota-castle
+wikipedia: Siege of Ōta Castle
+when: 1585
+coords: 135.17, 34.23
+links: 5
+
+@ invasion-of-shikoku-1585
+wikipedia: Invasion of Shikoku (1585)
+when: 1585
+coords: 133.64, 33.74
+links: 6
+
+@ siege-of-toyama
+wikipedia: Siege of Toyama
+when: 1585
+coords: 137.21, 36.69
+links: 8
+
+@ battle-of-hitotoribashi
+wikipedia: Battle of Hitotoribashi
+when: 1586
+coords: 140.39, 37.5
+links: 6
+
+@ siege-of-iwaya-castle
+wikipedia: Siege of Iwaya Castle
+when: 1586
+coords: 130.52, 33.53
+links: 5
+
+@ battle-of-hetsugigawa
+wikipedia: Battle of Hetsugigawa
+when: 1587
+coords: 131.66, 33.14
+links: 7
+
+@ battle-of-suriagehara
+wikipedia: Battle of Suriagehara
+when: 1589
+coords: 140.07, 37.56
+links: 6
+
+@ siege-of-hachigata-1590
+wikipedia: Siege of Hachigata (1590)
+when: 1590
+coords: 139.2, 36.11
+links: 6
+
+@ siege-of-oshi
+wikipedia: Siege of Oshi
+when: 1590
+coords: 139.45, 36.14
+links: 9
+
+@ siege-of-odawara-1590
+wikipedia: Siege of Odawara (1590)
+when: 1590
+coords: 139.15, 35.25
+links: 20
+
+@ siege-of-shimoda
+wikipedia: Siege of Shimoda
+when: 1590
+coords: 138.95, 34.68
+links: 6
+
+@ kunohe-rebellion
+wikipedia: Kunohe rebellion
+when: 1591
+coords: 141.3, 40.27
+links: 6
+
+@ siege-of-dongnae
+wikipedia: Siege of Dongnae
+when: 1592
+coords: 129.08, 35.2
+links: 12
+
+@ siege-of-busanjin
+wikipedia: Siege of Busanjin
+when: 1592
+coords: 129.05, 35.16
+links: 15
+
+@ battle-of-dadaejin
+wikipedia: Battle of Dadaejin
+when: 1592
+coords: 129.04, 35.1
+links: 10
+
+@ siege-of-ueda
+wikipedia: Siege of Ueda
+when: 1600
+coords: 138.24, 36.4
+links: 9
+
+@ siege-of-hasedo
+wikipedia: Siege of Hasedō
+when: 1600
+coords: 140.27, 38.21
+links: 5
+
+@ siege-of-fushimi-castle
+wikipedia: Siege of Fushimi Castle
+when: 1600
+coords: 135.78, 34.94
+links: 11
+
+@ siege-of-tanabe
+wikipedia: Siege of Tanabe
+when: 1600
+coords: 135.33, 35.45
+links: 7
+
+@ battle-of-gifu-castle
+wikipedia: Battle of Gifu Castle
+when: 1600
+coords: 136.78, 35.43
+links: 7
+
+@ battle-of-asai
+wikipedia: Battle of Asai
+when: 1600
+coords: 136.45, 36.38
+links: 6
+
+@ siege-of-shiroishi
+wikipedia: Siege of Shiroishi
+when: 1600
+coords: 140.62, 38
+links: 5
+
+@ battle-of-sekigahara
+wikipedia: Battle of Sekigahara
+when: 1600
+coords: 136.46, 35.37
+links: 47
+
+@ battle-of-kuisegawa
+wikipedia: Battle of Kuisegawa
+when: 1600
+coords: 136.58, 35.39
+links: 6
+
+@ siege-of-otsu
+wikipedia: Siege of Ōtsu
+when: 1600
+coords: 135.85, 35.02
+links: 6
+
+@ battle-of-imafuku
+wikipedia: Battle of Imafuku
+when: 1600
+coords: 135.55, 34.7
+links: 8
+
+@ siege-of-osaka
+wikipedia: Siege of Osaka
+when: 1614 ~ 1615
+coords: 135.52, 34.64
+links: 32
+
+@ battle-of-shigino
+wikipedia: Battle of Shigino
+when: 1614
+coords: 135.55, 34.69
+links: 8
+
+@ battle-of-kashii
+wikipedia: Battle of Kashii
+when: 1615
+coords: 135.29, 34.38
+links: 7
+
+@ battle-of-domyoji
+wikipedia: Battle of Dōmyōji
+when: 1615
+coords: 135.62, 34.57
+links: 9
+
+@ battle-of-tennoji
+wikipedia: Battle of Tennōji
+when: 1615
+coords: 135.51, 34.65
+links: 9
+
+@ battle-of-yao-1615
+wikipedia: Battle of Yao (1615)
+when: 1615
+coords: 135.61, 34.65
+links: 7

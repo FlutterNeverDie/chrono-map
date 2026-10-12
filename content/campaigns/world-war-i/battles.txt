@@ -1,0 +1,433 @@
+# World War I 전투 (Wikidata 자동 생성, 직접 고쳐도 됨). 형식은 content/campaigns/CLAUDE.md
+
+@ battle-of-gumbinnen
+wikipedia: Battle of Gumbinnen
+when: 1914-08
+coords: 22.2, 54.6
+links: 27
+
+@ battle-of-stalluponen
+wikipedia: Battle of Stallupönen
+when: 1914-08
+coords: 22.57, 54.63
+links: 29
+
+@ battle-of-the-ardennes
+wikipedia: Battle of the Ardennes
+when: 1914-08
+coords: 5.67, 50.25
+links: 21
+
+@ battle-of-tannenberg
+wikipedia: Battle of Tannenberg
+when: 1914-08
+coords: 20.5, 53.75
+links: 51
+
+@ battle-of-galicia
+wikipedia: Battle of Galicia
+when: 1914-08 ~ 1914-09
+coords: 24.02, 49.85
+links: 37
+
+@ battle-of-liege
+wikipedia: Battle of Liège
+when: 1914-08
+coords: 5.57, 50.47
+links: 41
+
+@ battle-of-lorraine
+wikipedia: Battle of Lorraine
+when: 1914-08
+coords: 6.72, 48.8
+links: 20
+
+@ battle-of-charleroi
+wikipedia: Battle of Charleroi
+when: 1914-08
+coords: 4.44, 50.41
+links: 26
+
+@ battle-of-cer
+wikipedia: Battle of Cer
+when: 1914-08
+coords: 19.53, 44.55
+links: 29
+
+@ battle-of-mons
+wikipedia: Battle of Mons
+when: 1914-08
+coords: 3.95, 50.48
+links: 24
+
+@ german-invasion-of-belgium-1914
+wikipedia: German invasion of Belgium (1914)
+when: 1914-08 ~ 1914-10
+coords: 4.33, 50.83
+links: 20
+
+@ battle-of-heligoland-bight-1914
+wikipedia: Battle of Heligoland Bight (1914)
+when: 1914-08
+coords: 7.51, 54.19
+links: 22
+
+@ first-battle-of-the-marne
+wikipedia: First Battle of the Marne
+when: 1914-09
+coords: 3.38, 49.02
+links: 59
+
+@ battle-of-the-frontiers
+wikipedia: Battle of the Frontiers
+when: 1914-09 ~ 1919-09
+coords: 6, 49
+links: 31
+
+@ siege-of-antwerp-1914
+wikipedia: Siege of Antwerp (1914)
+when: 1914-09 ~ 1914-10
+coords: 4.41, 51.22
+links: 28
+
+@ first-battle-of-the-masurian-lakes
+wikipedia: First Battle of the Masurian Lakes
+when: 1914-09
+coords: 22, 54
+links: 35
+
+@ siege-of-przemysl
+wikipedia: Siege of Przemyśl
+when: 1914-09 ~ 1915-03
+coords: 22.77, 49.78
+links: 30
+
+@ race-to-the-sea
+wikipedia: Race to the Sea
+when: 1914-09 ~ 1914-11
+coords: 2.83, 49.5
+links: 28
+
+@ first-battle-of-the-aisne
+wikipedia: First Battle of the Aisne
+when: 1914-10
+coords: 3.67, 49.43
+links: 21
+
+@ first-battle-of-ypres
+wikipedia: First Battle of Ypres
+when: 1914-10 ~ 1914-11
+coords: 2.89, 50.85
+links: 37
+
+@ battle-of-the-yser
+wikipedia: Battle of the Yser
+when: 1914-10
+coords: 2.72, 51.15
+links: 22
+
+@ caucasus-campaign
+wikipedia: Caucasus campaign
+when: 1914-10 ~ 1918-10
+coords: 44.3, 39.7
+links: 42
+
+@ battle-of-kolubara
+wikipedia: Battle of Kolubara
+when: 1914-11 ~ 1914-12
+coords: 20.26, 44.38
+links: 28
+
+@ battle-of-odz-1914
+wikipedia: Battle of Łódź (1914)
+when: 1914-11 ~ 1914-12
+coords: 19.45, 51.78
+links: 21
+
+@ first-battle-of-champagne
+wikipedia: First Battle of Champagne
+when: 1914-12 ~ 1915-03
+coords: 4.5, 49
+links: 21
+
+@ battle-of-sarikamish
+wikipedia: Battle of Sarikamish
+when: 1914-12 ~ 1915-01
+coords: 42.57, 40.34
+links: 37
+
+@ battle-of-dogger-bank-1915
+wikipedia: Battle of Dogger Bank (1915)
+when: 1915-01
+coords: 2.77, 54.72
+links: 27
+
+@ second-battle-of-the-masurian-lakes
+wikipedia: Second Battle of the Masurian Lakes
+when: 1915-02
+coords: 22, 54
+links: 25
+
+@ defense-of-van-1915
+wikipedia: Defense of Van (1915)
+when: 1915-04 ~ 1915-05
+coords: 43.38, 38.49
+links: 27
+
+@ second-battle-of-ypres
+wikipedia: Second Battle of Ypres
+when: 1915-04 ~ 1915-05
+coords: 2.94, 50.9
+links: 38
+
+@ gallipoli-campaign
+wikipedia: Gallipoli campaign
+when: 1915-04 ~ 1916-01
+coords: 26.28, 40.24
+links: 75
+
+@ battles-of-the-isonzo
+wikipedia: Battles of the Isonzo
+when: 1915-05 ~ 1917-10
+coords: 13.55, 46.05
+links: 28
+
+@ gorlice-tarnow-offensive
+wikipedia: Gorlice–Tarnów offensive
+when: 1915-06
+coords: 21.16, 49.65
+links: 31
+
+@ first-battle-of-the-isonzo
+wikipedia: First Battle of the Isonzo
+when: 1915-06 ~ 1915-07
+coords: 13.6, 45.94
+links: 24
+
+@ second-battle-of-the-isonzo
+wikipedia: Second Battle of the Isonzo
+when: 1915-07 ~ 1915-08
+coords: 13.53, 45.86
+links: 20
+
+@ battle-of-loos
+wikipedia: Battle of Loos
+when: 1915-09 ~ 1915-10
+coords: 2.79, 50.46
+links: 21
+
+@ siege-of-kut
+wikipedia: Siege of Kut
+when: 1915-12 ~ 1916-04
+coords: 45.82, 32.51
+links: 28
+
+@ battle-of-asiago
+wikipedia: Battle of Asiago
+when: 1916-01 ~ 1916-06
+coords: 11.51, 45.9
+links: 24
+
+@ erzurum-offensive
+wikipedia: Erzurum offensive
+when: 1916-01 ~ 1916-02
+coords: 41.28, 39.91
+links: 23
+
+@ battle-of-verdun
+wikipedia: Battle of Verdun
+when: 1916-02 ~ 1916-12
+coords: 5.42, 49.21
+links: 71
+
+@ lake-naroch-offensive
+wikipedia: Lake Naroch offensive
+when: 1916-03 ~ 1916-04
+coords: 26.78, 54.85
+links: 23
+
+@ battle-of-jutland
+wikipedia: Battle of Jutland
+when: 1916-05 ~ 1916-06
+coords: 5.9, 56.7
+links: 57
+
+@ battle-of-the-somme
+wikipedia: Battle of the Somme
+when: 1916-07 ~ 1916-11
+coords: 2.7, 50.02
+links: 70
+
+@ battle-of-transylvania
+wikipedia: Battle of Transylvania
+when: 1916-10 ~ 1916-11
+coords: 23.58, 46.6
+links: 21
+
+@ first-battle-of-gaza
+wikipedia: First Battle of Gaza
+when: 1917-03
+coords: 34.47, 31.49
+links: 21
+
+@ battle-of-arras-1917
+wikipedia: Battle of Arras (1917)
+when: 1917-04 ~ 1917-05
+coords: 2.78, 50.29
+links: 28
+
+@ second-battle-of-the-aisne
+wikipedia: Second Battle of the Aisne
+when: 1917-04 ~ 1917-05
+coords: 3.6, 49.4
+links: 20
+
+@ battle-of-vimy-ridge
+wikipedia: Battle of Vimy Ridge
+when: 1917-04
+coords: 2.77, 50.38
+links: 31
+
+@ nivelle-offensive
+wikipedia: Nivelle offensive
+when: 1917-04 ~ 1917-05
+coords: 3.5, 49.5
+links: 26
+
+@ battle-of-messines-1917
+wikipedia: Battle of Messines (1917)
+when: 1917-06
+coords: 2.86, 50.78
+links: 28
+
+@ battle-of-passchendaele
+wikipedia: Battle of Passchendaele
+when: 1917-07 ~ 1917-11
+coords: 3.02, 50.9
+links: 47
+
+@ operation-albion
+wikipedia: Operation Albion
+when: 1917-09 ~ 1917-10
+coords: 23, 58.5
+links: 24
+
+@ battle-of-caporetto
+wikipedia: Battle of Caporetto
+when: 1917-10 ~ 1917-11
+coords: 13.64, 46.21
+links: 47
+
+@ battle-of-jerusalem
+wikipedia: Battle of Jerusalem
+when: 1917-11 ~ 1917-12
+coords: 35.23, 31.78
+links: 25
+
+@ battle-of-cambrai-1917
+wikipedia: Battle of Cambrai (1917)
+when: 1917-11 ~ 1917-12
+coords: 3.13, 50.13
+links: 43
+
+@ battle-of-megiddo-1918
+wikipedia: Battle of Megiddo (1918)
+when: 1918-01 ~ 1918-09
+coords: 34.88, 32.4
+links: 23
+
+@ battle-of-kruty
+wikipedia: Battle of Kruty
+when: 1918-01
+coords: 32.15, 51.08
+links: 22
+
+@ operation-michael
+wikipedia: Operation Michael
+when: 1918-03 ~ 1918-04
+coords: 3.28, 49.85
+links: 21
+
+@ battle-of-tampere
+wikipedia: Battle of Tampere
+when: 1918-03 ~ 1918-04
+coords: 23.75, 61.5
+links: 21
+
+@ german-spring-offensive
+wikipedia: German spring offensive
+when: 1918-03 ~ 1918-07
+coords: 2.65, 50
+links: 40
+
+@ second-battle-of-the-marne
+wikipedia: Second Battle of the Marne
+when: 1918-05 ~ 1918-08
+coords: 3.67, 49.08
+links: 34
+
+@ battle-of-sardarabad
+wikipedia: Battle of Sardarabad
+when: 1918-05
+coords: 43.95, 40.09
+links: 32
+
+@ battle-of-abaran
+wikipedia: Battle of Abaran
+when: 1918-05
+coords: 44.36, 40.59
+links: 23
+
+@ third-battle-of-the-aisne
+wikipedia: Third Battle of the Aisne
+when: 1918-05 ~ 1918-06
+coords: 3.73, 49.38
+links: 20
+
+@ second-battle-of-the-piave-river
+wikipedia: Second Battle of the Piave River
+when: 1918-06
+coords: 12.21, 45.83
+links: 28
+
+@ battle-of-belleau-wood
+wikipedia: Battle of Belleau Wood
+when: 1918-06
+coords: 3.29, 49.07
+links: 21
+
+@ battle-of-amiens-1918
+wikipedia: Battle of Amiens (1918)
+when: 1918-08
+coords: 2.29, 49.89
+links: 29
+
+@ battle-of-baku
+wikipedia: Battle of Baku
+when: 1918-08 ~ 1918-09
+coords: 49.78, 40.45
+links: 26
+
+@ hundred-days-offensive
+wikipedia: Hundred Days Offensive
+when: 1918-08 ~ 1918-11
+coords: 3, 50
+links: 38
+
+@ battle-of-dobro-pole
+wikipedia: Battle of Dobro Pole
+when: 1918-09
+coords: 21.89, 41.04
+links: 24
+
+@ meuse-argonne-offensive
+wikipedia: Meuse–Argonne offensive
+when: 1918-09 ~ 1918-11
+coords: 5.14, 49.27
+links: 32
+
+@ battle-of-vittorio-veneto
+wikipedia: Battle of Vittorio Veneto
+when: 1918-10 ~ 1918-11
+coords: 12.35, 45.96
+links: 31

@@ -1,0 +1,704 @@
+{
+  "Three Kingdoms": {
+    "pages": {
+      "ko": {
+        "title": "삼국 시대 (중국)",
+        "extract": "중국의 삼국 시대는 조위(曹魏), 촉한(蜀漢), 동오(東吳)가 경쟁하던 시기로, 한(漢) 왕조의 멸망 이후인 서기 220년부터 280년까지 중국을 지배하였다. 이 시기는 후한(東漢) 왕조에 이어 시작되었고, 서진(西晉)의 사마염에 의해 종결되었다. 학계에서는 보통 조위가 건국된 220년을 시작점으로, 진(晉)이 오(吳)를 정복한 280년을 종점으로 삼아 삼국 시대를 구분한다. 삼국 이전인 184년부터 220년까지는 한의 권위가 무너지며 전국적으로 군웅할거와 내전이 벌어졌던 혼란의 시기였다. 반면 220년부터 263년까지는 조위, 촉한, 동오 간에 비교적 안정된 삼국 균형 체제가 유지되었다. 이러한 안정은 263년 조위가 촉을 정복하면서 깨졌고, 이어 266년 진이 조위를 찬탈하고 최종적으로 280년 진이 오를 멸망시킴으로써 삼국 시대는 막을 내렸다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%82%BC%EA%B5%AD_%EC%8B%9C%EB%8C%80_(%EC%A4%91%EA%B5%AD)"
+      },
+      "en": {
+        "title": "Three Kingdoms",
+        "extract": "The Three Kingdoms of Cao Wei, Shu Han, and Eastern Wu dominated China from 220 to 280 AD following the end of the Han dynasty. This period was preceded by the Eastern Han dynasty and was followed by the Western Jin dynasty. Academically, the periodisation begins with the establishment of Cao Wei in 220 AD and ends with the conquest of Wu by Jin in 280 AD. The period immediately preceding the Three Kingdoms, from 184 to 220 AD, was marked by chaotic infighting among warlords across China as Han authority collapsed. The period from 220 to 263 AD was marked by a comparatively stable arrangement between Cao Wei, Shu Han, and Eastern Wu. This stability broke down with the conquest of Shu by Wei in 263 AD, followed by the usurpation of Cao Wei by Jin in 266 AD and ultimately the conquest of Wu by Jin in 280 AD.",
+        "url": "https://en.wikipedia.org/wiki/Three_Kingdoms"
+      },
+      "zh": {
+        "title": "三国",
+        "extract": "三国 是曹魏、蜀汉及孙吴三个国家并立的中国历史时期，也是魏晋南北朝和六朝的开端时期。一般认为是从建安元年起算。东汉末年战争不断，使得人口急剧下降，经济严重损害，因此三国皆重视经济发展，加上战争带来的需求，各种技术都有许多进步。",
+        "url": "https://zh.wikipedia.org/wiki/%E4%B8%89%E5%9B%BD"
+      },
+      "es": {
+        "title": "Tres Reinos",
+        "extract": "Los Tres Reinos es un periodo de la historia de China. En un estricto sentido académico, se refiere al periodo comprendido entre la fundación de Wei, en el 220, y la conquista de los Wu por la dinastía Jin, en el 280. Sin embargo, muchos historiadores chinos amplían el punto del comienzo de este periodo a la rebelión de los turbantes amarillos, en el 184.",
+        "url": "https://es.wikipedia.org/wiki/Tres_Reinos"
+      },
+      "hi": {
+        "title": "तीन राजशाहियाँ",
+        "extract": "तीन राजशाहियाँ प्राचीन चीन के एक काल को कहते हैं जो हान राजवंश के सन् २२० ईसवी में सत्ता-रहित होने के फ़ौरन बाद शुरू हुआ और जिन राजवंश की सन् २६५ ईसवी में स्थापना तक चला। इस काल में तीन बड़े राज्यों - साओ वेई, पूर्वी वू और शु हान - के बीच चीन पर नियंत्रण प्राप्त करने के लिए खींचातानी चली। कभी-कभी इन राज्यों को सिर्फ़ 'वेई', 'वू' और 'शु' भी बुलाया जाता है। कुछ इतिहासकारों के अनुसार इस काल की शुरुआत वेई राज्य की २२० ई में स्थापना से हुई और अंत पूर्वी वू राज्य पर जिन राजवंश की २८० में विजय से हुआ। बहुत से चीनी इतिहासकार इस काल की शुरुआत सन् १८४ में हुए 'पीली पगड़ी विद्रोह' से करते हैं जो हान राजवंश काल का एक किसान विद्रोह था जिसमें ताओ धर्म के अनुयायी भी गुप्त रूप से मिले हुए थे।",
+        "url": "https://hi.wikipedia.org/wiki/%E0%A4%A4%E0%A5%80%E0%A4%A8_%E0%A4%B0%E0%A4%BE%E0%A4%9C%E0%A4%B6%E0%A4%BE%E0%A4%B9%E0%A4%BF%E0%A4%AF%E0%A4%BE%E0%A4%81"
+      },
+      "ar": {
+        "title": "حقبة الممالك الثلاث",
+        "extract": "الممالك الثلاث هي ثلاث ممالك قامت فعليا عام 221م، بعد استيلاء تساو بي على عرش مملكة هان في الصين وأعلن تأسيس أسرة واي، وانقسمت خلالها الصين إلى ثلاث إمبراطوريات:مملكة شو تقع في جنوب غرب الصين وأسسها ليو باي \nمملكة وو تقع في جنوب شرق الصين وأسسها سون تشوان \nمملكة واي تقع في شمال الصين وأسسها تساو تساو (220-265)",
+        "url": "https://ar.wikipedia.org/wiki/%D8%AD%D9%82%D8%A8%D8%A9_%D8%A7%D9%84%D9%85%D9%85%D8%A7%D9%84%D9%83_%D8%A7%D9%84%D8%AB%D9%84%D8%A7%D8%AB"
+      },
+      "fr": {
+        "title": "Trois Royaumes de Chine",
+        "extract": "L'ère des « Trois Royaumes » (chinois traditionnel : 三國 ; pinyin : Sānguó) est une période de l'histoire chinoise qui commence en 220, après la chute de la dynastie Han et s'achève avec la réunification de la Chine par la dynastie des Jin occidentaux, en 280. C'est le début de la Chine médiévale. Les Trois Royaumes sont ceux de Wei au nord le long du fleuve Jaune, de Wu dans le sud-est, et de Shu au sud-ouest dans le bassin du Sichuan.",
+        "url": "https://fr.wikipedia.org/wiki/Trois_Royaumes_de_Chine"
+      },
+      "pt": {
+        "title": "Três Reinos",
+        "extract": "O período dos Três Reinos é um período na história da China, parte de uma era da desunião chamada Seis Dinastias. Em um sentido acadêmico profundo, se aceita o período entre a fundação de Wei em 220 à conquista de Wu pela Dinastia de Jin em 280. Entretanto, muitos historiadores chineses estendem o ponto de partida deste período para antes da revolta dos Turbantes Amarelos, em 184. O período posterior, parte “não oficial” do período, 190 a 220, foi marcado por lutas caóticas entre generais em várias partes da China. A parte média do período, de 220 e de 263, foi marcada por um arranjo mais militar e estável entre três estados rivais, sendo eles os reinos de Wei, Shu e Wu.",
+        "url": "https://pt.wikipedia.org/wiki/Tr%C3%AAs_Reinos"
+      }
+    }
+  },
+  "Battle of Xingyang (190)": {
+    "pages": {
+      "en": {
+        "title": "Battle of Xingyang (190)",
+        "extract": "The Battle of Xingyang was fought in c.April 190 in the late Eastern Han dynasty as part of the campaign against Dong Zhuo. It took place when Dong Zhuo's forces, led by Xu Rong, encountered the pursuing armies of Cao Cao at Xingyang. The battle ended in a victory for Dong Zhuo's forces, with Cao Cao being forced to retreat.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Xingyang_(190)"
+      },
+      "zh": {
+        "title": "荥阳之战 (190年)",
+        "extract": "荥阳之战是东汉末年的190年讨伐董卓之战的一部分，在徐荣率军于荥阳汴水遭遇讨董联军时发生。",
+        "url": "https://zh.wikipedia.org/wiki/%E8%8D%A5%E9%98%B3%E4%B9%8B%E6%88%98_(190%E5%B9%B4)"
+      },
+      "fr": {
+        "title": "Bataille de Xingyang",
+        "extract": "La Bataille de Xingyang se déroule en 190, durant la fin de la dynastie Han et fait partie des combats de la campagne contre Dong Zhuo. Elle oppose les troupes de Dong Zhuo, qui se replie sous les ordres du général Xu Rong après leur défaite à Luoyang, à celles de Cao Cao, qui rattrapent les fuyards à Xingyang.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Xingyang"
+      }
+    }
+  },
+  "Battle of Jieqiao": {
+    "pages": {
+      "ko": {
+        "title": "계교 전투",
+        "extract": "계교 전투(界橋戰鬪), 반하 전투(潘河戰鬪)는 191년 기주(冀州)에서 원소(袁紹)와 공손찬(公孫瓚)이 싸운 전투다. 여기서 대승리를 거둔 원소는 이후 거듭 공손찬을 격파하여 중국의 최대 강자로 부상한다.",
+        "url": "https://ko.wikipedia.org/wiki/%EA%B3%84%EA%B5%90_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Jieqiao",
+        "extract": "The Battle of Jieqiao was fought between the Chinese warlords Yuan Shao and Gongsun Zan in late 191 or early 192 in the late Eastern Han dynasty. It was the first significant clash of arms between the rival warlords in the contest for dominion of Ji and Qing provinces in northern China. The site of the battle is generally considered to be a site east of Guangzong County, Julu Commandery.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Jieqiao"
+      },
+      "zh": {
+        "title": "界橋之戰",
+        "extract": "界桥之战是中国东汉末年军阀混战时期，袁绍与公孙瓒为争夺冀州而开打的战争，为各地诸侯争夺地盘明显化的第一次会战。汉献帝初平二年（191年）冬，公孙瓒屯兵盘河，袁绍在界桥应战。此战之后双方仍然争战不断，先后发生龙凑之战、巨马水之战，历时两年，以双方互相耗尽兵粮及董卓借汉献帝之名遣使和解告终。",
+        "url": "https://zh.wikipedia.org/wiki/%E7%95%8C%E6%A9%8B%E4%B9%8B%E6%88%B0"
+      },
+      "es": {
+        "title": "Batalla de Jieqiao",
+        "extract": "La batalla de Jieqiao, también conocida como la batalla del Puente Jie, se libró entre los señores de la guerra Yuan Shao y Gongsun Zan en 191 durante los conflictos de las postrimetrías de la dinastía Han Oriental. Fue el primer choque armado significativo entre los señores de la guerra rivales en la contienda por el dominio de las provincias de Ji y Qing en el norte de China. El lugar de la batalla generalmente se considera un emplazamiento al este del condado de Guangzong, Comandancia de Julu.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Jieqiao"
+      },
+      "fr": {
+        "title": "Bataille de Jieqiao",
+        "extract": "La bataille de Jieqiao ou bataille du pont de Jie, se déroule en 191, à la fin de la dynastie Han, et oppose les armées des seigneurs de guerre Yuan Shao et Gongsun Zan. C’est le premier affrontement important entre chefs de guerre rivaux cherchant à contrôler les provinces de Ji et Qing dans le nord de la Chine. Le site de la bataille est généralement localisé à l’est du comté de Guangzong, dans la Commanderie de Julu, ce qui correspond actuellement au Xian de Wei, Xingtai, Hebei.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Jieqiao"
+      }
+    }
+  },
+  "Battle of Xiangyang (191)": {
+    "pages": {
+      "ko": {
+        "title": "양양 전투",
+        "extract": "양양 전투(襄陽戰鬪)는 191년 혹은 192년 원술이 손견으로 하여금 형주의 유표를 공격한 전투다. 손견은 초기에는 선전했으나 끝내 황조에게 전사하였다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%96%91%EC%96%91_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Xiangyang (191)",
+        "extract": "The Battle of Xiangyang was fought between the warlords Sun Jian and Liu Biao in 191 in the late Eastern Han dynasty. Liu Biao emerged victorious against Sun Jian's forces. Shortly after their coalition had ousted Dong Zhuo from the capital Luoyang, Yuan Shu and Yuan Shao, two feudal lords vying for power, had formed alliances against one another, with Gongsun Zan supporting Yuan Shu while Liu Biao supported Yuan Shao. Yuan Shu sent his subordinate Sun Jian to attack Liu Biao in order to extinguish Yuan Shao's influence in the southern half of China. Although Sun Jian initially outmaneuvered and outfought Liu Biao, he was killed in action and his army forced to retreat.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Xiangyang_(191)"
+      },
+      "zh": {
+        "title": "襄阳之战",
+        "extract": "发生在191年的襄阳之战是东汉末年军阀割据时期，孙坚和刘表之间的一场战役。刘表为此战之最后胜利者。事缘在反董卓联盟瓦解后，袁术、袁绍两位军阀为争权夺利，各自组织联盟跟对方抗衡，孙坚、公孙瓒及陶谦等人支持袁术，而曹操、刘表等人则支持袁绍。初平二年，袁术为企图染指汉南，就命下属孙坚攻打刘表，并希望借此消除袁绍在荆襄的势力。尽管孙坚在初战中取得胜利，但他在围攻襄阳城时，与黄祖交战而阵亡，故他的军队也被迫撤退。",
+        "url": "https://zh.wikipedia.org/wiki/%E8%A5%84%E9%98%B3%E4%B9%8B%E6%88%98"
+      },
+      "fr": {
+        "title": "Bataille de Xiangyang (191)",
+        "extract": "La bataille de Xiangyang,, se déroule en 191, à la fin de la dynastie Han et oppose les armées des seigneurs de guerre Sun Jian et Liu Biao. Elle se conclut par la victoire de Liu Biao",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Xiangyang_(191)"
+      }
+    }
+  },
+  "Battle of Yangcheng": {
+    "pages": {
+      "en": {
+        "title": "Battle of Yangcheng",
+        "extract": "The Battle of Yangcheng was fought between the warlords Yuan Shao and Yuan Shu as the coalition against Dong Zhuo fell apart in 191 in the late Eastern Han dynasty. Sun Jian, Yuan Shu's nominal subordinate returning from his triumphant capture of the abandoned capital of Luoyang, became involved in Yuan Shao's and Yuan Shu's personal feud as the former allies turned against one another. Yuan Shao's forces, under Zhou Yu, first got the upper hand against Sun Jian's forces, but were beaten back by Sun's counterattack.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Yangcheng"
+      },
+      "zh": {
+        "title": "阳城之战",
+        "extract": "阳城之战是中国历史的东汉末年在讨董联军于191年解体后袁绍和袁术之间的一场战役。袁术部下孙坚攻占废弃的都城洛阳后凯旋，卷入原为讨董盟友的二袁之间的私人恩怨；同时，公孙瓒派其从弟公孙越支援袁术，而公孙越战死于此战，导致公孙瓒和袁绍结怨。最初袁绍军在周㬂带领下对孙坚军占了上风，但为孙坚反攻所败。",
+        "url": "https://zh.wikipedia.org/wiki/%E9%98%B3%E5%9F%8E%E4%B9%8B%E6%88%98"
+      },
+      "fr": {
+        "title": "Bataille de Yangcheng",
+        "extract": "la bataille de Yangcheng a lieu en 191, à la fin de la Dynastie Han, et oppose les seigneurs de guerre Yuan Shao et Yuan Shu, à la suite de l'échec de la campagne contre Dong Zhuo. Sun Jian, un des généraux de Yuan Shu, se retrouve impliqué dans ce conflit entre anciens alliés, alors qu'il retourne au campement après avoir chassé les troupes de Dong Zhuo des ruines de Luoyang, l'ancienne capitale. Dans un premier temps, ce sont les forces de Yuan Shao, dirigées par Zhou Yu, qui ont le dessus, mais Sun Jian réussit à vaincre ses ennemis lors d'une contre-attaque.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Yangcheng"
+      }
+    }
+  },
+  "Battle of Yan Province": {
+    "pages": {
+      "ko": {
+        "title": "복양 전투",
+        "extract": "복양 전투(濮陽戰鬪)는 194년~195년에 두 차례에 걸쳐 연주와 복양을 두고 조조와 여포가 싸운 전투로 조조가 이 전투에서 승리해 다시 연주를 되찾고 여포는 서주의 유비에게로 가 의탁한다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%B3%B5%EC%96%91_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Yan Province",
+        "extract": "The Battle of Yan Province was fought between the warlords Cao Cao and Lü Bu for control of Yan Province in the late Eastern Han dynasty. The battle lasted for at least one hundred days with an indecisive conclusion.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Yan_Province"
+      },
+      "zh": {
+        "title": "兖州之战",
+        "extract": "兖州之战是汉末军阀曹操和吕布争夺兖州的战役。战事持续了百余日，胜负未分。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%85%96%E5%B7%9E%E4%B9%8B%E6%88%98"
+      },
+      "fr": {
+        "title": "Bataille de la Province de Yan",
+        "extract": "La bataille de la Province de Yan,, se déroule de 194 à 195, à la fin de la dynastie Han et oppose les armées des seigneurs de guerre Cao Cao et Lü Bu. Ils se disputent le contrôle de la province de Yan, ce qui correspond actuellement au Sud-Ouest du Shandong et à l'est du Henan. Les combats durent au moins 100 jours et s'achèvent sans qu'aucun des deux camps n'ait réussi à remporter la victoire.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_la_Province_de_Yan"
+      }
+    }
+  },
+  "War between Cao Cao and Zhang Xiu": {
+    "pages": {
+      "ko": {
+        "title": "완성 전투",
+        "extract": "완성 전투(宛城戰鬪)는 197년 조조와 장수가 싸운 전투로 조조는 장수에 맞서 완성과 남양성에서 대공격을 감행했으나 끝내 장수를 무찌르지 못하고 최초로 패배했다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%99%84%EC%84%B1_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "War between Cao Cao and Zhang Xiu",
+        "extract": "The war between Cao Cao and Zhang Xiu was fought between the warlords Cao Cao and Zhang Xiu between 197 and 199 in the late Eastern Han dynasty of China. It concluded with Zhang Xiu's surrender to Cao Cao.",
+        "url": "https://en.wikipedia.org/wiki/War_between_Cao_Cao_and_Zhang_Xiu"
+      },
+      "zh": {
+        "title": "曹操与张绣的战争",
+        "extract": "宛城之战是东汉末年曹操与张绣之间的一场战争。结果是张绣投降曹操。",
+        "url": "https://zh.wikipedia.org/wiki/%E6%9B%B9%E6%93%8D%E4%B8%8E%E5%BC%A0%E7%BB%A3%E7%9A%84%E6%88%98%E4%BA%89"
+      },
+      "fr": {
+        "title": "Bataille de Wancheng",
+        "extract": "La bataille de Wancheng, ou bataille de Wan, oppose les seigneurs de guerre Cao Cao et Zhang Xiu en 197, à la fin de la dynastie Han. Zhang Xiu remporte la victoire, pendant que Cao Cao s'enfuit après sa défaite.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Wancheng"
+      }
+    }
+  },
+  "Battle of Xiapi": {
+    "pages": {
+      "ko": {
+        "title": "하비 전투",
+        "extract": "하비 전투(下邳 戰鬪)는 198년 서주의 하비를 목표로 조조와 여포가 싸운 전투로, 조조는 이 전투에서 승리하여 서주를 되찾고 여포는 처형된다.",
+        "url": "https://ko.wikipedia.org/wiki/%ED%95%98%EB%B9%84_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Xiapi",
+        "extract": "The Battle of Xiapi was fought between the forces of Lü Bu against the allied armies of Cao Cao and Liu Bei from the winter of 198 to 7 February 199 towards the end of the Eastern Han dynasty in China. The battle concluded with victory for Cao Cao and Liu Bei, with Lü Bu being subsequently executed.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Xiapi"
+      },
+      "zh": {
+        "title": "下邳之戰",
+        "extract": "下邳之战，发生于东汉献帝建安三年（198年至199年初），是三国时期一场战争。这场战争中吕布势力覆亡，曹操取得吕布控制的徐州，并且能在官渡之战以前消除吕布乘虚后袭的危机。",
+        "url": "https://zh.wikipedia.org/wiki/%E4%B8%8B%E9%82%B3%E4%B9%8B%E6%88%B0"
+      },
+      "es": {
+        "title": "Batalla de Xiapi",
+        "extract": "La Batalla de Xiapi se libró entre las fuerzas de Lü Bu y los ejércitos aliados de Cao Cao y Liu Bei, entre el invierno de 198 y el 7 de febrero de 199, hacia el final de la dinastía Han del Este en China. La batalla concluyó con la victoria de Cao Cao y Liu Bei.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Xiapi"
+      },
+      "fr": {
+        "title": "Bataille de Xiapi",
+        "extract": "La bataille de Xiapi,, oppose l'armée de Lü Bu à l'alliance des armées de Cao Cao et Liu Bei, durant l’hiver 198, pendant la fin de la dynastie Han. La bataille s'achève par la victoire de Cao Cao et Liu Bei.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Xiapi"
+      }
+    }
+  },
+  "Battle of Guandu": {
+    "pages": {
+      "ko": {
+        "title": "관도 대전",
+        "extract": "관도 대전(官渡大戰)은 중국 후한 말 시기에 관도(官渡 : 현재의 허난성 정저우시 중무현 근처)에서 사공 조조(曹操)와 대장군 겸 기주목 원소(袁紹)가 벌인 큰 전투이다. 적벽 대전 · 이릉 대전과 함께 삼국시대의 흐름을 결정지었던 중요한 전투이다.",
+        "url": "https://ko.wikipedia.org/wiki/%EA%B4%80%EB%8F%84_%EB%8C%80%EC%A0%84"
+      },
+      "en": {
+        "title": "Battle of Guandu",
+        "extract": "The Battle of Guandu was fought between the warlords Cao Cao and Yuan Shao in 200 AD in the late Eastern Han dynasty. Cao Cao's decisive victory against Yuan Shao's numerically superior forces marked the turning point in their war. The victory was also the point at which Cao Cao became the dominant power in northern China, leading to the establishment of the state of Cao Wei in the Three Kingdoms period.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Guandu"
+      },
+      "zh": {
+        "title": "官渡之战",
+        "extract": "官渡之战，是汉末三国时期以少胜多之战役。东汉献帝建安五年（200年），袁绍军南攻曹操军，相持于官渡，曹军焚毁袁军粮草，使得袁军丧失斗志，继而击溃袁军主力。此战奠定曹操统一汉朝北方之基础。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%AE%98%E6%B8%A1%E4%B9%8B%E6%88%98"
+      },
+      "es": {
+        "title": "Batalla de Guandu",
+        "extract": "La batalla de Guandu (官渡之戰) fue una batalla del período de los Tres Reinos de la historia de China. Tomó lugar en las cercanías del río Amarillo en el 200. Fue una victoria crucial del señor de la guerra Cao Cao (155-220) derrotó a su rival Yuan Shao (154-202) pasando a controlar gran parte del norte de China.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Guandu"
+      },
+      "ar": {
+        "title": "معركة غوان دو",
+        "extract": "حرب غوان دو هي حرب وقعت سنة 200 م بين أمير الحرب يوان شاو وأمير الحرب تساو تساو من أجل الإستيلاء على البلاد.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%BA%D9%88%D8%A7%D9%86_%D8%AF%D9%88"
+      },
+      "fr": {
+        "title": "Bataille de Guandu",
+        "extract": "La bataille de Guandu est une bataille ayant eu lieu en Chine lors de la fin de la dynastie Han. Elle vit s’affronter, en 200, Yuan Shao et Cao Cao pour une position stratégique proche du fleuve Jaune, sur la route de Xuchang.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Guandu"
+      },
+      "pt": {
+        "title": "Batalha de Guandu",
+        "extract": "A batalha de Guandu foi travada entre os senhores da guerra Cao Cao e Yuan Shao em 200 d.C. no final da dinastia Han. A batalha, a qual findou numa vitória decisiva para Cao Cao, foi o ponto de inflexão na guerra entre os dois senhores da guerra. Marcou o começo da reunificação gradual da China setentrional por Cao Cao, o qual fez possível o estabelecimento do estado de Cao Wei no período dos Três Reinos.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Guandu"
+      }
+    }
+  },
+  "Battle of Bowang": {
+    "pages": {
+      "ko": {
+        "title": "박망파 전투",
+        "extract": "박망파 전투(博望坡 戰鬪)는 후한 말기 형주 신야 부근 박망파에서 유비와 조조 휘하의 하후돈 사이에 벌어진 전투이다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%B0%95%EB%A7%9D%ED%8C%8C_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Bowang",
+        "extract": "The Battle of Bowang, also known as the Battle of Bowang Slope, was fought between the warlords Cao Cao and Liu Bei in 202 in the late Eastern Han dynasty.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Bowang"
+      },
+      "zh": {
+        "title": "博望坡之戰",
+        "extract": "博望坡之战，发生于东汉建安七年（202年）。此战曹操指派大将夏侯惇，于博望与刘备交战，然而功败垂成；日后曹操将重心转移至北方的袁谭与袁尚身上，无暇再顾及荆州的刘备，使其获得休养生息的机会。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%8D%9A%E6%9C%9B%E5%9D%A1%E4%B9%8B%E6%88%B0"
+      },
+      "fr": {
+        "title": "Bataille de Bowang",
+        "extract": "La bataille de Bowang(chinois simplifié : 博望之战 ; chinois traditionnel : 博望之戰 ; pinyin : Bówàng Zhī Zhàn), ou bataille de la pente de Bowang, a lieu en Chine en l'an 202, durant la fin de la dynastie Han. Elle oppose deux seigneurs de guerre, Cao Cao et Liu Bei, et s'achève par la victoire des troupes de ce dernier.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Bowang"
+      },
+      "pt": {
+        "title": "Batalha de Bowang",
+        "extract": "A Batalha de Bowang foi um batalha travada em 202 d.C. entre os senhores da guerra Cao Cao e Liu Bei, no final da dinastia Han de Leste.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Bowang"
+      }
+    }
+  },
+  "Battle of Xiakou": {
+    "pages": {
+      "en": {
+        "title": "Battle of Xiakou",
+        "extract": "The Battle of Xiakou was fought between the warlords Sun Quan and Liu Biao in 203 in the late Eastern Han dynasty. Sun Quan's forces attempted to conquer Jiangxia Commandery, which was defended by Liu Biao's general, Huang Zu. The battle was inconclusive as Sun Quan's forces were unable to capture Jiangxia even when Huang Zu retreated. The battle is not to be confused with the Battle of Jiangxia that took place five years later, which concluded with victory for Sun Quan over Huang Zu.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Xiakou"
+      },
+      "zh": {
+        "title": "夏口之战",
+        "extract": "夏口之战是中国的三国时期之前的公元203年发生在军阀会稽太守孙权和荆州牧刘表之间的一场战役。孙权试图征服刘表部将黄祖把守的江夏郡。这场战役没有结果，即使在黄祖撤退后，孙权也未能攻占江夏。直到五年后的江夏之战，孙权才终于取得对黄祖的完胜。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%A4%8F%E5%8F%A3%E4%B9%8B%E6%88%98"
+      },
+      "fr": {
+        "title": "Bataille de Xiakou",
+        "extract": "La bataille de Xiakou, a lieu en Chine en l'an 203, durant la fin de la dynastie Han, entre les forces de deux seigneurs de guerre, Sun Quan et Liu Biao. Les troupes de Quan tentent de conquérir la Commanderie de Jiangxia, qui est défendue par Huang Zu, un des généraux de Biao. Il n'y a pas de véritable vainqueur à la fin des combats, car les soldats de Sun Quan n'arrivent pas à prendre la ville, même après le repli de Zu. Il ne faut pas confondre cet affrontement avec la bataille de Jiangxia, qui a lieu au même endroit en 208 et se conclut par la victoire de Sun Quan sur Huang Zu.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Xiakou"
+      }
+    }
+  },
+  "Battle of Red Cliffs": {
+    "pages": {
+      "ko": {
+        "title": "적벽 대전",
+        "extract": "적벽 대전(赤壁大戰)은 중국 후한 말 천하통일을 목표로 남하하는 조조에 대항하기 위해 손권과 유비가 연합해 양자강 적벽에서 벌인 큰 전투이다. 오의 대도독 주유가 조조의 대군을 크게 격파하며 조조의 남하를 저지하였다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%A0%81%EB%B2%BD_%EB%8C%80%EC%A0%84"
+      },
+      "en": {
+        "title": "Battle of Red Cliffs",
+        "extract": "The Battle of Red Cliffs, also known as the Battle of Chibi, was a decisive naval battle in China that took place during the winter of 208–209 AD. It was fought on the Yangtze River between the forces of warlords controlling different parts of the country during the end of the Han dynasty. The allied forces of Sun Quan, Liu Bei, and Liu Qi based south of the Yangtze defeated the numerically superior forces of the northern warlord Cao Cao. By doing so, Liu Bei and Sun Quan prevented Cao Cao from conquering any lands south of the Yangtze, frustrating Cao Cao's efforts to reunify the territories formerly held by the Eastern Han dynasty.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Red_Cliffs"
+      },
+      "zh": {
+        "title": "赤壁之戰",
+        "extract": "赤壁之战是东汉末年曹操南攻刘表、刘备、孙权之战役，亦可单指发生于长江赤壁、乌林一线的决战。该战是三国时期“三大战役”之一，也是中国历史上以少胜多的著名战事。在赤壁的决战是首次发生于长江流域的大规模水战。",
+        "url": "https://zh.wikipedia.org/wiki/%E8%B5%A4%E5%A3%81%E4%B9%8B%E6%88%B0"
+      },
+      "es": {
+        "title": "Batalla de los Acantilados Rojos",
+        "extract": "La batalla de los Acantilados Rojos, también conocida como batalla de Chibi, fue una batalla decisiva en el contexto del final de la dinastía Han, inmediatamente anterior al período de los Tres Reinos de la historia de China. Se libró en el invierno del 208 al 209 d. C. entre las fuerzas aliadas sureñas de los señores de la guerra Liu Bei y Sun Quan y las numéricamente superiores fuerzas norteñas del señor de la guerra Cao Cao. Liu Bei y Sun Quan consiguieron frustrar los esfuerzos de Cao Cao por conquistar las tierras al sur del río Yangtsé y reunificar el territorio oriental de la dinastía Han. La victoria aliada en los Acantilados Rojos aseguró la supervivencia de Liu Bei y Sun Quan, les dio el control del Yangtsé y proporcionó una línea de defensa que fue la base para la posterior creación de los dos Estados del sur de Han Shu y Wu.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_los_Acantilados_Rojos"
+      },
+      "ar": {
+        "title": "معركة المنحدرات الحمراء",
+        "extract": "معركة المنحدرات الحمراء ، والمعروف باسم معركة تشيبي، معركة حاسمة في نهاية عهد أسرة هان ، وذلك مباشرة قبل فترة الممالك الثلاث في التاريخ الصيني. وقد نشبت في شتاء 208/9 م بين القوات المتحالفة مع سون تشوان وليو باي أمراء الحرب، وكان هناك القائد الكبير تشو يو التابع لسون تشوان الذي درب قوات ليو باي على ركوب النهر وكان تشو يو هو من قاد المعركة بنفسه وقاد الجنود والكتائب البحرية وكان هناك القوات المتفوقة عدديا لامير الحرب تساو تساو في الشمال. سون تشوان وليو باي نجحا بإحباط جهد تساو تساو لاحتلال الأراضي الواقعة بجنوب نهر اليانغتسى، بفضل القائد تشو يو وخبرته الطويلة في المعارك وكانت اساطيل تساو تساو تنسحب من النهر التي هزمت من قبل أساطيل التحالف بقيادة تشو يو لا حظ القائد الكبير في السن هوانغ قاي الأنسحاب وخطرت له فكره وقام بهجوم ناري عنيف على أساطيل تساو تساو المنسحبه ونجح هجومه القوي الذي دمر اساطيل العدو وكان تأثير الهجوم هذا وصل إلى اليابسه وألسنت اللهب والنيران وصلت إلى مخيمات العدو من النهر من الضفة المقابلة وكان هذا الهجوم سبب ضعف في مملكة واي وقام القائد تشو يو بالهجوم على مدن مملكة واي ولا حق جيوش تساو تساو وتم فوز قوات التحالف والسيطرة على نهر يانغتسى وتم تحصين النهر من قبل قوات وو\nفوز الحلفاء في المعركة ضمن سون تشوان بالنجاة، واتاح له السيطرة على نهر اليانغتسى، وضمن له النصر خط الدفاع الذي حصنه سون تشوان لتصدي الهجمات المستقبلية من قوات تساو تساو وتثبيت جذور وحكم عائلة سون الملكية. على الرغم من موقع المعركة الدقيق لا يزال غير مؤكد اين وقعت الحادثة، غالبية الاكادميين يعتقدون انه يقع على الضفة الجنوبية لنهر اليانغتسى، جنوب غربي مدينة ووهان في الوقت الحاضر وإلى الشمال الشرقي من Baqiu .\nكتب عن المعركة في كتاب الذي اظهر تفاصيل المعركة وتعد من أهم معارك سون تشوان وفي النهاية سون تشوان كافئ ليو باي وقام بأعطائه مدينتين في مقاطعة جينغ لأنه تحالف معه وشارك بجزء من قواته مع قوات مملكة وو في هذه المعركة.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%A7%D9%84%D9%85%D9%86%D8%AD%D8%AF%D8%B1%D8%A7%D8%AA_%D8%A7%D9%84%D8%AD%D9%85%D8%B1%D8%A7%D8%A1"
+      },
+      "fr": {
+        "title": "Bataille de la Falaise rouge",
+        "extract": "La bataille de la Falaise rouge, ou bataille de Chi Bi, est une célèbre bataille à la fin de la dynastie Han qui s’est déroulée au cours de l’hiver 208-209 pour le contrôle du Yangtsé. Elle voit la défaite de Cao Cao, seigneur du Wei, face aux armées alliées pourtant très inférieures en nombre des royaumes de Wu et de Shu, sous le commandement de Zhou Yu et de Zhuge Liang. Après cette campagne Cao Cao n'aura plus jamais l'occasion de soumettre Wu ou Shu, ce dernier royaume tenant fermement le long fleuve.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_la_Falaise_rouge"
+      },
+      "pt": {
+        "title": "Batalha dos Penhascos Vermelhos",
+        "extract": "Batalha de Penhascos Vermelhos, também conhecida como a Batalha de Chibi, foi uma batalha decisiva travada no final da dinastia Han, cerca de doze anos antes do início do período na história chinesa dos Três Reinos. Ela foi travada no inverno de 208/9 entre as forças aliadas do sul senhores da guerra Liu Bei e Sun Quan e as forças numericamente superiores do guerreiro do norte, Cao Cao.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_dos_Penhascos_Vermelhos"
+      }
+    }
+  },
+  "Battle of Jiangling (208)": {
+    "pages": {
+      "ko": {
+        "title": "남군 전투",
+        "extract": "남군 전투(南郡 戰鬪)는 208년 적벽 대전 후 형주에서의 조조 세력이 약해진 틈을 타 손권과 유비가 형주의 남군, 양양, 이릉 등을 습격해 조조군과 교전을 벌였고 결국 형주를 탈환했다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%82%A8%EA%B5%B0_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Jiangling (208)",
+        "extract": "The Battle of Jiangling was fought by the allied forces of Sun Quan and Liu Bei against Cao Cao during the late Eastern Han dynasty of China. The battle was an integral part of the Red Cliffs campaign, and was fought immediately after the Battle of Yiling in 208, and the preceding engagement at Wulin on land and the marine Battle of Red Cliffs where Cao Cao's navy was destroyed. Note that the battle at Wulin was a byproduct of the Battle of Red Cliffs, and they were not the same battle.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Jiangling_(208)"
+      },
+      "zh": {
+        "title": "江陵之战 (208年)",
+        "extract": "江陵之战是东汉末年孙权和刘备联军对抗曹操的战事。此战是赤壁军事行动的一部分，在208年曹操军于赤壁之战的水战和夷陵之战之后的乌林陆地遭遇战中溃败后立刻开战。其中乌林的战事是赤壁之战的副产物，不可混同。",
+        "url": "https://zh.wikipedia.org/wiki/%E6%B1%9F%E9%99%B5%E4%B9%8B%E6%88%98_(208%E5%B9%B4)"
+      },
+      "fr": {
+        "title": "Bataille de Jiangling",
+        "extract": "La bataille de Jiangling (江陵之战) est la dernière de la campagne de la Falaise rouge. Après la défaite de Cao Cao à la bataille de la Falaise rouge, les vainqueurs ont cherché à reprendre l'importante base de Jiangling sur le fleuve Yangtsé, et pour cela ont pris Yiling par où passait le ravitaillement de Jiangling. Les commandants de la bataille de Jiangling ont été les mêmes que ceux qui ont dirigé celle de Yiling. Après quelques escarmouches féroces dans un premier temps, la bataille se transforma en siège pendant presque un an. Sun Quan finit par prendre la ville, mettant fin à la campagne et stabilisant la situation politique des trois royaumes.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Jiangling"
+      }
+    }
+  },
+  "Battle of Hefei (208)": {
+    "pages": {
+      "ko": {
+        "title": "합비 전투 (208년)",
+        "extract": "합비 전투(合肥戰鬪)는 208년(건안 13년) 손권이 적벽 대전에서 승리한 여세를 몰아 조조군의 합비로 쳐들어간 전투로 손권이 패배했다.",
+        "url": "https://ko.wikipedia.org/wiki/%ED%95%A9%EB%B9%84_%EC%A0%84%ED%88%AC_(208%EB%85%84)"
+      },
+      "en": {
+        "title": "Battle of Hefei (208)",
+        "extract": "The Battle of Hefei was fought between the warlords Cao Cao and Sun Quan between late 208 and early 209 in the late Eastern Han dynasty.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Hefei_(208)"
+      },
+      "fr": {
+        "title": "Bataille de Hefei (208)",
+        "extract": "La bataille de Hefei, qui fait partie intégrante de la campagne de la Falaise rouge, se déroule entre la fin de l'an 208 et le début l'an 209, à la fin de la dynastie Han. Elle oppose les seigneurs de guerre Cao Cao et Sun Quan.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Hefei_(208)"
+      }
+    }
+  },
+  "Battle of Changban": {
+    "pages": {
+      "ko": {
+        "title": "장판 전투",
+        "extract": "장판 전투(長坂戰鬪)는 중국 후한 말 208년 승상 조조가 형주(荊州) 신야(新野)의 유비 세력을 섬멸하기 위해 5천 기병으로 공격한 것을 말한다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%9E%A5%ED%8C%90_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Changban",
+        "extract": "The Battle of Changban was fought between the warlords Cao Cao and Liu Bei in October 208 in the late Eastern Han dynasty of China. The battle took place at Changban.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Changban"
+      },
+      "zh": {
+        "title": "长坂坡之战",
+        "extract": "长坂坡之战发生于中国东汉末年，曹操军在荆州当阳附近的长坂坡追击刘备军。被视为赤壁之战的前哨战。",
+        "url": "https://zh.wikipedia.org/wiki/%E9%95%BF%E5%9D%82%E5%9D%A1%E4%B9%8B%E6%88%98"
+      },
+      "es": {
+        "title": "Batalla de Changban",
+        "extract": "La batalla de Changban fue un conflicto bélico entre los señores de la guerra Liu Bei y Cao Cao durante el 208. Liu Bei consiguió escapar de la persecución de Cao Cao y se unió a Sun Quan durante la batalla de los Acantilados Rojos, derrotando a Cao Cao y forzándolo a retirarse al norte.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Changban"
+      },
+      "fr": {
+        "title": "Bataille de Changban",
+        "extract": "La bataille de Changban a eu lieu à Changban, en Chine en l'an 208. Elle opposa Liu Bei, qui fondera plus tard le Royaume de Shu, et Cao Cao, le dirigeant du nord de la Chine pendant le prélude aux Trois Royaumes de Chine.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Changban"
+      }
+    }
+  },
+  "Siege of Jicheng": {
+    "pages": {
+      "en": {
+        "title": "Siege of Jicheng",
+        "extract": "The siege of Jicheng was a part of the campaign Ma Chao initiated in an attempt to retake Liang Province after the coalition of Guanxi was defeated at the Battle of Tong Pass in the winter of 211 in the late Eastern Han dynasty.",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Jicheng"
+      },
+      "zh": {
+        "title": "冀城之围",
+        "extract": "冀城之围是中国古代东汉末年211年冬关西联军在潼关之战中战败后，马超试图复夺凉州的战斗。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%86%80%E5%9F%8E%E4%B9%8B%E5%9B%B4"
+      },
+      "fr": {
+        "title": "Siège de Jicheng",
+        "extract": "Le siège de Jicheng se déroule en l'an 213, à la fin de la dynastie Han et oppose les seigneurs de guerre Ma Chao et Cao Cao. Ce siège fait partie d'une campagne lancée par Ma Chao pour tenter de reprendre le contrôle de la province de Liang, dont Cao Cao s'est emparé durant l’hiver 211 après sa victoire sur la coalition du Guanxi lors de la bataille du col de Tong.",
+        "url": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Jicheng"
+      }
+    }
+  },
+  "Battle of Xiaoyao Ford": {
+    "pages": {
+      "ko": {
+        "title": "합비 전투",
+        "extract": "합비 전투(合肥戰鬪)는 215년(건안 20년) 손권이 호왈 10만 군사로 위나라의 합비로 쳐들어갔다가 장료, 악진, 이전의 7,000명 병력에 깨진 전투이다.",
+        "url": "https://ko.wikipedia.org/wiki/%ED%95%A9%EB%B9%84_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Xiaoyao Ford",
+        "extract": "The Battle of Xiaoyao Ford, also known as the Battle of Leisure Ford, Battle of Hefei, and Hefei Campaign, was fought between the warlords Cao Cao and Sun Quan between 214 and 215 in the late Eastern Han dynasty. The two contending sides were fighting for control over a strategic fortress at Hefei, which was defended by Cao Cao's general Zhang Liao. Towards the end of the campaign, Zhang Liao made use of force concentration and launched a sneak counteroffensive on Sun Quan at Leisure Ford, where Sun only had 1,000 soldiers with him at the time. Amidst the chaos, Sun Quan barely escaped capture with the aid of his general Ling Tong. This action raised Zhang Liao to primacy among Cao Cao's generals.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Xiaoyao_Ford"
+      },
+      "zh": {
+        "title": "合肥之戰",
+        "extract": "合肥之战是中国东汉末年至三国时期，孙军（东吴）与曹军（曹魏）以合肥（今中国安徽省会合肥市）为目标的争夺战。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%90%88%E8%82%A5%E4%B9%8B%E6%88%B0"
+      },
+      "fr": {
+        "title": "Bataille du gué de Xiaoyao",
+        "extract": "La bataille du gué de Xiaoyao, aussi connue sous le nom de bataille du gué de Leisure, bataille de Hefei, ou campagne de Hefei, se déroule entre l'an 214 et l'an 215, à la fin de la dynastie Han et oppose les seigneurs de guerre Cao Cao et Sun Quan. Les deux hommes se disputent le contrôle d'une forteresse d'une grande importance stratégique située à Hefei, qui est défendue par Zhang Liao, un des généraux de Cao Cao. Vers la fin de la campagne, Zhang Liao concentre ses troupes en un point précis du champ de bataille et lance furtivement une contre-offensive pour attaquer directement Sun Quan, qui se trouve alors au gué de Leisure avec juste 1 000 soldats. Au milieu du chaos qui s'ensuit, Sun Quan échappe de justesse à la capture avec l'aide de son général Ling Tong. Ce coup d'éclat permet à Zhang Liao de devenir le plus important des généraux de Cao Cao.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_du_gu%C3%A9_de_Xiaoyao"
+      }
+    }
+  },
+  "Battle of Qi Mountains": {
+    "pages": {
+      "en": {
+        "title": "Battle of Qi Mountains",
+        "extract": "The Battle of Qi Mountains was fought in 214 CE between the forces of the warlords Cao Cao and Zhang Lu. The battle was part of Ma Chao's multiple attacks on Cao Cao following the Battle of Tong Pass in 211.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Qi_Mountains"
+      },
+      "fr": {
+        "title": "Bataille du Mont Qi (214)",
+        "extract": "La bataille du mont Qi se déroule en 214, durant la fin de la dynastie Han, et oppose les seigneurs de guerre Cao Cao et Zhang Lu. Cette bataille est une des multiples attaques que Ma Chao lance contre Cao Cao, après sa défaite lors de la bataille du col de Tong en 211.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_du_Mont_Qi_(214)"
+      }
+    }
+  },
+  "Battle of Ba": {
+    "pages": {
+      "en": {
+        "title": "Battle of Ba",
+        "extract": "The Battle of Ba was fought between the warlords Liu Bei and Cao Cao between December 215 and April 216 during the prelude to the Three Kingdoms period. Following his victory over Zhang Lu at Yangping, Cao Cao appointed Pu Hu (朴胡), Ren Yue (任約) and Du Huo (杜濩) as Administrator of the three Ba commanderies but they were defeated by Huang Quan. Zhang He would later try to relocate citizens from Ba to Hanzhong but was also defeated by Zhang Fei.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Ba"
+      },
+      "zh": {
+        "title": "巴西之战",
+        "extract": "巴西之战是三国之前的215年军阀刘备和曹操之间的一场战斗。刘备军在张飞率领下战胜了张郃率领的曹操军。（详见汉中之战）",
+        "url": "https://zh.wikipedia.org/wiki/%E5%B7%B4%E8%A5%BF%E4%B9%8B%E6%88%98"
+      },
+      "fr": {
+        "title": "Bataille de Baxi",
+        "extract": "La bataille de Baxi, qui a lieu en 215, à la fin de la dynastie Han, oppose les troupes du seigneur de guerre Liu Bei, qui sont commandées par le général Zhang Fei, à celles de son rival Cao Cao, qui sont sous les ordres du général Zhang He. Cette bataille, qui se conclut par la victoire des troupes de Liu Bei, est le prélude à un conflit de plus grande échelle, la campagne de Hanzhong, qui s’achèvera par la victoire finale de Bei et l'annexion de la commanderie de Hanzhong par ce dernier.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Baxi"
+      }
+    }
+  },
+  "Battle of Mount Dingjun": {
+    "pages": {
+      "ko": {
+        "title": "정군산 전투",
+        "extract": "정군산 전투는 한중 전투 도중인 219년 황충 휘하의 촉군과 하후연 휘하의 위군이 벌인 전투로 촉군이 대승을 거두고 하후연이 전사 하게 되며 정군산을 점령해 한중 전투의 승리는 촉군이 가져가게 된다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%A0%95%EA%B5%B0%EC%82%B0_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Mount Dingjun",
+        "extract": "The Battle of Mount Dingjun was fought between the warlords Liu Bei and Cao Cao in February 219 during the prelude to the Three Kingdoms stretch of Chinese history. Liu Bei's victory in the battle marked a major milestone in his Hanzhong Campaign and allowed him to kill the commander of the Wei's forces, Xiahou Yuan and later taking Hanzhong Commandery.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Mount_Dingjun"
+      },
+      "zh": {
+        "title": "定军山之战",
+        "extract": "定军山之战是东汉末年（219年）刘备集团和曹操集团之间的一场战役。此次战役曹操集团战败，统帅夏侯渊被杀。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%AE%9A%E5%86%9B%E5%B1%B1%E4%B9%8B%E6%88%98"
+      },
+      "es": {
+        "title": "Batalla del monte Dingjun",
+        "extract": "La batalla del monte Dingjun fue librada entre el señor de la guerra Liu Bei y el general Xiahou Yuan, leal a Cao Cao, en febrero de 219, durante el período previo a los Tres Reinos de la historia china. La victoria de Liu Bei en la batalla marcó un hito importante en su campaña de Hanzhong y le permitió matar al comandante de las fuerzas de Wei, Xiahou Yuan, y posteriormente tomar la comandancia de Hanzhong.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_del_monte_Dingjun"
+      },
+      "fr": {
+        "title": "Bataille du mont Dingjun",
+        "extract": "La bataille du mont Dingjun, qui a lieu en 219, à la fin de la dynastie Han, oppose les seigneurs de guerre Liu Bei et Cao Cao. La victoire de Liu Bei sur Xiahou Yuan, un des généraux de Cao Cao, marque une étape importante de la campagne de Hanzhong.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_du_mont_Dingjun"
+      }
+    }
+  },
+  "Battle of Fancheng": {
+    "pages": {
+      "ko": {
+        "title": "번성 전투",
+        "extract": "번성 전투(樊城 戰鬪)는 219년, 형주의 관우가 조조가 점유 중이던 형주 북부를 침공한 사건이다. 처음에는 관우가 우금, 방덕을 격파했으나 조조군은 무너지지 않았고 그 사이 유비군과 동맹 관계이던 손권군이 관우를 배신하여 관우는 번성에서 철수한다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%B2%88%EC%84%B1_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Fancheng",
+        "extract": "The Battle of Fancheng or the Battle of Fan Castle was fought between the warlords Liu Bei and Cao Cao in 219 in the late Eastern Han dynasty. It is named after Fancheng in present-day Xiangyang, Hubei, a fortress that played a significant role in the battle.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Fancheng"
+      },
+      "zh": {
+        "title": "樊城之戰",
+        "extract": "樊城之战，又称关羽北伐，是东汉末年、三国前夕的一场重要战役。此役中刘备大将关羽父子被孙权俘杀，刘备治下的部分荆州完全落入孙权手中，刘备与孙权关系破裂，此后发生夷陵之战。",
+        "url": "https://zh.wikipedia.org/wiki/%E6%A8%8A%E5%9F%8E%E4%B9%8B%E6%88%B0"
+      },
+      "fr": {
+        "title": "Bataille de Fancheng",
+        "extract": "La bataille de Fancheng qui a lieu en 219, à la fin de la dynastie Han, oppose les troupes du seigneur de guerre Liu Bei à celles de son rival Cao Cao et s’achève par une victoire à la Pyrrhus de Cao Cao. Cette bataille doit son nom à la forteresse de Fancheng (樊城), aussi connue sous le nom de château de Fan ou ville de Fan, qui a aujourd'hui disparu et qui se trouvait dans la région correspondant à l'actuel district de Fancheng, Xiangyang, Hubei.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Fancheng"
+      }
+    }
+  },
+  "Battle of Xiaoting": {
+    "pages": {
+      "ko": {
+        "title": "이릉 대전",
+        "extract": "이릉 대전(夷陵大戰), 또는 효정 전투(猇亭戰鬪)는 221년 촉한의 황제 유비가 의제인 관우, 장비의 원수를 갚고 형주를 수복하기 위해 동오를 공격해 발발한 전쟁의 향방을 결정한 전투이다. 이 전투에서 선주는 육손의 화공(火攻)과 뒤이은 공격으로 참패하고 백제성까지 물러났다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EB%A6%89_%EB%8C%80%EC%A0%84"
+      },
+      "en": {
+        "title": "Battle of Xiaoting",
+        "extract": "The Battle of Xiaoting, also known as the Battle of Yiling and the Battle of Yiling and Xiaoting, was fought between the Shu Han and Eastern Wu dynasties, in the years 221 and 222 during the early Three Kingdoms period of China. The battle is significant because the Eastern Wu was able to turn the situation from a series of initial losses into a defensive stalemate, before proceeding to win a decisive victory over the Shu Han. The Eastern Wu victory halted the Shu Han invasion and preceded the death of Liu Bei, Shu Han's founding emperor.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Xiaoting"
+      },
+      "zh": {
+        "title": "夷陵之战",
+        "extract": "夷陵之战，又称猇（xiāo）亭之战，清朝避讳称彝陵之战，是三国时期蜀汉君主刘备进攻江东之战役，是东汉末年、三国初年“三大战役”（官渡之战、赤壁之战、夷陵之战）中的最后一场。221年七月，即刘备称帝三个月后，以替关羽报仇为由，挥兵东征，气势强劲。吴王孙权立即以陆逊率军应战，陆逊以逸待劳，挡住蜀汉军攻势，后于222年八月在夷陵一带以火攻打败蜀汉军。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%A4%B7%E9%99%B5%E4%B9%8B%E6%88%98"
+      },
+      "fr": {
+        "title": "Bataille de Yiling",
+        "extract": "La bataille de Xiaoting, aussi connue sous le nom de bataille de Yiling ou de bataille de Yiling et Xiaoting, a lieu en 222, au tout début de la période des Trois Royaumes de L'Histoire de la Chine. Elle oppose l'armée du royaume de Shu aux troupes de Sun Quan, qui est alors officiellement un vassal du royaume de Wei.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Yiling"
+      }
+    }
+  },
+  "Battle of Ruxu (222–223)": {
+    "pages": {
+      "en": {
+        "title": "Battle of Ruxu (222–223)",
+        "extract": "The Battle of Ruxu, also known as the Battle of Ruxukou, took place in 222-223 between the forces of Cao Wei and Eastern Wu during the Three Kingdoms period. The battle was the third battle taking place between the Cao and Sun clan at Ruxu, but this particular conflict was the only of the three to take place actually during the Three Kingdoms period, as the other two took place in 213 and 217.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Ruxu_(222%E2%80%93223)"
+      },
+      "zh": {
+        "title": "濡须之战 (222-223年)",
+        "extract": "濡须之战或濡须口之战于222-223年间发生于曹魏和东吴之间。这是曹孙第三次在濡须交战，但只有这次是发生在三国时期，前两场分别在213年和217年发生。",
+        "url": "https://zh.wikipedia.org/wiki/%E6%BF%A1%E9%A1%BB%E4%B9%8B%E6%88%98_(222-223%E5%B9%B4)"
+      },
+      "fr": {
+        "title": "Bataille de Ruxu (223)",
+        "extract": "La bataille de Ruxu, aussi connue sous le nom de bataille de Ruxukou, se déroule en 222-223, pendant la période des trois Royaumes de l'Histoire de la Chine. Elle oppose le royaume de Wei aux forces de Sun Quan, et fait partie d'un plan d'invasion sur trois fronts imaginé par Cao Pi, l'empereur du Wei. Cette bataille est la troisième à opposer les clans Cao et Sun à Ruxu, mais elle est la seule à avoir lieu durant la période des trois royaumes, les deux autres ayant eu lieu en 213 et 217.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Ruxu_(223)"
+      }
+    }
+  },
+  "Battle of Jieting": {
+    "pages": {
+      "ko": {
+        "title": "가정 전투",
+        "extract": "가정 전투(街亭 戰鬪)는 228년 제갈량의 제1차 북벌 중에 일어난 촉한과 위나라의 전투이다.",
+        "url": "https://ko.wikipedia.org/wiki/%EA%B0%80%EC%A0%95_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Jieting",
+        "extract": "The Battle of Jieting was fought between the states of Cao Wei and Shu Han in 228 during the Three Kingdoms period in China. The battle was part of the first Northern Expedition led by Shu's chancellor-regent, Zhuge Liang, to attack Wei. The battle concluded with a decisive victory for Wei.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Jieting"
+      },
+      "zh": {
+        "title": "街亭之戰",
+        "extract": "街亭之战是三国时期诸葛亮北伐的一场战事，也是第一次北伐中的一场决定性战事。魏太和二年（228年），诸葛亮派马谡领诸军在重要阵地街亭（位于今日甘肃省平凉市庄浪县韩店镇）抵抗曹魏将领张郃，但被击败，蜀汉撤退，结束第一次北伐。",
+        "url": "https://zh.wikipedia.org/wiki/%E8%A1%97%E4%BA%AD%E4%B9%8B%E6%88%B0"
+      },
+      "es": {
+        "title": "Batalla de Jieting",
+        "extract": "La Batalla de Jieting se luchó entre los estados de Wei y Shu en el 228 durante el periodo de los Tres Reinos de la Historia China. La batalla fue parte de las Primera expedición norteña lideradas por el canciller de Shu Zhuge Liang para atacar Wei. La batalla concluyó en una victoria decisiva de Wei.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Jieting"
+      },
+      "fr": {
+        "title": "Bataille de Jieting",
+        "extract": "La bataille de Jieting fut livrée en 228 durant la période connue sous le nom de Trois Royaumes de Chine, dans le cadre de la première expédition nordique. Elle opposa les forces du Wei, commandées par Zhang He, à celles du Shu, dirigées par Ma Su, et se termina par une victoire décisive du Wei.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Jieting"
+      }
+    }
+  },
+  "Battle of Shiting": {
+    "pages": {
+      "ko": {
+        "title": "석정 전투",
+        "extract": "석정 전투는 228년 중국 삼국 시대에 조위와 동오 사이에 벌어진 전투이다. 이 전투는 오나라의 승리로 끝났다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%84%9D%EC%A0%95_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Shiting",
+        "extract": "The Battle of Shi'ting was fought between the states of Cao Wei and Eastern Wu in 228 during the Three Kingdoms period of China. The battle concluded with a Wu victory.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Shiting"
+      },
+      "zh": {
+        "title": "石亭之戰",
+        "extract": "石亭之战发生在228年（吴黄武七年、魏太和二年），东吴鄱阳太守周鲂向曹魏诈降，魏大司马曹休中计深入，向皖城接应。孙权亲执鞭至皖城，命陆逊迎击魏军。双方在石亭决战，陆逊居中，以朱桓、全琮为左右翼，使曹休大败。",
+        "url": "https://zh.wikipedia.org/wiki/%E7%9F%B3%E4%BA%AD%E4%B9%8B%E6%88%B0"
+      },
+      "fr": {
+        "title": "Bataille de Shiting",
+        "extract": "La Bataille de Shiting oppose le Royaume de Wei et le Royaume de Wu en 228, pendant la période des Trois Royaumes de l'histoire de la Chine. La bataille s’achève par une victoire du Wu.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Shiting"
+      }
+    }
+  },
+  "Siege of Chencang": {
+    "pages": {
+      "ko": {
+        "title": "진창 포위전",
+        "extract": "진창 포위전(陳倉包圍戰)은 제갈량의 제2차 북벌 시도이다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%A7%84%EC%B0%BD_%ED%8F%AC%EC%9C%84%EC%A0%84"
+      },
+      "en": {
+        "title": "Siege of Chencang",
+        "extract": "The siege of Chencang was a battle fought between the states of Shu Han and Cao Wei between December 228 to early 229 during the Three Kingdoms period in China. It was the second of the Northern Expeditions led by Shu-Han's chancellor-regent, Zhuge Liang, to invade Wei. It was part of an attempt to divert Wei forces away from Jing Province following the Battle of Shiting between Wei and Shu's ally state, Eastern Wu. The siege came to an end when Shu forces retreated after failing to capture Chencang.",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Chencang"
+      },
+      "zh": {
+        "title": "陈仓之围",
+        "extract": "陈仓之围是228年12月到229年初蜀汉和曹魏之间的一场战斗，是蜀汉右将军行丞相事诸葛亮发起的攻打敌国曹魏的第二次北伐的一部分，试图减轻曹魏在石亭之战后对蜀汉盟友东吴在荆州方面的压力，最终蜀汉因未能攻克陈仓而自行撤军。",
+        "url": "https://zh.wikipedia.org/wiki/%E9%99%88%E4%BB%93%E4%B9%8B%E5%9B%B4"
+      },
+      "fr": {
+        "title": "Siège de Chencang",
+        "extract": "Le siège de District de Chencang est la seconde expédition nordique organisée par Zhuge Liang, ministre du royaume du Shu, pour envahir le royaume du Wei. Cette expédition prend place durant la période des trois royaumes et se transforme rapidement en un siège interminable de la forteresse de Chencang. Ce siège dure de décembre 228 jusqu'au début de l'année 229 et se conclut par une retraite de l'armée du Shu.",
+        "url": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Chencang"
+      }
+    }
+  },
+  "Battle of Mount Qi": {
+    "pages": {
+      "ko": {
+        "title": "기산 전투",
+        "extract": "노성 전투(鹵城之戰) 또는 기산 전투(祁山之戰)는 중국 삼국시대인 231년(위 태화 5년, 촉한 건흥 9년), 촉한의 승상 제갈량이 주도한 제4차 북벌 과정에서 촉한군과 사마의가 이끄는 위나라 군대 간에 벌어진 군사 충돌이다. 주 전장은 오늘날의 간쑤성 동남부 기산(祁山) 및 노성(鹵城) 일대였다.",
+        "url": "https://ko.wikipedia.org/wiki/%EA%B8%B0%EC%82%B0_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Mount Qi",
+        "extract": "The Battle of Mount Qi (祁山之戰), also known as the Battle of Lucheng (鹵城之戰), was a military conflict which took place around Mount Qi and Lucheng between the states of Cao Wei and Shu Han in 231 during the Three Kingdoms period of China. It was the fourth of Zhuge Liang's five Northern Expeditions.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Mount_Qi"
+      },
+      "zh": {
+        "title": "祁山之战",
+        "extract": "祁山之战是231年发生在曹魏和蜀汉之间的军事冲突，祁山之战地点位于今甘肃礼县附近的山区。祁山之战是第四次诸葛亮北伐中的一部分，这次战役导致双方数千人丧生。尽管诸葛亮在祁山之战一开始取得了重大成就，但之后遇上暴雨以及李严粮运不济等因素受阻，迫使蜀汉军队撤退并结束战役。在祁山之战后，蜀汉丞相诸葛亮休养了三年，然后在234年又对曹魏发动了五丈原之战。",
+        "url": "https://zh.wikipedia.org/wiki/%E7%A5%81%E5%B1%B1%E4%B9%8B%E6%88%98"
+      },
+      "fr": {
+        "title": "Bataille du mont Qi",
+        "extract": "La bataille du mont Qi est un combat entre le royaume de Shu et le royaume de Wei, qui eut lieu en 231 au pied du mont Qi (祁山), ce qui correspond actuellement à la zone montagneuse du Xian de Li, Longnan, Gansu. Cette bataille se déroula durant la période des Trois Royaumes et elle ne doit pas être confondue avec une autre bataille qui se déroule au même endroit en 214 et où les troupes de Cao Cao affrontent celle de Zhang Lu. Elle fut l'une des plus meurtrières parmi celles qui ont eu lieu durant les expéditions nordiques de Zhuge Liang, provoquant des centaines de morts dans chaque camp.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_du_mont_Qi"
+      }
+    }
+  },
+  "Battle of Wuzhang Plains": {
+    "pages": {
+      "en": {
+        "title": "Battle of Wuzhang Plains",
+        "extract": "The Battle of Wuzhang Plains was fought between the contending states of Cao Wei and Shu Han in 234 AD during the Three Kingdoms period of China. The battle was the fifth and last of a series of Northern Expeditions led by Shu's chancellor, Zhuge Liang, to attack Wei. Zhuge Liang fell ill and died during the stalemate and subsequently the Shu forces retreated.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Wuzhang_Plains"
+      },
+      "zh": {
+        "title": "五丈原之戰",
+        "extract": "五丈原之战是中国的三国时期发生的一场战役，主要战场五丈原，交战双方为曹魏及蜀汉，时为蜀汉后主刘禅建兴十二年。当时，蜀汉丞相诸葛亮率军第五次北伐，由汉中出发，取道斜谷，穿越秦岭，进驻五丈原。在此，蜀军与魏军对峙了100余天。最后，诸葛亮病逝于此。",
+        "url": "https://zh.wikipedia.org/wiki/%E4%BA%94%E4%B8%88%E5%8E%9F%E4%B9%8B%E6%88%B0"
+      },
+      "fr": {
+        "title": "Bataille des plaines de Wuzhang",
+        "extract": "La bataille des plaines de Wuzhang est une bataille qui s'est déroulée en 234 — durant la période des Trois Royaumes — dans les plaines de Wuzhang, en Chine, dans le cadre des expéditions nordiques de Zhuge Liang.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_des_plaines_de_Wuzhang"
+      }
+    }
+  }
+}

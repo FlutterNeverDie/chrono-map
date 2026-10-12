@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Second Boer War
+region: africa
+when: 1899-10 ~ 1902-05
+unit: month
+borders-step: 1
+view: 27, -28, 4.5
+search: 15, 35, -35, -20
+min-links: 5
+side.a.ko: 보어 공화국
+side.a.en: Boer republics
+side.a.zh: 布尔共和国
+side.a.es: Repúblicas bóeres
+side.a.hi: बोअर गणराज्य
+side.a.ar: جمهوريات البوير
+side.a.fr: Républiques boers
+side.a.pt: Repúblicas bôeres
+side.b.ko: 영국
+side.b.en: British Empire
+side.b.zh: 大英帝国
+side.b.es: Imperio británico
+side.b.hi: ब्रिटिश साम्राज्य
+side.b.ar: الإمبراطورية البريطانية
+side.b.fr: Empire britannique
+side.b.pt: Império Britânico

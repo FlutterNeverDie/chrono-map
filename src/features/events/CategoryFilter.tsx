@@ -6,7 +6,7 @@ import { CATEGORIES } from "@/data/categories";
 import { useI18n } from "@/i18n/I18nProvider";
 
 const chip =
-  "h-9 shrink-0 rounded-md border px-3 text-sm whitespace-nowrap transition-colors";
+  "h-9 shrink-0 rounded-md border px-3 text-sm whitespace-nowrap transition-colors lg:h-10 lg:text-base";
 
 /** 카테고리 필터 (F-07). 아무것도 고르지 않으면 전체 */
 export function CategoryFilter() {

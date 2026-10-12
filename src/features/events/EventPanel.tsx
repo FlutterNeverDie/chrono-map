@@ -24,19 +24,20 @@ export function EventPanel() {
 
   return (
     <section
+      data-map-overlay
       aria-label={messages.ui.events}
-      className="pointer-events-auto absolute inset-x-2 bottom-[calc(var(--bar-h)+0.5rem)] z-20 flex flex-col overflow-hidden rounded-xl border border-line bg-background/95 shadow-lg backdrop-blur lg:inset-x-auto lg:end-3 lg:top-[4.5rem] lg:w-[32rem] xl:w-[36rem] 2xl:w-[40rem]"
+      className="pointer-events-auto absolute inset-x-2 bottom-[calc(var(--bar-h)+0.5rem)] z-20 flex flex-col overflow-hidden rounded-xl border border-line bg-background/95 shadow-lg backdrop-blur lg:inset-x-auto lg:end-3 lg:top-[4.5rem] lg:w-[34rem] xl:w-[40rem] 2xl:w-[46rem]"
     >
       <button
         type="button"
         onClick={() => setOpen(!open)}
         aria-expanded={open}
         aria-label={open ? messages.ui.closeEvents : messages.ui.openEvents}
-        className="flex h-14 shrink-0 items-center justify-between px-5 text-lg font-bold lg:pointer-events-none lg:h-16 lg:text-xl"
+        className="flex h-14 shrink-0 items-center justify-between px-5 text-lg font-bold lg:pointer-events-none lg:h-16 lg:text-2xl"
       >
         <span>
           {messages.ui.events} · {fill(messages.ui.eventCount, { n: count })}
-          <span className="ms-2 text-base font-medium text-muted lg:text-lg">
+          <span className="ms-2 text-base font-medium text-muted lg:text-xl">
             {formatPeriodRange(period, locale)}
           </span>
         </span>

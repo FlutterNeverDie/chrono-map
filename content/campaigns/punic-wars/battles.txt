@@ -1,0 +1,457 @@
+# Punic Wars 전투 (Wikidata 자동 생성, 직접 고쳐도 됨). 형식은 content/campaigns/CLAUDE.md
+
+@ battle-of-messana
+wikipedia: Battle of Messana
+when: -264
+coords: 15.56, 38.18
+links: 21
+
+@ battle-of-agrigentum
+wikipedia: Battle of Agrigentum
+when: -261
+coords: 13.58, 37.32
+links: 28
+
+@ battle-of-the-lipari-islands
+wikipedia: Battle of the Lipari Islands
+when: -260
+coords: 14.96, 38.47
+links: 21
+
+@ battle-of-mylae
+wikipedia: Battle of Mylae
+when: -260
+coords: 15.23, 38.22
+links: 29
+
+@ battle-of-sulci
+wikipedia: Battle of Sulci
+when: -258
+coords: 8.45, 39.07
+links: 17
+
+@ battle-of-tyndaris
+wikipedia: Battle of Tyndaris
+when: -257
+coords: 15.04, 38.15
+links: 20
+
+@ battle-of-cape-ecnomus
+wikipedia: Battle of Cape Ecnomus
+when: -256
+coords: 13.9, 37.05
+links: 32
+
+@ battle-of-the-bagradas-river-255-bc
+wikipedia: Battle of the Bagradas River (255 BC)
+when: -255
+coords: 10.17, 36.8
+links: 24
+
+@ battle-of-adys
+wikipedia: Battle of Adys
+when: -255
+coords: 10.17, 36.61
+links: 20
+
+@ siege-of-aspis
+wikipedia: Siege of Aspis
+when: -255
+coords: 11.1, 36.85
+links: 10
+
+@ battle-of-panormus
+wikipedia: Battle of Panormus
+when: -251
+coords: 13.37, 38.12
+links: 19
+
+@ siege-of-lilybaeum-250-241-bc
+wikipedia: Siege of Lilybaeum (250–241 BC)
+when: -250
+coords: 12.43, 37.8
+links: 14
+
+@ battle-of-phintias
+wikipedia: Battle of Phintias
+when: -249
+coords: 13.95, 37.11
+links: 5
+
+@ battle-of-drepana
+wikipedia: Battle of Drepana
+when: -249
+coords: 12.51, 38.01
+links: 25
+
+@ battle-of-the-aegates
+wikipedia: Battle of the Aegates
+when: -241
+coords: 12.2, 37.97
+links: 29
+
+@ battle-of-the-bagradas-river-240-bc
+wikipedia: Battle of the Bagradas River (240 BC)
+when: -240
+coords: 10.13, 37.11
+links: 11
+
+@ battle-of-utica
+wikipedia: Battle of Utica
+when: -240
+coords: 10.06, 37.06
+links: 11
+
+@ siege-of-tunis-mercenary-war
+wikipedia: Siege of Tunis (Mercenary War)
+when: -238
+coords: 10.17, 36.8
+links: 9
+
+@ battle-of-helike
+wikipedia: Battle of Helike
+when: -228
+coords: -1.28, 38.38
+links: 6
+
+@ battle-of-telamon
+wikipedia: Battle of Telamon
+when: -225
+coords: 11.13, 42.56
+links: 22
+
+@ battle-of-faesulae-225-bc
+wikipedia: Battle of Faesulae (225 BC)
+when: -225
+coords: 12.39, 43.46
+links: 9
+
+@ battle-of-clastidium
+wikipedia: Battle of Clastidium
+when: -222
+coords: 9.13, 45.02
+links: 14
+
+@ siege-of-saguntum
+wikipedia: Siege of Saguntum
+when: -219
+coords: -0.28, 39.68
+links: 27
+
+@ battle-of-cissa
+wikipedia: Battle of Cissa
+when: -218
+coords: 1.25, 41.12
+links: 16
+
+@ battle-of-lilybaeum
+wikipedia: Battle of Lilybaeum
+when: -218
+coords: 12.43, 37.8
+links: 15
+
+@ hannibal-s-crossing-of-the-alps
+wikipedia: Hannibal's crossing of the Alps
+when: -218
+coords: 6.88, 45.68
+links: 18
+
+@ battle-of-the-rhone-crossing
+wikipedia: Battle of the Rhône Crossing
+when: -218
+coords: 4.81, 44.14
+links: 20
+
+@ battle-of-ticinus
+wikipedia: Battle of Ticinus
+when: -218
+coords: 8.87, 45.25
+links: 33
+
+@ battle-of-the-trebia
+wikipedia: Battle of the Trebia
+when: -218
+coords: 9.57, 44.99
+links: 41
+
+@ battle-of-geronium
+wikipedia: Battle of Geronium
+when: -217
+coords: 14.73, 41.76
+links: 15
+
+@ battle-of-ager-falernus
+wikipedia: Battle of Ager Falernus
+when: -217
+coords: 14.55, 41.18
+links: 13
+
+@ battle-of-ebro-river
+wikipedia: Battle of Ebro River
+when: -217
+coords: 0.86, 40.72
+links: 17
+
+@ battle-of-lake-trasimene
+wikipedia: Battle of Lake Trasimene
+when: -217
+coords: 12.09, 43.2
+links: 44
+
+@ battle-of-nola-216-bc
+wikipedia: Battle of Nola (216 BC)
+when: -216
+coords: 14.53, 40.93
+links: 17
+
+@ battle-of-silva-litana
+wikipedia: Battle of Silva Litana
+when: -216
+coords: 11.09, 44.41
+links: 8
+
+@ battle-of-cannae
+wikipedia: Battle of Cannae
+when: -216
+coords: 16.13, 41.31
+links: 67
+
+@ battle-of-decimomannu
+wikipedia: Battle of Decimomannu
+when: -215
+coords: 8.97, 39.31
+links: 12
+
+@ battle-of-ibera
+wikipedia: Battle of Ibera
+when: -215
+coords: 0.52, 40.8
+links: 16
+
+@ battle-of-cumae-215-bc
+wikipedia: Battle of Cumae (215 BC)
+when: -215
+coords: 14.05, 40.85
+links: 5
+
+@ battle-of-nola-215-bc
+wikipedia: Battle of Nola (215 BC)
+when: -215
+coords: 14.53, 40.93
+links: 16
+
+@ battle-of-beneventum-214-bc
+wikipedia: Battle of Beneventum (214 BC)
+when: -214
+coords: 14.78, 41.13
+links: 14
+
+@ battle-of-nola-214-bc
+wikipedia: Battle of Nola (214 BC)
+when: -214
+coords: 14.53, 40.93
+links: 15
+
+@ siege-of-syracuse-213-212-bc
+wikipedia: Siege of Syracuse (213–212 BC)
+when: -214
+coords: 15.28, 37.08
+links: 23
+
+@ battle-of-capua-212-bc
+wikipedia: Battle of Capua (212 BC)
+when: -212
+coords: 14.25, 41.08
+links: 15
+
+@ battle-of-the-silarus
+wikipedia: Battle of the Silarus
+when: -212
+coords: 14.94, 40.48
+links: 18
+
+@ battle-of-herdonia-212-bc
+wikipedia: Battle of Herdonia (212 BC)
+when: -212
+coords: 15.63, 41.32
+links: 15
+
+@ battle-of-beneventum-212-bc
+wikipedia: Battle of Beneventum (212 BC)
+when: -212
+coords: 14.78, 41.13
+links: 9
+
+@ battle-of-tarentum-212-bc
+wikipedia: Battle of Tarentum (212 BC)
+when: -212
+coords: 17.24, 40.42
+links: 11
+
+@ siege-of-capua-211-bc
+wikipedia: Siege of Capua (211 BC)
+when: -211
+coords: 14.25, 41.08
+links: 16
+
+@ battle-of-the-upper-baetis
+wikipedia: Battle of the Upper Baetis
+when: -211
+coords: -6.35, 36.78
+links: 21
+
+@ battle-of-herdonia-210-bc
+wikipedia: Battle of Herdonia (210 BC)
+when: -210
+coords: 15.63, 41.32
+links: 19
+
+@ battle-of-numistro
+wikipedia: Battle of Numistro
+when: -210
+coords: 16.32, 38.98
+links: 16
+
+@ battle-of-sapriportis
+wikipedia: Battle of Sapriportis
+when: -210
+coords: 17.05, 40.58
+links: 5
+
+@ battle-of-canusium
+wikipedia: Battle of Canusium
+when: -209
+coords: 16.07, 41.24
+links: 19
+
+@ battle-of-new-carthage
+wikipedia: Battle of New Carthage
+when: -209
+coords: -0.98, 37.6
+links: 21
+
+@ battle-of-tarentum-209-bc
+wikipedia: Battle of Tarentum (209 BC)
+when: -209
+coords: 17.24, 40.42
+links: 10
+
+@ battle-of-baecula
+wikipedia: Battle of Baecula
+when: -208
+coords: -3.1, 38.02
+links: 24
+
+@ battle-of-petelia
+wikipedia: Battle of Petelia
+when: -208
+coords: 17.05, 39.27
+links: 5
+
+@ battle-of-the-metaurus
+wikipedia: Battle of the Metaurus
+when: -207
+coords: 13.01, 43.78
+links: 28
+
+@ battle-of-grumentum
+wikipedia: Battle of Grumentum
+when: -207
+coords: 15.89, 40.28
+links: 17
+
+@ battle-of-ilipa
+wikipedia: Battle of Ilipa
+when: -206
+coords: -5.98, 37.52
+links: 27
+
+@ battle-of-carteia-naval
+wikipedia: Battle of Carteia (naval)
+when: -206
+coords: -5.42, 36.16
+links: 5
+
+@ battles-of-kroton
+wikipedia: Battles of Kroton
+when: -204
+coords: 17.12, 39.08
+links: 16
+
+@ battle-of-utica-203-bc
+wikipedia: Battle of Utica (203 BC)
+when: -203
+coords: 10.06, 37.06
+links: 14
+
+@ battle-of-the-great-plains
+wikipedia: Battle of the Great Plains
+when: -203
+coords: 10.06, 37.06
+links: 16
+
+@ battle-of-cirta
+wikipedia: Battle of Cirta
+when: -203
+coords: 6.61, 36.37
+links: 10
+
+@ battle-of-insubria
+wikipedia: Battle of Insubria
+when: -203
+coords: 9.17, 45.47
+links: 13
+
+@ battle-of-zama
+wikipedia: Battle of Zama
+when: -202
+coords: 9.45, 36.3
+links: 57
+
+@ battle-of-cremona-200-bc
+wikipedia: Battle of Cremona (200 BC)
+when: -200
+coords: 10.03, 45.13
+links: 11
+
+@ battle-of-the-aous-198-bc
+wikipedia: Battle of the Aous (198 BC)
+when: -198
+coords: 19.32, 40.64
+links: 14
+
+@ battle-of-placentia-194-bc
+wikipedia: Battle of Placentia (194 BC)
+when: -194
+coords: 9.7, 45.03
+links: 8
+
+@ battle-of-mutina-193-bc
+wikipedia: Battle of Mutina (193 BC)
+when: -193
+coords: 10.93, 44.65
+links: 8
+
+@ siege-of-carthage-third-punic-war
+wikipedia: Siege of Carthage (Third Punic War)
+when: -149
+coords: 10.32, 36.85
+links: 27
+
+@ battle-of-lake-tunis
+wikipedia: Battle of Lake Tunis
+when: -149
+coords: 10.25, 36.82
+links: 5
+
+@ battle-of-nepheris-147-bc
+wikipedia: Battle of Nepheris (147 BC)
+when: -147
+coords: 10.38, 36.62
+links: 5
+
+@ battle-of-the-port-of-carthage
+wikipedia: Battle of the Port of Carthage
+when: -147
+coords: 10.5, 37
+links: 7

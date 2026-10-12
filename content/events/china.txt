@@ -155,3 +155,10 @@ when: 1937 ~ 1945
 coords: 105, 35
 category: war
 importance: 4
+
+@ three-kingdoms
+wikipedia: Three Kingdoms
+when: 220 ~ 280
+coords: 112, 32
+category: war
+importance: 5

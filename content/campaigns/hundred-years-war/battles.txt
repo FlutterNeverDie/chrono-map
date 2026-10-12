@@ -1,0 +1,487 @@
+# Hundred Years' War 전투 (Wikidata 자동 생성, 직접 고쳐도 됨). 형식은 content/campaigns/CLAUDE.md
+
+@ battle-of-cadzand
+wikipedia: Battle of Cadzand
+when: 1337
+coords: 3.4, 51.37
+links: 15
+
+@ battle-of-arnemuiden
+wikipedia: Battle of Arnemuiden
+when: 1338
+coords: 3.37, 51.65
+links: 14
+
+@ battle-of-parabiago
+wikipedia: Battle of Parabiago
+when: 1339
+coords: 8.85, 45.55
+links: 7
+
+@ battle-of-laupen
+wikipedia: Battle of Laupen
+when: 1339
+coords: 7.23, 46.9
+links: 14
+
+@ siege-of-tournai-1340
+wikipedia: Siege of Tournai (1340)
+when: 1340
+coords: 3.38, 50.6
+links: 9
+
+@ battle-of-sluys
+wikipedia: Battle of Sluys
+when: 1340
+coords: 3.38, 51.35
+links: 39
+
+@ battle-of-saint-omer
+wikipedia: Battle of Saint-Omer
+when: 1340
+coords: 2.26, 50.75
+links: 11
+
+@ battle-of-champtoceaux
+wikipedia: Battle of Champtoceaux
+when: 1341
+coords: -1.29, 47.32
+links: 7
+
+@ sieges-of-vannes-1342
+wikipedia: Sieges of Vannes (1342)
+when: 1342 ~ 1343
+coords: -2.76, 47.66
+links: 7
+
+@ siege-of-hennebont
+wikipedia: Siege of Hennebont
+when: 1342
+coords: -3.28, 47.8
+links: 8
+
+@ siege-of-brest-1342
+wikipedia: Siege of Brest (1342)
+when: 1342
+coords: -4.5, 48.38
+links: 8
+
+@ battle-of-morlaix
+wikipedia: Battle of Morlaix
+when: 1342
+coords: -3.74, 48.63
+links: 13
+
+@ battle-of-bergerac
+wikipedia: Battle of Bergerac
+when: 1345
+coords: 0.48, 44.84
+links: 6
+
+@ battle-of-auberoche
+wikipedia: Battle of Auberoche
+when: 1345
+coords: 0.9, 45.21
+links: 14
+
+@ siege-of-aiguillon
+wikipedia: Siege of Aiguillon
+when: 1346
+coords: 0.34, 44.3
+links: 7
+
+@ battle-of-saint-pol-de-leon
+wikipedia: Battle of Saint-Pol-de-Léon
+when: 1346
+coords: -3.98, 48.69
+links: 7
+
+@ battle-of-caen-1346
+wikipedia: Battle of Caen (1346)
+when: 1346
+coords: -0.37, 49.18
+links: 20
+
+@ siege-of-calais-1346-1347
+wikipedia: Siege of Calais (1346–1347)
+when: 1346 ~ 1347
+coords: 1.85, 50.96
+links: 23
+
+@ battle-of-crecy
+wikipedia: Battle of Crécy
+when: 1346
+coords: 1.89, 50.26
+links: 51
+
+@ battle-of-blanchetaque
+wikipedia: Battle of Blanchetaque
+when: 1346
+coords: 1.68, 50.17
+links: 16
+
+@ battle-of-neville-s-cross
+wikipedia: Battle of Neville's Cross
+when: 1346
+coords: -1.59, 54.77
+links: 18
+
+@ battle-of-calais
+wikipedia: Battle of Calais
+when: 1350
+coords: 1.86, 50.95
+links: 7
+
+@ battle-of-winchelsea
+wikipedia: Battle of Winchelsea
+when: 1350
+coords: 0.81, 50.88
+links: 16
+
+@ battle-of-ardres
+wikipedia: Battle of Ardres
+when: 1351
+coords: 1.98, 50.86
+links: 5
+
+@ combat-of-the-thirty
+wikipedia: Combat of the Thirty
+when: 1351
+coords: -2.49, 47.94
+links: 17
+
+@ battle-of-mauron
+wikipedia: Battle of Mauron
+when: 1352
+coords: -2.26, 48.09
+links: 7
+
+@ battle-of-poitiers
+wikipedia: Battle of Poitiers
+when: 1356
+coords: 0.4, 46.52
+links: 52
+
+@ siege-of-rennes-1356-1357
+wikipedia: Siege of Rennes (1356–1357)
+when: 1356 ~ 1357
+coords: -1.68, 48.11
+links: 6
+
+@ reims-campaign
+wikipedia: Reims campaign
+when: 1359 ~ 1360
+coords: 1.85, 50.96
+links: 6
+
+@ battle-of-brignais
+wikipedia: Battle of Brignais
+when: 1362
+coords: 4.75, 45.67
+links: 8
+
+@ battle-of-cocherel
+wikipedia: Battle of Cocherel
+when: 1364
+coords: 1.34, 49.06
+links: 13
+
+@ battle-of-auray
+wikipedia: Battle of Auray
+when: 1364
+coords: -2.98, 47.67
+links: 26
+
+@ battle-of-najera
+wikipedia: Battle of Nájera
+when: 1367
+coords: -2.7, 42.43
+links: 19
+
+@ siege-of-limoges
+wikipedia: Siege of Limoges
+when: 1370
+coords: 1.26, 45.84
+links: 10
+
+@ battle-of-pontvallain
+wikipedia: Battle of Pontvallain
+when: 1370
+coords: 0.21, 47.77
+links: 8
+
+@ battle-of-duns
+wikipedia: Battle of Duns
+when: 1372
+coords: -2.35, 55.77
+links: 5
+
+@ battle-of-la-rochelle
+wikipedia: Battle of La Rochelle
+when: 1372
+coords: -1.15, 46.17
+links: 20
+
+@ battle-of-sorenberg
+wikipedia: Battle of Sörenberg
+when: 1380
+coords: 8.05, 46.81
+links: 5
+
+@ battle-of-beverhoutsveld
+wikipedia: Battle of Beverhoutsveld
+when: 1382
+coords: 3.38, 51.16
+links: 7
+
+@ battle-of-roosebeke
+wikipedia: Battle of Roosebeke
+when: 1382
+coords: 3.01, 50.93
+links: 12
+
+@ battle-of-sempach
+wikipedia: Battle of Sempach
+when: 1386
+coords: 8.21, 47.15
+links: 20
+
+@ battle-of-nafels
+wikipedia: Battle of Näfels
+when: 1388
+coords: 9.07, 47.1
+links: 14
+
+@ battle-of-otterburn
+wikipedia: Battle of Otterburn
+when: 1388
+coords: -2.19, 55.24
+links: 7
+
+@ battle-of-alessandria
+wikipedia: Battle of Alessandria
+when: 1391
+coords: 8.62, 44.92
+links: 6
+
+@ battle-of-mynydd-hyddgen
+wikipedia: Battle of Mynydd Hyddgen
+when: 1401
+coords: -3.8, 52.51
+links: 6
+
+@ battle-of-bryn-glas
+wikipedia: Battle of Bryn Glas
+when: 1402
+coords: -3.1, 52.31
+links: 8
+
+@ battle-of-homildon-hill
+wikipedia: Battle of Homildon Hill
+when: 1402
+coords: -2.05, 55.56
+links: 8
+
+@ battle-of-shrewsbury
+wikipedia: Battle of Shrewsbury
+when: 1403
+coords: -2.72, 52.75
+links: 15
+
+@ battle-of-pwll-melyn
+wikipedia: Battle of Pwll Melyn
+when: 1405
+coords: -2.95, 51.72
+links: 5
+
+@ battle-of-bramham-moor
+wikipedia: Battle of Bramham Moor
+when: 1408
+coords: -1.34, 53.86
+links: 5
+
+@ battle-of-othee
+wikipedia: Battle of Othée
+when: 1408
+coords: 5.46, 50.72
+links: 7
+
+@ siege-of-harfleur
+wikipedia: Siege of Harfleur
+when: 1415
+coords: 0.14, 49.49
+links: 12
+
+@ battle-of-agincourt
+wikipedia: Battle of Agincourt
+when: 1415
+coords: 2.14, 50.46
+links: 62
+
+@ siege-of-rouen-1418-1419
+wikipedia: Siege of Rouen (1418–1419)
+when: 1418 ~ 1419
+coords: 1.1, 49.44
+links: 13
+
+@ battle-of-la-rochelle-1419
+wikipedia: Battle of La Rochelle (1419)
+when: 1420
+coords: -1.38, 47.27
+links: 5
+
+@ battle-of-bauge
+wikipedia: Battle of Baugé
+when: 1421
+coords: -0.1, 47.54
+links: 14
+
+@ siege-of-meaux
+wikipedia: Siege of Meaux
+when: 1421 ~ 1422
+coords: 2.89, 48.96
+links: 10
+
+@ battle-of-arbedo
+wikipedia: Battle of Arbedo
+when: 1422
+coords: 9.04, 46.21
+links: 14
+
+@ battle-of-cravant
+wikipedia: Battle of Cravant
+when: 1423
+coords: 3.69, 47.68
+links: 13
+
+@ battle-of-la-brossiniere
+wikipedia: Battle of La Brossinière
+when: 1423
+coords: -0.74, 47.77
+links: 8
+
+@ battle-of-verneuil
+wikipedia: Battle of Verneuil
+when: 1424
+coords: 0.94, 48.76
+links: 19
+
+@ siege-of-montargis
+wikipedia: Siege of Montargis
+when: 1427
+coords: 2.73, 48
+links: 6
+
+@ siege-of-orleans-1428-1429
+wikipedia: Siege of Orléans (1428–1429)
+when: 1428 ~ 1429
+coords: 1.91, 47.9
+links: 39
+
+@ battle-of-the-herrings
+wikipedia: Battle of the Herrings
+when: 1429
+coords: 1.73, 48.07
+links: 18
+
+@ battle-of-patay
+wikipedia: Battle of Patay
+when: 1429
+coords: 1.7, 48.05
+links: 29
+
+@ battle-of-jargeau
+wikipedia: Battle of Jargeau
+when: 1429
+coords: 2.12, 47.87
+links: 12
+
+@ battle-of-meung-sur-loire
+wikipedia: Battle of Meung-sur-Loire
+when: 1429
+coords: 1.7, 47.83
+links: 11
+
+@ battle-of-beaugency-1429
+wikipedia: Battle of Beaugency (1429)
+when: 1429
+coords: 1.65, 46.8
+links: 13
+
+@ siege-of-paris-1429
+wikipedia: Siege of Paris (1429)
+when: 1429
+coords: 2.35, 48.86
+links: 13
+
+@ siege-of-compiegne
+wikipedia: Siege of Compiègne
+when: 1430
+coords: 2.82, 49.41
+links: 14
+
+@ battle-on-the-po-1431
+wikipedia: Battle on the Po (1431)
+when: 1431
+coords: 8, 45
+links: 7
+
+@ battle-of-bulgneville
+wikipedia: Battle of Bulgnéville
+when: 1431
+coords: 5.84, 48.21
+links: 7
+
+@ battle-of-delebio
+wikipedia: Battle of Delebio
+when: 1432
+coords: 9.47, 46.13
+links: 6
+
+@ battle-of-gerberoy
+wikipedia: Battle of Gerberoy
+when: 1435
+coords: 1.85, 49.54
+links: 9
+
+@ siege-of-paris-1435-1436
+wikipedia: Siege of Paris (1435–1436)
+when: 1435 ~ 1436
+coords: 2.35, 48.86
+links: 7
+
+@ siege-of-calais-1436
+wikipedia: Siege of Calais (1436)
+when: 1436
+coords: 1.86, 50.95
+links: 6
+
+@ battle-of-st-jakob-an-der-sihl
+wikipedia: Battle of St. Jakob an der Sihl
+when: 1443
+coords: 8.53, 47.37
+links: 9
+
+@ battle-of-st-jakob-an-der-birs
+wikipedia: Battle of St. Jakob an der Birs
+when: 1444
+coords: 7.62, 47.54
+links: 11
+
+@ battle-of-formigny
+wikipedia: Battle of Formigny
+when: 1450
+coords: -0.9, 49.34
+links: 26
+
+@ battle-of-gavere
+wikipedia: Battle of Gavere
+when: 1453
+coords: 3.65, 50.93
+links: 7
+
+@ battle-of-castillon
+wikipedia: Battle of Castillon
+when: 1453
+coords: -0.02, 44.85
+links: 33

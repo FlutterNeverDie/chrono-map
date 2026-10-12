@@ -183,6 +183,52 @@ export function WorldMap() {
     return () => cancelAnimationFrame(frame);
   }, [viewpoint, setCenterLon, updateLon]);
 
+  // 사건 목록에서 고르면 그 사건이 "가려지지 않은 영역"의 가운데 오도록 이동·확대
+  const focus = useUi((s) => s.focus);
+  useEffect(() => {
+    const svg = svgRef.current;
+    if (!focus || !svg) return;
+    const rect = svg.getBoundingClientRect();
+    // 지도 위에 떠 있는 패널(데스크톱 오른쪽 / 모바일 아래)만큼 비켜서 가운데를 잡는다
+    const panel = document
+      .querySelector("[data-map-overlay]")
+      ?.getBoundingClientRect();
+    let offsetX = 0;
+    let offsetY = 0;
+    if (panel && panel.height > 0) {
+      if (panel.width < rect.width * 0.8) {
+        // 패널이 오른쪽(보통)이면 지도 가운데를 오른쪽으로, 왼쪽(아랍어 RTL)이면 왼쪽으로
+        offsetX =
+          panel.left > rect.left + rect.width / 2
+            ? (rect.right - panel.left) / 2
+            : -(panel.right - rect.left) / 2;
+      } else offsetY = (rect.bottom - panel.top) / 2;
+    }
+    const fromLon = lonRef.current;
+    const fromY = centerYRef.current;
+    const fromZoom = useUi.getState().zoom;
+    const toZoom = Math.max(fromZoom, 2.5);
+    const upp = MAP_HEIGHT / toZoom / rect.height; // 목표 배율에서 픽셀당 지도 단위
+    const toLon = focus.coords[0] + (offsetX * upp * 360) / MAP_WIDTH;
+    const pointY = makeProjection(0)([0, focus.coords[1]])?.[1] ?? fromY;
+    const toY = pointY + offsetY * upp;
+    const dLon = normalizeLon(toLon - fromLon);
+    setViewpoint(null);
+    const start = performance.now();
+    let frame = 0;
+    const tick = (now: number) => {
+      const t = Math.min(1, (now - start) / 700);
+      const k = t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
+      updateLon(fromLon + dLon * k);
+      updateCenterY(fromY + (toY - fromY) * k);
+      setZoom(fromZoom + (toZoom - fromZoom) * k);
+      if (t < 1) frame = requestAnimationFrame(tick);
+      else setCenterLon(lonRef.current);
+    };
+    frame = requestAnimationFrame(tick);
+    return () => cancelAnimationFrame(frame);
+  }, [focus, setViewpoint, setCenterLon, setZoom, updateLon, updateCenterY]);
+
   // 해안선: 처음엔 가벼운 110m, 확대하면 자세한 50m로 바꾼다(한 번 받으면 계속 사용)
   const [detailedLand, setDetailedLand] = useState<typeof land | null>(null);
   useEffect(() => {

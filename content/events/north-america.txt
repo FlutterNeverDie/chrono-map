@@ -204,3 +204,10 @@ when: 2021
 coords: -77.01, 38.89
 category: politics
 importance: 3
+
+@ american-civil-war
+wikipedia: American Civil War
+when: 1861 ~ 1865
+coords: -84, 36
+category: war
+importance: 5

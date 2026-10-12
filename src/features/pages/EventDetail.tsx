@@ -47,6 +47,14 @@ export function EventDetail({ locale, id }: { locale: Locale; id: string }) {
         >
           {messages.pages.backToMap}
         </a>
+        {e.campaign && (
+          <a
+            href={localeHref(locale, `wars/${e.campaign}`)}
+            className="inline-flex h-12 items-center rounded-md border border-foreground px-5 text-base font-semibold"
+          >
+            {messages.wars.openMap}
+          </a>
+        )}
         {summary.page && (
           <a
             href={summary.page.url}

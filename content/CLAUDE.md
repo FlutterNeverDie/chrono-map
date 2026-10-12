@@ -7,6 +7,7 @@
 | --- | --- | --- |
 | `events/<지역id>.txt` | 사건. 파일 이름 = 지역 (korea, china, …) | `npm run content` (dev/build 때 자동) |
 | `rankings/<시점id>.txt` | 그 시점에서 중요한 사건 순서 | `npm run content` |
+| `campaigns/<전쟁>/` | 전쟁 지도(/wars) 설정·진영·전투 — `content/campaigns/CLAUDE.md` | `npm run wars:fetch`·`wars:borders`·`wars:build` |
 | `polity-names/<언어>.txt` | 지도 위 나라 이름 수정·보충. 한 줄에 `원본 이름 = 번역` | `npm run borders` |
 | `wikipedia.json` | **자동 생성, 직접 고치지 않음.** 사건별 위키백과 요약(8개 언어) | `npm run wiki`로 받음 → `npm run content`가 합침 |
 
@@ -33,6 +34,7 @@ source: https://...              ← (선택) 위키백과 외 추가 출처
 - 텍스트 키는 `title / place / summary` × `ko en zh es hi ar fr pt`. 없는 언어는 영어 → 한국어 순으로 대체.
 - `wikipedia:`가 없으면 `title.ko`, `summary.ko`, `source`가 필수.
 - 설명 우선순위: 그 언어 위키백과 첫 문단 → 직접 쓴 summary → 영어 위키백과. 위키백과 글은 가공하지 않고 그대로 보여주며, 화면에 문서 링크 + CC BY-SA 4.0을 표기한다.
+- 사건의 `wikipedia:`가 전쟁 지도(`content/campaigns/<id>/theme.txt`)의 `wikipedia:`와 같으면 사건 카드·상세에 "전쟁 지도로 보기" 버튼이 자동으로 붙는다.
 - 새 사건에 `wikipedia:`를 넣었으면 `npm run wiki`(새 문서만 받음, 전부 다시는 `-- --all`) 후 `npm run content`.
 - 기간 사건은 선택 연도가 기간 안이면 "진행 중"으로 표시된다. 너무 긴 기간(수백 년 왕조 전체)은 피하고, 건국·멸망처럼 시점이 분명한 사건으로 나눈다.
 - 사건의 지역은 **역사적 소속** 기준(예: 콘스탄티노폴리스 함락 = europe). 한 사건은 한 파일에만.

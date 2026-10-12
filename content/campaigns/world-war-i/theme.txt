@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: World War I
+region: europe
+when: 1914-07 ~ 1918-11
+unit: month
+borders-step: 1
+view: 22, 46, 2.4
+search: -12, 50, 28, 64
+min-links: 20
+side.a.ko: 동맹국
+side.a.en: Central Powers
+side.a.zh: 中央同盟国
+side.a.es: Potencias Centrales
+side.a.hi: केंद्रीय शक्तियाँ
+side.a.ar: دول المركز
+side.a.fr: Empires centraux
+side.a.pt: Potências Centrais
+side.b.ko: 협상국
+side.b.en: Entente Powers
+side.b.zh: 协约国
+side.b.es: Potencias de la Entente
+side.b.hi: एंटेंट शक्तियाँ
+side.b.ar: دول الوفاق
+side.b.fr: Triple-Entente
+side.b.pt: Tríplice Entente

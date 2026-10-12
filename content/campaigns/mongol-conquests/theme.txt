@@ -1,0 +1,18 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Mongol invasions and conquests
+region: central-asia
+when: 1206 ~ 1368
+unit: year
+borders-step: 3
+view: 80, 42, 1.6
+search: 20, 135, 20, 60
+min-links: 10
+side.a.ko: 몽골 제국
+side.a.en: Mongol Empire
+side.a.zh: 蒙古帝国
+side.a.es: Imperio mongol
+side.a.hi: मंगोल साम्राज्य
+side.a.ar: الإمبراطورية المغولية
+side.a.fr: Empire mongol
+side.a.pt: Império Mongol

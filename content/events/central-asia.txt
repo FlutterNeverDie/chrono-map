@@ -82,3 +82,10 @@ when: 2020
 coords: 47.7, 40.3
 category: war
 importance: 3
+
+@ mongol-conquests
+wikipedia: Mongol invasions and conquests
+when: 1206 ~ 1368
+coords: 103, 47
+category: war
+importance: 5

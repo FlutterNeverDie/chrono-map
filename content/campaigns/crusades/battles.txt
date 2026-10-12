@@ -1,0 +1,541 @@
+# Crusades 전투 (Wikidata 자동 생성, 직접 고쳐도 됨). 형식은 content/campaigns/CLAUDE.md
+
+@ siege-of-xerigordos
+wikipedia: Siege of Xerigordos
+when: 1096
+coords: 29.8, 40.39
+links: 19
+
+@ battle-of-civetot
+wikipedia: Battle of Civetot
+when: 1096
+coords: 29.16, 40.43
+links: 17
+
+@ siege-of-nicaea
+wikipedia: Siege of Nicaea
+when: 1097
+coords: 29.72, 40.43
+links: 35
+
+@ battle-of-dorylaeum-1097
+wikipedia: Battle of Dorylaeum (1097)
+when: 1097
+coords: 30.52, 39.78
+links: 35
+
+@ siege-of-antioch
+wikipedia: Siege of Antioch
+when: 1097 ~ 1098
+coords: 36.16, 36.2
+links: 37
+
+@ siege-of-ma-arra
+wikipedia: Siege of Ma'arra
+when: 1098
+coords: 36.67, 35.64
+links: 24
+
+@ siege-of-jerusalem-1099
+wikipedia: Siege of Jerusalem (1099)
+when: 1099
+coords: 35.22, 31.78
+links: 49
+
+@ battle-of-ascalon
+wikipedia: Battle of Ascalon
+when: 1099
+coords: 34.56, 31.67
+links: 37
+
+@ first-siege-of-arsuf
+wikipedia: First siege of Arsuf
+when: 1099
+coords: 34.81, 32.2
+links: 10
+
+@ battle-of-melitene
+wikipedia: Battle of Melitene
+when: 1100
+coords: 38.3, 38.35
+links: 18
+
+@ battle-of-ramla-1101
+wikipedia: Battle of Ramla (1101)
+when: 1101
+coords: 34.87, 31.92
+links: 18
+
+@ battle-of-ramla-1102
+wikipedia: Battle of Ramla (1102)
+when: 1102
+coords: 34.87, 31.93
+links: 17
+
+@ siege-of-tripoli
+wikipedia: Siege of Tripoli
+when: 1102 ~ 1109
+coords: 35.84, 34.43
+links: 14
+
+@ battle-of-harran
+wikipedia: Battle of Harran
+when: 1104
+coords: 39.03, 36.87
+links: 30
+
+@ battle-of-ramla-1105
+wikipedia: Battle of Ramla (1105)
+when: 1105
+coords: 34.87, 31.92
+links: 16
+
+@ siege-of-sidon
+wikipedia: Siege of Sidon
+when: 1110
+coords: 35.4, 33.56
+links: 16
+
+@ seljuk-campaign-on-the-crusaders-1111
+wikipedia: Seljuk campaign on the Crusaders (1111)
+when: 1111
+coords: 36.57, 35.27
+links: 13
+
+@ siege-of-nicaea-1113
+wikipedia: Siege of Nicaea (1113)
+when: 1113
+coords: 29.72, 40.43
+links: 14
+
+@ battle-of-al-sannabra
+wikipedia: Battle of al-Sannabra
+when: 1113
+coords: 35.57, 32.72
+links: 10
+
+@ battle-of-sarmin
+wikipedia: Battle of Sarmin
+when: 1115
+coords: 36.72, 35.9
+links: 18
+
+@ battle-of-philomelion-1116
+wikipedia: Battle of Philomelion (1116)
+when: 1116
+coords: 31.42, 38.36
+links: 13
+
+@ battle-of-the-field-of-blood
+wikipedia: Battle of the Field of Blood
+when: 1119
+coords: 36.72, 36.18
+links: 27
+
+@ battle-of-didgori
+wikipedia: Battle of Didgori
+when: 1121
+coords: 44.52, 41.68
+links: 29
+
+@ battle-of-yibneh
+wikipedia: Battle of Yibneh
+when: 1123
+coords: 34.75, 31.87
+links: 12
+
+@ battle-of-azaz-1125
+wikipedia: Battle of Azaz (1125)
+when: 1125
+coords: 36.72, 36.18
+links: 22
+
+@ battle-of-ba-rin
+wikipedia: Battle of Ba'rin
+when: 1137
+coords: 36.44, 34.88
+links: 12
+
+@ siege-of-shaizar-1138
+wikipedia: Siege of Shaizar (1138)
+when: 1138
+coords: 36.57, 35.27
+links: 14
+
+@ siege-of-edessa-1144
+wikipedia: Siege of Edessa (1144)
+when: 1144
+coords: 38.8, 37.15
+links: 25
+
+@ battle-of-bosra-1147
+wikipedia: Battle of Bosra (1147)
+when: 1147
+coords: 36.48, 32.52
+links: 10
+
+@ battle-of-dorylaeum-1147
+wikipedia: Battle of Dorylaeum (1147)
+when: 1147
+coords: 30.52, 39.78
+links: 19
+
+@ battle-of-ephesus-1147
+wikipedia: Battle of Ephesus (1147)
+when: 1147
+coords: 27.34, 37.94
+links: 11
+
+@ battle-of-mount-cadmus
+wikipedia: Battle of Mount Cadmus
+when: 1148
+coords: 29.22, 37.63
+links: 16
+
+@ siege-of-damascus-1148
+wikipedia: Siege of Damascus (1148)
+when: 1148
+coords: 36.3, 33.51
+links: 25
+
+@ battle-of-inab
+wikipedia: Battle of Inab
+when: 1149
+coords: 36.95, 36.52
+links: 22
+
+@ siege-of-ascalon
+wikipedia: Siege of Ascalon
+when: 1153
+coords: 34.55, 31.67
+links: 21
+
+@ siege-of-baghdad-1157
+wikipedia: Siege of Baghdad (1157)
+when: 1157
+coords: 44.42, 33.35
+links: 8
+
+@ battle-of-lake-huleh-1157
+wikipedia: Battle of Lake Huleh (1157)
+when: 1157
+coords: 35.61, 33.1
+links: 12
+
+@ battle-of-al-buqaia
+wikipedia: Battle of al-Buqaia
+when: 1163
+coords: 36.15, 34.01
+links: 12
+
+@ battle-of-harim
+wikipedia: Battle of Harim
+when: 1164
+coords: 36.52, 36.2
+links: 15
+
+@ battle-of-al-babein
+wikipedia: Battle of al-Babein
+when: 1167
+coords: 31.22, 30.02
+links: 11
+
+@ battle-of-myriokephalon
+wikipedia: Battle of Myriokephalon
+when: 1176
+coords: 31.95, 37.91
+links: 32
+
+@ battle-of-montgisard
+wikipedia: Battle of Montgisard
+when: 1177
+coords: 34.92, 31.86
+links: 38
+
+@ battle-of-marj-ayyun
+wikipedia: Battle of Marj Ayyun
+when: 1179
+coords: 35.59, 33.36
+links: 23
+
+@ siege-of-jacob-s-ford
+wikipedia: Siege of Jacob's Ford
+when: 1179
+coords: 35.63, 33
+links: 17
+
+@ battle-of-belvoir-castle
+wikipedia: Battle of Belvoir Castle
+when: 1182
+coords: 35.52, 32.6
+links: 13
+
+@ battle-of-al-fule
+wikipedia: Battle of al-Fule
+when: 1183
+coords: 35.3, 32.6
+links: 15
+
+@ siege-of-kerak-1183
+wikipedia: Siege of Kerak (1183)
+when: 1183
+coords: 35.7, 31.18
+links: 15
+
+@ battle-of-cresson
+wikipedia: Battle of Cresson
+when: 1187
+coords: 35.35, 32.74
+links: 22
+
+@ battle-of-hattin
+wikipedia: Battle of Hattin
+when: 1187
+coords: 35.46, 32.8
+links: 62
+
+@ siege-of-jerusalem-1187
+wikipedia: Siege of Jerusalem (1187)
+when: 1187
+coords: 35.22, 31.78
+links: 43
+
+@ siege-of-tyre-1187
+wikipedia: Siege of Tyre (1187)
+when: 1187 ~ 1188
+coords: 35.2, 33.27
+links: 20
+
+@ siege-of-acre-1189-1191
+wikipedia: Siege of Acre (1189–1191)
+when: 1189 ~ 1191
+coords: 35.08, 32.93
+links: 34
+
+@ battle-of-iconium-1190
+wikipedia: Battle of Iconium (1190)
+when: 1190
+coords: 32.48, 37.87
+links: 19
+
+@ battle-of-philomelion-1190
+wikipedia: Battle of Philomelion (1190)
+when: 1190
+coords: 31.42, 38.36
+links: 8
+
+@ battle-of-arsuf
+wikipedia: Battle of Arsuf
+when: 1191
+coords: 34.81, 32.19
+links: 36
+
+@ battle-of-jaffa-1192
+wikipedia: Battle of Jaffa (1192)
+when: 1192
+coords: 34.75, 32.05
+links: 23
+
+@ battle-of-arcadiopolis-1194
+wikipedia: Battle of Arcadiopolis (1194)
+when: 1194
+coords: 27.25, 41.44
+links: 8
+
+@ battle-of-basiani
+wikipedia: Battle of Basiani
+when: 1202
+coords: 41.68, 39.98
+links: 15
+
+@ siege-of-constantinople-1203
+wikipedia: Siege of Constantinople (1203)
+when: 1203
+coords: 28.98, 41.02
+links: 23
+
+@ sack-of-constantinople
+wikipedia: Sack of Constantinople
+when: 1204
+coords: 28.95, 41.04
+links: 38
+
+@ siege-of-trebizond-1205-1206
+wikipedia: Siege of Trebizond (1205–1206)
+when: 1205 ~ 1206
+coords: 39.73, 41
+links: 12
+
+@ battle-of-adramyttion-1205
+wikipedia: Battle of Adramyttion (1205)
+when: 1205
+coords: 27.02, 39.58
+links: 8
+
+@ battle-of-adrianople-1205
+wikipedia: Battle of Adrianople (1205)
+when: 1205
+coords: 26.57, 41.67
+links: 26
+
+@ siege-of-attaleia
+wikipedia: Siege of Attaleia
+when: 1207
+coords: 30.7, 36.91
+links: 8
+
+@ battle-of-antioch-on-the-meander
+wikipedia: Battle of Antioch on the Meander
+when: 1211
+coords: 28.57, 37.87
+links: 14
+
+@ siege-of-damietta-1218-1219
+wikipedia: Siege of Damietta (1218–1219)
+when: 1218 ~ 1219
+coords: 31.82, 31.42
+links: 24
+
+@ battle-of-poimanenon
+wikipedia: Battle of Poimanenon
+when: 1224
+coords: 36, 37.89
+links: 13
+
+@ battle-of-garni
+wikipedia: Battle of Garni
+when: 1225
+coords: 44.72, 40.12
+links: 16
+
+@ battle-of-klokotnitsa
+wikipedia: Battle of Klokotnitsa
+when: 1230
+coords: 25.5, 41.98
+links: 21
+
+@ siege-of-constantinople-1235-1236
+wikipedia: Siege of Constantinople (1235–1236)
+when: 1235
+coords: 28.98, 41.01
+links: 17
+
+@ battle-of-kose-dag
+wikipedia: Battle of Köse Dağ
+when: 1243
+coords: 39.6, 40.28
+links: 30
+
+@ siege-of-jerusalem-1244
+wikipedia: Siege of Jerusalem (1244)
+when: 1244
+coords: 35.22, 31.78
+links: 27
+
+@ battle-of-forbie
+wikipedia: Battle of Forbie
+when: 1244
+coords: 34.55, 31.61
+links: 22
+
+@ siege-of-damietta-1249
+wikipedia: Siege of Damietta (1249)
+when: 1249
+coords: 31.82, 31.42
+links: 15
+
+@ battle-of-mansurah-1250
+wikipedia: Battle of Mansurah (1250)
+when: 1250
+coords: 31.38, 31.05
+links: 20
+
+@ battle-of-fariskur-1250
+wikipedia: Battle of Fariskur (1250)
+when: 1250
+coords: 31.71, 31.33
+links: 23
+
+@ battle-of-adrianople-1254
+wikipedia: Battle of Adrianople (1254)
+when: 1254
+coords: 26.57, 41.67
+links: 9
+
+@ siege-of-baghdad
+wikipedia: Siege of Baghdad
+when: 1258
+coords: 44.34, 33.35
+links: 56
+
+@ siege-of-aleppo-1260
+wikipedia: Siege of Aleppo (1260)
+when: 1260
+coords: 37.16, 36.2
+links: 11
+
+@ battle-of-ain-jalut
+wikipedia: Battle of Ain Jalut
+when: 1260
+coords: 35.36, 32.55
+links: 50
+
+@ siege-of-constantinople-1260
+wikipedia: Siege of Constantinople (1260)
+when: 1260
+coords: 28.98, 41.01
+links: 13
+
+@ first-battle-of-homs
+wikipedia: First Battle of Homs
+when: 1260
+coords: 36.71, 34.72
+links: 16
+
+@ reconquest-of-constantinople
+wikipedia: Reconquest of Constantinople
+when: 1261
+coords: 28.98, 41.02
+links: 23
+
+@ battle-of-mari
+wikipedia: Battle of Mari
+when: 1266
+coords: 36.36, 36.53
+links: 15
+
+@ siege-of-antioch-1268
+wikipedia: Siege of Antioch (1268)
+when: 1268
+coords: 36.15, 36.2
+links: 13
+
+@ fall-of-krak-des-chevaliers
+wikipedia: Fall of Krak des Chevaliers
+when: 1271
+coords: 36.3, 34.76
+links: 11
+
+@ truce-of-tripoli-1271
+wikipedia: Truce of Tripoli (1271)
+when: 1271
+coords: 35.83, 34.43
+links: 8
+
+@ battle-of-elbistan
+wikipedia: Battle of Elbistan
+when: 1277
+coords: 37.19, 38.2
+links: 12
+
+@ second-battle-of-homs
+wikipedia: Second Battle of Homs
+when: 1281
+coords: 36.71, 34.72
+links: 23
+
+@ siege-of-acre-1291
+wikipedia: Siege of Acre (1291)
+when: 1291
+coords: 35.08, 32.93
+links: 36

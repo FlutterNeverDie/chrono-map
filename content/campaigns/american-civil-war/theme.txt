@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: American Civil War
+region: north-america
+when: 1861-04 ~ 1865-05
+unit: month
+borders-step: 1
+view: -84, 36, 4
+search: -100, -70, 25, 45
+min-links: 8
+side.a.ko: 남부 연합
+side.a.en: Confederacy
+side.a.zh: 美利坚联盟国
+side.a.es: Confederación
+side.a.hi: कॉन्फ़ेडरेसी
+side.a.ar: الكونفدرالية
+side.a.fr: Confédération
+side.a.pt: Confederação
+side.b.ko: 북부 연방
+side.b.en: Union
+side.b.zh: 联邦
+side.b.es: Unión
+side.b.hi: यूनियन
+side.b.ar: الاتحاد
+side.b.fr: Union
+side.b.pt: União

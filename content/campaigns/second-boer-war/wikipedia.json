@@ -1,0 +1,604 @@
+{
+  "Second Boer War": {
+    "pages": {
+      "ko": {
+        "title": "제2차 보어 전쟁",
+        "extract": "제2차 보어 전쟁(영어: Second Boer War, 아프리칸스어: Tweede Boereoorlog)은 1899년 10월 11일에 발발한 네덜란드계 보어인이 세운 트란스발 공화국 및 오렌지 자유국(Oranje Vrystaat)의 7만 연합군과 영국 45만 군대 사이의 전쟁으로, 1902년 5월 31일에 영국의 승리로 종결되었다. 영국이 승리함에 따라 트란스발 공화국과 오렌지 자유국의 영토는 최종적으로 영국의 식민지가 되었다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%A0%9C2%EC%B0%A8_%EB%B3%B4%EC%96%B4_%EC%A0%84%EC%9F%81"
+      },
+      "en": {
+        "title": "Second Boer War",
+        "extract": "The Second Boer War was a conflict fought between 1899 and 1902 between the British Empire and the Boer republics, triggered by the discovery of gold in the Transvaal, specifically the Witwatersrand gold fields, and the ensuing political dispute over the voting rights of British expatriates (Uitlanders).",
+        "url": "https://en.wikipedia.org/wiki/Second_Boer_War"
+      },
+      "zh": {
+        "title": "第二次布尔战争",
+        "extract": "第二次布尔战争，又称第二次自由战争 、布尔战争 、德兰士瓦战争 、英布战争 、南非战争，是一场英国与川斯瓦共和国和奥兰治自由邦之间的战争。",
+        "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E5%B8%83%E5%B0%94%E6%88%98%E4%BA%89"
+      },
+      "es": {
+        "title": "Segunda guerra bóer",
+        "extract": "La segunda guerra bóer fue un conflicto entre el Reino Unido y los fundadores de las repúblicas independientes del Estado Libre de Orange y la República Sudafricana, en el nordeste de Sudáfrica. Años antes había sucedido la primera guerra bóer.",
+        "url": "https://es.wikipedia.org/wiki/Segunda_guerra_b%C3%B3er"
+      },
+      "hi": {
+        "title": "द्वितीय बोअर युद्ध",
+        "extract": "द्वितीय बोअर युद्ध ब्रिटिश साम्राज्य और दोनों बोअर रिपब्लिकों के बीच दक्षिणी अफ्रीका पर अधिकार को लेकर हुआ था। इसे 'बोअर युद्ध', 'ट्रान्सवाल युद्ध', 'आंग्ल-बोअर युद्ध', और 'दक्षिण-अफ्रीकी युद्ध' भी कहते हैं।",
+        "url": "https://hi.wikipedia.org/wiki/%E0%A4%A6%E0%A5%8D%E0%A4%B5%E0%A4%BF%E0%A4%A4%E0%A5%80%E0%A4%AF_%E0%A4%AC%E0%A5%8B%E0%A4%85%E0%A4%B0_%E0%A4%AF%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A7"
+      },
+      "ar": {
+        "title": "حرب البوير الثانية",
+        "extract": "حرب البوير الثانية ، وتعرف أيضاً باسم حرب جنوب أفريقيا أو حرب الأنجلو بوير، يدعوها الأفريكان كذلك بحرب الاستقلال الثانية، هي حرب إمتدت من 11 أكتوبر 1899 إلى 31 مايو 1902، بين الإمبراطورية البريطانية وجمهوريتي البوير؛ جمهورية جنوب أفريقيا (الترانسفال) وجمهورية البرتقال الحرة، وانتهت بانتصار الجيش البريطاني.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%AD%D8%B1%D8%A8_%D8%A7%D9%84%D8%A8%D9%88%D9%8A%D8%B1_%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A%D8%A9"
+      },
+      "fr": {
+        "title": "Seconde guerre des Boers",
+        "extract": "La seconde guerre des Boers, généralement désignée comme la guerre des Boers ou encore la guerre d'Afrique du Sud, la seconde guerre anglo-boer et en afrikaans Boereoorlog ou Tweede Vryheidsoorlog, désigne le second conflit intervenu en Afrique du Sud du 11 octobre 1899 au 31 mai 1902, entre les Britanniques et les habitants des deux principales républiques boers indépendantes. Elle fait suite à la première guerre des Boers.",
+        "url": "https://fr.wikipedia.org/wiki/Seconde_guerre_des_Boers"
+      },
+      "pt": {
+        "title": "Segunda Guerra dos Bôeres",
+        "extract": "A Segunda Guerra Boer, travada entre 11 de outubro de 1899 e 31 de maio de 1902, foi um conflito lutado entre o Império Britânico e as duas nações Bôer, a República Sul-Africana e o Estado Livre de Orange, sobre o domínio da África do Sul. Ficou conhecida também simplesmente como Guerra Boer ou Guerra Anglo-Boer. No começo do conflito, os bôeres tomaram a iniciativa e tiveram alguns sucessos, porém os britânicos reagiram, mandando reforços, e infligiram grande derrotas as duas nações sul-africanas. Os bôeres iniciaram então uma ampla e violenta campanha de guerrilha que durou dois anos. Os britânicos responderam brutalmente e adotaram políticas de represália, queimando fazendas, destruindo casas e mandando milhares de civis para campos de concentração. A guerra foi extremamente brutal e teve um enorme impacto na região por anos. No final, os bôeres se renderam e um tratado foi firmado entre as partes envolvidas.",
+        "url": "https://pt.wikipedia.org/wiki/Segunda_Guerra_dos_B%C3%B4eres"
+      }
+    }
+  },
+  "Battle of Talana Hill": {
+    "pages": {
+      "en": {
+        "title": "Battle of Talana Hill",
+        "extract": "The Battle of Talana Hill, also known as the Battle of Glencoe, was the first major clash of the Second Boer War. A frontal attack by British infantry supported by artillery drove the Boers from a hilltop position, but the British suffered heavy casualties in the process, including their commanding general, Sir William Penn Symons, being mortally wounded.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Talana_Hill"
+      },
+      "fr": {
+        "title": "Bataille de Talana Hill",
+        "extract": "La bataille de Talana Hill, parfois bataille de Dundee ou bataille de Glencoe, fut le premier affrontement d'importance de la seconde guerre des Boers. Une attaque frontale de l'infanterie britannique permit de dégager une colline de l'occupation boer, mais les britanniques souffrirent de lourdes pertes, dont celle de leur commandant Penn Symons.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Talana_Hill"
+      }
+    }
+  },
+  "Battle of Elandslaagte": {
+    "pages": {
+      "en": {
+        "title": "Battle of Elandslaagte",
+        "extract": "The Battle of Elandslaagte took place during the Second Boer War, and was one of the few decisive victories won by the British during the conflict. At the time, the Boers were invading Natal, and had occupied the railway station at Elandslaagte. To dispel the Boers from their position, the British Army led a two-pronged assault in the hills which the Boers occupied, forcing them to retreat. However, the British force retreated afterwards due to fear of another Boer force, throwing away their advantage.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Elandslaagte"
+      },
+      "fr": {
+        "title": "Bataille d'Elandslaagte",
+        "extract": "La bataille d'Elandslaage fut une bataille de la seconde guerre des Boers qui se déroula à Elandslaage (en), et l'une des seules victoires tactiques nettes gagnée par l'Empire britannique dans ce conflit. Ils se retirèrent cependant peu après, perdant ainsi l'avantage gagné.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_d'Elandslaagte"
+      }
+    }
+  },
+  "Battle of Ladysmith": {
+    "pages": {
+      "en": {
+        "title": "Battle of Ladysmith",
+        "extract": "The Battle of Ladysmith, also known as the Battle of Lombard's Kop, was one of the early engagements of the Second Boer War. A large British force which had concentrated at the garrison town of Ladysmith launched a sortie on 30 October 1899, against Boer armies which were slowly surrounding the town. The result was a disaster for the British. The main body was driven back into the town, and an isolated detachment of 800 men was forced to surrender to Commandant De Wet. The Boers did not follow up their advantage by proceeding towards the strategically important port of Durban, and instead began a siege of Ladysmith, which was relieved after 118 days. John Norwood was awarded the Victoria Cross for his actions during the battle.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Ladysmith"
+      },
+      "es": {
+        "title": "Batalla de Ladysmith",
+        "extract": "La batalla de Ladysmith fue uno de los primeros enfrentamientos de la segunda guerra bóer. Una gran fuerza británica que se había concentrado en la ciudad de guarnición de Ladysmith lanzó una salida el 30 de octubre de 1899, contra los ejércitos bóer que rodeaban lentamente la ciudad. El resultado fue un desastre para los británicos. El cuerpo principal fue conducido de regreso a la ciudad, y un destacamento aislado de 800 hombres se vio obligado a rendirse al comandante De Wet. Los bóeres no siguieron su ventaja procediendo hacia el puerto estratégicamente importante de Durban, y en su lugar comenzaron un asedio a Ladysmith, que fue relevado después de 118 días. John Norwood fue galardonado con la Cruz Victoria por sus acciones durante la batalla.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Ladysmith"
+      },
+      "fr": {
+        "title": "Bataille de Ladysmith",
+        "extract": "La bataille de Ladysmith fut un des premiers affrontements de la deuxième guerre des Boers. Une importante armée britannique établie dans la ville de garnison de Ladysmith tenta une sortie le 30 octobre 1899 contre les armées boers encerclant la ville. Il en résulta un désastre pour les Britanniques. La force principale fut repoussée vers la ville, et un détachement isolé de 600 hommes dut se rendre. Les Boers ne réussirent cependant pas à transformer leur avantage, et mirent le siège autour de la ville, qui fut libérée 188 jours plus tard.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Ladysmith"
+      }
+    }
+  },
+  "Battle of Kraaipan": {
+    "pages": {
+      "en": {
+        "title": "Battle of Kraaipan",
+        "extract": "The Battle of Kraaipan was the first engagement of the Second Anglo-Boer War, fought at Kraaipan, South Africa on 12 October 1899.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Kraaipan"
+      },
+      "fr": {
+        "title": "Bataille de Kraaipan",
+        "extract": "La bataille de Kraaipan est la première confrontation intervenue de la seconde guerre des Boers du 12 au 13 octobre 1899 à Kraaipan (en).",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Kraaipan"
+      }
+    }
+  },
+  "Siege of Kimberley": {
+    "pages": {
+      "en": {
+        "title": "Siege of Kimberley",
+        "extract": "The siege of Kimberley took place during the Second Boer War at Kimberley, Cape Colony, when Boer forces from the Orange Free State and the Transvaal besieged the diamond mining town. The Boers moved quickly to try to capture the area when war broke out between the British and the two Boer republics in October 1899. The town was ill-prepared, but the defenders organised an energetic and effective improvised defence that was able to prevent it from being taken.",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Kimberley"
+      },
+      "fr": {
+        "title": "Siège de Kimberley",
+        "extract": "Le siège de Kimberley se tint au cours de la seconde guerre des Boers à Kimberley en Afrique du Sud.",
+        "url": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Kimberley"
+      }
+    }
+  },
+  "Siege of Mafeking": {
+    "pages": {
+      "en": {
+        "title": "Siege of Mafeking",
+        "extract": "The siege of Mafeking was a 217-day siege battle for the town of Mafeking in South Africa during the Second Boer War from October 1899 to May 1900. The siege received considerable attention as Lord Edward Cecil, the son of the British prime minister, was in the besieged town, as also was Lady Sarah Wilson, a daughter of the Duke of Marlborough and aunt of Winston Churchill. The siege turned the British commander, Colonel Robert Baden-Powell, into a national hero. The Relief of Mafeking, while of little military significance, was a morale boost for the struggling British.",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Mafeking"
+      },
+      "zh": {
+        "title": "馬弗京戰役",
+        "extract": "马弗京战役 为第二次波耳战争中，英国最著名的行动。本战役从1899年10月到1900年5月，共经历217天的时间，开战地点在南非的马弗京，使得童军运动创始人罗伯特·贝登堡成为国家英雄。马弗京救援 成为英国在此一系列战中获得胜利，和波耳人垮台的关键战役。",
+        "url": "https://zh.wikipedia.org/wiki/%E9%A6%AC%E5%BC%97%E4%BA%AC%E6%88%B0%E5%BD%B9"
+      },
+      "es": {
+        "title": "Sitio de Mafeking",
+        "extract": "El sitio de Mafeking fue la acción militar británica más famosa de la segunda guerra de los bóeres. Tuvo lugar en la ciudad de Mafikeng, en la República Sudafricana durante un período de 217 días, a partir octubre 1899 a mayo de 1900 y volvió al coronel Robert Baden-Powell un héroe nacional, quien posteriormente fundaría el Movimiento Scout. La Liberación de Mafeking, es considerada una victoria decisiva para los británicos y una derrota aplastante para los bóeres o afrikáneres. La ciudad contaba con unas 8850 personas de las cuales 7500 eran nativos.",
+        "url": "https://es.wikipedia.org/wiki/Sitio_de_Mafeking"
+      },
+      "ar": {
+        "title": "حصار مافيكينغ",
+        "extract": "شكّل حصار مافيكينغ معركة استمرت 217 يومًا للسيطرة على بلدة مافيكينغ في جنوب أفريقيا خلال حرب البوير الثانية من أكتوبر 1899 حتى مايو 1900. نال الحصار اهتمامًا كبيرًا لوجود اللورد إدوارد سيسيل، نجل رئيس وزراء بريطانيا، داخل البلدة المحاصرة، إلى جانب الليدي سارة ويلسون، ابنة دوق مارلبورو وعمة ونستون تشرشل. أدّى الحصار إلى تحويل القائد البريطاني، العقيد روبرت بادن-باول، إلى بطل قومي. وعلى الرغم من أن فك الحصار عن مافيكينغ لم يحمل أهمية عسكرية كبيرة، لكنه شكّل دفعة معنوية للبريطانيين الذين كانوا يواجهون صعوبات كبيرة.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%AD%D8%B5%D8%A7%D8%B1_%D9%85%D8%A7%D9%81%D9%8A%D9%83%D9%8A%D9%86%D8%BA"
+      },
+      "fr": {
+        "title": "Siège de Mafeking",
+        "extract": "Le siège de Mafeking par 3 000 soldats boers du 13 octobre 1899 au 17 mai 1900 fut un des épisodes de la seconde guerre des Boers.",
+        "url": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Mafeking"
+      }
+    }
+  },
+  "Battle of Modder River": {
+    "pages": {
+      "en": {
+        "title": "Battle of Modder River",
+        "extract": "The Battle of Modder River was an engagement in the Boer War, fought at Modder River, on 28 November 1899. A British column under Lord Methuen, that was attempting to relieve the besieged town of Kimberley, forced Boers under General Piet Cronjé to retreat to Magersfontein, but suffered heavy casualties altogether.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Modder_River"
+      },
+      "fr": {
+        "title": "Bataille de Modder River",
+        "extract": "La bataille de Modder River fut un affrontement de la seconde guerre des Boers, qui s'est tenu sur la Modder River, le 28 novembre 1899. Une colonne britannique dirigée par Lord Methuen et qui tentait de libérer Kimberley força les troupes boers du Général Piet Cronjé à la retraite, mais il souffrit de lourdes pertes.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Modder_River"
+      }
+    }
+  },
+  "Battle of Belmont (1899)": {
+    "pages": {
+      "en": {
+        "title": "Battle of Belmont (1899)",
+        "extract": "The Battle of Belmont was an engagement of the Second Boer War on 23 November 1899, where the British under Lord Methuen assaulted a Boer position on Belmont kopje.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Belmont_(1899)"
+      },
+      "fr": {
+        "title": "Bataille de Belmont (1899)",
+        "extract": "La bataille de Belmont est le nom d'un affrontement qui s'est tenu durant la seconde guerre des Boers dans la ville de Belmont en Afrique du Sud le 23 novembre 1899, lorsque le commandant Lord Methuen de l'Empire britannique en route pour lever le siège de Kimberley attaqua une position boer du Commandant Jacobus Prinsloo. Les troupes britanniques suivaient la voie de chemin de fer menant à Kimberley pour aller lever le siège de la ville. Une bataille se déroula également à la station suivante de Graspan",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Belmont_(1899)"
+      }
+    }
+  },
+  "Battle of Graspan": {
+    "pages": {
+      "en": {
+        "title": "Battle of Graspan",
+        "extract": "The Battle of Graspan, also known as the Battle of Enslin, was an engagement in the Second Boer War near the Enslin railway station at Graspan kopje. The battle took place on November 25, 1899, between British forces led by Lord Methuen and Boers led by Koos de la Rey.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Graspan"
+      },
+      "fr": {
+        "title": "Bataille de Graspan",
+        "extract": "La bataille de Graspan ou bataille d'Enslin ou bataille de Rooilaagte, du nom des trois localités à proximité du champ de bataille, est le nom d'un affrontement qui s'est tenu durant la seconde guerre des Boers au nord la ville de Belmont en Afrique du Sud le 25 novembre 1899, lorsque le commandant Lord Methuen de l'Empire britannique en route pour lever le siège de Kimberley attaqua une position boer du Commandant Jacobus Prinsloo. Les troupes britanniques suivaient la voie de chemin de fer menant à Kimberley pour aller lever le siège de la ville. Une bataille se déroula également à la station précédente de Belmont deux jours plus tôt.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Graspan"
+      }
+    }
+  },
+  "Battle of Willow Grange": {
+    "pages": {
+      "en": {
+        "title": "Battle of Willow Grange",
+        "extract": "The Battle of Willow Grange, which took place on 23 November 1899 at Willow Grange, south of Estcourt, saw the Boer forces under General Piet Joubert defeat the British forces. The battle was fought in adverse weather conditions; lightning struck, killing one civilian and knocking two others unconscious, and also killed six horses. Additionally, one British soldier was struck by lightning. This was the furthers Boer advance in the war, and afterwards, General Joubert would retreat, as reinforcements led by General Buller had arrived in Mooi River.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Willow_Grange"
+      }
+    }
+  },
+  "Siege of Ladysmith": {
+    "pages": {
+      "ko": {
+        "title": "레이디스미스 공방전",
+        "extract": "레이디스미스 공방전(영어: Siege of Ladysmith)은 제2차 보어 전쟁의 장기적인 교전으로, 1899년 11월 2일부터 1900년 2월 28일까지 레이디스미스에서 벌어졌다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%A0%88%EC%9D%B4%EB%94%94%EC%8A%A4%EB%AF%B8%EC%8A%A4_%EA%B3%B5%EB%B0%A9%EC%A0%84"
+      },
+      "en": {
+        "title": "Siege of Ladysmith",
+        "extract": "The siege of Ladysmith was a protracted engagement in the Second Boer War, taking place between 2 November 1899 and 28 February 1900 at Ladysmith, Natal.",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Ladysmith"
+      },
+      "es": {
+        "title": "Sitio de Ladysmith",
+        "extract": "El sitio de Ladysmith fue un prolongado combate en la Segunda Guerra Anglo-Bóer, ocurrido entre el 30 de octubre de 1899 y el 28 de febrero de 1900.",
+        "url": "https://es.wikipedia.org/wiki/Sitio_de_Ladysmith"
+      },
+      "fr": {
+        "title": "Siège de Ladysmith",
+        "extract": "Le siège de Ladysmith est un fait d'armes de la seconde guerre des Boers qui s'est tenu entre le 30 octobre 1899 et le 25 février 1900 à Ladysmith, au Natal, en Afrique du Sud.",
+        "url": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Ladysmith"
+      },
+      "pt": {
+        "title": "Cerco de Ladysmith",
+        "extract": "O Cerco de Ladysmith foi um combate da Segunda Guerra dos Bôeres, acontecendo entre 2 de novembro de 1899 e 28 de fevereiro de 1900 em Ladysmith, Natal.",
+        "url": "https://pt.wikipedia.org/wiki/Cerco_de_Ladysmith"
+      }
+    }
+  },
+  "Second Battle of Colenso": {
+    "pages": {
+      "en": {
+        "title": "Second Battle of Colenso",
+        "extract": "The Second Battle of Colenso, also known as the Battle of Colenso, was the third and final battle fought during the Black Week of the Second Boer War. It was fought between British and Boer forces from the independent South African Republic and Orange Free State in and around Colenso, Natal, South Africa on 15 December 1899.",
+        "url": "https://en.wikipedia.org/wiki/Second_Battle_of_Colenso"
+      },
+      "es": {
+        "title": "Batalla de Colenso",
+        "extract": "La batalla de Colenso se desarrolló entre las fuerzas británica y bóer en Colenso (Sudáfrica) el 15 de diciembre de 1899 como parte de la Segunda Guerra Anglo-Bóer. Una preparación y reconocimiento inadecuados y liderazgo falto de inspiración condujeron a una fuerte, y en algunos aspectos humillante, derrota británica. Fue la tercera derrota consecutiva del ejército británico en la llamada semana negra.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Colenso"
+      },
+      "fr": {
+        "title": "Bataille de Colenso",
+        "extract": "La bataille de Colenso est livrée le 15 décembre 1899, pendant la seconde guerre des Boers (1899-1902).",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Colenso"
+      },
+      "pt": {
+        "title": "Batalha de Colenso",
+        "extract": "A batalha de Colenso foi a terceira e última batalha travada durante a Semana Negra da Segunda Guerra dos Bôeres. Ela foi travada entre as forças britânicas e as forças Boer da República independente Sul-Africana e do Estado Livre de Orange e em torno de Colenso, Natal, África do Sul, em 15 de dezembro de 1899.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Colenso"
+      }
+    }
+  },
+  "Battle of Magersfontein": {
+    "pages": {
+      "en": {
+        "title": "Battle of Magersfontein",
+        "extract": "The Battle of Magersfontein was fought on 11 December 1899, at Magersfontein, near Kimberley, South Africa, on the borders of the Cape Colony and the independent republic of the Orange Free State. British forces under Lieutenant General Lord Methuen were advancing north along the railway line from the Cape to relieve the siege of Kimberley, but their path was blocked at Magersfontein by a Boer force that was entrenched in the surrounding hills. The British had already fought a series of battles with the Boers, most recently at Modder River, where the advance was temporarily halted.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Magersfontein"
+      },
+      "es": {
+        "title": "Batalla de Magersfontein",
+        "extract": "La batalla de Magersfontein fue la segunda de las tres batallas incluidas en la semana negra de la Segunda Guerra Anglo-Bóer. Sucedió el 11 de diciembre de 1899 en Magersfontein, cerca de Kimberley, en la frontera entre la Colonia del Cabo y el Estado Libre de Orange. En esta batalla las tropas Bóer al mando de los generales Piet Cronje y De la Rey vencieron a las tropas británicas al mando del Teniente General Lord Methuen que pretendían romper el sitio de Kimberley.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Magersfontein"
+      },
+      "ar": {
+        "title": "معركة ماجرسفونتين",
+        "extract": "معركة ماجرسفونتين وقعت في 11 ديسمبر 1899 خلال حرب البوير الثانية قرب كيمبرلي في جنوب أفريقيا، وانتهت بانتصار للبوير الذين صدّوا الهجوم البريطاني من خنادق منخفضة أمام التلال.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D9%85%D8%A7%D8%AC%D8%B1%D8%B3%D9%81%D9%88%D9%86%D8%AA%D9%8A%D9%86"
+      },
+      "fr": {
+        "title": "Bataille de Magersfontein",
+        "extract": "La bataille de Magersfontein est la deuxième bataille de la semaine noire de la seconde guerre des Boers. Elle se déroula le 11 décembre 1899 à Magersfontein (en), à proximité de Kimberley aux frontières de la colonie du Cap et de l'État libre d'Orange. Le général Piet Cronje et ses troupes boer vainquirent les troupes de l'Empire britannique commandées par Lord Methuen.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Magersfontein"
+      },
+      "pt": {
+        "title": "Batalha de Magersfontein",
+        "extract": "A Batalha de Magersfontein foi travada em 11 de dezembro de 1899, em Magersfontein, perto de Kimberley, África do Sul, nas fronteiras da Colônia do Cabo e a república independente do Estado Livre de Orange. As forças britânicas sob o comando do tenente-general Paul Sanford Methuen estavam avançando para o norte ao longo da linha ferroviária do Cabo para aliviar o cerco de Kimberley, mas seu caminho foi bloqueado em Magersfontein por uma força bôer que estava entrincheirada nas colinas circundantes. Os britânicos já haviam travado uma série de batalhas com os bôeres, mais recentemente no rio Modder, onde o avanço foi temporariamente interrompido.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Magersfontein"
+      }
+    }
+  },
+  "Battle of Stormberg": {
+    "pages": {
+      "en": {
+        "title": "Battle of Stormberg",
+        "extract": "The Battle of Stormberg was a British assault on Stormberg Junction on 10 December 1899 during the Second Boer War. At that time, the Boers had taken control of Molten and the heights around Stormberg Junction, as part of their invasion of Cape Colony. William Forbes Gatacre, the general in command of troops in the Cape Midlands, decided to dislodge the Boers from their position in order to secure the railway lines which supplied the larger March on Kimberley by Lord Methuen. Due to a failed night march and a badly coordinated assault, the Boers repulsed the British army, with the Northumberland Fusiliers suffering high casualties.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Stormberg"
+      },
+      "es": {
+        "title": "Batalla de Stormberg",
+        "extract": "La batalla de Stormberg fue la primera derrota británica de la llamada semana negra, durante la cual el ejército británico fue vencido en tres batallas por tropas irregulares bóeres, en el marco de la Segunda Guerra Anglo-Bóer.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Stormberg"
+      },
+      "fr": {
+        "title": "Bataille de Stormberg",
+        "extract": "La bataille de Stormberg fut la première des défaites britanniques qui jalonnèrent la semaine noire, au cours de laquelle trois expéditions britanniques furent battues par les troupes boers irrégulières au cours de la Deuxième Guerre des Boers. Les deux défaites suivantes intervinrent lors de la bataille de Colenso et la bataille de Magersfontein.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Stormberg"
+      }
+    }
+  },
+  "Battle of Spion Kop": {
+    "pages": {
+      "en": {
+        "title": "Battle of Spion Kop",
+        "extract": "The Battle of Spion Kop was a military engagement between British forces and two Boer Republics, the South African Republic and the Orange Free State, during the campaign by the British to relieve the besieged city Ladysmith during the initial months of the Second Boer War. The battle was fought 23–24 January 1900 on the hilltop of Spioen Kop(a), about 38 km (24 mi) west-southwest of Ladysmith and resulted in a Boer victory.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Spion_Kop"
+      },
+      "es": {
+        "title": "Batalla de Spion Kop",
+        "extract": "La batalla de Spion Kop tuvo lugar a unos 38 km al oeste-suroeste de Ladysmith en la cima de Spioenkop a lo largo del río Tugela en Natal, Sudáfrica. La batalla tuvo lugar entre las fuerzas bóeres y británicas del 23 al 24 de enero de 1900 como parte de la Segunda Guerra Anglo-Bóer y su resultado fue una victoria bóer.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Spion_Kop"
+      },
+      "fr": {
+        "title": "Bataille de Spion Kop",
+        "extract": "La bataille de Spion Kop a eu lieu du 23 au 24 janvier 1900, entre les Boers et le Royaume-Uni lors de la seconde guerre des Boers. La bataille prit place à 38 km de Ladysmith sur la colline de Spioenkop le long de la rivière Tugela en Afrique du Sud et fut une sévère défaite pour les Britanniques même si elle ne les empêcha pas de reprendre Ladysmith peu après avec l'arrivée de renforts.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Spion_Kop"
+      }
+    }
+  },
+  "Battle of Paardeberg": {
+    "pages": {
+      "en": {
+        "title": "Battle of Paardeberg",
+        "extract": "The Battle of Paardeberg or Perdeberg was a major battle during the Second Anglo-Boer War. It was fought near Paardeberg Drift on the banks of the Modder River in the Orange Free State near Kimberley.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Paardeberg"
+      },
+      "es": {
+        "title": "Batalla de Paardeberg",
+        "extract": "La batalla de Paardeberg o Perdeberg fue un enfrentamiento bélico que tuvo lugar durante la segunda guerra bóer. Se desarrolló cerca del río Modder, próximo a la ciudad de Kimberley, en el Estado Libre de Orange, entre el 18 y 27 de febrero de 1900.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Paardeberg"
+      },
+      "fr": {
+        "title": "Bataille de Paardeberg",
+        "extract": "La bataille de Paardeberg, plus rarement bataille de Stinkfontein, fut une bataille majeure de la seconde guerre des Boers. Le combat eut lieu près de Paardeberg sur les rives de la rivière Modder dans l'État libre d'Orange.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Paardeberg"
+      }
+    }
+  },
+  "Battle of Vaal Krantz": {
+    "pages": {
+      "en": {
+        "title": "Battle of Vaal Krantz",
+        "extract": "The Battle of Vaal Krantz was the third failed attempt by General Redvers Buller's British army to fight its way past Louis Botha's army of Boer irregulars and lift the Siege of Ladysmith. The battle occurred during the Second Boer War.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Vaal_Krantz"
+      },
+      "fr": {
+        "title": "Bataille de Vaal Krantz",
+        "extract": "La bataille de Vaal Krantz fut la troisième tentative, infructueuse, du général Redvers Buller de l'Armée britannique de contourner les Boers de Louis Botha et de lever le siège de Ladysmith. La bataille se déroula pendant la seconde guerre des Boers.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Vaal_Krantz"
+      }
+    }
+  },
+  "Battle of the Tugela Heights": {
+    "pages": {
+      "en": {
+        "title": "Battle of the Tugela Heights",
+        "extract": "The Battle of Tugela Heights, also known as the Battle of Pieters Hill, Battle of the Pieters, or the Battle of the Tugela River, consisted of a series of military actions lasting from 14 February through to 27 February 1900 in which General Sir Redvers Buller's British army forced Louis Botha's Boer army to lift the Siege of Ladysmith during the Second Boer War.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_the_Tugela_Heights"
+      }
+    }
+  },
+  "Bloody Sunday (1900)": {
+    "pages": {
+      "ko": {
+        "title": "피의 일요일 (1900년)",
+        "extract": "피의 일요일은 1900년 2월 18일 제2차 보어 전쟁에서 영국군과 오렌지 자유국군의 전투가 벌어지면서 다수의 사상자를 낸 사건이다.",
+        "url": "https://ko.wikipedia.org/wiki/%ED%94%BC%EC%9D%98_%EC%9D%BC%EC%9A%94%EC%9D%BC_(1900%EB%85%84)"
+      },
+      "en": {
+        "title": "Bloody Sunday (1900)",
+        "extract": "Bloody Sunday of February 18, 1900, was a day of high Imperial casualties in the Second Boer War.",
+        "url": "https://en.wikipedia.org/wiki/Bloody_Sunday_(1900)"
+      },
+      "es": {
+        "title": "Domingo Sangriento (1900)",
+        "extract": "El Domingo sangriento del 18 de febrero de 1900 fue un día de grandes bajas para el ejército imperial (anglo-canadiense) en la segunda fase de la segunda de las guerras de los Bóeres.",
+        "url": "https://es.wikipedia.org/wiki/Domingo_Sangriento_(1900)"
+      },
+      "fr": {
+        "title": "Bloody Sunday (1900)",
+        "extract": "Le Bloody Sunday du 18 février 1900 est une journée de violences durant la seconde guerre des Boers, conflit intervenu en Afrique du Sud du 11 octobre 1899 au 31 mai 1902, entre les britanniques et les habitants des deux principales républiques boers indépendantes.",
+        "url": "https://fr.wikipedia.org/wiki/Bloody_Sunday_(1900)"
+      }
+    }
+  },
+  "Battle of Poplar Grove": {
+    "pages": {
+      "en": {
+        "title": "Battle of Poplar Grove",
+        "extract": "The Battle of Poplar Grove was an incident on 7 March 1900 during the Second Boer War in South Africa. It followed on from the Relief of Kimberley as the British Army moved to take the Boer capital of Bloemfontein. The Boers were demoralised following the surrender of Piet Cronjé at the Battle of Paardeberg. General Sir John French's cavalry attacked the Boer force from the rear while mounted infantry and horse artillery attacked from the right flank. The Boers abandoned their positions in panic before the cavalry. The commander-in-chief of the Free State forces, Christiaan de Wet, in his book called the chapter on the subject \"Wild Flight from Poplar Grove\". This battle was followed by the Battle of Driefontein on March 10, 1900.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Poplar_Grove"
+      },
+      "fr": {
+        "title": "Bataille de Poplar Grove",
+        "extract": "La bataille de Poplar Grove fut une bataille de la seconde guerre des Boers tenue le 7 mars 1900. La victoire britannique ouvrit, après une dernière bataille à Driefontein le 10 mars, la voie à la capture de la capitale de l'État libre d'Orange Bloemfontein le 13 mars.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Poplar_Grove"
+      }
+    }
+  },
+  "Sanna's Post": {
+    "pages": {
+      "en": {
+        "title": "Sanna's Post",
+        "extract": "The Battle of Sanna's Post was an engagement fought during the Second Boer War (1899–1902) between the British Empire and the Boers of the two independent republics of the Orange Free State and the South African Republic.",
+        "url": "https://en.wikipedia.org/wiki/Sanna's_Post"
+      },
+      "fr": {
+        "title": "Bataille de Sanna's Post",
+        "extract": "La bataille de Sanna’s Post fut un affrontement tenu au cours de la deuxième guerre des Boers (1899-1902) entre l'Empire britannique et les Boers des deux républiques indépendantes de l'État libre d'Orange et du Transvaal.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Sanna's_Post"
+      },
+      "pt": {
+        "title": "Batalha de Sanna's Post",
+        "extract": "A Batalha de Sanna's Post, também conhecida como Korn Spruit, foi uma batalha ocorrida em 31 de Março de 1900, entre as forças do Império Britânico e os Boers das repúblicas independentes do Estado Livre de Orange e da República sul-africana.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Sanna's_Post"
+      }
+    }
+  },
+  "Battle of Driefontein": {
+    "pages": {
+      "en": {
+        "title": "Battle of Driefontein",
+        "extract": "The Battle of Driefontein on 10 March 1900 followed on the Battle of Poplar Grove in the Second Boer War between the United Kingdom and the Boer republics, in what is now South Africa. In the first half of 1900, the British made an offensive towards the two Boer republic capitals of Bloemfontein and Pretoria.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Driefontein"
+      },
+      "fr": {
+        "title": "Bataille de Driefontein",
+        "extract": "La bataille de Driefontein fut une bataille de la deuxième Guerre des Boers tenue le 10 mars 1900. La victoire britannique ouvrit la voie à la capture de la capitale de l'État libre d'Orange Bloemfontein le 13 mars.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Driefontein"
+      }
+    }
+  },
+  "Battle of Biddulphsberg": {
+    "pages": {
+      "en": {
+        "title": "Battle of Biddulphsberg",
+        "extract": "The Battle of Biddulphsberg was an engagement of the Second Boer War on May 29, 1900, and was part of the Advance on Pretoria. Troops of the 8th Division were stationed in the Southern regions of the Orange Free State in order to cover Lord Roberts' advance on Transvaal, and to prevent the Orange Free State from falling back under Boer control. The British attempted to storm Biddulphsberg-kopje, which was defended by Boers of the Senekal Commando, however were unable to due to a fire that spread in the grass, forcing a retreat.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Biddulphsberg"
+      },
+      "fr": {
+        "title": "Bataille de Biddulphsberg",
+        "extract": "La Bataille de Biddulphsberg  fut un affrontement tenu le 29 mai 1900 à proximité de la ville de Senekal au cours de la deuxième Guerre des Boers (1899-1902) entre l'Empire britannique et les Boers des deux républiques indépendantes de l'État libre d'Orange et du Transvaal.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Biddulphsberg"
+      }
+    }
+  },
+  "Battle of Diamond Hill": {
+    "pages": {
+      "en": {
+        "title": "Battle of Diamond Hill",
+        "extract": "The Battle of Diamond Hill (Donkerhoek) was an engagement of the Second Boer War that took place on 11 and 12 June 1900 in central Transvaal.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Diamond_Hill"
+      },
+      "es": {
+        "title": "Batalla de Diamond Hill",
+        "extract": "La Batalla de Diamond Hill o Donkerhoek fue un enfrentamiento de la segunda guerra bóer que tuvo lugar el 11 y 12 de junio de 1900 en el centro de Transvaal.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Diamond_Hill"
+      },
+      "fr": {
+        "title": "Bataille de Diamond Hill",
+        "extract": "La bataille de Diamond Hill est une bataille qui se déroula au cours de la seconde guerre des Boers du 11 au 12 juin 1900 peu après la prise de Pretoria, le 5 juin.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Diamond_Hill"
+      }
+    }
+  },
+  "Battle of Bergendal": {
+    "pages": {
+      "en": {
+        "title": "Battle of Bergendal",
+        "extract": "The Battle of Berg-en-dal took place in South Africa during the Second Anglo-Boer War.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Bergendal"
+      },
+      "es": {
+        "title": "Batalla de Bergendal",
+        "extract": "La Batalla de Bergendal, también conocida como la Batalla de Belfast o Batalla de Dalmanutha, tuvo lugar en Sudáfrica durante la Segunda Guerra Anglo-Bóer.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Bergendal"
+      },
+      "fr": {
+        "title": "Bataille de Bergendal",
+        "extract": "La bataille de Bergendal fut une bataille de la seconde guerre des Boers. Elle se déroula du 21 au 27 août 1900 près de la ferme de Bergendal à proximité de Belfast. Ce fut la dernière bataille régulière de la guerre. Les 7 000 Boers étaient commandés par le général Louis Botha et les 19 000 Britanniques l'étaient par le général Sir Redvers Buller sous les ordres de Lord Roberts.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Bergendal"
+      }
+    }
+  },
+  "Battle of Elands River (1900)": {
+    "pages": {
+      "en": {
+        "title": "Battle of Elands River (1900)",
+        "extract": "The Battle of Elands River was an engagement of the Second Boer War that took place between 4 and 16 August 1900 in western Transvaal. The battle was fought at Brakfontein Drift near the Elands River between a force of 2,000 to 3,000 Boers and a garrison of 500 Australian, Rhodesian, Canadian and British soldiers, which was stationed there to protect a British supply dump that had been established on the route between Mafeking and Pretoria. The Boer force, which consisted of several commandos under the overall leadership of Koos de la Rey, was in desperate need of provisions after earlier fighting had cut it off from its support base. As a result, it was decided to attack the garrison in an effort to capture its supplies.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Elands_River_(1900)"
+      },
+      "es": {
+        "title": "Batalla del río Elands (1900)",
+        "extract": "La batalla del río Elands (1900) fue un enfrentamiento de la segunda guerra bóer que tuvo lugar entre el 4 y el 16 de agosto de 1900 en el oeste de Transvaal. La batalla se libró en Brakfontein Drift cerca del río Elands entre una fuerza de 2000 a 3000 bóeres y una guarnición de 500 soldados australianos, rodesianos, canadienses y británicos, que estaba estacionada allí para proteger un vertedero de suministros británico que se había establecido a lo largo de la ruta entre Mafeking y Pretoria. La fuerza bóer, que consistía en varios comandos bajo el liderazgo general de Koos de la Rey, necesitaba desesperadamente provisiones después de que los combates anteriores la habían aislado de su base de apoyo. Como resultado, se decidió atacar la guarnición a lo largo del río Elands en un esfuerzo por capturar los suministros ubicados allí.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_del_r%C3%ADo_Elands_(1900)"
+      },
+      "fr": {
+        "title": "Bataille d'Elands River (1900)",
+        "extract": "La bataille d'Elands River en 1900 est un affrontement de la seconde guerre des Boers qui prend place entre le 4 et le 16 août 1900 au Transvaal, à Brakfontein Drift près de la rivière Elands. Il oppose deux à trois mille Boers à une garnison de cinq cents hommes, des Australiens, des Canadiens, des Rhodésiens du Sud et des Britanniques, chargés de protéger un dépôt d'apprivionnement établi sur la route reliant Mafeking à Pretoria. Les forces boers, des kommandos pour l'essentiel, dirigées par Koos de la Rey, ont désespérément besoin de provisions après les précédents affrontements qui les ont coupés de leur base. Les Boers décident d'attaquer la garnison afin de se saisir du matériel qu'elle garde.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_d'Elands_River_(1900)"
+      },
+      "pt": {
+        "title": "Batalha do Rio Elands (1900)",
+        "extract": "A Batalha do Rio Elands foi um confronto da Segunda Guerra dos Bôeres que ocorreu entre 4 e 16 de agosto de 1900 no oeste do Transvaal. A batalha foi travada em Brakfontein Drift perto do rio Elands entre uma força de 2 000 a 3 000 bôeres e uma guarnição de 500 soldados australianos, rodesianos, canadenses e britânicos, que estava estacionado lá para proteger um depósito de suprimentos britânico que havia sido estabelecido ao longo da rota entre Mafeking e Pretória. A força Boer, que consistia em vários comandos sob a liderança geral de Koos de la Rey, precisava desesperadamente de provisões depois que combates anteriores o cortaram de sua base de apoio. Como resultado, decidiu-se atacar a guarnição ao longo do rio Elands na tentativa de capturar os suprimentos ali localizados.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_do_Rio_Elands_(1900)"
+      }
+    }
+  },
+  "Battle of Bothaville": {
+    "pages": {
+      "en": {
+        "title": "Battle of Bothaville",
+        "extract": "The Battle of Bothaville (Doornkraal) on 6 November 1900 was a rare defeat of Christiaan de Wet's Boer commando at the hands of a force of British Mounted Infantry (MI).",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Bothaville"
+      },
+      "es": {
+        "title": "Batalla de Bothaville",
+        "extract": "La batalla de Bothaville (Doornkraal), ocurrida el 6 de noviembre de 1900, fue una derrota del comando bóer de Christiaan de Wet a manos de una fuerza de infantería montada británica.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Bothaville"
+      },
+      "fr": {
+        "title": "Bataille de Bothaville",
+        "extract": "La bataille de Bothaville se tint le 6 novembre 1900, et fut l'une des rares défaites du kommando de Christiaan de Wet, face à une unité d'infanterie montée britannique.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Bothaville"
+      }
+    }
+  },
+  "Battle of Nooitgedacht": {
+    "pages": {
+      "en": {
+        "title": "Battle of Nooitgedacht",
+        "extract": "In the Battle of Nooitgedacht on 13 December 1900, Boer commandos led by Generals Koos de la Rey and Christiaan Beyers combined to deal a defeat to a British brigade under the command of Major General R. A. P. Clements during the Second Boer War.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Nooitgedacht"
+      },
+      "fr": {
+        "title": "Bataille de Nooitgedacht",
+        "extract": "La bataille de Nooitgedacht se déroula le 13 décembre 1900. Les kommandos boers dirigés par les Généraux Koos de la Rey et Christiaan Beyers infligèrent une cuisante défaite à une brigade britannique dirigée par le Général-Major R. A. P. Clements (en) au cours de la seconde guerre des Boers.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Nooitgedacht"
+      }
+    }
+  },
+  "Battle of Blood River Poort": {
+    "pages": {
+      "en": {
+        "title": "Battle of Blood River Poort",
+        "extract": "In the Battle of Blood River Poort or Scheeper's Nek on 17 September 1901 a Boer commando led by Louis Botha crushed a British force commanded by Major Hubert Gough during the Second Boer War.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Blood_River_Poort"
+      },
+      "fr": {
+        "title": "Bataille de Bloedrivier Poort",
+        "extract": "La bataille de Bloedrivier Poort est une bataille qui s'est déroulée le 17 septembre 1901 lorsqu'un kommando dirigé par Louis Botha vainquit une armée britannique commandée par le major Hubert Gough au cours de la seconde guerre des Boers.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Bloedrivier_Poort"
+      },
+      "pt": {
+        "title": "Batalha de Blood River Poort",
+        "extract": "Na Batalha de Blood River Poort ou Scheeper's Nek em 17 de setembro de 1901, um comando Boer liderado por Louis Botha esmagou uma força britânica comandada pelo Major Hubert Gough durante a Segunda Guerra Boer.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Blood_River_Poort"
+      }
+    }
+  },
+  "Battle of Bakenlaagte": {
+    "pages": {
+      "en": {
+        "title": "Battle of Bakenlaagte",
+        "extract": "The Battle of Bakenlaagte in Eastern Transvaal, South Africa, occurred on 30 October 1901 during the guerrilla phase of Anglo-Boer war of 1899–1902. The battle saw the Eastern Transvaal Boer commandos of Generals Johan Grobler, Coen Brits, Piet Viljoen and Louis Botha attack the rearguard of Colonel Benson's much feared No. 3 Flying Column while it was in marching formation to its base camp. On the Boer side general Daniel Opperman was killed in the engagement. The Bakenlaagte battlefield is located on the Kriel-Kinross road at the intersection of the R547 and R580 roads in Mpumalanga Province, just south of Matla Power Station.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Bakenlaagte"
+      },
+      "fr": {
+        "title": "Bataille de Bakenlaagte",
+        "extract": "La bataille de Bakenlaagte est une bataille qui se déroula au cours de la seconde guerre des Boers le 30 octobre 1901. Les forces combinées du Transvaal oriental des généraux boers Louis Botha, Oppermann, Grobler, Brits et Prinsloo attaquèrent l'arrière garde des troupes britanniques No 3 Flying Column du colonel Benson avec l'ambition d'attaquer le gros de la troupe, et en profitant du temps brumeux et pluvieux.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Bakenlaagte"
+      }
+    }
+  },
+  "Battle of Tweebosch": {
+    "pages": {
+      "en": {
+        "title": "Battle of Tweebosch",
+        "extract": "In the Battle of Tweebosch or De Klipdrift on 7 March 1902, a Boer commando led by Koos de la Rey defeated a British column under the command of Lieutenant General Lord Methuen during the final months of the Second Boer War.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Tweebosch"
+      },
+      "fr": {
+        "title": "Bataille de Tweebosch",
+        "extract": "La bataille de Tweebosch s'est tenue le 7 mars 1902 entre un kommando boer dirigé par Koos de la Rey et une colonne britannique commandée par le lieutenant général Methuen, au cours des derniers mois de la deuxième guerre des Boers.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Tweebosch"
+      }
+    }
+  },
+  "Battle of Rooiwal": {
+    "pages": {
+      "en": {
+        "title": "Battle of Rooiwal",
+        "extract": "The Battle of Rooiwal was an engagement of the Second Boer War. It took place on 11 April 1902 in the third phase of the conflict and resulted in a victory by a British force commanded by Colonel Robert Kekewich over a Boer commando led by Generals Ferdinandus Jacobus Potgieter and Jan Kemp. The action consisted of a Boer attack on horseback on an entrenched British hillside position in the valley of Rooiwal, near Klerksdorp in the Western Transvaal. The Boers were attempting to break out of a British encircling manoeuvre. Their attack was repulsed at some cost to the Boers in killed and injured.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Rooiwal"
+      },
+      "fr": {
+        "title": "Bataille de Rooiwal",
+        "extract": "La bataille de Rooiwal fut un combat de la seconde guerre des Boers. Elle se déroula à Rooiwal le 11 avril 1902 et aboutit à la victoire des troupes britanniques commandées par le Colonel Robert Kekewich (en) contre un kommando boer dirigé par les généraux Ferdinandus Jacobus Potgieter et Kemp.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Rooiwal"
+      }
+    }
+  }
+}

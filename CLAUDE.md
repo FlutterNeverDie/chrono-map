@@ -22,8 +22,9 @@
    - 사건은 모두 기간(`start`~`end`)으로 다룬다. 한 해 사건은 `start === end`.
    - 사건 설명은 **위키백과**(무료, CC BY-SA 4.0)에서 가져와 가공하지 않고 보여준다 — 출처 링크 표기 필수. `npm run wiki`가 `content/wikipedia.json`에 받아 두고(git에 올림), 빌드는 네트워크 없이 이 파일만 쓴다.
    - 연도 선택 단위는 **기간**: 기원전은 세기(100년), 서기는 10년(`lib/period.ts`). 현재 기간은 게이지 손잡이 위에 표시한다.
+   - 외부 API(위키백과·Wikidata)는 빌드 전 스크립트에서만 부르고 결과를 파일로 캐시한다. 사이트 방문자는 API를 부르지 않는다. 정적 지도 데이터 캐시 시간은 `vercel.json`.
    - 대한민국 관련 영토·명칭은 대한민국 입장(독도, 동해). 그 밖의 분쟁은 각 언어 위키백과 표기 — `content/CLAUDE.md` 표기 원칙.
-4. **세계지도는 평면(메르카토르)이고 시점이 9개다.** 한국(기본)·동아시아·중앙아시아·서아시아·동유럽·서유럽·북아메리카·남아메리카·오세아니아. 시점을 고르면 그 경도가 가운데로 회전하고, 사건 목록이 그 시점 기준 중요도로 다시 정렬된다. 좌우로 끌면 끝없이 이어진다.
+4. **세계지도는 평면(메르카토르)이고 시점이 8개다.** 동아시아(기본)·중앙아시아·서아시아·동유럽·서유럽·북아메리카·남아메리카·오세아니아. 시점을 고르면 그 경도가 가운데로 회전하고, 사건 목록이 그 시점 기준 중요도로 다시 정렬된다. 좌우로 끌면 끝없이 이어진다.
    - 지도의 나라 영역·이름은 **선택 연도의 역사 국경**(Cliopatria, CC BY 4.0 — 화면 출처 표기 필수). `public/borders/`는 `npm run borders`로 생성.
 5. **테마는 일반(기본)/다크.** 일반 = 종이 세계지도 느낌(하늘색 바다, 베이지 육지), 다크 = 남색 바다. 기기 설정을 따르지 않고 항상 일반으로 시작한다. 색은 `globals.css`의 CSS 변수로만 지정한다.
 6. **다국어 8개, 한국어 기본.** ko(`/`), en, zh, es, hi, ar, fr, pt(`/en` 등). 화면 문구는 하드코딩하지 않고 `src/i18n/messages`에서 가져온다. 아랍어는 RTL.
@@ -33,9 +34,9 @@
 
 ```
 content/               사람·AI가 편집하는 원본 데이터(사건, 시점별 순서, 나라 이름 수정) → content/CLAUDE.md
-content/ww2/           2차대전 지도 데이터(전투, 진영)                        → content/ww2/CLAUDE.md
+content/campaigns/     전쟁 지도 데이터: 전쟁마다 폴더(설정·진영·전투)          → content/campaigns/CLAUDE.md
 public/borders/        연도별 역사 국경 + 언어별 나라 이름 (생성물, git에 올림)
-public/ww2/borders/    2차대전 연도별 국경 1937~1945 (생성물, git에 올림)
+public/campaigns/      전쟁 지도별 국경 스냅샷 (생성물, git에 올림)
 public/geo/            확대 시 쓰는 자세한 해안선(50m)
 src/
   app/                 라우트와 화면 조립만. 로직은 features로 위임   → src/app/CLAUDE.md
@@ -44,14 +45,14 @@ src/
     timeline/          연도 게이지, 시대 레이블                        → CLAUDE.md
     map/               평면 지도, 역사 국경, 시점 바, 사건 핀           → CLAUDE.md
     events/            시점별로 정렬된 사건 목록 패널                  → CLAUDE.md
-    ww2/               2차대전 지도 (/ww2) — 본 지도와 코드 공유 안 함 → CLAUDE.md
+    campaign/          전쟁 지도 (/wars, /wars/<id>) — 본 지도와 코드 공유 안 함 → CLAUDE.md
     pages/             글 페이지: 사건 상세·소개·개인정보처리방침        → CLAUDE.md
     ads/               AdSense 슬롯 (개발 완료 후)                     → CLAUDE.md
   components/ui/       도메인을 모르는 공용 UI(테마 토글 등)           → CLAUDE.md
   store/               zustand 전역 상태                               → CLAUDE.md
   data/                지역·시점·카테고리 정의 + 콘텐츠 진입점          → CLAUDE.md
   lib/                 순수 함수(타입, 연도 표기, 필터, 정렬)          → CLAUDE.md
-scripts/               데이터 변환 (build-content.ts, fetch-wikipedia.ts, build-borders.mjs, lib/ 공용 파서)
+scripts/               데이터 변환 (build-content.ts, fetch-wikipedia.ts, draft-events.ts, build-borders.mjs, campaigns/, lib/ 공용)
 docs/                  기획서
 ```
 
@@ -78,7 +79,7 @@ app → features → (i18n, store, lib, data, components/ui)
 - 연도는 반드시 `lib/year.ts`의 `formatYear(year, locale)`로, 사건 텍스트는 `lib/localize.ts`의 `pick()`으로 표시.
 - 좌우 여백·위치는 RTL 대응을 위해 `ms-/me-/ps-/pe-/start-/end-` 논리 속성을 쓴다(`ml-/mr-/left-/right-` 지양).
 - 색만으로 지역을 구분하지 않는다(라벨·아이콘 병행).
-- 크기: 글자가 작다는 피드백이 있었다. 본문 16px 이상(큰 화면 17px), 보조 글자 14px 이상, 지도 위 버튼·하단 바 버튼은 48px(`size-12`/`h-12`). 이보다 줄이지 않는다.
+- 크기: 글자가 작다는 피드백이 있었다. 본문 16px 이상(큰 화면 18~19px, 패널 제목 24~26px), 보조 글자 14px 이상, 지도 위 버튼·하단 바 버튼은 48px(`size-12`/`h-12`). 이보다 줄이지 않는다.
 - 디자인: 이모지 금지 — 아이콘은 `components/ui/icons.tsx`의 선 아이콘만. 장식(그림자·그라데이션·큰 둥근 알약 모양)은 최소로, 테두리 1px + `rounded-md/lg` 정도의 절제된 스타일.
 - 색상은 하드코딩하지 않고 Tailwind 테마 색(`bg-surface`, `border-line`, `text-muted`, `bg-chip`, `text-accent`)이나 CSS 변수를 쓴다. 지역 고유색만 `data/regions.ts`에서 가져온다.
 
@@ -90,7 +91,7 @@ npm run content # content/*.txt + wikipedia.json → src/data/generated/content.
 npm run wiki    # 사건의 위키백과 요약(8개 언어) 받기 (새 문서만, 전부는 -- --all)
 npm run borders # 역사 국경 스냅샷 재생성 (원본 내려받기는 스크립트 주석 참고, 수 분 걸림)
 npm run draft   # Wikidata에서 사건 후보 → content/drafts (-- --promote 55 로 바로 추가)
-npm run ww2:fetch / ww2:borders / ww2:build   # 2차대전 지도 데이터 (content/ww2/CLAUDE.md)
+npm run wars:fetch / wars:borders / wars:build   # 전쟁 지도 데이터 (content/campaigns/CLAUDE.md)
 npm run build   # 정적 빌드 → out/  (백엔드 기능을 쓰면 여기서 실패한다)
 npm run lint
 ```

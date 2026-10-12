@@ -254,3 +254,10 @@ when: 2025
 coords: 45, 28
 category: war
 importance: 3
+
+@ crusades
+wikipedia: Crusades
+when: 1096 ~ 1291
+coords: 35.2, 31.78
+category: war
+importance: 5

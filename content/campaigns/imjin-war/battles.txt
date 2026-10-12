@@ -1,0 +1,151 @@
+# Imjin War 전투 (Wikidata 자동 생성, 직접 고쳐도 됨). 형식은 content/campaigns/CLAUDE.md
+
+@ siege-of-yeongwon
+wikipedia: Siege of Yeongwon
+when: 1592-01 ~ 1592-08
+coords: 128.04, 37.31
+links: 4
+
+@ battle-of-chungju
+wikipedia: Battle of Chungju
+when: 1592-04
+coords: 127.95, 36.97
+links: 10
+
+@ siege-of-dongnae
+wikipedia: Siege of Dongnae
+when: 1592-04
+coords: 129.08, 35.2
+links: 12
+
+@ siege-of-busanjin
+wikipedia: Siege of Busanjin
+when: 1592-05
+coords: 129.05, 35.16
+links: 15
+
+@ battle-of-dadaejin
+wikipedia: Battle of Dadaejin
+when: 1592-05
+coords: 129.04, 35.1
+links: 10
+
+@ battle-of-okpo
+wikipedia: Battle of Okpo
+when: 1592-05
+coords: 128.69, 34.89
+links: 15
+
+@ battle-of-imjin-river-1592
+wikipedia: Battle of Imjin River (1592)
+when: 1592-07
+coords: 126.67, 37.78
+links: 11
+
+@ siege-of-pyongyang-1592
+wikipedia: Siege of Pyongyang (1592)
+when: 1592-07
+coords: 125.73, 39.03
+links: 9
+
+@ battle-of-hansan-island
+wikipedia: Battle of Hansan Island
+when: 1592-07
+coords: 128.5, 34.76
+links: 14
+
+@ battle-of-dangpo-1592
+wikipedia: Battle of Dangpo (1592)
+when: 1592-07
+coords: 128.42, 34.85
+links: 9
+
+@ battle-of-sacheon-1592
+wikipedia: Battle of Sacheon (1592)
+when: 1592-07
+coords: 128.06, 35
+links: 12
+
+@ battle-of-pyongyang-1592
+wikipedia: Battle of Pyongyang (1592)
+when: 1592-08
+coords: 125.75, 39.04
+links: 4
+
+@ battle-of-cheongju
+wikipedia: Battle of Cheongju
+when: 1592-09
+coords: 127.48, 36.63
+links: 4
+
+@ siege-of-jinju-1592
+wikipedia: Siege of Jinju (1592)
+when: 1592-11
+coords: 128.08, 35.19
+links: 7
+
+@ siege-of-pyongyang-1593
+wikipedia: Siege of Pyongyang (1593)
+when: 1593-02
+coords: 125.73, 39.03
+links: 10
+
+@ battle-of-haengju
+wikipedia: Battle of Haengju
+when: 1593-03
+coords: 126.83, 37.6
+links: 12
+
+@ siege-of-jinju-1593
+wikipedia: Siege of Jinju (1593)
+when: 1593-07
+coords: 128.08, 35.19
+links: 7
+
+@ battle-of-chilcheollyang
+wikipedia: Battle of Chilcheollyang
+when: 1597-08
+coords: 128.57, 34.82
+links: 12
+
+@ siege-of-namwon
+wikipedia: Siege of Namwon
+when: 1597-09
+coords: 127.39, 35.41
+links: 7
+
+@ battle-of-jiksan
+wikipedia: Battle of Jiksan
+when: 1597-10
+coords: 127.17, 36.82
+links: 7
+
+@ battle-of-myeongnyang
+wikipedia: Battle of Myeongnyang
+when: 1597-10
+coords: 126.31, 34.57
+links: 19
+
+@ siege-of-suncheon
+wikipedia: Siege of Suncheon
+when: 1598-10 ~ 1598-11
+coords: 127.58, 34.91
+links: 7
+
+@ second-siege-of-ulsan
+wikipedia: Second siege of Ulsan
+when: 1598-10 ~ 1598-11
+coords: 129.32, 35.55
+links: 2
+
+@ battle-of-sacheon-1598
+wikipedia: Battle of Sacheon (1598)
+when: 1598-11
+coords: 128.06, 35
+links: 7
+
+@ battle-of-noryang
+wikipedia: Battle of Noryang
+when: 1598-12
+coords: 127.88, 34.95
+links: 18
