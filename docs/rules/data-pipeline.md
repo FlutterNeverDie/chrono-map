@@ -5,6 +5,7 @@
 | 지도 | 원본 | 네트워크(가끔, 결과 캐시) | 빌드 때 자동(네트워크 없음) |
 | --- | --- | --- | --- |
 | 본 지도 사건 | `content/events`, `rankings` | `npm run wiki` → `content/wikipedia.json` | `npm run content` |
+| 사건 검수 | `content/events` | `npm run audit` → Wikidata 날짜·좌표, 동음이의 문서, 긴 기간 등 의심 목록 출력(고치지 않음, 캐시 `data-raw/`) | — |
 | 사건 후보 | — | `npm run draft` → `content/drafts` (`-- --promote 55`) | — |
 | 역사 국경 | Cliopatria 원본(`data-raw/`) | `npm run borders` → `public/borders` | — |
 | 전쟁 지도 | `content/campaigns/<id>` | `npm run wars:fetch` / `wars:borders` | `npm run wars:build` |

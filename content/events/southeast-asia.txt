@@ -83,6 +83,7 @@ when: 1954
 coords: 103.02, 21.39
 category: war
 importance: 3
+title.hi: दिएन बिएन फू का युद्ध
 
 @ vietnam-war
 wikipedia: Vietnam War
@@ -124,6 +125,8 @@ coords: 106.75, 20.9
 category: war
 importance: 3
 title.ko: 바익당 전투 (베트남 독립)
+title.ar: معركة باخ دانغ (938)
+title.hi: बाख़ दांग का युद्ध (938)
 
 @ battle-of-bach-dang-1288
 wikipedia: Battle of Bạch Đằng (1288)
@@ -132,6 +135,8 @@ coords: 106.75, 20.9
 category: war
 importance: 3
 title.ko: 바익당 전투 (몽골군 격퇴)
+title.ar: معركة باخ دانغ (1288)
+title.hi: बाख़ दांग का युद्ध (1288)
 
 @ majapahit
 wikipedia: Majapahit
@@ -164,6 +169,8 @@ coords: 102.25, 2.2
 category: war
 importance: 3
 title.ko: 포르투갈의 믈라카 점령
+summary.ko: 1511년 포르투갈령 인도 총독 아폰수 드 알부케르크가 동남아시아 해상 무역의 요충지 믈라카를 점령했다. 이로써 믈라카 술탄국이 무너지고 포르투갈이 향신료 교역로를 장악하는 발판을 얻었다.
+title.hi: मलक्का पर पुर्तगाली क़ब्ज़ा (1511)
 
 @ battle-of-mactan
 wikipedia: Battle of Mactan
@@ -172,6 +179,7 @@ coords: 123.97, 10.31
 category: exploration
 importance: 3
 title.ko: 막탄 전투 (마젤란의 죽음)
+title.hi: मकतान का युद्ध
 
 @ manila-galleon
 wikipedia: Manila galleon
@@ -180,6 +188,8 @@ coords: 120.97, 14.6
 category: economy
 importance: 3
 title.ko: 마닐라 갤리온 무역
+title.ar: غليون مانيلا
+title.hi: मनीला गैलियन व्यापार
 
 @ batavia
 wikipedia: Batavia, Dutch East Indies
@@ -188,6 +198,8 @@ coords: 106.8, -6.13
 category: economy
 importance: 3
 title.ko: 바타비아 건설 (네덜란드의 동인도 지배)
+summary.ko: 1619년 네덜란드 동인도 회사가 자와섬 자야카르타를 점령하고 그 자리에 바타비아를 건설했다. 바타비아는 이후 네덜란드령 동인도의 중심 도시이자 수도가 되었으며, 오늘날 인도네시아의 자카르타이다.
+title.hi: बटाविया की स्थापना
 
 @ founding-of-singapore
 wikipedia: 1819 Singapore Treaty
@@ -196,6 +208,12 @@ coords: 103.85, 1.29
 category: economy
 importance: 3
 title.ko: 싱가포르 건설
+title.zh: 新加坡开埠
+title.es: Fundación de Singapur (1819)
+title.ar: تأسيس سنغافورة الحديثة
+title.fr: Fondation de Singapour (1819)
+title.pt: Fundação de Singapura (1819)
+title.hi: सिंगापुर की स्थापना
 
 @ philippine-revolution
 wikipedia: Philippine Revolution
@@ -220,6 +238,7 @@ coords: 103.85, 1.29
 category: war
 importance: 4
 title.ko: 싱가포르 함락
+title.hi: सिंगापुर का पतन
 
 @ battle-of-leyte-gulf
 wikipedia: Battle of Leyte Gulf
@@ -228,6 +247,7 @@ coords: 125.5, 10.5
 category: war
 importance: 4
 title.ko: 레이테만 해전
+title.hi: लेयते खाड़ी का युद्ध
 
 @ august-revolution
 wikipedia: August Revolution
@@ -236,6 +256,7 @@ coords: 105.85, 21.03
 category: politics
 importance: 3
 title.ko: 베트남 8월 혁명
+title.hi: अगस्त क्रांति (वियतनाम)
 
 @ bandung-conference
 wikipedia: Bandung Conference
@@ -244,6 +265,7 @@ coords: 107.6, -6.9
 category: politics
 importance: 4
 title.ko: 반둥 회의
+title.hi: बांडुंग सम्मेलन
 
 @ singapore-independence
 wikipedia: Proclamation of Singapore
@@ -252,6 +274,12 @@ coords: 103.85, 1.29
 category: politics
 importance: 3
 title.ko: 싱가포르 독립
+summary.ko: 1965년 8월 9일 싱가포르가 말레이시아 연방에서 분리되어 독립 주권 국가가 되었다. 초대 총리 리콴유가 독립 선언문에 서명했으며, 1963년 연방에 합류한 지 약 2년 만이었다.
+title.zh: 新加坡独立
+title.es: Independencia de Singapur
+title.ar: استقلال سنغافورة
+title.pt: Independência de Singapura
+title.hi: सिंगापुर की स्वतंत्रता की घोषणा
 
 @ indonesian-mass-killings
 wikipedia: Indonesian mass killings of 1965–66
@@ -260,6 +288,7 @@ coords: 106.8, -6.2
 category: politics
 importance: 4
 title.ko: 인도네시아 대학살
+title.hi: 1965–66 का इंडोनेशियाई नरसंहार
 
 @ asean-declaration
 wikipedia: ASEAN Declaration
@@ -268,6 +297,9 @@ coords: 100.5, 13.75
 category: politics
 importance: 3
 title.ko: 아세안 창설
+title.es: Declaración de la ASEAN
+title.pt: Declaração da ASEAN
+title.hi: आसियान घोषणा
 
 @ fall-of-saigon
 wikipedia: Fall of Saigon
@@ -276,6 +308,7 @@ coords: 106.7, 10.78
 category: war
 importance: 4
 title.ko: 사이공 함락
+title.hi: साइगॉन का पतन
 
 @ cambodian-genocide
 wikipedia: Cambodian genocide
@@ -292,6 +325,7 @@ coords: 121.05, 14.59
 category: politics
 importance: 3
 title.ko: 피플 파워 혁명
+title.hi: जनशक्ति क्रांति (फ़िलीपींस)
 
 @ doi-moi
 wikipedia: Đổi Mới
@@ -300,6 +334,7 @@ coords: 105.85, 21.03
 category: economy
 importance: 3
 title.ko: 도이머이 (베트남 개혁)
+title.hi: दोई मोई (वियतनामी सुधार)
 
 @ indian-ocean-tsunami-2004
 wikipedia: 2004 Indian Ocean earthquake and tsunami

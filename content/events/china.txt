@@ -99,6 +99,7 @@ when: 1949
 coords: 116.39, 39.91
 category: politics
 importance: 5
+title.hi: चीनी जनवादी गणराज्य की स्थापना की घोषणा
 
 @ covid-19-pandemic
 wikipedia: COVID-19 pandemic
@@ -148,6 +149,7 @@ when: 1931
 coords: 123.47, 41.83
 category: war
 importance: 3
+title.hi: मुकदेन घटना
 
 @ second-sino-japanese-war
 wikipedia: Second Sino-Japanese War
@@ -180,6 +182,7 @@ coords: 114.3, 36.12
 category: culture
 importance: 3
 title.ko: 갑골문
+title.ar: كتابة عظام العرافة
 
 @ battle-of-muye
 wikipedia: Battle of Muye
@@ -188,6 +191,8 @@ coords: 113.9, 35.3
 category: war
 importance: 3
 title.ko: 목야 전투 (주나라의 상 정복)
+title.pt: Batalha de Muye
+title.hi: मुये का युद्ध
 
 @ confucius
 wikipedia: Confucius
@@ -205,6 +210,8 @@ coords: 112.85, 35.8
 category: war
 importance: 3
 title.ko: 장평 전투
+title.pt: Batalha de Changping
+title.hi: चांगपिंग का युद्ध
 
 @ terracotta-army
 wikipedia: Terracotta Army
@@ -254,6 +261,7 @@ coords: 113.9, 29.88
 category: war
 importance: 3
 title.ko: 적벽 대전
+title.hi: लाल चट्टानों का युद्ध
 
 @ sui-conquest-of-chen
 wikipedia: Sui dynasty
@@ -270,6 +278,7 @@ coords: 119.4, 32.4
 category: economy
 importance: 4
 title.ko: 수 대운하 건설
+title.hi: चीन की महान नहर
 
 @ tang-founding
 wikipedia: Tang dynasty
@@ -286,6 +295,7 @@ coords: 116.4, 39.9
 category: war
 importance: 4
 title.ko: 안사의 난
+title.hi: आन लुशान विद्रोह
 
 @ diamond-sutra
 wikipedia: Diamond Sutra
@@ -311,6 +321,8 @@ coords: 114.3, 34.8
 category: science
 importance: 3
 title.ko: 필승의 활자 발명
+title.ar: بي شنغ والطباعة بالحروف المتحركة
+title.hi: बी शेंग का चल मुद्रण आविष्कार
 
 @ jingkang-incident
 wikipedia: Jingkang incident
@@ -319,6 +331,9 @@ coords: 114.3, 34.8
 category: war
 importance: 3
 title.ko: 정강의 변
+title.ar: حادثة جينغكانغ
+title.pt: Incidente de Jingkang
+title.hi: जिंगकांग घटना
 
 @ battle-of-yamen
 wikipedia: Battle of Yamen
@@ -327,6 +342,8 @@ coords: 113.05, 22.2
 category: war
 importance: 3
 title.ko: 애산 전투 (남송 멸망)
+title.pt: Batalha de Yamen
+title.hi: यामेन का युद्ध
 
 @ treasure-voyages
 wikipedia: Ming treasure voyages
@@ -335,6 +352,7 @@ coords: 118.78, 32.06
 category: exploration
 importance: 4
 title.ko: 정화의 대항해
+title.hi: झेंग हे की समुद्री यात्राएँ
 
 @ battle-of-shanhai-pass
 wikipedia: Battle of Shanhai Pass
@@ -343,6 +361,8 @@ coords: 119.75, 40.0
 category: war
 importance: 4
 title.ko: 산해관 전투 (명 멸망·청의 입관)
+title.ar: معركة ممر شانهاي
+title.hi: शानहाई दर्रे का युद्ध
 
 @ taiping-rebellion
 wikipedia: Taiping Rebellion
@@ -406,6 +426,7 @@ coords: 116.39, 39.9
 category: economy
 importance: 5
 title.ko: 개혁개방
+title.hi: चीन में सुधार और खुलापन
 
 @ tiananmen-1989
 wikipedia: 1989 Tiananmen Square protests and massacre

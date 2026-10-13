@@ -130,7 +130,7 @@ importance: 4
 
 @ haitian-revolution
 wikipedia: Haitian Revolution
-when: 1804
+when: 1791 ~ 1804
 coords: -72.33, 19.1
 category: politics
 importance: 3
@@ -155,6 +155,7 @@ when: 1863
 coords: -77.23, 39.81
 category: war
 importance: 3
+title.hi: गेटिसबर्ग का युद्ध
 
 @ alaska-purchase
 wikipedia: Alaska Purchase
@@ -162,6 +163,7 @@ when: 1867
 coords: -77.04, 38.9
 category: politics
 importance: 3
+title.hi: अलास्का की ख़रीद
 
 @ spanish-american-war
 wikipedia: Spanish–American War
@@ -183,10 +185,11 @@ when: 1944
 coords: -71.45, 44.25
 category: politics
 importance: 3
+title.hi: ब्रेटन वुड्स प्रणाली
 
 @ cuban-revolution
 wikipedia: Cuban Revolution
-when: 1959
+when: 1953 ~ 1959
 coords: -79.5, 22
 category: politics
 importance: 4
@@ -204,6 +207,7 @@ when: 2021
 coords: -77.01, 38.89
 category: politics
 importance: 3
+title.hi: 6 जनवरी को अमेरिकी कैपिटल पर हमला
 
 @ american-civil-war
 wikipedia: American Civil War
@@ -229,6 +233,8 @@ coords: -89.62, 17.22
 category: politics
 importance: 3
 title.ko: 고전기 마야 문명의 붕괴
+title.ar: انهيار حضارة المايا الكلاسيكية
+title.hi: शास्त्रीय माया सभ्यता का पतन
 
 @ tenochtitlan
 wikipedia: Tenochtitlan
@@ -237,6 +243,7 @@ coords: -99.13, 19.43
 category: politics
 importance: 3
 title.ko: 테노치티틀란 건설
+title.hi: तेनोच्तितलान की स्थापना
 
 @ fall-of-tenochtitlan
 wikipedia: Fall of Tenochtitlan
@@ -245,6 +252,9 @@ coords: -99.13, 19.43
 category: war
 importance: 4
 title.ko: 테노치티틀란 함락 (아스텍 멸망)
+summary.ko: 1521년 에스파냐의 정복자 에르난 코르테스가 틀락스칼라족 등 수많은 원주민 동맹군의 도움을 받아 아스텍(멕시카)의 수도 테노치티틀란을 함락했다. 이로써 아스텍 제국이 무너지고 에스파냐의 멕시코 지배가 시작되었다.
+title.zh: 特诺奇蒂特兰陷落
+title.hi: तेनोच्तितलान का पतन
 
 @ jamestown
 wikipedia: Jamestown
@@ -285,6 +295,7 @@ coords: -77.03, 38.9
 category: politics
 importance: 4
 title.ko: 노예 해방 선언
+title.hi: मुक्ति उद्घोषणा
 
 @ wright-flyer
 wikipedia: Wright Flyer
@@ -293,6 +304,7 @@ coords: -75.67, 36.02
 category: science
 importance: 5
 title.ko: 라이트 형제의 첫 동력 비행
+title.hi: राइट बंधुओं की पहली उड़ान
 
 @ panama-canal
 wikipedia: Panama Canal
@@ -309,6 +321,7 @@ coords: -106.48, 33.68
 category: science
 importance: 5
 title.ko: 트리니티 핵실험 (최초의 핵폭발)
+title.hi: ट्रिनिटी परमाणु परीक्षण
 
 @ un-charter
 wikipedia: Charter of the United Nations
@@ -333,6 +346,7 @@ coords: -77.03, 38.9
 category: politics
 importance: 4
 title.ko: 민권법 제정
+title.hi: नागरिक अधिकार अधिनियम 1964
 
 @ arpanet
 wikipedia: ARPANET

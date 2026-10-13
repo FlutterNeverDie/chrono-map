@@ -75,6 +75,7 @@ when: 1988 ~ 1994
 coords: 47.7, 40.3
 category: war
 importance: 3
+title.hi: प्रथम नागोर्नो-काराबाख़ युद्ध
 
 @ second-nagorno-karabakh-war
 wikipedia: Second Nagorno-Karabakh War
@@ -82,6 +83,7 @@ when: 2020
 coords: 47.7, 40.3
 category: war
 importance: 3
+title.hi: द्वितीय नागोर्नो-काराबाख़ युद्ध
 
 @ mongol-conquests
 wikipedia: Mongol invasions and conquests
@@ -98,6 +100,7 @@ coords: 59.57, 52.65
 category: science
 importance: 2
 title.ko: 신타시타 문화 (전차의 등장)
+title.hi: सिंताश्ता संस्कृति
 
 @ xiongnu
 wikipedia: Xiongnu
@@ -123,6 +126,7 @@ coords: 102.0, 47.5
 category: politics
 importance: 3
 title.ko: 돌궐 건국
+title.hi: प्रथम तुर्क ख़ागानत
 
 @ uyghur-khaganate
 wikipedia: Uyghur Khaganate
@@ -139,6 +143,7 @@ coords: 71.4, 42.5
 category: war
 importance: 4
 title.ko: 탈라스 전투
+title.hi: तलास का युद्ध
 
 @ seljuk-empire
 wikipedia: Seljuk Empire
@@ -155,6 +160,8 @@ coords: 66.97, 39.65
 category: war
 importance: 4
 title.ko: 몽골의 호라즘 침공
+summary.ko: 1219년부터 1221년까지 칭기즈 칸이 이끄는 몽골군이 중앙아시아의 호라즘 제국을 침공해 여러 도시를 파괴했다. 이 원정으로 몽골은 중앙아시아 정복을 마무리하고 페르시아 정복에 나서게 되었다.
+title.hi: ख़्वारिज़्म साम्राज्य पर मंगोल आक्रमण
 
 @ golden-horde
 wikipedia: Golden Horde
@@ -171,6 +178,8 @@ coords: 67.0, 39.67
 category: science
 importance: 3
 title.ko: 울루그 베그 천문대
+summary.ko: 1420년대 티무르 제국의 군주이자 천문학자 울루그 베그가 사마르칸트에 대형 천문대를 세웠다. 이곳에서 정밀한 천체 관측이 이루어졌으나 1449년 파괴되었고, 1908년에 유적이 다시 발견되었다.
+title.zh: 兀鲁伯天文台
 
 @ kazakh-khanate
 wikipedia: Kazakh Khanate
@@ -187,6 +196,8 @@ coords: 87.6, 43.8
 category: war
 importance: 3
 title.ko: 준가르 학살
+summary.ko: 청나라 건륭제는 준가르 칸국을 정복한 뒤 1755년 아무르사나가 반란을 일으키자 준가르인을 대대적으로 학살하도록 명령했다. 이로 인해 오이라트 몽골 계열의 준가르인이 거의 사라졌다.
+title.hi: ज़ुंगार नरसंहार
 
 @ russian-conquest-central-asia
 wikipedia: Russian conquest of Central Asia
@@ -195,6 +206,8 @@ coords: 69.24, 41.3
 category: war
 importance: 3
 title.ko: 러시아의 중앙아시아 정복
+title.pt: Conquista russa da Ásia Central
+title.hi: मध्य एशिया पर रूसी विजय
 
 @ mongolian-revolution-1921
 wikipedia: Mongolian Revolution of 1921
@@ -203,6 +216,7 @@ coords: 106.9, 47.92
 category: politics
 importance: 2
 title.ko: 몽골 혁명
+title.hi: 1921 की मंगोल क्रांति
 
 @ battles-of-khalkhin-gol
 wikipedia: Battles of Khalkhin Gol
@@ -211,6 +225,7 @@ coords: 118.0, 47.7
 category: war
 importance: 3
 title.ko: 할힌골 전투 (노몬한 사건)
+title.hi: ख़ालख़िन गोल के युद्ध
 
 @ rds-1
 wikipedia: RDS-1
@@ -219,6 +234,7 @@ coords: 77.85, 50.44
 category: science
 importance: 3
 title.ko: 소련 첫 핵실험
+title.hi: सोवियत संघ का पहला परमाणु परीक्षण
 
 @ sputnik-1
 wikipedia: Sputnik 1
@@ -243,3 +259,4 @@ coords: 68.78, 38.56
 category: war
 importance: 2
 title.ko: 타지키스탄 내전
+title.hi: ताजिकिस्तान गृहयुद्ध

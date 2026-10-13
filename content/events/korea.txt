@@ -130,6 +130,7 @@ when: 1919
 coords: 126.98, 37.57
 category: politics
 importance: 5
+title.hi: 1 मार्च आंदोलन
 
 @ korean-war
 wikipedia: Korean War
@@ -151,6 +152,9 @@ when: 2000
 coords: 125.75, 39.03
 category: politics
 importance: 4
+title.es: Cumbre intercoreana de 2000
+title.pt: Cúpula intercoreana de 2000
+title.hi: 2000 का अंतर-कोरियाई शिखर सम्मेलन
 
 @ first-sino-japanese-war
 wikipedia: First Sino-Japanese War
@@ -166,6 +170,10 @@ coords: 125.75, 39.03
 category: war
 importance: 3
 title.ko: 고조선 멸망 (고조선-한 전쟁)
+title.es: Guerra Gojoseon-Han
+title.ar: حرب غوجوسون وهان
+title.pt: Guerra Gojoseon-Han
+title.hi: हान द्वारा गोजोसन की विजय
 
 @ goguryeo-founding
 wikipedia: Goguryeo
@@ -182,6 +190,8 @@ coords: 125.6, 39.6
 category: war
 importance: 3
 title.ko: 살수대첩
+title.ar: معركة سالسو
+title.hi: साल्सू का युद्ध
 
 @ battle-of-baekgang
 wikipedia: Battle of Baekgang
@@ -190,6 +200,8 @@ coords: 126.7, 36.0
 category: war
 importance: 3
 title.ko: 백강 전투
+title.ar: معركة بايكغانغ
+title.hi: बैकगांग का युद्ध
 
 @ goguryeo-tang-war
 wikipedia: Goguryeo–Tang War
@@ -198,6 +210,8 @@ coords: 125.75, 39.03
 category: war
 importance: 3
 title.ko: 고구려-당 전쟁 (고구려 멸망)
+title.pt: Guerra Goguryeo-Tang
+title.hi: गोगुर्यो–तांग युद्ध
 
 @ silla-tang-war
 wikipedia: Silla–Tang War
@@ -206,6 +220,10 @@ coords: 127.05, 37.85
 category: war
 importance: 3
 title.ko: 나당 전쟁 (신라의 삼국 통일)
+title.es: Guerra Silla-Tang
+title.ar: حرب شيلا وتانغ
+title.pt: Guerra Silla-Tang
+title.hi: शिल्ला–तांग युद्ध
 
 @ balhae-founding
 wikipedia: Parhae
@@ -230,6 +248,10 @@ coords: 125.25, 39.98
 category: war
 importance: 3
 title.ko: 귀주대첩
+title.ar: معركة غويجو
+title.fr: Bataille de Gwiju
+title.pt: Batalha de Gwiju
+title.hi: ग्विजू का युद्ध
 
 @ mongol-invasions-of-korea
 wikipedia: Mongol invasions of Korea
@@ -238,6 +260,8 @@ coords: 126.45, 37.75
 category: war
 importance: 3
 title.ko: 몽골의 고려 침입
+title.pt: Invasões mongóis da Coreia
+title.hi: कोरिया पर मंगोल आक्रमण
 
 @ tripitaka-koreana
 wikipedia: Tripitaka Koreana
@@ -262,6 +286,7 @@ coords: 126.31, 34.57
 category: war
 importance: 3
 title.ko: 명량 해전
+title.hi: म्योंगन्यांग का युद्ध
 
 @ second-manchu-invasion
 wikipedia: Qing invasion of Joseon
@@ -270,6 +295,7 @@ coords: 127.18, 37.48
 category: war
 importance: 3
 title.ko: 병자호란
+title.hi: जोसन पर चिंग आक्रमण
 
 @ ganghwa-treaty
 wikipedia: Japan–Korea Treaty of 1876
@@ -278,6 +304,7 @@ coords: 126.48, 37.75
 category: politics
 importance: 3
 title.ko: 강화도 조약
+title.hi: गांगह्वा संधि
 
 @ donghak-revolution
 wikipedia: Tonghak Peasant Revolution
@@ -286,6 +313,7 @@ coords: 126.86, 35.57
 category: war
 importance: 3
 title.ko: 동학 농민 운동
+title.hi: दोंगहाक किसान क्रांति
 
 @ korean-empire
 wikipedia: Korean Empire
@@ -294,6 +322,7 @@ coords: 126.98, 37.57
 category: politics
 importance: 3
 title.ko: 대한제국 선포
+title.hi: कोरियाई साम्राज्य की घोषणा
 
 @ eulsa-treaty
 wikipedia: Japan–Korea Treaty of 1905
@@ -302,6 +331,7 @@ coords: 126.98, 37.57
 category: politics
 importance: 3
 title.ko: 을사늑약
+title.hi: उलसा संधि (1905)
 
 @ korea-annexation
 wikipedia: Japan–Korea Treaty of 1910
@@ -310,6 +340,7 @@ coords: 126.98, 37.57
 category: politics
 importance: 4
 title.ko: 경술국치 (일제의 국권 침탈)
+title.hi: जापान द्वारा कोरिया का विलय
 
 @ provisional-government
 wikipedia: Provisional Government of the Republic of Korea
@@ -318,6 +349,7 @@ coords: 121.47, 31.22
 category: politics
 importance: 3
 title.ko: 대한민국 임시정부 수립
+title.hi: कोरिया गणराज्य की अस्थायी सरकार
 
 @ first-republic-of-korea
 wikipedia: First Republic of Korea
@@ -334,6 +366,8 @@ coords: 126.53, 33.5
 category: politics
 importance: 3
 title.ko: 제주 4·3 사건
+title.pt: Incidente de 3 de Abril de Jeju
+title.hi: जेजू 4·3 घटना
 
 @ korean-armistice
 wikipedia: Korean Armistice Agreement
@@ -342,6 +376,7 @@ coords: 126.68, 37.96
 category: war
 importance: 3
 title.ko: 정전 협정
+title.hi: कोरियाई युद्धविराम समझौता
 
 @ april-revolution
 wikipedia: April Revolution
@@ -350,6 +385,7 @@ coords: 126.98, 37.57
 category: politics
 importance: 3
 title.ko: 4·19 혁명
+title.hi: अप्रैल क्रांति (दक्षिण कोरिया)
 
 @ may-16-coup
 wikipedia: May 16 coup
@@ -358,6 +394,7 @@ coords: 126.98, 37.57
 category: politics
 importance: 3
 title.ko: 5·16 군사정변
+title.hi: 16 मई का सैन्य तख़्तापलट
 
 @ gwangju-uprising
 wikipedia: Gwangju Uprising
@@ -374,6 +411,8 @@ coords: 126.98, 37.57
 category: politics
 importance: 3
 title.ko: 6월 민주 항쟁
+title.pt: Luta democrática de junho
+title.hi: जून लोकतांत्रिक संघर्ष
 
 @ martial-law-2024
 wikipedia: 2024 South Korean martial law crisis

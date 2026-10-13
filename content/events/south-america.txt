@@ -82,6 +82,7 @@ when: 1808 ~ 1833
 coords: -66, -16
 category: war
 importance: 5
+title.hi: स्पेनी अमेरिका के स्वतंत्रता युद्ध
 
 @ caral
 wikipedia: Caral
@@ -91,6 +92,7 @@ coords: -77.52, -10.89
 category: culture
 importance: 3
 title.ko: 카랄 (아메리카 최초의 도시)
+title.hi: कराल
 
 @ nazca-lines
 wikipedia: Nazca lines
@@ -100,6 +102,7 @@ coords: -75.13, -14.74
 category: culture
 importance: 2
 title.ko: 나스카 지상화
+title.hi: नाज़्का रेखाएँ
 
 @ inca-empire
 wikipedia: Inca Empire
@@ -125,6 +128,7 @@ coords: -39.06, -16.45
 category: exploration
 importance: 4
 title.ko: 카브랄의 브라질 도착
+title.hi: काब्राल का ब्राज़ील पहुँचना
 
 @ magellan-expedition
 wikipedia: Magellan expedition
@@ -141,6 +145,9 @@ coords: -65.75, -19.58
 category: economy
 importance: 4
 title.ko: 포토시 은광 발견
+summary.ko: 1545년 오늘날 볼리비아의 안데스 산지에서 거대한 은광이 있는 세로 리코(포토시 산)가 발견되었다. 이곳에서 캐낸 막대한 은이 에스파냐로 실려 가 에스파냐 제국의 재정과 세계 은 유통에 큰 영향을 주었다.
+title.ar: اكتشاف فضة بوتوسي
+title.hi: पोतोसी की चाँदी की खान
 
 @ tupac-amaru-ii
 wikipedia: Rebellion of Túpac Amaru II
@@ -149,6 +156,10 @@ coords: -71.97, -13.53
 category: war
 importance: 3
 title.ko: 투팍 아마루 2세의 반란
+summary.ko: 1780년 원주민 지도자 투팍 아마루 2세가 에스파냐의 페루 식민 지배에 맞서 대규모 반란을 일으켰다. 그는 1781년 붙잡혀 처형되었지만, 반란은 다른 지도자들 아래에서 1783년 무렵까지 이어졌다.
+title.zh: 图帕克·阿马鲁二世起义
+title.pt: Rebelião de Túpac Amaru II
+title.hi: तूपाक अमारू द्वितीय का विद्रोह
 
 @ may-revolution
 wikipedia: May Revolution
@@ -157,6 +168,7 @@ coords: -58.37, -34.6
 category: politics
 importance: 3
 title.ko: 5월 혁명 (아르헨티나)
+title.hi: मई क्रांति (अर्जेंटीना)
 
 @ argentine-independence
 wikipedia: Argentine Declaration of Independence
@@ -165,6 +177,9 @@ coords: -65.2, -26.83
 category: politics
 importance: 3
 title.ko: 아르헨티나 독립 선언
+title.zh: 阿根廷独立宣言
+title.pt: Declaração de independência da Argentina
+title.hi: अर्जेंटीना की स्वतंत्रता की घोषणा
 
 @ battle-of-boyaca
 wikipedia: Battle of Boyacá
@@ -173,6 +188,8 @@ coords: -73.4, 5.45
 category: war
 importance: 3
 title.ko: 보야카 전투
+title.zh: 博亚卡战役
+title.hi: बोयाका का युद्ध
 
 @ battle-of-ayacucho
 wikipedia: Battle of Ayacucho
@@ -181,6 +198,8 @@ coords: -74.1, -13.0
 category: war
 importance: 3
 title.ko: 아야쿠초 전투
+summary.ko: 1824년 페루 아야쿠초에서 안토니오 호세 데 수크레가 이끄는 독립군이 에스파냐 왕당군을 격파했다. 이 전투로 페루의 독립이 확정되었고, 에스파냐령 남아메리카 독립 전쟁은 사실상 막을 내렸다.
+title.hi: अयाकूचो का युद्ध
 
 @ beagle-voyage
 wikipedia: Second voyage of HMS Beagle
@@ -189,6 +208,9 @@ coords: -90.5, -0.7
 category: science
 importance: 4
 title.ko: 비글호 항해 (다윈의 갈라파고스 탐사)
+title.zh: 小猎犬号第二次航行
+title.pt: Segunda viagem do HMS Beagle
+title.hi: एचएमएस बीगल की दूसरी यात्रा
 
 @ lei-aurea
 wikipedia: Lei Áurea
@@ -197,6 +219,10 @@ coords: -43.17, -22.9
 category: politics
 importance: 3
 title.ko: 브라질 노예제 폐지
+summary.ko: 1888년 5월 13일 황제 페드루 2세를 대신해 섭정하던 이자베우 공주가 '황금법(레이 아우레아)'에 서명해 브라질의 노예제를 폐지했다. 브라질은 아메리카 대륙에서 가장 늦게 노예제를 없앤 나라가 되었다.
+title.zh: 巴西黄金法
+title.ar: القانون الذهبي (البرازيل)
+title.hi: ब्राज़ील में दास प्रथा का उन्मूलन
 
 @ brazil-republic
 wikipedia: Proclamation of the Republic (Brazil)
@@ -205,6 +231,9 @@ coords: -43.17, -22.9
 category: politics
 importance: 2
 title.ko: 브라질 공화국 선포
+summary.ko: 1889년 11월 15일 브라질에서 군부가 쿠데타를 일으켜 입헌 군주제인 브라질 제국을 무너뜨리고 공화국을 선포했다. 황제 페드루 2세는 퇴위했고 제1공화국이 시작되었다.
+title.ar: إعلان الجمهورية في البرازيل
+title.hi: ब्राज़ील गणराज्य की घोषणा
 
 @ chaco-war
 wikipedia: Chaco War
@@ -213,6 +242,7 @@ coords: -60.5, -21.5
 category: war
 importance: 3
 title.ko: 차코 전쟁
+title.hi: चाको युद्ध
 
 @ brazil-coup-1964
 wikipedia: 1964 Brazilian coup d'état
@@ -221,6 +251,7 @@ coords: -43.2, -22.9
 category: politics
 importance: 3
 title.ko: 브라질 군사 쿠데타
+title.hi: 1964 का ब्राज़ीली तख़्तापलट
 
 @ chile-coup-1973
 wikipedia: 1973 Chilean coup d'état
@@ -229,6 +260,7 @@ coords: -70.65, -33.44
 category: politics
 importance: 4
 title.ko: 칠레 쿠데타 (피노체트)
+title.hi: 1973 का चिली तख़्तापलट
 
 @ falklands-war
 wikipedia: Falklands War
@@ -245,3 +277,7 @@ coords: -57.6, -25.3
 category: economy
 importance: 2
 title.ko: 메르코수르 창설
+summary.ko: 1991년 3월 26일 아르헨티나, 브라질, 파라과이, 우루과이가 파라과이의 아순시온에서 조약을 맺고 공동 시장인 메르코수르(남미공동시장)를 출범시켰다. 이후 오루프레투 의정서로 기구의 법적 지위가 보완되었다.
+title.zh: 亚松森条约
+title.ar: معاهدة أسونسيون
+title.hi: असुनसियोन की संधि (मर्कोसुर)

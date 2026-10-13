@@ -58,9 +58,9 @@ export const hi: Messages = {
     indexDescription:
       "ई.पू. 35वीं शताब्दी से आज तक, हर काल में दुनिया भर में क्या हुआ।",
     tab: "काल के अनुसार",
-    title: "{period} में दुनिया",
+    title: "दुनिया: {period}",
     metaDescription:
-      "{period} ({range}) में दुनिया भर में क्या हुआ: {titles} समेत कुल {n} घटनाएँ।",
+      "दुनिया भर में क्या हुआ, {period} ({range}): {titles} समेत कुल {n} घटनाएँ।",
     events: "इस काल की घटनाएँ",
     nearby: "लगभग इसी समय",
     ongoing: "अब भी जारी",

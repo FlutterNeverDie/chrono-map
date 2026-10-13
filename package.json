@@ -19,7 +19,8 @@
     "start": "next start",
     "lint": "eslint",
     "og:fonts": "tsx scripts/og-fonts.ts",
-    "postbuild": "node scripts/prune-out.mjs"
+    "postbuild": "node scripts/prune-out.mjs",
+    "audit": "tsx scripts/audit-events.ts"
   },
   "dependencies": {
     "@radix-ui/react-slider": "^1.6.0",

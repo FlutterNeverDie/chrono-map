@@ -68,6 +68,7 @@ when: 2011
 coords: 141.03, 37.42
 category: science
 importance: 4
+title.hi: फ़ुकुशिमा परमाणु दुर्घटना
 
 @ battle-of-okinawa
 wikipedia: Battle of Okinawa
@@ -75,6 +76,7 @@ when: 1945
 coords: 128, 26.5
 category: war
 importance: 3
+title.hi: ओकिनावा का युद्ध
 
 @ sengoku-period
 wikipedia: Sengoku period
@@ -82,6 +84,7 @@ when: 1467 ~ 1615
 coords: 135.76, 35.01
 category: war
 importance: 5
+title.hi: सेंगोकु काल
 
 @ seventeen-article-constitution
 wikipedia: Seventeen-article constitution
@@ -90,6 +93,8 @@ coords: 135.8, 34.47
 category: politics
 importance: 3
 title.ko: 17조 헌법
+title.ar: دستور المواد السبع عشرة
+title.hi: सत्रह अनुच्छेदों वाला संविधान
 
 @ taika-reform
 wikipedia: Taika Reform
@@ -98,6 +103,8 @@ coords: 135.52, 34.68
 category: politics
 importance: 3
 title.ko: 다이카 개신
+title.ar: إصلاح تايكا
+title.hi: ताइका सुधार
 
 @ heian-kyo
 wikipedia: Heian-kyō
@@ -106,6 +113,9 @@ coords: 135.76, 35.01
 category: politics
 importance: 3
 title.ko: 헤이안쿄 천도
+title.ar: نقل العاصمة إلى هييان-كيو
+title.pt: Transferência da capital para Heian-kyō
+title.hi: हेइआन-क्यो
 
 @ tale-of-genji
 wikipedia: The Tale of Genji
@@ -115,6 +125,7 @@ coords: 135.76, 35.01
 category: culture
 importance: 3
 title.ko: 겐지 이야기
+title.hi: गेंजी की कथा
 
 @ battle-of-dan-no-ura
 wikipedia: Battle of Dan-no-ura
@@ -123,6 +134,7 @@ coords: 130.96, 33.96
 category: war
 importance: 3
 title.ko: 단노우라 전투 (겐페이 전쟁 종결)
+title.hi: दान-नो-उरा का युद्ध
 
 @ kamakura-shogunate
 wikipedia: Kamakura shogunate
@@ -131,6 +143,8 @@ coords: 139.55, 35.32
 category: politics
 importance: 4
 title.ko: 가마쿠라 막부 성립
+title.ar: قيام شوغونية كاماكورا
+title.hi: कामाकुरा शोगुनेट
 
 @ mongol-invasions-of-japan
 wikipedia: Mongol invasions of Japan
@@ -139,6 +153,7 @@ coords: 130.4, 33.6
 category: war
 importance: 3
 title.ko: 여몽 연합군의 일본 원정
+title.hi: जापान पर मंगोल आक्रमण
 
 @ ashikaga-shogunate
 wikipedia: Ashikaga shogunate
@@ -147,6 +162,7 @@ coords: 135.76, 35.01
 category: politics
 importance: 3
 title.ko: 무로마치 막부 성립
+title.hi: आशिकागा शोगुनेट
 
 @ nanban-trade
 wikipedia: Nanban trade
@@ -155,6 +171,8 @@ coords: 131.0, 30.7
 category: economy
 importance: 2
 title.ko: 포르투갈인 도래와 조총 전래
+title.ar: تجارة نانبان
+title.hi: नानबान व्यापार
 
 @ honno-ji-incident
 wikipedia: Honnō-ji Incident
@@ -163,6 +181,7 @@ coords: 135.76, 35.0
 category: politics
 importance: 3
 title.ko: 혼노지의 변
+title.hi: होन्नो-जी घटना
 
 @ battle-of-sekigahara
 wikipedia: Battle of Sekigahara
@@ -171,6 +190,7 @@ coords: 136.47, 35.37
 category: war
 importance: 4
 title.ko: 세키가하라 전투
+title.hi: सेकिगाहारा का युद्ध
 
 @ sakoku
 wikipedia: Sakoku
@@ -187,6 +207,8 @@ coords: 139.72, 35.24
 category: politics
 importance: 4
 title.ko: 페리 내항 (흑선 내항)
+title.es: Expedición Perry
+title.hi: पेरी अभियान
 
 @ boshin-war
 wikipedia: Boshin War
@@ -195,6 +217,7 @@ coords: 139.75, 35.68
 category: war
 importance: 3
 title.ko: 보신 전쟁
+title.hi: बोशिन युद्ध
 
 @ ryukyu-disposition
 wikipedia: Ryukyu Disposition
@@ -203,6 +226,11 @@ coords: 127.68, 26.21
 category: politics
 importance: 2
 title.ko: 류큐 처분
+summary.ko: 메이지 시대 일본이 1872년 류큐 번을 설치한 데 이어 1879년 류큐 왕국을 해체하고 오키나와현으로 편입했다. 이로써 류큐는 청나라 중심의 조공 체제에서 떨어져 나갔고, 청과의 외교 분쟁이 뒤따랐다.
+title.es: Anexión de Ryukyu
+title.ar: ضم ريوكيو
+title.pt: Anexação de Ryukyu
+title.hi: र्युक्यू का जापान में विलय
 
 @ meiji-constitution
 wikipedia: Meiji Constitution
@@ -211,6 +239,7 @@ coords: 139.75, 35.68
 category: politics
 importance: 3
 title.ko: 대일본제국 헌법 공포
+title.hi: मेइजी संविधान
 
 @ battle-of-tsushima
 wikipedia: Battle of Tsushima
@@ -219,6 +248,7 @@ coords: 129.6, 34.3
 category: war
 importance: 3
 title.ko: 쓰시마 해전
+title.hi: त्सुशिमा का युद्ध
 
 @ hiroshima-nagasaki
 wikipedia: Atomic bombings of Hiroshima and Nagasaki
@@ -235,6 +265,7 @@ coords: 139.75, 35.35
 category: war
 importance: 4
 title.ko: 일본의 항복
+title.hi: जापान का आत्मसमर्पण
 
 @ san-francisco-treaty
 wikipedia: Treaty of San Francisco
@@ -251,6 +282,7 @@ coords: 139.77, 35.68
 category: science
 importance: 3
 title.ko: 도카이도 신칸센 개통
+title.ar: شينكانسن توكايدو
 
 @ japan-asset-bubble
 wikipedia: Japanese asset price bubble
@@ -259,3 +291,5 @@ coords: 139.77, 35.68
 category: economy
 importance: 3
 title.ko: 일본 버블 경제
+title.ar: فقاعة أسعار الأصول في اليابان
+title.hi: जापान का परिसंपत्ति मूल्य बुलबुला

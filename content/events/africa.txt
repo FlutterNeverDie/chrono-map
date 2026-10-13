@@ -100,6 +100,7 @@ when: -149 ~ -146
 coords: 10, 34
 category: war
 importance: 3
+title.hi: तृतीय प्यूनिक युद्ध
 
 @ second-boer-war
 wikipedia: Second Boer War
@@ -114,6 +115,7 @@ when: 1911 ~ 1912
 coords: 13.19, 32.89
 category: war
 importance: 3
+title.hi: इतालवी–तुर्की युद्ध
 
 @ gaza-war-2008-2009
 wikipedia: Gaza War (2008–2009)
@@ -121,6 +123,7 @@ when: 2008 ~ 2009
 coords: 34.4, 31.45
 category: war
 importance: 3
+title.hi: ग़ाज़ा युद्ध (2008–2009)
 
 @ punic-wars
 wikipedia: Punic Wars
@@ -137,6 +140,7 @@ coords: 32.78, 25.1
 category: politics
 importance: 4
 title.ko: 이집트 통일 (나르메르)
+title.hi: नारमेर द्वारा मिस्र का एकीकरण
 
 @ carthage-founding
 wikipedia: Ancient Carthage
@@ -163,6 +167,8 @@ coords: 38.72, 14.13
 category: religion
 importance: 3
 title.ko: 악숨 왕국의 기독교 개종
+summary.ko: 4세기 악숨 왕국의 왕 에자나가 기독교를 받아들여 국교로 삼았다. 그는 기록이 비교적 잘 남아 있는 악숨의 군주로, 에티오피아라는 이름을 처음 쓴 왕으로도 알려져 있다.
+title.hi: अक्सूम के एज़ाना का ईसाई धर्म अपनाना
 
 @ muslim-conquest-of-egypt
 wikipedia: Arab conquest of Egypt
@@ -179,6 +185,7 @@ coords: 10.1, 35.68
 category: war
 importance: 3
 title.ko: 이슬람의 마그레브 정복
+title.hi: मग़रिब पर मुस्लिम विजय
 
 @ al-azhar-university
 wikipedia: Al-Azhar University
@@ -204,6 +211,9 @@ coords: -8.1, 12.6
 category: war
 importance: 3
 title.ko: 키리나 전투 (말리 제국 성립)
+summary.ko: 만딩카족의 왕자 순디아타 케이타가 키리나 전투에서 소소 왕국의 수망구루 칸테를 크게 물리쳤다. 이 승리로 순디아타가 세운 말리 제국이 서아프리카의 패권을 차지하게 되었다.
+title.zh: 基里纳战役
+title.hi: किरीना का युद्ध
 
 @ conquest-of-ceuta
 wikipedia: Portuguese conquest of Ceuta
@@ -212,6 +222,9 @@ coords: -5.32, 35.89
 category: war
 importance: 3
 title.ko: 포르투갈의 세우타 정복
+summary.ko: 1415년 포르투갈 왕 주앙 1세가 이끄는 군대가 마린 왕조가 다스리던 북아프리카의 항구 도시 세우타를 점령했다. 이 정복은 포르투갈 해외 제국의 출발점으로 여겨진다.
+title.zh: 葡萄牙征服休达
+title.hi: पुर्तगाल द्वारा सेउता की विजय
 
 @ bartolomeu-dias
 wikipedia: Bartolomeu Dias
@@ -228,6 +241,8 @@ coords: 31.23, 30.04
 category: war
 importance: 3
 title.ko: 오스만의 이집트 정복
+summary.ko: 1516년부터 1517년까지 오스만 제국이 이집트의 맘루크 술탄국과 싸워 승리하고 맘루크 왕조를 무너뜨렸다. 오스만은 레반트와 이집트, 메카가 있는 헤자즈를 차지하며 이슬람 세계의 중심 제국으로 떠올랐다.
+title.hi: उस्मानी–मामलूक युद्ध (1516–1517)
 
 @ cape-colony
 wikipedia: Dutch Cape Colony
@@ -236,6 +251,9 @@ coords: 18.42, -33.92
 category: politics
 importance: 3
 title.ko: 케이프 식민지 건설
+title.fr: Colonie néerlandaise du Cap
+title.pt: Colônia holandesa do Cabo
+title.hi: डच केप उपनिवेश
 
 @ french-invasion-of-egypt
 wikipedia: French invasion of Egypt and Syria
@@ -244,6 +262,7 @@ coords: 31.23, 30.04
 category: war
 importance: 3
 title.ko: 나폴레옹의 이집트 원정
+title.hi: मिस्र और सीरिया पर फ़्रांसीसी आक्रमण
 
 @ invasion-of-algiers-1830
 wikipedia: Invasion of Algiers (1830)
@@ -252,6 +271,9 @@ coords: 3.06, 36.77
 category: war
 importance: 3
 title.ko: 프랑스의 알제리 침공
+summary.ko: 1830년 샤를 10세가 다스리던 프랑스가 외교 분쟁을 구실로 알제를 침공해 정복했다. 이 침공은 프랑스가 130여 년에 걸쳐 알제리를 식민 지배하는 출발점이 되었다.
+title.es: Invasión de Argel (1830)
+title.hi: अल्जीयर्स पर फ़्रांसीसी आक्रमण (1830)
 
 @ suez-canal
 wikipedia: Suez Canal
@@ -292,6 +314,7 @@ coords: 38.9, 14.16
 category: war
 importance: 3
 title.ko: 아도와 전투
+title.hi: अद्वा का युद्ध
 
 @ herero-nama-genocide
 wikipedia: Herero and Nama genocide
@@ -300,6 +323,7 @@ coords: 17.08, -22.56
 category: war
 importance: 3
 title.ko: 헤레로·나마 학살
+title.hi: हेरेरो और नामा नरसंहार
 
 @ el-alamein
 wikipedia: Second Battle of El Alamein
@@ -308,6 +332,7 @@ coords: 28.95, 30.83
 category: war
 importance: 4
 title.ko: 제2차 엘알라메인 전투
+title.hi: अल-अलामीन का द्वितीय युद्ध
 
 @ apartheid
 wikipedia: Apartheid
@@ -348,6 +373,11 @@ coords: 5.0, 10.0
 category: politics
 importance: 4
 title.ko: 아프리카의 해 (17개국 독립)
+title.zh: 非洲年
+title.ar: عام أفريقيا
+title.fr: Année de l'Afrique
+title.pt: Ano da África
+title.hi: अफ़्रीका वर्ष
 
 @ oau-founding
 wikipedia: Organisation of African Unity
@@ -356,6 +386,7 @@ coords: 38.75, 9.03
 category: politics
 importance: 3
 title.ko: 아프리카 통일 기구 창설
+title.hi: अफ़्रीकी एकता संगठन की स्थापना
 
 @ nigerian-civil-war
 wikipedia: Nigerian Civil War
@@ -388,3 +419,4 @@ coords: 10.18, 36.8
 category: politics
 importance: 3
 title.ko: 튀니지 재스민 혁명
+title.hi: ट्यूनीशियाई क्रांति

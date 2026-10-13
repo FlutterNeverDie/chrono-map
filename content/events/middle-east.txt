@@ -86,6 +86,7 @@ when: 625
 coords: 39.61, 24.5
 category: war
 importance: 3
+title.zh: 伍侯德战役
 
 @ battle-of-the-trench
 wikipedia: Battle of the Trench
@@ -93,6 +94,8 @@ when: 627
 coords: 39.6, 24.47
 category: war
 importance: 3
+title.ko: 참호 전투(한다크 전투)
+summary.ko: 627년 쿠라이시족이 이끄는 연합군이 메디나를 공격하자, 무함마드와 무슬림들은 페르시아인 살만의 제안에 따라 도시 둘레에 참호를 파고 방어했다. 약 2주간의 포위 끝에 연합군은 성과 없이 물러났다.
 
 @ muslim-conquest-of-persia
 wikipedia: Muslim conquest of Persia
@@ -121,6 +124,7 @@ when: 1071
 coords: 42.59, 39.1
 category: war
 importance: 3
+title.hi: मैंज़िकर्ट का युद्ध
 
 @ battle-of-hattin
 wikipedia: Battle of Hattin
@@ -128,6 +132,7 @@ when: 1187
 coords: 35.46, 32.8
 category: war
 importance: 3
+title.hi: हत्तीन का युद्ध
 
 @ siege-of-baghdad
 wikipedia: Siege of Baghdad
@@ -142,10 +147,11 @@ when: 1402
 coords: 32.95, 40.15
 category: war
 importance: 3
+title.hi: अंकारा का युद्ध
 
 @ arab-revolt
 wikipedia: Arab Revolt
-when: 1918
+when: 1916 ~ 1918
 coords: 36.29, 33.51
 category: politics
 importance: 3
@@ -156,6 +162,7 @@ when: 1919 ~ 1922
 coords: 35, 39
 category: war
 importance: 3
+title.hi: यूनान–तुर्की युद्ध (1919–1922)
 
 @ second-italo-ethiopian-war
 wikipedia: Second Italo-Ethiopian War
@@ -198,6 +205,7 @@ when: 1973
 coords: 35.6, 32.8
 category: war
 importance: 4
+title.hi: योम किप्पुर युद्ध
 
 @ iran-iraq-war
 wikipedia: Iran–Iraq War
@@ -212,6 +220,7 @@ when: 1982 ~ 1985
 coords: 35.77, 33.83
 category: war
 importance: 3
+title.hi: 1982 का लेबनान युद्ध
 
 @ gulf-war
 wikipedia: Gulf War
@@ -254,6 +263,7 @@ when: 2025
 coords: 45, 28
 category: war
 importance: 3
+title.hi: बारह दिवसीय युद्ध
 
 @ crusades
 wikipedia: Crusades
@@ -295,6 +305,10 @@ coords: 43.15, 36.36
 category: war
 importance: 3
 title.ko: 니네베 함락 (아시리아 멸망)
+summary.ko: 기원전 612년 메디아와 바빌로니아 연합군이 아시리아의 수도 니네베를 포위해 함락했다. 당대 최대 도시 가운데 하나였던 니네베가 무너지면서 신아시리아 제국은 몇 년 안에 멸망했고, 도시는 이후 급격히 쇠퇴했다.
+title.zh: 尼尼微陷落
+title.fr: Chute de Ninive
+title.hi: नीनवे का पतन
 
 @ siege-of-jerusalem-587
 wikipedia: Siege of Jerusalem (587 BC)
@@ -303,6 +317,9 @@ coords: 35.23, 31.78
 category: war
 importance: 3
 title.ko: 예루살렘 함락과 바빌론 유수
+summary.ko: 신바빌로니아의 네부카드네자르 2세가 반란을 일으킨 유다 왕국의 수도 예루살렘을 오랫동안 포위한 끝에 기원전 587년 함락했다. 바빌로니아군은 도시와 솔로몬 성전을 파괴했고, 유다 왕국은 멸망했으며 많은 주민이 바빌로니아로 끌려갔다.
+title.zh: 巴比伦攻陷耶路撒冷
+title.hi: यरूशलेम की घेराबंदी (587 ई.पू.)
 
 @ fall-of-babylon
 wikipedia: Fall of Babylon
@@ -328,6 +345,8 @@ coords: 39.83, 21.42
 category: religion
 importance: 4
 title.ko: 메카 정복
+summary.ko: 무함마드가 이끄는 무슬림 군대가 629년 말에서 630년 초 사이 쿠라이시족이 지배하던 메카로 진군해 도시를 차지했다. 메카 정복으로 무슬림과 쿠라이시족 사이의 오랜 대립이 사실상 끝났다.
+title.zh: 征服麦加
 
 @ house-of-wisdom
 wikipedia: House of Wisdom
@@ -345,6 +364,7 @@ coords: 35.36, 32.55
 category: war
 importance: 4
 title.ko: 아인잘루트 전투
+title.hi: ऐन जालूत का युद्ध
 
 @ safavid-founding
 wikipedia: Safavid Iran
@@ -369,6 +389,7 @@ coords: 35.23, 31.78
 category: politics
 importance: 4
 title.ko: 밸푸어 선언
+title.hi: बालफ़ोर घोषणा
 
 @ turkish-republic
 wikipedia: Proclamation of the Republic of Turkey
@@ -377,6 +398,10 @@ coords: 32.85, 39.93
 category: politics
 importance: 4
 title.ko: 터키 공화국 수립
+summary.ko: 1923년 10월 29일 터키 대국민의회가 무스타파 케말 아타튀르크의 주도로 헌법을 고쳐 공화국 수립을 선포했다. 오스만 제국을 대신해 터키 공화국이 들어섰고, 아타튀르크가 초대 대통령이 되었다.
+title.zh: 土耳其共和国成立
+title.pt: Proclamação da República da Turquia
+title.hi: तुर्की गणराज्य की घोषणा
 
 @ oil-crisis-1973
 wikipedia: 1973 oil crisis

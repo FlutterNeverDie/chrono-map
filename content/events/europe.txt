@@ -193,6 +193,7 @@ when: -264 ~ -241
 coords: 17, 38
 category: war
 importance: 3
+title.hi: प्रथम प्यूनिक युद्ध
 
 @ second-punic-war
 wikipedia: Second Punic War
@@ -207,6 +208,7 @@ when: -216
 coords: 16.13, 41.31
 category: war
 importance: 3
+title.hi: कैने का युद्ध
 
 @ battle-of-zama
 wikipedia: Battle of Zama
@@ -228,6 +230,7 @@ when: 9
 coords: 8.13, 52.41
 category: war
 importance: 3
+title.hi: ट्यूटोबर्ग वन का युद्ध
 
 @ battle-of-the-catalaunian-plains
 wikipedia: Battle of the Catalaunian Plains
@@ -235,6 +238,7 @@ when: 451
 coords: 4.5, 49
 category: war
 importance: 3
+title.hi: कैटालौनियन मैदानों का युद्ध
 
 @ battle-of-tours
 wikipedia: Battle of Tours
@@ -242,6 +246,7 @@ when: 732
 coords: 0.53, 46.99
 category: war
 importance: 3
+title.hi: टूर्स का युद्ध
 
 @ treaty-of-verdun
 wikipedia: Treaty of Verdun
@@ -249,6 +254,7 @@ when: 843
 coords: 5.38, 49.16
 category: politics
 importance: 3
+title.hi: वर्दुन की संधि
 
 @ battle-of-hastings
 wikipedia: Battle of Hastings
@@ -263,6 +269,7 @@ when: 1066
 coords: -0.91, 53.99
 category: war
 importance: 3
+title.hi: स्टैमफ़र्ड ब्रिज का युद्ध
 
 @ hundred-years-war
 wikipedia: Hundred Years' War
@@ -277,6 +284,7 @@ when: 1389
 coords: 21.12, 42.63
 category: war
 importance: 3
+title.hi: कोसोवो का युद्ध
 
 @ battle-of-grunwald
 wikipedia: Battle of Grunwald
@@ -284,6 +292,7 @@ when: 1410
 coords: 20.12, 53.49
 category: war
 importance: 3
+title.hi: ग्रुनवाल्ड का युद्ध
 
 @ battle-of-agincourt
 wikipedia: Battle of Agincourt
@@ -291,6 +300,7 @@ when: 1415
 coords: 2.14, 50.46
 category: war
 importance: 3
+title.hi: एजिनकोर्ट का युद्ध
 
 @ treaty-of-tordesillas
 wikipedia: Treaty of Tordesillas
@@ -312,6 +322,7 @@ when: 1526
 coords: 18.65, 45.94
 category: war
 importance: 3
+title.hi: मोहाच का युद्ध
 
 @ livonian-war
 wikipedia: Livonian War
@@ -326,6 +337,7 @@ when: 1565
 coords: 14.52, 35.89
 category: war
 importance: 3
+title.hi: माल्टा की महान घेराबंदी
 
 @ english-civil-war
 wikipedia: English Civil War
@@ -361,6 +373,7 @@ when: 1709
 coords: 34.55, 49.63
 category: war
 importance: 3
+title.hi: पोल्टावा का युद्ध
 
 @ war-of-the-austrian-succession
 wikipedia: War of the Austrian Succession
@@ -382,6 +395,7 @@ when: 1789
 coords: 2.37, 48.85
 category: politics
 importance: 3
+title.hi: बास्तील पर धावा
 
 @ french-revolutionary-wars
 wikipedia: French Revolutionary Wars
@@ -396,6 +410,7 @@ when: 1805
 coords: 16.76, 49.13
 category: war
 importance: 3
+title.hi: आउस्टरलिट्ज़ का युद्ध
 
 @ battle-of-borodino
 wikipedia: Battle of Borodino
@@ -438,6 +453,7 @@ when: 1831
 coords: 5, 51
 category: politics
 importance: 3
+title.hi: बेल्जियम क्रांति
 
 @ french-revolution-of-1848
 wikipedia: French Revolution of 1848
@@ -466,6 +482,7 @@ when: 1866
 coords: 14.33, 49.83
 category: war
 importance: 3
+title.hi: ऑस्ट्रो-प्रशियाई युद्ध
 
 @ franco-prussian-war
 wikipedia: Franco-Prussian War
@@ -487,6 +504,7 @@ when: 1886
 coords: 7.45, 46.95
 category: politics
 importance: 3
+title.hi: बर्न अभिसमय
 
 @ russian-revolution-of-1905
 wikipedia: Russian Revolution of 1905
@@ -501,6 +519,7 @@ when: 1912 ~ 1913
 coords: 22, 42
 category: war
 importance: 3
+title.hi: प्रथम बाल्कन युद्ध
 
 @ second-balkan-war
 wikipedia: Second Balkan War
@@ -508,6 +527,7 @@ when: 1913
 coords: 22, 42
 category: war
 importance: 3
+title.hi: द्वितीय बाल्कन युद्ध
 
 @ first-battle-of-the-marne
 wikipedia: First Battle of the Marne
@@ -515,6 +535,7 @@ when: 1914
 coords: 3.38, 49.02
 category: war
 importance: 3
+title.hi: मार्न का प्रथम युद्ध
 
 @ battle-of-verdun
 wikipedia: Battle of Verdun
@@ -522,6 +543,7 @@ when: 1916
 coords: 5.42, 49.21
 category: war
 importance: 3
+title.hi: वर्दुन का युद्ध
 
 @ battle-of-the-somme
 wikipedia: Battle of the Somme
@@ -529,6 +551,7 @@ when: 1916
 coords: 2.7, 50.02
 category: war
 importance: 3
+title.hi: सोम का युद्ध
 
 @ easter-rising
 wikipedia: Easter Rising
@@ -536,6 +559,7 @@ when: 1916
 coords: -6.26, 53.35
 category: politics
 importance: 3
+title.hi: ईस्टर विद्रोह
 
 @ february-revolution
 wikipedia: February Revolution
@@ -543,6 +567,7 @@ when: 1917
 coords: 30.32, 59.95
 category: politics
 importance: 4
+title.hi: फ़रवरी क्रांति
 
 @ october-revolution
 wikipedia: October Revolution
@@ -571,6 +596,7 @@ when: 1921
 coords: 29.73, 60.01
 category: politics
 importance: 3
+title.hi: क्रोनश्टाट विद्रोह
 
 @ kellogg-briand-pact
 wikipedia: Kellogg–Briand Pact
@@ -585,6 +611,7 @@ when: 1936
 coords: 13.38, 52.52
 category: politics
 importance: 3
+title.hi: कॉमिन्टर्न-विरोधी संधि
 
 @ munich-agreement
 wikipedia: Munich Agreement
@@ -592,6 +619,7 @@ when: 1938
 coords: 11.57, 48.15
 category: politics
 importance: 4
+title.hi: म्यूनिख समझौता
 
 @ winter-war
 wikipedia: Winter War
@@ -606,6 +634,7 @@ when: 1940
 coords: 4.67, 50.64
 category: war
 importance: 3
+title.hi: फ़्रांस का युद्ध
 
 @ battle-of-moscow
 wikipedia: Battle of Moscow
@@ -613,10 +642,11 @@ when: 1941 ~ 1942
 coords: 37.63, 55.75
 category: war
 importance: 3
+title.hi: मॉस्को का युद्ध
 
 @ eastern-front-world-war-ii
 wikipedia: Eastern Front (World War II)
-when: 1941 ~ 1955
+when: 1941 ~ 1945
 coords: 15.5, 53.5
 category: war
 importance: 4
@@ -627,6 +657,7 @@ when: 1941 ~ 1944
 coords: 30.32, 59.93
 category: war
 importance: 3
+title.hi: लेनिनग्राद की घेराबंदी
 
 @ battle-of-stalingrad
 wikipedia: Battle of Stalingrad
@@ -655,6 +686,7 @@ when: 1945
 coords: 13.38, 52.52
 category: war
 importance: 3
+title.hi: बर्लिन का युद्ध
 
 @ potsdam-conference
 wikipedia: Potsdam Conference
@@ -662,6 +694,7 @@ when: 1945
 coords: 13.07, 52.42
 category: politics
 importance: 3
+title.hi: पॉट्सडैम सम्मेलन
 
 @ general-agreement-on-tariffs-and-trade
 wikipedia: General Agreement on Tariffs and Trade
@@ -690,6 +723,7 @@ when: 1974
 coords: -9, 39
 category: politics
 importance: 3
+title.hi: कार्नेशन क्रांति
 
 @ schengen-agreement
 wikipedia: Schengen Agreement
@@ -704,6 +738,7 @@ when: 1989
 coords: 14.42, 50.08
 category: politics
 importance: 3
+title.hi: मख़मली क्रांति
 
 @ first-chechen-war
 wikipedia: First Chechen War
@@ -711,13 +746,15 @@ when: 1994 ~ 1996
 coords: 45, 43.2
 category: war
 importance: 3
+title.hi: प्रथम चेचन युद्ध
 
 @ croatian-war-of-independence
 wikipedia: Croatian War of Independence
-when: 1995
+when: 1991 ~ 1995
 coords: 15.47, 45.25
 category: war
 importance: 3
+title.hi: क्रोएशियाई स्वतंत्रता युद्ध
 
 @ kosovo-war
 wikipedia: Kosovo War
@@ -725,6 +762,7 @@ when: 1998 ~ 1999
 coords: 21, 42.5
 category: war
 importance: 3
+title.hi: कोसोवो युद्ध
 
 @ rome-statute
 wikipedia: Rome Statute
@@ -732,6 +770,7 @@ when: 1998
 coords: 12.48, 41.89
 category: politics
 importance: 3
+title.hi: रोम संविधि
 
 @ second-chechen-war
 wikipedia: Second Chechen War
@@ -739,6 +778,7 @@ when: 1999 ~ 2009
 coords: 45.72, 43.4
 category: war
 importance: 3
+title.hi: द्वितीय चेचन युद्ध
 
 @ euromaidan
 wikipedia: Euromaidan
@@ -746,6 +786,7 @@ when: 2013 ~ 2014
 coords: 30.52, 50.45
 category: politics
 importance: 3
+title.hi: यूरोमैदान
 
 @ war-in-donbas
 wikipedia: War in Donbas
@@ -782,6 +823,7 @@ coords: 9.19, 45.46
 category: religion
 importance: 4
 title.ko: 밀라노 칙령
+title.hi: मिलान का आज्ञापत्र
 
 @ charlemagne-coronation
 wikipedia: Charlemagne
@@ -831,6 +873,7 @@ coords: 12.64, 51.87
 category: religion
 importance: 5
 title.ko: 루터의 95개조 반박문 (종교 개혁)
+title.hi: लूथर की पंचानवे थीसिस
 
 @ copernicus
 wikipedia: De revolutionibus orbium coelestium
@@ -839,6 +882,7 @@ coords: 11.08, 49.45
 category: science
 importance: 4
 title.ko: 코페르니쿠스의 지동설
+title.ar: في دوران الأجرام السماوية
 
 @ peace-of-westphalia
 wikipedia: Peace of Westphalia
@@ -863,6 +907,7 @@ coords: -1.9, 52.48
 category: science
 importance: 5
 title.ko: 와트의 증기기관 (산업 혁명)
+title.pt: Máquina a vapor de Watt
 
 @ communist-manifesto
 wikipedia: The Communist Manifesto
