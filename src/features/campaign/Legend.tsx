@@ -19,7 +19,7 @@ export function Legend() {
       ]
     : [];
   return (
-    <div className="flex h-12 w-fit max-w-full items-center gap-4 overflow-x-auto rounded-lg border border-line bg-surface/95 px-4 text-[15px] backdrop-blur [scrollbar-width:none]">
+    <div className="flex h-11 w-fit max-w-full items-center gap-3 overflow-x-auto rounded-lg border border-line bg-surface/95 px-3 text-[15px] backdrop-blur [scrollbar-width:none] lg:h-12 lg:gap-4 lg:px-4">
       <strong className="shrink-0 whitespace-nowrap">
         {campaignTitle(c, locale)}
       </strong>

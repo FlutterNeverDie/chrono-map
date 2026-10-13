@@ -37,7 +37,8 @@ export function HomeScreen({ locale }: { locale: Locale }) {
             <ViewpointBar />
           </SiteHeader>
 
-          <div className="absolute start-3 top-36 z-20 lg:top-[4.75rem]">
+          {/* 확대 버튼은 데스크톱만 — 모바일은 두 손가락으로 확대 */}
+          <div className="absolute start-3 top-[4.75rem] z-20 hidden lg:block">
             <ZoomControls />
           </div>
 

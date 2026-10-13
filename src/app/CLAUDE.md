@@ -19,3 +19,4 @@
 - 빌드 후 `scripts/prune-out.mjs`(postbuild)가 out/의 RSC 페이로드(*.txt, 약 390MB)를 지운다. 모든 이동이 `<a>`라 쓰이지 않기 때문. **next/link·router를 쓰기 시작하면 이 단계를 없앨 것.**
 - 사이트 전체 404는 `global-not-found.tsx`(next.config `experimental.globalNotFound`, 루트 레이아웃이 둘이라). 개발 서버에서는 모르는 주소가 `[locale]`로 잡혀 오류가 나지만 정적 빌드에서는 404.html이 나간다.
 - 아이콘: `icon.svg`(앱 루트) + `(home)/apple-touch-icon.png/route.tsx`. 레이아웃의 `icons`에 둘 다 적는다(metadata icons를 쓰면 자동 아이콘 링크가 빠짐).
+- 상단 바(`SiteHeader`): 데스크톱은 [지도 탭][화면별 도구][언어·테마], 모바일은 [지금 지도 ▾ … 언어·테마] 한 줄 + 도구 한 줄(약 110px). 모바일에서 지도 탭을 다 펼치면 잘리고 세 줄로 접혀 화면 위 40%를 가렸다. 펼침 메뉴의 링크는 닫혀 있어도 HTML에 있다(검색 로봇). 확대 버튼은 데스크톱만(모바일은 두 손가락).
