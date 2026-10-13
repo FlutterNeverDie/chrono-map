@@ -141,3 +141,32 @@ export function itemMarks(topic: Topic) {
       return { item: i, from, to, row };
     });
 }
+
+/**
+ * 항목별 색. 한 지도 안의 항목이 모두 같은 색이면 구분이 어려워 팔레트에서 돌려 쓴다.
+ * 시작 순서대로 차례로 배정 → 시기가 가까운(같이 보이는) 항목끼리는 색이 다르다. 밝은·어두운 테마 모두 보이는 중간 밝기.
+ */
+const ITEM_PALETTE = [
+  "#d62728",
+  "#1f77b4",
+  "#2ca02c",
+  "#9467bd",
+  "#ff7f0e",
+  "#17becf",
+  "#e377c2",
+  "#8c564b",
+  "#bcbd22",
+];
+const colorCache = new WeakMap<Topic, Map<string, string>>();
+export function itemColor(topic: Topic, id: string): string {
+  let m = colorCache.get(topic);
+  if (!m) {
+    m = new Map(
+      [...topic.items]
+        .sort((a, b) => a.start - b.start || a.id.localeCompare(b.id))
+        .map((it, i) => [it.id, ITEM_PALETTE[i % ITEM_PALETTE.length]]),
+    );
+    colorCache.set(topic, m);
+  }
+  return m.get(id) ?? topic.color;
+}

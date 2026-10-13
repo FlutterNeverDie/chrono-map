@@ -19,6 +19,7 @@ import {
   formatT,
   itemSummary,
   itemTitle,
+  itemColor,
 } from "./logic";
 import type { TopicItem } from "./types";
 
@@ -135,7 +136,7 @@ export function TopicPanel() {
                     <span
                       aria-hidden
                       className="size-3 rounded-full"
-                      style={{ backgroundColor: topic.color }}
+                      style={{ backgroundColor: itemColor(topic, it.id) }}
                     />
                     {formatItemWhen(it, topic, locale)}
                   </p>

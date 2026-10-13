@@ -15,3 +15,4 @@
 - 상단 탭은 `topic-index.json`으로 자동 생성(`src/app/SiteHeader.tsx`).
 - 항목에 `link`가 있으면 패널 카드에 그 지도로 가는 버튼(`topic.linkLabel`)을 붙인다 — 전쟁 지도 첫 화면(/wars)이 이렇게 각 전쟁 지도로 보낸다.
 - 화면에 넘길 때는 `localizeTopic(주제, 언어)`(data.ts, TopicScreen에서 호출)로 그 언어와 대체 언어만 남긴다(`lib/localize`의 `keepLocales`).
+- 색: 항목마다 다른 색(`itemColor`, 9색 팔레트를 시작 순서대로 돌려 씀 → 시기가 가까운 항목끼리 다른 색). 지도 점·확산 경로·목록 카드·슬라이더 표식에 쓴다. 주제 지도 자체 색(`topic.txt`의 color)은 탭·슬라이더 진행 막대·본 지도 띠에만 쓰고, 지도끼리 겹치지 않게 고른다(전쟁 빨강, 역병 보라, 발명 파랑).

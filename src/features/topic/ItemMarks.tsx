@@ -4,7 +4,13 @@ import { useMemo } from "react";
 import clsx from "clsx";
 import { useI18n } from "@/i18n/I18nProvider";
 import { useTopic, useTopicState, useTopicStore } from "./store";
-import { MAX_POS, itemMarks, itemTitle, visibleItems } from "./logic";
+import {
+  MAX_POS,
+  itemColor,
+  itemMarks,
+  itemTitle,
+  visibleItems,
+} from "./logic";
 
 /**
  * 슬라이더 바로 위 항목 표식: 전염병은 기간 막대, 발명은 눈금.
@@ -56,7 +62,7 @@ export function ItemMarks() {
               width: topic.mode === "span" ? pct(to - from) : undefined,
               bottom: topic.mode === "span" ? row * 6 : 0,
               height: topic.mode === "span" && big ? 5 : undefined,
-              backgroundColor: topic.color,
+              backgroundColor: itemColor(topic, item.id),
             }}
           />
         );

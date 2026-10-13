@@ -16,6 +16,7 @@ import {
   itemTitle,
   topicTitle,
   visibleItems,
+  itemColor,
 } from "./logic";
 
 const round2 = (v: number) => Math.round(v * 100) / 100;
@@ -49,7 +50,8 @@ export function TopicMap() {
     [topic, t],
   );
   const unit = 1 / vp.zoom;
-  const color = topic.color;
+  // 항목마다 다른 색(logic.ts의 itemColor)
+  const colorOf = (id: string) => itemColor(topic, id);
 
   // 강조 항목 이름표 자리: 고른 항목 → 중요한 순으로 위·아래를 차례로 시도하고, 겹치면 이름을 뺀다
   const labelY = useMemo(() => {
@@ -170,7 +172,7 @@ export function TopicMap() {
                       y1={pts[0][1]}
                       x2={p[0]}
                       y2={p[1]}
-                      stroke={color}
+                      stroke={colorOf(it.id)}
                       strokeWidth={1.4}
                       strokeDasharray="4 3"
                       vectorEffect="non-scaling-stroke"
@@ -183,7 +185,7 @@ export function TopicMap() {
                       cx={p[0]}
                       cy={p[1]}
                       r={round2(5 * unit)}
-                      fill={color}
+                      fill={colorOf(it.id)}
                       fillOpacity={0.55}
                       stroke="#fff"
                       strokeWidth={round2(1 * unit)}
@@ -209,12 +211,12 @@ export function TopicMap() {
                 <title>{itemTitle(it, locale)}</title>
                 <circle r={16} fill="transparent" />
                 {topic.mode === "span" && (
-                  <circle r={r + 6} fill={color} fillOpacity={0.18} />
+                  <circle r={r + 6} fill={colorOf(it.id)} fillOpacity={0.18} />
                 )}
                 <circle r={r + 2.5} fill="var(--map-pin-stroke)" />
                 <circle
                   r={r}
-                  fill={color}
+                  fill={colorOf(it.id)}
                   stroke={it.id === selected ? "var(--foreground)" : "none"}
                   strokeWidth={2}
                 />
