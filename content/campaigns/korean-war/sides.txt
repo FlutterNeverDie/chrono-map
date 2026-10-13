@@ -1,0 +1,6 @@
+# 나라(정치체)별 진영 — 형식은 content/campaigns/CLAUDE.md
+
+Democratic People's Republic of Korea = a
+People's Republic of China = a
+Republic of Korea = b
+# 미국은 넣지 않는다: 원본 국경에서 점령기 일본(1945~52)이 미국 영토로 나와 일본이 유엔군 색으로 칠해짐

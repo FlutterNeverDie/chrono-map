@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Korean War
+region: korea
+when: 1950-06 ~ 1953-07
+unit: month
+borders-step: 1
+view: 127.5, 37.5, 5
+search: 124, 131.5, 33, 43.5
+min-links: 3
+side.a.ko: 북한·중국
+side.a.en: North Korea & China
+side.a.zh: 朝鲜与中国
+side.a.es: Corea del Norte y China
+side.a.hi: उत्तर कोरिया और चीन
+side.a.ar: كوريا الشمالية والصين
+side.a.fr: Corée du Nord et Chine
+side.a.pt: Coreia do Norte e China
+side.b.ko: 대한민국·유엔군
+side.b.en: South Korea & UN
+side.b.zh: 韩国与联合国军
+side.b.es: Corea del Sur y la ONU
+side.b.hi: दक्षिण कोरिया और संयुक्त राष्ट्र
+side.b.ar: كوريا الجنوبية والأمم المتحدة
+side.b.fr: Corée du Sud et ONU
+side.b.pt: Coreia do Sul e ONU

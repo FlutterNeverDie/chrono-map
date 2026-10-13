@@ -1,0 +1,367 @@
+# Korean War 전투 (Wikidata 자동 생성, 직접 고쳐도 됨). 형식은 content/campaigns/CLAUDE.md
+
+@ first-battle-of-naktong-bulge
+wikipedia: First Battle of Naktong Bulge
+when: 1950-01 ~ 1950-08
+coords: 128.5, 35.54
+links: 8
+
+@ battle-of-ka-san
+wikipedia: Battle of Ka-san
+when: 1950-01 ~ 1950-09
+coords: 128.58, 36.04
+links: 5
+
+@ battle-of-chochiwon
+wikipedia: Battle of Chochiwon
+when: 1950-01 ~ 1950-07
+coords: 127.3, 36.6
+links: 4
+
+@ battle-of-yongdong
+wikipedia: Battle of Yongdong
+when: 1950-01 ~ 1950-07
+coords: 127.78, 36.17
+links: 4
+
+@ battle-of-yongsan
+wikipedia: Battle of Yongsan
+when: 1950-01 ~ 1950-09
+coords: 128.53, 35.45
+links: 5
+
+@ battle-of-the-bowling-alley
+wikipedia: Battle of the Bowling Alley
+when: 1950-01 ~ 1950-08
+coords: 128.6, 35.87
+links: 5
+
+@ second-battle-of-naktong-bulge
+wikipedia: Second Battle of Naktong Bulge
+when: 1950-01 ~ 1950-09
+coords: 128.44, 35.54
+links: 6
+
+@ battle-of-ongjin-peninsula
+wikipedia: Battle of Ongjin Peninsula
+when: 1950-06
+coords: 129.82, 41.77
+links: 4
+
+@ battle-of-chuncheon
+wikipedia: Battle of Chuncheon
+when: 1950-06
+coords: 127.73, 37.87
+links: 7
+
+@ battle-of-korea-strait
+wikipedia: Battle of Korea Strait
+when: 1950-06
+coords: 129.08, 35.18
+links: 10
+
+@ battle-of-osan
+wikipedia: Battle of Osan
+when: 1950-07
+coords: 127.05, 37.19
+links: 15
+
+@ battle-of-taejon
+wikipedia: Battle of Taejon
+when: 1950-07
+coords: 127.27, 36.47
+links: 15
+
+@ battle-of-sangju-1950
+wikipedia: Battle of Sangju (1950)
+when: 1950-07
+coords: 128.17, 36.44
+links: 4
+
+@ battle-of-chonan
+wikipedia: Battle of Chonan
+when: 1950-07
+coords: 127.15, 36.81
+links: 6
+
+@ battle-of-pyongtaek
+wikipedia: Battle of Pyongtaek
+when: 1950-07
+coords: 127.1, 36.99
+links: 7
+
+@ hadong-ambush
+wikipedia: Hadong Ambush
+when: 1950-07
+coords: 127.87, 35.08
+links: 4
+
+@ battle-of-the-pusan-perimeter
+wikipedia: Battle of the Pusan Perimeter
+when: 1950-08 ~ 1950-09
+coords: 129.04, 35.1
+links: 19
+
+@ battle-of-kyongju
+wikipedia: Battle of Kyongju
+when: 1950-08 ~ 1950-09
+coords: 129.22, 35.85
+links: 7
+
+@ battle-of-taegu
+wikipedia: Battle of Taegu
+when: 1950-08
+coords: 128.43, 35.96
+links: 5
+
+@ battle-of-nam-river
+wikipedia: Battle of Nam River
+when: 1950-08 ~ 1950-09
+coords: 128.42, 35.24
+links: 10
+
+@ battle-of-masan
+wikipedia: Battle of Masan
+when: 1950-08 ~ 1950-09
+coords: 128.55, 35.18
+links: 6
+
+@ battle-of-tabu-dong
+wikipedia: Battle of Tabu-dong
+when: 1950-08
+coords: 128.52, 36.05
+links: 5
+
+@ battle-of-p-ohang-dong
+wikipedia: Battle of P'ohang-dong
+when: 1950-08
+coords: 129.37, 36.03
+links: 7
+
+@ battle-of-haman
+wikipedia: Battle of Haman
+when: 1950-08 ~ 1950-09
+coords: 128.42, 35.24
+links: 5
+
+@ battle-of-battle-mountain
+wikipedia: Battle of Battle Mountain
+when: 1950-08 ~ 1950-09
+coords: 128.42, 35.17
+links: 5
+
+@ battle-of-inchon
+wikipedia: Battle of Inchon
+when: 1950-09
+coords: 126.6, 37.48
+links: 34
+
+@ great-naktong-offensive
+wikipedia: Great Naktong Offensive
+when: 1950-09
+coords: 129.04, 35.1
+links: 5
+
+@ battle-of-unsan
+wikipedia: Battle of Unsan
+when: 1950-10 ~ 1950-11
+coords: 125.8, 39.97
+links: 7
+
+@ battle-of-sariwon
+wikipedia: Battle of Sariwon
+when: 1950-10
+coords: 125.76, 38.51
+links: 4
+
+@ battle-of-yongyu
+wikipedia: Battle of Yongyu
+when: 1950-10
+coords: 125.48, 39.47
+links: 5
+
+@ battle-of-onjong
+wikipedia: Battle of Onjong
+when: 1950-10
+coords: 125.9, 40.11
+links: 8
+
+@ battle-of-pyongyang-1950
+wikipedia: Battle of Pyongyang (1950)
+when: 1950-10
+coords: 125.74, 39.02
+links: 6
+
+@ battle-of-the-ch-ongch-on-river
+wikipedia: Battle of the Ch'ongch'on River
+when: 1950-11 ~ 1950-12
+coords: 125.84, 39.71
+links: 11
+
+@ battle-of-wawon
+wikipedia: Battle of Wawon
+when: 1950-11
+coords: 126.06, 39.72
+links: 6
+
+@ battle-of-chosin-reservoir
+wikipedia: Battle of Chosin Reservoir
+when: 1950-11 ~ 1950-12
+coords: 127.26, 40.37
+links: 20
+
+@ battle-of-pakchon
+wikipedia: Battle of Pakchon
+when: 1950-11
+coords: 125.59, 39.66
+links: 3
+
+@ third-battle-of-seoul
+wikipedia: Third Battle of Seoul
+when: 1950-12 ~ 1951-01
+coords: 126.98, 37.57
+links: 10
+
+@ first-and-second-battles-of-wonju
+wikipedia: First and second battles of Wonju
+when: 1950-12 ~ 1951-01
+coords: 127.95, 37.35
+links: 5
+
+@ battle-of-chipyong-ni
+wikipedia: Battle of Chipyong-ni
+when: 1951-02
+coords: 127.64, 37.48
+links: 6
+
+@ operation-thunderbolt-1951
+wikipedia: Operation Thunderbolt (1951)
+when: 1951-02
+coords: 126.18, 37.75
+links: 3
+
+@ battle-of-the-twin-tunnels
+wikipedia: Battle of the Twin Tunnels
+when: 1951-02
+coords: 127.67, 37.44
+links: 4
+
+@ battle-of-hoengsong
+wikipedia: Battle of Hoengsong
+when: 1951-02
+coords: 127.99, 37.49
+links: 3
+
+@ blockade-of-wonsan
+wikipedia: Blockade of Wonsan
+when: 1951-02 ~ 1953-07
+coords: 127.43, 39.15
+links: 3
+
+@ operation-ripper
+wikipedia: Operation Ripper
+when: 1951-03 ~ 1951-04
+coords: 127.73, 37.87
+links: 3
+
+@ battle-of-kapyong
+wikipedia: Battle of Kapyong
+when: 1951-04
+coords: 127.53, 37.88
+links: 8
+
+@ battle-of-yultong
+wikipedia: Battle of Yultong
+when: 1951-04
+coords: 127.05, 38.15
+links: 4
+
+@ battle-of-the-imjin-river
+wikipedia: Battle of the Imjin River
+when: 1951-04
+coords: 126.94, 37.94
+links: 6
+
+@ chinese-spring-offensive
+wikipedia: Chinese spring offensive
+when: 1951-05 ~ 1951-06
+coords: 126.94, 37.94
+links: 6
+
+@ battle-of-bloody-ridge
+wikipedia: Battle of Bloody Ridge
+when: 1951-08 ~ 1951-09
+coords: 128.04, 38.26
+links: 6
+
+@ battle-of-heartbreak-ridge
+wikipedia: Battle of Heartbreak Ridge
+when: 1951-09 ~ 1951-10
+coords: 128.02, 38.3
+links: 10
+
+@ first-battle-of-maryang-san
+wikipedia: First Battle of Maryang-san
+when: 1951-10
+coords: 126.92, 38.14
+links: 6
+
+@ battle-of-sunchon-air
+wikipedia: Battle of Sunchon (air)
+when: 1951-12
+coords: 125.93, 39.42
+links: 4
+
+@ attack-on-the-sui-ho-dam
+wikipedia: Attack on the Sui-ho Dam
+when: 1952-01
+coords: 124.97, 40.47
+links: 4
+
+@ battle-of-old-baldy
+wikipedia: Battle of Old Baldy
+when: 1952-06 ~ 1953-03
+coords: 127, 38.23
+links: 5
+
+@ battle-of-triangle-hill
+wikipedia: Battle of Triangle Hill
+when: 1952-10 ~ 1952-11
+coords: 127.46, 38.32
+links: 8
+
+@ battle-of-white-horse-hill
+wikipedia: Battle of White Horse Hill
+when: 1952-10
+coords: 127.15, 38.29
+links: 6
+
+@ battle-of-chatkol
+wikipedia: Battle of Chatkol
+when: 1953-02 ~ 1953-04
+coords: 127.41, 38.33
+links: 3
+
+@ battle-of-pork-chop-hill
+wikipedia: Battle of Pork Chop Hill
+when: 1953-03 ~ 1953-07
+coords: 127.02, 38.24
+links: 9
+
+@ third-battle-of-the-hook
+wikipedia: Third Battle of the Hook
+when: 1953-05
+coords: 126.84, 38.03
+links: 5
+
+@ outpost-harry
+wikipedia: Outpost Harry
+when: 1953-06
+coords: 127.29, 38.32
+links: 4
+
+@ battle-of-the-samichon-river
+wikipedia: Battle of the Samichon River
+when: 1953-07
+coords: 126.84, 38.03
+links: 5
