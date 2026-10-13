@@ -1,0 +1,13 @@
+// Cloudflare 배포 설정 — 정적 파일만 올린다(백엔드 없음). 빌드 결과 out/을 그대로 제공.
+// 이 파일이 없으면 wrangler가 Next.js를 알아보고 서버용 변환(OpenNext)을 붙이려다 실패한다.
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "chrono-map",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./out",
+    // /about → about.html, 없는 주소 → out/404.html
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+}

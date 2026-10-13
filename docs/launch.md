@@ -24,14 +24,15 @@
 
 ## 순서
 
-호스팅은 **Cloudflare Pages**(무료 플랜, 상업적 사용 가능). Vercel 무료(Hobby) 플랜은 광고를 넣으면 상업적 사용이라 Pro가 필요해서 쓰지 않는다.
+호스팅은 **Cloudflare**(Workers 정적 파일, 무료 플랜, 상업적 사용 가능). Vercel 무료(Hobby) 플랜은 광고를 넣으면 상업적 사용이라 Pro가 필요해서 쓰지 않는다.
 빌드 결과 제한: 무료 플랜은 파일 2만 개·파일당 25MB — 지금 약 1만 개(빌드 후 정리 `prune-out`이 RSC 페이로드를 지워서), 5MB 넘는 파일 없음.
 
-1. **Cloudflare Pages 배포**: Workers & Pages → Create → Pages → GitHub 저장소 연결.
-   - Framework preset: None(또는 Next.js (Static HTML Export)), Build command `npm run build`, Build output directory `out`.
-   - Node 버전은 저장소의 `.node-version`(22)을 따른다. 빌드는 약 2분(무료 플랜 제한 20분).
-   - 캐시 헤더는 `public/_headers`. 404는 `out/404.html`을 자동으로 쓴다.
-2. **도메인**: Cloudflare Registrar에서 구입(원가, .com 연 10달러 안팎) → Pages 프로젝트 → Custom domains에 연결 → `NEXT_PUBLIC_SITE_URL` 지정 후 다시 배포. (`*.pages.dev`는 AdSense 승인이 안 된다.)
+1. **Cloudflare 배포**: Workers & Pages → Create → Import a repository(GitHub) → `chrono-map`.
+   - Build command `npm run build`, Deploy command `npx wrangler deploy`(기본값). 배포 설정은 저장소의 `wrangler.jsonc`(정적 파일 `out/`만 올림).
+   - `wrangler.jsonc`가 없으면 wrangler가 Next.js를 알아보고 서버용 변환(OpenNext)을 붙이려다 실패한다 — 지우지 않는다.
+   - Node 버전은 `.node-version`(22). 빌드는 약 5분(무료 제한 20분). 캐시 헤더는 `public/_headers`, 404는 `out/404.html`.
+   - 주소는 `https://chrono-map.<계정 하위 도메인>.workers.dev`. 도메인 연결 전까지 `NEXT_PUBLIC_SITE_URL`에 이 주소를 넣는다.
+2. **도메인**: Cloudflare Registrar에서 구입(원가, .com 연 10달러 안팎) → 프로젝트 → Settings → Domains & Routes에 연결 → `NEXT_PUBLIC_SITE_URL` 지정 후 다시 배포. (`*.workers.dev`·`*.pages.dev`는 AdSense 승인이 안 된다.)
 3. **Search Console**: 도메인 속성 추가 → 소유 확인(DNS 또는 `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION`) → `sitemap.xml` 제출.
 4. **AdSense 신청**: 사이트 추가 → `NEXT_PUBLIC_ADSENSE_CLIENT` 지정·재배포 → `/ads.txt` 확인 → 심사 요청(1~4주).
 5. **동의 메시지(CMP)**: AdSense → 개인 정보 보호 및 메시지 → 유럽 규정 메시지 만들기·게시.
