@@ -1,0 +1,79 @@
+# Winter War 전투 (Wikidata 자동 생성, 직접 고쳐도 됨). 형식은 content/campaigns/CLAUDE.md
+
+@ battle-of-petsamo
+wikipedia: Battle of Petsamo
+when: 1939-11 ~ 1940-03
+coords: 30.57, 69.25
+links: 12
+
+@ battle-of-salla-1939
+wikipedia: Battle of Salla (1939)
+when: 1939-11 ~ 1940-02
+coords: 28.67, 66.83
+links: 17
+
+@ battle-of-kelja
+wikipedia: Battle of Kelja
+when: 1939-12
+coords: 30.25, 60.67
+links: 7
+
+@ battle-of-kollaa
+wikipedia: Battle of Kollaa
+when: 1939-12 ~ 1940-03
+coords: 32.26, 62.03
+links: 19
+
+@ battle-of-taipale
+wikipedia: Battle of Taipale
+when: 1939-12
+coords: 29.01, 60.51
+links: 10
+
+@ battle-of-tolvajarvi
+wikipedia: Battle of Tolvajärvi
+when: 1939-12
+coords: 31.49, 62.29
+links: 22
+
+@ battle-of-suomussalmi
+wikipedia: Battle of Suomussalmi
+when: 1939-12 ~ 1940-01
+coords: 28.89, 64.89
+links: 33
+
+@ battle-of-summa
+wikipedia: Battle of Summa
+when: 1939-12 ~ 1940-02
+coords: 29.01, 60.51
+links: 9
+
+@ battle-of-varolampi-pond
+wikipedia: Battle of Varolampi Pond
+when: 1939-12
+coords: 31.37, 62.3
+links: 3
+
+@ battle-of-raate-road
+wikipedia: Battle of Raate Road
+when: 1940-01
+coords: 29.33, 64.85
+links: 18
+
+@ battle-of-kuhmo
+wikipedia: Battle of Kuhmo
+when: 1940-01 ~ 1940-03
+coords: 29.52, 64.13
+links: 9
+
+@ battle-of-vyborg-bay-1940
+wikipedia: Battle of Vyborg Bay (1940)
+when: 1940-03
+coords: 28.52, 60.58
+links: 4
+
+@ battle-of-honkaniemi
+wikipedia: Battle of Honkaniemi
+when: 1940-02
+coords: 28.78, 60.65
+links: 10

@@ -1,0 +1,4 @@
+# 나라(정치체)별 진영: 원본 이름 = a | b | n [시작 ~ 끝]. 없으면 기타(n). 형식은 content/campaigns/CLAUDE.md
+
+Roman Republic = a
+# 갈리아 부족은 원본 국경에 정치체가 없어(빈 땅) 진영 b로 칠할 대상이 없다

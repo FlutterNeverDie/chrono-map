@@ -1,0 +1,55 @@
+# 파라과이 전쟁: Wikidata에 날짜·좌표가 없어 자동으로 안 잡히는 전투를 직접 추가 (좌표는 근사)
+
+@ battle-of-paso-de-mercedes
+wikipedia: Battle of Paso de Mercedes
+when: 1865-08
+coords: -59.05, -28.51
+links: 4
+
+@ battle-of-tuyuti
+wikipedia: Battle of Tuyutí
+when: 1866-05
+coords: -58.55, -27.2
+links: 11
+
+@ battle-of-boqueron-1866
+wikipedia: Battle of Boquerón (1866)
+when: 1866-07
+coords: -58.49, -27.15
+links: 5
+
+@ battle-of-curuzu
+wikipedia: Battle of Curuzú
+when: 1866-09
+coords: -58.6, -27.08
+links: 7
+
+@ second-battle-of-tuyuti
+wikipedia: Second Battle of Tuyutí
+when: 1867-11
+coords: -58.57, -27.23
+links: 4
+
+@ battle-of-ytororo
+wikipedia: Battle of Ytororó
+when: 1868-12
+coords: -57.56, -25.47
+links: 8
+
+@ battle-of-avay
+wikipedia: Battle of Avay
+when: 1868-12
+coords: -57.53, -25.56
+links: 6
+
+@ battle-of-piribebuy
+wikipedia: Battle of Piribebuy
+when: 1869-08
+coords: -57.04, -25.47
+links: 5
+
+@ battle-of-acosta-nu
+wikipedia: Battle of Acosta Ñu
+when: 1869-08
+coords: -57.1, -25.42
+links: 12

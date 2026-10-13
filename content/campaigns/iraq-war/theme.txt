@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Iraq War
+region: middle-east
+when: 2003-03 ~ 2011-12
+unit: month
+borders-step: 1
+view: 44, 33, 5
+search: 38.5, 49, 29, 37.5
+min-links: 3
+side.a.ko: 미국 주도 연합군
+side.a.en: US-led coalition
+side.a.zh: 美国领导的联军
+side.a.es: Coalición liderada por EE. UU.
+side.a.hi: अमेरिका के नेतृत्व वाला गठबंधन
+side.a.ar: التحالف بقيادة الولايات المتحدة
+side.a.fr: Coalition menée par les États-Unis
+side.a.pt: Coalizão liderada pelos EUA
+side.b.ko: 이라크·저항 세력
+side.b.en: Iraq & insurgents
+side.b.zh: 伊拉克与反抗武装
+side.b.es: Irak e insurgentes
+side.b.hi: इराक और विद्रोही
+side.b.ar: العراق والمتمردون
+side.b.fr: Irak et insurgés
+side.b.pt: Iraque e insurgentes

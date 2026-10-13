@@ -1,0 +1,11 @@
+# 나라(정치체)별 진영: 원본 이름 = a | b | n [시작 ~ 끝]. 없으면 기타(n). 형식은 content/campaigns/CLAUDE.md
+
+Rashidun Caliphate = a
+Umayyad Caliphate = a
+Abbasid Caliphate = a
+Eastern Roman Empire = b
+Byzantine Empire = b
+Sasanian Empire = b
+Visigothic Kingdom = b
+Kingdom of the Franks = b 718 ~
+# 무함마드 시기(622~632) 메디나 국가는 원본 국경에 없음

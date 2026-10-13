@@ -1,0 +1,6 @@
+# 나라(정치체)별 진영 — 형식은 content/campaigns/CLAUDE.md
+
+United States of America = a
+British Colonial Empire = b
+# (British Empire)는 넣지 않는다: 원본에서 영국 본토와 함께 인도까지 포함돼 엉뚱한 대륙이 칠해짐
+# British Colonial Empire = 캐나다(영국령 북아메리카) 중심. 자바·가이아나 등 작은 영국령도 섞여 있으나 지도 범위 밖

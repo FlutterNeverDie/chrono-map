@@ -1,0 +1,6 @@
+# 나라(정치체)별 진영 — 형식은 content/campaigns/CLAUDE.md
+
+Arab Republic of Egypt = a
+Syria = a
+State of Israel = b
+# 원본 1973년 국경에 이스라엘 점령지(시나이·골란)가 따로 표시되지 않음

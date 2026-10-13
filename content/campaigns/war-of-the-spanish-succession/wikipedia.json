@@ -1,0 +1,1333 @@
+{
+  "War of the Spanish Succession": {
+    "pages": {
+      "ko": {
+        "title": "스페인 왕위 계승 전쟁",
+        "extract": "스페인 왕위 계승 전쟁 에서 유럽의 주요 열강들은 힘을 합쳐 프랑스가 스페인의 왕위를 계승하려는 것을 막아 유럽의 힘의 균형을 바꾸어 놓았다. 관련된 분쟁으로 헝가리의 라코치 독립 전쟁, 프랑스 남부의 세벤 전쟁, 북아메리카의 앤 여왕 전쟁, 인도 식민지의 소규모 분쟁 등이 있다. 이 전쟁에서 빌라르 공작, 스튜어트 왕가의 지지자 베릭 공작, 말버러 공작, 사부아 공자 외젠 등 뛰어난 장군들의 군사적 지도력이 두드러졌다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%8E%98%EC%9D%B8_%EC%99%95%EC%9C%84_%EA%B3%84%EC%8A%B9_%EC%A0%84%EC%9F%81"
+      },
+      "en": {
+        "title": "War of the Spanish Succession",
+        "extract": "The War of the Spanish Succession, 1701 to 1714, was a European great power conflict. The death of Charles II of Spain in November 1700 without children led to a succession crisis between Philip of Anjou, whose claim was supported by his grandfather, Louis XIV of France, and Archduke Charles of Austria, backed by the Grand Alliance. Related conflicts include the Great Northern War and Queen Anne's War in North America.",
+        "url": "https://en.wikipedia.org/wiki/War_of_the_Spanish_Succession"
+      },
+      "zh": {
+        "title": "西班牙王位繼承戰爭",
+        "extract": "西班牙王位继承战争 是法兰西王国为首的波旁王朝与哈布斯堡君主国为首的大同盟之间的战争，一般被认为是法兰西国王路易十四在位时期的最后一场大型战争。1701年，法兰西王国与哈布斯堡君主国因西班牙王位继承问题爆发战争，而英格兰与荷兰亦陆续对法宣战，双方交锋十多年后，以路易十四之孙安茹的菲利普继承西班牙王位、西班牙帝国被瓜分结束。",
+        "url": "https://zh.wikipedia.org/wiki/%E8%A5%BF%E7%8F%AD%E7%89%99%E7%8E%8B%E4%BD%8D%E7%B9%BC%E6%89%BF%E6%88%B0%E7%88%AD"
+      },
+      "es": {
+        "title": "Guerra de sucesión española",
+        "extract": "La guerra de sucesión española fue una guerra internacional entre grandes potencias europeas que duró desde 1701 hasta la firma del Tratado de Utrecht en 1714. Tuvo como causa fundamental la muerte sin descendencia de Carlos II de España, último representante de la Casa de Habsburgo, en noviembre de 1700, lo que dio lugar a una lucha por el control del Imperio español entre los partidarios de las dinastías reclamantes de los Borbones y los Habsburgo. Su heredero oficial era Felipe de Anjou, nieto de Luis XIV de Francia, cuyos principales partidarios eran Francia y la mayor parte de España. Su rival, el archiduque Carlos de Austria, contaba con el apoyo de la Gran Alianza, cuyos principales miembros incluían a Austria, las Provincias Unidas y Gran Bretaña. La guerra dejó como principal consecuencia la instauración de la casa de Borbón en el trono de España. Entre los conflictos relacionados importantes se incluyen la Gran Guerra del Norte de 1700 a 1721 y la Guerra de la reina Ana en América del Norte.",
+        "url": "https://es.wikipedia.org/wiki/Guerra_de_sucesi%C3%B3n_espa%C3%B1ola"
+      },
+      "hi": {
+        "title": "स्पैनिश उत्तराधिकार का युद्ध",
+        "extract": "स्पेनिश उत्तराधिकार युद्ध (1701–1714) यूरोप का एक बड़ा संघर्ष था, जो स्पेन के सिंहासन के उत्तराधिकार को लेकर छिड़ा। 1700 में स्पेन के अंतिम हैब्सबर्ग सम्राट चार्ल्स द्वितीय की मृत्यु के बाद, स्पेनिश साम्राज्य पर अधिकार को लेकर फ्रांसीसी बॉर्बन और ऑस्ट्रियाई हैब्सबर्ग के बीच विवाद हुआ। यह युद्ध यूरोपीय शक्ति संतुलन बनाए रखने की कोशिशों से प्रेरित था, क्योंकि स्पेनिश साम्राज्य में स्पेन, इटली, नीदरलैंड्स, और अमेरिकी उपनिवेश शामिल थे।",
+        "url": "https://hi.wikipedia.org/wiki/%E0%A4%B8%E0%A5%8D%E0%A4%AA%E0%A5%88%E0%A4%A8%E0%A4%BF%E0%A4%B6_%E0%A4%89%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BE%E0%A4%A7%E0%A4%BF%E0%A4%95%E0%A4%BE%E0%A4%B0_%E0%A4%95%E0%A4%BE_%E0%A4%AF%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A7"
+      },
+      "ar": {
+        "title": "حرب الخلافة الإسبانية",
+        "extract": "حرب الخلافة الإسبانية (1701-1714) هي حرب أوروبية اندلعت في أوائل القرن الثامن عشر، أشعل فتيلها موت كارلوس الثاني ملك إسبانيا في نوفمبر عام 1700، والذي لم يخلّف ذرية ترث عرش إسبانيا. رسّخت الحرب فكرة مفادها أن حقوق وراثة العرش السلالية أقل أهمية من الحفاظ على توازن القوى بين الدول الأوروبية المختلفة. ارتبطت الحرب بصراعات أخرى، أشهرها حرب الشمال العظمى بين عامي 1700 و1721، وحرب راكوتزي الاستقلالية في المجر، وتمرد الكاميسار في جنوب فرنسا، بالإضافة إلى حرب الملكة آن في أمريكا الشمالية وصراعات أخرى أصغر في مستعمرة الهند.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%AD%D8%B1%D8%A8_%D8%A7%D9%84%D8%AE%D9%84%D8%A7%D9%81%D8%A9_%D8%A7%D9%84%D8%A5%D8%B3%D8%A8%D8%A7%D9%86%D9%8A%D8%A9"
+      },
+      "fr": {
+        "title": "Guerre de Succession d'Espagne",
+        "extract": "La guerre de Succession d'Espagne est un conflit ayant opposé plusieurs puissances européennes de 1701 à 1714, et dont l'enjeu était, à la suite de la mort sans descendance du dernier Habsbourg espagnol, Charles II, la succession au trône d'Espagne et, à travers elle, la domination en Europe.",
+        "url": "https://fr.wikipedia.org/wiki/Guerre_de_Succession_d'Espagne"
+      },
+      "pt": {
+        "title": "Guerra da Sucessão Espanhola",
+        "extract": "A Guerra da Sucessão Espanhola ocorreu entre 1701 e 1714, envolvendo diversas monarquias europeias em torno dos direitos de sucessão da Coroa espanhola. Após a morte do rei Carlos II, que não deixara herdeiros, terminava a \"Dinastia dos Áustria\", ramo espanhol da Casa de Habsburgo. Com o falecimento precoce de seu sobrinho, José Fernando, Príncipe da Baviera, subiu ao trono espanhol Filipe de Anjou, neto de Luís XIV de França dando início à Dinastia Bourbon na Espanha.",
+        "url": "https://pt.wikipedia.org/wiki/Guerra_da_Sucess%C3%A3o_Espanhola"
+      }
+    }
+  },
+  "Battle of Carpi": {
+    "pages": {
+      "ko": {
+        "title": "카르피 전투",
+        "extract": "카르피 전투는 1701년 여름에 연속된 책략의 일환으로 일어난 스페인 왕위 계승 전쟁 중 첫 번째 전투로 오스트리아와 프랑스 사이에서 1701년 7월 9일 일어났다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%B9%B4%EB%A5%B4%ED%94%BC_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Carpi",
+        "extract": "The Battle of Carpi was a series of engagements in the summer of 1701, and the first battle of the War of the Spanish Succession that took place on 9 July 1701 between France and Austria. It was a minor skirmish that the French commander decided was not worth fighting, but his soldiers were displeased at his decision to retreat, and he was subsequently replaced.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Carpi"
+      },
+      "es": {
+        "title": "Batalla de Carpi",
+        "extract": "La batalla de Carpi fue el primer combate librado durante la guerra de sucesión española, en la localidad italiana de Carpi d'Adige, entre las tropas francesas del Mariscal Nicolas Catinat y las austriacas al mando del príncipe Eugenio de Saboya, el día 9 de julio de 1701.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Carpi"
+      },
+      "fr": {
+        "title": "Bataille de Carpi",
+        "extract": "La bataille de Carpi, ou combats de Carpi, fut une série de manœuvres qui eurent lieu à proximité de Carpi d'Adige (it), le 9 juillet 1701, entre l'armée française commandée par Nicolas de Catinat et l'armée autrichienne commandée par le prince Eugène de Savoie. Ce fut la première bataille de la guerre de Succession d'Espagne.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Carpi"
+      },
+      "pt": {
+        "title": "Batalha de Carpi",
+        "extract": "A Batalha de Carpi teve lugar a 9 de Julho de 1701 e opôs o Exército Imperial Austríaco, liderado pelo Marechal Eugénio de Saboia ao Exército Francês, comandado pelo Marechal Nicolas de Catinat de La Fauconnerie. O encontro foi o primeiro acontecimento militar da Guerra de Sucessão Espanhola e terminou em vitória austríaca.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Carpi"
+      }
+    }
+  },
+  "Battle of Chiari": {
+    "pages": {
+      "ko": {
+        "title": "키아리 전투",
+        "extract": "키아리 전투는 스페인 왕위 계승 전쟁 기간중에 벌어졌던 전투 중 하나로 1701년 9월 1일 벌어졌다. 이 전투는 사보이 공작 외젠(Prince Eugene of Savoy)이 이탈리아 반도에서 밀라노 공국을 좌지우지하고 있던 스페인에 대한 공격의 일부였다. 7월, 카르피에서 패배함에 따라 새로운 프랑스 사령관 빌레루아(Villeroi)가 황제군을 격파하고 그들을 몰아내라는 루이 14세의 명을 받고 이탈리아에 부임하였다. 그러나 적이 어떤 대가를 치르더라도 공격해올 것임을 예상한 외젠은 키아리의 요새를 참호로 에워싸고 대기하고 있었다. 전투 후반부 몇 시간 동안 오스트리아군은 프랑스, 스페인군의 중무장 기병대를 괴롭혔고, 결국 압도적인 승리를 기록할 수 있었다. 빌레루아는 11월 오글리오(Oglio)강을 건너 밀라노로 퇴각할 수밖에 없었고, 외젠은 만토바 공국(Duchy of Mantua)의 대부분을 점령할 수 있었다.",
+        "url": "https://ko.wikipedia.org/wiki/%ED%82%A4%EC%95%84%EB%A6%AC_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Chiari",
+        "extract": "The Battle of Chiari was fought on 1 September 1701 during the War of the Spanish Succession. The engagement was part of Prince Eugene of Savoy's campaign to seize the Spanish controlled Duchy of Milan in the Italian peninsula, and had followed his victory over Marshal Catinat at the Battle of Carpi in July. Marshal Villeroi replaced Catinat as commander of the Franco–Spanish–Savoyard forces in the theatre, carrying with him orders from King Louis XIV to push the Imperialists out of Italy.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Chiari"
+      },
+      "es": {
+        "title": "Batalla de Chiari",
+        "extract": "La batalla de Chiari tuvo lugar el 1 de septiembre de 1701 en el marco de la guerra de sucesión española en Chiari, norte de Italia, entre el ejército austriaco al mando del príncipe Eugenio de Saboya y las fuerzas francesas a las órdenes del mariscal Duque de Villeroy.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Chiari"
+      },
+      "fr": {
+        "title": "Bataille de Chiari",
+        "extract": "La bataille de Chiari est une bataille de la guerre de Succession d'Espagne qui eut lieu, dans le Nord de l'Italie, le 1er septembre 1701, entre l'armée française commandée par le maréchal de Villeroy et l'armée autrichienne commandée par le prince Eugène de Savoie.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Chiari"
+      },
+      "pt": {
+        "title": "Batalha de Chiari",
+        "extract": "A Batalha de Chiari travou-se a 1 de Setembro de 1701 entre as forças da Monarquia de Habsburgo comandadas pelo Marechal Eugénio de Saboia e as forças conjuntas do Reino de França, Reino de Espanha e Ducado de Saboia, lideradas pelo Marechal François de Neufville, Duque de Villeroi e resultou numa vitória austríaca. A Batalha de Chiari enquadra-se na Guerra de Sucessão Espanhola que se iniciara nesse mesmo ano, após a morte do rei Habsburgo Carlos II de Espanha em Novembro do ano anterior e a sua nomeação de Filipe d'Anjou como sucessor.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Chiari"
+      }
+    }
+  },
+  "Battle of Cremona": {
+    "pages": {
+      "ko": {
+        "title": "크레모나 전투",
+        "extract": "크레모나 전투는 1702년 2월 1일 프랑스와 오스트리아 사이에서 벌어진 스페인 왕위 계승 전쟁의 전투 중 하나이다.",
+        "url": "https://ko.wikipedia.org/wiki/%ED%81%AC%EB%A0%88%EB%AA%A8%EB%82%98_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Cremona",
+        "extract": "The Battle of Cremona took place on the night of 31 January to 1 February 1702, during the War of the Spanish Succession, between a French force under Maréchal Villeroi and an Imperial/Austrian army led by Prince Eugene of Savoy.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Cremona"
+      },
+      "es": {
+        "title": "Batalla de Cremona (1702)",
+        "extract": "La batalla de Cremona tuvo lugar el 1 de febrero de 1702 en Cremona, y enfrentó a las tropas francesas con las austríacas, en el marco de la guerra de sucesión española.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Cremona_(1702)"
+      },
+      "fr": {
+        "title": "Bataille de Crémone (1702)",
+        "extract": "La bataille de Crémone ou surprise de Crémone a lieu le 1er février 1702 à Crémone entre les armées françaises et autrichiennes, dans le cadre de la guerre de Succession d'Espagne. Eugène de Savoie pénètre par ruse dans la place. L'entreprise paraît d'abord un succès. Mais les Français opposent une défense acharnée, et coupent le pont de bateaux pour empêcher les renforts de franchir le Pô. Devant l'importance des pertes subies, le prince Eugène préfère se retirer.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Cr%C3%A9mone_(1702)"
+      }
+    }
+  },
+  "Battle of Luzzara": {
+    "pages": {
+      "ko": {
+        "title": "루차라 전투",
+        "extract": "루차라 전투는 이탈리아 루차라 근처에서 1702년 8월 15일 벌어진 스페인 왕위 계승 전쟁의 전투 중 하나이다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%A3%A8%EC%B0%A8%EB%9D%BC_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Luzzara",
+        "extract": "The Battle of Luzzara took place in Lombardy on 15 August 1702 during the War of the Spanish Succession, between a combined French and Savoyard army under Louis Joseph, duc de Vendôme, and an Imperial force under Prince Eugene.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Luzzara"
+      },
+      "es": {
+        "title": "Batalla de Luzzara",
+        "extract": "La batalla de Luzzara se libró el 15 de agosto de 1702 en el marco de la guerra de sucesión española entre las tropas austriacas, comandadas por Eugenio de Saboya, y las franco-españolas al mando del Duque de Vendôme. Los austriacos impidieron la unión de los ejércitos en los que se habían dividido las fuerzas franco-españolas.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Luzzara"
+      },
+      "fr": {
+        "title": "Bataille de Luzzara",
+        "extract": "La bataille de Luzzara eut lieu le 15 août 1702, pendant la guerre de Succession d'Espagne. Louis-Joseph de Vendôme avait pris la ville de Luzzara au début du mois d'août 1702. La ville contrôlant un point de passage vital sur le Pô, Eugène de Savoie tente de la prendre aux français en déclenchant un assaut. Il ne parvient pas à déloger les français qui subissent néanmoins de fortes pertes et doivent stopper leur campagne.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Luzzara"
+      }
+    }
+  },
+  "Battle of Cádiz (1702)": {
+    "pages": {
+      "ko": {
+        "title": "카디스 전투 (1702년)",
+        "extract": "카디스 전투는 1702년 영국, 네덜란드 함대와 육군에 의해 스페인의 도시 카디스가 포위된 스페인 왕위 계승 전쟁의 전투 중 하나이다. 이들 영국, 네덜란드군은 1702년 8월 23일 카디스에 도착하여 약 한달간 포위를 하였다. 도시는 겨우 500이 되지 않는 병사와 비야다리아스 후작 프란시스코 카스티요 파하르도(Marquis of Villadarias, Francisco Castillo Fajardo)의해 성공적으로 지켜졌다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%B9%B4%EB%94%94%EC%8A%A4_%EC%A0%84%ED%88%AC_(1702%EB%85%84)"
+      },
+      "en": {
+        "title": "Battle of Cádiz (1702)",
+        "extract": "The Battle of Cádiz was an attempt by English and Dutch forces to seize the southern Spanish port of Cádiz in 1702 during the War of the Spanish Succession. The Andalusian port of Cádiz served as the centre of Spanish trade with its American colonies. As such, the port's capture would not only help to sever Spain's links with her empire in the Americas, but it would also provide the Allies with a strategically important base from which the English and Dutch navies could control the western Mediterranean Sea.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_C%C3%A1diz_(1702)"
+      },
+      "es": {
+        "title": "Batalla de Cádiz (1702)",
+        "extract": "La batalla de Cádiz fue un sitio a la ciudad española de Cádiz en 1702 por una flota y un ejército anglo-neerlandés durante la guerra de sucesión española. Llegaron a Cádiz el 23 de agosto de 1702 y la asediaron aproximadamente un mes. La ciudad fue defendida con éxito por el Marqués de Villadarias con menos de 500 hombres.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_C%C3%A1diz_(1702)"
+      },
+      "fr": {
+        "title": "Bataille de Cadix (1702)",
+        "extract": "La bataille de Cadix s'est déroulée du 23 août au 30 septembre 1702, pendant la guerre de Succession d'Espagne, entre les Espagnols et les Anglo-Hollandais qui tentaient de s'emparer du port de Cadix, grand centre européen du commerce entre l'Espagne et l'Amérique. La prise du port devait fournir aux Alliés une importante base à partir de laquelle leur flotte pourraient contrôler la Méditerranée occidentale et isoler l'Espagne de son empire des Amériques.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Cadix_(1702)"
+      },
+      "pt": {
+        "title": "Batalha de Cádis (1702)",
+        "extract": "A Batalha de Cádis foi uma tentativa das forças inglesas e holandesas de capturar o porto sul-espanhol de Cádis em 1702 durante a Guerra da Sucessão Espanhola. O porto andaluz de Cádis servia como centro do comércio espanhol com suas colônias americanas. Como tal, a captura do porto não só ajudaria a cortar os laços da Espanha com seu império nas Américas, mas também forneceria aos Aliados uma base estrategicamente importante a partir da qual as marinhas inglesa e holandesa [en] poderiam controlar o oeste do Mar Mediterrâneo.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_C%C3%A1dis_(1702)"
+      }
+    }
+  },
+  "Battle of Friedlingen": {
+    "pages": {
+      "ko": {
+        "title": "프리들링겐 전투",
+        "extract": "프리들링겐 전투는 1702년에 벌어진 프랑스와 신성로마제국 사이에 벌어진 전투이다. 황제군은 바덴-바덴 마르그레브 루트비히 빌헬름(Louis William, Margrave of Baden-Baden)이 지휘했고, 반면에 프랑스군은 클로드 루이 엑토르 드 빌라르(Claude Louis Hector de Villars)가 지휘했다. 전투는 프랑스군이 승리했다.",
+        "url": "https://ko.wikipedia.org/wiki/%ED%94%84%EB%A6%AC%EB%93%A4%EB%A7%81%EA%B2%90_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Friedlingen",
+        "extract": "The Battle of Friedlingen took place on 14 October 1702, during the War of the Spanish Succession. Most of the fighting centred around Friedlingen, now a suburb of Weil am Rhein, on the current border between Baden-Württemberg in Germany, and Switzerland. A French force under Villars defeated an Imperial army commanded by Louis William, Margrave of Baden-Baden.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Friedlingen"
+      },
+      "zh": {
+        "title": "弗里德林根之戰",
+        "extract": "弗里德林根之战 是西班牙王位继承战争期间爆发的会战，战场位于今德国巴登-符腾堡与瑞士交界处的莱茵河畔魏尔，交战双方分别是维拉尔将军指挥的法国陆军与巴登藩侯路德维希·威廉指挥的帝国陆军。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%BC%97%E9%87%8C%E5%BE%B7%E6%9E%97%E6%A0%B9%E4%B9%8B%E6%88%B0"
+      },
+      "es": {
+        "title": "Batalla de Friedlingen",
+        "extract": "La batalla de Friedlingen, acaecida el 14 de octubre de 1702, es una de las batallas que se libraron en el marco de la guerra de sucesión española. Tuvo lugar a 60 km al sur de la ciudad de Friburgo de Brisgovia, en la actual Alemania, y enfrentó al ejército francés al mando del general Claude Louis Hector de Villars contra las tropas del Sacro Imperio Romano Germánico a las órdenes de Luis Guillermo de Baden-Baden, margrave de Baden-Baden, resultando derrotados estos últimos.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Friedlingen"
+      },
+      "fr": {
+        "title": "Bataille de Friedlingen",
+        "extract": "La bataille de Friedlingen (de) s'est déroulée le 14 octobre 1702 près de la ville de Weil-am-Rhein, (Allemagne) quelques km au nord de Bâle (Suisse). L'armée française menée par Claude Louis Hector de Villars, vainquit celle du Saint Empire, menée par Louis-Guillaume Ier de Bade.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Friedlingen"
+      }
+    }
+  },
+  "Battle of Vigo Bay": {
+    "pages": {
+      "ko": {
+        "title": "비고만 해전",
+        "extract": "비고 만 해전(혹은 란데 전투)는 루크(Rooke)제독과 필립 반 알몬드(Philips van Almonde)휘하의 영국-네덜란드 함대가 데 루스레(de Rousselet) 제독과, 마누엘 데 벨라스코(Manuel de Velasco) 휘하의 프랑스-스페인 함대를 1702년 10월 23일 스페인의 갈리시아(Galicia)의 비고(Vigo) 만(灣)에서 공격, 격파한 에스파냐 왕위 계승 전쟁의 전투 중 하나다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%B9%84%EA%B3%A0%EB%A7%8C_%ED%95%B4%EC%A0%84"
+      },
+      "en": {
+        "title": "Battle of Vigo Bay",
+        "extract": "The Battle of Vigo Bay, also known as the Battle of Rande or sometimes as the Battle of Redondela Bay, was a naval engagement fought on 23 October 1702 during the opening years of the War of the Spanish Succession. The engagement followed an Anglo-Dutch attempt to capture the Spanish port of Cádiz in September in an effort to secure a naval base in the Iberian Peninsula. From this station the Allies had hoped to conduct operations in the western Mediterranean Sea, particularly against the French at Toulon.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Vigo_Bay"
+      },
+      "zh": {
+        "title": "维哥湾海战",
+        "extract": "维哥湾海战是1702年10月23日（西班牙王位继承战争的初期）发生在西班牙大西洋沿岸维哥湾的一次海战。交战双方是英荷联合舰队和法西联合舰队。",
+        "url": "https://zh.wikipedia.org/wiki/%E7%BB%B4%E5%93%A5%E6%B9%BE%E6%B5%B7%E6%88%98"
+      },
+      "es": {
+        "title": "Batalla de Rande",
+        "extract": "La batalla de Rande o de Vigo fue una importante batalla naval librada en el estrecho de Rande y dentro de la ensenada de San Simón, en el interior de la ría de Vigo, en Galicia (España). Se produjo el 23 de octubre de 1702 y enfrentó a las escuadras de las coaliciones angloneerlandesa e hispanofrancesa, en el contexto de la guerra de sucesión española.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Rande"
+      },
+      "fr": {
+        "title": "Bataille navale de Vigo",
+        "extract": "La bataille navale de la baie de Vigo, parfois appelée bataille de Rande, eut lieu le 23 octobre 1702 ou le 12 octobre dans la baie de Vigo, au large des côtes de la Galice en Espagne. Elle mit aux prises une flotte anglo-néerlandaise dirigée par l'amiral George Rooke, secondé par les amiraux néerlandais Philips van Almonde et Philips van der Goes, avec la Flotte des Indes, un convoi franco-espagnol commandé par les amiraux François Louis Rousselet de Châteaurenault et Manuel de Velasco.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_navale_de_Vigo"
+      },
+      "pt": {
+        "title": "Batalha de Vigo",
+        "extract": "A Batalha de Vigo, também conhecida como Batalha de Rande, foi uma importante batalha naval que teve lugar no Estreito de Rande e na Enseada de São Simão, no interior da Ria de Vigo, na Galícia, Espanha. O evento ocorreu em 23 de outubro de 1702 e defrontou às esquadras das coalizões anglo-holandesa e hispano-francesa, dentro do contexto da Guerra de Sucessão Espanhola. O confronto ocorreu após uma tentativa anglo-holandesa de capturar o porto espanhol de Cádiz em setembro, em um esforço para garantir uma base naval na Península Ibérica. Dessa estação, os aliados esperavam conduzir operações no Mar Mediterrâneo ocidental, particularmente contra os franceses em Toulon. O ataque anfíbio, no entanto, provou ser um desastre, mas quando o almirante George Rooke recuou para casa no início de outubro, ele recebeu a notícia de que a frota de tesouros espanhola do América, carregada de prata e mercadorias, havia entrado na Baía de Vigo no norte da Espanha. Philips van Almonde convenceu Rooke a atacar os navios de tesouro, apesar do ano estar no final e do fato que os navios estavam protegidos por navios de linha franceses.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Vigo"
+      }
+    }
+  },
+  "Siege of Kehl (1703)": {
+    "pages": {
+      "en": {
+        "title": "Siege of Kehl (1703)",
+        "extract": "The 1703 siege of Kehl was a military action of the War of the Spanish Succession, in which French and Spanish forces under the command of the Duc de Villars captured the fortress of the Holy Roman Empire at Kehl, opposite Strasbourg on the Rhine River. Siege operations began on 20 February 1703, following Villars's early departure from winter quarters. The fortress, defended by 3,500 troops of Louis William, the Margrave of Baden-Baden, capitulated on 10 March.",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Kehl_(1703)"
+      },
+      "zh": {
+        "title": "凱爾圍城戰 (1703年)",
+        "extract": "1703年的凯尔围城战是西班牙王位继承战争中的一场战役，在这场战役中法军与西班牙军在德·维拉尔公爵的率领下，攻占隶属神圣罗马帝国的凯尔（该城与斯特拉斯堡隔著一条莱茵河）。这场战役从1703年2月20日的围城开始，随后维拉尔离开冬季的住所前去指挥；另一方面，基尔要塞守军则由巴登-巴登选帝侯路德维希·威廉指挥，最后在十馀天的围城后于3月10日投降",
+        "url": "https://zh.wikipedia.org/wiki/%E5%87%B1%E7%88%BE%E5%9C%8D%E5%9F%8E%E6%88%B0_(1703%E5%B9%B4)"
+      },
+      "es": {
+        "title": "Sitio de Kehl (1703)",
+        "extract": "El sitio de Kehl de 1703 fue una acción militar de la guerra de sucesión española, en la cual fuerzas francesas y españolas bajo el mando del duque de Villars capturaron la fortaleza del Sacro Imperio Romano en Kehl, frente a Estrasburgo en el Rhin. Las operaciones de asedio empezaron el 20 de febrero de 1703, tras la temprana salida de Villars sus cuarteles invernales. La fortaleza, defendida por 3500 hombres de Luis Guillermo de Baden-Baden, capituló el 10 de marzo.",
+        "url": "https://es.wikipedia.org/wiki/Sitio_de_Kehl_(1703)"
+      },
+      "fr": {
+        "title": "Siège de Kehl (1703)",
+        "extract": "Le siège de Kehl, au printemps 1703, est un épisode de la guerre de Succession d'Espagne. Les forces françaises du duc de Villars assiègent et s'emparent de la forteresse de Kehl, ville du Saint Empire située sur le Rhin, face à Strasbourg.",
+        "url": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Kehl_(1703)"
+      }
+    }
+  },
+  "Battle of Ekeren": {
+    "pages": {
+      "ko": {
+        "title": "에케렌 전투",
+        "extract": "에케렌 전투는 스페인 왕위 계승 전쟁 중의 전투 중 하나로 1703년 7월 30일 일어났다. 프랑스군이 네덜란드군을 포위하였고, 네덜란드군은 간신히 괴멸을 피할 수 있었다. 전투는 1703년 스페인의 네덜란드(벨기에 지방)에서 동맹군이 결정적인 승리를 거둘 수 있다는 희망을 끝내버렸다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%97%90%EC%BC%80%EB%A0%8C_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Ekeren",
+        "extract": "The Battle of Ekeren, which took place on 30 June 1703, was a battle of the War of the Spanish Succession. A Bourbon army of around 24,000 men, consisting of troops from France, Spain and Cologne, surrounded a smaller Dutch force of 12,000 men, which however managed to break out and retire to safety.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Ekeren"
+      },
+      "es": {
+        "title": "Batalla de Ekeren",
+        "extract": "La batalla de Ekeren se libró el 30 de junio de 1703 en el marco de la guerra de sucesión española. Los franceses rodearon a una fuerza holandesa que apenas evitó su derrota. Esta batalla terminó con la esperanza de tener una victoria aliada decisiva en los Países Bajos españoles en 1703.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Ekeren"
+      },
+      "fr": {
+        "title": "Bataille d'Ekeren",
+        "extract": "La bataille d'Ekeren s'est déroulée le 30 juin 1703, pendant la guerre de Succession d'Espagne.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_d'Ekeren"
+      }
+    }
+  },
+  "First Battle of Höchstädt": {
+    "pages": {
+      "ko": {
+        "title": "제1차 회흐슈테트 전투",
+        "extract": "제1차 회흐슈테트 전투(독일어: Erste Schlacht bei Höchstädt)는 1703년 9월 20일 바바리아(Bavaria)에 있는 회흐슈테트(Höchstädt) 근처에서 벌어진 전투로써 빌라르(Villars)원수 지휘하의 프랑스-바바리아 연합군이 림뷔르흐 스티럼(Limburg Styrum)장군 휘하의 오스트리아군에 대항하여 승리를 거두었다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%A0%9C1%EC%B0%A8_%ED%9A%8C%ED%9D%90%EC%8A%88%ED%85%8C%ED%8A%B8_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "First Battle of Höchstädt",
+        "extract": "The First Battle of Höchstädt took place on 20 September 1703 during the War of the Spanish Succession. Fought near Höchstädt an der Donau in Bavaria, a combined Franco-Bavarian force under Claude Louis Hector de Villars defeated an Imperial army led by Hermann Otto II of Limburg Stirum.",
+        "url": "https://en.wikipedia.org/wiki/First_Battle_of_H%C3%B6chst%C3%A4dt"
+      },
+      "zh": {
+        "title": "赫希施塔特之戰",
+        "extract": "赫希施塔特之战 是西班牙王位继承战争期间爆发的会战，战场位于今巴伐利亚多瑙河畔赫希施泰特，交战双方分别是维拉尔元帅指挥的法国、巴伐利亚联军与斯蒂霍姆伯爵指挥的帝国军。",
+        "url": "https://zh.wikipedia.org/wiki/%E8%B5%AB%E5%B8%8C%E6%96%BD%E5%A1%94%E7%89%B9%E4%B9%8B%E6%88%B0"
+      },
+      "es": {
+        "title": "Batalla de Höchstädt (1703)",
+        "extract": "La conocida como (primera) batalla de Höchstädt se disputó el 20 de septiembre de 1703, cerca de Höchstädt an der Donau en Baviera, y fue una victoria franco-bávara bajo el mando del mariscal Claude Louis Hector de Villars contra los austriacos comandados por el general Limburg Styrum.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_H%C3%B6chst%C3%A4dt_(1703)"
+      },
+      "fr": {
+        "title": "Bataille de Höchstädt (1703)",
+        "extract": "La première bataille de Höchstädt, également appelée bataille de Hochstett, eut lieu le 20 septembre 1703, près de Höchstädt an der Donau en Bavière, pendant la guerre de Succession d'Espagne. Elle s'est terminée par une victoire de l'armée franco-bavaroise du maréchal de Villars sur les Autrichiens du général Von Stirum (de).",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_H%C3%B6chst%C3%A4dt_(1703)"
+      },
+      "pt": {
+        "title": "Batalha de Höchstädt",
+        "extract": "A (primeira) Batalha de Höchstädt foi uma batalha da Guerra da Sucessão Espanhola, e disputou-se em 20 de Setembro de 1703, próximo de Höchstädt ou Hoechstaedt na Baviera. Foi uma vitória franco-bávara sob o comando do mariscal Claude Louis Hector de Villars contra os austríacos da Monarquia de Habsgurgo comandados pelo general Limburg Styrum. Não deve ser confundida com a segunda batalha de Höchstädt, mais conhecida como Batalha de Blenheim.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_H%C3%B6chst%C3%A4dt"
+      }
+    }
+  },
+  "Battle of Speyerbach": {
+    "pages": {
+      "en": {
+        "title": "Battle of Speyerbach",
+        "extract": "The Battle of Speyerbach took place on 15 November 1703 during the War of the Spanish Succession, near Speyer in the Rhineland-Palatinate. A French army commanded by Camille de Tallard defeated an Allied force under Frederick of Hesse.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Speyerbach"
+      },
+      "es": {
+        "title": "Batalla de Speyerbach",
+        "extract": "La batalla de Espira, de Speyerbach o de Heiligenstein tuvo lugar el 15 de noviembre de 1703 justo al suroeste de la plaza fuerte de Espira, durante la guerra de sucesión española (1701-1714). Mientras el ejército francés comandado por Tallard intentaba desde el 13 octubre retomar la fortaleza de Landau a los imperiales, ésta fue atacada por detrás por un ejército de socorro austro-holandés, que lo venció. Tras este combate, la guarnición austriaca de Landau se rindió a los franceses.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Speyerbach"
+      },
+      "fr": {
+        "title": "Bataille de Spire",
+        "extract": "La bataille de Spire ou de Heiligenstein a eu lieu le 15 novembre 1703 juste au sud-ouest de la place forte de Spire, au cours de la guerre de Succession d'Espagne (1701−1714). Alors que l'armée française commandée par le duc de Tallard tentait depuis le 13 octobre de reprendre la forteresse de Landau aux Impériaux, elle fut attaquée sur ses arrières par une armée de secours austro-hollandaise, qu'elle mit en déroute. À la suite de ce combat, la garnison autrichienne de Landau se rendit aux Français.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Spire"
+      }
+    }
+  },
+  "Battle of Schellenberg": {
+    "pages": {
+      "ko": {
+        "title": "셸렌베르크 전투",
+        "extract": "셸렌베르크 전투 혹은 도나우뵈르트 전투(독일어: Schlacht am Schellenberg, Battle of Donauwörth)로 알려진 이 전투는 1704년 7월 2일 스페인 왕위 계승 전쟁기간 중 일어난 전투 중 하나이다. 다뉴브강에 있는 셸렌베르크의 고지대에서의 강습은 합스부르크 오스트리아의 수도인 빈에 대한 루이 14세의 군사적 위협을 제거하기 위한 말버러 공작 1세 존 처칠(Duke of Marlborough)의 작전 중 일부였다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%85%B8%EB%A0%8C%EB%B2%A0%EB%A5%B4%ED%81%AC_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Schellenberg",
+        "extract": "The Battle of Schellenberg took place on 2 July 1704 during the War of the Spanish Succession. The engagement was part of the Duke of Marlborough's campaign to save the Habsburg capital of Vienna from a threatened advance by King Louis XIV's Franco-Bavarian forces ranged in southern Germany. Marlborough had commenced his 250-mile (400 km) march from Bedburg, near Cologne, on 8 May; within five weeks he had linked his forces with those of the Margrave of Baden, before continuing on to the river Danube. Once in southern Germany, the Allies' task was to induce Maximilian II Emanuel, Elector of Bavaria, to abandon his allegiance to Louis XIV and rejoin the Grand Alliance; but to force the issue, the Allies first needed to secure a fortified bridgehead and magazine on the Danube, through which their supplies could cross to the south of the river into the heart of the Elector's lands. For this purpose, Marlborough selected the town of Donauwörth.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Schellenberg"
+      },
+      "zh": {
+        "title": "谢伦山之战",
+        "extract": "谢伦山之战 发生于1704年7月2日，即西班牙王位继承战争期间。这场交战是马尔伯勒公爵一系列军事行动的组成部分，他想要拯救哈布斯堡的首都维也纳，使其免受路易十四国王麾下的法国-巴伐利亚联军在德意志南部的进攻威胁。5月19日，马尔伯勒从科隆附近的贝德堡开始了约250英里（400千米）的行军；不到五个星期，他就将自己的部队与巴登藩侯的部队联手，然后继续向多瑙河进发。抵达德意志南部后，盟军的任务就是诱使巴伐利亚选侯国的君主马克斯·埃马努埃尔选侯放弃效忠路易十四，并重新加入大同盟；但是为了解决这个问题，盟军首先需要在多瑙河上强行争取到一座坚固的桥头堡和弹药库，以便他们的物资可以通过桥头堡到达河的南部，进入选侯的心脏地带。为此，马尔伯勒选择了市镇多瑙沃特。",
+        "url": "https://zh.wikipedia.org/wiki/%E8%B0%A2%E4%BC%A6%E5%B1%B1%E4%B9%8B%E6%88%98"
+      },
+      "es": {
+        "title": "Batalla de Schellenberg",
+        "extract": "La batalla de Schellenberg fue un enfrentamiento armado que se desarrolló durante la guerra de sucesión española, el 2 de julio de 1704 en torno al fuerte de Schellenberg, que dominaba la ciudad amurallada de Donauwörth, sobre el Danubio, en Baviera.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Schellenberg"
+      },
+      "fr": {
+        "title": "Bataille de Schellenberg",
+        "extract": "La bataille de Schellenberg, ou bataille de Donauwörth, eut lieu le 2 juillet 1704, au cours de la guerre de Succession d'Espagne. La France et la Bavière furent vaincues par une force alliée.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Schellenberg"
+      },
+      "pt": {
+        "title": "Batalha de Schellenberg",
+        "extract": "A Batalha de Schellenberg, também conhecida como a Batalha de Donauwörth, foi uma batalha que aconteceu durante a Guerra da Sucessão Espanhola, em 2 de Julho de 1704. O assalto aos planaltos de Schellenberg sobre o rio Danúbio era parte do plano do Duque de Marlborough, sob a tutela da campanha para salvar Viena, a capital do Sacro Império Romano, das forças do Rei Luís XIV, que vinha do sul da Alemanha.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Schellenberg"
+      }
+    }
+  },
+  "Battle of Blenheim": {
+    "pages": {
+      "ko": {
+        "title": "블레넘 전투",
+        "extract": "블레넘 전투(영어: Battle of Blenheim) 또는 제2차 회흐슈테트 전투(독일어: Zweite Schlacht bei Höchstädt)-는 1704년 8월 13일 스페인 왕위 계승 전쟁의 주요 전투이다. 프랑스의 루이 14세는 합스부르크 오스트리아의 수도 빈을 포위함으로써 신성로마제국의 황제 레오폴트 1세를 스페인 왕위 계승 전쟁에서 떨어져 나가게 하고 유리한 평화협정을 맺으려 하였다. 프랑스의 마르생 원수와 바이에른의 바이에른 선제후의 연합군은 오스트리아의 서쪽에서 위협을 가했고, 이탈리아 북부에 배치된 방돔(Vendôme) 원수의 프랑스-스페인 연합군은 브레너 가도(Brenner Pass)를 통해 오스트리아를 공격할 가능성이 있었다. 또한 오스트리아의 동쪽에서는 라코치 페렌츠 2세(Rákóczi)의 헝가리 반란군이 존재하고 있었다. 이로 인해 빈은 세 방향에서 압박을 받고 있었다. 이 위협을 해소하기 위해 오스트리아의 동맹국인 영국의 말버러 공작(Duke of Marlborough)은 영국-네덜란드의 동맹군을 베드부르크(Bedburg)에서 남쪽으로 진군하여 대동맹과 함께 황제 레오폴트 1세를 지원하기로 하였다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%B8%94%EB%A0%88%EB%84%98_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Blenheim",
+        "extract": "The Battle of Blenheim fought on 13 August [O.S. 2 August] 1704, was a major battle of the War of the Spanish Succession. The overwhelming Allied victory ensured the safety of Vienna from the Franco-Bavarian army, thus preventing the collapse of the reconstituted Grand Alliance.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Blenheim"
+      },
+      "zh": {
+        "title": "布倫海姆之戰",
+        "extract": "布伦亨之战，德语作第二次霍赫施塔特之战，于1704年8月13日开战，是西班牙王位继承战争中的一场重要会战。法王路易十四欲藉攻占哈布斯堡帝国的首都维也纳，一举击垮神圣罗马帝国皇帝利奥波德一世，并定得有利的协议。维也纳存亡的关系十分重大：巴伐利亚选帝侯与马尔辛元帅位于巴伐利亚的军力自西方构成威胁，旺多姆元帅在义大利北部的大军则虎视眈眈、可伺机自布伦纳山口进攻。维也纳亦受到拉科齐匈牙利起义来自东方边界的威吓。基于这些危险，马尔博罗公爵决定从贝德堡向南进军以缓解利奥波德皇帝的危机并帮助皇帝留在奥格斯堡同盟内。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%B8%83%E5%80%AB%E6%B5%B7%E5%A7%86%E4%B9%8B%E6%88%B0"
+      },
+      "es": {
+        "title": "Batalla de Höchstädt (1704)",
+        "extract": "La segunda batalla de Höchstädt, conocida como batalla de Blenheim en la historiografía de algunos países de habla inglesa, fue un enfrentamiento armado que se desarrolló durante la guerra de sucesión española el 13 de agosto de 1704. El pueblo de Blindheim, a orillas del Danubio, está a 16 km al sureste de Donauwörth, en Baviera (Alemania).",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_H%C3%B6chst%C3%A4dt_(1704)"
+      },
+      "ar": {
+        "title": "معركة بلاينام",
+        "extract": "وقعت معركة بلاينام في 13 أغسطس عام 1704، وكانت المعركة الأساسية في حرب الخلافة الإسبانية. كفل انتصار الحلفاء الساحق سلامة فيينا من الجيش الفرنسي البافاري، وبالتالي منع انهيار التحالف الكبير الذي كان قد أعيد تشكيله.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%A8%D9%84%D8%A7%D9%8A%D9%86%D8%A7%D9%85"
+      },
+      "fr": {
+        "title": "Bataille de Höchstädt (1704)",
+        "extract": "La deuxième bataille de Höchstädt, également appelée bataille de Hochstett ou encore bataille de Blenheim, livrée le 13 août 1704, est un affrontement majeur de la guerre de Succession d'Espagne qui opposait le royaume de France et l'Électorat de Bavière à la Grande Alliance rassemblant l'Angleterre, les Provinces-Unies, le Portugal et le Saint-Empire. Elle a été livrée sur un front d’un peu plus de 6 kilomètres en Bavière, de Höchstädt an der Donau à Blenheim.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_H%C3%B6chst%C3%A4dt_(1704)"
+      },
+      "pt": {
+        "title": "Batalha de Blenheim",
+        "extract": "A Batalha de Blenheim foi um confronto armado que ocorreu durante a Guerra da Sucessão Espanhola a 13 de Agosto de 1704. A localidade de Blindheim, na margem do rio Danúbio, está a 16 km a sudeste de Donauwörth, na Baviera (Alemanha), e a noroeste de Augsburg.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Blenheim"
+      }
+    }
+  },
+  "Capture of Gibraltar": {
+    "pages": {
+      "en": {
+        "title": "Capture of Gibraltar",
+        "extract": "The capture of Gibraltar by Anglo-Dutch forces of the Grand Alliance occurred between 1 and 4 August 1704 during the War of the Spanish Succession. Since the beginning of the war the Alliance had been looking for a harbour in the Iberian Peninsula to control the Strait of Gibraltar and facilitate naval operations against the French fleet in the western Mediterranean Sea. An attempt to seize Cádiz had ended in failure in September 1702, but following the Alliance fleet's successful raid in Vigo Bay in October that year, the combined fleets of the \"Maritime Powers\", the Netherlands and England, had emerged as the dominant naval force in the region. This strength helped persuade King Peter II of Portugal to sever his alliance with France and Bourbon-controlled Spain, and ally himself with the Grand Alliance in 1703 as the Alliance fleets could campaign in the Mediterranean using access to the port of Lisbon and conduct operations in support of the Austrian Habsburg candidate to the Spanish throne, the Archduke Charles, known to his supporters as Charles III of Spain.",
+        "url": "https://en.wikipedia.org/wiki/Capture_of_Gibraltar"
+      },
+      "es": {
+        "title": "Toma de Gibraltar (1704)",
+        "extract": "La toma de Gibraltar tuvo lugar el 4 de agosto de 1704 en el contexto de la guerra de sucesión española por parte de la flota angloholandesa comandada por George Rooke y el príncipe de Hesse-Darmstadt. La intención del ataque era la de añadir la fuerte plaza de Gibraltar a la causa del Archiduque Carlos.",
+        "url": "https://es.wikipedia.org/wiki/Toma_de_Gibraltar_(1704)"
+      },
+      "fr": {
+        "title": "Prise de Gibraltar (août 1704)",
+        "extract": "La prise de Gibraltar par les forces anglo-néerlandaises de la Ligue d'Augsbourg s'est déroulée du 1er au 3 août 1704 pendant la guerre de Succession d'Espagne.",
+        "url": "https://fr.wikipedia.org/wiki/Prise_de_Gibraltar_(ao%C3%BBt_1704)"
+      },
+      "pt": {
+        "title": "Captura de Gibraltar",
+        "extract": "A captura de Gibraltar por forças anglo-holandesas da Grande Aliança ocorreu entre 1 e 4 de agosto de 1704 durante a Guerra da Sucessão Espanhola. Desde o início da guerra, a Aliança procurava um porto na Península Ibérica para controlar o Estreito de Gibraltar e facilitar as operações navais contra a frota francesa no Mar Mediterrâneo ocidental. Uma tentativa de tomar Cádis terminou em fracasso em setembro de 1702, mas após o bem-sucedido ataque da frota da Aliança na Baía de Vigo em outubro daquele ano, as frotas combinadas das \"Potências Marítimas\", os Países Baixos e a Inglaterra, emergiram como a força naval dominante na região. Essa força ajudou a persuadir o rei Pedro II de Portugal a romper sua aliança com a França [en] e a Espanha controlada pelos Bourbons, e a aliar-se à Grande Aliança em 1703, pois as frotas da Aliança podiam fazer campanha no Mediterrâneo usando acesso ao porto de Lisboa e conduzir operações em apoio ao candidato austríaco da Habsburgo ao trono espanhol, o Arquiduque Carlos, conhecido por seus apoiadores como Carlos III da Espanha.",
+        "url": "https://pt.wikipedia.org/wiki/Captura_de_Gibraltar"
+      }
+    }
+  },
+  "Battle of Málaga (1704)": {
+    "pages": {
+      "ko": {
+        "title": "벨레즈-말라가 해전",
+        "extract": "말라가 전투(혹은 벨레즈-말라가 전투)는 스페인 말라가의 남쪽에서 1704년 8월 24일 벌어진 스페인 왕위 계승 전쟁 중 가장 규모가 큰 해전중 하나이다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%B2%A8%EB%A0%88%EC%A6%88-%EB%A7%90%EB%9D%BC%EA%B0%80_%ED%95%B4%EC%A0%84"
+      },
+      "en": {
+        "title": "Battle of Málaga (1704)",
+        "extract": "The Battle of Málaga, also known as the Battle of Vélez-Málaga, was a major fleet action which took place during the War of the Spanish Succession between an Anglo-Dutch fleet and a Franco-Spanish naval force on 24 August 1704. Both sides fought an intense engagement before the Anglo-Dutch fleet withdrew the next day. The French subsequently returned to Toulon, transforming the battle from a tactical stalemate into a strategic defeat, as they would not put out to sea again for the duration of the conflict. Occurring soon after the Anglo-Dutch capture of Gibraltar a few weeks prior, the battle served as one of the numerous engagements which took place for control over the settlement during the war.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_M%C3%A1laga_(1704)"
+      },
+      "zh": {
+        "title": "馬拉加海戰 (1704年)",
+        "extract": "马拉加海战发生于1704年8月24日，是西班牙王位继承战争中规模最大的海战，战役地点位于马加拉以南。",
+        "url": "https://zh.wikipedia.org/wiki/%E9%A6%AC%E6%8B%89%E5%8A%A0%E6%B5%B7%E6%88%B0_(1704%E5%B9%B4)"
+      },
+      "es": {
+        "title": "Batalla de Málaga (1704)",
+        "extract": "La batalla de Vélez-Málaga fue el mayor combate naval de la guerra de sucesión española y se libró frente a las costas de Málaga, el día 24 de agosto de 1704, entre la flota hispano-francesa del conde de Toulouse, el joven Luis Alejandro de Borbón y el almirante Victor-Marie d'Estrées por la parte francesa y la escuadra española en la zona de Málaga al mando del Conde de Foncalada Gutiérrez de Meneses Luna y Zapata y la anglo-holandesa del almirante George Rooke.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_M%C3%A1laga_(1704)"
+      },
+      "fr": {
+        "title": "Bataille navale de Vélez-Málaga",
+        "extract": "La bataille de Vélez-Málaga ou bataille de Málaga est une bataille navale qui a lieu le 24 août 1704 au sud de Malaga. Ce fut la plus grande bataille navale de la guerre de Succession d'Espagne.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_navale_de_V%C3%A9lez-M%C3%A1laga"
+      },
+      "pt": {
+        "title": "Batalha de Málaga (1704)",
+        "extract": "A Batalha de Málaga, também conhecida como Batalha de Vélez-Málaga, foi uma grande ação naval que ocorreu durante a Guerra da Sucessão Espanhola entre uma frota anglo-holandesa e uma força naval franco-espanhola em 24 de agosto de 1704. Ambos os lados travaram um intenso combate antes da frota anglo-holandesa se retirar no dia seguinte. Os franceses subsequentemente retornaram a Toulon, transformando a batalha de um impasse tático em uma derrota estratégica, pois não voltariam ao mar pelo resto do conflito. Ocorrendo logo após a captura de Gibraltar pelos anglo-holandeses algumas semanas antes, a batalha serviu como um dos inúmeros combates que ocorreram pelo controle do assentamento durante a guerra.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_M%C3%A1laga_(1704)"
+      }
+    }
+  },
+  "Twelfth siege of Gibraltar": {
+    "pages": {
+      "en": {
+        "title": "Twelfth siege of Gibraltar",
+        "extract": "The twelfth siege of Gibraltar was fought between September 1704 and May 1705 during the War of the Spanish Succession. It followed the capture in August 1704 of the fortified town of Gibraltar, at the southern tip of Spain, by an Anglo–Dutch naval force led by Sir George Rooke and Prince George of Hesse-Darmstadt. The members of the Grand Alliance, the Holy Roman Empire, England, the Netherlands, Pro-Habsburg Spain, Portugal and Savoy, had allied to prevent the unification of the French and Spanish thrones by supporting the claim of the Habsburg pretender Archduke Charles VI of Austria as Charles III of Spain. They were opposed by the rival claimant, the Bourbon Philip, Duke of Anjou, ruling as Philip V of Spain, and his patron and ally, Louis XIV of France. The war began in northern Europe and was largely contained there until 1703, when Portugal joined the confederate powers. From then, English naval attentions were focused on mounting a campaign in the Mediterranean to distract the French navy and disrupt French and Bourbon Spanish shipping or capture a port for use as a naval base. The capture of Gibraltar was the outcome of that initial stage of the Mediterranean campaign.",
+        "url": "https://en.wikipedia.org/wiki/Twelfth_siege_of_Gibraltar"
+      },
+      "es": {
+        "title": "Sitio de Gibraltar (1704-1705)",
+        "extract": "El asedio franco-español de Gibraltar de 1704-1705 fue llevado a cabo poco tiempo después de la toma de Gibraltar por un contingente anglo-holandés en nombre del archiduque Carlos durante la guerra de sucesión española.",
+        "url": "https://es.wikipedia.org/wiki/Sitio_de_Gibraltar_(1704-1705)"
+      },
+      "fr": {
+        "title": "Siège de Gibraltar (1704-1705)",
+        "extract": "Le siège de Gibraltar, pendant la guerre de Succession d'Espagne, prend place entre les mois de septembre 1704 et mai 1705.",
+        "url": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Gibraltar_(1704-1705)"
+      },
+      "pt": {
+        "title": "Décimo segundo cerco de Gibraltar",
+        "extract": "O décimo segundo cerco de Gibraltar foi travado entre setembro de 1704 e maio de 1705 durante a Guerra da Sucessão Espanhola. Seguiu-se à captura em agosto de 1704 da cidade fortificada de Gibraltar, na ponta sul da Espanha, por uma força naval anglo-holandesa liderada por Sir George Rooke e pelo Príncipe Jorge de Hesse-Darmstadt. Os membros da Grande Aliança, o Sacro Império Romano-Germânico, a Inglaterra, os Países Baixos, a Espanha pró-Habsburgo, Portugal e o Saboia, aliaram-se para impedir a unificação dos tronos francês e espanhol, apoiando a pretensão do pretendente Habsburgo Arquiduque Carlos VI da Áustria como Carlos III da Espanha. Eles foram combatidos pelo pretendente rival, o Bourbon Filipe, Duque de Anjou, reinando como Filipe V de Espanha, e pelo seu patrono e aliado, Luís XIV da França. A guerra começou no norte da Europa e foi amplamente contida ali até 1703, quando Portugal se juntou às potências confederadas. A partir de então, as atenções navais inglesas concentraram-se em montar uma campanha no Mediterrâneo para distrair a marinha francesa e perturbar o transporte marítimo francês e Bourbon espanhol ou capturar um porto para uso como base naval. A captura de Gibraltar foi o resultado dessa fase inicial da campanha mediterrânica.",
+        "url": "https://pt.wikipedia.org/wiki/D%C3%A9cimo_segundo_cerco_de_Gibraltar"
+      }
+    }
+  },
+  "Battle of Poniec": {
+    "pages": {
+      "en": {
+        "title": "Battle of Poniec",
+        "extract": "The Battle of Poniec took place on 7 November 1704 (N.S.) at Poniec, in the Polish–Lithuanian Commonwealth, during the Great Northern War. With a force of cavalry and dragoons, Charles XII of Sweden successfully dislodged the Saxon Army under Johann Matthias von der Schulenburg from Poniec. To fend off the Swedish pursuit, Schulenburg formed a massive square formation at Moraczewo. Having failed to break it, Charles XII called off the attacks at the approach of night. This allowed Schulenburg to escape into neutral Silesia. With Greater Poland cleared of Saxon troops, the Swedes shattered their Cossack and Russian allies at Bełcz Wielki and Tillendorf.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Poniec"
+      },
+      "fr": {
+        "title": "Bataille de Punitz",
+        "extract": "La bataille de Punitz a lieu le 28 octobre 1704 à Punitz durant la grande guerre du Nord. L'armée suédoise de Charles XII essaye sans succès de déloger l'armée saxonne de Johann Matthias von der Schulenburg par des charges de cavalerie. Après la défaite de leur cavalerie, les Saxons se déploient en un grand carré près du village de Janitz à l'ouest de Punitz. Ils parviennent à se retirer en Saxe malgré la poursuite des Suédois.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Punitz"
+      }
+    }
+  },
+  "Battle of Montjuïc (1705)": {
+    "pages": {
+      "en": {
+        "title": "Battle of Montjuïc (1705)",
+        "extract": "The Battle of Montjuïc took place between 13 and 17 September 1705 during the War of the Spanish Succession. In the War of the Spanish Succession, a multinational force of the Second Grand Alliance, which supported Archduke Charles of Austria the Habsburg pretender to the Spanish throne, under the command of English general Charles Mordaunt, 3rd Earl of Peterborough landed on the Catalan coast on August 22, 1705, intending to capture Barcelona. However, the force first had to take possession of Montjuïc Castle which defended the city. The Spanish and Neapolitan defenders were commanded by Francisco de Velasco",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Montju%C3%AFc_(1705)"
+      },
+      "es": {
+        "title": "Batalla de Montjuic (1705)",
+        "extract": "La batalla de Montjuic fue un enfrentamiento armado de la guerra de sucesión española en 1705. La batalla fue ganada por las tropas fieles al archiduque Carlos de Austria, quienes inmediatamente después asediaron y tomaron la ciudad de Barcelona.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Montjuic_(1705)"
+      },
+      "fr": {
+        "title": "Bataille de Montjuïc (1705)",
+        "extract": "La bataille de Montjuïc se déroula du 13 au 17 septembre 1705 pendant la guerre de Succession d'Espagne.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Montju%C3%AFc_(1705)"
+      }
+    }
+  },
+  "Siege of Nice (1705)": {
+    "pages": {
+      "en": {
+        "title": "Siege of Nice (1705)",
+        "extract": "The siege of Nice took place between 15 March 1705 and 4 January 1706 as part of the War of the Spanish Succession. It pitched the forces of Louis XIV of France against those of Victor Amadeus II of Savoy – the latter were led by the marquis of Caraglio.",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Nice_(1705)"
+      },
+      "es": {
+        "title": "Sitio de Niza (1705-1706)",
+        "extract": "El sitio de Niza tuvo lugar desde el 15 de marzo de 1705 al 4 de enero de 1706 entre los ejércitos del rey Luis XIV y Víctor Amadeus II de Saboya durante la guerra de sucesión española.",
+        "url": "https://es.wikipedia.org/wiki/Sitio_de_Niza_(1705-1706)"
+      },
+      "fr": {
+        "title": "Siège de Nice (1705-1706)",
+        "extract": "Le siège de Nice de 1705-1706 se déroula du 15 mars 1705 au 4 janvier 1706 entre les armées de Louis XIV et de Victor-Amédée II de Savoie, pendant la guerre de Succession d'Espagne",
+        "url": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Nice_(1705-1706)"
+      }
+    }
+  },
+  "Battle of Elixheim": {
+    "pages": {
+      "ko": {
+        "title": "엘릭스하임 전투",
+        "extract": "엘릭스하임 전투 혹은 브라반트 선의 돌파(Passage of the Lines of Brabant)는 유명한 스페인 왕위 계승 전쟁의 전투 중 하나로 1705년 7월 18일 벌어졌다. 말버러 공작은 앤트워프(Antwerp)에서 나무르(Namur)까지 이어지는 70 마일에 달하는 활 모양의 프랑스의 방어선인 브라반트 선을 성공적으로 분쇄했다. 비록 말버러 공작은 결정적인 전투를 이끌어 내지는 못했지만, 이 방어선의 격멸과 그 결과는 다음해 라미예(Ramillies)의 승리에서 결정적임을 입증하였다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%97%98%EB%A6%AD%EC%8A%A4%ED%95%98%EC%9E%84_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Elixheim",
+        "extract": "At the Battle of Elixheim, 18 July 1705, also known as the Passage of the Lines of Brabant during the War of the Spanish Succession, the Anglo-Dutch forces of the Grand Alliance, under the Duke of Marlborough and Field Marshal Ouwerkerk, successfully broke through the French Lines of Brabant. These lines were an arc of defensive fieldworks stretching in a seventy-mile arc from Antwerp to Namur. Although the Allies were unable to bring about a decisive battle, the breaking and subsequent razing of the lines would prove critical to the Allied victory at Ramillies the next year.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Elixheim"
+      },
+      "es": {
+        "title": "Batalla de Elixheim",
+        "extract": "La batalla de Elixheim, igualmente conocida bajo el nombre de Paso de las líneas de Bramante, fue una batalla librada el 18 de julio de 1705 durante la guerra de sucesión española en territorio del actual municipio de Landen. El Duque de Marlborough atravesó con éxito las líneas francesas de Brabante, un conjunto de sistemas defensivos en forma de arco que se extendía alrededor de 115 km de Amberes a Namur. Aunque no pudo conseguir una batalla decisiva, el avance y posterior destrucción de estas líneas sería determinante para los Aliados durante la batalla de Ramillies un año más tarde.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Elixheim"
+      },
+      "fr": {
+        "title": "Bataille d'Eliksem",
+        "extract": "La bataille d'Eliksem, 18 juillet 1705, également connue sous le nom de la Traversée des lignes du Brabant et de bataille d'Alincourt est livrée pendant la guerre de Succession d'Espagne. Le duc de Marlborough perce avec succès les lignes françaises de Brabant, un ensemble de systèmes défensifs en forme d'arc s'étirant sur environ 115 km d'Anvers à Namur. Bien qu'il ne pût aboutir à une bataille décisive, la percée puis la destruction de ces lignes allait s'avérer déterminante pour les Alliés lors de la bataille de Ramillies une année plus tard.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_d'Eliksem"
+      }
+    }
+  },
+  "Battle of Cassano (1705)": {
+    "pages": {
+      "ko": {
+        "title": "카사노 전투 (1705년)",
+        "extract": "카사노 전투는 1705년 8월 16일의 전투로 스페인 왕위 계승 전쟁 중 이탈리아를 무대로 벌어진 전투이다. 양측은 많은 사상자가 발생했지만, 프랑스의 우세였다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%B9%B4%EC%82%AC%EB%85%B8_%EC%A0%84%ED%88%AC_(1705%EB%85%84)"
+      },
+      "en": {
+        "title": "Battle of Cassano (1705)",
+        "extract": "The Battle of Cassano took place on 16 August 1705, during the War of the Spanish Succession, near Cassano d'Adda, in Lombardy, Italy. It was fought between a French army commanded by the duc de Vendôme, and an Imperial force under Prince Eugene of Savoy.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Cassano_(1705)"
+      },
+      "zh": {
+        "title": "卡薩諾之戰 (1705年)",
+        "extract": "卡萨诺之战 发生于1705年8月16日，是西班牙王位继承战争中的一场会战，交战双方分别为旺多姆公爵指挥的法军与欧根亲王领导的帝国军队。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%8D%A1%E8%96%A9%E8%AB%BE%E4%B9%8B%E6%88%B0_(1705%E5%B9%B4)"
+      },
+      "es": {
+        "title": "Batalla de Cassano (1705)",
+        "extract": "La batalla de Cassano se libró el 16 de agosto de 1705 durante la guerra de sucesión española en Cassano. Aunque los dos bandos sufrieron cuantiosas pérdidas, los franceses se llevaron la victoria.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Cassano_(1705)"
+      },
+      "fr": {
+        "title": "Bataille de Cassano (1705)",
+        "extract": "La bataille de Cassano eut lieu le 16 août 1705 pendant la guerre de Succession d'Espagne à Cassano en Lombardie. Les deux camps subirent de fortes pertes, mais les Français en sortirent victorieux.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Cassano_(1705)"
+      }
+    }
+  },
+  "Siege of Barcelona (1705)": {
+    "pages": {
+      "en": {
+        "title": "Siege of Barcelona (1705)",
+        "extract": "The siege of Barcelona took place between 14 September and 19 October 1705 during the War of the Spanish Succession when a multinational Grand Alliance army led by Lord Peterborough, supporting the Habsburg pretender to the Spanish throne, captured the city of Barcelona from its Spanish Bourbonic defenders,\nmost of whom then joined the Habsburg army.",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Barcelona_(1705)"
+      },
+      "zh": {
+        "title": "巴塞隆納圍城戰 (1705年)",
+        "extract": "1705年的巴塞隆纳围城战发生于9月14日至10月19日间，是西班牙王位继承战争的一场战役，由彼得伯勒领主所率领的大同盟联军（支持哈布斯堡派），最终攻陷由法西联军（支持波旁派）所保卫的巴塞隆纳。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%B7%B4%E5%A1%9E%E9%9A%86%E7%B4%8D%E5%9C%8D%E5%9F%8E%E6%88%B0_(1705%E5%B9%B4)"
+      },
+      "es": {
+        "title": "Sitio de Barcelona (1705)",
+        "extract": "El sitio de Barcelona fue uno de los episodios de la guerra de sucesión española, en la que los aliados tomaron la ciudad de Barcelona en 1705.",
+        "url": "https://es.wikipedia.org/wiki/Sitio_de_Barcelona_(1705)"
+      },
+      "fr": {
+        "title": "Siège de Barcelone (1705)",
+        "extract": "Le siège de Barcelone s'est déroulé du 13 septembre au 9 octobre 1705 pendant la guerre de Succession d'Espagne.",
+        "url": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Barcelone_(1705)"
+      },
+      "pt": {
+        "title": "Cerco de Barcelona (1705)",
+        "extract": "O cerco de Barcelona ocorreu entre 14 de setembro e 19 de outubro de 1705, durante a Guerra da Sucessão Espanhola, quando um exército multinacional da Grande Aliança, liderado por Lorde Peterborough [en], apoiando o pretendente Habsburgo ao trono espanhol, capturou a cidade de Barcelona de seus defensores Bourbônicos espanhóis, a maioria dos quais então se juntou ao exército Habsburgo.",
+        "url": "https://pt.wikipedia.org/wiki/Cerco_de_Barcelona_(1705)"
+      }
+    }
+  },
+  "Siege of Badajoz (1705)": {
+    "pages": {
+      "en": {
+        "title": "Siege of Badajoz (1705)",
+        "extract": "The siege of Badajoz was a siege of the Spanish city of Badajoz in June and October 1705 during the War of the Spanish Succession. Both the June and October phases was conducted by an Anglo-Dutch force under Henri de Massue, Earl of Galway and François Nicolas Fagel on their advance into south-west Spain. However, the besiegers were forced to withdraw when cavalry reinforcements were sent by marshal René de Froulay de Tessé. The siege was renewed in October, but Galway lost an arm and Fagel again withdrew, meaning that the French were able to withdraw with all their guns. This failure caused Fagel to ask for his recall to the Netherlands.",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Badajoz_(1705)"
+      },
+      "zh": {
+        "title": "巴達霍斯圍城戰 (1705年)",
+        "extract": "巴达霍斯围城战 发生于1705年6月及10月的巴达霍斯(位于西班牙)，系西班牙王位继承战争期间的围城。两次围城都由英荷联军发起，他们在加尔韦伯爵及弗朗索瓦·尼古拉斯·法格尔的带领下进攻西南西班牙。然而联军第一次的围攻却因勒内·德·弗鲁莱·德·泰塞元帅所率领的骑兵援军到来而被迫撤离。他们于10月再次发起包围，但这次加尔韦伯爵断了臂而法格尔又再次被迫撤离，使得法军得以撤走他们所有的火炮。这场败仗让法格尔最终被叫回了荷兰。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%B7%B4%E9%81%94%E9%9C%8D%E6%96%AF%E5%9C%8D%E5%9F%8E%E6%88%B0_(1705%E5%B9%B4)"
+      },
+      "es": {
+        "title": "Sitio de Badajoz (1705)",
+        "extract": "El asedio de Badajoz fue un asedio de la ciudad española de Badajoz entre junio y octubre de 1705 durante la guerra de sucesión española. Las ofensivas de junio y las de octubre estuvieron a cargo de una fuerza anglo-holandesa dirigida por Henri de Massue, conde de Galway y François Nicolas Fagel en su avance hacia el sudoeste de España. Sin embargo, los sitiadores se vieron obligados a retirarse cuando el mariscal René de Froulay de Tessé envió refuerzos de caballería. El asedio se llevó a cabo de nuevo en octubre, pero Galway perdió un brazo y Fagel se retiró nuevamente lo que significó que los franceses pudieron retirarse con todas sus armas. Este error fue la causa de que Fagel se retirase a los Países Bajos.",
+        "url": "https://es.wikipedia.org/wiki/Sitio_de_Badajoz_(1705)"
+      }
+    }
+  },
+  "Battle of Fraustadt": {
+    "pages": {
+      "en": {
+        "title": "Battle of Fraustadt",
+        "extract": "The Battle of Fraustadt was fought on 2 February 1706 (O.S.) / 3 February 1706 / 13 February 1706 (N.S.) near Fraustadt, now Wschowa, Poland, during the Great Northern War. A Swedish army under Carl Gustaf Rehnskiöld defeated a larger Saxon–Russian force commanded by Johann Matthias von der Schulenburg, consisting of troops from Saxony, the Polish–Lithuanian Commonwealth, German mercenaries, and the Tsardom of Russia.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Fraustadt"
+      },
+      "fr": {
+        "title": "Bataille de Fraustadt",
+        "extract": "La bataille de Fraustadt fut livrée le 13 février 1706 entre la Suède d'un côté et le duché de Saxe et la Russie de l'autre. Elle se conclut par l'une des plus grandes victoires suédoises de la grande guerre du Nord.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Fraustadt"
+      }
+    }
+  },
+  "Battle of Calcinato": {
+    "pages": {
+      "ko": {
+        "title": "칼치나토 전투",
+        "extract": "칼치나토 전투는 스페인 왕위 계승 전쟁의 전투로 1706년 4월 19일 이탈리아의 칼치나토 근교에서 프랑스-스페인군과 오스트리아의 합스부르크 제국군 사이에 벌어졌다. 이 전투는 프랑스의 방돔(Vendome) 원수의 승리로 끝이 났으며, 스페인군은 오스트리아군을 격파했다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%B9%BC%EC%B9%98%EB%82%98%ED%86%A0_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Calcinato",
+        "extract": "The Battle of Calcinato took place near Calcinato in Lombardy, Italy on 19 April 1706 during the War of the Spanish Succession. A combined French-Spanish army led by the duc de Vendôme defeated an Imperial force under Graf von Reventlow.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Calcinato"
+      },
+      "zh": {
+        "title": "卡爾奇納托之戰",
+        "extract": "卡尔奇纳托之战 是西班牙王位继承战争期间爆发的会战，战场位于今意大利卡尔奇纳托附近，交战双方分别是旺多姆公爵指挥的法国陆军与雷文特洛伯爵指挥的帝国陆军。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%8D%A1%E7%88%BE%E5%A5%87%E7%B4%8D%E6%89%98%E4%B9%8B%E6%88%B0"
+      },
+      "es": {
+        "title": "Batalla de Calcinato",
+        "extract": "La batalla de Calcinato se libró en el marco de la guerra de sucesión española en las cercanías de Calcinato, Italia, el 19 de abril de 1706, entre las tropas franco-españolas del mariscal Vendôme y las austriacas del general Reventlow. La victoria correspondió al bando franco-español.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Calcinato"
+      },
+      "fr": {
+        "title": "Bataille de Calcinato (1706)",
+        "extract": "La bataille de Calcinato est une bataille de la guerre de Succession d'Espagne, opposant l'armée franco-espagnole commandée par le duc de Vendôme à l'armée autrichienne. La bataille s'est terminée par une victoire des Franco-Espagnols.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Calcinato_(1706)"
+      }
+    }
+  },
+  "Siege of Barcelona (1706)": {
+    "pages": {
+      "en": {
+        "title": "Siege of Barcelona (1706)",
+        "extract": "The siege of Barcelona took place between 3 and 27 April 1706 during the War of the Spanish Succession when a Franco-Spanish army laid siege to Barcelona in an attempt to recapture the city following its fall to an English-led Allied army the previous year. After the Earl of Peterborough entered Valencia in triumph in January 1706, Barcelona was left vulnerable. This led the French to change the plans of attacking Valencia and try to besiege Barcelona instead, while the city was blocked from the seaside by the Count of Toulouse. The Spanish forces were led by Philip V, while René de Froulay, Comte de Tessé was placed in charge of the French land forces during the siege.",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Barcelona_(1706)"
+      },
+      "zh": {
+        "title": "巴塞隆納圍城戰 (1706年)",
+        "extract": "1706年的巴塞隆纳围城战发生于4月3日至27日间，是西班牙王位继承战争的一场战役，起因于费利佩五世率领他的法西联军，试图夺回前一年被英国领导的联军占领的巴塞隆纳。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%B7%B4%E5%A1%9E%E9%9A%86%E7%B4%8D%E5%9C%8D%E5%9F%8E%E6%88%B0_(1706%E5%B9%B4)"
+      },
+      "es": {
+        "title": "Sitio de Barcelona (1706)",
+        "extract": "El sitio de Barcelona de 1706 fue una de las batallas de la guerra de sucesión española. El 9 de octubre de 1705 Barcelona se había rendido a las fuerzas de la Gran Alianza y allí Carlos III el Archiduque había instalado su corte, por lo que Felipe V intentó recuperar la capital del Principado de Cataluña. Un ejército borbónico integrado por 18 000 hombres a las órdenes del duque de Noailles y del mariscal de Tessé inició el sitio de la ciudad el 3 de abril de 1706, mientras el propio Felipe V se instalaba en Sarriá. A finales de abril los borbónicos ya controlaban el castillo de Montjuic desde donde prepararon el asalto a la ciudad. Pero el 8 de mayo llegaba a Barcelona una flota angloholandesa compuesta por 56 barcos y con más de 10 000 hombres a bordo al mando del almirante John Leake, lo que obligó a retirarse a los borbónicos. Felipe V cruzó la frontera francesa volviendo a entrar de nuevo en España por Pamplona.",
+        "url": "https://es.wikipedia.org/wiki/Sitio_de_Barcelona_(1706)"
+      },
+      "fr": {
+        "title": "Siège de Barcelone (1706)",
+        "extract": "Le siège de Barcelone de 1706 est une bataille de la guerre de Succession espagnole.",
+        "url": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Barcelone_(1706)"
+      }
+    }
+  },
+  "Battle of Ramillies": {
+    "pages": {
+      "ko": {
+        "title": "라미예 전투",
+        "extract": "라미예 전투는 1706년 5월 23일 벌어진 스페인 왕위 계승 전쟁의 주요한 전투이다. 이 교전은 블레넘 전투로 인하여 지나치게 자신감이 넘친 동맹군이 모젤(Moselle)강가를 따라 벌인 급작스런 전역에 의해 일어났는데, 영국, 네덜란드, 덴마크 연합군의 승리로 여겨진다. 결국 이 전투로 말버러 공작(Duke of Marlborough)은 프랑스 국내로 진입한다는 자신의 계획을 포기해야 하였다. 비록 동맹군이 결정적인 승리를 거두지는 못했지만, 루이 14세(Louis XIV)는 평화를 갈구하게 되었다. 그러나 그는 일정한 조건을 얻기를 원했기 때문에, 그에 따라 프랑스군은 방어자세를 취하기보다는 오히려 앞서서 공격적인 태도를 취하게 되었다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%9D%BC%EB%AF%B8%EC%98%88_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Ramillies",
+        "extract": "The Battle of Ramillies, fought on 23 May 1706, was a battle of the War of the Spanish Succession. For the Grand Alliance – Austria, England, and the Dutch Republic – the battle had followed an indecisive campaign against the Bourbon armies of King Louis XIV of France in 1705. Although the Allies had captured Barcelona that year, they had been forced to abandon their campaign on the Moselle, had stalled in the Spanish Netherlands and suffered defeat in northern Italy. Yet despite his opponents' setbacks Louis XIV wanted peace, but on reasonable terms. Because of this, as well as to maintain their momentum, the French and their allies took the offensive in 1706.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Ramillies"
+      },
+      "zh": {
+        "title": "拉米伊之战",
+        "extract": "1706年5月23日爆发的拉米伊之战，是西班牙王位继承战争期间的一场战斗。对于大同盟成员奥地利、英格兰与荷兰共和国而言，这场战斗是在1705年对法国国王路易十四的波旁军队展开的一系列非决定性战役之后发生的。虽然同盟军在那一年占领了巴塞罗那，但他们被迫放弃了在摩泽尔河的战线、在西属尼德兰受阻并在意大利北部战败。尽管对手遭受挫折，路易十四仍然希望达成和平，但条件必须是合理的。因此，为了保持他们的势头，法国及其盟友在1706年发动了攻势。",
+        "url": "https://zh.wikipedia.org/wiki/%E6%8B%89%E7%B1%B3%E4%BC%8A%E4%B9%8B%E6%88%98"
+      },
+      "es": {
+        "title": "Batalla de Ramillies",
+        "extract": "La batalla de Ramillies se libró el 23 de mayo de 1706 en el pueblo de Ramillies, unos 15 km al norte de Namur, en la actual Bélgica, durante la campaña de la guerra de sucesión española por el control de los llamados Países Bajos Españoles o Flandes. En ella se enfrentaron un ejército anglo-germano-holandés bajo el mando de John Churchill, primer duque de Marlborough, contra un ejército francés comandado por François de Neufville, duque de Villeroy o Villeroi. La victoria de Marlborough supuso la expulsión de las fuerzas francesas de Flandes y la posterior captura de Amberes, Brujas y Gante.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Ramillies"
+      },
+      "ar": {
+        "title": "معركة رامييه",
+        "extract": "معركة رامييه هي معركة دارت أحداثها في 23 مايو عام 1706، وكانت جزءًا من حرب الخلافة الإسبانية. بنظر التحالف الكبير المؤلف من النمسا وإنجلترا والجمهورية الهولندية، جاءت المعركة عقب حملة عسكرية حاسمة عام 1705 ضد جيوش الملك الفرنسي لويس الرابع عشر من آل بوربون. استولت دول التحالف على برشلونة في ذلك العام، لكنها اضطرت إلى التخلي عن حملتها بعد الوصول إلى نهر موزيل، وتعثرت مجددًا في الأراضي المنخفضة الإسبانية، وعانت من هزيمةٍ في شمال إيطاليا. على الرغم من العقبات التي واجهت أعداء لويس الرابع عشر، أراد الملك تحقيق السلام وفق شروط منطقية ومقبولة بنظره. جراء ذلك، ورغبة في الحفاظ على الزخم، قرر الفرنسيون وحلفاؤهم خوض المعركة عام 1706.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%B1%D8%A7%D9%85%D9%8A%D9%8A%D9%87"
+      },
+      "fr": {
+        "title": "Bataille de Ramillies",
+        "extract": "La bataille de Ramillies, livrée le 23 mai 1706 près de Ramillies en Belgique actuelle, est l'un des engagements majeurs de la guerre de Succession d'Espagne. Elle est un succès retentissant pour la coalition alliée, constituée par la république des Provinces-Unies, le Royaume d'Angleterre et leurs « auxiliaires » danois sur l'armée franco-bavaroise. Elle fait suite à une année de campagnes indécises en 1705 au cours de laquelle l'excès de confiance de la coalition et les hésitations bataves après le succès de Blenheim aboutissent à une campagne infructueuse le long de la Moselle qui contraint le duc de Marlborough à renoncer à son plan de campagne en France. Cependant, en dépit de l'incapacité des Alliés d'emporter un succès décisif, Louis XIV souhaite ardemment la paix, mais il la veut toutefois à des conditions raisonnables. Dès lors, plutôt que de rester sur la défensive, les armées françaises passent à l'attaque sur tous les fronts.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Ramillies"
+      },
+      "pt": {
+        "title": "Batalha de Ramillies",
+        "extract": "A Batalha de Ramillies, foi disputada no dia 23 de maio de 1706, no curso da Guerra de Sucessão Espanhola. Nela os franceses, comandados pelo Duque de Villeroy, foram derrotados pelos aliados ingleses, holandeses e alemães, comandados por John Churchill, 1.° Duque de Marlborough.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Ramillies"
+      }
+    }
+  },
+  "Siege of Turin": {
+    "pages": {
+      "ko": {
+        "title": "토리노 전투",
+        "extract": "토리노 전투(스페인어: Asedio de Turín)는 1706년 9월 7일 스페인 왕위 계승 전쟁 중, 토리노 시의 서부에서 벌어진 전투이다. 이는 사부아 공자 외젠(Prince Eugene of Savoy)과 사보이아 공작 비토리오 아메데오 2세(Duke Victor Amadeus II of Savoy)(전쟁의 종결 후에 위트레흐트 조약에 의해 시칠리아 왕으로 선언되었다.) 휘하의 동맹군이 얻은 결정적인 승리로, 프랑스의 토리노 공성은 해소되었고, 프랑스군은 북부 이탈리아에서 퇴각하기 시작했다.",
+        "url": "https://ko.wikipedia.org/wiki/%ED%86%A0%EB%A6%AC%EB%85%B8_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Siege of Turin",
+        "extract": "The Siege of Turin, June to September 1706, took place during the War of the Spanish Succession. A French army led by Louis de la Feuillade besieged the Savoyard capital of Turin, whose relief by Prince Eugene of Savoy has been called the most brilliant campaign of the war in Italy. The siege is also famous for the death of Piedmontese hero Pietro Micca.",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Turin"
+      },
+      "zh": {
+        "title": "都靈圍城戰",
+        "extract": "都灵围城战 发生于1706年5月14日-9月7日，是西班牙王位继承战争期间法国军队围攻萨伏依公国城市都灵的战役。法军在奥尔良公爵腓力二世和拉弗亚德公爵路易·奥布松领军下包围了都灵，但因为守军的顽强抵抗使得法军屡攻不下。9月7日欧根亲王率军救援，大败围城的法军，都灵解除围城。法军损失惨重并开始往北撤出义大利，再加上先前拉米伊之战的惨败，1706年对路易十四和法国而言是“可怕的一年”。",
+        "url": "https://zh.wikipedia.org/wiki/%E9%83%BD%E9%9D%88%E5%9C%8D%E5%9F%8E%E6%88%B0"
+      },
+      "es": {
+        "title": "Sitio de Turín (1706)",
+        "extract": "El asedio de Turín de 1706 tuvo lugar con el cerco a la ciudadela fortificada piamontesa por parte del ejército franco-español durante el curso de los acontecimientos bélicos de la guerra de sucesión española, a cuya conclusión se firmó el Tratado de Utrecht (1713) que reconocía a Víctor Amadeo II, duque de Saboya, como el primer rey de su dinastía.",
+        "url": "https://es.wikipedia.org/wiki/Sitio_de_Tur%C3%ADn_(1706)"
+      },
+      "ar": {
+        "title": "حصار تورينو",
+        "extract": "حصار تورينو : وقع حصار تورينو في أيار/مايو 1706 خلال حرب الخلافة الإسبانية، عندما هاجم ما يقرب من 44,000 جندي فرنسي-إسباني قلعة تورينو والتي كان يحميها حوالي 10,500 جندي من سافوي، والذين دافعوا عنها ببسالة حتى 7 سبتمبر تحت قيادة الأمير يوجين والدوق فيتوريو أميديو الثاني حتى أجبروا العدو على الانسحاب. استمر الحصار 117 يوما، وانتهى بتوقيع معاهدة أوتريخت لعام 1713 ومعاهدة راستات عام 1714، وأصبح الدوق فيتوريو أميديو الثاني أول حاكم من سافوي.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%AD%D8%B5%D8%A7%D8%B1_%D8%AA%D9%88%D8%B1%D9%8A%D9%86%D9%88"
+      },
+      "fr": {
+        "title": "Bataille de Turin (1706)",
+        "extract": "Dans le contexte de la guerre de Succession d'Espagne, la bataille de Turin mit un terme au siège entrepris par les Français depuis le 14 mai 1706, et remit en cause la campagne d'invasion de la Savoie et du Piémont entreprise par les armées de Louis XIV. Le prince Eugène de Savoie-Carignan et le duc Victor-Amédée II de Savoie parvinrent à libérer la ville en infligeant à l'assiégeant des pertes telles que les Français durent se retirer du Piémont.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Turin_(1706)"
+      },
+      "pt": {
+        "title": "Cerco de Turim",
+        "extract": "O cerco de Turim ocorreu em 1706 durante a Guerra da Sucessão Espanhola. Mais de 44 000 soldados franceses cercaram a cidadela de Torino defendida por cerca de 10 500 soldados saboianos que lutaram de 14 de maio a 7 de setembro, quando o exército imperial, comandado pelo príncipe Eugênio de Sabóia e pelo duque Vittorio Amedeo II, após cruzar todo o Vale do Pó se envolveu na batalha e forçou os inimigos a levantar o cerco.",
+        "url": "https://pt.wikipedia.org/wiki/Cerco_de_Turim"
+      }
+    }
+  },
+  "Battle of Almansa": {
+    "pages": {
+      "ko": {
+        "title": "알만사 전투",
+        "extract": "알만사 전투는 1707년 4월 25일 스페인 왕위 계승 전쟁에서 가장 결정적인 전투 중 하나이다. 알만사(Almansa)에서 베릭(Berwick)휘하의 프랑스-스페인 연합군은 골웨이 경(Earl of Galway) 휘하의 포르투갈 제국, 그레이트 브리튼, 그리고 네덜란드 공화국의 연합군을 격파하여 스페인의 동부지방이 부르봉의 땅임을 선언하였다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%95%8C%EB%A7%8C%EC%82%AC_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Almansa",
+        "extract": "The Battle of Almansa took place on 25 April 1707, during the War of the Spanish Succession. It was fought between an army loyal to Philip V of Spain, Bourbon claimant to the Spanish throne, and one supporting his Habsburg rival, Archduke Charles of Austria. The result was a decisive Bourbon victory that reclaimed most of eastern Spain for Philip.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Almansa"
+      },
+      "zh": {
+        "title": "阿爾曼薩之戰",
+        "extract": "阿尔曼萨之战发生于1707年4月25日，是西班牙王位继承战争的一场会战，交战双方分别为波旁王室的王位宣称者腓力五世，以及其对手哈布斯堡的查理大公。这场会战最终由波旁王室获得胜利，并让腓力几乎重夺整个东西班牙。",
+        "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E7%88%BE%E6%9B%BC%E8%96%A9%E4%B9%8B%E6%88%B0"
+      },
+      "es": {
+        "title": "Batalla de Almansa",
+        "extract": "La batalla de Almansa se produjo durante el conflicto internacional de la guerra de sucesión española el 25 de abril de 1707 en Almansa. En el enfrentamiento, las tropas de Felipe de Anjou, mandadas por el duque de Berwick, derrotaron a las del archiduque Carlos de Austria, comandadas por Henri de Massue y el Marqués das Minas. La batalla no fue decisiva para el fin del conflicto internacional, pero sí abrió las puertas hacia el reino de Valencia que, como consecuencia de esta batalla, fue ocupado por las tropas borbónicas ; después sus fueros quedaron abolidos, junto con los de Aragón, tras la publicación de los Decretos de Nueva Planta.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Almansa"
+      },
+      "ar": {
+        "title": "معركة المنسى",
+        "extract": "مَعْرَكة المَنسى، دَارَتْ رَحَاها يَوم 25 أبريل 1707، أثناء حَرب الخِلافة الإسبانية. بينَ جَيش موالٍ للبوربون المُطالب بالعَرش الإسباني فيليب الخامس، تحتَ قيادة دوقْ بيرويك، الابن غَير الشَرعي لجيمس الثاني ملك إنجلترا، وجَيش يدعم مُنافسه منَ الهابسبورغ، أرشيدوق النمسا كارل السادس تحتَ قيادة إيرل غالواي، وهو فرنسي هوغونوتيون منفي. وهذا يَجعل مَعْرَكة المَنسى «المَعركة الوحيدة على الأرجح في التاريخ التي كانَت فيها القوات الإنجليزية يقودها فرنسي، بينما يقود الفرنسيون رجل إنجليزي». كانت النتيجة انتصارًا حاسمًا لفيليب الخامس استعاد البوربون على أثرها مُعظم شرق إسبانيا.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%A7%D9%84%D9%85%D9%86%D8%B3%D9%89"
+      },
+      "fr": {
+        "title": "Bataille d'Almansa",
+        "extract": "La bataille d'Almansa est une bataille de la guerre de Succession d'Espagne qui s'est déroulée en 1707 à Almansa en Espagne. Pour l'anecdote, elle fut décrite comme « probablement la seule bataille dans l'histoire dans laquelle les troupes anglaises étaient commandées par un Français, et les Français par un Anglais ».",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_d'Almansa"
+      },
+      "pt": {
+        "title": "Batalha de Almansa",
+        "extract": "A Batalha de Almansa, travada em 25 de abril de 1707, foi um dos combates mais decisivos da Guerra da Sucessão Espanhola. Em Almansa, o exército franco-espanhol, sob o comando do duque de Berwick derrotou as forças aliadas de Portugal, Grã-Bretanha e das Províncias Unidas liderada por Henri de Massue, I Conde de Galway, recuperando a maior parte do leste da Espanha para os Bourbons.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Almansa"
+      }
+    }
+  },
+  "Siege of Xàtiva (1707)": {
+    "pages": {
+      "en": {
+        "title": "Siege of Xàtiva (1707)",
+        "extract": "The Siege of Xàtiva was a siege of Xàtiva in the Kingdom of Valencia. It took place between 8 May and 6 June 1707 during the War of the Spanish Succession.",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_X%C3%A0tiva_(1707)"
+      },
+      "es": {
+        "title": "Sitio de Játiva (1707)",
+        "extract": "El asedio de Játiva fue uno de los episodios de la guerra de sucesión española en el Reino de Valencia. Tuvo lugar entre el 8 de mayo y el 6 de junio de 1707. Entre 9000 y 11 000 castellanos y franceses bajo el mando de Felipe de Borbón y dirigidas por Claude François Bidal d'Asfeld y José Antonio de Chaves Osorio se enfrentaron a un ejército aragonés y otro británico con unos 2000 hombres bajo el mando de Miguel Purroi y Josep Marco. Las fuerzas franco-castellanas salieron victoriosas y los defensores de la ciudad fueron sometidos a un castigo ejemplar. La mayoría del resto de los habitantes de la ciudad fueron deportados a la región de La Mancha y la ciudad fue incendiada y renombrada como «San Felipe». En referencia a este episodio en su historia, los habitantes de Játiva son apodados «socarrats».",
+        "url": "https://es.wikipedia.org/wiki/Sitio_de_J%C3%A1tiva_(1707)"
+      },
+      "fr": {
+        "title": "Siège de Xàtiva",
+        "extract": "Le siège de Xàtiva, dans le Royaume de Valence, se déroula du 8 mai au 6 juin 1707 pendant la guerre de Succession d'Espagne. Les troupes de Philippe de Bourbon, futur Philippe V d'Espagne, y furent victorieuses.",
+        "url": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_X%C3%A0tiva"
+      }
+    }
+  },
+  "Action of 2 May 1707": {
+    "pages": {
+      "en": {
+        "title": "Action of 2 May 1707",
+        "extract": "The action of 2 May 1707, also known as Beachy Head, was a naval battle of the War of the Spanish Succession in which a French squadron under Claude de Forbin intercepted a large British convoy escorted by three ships of the line, under Commodore Baron Wylde. The action began when three French ships, the Grifon, Blackoal and Dauphine, grappled HMS Hampton Court, killing her captain, George Clements, and taking her. Claude Forbin's 60-gun Mars next attacked HMS Grafton and, when joined by the French ships Blackoal and Fidèle, killed the Captain Edward Acton, and took her too. The convoy was scattered and the last British escort, HMS Royal Oak, badly hit and with 12 feet of water in her wells, managed to escape by running ashore near Dungeness, from where she was carried the next day into the Downs.",
+        "url": "https://en.wikipedia.org/wiki/Action_of_2_May_1707"
+      },
+      "es": {
+        "title": "Acción del 2 de mayo de 1707",
+        "extract": "La acción del 2 de mayo de 1707, también conocida como acción de Beachy Head, fue una batalla naval de la guerra de sucesión española en la que un escuadrón francés bajo el mando de Claude de Forbin interceptó un gran convoy británico escoltado por tres barcos de línea, bajo el mando del comodoro Barón Wylde. La acción comenzó cuando tres barcos franceses, el Grifon, el Blackoal y el Dauphine se enfrentaron al HMS Hampton Court, mataron a su capitán, George Clements, y se la llevaron. El Marte de 60 cañones de Claude Forbin atacó HMS Grafton y, cuando se unió a los barcos franceses Blackoaly Fidèle, mató al capitán Edward Acton y se la llevó también. El convoy fue dispersado y el último buque escolta británico, el HMS Royal Oak, tocado gravemente y con cuatro metros de agua en su sentina, logró escapar hacia la costa cerca de Dungeness, desde donde fue llevada al día siguiente a los Downs.",
+        "url": "https://es.wikipedia.org/wiki/Acci%C3%B3n_del_2_de_mayo_de_1707"
+      },
+      "fr": {
+        "title": "Bataille du cap Béveziers (1707)",
+        "extract": "La bataille du cap Béveziers ou bataille de Beachy Head est une bataille navale opposant, le 2 mai 1707, au cours de la guerre de Succession d'Espagne, une flotte française commandée par Claude de Forbin à un convoi anglais et son escorte commandé par le Baron Wylde. L'affrontement se solde par une large victoire française, avec la prise de deux des trois vaisseaux de l'escorte et de 21 des 52 navires marchands.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_du_cap_B%C3%A9veziers_(1707)"
+      }
+    }
+  },
+  "Siege of Gaeta (1707)": {
+    "pages": {
+      "en": {
+        "title": "Siege of Gaeta (1707)",
+        "extract": "The  siege of Gaeta was a three-month siege of the Italian city of Gaeta in 1707 by the forces of the Austrian monarchy under Wirich Philipp von Daun, during the War of the Spanish Succession. It ended on 30 September with the total destruction of the city's historic fortifications.",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Gaeta_(1707)"
+      },
+      "es": {
+        "title": "Sitio de Gaeta (1707)",
+        "extract": "El sitio de Gaeta tuvo lugar desde julio hasta el 30 de septiembre de 1707 durante la guerra de sucesión española. Las tropas austriacas del conde Daun tomaron la ciudad después de tres meses de asedio. Las fortificaciones de la ciudad fueron destruidas por completo. Con su toma, todo el Reino de Nápoles quedaba en manos de las tropas austriacas.",
+        "url": "https://es.wikipedia.org/wiki/Sitio_de_Gaeta_(1707)"
+      },
+      "fr": {
+        "title": "Siège de Gaeta (1707)",
+        "extract": "Le siège de Gaeta ou Gaète eut lieu de juillet 1707 au 30 septembre 1707 pendant la guerre de Succession d'Espagne. Les troupes autrichiennes du comte de Daun prirent la ville au terme de 3 mois de siège. Les fortifications de la ville furent totalement détruites. Portail de l’histoire militaire   Portail du XVIIIe siècle   Portail de l’Italie   Portail de l’Espagne   Portail de l'Autriche   Portail du royaume de France",
+        "url": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Gaeta_(1707)"
+      }
+    }
+  },
+  "Siege of Toulon (1707)": {
+    "pages": {
+      "ko": {
+        "title": "툴롱 전투 (1707년)",
+        "extract": "툴롱 전투는 스페인 왕위 계승 전쟁의 전투 중 하나로 프랑스 남부 툴롱에서 1707년 7월 29일 시작하여 1707년 8월 21일 종결되었다. 프랑스, 스페인군과 싸우기 위해 네덜란드 공화국, 영국군, 사보이아 공국군과 연합한 오스트리아군은 프랑스와 교전하여 패배하였다.",
+        "url": "https://ko.wikipedia.org/wiki/%ED%88%B4%EB%A1%B1_%EC%A0%84%ED%88%AC_(1707%EB%85%84)"
+      },
+      "en": {
+        "title": "Siege of Toulon (1707)",
+        "extract": "The siege of Toulon took place between 29 July and 21 August 1707 during the War of the Spanish Succession, when a combined Savoyard-Imperial army supported by a British naval force, attacked the French base at Toulon.",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Toulon_(1707)"
+      },
+      "zh": {
+        "title": "土倫圍城戰 (1707年)",
+        "extract": "1707年的土伦战役是西班牙王位继承战争中的一场战役，发生于当年7月29日至8月21日的土伦港。战役的结果是法西联军击败了由奥地利、荷兰共和国、萨伏依及大不列颠组成的盟军。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%9C%9F%E5%80%AB%E5%9C%8D%E5%9F%8E%E6%88%B0_(1707%E5%B9%B4)"
+      },
+      "es": {
+        "title": "Sitio de Tolón (1707)",
+        "extract": "El asedio de Tolón duró del 29 de julio al 21 de agosto de 1707 en el marco de la guerra de sucesión española. Las fuerzas aliadas hubieron de levantar el asedio sin conseguir capturar la ciudad.",
+        "url": "https://es.wikipedia.org/wiki/Sitio_de_Tol%C3%B3n_(1707)"
+      },
+      "fr": {
+        "title": "Siège de Toulon (1707)",
+        "extract": "Le siège de Toulon eut lieu du 29 juillet au 21 août 1707 pendant la guerre de Succession d'Espagne.",
+        "url": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Toulon_(1707)"
+      },
+      "pt": {
+        "title": "Cerco de Toulon (1707)",
+        "extract": "O cerco de Toulon ocorreu entre 29 de julho e 21 de agosto de 1707, durante a Guerra da Sucessão Espanhola, quando um exército combinado saboiano [en]-imperial apoiado por uma força naval britânica atacou a base francesa em Toulon.",
+        "url": "https://pt.wikipedia.org/wiki/Cerco_de_Toulon_(1707)"
+      }
+    }
+  },
+  "Battle at The Lizard": {
+    "pages": {
+      "en": {
+        "title": "Battle at The Lizard",
+        "extract": "The Battle at The Lizard took place on 21 October 1707 during the War of the Spanish Succession near Lizard Point, Cornwall between two French squadrons under René Duguay-Trouin and Claude de Forbin and a British convoy protected by a squadron under Commodore Richard Edwards. Duguay-Trouin and Forbin were two of the most successful French naval commanders and they caused much damage to the British merchant fleet.",
+        "url": "https://en.wikipedia.org/wiki/Battle_at_The_Lizard"
+      },
+      "es": {
+        "title": "Batalla del cabo Lizard",
+        "extract": "La batalla del cabo Lizard fue un combate naval que tuvo lugar el 21 de octubre de 1707 durante la guerra de sucesión española cerca del cabo Lizard en Cornualles. En la batalla se enfrentaron dos escuadrones navales franceses mandados por René Duguay-Trouin y Claude de Forbin y un convoy inglés escoltado por un escuadrón bajo las órdenes del comodoro Richar Edwards.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_del_cabo_Lizard"
+      },
+      "fr": {
+        "title": "Bataille du cap Lizard",
+        "extract": "La bataille du cap Lizard également connue sous le nom de désastre du convoi du Portugal est une bataille navale livrée pendant la guerre de Succession d'Espagne, le 21 octobre 1707. Elle oppose une flotte française, commandée par Claude de Forbin et René Duguay-Trouin, à l'escorte anglaise d'un important convoi emmenant des renforts à destination de Lisbonne et sous les ordres du commodore Richard Edwards. Les Anglais sont battus à l'issue d'un affrontement difficile et le convoi ne peut ravitailler le corps expéditionnaire anglais présent au Portugal.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_du_cap_Lizard"
+      }
+    }
+  },
+  "Battle of Oudenarde": {
+    "pages": {
+      "ko": {
+        "title": "오우데나르데 전투",
+        "extract": "오우데나르데 전투(Battle of Oudenarde)는 1708년 7월 11일 영국, 네덜란드, 신성로마제국군이 한 편을 이루고 프랑스가 그 반대편에 서서 벌인 스페인 왕위 계승 전쟁의 중요한 전투이다. 이 전투는 벨기에의 오우데나르데에서 벌어졌고, 동맹군의 결정적인 승리가 되었다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%98%A4%EC%9A%B0%EB%8D%B0%EB%82%98%EB%A5%B4%EB%8D%B0_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Oudenarde",
+        "extract": "The Battle of Oudenarde, also known as the Battle of Oudenaarde, was a major engagement of the War of the Spanish Succession, pitting an Anglo-Dutch force consisting of eighty thousand men under the command of the Duke of Marlborough, Lord Overkirk and Prince Eugene of Savoy against a French force of eighty-five thousand men under the command of the Duc de Bourgogne and the Duc de Vendôme, the battle resulting in a great victory for the Grand Alliance. The battle was fought near the city of Oudenaarde, at the time part of the Spanish Netherlands, on 11 July 1708. With this victory, the Grand Alliance ensured the fall of various French territories, giving them a significant strategic and tactical advantage during this stage of the war. The battle was fought in the later years of the war, a conflict that had come about as a result of English, Dutch and Habsburg apprehension at the possibility of a Bourbon succeeding the deceased King of Spain, Charles II, and combining their two nations and empires into one.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Oudenarde"
+      },
+      "zh": {
+        "title": "奧德納爾德之戰",
+        "extract": "奥德纳德之战是西班牙王位继承战争期间的一场会战，交战一方是第一代马尔博罗公爵约翰·丘吉尔和欧根亲王指挥下的8万奥格斯堡同盟军队，另一方是在勃艮第公爵路易和路易·约瑟夫·德·旺多姆指挥下的法国八万五千人军队，最终奥格斯堡同盟获胜。这场战斗于1708年7月11日在西属尼德兰奥德纳尔德附近打响。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%A5%A7%E5%BE%B7%E7%B4%8D%E7%88%BE%E5%BE%B7%E4%B9%8B%E6%88%B0"
+      },
+      "es": {
+        "title": "Batalla de Oudenarde",
+        "extract": "La batalla de Oudenarde se libró el 11 de julio de 1708 cerca de esta población en Bélgica en el marco de la guerra de sucesión española.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Oudenarde"
+      },
+      "fr": {
+        "title": "Bataille d'Audenarde (1708)",
+        "extract": "La bataille d'Audenarde est une bataille de la guerre de Succession d'Espagne qui eut lieu aux abords de la ville flamande du même nom, en Belgique, le 11 juillet 1708. L'armée française du duc de Vendôme y fut battue par les Impériaux du prince Eugène et les Anglais du duc de Marlborough.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_d'Audenarde_(1708)"
+      },
+      "pt": {
+        "title": "Batalha de Oudenaarde",
+        "extract": "A Batalha de Oudenaarde, foi um grande confronto da Guerra da Sucessão Espanhola, colocando uma força anglo-holandesa composta por oitenta mil homens sob o comando do Duque de Marlborough, de Henrique de Nassau, Lorde Overkirk, e do Príncipe Eugênio de Sabóia contra uma força francesa de oitenta e cinco mil homens sob o comando do Duque da Borgonha e do Duque de Vendôme, resultando a batalha numa expressiva vitória para a Grande Aliança. A batalha foi travada perto da cidade de Oudenaarde, naquela época parte dos Países Baixos Espanhóis, em 11 de julho de 1708. Com esta vitória, a Grande Aliança garantiu a queda de vários territórios franceses, dando-lhes uma vantagem estratégica e tática significativa durante esta fase da guerra. A batalha foi travada nos últimos anos da guerra, conflito que surgiu como resultado da apreensão do Reino de Inglaterra, da República Holandesa e dos Habsburgo com a possibilidade da Casa de Bourbon francesa suceder o falecido Rei de Espanha, Carlos II, combinando as suas duas nações e impérios num só.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Oudenaarde"
+      }
+    }
+  },
+  "Siege of Lille (1708)": {
+    "pages": {
+      "ko": {
+        "title": "릴 공성전 (1708년)",
+        "extract": "릴 공성전은 1708년 8월 12일 - 12월 10일에 걸쳐 벌어진 스페인 왕위 계승 전쟁 중기의 전투이다. 보방에 의해 축성된 방어력과 화력이 뛰어난 요새인 릴에 농성하던 프랑스군에 대해 말버러 공작이 이끄는 동맹군은 사방을 포위하고 장기적인 포위망을 구축했다. 요새를 구원하러 달려온 프랑스 구원군을 기동전술로 격파한 뒤 동맹군의 보급로를 확보하여 충분한 화력을 보충한 후 요새를 위협해 항복시켰다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%A6%B4_%EA%B3%B5%EC%84%B1%EC%A0%84_(1708%EB%85%84)"
+      },
+      "en": {
+        "title": "Siege of Lille (1708)",
+        "extract": "The siege of Lille was the main operation of the 1708 campaign season during the War of the Spanish Succession. Following their victory in the Battle of Oudenaarde, the Allies decided to besiege Lille, an important French city and perhaps the strongest fortress in Europe. After an obstinate defence of 120 days, the French garrison surrendered the city and citadel of Lille, commanded by Marshal Boufflers, to the forces of the Duke of Marlborough and Prince Eugene of Savoy.",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Lille_(1708)"
+      },
+      "es": {
+        "title": "Sitio de Lille (1708)",
+        "extract": "El sitio de Lille fue un asedio que ocurrió en la ciudad francesa de Lille en 1708 durante la guerra de sucesión española.",
+        "url": "https://es.wikipedia.org/wiki/Sitio_de_Lille_(1708)"
+      },
+      "fr": {
+        "title": "Siège de Lille (1708)",
+        "extract": "Le siège de Lille a lieu durant la guerre de Succession d'Espagne : les armées Impériales prennent la ville française après un siège inhabituellement long et au prix de pertes considérables. La route de Paris est désormais ouverte à l'invasion, mais la nécessité de consolider les conquêtes en Flandre et l'imminence de l'hiver imposent de reporter la suite des opérations au printemps 1709.",
+        "url": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Lille_(1708)"
+      }
+    }
+  },
+  "Battle of Wijnendale": {
+    "pages": {
+      "en": {
+        "title": "Battle of Wijnendale",
+        "extract": "The Battle of Wijnendale took place during the War of the Spanish Succession fought on 28 September 1708 near Wijnendale, Flanders, between an allied force protecting a convoy carrying ammunition for the Siege of Lille (1708) and forces of Bourbon France and Spain. It ended in a victory for the allies, leading to the taking of Lille.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Wijnendale"
+      },
+      "es": {
+        "title": "Batalla de Wijnendale",
+        "extract": "La batalla de Wijnendale fue un conflicto militar que tuvo lugar el 28 de septiembre de 1708, cerca de Wijnendale entre las fuerzas británicas que protegían un convoy de reavituallamiento destinado al sitio de Lille, y las fuerzas borbonicas franco-españolas, durante la guerra de sucesión española.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Wijnendale"
+      },
+      "fr": {
+        "title": "Bataille de Wynendaele",
+        "extract": "La bataille de Wynendaele ou parfois bataille de Wijnendale, Winendaël ou de Wynendale eut lieu le 28 septembre 1708, près de Wynendaele entre les forces britanniques protégeant un convoi de ravitaillement destiné au siège de Lille et les forces franco-espagnoles, durant la guerre de Succession d'Espagne.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Wynendaele"
+      }
+    }
+  },
+  "Battle of La Gudiña": {
+    "pages": {
+      "en": {
+        "title": "Battle of La Gudiña",
+        "extract": "The Battle of La Gudiña, Battle of Val Gudina, or Battle of Campo Maior, was fought on 7 May 1709 near Arronches between the Spanish Bourbon army of Extremadura, under the Marquis de Bay, and the Portuguese and British, under the Huguenot Earl of Galway and the Marquis of Fronteira. This battle resulted in a crushing defeat for the Anglo-Portuguese army, 4,000-5,000 soldiers were killed, wounded or captured, while the Spanish had only 400 soldiers dead or wounded.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_La_Gudi%C3%B1a"
+      },
+      "es": {
+        "title": "Batalla de La Gudiña",
+        "extract": "La batalla de La Gudiña, conocida en Portugal como batalla de Caya, fue un enfrentamiento ocurrido el 7 de mayo de 1709 cerca de la localidad portuguesa de Arronches, en la frontera hispano-portuguesa, entre tropas borbónicas españolas al mando de Alexandre Maître, Marqués de Bay y un ejército anglo-portugués comandado por el conde de Galway y el marqués de Fronteira. El choque tuvo como resultado una derrota anglo-portuguesa con cerca de 2000 a 3000 bajas entre muertos, heridos y prisioneros contra los 400 soldados españoles muertos o heridos, de acuerdo con las fuentes españolas y portuguesas contemporáneas o casi contemporáneas. Los ingleses representaron el grueso de las pérdidas.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_La_Gudi%C3%B1a"
+      },
+      "fr": {
+        "title": "Bataille de la Gudiña",
+        "extract": "La bataille de la Gudiña est un conflit militaire de la Guerre de Succession d'Espagne, qui se déroula le 7 mai 1709, dans la plaine de la Gudiña, près de Campo Maior sur les rives de la rivière Caya, et vit s'affronter une armée anglo-portugaise, qui faisait mouvement depuis le Portugal en direction de Madrid, à une armée espagnole, qui en sortit vainqueur.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_la_Gudi%C3%B1a"
+      }
+    }
+  },
+  "Battle of Malplaquet": {
+    "pages": {
+      "ko": {
+        "title": "말플라크 전투",
+        "extract": "말플라크 전투는 1709년 9월 11일 일어난 스페인 왕위 계승 전쟁의 전투 중 하나로 부르봉 왕가의 프랑스-스페인 연합군에 대항하여, 합스부르크 제국과 영국, 그리고 네덜란드의 동맹이 벌인 전투이다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%A7%90%ED%94%8C%EB%9D%BC%ED%81%AC_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Malplaquet",
+        "extract": "The Battle of Malplaquet, 11 September 1709, was fought during the War of the Spanish Succession, near Taisnières-sur-Hon, close to the then border between France and Belgium. A French army of around 75,000 men, commanded by the Duke of Villars, engaged a Grand Alliance force of 86,000 under the Duke of Marlborough. In one of the bloodiest battles of the 18th century, the Allies won a narrow victory, but suffered heavy casualties.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Malplaquet"
+      },
+      "zh": {
+        "title": "馬爾普拉凱之戰",
+        "extract": "马尔普拉凯之战发生于1709年9月11日，属西班牙王位继承战争，交战双方分别是维拉尔公爵率领的法军与马尔博罗公爵领导的大同盟军。作为18世纪最血腥的会战之一，联军以微弱优势取胜，但承受重大伤亡，且法军也还是能有秩序地撤走。",
+        "url": "https://zh.wikipedia.org/wiki/%E9%A6%AC%E7%88%BE%E6%99%AE%E6%8B%89%E5%87%B1%E4%B9%8B%E6%88%B0"
+      },
+      "es": {
+        "title": "Batalla de Malplaquet",
+        "extract": "La batalla de Malplaquet se libró el 11 de septiembre de 1709 en el marco de la guerra de sucesión española, en la actual población de Taisnières-sur-Hon. Tropas de Francia fueron vencidas por las de la Alianza —compuesta por Austria, Inglaterra y Holanda— al mando del Duque de Marlborough y el Príncipe Eugenio de Saboya.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Malplaquet"
+      },
+      "ar": {
+        "title": "معركة مالبلاكيت",
+        "extract": "مَعْرَكة مَالبلاكِيت، دَارَتْ رَحَاها يَوم 11 سِبتَمبر 1709 أثناء حَرب الخِلافة الإسبانية بينَ الجَيش الفَرنسي بقيادة دُّوق فَيلارس وَقوات التَحالف الكَبير تَحتَ قيادة دُّوق مارلبورو، في واحِدة من أكثر المَعارك دَموية في القُرن الثامِن عَشر، كانَت المَعركة نَصراً بيروسياً للحُلفاء، بَينما تَمكنَ الفَرَنسيون منَ الانسِحاب بِشَكل مُمَنهج.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D9%85%D8%A7%D9%84%D8%A8%D9%84%D8%A7%D9%83%D9%8A%D8%AA"
+      },
+      "fr": {
+        "title": "Bataille de Malplaquet",
+        "extract": "La bataille de Malplaquet eut lieu le 11 septembre 1709 au cours de la guerre de Succession d'Espagne au sud de Mons dans les Pays-Bas espagnols.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Malplaquet"
+      },
+      "pt": {
+        "title": "Batalha de Malplaquet",
+        "extract": "A Batalha de Malplaquet ocorreu em 11 de setembro de 1709 durante a Guerra da Sucessão Espanhola, perto de Taisnières-sur-Hon, na França moderna, então parte dos Países Baixos espanhóis. Um exército francês de cerca de 75 000 homens, comandado pelo Duque de Villars, enfrentou uma força da Grande Aliança de 86 000 homens sob o comando do Duque de Marlborough. Numa das batalhas mais sangrentas do século XVIII, os Aliados obtiveram uma vitória estreita, mas sofreram pesadas baixas.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Malplaquet"
+      }
+    }
+  },
+  "Battle of Almenar": {
+    "pages": {
+      "ko": {
+        "title": "알메나라 전투",
+        "extract": "알메나라 전투는 1710년 7월 27일 벌어진 스페인 왕위 계승 전쟁의 전투 중 하나이다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%95%8C%EB%A9%94%EB%82%98%EB%9D%BC_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Almenar",
+        "extract": "The Battle of Almenar took place near Balaguer in Catalonia, on 27 July 1710, during the War of the Spanish Succession.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Almenar"
+      },
+      "es": {
+        "title": "Batalla de Almenar (1710)",
+        "extract": "La Batalla de Almenar fue un enfrentamiento dentro de la guerra de sucesión española que tuvo lugar el 27 de julio de 1710, en la localidad leridana homónima. El combate aconteció en el marco de la última ofensiva de los partidarios del archiduque Carlos contra las tropas de Felipe V de España.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Almenar_(1710)"
+      },
+      "fr": {
+        "title": "Bataille d'Almenar",
+        "extract": "La bataille d'Almenar est un épisode de la guerre de Succession d'Espagne qui eut lieu le 27 juillet 1710. Elle opposa les troupes de Philippe V à celles de l'archiduc Charles. Les armées de Philippe V, vaincues, durent évacuer la Catalogne et se replier sur l'Èbre.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_d'Almenar"
+      },
+      "pt": {
+        "title": "Batalha de Almenar",
+        "extract": "A batalha de Almenar aconteceu em 27 de julho de 1710 durante a Guerra de Sucessão Espanhola e marcou a última ofensiva dos partidários do arquiduque Carlos contra as tropas de Felipe de Bourbon.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Almenar"
+      }
+    }
+  },
+  "Battle of Saragossa": {
+    "pages": {
+      "ko": {
+        "title": "사라고사 전투",
+        "extract": "사라고사 전투(스페인어:Zaragoza)는 1710년 8월 20일에 발발한 스페인 왕위 계승 전쟁의 전투 중 하나이다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%82%AC%EB%9D%BC%EA%B3%A0%EC%82%AC_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Saragossa",
+        "extract": "The Battle of Saragossa, 20 August 1710, took place during the War of the Spanish Succession, near Zaragoza in Spain. A slightly inferior Franco-Bourbon Spanish army commanded by the Marquis de Bay was severely defeated by a Grand Alliance force under Guido Starhemberg, which included Habsburg Spanish troops.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Saragossa"
+      },
+      "es": {
+        "title": "Batalla de Zaragoza",
+        "extract": "La batalla de Zaragoza o batalla del monte Torrero se libró el 20 de agosto de 1710 en el marco de la guerra de sucesión española.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Zaragoza"
+      },
+      "fr": {
+        "title": "Bataille de Saragosse (1710)",
+        "extract": "La bataille de Saragosse est une bataille de la guerre de Succession d'Espagne ayant eu lieu en 1710 aux alentours de la ville de Saragosse.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Saragosse_(1710)"
+      },
+      "pt": {
+        "title": "Batalha de Saragoça",
+        "extract": "A Batalha de Saragoça, também conhecida como Batalha de Zaragoza, ocorreu em 20 de agosto de 1710 durante a Guerra da Sucessão Espanhola. Um exército Bourbon espanhol leal a Filipe V da Espanha e comandado por Alexandre Maître, Marquês de Bay foi derrotado por uma força da Grande Aliança sob o comando do general austríaco Guido Starhemberg. Apesar dessa vitória, que permitiu ao rival de Filipe, o Arquiduque Carlos, entrar na capital espanhola de Madrid, os aliados não conseguiram consolidar seus ganhos. Forçados a recuar, sofreram sucessivas derrotas em Brihuega em novembro e Villaviciosa em dezembro, o que efetivamente acabou com suas chances de instalar o Arquiduque Carlos no trono espanhol.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Sarago%C3%A7a"
+      }
+    }
+  },
+  "Battle of Syracuse (1710)": {
+    "pages": {
+      "en": {
+        "title": "Battle of Syracuse (1710)",
+        "extract": "The Battle of Syracuse was a naval engagement of the War of the Spanish Succession fought on 9 November 1710, outside the Sicilian port of Syracuse. A French fleet of four ships under the command of Jacques Cassard came to relieve a heavily laden French merchant fleet that had been blockaded in the Syracuse harbour by a British fleet. Cassard arrived off Syracuse when most of the blockading fleet had left to resupply at Port Mahon; he successfully captured Falcon and Pembroke, the two ships left to maintain the blockade, and escorted the fleet to Marseille.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Syracuse_(1710)"
+      },
+      "es": {
+        "title": "Batalla de Siracusa (1710)",
+        "extract": "La batalla de Siracusa fue un enfrentamiento naval enmarcado dentro del conflicto de la guerra de sucesión española y que tuvo lugar en Siracusa (Sicilia) el 9 de noviembre de 1710. Allí se enfrentaron barcos franceses y británicos saldándose con una derrota inglesa y la captura de sus barcos.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Siracusa_(1710)"
+      },
+      "fr": {
+        "title": "Bataille de Syracuse",
+        "extract": "La bataille de Syracuse est une bataille navale qui a lieu le 9 novembre 1710 au large du port sicilien de Syracuse, dans le cadre de la guerre de Succession d'Espagne. Une flotte française placée sous les ordres de Jacques Cassard vient porter secours à une flotte marchande française, chargée de cargaison de valeur, qui était bloquée à l'intérieur du port par une flotte britannique. Cassard arrive devant Syracuse alors qu'une grande partie de la flotte assiégeante avait quitté les lieux pour aller se ravitailler à Port Mahon sur Minorque. La flotte française, composée de cinq vaisseaux de ligne, parvient à capturer le HMS Falcon et le HMS Pembroke (en), les deux vaisseaux laissés sur place, et escorte la flotte marchande jusqu'à Marseille.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Syracuse"
+      }
+    }
+  },
+  "Battle of Villaviciosa": {
+    "pages": {
+      "ko": {
+        "title": "비야비시오사 전투",
+        "extract": "비야비시오사 전투는 1710년 12월 10일 스페인 왕위 계승 전쟁의 한 전투로 브리우에가 전투의 바로 다음날 벌어졌다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%B9%84%EC%95%BC%EB%B9%84%EC%8B%9C%EC%98%A4%EC%82%AC_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Villaviciosa",
+        "extract": "The Battle of Villaviciosa was a battle between a Franco-Spanish army led by Louis Joseph, Duke of Vendôme and Philip V of Spain and a Grand Alliance army commanded by Austrian General Guido Starhemberg. The battle took place during the War of the Spanish Succession, one day after a Vendôme's army overran a smaller British force under James Stanhope at Brihuega. Both Philip V of Spain and the Archduke Charles of Austria claimed victory, but the number of dead and wounded, the number of artillery and other weapons abandoned by the Allied army and the battle's strategic consequences for the war confirmed victory for Philip.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Villaviciosa"
+      },
+      "zh": {
+        "title": "比利亞維西奧薩之戰",
+        "extract": "比利亚维西奥萨之战发生于1710年12月10日，是西班牙王位继承战争的一场会战，由法国旺多姆公爵和西班牙国王费利佩五世的法西联军对抗史塔罕堡伯爵的哈布斯堡同盟军。费利佩五世和奥地利的查理大公均宣称自己的胜利，但大同盟军并未达成彻底击败法西联军的战略性目标，也在会战中丢弃许多火炮，确认了法西联军的胜利，稳固波旁王室在西班牙的统治权。",
+        "url": "https://zh.wikipedia.org/wiki/%E6%AF%94%E5%88%A9%E4%BA%9E%E7%B6%AD%E8%A5%BF%E5%A5%A7%E8%96%A9%E4%B9%8B%E6%88%B0"
+      },
+      "es": {
+        "title": "Batalla de Villaviciosa (1710)",
+        "extract": "La batalla de Villaviciosa tuvo lugar el 10 de diciembre de 1710 durante la guerra de sucesión española, un día después de la batalla de Brihuega.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Villaviciosa_(1710)"
+      },
+      "fr": {
+        "title": "Bataille de Villaviciosa (1710)",
+        "extract": "La bataille de Villaviciosa eut lieu le 10 décembre 1710, deux jours après la bataille de Brihuega, pendant la guerre de Succession d'Espagne.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Villaviciosa_(1710)"
+      },
+      "pt": {
+        "title": "Batalha de Villaviciosa",
+        "extract": "A Batalha de Villaviciosa foi uma batalha travada a 10 de dezembro de 1710, no dia seguinte ao da Batalha de Brihuega, no âmbito da Guerra da Sucessão Espanhola, entre o exército apoiante de Filipe V, Duque de Anjou e os apoiantes do Arquiduque Carlos de Habsburgo.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Villaviciosa"
+      }
+    }
+  },
+  "Battle of Brihuega": {
+    "pages": {
+      "ko": {
+        "title": "브리우에가 전투",
+        "extract": "브리우에가 전투는 1710년 8월 8일, 스페인 왕위 계승 전쟁의 한 전투로 일어났다. 스태너프 경 휘하의 영국군은 바르셀로나로 진군하다 방돔 공작(duc de Vendôme)의 군대에게 패하였다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%B8%8C%EB%A6%AC%EC%9A%B0%EC%97%90%EA%B0%80_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Brihuega",
+        "extract": "The Battle of Brihuega took place on 8 December 1710 in the War of the Spanish Succession, during the Allied retreat from Madrid to Barcelona. A British Army rearguard led by James Stanhope, 1st Earl Stanhope was cut off and trapped within the town of Brihuega before being overwhelmed by a Franco-Spanish army under the command of Louis Joseph, Duke of Vendôme. The battle, along with other events, brought an end to British participation in the war.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Brihuega"
+      },
+      "zh": {
+        "title": "布里韋加之戰",
+        "extract": "布里韦加之战发生于1710年12月8日，是西班牙王位继承战争的一场会战，詹姆斯·斯坦霍普的大不列颠王国军队在前往巴塞隆纳时，遭到法国旺多姆公爵的法西联军袭击，詹姆斯·斯坦霍普的军队全军覆没。\n而在会战结束后，旺多姆公爵就得知联军正在前往支援，比利亚维西奥萨之战随之爆发。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%B8%83%E9%87%8C%E9%9F%8B%E5%8A%A0%E4%B9%8B%E6%88%B0"
+      },
+      "es": {
+        "title": "Batalla de Brihuega",
+        "extract": "La batalla de Brihuega tuvo lugar el 8 de diciembre de 1710 durante la guerra de sucesión española. La retaguardia del ejército aliado que se retiraba de Madrid, compuesta por las tropas británicas lideradas por Lord James Stanhope, fue atacada y derrotada por el ejército franco-español al mando de Luis José de Borbón, Duque de Vendôme.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Brihuega"
+      },
+      "fr": {
+        "title": "Bataille de Brihuega",
+        "extract": "La bataille de Brihuega eut lieu le 8 décembre 1710 pendant la guerre de Succession d'Espagne. L'arrière-garde britannique sous le commandement de James Stanhope y fut attaquée par le duc de Vendôme sur la route de Barcelone.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Brihuega"
+      }
+    }
+  },
+  "Siege of Bouchain (1711)": {
+    "pages": {
+      "ko": {
+        "title": "부섕 공방전",
+        "extract": "부섕 공방전(1711년 8월 9일~ 9월 12일)은 네 플레 울트라 방어선의 돌파(Passage of the Lines of Ne Plus Ultra 1711년 8월 5일)에 뒤이어 일어난 스페인 왕위 계승 전쟁의 공성전중 하나로 말버러 공작 1세 존 처칠(John Churchill, 1st Duke of Marlborough)이 마지막으로 거둔 중대한 승리이다. 말버러 공작은 적의 공격에도 불구하고 별다른 피해를 입지 않고 프랑스의 방어선을 돌파하였으며 34일간의 공성전 끝에 부섕을 점령하였다. 부섕이 함락 당함으로써 파리와 동맹군 사이에 있는 요새는 오직 캉브레(Cambrai)밖에 남지 않게 되었다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%B6%80%EC%84%95_%EA%B3%B5%EB%B0%A9%EC%A0%84"
+      },
+      "en": {
+        "title": "Siege of Bouchain (1711)",
+        "extract": "The siege of Bouchain, following the Passage of the Lines of Ne Plus Ultra, was a siege of the War of the Spanish Succession, and the last major victory of John Churchill, 1st Duke of Marlborough. Marlborough and François Nicolas Fagel broke through the French defensive lines and took Bouchain after a siege of 34 days. Its capture left Cambrai the only French-held fortress between the allied army and Paris.",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Bouchain_(1711)"
+      },
+      "es": {
+        "title": "Sitio de Bouchain",
+        "extract": "El sitio de Bouchain se llevó a cabo entre el 9 de agosto y el 12 de septiembre de 1711 y fue un asedio de la guerra de sucesión española y la última gran victoria de John Churchill, I duque de Marlborough. Marlborough rompió las líneas defensivas francesas y tomó a Bouchain después de un asedio de 34 días. Su captura dejó a Cambrai como la única fortaleza francesa entre el ejército aliado y París.",
+        "url": "https://es.wikipedia.org/wiki/Sitio_de_Bouchain"
+      },
+      "fr": {
+        "title": "Siège de Bouchain (1711)",
+        "extract": "Le siège de Bouchain est un conflit militaire de la Guerre de Succession d'Espagne, qui s’est déroulé du 5 août au 12 septembre 1711 à Bouchain, durant la guerre de Succession d'Espagne, et qui s’est soldé par la dernière grande victoire du duc de Marlborough à la tête des troupes de la Grande Alliance.",
+        "url": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Bouchain_(1711)"
+      }
+    }
+  },
+  "Battle of Denain": {
+    "pages": {
+      "ko": {
+        "title": "드냉 전투",
+        "extract": "드냉 전투는 1712년 7월 24일 스페인 왕위 계승 전쟁의 전투 중 하나로 일어 났고, 사보이의 외젠 공(Prince Eugene of Savoy) 휘하의 오스트리아-네덜란드 군에 대하여 빌라르 원수(Marshal Villars)가 이끄는 프랑스군이 승리를 거두었다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%93%9C%EB%83%89_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Denain",
+        "extract": "The Battle of Denain was fought on 24 July 1712 as part of the War of the Spanish Succession. It resulted in a French victory, under Marshal Villars, against Dutch and Austrian forces, under Prince Eugene of Savoy.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Denain"
+      },
+      "zh": {
+        "title": "德南之戰",
+        "extract": "德南之战 发生于1712年7月24日，是西班牙王位继承战争后期的会战。维拉尔公爵在此役中指挥法军切断联军补给线，迫使联军停止进攻法军要塞，然后乘胜追击夺下数座重要要塞。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%BE%B7%E5%8D%97%E4%B9%8B%E6%88%B0"
+      },
+      "es": {
+        "title": "Batalla de Denain",
+        "extract": "La batalla de Denain fue un enfrentamiento militar librado en el marco de la guerra de sucesión española, el 24 de julio de 1712, cerca de Denain, en que se enfrentaron la tropas francesas, al mando del duque Claude Louis Hector de Villars, contra las de las Provincias Unidas y de Austria, comandadas por Arnold van Keppel, conde de Albemarle, con el resultado final de una victoria decisiva para el ejército borbónico.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Denain"
+      },
+      "ar": {
+        "title": "معركة دينان",
+        "extract": "معركة دينان وقعت بتاريخ 24 تموز/يوليو 1712، كجزء من سلسلة معارك حرب الخلافة الإسبانية. انتهت هذه المعركة بانتصار الفرنسيين بقيادة المارشال كلود لويس هيكتور من فيلار على الجيشين النمساوي والهولندي بقيادة الأمير يوجين من سافوي.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%AF%D9%8A%D9%86%D8%A7%D9%86"
+      },
+      "fr": {
+        "title": "Bataille de Denain",
+        "extract": "La bataille de Denain, qui eut lieu le 24 juillet 1712, est un épisode décisif de la guerre de Succession d'Espagne. Elle se solde par une victoire inespérée des armées françaises commandées par le maréchal de Villars sur les Austro-Hollandais du prince Eugène. Elle permet après plusieurs défaites françaises de négocier une paix favorable.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Denain"
+      }
+    }
+  },
+  "Battle of Gadebusch": {
+    "pages": {
+      "en": {
+        "title": "Battle of Gadebusch",
+        "extract": "The Battle of Gadebusch or Wakenstädt was Sweden's final great victory in the Great Northern War. It was fought by the Swedes to prevent the loss of the city of Stralsund to Danish and Saxon forces.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Gadebusch"
+      },
+      "fr": {
+        "title": "Bataille de Gadebusch",
+        "extract": "La bataille de Gadebusch se déroule le 20 décembre 1712 près de Gadebusch, au sud de Lübeck, dans le Saint-Empire dans le cadre de la grande guerre du Nord, et oppose une armée suédoise, commandée par le feld-maréchal Magnus Stenbock, à une armée composée de Danois et de Saxons, commandée par le roi Frédéric IV et le comte Jakob Heinrich von Flemming. Cette bataille est le résultat d'une tentative de diversion faite par les Suédois afin de dégager la ville de Stralsund, assiégée par les Danois, les Saxons et les Russes. Elle se termine par une victoire tactique des Suédois, leur dernière grande victoire de la guerre, mais n'a que peu de conséquences sur le plan stratégique car la supériorité numérique des armées alliées reste écrasante. Les troupes de Stenbock, poursuivies par plus de 36 000 Russes, Danois et Saxons doivent en effet s'enfermer dans Tönning, où elles capitulent le 13 mai 1713.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Gadebusch"
+      }
+    }
+  },
+  "Siege of Barcelona (1713–1714)": {
+    "pages": {
+      "ko": {
+        "title": "바르셀로나 공방전",
+        "extract": "바르셀로나 공방전은 그레이트브리튼, 합스부르크 군주국, 네덜란드 공화국의 지원을 받던 카를 대공(Archduke Charles)이 프랑스 왕국과 스페인의 지원을 받던 펠리페 5세(Philip V)와 스페인 땅을 걸고 싸운 스페인 왕위 계승 전쟁(1701년-1714년)의 마지막 전투이다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%B0%94%EB%A5%B4%EC%85%80%EB%A1%9C%EB%82%98_%EA%B3%B5%EB%B0%A9%EC%A0%84"
+      },
+      "en": {
+        "title": "Siege of Barcelona (1713–1714)",
+        "extract": "The siege of Barcelona was a 13 month battle at the end of the War of Spanish Succession, which pitted Archduke Charles of Austria against Philip V of Spain, backed by France in a contest for the Spanish crown. The capitulation of Barcelona represented the fall of the last pro-Habsburg stronghold in the Iberian Peninsula, as well as the end of the independent political status of the Principality of Catalonia.",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Barcelona_(1713%E2%80%931714)"
+      },
+      "zh": {
+        "title": "巴塞隆納圍城戰 (1713年—1714年)",
+        "extract": "1713年至1714年间的巴塞隆纳围城战 是西班牙王位继承战争最后一场战役，交战双方为奥格斯堡同盟支持（包括英国与荷兰等国）的查理大公，以及由法国支持的腓力五世，交战原因系起因于西班牙王位的争夺。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%B7%B4%E5%A1%9E%E9%9A%86%E7%B4%8D%E5%9C%8D%E5%9F%8E%E6%88%B0_(1713%E5%B9%B4%E2%80%941714%E5%B9%B4)"
+      },
+      "es": {
+        "title": "Sitio de Barcelona (1713-1714)",
+        "extract": "El sitio de Barcelona fue una de las últimas operaciones militares de la guerra de sucesión española. Se produjo entre el 25 de julio de 1713 y el 11 de septiembre de 1714. El combate enfrentó a los defensores de Barcelona formados por la coronela y partidarios de Carlos VI del Sacro Imperio Romano Germánico; con las tropas de Felipe V de España y sus aliados franceses.",
+        "url": "https://es.wikipedia.org/wiki/Sitio_de_Barcelona_(1713-1714)"
+      },
+      "ar": {
+        "title": "حصار برشلونة (1713-1714)",
+        "extract": "حصار برشلونة بين عامي 1713 و1714 هي معركة وقعت في ختام حرب الخلافة الإسبانية (1701-1714)، أدت إلى إقصاء وهزيمة الإمبراطور الروماني المقدس كارل السادس على يد فيليب الخامس ملك إسبانيا ، لتحسم صراعاً سياسياً طويلاً على العرش الإسباني.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%AD%D8%B5%D8%A7%D8%B1_%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9_(1713-1714)"
+      },
+      "fr": {
+        "title": "Siège de Barcelone (1713-1714)",
+        "extract": "Le siège de Barcelone, second siège de la ville depuis le début de la guerre après le siège de 1706, est la dernière bataille de la guerre de Succession d'Espagne, qui oppose de 1701 à 1714 l'archiduc Charles Louis d'Autriche, soutenu par la Grande-Bretagne, l'Autriche, les Pays-Bas et le Portugal, à Philippe V, soutenu par la France dans la lutte pour la succession au trône d'Espagne.",
+        "url": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Barcelone_(1713-1714)"
+      },
+      "pt": {
+        "title": "Cerco de Barcelona",
+        "extract": "O cerco de Barcelona foi uma das últimas operações militares na Guerra da Sucessão Espanhola, entre o 25 de julho de 1713 e o 11 de setembro de 1714, que se enfrentaram os defensores de Barcelona e os soldados borbónicos, muito superiores em número. Os catalães vão decidir resistir até à morte.",
+        "url": "https://pt.wikipedia.org/wiki/Cerco_de_Barcelona"
+      }
+    }
+  }
+}

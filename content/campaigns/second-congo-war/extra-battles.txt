@@ -1,0 +1,43 @@
+# 직접 추가한 전투 (Wikidata에 좌표·날짜가 없거나 전투 분류가 아니어서 자동으로 안 잡힌 것). 형식은 content/campaigns/CLAUDE.md
+
+@ operation-kitona
+wikipedia: Operation Kitona
+when: 1998-08
+coords: 12.45, -5.92
+links: 6
+
+@ six-day-war-2000
+wikipedia: Six-Day War (2000)
+when: 2000-06
+coords: 25.19, 0.52
+links: 10
+
+@ 2001-bunia-clashes-and-massacre
+wikipedia: 2001 Bunia clashes and massacre
+when: 2001-01
+coords: 30.25, 1.56
+links: 2
+
+@ kisangani-massacre
+wikipedia: Kisangani massacre
+when: 2002-05
+coords: 25.21, 0.5
+links: 5
+
+@ effacer-le-tableau
+wikipedia: Effacer le tableau
+when: 2002-10 ~ 2003-01
+coords: 29.04, 1.36
+links: 7
+
+@ bogoro-massacre
+wikipedia: Bogoro massacre
+when: 2003-02
+coords: 30.28, 1.41
+links: 6
+
+@ operation-artemis
+wikipedia: Operation Artemis
+when: 2003-06
+coords: 30.27, 1.58
+links: 12

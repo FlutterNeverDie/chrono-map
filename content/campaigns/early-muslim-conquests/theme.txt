@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Early Muslim conquests
+region: middle-east
+when: 622 ~ 750
+unit: year
+borders-step: 5
+view: 35, 30, 3
+search: -10, 75, 10, 45
+min-links: 8
+side.a.ko: 칼리파국
+side.a.en: Caliphate
+side.a.zh: 哈里发国
+side.a.es: Califato
+side.a.hi: ख़िलाफ़त
+side.a.ar: الخلافة
+side.a.fr: Califat
+side.a.pt: Califado
+side.b.ko: 비잔티움·사산 제국 등
+side.b.en: Byzantines, Sasanians & others
+side.b.zh: 拜占庭、萨珊等
+side.b.es: Bizantinos, sasánidas y otros
+side.b.hi: बाइज़ेंटाइन, सासानी और अन्य
+side.b.ar: البيزنطيون والساسانيون وغيرهم
+side.b.fr: Byzantins, Sassanides et autres
+side.b.pt: Bizantinos, sassânidas e outros

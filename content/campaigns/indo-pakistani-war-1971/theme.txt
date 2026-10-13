@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: India–Pakistan war of 1971
+region: india
+when: 1971-12 ~ 1971-12
+unit: month
+borders-step: 1
+view: 81, 27, 4
+search: 66, 93, 20, 37
+min-links: 1
+side.a.ko: 인도·묵티 바히니
+side.a.en: India & Mukti Bahini
+side.a.zh: 印度与孟加拉解放军
+side.a.es: India y Mukti Bahini
+side.a.hi: भारत और मुक्ति वाहिनी
+side.a.ar: الهند وموكتي باهيني
+side.a.fr: Inde et Mukti Bahini
+side.a.pt: Índia e Mukti Bahini
+side.b.ko: 파키스탄
+side.b.en: Pakistan
+side.b.zh: 巴基斯坦
+side.b.es: Pakistán
+side.b.hi: पाकिस्तान
+side.b.ar: باكستان
+side.b.fr: Pakistan
+side.b.pt: Paquistão

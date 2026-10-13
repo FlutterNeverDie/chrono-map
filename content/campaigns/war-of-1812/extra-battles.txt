@@ -1,0 +1,19 @@
+# 직접 추가한 전투 (Wikidata에 좌표·날짜가 없거나 전투 분류가 아니어서 자동으로 안 잡힌 것). 형식은 content/campaigns/CLAUDE.md
+
+@ burning-of-washington
+wikipedia: Burning of Washington
+when: 1814-08
+coords: -77.01, 38.89
+links: 26
+
+@ second-battle-of-sackets-harbor
+wikipedia: Second Battle of Sacket's Harbor
+when: 1813-05
+coords: -76.13, 43.95
+links: 2
+
+@ battle-of-craney-island
+wikipedia: Battle of Craney Island
+when: 1813-06
+coords: -76.35, 36.95
+links: 2

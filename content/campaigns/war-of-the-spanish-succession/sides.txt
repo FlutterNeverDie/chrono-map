@@ -1,0 +1,18 @@
+# 나라(정치체)별 진영: 원본 이름 = a | b | n [시작 ~ 끝]. 없으면 기타(n). 형식은 content/campaigns/CLAUDE.md
+
+Habsburg Monarchy = a
+Dutch Republic = a
+Kingdom of England = a
+Kingdom of Great Britain = a
+Kingdom of Prussia = a
+Brandenburg-Prussia = a
+Electorate of Hanover = a
+Pro-Habsburg Spain = a
+Kingdom of Portugal = b 1701 ~ 1702
+Kingdom of Portugal = a 1703 ~
+House of Savoy = b 1701 ~ 1702
+House of Savoy = a 1703 ~
+Kingdom of France = b
+Kingdom of Spain = b
+Duchy of Bavaria = b
+# Spanish Empire(아메리카·필리핀 식민지)와 괄호 이름(식민지) 은 넣지 않음

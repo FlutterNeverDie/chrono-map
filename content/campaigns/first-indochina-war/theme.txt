@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: First Indochina War
+region: southeast-asia
+when: 1946-12 ~ 1954-08
+unit: month
+borders-step: 1
+view: 105, 17, 5
+search: 100, 110, 8, 24
+min-links: 1
+side.a.ko: 베트민
+side.a.en: Viet Minh
+side.a.zh: 越盟
+side.a.es: Viet Minh
+side.a.hi: वियत मिन्ह
+side.a.ar: فيت منه
+side.a.fr: Viêt Minh
+side.a.pt: Viet Minh
+side.b.ko: 프랑스
+side.b.en: France
+side.b.zh: 法国
+side.b.es: Francia
+side.b.hi: फ़्रांस
+side.b.ar: فرنسا
+side.b.fr: France
+side.b.pt: França

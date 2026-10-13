@@ -1,0 +1,337 @@
+# Early Muslim conquests 전투 (Wikidata 자동 생성, 직접 고쳐도 됨). 형식은 content/campaigns/CLAUDE.md
+
+@ siege-of-banu-qaynuqa
+wikipedia: Siege of Banu Qaynuqa
+when: 624
+coords: 39.6, 24.47
+links: 20
+
+@ battle-of-badr
+wikipedia: Battle of Badr
+when: 624
+coords: 38.77, 23.73
+links: 81
+
+@ battle-of-uhud
+wikipedia: Battle of Uhud
+when: 625
+coords: 39.61, 24.5
+links: 64
+
+@ battle-of-the-trench
+wikipedia: Battle of the Trench
+when: 627
+coords: 39.6, 24.47
+links: 55
+
+@ battle-of-khaybar
+wikipedia: Battle of Khaybar
+when: 628
+coords: 39.29, 25.7
+links: 42
+
+@ battle-of-mu-tah
+wikipedia: Battle of Mu'tah
+when: 629
+coords: 35.7, 31.03
+links: 44
+
+@ conquest-of-mecca
+wikipedia: Conquest of Mecca
+when: 629
+coords: 39.82, 21.42
+links: 41
+
+@ battle-of-hunayn
+wikipedia: Battle of Hunayn
+when: 630
+coords: 40.04, 21.52
+links: 37
+
+@ siege-of-ta-if
+wikipedia: Siege of Ta'if
+when: 630
+coords: 40.42, 21.27
+links: 19
+
+@ battle-of-al-yamama
+wikipedia: Battle of al-Yamama
+when: 632
+coords: 46.46, 24.89
+links: 28
+
+@ battle-of-ghamra
+wikipedia: Battle of Ghamra
+when: 632
+coords: 31.26, 30.07
+links: 10
+
+@ battle-of-buzakha
+wikipedia: Battle of Buzakha
+when: 632
+coords: 41.68, 27.52
+links: 13
+
+@ battle-of-zafar
+wikipedia: Battle of Zafar
+when: 632
+coords: 44.4, 14.21
+links: 12
+
+@ battle-of-al-anbar
+wikipedia: Battle of al-Anbar
+when: 633
+coords: 43.94, 33.99
+links: 17
+
+@ battle-of-ayn-al-tamr
+wikipedia: Battle of Ayn al-Tamr
+when: 633
+coords: 43.48, 32.56
+links: 14
+
+@ battle-of-ullais
+wikipedia: Battle of Ullais
+when: 633
+coords: 44.57, 31.62
+links: 17
+
+@ battle-of-naqra
+wikipedia: Battle of Naqra
+when: 633
+coords: 46.55, 24.62
+links: 8
+
+@ siege-of-damascus-634
+wikipedia: Siege of Damascus (634)
+when: 634
+coords: 36.29, 33.51
+links: 27
+
+@ battle-of-ajnadayn
+wikipedia: Battle of Ajnadayn
+when: 634
+coords: 34.95, 31.68
+links: 29
+
+@ battle-of-marj-rahit-634
+wikipedia: Battle of Marj Rahit (634)
+when: 634
+coords: 36.52, 33.6
+links: 10
+
+@ battle-of-bosra
+wikipedia: Battle of Bosra
+when: 634
+coords: 36.48, 31.53
+links: 16
+
+@ battle-of-al-qaryatayn
+wikipedia: Battle of al-Qaryatayn
+when: 634
+coords: 37.23, 34.23
+links: 15
+
+@ battle-of-fahl
+wikipedia: Battle of Fahl
+when: 635
+coords: 35.62, 32.45
+links: 21
+
+@ siege-of-emesa
+wikipedia: Siege of Emesa
+when: 635 ~ 636
+coords: 36.71, 34.72
+links: 13
+
+@ battle-of-the-yarmuk
+wikipedia: Battle of the Yarmuk
+when: 636
+coords: 35.95, 32.81
+links: 61
+
+@ battle-of-al-qadisiyyah
+wikipedia: Battle of al-Qadisiyyah
+when: 636
+coords: 44.5, 31.58
+links: 43
+
+@ first-muslim-conquest-of-jerusalem
+wikipedia: First Muslim conquest of Jerusalem
+when: 636 ~ 637
+coords: 35.22, 31.78
+links: 31
+
+@ siege-of-ctesiphon-637
+wikipedia: Siege of Ctesiphon (637)
+when: 637
+coords: 44.58, 33.09
+links: 12
+
+@ battle-of-jalula
+wikipedia: Battle of Jalula
+when: 637
+coords: 45.17, 34.28
+links: 14
+
+@ battle-of-hazir
+wikipedia: Battle of Hazir
+when: 637
+coords: 37.06, 36
+links: 12
+
+@ siege-of-aleppo-637
+wikipedia: Siege of Aleppo (637)
+when: 637
+coords: 37.16, 36.2
+links: 19
+
+@ battle-of-the-iron-bridge
+wikipedia: Battle of the Iron Bridge
+when: 637
+coords: 36.35, 36.25
+links: 21
+
+@ siege-of-germanicia
+wikipedia: Siege of Germanicia
+when: 638
+coords: 36.93, 37.58
+links: 10
+
+@ battle-of-heliopolis
+wikipedia: Battle of Heliopolis
+when: 640
+coords: 31.29, 30.13
+links: 18
+
+@ siege-of-shushtar
+wikipedia: Siege of Shushtar
+when: 641 ~ 642
+coords: 48.86, 32.04
+links: 10
+
+@ siege-of-alexandria-641
+wikipedia: Siege of Alexandria (641)
+when: 641
+coords: 29.92, 31.2
+links: 11
+
+@ battle-of-nahavand
+wikipedia: Battle of Nahavand
+when: 642
+coords: 44.5, 31.58
+links: 31
+
+@ battle-of-nikiou
+wikipedia: Battle of Nikiou
+when: 646
+coords: 30.85, 30.41
+links: 13
+
+@ second-battle-of-dongola
+wikipedia: Second battle of Dongola
+when: 652
+coords: 30.74, 18.22
+links: 13
+
+@ battle-of-the-masts
+wikipedia: Battle of the Masts
+when: 655
+coords: 30.26, 36.28
+links: 29
+
+@ siege-of-constantinople-674-678
+wikipedia: Siege of Constantinople (674–678)
+when: 674 ~ 678
+coords: 28.98, 41.01
+links: 37
+
+@ battle-of-vescera
+wikipedia: Battle of Vescera
+when: 682
+coords: 5.73, 34.83
+links: 14
+
+@ battle-of-carthage-698
+wikipedia: Battle of Carthage (698)
+when: 698
+coords: 10.32, 36.85
+links: 16
+
+@ battle-of-vardanakert
+wikipedia: Battle of Vardanakert
+when: 702
+coords: 44.34, 40.02
+links: 11
+
+@ siege-of-tyana
+wikipedia: Siege of Tyana
+when: 707 ~ 708
+coords: 34.61, 37.85
+links: 15
+
+@ battle-of-guadalete
+wikipedia: Battle of Guadalete
+when: 711
+coords: -6.22, 36.6
+links: 44
+
+@ siege-of-constantinople-717-718
+wikipedia: Siege of Constantinople (717–718)
+when: 717 ~ 718
+coords: 28.98, 41.01
+links: 47
+
+@ battle-of-covadonga
+wikipedia: Battle of Covadonga
+when: 718
+coords: -4.98, 43.27
+links: 44
+
+@ battle-of-toulouse-721
+wikipedia: Battle of Toulouse (721)
+when: 721
+coords: 1.45, 43.6
+links: 29
+
+@ siege-of-nicaea-727
+wikipedia: Siege of Nicaea (727)
+when: 727
+coords: 29.72, 40.43
+links: 13
+
+@ battle-of-baykand
+wikipedia: Battle of Baykand
+when: 729
+coords: 64.07, 39.66
+links: 10
+
+@ battle-of-the-defile
+wikipedia: Battle of the Defile
+when: 731
+coords: 66.91, 39.29
+links: 15
+
+@ siege-of-narbonne-737
+wikipedia: Siege of Narbonne (737)
+when: 737
+coords: 3, 43.18
+links: 9
+
+@ battle-of-the-river-berre
+wikipedia: Battle of the River Berre
+when: 737
+coords: 2.92, 43.05
+links: 10
+
+@ siege-of-avignon-737
+wikipedia: Siege of Avignon (737)
+when: 737
+coords: 4.82, 43.95
+links: 10
+
+@ battle-of-akroinon
+wikipedia: Battle of Akroinon
+when: 740
+coords: 30.53, 38.75
+links: 25

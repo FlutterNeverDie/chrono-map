@@ -1,0 +1,10 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Wars of the Roses
+region: europe
+when: 1455 ~ 1487
+unit: year
+borders-step: 1
+view: -2, 53, 5.5
+search: -6, 2, 50, 56
+min-links: 3

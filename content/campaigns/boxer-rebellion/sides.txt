@@ -1,0 +1,11 @@
+# 나라(정치체)별 진영: 원본 이름 = a | b | n [시작 ~ 끝]. 없으면 기타(n). 형식은 content/campaigns/CLAUDE.md
+
+# 연합군: 동아시아에 영토가 있는 나라만 칠한다. 독일·벨기에·러시아·일본은 원본에서 톈진 조계도 자기 영토로 나온다
+# 청이 열강에 선전포고(1900-06)하기 전에는 청이 오히려 의화단을 진압했으므로 진영 색은 1900-06부터
+Empire of Japan = a 1900-06 ~ 1901-09
+Russian Empire = a 1900-06 ~ 1901-09
+German Empire = a 1900-06 ~ 1901-09
+Kingdom of Belgium = a 1900-06 ~ 1901-09
+Qing Dynasty = b 1900-06 ~ 1901-09
+# (British Empire)·British Colonial Empire(캐나다·인도·호주), (French Third Republic)(아프리카·인도차이나), United States of America(필리핀)는
+# 이 전쟁과 무관한 넓은 식민지를 칠하게 되어 넣지 않는다

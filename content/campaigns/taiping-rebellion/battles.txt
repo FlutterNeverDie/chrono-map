@@ -1,0 +1,7 @@
+# Taiping Rebellion 전투 (Wikidata 자동 생성, 직접 고쳐도 됨). 형식은 content/campaigns/CLAUDE.md
+
+@ third-battle-of-nanjing
+wikipedia: Third Battle of Nanjing
+when: 1864
+coords: 118.77, 32.05
+links: 9

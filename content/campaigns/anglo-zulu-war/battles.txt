@@ -1,0 +1,55 @@
+# Anglo-Zulu War 전투 (Wikidata 자동 생성, 직접 고쳐도 됨). 형식은 content/campaigns/CLAUDE.md
+
+@ battle-of-isandlwana
+wikipedia: Battle of Isandlwana
+when: 1879-01
+coords: 30.65, -28.36
+links: 32
+
+@ battle-of-rorke-s-drift
+wikipedia: Battle of Rorke's Drift
+when: 1879-01
+coords: 30.54, -28.36
+links: 36
+
+@ battle-of-inyezane
+wikipedia: Battle of Inyezane
+when: 1879-01
+coords: 31.54, -28.95
+links: 3
+
+@ siege-of-eshowe
+wikipedia: Siege of Eshowe
+when: 1879-02 ~ 1879-04
+coords: 31.46, -28.91
+links: 5
+
+@ battle-of-intombe
+wikipedia: Battle of Intombe
+when: 1879-03
+coords: 30.61, -27.23
+links: 11
+
+@ battle-of-hlobane
+wikipedia: Battle of Hlobane
+when: 1879-03
+coords: 30.95, -27.7
+links: 9
+
+@ battle-of-kambula
+wikipedia: Battle of Kambula
+when: 1879-03
+coords: 30.67, -27.69
+links: 13
+
+@ battle-of-gingindlovu
+wikipedia: Battle of Gingindlovu
+when: 1879-04
+coords: 31.59, -29.02
+links: 7
+
+@ battle-of-ulundi
+wikipedia: Battle of Ulundi
+when: 1879-07
+coords: 31.43, -28.31
+links: 14

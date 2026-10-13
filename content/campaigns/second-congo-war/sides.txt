@@ -1,0 +1,11 @@
+# 나라(정치체)별 진영 — 형식은 content/campaigns/CLAUDE.md
+
+Republic of Rwanda = a
+Republic of Uganda = a
+Republic of Burundi = a
+Democratic Republic of the Congo = b
+People's Republic of Angola = b
+Republic of Zimbabwe = b
+Namibia = b
+Republic of Chad = b 1998-09 ~ 1999-05
+# 원본 국경에 반군(RCD·MLC) 점령지가 따로 없어 콩고민주공화국 전체가 정부군 색으로 칠해짐

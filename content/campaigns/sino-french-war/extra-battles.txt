@@ -1,0 +1,37 @@
+# 청불전쟁: Wikidata에 좌표가 없어 자동으로 안 잡히는 전투
+
+@ keelung-campaign
+wikipedia: Keelung campaign
+when: 1884-08 ~ 1885-03
+coords: 121.74, 25.13
+links: 8
+
+@ kep-campaign
+wikipedia: Kép campaign
+when: 1884-10
+coords: 106.27, 21.4
+links: 4
+
+@ battle-of-dong-dang-1885
+wikipedia: Battle of Đồng Đăng (1885)
+when: 1885-02
+coords: 106.7, 21.95
+links: 7
+
+@ battle-of-phu-lam-tao
+wikipedia: Battle of Phu Lam Tao
+when: 1885-03
+coords: 105.27, 21.27
+links: 4
+
+@ pescadores-campaign-1885
+wikipedia: Pescadores campaign (1885)
+when: 1885-03
+coords: 119.57, 23.57
+links: 7
+
+@ retreat-from-lang-son
+wikipedia: Retreat from Lạng Sơn
+when: 1885-03
+coords: 106.73, 21.75
+links: 5

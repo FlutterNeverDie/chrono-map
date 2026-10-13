@@ -1,0 +1,85 @@
+# Russian Civil War 전투 (Wikidata 자동 생성, 직접 고쳐도 됨). 형식은 content/campaigns/CLAUDE.md
+
+@ battle-of-kruty
+wikipedia: Battle of Kruty
+when: 1918-01
+coords: 32.15, 51.08
+links: 22
+
+@ battle-of-kiev-1918
+wikipedia: Battle of Kiev (1918)
+when: 1918-01 ~ 1918-02
+coords: 30.52, 50.45
+links: 14
+
+@ battle-of-tsaritsyn
+wikipedia: Battle of Tsaritsyn
+when: 1918-07 ~ 1920-01
+coords: 44.52, 48.7
+links: 17
+
+@ perm-operation-1918-19
+wikipedia: Perm Operation (1918–19)
+when: 1918-11 ~ 1919-01
+coords: 56.25, 58.01
+links: 4
+
+@ battle-of-kiev-december-1919
+wikipedia: Battle of Kiev (December 1919)
+when: 1919-12
+coords: 30.54, 50.4
+links: 5
+
+@ odessa-operation-1919
+wikipedia: Odessa Operation (1919)
+when: 1919-08
+coords: 30.74, 46.49
+links: 5
+
+@ battle-of-shenkursk
+wikipedia: Battle of Shenkursk
+when: 1919-01
+coords: 42.92, 62.1
+links: 3
+
+@ battle-of-kiev-january-1919
+wikipedia: Battle of Kiev (January 1919)
+when: 1919-01 ~ 1919-02
+coords: 30.54, 50.4
+links: 4
+
+@ battle-of-alexandrovsky-fort
+wikipedia: Battle of Alexandrovsky Fort
+when: 1919-05
+coords: 50.27, 44.52
+links: 3
+
+@ battle-of-peregonovka
+wikipedia: Battle of Peregonovka
+when: 1919-09
+coords: 30.38, 48.53
+links: 9
+
+@ battle-of-petrograd
+wikipedia: Battle of Petrograd
+when: 1919-09 ~ 1919-11
+coords: 31.75, 60.05
+links: 7
+
+@ kharkiv-operation-december-1919
+wikipedia: Kharkiv Operation (December 1919)
+when: 1919-12
+coords: 36.23, 49.99
+links: 6
+
+@ siege-of-perekop-1920
+wikipedia: Siege of Perekop (1920)
+when: 1920-11
+coords: 33.67, 46.15
+links: 9
+
+@ battle-of-volochayevka
+wikipedia: Battle of Volochayevka
+when: 1922-02
+coords: 134.48, 48.56
+links: 4

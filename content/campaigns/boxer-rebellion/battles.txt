@@ -1,0 +1,13 @@
+# Boxer Rebellion 전투 (Wikidata 자동 생성, 직접 고쳐도 됨). 형식은 content/campaigns/CLAUDE.md
+
+@ battle-of-peking-1900
+wikipedia: Battle of Peking (1900)
+when: 1900-08
+coords: 116.4, 39.91
+links: 12
+
+@ siege-of-the-international-legations
+wikipedia: Siege of the International Legations
+when: 1900-06 ~ 1900-08
+coords: 116.39, 39.91
+links: 12

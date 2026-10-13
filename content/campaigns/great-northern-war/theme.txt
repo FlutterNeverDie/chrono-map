@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Great Northern War
+region: europe
+when: 1700 ~ 1721
+unit: year
+borders-step: 1
+view: 24, 57, 4
+search: 8, 42, 45, 66
+min-links: 5
+side.a.ko: 러시아와 동맹국
+side.a.en: Russia & allies
+side.a.zh: 俄国及其盟友
+side.a.es: Rusia y aliados
+side.a.hi: रूस और सहयोगी
+side.a.ar: روسيا وحلفاؤها
+side.a.fr: Russie et alliés
+side.a.pt: Rússia e aliados
+side.b.ko: 스웨덴
+side.b.en: Sweden
+side.b.zh: 瑞典
+side.b.es: Suecia
+side.b.hi: स्वीडन
+side.b.ar: السويد
+side.b.fr: Suède
+side.b.pt: Suécia

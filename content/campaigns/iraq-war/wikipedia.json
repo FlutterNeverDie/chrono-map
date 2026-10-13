@@ -1,0 +1,699 @@
+{
+  "Iraq War": {
+    "pages": {
+      "ko": {
+        "title": "이라크 전쟁",
+        "extract": "이라크 전쟁(영어: Iraq War) 또는 제2차 걸프 전쟁, 이라크 자유 작전(영어: Operation lraq Freedom)은 2003년 3월 20일 미국의 이라크 침공으로 시작되어, 2011년 12월 15일 종전되었다. 그리고 미군이 이라크에서 철수하자마자 이라크는 내란에 휩싸였다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EB%9D%BC%ED%81%AC_%EC%A0%84%EC%9F%81"
+      },
+      "en": {
+        "title": "Iraq War",
+        "extract": "The Iraq War, also referred to as the Second Gulf War, was a protracted armed conflict in Iraq from 2003 to 2011. It began with the invasion by a United States–led coalition, which resulted in the overthrow of the Ba'athist government of Saddam Hussein. During the US occupation of Iraq, the conflict persisted as an insurgency that arose against coalition forces and the newly established Iraqi government. US forces were officially withdrawn in 2011. In 2014, the US became re-engaged in Iraq, leading a new coalition under Combined Joint Task Force – Operation Inherent Resolve, as the conflict evolved into the ongoing Islamic State insurgency.",
+        "url": "https://en.wikipedia.org/wiki/Iraq_War"
+      },
+      "zh": {
+        "title": "伊拉克战争",
+        "extract": "伊拉克战争又称第二次波斯湾战争，是2003年到2011年的一场在伊拉克旷日持久的武装冲突。战争始于以美国为首并由英国、澳大利亚和波兰等国参与的多国联军入侵伊拉克，联军虽然成功推翻了萨达姆·海珊二十多年的专制，但入侵行为直接导致了伊拉克在接下来十年的大部分时间里出现各种激进武装分子，有些是为反抗联军的入侵，有一些则是借机割据的叛乱势力。其中美国入侵伊拉克的理由是声称伊拉克拥有大规模杀伤性武器，并对美国及其盟友构成威胁。此外，一些美国官员声称萨达姆包庇和支持基地组织，组织针对美国的911事件。然而，众多证据及调查表明萨达姆政权与阿盖达组织之间没有任何关系，与袭击事件之间没有联系，在联军入侵后虽在伊拉克发现部分化学武器，但无活跃的大规模杀伤性武器计划。2016年，英国发表齐尔考特调查报告，结论是当时并非所有和平替代方案都得到了审查，英国和美国的行为破坏了联合国安理会及国际法的正当性，确定战争的法律依据“远非令人满意”，战争是不必要的，大规模杀伤性武器也并不存在。",
+        "url": "https://zh.wikipedia.org/wiki/%E4%BC%8A%E6%8B%89%E5%85%8B%E6%88%98%E4%BA%89"
+      },
+      "es": {
+        "title": "Guerra de Irak",
+        "extract": "La guerra de Irak fue un conflicto bélico prolongado que se desarrolló en Irak entre 2003 a 2011. El conflicto comenzó con la invasión de Irak por parte de la coalición liderada por Estados Unidos que derrocó al gobierno baazista de Sadam Huseín. El conflicto continuó durante gran parte de la década siguiente, cuando surgió una insurgencia para oponerse a las fuerzas de la coalición y al gobierno iraquí posterior a la invasión. Las tropas estadounidenses se retiraron oficialmente a finales de 2011. En 2014, Estados Unidos volvió a involucrarse en Irak, liderando una nueva coalición bajo la Fuerza de Tarea Conjunta Combinada – Operación Resolución Inherente, a medida que el conflicto evolucionaba hacia la insurgencia en curso del Estado Islámico.",
+        "url": "https://es.wikipedia.org/wiki/Guerra_de_Irak"
+      },
+      "hi": {
+        "title": "इराक युद्ध",
+        "extract": "इराक युद्ध 2003 से लेकर 2011 तक यह युद्ध दो चरणों में हुआ। आखिर में अमेरिका और नाटो सैनिकों की जीत हुई।",
+        "url": "https://hi.wikipedia.org/wiki/%E0%A4%87%E0%A4%B0%E0%A4%BE%E0%A4%95_%E0%A4%AF%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A7"
+      },
+      "ar": {
+        "title": "حرب العراق",
+        "extract": "حرب العراق هي نزاع مسلح طويل الأمد بدأ مع غزو العراق عام 2003 من قبل قوات التحالف بقيادة الولايات المتحدة. أطاح الغزو بحكومة صدام حسين. ومع ذلك، فقد استمر الصراع في الكثير من أوقات العقد المقبل على أنَّه تمرد وظهرت معارضة لقوات الاحتلال وحكومة ما بعد الغزو العراقية. قتل ما يقدر بنحو 151,000 إلى 600,000 عراقي أو أكثر في 3–4 سنوات الأولى من الصراع. أعلنت الولايات المتحدة رسمياً انسحابها من البلاد في عام 2011 لكن عادت وشاركت في 2014 على رأس ائتلاف جديد؛ واستمر التمرد والصراع المسلح الأهلي.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%AD%D8%B1%D8%A8_%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82"
+      },
+      "fr": {
+        "title": "Guerre d'Irak",
+        "extract": "La guerre d'Irak, ou deuxième guerre du Golfe, commence officiellement le 20 mars 2003 avec l'invasion de l'Irak par la coalition menée par les États-Unis contre le parti Baas de Saddam Hussein. L'invasion conduit à la défaite rapide de l'armée irakienne, à l'arrestation et à l'exécution de Saddam Hussein ainsi qu'à la mise en place d'un nouveau gouvernement.",
+        "url": "https://fr.wikipedia.org/wiki/Guerre_d'Irak"
+      },
+      "pt": {
+        "title": "Guerra do Iraque",
+        "extract": "Guerra do Iraque, também referida como Ocupação do Iraque ou Segunda Guerra do Golfo, ou Terceira Guerra do Golfo ou ainda como Operação Liberdade do Iraque, foi um conflito que começou no dia 20 de março de 2003 com a invasão do Iraque, por uma coalizão militar multinacional liderada pelos Estados Unidos. Esta fase do conflito foi encerrada no dia 18 de dezembro de 2011 com a retirada das tropas americanas do território iraquiano após oito anos de ocupação. O conflito aconteceu no contexto da Guerra ao Terror, lançada pelo presidente americano George W. Bush após os atentados de 11 de setembro de 2001.",
+        "url": "https://pt.wikipedia.org/wiki/Guerra_do_Iraque"
+      }
+    }
+  },
+  "Battle of Baghdad (2003)": {
+    "pages": {
+      "en": {
+        "title": "Battle of Baghdad (2003)",
+        "extract": "The Battle of Baghdad, also known as the Fall of Baghdad, was a military engagement that took place in Baghdad in early April 2003, as part of the invasion of Iraq.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Baghdad_(2003)"
+      },
+      "zh": {
+        "title": "巴格达之战 (2003年)",
+        "extract": "巴格达之战是2003年4月上旬英美联军攻占巴格达的战役。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%B7%B4%E6%A0%BC%E8%BE%BE%E4%B9%8B%E6%88%98_(2003%E5%B9%B4)"
+      },
+      "es": {
+        "title": "Batalla de Bagdad (2003)",
+        "extract": "La batalla de Bagdad, o también caída de Bagdad, fue una campaña militar llevada a cabo entre los días 3 y 12 de abril de 2003, en el marco de la invasión de Irak. La campaña estuvo compuesta de ataques aéreos, seguidos de una posterior invasión terrestre, que supuso la captura definitiva de Bagdad, capital de Irak, por parte de las tropas estadounidenses. La victoria aliada en esta batalla, tuvo como consecuencia principal el derrocamiento del régimen baazista del presidente Sadam Huseín.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Bagdad_(2003)"
+      },
+      "ar": {
+        "title": "سقوط بغداد (2003)",
+        "extract": "سقوط بغداد أو ما يعرف بمعركة سقوط بغداد، وهي المعركة التي حصلت بين القوات المسلحة العراقية السابقة والجيش الأمريكي في أوائل شهر أبريل/نيسان عام 2003 أثناء عملية احتلال العراق عام 2003.\nقبل ثلاثة أسابيع من تاريخ هذه المعركة، بدأت القوات الأمريكية بالتحرك باتجاه بغداد عاصمة العراق، عندما كان جورج بوش (الابن) رئيسا للولايات المتحدة الأمريكية.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%B3%D9%82%D9%88%D8%B7_%D8%A8%D8%BA%D8%AF%D8%A7%D8%AF_(2003)"
+      },
+      "fr": {
+        "title": "Bataille de Bagdad (2003)",
+        "extract": "La bataille de Bagdad, également connue sous le nom de « chute de Bagdad », est l'invasion militaire de Bagdad par les forces de la Coalition (américano-britanniques) ayant lieu en avril 2003 dans le cadre de l'opération Liberté irakienne.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Bagdad_(2003)"
+      },
+      "pt": {
+        "title": "Batalha de Bagdá (2003)",
+        "extract": "A Batalha de Bagdá (português brasileiro) ou Batalha de Bagdade (português europeu), também conhecida como Queda de Bagdá, foi a invasão e conquista da capital iraquiana em abril de 2003, como parte da invasão anglo-americana do Iraque.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Bagd%C3%A1_(2003)"
+      }
+    }
+  },
+  "Battle of Nasiriyah": {
+    "pages": {
+      "en": {
+        "title": "Battle of Nasiriyah",
+        "extract": "The Battle of Nasiriyah was fought between the US 2nd Marine Expeditionary Brigade and Iraqi forces from 23 March to 2 April 2003 during the US-led invasion of Iraq. On the night of 24–25 March, the bulk of the Marines of Regimental Combat Team 1 passed through the city over the bridges and attacked north towards Baghdad. Other elements remained in the city to fight its defenders, who put up stiff resistance and inflicted several dozen casualties on coalition forces, more than in most other battles during the invasion. Resistance ceased on 1 April.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Nasiriyah"
+      },
+      "es": {
+        "title": "Batalla de Nasiriya",
+        "extract": "La batalla de Nasiriya fue un enfrentamiento militar entre el 23 y 29 de marzo de 2003 durante la invasión de Irak, se enfrentaron las fuerzas estadounidenses a fuerzas iraquíes atrincheradas en la ciudad, que era un objetivo importante ya que se trataba de un punto de comunicaciones clave del centro del país. Otros elementos permanecieron en la ciudad para combatir a sus defensores, quienes opusieron una tenaz resistencia e infligieron varias decenas de bajas a las fuerzas de la coalición, más que en la mayoría de las demás batallas durante la invasión. La resistencia cesó el 1 de abril.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Nasiriya"
+      },
+      "ar": {
+        "title": "معركة الناصرية (2003)",
+        "extract": "معركة الناصرية هي معركة حدثت في مدينة الناصرية وبعض القرى المجاورة جنوب العراق خلال غزو القوات الأمريكية للعراق، بدأت في 23 مارس 2003 استمرت الى يوم 2 ابريل قتل فيها 22 جندي مارينز أمريكي وجرح 150 أخرون، واحرق ما يقارب ال15 مصفحة عسكرية أمريكية.كما قتل ما بين ال600 إلى 1000 عراقي معظمهم من المدنيين",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%A7%D9%84%D9%86%D8%A7%D8%B5%D8%B1%D9%8A%D8%A9_(2003)"
+      },
+      "fr": {
+        "title": "Bataille de Nassiriya",
+        "extract": "La bataille de Nassiriya est livrée lors de l'opération liberté irakienne, opposant les forces de la Coalition à l'armée irakienne et aux paramilitaires Fedayin, du 23 mars au 1er avril 2003.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Nassiriya"
+      },
+      "pt": {
+        "title": "Batalha de Nassíria",
+        "extract": "A Batalha de Nassíria (Nasiriyah) foi uma das primeiras batalhas da Invasão do Iraque em 2003. Intensos combates ocorreram na cidade iraquiana de Nassíria, entre forças iraquianas e o fuzileiros navais dos Estados Unidos pelo controle das pontes sobre o Rio Eufrates e o Canal de Saddam.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Nass%C3%ADria"
+      }
+    }
+  },
+  "Battle of Najaf (2003)": {
+    "pages": {
+      "en": {
+        "title": "Battle of Najaf (2003)",
+        "extract": "The Battle of Najaf was a major battle in the 2003 U.S. invasion of Iraq. The first stage of the battle was fought when the U.S. 3rd Infantry Division fought to surround the town. The second stage was fought when soldiers from the U.S. 101st Airborne Division fought to clear and secure the city.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Najaf_(2003)"
+      },
+      "ar": {
+        "title": "معركة النجف (2003)",
+        "extract": "معركة النجف هي احدى المعارك الكبرى التي حدثت اثناء غزو العراق بدأت المرحلة الاولى من المعركة عندما قاتلت فرقة المشاة الامريكية الثالثة لتطويق المدينة المرحلة الثانية كانت عندما خاض جنود الفرقة الامريكية معركة لتطهير المدينة والسيطرة عليها.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%A7%D9%84%D9%86%D8%AC%D9%81_(2003)"
+      },
+      "fr": {
+        "title": "Bataille de Nadjaf (2003)",
+        "extract": "La bataille de Nadjaf est un affrontement majeur de l'opération liberté irakienne de 2003, lorsque la 3e division d'infanterie US et la 101edivision aéroportée reçoivent l'ordre de prendre d'assaut la ville irakienne de Nadjaf.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Nadjaf_(2003)"
+      }
+    }
+  },
+  "Battle of Basra (2003)": {
+    "pages": {
+      "en": {
+        "title": "Battle of Basra (2003)",
+        "extract": "The Battle of Basra lasted from 21 March to 6 April 2003 and was one of the first battles of the 2003 invasion of Iraq. The British 7 Armoured Brigade fought their way into Iraq's second-largest city, Basra, on 6 April coming under constant attack by the Iraqi Army 51st Division and Fedayeen Saddam, while elements of the British Parachute Regiment cleared the 'old quarter' of the city that was inaccessible to vehicles. Entering Basra had only been achieved after two weeks of conflict, which included the biggest tank battle of the war by British forces when the Royal Scots Dragoon Guards destroyed 14 abandoned Iraqi tanks on the 27 March.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Basra_(2003)"
+      },
+      "zh": {
+        "title": "巴士拉戰役 (2003年)",
+        "extract": "巴士拉战役 是自2003年3月21日到同年4月6日的一场军事冲突，被视为是伊拉克战争联军进攻伊拉克的初期战役之一。经过两周伊拉克军队与敢死队的炮火下，4月6日英军第七装甲旅攻入巴士拉，然而英军伞兵团相关人员却宣称市内“旧城区”无法让车辆进入。此外，3月27日还爆发了伊战中最大规模的坦克战，皇家苏格兰龙骑兵卫队摧毁了十四辆伊拉克军队坦克。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%B7%B4%E5%A3%AB%E6%8B%89%E6%88%B0%E5%BD%B9_(2003%E5%B9%B4)"
+      },
+      "ar": {
+        "title": "معركة البصرة (2003)",
+        "extract": "معركة البصرة ، هي المعركة التي جرت بين الجيش العراقي وبين القوات البريطانية المدعومة أمريكياً وأسترالياً، وذلك في تاريخ 21 مارس من عام 2003م، حتى تاريخ 6 أبريل عام 2003م، والتي أنتهت باحتلال القوات البريطانية لمدينة البصرة.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%A7%D9%84%D8%A8%D8%B5%D8%B1%D8%A9_(2003)"
+      },
+      "fr": {
+        "title": "Bataille de Bassorah (2003)",
+        "extract": "La bataille de Bassorah est l'une des principales batailles de l'opération liberté irakienne lancée en 2003, opposant les forces de la Coalition (Britanniques) à l'armée irakienne.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Bassorah_(2003)"
+      },
+      "pt": {
+        "title": "Batalha de Baçorá (2003)",
+        "extract": "A Batalha de Baçorá foi um confronto militar que durou de 21 de março de 2003 até 6 de abril do mesmo ano e foi uma das primeiras batalhas da invasão do Iraque de 2003. Tropas britânicas, apoiados por americanos e australianos, lutaram pela posse da segunda maior cidade iraquiana, Baçorá, que era defendida por unidades do exército iraquiano e de guerrilheiros fedayin. A maioria dos combates aconteceram em ambiente urbano com os militares de Saddam não conseguindo montar uma defesa coesa. A luta durou apenas duas semanas e nela aconteceu uma das maiores batalhas entre tanques de guerra da história recente, a 27 de março, quando pelo menos 14 blindados iraquianos foram destruídos pelos veículos britânicos.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Ba%C3%A7or%C3%A1_(2003)"
+      }
+    }
+  },
+  "Battle of Al Faw (2003)": {
+    "pages": {
+      "en": {
+        "title": "Battle of Al Faw (2003)",
+        "extract": "The Battle of Al Faw began on 20 March 2003 and continued for four days, as part of the 2003 invasion of Iraq.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Al_Faw_(2003)"
+      },
+      "zh": {
+        "title": "法奥战役",
+        "extract": "法奥战役是伊拉克战争最早的一场战斗之一。在伊拉克战争中联军最初的一批目标就有在伊拉克军队对位于法奥半岛上的采油设施进行破坏之前完整地夺取这些设施。这能够避免像1991年海湾战争中发生的生态危机再次发生，并且能够让伊拉克更快地恢复石油出口，这对于战争之后伊拉克的重建工作非常重要。",
+        "url": "https://zh.wikipedia.org/wiki/%E6%B3%95%E5%A5%A5%E6%88%98%E5%BD%B9"
+      },
+      "es": {
+        "title": "Batalla de Al Fao de 2003",
+        "extract": "La batalla de Al Fao fue una de las primeras que tuvieron lugar en la guerra de Irak. Los primeros objetivos de la invasión de Irak de 2003 eran asegurar el puerto de Um Kasar, y hacer lo propio con las plataformas de gas y petróleo de la península de Al Faw. Se quería evitar así que los pozos petrolíferos fueran incendiados en la retirada de las tropas irakíes tal como ocurrió durante la guerra del Golfo.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Al_Fao_de_2003"
+      },
+      "ar": {
+        "title": "معركة الفاو (2003)",
+        "extract": "معركة الفاو وهي إحدى المعارك الأولى في حرب العراق، بدأت في 20 مارس/اذار واستمرت لأربعة ايام. وكان أحد الأهداف المبدئية لقوات التحالف هو الاستيلاء على منصات الغاز والنفط في شبه جزيرة الفاو قبل أن يمكن تخريبها أو تدميرها من قبل الجيش العراقي، شومن شان ذلك أن يحول دون وقوع كارثة إيكولوجية شبيهة بحرب الخليج 1991، وأن يسمح باستئناف أسرع للصادرات النفطية التي كانت حيوية لإعادة بناء العراق بعد الحرب.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%A7%D9%84%D9%81%D8%A7%D9%88_(2003)"
+      },
+      "fr": {
+        "title": "Bataille d'Al Faw",
+        "extract": "La bataille d'Al Faw est l'une des premières confrontations entre la Coalition et l'armée irakienne, dans le cadre de l'opération liberté irakienne lancée en 2003. L'objectif était de capturer les plateformes pétrolières de la péninsule d'Al Faw avant qu'elles ne soient sabotées ou détruites par les forces irakiennes dans le cadre de la politique de la terre brûlée de Saddam Hussein.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_d'Al_Faw"
+      }
+    }
+  },
+  "Battle of Umm Qasr": {
+    "pages": {
+      "en": {
+        "title": "Battle of Umm Qasr",
+        "extract": "The Battle of Umm Qasr was the first military confrontation in the Iraq War. At the start of the war, one of the first objectives was the port of Umm Qasr. On 21 March 2003, as allied forces advanced across Southern Iraq, an amphibious landing force captured the new port area of Umm Qasr. The assault was spearheaded by Royal Marines of the British 3 Commando Brigade, augmented by U.S. Marines of the American 15th MEU and Polish JW GROM troops. Iraqi forces in the old town of Umm Qasr put up unexpectedly strong resistance, requiring several days' fighting before the area was cleared of defenders. The port was finally declared safe and reopened on 25 March 2003.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Umm_Qasr"
+      },
+      "zh": {
+        "title": "乌姆盖斯尔战役",
+        "extract": "乌姆盖斯尔战役 是伊拉克战争期间的第一场地面战斗。在战争打响时，联军的第一批目标中就有乌姆盖斯尔港。2003年3月21日，正当联军在伊拉克南部推进时，一支两栖登陆部队攻占了乌姆盖斯尔港的新港区。这场进攻有英国皇家海军陆战队第三突击旅打头阵，并且得到了美国海军陆战队第15远征部队和波兰行动应变及机动组（GROM）的支援。驻守在乌姆盖斯尔城区内的伊拉克军队进行了出乎联军意料的抵抗，迫使联军花了数天事件才清除了当地的防御部队。在3月25日，联军宣布这座港口城市已经安全并且重新对外开放。",
+        "url": "https://zh.wikipedia.org/wiki/%E4%B9%8C%E5%A7%86%E7%9B%96%E6%96%AF%E5%B0%94%E6%88%98%E5%BD%B9"
+      },
+      "es": {
+        "title": "Batalla de Um Kasar",
+        "extract": "La batalla de Um Kasar fue el primer combate terrestre cuerpo a cuerpo de la 2ª Guerra del Golfo. El 21 de marzo de 2003, paralelamente al comienzo de la Operación Conmoción y Pavor en Bagdad, tropas de la coalición asaltaban la ciudad portuaria de Um Kasar. El valor estratégico de esta plaza era clave, al tratarse del único puerto marítimo de calado profundo que existe en Irak, situado en aguas del golfo Pérsico. La entrada de tropas se hizo paralelamente desde el mar y cruzando por tierra desde territorio de Kuwait.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Um_Kasar"
+      },
+      "ar": {
+        "title": "معركة أم قصر",
+        "extract": "معركة أم قصر و هي أول مواجهة عسكرية في حرب العراق.كان ميناء أم قصر اولى الاهداف في بداية الحرب. في 21 آذار/مارس 2003، عندما تقدمت قوات التحالف في جنوب العراق، استولت قوة إنزال برمائية على منطقة ميناء أم قصر الجديدة. وقد أبدت القوات العراقية في بلدة أم قصر القديمة مقاومة قوية بشكل غير متوقع، مما استلزم قتالًا عده أيام قبل احتلال المنطقة وإيقاف المدافعين. وأعلن عن احتلال الميناء وتأمينه وأعيد فتحه في 25 آذار/مارس 2003.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%A3%D9%85_%D9%82%D8%B5%D8%B1"
+      },
+      "fr": {
+        "title": "Bataille d'Umm Qasr",
+        "extract": "La bataille d'Umm Qasr est le premier affrontement militaire de l'opération libération de l'Irak, ayant eu lieu du 21 mars au 25 mars 2003 entre les forces de la Coalition et l'armée irakienne.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_d'Umm_Qasr"
+      },
+      "pt": {
+        "title": "Batalha de Umm Qasr",
+        "extract": "A Batalha de Umm Qasr foi o primeiro confronto militar na Guerra do Iraque. No início da guerra, um dos primeiros objetivos foi o porto de Um Qasr. Em 21 de março de 2003, enquanto as forças aliadas avançavam pelo sul do Iraque, uma força de desembarque anfíbia capturou a nova área portuária de um Qasr.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Umm_Qasr"
+      }
+    }
+  },
+  "Battle of Samawah": {
+    "pages": {
+      "en": {
+        "title": "Battle of Samawah",
+        "extract": "The Battle of Samawah took place during the 2003 invasion of Iraq as American troops fought to clear the city of Iraqi forces. The city had been bypassed during the advance on Baghdad, leaving the task of clearing it to American paratroopers of the 82nd Airborne Division with mechanized infantry and armor provided by units of the 1st Battalion, 41st Infantry Regiment, and 2-70th Armor Battalions, along with 3rd platoon 59th Chemical Company tasked with finding and removing any potential chemical or biological weapons. The battle was the largest sustained urban combat that paratroopers of the 82nd Airborne had been involved in since World War II.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Samawah"
+      },
+      "ar": {
+        "title": "معركة السماوة",
+        "extract": "معركة السماوة هي معركة وقعت اثناء غزو العراق عندما قاتلت القوات الامريكية للسيطرة على المدينة من الجيش العراقي. تم تجاوز المدينة اثناء التقدم نحو بغداد، مما ترك مهمة السيطرة على المدينة لقوات المظلات الامريكية من ،الى جانب الفصيل الثالث من شركة الكيمياويات 59 المكلفة بالعثور على اي اسلحة كيميائية او بيولوجية محتملة وإزالتها. كانت المعركة اكبر قتال حضري متواصل شاركت فيه قوات المضليين التابعة للفرقة 82 جواً منذ الحرب العالمية الثانية.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%A7%D9%84%D8%B3%D9%85%D8%A7%D9%88%D8%A9"
+      },
+      "fr": {
+        "title": "Bataille de Samawa",
+        "extract": "La bataille de Samawa oppose les forces de la Coalition (Américains) aux forces irakiennes du 30 mars au 4 avril 2003 pendant l'opération liberté irakienne, lors de la progression américaine sur Bagdad.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Samawa"
+      }
+    }
+  },
+  "Operation Viking Hammer": {
+    "pages": {
+      "en": {
+        "title": "Operation Viking Hammer",
+        "extract": "Operation Viking Hammer was an unconventional warfare operation during the Iraq War which took place in northern Iraq, commonly known as Iraqi Kurdistan. The goal of the operation was to eliminate Ansar al-Islam and dismantle the Islamic Emirate of Kurdistan. Ansar al-Islam was established by former Al-Qaeda members in 2001 as a Kurdish Salafist movement that imposed a strict application of Sharia in villages it controlled.",
+        "url": "https://en.wikipedia.org/wiki/Operation_Viking_Hammer"
+      },
+      "ar": {
+        "title": "عملية المطرقة الفايكنغ",
+        "extract": "عملية المطرقة الفايكنغ كانت عملية حرب غير تقليدية خلال حرب العراق، جرت في شمال العراق، في المنطقة المعروفة عادةً باسم كردستان العراق. كان الهدف من العملية هو القضاء على أنصار الإسلام وتفكيك ما يُعرف بـ إمارة كردستان الإسلامية.\nتأسست جماعة أنصار الإسلام على يد أعضاء سابقين في تنظيم القاعدة عام 2001، كحركة سلفية كردية فرضت تطبيقًا صارمًا لـ الشريعة الإسلامية في القرى التي كانت تسيطر عليها.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%B9%D9%85%D9%84%D9%8A%D8%A9_%D8%A7%D9%84%D9%85%D8%B7%D8%B1%D9%82%D8%A9_%D8%A7%D9%84%D9%81%D8%A7%D9%8A%D9%83%D9%86%D8%BA"
+      },
+      "fr": {
+        "title": "Opération Viking Hammer",
+        "extract": "L’opération Viking Hammer est menée du 28 mars au 30 mars 2003 par l'armée américaine pendant l'invasion de l'Irak afin d'éliminer le groupe djihadiste Ansar al-Islam présent au Kurdistan irakien.",
+        "url": "https://fr.wikipedia.org/wiki/Op%C3%A9ration_Viking_Hammer"
+      }
+    }
+  },
+  "Operation Northern Delay": {
+    "pages": {
+      "en": {
+        "title": "Operation Northern Delay",
+        "extract": "Operation Northern Delay occurred on 26 March 2003 as part of the 2003 U.S. invasion of Iraq. It involved dropping paratroopers into Northern Iraq. It was the last large-scale combat parachute operation conducted by the U.S. military since Operation Just Cause.",
+        "url": "https://en.wikipedia.org/wiki/Operation_Northern_Delay"
+      },
+      "ar": {
+        "title": "عملية التأخير الشمالية",
+        "extract": "عملية التأخير الشمالية وقعت في 26 مارس 2003 كجزء من غزو الولايات المتحدة للعراق عام 2003. اشتملت على إنزال مظليين في شمال العراق. كانت آخر عملية قفز قتالية واسعة النطاق تنفذها الجيش الأمريكي منذ غزو الولايات المتحدة الأمريكية لبنما.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%B9%D9%85%D9%84%D9%8A%D8%A9_%D8%A7%D9%84%D8%AA%D8%A3%D8%AE%D9%8A%D8%B1_%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84%D9%8A%D8%A9"
+      },
+      "fr": {
+        "title": "Opération Northern Delay",
+        "extract": "L’opération Northern Delay est menée le 26 mars 2003 par l'armée américaine pendant l'invasion de l'Irak.",
+        "url": "https://fr.wikipedia.org/wiki/Op%C3%A9ration_Northern_Delay"
+      }
+    }
+  },
+  "Battle of the Karbala Gap (2003)": {
+    "pages": {
+      "en": {
+        "title": "Battle of the Karbala Gap (2003)",
+        "extract": "The Battle of the Karbala Gap occurred during the 2003 invasion of Iraq. The Karbala Gap is a 20–25-mile wide strip of land with the Euphrates River to the east and Lake Razazah to the west. This strip of land was recognized by Iraqi commanders as a key approach to Baghdad, and was defended by the Medina and Bakhtnisar Divisions of the Iraqi Republican Guard. American forces attacked Iraqi forces in the area with massive air attacks followed by concentrated armored thrusts which resulted in the Iraqi units being surrounded and annihilated.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_the_Karbala_Gap_(2003)"
+      },
+      "ar": {
+        "title": "معركة ثغرة كربلاء (2003)",
+        "extract": "وقعت معركة ثغرة كربلاء خلال غزو العراق عام 2003. ثغرة كربلاء هي شريط عرضها 20-25 ميلا من الأرض مع الفرات إلى الشرق و‌بحيرة الرزازة إلى الغرب. هذه الأرض اعتبرها القادة العراقيون طريقًا رئيسيًا إلى بغداد وتدافع عنها فرقتا المدينة ونبوخذنصر. التابعتان للحرس الجمهوري. هاجمت القوات الأمريكية القوات العراقية في المنطقة بغارات جوية واسعة النطاق، تلاها تقدم مدرع مكثف، مما أدى إلى تطويق وإبادة القوات العراقية.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%AB%D8%BA%D8%B1%D8%A9_%D9%83%D8%B1%D8%A8%D9%84%D8%A7%D8%A1_(2003)"
+      },
+      "fr": {
+        "title": "Bataille de Kerbala (2003)",
+        "extract": "La bataille de Kerbala oppose les forces de la Coalition (Américains) aux forces irakiennes à Kerbala du 31 mars 2003 au 6 avril 2003, dans le cadre de l'opération Liberté irakienne. C'est une victoire américaine décisive, puisqu'elle permet aux forces américaines de lancer leur assaut final sur Bagdad qui se déroulera en avril.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Kerbala_(2003)"
+      }
+    }
+  },
+  "Capture of Saddam Hussein": {
+    "pages": {
+      "en": {
+        "title": "Capture of Saddam Hussein",
+        "extract": "Saddam Hussein, the deposed president of Iraq, was captured by the United States military in the town of Ad-Dawr, Iraq, on 13 December 2003. The military operation to capture him was codenamed Operation Red Dawn, after the 1984 American film Red Dawn.",
+        "url": "https://en.wikipedia.org/wiki/Capture_of_Saddam_Hussein"
+      },
+      "zh": {
+        "title": "红色黎明行动",
+        "extract": "红色黎明行动 是美国于2003年12月13日在伊拉克提克里特附近所采取的军事行动，这次行动成功俘虏了伊拉克前总统萨达姆·侯赛因。这次行动是以1984年的电影赤色黎明命名的。",
+        "url": "https://zh.wikipedia.org/wiki/%E7%BA%A2%E8%89%B2%E9%BB%8E%E6%98%8E%E8%A1%8C%E5%8A%A8"
+      },
+      "es": {
+        "title": "Operación Amanecer Rojo",
+        "extract": "La Operación Amanecer Rojo, fue una operación llevada a cabo por tropas del ejército estadounidense el 13 de diciembre de 2003, en ad-Dawr, una pequeña localidad de Irak cercana a Tikrit, supuso la captura del expresidente de Irak, Sadam Huseín. El nombre de la operación es por la película de 1984 Amanecer rojo. La misión fue asignada al Equipo de Combate de la 1.ª Brigada de la 4.ª División de Infantería, comandada por el general de división Raymond Odierno y dirigida por el coronel James Hickey de la 4.ª División de Infantería, en operaciones conjuntas con la Task Force 121, una élite y equipo de operaciones especiales conjuntas encubiertas.",
+        "url": "https://es.wikipedia.org/wiki/Operaci%C3%B3n_Amanecer_Rojo"
+      },
+      "ar": {
+        "title": "عملية الفجر الأحمر",
+        "extract": "عملية الفجر الأحمر أو القبض على صدام حسين ، هي عملية عسكرية قامت بها الولايات المتحدة وأُلقي القبض فيها على الرئيس العراقي الأسبق صدام حسين في 13 كانون الأول/ديسمبر 2003 في بلدة الدور بالعراق. سميت العملية على اسم فيلم الفجر الأحمر الذي صدر عام 1984. نفذت المهمة من قبل فرقة العمليات المشتركة 121 بدعم من فريق اللواء القتالي الأول من فرقة المشاة الرابعة بقيادة اللواء ريموند أوديرنو.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%B9%D9%85%D9%84%D9%8A%D8%A9_%D8%A7%D9%84%D9%81%D8%AC%D8%B1_%D8%A7%D9%84%D8%A3%D8%AD%D9%85%D8%B1"
+      },
+      "pt": {
+        "title": "Operação Red Dawn",
+        "extract": "A Operação Red Dawn foi uma missão executada pelas forças armadas dos Estados Unidos a 13 de dezembro de 2003. Feita na cidade de Ad-Dawr, no norte do Iraque, terminou com a captura do ex-líder iraquiano Saddam Hussein. A operação foi encabeçada e executada pela 1.ª brigada de combate da 4.ª divisão de infantaria americana, comandada pelo general Raymond Odierno e pelo coronel James Hickey, apoiados por forças especiais.",
+        "url": "https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Red_Dawn"
+      }
+    }
+  },
+  "Battle of Najaf (2004)": {
+    "pages": {
+      "en": {
+        "title": "Battle of Najaf (2004)",
+        "extract": "The Battle of Najaf a battle during the Iraq War between United States-Iraqi government forces and the Shia insurgent Mahdi Army led by Muqtada al-Sadr in the Iraqi city of Najaf in April 2004 and conflict began again in August 2004.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Najaf_(2004)"
+      },
+      "es": {
+        "title": "Batalla de Náyaf",
+        "extract": "La batalla de Nayaf fue un enfrentamiento durante la guerra de Irak entre las fuerzas estadounidenses y del nuevo gobierno iraquí y el ejército insurgente chií Ejército Mahdi, liderado por Muqtada al-Sadr, en la ciudad iraquí de Nayaf en abril de 2004, reanudándose en agosto de 2004.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_N%C3%A1yaf"
+      },
+      "ar": {
+        "title": "معركة النجف (2004)",
+        "extract": "معركة النجف الكبرى، وتُعرف أحيانًا بحرب النجف أو انتفاضة جيش المهدي أو انتفاضة الصدر الثالثة ، هو نزاع مسلح وأزمة عسكرية اندلعت في 4 أبريل 2004، واستمرت بشكل متقطع حتى شهر أغسطس من العام نفسه بين التيار الصدري بجناحه العسكري المعروف بجيش المهدي والذي يرأسه مقتدى الصدر نجل المرجع الشيعي محمد الصدر، ضد القوات الأمريكية وقوات التحالف الداعمة لها، في مدينة النجف وسط العراق، وذلك بعد الغزو الأمريكي للعراق.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%A7%D9%84%D9%86%D8%AC%D9%81_(2004)"
+      },
+      "fr": {
+        "title": "Bataille de Nadjaf (2004)",
+        "extract": "La bataille de Nadjaf oppose pendant la guerre d'Irak les forces de la Coalition à l'Armée du Mahdi de Moqtada al-Sadr dans la ville irakienne de Nadjaf du 5 août au 27 août 2004.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Nadjaf_(2004)"
+      }
+    }
+  },
+  "First Battle of Fallujah": {
+    "pages": {
+      "ko": {
+        "title": "제1차 팔루자 전투",
+        "extract": "제1차 팔루자 전투(First Battle of Fallujah) 또는 단호한 결의 작전(Operation Vigilant Resolve)은 2004년 4월 5일에 있었던 이라크 팔루자에서의 미군 작전이다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%A0%9C1%EC%B0%A8_%ED%8C%94%EB%A3%A8%EC%9E%90_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "First Battle of Fallujah",
+        "extract": "The First Battle of Fallujah, code-named Operation Vigilant Resolve, was an American-led operation of the Iraq War against militants in Fallujah as well as an attempt to apprehend or kill the perpetrators of the killing of four U.S. contractors in March 2004.",
+        "url": "https://en.wikipedia.org/wiki/First_Battle_of_Fallujah"
+      },
+      "zh": {
+        "title": "第一次费卢杰战役",
+        "extract": "第一次费卢杰战役，是2004年4月4日至5月1日（伊拉克战争期间）美国领导的针对费卢杰武装分子（伊拉克伊斯兰军、认主独一与圣战组织）的军事行动。此次军事行动与2004年3月五名美国士兵以及四名美国黑水成员被杀有关。但此次作战美军未能占领费卢杰反而于5月1日从费卢杰撤军。美军只有在第二次费卢杰战役期间才彻底占领费卢杰。",
+        "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%B4%B9%E5%8D%A2%E6%9D%B0%E6%88%98%E5%BD%B9"
+      },
+      "es": {
+        "title": "Primera batalla de Faluya",
+        "extract": "Como parte de la ocupación iraquí, la primera batalla de Faluya, de nombre en clave Operación Resolución Vigilante, fue un intento fallido por ocupar la ciudad de Faluya, por parte del ejército de los Estados Unidos en abril del 2004.",
+        "url": "https://es.wikipedia.org/wiki/Primera_batalla_de_Faluya"
+      },
+      "ar": {
+        "title": "معركة الفلوجة الأولى",
+        "extract": "معركة الفلوجة الأولى هي محاولة فاشلة من القوات الأمريكية لدخول مدينة الفلوجة والسيطرة عليها، المعركة حدثت بعد أن قتل أربعة من قوات المرتزقة من شركة بلاك وتر الأمريكية في مدينة الفلوجة وسحبت جثامينهم في الشوارع لتعلق الجثث فيما بعد على جسر في أطراف المدينة على نهر الفرات وتكبد الجيش الأمريكي في هذه المعركة خسائر فادحة دفعت الرئيس الأمريكي جورج بوش الابن الى التصريح الذي قال فيه:",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%A7%D9%84%D9%81%D9%84%D9%88%D8%AC%D8%A9_%D8%A7%D9%84%D8%A3%D9%88%D9%84%D9%89"
+      },
+      "fr": {
+        "title": "Première bataille de Falloujah",
+        "extract": "La première bataille de Falloujah a lieu lors de la guerre d'Irak.",
+        "url": "https://fr.wikipedia.org/wiki/Premi%C3%A8re_bataille_de_Falloujah"
+      },
+      "pt": {
+        "title": "Primeira Batalha de Faluja",
+        "extract": "Como parte da ocupação do Iraque pelos Estados Unidos, a Primeira Batalha de Faluja, codinome Operation Vigilant Resolve, foi uma tentativa mal sucedida feita pelos militares norte-americanos de recapturar a cidade de Faluja em abril de 2004.",
+        "url": "https://pt.wikipedia.org/wiki/Primeira_Batalha_de_Faluja"
+      }
+    }
+  },
+  "Battle of Ramadi (2004)": {
+    "pages": {
+      "en": {
+        "title": "Battle of Ramadi (2004)",
+        "extract": "The Battle of Ramadi was fought in the spring of 2004, during the same time as the First Battle of Fallujah, for control of the capital of the Al Anbar Governorate in western Iraq. A coalition military force consisting of the 2nd Battalion, 4th Marines were stationed to defend the city from an insurgent assault.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Ramadi_(2004)"
+      },
+      "es": {
+        "title": "Batalla de Ramadi (2004)",
+        "extract": "La batalla de Ramadi fue una batalla llevada a cabo en abril de 2004 entre los insurgentes y los soldados estadounidenses por el control de la ciudad situada en la provincia de Al Anbar.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Ramadi_(2004)"
+      },
+      "ar": {
+        "title": "معركة الرمادي (2004)",
+        "extract": "معركة الرمادي وقعت في ربيع عام 2004، في نفس الوقت الذي دارت فيه معركة الفلوجة الأولى، وكان الهدف منها هو السيطرة على مدينة الرمادي في محافظة الأنبار غرب العراق.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%A7%D9%84%D8%B1%D9%85%D8%A7%D8%AF%D9%8A_(2004)"
+      },
+      "pt": {
+        "title": "Batalha de Ramadi (2004)",
+        "extract": "A Batalha de Ramadi foi travada na primavera de 2004 ao mesmo tempo que a Primeira Batalha de Faluja. Em abril de 2004, Faluja estava sob cerco pelas forças da Coalizão e os insurgentes procuravam aliviar a pressão sobre a cidade tentando uma ofensiva. Ramadi, a capital da província de Al Anbar, foi vista como um centro de gravidade para as forças da coalizão e, portanto, um alvo privilegiado para atacar. Antes que a batalha começasse, insurgentes obstruíram a estrada de Al Anbar para Bagdá.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Ramadi_(2004)"
+      }
+    }
+  },
+  "Defense of the Karbala City Hall": {
+    "pages": {
+      "en": {
+        "title": "Defense of the Karbala City Hall",
+        "extract": "The Defense of the Karbala City Hall was a series of clashes fought from April 3 to April 6, 2004, between Iraqi insurgents of the Mahdi Army, who attempted to seize the town hall in central Karbala, and Polish and Bulgarian soldiers of the Multinational Division Central-South, who defended the building.",
+        "url": "https://en.wikipedia.org/wiki/Defense_of_the_Karbala_City_Hall"
+      },
+      "ar": {
+        "title": "الدفاع عن مبنى محافظة كربلاء",
+        "extract": "الدفاع عن مبنى محافظة كربلاء كانت العملية عبارة عن سلسلة من المناوشات التي دارت في الفترة من 3 أبريل إلى 6 أبريل 2004 بين المتمردين العراقيين من جيش المهدي الذين حاولوا الاستيلاء على دار البلدية في وسط كربلاء و المدافعين من الجنود البولنديين و البلغاريين من الفرقة المتعددة الجنسيات الوسطى و الجنوبية.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%AF%D9%81%D8%A7%D8%B9_%D8%B9%D9%86_%D9%85%D8%A8%D9%86%D9%89_%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9_%D9%83%D8%B1%D8%A8%D9%84%D8%A7%D8%A1"
+      }
+    }
+  },
+  "Siege of Sadr City": {
+    "pages": {
+      "en": {
+        "title": "Siege of Sadr City",
+        "extract": "The Siege of Sadr City was a blockade of the Shi'a district of northeastern Baghdad carried out by US and Iraqi government forces in an attempt to destroy the main power base of the insurgent Mahdi Army in Baghdad. The siege began on 4 April 2004 – later dubbed \"Black Sunday\" – with an uprising against the Coalition Provisional Authority following the government banning of a newspaper published by Muqtada Al-Sadr's Sadrist Movement. The most intense periods of fighting in Sadr City occurred during the first uprising in April 2004, the second in August the same year, during the sectarian conflict that gripped Baghdad in late 2006, during the Iraq War troop surge of 2007, and during the spring fighting of 2008.",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Sadr_City"
+      },
+      "ar": {
+        "title": "حصار مدينة الصدر",
+        "extract": "حصار مدينة الصدر سلسلة من العمليات العسكرية والحصار الخانق التي فرضتها القوات الأمريكية على مدينة الصدر شمال شرق العاصمة العراقية بغداد ضمن محاولة أمريكية لتدمير القاعدة الرئيسية لجيش المهدي المعارض للاحتلال الأمريكي للعراق، بدأ الحصار في 4 أبريل 2004 بعد مقتل واصابة 68 عسكري أمريكي في معركة شرسة في المدينة ضمن انتفاضة مسلحة قادها التيار الصدري ضد سلطة الائتلاف المؤقتة وقوات الاحتلال في معظم محافظات وسط وجنوب العراق على خلفية فتح النار على متظاهرين من أنصار الصدر في مدينة النجف احتجوا على قرار بإغلاق صحيفة الحوزة وتطويق منزل الصدر واعتقال أحد مساعديه، استمر القتال العنيف في مدينة الصدر لفترات متقطعة وتجدد بشكل مستمر في أغسطس 2004 وسبتمبر 2004 و2006 ويناير 2007 ومارس 2008 وفشلت أغلب المحاولات الأمريكية للسيطرة على المدينة وانتزاعها من مقاتلي جيش المهدي الذين أحكموا قبضتهم عليها بشدة",
+        "url": "https://ar.wikipedia.org/wiki/%D8%AD%D8%B5%D8%A7%D8%B1_%D9%85%D8%AF%D9%8A%D9%86%D8%A9_%D8%A7%D9%84%D8%B5%D8%AF%D8%B1"
+      },
+      "fr": {
+        "title": "Siège de Sadr City",
+        "extract": "Le siège de Sadr City désigne le blocus du district chiite de Bagdad mené par les forces irakiennes et américaines dans une tentative de détruire l'Armée du Mahdi de Moqtada al-Sadr.",
+        "url": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Sadr_City"
+      }
+    }
+  },
+  "Battle of Mosul (2004)": {
+    "pages": {
+      "en": {
+        "title": "Battle of Mosul (2004)",
+        "extract": "The Battle of Mosul was fought during the Iraq War in November 2004 for the city of Mosul the capital of the Ninawa Governorate in northern Iraq that occurred concurrently to fighting in Fallujah.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Mosul_(2004)"
+      },
+      "es": {
+        "title": "Batalla de Mosul (2004)",
+        "extract": "La batalla de Mosul (2004) fue una batalla en la cual las fuerzas estadounidenses hicieron una paz civil con el sunnita local. Posteriormente la Agencia Central de Inteligencia (CIA) se alió casi exclusivamente con los kurdos, y los Estados Unidos se habían visto como aliado tribal de los kurdos, haciendo el conflicto inevitable.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Mosul_(2004)"
+      },
+      "ar": {
+        "title": "معركة الموصل (2004)",
+        "extract": "معركة الموصل 2004 هي احدى المعارك التي دارت بعد الغزو الامريكي للعراق حيث اندلعت اشتياكات في مدينة الموصل بالعراق بين قوات التحالف الدولي بقيادة الولايات المتحدة وبين المقاومة العراقية المحلية وجيش رجال الطريقة النقشبندية وشهدت تدخل قوات البيشمركة الكردية، استمرت المعركة لاشهر متسببة بخسائر بشرية كبيرة واثر على الوضع الامني والسياسي في المنطقة.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%A7%D9%84%D9%85%D9%88%D8%B5%D9%84_(2004)"
+      },
+      "fr": {
+        "title": "Bataille de Mossoul (2004)",
+        "extract": "La bataille de Mossoul est une bataille de la guerre d'Irak survenue en 2004 pour la capitale du gouvernorat de Ninive, dans le nord de l'Irak, qui a eu lieu parallèlement à des combats dans Falloujah.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Mossoul_(2004)"
+      },
+      "pt": {
+        "title": "Batalha de Mossul (2004)",
+        "extract": "A Batalha de Mossul foi uma batalha travada em 2004, durante a Guerra do Iraque, pelo controle da capital da província de Ninawa, no norte do Iraque, que ocorreu simultaneamente com os combates em Faluja.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Mossul_(2004)"
+      }
+    }
+  },
+  "Second Battle of Fallujah": {
+    "pages": {
+      "en": {
+        "title": "Second Battle of Fallujah",
+        "extract": "The Second Battle of Fallujah, initially codenamed Operation Phantom Fury, Operation al-Fajr was an American-led offensive of the Iraq War that began on 7 November 2004 and lasted about six weeks.",
+        "url": "https://en.wikipedia.org/wiki/Second_Battle_of_Fallujah"
+      },
+      "zh": {
+        "title": "第二次费卢杰战役",
+        "extract": "第二次费卢杰战役 是一次由美军、伊拉克政府军和英军于2004年11月至12月战事正酣之际发起的联合攻势。这次行动由伊拉克过渡政府授权，以美国海军陆战队向费卢杰城内的叛军发动进攻作为先导。是役被美国军方称为“陆战队自1968年顺化战役以来进行过的最激烈的巷战”。",
+        "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E8%B4%B9%E5%8D%A2%E6%9D%B0%E6%88%98%E5%BD%B9"
+      },
+      "es": {
+        "title": "Segunda batalla de Faluya",
+        "extract": "La segunda batalla de Faluya, denominada Operación Al-Fajr y Phantom Fury, fue una ofensiva militar conjunta de las fuerzas estadounidenses, iraquíes y británicas, llevada a cabo durante los meses de noviembre y diciembre del 2004. Fue autorizada por el gobierno interino iraquí designado por los Estados Unidos y liderada por el Cuerpo de Marines en contra de los baluartes de la insurgencia iraquí existentes en Faluya. Está considerada como el momento álgido del conflicto en esta ciudad, durante el cual se dieron algunos de los más duros combates urbanos en que se hayan visto envueltos los marines desde la batalla de Hue, según dijeron los estadounidenses.",
+        "url": "https://es.wikipedia.org/wiki/Segunda_batalla_de_Faluya"
+      },
+      "ar": {
+        "title": "معركة الفلوجة الثانية",
+        "extract": "معركة الفلوجة الثانية  كانت هجومًا مشتركًا بين الجيش الأمريكي والجيش العراقي والجيش البريطاني في نوفمبر وديسمبر من عام 2004 ، وكانت تمثل ذروة المعارك خلال حرب العراق. قادها مشاة البحرية الأمريكية ضد الجماعات المسلحة في مدينة الفلوجة، وتم تفويضها من قبل الحكومة العراقية المؤقتة المعينة من قبل الولايات المتحدة. وصفها الجيش الأمريكي بأنها \"من أعنف المعارك الحضرية التي شارك فيها مشاة البحرية الأمريكية منذ معركة مدينة هوو في فيتنام عام 1968.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%A7%D9%84%D9%81%D9%84%D9%88%D8%AC%D8%A9_%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A%D8%A9"
+      },
+      "fr": {
+        "title": "Deuxième bataille de Falloujah",
+        "extract": "La deuxième bataille de Falloujah est une bataille urbaine opposant la guérilla irakienne, dans un de ses bastions, aux forces armées des États-Unis, appuyées par l’armée irakienne gouvernementale. Elle est déclenchée dans la nuit du 6 au 7 novembre 2004 sous le nom d’opération Phantom Fury, et se termine par la reprise de contrôle officielle de la ville par les Américains, qui est achevée le 23 décembre 2004.",
+        "url": "https://fr.wikipedia.org/wiki/Deuxi%C3%A8me_bataille_de_Falloujah"
+      },
+      "pt": {
+        "title": "Segunda Batalha de Faluja",
+        "extract": "A Segunda Batalha de Faluja — codinome Operation Al-Fajr e Operation Phantom Fury — foi uma grande operação militar das tropas da Coalizão que aconteceu entre novembro e dezembro de 2004 e é considerada a maior e mais sangrenta batalha da Guerra do Iraque. A batalha foi liderada pelos Fuzileiros Navais dos Estados Unidos, com apoio do batalhão \"Guarda Negra\" do Exército Britânico e das Forças Armadas do Iraque, e o principal objetivo era expulsar a insurgentes iraquianos da cidade de Faluja. Os militares americanos chamaram a batalha de \"o maior combate urbano que os marines americanos enfrentaram desde a Batalha da cidade de Huế City, durante a Guerra do Vietnã em 1968.\"",
+        "url": "https://pt.wikipedia.org/wiki/Segunda_Batalha_de_Faluja"
+      }
+    }
+  },
+  "Battle of Tal Afar (2005)": {
+    "pages": {
+      "en": {
+        "title": "Battle of Tal Afar (2005)",
+        "extract": "The Battle of Tal Afar also known as Operation Restoring Rights was a military offensive conducted by the United States Army and supported by Iraqi forces, to eliminate Al Qaeda in Iraq and other insurgents in the city of Tal Afar, Iraq in response to the increase of insurgent attacks against U.S. and Iraqi positions in the area and to end the brutal tactics against the population by the terrorists. Coalition Forces consisted of 3rd Armored Cavalry Regiment, elements of the 82nd Airborne Division, and two brigades of the Iraqi 3rd Division, all were under the command of Col. H.R. McMaster. AQI had used the city as a staging ground for moving foreign fighters into Iraq since early 2005. The city was temporarily cleared for elections in 2005, but was not secured in a long-term view.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Tal_Afar_(2005)"
+      },
+      "ar": {
+        "title": "معركة تلعفر (2005)",
+        "extract": "معركة تلعفر والمعروفة أيضًا باسم عملية استعادة الحقوق كانت هجومًا عسكريًا شنته قوات الولايات المتحدة بدعم من القوات العراقية للقضاء على تنظيم القاعدة في العراق والمتمردين الآخرين في مدينة تلعفر بالعراق ردًا على زيادة هجمات المتمردين ضد المواقع الأمريكية والعراقية في المنطقة. تتكون قوات التحالف من فوج الفرسان المدرع الثالث، وعناصر من الفرقة 82 المحمولة جواً، ولوائين من الفرقة الثالثة العراقية، وكانوا جميعًا تحت قيادة العقيد إتش آر ماكماستر. استخدم تنظيم القاعدة في العراق المدينة كنقطة انطلاق لنقل المقاتلين الأجانب إلى العراق منذ أوائل عام 2005. طُهرت المدينة مؤقتًا للانتخابات في عام 2005، ولكن لم تؤمن على المدى الطويل.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%AA%D9%84%D8%B9%D9%81%D8%B1_(2005)"
+      },
+      "fr": {
+        "title": "Bataille de Tall Afar (2005)",
+        "extract": "La bataille de Tall Afar a lieu lors de la guerre d'Irak. Les forces gouvernementales irakiennes, appuyées par l'armée américaine, mènent un siège contre la ville, proche de la frontière avec la Syrie et considérée comme un bastion de la guérilla irakienne. Cette ville et ses environs avaient en effet servi de refuge aux insurgés après la bataille de Falloujah.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Tall_Afar_(2005)"
+      },
+      "pt": {
+        "title": "Batalha de Tal Afar (2005)",
+        "extract": "Batalha de Tal Afar, também conhecida como Operação Restaurando Direitos, foi uma ofensiva militar conduzida pelo Exército dos Estados Unidos e apoiada pelas forças iraquianas, para eliminar a al-Qaeda no Iraque (AQI) e outros insurgentes na cidade iraquiana de Tal Afar em resposta ao aumento dos ataques insurgentes contra posições estadunidenses e iraquianas na área e para acabar com as táticas brutais dos terroristas contra a população. As Forças da Coalizão consistiam no 3.º Regimento de Cavalaria Blindada, elementos da 82.ª Divisão Aerotransportada, e duas brigadas da 3.ª Divisão Iraquiana, todas sob o comando do Coronel H.R. McMaster. A AQI usava a cidade como uma base de operações para deslocar os combatentes estrangeiros para o Iraque desde o início de 2005. A cidade foi temporariamente liberada para as eleições em 2005, mas não foi assegurada a uma perspectiva de longo prazo.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Tal_Afar_(2005)"
+      }
+    }
+  },
+  "Battle of Abu Ghraib": {
+    "pages": {
+      "en": {
+        "title": "Battle of Abu Ghraib",
+        "extract": "The Battle of Abu Ghraib took place between Iraqi Mujahideen and United States forces at Abu Ghraib prison on April 2, 2005.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Abu_Ghraib"
+      },
+      "ar": {
+        "title": "معركة أبو غريب",
+        "extract": "معركة أبو غريب هو هجوم من المسلحين العراقيين من تنظيم القاعدة ضد قوات الأمريكية المتواجدة في سجن أبو غريب في تاريخ 2 أبريل 2005. وشن المتمردون المرتبطون بالقاعدة في العراق هجوما مباغتا على القسم الأمريكي من سجن أبو غريب، المعروف باسم معسكر الفداء، بإطلاق قذائف هاون وصواريخ ثقيلة على المنشأة، ثم مهاجمة بأسلحة خفيفة وقنابل يدوية وسيارات مفخخة. نجحت القوات الأمريكية في صد محاولة الحصار بعد ساعتين، مما أسفر عن إصابة أكثر من 40 جندي أمريكي في المعركة، وقتل ما يقدر بـ 70 مسلحًا من تنظيم القاعدة.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%A3%D8%A8%D9%88_%D8%BA%D8%B1%D9%8A%D8%A8"
+      }
+    }
+  },
+  "Battle of Amarah": {
+    "pages": {
+      "en": {
+        "title": "Battle of Amarah",
+        "extract": "The Battle of Amarah took place from October 19 to October 20, 2006, between the Mahdi Army and police, who were largely members of the Badr Organization. Fighting began on October 19, when 800 masked members of the Mahdi army stormed three police stations in Amarah.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Amarah"
+      },
+      "ar": {
+        "title": "معركة العمارة 2006",
+        "extract": "معركة العمارة هي معركة عسكرية حدثت في مدينة العمارة جنوب العراق التي يسكنها أكثر من 400 ألف شخص عام 2006 حيث جرت المعركة بين جيش المهدي من جهة والشرطة العراقية من جهة آخرى جات بعد انسحاب الجيش البريطاني من المدينة نتيجة عمليات القصف الصاروخي الذي يتلقاه منذ بداية احتلال العراق عام 2003.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%A7%D9%84%D8%B9%D9%85%D8%A7%D8%B1%D8%A9_2006"
+      }
+    }
+  },
+  "Battle of Ramadi (2006)": {
+    "pages": {
+      "en": {
+        "title": "Battle of Ramadi (2006)",
+        "extract": "The Second Battle of Ramadi was fought during the Iraq War from March 2006 to November 2006, for control of Ramadi, the capital of the Al Anbar Governorate in western Iraq. A joint US military force under the command of 1st Brigade Combat Team, 1st Armored Division; 3rd Battalion, 8th Marines ; and Iraqi Security Forces fought insurgents for control of key locations in Ramadi. Coalition strategy relied on establishing a number of patrol bases called Combat Operation Posts or \"COP's\" throughout the city, with the main efforts concentrated at the Government Center, OPVA, Hurricane Point, Blue Diamond, Hospital, and Corrigador.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Ramadi_(2006)"
+      },
+      "es": {
+        "title": "Segunda batalla de Ramadi (2006)",
+        "extract": "La segunda batalla de Ramadi fue una batalla durante la guerra de Irak por el control de la capital de la provincia de Al Anbar (Ramadi) en el oeste de Irak. Soldados de EE. UU., los marines de EE. UU., Navy SEALs de la Marina y fuerzas de seguridad iraquíes lucharon contra los insurgentes por el control de ubicaciones clave en Ramadi, incluyendo el Centro de Gobierno y el Hospital General.",
+        "url": "https://es.wikipedia.org/wiki/Segunda_batalla_de_Ramadi_(2006)"
+      },
+      "ar": {
+        "title": "معركة الرمادي (2006)",
+        "extract": "وقعت معركة الرمادي خلال حرب العراق في الفترة الممتدة من أبريل 2006 إلى نوفمبر 2006 للسيطرة على مدينة الرمادي، عاصمة محافظة الأنبار في غرب العراق.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%A7%D9%84%D8%B1%D9%85%D8%A7%D8%AF%D9%8A_(2006)"
+      },
+      "fr": {
+        "title": "Bataille de Ramadi (2006)",
+        "extract": "La première bataille de Ramadi fut livrée pendant la guerre d'Irak de juin à novembre 2006 pour le contrôle de la capitale de la province d'Al-Anbar dans l'ouest de l'Irak.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Ramadi_(2006)"
+      },
+      "pt": {
+        "title": "Batalha de Ramadi (2006)",
+        "extract": "A Batalha de Ramadi de 2006 foi travada durante a Guerra do Iraque entre abril de 2006 a novembro de 2006 pelo controle da capital da província de Al Anbar, no oeste do Iraque. Uma força combinada do exército, dos fuzileiros navais, dos Navy SEALs e das forças de segurança iraquianas lutaram contra os insurgentes pelo controle de locais importantes em Ramadi, incluindo a sede do governo e o Hospital Geral.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Ramadi_(2006)"
+      }
+    }
+  },
+  "Siege of Basra (2007)": {
+    "pages": {
+      "en": {
+        "title": "Siege of Basra (2007)",
+        "extract": "The siege of Basra was initiated by the Mahdi Army to capture the city of Basra in 2007. Following the reported major failure of the coalition forces, whose purpose was to stabilise Basra and prepare it for the turning over of security to Iraqi government forces, the city was overrun by insurgent forces from three different Iraqi factions including the Mahdi Army, and the British found themselves under major siege in their bases and capable of conducting only limited defence action in armoured convoys.",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Basra_(2007)"
+      },
+      "ar": {
+        "title": "حصار القواعد البريطانية في البصرة",
+        "extract": "حصار القواعد البريطانية في البصرة هو عملية عسكرية وحصار خانق فرضه جيش المهدي على قوات التحالف في محافظة البصرة لأكثر من 6 أشهر خلال عام 2007. وذلك في اعقاب عملية السندباد التي شنتها قوات التحالف بالاشتراك مع القوات العراقية في سبتمبر 2006 حيث كانت تهدف إلى فرض الاستقرار في محافظة البصرة والتي تكللت بنجاح غير متوقع حققته القوات المشتركة وتسلمت قوات الأمن العراقية مسؤولية حفظ الأمن في المحافظة. ولكن سيطر جيش المهدي على المدينة مجددا ووجدت القوات البريطانية نفسها تحت الحصار في قواعدها وسط المدينة وتتعرض لسيل من الهجمات الصاروخية بشكل يومي ولا يمكنها سوى على تسيير قوافل مدرعة وفرق مداهمات محدودة في المدينة تتعرض هي الأخرى إلى هجمات بالعبوات الناسفة وعمليات القنص",
+        "url": "https://ar.wikipedia.org/wiki/%D8%AD%D8%B5%D8%A7%D8%B1_%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%B9%D8%AF_%D8%A7%D9%84%D8%A8%D8%B1%D9%8A%D8%B7%D8%A7%D9%86%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D8%A8%D8%B5%D8%B1%D8%A9"
+      },
+      "fr": {
+        "title": "Siège des bases britanniques à Bassorah",
+        "extract": "Le siège des bases britanniques à Bassorah est mené par l'Armée du Mahdi entre le 27 février et le 3 septembre 2007 pendant la guerre d'Irak.",
+        "url": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_des_bases_britanniques_%C3%A0_Bassorah"
+      }
+    }
+  },
+  "Operation Black Eagle": {
+    "pages": {
+      "en": {
+        "title": "Operation Black Eagle",
+        "extract": "Operation Black Eagle is an operation that took place during Operation Iraqi Freedom from 2003 to 2010. It was the 381st listed operation during the Iraq war in 2003 Black Eagle was an operation in which U.S., Polish, and Iraqi troops battled gunmen loyal to anti-American cleric Muqtada al-Sadr in the town of Al Diwaniyah, which is the capital of Iraq's Al-Qādisiyyah Governorate, for control of the city. U.S. warplanes targeted insurgent positions with Hellfire missiles in and near the city. As of 7 April 2007, Iraqi officials have verified six insurgents killed and 39 captured. On 10 April 2007, combat operations had been declared to have ended and the operation continued into the reconstruction phase. There is no relation to Operation Black Eagle II that took place in January 2007.",
+        "url": "https://en.wikipedia.org/wiki/Operation_Black_Eagle"
+      },
+      "ar": {
+        "title": "عملية النسر الأسود",
+        "extract": "عملية النسر الأسود هي عملية عسكرية جرت خلال حرب العراق في الفترة ما بين عام 2003 إلى عام 2011، وتُعد العملية رقم 381 ضمن حرب العراق عام 2003. خاضت فيها القوات الأمريكية والبولندية والعراقية معارك عنيفة ضد مسلحين موالين لرجل الدين مقتدى الصدر، في مدينة الديوانية عاصمة محافظة القادسية العراقية، بهدف السيطرة على المدينة.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%B9%D9%85%D9%84%D9%8A%D8%A9_%D8%A7%D9%84%D9%86%D8%B3%D8%B1_%D8%A7%D9%84%D8%A3%D8%B3%D9%88%D8%AF"
+      },
+      "fr": {
+        "title": "Opération Black Eagle",
+        "extract": "L’opération Black Eagle est une opération des forces américaines et polonaises contre les milices fidèles à Moqtada al-Sadr menée dans la ville de Diwaniya du 6 au 10 avril 2007 pendant la guerre d'Irak. Les drones et hélicoptères d'attaque US ciblèrent les positions insurgées dans et autour de la ville grâce à l'emploi de missiles AGM-114 Hellfire.",
+        "url": "https://fr.wikipedia.org/wiki/Op%C3%A9ration_Black_Eagle"
+      }
+    }
+  },
+  "Operation Outside the Box": {
+    "pages": {
+      "ko": {
+        "title": "오차드 작전",
+        "extract": "오차드 작전(Operation Orchard)는 2007년 9월 6일 이스라엘 공군이 시리아의 핵시설을 공습한 군사작전이다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%98%A4%EC%B0%A8%EB%93%9C_%EC%9E%91%EC%A0%84"
+      },
+      "en": {
+        "title": "Operation Outside the Box",
+        "extract": "Operation Outside the Box, also known as Operation Orchard, was an Israeli airstrike on a confirmed nuclear reactor under construction, referred to as the Al Kibar site, in the Deir ez-Zor region of Syria, which occurred just after midnight on 6 September 2007. In 2026 it was established the Syrians held 27 tons of nuclear materials associated to the site, including yellow cake, and the Trump administration, Israel and Syria negotiated a deal to remove it from Syria.",
+        "url": "https://en.wikipedia.org/wiki/Operation_Outside_the_Box"
+      },
+      "es": {
+        "title": "Operación Huerto",
+        "extract": "La Operación Huerto fue un ataque aéreo israelí a un reactor nuclear en construcción conocido por los sirios con el nombre clave de Al-Kibar, situado en la región de Dayr az-Zawr, en Siria, llevado a cabo justo después de la medianoche del 6 de septiembre de 2007. En 2026 se estableció que los sirios tenían 27 toneladas de material radioactivo en el sitio, incluyendo óxido de uranio, y la administración Trump, Israel y Siria negociaron un acuerdo para sacarlo del país.",
+        "url": "https://es.wikipedia.org/wiki/Operaci%C3%B3n_Huerto"
+      },
+      "ar": {
+        "title": "عملية خارج الصندوق",
+        "extract": "عملية البستان كانت ضربة جوية إسرائيلية على ما يشتبه بأنه مفاعل نووي في محافظة دير الزور السورية بعد منتصف الليل مباشرة يوم 6 سبتمبر 2007.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%B9%D9%85%D9%84%D9%8A%D8%A9_%D8%AE%D8%A7%D8%B1%D8%AC_%D8%A7%D9%84%D8%B5%D9%86%D8%AF%D9%88%D9%82"
+      },
+      "fr": {
+        "title": "Opération Orchard",
+        "extract": "L'opération Orchard est une opération militaire exécutée par l'armée de l'air israélienne le 6 septembre 2007 sur un bâtiment proche de Halabiyé, dans le gouvernorat de Deir ez-Zor en Syrie.",
+        "url": "https://fr.wikipedia.org/wiki/Op%C3%A9ration_Orchard"
+      },
+      "pt": {
+        "title": "Operação Pomar",
+        "extract": "Operação Pomar foi um ataque aéreo israelense em um reator nuclear suspeito na região de Deir Zor na Síria, que ocorreu logo após a meia-noite em 6 de setembro de 2007. Os governos de Israel e dos Estados Unidos impuseram blackouts de notícias praticamente totais imediatamente depois da incursão que organizaram por sete meses. A Casa Branca e a Agência Central de Inteligência (CIA) posteriormente confirmaram que a inteligência estadunidense também havia indicado que o local era uma instalação nuclear com fins militares, embora a Síria negasse. Uma investigação da Agência Internacional de Energia Atômica (AIEA) de 2009 relatou evidências de urânio e de grafite e concluiu que o local tinha características semelhantes à de um reator nuclear clandestino. A AIEA foi inicialmente incapaz de confirmar ou negar a natureza do local, porque, de acordo com a AIEA, a Síria não conseguiu fornecer a cooperação necessária com a investigação. A Síria contestou estas alegações. Quase quatro anos depois, em abril de 2011, a AIEA confirmou oficialmente que o local era um reator nuclear.",
+        "url": "https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Pomar"
+      }
+    }
+  },
+  "Battle of Basra (2008)": {
+    "pages": {
+      "en": {
+        "title": "Battle of Basra (2008)",
+        "extract": "The Battle of Basra began on 25 March 2008, when the Iraqi Army launched an operation to drive the Mahdi Army militia out of the southern Iraqi city of Basra. The operation was the first major operation to be planned and carried out by the Iraqi Army since the invasion of 2003.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Basra_(2008)"
+      },
+      "ar": {
+        "title": "عملية صولة الفرسان",
+        "extract": "عملية صولة الفرسان أو معركة البصرة هي عملية عسكرية أطلقتها الحكومة العراقية برئاسة رئيس الوزراء نوري المالكي في 25 مارس 2008 لطرد ميليشيا جيش المهدي من مدينة البصرة بجنوب العراق، وهي أول عملية كبرى يخطط لها وينفذها الجيش العراقي منذ غزو العراق عام 2003.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%B9%D9%85%D9%84%D9%8A%D8%A9_%D8%B5%D9%88%D9%84%D8%A9_%D8%A7%D9%84%D9%81%D8%B1%D8%B3%D8%A7%D9%86"
+      },
+      "fr": {
+        "title": "Bataille de Bassorah (2008)",
+        "extract": "La bataille de Bassorah débuta le 25 mars 2008 pendant la guerre d'Irak lorsque l'armée irakienne lance l'opération du nom de code Saulat al-Fursan afin de nettoyer la ville de Bassorah de toute présence de l'Armée du Mahdi. Il s'agit de la première opération majeure planifiée et exécutée par les forces gouvernementales depuis l'invasion de 2003.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Bassorah_(2008)"
+      },
+      "pt": {
+        "title": "Batalha de Baçorá (2008)",
+        "extract": "A Batalha de Baçorá começou em 25 de março de 2008, quando o exército iraquiano lançou uma operação para expulsar a milícia Exército Mahdi do sul da cidade iraquiana de Baçorá. A operação foi a primeira grande operação a ser planejada e realizada pelo exército iraquiano desde a invasão de 2003.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Ba%C3%A7or%C3%A1_(2008)"
+      }
+    }
+  },
+  "Battle of the Palm Grove": {
+    "pages": {
+      "en": {
+        "title": "Battle of the Palm Grove",
+        "extract": "The Battle of the Palm Grove was a military engagement that took place during the Iraq War when elements of the Second Advise and Assist Brigade, 25th ID of the US Army and 512th Military Police Company US Army supported 200 Iraqi Army and Iraqi Police in a search and sweep operation against 15-25 insurgents planting IEDs in Hudaidy, Diyala Province.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_the_Palm_Grove"
+      },
+      "ar": {
+        "title": "معركة بستان النخيل",
+        "extract": "وقعت معركة بستان النخيل (بالإنكليزية: Battle of Palm Grove) أثناء حرب العراق عندما دعمت عناصر من لواء المشورة والمساعدة الثاني والفوج 25 من الجيش الأمريكي وشركة الشرطة العسكرية 512 التابعة للجيش الأمريكي 200 من الجيش العراقي والشرطة العراقية في عملية بحث وتمشيط ضد 15-25 متمرداً يزرعون عبوات ناسفة في الحديدة بمحافظة ديالى.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%A8%D8%B3%D8%AA%D8%A7%D9%86_%D8%A7%D9%84%D9%86%D8%AE%D9%8A%D9%84"
+      }
+    }
+  }
+}

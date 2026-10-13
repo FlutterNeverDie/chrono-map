@@ -1,0 +1,85 @@
+# Falklands War 전투 (Wikidata 자동 생성, 직접 고쳐도 됨). 형식은 content/campaigns/CLAUDE.md
+
+@ battle-of-wireless-ridge
+wikipedia: Battle of Wireless Ridge
+when: 1982-06
+coords: -57.93, -51.67
+links: 4
+
+@ invasion-of-south-georgia
+wikipedia: Invasion of South Georgia
+when: 1982-04
+coords: -36.5, -54.29
+links: 9
+
+@ 1982-invasion-of-the-falkland-islands
+wikipedia: 1982 invasion of the Falkland Islands
+when: 1982-04
+coords: -57.87, -51.69
+links: 19
+
+@ battle-of-mount-kent
+wikipedia: Battle of Mount Kent
+when: 1982-05
+coords: -58.11, -51.67
+links: 3
+
+@ battle-of-goose-green
+wikipedia: Battle of Goose Green
+when: 1982-05
+coords: -58.97, -51.83
+links: 13
+
+@ skirmish-at-top-malo-house
+wikipedia: Skirmish at Top Malo House
+when: 1982-05
+coords: -58.45, -51.62
+links: 3
+
+@ battle-of-san-carlos-1982
+wikipedia: Battle of San Carlos (1982)
+when: 1982-05
+coords: -59.08, -51.51
+links: 7
+
+@ battle-of-seal-cove
+wikipedia: Battle of Seal Cove
+when: 1982-05
+coords: -58.67, -52.03
+links: 4
+
+@ sinking-of-ara-general-belgrano
+wikipedia: Sinking of ARA General Belgrano
+when: 1982-05
+coords: -61.53, -55.4
+links: 5
+
+@ battle-of-mount-tumbledown
+wikipedia: Battle of Mount Tumbledown
+when: 1982-06
+coords: -57.97, -51.7
+links: 5
+
+@ battle-of-mount-harriet
+wikipedia: Battle of Mount Harriet
+when: 1982-06
+coords: -58.02, -51.71
+links: 3
+
+@ battle-of-mount-longdon
+wikipedia: Battle of Mount Longdon
+when: 1982-06
+coords: -57.98, -51.67
+links: 5
+
+@ battle-of-two-sisters
+wikipedia: Battle of Two Sisters
+when: 1982-06
+coords: -58.02, -51.69
+links: 5
+
+@ bluff-cove-air-attacks
+wikipedia: Bluff Cove air attacks
+when: 1982-06
+coords: -58.22, -51.8
+links: 5

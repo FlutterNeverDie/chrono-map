@@ -1,0 +1,7 @@
+# Second Italo-Ethiopian War 전투 (Wikidata 자동 생성, 직접 고쳐도 됨). 형식은 content/campaigns/CLAUDE.md
+
+@ battle-of-amba-aradam
+wikipedia: Battle of Amba Aradam
+when: 1936-02
+coords: 39.51, 13.33
+links: 10

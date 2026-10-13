@@ -1,0 +1,45 @@
+{
+  "Silla–Tang War": {
+    "pages": {
+      "ko": {
+        "title": "나당 전쟁",
+        "extract": "나당 전쟁(羅唐戰爭)은 670년부터 676년까지 신라와 당나라 사이에 벌어진 전쟁이다. 신라는 이 전쟁에 승리함으로써 삼국 통일을 이루고, 대동강 이남의 한반도 중·남부에 대한 지배권을 확립했다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%82%98%EB%8B%B9_%EC%A0%84%EC%9F%81"
+      },
+      "en": {
+        "title": "Silla–Tang War",
+        "extract": "The Silla–Tang War (670–676) occurred between the Silla kingdom of Korea and the Tang dynasty of China. It began in the geopolitical context immediately following the conquest of Goguryeo and Baekje by the joint forces of Silla and Tang.",
+        "url": "https://en.wikipedia.org/wiki/Silla%E2%80%93Tang_War"
+      },
+      "zh": {
+        "title": "唐朝与新罗的战争",
+        "extract": "唐与新罗的战争，朝鲜半岛称之为罗唐战争，发生于670年—676年。668年，唐朝与新罗联军共同征服高句丽和百济。但仅两年过去，两国便爆发新的战争，历经6年，最终以双方通过交涉达成妥协而告终。此战后，新罗获得朝鲜半岛大同江以南地区，朝鲜历史上的统一新罗时代自此开始，而唐朝的军事目标则从朝鲜半岛转移至吐蕃。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%94%90%E6%9C%9D%E4%B8%8E%E6%96%B0%E7%BD%97%E7%9A%84%E6%88%98%E4%BA%89"
+      },
+      "fr": {
+        "title": "Guerre Silla-Tang",
+        "extract": "La guerre Silla-Tang (668–676) oppose le royaume coréen de Silla et ses alliés aux Chinois de la dynastie Tang. Elle trouve sa source dans le contexte géopolitique de la période qui suit immédiatement la défaite et la conquête des royaumes de Koguryo et Baekje, qui sont tombés face aux troupes de Silla et des Tang, qui étaient alors des alliés.\nCette guerre entre anciens alliés commence à cause des conflits liés au partage des terres des vaincus et s’achève par une trêve à cause des problèmes de politique intérieures des deux combattants. Finalement, les belligérants se partagent la Corée en prenant le fleuve Taedong comme frontière entre leurs deux territoires.",
+        "url": "https://fr.wikipedia.org/wiki/Guerre_Silla-Tang"
+      }
+    }
+  },
+  "Battle of Maeso": {
+    "pages": {
+      "ko": {
+        "title": "매소성 전투",
+        "extract": "매소성 전투 또는 매소성 대첩은 나당 전쟁 당시 675년 신라와 당나라가 매소성에서 벌인 전투로, 신라는 이 전투에서 당나라 20만 대군을 격파하여 그 간의 패배를 만회하고 나당 전쟁의 전세를 역전시켰다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%A7%A4%EC%86%8C%EC%84%B1_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Maeso",
+        "extract": "The Battle of Maeso took place between Silla and Tang forces in the Korean Peninsula.\nOn September 29, 675, a confrontation occurred between Silla's forces under the command of Kim Wonsul and a Tang army nder Li Jinxing. The Sillan army was composed of Sillan soldiers, former prisoners issued amnesty in exchange for participating in the battle, as well as refugees from Goguryeo and Baekje. Li Jinxing was a Tang general of Mohe-origin.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Maeso"
+      },
+      "zh": {
+        "title": "买肖城之战",
+        "extract": "买肖城之战为于675年农历九月爆发，新罗与唐朝之间的军事冲突，朝鲜半岛称之为买肖城大捷。",
+        "url": "https://zh.wikipedia.org/wiki/%E4%B9%B0%E8%82%96%E5%9F%8E%E4%B9%8B%E6%88%98"
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+# 초기 이슬람 정복: search 범위(북위 45도) 밖이라 자동으로 안 잡히는 전투를 직접 추가 (자동 생성이 덮어쓰지 않음)
+
+@ battle-of-tours
+wikipedia: Battle of Tours
+when: 732
+coords: 0.54, 46.78
+links: 60

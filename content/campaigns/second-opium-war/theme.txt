@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Second Opium War
+region: china
+when: 1856-10 ~ 1860-10
+unit: month
+borders-step: 1
+view: 116, 31, 4.5
+search: 108, 125, 20, 41
+min-links: 1
+side.a.ko: 영국·프랑스
+side.a.en: Britain & France
+side.a.zh: 英法联军
+side.a.es: Reino Unido y Francia
+side.a.hi: ब्रिटेन और फ़्रांस
+side.a.ar: بريطانيا وفرنسا
+side.a.fr: Royaume-Uni et France
+side.a.pt: Reino Unido e França
+side.b.ko: 청
+side.b.en: Qing China
+side.b.zh: 清朝
+side.b.es: China Qing
+side.b.hi: चिंग चीन
+side.b.ar: الصين (تشينغ)
+side.b.fr: Chine Qing
+side.b.pt: China Qing

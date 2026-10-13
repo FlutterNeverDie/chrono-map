@@ -1,0 +1,31 @@
+# 소련-아프가니스탄 전쟁: Wikidata에 날짜·좌표가 없어 자동으로 안 잡히는 전투를 직접 추가 (좌표는 근사)
+
+@ badaber-uprising
+wikipedia: Badaber uprising
+when: 1985-04
+coords: 71.57, 33.96
+links: 11
+
+@ first-battle-of-zhawar
+wikipedia: First Battle of Zhawar
+when: 1985-09
+coords: 69.95, 33.18
+links: 2
+
+@ second-battle-of-zhawar
+wikipedia: Second Battle of Zhawar
+when: 1986-02 ~ 1986-04
+coords: 69.9, 33.14
+links: 2
+
+@ battle-of-jaji
+wikipedia: Battle of Jaji
+when: 1987-05
+coords: 69.75, 33.85
+links: 7
+
+@ battle-of-arghandab-1987
+wikipedia: Battle of Arghandab (1987)
+when: 1987-05 ~ 1987-06
+coords: 65.6, 31.65
+links: 6

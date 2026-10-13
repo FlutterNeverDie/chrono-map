@@ -1,0 +1,6 @@
+# 나라(정치체)별 진영 — 형식은 content/campaigns/CLAUDE.md
+
+United States of America = a
+Cuban Nationalists = a
+Kingdom of Spain = b
+# Kingdom of Spain = 스페인 본토 + 쿠바·푸에르토리코·필리핀(당시 실제 스페인령). (Spanish Empire)는 같은 영역이라 생략

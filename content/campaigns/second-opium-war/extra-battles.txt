@@ -1,0 +1,13 @@
+# 제2차 아편전쟁: Wikidata에 좌표가 없어 자동으로 안 잡히는 전투
+
+@ battle-of-taku-forts-1859
+wikipedia: Battle of Taku Forts (1859)
+when: 1859-06
+coords: 117.71, 38.97
+links: 9
+
+@ battle-of-zhangjiawan
+wikipedia: Battle of Zhangjiawan
+when: 1860-09
+coords: 116.7, 39.86
+links: 5

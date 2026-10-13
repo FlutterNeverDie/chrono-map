@@ -1,0 +1,595 @@
+{
+  "Balkan Wars": {
+    "pages": {
+      "ko": {
+        "title": "발칸 전쟁",
+        "extract": "발칸 전쟁은 1912년에서 1913년까지 발칸반도에서 일어난 전쟁이다. 발칸 동맹(그리스, 몬테네그로, 불가리아, 세르비아)과 오스만 제국과의 제1차 발칸 전쟁(1912년 10월~ 1913년 5월)과 그 전후 처리에 대한 대립으로 발생한 제2차 발칸 전쟁(1913년 6월~1913년 8월)으로 나뉜다.제1차 발칸 전쟁\n제2차 발칸 전쟁",
+        "url": "https://ko.wikipedia.org/wiki/%EB%B0%9C%EC%B9%B8_%EC%A0%84%EC%9F%81"
+      },
+      "en": {
+        "title": "Balkan Wars",
+        "extract": "The Balkan Wars were two conflicts that took place in the Balkan states in 1912 and 1913. In the First Balkan War, the four Balkan states of Greece, Serbia, Montenegro and Bulgaria declared war upon the Ottoman Empire and defeated it, in the process stripping the Ottomans of their European provinces, leaving only Eastern Thrace under Ottoman control. In the Second Balkan War, Bulgaria fought against the other four combatants of the first war. It also faced an attack from Romania from the north. The Ottoman Empire lost the bulk of its territory in Europe. Although not involved as a combatant, Austria-Hungary became relatively weaker as a much enlarged Serbia pushed for union of the South Slavic peoples. The war set the stage for the July crisis of 1914 and was a prelude to the First World War.",
+        "url": "https://en.wikipedia.org/wiki/Balkan_Wars"
+      },
+      "zh": {
+        "title": "巴尔干战争",
+        "extract": "巴尔干（gàn）战争指的是1912年到1913年期间在南欧巴尔干半岛上前后发生的第一次巴尔干战争和第二次巴尔干战争。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%B7%B4%E5%B0%94%E5%B9%B2%E6%88%98%E4%BA%89"
+      },
+      "es": {
+        "title": "Guerras de los Balcanes",
+        "extract": "Las guerras de los Balcanes fueron dos guerras ocurridas en el sureste de Europa de 1912 a 1913. La primera enfrentó al Imperio otomano con la llamada Liga de los Balcanes formada por Bulgaria, Montenegro, Grecia y Serbia. Las pequeñas naciones balcánicas lograron expulsar a los otomanos de casi todo el territorio de la península, pero no pudieron evitar enfrentarse entre sí por el reparto de las tierras que les habían arrebatado, lo que originó la segunda guerra de los Balcanes. El Tratado de Bucarest puso fin a las guerras, pero dejó la zona en un equilibrio inestable, debido al deseo de los derrotados búlgaros de tomarse la revancha en cuanto surgiese la oportunidad. Las contiendas tampoco saciaron los apetitos de los nacionalistas griegos y serbios, que seguían deseosos de ampliar sus Estados a costa de otomanos y austrohúngaros, respectivamente.",
+        "url": "https://es.wikipedia.org/wiki/Guerras_de_los_Balcanes"
+      },
+      "hi": {
+        "title": "बाल्कन युद्ध",
+        "extract": "बाल्कन युद्ध से आशय सन् १९१२ और १९१३ में बाल्कन प्रायदीप में हुए दो युद्धों से है। बाल्कन के प्रथम युद्ध में चार बाल्कन राज्यों ने तुर्क साम्राज्य को हरा दिया था। दूसरे बाल्कन युद्ध बुल्गारिया और प्रथम बाल्कन युद्ध के पाँच देशों के बीच हुआ था। इसमें बल्गारिया की बड़ी मानहानि हुई और उसे कई क्षेत्रों से हाथ धोना पड़। ये दोनों युद्ध तुर्की साम्राज्य के लिए घातक सिद्ध हुए और उसे अपने अधिकांश यूरोपीय क्षेत्र से हाथ धोना पड़ा। ये युद्ध प्रथम विश्वयुद्ध के महत्वपूर्ण कारणों में से एक कारण माने जाते हैं।",
+        "url": "https://hi.wikipedia.org/wiki/%E0%A4%AC%E0%A4%BE%E0%A4%B2%E0%A5%8D%E0%A4%95%E0%A4%A8_%E0%A4%AF%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A7"
+      },
+      "ar": {
+        "title": "حروب البلقان",
+        "extract": "تألفت حروب البلقان من نزاعين حدثا في شبه جزيرة البلقان في عامي 1912 و1913. هزمت أربع دولٍ بلقانية الإمبراطورية العثمانية في حرب البلقان الأولى. في حرب البلقان الثانية، قاتلت بلغاريا ضد مقاتلي الحرب الأولى الأربعة الأصليين إلى جانب مواجهتها هجومًا مفاجئًا شنته رومانيا من الشمال. انتهت النزاعات بصورة كارثية بالنسبة للإمبراطورية العثمانية، التي خسرت غالبية أرضها في أوروبا. صارت النمسا – المجر أضعف نسبيًا رغم أنها لم تكن مقاتلة، ما دفع صربيا المتضخمة كثيرًا إلى الضغط من أجل توحيد الشعوب السلافية الجنوبية. هيأت الحرب الأجواء لأزمة يوليو في عام 1914 وهكذا كانت بمثابة «توطئة للحرب العالمية الأولى».",
+        "url": "https://ar.wikipedia.org/wiki/%D8%AD%D8%B1%D9%88%D8%A8_%D8%A7%D9%84%D8%A8%D9%84%D9%82%D8%A7%D9%86"
+      },
+      "fr": {
+        "title": "Guerres balkaniques",
+        "extract": "Les guerres balkaniques ou guerres des Balkans sont des conflits qui ont divisé les Balkans dans les années 1912 et 1913. Les peuples chrétiens de l'Empire ottoman, qui s'étaient émancipés de la domination turque, aspiraient à agrandir leurs États en regroupant les populations de même langue vivant encore dans la « Turquie d'Europe ». Mais l'imbrication de ces populations dans certaines zones et le jeu des grandes puissances visant à diviser pour régner compliquent le processus.",
+        "url": "https://fr.wikipedia.org/wiki/Guerres_balkaniques"
+      },
+      "pt": {
+        "title": "Guerras dos Balcãs",
+        "extract": "As Guerras dos Balcãs (português europeu) ou Bálcãs (português brasileiro) foram dois conflitos que ocorreram nos estados balcânicos em 1912 e 1913. Na Primeira Guerra Balcânica, os quatro estados balcânicos da Grécia, Sérvia, Montenegro e Bulgária declararam guerra ao Império Otomano e o derrotaram, despojando os otomanos de suas províncias europeias no processo, deixando apenas a Trácia Oriental sob controle otomano. Na Segunda Guerra Balcânica, a Bulgária lutou contra os outros quatro combatentes da primeira guerra. Também enfrentou um ataque da Romênia pelo norte. O Império Otomano perdeu a maior parte de seu território na Europa. Embora não estivesse envolvida como combatente, a Áustria-Hungria tornou-se relativamente mais fraca à medida que uma Sérvia muito alargada pressionava pela união dos povos eslavos do sul. A guerra preparou o cenário para a crise de Julho de 1914 e como prelúdio para a Primeira Guerra Mundial.",
+        "url": "https://pt.wikipedia.org/wiki/Guerras_dos_Balc%C3%A3s"
+      }
+    }
+  },
+  "Battle of Pente Pigadia": {
+    "pages": {
+      "en": {
+        "title": "Battle of Pente Pigadia",
+        "extract": "The Battle of Pente Pigadia or Battle of Beshpinar, took place on 22–30 October (O.S.), 1912. It was fought between Greek forces under Lieutenant General Konstantinos Sapountzakis and Ottoman forces under General Esad Pasha during the First Balkan War. The battle began when the Ottomans attacked Greek positions at Anogi. Early snowfall prevented the Ottomans from launching a big offensive, while the Greeks managed to hold their ground for six days in the ensuing series of skirmishes.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Pente_Pigadia"
+      },
+      "ar": {
+        "title": "معركة بينتي بيجاديا",
+        "extract": "معركة بينتي بيجاديا أو معركة بشبينار وتسمي أيضا «معركة الآبار الخمسة»، وهي معركة خلال حرب البلقان الأولى بين الدولة العثمانية ومملكة اليونان.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%A8%D9%8A%D9%86%D8%AA%D9%8A_%D8%A8%D9%8A%D8%AC%D8%A7%D8%AF%D9%8A%D8%A7"
+      }
+    }
+  },
+  "Battle of Kirk Kilisse": {
+    "pages": {
+      "en": {
+        "title": "Battle of Kirk Kilisse",
+        "extract": "The Battle of Kirk Kilisse or Battle of Kirklareli or Battle of Lozengrad was part of the First Balkan War between the armies of Bulgaria and the Ottoman Empire. It took place on 22–24 October 1912. Bulgarian forces of the First and Third Armies defeated the Ottoman Eastern Army and captured Lozengrad. The victory forced the Ottoman forces to retreat toward the Lüleburgaz–Bunarhisar line and opened much of northern Thrace to the Bulgarians.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Kirk_Kilisse"
+      },
+      "es": {
+        "title": "Batalla de Kirk Kilisse",
+        "extract": "La batalla de Kirk Kilisse, batalla de Kirkkilise o batalla de Lozengrad se libró entre el 22 y el 24 de octubre de 1912, durante la primera guerra de los Balcanes, entre Bulgaria y el Imperio otomano. El ejército búlgaro derrotó al otomano en la Tracia oriental.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Kirk_Kilisse"
+      },
+      "ar": {
+        "title": "معركة قرقلر ايلي",
+        "extract": "معركة قرقلر ايلي وقعت 24 أكتوبر 1912م في قرقلر ايلي بتركيا وتشكل هذه المعركة جزء من حروب البلقان. بين قوات الدولة العثمانية وقوات بلغاريا، انتهت المعركة بانتصار بلغاريا.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D9%82%D8%B1%D9%82%D9%84%D8%B1_%D8%A7%D9%8A%D9%84%D9%8A"
+      },
+      "fr": {
+        "title": "Bataille de Kirk Kilissé",
+        "extract": "La bataille de Kirk Kilissé, également appelée bataille de Lozengrad, se déroule le 24 octobre 1912 pendant la première guerre balkanique, près de la ville actuelle de Kırklareli en Turquie. Elle oppose l'armée ottomane à l'armée du royaume de Bulgarie qui l'emporte.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Kirk_Kiliss%C3%A9"
+      }
+    }
+  },
+  "Battle of Lule Burgas": {
+    "pages": {
+      "en": {
+        "title": "Battle of Lule Burgas",
+        "extract": "The Battle of Lule Burgas or Battle of Luleburgas – Bunarhisar took place between the Kingdom of Bulgaria and the Ottoman Empire and was the bloodiest battle of the First Balkan War. The battle took place from 28 October to 2 November 1912. The outnumbered Bulgarian forces made the Ottomans retreat to Çatalca line, 30 km from the Ottoman capital Constantinople. In terms of forces engaged it was the largest battle fought in Europe between the end of the Franco-Prussian War and the beginning of the First World War.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Lule_Burgas"
+      },
+      "es": {
+        "title": "Batalla de Lule-Burgas",
+        "extract": "La batalla de Lule-Burgas tuvo lugar del 29 de octubre al 2 de noviembre de 1912, durante la primera guerra balcánica y la disputaron los ejércitos del Reino de Bulgaria y del Imperio otomano.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Lule-Burgas"
+      },
+      "ar": {
+        "title": "معركة لول بورغاس",
+        "extract": "معركة لول بورغاس أو معركة لول بورغاس بونارحصار ، هي معركة بين مملكة بلغاريا والدولة العثمانية وكانت أكثر المعارك دموية في حرب البلقان الأولى ، ووقعت المعركة في الفترة من 28 أكتوبر إلى 2 نوفمبر 1912، حيث ان القوات البلغارية التي قاتلت قوة تفوقها عددا جعلت العثمانيين يتراجعون إلى خط كاتالكا، علي بعد 30 كم من العاصمة العثمانية القسطنطينية ، تعد المعركة ومن حيث عدد القوات المشاركة، أكبر معركة في أوروبا بين نهاية الحرب الفرنسية البروسية وبداية الحرب العالمية الأولى",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D9%84%D9%88%D9%84_%D8%A8%D9%88%D8%B1%D8%BA%D8%A7%D8%B3"
+      },
+      "fr": {
+        "title": "Bataille de Lule-Burgas",
+        "extract": "La bataille de Lule-Burgas ou bataille de Lüleburgaz s'est déroulée du 29 octobre au 2 novembre 1912 durant la première guerre balkanique et a opposé l'armée du royaume de Bulgarie à celle de l'Empire ottoman. Elle s'est terminée par la victoire des Bulgares qui ont forcé les Turcs à battre en retraite jusqu'à Çatalca, à 25 kilomètres d'Istanbul, capitale de l'empire. C'est la plus importante bataille à s'être livrée en Europe entre la guerre franco-prussienne de 1870 et la Première Guerre mondiale.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Lule-Burgas"
+      },
+      "pt": {
+        "title": "Batalha de Lule Burgas",
+        "extract": "A Batalha de Lule Burgas ou Batalha de Luleburgas – Bunarhisar foi uma batalha entre o Reino da Bulgária e o Império Otomano e foi a batalha mais sangrenta da Primeira Guerra Balcânica. A batalha ocorreu de 28 de outubro a 2 de novembro de 1912. As forças búlgaras em menor número fizeram os otomanos recuarem para a linha de Çatalca, a 30 km da capital otomana, Constantinopla. Em termos de forças engajadas, foi a maior batalha travada na Europa entre o fim da Guerra Franco-Prussiana e o início da Primeira Guerra Mundial.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Lule_Burgas"
+      }
+    }
+  },
+  "Battle of Kumanovo": {
+    "pages": {
+      "en": {
+        "title": "Battle of Kumanovo",
+        "extract": "The Battle of Kumanovo, on 23–24 October 1912, was a major battle of the First Balkan War. It was an important Serbian victory over the Ottoman army in the Kosovo Vilayet, shortly after the outbreak of the war.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Kumanovo"
+      },
+      "es": {
+        "title": "Batalla de Kumanovo",
+        "extract": "La batalla de Kumanovo fue una batalla decisiva de la primera guerra de los Balcanes, y tuvo lugar del 23 al 24 de octubre de 1912. Significó una importante victoria del Reino de Serbia sobre el ejército del Imperio otomano en el Valiato de Kosovo, poco después del estallido de la guerra. Después de esta derrota, el ejército otomano abandonó la mayor parte de la región, sufriendo grandes pérdidas de personal y de material de guerra.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Kumanovo"
+      },
+      "ar": {
+        "title": "معركة كومانوفو",
+        "extract": "معركة كومانوفو كانت معركة كبرى وقعت من 23 إلى 24 أكتوبر 1912 خلال حرب البلقان الأولى. وحقق الجيش الصربي انتصاراً مهماً على الجيش العثماني في ولاية قوصوه بعد فترة وجيزة من اندلاع الحرب. بعد هذه الهزيمة، تخلى الجيش العثماني عن أجزاء كبرى من المنطقة حيث تكبد خسائر فادحة في الطاقة البشرية والعتاد الحربي.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D9%83%D9%88%D9%85%D8%A7%D9%86%D9%88%D9%81%D9%88"
+      },
+      "fr": {
+        "title": "Bataille de Kumanovo",
+        "extract": "La bataille de Kumanovo est livrée les 23 et 24 octobre 1912 pendant la première guerre balkanique. Elle oppose à Koumanovo (Macédoine), les armées serbes et ottomanes et se termine par la défaite et la retraite de cette dernière.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Kumanovo"
+      },
+      "pt": {
+        "title": "Batalha de Kumanovo",
+        "extract": "A Batalha de Kumanovo, ocorrida nos dias 23 e 24 de outubro de 1912 foi um dos grandes combates das Guerras dos Bálcãs, disputadas em 1912 e 1913 no sudeste do continente europeu. Foi uma importante vitória da Sérvia, conquistada no início da Primeira Guerra Balcânica, impondo severas perdas ao exército otomano, tanto em homens quanto em material.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Kumanovo"
+      }
+    }
+  },
+  "Battle of Sarantaporo": {
+    "pages": {
+      "en": {
+        "title": "Battle of Sarantaporo",
+        "extract": "The Battle of Sarantaporo, also variously transliterated as Sarantaporon or Sarandaporon, took place on 9–10 October, 1912. It was the first major battle fought between Greek forces under Crown Prince Constantine and Ottoman forces under General Hasan Tahsin Pasha during the First Balkan War. The battle began when the Greek army attacked the Ottoman defensive line at the Sarantaporo pass, which connected Thessaly with central Macedonia.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Sarantaporo"
+      },
+      "es": {
+        "title": "Batalla de Sarantaporo",
+        "extract": "La batalla de Sarantaporo, población que también se denomina Sarantaporon o Sarandaporon se disputó entre el 9 y el 10 de octubre de 1912. Fue la primera lid importante que disputaron las divisiones griegas del príncipe heredero Constantino y las fuerzas otomanas del general Hasan Tahsin Bajá durante la primera guerra balcánica. La batalla empezó con la acometida griega a la línea defensiva otomana en el desfiladero Sarantaporo, que comunicaba Tesalia con la Macedonia central.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Sarantaporo"
+      },
+      "ar": {
+        "title": "معركة سارانتابورو",
+        "extract": "معركة سارانتابورو وتترجم أيضا سارانتابورن أو ساراندابورو هي معركة وقعت في 9-10 أكتوبر 1912 و كانت المعركة أول معركة كبرى بين القوات اليونانية والعثمانية خلال المراحل الأولى من حرب البلقان الأولى ، وكانت أحداث المعركة تدور حول ممر ساراندابورو، الذي يربط ثيساليا بوسط مقدونيا.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%B3%D8%A7%D8%B1%D8%A7%D9%86%D8%AA%D8%A7%D8%A8%D9%88%D8%B1%D9%88"
+      },
+      "fr": {
+        "title": "Bataille de Sarantáporo",
+        "extract": "La bataille de Sarantáporo est une bataille de la première guerre balkanique qui opposa la Grèce à l'Empire ottoman les 9 et 10 octobre 1912. Elle fut remportée par la Grèce.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Sarant%C3%A1poro"
+      }
+    }
+  },
+  "Battle of Kardzhali": {
+    "pages": {
+      "en": {
+        "title": "Battle of Kardzhali",
+        "extract": "The Battle of Kircaali or Battle of Kardzhali was part of the First Balkan War between the armies of Bulgaria and the Ottoman Empire. It took place on 21 October 1912, when the Bulgarian Haskovo Detachment defeated the Ottoman Kırcaali Detachment of Yaver Pasha and permanently joined Kardzhali and the Eastern Rhodopes to Bulgaria. The anniversary of that event is celebrated annually on 21 October as a holiday of the city.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Kardzhali"
+      },
+      "ar": {
+        "title": "معركة كارجلي",
+        "extract": "معركة كارجلي هي معركة وقعت في 21 أكتوبر 1912م في كارجلي ببلغاريا كجزء من حروب البلقان. بين قوات الدولة العثمانية والقوات البلغارية ،انتهت المعركة بانتصار بلغاريا وضمت كارجلي وجبال رودوب إليها، ولازال سكان مدينة كارجلي من البلغار يحتفلون في 21 أكتوبر سنوياً بهذة المناسبة، ويعتبر يوم عطلة لديهم.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D9%83%D8%A7%D8%B1%D8%AC%D9%84%D9%8A"
+      }
+    }
+  },
+  "Siege of Scutari (1912–1913)": {
+    "pages": {
+      "en": {
+        "title": "Siege of Scutari (1912–1913)",
+        "extract": "The siege of Scutari, also referred to as the siege of Shkodër, known in Turkish as İşkodra Müdafaası (in Turkish) or İşkodra Savunması, took place from 28 October 1912 to 23 April 1913 when the army of the Kingdom of Montenegro defeated the forces of the Ottoman Empire and captured Shkodër.",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Scutari_(1912%E2%80%931913)"
+      },
+      "es": {
+        "title": "Sitio de Shkodër (1912-13)",
+        "extract": "El sitio de Escútari lo llevaron a cabo los ejércitos coligados de Montenegro y Serbia entre el 28 de octubre de 1912 y el 23 de abril de 1913. Una guarnición del Imperio otomano defendió la plaza, que terminó capitulando.",
+        "url": "https://es.wikipedia.org/wiki/Sitio_de_Shkod%C3%ABr_(1912-13)"
+      },
+      "ar": {
+        "title": "حصار إشقودرة (1912-1913)",
+        "extract": "حصار إشقودرة (1912-1913) وقع في الفترة من 28 أكتوبر 1912 إلى 23 أبريل 1913، عندما تمكن جيش مملكة الجبل الأسود من هزيمة قوات الدولة العثمانية واستولوا على إشقودرة وذلك خلال حرب البلقان الأولى.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%AD%D8%B5%D8%A7%D8%B1_%D8%A5%D8%B4%D9%82%D9%88%D8%AF%D8%B1%D8%A9_(1912-1913)"
+      }
+    }
+  },
+  "Battle of Yenidje": {
+    "pages": {
+      "en": {
+        "title": "Battle of Yenidje",
+        "extract": "The Battle of Yenidje, also transliterated as Yenice, was a major battle between Greek forces under Crown Prince Constantine and Ottoman forces under General Hasan Tahsin Pasha and took place between October 19–20 (O.S.), 1912 during the First Balkan War. The battle began when the Greek army attacked the Ottoman fortified position at Yenidje, which was the last line of defense for the city of Thessaloniki.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Yenidje"
+      },
+      "es": {
+        "title": "Batalla de Yenidje",
+        "extract": "La batalla de Yenidje o Yenice, también llamada batalla de Giannitsa, fue una batalla entre el ejército griego y el ejército otomano llevada a cabo el 2 de noviembre de 1912, durante la primera guerra balcánica. El ejército griego derrotó a los otomanos, abriendo el camino hacia Salónica y permitiendo la captura de Yenidje.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Yenidje"
+      },
+      "ar": {
+        "title": "معركة ينيدجا",
+        "extract": "معركة ينيجة معركة بين الجيش اليوناني والجيش العثماني ووقعت في 19-20 أكتوبر، وذلك خلال حرب البلقان الأولى، حيث هزم الجيش اليوناني العثمانيين، وفتح الطريق نحو سلانيك بعد احتلال ينيجة.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D9%8A%D9%86%D9%8A%D8%AF%D8%AC%D8%A7"
+      },
+      "fr": {
+        "title": "Bataille de Giannitsá",
+        "extract": "La bataille de Giannitsá est une bataille de la première guerre balkanique qui opposa la Grèce à l'Empire ottoman les 19 et 20 octobre ou 1er et 2 novembre 1912. Elle fut remportée par la Grèce. La route de Thessalonique lui fut alors ouverte.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Giannits%C3%A1"
+      }
+    }
+  },
+  "First Battle of Çatalca": {
+    "pages": {
+      "en": {
+        "title": "First Battle of Çatalca",
+        "extract": "The First Battle of Çatalca was one of the heaviest battles of the First Balkan War fought between 17 and 18 November [O.S. 4–5 November] 1912. It was initiated as an attempt of the combined Bulgarian First and Third armies, under the overall command of lieutenant general Radko Dimitriev, to defeat the Ottoman Army stationed in Çatalca and break through the last Turkish defensive line before the capital Constantinople. The high casualties however forced the Bulgarians to call off the attack.",
+        "url": "https://en.wikipedia.org/wiki/First_Battle_of_%C3%87atalca"
+      },
+      "es": {
+        "title": "Primera Batalla de Çatalca",
+        "extract": "La primera batalla de Çatalca fue una de las batallas más pesadas de la primera guerra de los Balcanes, librada entre el 17 y el 18 de noviembre [O.S. 4–5 noviembre] de 1912. Se inició como un intento combinado de los ejércitos búlgaros Primero y Tercero, bajo el mando general del teniente general Radko Dimitriev, para derrotar al Ejército otomano de Çatalca —hoy en la provincia turca de Estambul— y romper la última línea defensiva antes de la capital Constantinopla. Sin embargo, las altas bajas obligaron a los búlgaros a suspender el ataque y permitir que su adversario reclamara la victoria. Este fue el mayor éxito militar del ejército otomano durante toda la guerra y la primera gran derrota del ejército búlgaro desde su creación en 1878.",
+        "url": "https://es.wikipedia.org/wiki/Primera_Batalla_de_%C3%87atalca"
+      },
+      "fr": {
+        "title": "Première bataille de Tchataldja",
+        "extract": "La première bataille de Tchataldja s'est déroulée durant la première guerre balkanique, les 17 novembre 1912 et 18 novembre 1912. Elle a été l'une des batailles les plus lourdes des guerres balkaniques. L'armée bulgare, commandée par le lieutenant-général Radko Dimitriev a tenté de franchir la ligne défensive de de Tchataldja, pour atteindre Constantinople, capitale de l'Empire ottoman. Après avoir subi de lourdes pertes, elle a été contrainte d'abandonner son avancée vers Constantinople. Elle fut le succès militaire le plus important de l'Empire ottoman au cours de la première guerre balkanique et la première défaite majeure de l'armée bulgare depuis la restauration de l'autonomie de la Bulgarie.",
+        "url": "https://fr.wikipedia.org/wiki/Premi%C3%A8re_bataille_de_Tchataldja"
+      }
+    }
+  },
+  "Siege of Adrianople (1912–1913)": {
+    "pages": {
+      "en": {
+        "title": "Siege of Adrianople (1912–1913)",
+        "extract": "The siege of Adrianople, was fought during the First Balkan War. The siege began on 3 November 1912 and ended on 26 March 1913 with the capture of Edirne (Adrianople) by the Bulgarian 2nd Army and the Serbian 2nd Army.",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Adrianople_(1912%E2%80%931913)"
+      },
+      "ar": {
+        "title": "حصار أدرنة (1912-1913)",
+        "extract": "حصار أدرنة (1912-1913) ، ، حدث خلال حرب البلقان الأولى، التي بدأت في منتصف نوفمبر 1912 وتنتهي في 26 مارس 1913 مع السيطرة علي أدرنة (أدريانوبل) من قبل الجيش البلغاري الثاني والجيش الصربي الثاني، حيث كانت خسارة أدرنة الضربة الحاسمة الأخيرة للجيش العثماني لتقترب نهاية حرب البلقان الأولى. تم توقيع معاهدة في لندن في 30 مايو، نجحت الدولة العثمانية في استعادة المدينة واحتفظت بها تركيا خلال حرب البلقان الثانية.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%AD%D8%B5%D8%A7%D8%B1_%D8%A3%D8%AF%D8%B1%D9%86%D8%A9_(1912-1913)"
+      },
+      "fr": {
+        "title": "Siège d'Andrinople (1912-1913)",
+        "extract": "La bataille d'Andrinople, aussi connue comme le siège d'Andrinople ou le siège d'Edirne s'est déroulée durant la première guerre balkanique, entre la mi-novembre 1912 et le 26 mars 1913.",
+        "url": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_d'Andrinople_(1912-1913)"
+      },
+      "pt": {
+        "title": "Batalha de Adrianópolis (1913)",
+        "extract": "A Batalha de Adrianópolis ou Cerco de Adrianópolis foi uma batalha que ocorreu durante a Primeira Guerra dos Bálcãs, que teve início em meados de novembro de 1912 e terminou em 26 de março de 1913 com a tomada de Adrianópolis pelo Segundo Exército Búlgaro.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Adrian%C3%B3polis_(1913)"
+      }
+    }
+  },
+  "Battle of Monastir": {
+    "pages": {
+      "en": {
+        "title": "Battle of Monastir",
+        "extract": "The Battle of Monastir took place near the town of Bitola, Macedonia region during the First Balkan War, between Serbian and Ottoman forces from 16 to 19 November 1912. It resulted in a Serbian victory after heavy fighting north of the city, the routed Turks fled abandoning their guns.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Monastir"
+      },
+      "zh": {
+        "title": "莫納斯提爾戰役",
+        "extract": "莫纳斯提尔战役是第一次巴尔干战争期间，于1912年11月16日到11月19日的一场战役。",
+        "url": "https://zh.wikipedia.org/wiki/%E8%8E%AB%E7%B4%8D%E6%96%AF%E6%8F%90%E7%88%BE%E6%88%B0%E5%BD%B9"
+      },
+      "es": {
+        "title": "Batalla de Monastir (1912)",
+        "extract": "La batalla de Monastir fue un combate terrestre que tuvo lugar del 16 al 19 de noviembre de 1912, entre las fuerzas del Reino de Serbia y las del Imperio otomano, durante la primera guerra de los Balcanes, cerca de la ciudad de Monastir, Macedonia.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Monastir_(1912)"
+      },
+      "ar": {
+        "title": "معركة المناستير (1912)",
+        "extract": "معركة المناستير هي معركة وقعت بالقرب من بلدة بيتولا ، مقدونيا والتي كانت تعرف آنذاك باسم المناستير وذلك خلال حرب البلقان الأولى بين قوات الدولة العثمانية من جهة وقوات مملكة صربيا من جهة أخري ،وذلك في الفترة من 16 إلى 19 نوفمبر 1912، كجزء من حروب البلقان.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%A7%D9%84%D9%85%D9%86%D8%A7%D8%B3%D8%AA%D9%8A%D8%B1_(1912)"
+      },
+      "fr": {
+        "title": "Bataille de Monastir (1912)",
+        "extract": "La bataille de Monastir eut lieu près de la ville de Bitola, en Macédoine pendant la première guerre des Balkans, du 16 au 19 novembre 1912. Dans le cadre des guerres balkaniques, l'armée ottomane vardar s'est retirée après la défaite de Kumanovo et s'est regroupée autour de Bitola.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Monastir_(1912)"
+      }
+    }
+  },
+  "Battle of Prilep": {
+    "pages": {
+      "en": {
+        "title": "Battle of Prilep",
+        "extract": "The Battle of Prilep in the First Balkan War took place on 3-5 November 1912 when the Serbian army encountered Ottoman troops near the town of Prilep, in today's North Macedonia. The clash lasted for three days. Eventually the Ottoman army was overwhelmed and forced to retreat.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Prilep"
+      },
+      "zh": {
+        "title": "普里萊普戰役",
+        "extract": "普里莱普战役是第一次巴尔干战争期间，于1912年11月3日到11月5日的一场战役。塞尔维亚军队在现今北马其顿普里莱普附近遇到鄂图曼帝国的军队，并爆发了持续了三天的冲突。最终鄂图曼帝国军队不堪重负，被迫撤退。",
+        "url": "https://zh.wikipedia.org/wiki/%E6%99%AE%E9%87%8C%E8%90%8A%E6%99%AE%E6%88%B0%E5%BD%B9"
+      },
+      "ar": {
+        "title": "معركة بريليب",
+        "extract": "معركة بريليب أو معركة بيرليب هي إحدى معارك حرب البلقان الأولى ووقعت في 3 نوفمبر 1912 حيث واجه الجيش الصربي قوات الدولة العثمانية بالقرب من بلدة بريليب ، في شمال مقدونيا اليوم، واستمرت الاشتباكات لثلاثة أيام، وكان الجيش العثماني في ظروف جوية سيئة وأجبر على التراجع.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%A8%D8%B1%D9%8A%D9%84%D9%8A%D8%A8"
+      }
+    }
+  },
+  "Battle of Sorovich": {
+    "pages": {
+      "en": {
+        "title": "Battle of Sorovich",
+        "extract": "The Battle of Sorovich took place between 21–24 October 1912 (O.S.). It was fought between Greek and Ottoman forces during the First Balkan War, and revolved around the Sorovich (Amyntaio) area. The 5th Greek Division which had been advancing through western Macedonia separately from the bulk of the Greek Army of Thessaly, was attacked outside the village of Zabardeni (Lofoi) and fell back to Sorovich. It found itself to be heavily outnumbered by an opposing Ottoman force.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Sorovich"
+      },
+      "ar": {
+        "title": "معركة سورفيتش",
+        "extract": "معركة سورفيتش هي معركة وقعت بين 22-24 أكتوبر 1912م في أمينتايو باليونان وتشكل جزء من حروب البلقان. بين قوات الدولة العثمانية والقوات اليونانية ،انتهت المعركة بانتصار العثمانيون. وتعد هذه المعركة من النجاحات القليلة للعثمانيون في حرب البلقان الأولى.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%B3%D9%88%D8%B1%D9%81%D9%8A%D8%AA%D8%B4"
+      },
+      "pt": {
+        "title": "Batalha de Vevi",
+        "extract": "A batalha de Vevi teve lugar a 2 de Novembro de 1912 durante a Primeira guerra balcânica, entre tropas otomanas e gregas, com vitória das primeiras.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Vevi"
+      }
+    }
+  },
+  "Battle of Driskos": {
+    "pages": {
+      "en": {
+        "title": "Battle of Driskos",
+        "extract": "The Battle of Driskos, took place on 26–28 November (O.S.), 1912. It was fought between Greek forces under General Dimitrios Matthaiopoulos and Ottoman forces under General Esad Pasha during the First Balkan War. The battle began when a unit of Greek Redshirt volunteers attacked the Ottoman defensive line at Mount Driskos, Epirus.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Driskos"
+      }
+    }
+  },
+  "Battle of Merhamli": {
+    "pages": {
+      "en": {
+        "title": "Battle of Merhamli",
+        "extract": "The Battle of Merhamli was part of the First Balkan War between the armies of Bulgaria and the Ottoman Empire which took place on 14/27 November 1912. After a long chase throughout Western Thrace the Bulgarian troops led by General Nikola Genev and Colonel Aleksandar Tanev surrounded the 10,000-strong Kırcaali Detachment under the command of Mehmed Yaver Pasha. Attacked in the surrounding of the village Merhamli, only a few of the Ottomans managed to cross the Maritsa River. The rest surrendered in the following day on 28 November.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Merhamli"
+      },
+      "ar": {
+        "title": "معركة ميرهاملي",
+        "extract": "معركة ميرهاملي هي كجزءًا من حرب البلقان الأولى بين جيوش بلغاريا والدولة العثمانية ووقعت المعركة في الفترة ما بين 14 و27 نوفمبر 1912، فبعد سلسلة من الاشتباكات الطويلة في جميع أنحاء تراقيا الغربية ، حاصرت القوات البلغارية بقيادة الجنرال نيكولا جينيف والعقيد ألكسندر تانيف مفرزة كيركالي التي يبلغ قوامها 10000 فرد تحت قيادة محمد يافير باشا. في محيط قرية ميرهاملي ، حيث لم يتكمن الا عدد قليل فقط من العثمانيين من عبور نهر ماريتسا، بينما استسلم الباقي في اليوم التالي في 28 نوفمبر 1912.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D9%85%D9%8A%D8%B1%D9%87%D8%A7%D9%85%D9%84%D9%8A"
+      }
+    }
+  },
+  "Battle of Chios (1912)": {
+    "pages": {
+      "en": {
+        "title": "Battle of Chios (1912)",
+        "extract": "The Battle of Chios took place from 24 November 1912 to 3 January 1913 during the First Balkan War. It resulted in the capture of the eastern Aegean island of Chios by the Kingdom of Greece, ending almost 350 years of rule by the Ottoman Empire.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Chios_(1912)"
+      },
+      "es": {
+        "title": "Batalla de Quíos (1912)",
+        "extract": "La batalla de Quíos tuvo lugar del 24 de noviembre de 1912 al 3 de enero de 1913 durante la primera guerra de los Balcanes. El resultado fue la captura de la isla egea de Quíos, en el este del mar Egeo, por parte del Reino de Grecia, lo que puso fin a casi 350 años de gobierno del Imperio Otomano.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Qu%C3%ADos_(1912)"
+      }
+    }
+  },
+  "Battle of Lesbos (1912)": {
+    "pages": {
+      "en": {
+        "title": "Battle of Lesbos (1912)",
+        "extract": "The Battle of Lesbos took place from 21 November – 21 December 1912 during the First Balkan War, resulting in the capture of the eastern Aegean island of Lesbos by the Kingdom of Greece.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Lesbos_(1912)"
+      }
+    }
+  },
+  "Battle of Kaliakra (1912)": {
+    "pages": {
+      "en": {
+        "title": "Battle of Kaliakra (1912)",
+        "extract": "The Battle of Kaliakra, usually known as the Attack of the Drazki in Bulgaria, was a maritime action between four Bulgarian torpedo boats and the Ottoman cruiser Hamidiye in the Black Sea. It took place on 21 November 1912 at 32 miles off Bulgaria's primary port of Varna.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Kaliakra_(1912)"
+      },
+      "es": {
+        "title": "Batalla de Kaliakra",
+        "extract": "La batalla de Kaliakra, también conocida como el ataque del Drazki, fue un enfrentamiento naval que tuvo lugar el 21 de noviembre de 1912 entre Bulgaria y el Imperio otomano en el contexto de la primera guerra de los Balcanes. La batalla ocurrió a 32 millas del principal puerto búlgaro, Varna, y fueron los búlgaros los que salieron victoriosos.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Kaliakra"
+      },
+      "ar": {
+        "title": "معركة كالياكرا (1912)",
+        "extract": "معركة كالياكرا ، والمعروفة أيضا باسم هجوم درازكا ، كان اشتباكا بحريًا خلال حرب البلقان الاولي وذلك بين أربعة قوارب طوربيد بلغارية والطراد العثماني حميدية في البحر الأسود، ووقع ذلك في 21 نوفمبر 1912 على بعد 32 ميلًا قبالة ميناء فارنا الرئيسي في بلغاريا.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D9%83%D8%A7%D9%84%D9%8A%D8%A7%D9%83%D8%B1%D8%A7_(1912)"
+      },
+      "fr": {
+        "title": "Bataille de Kaliakra",
+        "extract": "La bataille de Kaliakra est un engagement naval livré le 21 novembre 1912 pendant la première guerre balkanique (1912-1913).",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Kaliakra"
+      }
+    }
+  },
+  "Battle of Elli": {
+    "pages": {
+      "en": {
+        "title": "Battle of Elli",
+        "extract": "The Battle of Elli or the Battle of the Dardanelles took place near the mouth of the Dardanelles on 16 December [O.S. 3 December] 1912 as part of the First Balkan War between the fleets of the Kingdom of Greece and the Ottoman Empire. It was the largest sea battle of the Balkan Wars.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Elli"
+      },
+      "es": {
+        "title": "Batalla de Elli",
+        "extract": "La batalla de Elli fue un combate naval librado el 16 de diciembre de 1912 entre las flotas del Reino de Grecia y el Imperio otomano, durante el transcurso de la primera guerra balcánica. El combate tuvo lugar en las cercanías de la entrada al estrecho de los Dardanelos.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Elli"
+      },
+      "ar": {
+        "title": "معركة الدردنيل البحرية",
+        "extract": "معركة الدردنيل البحرية تعرف أيضا باسم معركة إللي البحرية أو معركة إمروز البحرية هي معركة بحرية وقعت خارج مضيق الدردنيل بين الأسطول اليوناني والأسطول العثماني في 16 ديسمبر 1912 خلال حرب البلقان الأولى.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%A7%D9%84%D8%AF%D8%B1%D8%AF%D9%86%D9%8A%D9%84_%D8%A7%D9%84%D8%A8%D8%AD%D8%B1%D9%8A%D8%A9"
+      },
+      "fr": {
+        "title": "Bataille d'Elli",
+        "extract": "La bataille d'Elli ou bataille navale des Dardanelles est livrée le 16 décembre 1912, durant la première guerre balkanique (1912-1913), au large du cap Hellé, à l'entrée des Dardanelles. Elle oppose la marine royale hellénique, commandée par le contre-amiral Pavlos Koundouriotis, à la flotte ottomane, qui est battue. Elle est la plus grande bataille navale de cette guerre.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_d'Elli"
+      },
+      "pt": {
+        "title": "Batalha de Elli",
+        "extract": "A Batalha de Elli, também chamada de Batalha de Dardanelos, foi uma batalha naval ocorrida em 16 de dezembro de 1912 perto do estreito de Dardanelos no Mar Egeu entre as frotas navais do Reino da Grécia e do Império Otomano durante a Primeira Guerra Balcânica.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Elli"
+      }
+    }
+  },
+  "Capture of Korytsa": {
+    "pages": {
+      "en": {
+        "title": "Capture of Korytsa",
+        "extract": "The Capture of Korytsa by the Hellenic armed forces, happened on 20 December 1912, during the First Balkan War.",
+        "url": "https://en.wikipedia.org/wiki/Capture_of_Korytsa"
+      },
+      "es": {
+        "title": "Captura de Korytsa",
+        "extract": "La captura de Korytsa o Korca por las fuerzas armadas griegas se llevó a cabo el 20 de diciembre de 1912, en la primera guerra de los Balcanes.",
+        "url": "https://es.wikipedia.org/wiki/Captura_de_Korytsa"
+      },
+      "ar": {
+        "title": "احتلال كوريتسا",
+        "extract": "احتلال كوريتسا أو كورتشي حيث سيطرة القوات اليونانية المسلحة علي البلدة بعد اجبار القوات العثمانية علي الانسحاب وحدث ذلك في 20 ديسمبر 1912، خلال أحداث معارك حرب البلقان الأولى.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%A7%D8%AD%D8%AA%D9%84%D8%A7%D9%84_%D9%83%D9%88%D8%B1%D9%8A%D8%AA%D8%B3%D8%A7"
+      }
+    }
+  },
+  "Battle of Lumë": {
+    "pages": {
+      "en": {
+        "title": "Battle of Lumë",
+        "extract": "The Battle of Lumë was a series of clashes during the First Balkan War between Albanian local forces and the army of the Kingdom of Serbia. The conflict took place between 15 November and 5 December 1912 in the Lumë.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Lum%C3%AB"
+      },
+      "pt": {
+        "title": "Batalha de Lumë",
+        "extract": "A Batalha de Lumë, também referida pelos albaneses como a Revolta de Lumë, foi uma série de confrontos entre os locais albaneses da região de Lumë, na Albânia otomana, contra o exército sérvio invasor em 1912 durante o período da Primeira Guerra dos Balcãs.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Lum%C3%AB"
+      }
+    }
+  },
+  "Battle of Bulair": {
+    "pages": {
+      "en": {
+        "title": "Battle of Bulair",
+        "extract": "The Battle of Bulair took place on 8 February 1913 between the Bulgarian Seventh Rila Infantry Division under General Georgi Todorov and the Ottoman 27th Infantry Division. The result was a Bulgarian victory. Lack of communication between the Ottoman Vanguard and their landing force and stubbornness of Enver Pasha against the combined criticism from officers Ali Fethi and Mustafa Kemal against his plans costed the Ottoman 27th Brigade their full offensive capabilities. As a result, Ottoman Army could not conduct any further large-scale offensives to relieve the Siege of Edirne.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Bulair"
+      },
+      "ar": {
+        "title": "معركة بولير",
+        "extract": "معركة بولير ، وقعت في 26 يناير 1913 بين فرقة مشاة ريلا السابعة البلغارية بقيادة الجنرال جورجي تودوروف وفرقة المشاة العثمانية السابعة والعشرين، كانت المعركة جزءا من معارك حرب البلقان الأولي وانتهت المعركة بانتصار القوات البلغارية.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%A8%D9%88%D9%84%D9%8A%D8%B1"
+      },
+      "fr": {
+        "title": "Bataille de Bulair",
+        "extract": "La bataille de Bulair eut lieu le 26 janvier 1913 entre la septième division d'infanterie Rila de Bulgarie, sous les ordres du général Gueorgui Todorov et la 27e division d'infanterie ottomane. La bataille s'est soldée par une victoire bulgare.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Bulair"
+      }
+    }
+  },
+  "Battle of Bizani": {
+    "pages": {
+      "en": {
+        "title": "Battle of Bizani",
+        "extract": "The Battle of Bizani took place in Epirus on 4–6 March [O.S. 19–21 February] 1913. The battle was fought between Greek and Ottoman forces during the last stages of the First Balkan War, and revolved around the forts of Bizani, which covered the approaches to Ioannina, the largest city in the region.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Bizani"
+      },
+      "ar": {
+        "title": "معركة بيزاني",
+        "extract": "معركة بيزاني ، وقعت في إقليم ابيروس خلال الفترة من 4 الي 6 مارس عام 1913 وذلك بين مملكة اليونان والدولة العثمانية خلال المراحل الأخيرة من حرب البلقان الأولى، ودارت المعركة حول حصون بيزاني، والتي تسيطر علي الطريق نحو يوانينا، أكبر مدينة في المنطقة.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%A8%D9%8A%D8%B2%D8%A7%D9%86%D9%8A"
+      },
+      "fr": {
+        "title": "Bataille de Bizani",
+        "extract": "La bataille de Bizani est une bataille de la première guerre balkanique qui s’est déroulée dans la région de Bizani, en Épire, entre le 4 et le 6 mars 1913. Opposant les forces du royaume de Grèce à celle de l’Empire ottoman, elle s’est conclue par une victoire de l’armée hellénique et a ainsi permis à la Grèce de s’emparer de la région de Ioannina.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Bizani"
+      }
+    }
+  },
+  "Second Battle of Çatalca": {
+    "pages": {
+      "en": {
+        "title": "Second Battle of Çatalca",
+        "extract": "The Second Battle of Çatalca fought between 3 February 1913 and 3 April 1913 was a major \"continuous skirmish\" of the First Balkan War.",
+        "url": "https://en.wikipedia.org/wiki/Second_Battle_of_%C3%87atalca"
+      },
+      "fr": {
+        "title": "Seconde bataille de Tchataldja",
+        "extract": "La seconde bataille de Tchataldja s'est déroulée durant la première guerre balkanique, du 3 février 1913 au 3 avril 1913.",
+        "url": "https://fr.wikipedia.org/wiki/Seconde_bataille_de_Tchataldja"
+      }
+    }
+  },
+  "Battle of Kilkis–Lachanas": {
+    "pages": {
+      "en": {
+        "title": "Battle of Kilkis–Lachanas",
+        "extract": "The Battle of Kilkis–Lachanas took place between Greece and Bulgaria during the Second Balkan War. The two countries fought for the town of Kilkis in Central Macedonia from 19 to 21 June 1913 O.S. with Greece ultimately being victorious",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Kilkis%E2%80%93Lachanas"
+      },
+      "fr": {
+        "title": "Bataille de Kilkís",
+        "extract": "La bataille de Kilkís ou de Kilkís-Lahana est une bataille de la deuxième guerre balkanique qui opposa la Grèce à la Bulgarie du 19 au 21 juin 1913. Elle fut remportée par la Grèce.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Kilk%C3%ADs"
+      }
+    }
+  },
+  "Battle of Doiran (1913)": {
+    "pages": {
+      "en": {
+        "title": "Battle of Doiran (1913)",
+        "extract": "The Battle of Doiran was a battle of the Second Balkan War, fought between the Bulgaria and Greece. The battle took place in June 1913.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Doiran_(1913)"
+      },
+      "fr": {
+        "title": "Bataille de Doiran (1913)",
+        "extract": "La bataille de Dojran ou de Doiran est une bataille de la deuxième guerre balkanique qui opposa la Grèce à la Bulgarie sur les bords du lac de Dojran le 23 juin 1913. Elle fut remportée par la Grèce.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Doiran_(1913)"
+      }
+    }
+  },
+  "Battle of Kresna Gorge": {
+    "pages": {
+      "en": {
+        "title": "Battle of Kresna Gorge",
+        "extract": "The Battle of Kresna Gorge was fought in 1913 between the Greeks and the Bulgarians during the Second Balkan War. The battle was fought over an eleven-day period, between 8–18 July, over a front of 20 km, in a maze of forests and mountains. The battle marked the last phase of Greek advances into Bulgarian territory before the ceasefire and the peace treaty.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Kresna_Gorge"
+      },
+      "fr": {
+        "title": "Bataille de Krésna",
+        "extract": "La bataille de Kresna fut livrée pendant la deuxième guerre balkanique. Elle opposa la Grèce à la Bulgarie du 22 au 31 juillet (9 au 18 juillet calendrier julien) 1913. Ce fut la dernière bataille du conflit.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Kr%C3%A9sna"
+      }
+    }
+  },
+  "Battle of Kalimanci": {
+    "pages": {
+      "en": {
+        "title": "Battle of Kalimanci",
+        "extract": "The Battle of Kalimanci was fought between the Kingdom of Serbia and the Kingdom of Bulgaria during the Second Balkan War. The battle started on the 18th and ended on the 19th of July 1913.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Kalimanci"
+      }
+    }
+  },
+  "Battle for Knjaževac": {
+    "pages": {
+      "en": {
+        "title": "Battle for Knjaževac",
+        "extract": "The Battle for Knjaževac was a minor engagement during the Second Balkan War between the Bulgarian 1st Army and Serbian forces near the town of Knjaževac, fought from 4 to 7 July 1913. Although Bulgarian troops captured the town after heavy fighting, a strategic withdrawal was ordered the next day. Elements of the retreating force were then ambushed by Serbian artillery, resulting in severe losses.",
+        "url": "https://en.wikipedia.org/wiki/Battle_for_Knja%C5%BEevac"
+      }
+    }
+  },
+  "Siege of Adrianople (1913)": {
+    "pages": {
+      "en": {
+        "title": "Siege of Adrianople (1913)",
+        "extract": "The siege of Adrianople was a 1913 siege by the Ottoman Empire of Adrianople, which was defended by Bulgaria during the Second Balkan War. The Ottoman Empire recaptured Edirne.",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Adrianople_(1913)"
+      }
+    }
+  },
+  "Siege of Vidin (1913)": {
+    "pages": {
+      "en": {
+        "title": "Siege of Vidin (1913)",
+        "extract": "The siege of Vidin was an attempt by the Serbian Army to seize the Bulgarian city of Vidin during the Second Balkan War. The siege took place between 12 and 18 July 1913.",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Vidin_(1913)"
+      }
+    }
+  }
+}

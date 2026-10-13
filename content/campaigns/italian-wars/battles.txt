@@ -1,0 +1,241 @@
+# Italian Wars 전투 (Wikidata 자동 생성, 직접 고쳐도 됨). 형식은 content/campaigns/CLAUDE.md
+
+@ battle-of-fornovo
+wikipedia: Battle of Fornovo
+when: 1495
+coords: 10.1, 44.68
+links: 19
+
+@ battle-of-seminara
+wikipedia: Battle of Seminara
+when: 1495
+coords: 15.87, 38.33
+links: 10
+
+@ battle-of-ruvo
+wikipedia: Battle of Ruvo
+when: 1503
+coords: 16.48, 41.12
+links: 7
+
+@ battle-of-seminara-1503
+wikipedia: Battle of Seminara (1503)
+when: 1503
+coords: 15.87, 38.33
+links: 7
+
+@ battle-of-cerignola
+wikipedia: Battle of Cerignola
+when: 1503
+coords: 15.9, 41.27
+links: 18
+
+@ battle-of-garigliano-1503
+wikipedia: Battle of Garigliano (1503)
+when: 1504
+coords: 13.57, 41.22
+links: 15
+
+@ battle-of-agnadello
+wikipedia: Battle of Agnadello
+when: 1509
+coords: 9.57, 45.45
+links: 20
+
+@ siege-of-padua
+wikipedia: Siege of Padua
+when: 1509
+coords: 11.88, 45.41
+links: 9
+
+@ battle-of-polesella
+wikipedia: Battle of Polesella
+when: 1510
+coords: 11.79, 44.97
+links: 7
+
+@ siege-of-mirandola-1511
+wikipedia: Siege of Mirandola (1511)
+when: 1510 ~ 1511
+coords: 11.07, 44.89
+links: 7
+
+@ battle-of-ravenna-1512
+wikipedia: Battle of Ravenna (1512)
+when: 1512
+coords: 12.2, 44.42
+links: 21
+
+@ battle-of-novara-1513
+wikipedia: Battle of Novara (1513)
+when: 1513
+coords: 8.72, 45.44
+links: 17
+
+@ battle-of-the-spurs
+wikipedia: Battle of the Spurs
+when: 1513
+coords: 2.24, 50.57
+links: 15
+
+@ siege-of-dijon
+wikipedia: Siege of Dijon
+when: 1513
+coords: 5.02, 47.32
+links: 5
+
+@ battle-of-la-motta-1513
+wikipedia: Battle of La Motta (1513)
+when: 1513
+coords: 11.49, 45.6
+links: 10
+
+@ battle-of-marignano
+wikipedia: Battle of Marignano
+when: 1515
+coords: 9.32, 45.37
+links: 37
+
+@ battle-of-pampeluna
+wikipedia: Battle of Pampeluna
+when: 1521
+coords: -1.65, 42.82
+links: 9
+
+@ battle-of-noain
+wikipedia: Battle of Noáin
+when: 1521
+coords: -1.65, 42.76
+links: 9
+
+@ siege-of-mezieres
+wikipedia: Siege of Mézières
+when: 1521
+coords: 4.72, 49.76
+links: 7
+
+@ battle-of-bicocca
+wikipedia: Battle of Bicocca
+when: 1522
+coords: 9.21, 45.52
+links: 21
+
+@ siege-of-genoa-1522
+wikipedia: Siege of Genoa (1522)
+when: 1522
+coords: 8.93, 44.41
+links: 6
+
+@ siege-of-fuenterrabia-1523-1524
+wikipedia: Siege of Fuenterrabía (1523–1524)
+when: 1523 ~ 1524
+coords: -1.79, 43.36
+links: 6
+
+@ siege-of-marseille-1524
+wikipedia: Siege of Marseille (1524)
+when: 1524
+coords: 5.38, 43.3
+links: 8
+
+@ battle-of-pavia
+wikipedia: Battle of Pavia
+when: 1525
+coords: 9.16, 45.2
+links: 39
+
+@ sack-of-rome-1527
+wikipedia: Sack of Rome (1527)
+when: 1527
+coords: 12.5, 41.83
+links: 37
+
+@ siege-of-naples-1528
+wikipedia: Siege of Naples (1528)
+when: 1528
+coords: 14.25, 40.83
+links: 8
+
+@ battle-of-landriano
+wikipedia: Battle of Landriano
+when: 1529
+coords: 9.27, 45.32
+links: 9
+
+@ siege-of-florence-1529-1530
+wikipedia: Siege of Florence (1529–1530)
+when: 1529 ~ 1530
+coords: 11.25, 43.77
+links: 14
+
+@ battle-of-gavinana
+wikipedia: Battle of Gavinana
+when: 1530
+coords: 10.92, 43.93
+links: 10
+
+@ siege-of-perpignan-1542
+wikipedia: Siege of Perpignan (1542)
+when: 1542
+coords: 2.9, 42.87
+links: 7
+
+@ siege-of-landrecies-1543
+wikipedia: Siege of Landrecies (1543)
+when: 1543
+coords: 3.69, 50.13
+links: 5
+
+@ siege-of-nice
+wikipedia: Siege of Nice
+when: 1543
+coords: 7.27, 43.7
+links: 21
+
+@ battle-of-ceresole
+wikipedia: Battle of Ceresole
+when: 1544
+coords: 7.85, 44.81
+links: 18
+
+@ battle-of-serravalle-1544
+wikipedia: Battle of Serravalle (1544)
+when: 1544
+coords: 8.85, 44.73
+links: 7
+
+@ sieges-of-boulogne-1544-1546
+wikipedia: Sieges of Boulogne (1544–1546)
+when: 1544
+coords: 1.61, 50.73
+links: 11
+
+@ battle-of-the-solent
+wikipedia: Battle of the Solent
+when: 1545
+coords: -1.23, 50.78
+links: 12
+
+@ siege-of-metz-1552
+wikipedia: Siege of Metz (1552)
+when: 1552 ~ 1553
+coords: 6.18, 49.12
+links: 11
+
+@ battle-of-st-quentin-1557
+wikipedia: Battle of St. Quentin (1557)
+when: 1557
+coords: 3.29, 49.85
+links: 17
+
+@ siege-of-calais-1558
+wikipedia: Siege of Calais (1558)
+when: 1558
+coords: 1.85, 50.96
+links: 15
+
+@ battle-of-gravelines-1558
+wikipedia: Battle of Gravelines (1558)
+when: 1558
+coords: 2.13, 50.99
+links: 8

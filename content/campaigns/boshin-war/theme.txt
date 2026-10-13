@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Boshin War
+region: japan
+when: 1868-01 ~ 1869-06
+unit: month
+borders-step: 1
+view: 138.5, 38, 5
+search: 129, 146, 30, 46
+min-links: 1
+side.a.ko: 신정부(관군)
+side.a.en: Imperial government
+side.a.zh: 新政府军（官军）
+side.a.es: Gobierno imperial
+side.a.hi: शाही सरकार
+side.a.ar: الحكومة الإمبراطورية
+side.a.fr: Gouvernement impérial
+side.a.pt: Governo imperial
+side.b.ko: 도쿠가와 막부
+side.b.en: Tokugawa shogunate
+side.b.zh: 德川幕府
+side.b.es: Shogunato Tokugawa
+side.b.hi: तोकुगावा शोगुनेट
+side.b.ar: شوغونية توكوغاوا
+side.b.fr: Shogunat Tokugawa
+side.b.pt: Xogunato Tokugawa

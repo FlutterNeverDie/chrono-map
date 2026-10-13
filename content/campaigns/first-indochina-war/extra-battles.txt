@@ -1,0 +1,67 @@
+# Wikidata에 날짜·좌표가 없어 자동으로 안 잡히는 전투를 직접 추가 (자동 생성이 덮어쓰지 않음). 날짜는 위키백과 기준 양력, 좌표는 대략
+
+@ operation-ceinture
+wikipedia: Operation Ceinture
+when: 1947-11 ~ 1947-12
+coords: 105.7, 21.75
+links: 3
+
+@ battle-of-route-coloniale-4
+wikipedia: Battle of Route Coloniale 4
+when: 1950-10
+coords: 106.45, 22.4
+links: 12
+
+@ battle-of-vinh-yen
+wikipedia: Battle of Vĩnh Yên
+when: 1951-01
+coords: 105.6, 21.31
+links: 8
+
+@ battle-of-mao-khe
+wikipedia: Battle of Mạo Khê
+when: 1951-03
+coords: 106.6, 21.06
+links: 6
+
+@ battle-of-the-day-river
+wikipedia: Battle of the Day River
+when: 1951-05 ~ 1951-06
+coords: 105.95, 20.3
+links: 6
+
+@ operation-lorraine
+wikipedia: Operation Lorraine
+when: 1952-10 ~ 1952-11
+coords: 105.2, 21.45
+links: 5
+
+@ operation-hirondelle
+wikipedia: Operation Hirondelle
+when: 1953-07
+coords: 106.76, 21.85
+links: 3
+
+@ operation-camargue
+wikipedia: Operation Camargue
+when: 1953-07 ~ 1953-08
+coords: 107.35, 16.75
+links: 5
+
+@ operation-mouette
+wikipedia: Operation Mouette
+when: 1953-10 ~ 1953-11
+coords: 105.75, 20.35
+links: 4
+
+@ operation-castor
+wikipedia: Operation Castor
+when: 1953-11
+coords: 103.03, 21.41
+links: 6
+
+@ operation-atlante
+wikipedia: Operation Atlante
+when: 1954-01 ~ 1954-03
+coords: 109.2, 13.3
+links: 5

@@ -1,0 +1,10 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Yugoslav Wars
+region: europe
+when: 1991 ~ 2001
+unit: year
+borders-step: 1
+view: 18.5, 43.5, 6
+search: 13, 23, 40.5, 47
+min-links: 3

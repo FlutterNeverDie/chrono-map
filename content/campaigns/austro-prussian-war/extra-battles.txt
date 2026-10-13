@@ -1,0 +1,13 @@
+# 오스트리아-프로이센 전쟁: Wikidata 자동 생성에서 빠진 전투를 직접 추가 (자동 생성이 덮어쓰지 않음)
+
+@ battle-of-langensalza-1866
+wikipedia: Battle of Langensalza (1866)
+when: 1866-06
+coords: 10.65, 51.11
+links: 12
+
+@ battle-of-bezzecca
+wikipedia: Battle of Bezzecca
+when: 1866-07
+coords: 10.73, 45.9
+links: 11

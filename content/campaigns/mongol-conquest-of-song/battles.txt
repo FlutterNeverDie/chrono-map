@@ -1,0 +1,19 @@
+# Mongol conquest of the Song dynasty 전투 (Wikidata 자동 생성, 직접 고쳐도 됨). 형식은 content/campaigns/CLAUDE.md
+
+@ siege-of-diaoyucheng
+wikipedia: Siege of Diaoyucheng
+when: 1259
+coords: 106.31, 30
+links: 4
+
+@ battle-of-xiangyang
+wikipedia: Battle of Xiangyang
+when: 1267 ~ 1273
+coords: 112.14, 32.03
+links: 12
+
+@ battle-of-yamen
+wikipedia: Battle of Yamen
+when: 1279
+coords: 113.08, 22.27
+links: 31

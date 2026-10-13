@@ -1,0 +1,5 @@
+# 나라(정치체)별 진영 — 형식은 content/campaigns/CLAUDE.md
+
+Argentine Republic = a
+British Colonial Empire = b
+# British Colonial Empire = 포클랜드·사우스조지아 등 영국 해외 영토. (British Empire)는 원본에서 오만까지 포함돼 생략

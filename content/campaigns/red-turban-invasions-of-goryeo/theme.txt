@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Red Turban invasions of Goryeo
+region: korea
+when: 1359 ~ 1362
+unit: year
+borders-step: 1
+view: 126.5, 38.8, 5.5
+search: 123, 130.5, 35.5, 42.5
+min-links: 1
+side.a.ko: 홍건적
+side.a.en: Red Turbans
+side.a.zh: 红巾军
+side.a.es: Turbantes Rojos
+side.a.hi: लाल पगड़ी विद्रोही
+side.a.ar: العمائم الحمراء
+side.a.fr: Turbans rouges
+side.a.pt: Turbantes Vermelhos
+side.b.ko: 고려
+side.b.en: Goryeo
+side.b.zh: 高丽
+side.b.es: Goryeo
+side.b.hi: गोरयो
+side.b.ar: غوريو
+side.b.fr: Goryeo
+side.b.pt: Goryeo

@@ -1,0 +1,397 @@
+# Yugoslav Wars 전투 (Wikidata 자동 생성, 직접 고쳐도 됨). 형식은 content/campaigns/CLAUDE.md
+
+@ battle-of-borovo-selo
+wikipedia: Battle of Borovo Selo
+when: 1991
+coords: 18.96, 45.38
+links: 16
+
+@ battles-of-glina-1991
+wikipedia: Battles of Glina (1991)
+when: 1991
+coords: 16.09, 45.34
+links: 5
+
+@ operation-stinger
+wikipedia: Operation Stinger
+when: 1991
+coords: 16.39, 45.11
+links: 6
+
+@ battle-of-vukovar
+wikipedia: Battle of Vukovar
+when: 1991
+coords: 18.96, 45.37
+links: 41
+
+@ battle-of-osijek
+wikipedia: Battle of Osijek
+when: 1991 ~ 1992
+coords: 18.67, 45.56
+links: 13
+
+@ battle-of-gospic
+wikipedia: Battle of Gospić
+when: 1991
+coords: 15.37, 44.55
+links: 7
+
+@ siege-of-kijevo
+wikipedia: Siege of Kijevo
+when: 1991
+coords: 16.35, 43.98
+links: 11
+
+@ battle-of-the-barracks
+wikipedia: Battle of the Barracks
+when: 1991
+coords: 16.33, 46.31
+links: 14
+
+@ battle-of-kusonje
+wikipedia: Battle of Kusonje
+when: 1991
+coords: 17.24, 45.46
+links: 6
+
+@ battle-of-sibenik
+wikipedia: Battle of Šibenik
+when: 1991
+coords: 15.89, 43.73
+links: 7
+
+@ battle-of-zadar
+wikipedia: Battle of Zadar
+when: 1991
+coords: 15.23, 44.12
+links: 7
+
+@ siege-of-varazdin-barracks
+wikipedia: Siege of Varaždin Barracks
+when: 1991
+coords: 16.34, 46.3
+links: 6
+
+@ siege-of-bjelovar-barracks
+wikipedia: Siege of Bjelovar Barracks
+when: 1991
+coords: 16.83, 45.9
+links: 8
+
+@ operation-swath-10
+wikipedia: Operation Swath-10
+when: 1991
+coords: 17.27, 45.73
+links: 8
+
+@ siege-of-dubrovnik
+wikipedia: Siege of Dubrovnik
+when: 1991 ~ 1992
+coords: 18.11, 42.64
+links: 32
+
+@ battle-of-the-dalmatian-channels
+wikipedia: Battle of the Dalmatian Channels
+when: 1991
+coords: 16.86, 43.06
+links: 7
+
+@ battle-of-logoriste
+wikipedia: Battle of Logorište
+when: 1991
+coords: 15.56, 45.45
+links: 3
+
+@ operation-whirlwind
+wikipedia: Operation Whirlwind
+when: 1991
+coords: 16.07, 45.45
+links: 6
+
+@ siege-of-zepa
+wikipedia: Siege of Žepa
+when: 1992 ~ 1995
+coords: 19.12, 43.95
+links: 4
+
+@ operation-bura
+wikipedia: Operation Bura
+when: 1992
+coords: 18.1, 43.25
+links: 5
+
+@ operation-hurricane-91
+wikipedia: Operation Hurricane-91
+when: 1992
+coords: 17.2, 45.27
+links: 8
+
+@ battle-of-kupres-1992
+wikipedia: Battle of Kupres (1992)
+when: 1992
+coords: 17.28, 43.99
+links: 8
+
+@ siege-of-mostar
+wikipedia: Siege of Mostar
+when: 1992 ~ 1993
+coords: 17.81, 43.35
+links: 12
+
+@ siege-of-gorazde
+wikipedia: Siege of Goražde
+when: 1992 ~ 1995
+coords: 18.98, 43.67
+links: 8
+
+@ siege-of-sarajevo
+wikipedia: Siege of Sarajevo
+when: 1992 ~ 1996
+coords: 18.36, 43.85
+links: 46
+
+@ operation-baranja
+wikipedia: Operation Baranja
+when: 1992
+coords: 18.43, 45.71
+links: 5
+
+@ battle-of-the-miljevci-plateau
+wikipedia: Battle of the Miljevci Plateau
+when: 1992
+coords: 16.04, 43.88
+links: 10
+
+@ siege-of-bihac-1992-1995
+wikipedia: Siege of Bihać (1992–1995)
+when: 1992 ~ 1995
+coords: 15.87, 44.82
+links: 11
+
+@ battle-of-zuc
+wikipedia: Battle of Žuč
+when: 1992
+coords: 18.35, 43.88
+links: 3
+
+@ operation-corridor-92
+wikipedia: Operation Corridor 92
+when: 1992
+coords: 17.99, 45.14
+links: 12
+
+@ operation-jackal
+wikipedia: Operation Jackal
+when: 1992
+coords: 17.96, 43.08
+links: 9
+
+@ operation-vrbas-92
+wikipedia: Operation Vrbas '92
+when: 1992
+coords: 17.27, 44.34
+links: 10
+
+@ operation-tiger-1992
+wikipedia: Operation Tiger (1992)
+when: 1992
+coords: 18.14, 42.68
+links: 7
+
+@ kravica-attack-1993
+wikipedia: Kravica attack (1993)
+when: 1993
+coords: 19.2, 44.22
+links: 11
+
+@ operation-maslenica
+wikipedia: Operation Maslenica
+when: 1993
+coords: 15.52, 44.24
+links: 15
+
+@ evacuation-of-karin-base
+wikipedia: Evacuation of Karin Base
+when: 1993
+coords: 15.62, 44.13
+links: 5
+
+@ battle-of-zepce
+wikipedia: Battle of Žepče
+when: 1993
+coords: 18.03, 44.43
+links: 4
+
+@ battle-of-bugojno
+wikipedia: Battle of Bugojno
+when: 1993
+coords: 17.45, 44.05
+links: 6
+
+@ operation-medak-pocket
+wikipedia: Operation Medak Pocket
+when: 1993
+coords: 15.51, 44.46
+links: 16
+
+@ operation-neretva-93
+wikipedia: Operation Neretva '93
+when: 1993
+coords: 17.6, 43.82
+links: 11
+
+@ operation-b-llebank
+wikipedia: Operation Bøllebank
+when: 1994
+coords: 18.87, 44.44
+links: 11
+
+@ operation-tiger-1994
+wikipedia: Operation Tiger (1994)
+when: 1994
+coords: 15.78, 44.87
+links: 8
+
+@ battle-of-kupres-1994
+wikipedia: Battle of Kupres (1994)
+when: 1994
+coords: 17.28, 43.99
+links: 6
+
+@ operation-amanda
+wikipedia: Operation Amanda
+when: 1994
+coords: 18.43, 44.88
+links: 6
+
+@ operation-winter-94
+wikipedia: Operation Winter '94
+when: 1994
+coords: 16.57, 44.07
+links: 10
+
+@ operation-spider
+wikipedia: Operation Spider
+when: 1994
+coords: 15.8, 45.18
+links: 9
+
+@ operation-flash
+wikipedia: Operation Flash
+when: 1995
+coords: 17.2, 45.26
+links: 22
+
+@ battle-of-vrbanja-bridge
+wikipedia: Battle of Vrbanja Bridge
+when: 1995
+coords: 18.41, 43.85
+links: 7
+
+@ battle-of-orasje
+wikipedia: Battle of Orašje
+when: 1995
+coords: 18.73, 44.98
+links: 3
+
+@ battle-of-vozuca
+wikipedia: Battle of Vozuća
+when: 1995
+coords: 18.35, 44.38
+links: 9
+
+@ siege-of-srebrenica
+wikipedia: Siege of Srebrenica
+when: 1995
+coords: 19.3, 44.1
+links: 11
+
+@ operation-summer-95
+wikipedia: Operation Summer '95
+when: 1995
+coords: 16.36, 44.18
+links: 11
+
+@ operation-miracle-1995
+wikipedia: Operation Miracle (1995)
+when: 1995
+coords: 17.79, 44.17
+links: 4
+
+@ operation-storm
+wikipedia: Operation Storm
+when: 1995
+coords: 16.2, 44.04
+links: 38
+
+@ operation-mistral-2
+wikipedia: Operation Mistral 2
+when: 1995
+coords: 17.27, 44.34
+links: 10
+
+@ operation-una
+wikipedia: Operation Una
+when: 1995
+coords: 16.8, 45.18
+links: 7
+
+@ operation-sana
+wikipedia: Operation Sana
+when: 1995
+coords: 16.65, 44.77
+links: 11
+
+@ operation-southern-move
+wikipedia: Operation Southern Move
+when: 1995
+coords: 17.09, 44.41
+links: 10
+
+@ battle-of-belacevac-mine
+wikipedia: Battle of Belaćevac Mine
+when: 1998
+coords: 21.08, 42.69
+links: 5
+
+@ battle-of-junik
+wikipedia: Battle of Junik
+when: 1998
+coords: 20.28, 42.48
+links: 5
+
+@ attack-on-orahovac
+wikipedia: Attack on Orahovac
+when: 1998
+coords: 20.65, 42.4
+links: 7
+
+@ battle-of-podujevo
+wikipedia: Battle of Podujevo
+when: 1998
+coords: 21.19, 42.91
+links: 3
+
+@ battle-of-kosare
+wikipedia: Battle of Košare
+when: 1999
+coords: 20.2, 42.45
+links: 12
+
+@ battle-of-pastrik
+wikipedia: Battle of Paštrik
+when: 1999
+coords: 20.52, 42.21
+links: 7
+
+@ battle-of-tetovo
+wikipedia: Battle of Tetovo
+when: 2001
+coords: 20.97, 42
+links: 10
+
+@ battle-of-oraovica
+wikipedia: Battle of Oraovica
+when: 2001
+coords: 21.66, 42.32
+links: 3

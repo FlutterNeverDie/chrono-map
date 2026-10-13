@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Sino-French War
+region: southeast-asia
+when: 1884-08 ~ 1885-04
+unit: month
+borders-step: 1
+view: 112, 22, 5
+search: 102, 122.5, 17, 30.5
+min-links: 1
+side.a.ko: 프랑스
+side.a.en: France
+side.a.zh: 法国
+side.a.es: Francia
+side.a.hi: फ़्रांस
+side.a.ar: فرنسا
+side.a.fr: France
+side.a.pt: França
+side.b.ko: 청
+side.b.en: Qing China
+side.b.zh: 清朝
+side.b.es: China Qing
+side.b.hi: चिंग चीन
+side.b.ar: الصين (تشينغ)
+side.b.fr: Chine Qing
+side.b.pt: China Qing

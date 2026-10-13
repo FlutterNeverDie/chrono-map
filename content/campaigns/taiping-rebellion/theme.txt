@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Taiping Rebellion
+region: china
+when: 1850 ~ 1864
+unit: year
+borders-step: 1
+view: 115, 29, 4
+search: 103, 123, 20, 38
+min-links: 1
+side.a.ko: 태평천국
+side.a.en: Taiping Heavenly Kingdom
+side.a.zh: 太平天国
+side.a.es: Reino Celestial Taiping
+side.a.hi: ताइपिंग स्वर्गीय राज्य
+side.a.ar: مملكة تايبينغ السماوية
+side.a.fr: Royaume céleste de la Grande Paix
+side.a.pt: Reino Celestial Taiping
+side.b.ko: 청
+side.b.en: Qing
+side.b.zh: 清朝
+side.b.es: Qing
+side.b.hi: चिंग
+side.b.ar: تشينغ
+side.b.fr: Qing
+side.b.pt: Qing

@@ -1,0 +1,7 @@
+# 나라(정치체)별 진영 — 형식은 content/campaigns/CLAUDE.md
+
+State of Israel = a
+# United Arab Republic = 이집트, Arab Socialist Ba'ath Party = 시리아
+United Arab Republic = b
+Arab Socialist Ba'ath Party = b
+Kingdom of Jordan = b

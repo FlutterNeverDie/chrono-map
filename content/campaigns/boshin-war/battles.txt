@@ -1,0 +1,61 @@
+# Boshin War 전투 (Wikidata 자동 생성, 직접 고쳐도 됨). 형식은 content/campaigns/CLAUDE.md
+
+@ battle-of-toba-fushimi
+wikipedia: Battle of Toba–Fushimi
+when: 1868-01
+coords: 135.77, 35.01
+links: 25
+
+@ battle-of-koshu-katsunuma
+wikipedia: Battle of Kōshū-Katsunuma
+when: 1868-03
+coords: 138.75, 35.65
+links: 14
+
+@ battle-of-utsunomiya-castle
+wikipedia: Battle of Utsunomiya Castle
+when: 1868-05
+coords: 139.89, 36.55
+links: 14
+
+@ battle-of-ueno
+wikipedia: Battle of Ueno
+when: 1868-07
+coords: 139.77, 35.72
+links: 17
+
+@ battle-of-hatchooki
+wikipedia: Battle of Hatchōoki
+when: 1868-08
+coords: 138.89, 37.47
+links: 5
+
+@ battle-of-aizu
+wikipedia: Battle of Aizu
+when: 1868-10 ~ 1868-11
+coords: 139.56, 37.3
+links: 15
+
+@ battle-of-bonari-pass
+wikipedia: Battle of Bonari Pass
+when: 1868-10
+coords: 140.24, 37.6
+links: 6
+
+@ battle-of-noheji
+wikipedia: Battle of Noheji
+when: 1868-11
+coords: 141.13, 40.86
+links: 6
+
+@ battle-of-hakodate
+wikipedia: Battle of Hakodate
+when: 1868-12 ~ 1869-06
+coords: 140.76, 41.8
+links: 15
+
+@ battle-of-miyako-bay
+wikipedia: Battle of Miyako Bay
+when: 1869-05
+coords: 142, 39.66
+links: 12

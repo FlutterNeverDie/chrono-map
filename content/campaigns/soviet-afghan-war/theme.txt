@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Soviet–Afghan War
+region: central-asia
+when: 1979-12 ~ 1989-02
+unit: month
+borders-step: 1
+view: 66.5, 34, 5
+search: 60, 75, 29, 38.5
+min-links: 1
+side.a.ko: 소련·아프가니스탄 민주 공화국
+side.a.en: Soviet Union & DRA
+side.a.zh: 苏联与阿富汗民主共和国
+side.a.es: Unión Soviética y RDA
+side.a.hi: सोवियत संघ और अफ़ग़ानिस्तान लोकतांत्रिक गणराज्य
+side.a.ar: الاتحاد السوفيتي وجمهورية أفغانستان الديمقراطية
+side.a.fr: Union soviétique et RDA
+side.a.pt: União Soviética e RDA
+side.b.ko: 무자헤딘
+side.b.en: Mujahideen
+side.b.zh: 圣战者
+side.b.es: Muyahidines
+side.b.hi: मुजाहिदीन
+side.b.ar: المجاهدون
+side.b.fr: Moudjahidines
+side.b.pt: Mujahidin

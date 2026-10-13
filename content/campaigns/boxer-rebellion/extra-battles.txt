@@ -1,0 +1,67 @@
+# 의화단 운동: Wikidata에 좌표가 없어 자동으로 안 잡히는 전투
+
+@ battle-of-senluo-temple
+wikipedia: Battle of Senluo Temple
+when: 1899-10
+coords: 116.35, 37.17
+links: 2
+
+@ seymour-expedition
+wikipedia: Seymour Expedition
+when: 1900-06
+coords: 116.95, 39.3
+links: 8
+
+@ battle-of-the-taku-forts-1900
+wikipedia: Battle of the Taku Forts (1900)
+when: 1900-06
+coords: 117.71, 38.97
+links: 8
+
+@ battle-of-langfang
+wikipedia: Battle of Langfang
+when: 1900-06
+coords: 116.7, 39.52
+links: 7
+
+@ siege-of-beitang
+wikipedia: Siege of Beitang
+when: 1900-06 ~ 1900-08
+coords: 116.38, 39.93
+links: 2
+
+@ battle-of-tientsin
+wikipedia: Battle of Tientsin
+when: 1900-07
+coords: 117.2, 39.13
+links: 9
+
+@ battle-of-beicang
+wikipedia: Battle of Beicang
+when: 1900-08
+coords: 117.13, 39.24
+links: 8
+
+@ battle-of-yangcun
+wikipedia: Battle of Yangcun
+when: 1900-08
+coords: 117.06, 39.37
+links: 6
+
+@ gaselee-expedition
+wikipedia: Gaselee Expedition
+when: 1900-08
+coords: 116.75, 39.75
+links: 4
+
+@ battle-of-beitang
+wikipedia: Battle of Beitang
+when: 1900-09
+coords: 117.71, 39.1
+links: 3
+
+@ russian-invasion-of-manchuria
+wikipedia: Russian invasion of Manchuria
+when: 1900-07 ~ 1900-11
+coords: 126.63, 45.75
+links: 13

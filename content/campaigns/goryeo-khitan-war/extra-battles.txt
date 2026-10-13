@@ -1,0 +1,25 @@
+# Wikidata에 날짜·좌표가 없어 자동으로 안 잡히는 전투를 직접 추가 (자동 생성이 덮어쓰지 않음). 날짜는 위키백과 기준 양력, 좌표는 대략
+
+@ first-conflict-in-the-goryeo-khitan-war
+wikipedia: First conflict in the Goryeo–Khitan War
+when: 993
+coords: 125.4, 39.65
+links: 10
+
+@ second-conflict-in-the-goryeo-khitan-war
+wikipedia: Second conflict in the Goryeo–Khitan War
+when: 1010 ~ 1011
+coords: 124.92, 39.8
+links: 12
+
+@ third-conflict-in-the-goryeo-khitan-war
+wikipedia: Third conflict in the Goryeo–Khitan War
+when: 1018 ~ 1019
+coords: 124.55, 40.15
+links: 11
+
+@ battle-of-kuju
+wikipedia: Battle of Kuju
+when: 1019
+coords: 125.24, 39.98
+links: 9

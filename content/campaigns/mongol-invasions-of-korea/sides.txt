@@ -1,0 +1,5 @@
+# 나라(정치체)별 진영: 원본 이름 = a | b | n [시작 ~ 끝]. 없으면 기타(n). 형식은 content/campaigns/CLAUDE.md
+
+Mongol Empire = a
+Goryeo = b
+# 원본 국경에서 1260년부터 고려가 몽골 제국에 합쳐져 있다(원 간섭기). 남송·금은 별개 전쟁이라 기타

@@ -1,0 +1,19 @@
+# 직접 추가한 전투 (Wikidata에 좌표·날짜가 없거나 전투 분류가 아니어서 자동으로 안 잡힌 것). 형식은 content/campaigns/CLAUDE.md
+
+@ bombardment-of-san-juan
+wikipedia: Bombardment of San Juan
+when: 1898-05
+coords: -66.06, 18.41
+links: 4
+
+@ battle-of-las-guasimas
+wikipedia: Battle of Las Guásimas
+when: 1898-06
+coords: -75.68, 20.0
+links: 6
+
+@ puerto-rico-campaign
+wikipedia: Puerto Rico campaign
+when: 1898-07 ~ 1898-08
+coords: -66.61, 18.0
+links: 7

@@ -1,0 +1,5 @@
+# 나라(정치체)별 진영 — 형식은 content/campaigns/CLAUDE.md
+
+# Italian Africa = 에리트레아·소말릴란드·리비아 (1936년부터는 점령한 에티오피아 포함)
+Italian Africa = a
+Ethiopian Empire = b

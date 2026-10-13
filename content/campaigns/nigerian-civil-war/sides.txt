@@ -1,0 +1,4 @@
+# 나라(정치체)별 진영 — 형식은 content/campaigns/CLAUDE.md
+
+Federal Republic of Nigeria = a
+# 원본 국경에 비아프라가 따로 없어 비아프라 지역도 나이지리아 색으로 칠해짐(진영 b 정치체 없음)

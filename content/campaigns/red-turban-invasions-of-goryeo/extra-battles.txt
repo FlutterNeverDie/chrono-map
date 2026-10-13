@@ -1,0 +1,19 @@
+# 홍건적의 침입: 영어 위키백과에 개별 전투 문서가 없어 핵심 전장(도시) 문서로 대신한다
+
+@ fall-of-uiju-1359
+wikipedia: Uiju County
+when: 1359
+coords: 124.53, 40.2
+links: 6
+
+@ fall-and-recapture-of-seogyeong
+wikipedia: Pyongyang
+when: 1359 ~ 1360
+coords: 125.75, 39.02
+links: 8
+
+@ fall-and-recapture-of-gaegyeong
+wikipedia: Kaesong
+when: 1361 ~ 1362
+coords: 126.55, 37.97
+links: 10

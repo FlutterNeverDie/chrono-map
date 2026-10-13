@@ -1,0 +1,67 @@
+# Second Opium War 전투 (Wikidata 자동 생성, 직접 고쳐도 됨). 형식은 content/campaigns/CLAUDE.md
+
+@ battle-of-canton-1856
+wikipedia: Battle of Canton (1856)
+when: 1856-10 ~ 1856-11
+coords: 113.26, 23.11
+links: 3
+
+@ battle-of-the-barrier-forts
+wikipedia: Battle of the Barrier Forts
+when: 1856-11
+coords: 113.38, 23.11
+links: 5
+
+@ battle-of-the-bogue-1856
+wikipedia: Battle of the Bogue (1856)
+when: 1856-11
+coords: 113.63, 22.77
+links: 3
+
+@ capture-of-the-french-folly-fort
+wikipedia: Capture of the French Folly Fort
+when: 1856-11
+coords: 113.28, 23.11
+links: 2
+
+@ battle-of-macao-fort
+wikipedia: Battle of Macao Fort
+when: 1857-01
+coords: 113.26, 23.07
+links: 1
+
+@ battle-of-escape-creek
+wikipedia: Battle of Escape Creek
+when: 1857-05
+coords: 113.52, 23.04
+links: 2
+
+@ battle-of-fatshan-creek
+wikipedia: Battle of Fatshan Creek
+when: 1857-06
+coords: 113.12, 23.03
+links: 4
+
+@ battle-of-canton-1857
+wikipedia: Battle of Canton (1857)
+when: 1857-12
+coords: 113.26, 23.13
+links: 19
+
+@ battle-of-taku-forts-1858
+wikipedia: Battle of Taku Forts (1858)
+when: 1858-05
+coords: 117.71, 38.97
+links: 8
+
+@ battle-of-taku-forts-1860
+wikipedia: Battle of Taku Forts (1860)
+when: 1860-08
+coords: 117.71, 38.97
+links: 7
+
+@ battle-of-palikao
+wikipedia: Battle of Palikao
+when: 1860-09
+coords: 116.61, 39.91
+links: 14

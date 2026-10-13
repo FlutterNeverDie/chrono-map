@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Second Congo War
+region: africa
+when: 1998-08 ~ 2003-07
+unit: month
+borders-step: 1
+view: 25, -3, 4
+search: 12, 35, -14, 6
+min-links: 1
+side.a.ko: 르완다·우간다·부룬디와 반군
+side.a.en: Rwanda, Uganda, Burundi & rebels
+side.a.zh: 卢旺达、乌干达、布隆迪与叛军
+side.a.es: Ruanda, Uganda, Burundi y rebeldes
+side.a.hi: रवांडा, युगांडा, बुरुंडी और विद्रोही
+side.a.ar: رواندا وأوغندا وبوروندي والمتمردون
+side.a.fr: Rwanda, Ouganda, Burundi et rebelles
+side.a.pt: Ruanda, Uganda, Burundi e rebeldes
+side.b.ko: 콩고민주공화국과 동맹국
+side.b.en: DR Congo & allies
+side.b.zh: 刚果民主共和国及盟国
+side.b.es: RD del Congo y aliados
+side.b.hi: कांगो लोकतांत्रिक गणराज्य और सहयोगी
+side.b.ar: جمهورية الكونغو الديمقراطية وحلفاؤها
+side.b.fr: RD Congo et alliés
+side.b.pt: RD Congo e aliados

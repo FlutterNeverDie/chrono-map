@@ -1,0 +1,7 @@
+# 나라(정치체)별 진영: 원본 이름 = a | b | n [시작 ~ 끝]. 없으면 기타(n). 형식은 content/campaigns/CLAUDE.md
+
+# French Indochina = 코친차이나·안남(프랑스령). 통킹은 원본에서 아직 Nguyễn dynasty 쪽이라 그대로 둔다
+French Indochina = a
+French Third Republic = a
+Qing Dynasty = b
+# (French Third Republic)은 아프리카 식민지까지 포함해 넣지 않는다

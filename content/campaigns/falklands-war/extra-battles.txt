@@ -1,0 +1,19 @@
+# 직접 추가한 전투 (Wikidata에 좌표·날짜가 없거나 전투 분류가 아니어서 자동으로 안 잡힌 것). 형식은 content/campaigns/CLAUDE.md
+
+@ operation-paraquet
+wikipedia: Operation Paraquet
+when: 1982-04
+coords: -36.51, -54.28
+links: 10
+
+@ operation-black-buck
+wikipedia: Operation Black Buck
+when: 1982-05 ~ 1982-06
+coords: -57.86, -51.69
+links: 14
+
+@ pebble-island-raid
+wikipedia: Pebble Island raid
+when: 1982-05
+coords: -59.61, -51.31
+links: 6

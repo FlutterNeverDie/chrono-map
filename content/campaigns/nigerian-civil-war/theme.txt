@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Nigerian Civil War
+region: africa
+when: 1967-07 ~ 1970-01
+unit: month
+borders-step: 1
+view: 7.5, 6.5, 5
+search: 2.5, 14.5, 4, 14
+min-links: 1
+side.a.ko: 나이지리아
+side.a.en: Nigeria
+side.a.zh: 尼日利亚
+side.a.es: Nigeria
+side.a.hi: नाइजीरिया
+side.a.ar: نيجيريا
+side.a.fr: Nigeria
+side.a.pt: Nigéria
+side.b.ko: 비아프라
+side.b.en: Biafra
+side.b.zh: 比夫拉
+side.b.es: Biafra
+side.b.hi: बियाफ्रा
+side.b.ar: بيافرا
+side.b.fr: Biafra
+side.b.pt: Biafra

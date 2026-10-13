@@ -1,0 +1,5 @@
+# 나라(정치체)별 진영: 원본 이름 = a | b | n [시작 ~ 끝]. 없으면 기타(n). 형식은 content/campaigns/CLAUDE.md
+
+# 원본 국경에는 1271년 원 건국 뒤에도 Mongol Empire로 나온다
+Mongol Empire = a
+Southern Song = b

@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Paraguayan War
+region: south-america
+when: 1864-11 ~ 1870-03
+unit: month
+borders-step: 1
+view: -57, -25, 4.5
+search: -62, -50, -33, -18
+min-links: 1
+side.a.ko: 파라과이
+side.a.en: Paraguay
+side.a.zh: 巴拉圭
+side.a.es: Paraguay
+side.a.hi: पैराग्वे
+side.a.ar: باراغواي
+side.a.fr: Paraguay
+side.a.pt: Paraguai
+side.b.ko: 브라질·아르헨티나·우루과이
+side.b.en: Brazil, Argentina & Uruguay
+side.b.zh: 巴西、阿根廷与乌拉圭
+side.b.es: Brasil, Argentina y Uruguay
+side.b.hi: ब्राज़ील, अर्जेंटीना और उरुग्वे
+side.b.ar: البرازيل والأرجنتين والأوروغواي
+side.b.fr: Brésil, Argentine et Uruguay
+side.b.pt: Brasil, Argentina e Uruguai

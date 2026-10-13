@@ -1,0 +1,55 @@
+# 제2차 이탈리아-에티오피아 전쟁: Wikidata에 날짜·좌표가 없어 자동으로 안 잡히는 전투를 직접 추가 (좌표는 근사)
+
+@ de-bonos-invasion-of-ethiopia
+wikipedia: De Bono's invasion of Ethiopia
+when: 1935-10 ~ 1935-11
+coords: 38.9, 14.17
+links: 4
+
+@ christmas-offensive
+wikipedia: Christmas Offensive
+when: 1935-12
+coords: 38.5, 13.75
+links: 4
+
+@ battle-of-ganale-doria
+wikipedia: Battle of Ganale Doria
+when: 1936-01
+coords: 40.8, 4.9
+links: 6
+
+@ first-battle-of-tembien
+wikipedia: First battle of Tembien
+when: 1936-01
+coords: 39.05, 13.65
+links: 7
+
+@ second-battle-of-tembien
+wikipedia: Second battle of Tembien
+when: 1936-02
+coords: 38.95, 13.55
+links: 6
+
+@ battle-of-shire-1936
+wikipedia: Battle of Shire (1936)
+when: 1936-02 ~ 1936-03
+coords: 38.28, 14.1
+links: 6
+
+@ battle-of-maychew
+wikipedia: Battle of Maychew
+when: 1936-03
+coords: 39.54, 12.78
+links: 8
+
+@ battle-of-the-ogaden
+wikipedia: Battle of the Ogaden
+when: 1936-04
+coords: 43.3, 7.9
+links: 6
+
+@ march-of-the-iron-will
+wikipedia: March of the Iron Will
+when: 1936-04 ~ 1936-05
+coords: 39.63, 11.13
+links: 4

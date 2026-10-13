@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Winter War
+region: europe
+when: 1939-11 ~ 1940-03
+unit: month
+borders-step: 1
+view: 30, 63.5, 5
+search: 20, 36, 59, 70.5
+min-links: 3
+side.a.ko: 소련
+side.a.en: Soviet Union
+side.a.zh: 苏联
+side.a.es: Unión Soviética
+side.a.hi: सोवियत संघ
+side.a.ar: الاتحاد السوفيتي
+side.a.fr: Union soviétique
+side.a.pt: União Soviética
+side.b.ko: 핀란드
+side.b.en: Finland
+side.b.zh: 芬兰
+side.b.es: Finlandia
+side.b.hi: फ़िनलैंड
+side.b.ar: فنلندا
+side.b.fr: Finlande
+side.b.pt: Finlândia

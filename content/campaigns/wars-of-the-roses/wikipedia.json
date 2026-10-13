@@ -1,0 +1,638 @@
+{
+  "Wars of the Roses": {
+    "pages": {
+      "ko": {
+        "title": "장미 전쟁",
+        "extract": "장미 전쟁(영어: Wars of the Roses)은 붉은 장미를 표시로 삼은 랭커스터 왕가와 흰 장미를 표시로 삼은 요크 왕가 사이 왕위 쟁탈전이었다. 1455년부터 1485년까지 벌어졌다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%9E%A5%EB%AF%B8_%EC%A0%84%EC%9F%81"
+      },
+      "en": {
+        "title": "Wars of the Roses",
+        "extract": "The Wars of the Roses, known at the time and in the following centuries as the Civil Wars, were a series of armed confrontations, machinations, battles and campaigns fought for control of the English throne from 1455 to 1487. The conflict was fought between supporters of the House of York and the House of Lancaster, two rival cadet branches of the royal House of Plantagenet. The conflict resulted in the end of Lancaster's male line in 1471, leaving the Tudor family to inherit, through the female line, the Lancaster claim to the throne. The conflict was largely brought to an end upon the union of the two houses through marriage, creating the Tudor dynasty that would subsequently rule England.",
+        "url": "https://en.wikipedia.org/wiki/Wars_of_the_Roses"
+      },
+      "zh": {
+        "title": "玫瑰战争",
+        "extract": "玫瑰战争，也译作蔷薇战争，是英王爱德华三世（1327年－1377年在位）的两支后裔—兰开斯特家族和约克家族的支持者为了争夺英格兰王位而发生断续的内战。两大家族都是金雀花王朝王室的分支，约克家族是爱德华三世的次子及第四子的后裔，兰开斯特家族是爱德华三世的第三子的后裔。玫瑰战争是约克家族的爱德华三世的第五代、第六代继承人对兰开斯特家族的爱德华三世的第四代、第五代继承人的王位战争。",
+        "url": "https://zh.wikipedia.org/wiki/%E7%8E%AB%E7%91%B0%E6%88%98%E4%BA%89"
+      },
+      "es": {
+        "title": "Guerra de las Dos Rosas",
+        "extract": "La guerra de las Dos Rosas fue una guerra civil que enfrentó intermitentemente a los miembros y partidarios de la Casa de Lancaster contra los de la Casa de York entre 1455 y 1487. Ambas familias pretendían el trono de Inglaterra, por origen común en la Casa de Plantagenet, como descendientes del rey Eduardo III. El nombre «guerra de las dos Rosas» o «guerra de las Rosas», en alusión a los emblemas de ambas casas, la rosa blanca de York y la roja de Lancaster, fue producto del Romanticismo.",
+        "url": "https://es.wikipedia.org/wiki/Guerra_de_las_Dos_Rosas"
+      },
+      "hi": {
+        "title": "गुलाबों का युद्ध",
+        "extract": "गुलाबों का युद्ध ब्रिटेन में घटित हुआ था। यॉर्क और लैंकॅस्टर राजवंश लड़े थे इंग्लैण्ड के सिंहासन के लिए। अंत में टूडर राजवंश बनाया गया था।",
+        "url": "https://hi.wikipedia.org/wiki/%E0%A4%97%E0%A5%81%E0%A4%B2%E0%A4%BE%E0%A4%AC%E0%A5%8B%E0%A4%82_%E0%A4%95%E0%A4%BE_%E0%A4%AF%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A7"
+      },
+      "ar": {
+        "title": "حرب الوردتين",
+        "extract": "حرب الوردتين هي حرب أهلية دارت معاركها على مدار ثلاثة عقود (1455م-1485م)، حول الأحق بكرسي العرش في إنجلترا بين أنصار كل من عائلة لانكاستر وعائلة يورك المنتميتين إلى عائلة بلانتاجانت بسبب نسبهما إلى الملك إدوراد الثالث، وقد كان شعارهما الوردتين المختلفتين في اللون فكان أول من أطلق على هذه الحرب مسمى «حرب الوردتين» هو ويليام شكسبير في مسرحيته الشهيرة هنري السادس، وبسبب ذلك سُميت بحرب الوردتين؛ حيث كانت الوردة الحمراء شعار أسرة لانكاستر والوردة البيضاء شعار أسرة يورك. كانت نتيجة هذه الحرب الأهلية بين الطرفين المنتميين لعائلة بلانتاجانت بفوز هنري تيودور من أسرة لانكاستر على آخر خصومه من أسرة يورك وهو الملك ريتشارد الثالث وتزوجه من الأميرة إليزابيث ابنة الملك إدوارد الرابع لوضع نهاية لحرب الوردتين. يُذكر أن أسرة تيودور حكمت إنجلترا وويلز لمدة 118 سنة (1485-1603).",
+        "url": "https://ar.wikipedia.org/wiki/%D8%AD%D8%B1%D8%A8_%D8%A7%D9%84%D9%88%D8%B1%D8%AF%D8%AA%D9%8A%D9%86"
+      },
+      "fr": {
+        "title": "Guerre des Deux-Roses",
+        "extract": "La guerre des Deux-Roses est un ensemble d'affrontements, constituant globalement une guerre civile discontinue de 1455 à 1485, qui eut lieu en Angleterre entre la maison royale de Lancastre et la maison royale d'York, toutes deux branches cadettes de la maison Plantagenêt qui régnait alors. Elle est appelée ainsi a posteriori en référence aux emblèmes des deux maisons, la rose rouge de Lancastre et la rose blanche d'York. La rose de Lancastre n'a été utilisée comme emblème pour cette maison qu'à partir de 1485, lors de la dernière bataille du conflit.",
+        "url": "https://fr.wikipedia.org/wiki/Guerre_des_Deux-Roses"
+      },
+      "pt": {
+        "title": "Guerra das Rosas",
+        "extract": "As Guerras das Rosas conhecidas na época e nos séculos seguintes como \"as Guerras Civis\", foram uma série de guerras civis travadas pelo controle do trono inglês de 1455 a 1487. As guerras ocorreram entre os apoiadores da Casa de Lancaster e da Casa de York, dois ramos rivais da Casa Real dos Plantagenetas. O conflito resultou no fim da linhagem masculina dos Lancaster em 1471, deixando a família Tudor herdar sua reivindicação ao trono através da linhagem feminina. O conflito foi amplamente encerrado com a união das duas casas por meio de um casamento, criando a dinastia Tudor que governaria a Inglaterra posteriormente.",
+        "url": "https://pt.wikipedia.org/wiki/Guerra_das_Rosas"
+      }
+    }
+  },
+  "Battle of Arkinholm": {
+    "pages": {
+      "en": {
+        "title": "Battle of Arkinholm",
+        "extract": "The Battle of Arkinholm was fought on 1 May 1455, at Arkinholm near Langholm in Scotland, during the reign of King James II of Scotland. Although a small action, involving only a few hundred troops, it was the decisive battle in a civil war between the king and the Black Douglases, the most powerful aristocratic family in the country. As the king's supporters won it was a significant step in the struggle to establish a relatively strong centralised monarchy in Scotland during the Late Middle Ages.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Arkinholm"
+      },
+      "fr": {
+        "title": "Bataille d'Arkinholm",
+        "extract": "La bataille d’Arkinholm opposa le 1er mai 1455, à Arkinholm près de Langholm en Écosse, les Douglas « noirs » à l’armée du roi Jacques II d'Écosse.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_d'Arkinholm"
+      }
+    }
+  },
+  "First Battle of St Albans": {
+    "pages": {
+      "en": {
+        "title": "First Battle of St Albans",
+        "extract": "The First Battle of St Albans took place on 22 May 1455, at St Albans, 22 miles (35 km) north of London, and traditionally marks the beginning of the Wars of the Roses in England. Richard, Duke of York, and his allies, the Neville Earls of Salisbury and Warwick, defeated a royal army commanded by Edmund Beaufort, Duke of Somerset. Unusually, the battle was contested in the town of St Albans itself, with the bulk of the fighting taking place in\nthe streets. Somerset was killed in the battle, and King Henry VI captured, clearing the way for a subsequent parliament to appoint Richard of York Lord Protector.",
+        "url": "https://en.wikipedia.org/wiki/First_Battle_of_St_Albans"
+      },
+      "zh": {
+        "title": "第一次聖奧爾本斯戰役",
+        "extract": "第一次圣奥尔本斯战役发生于 1455 年 5 月 22 日伦敦以北 22 英里 的圣奥尔本斯举行。一般认为此战标志着玫瑰战争的开始。 约克公爵理查德和他的盟友索尔兹伯里伯爵和沃里克伯爵击败了萨默塞特公爵埃德蒙·博福特指挥的王室军队。不同寻常的是，此战大部分战斗发生在圣奥尔本镇的街头，一家小酒馆被用作堡垒。萨默塞特公爵在战斗中阵亡，亨利六世国王被俘，为随后的议会任命约克公爵理查德为护国公扫清了道路。",
+        "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%81%96%E5%A5%A7%E7%88%BE%E6%9C%AC%E6%96%AF%E6%88%B0%E5%BD%B9"
+      },
+      "es": {
+        "title": "Primera batalla de St Albans",
+        "extract": "La primera batalla de St Albans dio comienzo a la guerra de las Dos Rosas. El combate tuvo lugar el 22 de mayo de 1455 en el pueblo de St Albans. Ricardo, duque de York, y su aliado, Ricardo Neville, conde de Warwick, derrotaron a las tropas de la casa de Lancaster dirigidas por Edmundo Beaufort, duque de Somerset, quien resultó muerto. Al finalizar el combate, Ricardo de York capturó al rey Enrique VI, logrando hacerse nombrar Lord Protector del Reino de Inglaterra.",
+        "url": "https://es.wikipedia.org/wiki/Primera_batalla_de_St_Albans"
+      },
+      "ar": {
+        "title": "معركة سانت ألبانز الأولى",
+        "extract": "معركة سانت ألبانز الأولى هي معركة حدثت في 22 مايو عام 1455 م في مدينة سانت ألبانز والتي تبعد 22 ميلاً شمال لندن ، وتعتبر هذه المعركة أنها بداية المعارك لحرب الوردتين.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%B3%D8%A7%D9%86%D8%AA_%D8%A3%D9%84%D8%A8%D8%A7%D9%86%D8%B2_%D8%A7%D9%84%D8%A3%D9%88%D9%84%D9%89"
+      },
+      "fr": {
+        "title": "Première bataille de St Albans",
+        "extract": "La première bataille de St Albans se déroule le 22 mai 1455. C'est le premier affrontement de la guerre des Deux-Roses, et elle se solde par une victoire du parti yorkiste.",
+        "url": "https://fr.wikipedia.org/wiki/Premi%C3%A8re_bataille_de_St_Albans"
+      },
+      "pt": {
+        "title": "Primeira Batalha de St. Albans",
+        "extract": "A Primeira Batalha de St. Albans travada em 22 de maio de 1455 em St Albans, 35 km ao norte de Londres, marca tradicionalmente o início das Guerras das Rosas na Inglaterra. Ricardo, duque de York, e seus aliados, os condes Richard Neville de Salisbury e Richard Neville, derrotaram um exército real comandado por Edmund Beaufort, duque de Somerset, que foi morto. Com o rei Henrique VI capturado, um parlamento subsequente nomeou Richard de York Lorde Protetor.",
+        "url": "https://pt.wikipedia.org/wiki/Primeira_Batalha_de_St._Albans"
+      }
+    }
+  },
+  "Rout of Ludford Bridge": {
+    "pages": {
+      "en": {
+        "title": "Rout of Ludford Bridge",
+        "extract": "The Rout of Ludford Bridge was a largely bloodless confrontation fought in the early years of the Wars of the Roses. It took place on 12 October 1459, and resulted in a setback for the Yorkists. Although this seemed to be a triumph for the rival Lancastrians at the time, they had thrown away their advantage within six months.",
+        "url": "https://en.wikipedia.org/wiki/Rout_of_Ludford_Bridge"
+      },
+      "es": {
+        "title": "Batalla del Puente de Ludford",
+        "extract": "La batalla del Puente de Ludford fue el mayor desastre de los partidarios de la casa de York durante las guerras de las Dos Rosas.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_del_Puente_de_Ludford"
+      },
+      "ar": {
+        "title": "معركة جسر لودفورد",
+        "extract": "معركة جسر لودفورد هي من المعارك غير الدموية بشكل كبير بين يوش الطرفين منذ بداية حرب الوردتين، حيث وقعت في 12 أكتوبر من عام 1459م وانتهت بانتصار جيش اللانكاسترين بقيادة مارغريت أنجو وانتكاسة اليوركيون في هذه المعركة.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%AC%D8%B3%D8%B1_%D9%84%D9%88%D8%AF%D9%81%D9%88%D8%B1%D8%AF"
+      },
+      "fr": {
+        "title": "Déroute de Ludford Bridge",
+        "extract": "La déroute de Ludford Bridge est un affrontement sans effusion de sang livrée au début de la guerre des Deux-Roses. Il s'est déroulé les 12 et 13 octobre 1459 et a conduit à un revers sérieux de la Maison d'York. Bien que cet affrontement semble alors être un triomphe pour la Maison de Lancastre, la conduite irréfléchie des vainqueurs fait à nouveau basculer l'avantage en faveur des Yorkistes au bout de six mois.",
+        "url": "https://fr.wikipedia.org/wiki/D%C3%A9route_de_Ludford_Bridge"
+      }
+    }
+  },
+  "Battle of Blore Heath": {
+    "pages": {
+      "en": {
+        "title": "Battle of Blore Heath",
+        "extract": "The Battle of Blore Heath took place during the English Wars of the Roses on 23 September 1459, at Blore Heath, Staffordshire. Blore Heath is a sparsely populated area of farmland two miles east of the town of Market Drayton in Shropshire, and close to the village of Loggerheads, Staffordshire.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Blore_Heath"
+      },
+      "zh": {
+        "title": "布洛希思之役",
+        "extract": "布洛希思之役 是蔷薇战争中的第一场主要战役，爆发于1459年9月23日，斯塔福德郡的布洛希思。这场战役虽然不是决定性的一次，但已为英国的内战揭幕。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%B8%83%E6%B4%9B%E5%B8%8C%E6%80%9D%E4%B9%8B%E5%BD%B9"
+      },
+      "es": {
+        "title": "Batalla de Blore Heath",
+        "extract": "La batalla de Blore Heath fue una de las primeras grandes batallas en la guerra de las Dos Rosas inglesa. Se libró el 23 de septiembre de 1459, en Blore Heath, Staffordshire, a dos millas al este de la ciudad de Market Drayton en Shropshire, Inglaterra.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Blore_Heath"
+      },
+      "ar": {
+        "title": "معركة بلور هيث",
+        "extract": "معركة بلور هيث هي واحدة من معارك حرب الوردتين تتميز بكونها أولى المعارك الكبيرة في سلسلة معارك حرب الوردتين. وقعت في 23 سبتمبر من عام 1459م في بلور هيث بستافوردشاير، إنجلترا.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%A8%D9%84%D9%88%D8%B1_%D9%87%D9%8A%D8%AB"
+      },
+      "fr": {
+        "title": "Bataille de Blore Heath",
+        "extract": "La bataille de Blore Heath est le premier affrontement majeur de la guerre des Deux-Roses. Elle se déroule de 23 septembre 1459 en Angleterre, à Blore Heath, dans le Staffordshire, à 2 miles de la ville de Market Drayton dans le Shropshire.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Blore_Heath"
+      }
+    }
+  },
+  "Battle of Sandwich (1460)": {
+    "pages": {
+      "en": {
+        "title": "Battle of Sandwich (1460)",
+        "extract": "The Battle of Sandwich was a naval skirmish off the town of Sandwich on the 15 January 1460 during the Wars of the Roses. In it, Sir John Dynham, Sir John Wenlock, and the Earl of Warwick, Captain of Calais, on the Yorkist side, defeated a Lancastrian fleet and captured several of its ships. Little evidence and few details of the battle survive.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Sandwich_(1460)"
+      },
+      "ar": {
+        "title": "معركة سندويتش (1460)",
+        "extract": "معركة سندويتش كانت مناوشة بحرية وقعت في عام 1460 في حرب الوردتين. في هذه المعركة البحرية أصبح السير والربان ريتشارد نيفيل، إيرل وارويك السادس عشر من أنصار أسرة يورك، فهُزم فيها أسطول اللانكاسترين وألقي القبض على عدد من سفنهم. هناك القليل فقط من المعلومات والتفاصيل عن هذه المعركة البحرية.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%B3%D9%86%D8%AF%D9%88%D9%8A%D8%AA%D8%B4_(1460)"
+      },
+      "fr": {
+        "title": "Bataille de Sandwich (1460)",
+        "extract": "La bataille de Sandwich fut livrée le 15 janvier 1460 pendant la guerre des Deux-Roses. Elle opposa les forces du comte de Warwick Richard Neville, menées par John Dynham, à celles d'une flotte lancastrienne commandée par Richard Woodville.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Sandwich_(1460)"
+      }
+    }
+  },
+  "Battle of Northampton (1460)": {
+    "pages": {
+      "en": {
+        "title": "Battle of Northampton (1460)",
+        "extract": "The Battle of Northampton was fought on 10 July 1460 near the River Nene, Northamptonshire. It was a major battle of the Wars of the Roses. The opposing forces were an army led by nobles loyal to King Henry VI of the House of Lancaster, his Queen Margaret of Anjou and their six-year-old son Edward, Prince of Wales, on one side, and the army of Edward, Earl of March, and Warwick the Kingmaker on the other. The battle was the first in which artillery was used in England.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Northampton_(1460)"
+      },
+      "es": {
+        "title": "Batalla de Northampton",
+        "extract": "La batalla de Northampton fue un enfrentamiento que se produjo durante la guerra de las Dos Rosas, entre la Casa de York y la Casa de Lancaster el 10 de julio de 1460.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Northampton"
+      },
+      "ar": {
+        "title": "معركة نورثهامبتون",
+        "extract": "دارت  معركة نورثهامبتون  في 10 يوليو 1460 بين قوات أسرتي لانكستر ويورك خلال حرب الوردتين. انتهت المعركة بانتصار أسرة يورك، وأسر الملك هنري السادس.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D9%86%D9%88%D8%B1%D8%AB%D9%87%D8%A7%D9%85%D8%A8%D8%AA%D9%88%D9%86"
+      },
+      "fr": {
+        "title": "Bataille de Northampton",
+        "extract": "La bataille de Northampton se déroule le 10 juillet 1460, en Angleterre, à Northampton, dans le Northamptonshire, durant la guerre des Deux-Roses. Elle voit la capture du roi Henri VI d'Angleterre.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Northampton"
+      },
+      "pt": {
+        "title": "Batalha de Northampton",
+        "extract": "A Batalha de Northampton foi travada em 10 de julho de 1460 perto do rio Nene, em Northamptonshire. Foi uma batalha importante nas Guerras das Rosas. As forças opostas eram compostas por um exército liderado por nobres leais ao rei Henrique VI da Casa de Lancaster, sua rainha Margarida de Anjou e seu filho de seis anos, Eduardo, Príncipe de Gales, de um lado, e pelo exército de Eduardo, Conde de March, e Warwick, o Fazedor de Reis, do outro. A batalha foi a primeira em que artilharia foi usada na Inglaterra.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Northampton"
+      }
+    }
+  },
+  "Capture of Roxburgh (1460)": {
+    "pages": {
+      "en": {
+        "title": "Capture of Roxburgh (1460)",
+        "extract": "The capture of Roxburgh was a siege that took place during the Anglo-Scottish Wars. Following the Second War of Scottish Independence intermittent conflict continued along the Anglo-Scottish border with Roxburgh Castle being held by the English since 1346 and by the 1380s was one of the last English held strongholds in Scotland. In July 1460 James II of Scotland began a campaign to reclaim Roxburgh, aiming to take advantage of the fact that the Wars of the Roses were raging in England.",
+        "url": "https://en.wikipedia.org/wiki/Capture_of_Roxburgh_(1460)"
+      },
+      "fr": {
+        "title": "Siège de Roxburgh (1460)",
+        "extract": "La prise de Roxburgh par le royaume d'Écosse eut lieu en août 1460.",
+        "url": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Roxburgh_(1460)"
+      }
+    }
+  },
+  "Battle of Wakefield": {
+    "pages": {
+      "en": {
+        "title": "Battle of Wakefield",
+        "extract": "The 'Battle' of Wakefield has traditionally been said to have taken place in Sandal Magna near Wakefield in northern England, on 30 December 1460. Recent research demonstrates that it was not a battle in the proper sense of a word, but a small-scale skirmish that resulted in the capture and subsequent deaths of Richard of York, 3rd Duke of York, his second son, Edmund, Earl of Rutland, and Richard Neville, 5th Earl of Salisbury.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Wakefield"
+      },
+      "zh": {
+        "title": "韦克菲尔德战役",
+        "extract": "韦克菲尔德战役 是英格兰玫瑰战争中的一场重要战役，发生在1460年12月30日西约克郡的韦克菲尔德，交战双方是忠于亨利六世的兰开斯特军队和觊觎王位的约克公爵理查的军队。此前，理查已通过调解法案取代了亨利六世独子爱德华的王储地位。兰开斯特军或达18000人，而约克军充其量只有9000人。约克公爵及其次子律伦伯爵埃德蒙在此战中阵亡，同时被杀的还有其重要盟友沃里克伯爵理查德·内维尔的父亲索尔斯伯利伯爵理察·内维尔和弟弟托马斯·内维尔，约克军死亡700-2500人，而兰开斯特军可能只损失200人。阵亡的约克公爵被戴上纸糊的王冠悬首约克城以示嘲讽。",
+        "url": "https://zh.wikipedia.org/wiki/%E9%9F%A6%E5%85%8B%E8%8F%B2%E5%B0%94%E5%BE%B7%E6%88%98%E5%BD%B9"
+      },
+      "es": {
+        "title": "Batalla de Wakefield",
+        "extract": "La batalla de Wakefield tuvo lugar el 30 de diciembre de 1460 entre las fuerzas de Ricardo Plantagenet, duque de York y el ejército real comandado por la reina consorte Margarita de Anjou, en el marco de las Guerras de las Dos Rosas. Fue un combate decisivo para el curso de la guerra, con el resultado de una gran victoria de la Casa de Lancaster sobre sus rivales de la Casa de York. El combate tuvo lugar en los alrededores de la localidad de Wakefield, en Yorkshire del Oeste, cerca del Castillo de Sandal.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Wakefield"
+      },
+      "ar": {
+        "title": "معركة ويكفيلد",
+        "extract": "معركة ويكفيلد هي من معارك حرب الوردتين انتهت بفوز جيش لانكاستر",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D9%88%D9%8A%D9%83%D9%81%D9%8A%D9%84%D8%AF"
+      },
+      "fr": {
+        "title": "Bataille de Wakefield",
+        "extract": "La bataille de Wakefield est une bataille de la Guerre des Deux-Roses. Cette ville du Yorkshire vit s'affronter les armées de Richard, duc d'York et de la reine Marguerite d'Anjou le 30 décembre 1460. Le duc d'York y fut tué, ainsi que son deuxième fils, Edmond Plantagenêt, comte de Rutland.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Wakefield"
+      },
+      "pt": {
+        "title": "Batalha de Wakefield",
+        "extract": "A Batalha de Wakefield foi uma batalha da Guerra das Rosas travada em Sandal Magna, próximo a Wakefield, em West Yorkshire, ocorrida na data de 30 de dezembro de 1460. Essa cidade viu o confronto dos exércitos de Ricardo, 3.° Duque de Iorque, com o da rainha Margarida de Anjou. O duque de Iorque e o seu filho Edmundo, conde de Rutland, foram mortos nessa batalha.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Wakefield"
+      }
+    }
+  },
+  "Battle of Worksop": {
+    "pages": {
+      "en": {
+        "title": "Battle of Worksop",
+        "extract": "The Battle of Worksop was a skirmish during the Wars of the Roses, near the town of Worksop, Nottinghamshire on 16 December 1460, part of the campaign which led to the Battle of Wakefield on 30 December.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Worksop"
+      },
+      "fr": {
+        "title": "Bataille de Worksop",
+        "extract": "La bataille de Worksop fut livrée le 16 décembre 1460 pendant la guerre des Deux-Roses. Elle opposa les forces lancastriennes d'Henri Beaufort à celles d'une petite force yorkiste.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Worksop"
+      }
+    }
+  },
+  "Battle of Mortimer's Cross": {
+    "pages": {
+      "en": {
+        "title": "Battle of Mortimer's Cross",
+        "extract": "The Battle of Mortimer's Cross was fought on 2 February, 1461 near Kingsland, Herefordshire, not far from the Welsh border. It was a major battle of the Wars of the Roses. The opposing forces consisted of, on one side, an army led by Jasper Tudor and his father, Owen Tudor, as well as nobles loyal to King Henry VI of the House of Lancaster, his wife, Margaret of Anjou, and their seven-year-old son, Edward, Prince of Wales. On the other side, was the army of Edward, Earl of March. Some sources say it was fought on 3 February, and the exact location has been the subject of some speculation.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Mortimer's_Cross"
+      },
+      "zh": {
+        "title": "莫蒂默斯克罗斯战役",
+        "extract": "莫蒂默斯克罗斯战役是玫瑰战争中的一场主要战役，于1461年2月2日发生在赫里福德郡威格莫尔 附近，离威尔士边境不远。这场战役中，兰开斯特军队由欧文·都铎和贾斯珀·都铎父子，以及忠于亨利六世国王、安茹的玛格丽特王后和17岁的王太子威尔士亲王爱德华的贵族们领导；约克军队则由马奇伯爵爱德华领导。有些资料说这场战役发生于2月3日,关于战役发生的具体地点也是众说纷纭。",
+        "url": "https://zh.wikipedia.org/wiki/%E8%8E%AB%E8%92%82%E9%BB%98%E6%96%AF%E5%85%8B%E7%BD%97%E6%96%AF%E6%88%98%E5%BD%B9"
+      },
+      "es": {
+        "title": "Batalla de la cruz de Mortimer",
+        "extract": "La batalla de Mortimer's Cross tuvo lugar el 2 de febrero de 1461 cerca de Kingsland, Herefordshire, cerca de la frontera con Gales, y corresponde a las Guerras de las Rosas. En Mortimer's Cross se enfrentaron un ejército liderado por Jasper Tudor y su padre, Owen Tudor, y formado por partidarios de Enrique VI de la Casa de Lancaster, su esposa, Margarita de Anjou, y su hijo el Príncipe Eduardo, y une ejército liderado por Eduardo, conde de March. Algunas fuentes dicen que se libró el 3 de febrero y la ubicación exacta ha sido objeto de algunas especulaciones.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_la_cruz_de_Mortimer"
+      },
+      "ar": {
+        "title": "معركة تقاطع مورتيمر",
+        "extract": "معركة تقاطع موتيمير هي إحدى معارك حرب الوردتين حدثت في 2 فبراير من عام 1461م. انتصر فيها جيش أسرة يورك بقيادة الملك إدوارد الرابع على جيش أسرة لانكاستر. اختلفت الآراء عن المكان الذي وقعت فيه هذه المعركة.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%AA%D9%82%D8%A7%D8%B7%D8%B9_%D9%85%D9%88%D8%B1%D8%AA%D9%8A%D9%85%D8%B1"
+      },
+      "fr": {
+        "title": "Bataille de Mortimer's Cross",
+        "extract": "La bataille de Mortimer's Cross eut lieu le 2 février 1461, pendant la guerre des Deux-Roses, près de Wigmore, dans l'Herefordshire près de la frontière galloise. Les forces en présence étaient composées d'un côté d'une armée dirigée par Jasper Tudor et son père Owen Tudor, de nobles loyaux au roi Henri VI de la Maison de Lancastre, la reine Marguerite d'Anjou et de leur fils de 7 ans Édouard de Westminster, et de l'autre côté par l'armée du futur roi Édouard IV d'Angleterre. Ce fut une victoire décisive de la Maison d'York sur celle de Lancastre.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Mortimer's_Cross"
+      }
+    }
+  },
+  "Second Battle of St Albans": {
+    "pages": {
+      "en": {
+        "title": "Second Battle of St Albans",
+        "extract": "The Second Battle of St Albans was fought on 17 February 1461 during the Wars of the Roses in St Albans, Hertfordshire, England.",
+        "url": "https://en.wikipedia.org/wiki/Second_Battle_of_St_Albans"
+      },
+      "zh": {
+        "title": "第二次圣奥尔本斯战役",
+        "extract": "第二次圣奥尔本斯战役是玫瑰战争中的一场战役，于1461年2月17日发生在英格兰赫特福德郡的圣奥尔本斯，也就是1455年第一次圣奥尔本斯战役发生之地。约克军在沃里克伯爵的领导下，试图封锁圣奥尔本斯北部前往伦敦的道路。兰开斯特军从远处迂回攻击，令沃里克大吃一惊，于是，沃里克与伦敦的联系被切断，他的军队也被赶出了战场。之后，兰开斯特军释放了被沃里克囚禁而奄奄一息的亨利六世，然而，后来他们没能从胜利中得到好处。",
+        "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E5%9C%A3%E5%A5%A5%E5%B0%94%E6%9C%AC%E6%96%AF%E6%88%98%E5%BD%B9"
+      },
+      "es": {
+        "title": "Segunda batalla de St Albans",
+        "extract": "La segunda batalla de St Albans fue un enfrentamiento militar librado el 17 de febrero de 1461 en el contexto de la guerra de las Dos Rosas, disputada entre las casas nobiliarias de York y Lancaster por la Corona Inglesa.",
+        "url": "https://es.wikipedia.org/wiki/Segunda_batalla_de_St_Albans"
+      },
+      "ar": {
+        "title": "معركة سانت ألبانز الثانية",
+        "extract": "معركة سانت ألبانز الثانية هي إحدى معارك حرب الوردتين وقعت في 17 فبراير من عام 1461م في مدينة سانت ألبانز بإنجلترا.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%B3%D8%A7%D9%86%D8%AA_%D8%A3%D9%84%D8%A8%D8%A7%D9%86%D8%B2_%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A%D8%A9"
+      },
+      "fr": {
+        "title": "Seconde bataille de St Albans",
+        "extract": "La seconde bataille de St Albans eut lieu le 17 février 1461, pendant la guerre des Deux-Roses, près de St Albans, dans l'Hertfordshire. Une armée de la faction yorkiste commandée par Richard Neville tenta de barrer la route de Londres à l'armée des Lancastre mais fut vaincue. Cette victoire permit aux Lancastre de libérer le roi Henri VI de sa captivité, mais ils échouèrent à en tirer un plein avantage.",
+        "url": "https://fr.wikipedia.org/wiki/Seconde_bataille_de_St_Albans"
+      }
+    }
+  },
+  "Battle of Towton": {
+    "pages": {
+      "en": {
+        "title": "Battle of Towton",
+        "extract": "The Battle of Towton took place on 29 March 1461 during the Wars of the Roses, near Towton in North Yorkshire. Yorkist forces decisively defeated Lancastrian supporters of Henry VI, securing the English throne for Edward IV. Fought for ten hours between an estimated 50,000 soldiers from both sides in a snowstorm on Palm Sunday, it was \"probably the largest and bloodiest battle on English soil\".",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Towton"
+      },
+      "zh": {
+        "title": "陶顿战役",
+        "extract": "陶顿战役爆发于1461年3月29日(棕枝主日)，在约克郡的陶顿附近，为蔷薇战争中以至英格兰史上最大规模及伤亡最惨重的战役。根据编年史家的说法，该战役中双方投入近50,000名兵士于暴风雪中战斗了数小时。一份于一星期后散播的新闻消息报导超过28,000人于战役中丧生。该战役中，由当时为约克公爵的爱德华四世率领的约克家族获得胜利，并顺利铲弭兰开斯特家族主要武力，改变了英格兰的君主—爱德华四世取代亨利六世成为国王，并将兰开斯特家族及主要支持者逐出英格兰。",
+        "url": "https://zh.wikipedia.org/wiki/%E9%99%B6%E9%A1%BF%E6%88%98%E5%BD%B9"
+      },
+      "es": {
+        "title": "Batalla de Towton",
+        "extract": "La batalla de Towton fue un enfrentamiento militar librado en el contexto de la guerra de las Dos Rosas el 29 de marzo de 1461 en la aldea homónima en Yorkshire. Es considerada la más grande y sangrienta batalla librada en el territorio inglés.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Towton"
+      },
+      "ar": {
+        "title": "معركة توتون",
+        "extract": "معركة توتون هي إحدى معارك حرب الوردتين وقعت بالقرب من قرية توتون بيوركشاير والتي أُخذ منها اسم هذه المعركة، وقعت هذه المعركة في 29 مارس من عام 1461م. اعتُبرت هذه المعركة من أكبر وأعنف المعارك التي وقعت في الأراضي الإنجليزية.وفقًا لتاريخ الأحداث فقد قاتل أكثر من 50000 جندي من جبش يورك ولانكاستر في وسط العواصف الثلجية لمدة ساعات طويلة.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%AA%D9%88%D8%AA%D9%88%D9%86"
+      },
+      "fr": {
+        "title": "Bataille de Towton",
+        "extract": "La bataille de Towton a lieu au cours de la guerre des Deux-Roses le 29 mars 1461 au sud-ouest d'York, entre les villages de Towton et Saxton. C'est la plus grande et la plus sanglante bataille à avoir jamais été livrée sur le sol anglais ainsi que la journée la plus meurtrière de toute l'histoire de l'Angleterre. Selon les chroniques médiévales, plus de 50 000 soldats des maisons d'York et de Lancastre se sont combattus ce dimanche des Rameaux pendant plusieurs heures et dans des conditions météorologiques déplorables, et une proclamation diffusée une semaine après la bataille rapporte que 28 000 hommes ont péri sur le champ de bataille. Cet engagement provoque un changement monarchique en Angleterre, Édouard IV remplaçant Henri VI sur le trône et forçant les principaux partisans des Lancastre à partir.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Towton"
+      },
+      "pt": {
+        "title": "Batalha de Towton",
+        "extract": "A batalha de Towton teve lugar durante a guerra das Rosas, a 29 de março de 1461, a sudoeste de Iorque, entre os vilarejos de Towton e Saxton. É a maior e mais sangrenta batalha a ter tido lugar em solo inglês e o dia mais sangrento de toda a história da Inglaterra. Segundo as crónicas medievais, mais de 50 000 soldados das casas de Iorque e de Lencastre combateram nesse domingo de ramos, durante várias horas e em condições meteorológicas deploráveis. Uma proclamação difundida uma semana depois da batalha relata que 28 000 homens perderam a vida no campo de batalha. Esse encontro provocou uma mudança monárquica em Inglaterra: Eduardo IV substituiu Henrique VI no trono e obrigou os principais apoiantes dos Lencastre a exilarem-se.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Towton"
+      }
+    }
+  },
+  "Battle of Ferrybridge": {
+    "pages": {
+      "en": {
+        "title": "Battle of Ferrybridge",
+        "extract": "The Battle of Ferrybridge, 28 March 1461, was a preliminary engagement between the houses of York and Lancaster before the larger battle of Towton, during the period now known as the Wars of the Roses.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Ferrybridge"
+      },
+      "ar": {
+        "title": "معركة فيريبريدج",
+        "extract": "معركة فيريبريدج كانت هذه المعركة مجرد اشتباك صغير بيم جيش أسرة يورك و جيش أسرة لانكاستر في سلسلة معارك حرب الوردتين، حدثت هذه المعركة قبل معركة توتون الكبيرة.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D9%81%D9%8A%D8%B1%D9%8A%D8%A8%D8%B1%D9%8A%D8%AF%D8%AC"
+      },
+      "fr": {
+        "title": "Bataille de Ferrybridge",
+        "extract": "La bataille de Ferrybridge a opposé la Maison d’York à la Maison de Lancastre les 27 et 28 mars 1461. Cet affrontement de la guerre des Deux-Roses est un prélude à la bataille de Towton, qui a lieu le lendemain.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Ferrybridge"
+      }
+    }
+  },
+  "Battle of Hedgeley Moor": {
+    "pages": {
+      "en": {
+        "title": "Battle of Hedgeley Moor",
+        "extract": "The Battle of Hedgeley Moor, 25 April 1464, took place during the Wars of the Roses. It was fought at Hedgeley Moor, north of the villages of Glanton and Powburn in Northumberland, between a Yorkist army led by John Neville, Lord Montagu and a Lancastrian army led by Henry Beaufort, Duke of Somerset. The battle ended in a Yorkist victory.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Hedgeley_Moor"
+      },
+      "ar": {
+        "title": "معركة مستنقع هدجلي",
+        "extract": "معركة مستنقع هدجلي هي إحدى معارك حرب الوردتين وقعت في 25 أبريل من عام 1464م في مستنقع هدجلي شمال قرية غلانتون بنورثمبرلاند، إنجلترا. انتهت بفوز جيش يورك بقيادة جون نيفيل، مركيز مونتاغو الأول.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D9%85%D8%B3%D8%AA%D9%86%D9%82%D8%B9_%D9%87%D8%AF%D8%AC%D9%84%D9%8A"
+      },
+      "fr": {
+        "title": "Bataille de Hedgeley Moor",
+        "extract": "La bataille de Hedgeley Moor est un affrontement de la guerre des Deux-Roses. Elle s'est déroulée le 25 avril 1464 à Hedgeley Moor, au nord du village de Glanton, dans le Northumberland, et s'est conclue par une victoire de John Neville pour la Maison d'York sur les Lancastre menés par le duc de Somerset.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Hedgeley_Moor"
+      },
+      "pt": {
+        "title": "Batalha de Hedgeley Moor",
+        "extract": "Abatalha de Hedgeley Moor foi uma batalha travada durante a guerra das Rosas. Ocorreu em Hedgeley Moor, a norte do vilarejo de Glanton, Northumberland, a 25 de abril de 1464.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Hedgeley_Moor"
+      }
+    }
+  },
+  "Battle of Hexham": {
+    "pages": {
+      "en": {
+        "title": "Battle of Hexham",
+        "extract": "The Battle of Hexham, 15 May 1464, marked the end of significant Lancastrian resistance in the north of England during the early part of the reign of Edward IV.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Hexham"
+      },
+      "ar": {
+        "title": "معركة هكسهام",
+        "extract": "معركة هكسهام هي معركة من سلسلة معارك حرب الوردتين حدثت في 15 مايو من عام 1464م في قرية هكسهام في نورثمبرلاند بإنجلترا بين جيش أسرة لانكاستر و جيش أسرة يورك. انتهت هذه المعركة بفوز جيش يورك بقيادة جون نيفيل، مركيز مونتاغو الأول. في هذه المعركة قُبض على معظم قادة جيش لانكاستر المتمردين ومن ثم أُعدموا بعد ذلك من بينهم :هنري بوفورت، دوق سومرست الثالث ، روبرت هانغرفورد، بارون هانغرفورد الثالث وفيليب وينتورث.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D9%87%D9%83%D8%B3%D9%87%D8%A7%D9%85"
+      },
+      "fr": {
+        "title": "Bataille de Hexham",
+        "extract": "La bataille de Hexham est un affrontement de la guerre des Deux-Roses. Elle se déroule le 15 mai 1464 près de Hexham, dans le Northumberland, et se solde par une victoire de l'armée yorkiste, conduite par John Neville, sur les hommes de Henri Beaufort, qui est capturé et exécuté. Cette bataille marque la fin de la résistance des Lancastre dans le nord ; l'autorité d'Édouard IV ne sera plus sérieusement menacée avant le revirement de Richard Neville en 1469.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Hexham"
+      },
+      "pt": {
+        "title": "Batalha de Hexham",
+        "extract": "A batalha de Hexhan foi um confronto ocorrido a 15 de maio de 1464 perto de Hexham, Northumberland, em Inglaterra, entre a Casa de Iorque e a Casa de Lencastre. O exército Iorquista, liderado por João Neville, vence a batalha sobre o exército dos Lencastre, liderado por Henrique Beaufort, 2.º Duque de Somerset. Este último é capturado e executado. A batalha marca o fim da resistência dos Lencastre no norte; a autoridade de Eduardo IV não seria mais seriamente ameaçada até 1469, quando Ricardo Neville se muda para o lado adversário.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Hexham"
+      }
+    }
+  },
+  "Battle of Nibley Green": {
+    "pages": {
+      "en": {
+        "title": "Battle of Nibley Green",
+        "extract": "The Battle of Nibley Green was fought near North Nibley in Gloucestershire on 20 March 1470, between the troops of Thomas Talbot, 2nd Viscount Lisle and William Berkeley, 2nd Baron Berkeley. It is notable for being the last battle fought in England entirely between the private armies of feudal magnates.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Nibley_Green"
+      },
+      "ar": {
+        "title": "معركة نيبلي الخضراء",
+        "extract": "معركة نيبلي الخضراء هي معركة وقعت في 20 مارس من عام 1469 .وقعت هذه المعركة بين الفيكونت توماس نالبوت ومركيز ويليام دي بيركلي.ومن الجدير بالذكر أن هذه المعركة هي آخر المعارك التي تم خوضها بين رجال الإقطاعيات وبين الجيوش الخاصة في إنجلترا.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D9%86%D9%8A%D8%A8%D9%84%D9%8A_%D8%A7%D9%84%D8%AE%D8%B6%D8%B1%D8%A7%D8%A1"
+      }
+    }
+  },
+  "Battle of Edgcote": {
+    "pages": {
+      "en": {
+        "title": "Battle of Edgcote",
+        "extract": "The Battle of Edgcote took place on 24 July 1469, during the Wars of the Roses. It was fought between a royal army, commanded by the earls of Pembroke and Devon, and a rebel force led by supporters of the Earl of Warwick.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Edgcote"
+      },
+      "es": {
+        "title": "Batalla de Edgecote Moor",
+        "extract": "La batalla de Edgecote Moor fue una batalla librada el 25 de julio de 1469 en el contexto de la guerra de las Dos Rosas.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Edgecote_Moor"
+      },
+      "ar": {
+        "title": "معركة مستنقع إدجكوت",
+        "extract": "معركة مستنقع إدجكوت هي معركة من سلسلة معارك حرب الوردتين، حدثت في 26 يوليو من عام 1469م وانتهت بفوز اللانكاسترين. فيها واجه ريتشارد نيفيل، إيرل وارويك السادس عشر قوات إدوارد الرابع وتعتبر هذه المعركة هي نقطة تحول هامة في مسار حرب الوردتين.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D9%85%D8%B3%D8%AA%D9%86%D9%82%D8%B9_%D8%A5%D8%AF%D8%AC%D9%83%D9%88%D8%AA"
+      },
+      "fr": {
+        "title": "Bataille d'Edgecote Moor",
+        "extract": "[Cette entrée est basée sur des informations obsolètes. Veuillez consulter l'entrée en anglais pour connaître le nom et la date corrects: « Bataille d'Edgcote » et le 24 juillet 1469.]",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_d'Edgecote_Moor"
+      },
+      "pt": {
+        "title": "Batalha de Edgecote Moor",
+        "extract": "A Batalha de Edgcote Moor ocorreu em 24 de julho de 1469, durante a Guerra das Rosas. Foi travada entre um exército real, comandado por William Herbert, 1º Conde de Pembroke e por Humphrey Stafford, 1.º Conde de Devon, e uma força rebelde liderada por partidários do conde de Warwick.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Edgecote_Moor"
+      }
+    }
+  },
+  "Battle of Losecoat Field": {
+    "pages": {
+      "en": {
+        "title": "Battle of Losecoat Field",
+        "extract": "The Battle of Losecoat Field was fought on 12 March 1470, during the Wars of the Roses. Spellings of \"Losecoat\" vary, with \"Losecote\" and \"Loose-coat\" also seen.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Losecoat_Field"
+      },
+      "es": {
+        "title": "Batalla de Empingham",
+        "extract": "La batalla de Empingham ocurrió el 12 de marzo de 1470 durante la guerra de las Dos Rosas.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Empingham"
+      },
+      "ar": {
+        "title": "معركة حقل لوسكوت",
+        "extract": "معركة حقل لوسكوت هي معركة من سلسلة معارك حرب الوردتين حدثت في 12 مارس 1470 وانتهت بفوز جيش أسرة يورك بقيادة إدوارد الرابع وفي هذه المعركة حصل انشقاق بين إدوارد الرابع وشقيقه جورج بلانتيجينيه وريتشارد نيفيل.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%AD%D9%82%D9%84_%D9%84%D9%88%D8%B3%D9%83%D9%88%D8%AA"
+      },
+      "fr": {
+        "title": "Bataille de Losecoat Field",
+        "extract": "La bataille de Losecoat Field fut livrée le 12 mars 1470 pendant la guerre des Deux-Roses. Elle opposa les forces du baron Robert Welles, soutenant la rébellion de Richard Neville, à celles du roi Édouard IV, et se termina par la victoire de l'armée royale.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Losecoat_Field"
+      }
+    }
+  },
+  "Battle of Barnet": {
+    "pages": {
+      "ko": {
+        "title": "바닛 전투",
+        "extract": "바넷 전투(영어: Battle of Barnet)는 1471년 4월 14일 당시 런던 북쪽의 작은 하트퍼드셔 마을인 바넷(Barnet) 근처에서 벌어진 15세기 잉글랜드의 왕위 계승 전쟁인 장미 전쟁에서 결정적인 교전이었다. 이 군사작전은 차후의 튜크스베리 전투와 함께 에드워드 4세의 왕좌를 지켜내었다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%B0%94%EB%8B%9B_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Barnet",
+        "extract": "The Battle of Barnet was a decisive Yorkist victory in the Wars of the Roses, a dynastic conflict of 15th-century England. The military action, along with the subsequent Battle of Tewkesbury, secured the throne for Edward IV.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Barnet"
+      },
+      "zh": {
+        "title": "巴内特战役",
+        "extract": "巴内特战役 是15世纪英格兰玫瑰战争的一场决定性战役，以兰开斯特王朝一方战败告终。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%B7%B4%E5%86%85%E7%89%B9%E6%88%98%E5%BD%B9"
+      },
+      "es": {
+        "title": "Batalla de Barnet",
+        "extract": "La batalla de Barnet fue una batalla decisiva en la guerra de las Dos Rosas, un conflicto dinástico del siglo XV en Inglaterra. La acción militar, junto con la posterior batalla de Tewkesbury, aseguró el trono de Eduardo IV de Inglaterra. El 14 de abril de 1471 cerca de Barnet, en ese entonces una pequeña ciudad al norte de Londres, Eduardo IV dirigió a la Casa de York en su lucha por el trono contra Enrique VI de Inglaterra de la Casa de Lancaster. Al frente del ejército de Lancaster iba Ricardo Neville, conde de Warwick, que jugó un papel crucial en el destino de cada rey. Los historiadores consideran la batalla como uno de los enfrentamientos más importantes de la Guerra de las Rosas, ya que se produjo un giro decisivo en la suerte de las dos casas. La victoria de Eduardo IV fue seguida por catorce años de gobierno de los York sobre Inglaterra.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Barnet"
+      },
+      "ar": {
+        "title": "معركة بارنيت",
+        "extract": "معركة بارنيت كانت من المعارك الحاسمة في حرب الوردتين والتي أنتصر فيها إدوارد الرابع ومقتل قائد جيش اللانكاستريين ريتشارد نيفيل، إيرل وارويك السادس عشر في أثناء المعركة في 14 أبريل من عام 1471م. وقعت هذه المعركة في زمن العصور الوسطى لإنجلترا من القرن الخامس عشر والتي أتت متلاحقة مع معركة توكسبوري من أجل ضمان العرش لإدوارد الرابع.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%A8%D8%A7%D8%B1%D9%86%D9%8A%D8%AA"
+      },
+      "fr": {
+        "title": "Bataille de Barnet",
+        "extract": "La bataille de Barnet, qui a lieu le 14 avril 1471, est un engagement décisif de la guerre des Deux-Roses. Elle se déroule près de la ville de Barnet, à 19 km au nord de Londres en Angleterre. La victoire d'Édouard IV d'Angleterre sur l'armée des Lancastres commandée par Richard Neville, suivie par une nouvelle victoire d'Édouard IV à Tewkesbury, assure à celui-ci le trône d'Angleterre ainsi que la prédominance de la maison d'York pendant quatorze ans.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Barnet"
+      },
+      "pt": {
+        "title": "Batalha de Barnet",
+        "extract": "A batalha de Barnet foi decisiva na guerra das Rosas. Teve lugar perto da cidade de Barnet, 15 km a norte de Londres, Inglaterra.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Barnet"
+      }
+    }
+  },
+  "Battle of Tewkesbury": {
+    "pages": {
+      "en": {
+        "title": "Battle of Tewkesbury",
+        "extract": "The Battle of Tewkesbury was one of the most decisive battles of the Wars of the Roses in England. \nKing Edward IV and his forces loyal to the House of York completely defeated those of the rival House of Lancaster. The Lancastrian heir to the throne, Edward of Westminster, Prince of Wales, and many prominent Lancastrian nobles were killed during the battle or executed after it. The Lancastrian king, Henry VI, who was a prisoner in the Tower of London, died shortly after the battle, likely murdered, although the official cause was stated as being of 'great melancholy'. Tewkesbury restored political stability to England until the death of Edward IV in 1483.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Tewkesbury"
+      },
+      "zh": {
+        "title": "蒂克斯伯里战役",
+        "extract": "蒂克斯伯里战役是英格兰玫瑰战争期间的1471年5月4日发生在英格兰格洛斯特郡的蒂克斯伯里的一场战役。兰开斯特军由亨利六世的王后安茹的玛格丽特和威尔士亲王威斯敏斯特的爱德华及其盟友索默塞特公爵埃德蒙·博福特等率领，约克军由爱德华四世和其弟格洛斯特公爵理查（后来的理查三世）率领。双方军队人数和阵亡人数不明。",
+        "url": "https://zh.wikipedia.org/wiki/%E8%92%82%E5%85%8B%E6%96%AF%E4%BC%AF%E9%87%8C%E6%88%98%E5%BD%B9"
+      },
+      "es": {
+        "title": "Batalla de Tewkesbury",
+        "extract": "La batalla de Tewkesbury en Gloucestershire, la cual tuvo lugar el 4 de mayo de 1471, completaba una fase de la llamada guerra de las Dos Rosas. Supuso el fin, de forma temporal, a las pretensiones de la Casa de Lancaster de ascender al trono de Inglaterra. A esta batalla le siguieron catorce años de paz, hasta la llegada de Enrique Tudor, que zanjaría el problema entre las dos dinastías definitivamente.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Tewkesbury"
+      },
+      "ar": {
+        "title": "معركة توكسبوري",
+        "extract": "معركة توكسبوري هي واحدة من إحدى المعارك الحاسمة في حرب الوردتين، وقعت في 4 مايو من عام 1471م. هُزمت فيها القوات الموالية لأسرة لانكاستر من قبل جيش أسرة يورك بقيادة إدوارد الرابع، في هذه المعركة قُتل فيها ولي عرش مملكة إنجلترا من أسرة لانكاستر وهو إدوارد وستمنستر مع العديد من النبلاء البارزين الذين قُتلوا في أثناء المعركة أو بعد يومين من فرارهم من أرض المعركة.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%AA%D9%88%D9%83%D8%B3%D8%A8%D9%88%D8%B1%D9%8A"
+      },
+      "fr": {
+        "title": "Bataille de Tewkesbury",
+        "extract": "La bataille de Tewkesbury a lieu le 4 mai 1471 au confluent de l'Avon et de la Severn, dans le Gloucestershire. Elle marque la fin d'une phase de la guerre des Deux-Roses et oppose une armée royale légitime, comprenant 6 000 hommes de guerre, commandée par Marguerite d'Anjou, épouse d'Henri VI, à celle, inférieure en nombre, de l'ancien roi Édouard IV d'Angleterre, chef de la maison d'York à la rose blanche, récemment déposé par la maison de Lancastre à la rose rouge.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Tewkesbury"
+      }
+    }
+  },
+  "English invasion of Scotland (1482)": {
+    "pages": {
+      "en": {
+        "title": "English invasion of Scotland (1482)",
+        "extract": "In July 1482, an English army invaded Scotland during the Anglo-Scottish Wars. The town of Berwick-upon-Tweed and its castle were captured and the English army briefly occupied Edinburgh. These events followed the signing of the Treaty of Fotheringhay, 11 June 1482, in which Alexander Stewart, Duke of Albany, the brother of James III of Scotland declared himself King of Scotland and swore loyalty to Edward IV of England. The follow-up invasion of Scotland under the command of Edward's brother, Richard, Duke of Gloucester failed to install Albany on the throne, but Berwick has remained English ever since the castle surrendered on 24 August 1482. The English army left Edinburgh with a promise for the repayment of the dowry paid for the marriage of Princess Cecily of England to the Scottish Crown Prince.",
+        "url": "https://en.wikipedia.org/wiki/English_invasion_of_Scotland_(1482)"
+      },
+      "ar": {
+        "title": "الغزو الإنجليزي لاسكتلندا (1482)",
+        "extract": "غزا الجيش الإنجليزي اسكتلندا في يوليو 1482 خلال الحروب الإنجليزية الاسكتلندية. جرى الاستيلاء على بلدة بيريك وقلعتها واحتل الجيش الإنجليزي إدنبرة لفترة وجيزة. جاءت هذه الأحداث في أعقاب توقيع معاهدة فوذرنغي يوم 11 يونيو 1482، والتي أعلن فيها ألكسندر ستيوارت دوق ألباني وشقيق جيمس الثالث ملك اسكتلندا، نفسه ملكًا على اسكتلندا وأقسم بالولاء لإدوارد الرابع ملك إنجلترا. فشل الغزو اللاحق لاسكتلندا تحت قيادة شقيق إدوارد، ريتشارد دوق غلوستر، في تنصيب ألباني على العرش، لكن بيريك ظلت إنجليزية منذ تسليم القلعة في 24 أغسطس. غادر الجيش الإنجليزي إدنبرة مع وعد بسداد المهر المدفوع لزواج سيسيليا أميرة إنجلترا من الأمير الاسكتلندي.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%BA%D8%B2%D9%88_%D8%A7%D9%84%D8%A5%D9%86%D8%AC%D9%84%D9%8A%D8%B2%D9%8A_%D9%84%D8%A7%D8%B3%D9%83%D8%AA%D9%84%D9%86%D8%AF%D8%A7_(1482)"
+      },
+      "fr": {
+        "title": "Siège de Berwick (1482)",
+        "extract": "La ville écossaise de Berwick-upon-Tweed et son château sont pris par les Anglais à l'été 1482. Par le traité de Fotheringhay, signé le 11 juin 1482, Alexandre Stuart, duc d'Albany, le frère du roi Jacques III d'Écosse, s'autoproclame roi d'Écosse et jure fidélité à Édouard IV d'Angleterre. L'invasion anglaise de l'Écosse qui suit échoue à placer Albany sur le trône mais la ville frontalière de Berwick est prise définitivement le 24 août 1482.",
+        "url": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Berwick_(1482)"
+      }
+    }
+  },
+  "Battle of Bosworth Field": {
+    "pages": {
+      "ko": {
+        "title": "보즈워스 전투",
+        "extract": "보즈워스 전투 혹은 보즈워스 필드 전투(Battle of Bosworth Field)는 15세기 잉글랜드의 장미 전쟁동안 벌어진 중요한 전투이다. 이 전투는 1485년 8월 22일 요크 왕가의 국왕 리처드 3세와 그와 대항해 왕위를 다툰 랭커스터 가의 리치먼드 백작 헨리 튜더(훗날 잉글랜드 왕 헨리 7세)사이에서 벌어졌다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%B3%B4%EC%A6%88%EC%9B%8C%EC%8A%A4_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Bosworth Field",
+        "extract": "The Battle of Bosworth or Bosworth Field was the last significant battle of the Wars of the Roses, the civil war between the houses of Lancaster and York that extended across England and Wales in the latter half of the 15th century. Fought on 22 August 1485, the battle was won by an alliance of Lancastrians and disaffected Yorkists. Their leader Henry Tudor, Earl of Richmond, became the first Welsh monarch of England from the House of Tudor by his victory and subsequent marriage to the de facto Yorkist heiress, Elizabeth of York. His opponent Richard III, the last king of the House of York, was killed during the battle, the last English monarch to fall in battle. Historians consider Bosworth Field to mark the end of the Plantagenet dynasty, making it one of the defining moments of English history.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Bosworth_Field"
+      },
+      "zh": {
+        "title": "博斯沃思原野戰役",
+        "extract": "博斯沃思原野之战，是15世纪后半叶兰卡斯特王朝与约克王朝间的内战，也是玫瑰战争中倒数第二场会战，战火蔓延至全英格兰。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%8D%9A%E6%96%AF%E6%B2%83%E6%80%9D%E5%8E%9F%E9%87%8E%E6%88%B0%E5%BD%B9"
+      },
+      "es": {
+        "title": "Batalla de Bosworth",
+        "extract": "La batalla de Bosworth fue la batalla decisiva de la larga disputa por el trono de Inglaterra entre las casas de York y de Lancaster conocida como la guerra de las Dos Rosas. Tuvo lugar el 22 de agosto de 1485 en la rural Leicestershire entre Ricardo III, de la Casa de York, el último rey de la dinastía Plantagenet, y el aspirante de la Casa de Lancaster a la corona, Enrique Tudor, más tarde Enrique VII.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Bosworth"
+      },
+      "ar": {
+        "title": "معركة بوسوورث",
+        "extract": "كانت معركة بوسوورث  المعركة قبل الأخيرة في حرب الوردتين التي اندلعت في جميع أنحاء إنجلترا في النصف الأخير من القرن الخامس عشر في إطار الصراع على عرش إنجلترا. دارت المعركة في 22 أغسطس 1485، وانتهت بانتصار أسرة لانكستر بقيادة هنري تيودور الذي أصبح أول ملوك أسرة تيودور. وقد قتل في المعركة ريتشارد الثالث آخر ملوك أسرة يورك.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%A8%D9%88%D8%B3%D9%88%D9%88%D8%B1%D8%AB"
+      },
+      "fr": {
+        "title": "Bataille de Bosworth",
+        "extract": "La bataille de Bosworth, ou bataille de Bosworth Field, est l'avant-dernier affrontement de la guerre des Deux-Roses, guerre civile anglaise qui oppose les maisons de Lancastre et d'York durant la seconde moitié du XVe siècle. Cette bataille a lieu le 22 août 1485 et voit la victoire du parti Lancastre, dont le chef, Henri Tudor, devient par la suite le premier roi de la maison Tudor. Son adversaire Richard III, dernier roi de la maison d'York, est tué durant l'affrontement. Les historiens considèrent la bataille de Bosworth comme marquant la fin de la dynastie Plantagenêt, ce qui en fait un moment-clef de l'histoire de l'Angleterre.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Bosworth"
+      },
+      "pt": {
+        "title": "Batalha de Bosworth Field",
+        "extract": "A Batalha de Bosworth Field foi a última e mais significativa batalha da Guerra das Rosas, a guerra civil entre a Casa de Lencastre e a Casa de Iorque, que se estendeu por toda a Inglaterra no final da segunda metade do século XV.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Bosworth_Field"
+      }
+    }
+  },
+  "Battle of Stoke Field": {
+    "pages": {
+      "en": {
+        "title": "Battle of Stoke Field",
+        "extract": "The Battle of Stoke Field, which took place at East Stoke, Nottinghamshire, on 16 June 1487, may be considered the last battle of the Wars of the Roses, since it was the last major engagement between contenders for the throne whose claims derived from descent from the houses of Lancaster and York. The Battle of Bosworth Field, two years previously, had established Henry VII on the throne, ending the last period of Yorkist rule and initiating that of the Tudors. The Battle of Stoke Field was the decisive engagement in an attempt by leading Ricardian Yorkists to unseat the King in favour of the pretender Lambert Simnel.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Stoke_Field"
+      },
+      "es": {
+        "title": "Batalla de Stoke Field",
+        "extract": "La batalla de Stoke Field el 16 de junio de 1487 puede considerarse la última batalla de las Guerras de las Dos Rosas, ya que fue la última confrontación importante entre los contendientes por el trono cuyas reclamaciones derivaron del descenso de las casas de Lancaster y York, respectivamente. La batalla de Bosworth Field, dos años antes, había establecido al rey Enrique VII de Inglaterra en el trono, poniendo fin al último período del gobierno de York y al inicio de la de los Tudors. La Batalla de Stoke Field fue la confrontación decisiva en un intento de los principales Yorkistas para derribarlo en favor del pretendiente Lambert Simnel.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Stoke_Field"
+      },
+      "ar": {
+        "title": "معركة ستوكفيلد",
+        "extract": "معركة ستوكفيلد هي معركة من سلسلة معارك حرب الوردتين بين جيش أسرة لانكاستر و جيش أسرة يورك، حدثت في 16 يونيو من عام 1487م وفيها انتصر اللانكاسترين بقيادة هنري السابع. تعتبر هذه المعركة هي نهاية هذه السلسلة من المعارك الدموية.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%B3%D8%AA%D9%88%D9%83%D9%81%D9%8A%D9%84%D8%AF"
+      },
+      "fr": {
+        "title": "Bataille de Stoke",
+        "extract": "La bataille de Stoke ou bataille de Stoke Field, a lieu le 16 juin 1487. Elle oppose l'armée du roi d'Angleterre Henri VII à des troupes rebelles menées par John de la Pole, comte de Lincoln, de sang royal, au nom d'un roi couronné à Dublin le 24 mai précédent, « Édouard VI ». Il s'agit selon la propagande Tudor de Lambert Simnel, sur lequel on sait peu de choses.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Stoke"
+      },
+      "pt": {
+        "title": "Batalha de Stoke Field",
+        "extract": "A Batalha de Stoke Field em 16 de junho de 1487 pode ser considerada a última batalha da Guerra das Rosas, uma vez que foi o último grande confronto entre candidatos ao trono cujas reivindicações derivavam da descendência das casas de Lencastre e Iorque, respectivamente. A Batalha de Bosworth Field, dois anos antes, havia estabelecido o rei Henrique VII. no trono, encerrando o governo iorquista e iniciando o dos Tudors. A Batalha de Stoke Field foi uma tentativa de destituí-lo em favor do pretendente Lambert Simnel.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Stoke_Field"
+      }
+    }
+  }
+}

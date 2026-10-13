@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Yom Kippur War
+region: middle-east
+when: 1973-10 ~ 1973-10
+unit: month
+borders-step: 1
+view: 34, 31.5, 5
+search: 29, 38, 27, 34.5
+min-links: 3
+side.a.ko: 이집트·시리아
+side.a.en: Egypt & Syria
+side.a.zh: 埃及与叙利亚
+side.a.es: Egipto y Siria
+side.a.hi: मिस्र और सीरिया
+side.a.ar: مصر وسوريا
+side.a.fr: Égypte et Syrie
+side.a.pt: Egito e Síria
+side.b.ko: 이스라엘
+side.b.en: Israel
+side.b.zh: 以色列
+side.b.es: Israel
+side.b.hi: इज़राइल
+side.b.ar: إسرائيل
+side.b.fr: Israël
+side.b.pt: Israel

@@ -1,0 +1,958 @@
+{
+  "War of 1812": {
+    "pages": {
+      "ko": {
+        "title": "미영 전쟁",
+        "extract": "미영 전쟁(美英戰爭) 또는 1812년 전쟁(영어: War of 1812)은 1812년 6월부터 1815년 2월까지 미국과 영국, 그리고 양국의 동맹국 사이에서 벌어진 전쟁이다. 영국의 역사학자들은 이 전쟁을 나폴레옹 전쟁의 일부로 간주하지만, 미국과 캐나다에서는 서로 구별하고 있으며, 나폴레옹 전쟁과 별개로 벌어진 전쟁으로 간주한다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%AF%B8%EC%98%81_%EC%A0%84%EC%9F%81"
+      },
+      "en": {
+        "title": "War of 1812",
+        "extract": "The War of 1812 was a conflict initiated by the United States against the United Kingdom and its allies fought mainly in North America and at sea during the wider Napoleonic Wars. The United States declared war on Britain on 18 June 1812. Although peace terms were agreed upon in the December 1814 Treaty of Ghent, the war did not officially end until the peace treaty was ratified by the United States Senate on 17 February 1815.",
+        "url": "https://en.wikipedia.org/wiki/War_of_1812"
+      },
+      "zh": {
+        "title": "1812年战争",
+        "extract": "1812年战争，又称第二次美国独立战争 、第二次美国革命 、美英战争，是美国方同盟与英国方同盟之间发生于1812年至1815年的战争。名义上是美国正式向英国宣战，然而英国军队有50%兵员是加拿大的民兵；同时，美洲原住民部落由于种种原因也卷入了战争。",
+        "url": "https://zh.wikipedia.org/wiki/1812%E5%B9%B4%E6%88%98%E4%BA%89"
+      },
+      "es": {
+        "title": "Guerra anglo-estadounidense de 1812",
+        "extract": "La guerra anglo-estadounidense de 1812, también conocida como la guerra anglo-estadounidense o simplemente guerra de 1812 enfrentó a los Estados Unidos contra el Reino Unido y sus colonias canadienses. Se desarrolló entre 1812 y 1815, e incluyó además a los aborígenes nativos de varias tribus, en el contexto de la supervivencia indígena ante la conquista del territorio por uno u otro de los demás bandos. Los enfrentamientos se dieron por tierra y por mar. La guerra tuvo lugar en momentos en que el Reino Unido de Gran Bretaña e Irlanda soportaban un gran esfuerzo de guerra contra la Francia Napoleónica. Si bien se acordaron términos de paz en el Tratado de Gante de diciembre de 1814, la guerra no terminó oficialmente hasta que el Congreso de Estados Unidos ratificó el tratado de paz el 17 de febrero de 1815.",
+        "url": "https://es.wikipedia.org/wiki/Guerra_anglo-estadounidense_de_1812"
+      },
+      "hi": {
+        "title": "उत्तर अमेरिका में 1812 का युद्ध",
+        "extract": "सन् 1812 का युद्ध संयुक्त राज्य अमेरिका और ब्रिटेन के बीच सन् 1812 से सन् 1815 तक लड़ा गया। यह युद्ध मुख्य रूप से ब्रिटेन और फ्रांस के बीच चल रहे नेपोलियन युद्धों के दौरान आर्थिक संघर्ष और समुद्री विवादों के कारण हुआ। ब्रिटेन द्वारा अमेरिकी जहाजों को रोकने और अमेरिकी नाविकों को जबरन अपने जहाजों में शामिल करने की नीति (इंप्रेसमेंट) ने अमेरिका में गुस्सा भड़काया। इस युद्ध का उद्देश्य ब्रिटिश प्रभाव को समाप्त करना, कनाडा पर अधिकार करना और अमेरिकी समुद्री स्वतंत्रता की रक्षा करना था।",
+        "url": "https://hi.wikipedia.org/wiki/%E0%A4%89%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A4%B0_%E0%A4%85%E0%A4%AE%E0%A5%87%E0%A4%B0%E0%A4%BF%E0%A4%95%E0%A4%BE_%E0%A4%AE%E0%A5%87%E0%A4%82_1812_%E0%A4%95%E0%A4%BE_%E0%A4%AF%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A7"
+      },
+      "ar": {
+        "title": "حرب 1812",
+        "extract": "حرب 1812 ، كانت بين الولايات المتحدة الأمريكية وبريطانيا العظمى ومستعمراتها في أمريكا الشمالية بالإضافة إلى الحلفاء من الهنود الحمر. كانت حربًا غريبة يمكن تسميتها أيضًا بحرب الاتصال. فقبل يومين من إعلان الحرب كانت الحكومة البريطانية قد صرّحت بأنها ستلغي القوانين التي كانت السبب الرئيسي في القتال. فلو كان هنالك اتصال برقي بين أمريكا وأوروبا، لكان من الممكن جدًا تجنب الحرب.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%AD%D8%B1%D8%A8_1812"
+      },
+      "fr": {
+        "title": "Guerre anglo-américaine de 1812",
+        "extract": "La guerre anglo-américaine de 1812 oppose les États-Unis au Royaume-Uni, avec ses deux colonies du Bas-Canada et du Haut-Canada, entre juin 1812 et février 1815. Cette guerre est aussi connue sous les noms de guerre de 1812, de seconde guerre d’indépendance, ou plus rarement de guerre américano-britannique ou encore de guerre canado-américaine car il s'agit d'une invasion du Canada par les États-Unis. L’appellation « guerre de 1812 » peut parfois conduire à une confusion, l'invasion de la Russie par Napoléon Ier ayant eu lieu la même année.",
+        "url": "https://fr.wikipedia.org/wiki/Guerre_anglo-am%C3%A9ricaine_de_1812"
+      },
+      "pt": {
+        "title": "Guerra Anglo-Americana de 1812",
+        "extract": "A Guerra de 1812, ou a Guerra Anglo-Americana, foi a guerra entre os Estados Unidos e o Reino Unido e suas colônias, incluindo o Canadá Superior (Ontário), o Canadá Inferior (Quebec), Nova Escócia, Bermuda e a ilha da Terra Nova.",
+        "url": "https://pt.wikipedia.org/wiki/Guerra_Anglo-Americana_de_1812"
+      }
+    }
+  },
+  "Fort Harrison, Indiana": {
+    "pages": {
+      "en": {
+        "title": "Fort Harrison, Indiana",
+        "extract": "Fort Harrison was a War of 1812 era stockade constructed in October 1811 on high ground overlooking the Wabash River on a portion of what is today the modern city of Terre Haute, Indiana, by forces under command of General William Henry Harrison. It was a staging point for Harrison to encamp his forces just prior to the Battle of Tippecanoe a month later. The fort was the site of a famous battle in the War of 1812, the siege of Fort Harrison, in September 1812 that was the first significant victory for the US in the war. The fort was abandoned in 1818 as the frontier moved westward.",
+        "url": "https://en.wikipedia.org/wiki/Fort_Harrison%2C_Indiana"
+      },
+      "zh": {
+        "title": "哈里森堡壘戰役",
+        "extract": "哈里森堡垒战役 是为一个美国于1812年战争中的决定性胜利，在这战役里，15个美国人独自对抗600名印地安人。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%93%88%E9%87%8C%E6%A3%AE%E5%A0%A1%E5%A3%98%E6%88%B0%E5%BD%B9"
+      },
+      "fr": {
+        "title": "Siège de Fort Harrison",
+        "extract": "Le siège de Fort Harrison est un épisode de la guerre anglo-américaine de 1812 qui eut lieu du 4 au 15 septembre 1812 dans le territoire de l'Indiana, près de la ville actuelle de Terre Haute.",
+        "url": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Fort_Harrison"
+      }
+    }
+  },
+  "Siege of Fort Mackinac": {
+    "pages": {
+      "en": {
+        "title": "Siege of Fort Mackinac",
+        "extract": "The Capture of Fort Mackinac was one of the first engagements of the War of 1812. A British and Native American force captured the island soon after the outbreak of war between Britain and the United States. Encouraged by the easy British victory, more Native Americans rallied to their support. Their cooperation was an important factor in several British victories during the remainder of the war.",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Fort_Mackinac"
+      },
+      "fr": {
+        "title": "Bataille de l'île Mackinac (1812)",
+        "extract": "La première bataille de l'île Mackinac est la première bataille de la Guerre de 1812 : elle eut lieu le 17 juillet 1812 sur l'île Mackinac qui est aujourd'hui située dans l'État du Michigan aux États-Unis.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_l'%C3%AEle_Mackinac_(1812)"
+      }
+    }
+  },
+  "Battle of Fort Dearborn": {
+    "pages": {
+      "en": {
+        "title": "Battle of Fort Dearborn",
+        "extract": "The Battle of Fort Dearborn was an engagement between United States troops, militia and Miami native auxiliaries, against Potawatomi Native Americans that took place on August 15, 1812, near Fort Dearborn, then part of Illinois Territory in the Chicago area. The battle, part of the War of 1812, followed the evacuation of the fort ordered by the commander of the United States Army of the Northwest, William Hull. The battle lasted about 15 minutes and resulted in a complete victory for the Potawatomi. After the battle, Fort Dearborn was burned down. Some of the soldiers and settlers who had been taken captive were later ransomed.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Fort_Dearborn"
+      },
+      "es": {
+        "title": "Batalla de Fort Dearborn",
+        "extract": "La Batalla de Fort Dearborn fue una confrontación militar entre soldados de los Estados Unidos y los nativos Potawatomi que tuvo lugar el 15 de agosto de 1812 cerca de Fort Bearborn, en lo que ahora es Chicago, Illinois, junto al Río Chicago. La batalla tuvo lugar durante la Guerra de 1812, y tras la misma se produjo la evacuación del fuerte ordenada por el comandante del Ejército de Estados Unidos del Noroeste, William Hull. La batalla duró solo aproximadamente 15 minutos y finalizó con una victoria completa de los Potawatomi. Después de la batalla, Fort Dearborn fue incendiado. Algunos de los soldados y colonos que habían sido tomados prisioneros fueron rescatados.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Fort_Dearborn"
+      },
+      "fr": {
+        "title": "Bataille de Fort Dearborn",
+        "extract": "La bataille de Fort Dearborn est un affrontement entre les États-Unis et des Amérindiens Potawatomis qui se déroula le 15 août 1812, près de Fort Dearborn sur le site de l'actuelle ville de Chicago, dans le contexte de la guerre anglo-américaine de 1812.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Fort_Dearborn"
+      }
+    }
+  },
+  "Battle of Brownstown": {
+    "pages": {
+      "en": {
+        "title": "Battle of Brownstown",
+        "extract": "The Battle of Brownstown was an early skirmish in the War of 1812. Although the United States military outnumbered the forces of Tecumseh's Confederacy 8 to 1, they lost the engagement and suffered substantial losses while Tecumseh's forces were almost completely untouched.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Brownstown"
+      },
+      "fr": {
+        "title": "Bataille de Brownstown",
+        "extract": "La bataille de Brownstown est l'une des premières escarmouches de la guerre anglo-américaine de 1812. Bien que les forces des États-Unis étaient supérieures en nombre par rapport aux britanniques à hauteur de 8 contre 1, ils ont perdu la bataille et subi des pertes substantielles alors que l'ennemi demeurait presque intouchable.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Brownstown"
+      }
+    }
+  },
+  "Battle of Maguaga": {
+    "pages": {
+      "en": {
+        "title": "Battle of Maguaga",
+        "extract": "The Battle of Maguaga was a small battle between British troops, Canadian militia and Tecumseh's natives and a larger force of American troops near the Wyandot village of Maguaga in what is now the city of Riverview, Michigan.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Maguaga"
+      },
+      "fr": {
+        "title": "Bataille de Maguaga",
+        "extract": "La bataille de Maguaga (également connue comme la bataille de Monguagon ou la bataille d'Oakwoods est une petite bataille entre les troupes britanniques, les milices canadiennes, les Amérindiens de Tecumseh et une large force américaine près du village Wendat de Maguaga dans ce qui est maintenant la ville de Trenton.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Maguaga"
+      }
+    }
+  },
+  "Siege of Detroit": {
+    "pages": {
+      "en": {
+        "title": "Siege of Detroit",
+        "extract": "The siege of Detroit, also known as the surrender of Detroit or the Battle of Fort Detroit, was an early engagement in the War of 1812. A British force under Major General Isaac Brock in cooperation with Indigenous warriors under Shawnee leader Tecumseh used bluff and deception to intimidate American Brigadier General William Hull into surrendering the fort and town of Detroit, the Michigan Territory, and his army which actually outnumbered the victorious British and Indigenous warriors.",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Detroit"
+      },
+      "zh": {
+        "title": "底特律圍城戰",
+        "extract": "底特律围城战 亦称底特律的投降或底特律堡垒战役，是为美国人在1812年战争的一个相当重大的损失。美国的战略是进军加拿大，但此围城战使美国失去了一整支军队，只好停止入侵加拿大的计划。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%BA%95%E7%89%B9%E5%BE%8B%E5%9C%8D%E5%9F%8E%E6%88%B0"
+      },
+      "es": {
+        "title": "Sitio de Detroit",
+        "extract": "El sitio de Detroit, también conocido como la rendición de Detroit o la batalla de Fort Detroit, fue un enfrentamiento en los inicios de la guerra anglo-estadounidense de 1812. Una fuerza británica al mando del mayor general Isaac Brock con aliados nativos americanos bajo el mando de Tecumseh derrotó a la brigada estadounidense de William Hull y se tomó el fuerte y la ciudad de Detroit, la más importante de Míchigan.",
+        "url": "https://es.wikipedia.org/wiki/Sitio_de_Detroit"
+      },
+      "fr": {
+        "title": "Bataille de Détroit",
+        "extract": "La bataille de Détroit, aussi connue comme la reddition de Détroit, est une bataille de la guerre anglo-américaine de 1812 entre les Britanniques et leurs alliés Amérindiens contre les Américains. Les Britanniques étaient sous le commandement du major-général Isaac Brock et les Amérindiens sous celui de leur chef Shawnee Tecumseh. Ils utilisèrent la ruse et la stratégie pour une victoire contre des forces américaines supérieures en nombre. Les soldats américains étaient sous le commandement du brigadier-général William Hull. Le Fort Détroit, ainsi que la ville furent remis aux forces britanniques et canadiennes.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_D%C3%A9troit"
+      }
+    }
+  },
+  "Siege of Fort Wayne": {
+    "pages": {
+      "en": {
+        "title": "Siege of Fort Wayne",
+        "extract": "The siege of Fort Wayne took place from September 5–12, 1812, during the War of 1812. The stand-off occurred in the modern city of Fort Wayne, Indiana, between the U.S. military garrison at Fort Wayne and a combined force of Potawatomi and Miami forces. The conflict began when warriors under the Potawatomi chiefs Winamac and Five Medals killed two members of the U.S. garrison. Over the next several days, the Potawatomi burned the buildings and crops of the fort's adjacent village and launched assaults from outside the fort. Winamac withdrew on September 12 ahead of reinforcements led by Major General William Henry Harrison.",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Fort_Wayne"
+      },
+      "fr": {
+        "title": "Siège de Fort Wayne",
+        "extract": "Le siège de Fort Wayne est un épisode de la guerre anglo-américaine de 1812 qui eut lieu du 5 au 12 septembre 1812 dans le territoire de l'Indiana, près de la ville actuelle de Fort Wayne.",
+        "url": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Fort_Wayne"
+      }
+    }
+  },
+  "Battle of Queenston Heights": {
+    "pages": {
+      "ko": {
+        "title": "퀸스턴 하이츠 전투",
+        "extract": "퀸스턴 하이츠 전투(Battle of Queenston Heights)은 미영 전쟁 초기인 1812년 10월 13일에 현재의 온타리오 퀸스턴 근처에서 영국군과 미군과의 사이에 벌어진 전투이다. 영국군은 아이작 브록 소장과 로저 쉐프가 이끈 정규군과 캐나다 민병대, 모호크 족이었고, 미군은 스티븐 밴 렌셀러 소장이 이끈 뉴욕주 민병대를 주체로 한 군대였다. 미군이 겨울에 접어들기 전에 나이아가라 강을 넘어 캐나다 측에 근거지를 만들면서 시작된 이 전투는 미영 전쟁이 시점에서 가장 큰 전투가 되었다. 이 결전은 너무 서투르게 작전 계획을 짠 결과 수적 열세의 영국군을 이끌어 성과를 거둬 온 브록 장군이 전사한 이후 전쟁의 경과에 심각한 영향을 남겼다.",
+        "url": "https://ko.wikipedia.org/wiki/%ED%80%B8%EC%8A%A4%ED%84%B4_%ED%95%98%EC%9D%B4%EC%B8%A0_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Queenston Heights",
+        "extract": "The Battle of Queenston Heights was the first major engagement of the War of 1812. The battle took place on 13 October 1812, at Queenston in Upper Canada and was a decisive British victory. United States regulars and New York militia led by Major General Stephen Van Rensselaer crossed the Niagara River from Lewiston and engaged British regulars and Canadian militia led by Major General Isaac Brock. Major General Roger Hale Sheaffe took command of British forces after Brock was killed. Mohawk warriors led by John Norton supported the British during the battle.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Queenston_Heights"
+      },
+      "zh": {
+        "title": "昆士顿高地战役",
+        "extract": "昆士顿高地战役 发生于1812年10月13日，是1812年战争中英美双方的首次主要交手，英军在上加拿大的昆士顿取得了一场决定性胜利。",
+        "url": "https://zh.wikipedia.org/wiki/%E6%98%86%E5%A3%AB%E9%A1%BF%E9%AB%98%E5%9C%B0%E6%88%98%E5%BD%B9"
+      },
+      "es": {
+        "title": "Batalla de Queenston Heights",
+        "extract": "La Batalla de Queenston Heights fue una victoria británica durante la guerra anglo-estadounidense de 1812 la cual tomó lugar el 13 de octubre de 1812, cerca de Queenston (Niagara-on-the-Lake), Ontario. Fue peleada por las fuerzas del Imperio británico a cargo del Isaac Brock y Roger Sheaffe. La batalla, la más larga en la guerra en ese punto, fue peleada como resultado de un intento estadounidense de afianzarse del lado canadiense del río Niágara antes que la campaña finalice con el comienzo del invierno. Los británicos repelieron una mayor invasión estadounidense sin grandes pérdidas",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Queenston_Heights"
+      },
+      "ar": {
+        "title": "معركة مرتفعات كوينزتون",
+        "extract": "معركة مرتفعات كوينزتون هي أولى المعارك الكبرى في حرب 1812، بين قوات الولايات المتحدة الأمريكية من جهة، وقوات الإمبراطورية البريطانية من جهة أخرى، نشبت في 13 أكتوبر 1812، في مرتفعات كوينزتون، وانتهت بانتصار الجيش البريطاني.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D9%85%D8%B1%D8%AA%D9%81%D8%B9%D8%A7%D8%AA_%D9%83%D9%88%D9%8A%D9%86%D8%B2%D8%AA%D9%88%D9%86"
+      },
+      "fr": {
+        "title": "Bataille de Queenston Heights",
+        "extract": "La bataille de Queenston Heights fut la première bataille importante de la guerre anglo-américaine de 1812. Elle se déroula le 13 octobre 1812 à Queenston (en) dans le Haut Canada, non loin de la frontière. Il s'agissait de l'affrontement le plus important en termes de troupes engagées depuis le début de cette guerre et fut une victoire décisive britannique.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Queenston_Heights"
+      },
+      "pt": {
+        "title": "Batalha de Queenston Heights",
+        "extract": "A Batalha de Queenston Heights foi a primeira grande batalha da Guerra de 1812. Resultando em uma vitória britânica, ocorreu em 13 de outubro de 1812 perto de Queenston, Canadá Superior.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Queenston_Heights"
+      }
+    }
+  },
+  "Battle of Lacolle Mills (1812)": {
+    "pages": {
+      "en": {
+        "title": "Battle of Lacolle Mills (1812)",
+        "extract": "The Battle of Lacolle Mills was fought on November 20, 1812, during the War of 1812. In this relatively light skirmish, a very small garrison of Canadian militia, with the assistance of Kahnawake Mohawk warriors, defended the Lacolle Mills Blockhouse on the Montreal road bridge over the Lacolle River at the village of Lacolle, Quebec against a disorganized American attack.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Lacolle_Mills_(1812)"
+      },
+      "fr": {
+        "title": "Bataille du moulin de Lacolle (1812)",
+        "extract": "La bataille du moulin de Lacolle eut lieu le 20 novembre 1812, durant la guerre de 1812. Dans une bataille qui fut courte et brève, une petite garnison britannique et des volontaires canadiens, avec l'aide des Mohawks de Kanesatake défendirent le fortin militaire du village de Lacolle.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_du_moulin_de_Lacolle_(1812)"
+      }
+    }
+  },
+  "Battle of Frenchman's Creek": {
+    "pages": {
+      "en": {
+        "title": "Battle of Frenchman's Creek",
+        "extract": "The Battle of Frenchman's Creek took place during the War of 1812 between Great Britain and the United States in the early hours of November 28, 1812, in the Crown Colony of Upper Canada, near the Niagara River. The action was part of Brigadier General Alexander Smyth's attempt to renew the American offensive on the Niagara Frontier after the defeat at the Battle of Queenston Heights.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Frenchman's_Creek"
+      },
+      "fr": {
+        "title": "Bataille de Frenchman's Creek",
+        "extract": "La bataille de Frenchman's Creek est un engagement entre les forces armées des États-Unis et les forces armées britanniques lors de la guerre anglo-américaine de 1812 qui se déroule le 28 novembre 1812 dans la colonie de la Couronne du Haut-Canada à proximité de la rivière Niagara.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Frenchman's_Creek"
+      }
+    }
+  },
+  "Battle of Frenchtown": {
+    "pages": {
+      "en": {
+        "title": "Battle of Frenchtown",
+        "extract": "The Battle of Frenchtown, also known as the Battle of the River Raisin and the River Raisin Massacre, refers to two consecutive engagements during the War of 1812. Fighting between American forces commanded by Brigadier General James Winchester and British and allied forces under Colonel Henry Procter took place on January 18 and 22, 1813, at Frenchtown, Michigan Territory on the River Raisin roughly 35 miles (56 km) southwest of Detroit.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Frenchtown"
+      },
+      "fr": {
+        "title": "Bataille de Frenchtown",
+        "extract": "La bataille de Frenchtown ou bataille de la rivière Raisin, est une bataille de la guerre de 1812 qui se déroule à Frenchtown le long de la rivière Raisin du 18 au 23 janvier 1813. Elle se solde par une victoire britannique sur les troupes des États-Unis.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Frenchtown"
+      }
+    }
+  },
+  "Battle of Fort George": {
+    "pages": {
+      "en": {
+        "title": "Battle of Fort George",
+        "extract": "The Battle of Fort George was fought during the War of 1812, in which the Americans defeated a British force and captured Fort George in Upper Canada. The troops of the United States Army and vessels of the United States Navy cooperated in a very successful amphibious assault, although most of the opposing British force escaped encirclement.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Fort_George"
+      }
+    }
+  },
+  "Battle of Ogdensburg": {
+    "pages": {
+      "en": {
+        "title": "Battle of Ogdensburg",
+        "extract": "The Battle of Ogdensburg was a battle of the War of 1812. The British gained a victory over the Americans and captured the village of Ogdensburg, New York. Although small in scale, it removed the American threat to British supply lines for the remainder of the war.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Ogdensburg"
+      },
+      "fr": {
+        "title": "Bataille d'Ogdensburg",
+        "extract": "La bataille d'Ogdensburg a lieu le 22 février 1813, durant la guerre anglo-américaine de 1812. Les Britanniques remportent une victoire sur les Américains, et capturent le village d'Ogdensburg dans l'État de New York. Cette victoire enleva la menace américaine pour le restant de la guerre.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_d'Ogdensburg"
+      }
+    }
+  },
+  "Battle of York": {
+    "pages": {
+      "en": {
+        "title": "Battle of York",
+        "extract": "The Battle of York was a War of 1812 battle fought in York, Upper Canada on April 27, 1813. An American force, supported by a naval flotilla, landed on the western lakeshore and captured the provincial capital after defeating an outnumbered force of regulars, militia and Ojibwe natives under the command of Major General Roger Hale Sheaffe, the Lieutenant Governor of Upper Canada.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_York"
+      },
+      "ar": {
+        "title": "معركة يورك",
+        "extract": "معركة يورك أو Battle of York، إحدى معارك حرب 1812 في 27 أبريل 1813 في يورك بكندا العليا، قامت في هذه المعركة قوة أمريكية يدعمها أسطول بحري صغير قد رست على بحيرة أونتاريو من ناحية الغرب وقامت بهزيمة القوات البريطانية المتبقية في المكان ثم تلى ذلك أعمال نهب وتخريب قامت بها القوات الأمريكية.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D9%8A%D9%88%D8%B1%D9%83"
+      },
+      "fr": {
+        "title": "Bataille de York",
+        "extract": "La bataille de York est une bataille de la guerre anglo-américaine de 1812 qui se déroula le 27 avril 1813, à York, dans le Haut-Canada ; ville qui deviendra plus tard la ville de Toronto. Une force américaine de 1 500 hommes, soutenue par une flottille, débarqua sur la rive ouest du lac Ontario.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_York"
+      }
+    }
+  },
+  "Siege of Fort Meigs": {
+    "pages": {
+      "en": {
+        "title": "Siege of Fort Meigs",
+        "extract": "The siege of Fort Meigs was a significant War of 1812 military engagement in northwestern Ohio during the spring of 1813. British regulars and militia led by Brigadier General Henry Procter, supported by Indigenous forces led by Tecumseh, attempted to capture the recently constructed fort in order to forestall Major General William Henry Harrison's campaign to retake Detroit and invade Upper Canada. An American attempt to relieve the fort on May 5 resulted in heavy casualties, however, Procter was unable to breech Harrison's defences and withdrew after a 11-day siege.",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Fort_Meigs"
+      },
+      "fr": {
+        "title": "Siège de Fort Meigs",
+        "extract": "Le siège de Fort Meigs est un épisode de la guerre anglo-américaine de 1812, qui eut lieu du 28 avril au 9 mai 1813 dans le nord-ouest de l'Ohio. Une petite armée britannique soutenue par des Amérindiens a tenté de capturer le fort récemment construit afin de prévenir une offensive américaine contre Détroit, que les Britanniques avaient capturé l'année précédente. Une sortie des Américains et une tentative de secours ont échoué avec de lourdes pertes, mais les Britanniques n'ont pas réussi à s'emparer du fort et ont été contraints de lever le siège.",
+        "url": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Fort_Meigs"
+      }
+    }
+  },
+  "Battle of Stoney Creek": {
+    "pages": {
+      "en": {
+        "title": "Battle of Stoney Creek",
+        "extract": "The Battle of Stoney Creek was fought on 6 June 1813, during the War of 1812 near what is now Stoney Creek, Ontario, Canada. British units made a night attack on the American encampment, and due in large part to the capture of the two senior officers of the American force and an overestimation of British strength by the Americans, the outcome of the battle was a victory for the British, and a turning point in the defence of Upper Canada.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Stoney_Creek"
+      },
+      "fr": {
+        "title": "Bataille de Stoney Creek",
+        "extract": "La bataille de Stoney Creek est un affrontement de la guerre anglo-américaine de 1812 qui eut lieu dans la nuit du 5 au 6 juin 1813 près de la ville actuelle de Stoney Creek en Ontario.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Stoney_Creek"
+      },
+      "pt": {
+        "title": "Batalha de Stoney Creek",
+        "extract": "A Batalha de Stoney Creek foi travada em 6 de junho de 1813, durante a Guerra de 1812, perto do que é hoje Stoney Creek, Ontário, Canadá. Unidades britânicas realizaram um ataque noturno ao acampamento americano e, devido em grande parte à captura dos dois oficiais superiores da força americana e a uma superestimação da força britânica pelos americanos, o resultado da batalha foi uma vitória para os britânicos e um ponto de virada na defesa do Alto Canadá.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Stoney_Creek"
+      }
+    }
+  },
+  "Battle of Beaver Dams": {
+    "pages": {
+      "en": {
+        "title": "Battle of Beaver Dams",
+        "extract": "The Battle of Beaver Dams took place on 24 June 1813, during the War of 1812. A column of troops from the United States Army marched from Fort George and attempted to surprise a British outpost at Beaver Dams, billeting themselves overnight in the village of Queenston, Ontario. Laura Secord, a resident of Queenston, had earlier learned of the American plans from several Americans billeted at her house and had struck out on a long and difficult trek to warn the British at Decou's stone house near present-day Brock University. When the Americans resumed their march, they were ambushed by Kahnawake and other native warriors and eventually surrendered to a small British detachment led by Lieutenant James FitzGibbon. About 500 U.S. troops, including their wounded commander, were taken prisoner.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Beaver_Dams"
+      },
+      "ar": {
+        "title": "معركة سد بيفر",
+        "extract": "معركة سد بيفر وقعت في 24 يونيه/حزيران عام 1813، أثناء حرب 1812. سارت فرقة من الأمريكان من «قلعة جورج» وحاولت أن تباغت بؤرة ارتكاز بريطانية في منطقة «سد بيفر» حيث اختبأوا في منازل ومباني بلدة كوين ستون في إقليم أونتاريو حتي صباح اليوم التالي. ويُذكر أن لاورا سيكورد، إحدي سكان بلدة كوين ستون، كانت علي دراية بهذا المُخطط الأمريكي، فسارت مسافة طويلة في طرق وَعِرة لكي تحذر القوات البريطانية الموجودة في «منزل ديكو» قُرب جامعة بروك الموجودة حاليًا. وعندما استأنف الموكب الأمريكي مسيرته كان المحاربون المحليون ينصبون لهم كمينًا. وفي النهاية استسلموا لقائد كتيبة بريطانية صغيرة. ثم سُجن حوالي 500 شخصًا من بينهم قادة مصابين إثر المعركة.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%B3%D8%AF_%D8%A8%D9%8A%D9%81%D8%B1"
+      },
+      "fr": {
+        "title": "Bataille de Beaver Dams",
+        "extract": "La bataille de Beaver Dams a eu lieu le 23 juin 1813, au cours de la guerre de 1812. Une colonne américaine, quitta Fort George pour attaquer le poste de Beaver Dams. En chemin, elle fait halte pour la nuit dans le village de Queenston, en Ontario, que Laura Secord, une habitante informée des projets des Américains, avait quitté peu avant, pour avertir les autorités Britanniques résidant dans la maison Decou's stone à Thorold de leur arrivée. Quand les envahisseurs reprirent leur route, ils furent pris en embuscade par des Indiens et se rendirent finalement au commandant d'un petit détachement de réguliers britanniques. Environ 500 Américains, dont leur chef blessé, furent faits prisonniers. Cette bataille marqua la fin de l’offensive américaine dans le Haut-Canada.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Beaver_Dams"
+      }
+    }
+  },
+  "Capture of USS Chesapeake": {
+    "pages": {
+      "en": {
+        "title": "Capture of USS Chesapeake",
+        "extract": "The capture of USS Chesapeake, also known as the Battle of Boston Harbor, was fought on 1 June 1813, between the Royal Navy frigate HMS Shannon and the United States Navy frigate USS Chesapeake, as part of the War of 1812 between the United States and the United Kingdom. HMS Shannon, commanded by Captain Philip Broke, captured USS Chesapeake, commanded by Captain James Lawrence, in one of the Royal Navy's clearest single-ship victories of the war. The action lasted only about ten to fifteen minutes, but ended with Chesapeake disabled, boarded, captured, and taken into British service.",
+        "url": "https://en.wikipedia.org/wiki/Capture_of_USS_Chesapeake"
+      },
+      "fr": {
+        "title": "Combat de la Shannon et de la Chesapeake",
+        "extract": "Le combat de la Shannon et de la Chesapeake, parfois appelé bataille de Boston Harbour, est une bataille navale livrée le 1er juin 1813, au large de Boston, pendant la guerre anglo-américaine de 1812. Durant ce bref affrontement, plus de 80 hommes sont tués. Il s'agit du seul affrontement de la guerre entre deux frégates de même taille.",
+        "url": "https://fr.wikipedia.org/wiki/Combat_de_la_Shannon_et_de_la_Chesapeake"
+      }
+    }
+  },
+  "Battle of Burnt Corn": {
+    "pages": {
+      "en": {
+        "title": "Battle of Burnt Corn",
+        "extract": "The Battle of Burnt Corn, also known as the Battle of Burnt Corn Creek, was fought on July 27, 1813, in what is now Escambia County, Alabama, United States. The battle was the first conflict of the Creek War to be fought between American forces and a faction of the Muscogee known as the Red Sticks. The Creek War began as an intratribal conflict between two factions of Muscogee, one that supported a centralized tribal government and cooperation with the United States government and the other that opposed the encroachment of American settlers and championed a return to the traditional Muscogee lifestyle. A group of Red Sticks traveled to Pensacola to obtain weapons and supplies from the Spanish to further their fight.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Burnt_Corn"
+      },
+      "fr": {
+        "title": "Bataille de Burnt Corn",
+        "extract": "La bataille de Burnt Corn, également connue sous le nom de bataille de Burnt Corn Creek, est une bataille de la guerre Creek qui opposa le 27 juillet 1813 les États-Unis aux Creeks.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Burnt_Corn"
+      },
+      "pt": {
+        "title": "Batalha de Burnt Corn",
+        "extract": "A Batalha de Burnt Corn, também conhecida como a Batalha de Burnt Corn Creek, foi um embate entre o exército americano e os índios creeks ocorrido em 27 de julho de 1813, no atual sul do Alabama, integrando o cenário da Guerra Creek.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Burnt_Corn"
+      }
+    }
+  },
+  "Fort Mims massacre": {
+    "pages": {
+      "en": {
+        "title": "Fort Mims massacre",
+        "extract": "The Fort Mims massacre occurred on August 30, 1813, at a fortified homestead site 35–40 miles north of Mobile, Alabama, during the Creek War. A large force of Creek Indians belonging to the Red Sticks faction, under the command of Peter McQueen and William Weatherford, stormed the fort and defeated the militia garrison.",
+        "url": "https://en.wikipedia.org/wiki/Fort_Mims_massacre"
+      },
+      "es": {
+        "title": "Masacre del Fuerte Mims",
+        "extract": "La Masacre del Fuerte Mims tuvo lugar el 30 de agosto de 1813, durante la Guerra Creek, cuando una fuerza de la tribu Creek pertenecientes a la facción de los Bastones Rojos, bajo el mando de los guerreros principales Peter McQueen y William Weatherford, asaltó el Fuerte Mims y derrotó a los milicianos dentro. Posteriormente, se produjo una masacre y casi todos dentro del fuerte fueron asesinados, entre ellos Creeks que apoyaban a Estados Unidos, colonos blancos y la milicia del fuerte. El Fuerte Mims era una empalizada con una fortificación que rodea las casas y dependencias del colono Samuel Mims, situado a unos 56 km directamente al norte de la actual Mobile, Alabama.",
+        "url": "https://es.wikipedia.org/wiki/Masacre_del_Fuerte_Mims"
+      },
+      "fr": {
+        "title": "Bataille de Fort Mims",
+        "extract": "La bataille de Fort Mims se déroula au début de la guerre civile creek, le 30 août 1813, lorsqu'une troupe de guerriers Creeks, appartenant à la faction des Red Sticks, sous le commandement de Peter McQueen et de William Weatherford, attaqua l'avant poste de Fort Mims. L'installation militaire abritait alors, en plus des 265 soldats et hommes de la milice, environ 270 civils, Blancs et Indiens. Après de lourdes pertes, les Creeks conquirent le fort et y massacrèrent la presque totalité de ses occupants.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Fort_Mims"
+      }
+    }
+  },
+  "Battle of St. Michaels": {
+    "pages": {
+      "en": {
+        "title": "Battle of St. Michaels",
+        "extract": "The First Battle of St. Michaels was an engagement contested on August 10, 1813, during the War of 1812. British soldiers attacked Maryland militia at St. Michaels, which is located on Eastern Shore of Maryland with access to the Chesapeake Bay. At the time, this small town was on the main shipping route to important cities such as Baltimore and Washington, D.C.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_St._Michaels"
+      },
+      "fr": {
+        "title": "Bataille de St. Michaels",
+        "extract": "La bataille de St. Michaels est une bataille de la guerre anglo-américaine de 1812. Similaire à la bataille de Craney Island qui a eu lieu un mois avant, les unités des milices américaines ont pu repoussés les unités anglaises qui tentaient de débarquer sur la baie de Chesapeake.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_St._Michaels"
+      }
+    }
+  },
+  "Battle of Fort Stephenson": {
+    "pages": {
+      "en": {
+        "title": "Battle of Fort Stephenson",
+        "extract": "The Battle of Fort Stephenson was a decisive American victory in Ohio during the War of 1812. American forces led by Major George Croghan successfully defended the fort during a two-day siege by British and Indigenous forces in August 1813.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Fort_Stephenson"
+      },
+      "fr": {
+        "title": "Bataille de Fort Stephenson",
+        "extract": "La bataille de Fort Stephenson est une bataille de la guerre anglo-américaine de 1812 qui a eu lieu le 2 août 1813. Elle a été remportée par les Américains.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Fort_Stephenson"
+      }
+    }
+  },
+  "Battle of Lake Erie": {
+    "pages": {
+      "ko": {
+        "title": "이리호 전투",
+        "extract": "이리호 전투(Battle of Lake Erie) 또는 풋인베이 전투(Battle of Put-in-Bay)는 미영 전쟁 중인 1813년 9월 10일, 이리호의 오하이오주 어귀인 만 근처에서 싸운 수상전이다. 미국 해군 함정 9척이 영국 해군의 함정 6척을 격파하고 붙잡았다. 따라서 미영 전쟁의 나머지 기간 동안 이리호에 제수권을 확보하는 한편 디트로이트 요새의 지배권을 회복하고 테임즈 전투에도 승리하여 테쿰세의 인디언 동맹을 소멸시켰다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EB%A6%AC%ED%98%B8_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Lake Erie",
+        "extract": "The Battle of Lake Erie, also known as the Battle of Put-in-Bay, was fought on 10 September 1813, on Lake Erie off the shores of Ohio during the War of 1812. Nine vessels of the United States Navy defeated and captured six vessels of the British Royal Navy. This ensured American control of the lake for the rest of the war, which in turn allowed the Americans to recover Detroit, Michigan and win the Battle of the Thames to break the Indian confederation of Tecumseh. It was one of the largest naval battles of the War of 1812.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Lake_Erie"
+      },
+      "zh": {
+        "title": "伊利湖戰役",
+        "extract": "伊利湖战役是1812年战争中的一场水上战役，于1813年9月10日在俄亥俄附近的伊利湖爆发。九艘美国海军军舰决定性地击败了英国六艘军舰。这场战役奠定了美国在伊利湖的控制权，让美国人收复了底特律和赢取泰晤士战争，并击败特库姆塞的印第安联邦。",
+        "url": "https://zh.wikipedia.org/wiki/%E4%BC%8A%E5%88%A9%E6%B9%96%E6%88%B0%E5%BD%B9"
+      },
+      "es": {
+        "title": "Batalla del Lago Erie",
+        "extract": "La batalla del Lago Erie tuvo lugar el 10 de septiembre de 1813 dentro de la guerra anglo-estadounidense. Enfrentó a una armada estadounidense al mando de Oliver Hazard Perry que contaba con nueve embarcaciones y 54 cañones contra una flota británica de seis barcos con 63 cañones al mando del Comodoro Robert Heriot Barclay. La batalla terminó con la victoria estadounidense.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_del_Lago_Erie"
+      },
+      "fr": {
+        "title": "Bataille du lac Érié",
+        "extract": "La bataille du lac Érié, également connue sous le nom de Bataille de Put-in-Bay, est livrée le 10 septembre 1813, sur le Lac Érié, au large des côtes de l'Ohio, pendant la guerre de 1812. Elle oppose une escadre américaine, sous les ordres du capitaine Oliver Hazard Perry, à des navires de la Royal Navy, commandés par le capitaine Robert Heriot Barclay (en). Elle se termine par une victoire décisive des Américains, qui capturent la totalité de la flotte adverse, et prennent le contrôle du lac. C'est une des plus grandes batailles navales de la guerre de 1812.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_du_lac_%C3%89ri%C3%A9"
+      },
+      "pt": {
+        "title": "Batalha do Lago Erie",
+        "extract": "A Batalha do Lago Erie, também chamada de Batalha de Put-in-Bay foi uma batalha naval que ocorreu em 10 de setembro de 1813, no contexto da guerra de 1812, e opôs forças navais britânicas e dos Estados Unidos.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_do_Lago_Erie"
+      }
+    }
+  },
+  "Battle of the Thames": {
+    "pages": {
+      "ko": {
+        "title": "테임즈 전투",
+        "extract": "테임즈 전투(또는 모라비안타운 전투로 알려짐)는 대영제국을 상대로 1812년 전쟁에서 미군이 결정적인 승리를 거둔 전투였다. 1813년 10월 5일 오늘 날의 어퍼캐나다 온타리오주 채트햄 근처에서 발발했다. 이 전투로 쇼니 족 지도자 테쿰세가 전사했고, 그가 이끌던 인디언 연맹의 붕괴를 가져왔다.",
+        "url": "https://ko.wikipedia.org/wiki/%ED%85%8C%EC%9E%84%EC%A6%88_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of the Thames",
+        "extract": "The Battle of the Thames, also known as the Battle of Moraviantown, was an American victory over British forces and Tecumseh's Confederacy during the War of 1812. The battle took place on October 5, 1813, in Upper Canada near what is now Thamesville, Ontario. The British lost control of the Western District of Upper Canada as a result of the battle. Tecumseh was killed, and his confederacy collapsed.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_the_Thames"
+      },
+      "es": {
+        "title": "Batalla del Támesis",
+        "extract": "La batalla del Támesis fue un enfrentamiento ocurrido durante la guerra anglo-estadounidense de 1812, el día 5 de octubre de 1813 y que finalizó con una victoria decisiva de los Estados Unidos sobre Gran Bretaña.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_del_T%C3%A1mesis"
+      },
+      "fr": {
+        "title": "Bataille de la rivière Thames",
+        "extract": "La bataille de la rivière Thames, aussi connue sous le nom de bataille de Moraviantown, est une victoire américaine décisive au cours de la Guerre anglo-américaine de 1812. Cet affrontement eut lieu le 5 octobre 1813 près de Chatham-Kent en Ontario, dans la région du Haut-Canada. Le chef shawnee Tecumseh trouva la mort lors de cette bataille, ce qui eut pour conséquence de réduire à néant la coalition des tribus amérindiennes qu'il menait.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_la_rivi%C3%A8re_Thames"
+      },
+      "pt": {
+        "title": "Batalha do Tâmisa (1813)",
+        "extract": "A Batalha do Tâmisa, também conhecida como Batalha de Moraviantown, foi uma vitória americana na Guerra de 1812 contra a Confederação de Tecumseh e seus aliados britânicos. Aconteceu em 5 de outubro de 1813, no Alto Canadá, perto de Chatham. Os britânicos perderam o controle do sudoeste de Ontário como resultado da batalha; Tecumseh foi morto e sua confederação se desfez em grande parte.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_do_T%C3%A2misa_(1813)"
+      }
+    }
+  },
+  "Battle of the Chateauguay": {
+    "pages": {
+      "en": {
+        "title": "Battle of the Chateauguay",
+        "extract": "The Battle of the Chateauguay was an engagement of the War of 1812. On 26 October 1813, a Canadian and Native force consisting of 1,530 militia and Mohawk warriors from Lower Canada, commanded by Charles de Salaberry, repelled an American force of about 2,600 regulars which was attempting to invade Lower Canada and ultimately attack Montreal. The battle was one of the two battles which caused the Americans to abandon the Saint Lawrence campaign, their major strategic effort in the autumn of 1813.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_the_Chateauguay"
+      },
+      "es": {
+        "title": "Batalla de Châteauguay",
+        "extract": "La batalla de Châteauguay fue un enfrentamiento entre el Reino Unido de Gran Bretaña e Irlanda y Estados Unidos en el contexto de la guerra anglo-estadounidense de 1812. Se produjo el 25 de octubre de 1813, y en ella un ejército de 1630 francocanadienses y mohawks rechazaron a un grupo de 4000 estadounidenses que pretendían invadir Canadá.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Ch%C3%A2teauguay"
+      },
+      "fr": {
+        "title": "Bataille de la Châteauguay",
+        "extract": "La bataille de la Châteauguay est une bataille militaire qui se déroula le 26 octobre 1813 durant la Guerre de 1812 entre la colonie britannique du Bas-Canada, dans ce qui allait devenir le Canada, et les États-Unis.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_la_Ch%C3%A2teauguay"
+      },
+      "pt": {
+        "title": "Batalha de Chateauguay",
+        "extract": "A Batalha de Chateauguay foi um confronto da Guerra de 1812. Em 26 de outubro de 1813, uma força combinada britânica e canadense composta por 1.530 regulares, voluntários, milícias e guerreiros moicanos do Baixo Canadá, comandados por Charles de Salaberry, repeliu uma força americana de cerca de 2.600 regulares que tentava invadir o Baixo Canadá e, finalmente, atacar Montreal.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Chateauguay"
+      }
+    }
+  },
+  "Battle of Crysler's Farm": {
+    "pages": {
+      "en": {
+        "title": "Battle of Crysler's Farm",
+        "extract": "The Battle of Crysler's Farm, also known as the Battle of Crysler's Field, or the Battle of Williamsburg, was fought on 11 November 1813, during the War of 1812, in the British province of Upper Canada. A British and Upper Canadian force defeated a much larger American invasion force, prompting the US to abandon the Saint Lawrence campaign, its plan to capture Montreal in the autumn of 1813.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Crysler's_Farm"
+      },
+      "fr": {
+        "title": "Bataille de la ferme Crysler",
+        "extract": "La bataille de la ferme Crysler, connue aussi sous le nom de bataille du champ Crysler, eut lieu le 11 novembre 1813, pendant la guerre anglo-américaine de 1812. Elle s'acheva par une victoire des forces militaires britanniques et canadiennes sur les forces américaines, pourtant 9 fois supérieures en nombre. La défaite américaine força cette armée à abandonner son offensive sur la vallée du Saint-Laurent à l'automne 1813.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_la_ferme_Crysler"
+      }
+    }
+  },
+  "Battle of Talladega": {
+    "pages": {
+      "en": {
+        "title": "Battle of Talladega",
+        "extract": "The Battle of Talladega was fought between the Tennessee Militia and the Red Stick Creek Native Americans during the Creek War, in the vicinity of the present-day county and city of Talladega, Alabama, in the United States.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Talladega"
+      },
+      "fr": {
+        "title": "Bataille de Talladega",
+        "extract": "La bataille de Talladega est une bataille de la guerre Creek qui opposa le 9 novembre 1813 les Red Sticks, un groupe de Creeks, à une milice du Tennessee à proximité de la ville actuelle de Talladega en Alabama.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Talladega"
+      }
+    }
+  },
+  "Battle of Tallushatchee": {
+    "pages": {
+      "en": {
+        "title": "Battle of Tallushatchee",
+        "extract": "The Battle of Tallushatchee was fought on November 3, 1813, in northeastern Mississippi Territory during the Creek War. United States dragoons, commanded by Brigadier General John Coffee, defeated the Red Sticks.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Tallushatchee"
+      },
+      "fr": {
+        "title": "Bataille de Tallushatchee",
+        "extract": "La bataille (massacre) de Tallushatchee est une bataille de la guerre Creek qui a eu lieu le 3 novembre 1813 en Alabama. Elle a opposé les Red Sticks Creeks aux dragons américains.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Tallushatchee"
+      }
+    }
+  },
+  "Battle of Autossee": {
+    "pages": {
+      "en": {
+        "title": "Battle of Autossee",
+        "extract": "The Battle of Autossee took place on November 29, 1813, during the Creek War, at the Creek towns of Autossee and Tallassee near present-day Shorter, Alabama. General John Floyd, with 900 to 950 militiamen and 450 allied Creek, attacked and burned down both villages, killing 200 Red Sticks in the process.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Autossee"
+      },
+      "fr": {
+        "title": "Bataille d'Autossee",
+        "extract": "La bataille d'Autossee est un affrontement de la guerre Creek qui eut lieu le 29 novembre 1813 près de la ville actuelle de Shorter en Alabama. Environ 900 miliciens de Géorgie commandés par le général John Floyd et environ 450 Creeks alliés aux États-Unis menés par William McIntosh attaquèrent et détruisirent les villages creeks d'Autossee et de Tallassee, tuant environ 200 Red Sticks au cours de la bataille.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_d'Autossee"
+      },
+      "pt": {
+        "title": "Batalha de Autossee",
+        "extract": "A Batalha de Autossee ocorreu em 26 de novembro de 1813, durante a Guerra Creek, nas aldeias creeks de Autossee e Tallasee, próximas à atual Shorter, Alabama. O general John Floyd, com 900 a 950 milicianos e 450 aliados creeks, atacou e destruiu ambas as aldeias, matando duzentos Red Sticks no processo.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Autossee"
+      }
+    }
+  },
+  "Battle of Calebee Creek": {
+    "pages": {
+      "en": {
+        "title": "Battle of Calebee Creek",
+        "extract": "The Battle of Calebee Creek took place on January 27, 1814, during the Creek War, in Macon County, Alabama, 50 miles (80 km) west of Fort Mitchell. General Floyd, with 1,200 Georgia volunteers, a company of cavalry and 400 friendly Yuchi, repulsed a night attack of the Red Sticks on his camp. Floyd lost so many in this hostile country that he immediately withdrew to the Chattahoochee River. Also referred to as the Battle for Camp Defiance.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Calebee_Creek"
+      },
+      "fr": {
+        "title": "Bataille de Calebee Creek",
+        "extract": "La bataille de Calebee Creek ou Calabee Creek est un affrontement de la guerre Creek qui eut lieu le 27 janvier 1814 près de la ville actuelle de Tuskegee en Alabama. Environ 1 800 guerriers creeks de la faction des Red Sticks attaquèrent de nuit le campement américain du général John Floyd alors qu'il était en campagne dans le but d'attaquer le village de Tuckabatchee (en). Après avoir été pratiquement submergées par l'assaut, les forces américaines parvinrent à contre-attaquer et à mettre en fuite les Amérindiens. Affaibli et craignant de nouvelles attaques, Floyd se retira et finit par reconduire ses troupes en Géorgie.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Calebee_Creek"
+      }
+    }
+  },
+  "Battle of Lacolle Mills (1814)": {
+    "pages": {
+      "en": {
+        "title": "Battle of Lacolle Mills (1814)",
+        "extract": "The Battle of Lacolle Mills was fought on 30 March 1814 during the War of 1812. The small garrison of a British outpost position, aided by Canadian reinforcements, fought off a large American attack.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Lacolle_Mills_(1814)"
+      },
+      "fr": {
+        "title": "Bataille du moulin de Lacolle (1814)",
+        "extract": "La deuxième bataille du moulin de Lacolle eut lieu le 30 mars 1814, durant la guerre de 1812. Dans une bataille qui fut brève, une petite garnison britannique et des volontaires canadiens défendirent le fortin militaire du village de Lacolle d'une importante offensive américaine.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_du_moulin_de_Lacolle_(1814)"
+      }
+    }
+  },
+  "Battle of Horseshoe Bend": {
+    "pages": {
+      "ko": {
+        "title": "호스슈벤드 전투",
+        "extract": "호스슈벤드 전투(The Battle of Horseshoe Bend, 토호페카, 콜로코 리타빅스비 또는 호스슈 전투로 알려져 있음)는 1812년 전쟁 중 앨라배마 중부에서 벌어진 전투이다. 1814년 3월 27일, 앤드루 잭슨 이 이끄는 미합중국군과 인디언 연합은 미국의 팽창을 반대하는 크리크 족 지파인 레드스틱스 족들을 물리쳐서 사실상 크리크 전쟁을 종식시켰다.",
+        "url": "https://ko.wikipedia.org/wiki/%ED%98%B8%EC%8A%A4%EC%8A%88%EB%B2%A4%EB%93%9C_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Horseshoe Bend",
+        "extract": "The Battle of Horseshoe Bend was fought in the Mississippi Territory, now central Alabama. On March 27, 1814, United States forces and Native American allies under Major General Andrew Jackson defeated the Red Sticks, a part of the Creek Indian tribe who opposed American expansion, effectively ending the Creek War.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Horseshoe_Bend"
+      },
+      "es": {
+        "title": "Batalla de Horseshoe Bend",
+        "extract": "La batalla de Horseshoe Bend tuvo lugar durante la guerra anglo-estadounidense de 1812 en Alabama central, Estados Unidos. El 27 de marzo de 1814, las fuerzas de los Estados Unidos y sus indios americanos aliados bajo las órdenes del General Andrew Jackson derrotaron a los bastones rojos, una parte de la tribu de los indios creek liderados con eficacia por el shawnee Tecumseh. Esta batalla dio fin a la Guerra Creek.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Horseshoe_Bend"
+      },
+      "fr": {
+        "title": "Bataille de Horseshoe Bend",
+        "extract": "La bataille de Horseshoe Bend est un affrontement qui eut lieu le 27 mars 1814 dans le centre de l'Alabama et qui mit un terme à la guerre Creek. Les forces américaines et leurs alliés Amérindiens sous le commandement du major général Andrew Jackson ont défait les Red Sticks, un groupe de Creeks qui s'opposaient à l'expansion américaine.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Horseshoe_Bend"
+      }
+    }
+  },
+  "Battle of Fort Oswego (1814)": {
+    "pages": {
+      "en": {
+        "title": "Battle of Fort Oswego (1814)",
+        "extract": "The Battle of Fort Oswego was a partially successful British raid on Fort Ontario and the village of Oswego, New York on 6 May 1814 during the War of 1812.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Fort_Oswego_(1814)"
+      }
+    }
+  },
+  "Battle of Lundy's Lane": {
+    "pages": {
+      "ko": {
+        "title": "런디스 레인 전투",
+        "extract": "런디스 레인 전투(Battle of Lundy's Lane 또는 나이아가라 폭포 전투로도 알려져 있다.)는 1814년 7월 25일에 벌어진 1812년 전쟁(미영전쟁)에서 벌어진 전투로 오늘 날 온타리오주 나이아가라 폭포가 전장터였다. 이 전투는 미영전쟁 중에서도 가장 많이 피를 흘렸던 전투이며, 캐나다 땅에서 벌어진 가장 치열한 전투 중 하나였다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%9F%B0%EB%94%94%EC%8A%A4_%EB%A0%88%EC%9D%B8_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Lundy's Lane",
+        "extract": "The Battle of Lundy's Lane, also known as the Battle of Niagara or contemporarily as the Battle of Bridgewater, was fought on 25 July 1814, during the War of 1812, between an invading American army and a British and Canadian army near present-day Niagara Falls, Ontario. It was one of the bloodiest battles of the war, and one of the deadliest battles fought in Canada, with approximately 1,720 casualties including 258 killed.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Lundy's_Lane"
+      },
+      "ar": {
+        "title": "معركة لانديز لين",
+        "extract": "وقعت معركة لانديز لين، التي تعرف أيضًا باسم معركة نياجارا فولز، بتاريخ 25 يوليو 1814، أثناء حرب 1812، بين الجيش الأمريكي الغازي والجيش البريطاني والكندي بالقرب من المدينة التي تعرف اليوم باسم نياجارا فولز في مقاطعة أونتاريو الكندية. اتسمت معركة لانديز لين بأنها أكثر المعارك دموية في حرب 1812 وفي التاريخ الكندي، إذ وقع فيها أكثر من 1731 ضحية بينهم 258 قتيل.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D9%84%D8%A7%D9%86%D8%AF%D9%8A%D8%B2_%D9%84%D9%8A%D9%86"
+      },
+      "fr": {
+        "title": "Bataille de Lundy's Lane",
+        "extract": "La bataille de Lundy's Lane est une bataille de la guerre anglo-américaine de 1812 qui eut lieu le 25 juillet 1814 dans le cadre de la campagne du Niagara. Le fait marquant fut réalisé en 1814, lors une nouvelle invasion du Haut-Canada sous le commandement du major-général Jacob Jennings Brown. Initialement elle visait Kingston sur le lac Ontario, mais elle fut déplacée au Niagara parce que les navires britanniques contrôlaient le lac Ontario. Durant les six premiers mois de 1814, les pertes furent élevées dans les deux camps et les Américains durent se retirer au fort Érié, mettant un coup d'arrêt à leur avancée dans le Haut-Canada.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Lundy's_Lane"
+      }
+    }
+  },
+  "Battle of Chippawa": {
+    "pages": {
+      "en": {
+        "title": "Battle of Chippawa",
+        "extract": "The Battle of Chippawa was a War of 1812 battle fought on July 5, 1814, in which the United States Army defeated British forces during the American invasion of Upper Canada along the Niagara River. This battle and the subsequent Battle of Lundy's Lane demonstrated that trained American troops could hold their own against British regulars. The battlefield is preserved as a National Historic Site of Canada.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Chippawa"
+      },
+      "zh": {
+        "title": "奇帕瓦戰役",
+        "extract": "奇帕瓦战役 是1812年战争中的其中一场美军与英军间的战役，发生于1814年7月5日的加拿大安大略。该战役是美军对上加拿大的攻势的一部分，在这战役前，入侵加拿大的美军一直吃败仗，而且国土开始遭受英加联军的反击，这次战役是美军第一次以同等战力对抗英军并获胜的战役。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%A5%87%E5%B8%95%E7%93%A6%E6%88%B0%E5%BD%B9"
+      },
+      "es": {
+        "title": "Batalla de Chippawa",
+        "extract": "La batalla de Chippawa o batalla de Chippewa fue un enfrentamiento entre Reino Unido de Gran Bretaña e Irlanda y Estados Unidos, que se enmarca, dentro de la guerra anglo-estadounidense de 1812, en la invasión del Alto Canadá a lo largo del río Niágara. Se saldó con una victoria estadounidense, siendo la primera frente a los británicos con ejércitos en igualdad de condiciones.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Chippawa"
+      },
+      "fr": {
+        "title": "Bataille de Chippawa",
+        "extract": "La bataille de Chippawa est une bataille de la guerre anglo-américaine de 1812 qui eut lieu le 5 juillet 1814 dans le cadre de la campagne du Niagara. Elle se conclut par une victoire de l'armée américaine sur les troupes britanniques.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Chippawa"
+      }
+    }
+  },
+  "Battle of Mackinac Island (1814)": {
+    "pages": {
+      "en": {
+        "title": "Battle of Mackinac Island (1814)",
+        "extract": "The Battle of Mackinac Island was a British victory in the War of 1812. Before the war, Fort Mackinac had been an important American trading post in the straits between Lake Michigan and Lake Huron. It was important for its influence and control over the Native American tribes in the area, which was sometimes referred to in historical documents as \"Michilimackinac\".",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Mackinac_Island_(1814)"
+      },
+      "fr": {
+        "title": "Bataille de l'île Mackinac (1814)",
+        "extract": "La seconde bataille de l'île Mackinac s'est déroulée en 1814 sur l'île Mackinac aux États-Unis durant la guerre anglo-américaine de 1812 et s'est traduite par une victoire britannique sur les troupes américaines. Ce secteur était stratégique pour le commerce des fourrures.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_l'%C3%AEle_Mackinac_(1814)"
+      }
+    }
+  },
+  "Battle of Bladensburg": {
+    "pages": {
+      "ko": {
+        "title": "블래던스버그 전투",
+        "extract": "블래던스버그 전투(Battle of Bladensburg)는 1812년 전쟁 중에 발생한 전투이다. 미국군의 패배로, 대영제국군과 아일랜드군이 수도 워싱턴 D.C.를 함락하고 공공 건물을 불태웠다. 이 사건은 미군 최대의 치욕이라고 불리고 있다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%B8%94%EB%9E%98%EB%8D%98%EC%8A%A4%EB%B2%84%EA%B7%B8_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Bladensburg",
+        "extract": "The Battle of Bladensburg, also known as the Bladensburg Races, took place on August 24, 1814, during the Chesapeake campaign of the War of 1812 at Bladensburg, Maryland. It has been described as \"the greatest disgrace ever dealt to American arms\". A British force of army regulars and Royal Marines routed a combined U.S. force of Regular Army and state militia troops. The American defeat resulted in the British capture and burning of the national capital of Washington, the only time that the city has fallen to a foreign invader.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Bladensburg"
+      },
+      "ar": {
+        "title": "معركة بلادينسبورغ",
+        "extract": "معركة بلادينسبورغ هي معركة ضمن حملة تشيزبيك خلال حرب عام 1812، جرت أحداثها في 24 أغسطس عام 1814 في بلادينسبورغ في ولاية ماريلاند، 8.6 ميل شمال شرق واشنطن العاصمة.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%A8%D9%84%D8%A7%D8%AF%D9%8A%D9%86%D8%B3%D8%A8%D9%88%D8%B1%D8%BA"
+      }
+    }
+  },
+  "Siege of Fort Erie": {
+    "pages": {
+      "en": {
+        "title": "Siege of Fort Erie",
+        "extract": "The siege of Fort Erie, also known as the Battle of Erie, from 4 August to 21 September 1814, was one of the last engagements of the War of 1812, between British and American forces. It took place during the Niagara campaign, and the Americans successfully defended Fort Erie against a British army under Gordon Drummond. During the siege, Drummond's troops suffered high casualties in a failed storming attempt; they also suffered casualties from sickness and exposure in their rough encampments. Unaware that the British were about to abandon the siege, the American garrison launched a sortie to destroy the British siege batteries, during which both sides again suffered high losses.",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Fort_Erie"
+      },
+      "pt": {
+        "title": "Cerco ao Forte Erie",
+        "extract": "O cerco de Fort Erie, também conhecido como Batalha de Erie, de 4 de agosto a 21 de setembro de 1814, foi um dos últimos confrontos da Guerra de 1812, entre as forças britânicas e americanas. Ocorreu durante a Campanha do Niágara, e os americanos defenderam com sucesso Fort Erie contra um exército britânico. Durante o cerco, os britânicos sofreram pesadas baixas em uma tentativa fracassada de assalto; também sofreram baixas por doenças e exposição em seus acampamentos precários. Sem saber que os britânicos estavam prestes a abandonar o cerco, a guarnição americana lançou uma surtida para destruir as baterias de cerco britânicas, durante a qual ambos os lados novamente sofreram grandes perdas. Após os britânicos abandonarem o cerco, o exército americano reforçado os seguiu cautelosamente e forçou uma segunda retirada em Cook's Mills, mas, com o início do inverno e escassez de suprimentos, eles se retiraram. Demoliram Fort Erie antes de deixar a área. A tentativa de cerco encerrou uma das últimas ofensivas britânicas ao longo da fronteira norte, sendo a outra o fracassado assalto britânico a Plattsburgh.",
+        "url": "https://pt.wikipedia.org/wiki/Cerco_ao_Forte_Erie"
+      }
+    }
+  },
+  "Battle of Baltimore": {
+    "pages": {
+      "ko": {
+        "title": "볼티모어 전투",
+        "extract": "볼티모어 전투(Battle of Baltimore)은 미영 전쟁 중인 1814년 9월 12일부터 9월 15일까지 미국 메릴랜드주 볼티모어에서 영국군 육해군 합동군과 미합중국군 사이 벌어진 전투이다. 미합중국군은 영국군의 맹공을 잘 견뎌내며, 철수시켰으며 미영 전쟁을 끝내게 하는 전환점이 되었다. 이 싸움은 특히 영국 해군의 함포 사격을 25시간 견뎌낸 맥헨리 요새의 수비대와 폐허 속에서 요새에 휘날리는 성조기를 보고 감동한 프랜시스 스콧 키가 지은 시 ‘별이 빛나는 깃발’(The Star-Spangled Banner, 星條旗)로 유명해졌다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%B3%BC%ED%8B%B0%EB%AA%A8%EC%96%B4_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Baltimore",
+        "extract": "The Battle of Baltimore took place between British and American forces on September 12–14, 1814, during the War of 1812. Defending American forces repulsed sea and land invasions off the busy major port city of Baltimore, Maryland, by British forces preventing the United States' third largest city at the time from falling to British forces and ending the British Chesapeake campaign.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Baltimore"
+      },
+      "zh": {
+        "title": "巴爾的摩戰役",
+        "extract": "巴尔的摩战役是1812年战争中一场英军从陆海两路入侵美军驻防的巴尔的摩所发生的战役。美军成功在巴尔的摩击退了英军来自路海两路的入侵，并杀死了英军的指挥官。双方第一次交手是在北角发生战斗。虽然美军最后撤退了，但该战成功阻滞英军推进，使其承受沉重的伤亡，并让巴尔的摩守军能准备好防御工事以待敌军的进攻。巴尔的摩守军在英军炮轰麦克亨利堡时的抵抗精神，激发法兰西斯·斯科特·基创作“保卫麦克亨利堡”(Defence of Fort McHenry)一诗，该诗后来成为美国国歌“星条旗”歌词的一部份。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%B7%B4%E7%88%BE%E7%9A%84%E6%91%A9%E6%88%B0%E5%BD%B9"
+      },
+      "es": {
+        "title": "Batalla de Baltimore",
+        "extract": "La batalla de Baltimore tuvo lugar entre las fuerzas británicas y estadounidenses durante la guerra anglo-estadounidense de 1812. Las fuerzas estadounidenses rechazaron las invasiones por mar y tierra frente a la concurrida ciudad portuaria de Baltimore, Maryland, y mataron al comandante de las fuerzas británicas invasoras.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Baltimore"
+      },
+      "fr": {
+        "title": "Bataille de Baltimore",
+        "extract": "La bataille de Baltimore est une bataille importante de la guerre de 1812. Elle opposa, entre le 12 septembre et le 15 septembre 1814, les armées du Royaume-Uni et des États-Unis. Elle se solda par une victoire américaine décisive qui repoussa l'attaque combinée britannique sur Baltimore.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Baltimore"
+      },
+      "pt": {
+        "title": "Batalha de Baltimore",
+        "extract": "A Batalha de Baltimore ocorreu entre as forças britânicas e norte-americanas de 12 a 14 de setembro de 1814, durante a Guerra Anglo-Americana de 1812. As forças americanas repeliram as invasões britânicas por terra e mar contra o importante porto de Baltimore, impedindo que a terceira maior cidade dos Estados Unidos na época fosse capturada e pondo fim à campanha britânica na região da Baía de Chesapeake.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Baltimore"
+      }
+    }
+  },
+  "Battle of North Point": {
+    "pages": {
+      "en": {
+        "title": "Battle of North Point",
+        "extract": "The Battle of North Point was fought on September 12, 1814, between General John Stricker's Maryland Militia and a British force led by Major-general Robert Ross. Although the Americans were driven from the field, they were able to do so in good order having inflicted significant casualties on the British, killing Ross and demoralizing the troops under his command. Some of Ross's units became lost among woods and swampy creeks during the battle, with others in similar states of confusion.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_North_Point"
+      },
+      "zh": {
+        "title": "北角之役",
+        "extract": "北角之役 爆发于1814年9月12日，是为巴尔的摩之役的序幕，其中英军强行登陆，遭受美军的顽抗，虽然最后英军迫使美军后撤，但在此他们损失了不少人，而且其后于巴尔的摩之役大败而撤离。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%8C%97%E8%A7%92%E4%B9%8B%E5%BD%B9"
+      },
+      "ar": {
+        "title": "معركة نقطة الشمال",
+        "extract": "معركة نقطة الشمال في 12 سبتمبر عام 1814، خاض معركة جيش الحرس الوطني ماريلاند بقيادة الجنرال جون ستريكر والقوات البريطانية بقيادة الجنرال روبرت روس. على الرغم من أن الأميركيين تراجعوا، لكنهم كانوا قادرين على القيام بذلك في حالة جيدة بعد أن ألحقوا خسائر كبيرة على القوات البريطانية، مما أسفر عن مقتل أحد قادة القوة الغازية، بشكل كبير إضعاف معنويات القوات تحت قيادته وترك بعض وحداته فقدت بين الغابات والمستنقعات، مع الآخرين في الارتباك. ودفع هذا المزيج العقيد البريطاني آرثر بروك لتأخير تقدمه ضد بالتيمور، وشراء الوقت الثمين لإعداد بشكل صحيح للدفاع عن المدينة كما تراجع ستريكر إلى الدفاعات الرئيسية لتعزيز القوة الموجودة. كان الاشتباك جزء من معركة أكبر من بالتيمور، وهو الانتصار الأمريكي في حرب عام 1812.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D9%86%D9%82%D8%B7%D8%A9_%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84"
+      },
+      "fr": {
+        "title": "Bataille de North Point",
+        "extract": "La bataille de North Point est un affrontement de la guerre anglo-américaine de 1812 qui eut lieu le 12 septembre 1814 à North Point, près de Baltimore, dans le Maryland.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_North_Point"
+      }
+    }
+  },
+  "Battle of Plattsburgh": {
+    "pages": {
+      "ko": {
+        "title": "플래츠버그 전투",
+        "extract": "플래츠버그 전투(Battle of Plattsburgh) 또는 섐플레인호 전투(Battle of Lake Champlain)는 미영 전쟁이 끝날 무렵 1814년 9월 6일에서 9월 11일에 걸쳐, 미국 뉴욕주 북부에서 미합중국군과 영국군 사이에서 싸운 전투이다. 북부에서 뉴욕으로 침공하려고 한 영국군을 미합중국군이 방어해 냈으며, 결국 당시 협의가 진행되고 있던 휴전 조약에서 유리한 조건을 선점하려는 의도를 가졌던 영국의 시도가 무산되었다.",
+        "url": "https://ko.wikipedia.org/wiki/%ED%94%8C%EB%9E%98%EC%B8%A0%EB%B2%84%EA%B7%B8_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Plattsburgh",
+        "extract": "The Battle of Plattsburgh, also known as the Battle of Lake Champlain, ended the final British invasion of the northern states of the United States during the War of 1812. Two British forces, an army under Lieutenant General Sir George Prevost and a naval squadron under Captain George Downie converged on the lakeside town of Plattsburgh, New York. Plattsburgh was defended by New York and Vermont militia and detachments of regular troops of the United States Army, all under the command of Brigadier General Alexander Macomb, and ships commanded by Master Commandant Thomas Macdonough.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Plattsburgh"
+      },
+      "zh": {
+        "title": "尚普蘭湖戰役",
+        "extract": "尚普兰湖战役，亦称普莱茨堡战役 是1812年战争期间英国对美国的最后一次入侵行动。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%B0%9A%E6%99%AE%E8%98%AD%E6%B9%96%E6%88%B0%E5%BD%B9"
+      },
+      "ar": {
+        "title": "معركة بلاتسبره",
+        "extract": "أنهت معركة بلاتسبره، والتي عُرفت أيضًا بمعركة بحيرة تشامبلاين، الغزو البريطاني للولايات الشمالية في الولايات المتحدة الأمريكية خلال حرب عام 1812. التقى جيش بقيادة الفريق السير جورج بريفوست سربًا بحريًا بقيادة الكابتن جورج دوني على ضفة بحيرة بلدة بلاتسبره، نيويورك. دافعت عن بلاتسبره فصائل القوات النظامية التابعة لجيش الولايات المتحدة الأمريكية والميليشيا في نيويورك وفيرمونت، التي كانت جميعها تحت قيادة الأمير اللواء أليكساندر ماكومب، وكان القائد البحري توماس ماكدونوغ قد ترأس السفن.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%A8%D9%84%D8%A7%D8%AA%D8%B3%D8%A8%D8%B1%D9%87"
+      },
+      "fr": {
+        "title": "Bataille du lac Champlain",
+        "extract": "La bataille du lac Champlain ou bataille de Plattsburgh est une bataille terrestre et navale qui s'est déroulée du 6 au 11 septembre 1814 à Plattsburgh dans l'État de New York, entre les forces navales américaines et le Royaume-Uni, dans le contexte de la Guerre anglo-américaine de 1812.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_du_lac_Champlain"
+      },
+      "pt": {
+        "title": "Batalha de Plattsburgh",
+        "extract": "A Batalha de Plattsburgh, também conhecida como Batalha do Lago Champlain, encerrou a invasão final dos estados do norte dos Estados Unidos durante a Guerra de 1812. Um exército britânico comandado pelo tenente-general Sir George Prévost e um esquadrão naval comandado pelo capitão George Downie convergiram para a cidade à beira do lago de Plattsburgh, que era defendida pelas milícias de Nova York e Vermont e destacamentos de tropas regulares do Exército dos Estados Unidos, todos sob o comando do Brigadeiro General Alexander Macomb e navios comandados pelo Mestre Comandante Thomas Macdonough.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Plattsburgh"
+      }
+    }
+  },
+  "Battle of Cook's Mills": {
+    "pages": {
+      "en": {
+        "title": "Battle of Cook's Mills",
+        "extract": "The Battle of Cook's Mills was the last engagement between U.S. and British armies in the Niagara, and the penultimate engagement on Canadian soil during the War of 1812. After a battle lasting less than an hour, American forces out-maneuvered the British column, and later destroyed all grain found in the mill.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Cook's_Mills"
+      },
+      "fr": {
+        "title": "Bataille de Cook's Mills",
+        "extract": "La bataille de Cook's Mills fut le dernier engagement entre les armées britannico-canadiennes et américaines combattant sur le Niagara. Ce fut aussi l'avant-dernière bataille se déroulant sur le territoire canadien durant la guerre de 1812.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Cook's_Mills"
+      }
+    }
+  },
+  "Battle of Lake Borgne": {
+    "pages": {
+      "en": {
+        "title": "Battle of Lake Borgne",
+        "extract": "The Battle of Lake Borgne was a coastal engagement between the Royal Navy and the United States Navy in the American South theatre of the War of 1812. It occurred on December 14, 1814 on Lake Borgne. The British victory allowed them to disembark their troops unhindered nine days later and to launch an offensive upon New Orleans on land.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Lake_Borgne"
+      },
+      "fr": {
+        "title": "Bataille du lac Borgne",
+        "extract": "La bataille du lac Borgne est livrée le 14 décembre 1814, pendant la guerre de 1812.\nElle oppose cinq canonnières américaines, commandées par le Lieutenant Thomas Catesby Jones, à 42 barges britanniques sous les ordres du capitaine Nicholas Lockyer, qui capture les canonnières après une heure quarante de combat.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_du_lac_Borgne"
+      }
+    }
+  },
+  "Battle of New Orleans": {
+    "pages": {
+      "ko": {
+        "title": "뉴올리언스 전투",
+        "extract": "뉴올리언스 전투(Battle of New Orleans)는 《헨트 조약》이 조인된 지 약 2주 후인 1815년 1월 8일 발발하여 1815년 1월 26일 종식된 전투로써 1812년 전쟁의 전투 중 하나이다. 이 전투는 1815년 1월 8일 신생국인 미국과 전 세계를 주름잡던 영국 간의 분쟁이 끝나가던 시점에 발생하였다. 얄궂게도 이 전투 전에 이미 전쟁 종식을 위한 협상이 이루어져 《헨트 조약》이 체결되었다. 하지만 이 소식은 미국 남부에서 교전 중인 미국과 영국의 군대에게 미처 전달되지 않았다. 뉴올리언스 지역에 주둔하고 있던 앤드루 잭슨 장군 휘하의 미국 군대는 당시 전 세계를 주름잡던 영국 군대를 격퇴하였다. 이 전투에서 영국군은 사상자와 포로를 합쳐 총 2,000명 이상의 병력 손실을 입었다. 뉴올리언스는 영국 해군이 미국의 남부 해역을 장악하는 데 거점이 되는 항구 도시였으나, 이 전투의 승리로 협정은 미국에게 유리한 조건으로 발효되었다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%89%B4%EC%98%AC%EB%A6%AC%EC%96%B8%EC%8A%A4_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of New Orleans",
+        "extract": "The Battle of New Orleans was fought on January 8, 1815, between the British Army under Major General Sir Edward Pakenham and the United States Army under Brevet Major General Andrew Jackson, roughly 5 miles (8 km) southeast of the French Quarter of New Orleans, in the current suburb of Chalmette, Louisiana.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_New_Orleans"
+      },
+      "zh": {
+        "title": "新奥尔良之战",
+        "extract": "新奥尔良之战 是美英1812年战争最后一场重要战役。1815年1月8日，战斗在距离新奥尔良5英里以外的地方打响。其实早在1814年12月24日，美国与英国就已经在比利时签署了和平条约《根特条约》，但由于受到当时通信条件的影响，美英双方的前线部队对此和平条约并不知情。此次战斗的英军指挥官是陆军少将爱德华·帕肯汗爵士，美军指挥官是日后成为美国第七任总统的陆军少将安德鲁·杰克逊。尽管英军在人数、武器装备和作战经验上都占优势，而且美军仅有30分钟准备便仓促应战，美军最终以300余人伤亡的代价换取了战斗的最终胜利，英军死伤2000余人。",
+        "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E5%A5%A5%E5%B0%94%E8%89%AF%E4%B9%8B%E6%88%98"
+      },
+      "es": {
+        "title": "Batalla de Nueva Orleans",
+        "extract": "La batalla de Nueva Orleans entre los Estados Unidos y el Reino Unido de Gran Bretaña e Irlanda, ocurrida entre el 23 de diciembre de 1814 y el 8 de enero de 1815, fue la mayor batalla de la guerra anglo-estadounidense de 1812.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Nueva_Orleans"
+      },
+      "ar": {
+        "title": "معركة نيو أورليانز",
+        "extract": "معركة نيو اورليانز وقعت يوم الأربعاء 8 كانون الثاني / يناير عام 1815 ، وكانت المعركة الكبرى النهائية للحرب عام 1812. للقوات الأمريكية ، مع الجنرال أندرو جاكسون في القيادة ، وهزم الجيش البريطاني الغازي في يوم الأربعاء نية الاستيلاء على نيو اورليانز وأمريكا الشاسعة في غرب البلاد. معاهدة جينت وقد تم التوقيع على 24 كانون الأول / ديسمبر عام 1814 ، ولكن الأخبار من السلام لن تصل إلى نيو اورليانز حتى شباط / فبراير.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D9%86%D9%8A%D9%88_%D8%A3%D9%88%D8%B1%D9%84%D9%8A%D8%A7%D9%86%D8%B2"
+      },
+      "fr": {
+        "title": "Bataille de La Nouvelle-Orléans",
+        "extract": "La bataille de La Nouvelle-Orléans, qui eut lieu le 8 janvier 1815 en Louisiane, est la dernière bataille de la guerre anglo-américaine de 1812. Les forces britanniques, débarquées dans ce territoire récemment acquis par les États-Unis lors de la vente de la Louisiane, sont vaincues par les hommes d'Andrew Jackson avec l'aide des canons de Jean Lafitte.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_La_Nouvelle-Orl%C3%A9ans"
+      },
+      "pt": {
+        "title": "Batalha de Nova Orleães",
+        "extract": "A Batalha de Nova Orleães ocorreu em 8 de janeiro de 1815 e foi a grande batalha final da Guerra de 1812. As forças americanas, comandadas pelo general Andrew Jackson, derrotaram uma invasão do exército britânico, que tinha a intenção de tomar Nova Orleães e o vasto território que os Estados Unidos haviam adquirido com a compra da Louisiana. O Tratado de Ghent foi assinado em 24 de dezembro de 1814 e ratificado pelo Senado dos Estados Unidos em 16 de fevereiro de 1815. No entanto, despachos oficiais anunciando a paz não alcançariam os combatentes até final de fevereiro. A batalha é amplamente considerada como a maior vitória dos Estados Unidos na Guerra de 1812.[carece de fontes]?",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Nova_Orle%C3%A3es"
+      }
+    }
+  },
+  "Bombardment of Fort St. Philip (1815)": {
+    "pages": {
+      "en": {
+        "title": "Bombardment of Fort St. Philip (1815)",
+        "extract": "The bombardment of Fort St. Philip was a ten day long distance bombardment of exploding bomb shells - by two Royal Navy bomb vessels, mounting a total of four mortars - against the American garrison of Fort St. Philip. The fort was unable to retaliate at the start, as the bomb vessels were out of the range of its solid shot cannon, and its mortar did not have ammunition. This was remedied by supply boats, whereby the fort counter-attacked the bomb vessels with its mortar on January 17, and the British duly withdrew. This riverine engagement took place during the concluding hostilities of the War of 1812.",
+        "url": "https://en.wikipedia.org/wiki/Bombardment_of_Fort_St._Philip_(1815)"
+      },
+      "fr": {
+        "title": "Siège de Fort St. Philip (1815)",
+        "extract": "Le siège de Fort St. Philip était un bombardement longue distance de dix jours de obus explosifs - par deux navires bombardiers du Royal Navy, montant un total de quatre mortiers - contre la garnison américaine de Fort St. Philip. Le fort n'a pas pu riposter au début, car les navires bombardiers étaient hors de portée de ses boulets de canon, et son mortier n'avait pas de munitions. Cela a été remédié par des bateaux de ravitaillement, par lesquels le fort a contre-attaqué les bombardiers avec son mortier le 17 janvier, et les Britanniques se sont dûment retirés. Cet engagement fluvial a eu lieu lors de la conclusion hostilités de la guerre de 1812.",
+        "url": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Fort_St._Philip_(1815)"
+      }
+    }
+  },
+  "Second Battle of Sacket's Harbor": {
+    "pages": {
+      "en": {
+        "title": "Second Battle of Sacket's Harbor",
+        "extract": "The Second Battle of Sacket's Harbor, or simply the Battle of Sacket's Harbor, took place on 29 May 1813, during the War of 1812. A British force was transported across Lake Ontario and attempted to capture the town, which was the principal dockyard and base for the American naval squadron on the lake. Twelve warships were built here. The British were repulsed by American regulars, militia, marines and sailors, although the attack resulted in the destruction of naval stores and self-inflicted damage to American warships.",
+        "url": "https://en.wikipedia.org/wiki/Second_Battle_of_Sacket's_Harbor"
+      }
+    }
+  },
+  "Battle of Craney Island": {
+    "pages": {
+      "en": {
+        "title": "Battle of Craney Island",
+        "extract": "The Battle of Craney Island was fought on June 22, 1813 during the War of 1812. British forces under George Cockburn and John Borlase Warren attempted an amphibious landing on Craney Island, Virginia but were repulsed by defending American troops under Robert B. Taylor. The battle prevented Norfolk and Portsmouth, two major hubs of American commerce, from coming under British attack.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Craney_Island"
+      },
+      "fr": {
+        "title": "Bataille de Craney Island",
+        "extract": "La bataille de Craney Island est un affrontement de la guerre anglo-américaine de 1812 qui eut lieu le 22 juin 1813 en Virginie. Elle a été remportée par les Américains. La bataille a sauvé la ville de Norfolk, de l'invasion britannique.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Craney_Island"
+      }
+    }
+  },
+  "Burning of Washington": {
+    "pages": {
+      "ko": {
+        "title": "워싱턴 방화",
+        "extract": "워싱턴 방화(The Burning of Washington)는 1814년 미국 워싱턴 D.C.에서 대영제국군과 아일랜드군과 미합중국군 사이에 발발한 1812년 전쟁 중에 일어난 사건이었다. 1814년 8월 24일, 블래던스버그 전투에서 미국군을 물리친 후에, 로버트 로스 장군이 이끄는 영국군은 워싱턴 시를 점령하고, 많은 공공 시설을 불태웠다. 백악관을 포함한 미국 정부의 공공 시설물들이 대규모로 파괴되었다. 영국군 사령관은 단지 공공시설물에 대한 소각을 명령했으며, 엄격한 규율을 지키던 영국군 부대를 시의 사적인 건물을 보존하여 체면은 챙겼다. 이 사건은 미국 독립 전쟁 이후 외국 군대가 수도를 점령한 유일한 사건이었다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%9B%8C%EC%8B%B1%ED%84%B4_%EB%B0%A9%ED%99%94"
+      },
+      "en": {
+        "title": "Burning of Washington",
+        "extract": "The burning of Washington, also known as the capture of Washington, was a successful British amphibious attack conducted by Rear Admiral George Cockburn as part of the Chesapeake campaign planned by Admiral John Warren. It was the only time since the American Revolutionary War that a foreign power had captured and occupied a United States capital. Following the defeat of American forces at the Battle of Bladensburg on August 24, 1814, a British force led by Major-General Robert Ross marched on Washington, D.C. That evening, British soldiers and sailors set fire to multiple public buildings, including the presidential mansion, United States Capitol, and Washington Navy Yard.",
+        "url": "https://en.wikipedia.org/wiki/Burning_of_Washington"
+      },
+      "zh": {
+        "title": "华盛顿大火",
+        "extract": "华盛顿大火 是美加1812年战争期间英国军队攻陷美国首都华盛顿后，对华盛顿特区的一次大规模报复性纵火行动。1814年8月24日，一支在布莱登斯堡之战得胜的英军在主将罗伯特·罗斯带领下攻占了华盛顿，并烧毁大量公共建筑，其中包括美国国会大厦和在当时称作“总统官邸” 的白宫。该行动是对事件发生不久前美军洗劫多佛港的报复。这也是美国历史至今唯一一次首都遭受外国军队攻占的记录。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%8D%8E%E7%9B%9B%E9%A1%BF%E5%A4%A7%E7%81%AB"
+      },
+      "es": {
+        "title": "Quema de Washington",
+        "extract": "La quema de Washington fue una invasión británica de la ciudad de Washington, la capital de los Estados Unidos, durante la campaña de Chesapeake de la guerra de 1812.",
+        "url": "https://es.wikipedia.org/wiki/Quema_de_Washington"
+      },
+      "ar": {
+        "title": "حريق واشنطن",
+        "extract": "حريق واشنطن هو الاسم الذي أُطلق على عملية حرق عددٍ من المباني المهمة في الولايات المتحدة الأمريكية أثناء حرب 1812 من قبل القوات البريطانية في أمريكا الشمالية في عام 1814.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%AD%D8%B1%D9%8A%D9%82_%D9%88%D8%A7%D8%B4%D9%86%D8%B7%D9%86"
+      },
+      "fr": {
+        "title": "Incendie de Washington",
+        "extract": "L'incendie de Washington est le nom donné à un épisode de la guerre anglo-américaine de 1812 lors duquel les troupes britanniques prirent Washington et en incendièrent les édifices publics, le 24 août 1814. C’est la seule fois depuis la guerre d’indépendance américaine qu’une puissance étrangère a capturé et occupé la capitale des États-Unis.",
+        "url": "https://fr.wikipedia.org/wiki/Incendie_de_Washington"
+      },
+      "pt": {
+        "title": "Batalha de Washington",
+        "extract": "A Batalha de Washington de 1814 foi um importante confronto militar travado durante a Guerra de 1812 entre o Reino Unido e os Estados Unidos.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Washington"
+      }
+    }
+  }
+}

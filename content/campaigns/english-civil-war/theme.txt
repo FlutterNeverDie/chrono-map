@@ -1,0 +1,10 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: English Civil War
+region: europe
+when: 1642 ~ 1651
+unit: year
+borders-step: 1
+view: -2.5, 53.5, 5
+search: -6, 2, 50, 56.5
+min-links: 3

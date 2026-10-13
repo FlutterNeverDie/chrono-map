@@ -1,0 +1,79 @@
+# Yom Kippur War 전투 (Wikidata 자동 생성, 직접 고쳐도 됨). 형식은 content/campaigns/CLAUDE.md
+
+@ battle-of-suez
+wikipedia: Battle of Suez
+when: 1973-10
+coords: 32.55, 29.97
+links: 5
+
+@ third-battle-of-mount-hermon
+wikipedia: Third Battle of Mount Hermon
+when: 1973-10
+coords: 35.8, 33.3
+links: 7
+
+@ first-battle-of-mount-hermon
+wikipedia: First Battle of Mount Hermon
+when: 1973-10
+coords: 35.8, 33.3
+links: 6
+
+@ battle-of-the-chinese-farm
+wikipedia: Battle of the Chinese Farm
+when: 1973-10
+coords: 32.4, 30.45
+links: 12
+
+@ second-battle-of-mount-hermon
+wikipedia: Second Battle of Mount Hermon
+when: 1973-10
+coords: 35.8, 33.3
+links: 5
+
+@ battles-of-fort-budapest
+wikipedia: Battles of Fort Budapest
+when: 1973-10
+coords: 32.37, 31.19
+links: 5
+
+@ battle-of-marsa-talamat
+wikipedia: Battle of Marsa Talamat
+when: 1973-10
+coords: 32.64, 29.04
+links: 4
+
+@ valley-of-tears
+wikipedia: Valley of Tears
+when: 1973-10
+coords: 35.8, 33.18
+links: 10
+
+@ battle-of-baltim
+wikipedia: Battle of Baltim
+when: 1973-10
+coords: 31.46, 31.66
+links: 12
+
+@ battle-of-ismailia
+wikipedia: Battle of Ismailia
+when: 1973-10
+coords: 32.32, 30.48
+links: 9
+
+@ battle-of-fort-lahtzanit
+wikipedia: Battle of Fort Lahtzanit
+when: 1973-10
+coords: 32.34, 31.08
+links: 3
+
+@ air-battle-of-mansoura
+wikipedia: Air battle of Mansoura
+when: 1973-10
+coords: 31.38, 31.04
+links: 7
+
+@ egyptian-25th-brigade-ambush
+wikipedia: Egyptian 25th Brigade ambush
+when: 1973-10
+coords: 32.46, 30.33
+links: 3

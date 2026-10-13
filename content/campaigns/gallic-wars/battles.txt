@@ -1,0 +1,91 @@
+# Gallic Wars 전투 (Wikidata 자동 생성, 직접 고쳐도 됨). 형식은 content/campaigns/CLAUDE.md
+
+@ battle-of-bibracte
+wikipedia: Battle of Bibracte
+when: -58
+coords: 4.03, 46.92
+links: 26
+
+@ battle-of-vosges-58-bc
+wikipedia: Battle of Vosges (58 BC)
+when: -58
+coords: 7.33, 47.75
+links: 20
+
+@ battle-of-the-arar
+wikipedia: Battle of the Arar
+when: -58
+coords: 4.82, 45.73
+links: 22
+
+@ battle-of-octodurus
+wikipedia: Battle of Octodurus
+when: -57
+coords: 7.07, 46.1
+links: 13
+
+@ battle-of-the-axona
+wikipedia: Battle of the Axona
+when: -57
+coords: 2.85, 49.43
+links: 22
+
+@ battle-of-the-sabis
+wikipedia: Battle of the Sabis
+when: -57
+coords: 3.44, 50.23
+links: 23
+
+@ siege-of-the-atuatuci
+wikipedia: Siege of the Atuatuci
+when: -57
+coords: 5.46, 50.78
+links: 6
+
+@ julius-caesar-s-invasions-of-britain
+wikipedia: Julius Caesar's invasions of Britain
+when: -56
+coords: 1.31, 51.13
+links: 28
+
+@ battle-of-morbihan
+wikipedia: Battle of Morbihan
+when: -56
+coords: -2.87, 47.5
+links: 13
+
+@ ambiorix-s-revolt
+wikipedia: Ambiorix's revolt
+when: -54
+coords: 5.47, 50.78
+links: 13
+
+@ battle-of-lutetia
+wikipedia: Battle of Lutetia
+when: -52
+coords: 2.35, 48.85
+links: 12
+
+@ battle-of-gergovia
+wikipedia: Battle of Gergovia
+when: -52
+coords: 3.13, 45.71
+links: 30
+
+@ battle-of-alesia
+wikipedia: Battle of Alesia
+when: -52
+coords: 4.5, 47.54
+links: 50
+
+@ battle-of-the-vingeanne
+wikipedia: Battle of the Vingeanne
+when: -52
+coords: 3.13, 45.71
+links: 5
+
+@ siege-of-uxellodunum
+wikipedia: Siege of Uxellodunum
+when: -51
+coords: 1.68, 44.95
+links: 7

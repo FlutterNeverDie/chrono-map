@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Later Jin invasion of Joseon
+region: korea
+when: 1627-02 ~ 1627-04
+unit: month
+borders-step: 1
+view: 126.5, 39, 6
+search: 123, 130.5, 36.5, 42.5
+min-links: 1
+side.a.ko: 후금
+side.a.en: Later Jin
+side.a.zh: 后金
+side.a.es: Jin posterior
+side.a.hi: उत्तर जिन
+side.a.ar: جين اللاحقة
+side.a.fr: Jin postérieurs
+side.a.pt: Jin Posterior
+side.b.ko: 조선
+side.b.en: Joseon
+side.b.zh: 朝鲜王朝
+side.b.es: Joseon
+side.b.hi: जोसॉन
+side.b.ar: جوسون
+side.b.fr: Joseon
+side.b.pt: Joseon

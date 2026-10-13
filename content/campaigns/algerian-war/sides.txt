@@ -1,0 +1,7 @@
+# 나라(정치체)별 진영 — 형식은 content/campaigns/CLAUDE.md
+
+# 원본에 알제리가 따로 없다: 1954~57년은 French Africa(서·적도 아프리카 전체)에, 1958년부터는 French Fifth Republic에 포함.
+# FLN 쪽 정치체는 없어서 b는 칠해지지 않는다.
+# 1958~60년 French Fifth Republic은 프랑스령 서·적도 아프리카 전체를 포함해 넣지 않고, 대부분 독립한 1961년부터만 칠한다(본토+알제리).
+French Fourth Republic = a
+French Fifth Republic = a 1961-01 ~

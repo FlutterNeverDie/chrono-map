@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Austro-Prussian War
+region: europe
+when: 1866-06 ~ 1866-08
+unit: month
+borders-step: 1
+view: 12, 49, 5
+search: 5, 18, 42.5, 55
+min-links: 3
+side.a.ko: 프로이센과 동맹국
+side.a.en: Prussia & allies
+side.a.zh: 普鲁士及盟国
+side.a.es: Prusia y aliados
+side.a.hi: प्रशा और सहयोगी
+side.a.ar: بروسيا وحلفاؤها
+side.a.fr: Prusse et alliés
+side.a.pt: Prússia e aliados
+side.b.ko: 오스트리아와 동맹국
+side.b.en: Austria & allies
+side.b.zh: 奥地利及盟国
+side.b.es: Austria y aliados
+side.b.hi: ऑस्ट्रिया और सहयोगी
+side.b.ar: النمسا وحلفاؤها
+side.b.fr: Autriche et alliés
+side.b.pt: Áustria e aliados

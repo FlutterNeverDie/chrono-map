@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Gallic Wars
+region: europe
+when: -58 ~ -50
+unit: year
+borders-step: 1
+view: 2, 47, 4.5
+search: -5, 10, 42, 53
+min-links: 3
+side.a.ko: 로마 공화정
+side.a.en: Roman Republic
+side.a.zh: 罗马共和国
+side.a.es: República romana
+side.a.hi: रोमन गणराज्य
+side.a.ar: الجمهورية الرومانية
+side.a.fr: République romaine
+side.a.pt: República Romana
+side.b.ko: 갈리아 부족
+side.b.en: Gallic tribes
+side.b.zh: 高卢部落
+side.b.es: Tribus galas
+side.b.hi: गॉल जनजातियाँ
+side.b.ar: القبائل الغالية
+side.b.fr: Tribus gauloises
+side.b.pt: Tribos gaulesas

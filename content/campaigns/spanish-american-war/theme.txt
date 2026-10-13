@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Spanish–American War
+region: world
+when: 1898-04 ~ 1898-08
+unit: month
+borders-step: 1
+view: 23, 18, 1.3
+search: -100, 146, 5, 30
+min-links: 3
+side.a.ko: 미국
+side.a.en: United States
+side.a.zh: 美国
+side.a.es: Estados Unidos
+side.a.hi: संयुक्त राज्य अमेरिका
+side.a.ar: الولايات المتحدة
+side.a.fr: États-Unis
+side.a.pt: Estados Unidos
+side.b.ko: 스페인
+side.b.en: Spain
+side.b.zh: 西班牙
+side.b.es: España
+side.b.hi: स्पेन
+side.b.ar: إسبانيا
+side.b.fr: Espagne
+side.b.pt: Espanha

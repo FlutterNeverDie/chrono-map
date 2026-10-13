@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Boxer Rebellion
+region: china
+when: 1899-10 ~ 1901-09
+unit: month
+borders-step: 1
+view: 119, 40.5, 4.5
+search: 110, 127, 34, 46
+min-links: 1
+side.a.ko: 8개국 연합군
+side.a.en: Eight-Nation Alliance
+side.a.zh: 八国联军
+side.a.es: Alianza de las Ocho Naciones
+side.a.hi: आठ-राष्ट्र गठबंधन
+side.a.ar: تحالف الدول الثماني
+side.a.fr: Alliance des huit nations
+side.a.pt: Aliança das Oito Nações
+side.b.ko: 의화단·청
+side.b.en: Boxers & Qing
+side.b.zh: 义和团与清朝
+side.b.es: Bóxers y Qing
+side.b.hi: बॉक्सर और चिंग
+side.b.ar: الملاكمون وتشينغ
+side.b.fr: Boxers et Qing
+side.b.pt: Boxers e Qing

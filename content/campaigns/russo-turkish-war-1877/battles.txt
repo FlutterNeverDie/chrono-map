@@ -1,0 +1,79 @@
+# Russo-Turkish War (1877–1878) 전투 (Wikidata 자동 생성, 직접 고쳐도 됨). 형식은 content/campaigns/CLAUDE.md
+
+@ battle-of-k-z-l-tepe
+wikipedia: Battle of Kızıl Tepe
+when: 1877-06
+coords: 43.1, 40.62
+links: 10
+
+@ battle-of-elena
+wikipedia: Battle of Elena
+when: 1877-12
+coords: 25.88, 42.93
+links: 6
+
+@ battle-of-svistov
+wikipedia: Battle of Svistov
+when: 1877-06
+coords: 25.4, 43.61
+links: 8
+
+@ battle-of-shipka-pass
+wikipedia: Battle of Shipka Pass
+when: 1877-07 ~ 1878-01
+coords: 25.32, 42.77
+links: 20
+
+@ siege-of-plevna
+wikipedia: Siege of Plevna
+when: 1877-07 ~ 1877-12
+coords: 24.62, 43.41
+links: 21
+
+@ battle-of-nikopol
+wikipedia: Battle of Nikopol
+when: 1877-07
+coords: 24.88, 43.7
+links: 14
+
+@ kavarna-massacre
+wikipedia: Kavarna massacre
+when: 1877-07 ~ 1877-08
+coords: 28.34, 43.43
+links: 3
+
+@ battle-of-lovcha
+wikipedia: Battle of Lovcha
+when: 1877-09
+coords: 24.72, 43.13
+links: 9
+
+@ battle-of-gorni-dubnik
+wikipedia: Battle of Gorni Dubnik
+when: 1877-10
+coords: 24.22, 43.22
+links: 12
+
+@ battle-of-kars-1877
+wikipedia: Battle of Kars (1877)
+when: 1877-11
+coords: 43.12, 40.59
+links: 10
+
+@ battle-of-aladzha
+wikipedia: Battle of Aladzha
+when: 1877-10
+coords: 43.42, 40.37
+links: 14
+
+@ battle-of-tashkessen
+wikipedia: Battle of Tashkessen
+when: 1877-12
+coords: 23.78, 42.72
+links: 7
+
+@ battle-of-plovdiv-1878
+wikipedia: Battle of Plovdiv (1878)
+when: 1878-01
+coords: 24, 42
+links: 9

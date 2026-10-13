@@ -1,0 +1,49 @@
+# First Indochina War 전투 (Wikidata 자동 생성, 직접 고쳐도 됨). 형식은 content/campaigns/CLAUDE.md
+
+@ battle-of-hanoi-1946
+wikipedia: Battle of Hanoi (1946)
+when: 1946-12 ~ 1947-02
+coords: 105.85, 21.03
+links: 12
+
+@ operation-lea
+wikipedia: Operation Léa
+when: 1947-10 ~ 1947-11
+coords: 105.83, 22.13
+links: 8
+
+@ battle-of-nghia-lo-1951
+wikipedia: Battle of Nghĩa Lộ (1951)
+when: 1951-10
+coords: 104.5, 21.6
+links: 6
+
+@ battle-of-hoa-binh
+wikipedia: Battle of Hòa Bình
+when: 1951-11 ~ 1952-02
+coords: 105.34, 20.81
+links: 8
+
+@ battle-of-na-san
+wikipedia: Battle of Nà Sản
+when: 1952-11 ~ 1952-12
+coords: 104.04, 21.22
+links: 9
+
+@ battle-of-muong-khoua
+wikipedia: Battle of Muong Khoua
+when: 1953-04 ~ 1953-05
+coords: 102.51, 21.08
+links: 4
+
+@ battle-of-dien-bien-phu
+wikipedia: Battle of Dien Bien Phu
+when: 1954-03 ~ 1954-05
+coords: 103.02, 21.39
+links: 59
+
+@ battle-of-mang-yang-pass
+wikipedia: Battle of Mang Yang Pass
+when: 1954-06 ~ 1954-07
+coords: 108.25, 14
+links: 8

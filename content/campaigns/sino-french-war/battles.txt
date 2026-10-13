@@ -1,0 +1,61 @@
+# Sino-French War 전투 (Wikidata 자동 생성, 직접 고쳐도 됨). 형식은 content/campaigns/CLAUDE.md
+
+@ battle-of-fuzhou
+wikipedia: Battle of Fuzhou
+when: 1884-08
+coords: 119.45, 25.98
+links: 14
+
+@ battle-of-tamsui
+wikipedia: Battle of Tamsui
+when: 1884-10
+coords: 121.41, 25.19
+links: 6
+
+@ battle-of-yu-oc
+wikipedia: Battle of Yu Oc
+when: 1884-11
+coords: 105.22, 21.82
+links: 5
+
+@ siege-of-tuyen-quang
+wikipedia: Siege of Tuyên Quang
+when: 1884-11 ~ 1885-03
+coords: 105.22, 21.82
+links: 7
+
+@ battle-of-nui-bop
+wikipedia: Battle of Núi Bop
+when: 1885-01
+coords: 106.76, 21.85
+links: 6
+
+@ battle-of-shipu
+wikipedia: Battle of Shipu
+when: 1885-02
+coords: 121.91, 29.19
+links: 9
+
+@ lang-son-campaign
+wikipedia: Lạng Sơn campaign
+when: 1885-02
+coords: 106.75, 21.83
+links: 8
+
+@ battle-of-zhenhai
+wikipedia: Battle of Zhenhai
+when: 1885-03
+coords: 121.72, 29.96
+links: 7
+
+@ battle-of-bang-bo-zhennan-pass
+wikipedia: Battle of Bang Bo (Zhennan Pass)
+when: 1885-03
+coords: 106.75, 21.99
+links: 6
+
+@ battle-of-hoa-moc
+wikipedia: Battle of Hòa Mộc
+when: 1885-03
+coords: 105.22, 21.82
+links: 8

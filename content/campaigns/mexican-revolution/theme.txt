@@ -1,0 +1,10 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Mexican Revolution
+region: north-america
+when: 1910 ~ 1920
+unit: year
+borders-step: 1
+view: -102, 23, 4
+search: -118, -86, 14, 33
+min-links: 1

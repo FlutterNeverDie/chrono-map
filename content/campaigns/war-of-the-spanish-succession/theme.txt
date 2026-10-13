@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: War of the Spanish Succession
+region: europe
+when: 1701 ~ 1714
+unit: year
+borders-step: 1
+view: 4, 46, 4
+search: -10, 17, 35, 54
+min-links: 8
+side.a.ko: 대동맹
+side.a.en: Grand Alliance
+side.a.zh: 大同盟
+side.a.es: Gran Alianza
+side.a.hi: महागठबंधन
+side.a.ar: التحالف الكبير
+side.a.fr: Grande Alliance
+side.a.pt: Grande Aliança
+side.b.ko: 부르봉 진영(프랑스·스페인)
+side.b.en: Bourbon France & Spain
+side.b.zh: 波旁阵营（法国与西班牙）
+side.b.es: Borbones (Francia y España)
+side.b.hi: बूर्बों फ़्रांस और स्पेन
+side.b.ar: فرنسا وإسبانيا البوربونيتان
+side.b.fr: Bourbons (France et Espagne)
+side.b.pt: Bourbons (França e Espanha)

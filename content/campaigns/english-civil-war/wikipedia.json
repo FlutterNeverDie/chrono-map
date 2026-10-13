@@ -1,0 +1,832 @@
+{
+  "English Civil War": {
+    "pages": {
+      "ko": {
+        "title": "잉글랜드 내전",
+        "extract": "잉글랜드 내전(영어: English Civil War, 1642년 ~ 1651년)은 잉글랜드 왕국의 왕당파와 의회파 간에 있었던 내전이다. 1642년에서 1646년까지 있었던 첫 번째 내전과 1648년에서 1649년까지 있었던 두 번째 내전은 헨리에타 마리아의 지지자들과 의회파 간의 내전이었고, 1649년에서 1651년까지 있었던 세 번째 내전은 찰스 2세의 왕당파와 의회파 간의 내전이었다. 1651년 9월 3일에 우스터 전투로 내전은 끝났다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%9E%89%EA%B8%80%EB%9E%9C%EB%93%9C_%EB%82%B4%EC%A0%84"
+      },
+      "en": {
+        "title": "English Civil War",
+        "extract": "The English Civil War or Great Rebellion was a series of civil wars and political machinations between Royalists and Parliamentarians in the Kingdom of England from 1642 to 1651. Part of the wider 1639 to 1653 Wars of the Three Kingdoms, the struggle consisted of the First English Civil War and the Second English Civil War. The Anglo-Scottish war of 1650 to 1652 is sometimes referred to as the Third English Civil War.",
+        "url": "https://en.wikipedia.org/wiki/English_Civil_War"
+      },
+      "zh": {
+        "title": "英格蘭內戰",
+        "extract": "英格兰内战 是指1642年至1651年发生在英格兰王国议会派（“圆颅党”）与保皇派（“骑士党”）之间一系列聚焦于管理体系和宗教自由的武装冲突及政治斗争。",
+        "url": "https://zh.wikipedia.org/wiki/%E8%8B%B1%E6%A0%BC%E8%98%AD%E5%85%A7%E6%88%B0"
+      },
+      "es": {
+        "title": "Revolución inglesa",
+        "extract": "La Revolución inglesa incluye a la guerra civil inglesa (1642-1651) y otros eventos. La Revolución inglesa es el periodo de la historia del Inglaterra que abarca desde 1640 hasta 1660 según algunos historiadores. Se extiende durante el reinado de Carlos I, pasando por el período republicano, El Protectorado de Oliver Cromwell, y termina con la restauración de los Estuardo con Carlos II.",
+        "url": "https://es.wikipedia.org/wiki/Revoluci%C3%B3n_inglesa"
+      },
+      "hi": {
+        "title": "अंग्रेज़ी गृहयुद्ध",
+        "extract": "१६वीं तथा १७वीं शताब्दी में ऐंग्लिकन राजधर्म को प्रोटेस्टैंट धर्म की ओर प्रवृत्त करनेवाले कट्टर प्रोटेस्टैंट 'प्युरिटन' कहलाते हैं। उनके आंदोलन के फलस्वरूप सामूहिक चर्चवाद (कांग्रेगशनैलिज्म) का उदय हुआ था। वे आचरण की शुद्धता, पूजा की आडंबरहीनता तथा रविवार को पवित्र रखने पर बहुत बल देते थे। इस कारण आजकल 'प्यूरिटनवाद' उस विचारधारा का नाम बन गया है जिसमें आचरण, सिद्धांत आदि के विषय में संयम तथा शुद्धता का अधिक ध्यान रखा जाता है।",
+        "url": "https://hi.wikipedia.org/wiki/%E0%A4%85%E0%A4%82%E0%A4%97%E0%A5%8D%E0%A4%B0%E0%A5%87%E0%A4%9C%E0%A4%BC%E0%A5%80_%E0%A4%97%E0%A5%83%E0%A4%B9%E0%A4%AF%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A7"
+      },
+      "ar": {
+        "title": "الحرب الأهلية الإنجليزية",
+        "extract": "الحرب الأهلية الإنجليزية (1642-1651) هي سلسلة من الحروب الأهلية والمكائد السياسية دارت بين البرلمانيين والملكيين (الفرسان) بشأن حكم إنجلترا. حرّضت الحربان الأولى (1642-1646) والثانية (1648-1649) أنصار الملك تشارلز الأول ضد أنصار البرلمان الطويل، بينما شهدت الحرب الثالثة (1649-1651) قتالاً بين أنصار الملك تشارلز الثاني وأنصار البرلمان المتبقي. انتهت الحرب بانتصار البرلمانيين في معركة وورسيستر في الثالث من شهر سبتمبر عام 1651.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%AD%D8%B1%D8%A8_%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A%D8%A9_%D8%A7%D9%84%D8%A5%D9%86%D8%AC%D9%84%D9%8A%D8%B2%D9%8A%D8%A9"
+      },
+      "fr": {
+        "title": "Première révolution anglaise",
+        "extract": "La première révolution anglaise, également appelée Grande Rébellion, se déroule de 1642 à 1651 sous le règne de Charles Ier. Cette révolution a pour conséquence le jugement puis l'exécution du roi Charles Ier le 30 janvier 1649 à Whitehall près de Westminster. La monarchie est abolie et une « République », appelée Commonwealth d'Angleterre, est instaurée avec Oliver Cromwell à sa tête. Cette révolution marquante pour l'Angleterre et l'Europe est une étape cruciale dans la transformation du pouvoir royal anglais, qui s'oriente progressivement vers une monarchie constitutionnelle.",
+        "url": "https://fr.wikipedia.org/wiki/Premi%C3%A8re_r%C3%A9volution_anglaise"
+      },
+      "pt": {
+        "title": "Guerra Civil Inglesa",
+        "extract": "A Guerra Civil Inglesa, ou Grande Rebelião, foi uma série de guerras civis e manobras políticas entre Realistas e Parlamentares no Reino da Inglaterra, de 1642 a 1651. Parte das mais amplas Guerras dos Três Reinos, de 1639 a 1653, o conflito consistiu na Primeira Guerra Civil Inglesa e na Segunda Guerra Civil Inglesa. A Guerra Anglo-Escocesa de 1650 a 1652 às vezes é chamada de Terceira Guerra Civil Inglesa.",
+        "url": "https://pt.wikipedia.org/wiki/Guerra_Civil_Inglesa"
+      }
+    }
+  },
+  "Siege of Hull (1642)": {
+    "pages": {
+      "en": {
+        "title": "Siege of Hull (1642)",
+        "extract": "The first siege of Hull marked an escalation in the conflict between King Charles I and Parliament during the preliminaries of the First English Civil War. Charles sought to secure the large arsenal held in Kingston upon Hull, East Riding of Yorkshire. He first approached the town in late April 1642 and was rebuffed by the town's Parliamentarian governor, Sir John Hotham. Charles retreated to York but in July he received news that Hotham might be willing to hand over the town if the Royalists approached with force large enough for Hotham to surrender with his honour intact.",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Hull_(1642)"
+      },
+      "pt": {
+        "title": "Cerco de Hull (1642)",
+        "extract": "O primeiro Cerco de Hull marcou uma enorme escalada nas hostilidades entre o Rei Carlos I e o Parlamento durante os preparativos para a Primeira Guerra Civil Inglesa.",
+        "url": "https://pt.wikipedia.org/wiki/Cerco_de_Hull_(1642)"
+      }
+    }
+  },
+  "Siege of Portsmouth": {
+    "pages": {
+      "en": {
+        "title": "Siege of Portsmouth",
+        "extract": "The siege of Portsmouth was the siege of a Royalist garrison in Portsmouth by a Parliamentarian force conducted in the early part of the First English Civil War. The siege resulted in Portsmouth falling to Parliament after a little under a month of conflict.",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Portsmouth"
+      }
+    }
+  },
+  "Siege of Plymouth": {
+    "pages": {
+      "en": {
+        "title": "Siege of Plymouth",
+        "extract": "The Siege of Plymouth, August 1642 to February 1646, took place during the First English Civil War, when Royalist forces besieged the Parliamentarian-held port of Plymouth in Devon.",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Plymouth"
+      },
+      "pt": {
+        "title": "Cerco de Plymouth",
+        "extract": "O Cerco de Plymouth ocorreu durante a Primeira Guerra Civil Inglesa, quando forças Realistas cercaram Plymouth, em Devon, defendida por uma guarnição Parlamentarista.",
+        "url": "https://pt.wikipedia.org/wiki/Cerco_de_Plymouth"
+      }
+    }
+  },
+  "Battle of Powick Bridge": {
+    "pages": {
+      "ko": {
+        "title": "포위크 다리 전투",
+        "extract": "포위크 다리 전투(영어: Battle of Powick Bridge)는 제1차 잉글랜드 내전인 1642년 9월 23일 왕당파와 의회파가 잉글랜드 우스터 인근에서 벌인 충돌이다. 이 충돌은 왕당파와 의회파의 첫 전투였다. 존 바이런 경은 옥스퍼드에서 슈루즈베리에 있는 찰스 1세의 군대로 귀중품을 수송하는 왕당파 호송대를 호위하고 있었고, 의회파들이 가까이 있는 것을 걱정한 나머지 9월 16일 우스터로 피신하여 지원군을 기다렸다. 왕당파는 루퍼트가 지휘하는 군대를 파견했다. 한편, 의회 의원들은 존 브라운 대령이 이끄는 분견대를 보내 호송선단을 점령하려 했다. 각 군대는 기병과 용기병을 혼합한 약 1,000명의 기마병으로 구성되었다.",
+        "url": "https://ko.wikipedia.org/wiki/%ED%8F%AC%EC%9C%84%ED%81%AC_%EB%8B%A4%EB%A6%AC_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Powick Bridge",
+        "extract": "The battle of Powick Bridge was a skirmish fought on 23 September 1642 south of Worcester, England, during the First English Civil War. It was the first engagement between elements of the principal field armies of the Royalists and Parliamentarians. Sir John Byron was escorting a Royalist convoy of valuables from Oxford to King Charles's army in Shrewsbury and, worried about the proximity of the Parliamentarians, took refuge in Worcester on 16 September to await reinforcements. The Royalists despatched a force commanded by Prince Rupert. Meanwhile, the Parliamentarians sent a detachment, under Colonel John Brown, to try to capture the convoy. Each force consisted of around 1,000 mounted troops, a mix of cavalry and dragoons.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Powick_Bridge"
+      },
+      "pt": {
+        "title": "Batalha da Ponte de Powick",
+        "extract": "A Batalha da Ponte de Powick foi um confronto ocorrido em 23 de setembro de 1642 ao sul de Worcester, na Inglaterra, durante a Primeira Guerra Civil Inglesa. Foi o primeiro embate entre elementos dos principais exércitos de campanha dos Realistas e dos Parlamentaristas. Sir John Byron escoltava um comboio Realista de objetos de valor de Oxford para o exército do rei Carlos I em Shrewsbury e, preocupado com a proximidade dos Parlamentaristas, refugiou-se em Worcester em 16 de setembro para aguardar reforços. Os Realistas despacharam uma força comandada por Príncipe Rupert. Enquanto isso, os Parlamentaristas enviaram um destacamento, sob o comando do Coronel John Brown, para tentar capturar o comboio. Cada força consistia em cerca de 1.000 soldados montados, uma mistura de cavalaria e dragões.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_da_Ponte_de_Powick"
+      }
+    }
+  },
+  "Battle of Babylon Hill": {
+    "pages": {
+      "en": {
+        "title": "Battle of Babylon Hill",
+        "extract": "The battle of Babylon Hill was an indecisive skirmish that took place between Royalist and Parliamentarian forces near Yeovil, in South West England, on 7 September 1642, during the early stages of the First English Civil War. The engagement occurred after a failed Parliamentarian siege of nearby Royalist-held Sherborne. After the Parliamentarians had retreated to Yeovil, a force of around 350 Royalists was sent to reconnoitre their movements. Under the command of Sir Ralph Hopton, the Royalist detachment established itself on Babylon Hill, on the outskirts of Yeovil.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Babylon_Hill"
+      }
+    }
+  },
+  "Battle of Aylesbury": {
+    "pages": {
+      "en": {
+        "title": "Battle of Aylesbury",
+        "extract": "The Battle of Aylesbury was an engagement which took place on 1 November 1642, when Royalist forces, under the command of Prince Rupert, fought Aylesbury's Parliamentarian garrison at Holman's Bridge a few miles to the north of Aylesbury. The Parliamentarian forces were victorious, despite being heavily outnumbered.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Aylesbury"
+      }
+    }
+  },
+  "Battle of Edgehill": {
+    "pages": {
+      "en": {
+        "title": "Battle of Edgehill",
+        "extract": "The Battle of Edgehill was a pitched battle of the First English Civil War. It was fought near Edge Hill and Kineton in southern Warwickshire on Sunday, 23 October 1642.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Edgehill"
+      },
+      "es": {
+        "title": "Batalla de Edgehill",
+        "extract": "La batalla de Edgehill fue la primera batalla importante de la primera guerra civil inglesa. Tuvo lugar cerca de Kineton en Warwickshire, el 23 de octubre de 1642. El resultado fue la victoria de las tropas parlamentaristas al mando del Conde de Essex sobre las tropas realistas de Carlos I de Inglaterra comandadas por el príncipe Ruperto del Rin, el resultado de la batalla imposibilitó a los realistas tomar Londres y así asegurarse una victoria rápida sobre los Parlamentarios. A partir de esta batalla se iniciaron tres años de guerra civil.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Edgehill"
+      },
+      "ar": {
+        "title": "معركة إيدجهيل",
+        "extract": "معركة إيدجهيل : هي معركة ضارية في الحرب الأهلية الإنجليزية الأولى. وقعت بالقرب من إيدج هيل وكينيتن في جنوب وارويكشاير يوم الأحد، 23 أكتوبر 1642.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%A5%D9%8A%D8%AF%D8%AC%D9%87%D9%8A%D9%84"
+      },
+      "fr": {
+        "title": "Bataille d'Edgehill",
+        "extract": "La bataille de Edgehill est la première bataille rangée de la Première guerre civile anglaise. Elle a lieu près de Kineton dans le Warwickshire, le 23 octobre 1642. Son issue est indécise et ne permet pas aux royalistes de prendre Londres et ainsi de s'assurer une victoire rapide sur les parlementaires. Avec cette bataille commencent trois ans de guerre civile.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_d'Edgehill"
+      }
+    }
+  },
+  "Battle of Brentford (1642)": {
+    "pages": {
+      "en": {
+        "title": "Battle of Brentford (1642)",
+        "extract": "The Battle of Brentford was a small pitched battle which took place on 12 November 1642 in Brentford, Middlesex, between a detachment of the Royalist army under the command of Prince Rupert, and two infantry regiments of Parliamentarians with some horse in support. The result was a victory for the Royalists.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Brentford_(1642)"
+      },
+      "pt": {
+        "title": "Batalha de Brentford (1642)",
+        "extract": "A Batalha de Brentford foi um pequeno combate campal que ocorreu em 12 de novembro de 1642 em Brentford, Middlesex, entre um destacamento do exército realista sob o comando do Príncipe Ruperto, e dois regimentos de infantaria Parlamentaristas, apoiados por alguma cavalaria. O resultado foi uma vitória dos realistas.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Brentford_(1642)"
+      }
+    }
+  },
+  "Battle of Turnham Green": {
+    "pages": {
+      "en": {
+        "title": "Battle of Turnham Green",
+        "extract": "The Battle of Turnham Green took place on 13 November 1642 near the village of Turnham Green, at the end of the first campaigning season of the First English Civil War. The battle resulted in a standoff between the forces of King Charles I and the much larger Parliamentarian army under the command of the Earl of Essex. In blocking the Royalist army's way to London immediately, however, the Parliamentarians gained an important strategic victory as the standoff forced Charles and his army to retreat to Oxford for secure winter quarters.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Turnham_Green"
+      },
+      "pt": {
+        "title": "Batalha de Turnham Green",
+        "extract": "A Batalha de Turnham Green ocorreu em 13 de novembro de 1642 perto da vila de Turnham Green, no final da primeira temporada de campanha da Primeira Guerra Civil Inglesa. A batalha resultou em um impasse entre as forças do rei Carlos I e o exército parlamentar muito maior sob o comando do Conde de Essex. Ao bloquear o caminho do exército monarquista para Londres imediatamente, no entanto, os parlamentares obtiveram uma importante vitória estratégica, já que o impasse forçou Carlos e seu exército a recuar para Oxford para garantir quartéis de inverno.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Turnham_Green"
+      }
+    }
+  },
+  "Siege of Reading": {
+    "pages": {
+      "en": {
+        "title": "Siege of Reading",
+        "extract": "The siege of Reading was an eleven-day blockade of Reading, Berkshire during the First English Civil War. Reading had been garrisoned by 3,000 Royalist troops under Sir Arthur Aston in November 1642. On 14 April 1643, Robert Devereux, 3rd Earl of Essex led a Parliamentarian army of 19,000 troops to lay siege to the town, and began bombarding it two days later.",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Reading"
+      },
+      "pt": {
+        "title": "Cerco de Reading",
+        "extract": "O Cerco de Reading foi um bloqueio de onze dias a Reading, Berkshire, durante a Primeira Guerra Civil Inglesa. Reading havia sido guarnecida por 3.000 tropas realistas sob o comando de Sir Arthur Aston [en] em novembro de 1642. Em 14 de abril de 1643, Robert Devereux, 3º Conde de Essex [en] liderou um exército parlamentarista de 19.000 soldados para sitiar a cidade, começando a bombardeá-la dois dias depois.",
+        "url": "https://pt.wikipedia.org/wiki/Cerco_de_Reading"
+      }
+    }
+  },
+  "Battle of Braddock Down": {
+    "pages": {
+      "en": {
+        "title": "Battle of Braddock Down",
+        "extract": "The Battle of Braddock Down took place during the south-western campaign of the First English Civil War. It was fought on open ground in Cornwall, on 19 January 1643. An apparently easy victory for the Royalists under Sir Ralph Hopton secured Cornwall for King Charles and confirmed Hopton's reputation as a commander. Hopton also gained respect for the mercy shown to his foe, of whom 1,500 were captured during and after the battle. The precise location of the battlefield is a matter of dispute, though English Heritage believe it to be within parkland at Boconnoc.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Braddock_Down"
+      },
+      "pt": {
+        "title": "Batalha de Braddock Down",
+        "extract": "A Batalha de Braddock Down ocorreu durante a campanha do sudoeste da Primeira Guerra Civil Inglesa. Foi travada em terreno aberto na Cornualha, em 19 de janeiro de 1643. Uma vitória aparentemente fácil para os Realistas sob o comando de Sir Ralph Hopton [en] assegurou a Cornualha para o Rei Carlos e confirmou a reputação de Hopton como comandante. Hopton também ganhou respeito pela misericórdia demonstrada ao seu inimigo, do qual 1.500 homens foram capturados durante e após a batalha. A localização precisa do campo de batalha é uma questão de disputa, embora a English Heritage acredite que esteja dentro da área de parque em Boconnoc [en].",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Braddock_Down"
+      }
+    }
+  },
+  "Battle of Hopton Heath": {
+    "pages": {
+      "en": {
+        "title": "Battle of Hopton Heath",
+        "extract": "The Battle of Hopton Heath was a part of the First English Civil War, fought on Sunday 19 March 1643 between Parliamentarian forces led by Sir John Gell, 1st Baronet of Hopton and Sir William Brereton, 1st Baronet and the Royalist forces under Spencer Compton, 2nd Earl of Northampton.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Hopton_Heath"
+      }
+    }
+  },
+  "First Battle of Middlewich": {
+    "pages": {
+      "en": {
+        "title": "First Battle of Middlewich",
+        "extract": "The First Battle of Middlewich took place on 13 March 1643, during the First English Civil War, and was fought between the Parliamentarians, under Sir William Brereton, and the Royalist supporters of King Charles I of England, under Sir Thomas Aston.",
+        "url": "https://en.wikipedia.org/wiki/First_Battle_of_Middlewich"
+      }
+    }
+  },
+  "Battle of Adwalton Moor": {
+    "pages": {
+      "en": {
+        "title": "Battle of Adwalton Moor",
+        "extract": "The Battle of Adwalton Moor occurred on 30 June 1643 at Adwalton, West Yorkshire, during the First English Civil War. In the battle, the Royalists loyal to King Charles led by the Earl of Newcastle soundly defeated the Parliamentarians commanded by Lord Fairfax.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Adwalton_Moor"
+      },
+      "es": {
+        "title": "Batalla de Adwalton Moor",
+        "extract": "La batalla de Adwalton Moor es una batalla de la primera guerra civil inglesa. Tuvo lugar cerca de Bradford, en el condado de West Yorkshire, el 30 de junio de 1643.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Adwalton_Moor"
+      },
+      "fr": {
+        "title": "Bataille d'Adwalton Moor",
+        "extract": "La bataille d'Adwalton Moor est une bataille de la Première guerre civile anglaise. Elle a lieu à Bradford,",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_d'Adwalton_Moor"
+      }
+    }
+  },
+  "Battle of Chalgrove Field": {
+    "pages": {
+      "en": {
+        "title": "Battle of Chalgrove Field",
+        "extract": "The Battle of Chalgrove Field took place on 18 June 1643, during the First English Civil War, near Chalgrove, Oxfordshire. It is now best remembered for the death of John Hampden, who was wounded in the shoulder during the battle and died six days later.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Chalgrove_Field"
+      },
+      "pt": {
+        "title": "Batalha de Chalgrove Field",
+        "extract": "A Batalha de Chalgrove Field ocorreu em 18 de junho de 1643, durante a Primeira Guerra Civil Inglesa, perto de Chalgrove [en], Oxfordshire. Atualmente, o evento é mais lembrado pela morte de John Hampden [en], que foi ferido no ombro durante o combate e faleceu seis dias depois.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Chalgrove_Field"
+      }
+    }
+  },
+  "Battle of Roundway Down": {
+    "pages": {
+      "en": {
+        "title": "Battle of Roundway Down",
+        "extract": "The Battle of Roundway Down was fought on 13 July 1643 at Roundway Down near Devizes, in Wiltshire during the First English Civil War. Despite being outnumbered and exhausted after riding overnight from Oxford, a Royalist cavalry force under Lord Wilmot won a crushing victory over the Parliamentarian Army of the West under Sir William Waller.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Roundway_Down"
+      },
+      "pt": {
+        "title": "Batalha de Roundway Down",
+        "extract": "A Batalha de Roundway Down foi travada em 13 de julho de 1643 em Roundway Down [en], próximo a Devizes [en], em Wiltshire, durante a Primeira Guerra Civil Inglesa. Apesar de estarem em desvantagem numérica e exaustos após uma cavalgada noturna desde Oxford, uma força de cavalaria realista sob o comando de Lord Wilmot [en] obteve uma vitória esmagadora sobre o Exército do Oeste parlamentarista comandado por Sir William Waller [en].",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Roundway_Down"
+      }
+    }
+  },
+  "Battle of Lansdowne": {
+    "pages": {
+      "en": {
+        "title": "Battle of Lansdowne",
+        "extract": "The First English Civil War battle of Lansdowne, or Lansdown, was fought on 5 July 1643, at Lansdowne Hill, near Bath, Somerset, England. Although the Royalists under Lord Hopton forced the Parliamentarians under Sir William Waller to retreat from their hilltop position, they suffered so many casualties themselves and were left so disordered and short of ammunition that an injured Hopton was forced to retire.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Lansdowne"
+      }
+    }
+  },
+  "Battle of Gainsborough": {
+    "pages": {
+      "en": {
+        "title": "Battle of Gainsborough",
+        "extract": "The Battle of Gainsborough took place during the First English Civil War on 28 July 1643. The strategically important town of Gainsborough, Lincolnshire, was a Royalist base used for harassing the Parliamentarians who were generally dominant in Lincolnshire, but it was taken by Parliamentarians in July 1643. An attempt to recapture Gainsborough by Charles Cavendish and the Royalists was foiled in a battle in which Colonel Oliver Cromwell distinguished himself as a cavalry leader.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Gainsborough"
+      }
+    }
+  },
+  "Siege of Gloucester": {
+    "pages": {
+      "en": {
+        "title": "Siege of Gloucester",
+        "extract": "The siege of Gloucester took place between 10 August and 5 September 1643 during the First English Civil War. It was part of a Royalist campaign led by King Charles I to take control of the Severn Valley from the Parliamentarians. Following the costly storming of Bristol on 26 July, Charles invested Gloucester in the hope that a show of force would prompt it to surrender quickly and without bloodshed. When the city, under the governorship of Lieutenant-Colonel Edward Massey, refused, the Royalists attempted to bombard it into submission. Massey adopted an aggressive defence, and the Royalist positions outside the city were regularly disrupted by Parliamentarian raids. The Royalist artillery proved inadequate for the task of siege work and, faced with a shortage of ammunition, the besiegers attempted to breach the city walls by mining. With Royalist miners about to reach the city's east gate and the defenders critically low on gunpowder, a Parliamentarian army led by the Earl of Essex arrived and forced Charles to lift the siege.",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Gloucester"
+      },
+      "pt": {
+        "title": "Cerco de Gloucester",
+        "extract": "O Cerco de Gloucester ocorreu entre 10 de agosto e 5 de setembro de 1643 durante a Primeira Guerra Civil Inglesa. Foi parte de uma campanha realista liderada pelo rei Carlos I para tomar o controle do Vale do Severn dos parlamentaristas. Após a custosa tomada de Bristol em 26 de julho, Carlos investiu contra Gloucester na esperança de que uma demonstração de força a levasse a se render rapidamente e sem derramamento de sangue. Quando a cidade, sob o governo do tenente-coronel Edward Massey [en], recusou-se, os realistas tentaram bombardeá-la para subjugá-la. Massey adotou uma defesa agressiva, e as posições realistas fora da cidade eram regularmente perturbadas por ataques parlamentaristas. A artilharia realista mostrou-se inadequada para o trabalho de cerco e, enfrentando escassez de munição, os sitiantes tentaram romper as muralhas da cidade por meio de minas. Com os mineiros realistas prestes a alcançar o portão leste da cidade e os defensores criticamente baixos em pólvora, um exército parlamentarista liderado pelo Conde de Essex [en] chegou e forçou Carlos a levantar o cerco.",
+        "url": "https://pt.wikipedia.org/wiki/Cerco_de_Gloucester"
+      }
+    }
+  },
+  "First Battle of Newbury": {
+    "pages": {
+      "en": {
+        "title": "First Battle of Newbury",
+        "extract": "The First Battle of Newbury was a battle of the First English Civil War that was fought on 20 September 1643 between a Royalist army, under the personal command of King Charles, and a Parliamentarian force led by the Earl of Essex. Following a year of Royalist battlefield successes, in which they took Banbury, Oxford and Reading without conflict before storming Bristol, the Parliamentarians were left without an effective army in the west of England. When Charles laid siege to Gloucester, Parliament was forced to muster a force under Essex with which to beat Charles' forces off. After a long march, Essex surprised the Royalists and forced them away from Gloucester before beginning a retreat to London. Charles rallied his forces and pursued Essex, overtaking the Parliamentarian army at Newbury and forcing them to march past the Royalist force to continue their retreat.",
+        "url": "https://en.wikipedia.org/wiki/First_Battle_of_Newbury"
+      },
+      "fr": {
+        "title": "Première bataille de Newbury",
+        "extract": "La bataille de Newbury est une bataille de la Première guerre civile anglaise. Le combat s'est déroulé le 20 septembre 1643 entre une armée royaliste, sous le commandement personnel de Charles Ier d'Angleterre et une force parlementaire dirigée par le comte d'Essex. Après une année de succès des armées royalistes au cours de laquelle elles prennent Banbury, Oxford et Reading sans conflit avant la prise de Bristol, les troupes parlementaires ont été laissées sans armée efficace sur le champ de bataille. Lorsque Charles Ier assiège Gloucester (en), le parlement est forcé de rassembler une armée sous le commandement d'Essex pour battre les forces de Charles Ier. Après une longue marche, Essex surprend les royalistes et les repousse loin de Gloucester avant de commencer une retraite en direction de Londres. Charles rallie ses forces et poursuit Essex, dépassant l'armée parlementaire à Newbury et la forçant à continuer sa retraite.",
+        "url": "https://fr.wikipedia.org/wiki/Premi%C3%A8re_bataille_de_Newbury"
+      },
+      "pt": {
+        "title": "Primeira Batalha de Newbury",
+        "extract": "A Primeira Batalha de Newbury foi um confronto da Primeira Guerra Civil Inglesa travado em 20 de setembro de 1643 entre um exército realista, sob o comando pessoal do rei Carlos I, e uma força parlamentarista liderada pelo Conde de Essex [en]. Após um ano de vitórias realistas no campo de batalha — que culminou com a captura de Banbury, Oxford e Reading sem combate, seguida pela tomada de Bristol —, os parlamentaristas ficaram sem um exército efetivo no oeste da Inglaterra. Quando Carlos colocou cerco a Gloucester, o Parlamento foi obrigado a reunir uma força sob Essex para levantar o cerco. Após uma longa marcha, Essex surpreendeu os realistas e obrigou-os a recuar de Gloucester, iniciando então uma retirada para Londres. Carlos reuniu suas tropas e perseguiu Essex, alcançando o exército parlamentarista em Newbury e forçando-o a marchar pela força realista para continuar sua retirada.",
+        "url": "https://pt.wikipedia.org/wiki/Primeira_Batalha_de_Newbury"
+      }
+    }
+  },
+  "Battle of Winceby": {
+    "pages": {
+      "en": {
+        "title": "Battle of Winceby",
+        "extract": "The Battle of Winceby took place on 11 October 1643 during the First English Civil War near the village of Winceby, Lincolnshire. In the battle, a Royalist relieving force under the command of Sir William Widdrington was defeated by the Parliamentarian cavalry of the Earl of Manchester.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Winceby"
+      },
+      "es": {
+        "title": "Batalla de Winceby",
+        "extract": "La batalla de Winceby tuvo lugar el 11 de octubre de 1643 durante la guerra civil inglesa, cerca el pueblo de Winceby, Lincolnshire, aproximadamente 4 millas al este de Horncastle.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Winceby"
+      }
+    }
+  },
+  "Siege of Basing House": {
+    "pages": {
+      "en": {
+        "title": "Siege of Basing House",
+        "extract": "The siege of Basing House near Basingstoke in Hampshire, was a Parliamentarian victory late in the First English Civil War. Whereas the title of the event may suggest a single siege, there were in fact three major engagements. John Paulet, 5th Marquess of Winchester owned the House and as a committed Royalist garrisoned it in support of King Charles I, as it commanded the road from London to the west through Salisbury.",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Basing_House"
+      }
+    }
+  },
+  "Battle of Cheriton": {
+    "pages": {
+      "en": {
+        "title": "Battle of Cheriton",
+        "extract": "The Battle of Cheriton of 29 March 1644 was an important Parliamentarian victory during the First English Civil War. Sir William Waller's \"Army of the Southern Association\" defeated a Royalist force jointly commanded by the Earl of Forth and Sir Ralph Hopton. Defeat ended Royalist hopes of retaking South East England and forced them onto the defensive for the rest of 1644.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Cheriton"
+      }
+    }
+  },
+  "Siege of York": {
+    "pages": {
+      "en": {
+        "title": "Siege of York",
+        "extract": "The siege of York in 1644 was a prolonged contest for York during the First English Civil War, between the Scottish Covenanter army and the Parliamentarian armies of the Northern Association and Eastern Association, and the Royalist Army under the Marquess of Newcastle. It lasted from 22 April until 1 July when the city was relieved by Prince Rupert of the Rhine. Rupert and Newcastle were defeated the next day at the decisive Battle of Marston Moor, and the siege resumed until the city was surrendered on easy terms on 16 July.",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_York"
+      },
+      "pt": {
+        "title": "Cerco de Iorque",
+        "extract": "‎",
+        "url": "https://pt.wikipedia.org/wiki/Cerco_de_Iorque"
+      }
+    }
+  },
+  "Storming of Bolton": {
+    "pages": {
+      "en": {
+        "title": "Storming of Bolton",
+        "extract": "The Storming of Bolton, sometimes referred to as the \"Bolton massacre\", was an event in the First English Civil War which happened on 28 May 1644. The strongly Parliamentarian town was stormed and captured by Royalist forces under Prince Rupert. It was alleged that up to 1,600 of Bolton's defenders and inhabitants were slaughtered during and after the fighting. The \"massacre at Bolton\" became a staple of Parliamentarian propaganda.",
+        "url": "https://en.wikipedia.org/wiki/Storming_of_Bolton"
+      },
+      "pt": {
+        "title": "Tomada de Bolton",
+        "extract": "A Tomada de Bolton, às vezes referido como o \"massacre de Bolton\", foi um evento da Primeira Guerra Civil Inglesa ocorrido em 28 de maio de 1644. A cidade fortemente Parlamentaristas foi invadida e capturada por forças Realistas sob o comando do Príncipe Ruperto. Alegou-se que até 1.600 defensores e habitantes de Bolton foram massacrados durante e após os combates. O \"massacre de Bolton\" tornou-se um elemento básico da propaganda parlamentaristas.",
+        "url": "https://pt.wikipedia.org/wiki/Tomada_de_Bolton"
+      }
+    }
+  },
+  "Siege of Oxford": {
+    "pages": {
+      "en": {
+        "title": "Siege of Oxford",
+        "extract": "The siege of Oxford consisted of the English Civil War military campaigns waged to besiege the Royalist controlled city of Oxford. These were three short engagements over a period of twenty-five months, The siege ended with a Parliamentarian victory in June 1646.",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Oxford"
+      },
+      "pt": {
+        "title": "Cerco de Oxford",
+        "extract": "O Cerco de Oxford compreendeu as campanhas militares da Primeira Guerra Civil Inglesa travadas para sitiar a cidade de Oxford, controlada pelos Realistas, e envolveu três breves confrontos ao longo de vinte e cinco meses, que terminaram com uma vitória parlamentarista em junho de 1646.",
+        "url": "https://pt.wikipedia.org/wiki/Cerco_de_Oxford"
+      }
+    }
+  },
+  "Battle of Cropredy Bridge": {
+    "pages": {
+      "en": {
+        "title": "Battle of Cropredy Bridge",
+        "extract": "The Battle of Cropredy Bridge was fought on Saturday 29 June 1644 near Banbury, Oxfordshire during the First English Civil War. In the engagement, Sir William Waller and the Parliamentarian army failed to capture King Charles.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Cropredy_Bridge"
+      }
+    }
+  },
+  "Battle of Marston Moor": {
+    "pages": {
+      "ko": {
+        "title": "마스턴 무어 전투",
+        "extract": "마스턴 무어 전투(Battle of Marston Moor)는 1639년부터 1653년까지 삼왕국 전쟁 중인 1644년 7월 2일에 벌어졌다. 레벤 백작은 라인 공자 루퍼트와 뉴캐슬 후작이 지휘하는 왕정주의자들을 물리쳤다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%A7%88%EC%8A%A4%ED%84%B4_%EB%AC%B4%EC%96%B4_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Marston Moor",
+        "extract": "The Battle of Marston Moor was fought on 2 July 1644, during the Wars of the Three Kingdoms of 1639–1653. The combined forces of the English Parliamentarians under Lord Fairfax and the Earl of Manchester and the Scottish Covenanters under the Earl of Leven defeated the Royalists commanded by Prince Rupert of the Rhine and the Marquess of Newcastle.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Marston_Moor"
+      },
+      "zh": {
+        "title": "马斯顿荒原战役",
+        "extract": "马斯顿荒原战役 发生于1644年7月2日，是1642–1646年第一次英格兰内战的一部分。利文伯爵指挥的苏格兰盟约者与费尔法克斯勋爵与曼彻斯特伯爵指挥的英格兰议会派联合军力，打败了普法尔茨的鲁普雷希特亲王和纽卡斯尔侯爵统率的保皇党。",
+        "url": "https://zh.wikipedia.org/wiki/%E9%A9%AC%E6%96%AF%E9%A1%BF%E8%8D%92%E5%8E%9F%E6%88%98%E5%BD%B9"
+      },
+      "es": {
+        "title": "Batalla de Marston Moor",
+        "extract": "La batalla de Marston Moor tuvo lugar el 2 de julio de 1644. Fue la principal batalla de la Primera revolución inglesa y una de las más decisivas, que enfrentó al ejército de la Monarquía de Carlos I de Inglaterra contra las tropas del Parlamento británico. La victoria fue de los parlamentarios y, como consecuencia, el rey Carlos I perdió el norte de Inglaterra.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Marston_Moor"
+      },
+      "ar": {
+        "title": "معركة مارستون مور",
+        "extract": "دارت معركة مارستون مور في 2 يوليو 1644، أثناء حروب الممالك الثلاث التي امتدت بين عامي 1639 و1653. هُزم الملكيون تحت قيادة الأمير روبرت الرايني ومركيز نيوكاسل على يد القوات المشتركة للبرلمانيين الإنجليز بقيادة لورد فيرفاكس وإيرل مانشستر والاسكتلنديين الكوفنانتيين (المتعاهدين) بقيادة إيرل ليفين.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D9%85%D8%A7%D8%B1%D8%B3%D8%AA%D9%88%D9%86_%D9%85%D9%88%D8%B1"
+      },
+      "fr": {
+        "title": "Bataille de Marston Moor",
+        "extract": "La bataille de Marston Moor a eu lieu le 2 juillet 1644 durant la Première guerre civile anglaise. Les forces combinées des Covenantaires écossais, sous les ordres d'Alexander Leslie, et les Parlementariens, dirigés par Ferdinando Fairfax et le comte de Manchester, y ont vaincu les Royalistes, commandés par le prince Rupert du Rhin et le marquis de Newcastle.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Marston_Moor"
+      },
+      "pt": {
+        "title": "Batalha de Marston Moor",
+        "extract": "A Batalha de Marston Moor, que se deu no dia 2 de julho de 1644, durante a Primeira Guerra Civil Inglesa de 1642-1646. As forças combinadas dos parlamentares ingleses sob Ferdinando Fairfax, 2º Lorde Fairfax de Cameron e Edward Montagu, 2º conde de Manchester e os escoceses Covenanters sob Alexander Leslie, primeiro conde de Leven derrotaram os monarquistas comandados pelo príncipe Ruperto do Reno e por William Cavendish, 1.º Duque de Newcastle-upon-Tyne.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Marston_Moor"
+      }
+    }
+  },
+  "Battle of Lostwithiel": {
+    "pages": {
+      "en": {
+        "title": "Battle of Lostwithiel",
+        "extract": "The Battle of Lostwithiel took place over a 13-day period from 21 August to 2 September 1644, around the town of Lostwithiel and along the River Fowey valley in Cornwall during the First English Civil War. A Royalist army led by Charles I of England defeated a Parliamentarian force commanded by the Earl of Essex.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Lostwithiel"
+      },
+      "pt": {
+        "title": "Batalha de Lostwithiel",
+        "extract": "A Batalha de Lostwithiel ocorreu durante um período de 13 dias, de 21 de agosto a 2 de setembro de 1644, em torno da cidade de Lostwithiel [en] e ao longo do vale do Rio Fowey [en] na Cornualha durante a Primeira Guerra Civil Inglesa. Um exército realista liderado por Carlos I de Inglaterra derrotou uma força parlamentarista comandada pelo Conde de Essex [en].",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Lostwithiel"
+      }
+    }
+  },
+  "Battle of Tippermuir": {
+    "pages": {
+      "en": {
+        "title": "Battle of Tippermuir",
+        "extract": "The Battle of Tippermuir was the first battle James Graham, 1st Marquis of Montrose, fought for King Charles I in the Scottish theatre of the Wars of the Three Kingdoms. During the battle, Montrose's Royalist forces routed an army of the Covenanter-dominated Scottish government under John Wemyss, Lord Elcho. The government side took heavy losses. The battle was the last to involve the English longbow.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Tippermuir"
+      }
+    }
+  },
+  "Sieges of Taunton": {
+    "pages": {
+      "en": {
+        "title": "Sieges of Taunton",
+        "extract": "The sieges of Taunton were a series of three blockades during the First English Civil War. The town of Taunton, in Somerset, was considered to be of strategic importance because it controlled the main road from Bristol to Devon and Cornwall. Robert Blake commanded the town's Parliamentarian defences during all three sieges, from September 1644 to July 1645.",
+        "url": "https://en.wikipedia.org/wiki/Sieges_of_Taunton"
+      },
+      "es": {
+        "title": "Sitios de Taunton",
+        "extract": "Los sitios de Taunton fueron una serie de tres bloqueos durante la primera guerra civil inglesa. La ciudad de Taunton, en Somerset, era considerada de gran importancia estratégica, debido a que controlaba la principal vía de Brístol a Devon y Cornualles. Robert Blake ordenó defensas parlamentaristas de la ciudad durante los tres asedios, desde septiembre de 1644 a julio de 1645.",
+        "url": "https://es.wikipedia.org/wiki/Sitios_de_Taunton"
+      },
+      "ar": {
+        "title": "حصار تونتون",
+        "extract": "حصار تونتون هو مجموعة متسلسلة من الحصارات البحرية، عددها ثلاث، جرت أحداثها في مدينة تونتون البريطانية خلال الحرب الأهلية الإنجليزية الأولى.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%AD%D8%B5%D8%A7%D8%B1_%D8%AA%D9%88%D9%86%D8%AA%D9%88%D9%86"
+      },
+      "fr": {
+        "title": "Sièges de Taunton",
+        "extract": "Les sièges de Taunton sont une série de trois sièges ayant lieu entre septembre 1644 et juillet 1645 autour de Taunton, une ville du Somerset, dans le Sud-Ouest de l'Angleterre. Ces affrontements s'inscrivent dans le cadre de la première guerre civile anglaise, qui oppose les partisans du roi Charles Ier à ceux du Parlement. Taunton est stratégiquement importante du fait de sa position sur la principale route reliant la ville de Bristol aux comtés du Devon et des Cornouailles.",
+        "url": "https://fr.wikipedia.org/wiki/Si%C3%A8ges_de_Taunton"
+      },
+      "pt": {
+        "title": "Cercos de Taunton",
+        "extract": "Os Cercos de Taunton foram uma série de três bloqueios durante a Primeira Guerra Civil Inglesa. A cidade de Taunton, em Somerset, era considerada de importância estratégica porque controlava a estrada principal de Bristol para Devon e Cornualha. Robert Blake comandou as defesas parlamentaristas da cidade durante todos os três cercos, de setembro de 1644 a julho de 1645.",
+        "url": "https://pt.wikipedia.org/wiki/Cercos_de_Taunton"
+      }
+    }
+  },
+  "Second Battle of Newbury": {
+    "pages": {
+      "en": {
+        "title": "Second Battle of Newbury",
+        "extract": "The Second Battle of Newbury was a battle of the First English Civil War fought on 27 October 1644, in Speen, adjoining Newbury in Berkshire. The battle was fought close to the site of the First Battle of Newbury, which took place in late September the previous year.",
+        "url": "https://en.wikipedia.org/wiki/Second_Battle_of_Newbury"
+      },
+      "fr": {
+        "title": "Seconde bataille de Newbury",
+        "extract": "La seconde bataille de Newbury a lieu le 27 octobre 1644, à Speen, près de Newbury dans le Berkshire. Elle se déroule près du site de la Première bataille de Newbury qui s'est accomplie en septembre de l'année précédente.",
+        "url": "https://fr.wikipedia.org/wiki/Seconde_bataille_de_Newbury"
+      }
+    }
+  },
+  "Battle of Naseby": {
+    "pages": {
+      "en": {
+        "title": "Battle of Naseby",
+        "extract": "The Battle of Naseby took place on 14 June 1645 during the First English Civil War, near the village of Naseby in Northamptonshire. The Parliamentarian New Model Army, commanded by Sir Thomas Fairfax and Oliver Cromwell, destroyed the main Royalist army under Charles I and Prince Rupert. The defeat ended any real hope of Royalist victory, although Charles did not finally surrender until May 1646.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Naseby"
+      },
+      "zh": {
+        "title": "内斯比战役",
+        "extract": "内斯比战役于1645年6月14日在第一次英国内战期间在北安普敦郡的内斯比村附近发生。在此战中，由托马斯·费尔法克斯爵士和奥利弗·克伦威尔指挥的圆颅党（议会党）新模范军彻底摧毁了查理一世和鲁珀特亲王领导下的骑士党（保王党）军队。此战的失败摧毁了骑士党取胜的最后希望，尽管查理一世直到1646年5月才最终投降。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%86%85%E6%96%AF%E6%AF%94%E6%88%98%E5%BD%B9"
+      },
+      "es": {
+        "title": "Batalla de Naseby",
+        "extract": "La batalla de Naseby es la batalla clave de la primera guerra civil inglesa. El 14 de junio de 1645, el principal ejército del rey Carlos I fue destruido por el Nuevo Ejército Modelo parlamentario, al mando de sir Thomas Fairfax y Oliver Cromwell.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Naseby"
+      },
+      "ar": {
+        "title": "معركة ناسبي",
+        "extract": "وقعت معركة ناسبي في 14 يونيو 1645، بين جيش النموذج الجديد بقيادة أوليفر كرومويل وبين الجيش الملكي بقيادة الأمير روبرت.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D9%86%D8%A7%D8%B3%D8%A8%D9%8A"
+      },
+      "fr": {
+        "title": "Bataille de Naseby",
+        "extract": "La bataille de Naseby est un affrontement de la Première guerre civile anglaise qui se déroule le 14 juin 1645 près du village de Naseby, dans le Northamptonshire. Elle oppose la New Model Army des Parlementaires, commandée par Thomas Fairfax et Oliver Cromwell, à l'armée royaliste commandée par le roi Charles Ier et le prince Rupert du Rhin.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Naseby"
+      },
+      "pt": {
+        "title": "Batalha de Naseby",
+        "extract": "A Batalha de Naseby ocorreu em 14 de junho de 1645, durante a Guerra Civil na Inglaterra, perto da vila de Naseby, em Northamptonshire. Os \"Cabeças Redondas\" (Roundheads) do Parlamento da Inglaterra venceram as forças leais ao reinado de Carlos I. A derrota da Coroa na batalha encerrou as possibilidades reais de vitória de Carlos I contra os parlamentares no restante do conflito.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Naseby"
+      }
+    }
+  },
+  "Battle of Langport": {
+    "pages": {
+      "en": {
+        "title": "Battle of Langport",
+        "extract": "The Battle of Langport took place on 10 July 1645 during the First English Civil War, near Langport in Somerset.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Langport"
+      },
+      "pt": {
+        "title": "Batalha de Langport",
+        "extract": "A Batalha de Langport ocorreu em 10 de julho de 1645 durante a Primeira Guerra Civil Inglesa, próximo a Langport [en], em Somerset.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Langport"
+      }
+    }
+  },
+  "Battle of Kilsyth": {
+    "pages": {
+      "en": {
+        "title": "Battle of Kilsyth",
+        "extract": "The Battle of Kilsyth, fought on 15 August 1645 near Kilsyth, was an engagement of the Wars of the Three Kingdoms. The largest battle of the conflict in Scotland, it resulted in victory for the Royalist general Montrose over the forces of the Covenanter-dominated Scottish Parliament, and marked the end of General William Baillie's pursuit of the Royalists.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Kilsyth"
+      }
+    }
+  },
+  "Battle of Philiphaugh": {
+    "pages": {
+      "en": {
+        "title": "Battle of Philiphaugh",
+        "extract": "The Battle of Philiphaugh was fought on 13 September 1645 during the Wars of the Three Kingdoms near Selkirk in the Scottish Borders. The Royalist army of the Marquis of Montrose was destroyed by the Covenanter army of Sir David Leslie, restoring the power of the Committee of Estates.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Philiphaugh"
+      }
+    }
+  },
+  "Battle of Rowton Heath": {
+    "pages": {
+      "en": {
+        "title": "Battle of Rowton Heath",
+        "extract": "The Battle of Rowton Heath, better known as the Battle of Rowton Moor, occurred on 24 September 1645 during the English Civil War. The Parliamentarians, commanded by Sydnam Poyntz, inflicted a significant defeat on the Royalists under the personal command of King Charles I, inflicting heavy losses and preventing Charles from relieving the siege of Chester.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Rowton_Heath"
+      },
+      "pt": {
+        "title": "Batalha de Rowton Heath",
+        "extract": "A Batalha de Rowton Heath, mais conhecida como Batalha de Rowton Moor, ocorreu em 24 de setembro de 1645 durante a Primeira Guerra Civil Inglesa. Os parlamentaristas, comandados por Sydnam Poyntz [en], infligiram uma derrota significativa aos realistas sob o comando pessoal do rei Carlos I, causando pesadas perdas e impedindo que Carlos socorresse o Cerco de Chester.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Rowton_Heath"
+      }
+    }
+  },
+  "Siege of Bristol (1645)": {
+    "pages": {
+      "en": {
+        "title": "Siege of Bristol (1645)",
+        "extract": "The second siege of Bristol of the First English Civil War lasted from 23 August 1645 until 10 September 1645, when the Royalist commander Prince Rupert surrendered the city that he had captured from the Parliamentarians on 26 July 1643. The commander of the Parliamentarian New Model Army forces besieging Bristol was Lord Fairfax.",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Bristol_(1645)"
+      },
+      "pt": {
+        "title": "Cerco de Bristol (1645)",
+        "extract": "O segundo cerco de Bristol durante a Primeira Guerra Civil Inglesa estendeu-se de 23 de agosto a 10 de setembro de 1645, quando o comandante realista Príncipe Ruperto rendeu a cidade que havia capturado dos parlamentaristas em 26 de julho de 1643. O comandante das forças parlamentaristas do New Model Army que cercavam Bristol era Lorde Fairfax.",
+        "url": "https://pt.wikipedia.org/wiki/Cerco_de_Bristol_(1645)"
+      }
+    }
+  },
+  "Battle of Torrington": {
+    "pages": {
+      "en": {
+        "title": "Battle of Torrington",
+        "extract": "The Battle of Torrington was a decisive battle of the south-western campaign of the First English Civil War and marked the end of Royalist resistance in the West Country. It took place in Torrington, Devon.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Torrington"
+      },
+      "fr": {
+        "title": "Bataille de Torrington",
+        "extract": "La bataille de Torrington est une bataille décisive de la Première Guerre civile anglaise qui marque la fin de la résistance royaliste dans l'ouest du pays. Elle se déroule à Torrington, dans le comté du Devon.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Torrington"
+      },
+      "pt": {
+        "title": "Batalha de Torrington",
+        "extract": "A Batalha de Torrington foi uma batalha decisiva da campanha no sudoeste durante a Primeira Guerra Civil Inglesa e marcou o fim da resistência monarquista na região conhecida como West Country. Ocorreu em Torrington, Devon.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Torrington"
+      }
+    }
+  },
+  "Battle of Stow-on-the-Wold": {
+    "pages": {
+      "en": {
+        "title": "Battle of Stow-on-the-Wold",
+        "extract": "The Battle of Stow-on-the-Wold took place near Stow-on-the-Wold in Gloucestershire during the First English Civil War. It was a Parliamentarian victory by detachments of the New Model Army over the last Royalist field army.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Stow-on-the-Wold"
+      },
+      "pt": {
+        "title": "Batalha de Stow-on-the-Wold",
+        "extract": "A Batalha de Stow-on-the-Wold ocorreu próximo a Stow-on-the-Wold, em Gloucestershire, durante a Primeira Guerra Civil Inglesa. Foi uma vitória parlamentarista de destacamentos do New Model Army sobre o último exército de campo realista.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Stow-on-the-Wold"
+      }
+    }
+  },
+  "Battle of St Fagans": {
+    "pages": {
+      "en": {
+        "title": "Battle of St Fagans",
+        "extract": "The Battle of St Fagans took place on 8 May 1648 near St Fagans in South Glamorgan, during the Second English Civil War. A detachment from the veteran Parliamentarian New Model Army defeated a Royalist force primarily composed of mutinous former Parliamentarian soldiers, and ill-equipped levies. Their defeat ended significant Royalist resistance in Wales.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_St_Fagans"
+      },
+      "es": {
+        "title": "Batalla de St. Fagans",
+        "extract": "La batalla de St. Fagans fue una batalla campal en la segunda guerra civil inglesa en 1648. Un destacamento del Nuevo Ejército Modelo derrotó al ejército Parlamentarista quienes se habían rebelado.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_St._Fagans"
+      },
+      "ar": {
+        "title": "معركة سانت فاغنز",
+        "extract": "معركة سانت فاغنز، معركة مرتبة ضمن الحرب الأهلية الإنجليزية الثانية في العام 1648. إذ هزمت كتيبةٌ تابعة للجيش النموذجي الجديد جيشاَ تابعاً للجنود الموالين للبرلمان سابقاً، والذين تمرّدوا عليه وراحوا يحاربونه بعد ذلك.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%B3%D8%A7%D9%86%D8%AA_%D9%81%D8%A7%D8%BA%D9%86%D8%B2"
+      }
+    }
+  },
+  "Battle of Maidstone": {
+    "pages": {
+      "en": {
+        "title": "Battle of Maidstone",
+        "extract": "The Battle of Maidstone was fought in the Second English Civil War and was a victory for the attacking Parliamentarian troops over the defending Royalist forces.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Maidstone"
+      },
+      "pt": {
+        "title": "Batalha de Maidstone",
+        "extract": "A Batalha de Maidstone foi travada durante a Segunda Guerra Civil Inglesa e resultou em uma vitória das tropas atacantes Parlamentaristas sobre as forças defensoras Realistas.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Maidstone"
+      }
+    }
+  },
+  "Siege of Colchester": {
+    "pages": {
+      "en": {
+        "title": "Siege of Colchester",
+        "extract": "The siege of Colchester occurred in the summer of 1648 when the Second English Civil War reignited in several areas of Britain. Colchester found itself in the thick of the unrest when a Royalist army on its way through East Anglia to raise support for the King, was attacked by Lord-General Thomas Fairfax at the head of a Parliamentary force. The Parliamentarians' initial attack forced the Royalist army to retreat behind the town's walls, but they were unable to bring about victory, so they settled down to a siege. Despite the horrors of the siege, the Royalists resisted for eleven weeks and only surrendered following the defeat of the Royalist army in Northern England at the Battle of Preston (1648).",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Colchester"
+      },
+      "es": {
+        "title": "Asedio de Colchester",
+        "extract": "El asedio de Colchester ocurrió en el verano de 1648 cuando la guerra civil inglesa reavivó en varias zonas de Bretaña. Colchester se encontró en el grosor de la contienda cuando un ejército Realista que se dirigía al Anglia Oriental para apoyar al rey, fue atacado por el Lord y general Thomas Fairfax al mando de las fuerzas Parlamentarias. El ataque parlamentario inicial forzó a los realistas a retirarse detrás de las murallas de la ciudad, pero el ejército parlamentario no pudo conseguir la victoria, por lo que se asentaron para preparar un asedio. A pesar de los horrores del asedio, los Realistas resistieron durante once semanas y únicamente se rindieron luego de la derrota en la batalla de Preston del ejército que poseían en el norte de Inglaterra.",
+        "url": "https://es.wikipedia.org/wiki/Asedio_de_Colchester"
+      },
+      "ar": {
+        "title": "حصار كولشيستر",
+        "extract": "وقع حصار كولشيستر في صيف عام 1648 عندما اشتعلت الحرب الأهلية الإنجليزية في عدة مناطق من بريطانيا. وجدت كولشيستر نفسها في خضم الاضطرابات عندما هاجم اللورد الجنرال توماس فيرفاكس على رأس قوة برلمانية جيشاً ملكياً كان يعبر منطقة إيست أنجليا دعماً للملك. أجبر هجوم البرلمانيين الأولي الجيش الملكي على التراجع خلف أسوار المدينة، لكنهم لم يتمكنوا من تحقيق النصر، فانتهى بهم الأمر في حصار. على الرغم من أهوال الحصار، قاوم الملكيون لمدة أحد عشر أسبوعًا ولم يستسلموا إلا بعد هزيمة الجيش الملكي في شمال إنجلترا في معركة بريستون (1648).",
+        "url": "https://ar.wikipedia.org/wiki/%D8%AD%D8%B5%D8%A7%D8%B1_%D9%83%D9%88%D9%84%D8%B4%D9%8A%D8%B3%D8%AA%D8%B1"
+      }
+    }
+  },
+  "Battle of Preston (1648)": {
+    "pages": {
+      "en": {
+        "title": "Battle of Preston (1648)",
+        "extract": "The battle of Preston was fought on 17 August 1648 during the Second English Civil War. A Parliamentarian army commanded by Lieutenant General Oliver Cromwell attacked a considerably larger force of Royalists under James Hamilton, Duke of Hamilton, near the Lancashire town of Preston; the Royalists were defeated with heavy losses.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Preston_(1648)"
+      },
+      "fr": {
+        "title": "Bataille de Preston",
+        "extract": "La bataille de Preston est une bataille clé de la Première Révolution anglaise, durant l'épisode de la Deuxième guerre civile anglaise. Du 17 au 19 août 1648, à Walton-le-Dale, près de Preston, la New Model Army des Parlementaires, dirigée par Cromwell, remporte la victoire sur les Royalistes et les Écossais, dirigés par Hamilton.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Preston"
+      },
+      "pt": {
+        "title": "Batalha de Preston (1648)",
+        "extract": "A Batalha de Preston foi travada em 17 de agosto de 1648 durante a Segunda Guerra Civil Inglesa. Um exército parlamentarista comandado pelo Tenente General Oliver Cromwell atacou uma força consideravelmente maior de realistas sob o comando de Jaime Hamilton, Duque de Hamilton, perto da cidade de Preston, em Lancashire; os realistas foram derrotados com pesadas perdas.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Preston_(1648)"
+      }
+    }
+  },
+  "Battle of Winwick": {
+    "pages": {
+      "en": {
+        "title": "Battle of Winwick",
+        "extract": "The Battle of Winwick was fought on 19 August 1648 near the Lancashire village of Winwick between part of a Royalist army under Lieutenant General William Baillie and a Parliamentarian army commanded by Lieutenant General Oliver Cromwell. The Royalists were defeated with all of those who took part in the fighting, their army's entire infantry force, either killed or captured. The Royalist mounted component fled but surrendered five days after the battle. Winwick was the last battle of the Second English Civil War.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Winwick"
+      },
+      "pt": {
+        "title": "Batalha de Winwick",
+        "extract": "A Batalha de Winwick foi travada em 19 de agosto de 1648, nas proximidades da vila de Winwick [en], em Lancashire, entre parte de um exército Realista sob o comando do Tenente-general William Baillie [en] e um exército Parlamentarista comandado pelo Tenente-general Oliver Cromwell. Os Realistas foram derrotados, e todos os que participaram do combate — toda a força de infantaria do seu exército — foram mortos ou capturados. O componente montado Realista fugiu, mas rendeu-se cinco dias após a batalha. Winwick foi a última batalha da Segunda Guerra Civil Inglesa.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Winwick"
+      }
+    }
+  },
+  "Battle of Dunbar (1650)": {
+    "pages": {
+      "en": {
+        "title": "Battle of Dunbar (1650)",
+        "extract": "The Battle of Dunbar was fought between the English New Model Army, under Oliver Cromwell, and a Scottish army commanded by David Leslie on 3 September 1650 near Dunbar, Scotland. The battle resulted in a decisive victory for the English. It was the first major battle of the 1650 invasion of Scotland.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Dunbar_(1650)"
+      },
+      "zh": {
+        "title": "邓巴战役 (1650年)",
+        "extract": "1650年9月3日，奥利弗·克伦威尔指挥的英格兰新模范军与大卫·莱斯利指挥的苏格兰军队在苏格兰邓巴附近交战，战役以英格兰军队的决定性胜利告终，史称邓巴战役。邓巴战役是英格兰入侵苏格兰中的第一场主要战役，此前，英格兰国王查理一世在1649年1月30日被处斩，苏格兰方面承认其子查理二世为不列颠国王，克伦威尔以此为由，于次年进攻苏格兰。",
+        "url": "https://zh.wikipedia.org/wiki/%E9%82%93%E5%B7%B4%E6%88%98%E5%BD%B9_(1650%E5%B9%B4)"
+      },
+      "es": {
+        "title": "Batalla de Dunbar (1650)",
+        "extract": "La primera batalla de Dunbar fue un enfrentamiento militar librado en el contexto de la tercera guerra civil inglesa el 3 de septiembre de 1650 entre las fuerzas parlamentarias mandadas por Oliver Cromwell y el ejército escocés dirigido por David Leslie, leal al rey Carlos II, quien fue proclamado rey de Escocia el 5 de febrero de 1649. Terminó con la victoria de las primeras.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Dunbar_(1650)"
+      },
+      "ar": {
+        "title": "معركة دنبار (1650)",
+        "extract": "معركة دنبار معركة وقعت في 3 سبتمبر 1650 قرب دنبار في إسكتلندا، بين الجيش النموذجي الجديد الإنگليزي بقيادة أوليفر كرومويل وجيش إسكتلندي بقيادة ديفيد ليزلي. حقَّق الإنگليز فيها انتصارًا حاسمًا، وكانت أول معركة كبرى في الغزو الإنگليزي لإسكتلندا عام 1650.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%AF%D9%86%D8%A8%D8%A7%D8%B1_(1650)"
+      },
+      "fr": {
+        "title": "Bataille de Dunbar (1650)",
+        "extract": "La bataille de Dunbar est une bataille de la guerre anglo-écossaise de 1650-1652 qui eut lieu le 3 septembre 1650 à Dunbar en Écosse. Les troupes parlementaires de la New Model Army commandées par Oliver Cromwell remportent la victoire sur l'armée écossaise de Charles II, menée par David Leslie.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Dunbar_(1650)"
+      },
+      "pt": {
+        "title": "Batalha de Dunbar (1650)",
+        "extract": "A Batalha de Dunbar foi travada entre o Novo Exército Modelo inglês, sob o comando de Oliver Cromwell, e um exército escocês comandado por David Leslie em 3 de setembro de 1650, perto de Dunbar, na Escócia. A batalha resultou em uma vitória decisiva para os ingleses. Foi a primeira grande batalha da invasão da Escócia em 1650, que foi desencadeada pela aceitação de Carlos II pela Escócia como rei da Grã-Bretanha após a decapitação de seu pai, Carlos I, em 30 de janeiro de 1649.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Dunbar_(1650)"
+      }
+    }
+  },
+  "Battle of Inverkeithing": {
+    "pages": {
+      "en": {
+        "title": "Battle of Inverkeithing",
+        "extract": "The Battle of Inverkeithing was fought on 20 July 1651 between an English army under John Lambert and a Scottish army led by James Holborne as part of an English invasion of Scotland. The battle was fought near the isthmus of the Ferry Peninsula, to the south of Inverkeithing, after which it is named.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Inverkeithing"
+      },
+      "ar": {
+        "title": "معركة إنفيركيثينج",
+        "extract": "اندلعت معركة إنفيركيثينج في 20 يوليو 1651، بين جيش إنجليزي بقيادة جون لامبرت وجيش اسكتلندي بقيادة جيمس هولبورن كجزء من الغزو الإنجليزي لاسكتلندا. دارت المعركة بالقرب من شبه جزيرة فيري، جنوب إنفيركيثينج، وبعد ذلك سميت بمعركة إنفيركيثينج.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%A5%D9%86%D9%81%D9%8A%D8%B1%D9%83%D9%8A%D8%AB%D9%8A%D9%86%D8%AC"
+      },
+      "fr": {
+        "title": "Bataille d'Inverkeithing",
+        "extract": "La bataille d'Inverkeithing se déroule le 20 juillet 1651, à Inverkeithing en Écosse. Elle est l'une des dernières batailles de la guerre anglo-écossaise de 1650-1652. Les troupes parlementaires de la New Model Army commandées par John Lambert remportent la victoire sur l'armée royaliste, prédominément écossaise, de Charles II d'Angleterre, menée par David Leslie (en).",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_d'Inverkeithing"
+      },
+      "pt": {
+        "title": "Batalha de Inverkeithing",
+        "extract": "A Batalha de Inverkeithing foi travada em 20 de julho de 1651 entre um exército inglês comandado por John Lambert [en] e um exército escocês liderado por James Holborne [en], como parte de uma invasão inglesa da Escócia. A batalha ocorreu próximo ao istmo da Península do Ferry, ao sul de Inverkeithing [en], que lhe dá o nome.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Inverkeithing"
+      }
+    }
+  },
+  "Battle of Wigan Lane": {
+    "pages": {
+      "en": {
+        "title": "Battle of Wigan Lane",
+        "extract": "The Battle of Wigan Lane was fought on 25 August 1651 during the Third English Civil War, between a Royalist army led by the Earl of Derby and forces loyal to the Commonwealth of England under Colonel Robert Lilburne. The Royalists were defeated, losing nearly half their officers and men.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Wigan_Lane"
+      },
+      "fr": {
+        "title": "Bataille de Wigan Lane",
+        "extract": "La bataille de Wigan Lane a eu lieu au nord de Wigan, le 25 août 1651, lors de la guerre anglo-écossaise de 1650-1652, entre les royalistes, commandés par James Stanley, 7e comte de Derby, et des éléments de la New Model Army, commandés par le colonel Robert Lilburne (en). Les royalistes furent défaits, perdant près de la moitié de leurs officiers et de leurs hommes.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Wigan_Lane"
+      },
+      "pt": {
+        "title": "Batalha de Wigan Lane",
+        "extract": "A Batalha de Wigan Lane foi travada em 25 de agosto de 1651, durante a Terceira Guerra Civil Inglesa, entre um exército realista comandado pelo Conde de Derby [en] e forças leais ao Commonwealth da Inglaterra sob o comando do Coronel Robert Lilburne [en]. Os realistas foram derrotados, perdendo quase metade de seus oficiais e soldados.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Wigan_Lane"
+      }
+    }
+  },
+  "Battle of Worcester": {
+    "pages": {
+      "ko": {
+        "title": "우스터 전투",
+        "extract": "우스터 전투(Battle of Worcester)는 1651년 9월 3일 잉글랜드 우스터에서 치러진 잉글랜드 내전의 마지막 전투였다. 프랑스의 지원을 받은 왕당파와 의회파와의 전투였으며, 이 전투에서 의회파가 승리함에 따라 잉글랜드 내의 왕당파는 거의 소멸되었으며 이후 왕당파는 의회파와의 전투를 치를 수 없을 정도로 약해져 사실상 와해되었다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%9A%B0%EC%8A%A4%ED%84%B0_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Worcester",
+        "extract": "The Battle of Worcester took place on 3 September 1651 in and around the city of Worcester, England and was the last major battle of the 1642 to 1651 Wars of the Three Kingdoms. A Parliamentarian army of around 28,000 under Oliver Cromwell defeated a largely Scottish Royalist force of 16,000 led by Charles II of England and Scotland.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Worcester"
+      },
+      "zh": {
+        "title": "伍斯特战役",
+        "extract": "伍斯特战役 是1642年开始的英国内战的最后一场战役，发生于1651年9月3日英格兰伍斯特。奥利弗·克伦威尔和约翰·兰伯特的议会军/新模范军28,000人，击败了国王查理二世的16,000人的保王党军队，保王党军大部由苏格兰人组成。保王党军队在伍斯特及其周围地区构建防御阵地，战斗地区被塞文河一分为二，特梅河成为伍斯特西南部的又一障碍。克伦威尔将他的军队分为两个主要部分，由塞文河开，以便从东西方进攻。在河流过境点进行了激烈的战斗，保王党对东部议会军的两次极具威胁性的突击被击退。在向该市以东的主要堡垒发动突击之后，议会军进入伍斯特，保王党有组织的抵抗运动遂告瓦解。查理二世最后得以逃脱捕获。",
+        "url": "https://zh.wikipedia.org/wiki/%E4%BC%8D%E6%96%AF%E7%89%B9%E6%88%98%E5%BD%B9"
+      },
+      "es": {
+        "title": "Batalla de Worcester",
+        "extract": "La batalla de Worcester tuvo lugar el 3 de septiembre de 1651 en Worcester (Inglaterra) y fue la batalla final de la guerra civil inglesa. Oliver Cromwell y los parlamentarios derrotaron a las fuerzas monárquicas, predominantemente escocesas, del rey Carlos II. Los 16 000 soldados de las fuerzas monárquicas fueron aplastados por los 28 000 del nuevo ejército modelo de Cromwell.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Worcester"
+      },
+      "ar": {
+        "title": "معركة وورسيستر",
+        "extract": "معركة ورسيستر هي معركة وقعت في 3 سبتمبر 1651م في ورسستر بإنجلترا، وكانت المعركة الأخيرة في الحرب الأهلية الإنجليزية. هزم الجيش النموذجي الجديد بقيادة أوليفر كرومويل، البالغ قوامه 28000 جندي، جيشَ الملك تشارلز الثاني البالغ 16000 فارس كانت الغالبية العظمى منهم من الأسكتلنديين.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D9%88%D9%88%D8%B1%D8%B3%D9%8A%D8%B3%D8%AA%D8%B1"
+      },
+      "fr": {
+        "title": "Bataille de Worcester",
+        "extract": "La bataille de Worcester est la dernière bataille de la première révolution anglaise. Les troupes parlementaires de la New Model Army commandées par Oliver Cromwell remportent la victoire sur l'armée royaliste, majoritairement écossaise, de Charles II d'Angleterre.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Worcester"
+      },
+      "pt": {
+        "title": "Batalha de Worcester",
+        "extract": "A Batalha de Worcester ocorreu em 3 de setembro de 1651 dentro e ao redor da cidade de Worcester, na Inglaterra, e foi a última grande batalha das Guerras dos Três Reinos, de 1642 a 1651. Um exército Parlamentarista de cerca de 28.000 homens sob o comando de Oliver Cromwell derrotou uma força Realista majoritariamente escocesa de 16.000 homens liderada por Carlos II da Inglaterra e Escócia.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Worcester"
+      }
+    }
+  }
+}

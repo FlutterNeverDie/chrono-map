@@ -1,0 +1,26 @@
+# 정묘호란: 영어 위키백과에 개별 전투 문서가 없어 핵심 전장(성·도시) 문서로 대신한다
+# 날짜는 양력 월 (음력 1627-01-13 압록강 도하 ≈ 양력 2월 말, 음력 3월 3일 강화 ≈ 양력 4월 중순)
+
+@ fall-of-uiju-1627
+wikipedia: Uiju County
+when: 1627-03
+coords: 124.53, 40.2
+links: 6
+
+@ fall-of-anju-1627
+wikipedia: Anju, South Pyongan
+when: 1627-03
+coords: 125.66, 39.62
+links: 6
+
+@ fall-of-pyongyang-1627
+wikipedia: Pyongyang
+when: 1627-03
+coords: 125.75, 39.02
+links: 8
+
+@ treaty-of-ganghwa-1627
+wikipedia: Ganghwa Island
+when: 1627-03 ~ 1627-04
+coords: 126.44, 37.71
+links: 8

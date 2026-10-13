@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Mongol invasions of Korea
+region: korea
+when: 1231 ~ 1270
+unit: year
+borders-step: 1
+view: 127, 37.5, 5
+search: 121, 131, 33, 43
+min-links: 1
+side.a.ko: 몽골 제국
+side.a.en: Mongol Empire
+side.a.zh: 蒙古帝国
+side.a.es: Imperio mongol
+side.a.hi: मंगोल साम्राज्य
+side.a.ar: الإمبراطورية المغولية
+side.a.fr: Empire mongol
+side.a.pt: Império Mongol
+side.b.ko: 고려
+side.b.en: Goryeo
+side.b.zh: 高丽
+side.b.es: Goryeo
+side.b.hi: गोरियो
+side.b.ar: غوريو
+side.b.fr: Koryo
+side.b.pt: Goryeo

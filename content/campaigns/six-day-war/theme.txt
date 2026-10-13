@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Six-Day War
+region: middle-east
+when: 1967-06 ~ 1967-06
+unit: month
+borders-step: 1
+view: 34.5, 31, 6
+search: 31, 37.5, 27.5, 33.5
+min-links: 1
+side.a.ko: 이스라엘
+side.a.en: Israel
+side.a.zh: 以色列
+side.a.es: Israel
+side.a.hi: इज़राइल
+side.a.ar: إسرائيل
+side.a.fr: Israël
+side.a.pt: Israel
+side.b.ko: 이집트·시리아·요르단
+side.b.en: Egypt, Syria & Jordan
+side.b.zh: 埃及、叙利亚与约旦
+side.b.es: Egipto, Siria y Jordania
+side.b.hi: मिस्र, सीरिया और जॉर्डन
+side.b.ar: مصر وسوريا والأردن
+side.b.fr: Égypte, Syrie et Jordanie
+side.b.pt: Egito, Síria e Jordânia

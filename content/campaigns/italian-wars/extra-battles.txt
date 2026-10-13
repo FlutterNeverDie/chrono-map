@@ -1,0 +1,7 @@
+# 이탈리아 전쟁: Wikidata 자동 생성에서 빠진 전투를 직접 추가 (자동 생성이 덮어쓰지 않음)
+
+@ battle-of-marciano
+wikipedia: Battle of Marciano
+when: 1554
+coords: 11.79, 43.3
+links: 7

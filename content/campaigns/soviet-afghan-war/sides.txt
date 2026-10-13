@@ -1,0 +1,6 @@
+# 나라(정치체)별 진영 — 형식은 content/campaigns/CLAUDE.md
+
+Union of Soviet Socialist Republics = a
+# Afghanistan = 아프가니스탄 민주 공화국(DRA)
+Afghanistan = a
+# Mujahideen(1987년~)은 넣지 않는다: 원본에서 카불까지 무자헤딘 영역으로 나와 DRA 지배 지역이 잘못 칠해짐

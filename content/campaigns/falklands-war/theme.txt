@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Falklands War
+region: south-america
+when: 1982-04 ~ 1982-06
+unit: month
+borders-step: 1
+view: -60, -52, 5
+search: -70, -35, -56, -47
+min-links: 3
+side.a.ko: 아르헨티나
+side.a.en: Argentina
+side.a.zh: 阿根廷
+side.a.es: Argentina
+side.a.hi: अर्जेंटीना
+side.a.ar: الأرجنتين
+side.a.fr: Argentine
+side.a.pt: Argentina
+side.b.ko: 영국
+side.b.en: United Kingdom
+side.b.zh: 英国
+side.b.es: Reino Unido
+side.b.hi: यूनाइटेड किंगडम
+side.b.ar: المملكة المتحدة
+side.b.fr: Royaume-Uni
+side.b.pt: Reino Unido

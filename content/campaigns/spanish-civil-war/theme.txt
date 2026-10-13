@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Spanish Civil War
+region: europe
+when: 1936-07 ~ 1939-04
+unit: month
+borders-step: 1
+view: -3.5, 40, 5.5
+search: -9.5, 4.5, 35.5, 44
+min-links: 3
+side.a.ko: 국민파
+side.a.en: Nationalists
+side.a.zh: 国民军
+side.a.es: Bando sublevado
+side.a.hi: राष्ट्रवादी
+side.a.ar: القوميون
+side.a.fr: Nationalistes
+side.a.pt: Nacionalistas
+side.b.ko: 공화파
+side.b.en: Republicans
+side.b.zh: 共和军
+side.b.es: Bando republicano
+side.b.hi: रिपब्लिकन
+side.b.ar: الجمهوريون
+side.b.fr: Républicains
+side.b.pt: Republicanos

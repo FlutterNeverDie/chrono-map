@@ -1,0 +1,10 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Italian Wars
+region: europe
+when: 1494 ~ 1559
+unit: year
+borders-step: 2
+view: 9, 44, 4.5
+search: -2, 19, 37, 51
+min-links: 5

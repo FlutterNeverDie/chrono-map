@@ -1,0 +1,7 @@
+# Wikidata에 날짜·좌표가 없어 자동으로 안 잡히는 전투를 직접 추가 (자동 생성이 덮어쓰지 않음). 날짜는 위키백과 기준 양력, 좌표는 대략
+
+@ battle-of-cheoin
+wikipedia: Battle of Cheoin
+when: 1232
+coords: 127.2, 37.23
+links: 4

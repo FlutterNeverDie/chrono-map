@@ -1,0 +1,4 @@
+# 나라(정치체)별 진영: 원본 이름 = a | b | n [시작 ~ 끝]. 없으면 기타(n). 형식은 content/campaigns/CLAUDE.md
+
+# 원본에 베트민(베트남 민주 공화국) 영역이 따로 없어 인도차이나 전체가 프랑스령으로만 나온다
+French Indochina = b

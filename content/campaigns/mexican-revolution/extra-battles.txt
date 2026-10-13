@@ -1,0 +1,67 @@
+# 멕시코 혁명: Wikidata에 날짜·좌표가 없어 자동으로 안 잡히는 전투를 직접 추가 (좌표는 근사)
+
+@ first-battle-of-rellano
+wikipedia: First Battle of Rellano
+when: 1912
+coords: -104.35, 26.75
+links: 4
+
+@ second-battle-of-rellano
+wikipedia: Second Battle of Rellano
+when: 1912
+coords: -104.3, 26.7
+links: 4
+
+@ ten-tragic-days
+wikipedia: Ten Tragic Days
+when: 1913
+coords: -99.13, 19.43
+links: 15
+
+@ battle-of-nogales-1913
+wikipedia: Battle of Nogales (1913)
+when: 1913
+coords: -110.94, 31.31
+links: 3
+
+@ battle-of-ciudad-juarez-1913
+wikipedia: Battle of Ciudad Juárez (1913)
+when: 1913
+coords: -106.42, 31.7
+links: 2
+
+@ battle-of-ojinaga
+wikipedia: Battle of Ojinaga
+when: 1914
+coords: -104.41, 29.56
+links: 6
+
+@ battle-of-veracruz-1914
+wikipedia: Battle of Veracruz (1914)
+when: 1914
+coords: -96.15, 19.19
+links: 18
+
+@ battle-of-zacatecas-1914
+wikipedia: Battle of Zacatecas (1914)
+when: 1914
+coords: -102.58, 22.77
+links: 9
+
+@ battle-of-celaya
+wikipedia: Battle of Celaya
+when: 1915
+coords: -100.81, 20.52
+links: 5
+
+@ battle-of-parral
+wikipedia: Battle of Parral
+when: 1916
+coords: -105.66, 26.93
+links: 3
+
+@ battle-of-carrizal
+wikipedia: Battle of Carrizal
+when: 1916
+coords: -106.66, 30.57
+links: 6

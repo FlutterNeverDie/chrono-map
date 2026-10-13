@@ -1,0 +1,85 @@
+# Wikidata에 날짜·좌표가 없어 자동으로 안 잡히는 전투를 직접 추가 (자동 생성이 덮어쓰지 않음). 날짜는 위키백과 기준 양력, 좌표는 대략
+
+@ jintian-uprising
+wikipedia: Jintian Uprising
+when: 1851
+coords: 110.08, 23.5
+links: 14
+
+@ battle-of-changsha-1852
+wikipedia: Battle of Changsha (1852)
+when: 1852
+coords: 112.97, 28.2
+links: 3
+
+@ battle-of-wuchang
+wikipedia: Battle of Wuchang
+when: 1852 ~ 1853
+coords: 114.31, 30.55
+links: 3
+
+@ battle-of-nanjing-1853
+wikipedia: Battle of Nanjing (1853)
+when: 1853
+coords: 118.78, 32.06
+links: 6
+
+@ northern-expedition-taiping-rebellion
+wikipedia: Northern Expedition (Taiping Rebellion)
+when: 1853 ~ 1855
+coords: 116.6, 37.8
+links: 6
+
+@ battle-of-jiangnan-1856
+wikipedia: Battle of Jiangnan (1856)
+when: 1856
+coords: 118.9, 32.0
+links: 6
+
+@ battle-of-sanhe
+wikipedia: Battle of Sanhe
+when: 1858
+coords: 117.18, 31.5
+links: 5
+
+@ battle-of-jiangnan-1860
+wikipedia: Battle of Jiangnan (1860)
+when: 1860
+coords: 118.95, 32.08
+links: 5
+
+@ battle-of-anqing
+wikipedia: Battle of Anqing
+when: 1860 ~ 1861
+coords: 117.05, 30.52
+links: 4
+
+@ occupation-of-ningbo
+wikipedia: Occupation of Ningbo
+when: 1861
+coords: 121.55, 29.87
+links: 3
+
+@ battle-of-shanghai-1861-1862
+wikipedia: Battle of Shanghai (1861–1862)
+when: 1861 ~ 1862
+coords: 121.47, 31.23
+links: 5
+
+@ battle-of-cixi
+wikipedia: Battle of Cixi
+when: 1862
+coords: 121.45, 29.98
+links: 4
+
+@ siege-of-suzhou
+wikipedia: Siege of Suzhou
+when: 1863
+coords: 120.62, 31.3
+links: 1
+
+@ battle-of-changzhou
+wikipedia: Battle of Changzhou
+when: 1864
+coords: 119.97, 31.78
+links: 1

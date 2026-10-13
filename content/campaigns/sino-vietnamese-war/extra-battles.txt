@@ -1,0 +1,37 @@
+# 중월전쟁: Wikidata에 좌표가 없어 자동으로 안 잡히는 전투
+
+@ battle-of-dong-dang-1979
+wikipedia: Battle of Đồng Đăng (1979)
+when: 1979-02
+coords: 106.7, 21.95
+links: 2
+
+@ battle-of-lang-son-1979
+wikipedia: Battle of Lạng Sơn (1979)
+when: 1979-02 ~ 1979-03
+coords: 106.76, 21.85
+links: 3
+
+@ battle-of-cao-bang-1979
+wikipedia: Battle of Cao Bằng (1979)
+when: 1979-02 ~ 1979-03
+coords: 106.25, 22.67
+links: 3
+
+@ battle-of-lao-cai
+wikipedia: Battle of Lào Cai
+when: 1979-02 ~ 1979-03
+coords: 103.97, 22.49
+links: 3
+
+@ battle-of-mong-cai
+wikipedia: Battle of Móng Cái
+when: 1979-02 ~ 1979-03
+coords: 107.97, 21.53
+links: 1
+
+@ battle-of-cao-ba-lanh
+wikipedia: Battle of Cao Ba Lanh
+when: 1979-02 ~ 1979-03
+coords: 107.4, 21.55
+links: 1

@@ -1,0 +1,25 @@
+# Wikidata에 날짜·좌표가 없어 자동으로 안 잡히는 전투를 직접 추가 (자동 생성이 덮어쓰지 않음). 날짜는 위키백과 기준 양력, 좌표는 대략
+
+@ battle-of-awa
+wikipedia: Battle of Awa
+when: 1868-01
+coords: 135.0, 34.25
+links: 16
+
+@ fall-of-osaka-castle
+wikipedia: Fall of Osaka Castle
+when: 1868-02
+coords: 135.53, 34.69
+links: 9
+
+@ fall-of-edo
+wikipedia: Fall of Edo
+when: 1868-05 ~ 1868-07
+coords: 139.75, 35.69
+links: 14
+
+@ battle-of-hokuetsu
+wikipedia: Battle of Hokuetsu
+when: 1868-05 ~ 1868-09
+coords: 138.85, 37.45
+links: 11

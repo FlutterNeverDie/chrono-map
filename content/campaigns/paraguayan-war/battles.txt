@@ -1,0 +1,67 @@
+# Paraguayan War 전투 (Wikidata 자동 생성, 직접 고쳐도 됨). 형식은 content/campaigns/CLAUDE.md
+
+@ siege-of-salto
+wikipedia: Siege of Salto
+when: 1864-11
+coords: -57.96, -31.39
+links: 3
+
+@ siege-of-paysandu
+wikipedia: Siege of Paysandú
+when: 1864-12 ~ 1865-01
+coords: -58.08, -32.32
+links: 7
+
+@ battle-of-riachuelo
+wikipedia: Battle of Riachuelo
+when: 1865-06
+coords: -58.84, -27.56
+links: 15
+
+@ battle-of-yatay
+wikipedia: Battle of Yatay
+when: 1865-08
+coords: -56.72, -29.12
+links: 8
+
+@ siege-of-uruguaiana
+wikipedia: Siege of Uruguaiana
+when: 1865-09
+coords: -57.09, -29.75
+links: 6
+
+@ battle-of-estero-bellaco
+wikipedia: Battle of Estero Bellaco
+when: 1866-05
+coords: -57.88, -27.18
+links: 10
+
+@ battle-of-curupayty
+wikipedia: Battle of Curupayty
+when: 1866-09
+coords: -58.57, -27.11
+links: 15
+
+@ siege-of-humaita
+wikipedia: Siege of Humaitá
+when: 1867-11 ~ 1868-07
+coords: -58.5, -27.07
+links: 3
+
+@ passage-of-humaita
+wikipedia: Passage of Humaitá
+when: 1868-02
+coords: -58.5, -27.07
+links: 7
+
+@ battle-of-lomas-valentinas
+wikipedia: Battle of Lomas Valentinas
+when: 1868-12
+coords: -57.52, -25.59
+links: 8
+
+@ battle-of-cerro-cora
+wikipedia: Battle of Cerro Corá
+when: 1870-03
+coords: -56.03, -22.65
+links: 12

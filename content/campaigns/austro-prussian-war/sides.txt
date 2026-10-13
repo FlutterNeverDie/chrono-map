@@ -1,0 +1,25 @@
+# 나라(정치체)별 진영: 원본 이름 = a | b | n [시작 ~ 끝]. 없으면 기타(n). 형식은 content/campaigns/CLAUDE.md
+
+# 원본 1866 국경의 "German Confederation"은 프로이센 본토와 작센·하노버 등을 한 덩어리로 묶는다.
+# 프로이센이 대부분이라 a로 둔다(작센·하노버는 실제로 오스트리아 편이지만 따로 나뉘지 않음).
+German Confederation = a
+Kingdom of Italy = a
+Duchy of Mecklenburg = a
+Duchy of Oldenburg = a
+Duchy of Brunswick = a
+Duchy of Anhalt = a
+Saxe-Altenburg = a
+Grand Duchy of Saxe-Weimar-Eisenach = a
+Principality of Lippe = a
+Principality of Waldeck and Pyrmont = a
+Principality of Schwarzburg-Sonderhausen = a
+Principality of Reuss-Gera = a
+Free City of Bremen = a
+Free City of Hamburg = a
+Free City of Lübeck = a
+Austrian Empire = b
+Kingdom of Bavaria = b
+Kingdom of Württemberg = b
+Grand Duchy of Baden = b
+Electorate of Hesse = b
+Saxe-Meiningen = b

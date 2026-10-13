@@ -1,0 +1,271 @@
+# War of 1812 전투 (Wikidata 자동 생성, 직접 고쳐도 됨). 형식은 content/campaigns/CLAUDE.md
+
+@ fort-harrison-indiana
+wikipedia: Fort Harrison, Indiana
+when: 1812-09
+coords: -87.41, 39.51
+links: 4
+
+@ siege-of-fort-mackinac
+wikipedia: Siege of Fort Mackinac
+when: 1812-07
+coords: -84.63, 45.86
+links: 3
+
+@ battle-of-fort-dearborn
+wikipedia: Battle of Fort Dearborn
+when: 1812-08
+coords: -87.62, 41.86
+links: 5
+
+@ battle-of-brownstown
+wikipedia: Battle of Brownstown
+when: 1812-08
+coords: -83.2, 42.09
+links: 3
+
+@ battle-of-maguaga
+wikipedia: Battle of Maguaga
+when: 1812-08
+coords: -83.18, 42.14
+links: 3
+
+@ siege-of-detroit
+wikipedia: Siege of Detroit
+when: 1812-08
+coords: -83.05, 42.33
+links: 9
+
+@ siege-of-fort-wayne
+wikipedia: Siege of Fort Wayne
+when: 1812-09
+coords: -85.14, 41.08
+links: 3
+
+@ battle-of-queenston-heights
+wikipedia: Battle of Queenston Heights
+when: 1812-10
+coords: -79.05, 43.16
+links: 18
+
+@ battle-of-lacolle-mills-1812
+wikipedia: Battle of Lacolle Mills (1812)
+when: 1812-11
+coords: -73.37, 45.08
+links: 3
+
+@ battle-of-frenchman-s-creek
+wikipedia: Battle of Frenchman's Creek
+when: 1812-11
+coords: -78.93, 42.94
+links: 4
+
+@ battle-of-frenchtown
+wikipedia: Battle of Frenchtown
+when: 1813-01
+coords: -83.38, 41.91
+links: 9
+
+@ battle-of-fort-george
+wikipedia: Battle of Fort George
+when: 1813-05
+coords: -79.06, 43.25
+links: 4
+
+@ battle-of-ogdensburg
+wikipedia: Battle of Ogdensburg
+when: 1813-02
+coords: -75.5, 44.69
+links: 3
+
+@ battle-of-york
+wikipedia: Battle of York
+when: 1813-04
+coords: -79.4, 43.64
+links: 8
+
+@ siege-of-fort-meigs
+wikipedia: Siege of Fort Meigs
+when: 1813-04 ~ 1813-05
+coords: -83.65, 41.55
+links: 4
+
+@ battle-of-stoney-creek
+wikipedia: Battle of Stoney Creek
+when: 1813-06
+coords: -79.76, 43.22
+links: 8
+
+@ battle-of-beaver-dams
+wikipedia: Battle of Beaver Dams
+when: 1813-06
+coords: -79.19, 43.12
+links: 11
+
+@ capture-of-uss-chesapeake
+wikipedia: Capture of USS Chesapeake
+when: 1813-06
+coords: -70.57, 42.65
+links: 4
+
+@ battle-of-burnt-corn
+wikipedia: Battle of Burnt Corn
+when: 1813-07
+coords: -87.13, 31.19
+links: 6
+
+@ fort-mims-massacre
+wikipedia: Fort Mims massacre
+when: 1813-08
+coords: -87.84, 31.18
+links: 8
+
+@ battle-of-st-michaels
+wikipedia: Battle of St. Michaels
+when: 1813-08
+coords: -76.22, 38.79
+links: 3
+
+@ battle-of-fort-stephenson
+wikipedia: Battle of Fort Stephenson
+when: 1813-08
+coords: -83.12, 41.35
+links: 3
+
+@ battle-of-lake-erie
+wikipedia: Battle of Lake Erie
+when: 1813-09
+coords: -82.82, 41.66
+links: 18
+
+@ battle-of-the-thames
+wikipedia: Battle of the Thames
+when: 1813-10
+coords: -81.93, 42.56
+links: 18
+
+@ battle-of-the-chateauguay
+wikipedia: Battle of the Chateauguay
+when: 1813-10
+coords: -73.93, 45.16
+links: 10
+
+@ battle-of-crysler-s-farm
+wikipedia: Battle of Crysler's Farm
+when: 1813-11
+coords: -75.07, 44.94
+links: 8
+
+@ battle-of-talladega
+wikipedia: Battle of Talladega
+when: 1813-11
+coords: -86.17, 33.45
+links: 4
+
+@ battle-of-tallushatchee
+wikipedia: Battle of Tallushatchee
+when: 1813-11
+coords: -85.91, 33.81
+links: 4
+
+@ battle-of-autossee
+wikipedia: Battle of Autossee
+when: 1813-11
+coords: -85.94, 32.44
+links: 4
+
+@ battle-of-calebee-creek
+wikipedia: Battle of Calebee Creek
+when: 1814-01
+coords: -85.7, 32.41
+links: 4
+
+@ battle-of-lacolle-mills-1814
+wikipedia: Battle of Lacolle Mills (1814)
+when: 1814-03
+coords: -73.34, 45.07
+links: 3
+
+@ battle-of-horseshoe-bend
+wikipedia: Battle of Horseshoe Bend
+when: 1814-03
+coords: -85.74, 32.98
+links: 13
+
+@ battle-of-fort-oswego-1814
+wikipedia: Battle of Fort Oswego (1814)
+when: 1814-05
+coords: -76.51, 43.47
+links: 3
+
+@ battle-of-lundy-s-lane
+wikipedia: Battle of Lundy's Lane
+when: 1814-07
+coords: -79.1, 43.09
+links: 10
+
+@ battle-of-chippawa
+wikipedia: Battle of Chippawa
+when: 1814-07
+coords: -79.02, 43.05
+links: 11
+
+@ battle-of-mackinac-island-1814
+wikipedia: Battle of Mackinac Island (1814)
+when: 1814-07 ~ 1814-08
+coords: -84.62, 45.85
+links: 4
+
+@ battle-of-bladensburg
+wikipedia: Battle of Bladensburg
+when: 1814-08
+coords: -76.94, 38.94
+links: 11
+
+@ siege-of-fort-erie
+wikipedia: Siege of Fort Erie
+when: 1814-08 ~ 1814-09
+coords: -78.92, 42.89
+links: 3
+
+@ battle-of-baltimore
+wikipedia: Battle of Baltimore
+when: 1814-09
+coords: -76.58, 39.26
+links: 17
+
+@ battle-of-north-point
+wikipedia: Battle of North Point
+when: 1814-09
+coords: -76.44, 39.2
+links: 6
+
+@ battle-of-plattsburgh
+wikipedia: Battle of Plattsburgh
+when: 1814-09
+coords: -73.38, 44.68
+links: 14
+
+@ battle-of-cook-s-mills
+wikipedia: Battle of Cook's Mills
+when: 1814-10
+coords: -79.17, 43
+links: 3
+
+@ battle-of-lake-borgne
+wikipedia: Battle of Lake Borgne
+when: 1814-12
+coords: -89.44, 30.16
+links: 5
+
+@ battle-of-new-orleans
+wikipedia: Battle of New Orleans
+when: 1815-01
+coords: -89.99, 29.94
+links: 35
+
+@ bombardment-of-fort-st-philip-1815
+wikipedia: Bombardment of Fort St. Philip (1815)
+when: 1815-01
+coords: -89.46, 29.36
+links: 3

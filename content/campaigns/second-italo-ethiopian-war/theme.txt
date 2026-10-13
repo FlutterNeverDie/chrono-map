@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Second Italo-Ethiopian War
+region: africa
+when: 1935-10 ~ 1937-02
+unit: month
+borders-step: 1
+view: 40, 10, 4.5
+search: 33, 48, 3, 16
+min-links: 1
+side.a.ko: 이탈리아
+side.a.en: Italy
+side.a.zh: 意大利
+side.a.es: Italia
+side.a.hi: इटली
+side.a.ar: إيطاليا
+side.a.fr: Italie
+side.a.pt: Itália
+side.b.ko: 에티오피아
+side.b.en: Ethiopia
+side.b.zh: 埃塞俄比亚
+side.b.es: Etiopía
+side.b.hi: इथियोपिया
+side.b.ar: إثيوبيا
+side.b.fr: Éthiopie
+side.b.pt: Etiópia

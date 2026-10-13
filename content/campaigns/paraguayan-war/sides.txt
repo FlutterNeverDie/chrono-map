@@ -1,0 +1,7 @@
+# 나라(정치체)별 진영 — 형식은 content/campaigns/CLAUDE.md
+
+Paraguay = a
+Empire of Brazil = b
+Argentine Confederation = b
+# 우루과이는 1865년 2월 플로레스 정권 수립 뒤 동맹 측 (그 전 블랑코 정부는 파라과이와 가까움)
+Oriental Republic of Uruguay = b 1865-02 ~

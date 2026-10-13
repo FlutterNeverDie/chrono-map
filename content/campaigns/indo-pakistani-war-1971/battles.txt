@@ -1,0 +1,25 @@
+# India–Pakistan war of 1971 전투 (Wikidata 자동 생성, 직접 고쳐도 됨). 형식은 content/campaigns/CLAUDE.md
+
+@ battle-of-kamalpur
+wikipedia: Battle of Kamalpur
+when: 1971-12
+coords: 89.87, 25.21
+links: 2
+
+@ battle-of-hilli
+wikipedia: Battle of Hilli
+when: 1971-12
+coords: 89.37, 24.85
+links: 2
+
+@ battle-of-longewala
+wikipedia: Battle of Longewala
+when: 1971-12
+coords: 70.16, 27.52
+links: 10
+
+@ battle-of-chumb
+wikipedia: Battle of Chumb
+when: 1971-12
+coords: 74.4, 32.84
+links: 1

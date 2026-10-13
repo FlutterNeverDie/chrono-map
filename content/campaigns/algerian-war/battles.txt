@@ -1,0 +1,43 @@
+# Algerian War 전투 (Wikidata 자동 생성, 직접 고쳐도 됨). 형식은 content/campaigns/CLAUDE.md
+
+@ philippeville-massacre
+wikipedia: Philippeville massacre
+when: 1955-08
+coords: 6.91, 36.87
+links: 7
+
+@ first-battle-of-el-djorf
+wikipedia: First Battle of El Djorf
+when: 1955-09
+coords: 8.28, 35.38
+links: 4
+
+@ battle-of-algiers-1956-1957
+wikipedia: Battle of Algiers (1956–1957)
+when: 1957-01 ~ 1957-10
+coords: 3.06, 36.78
+links: 13
+
+@ oued-zeggar-ambush
+wikipedia: Oued Zeggar ambush
+when: 1957-05
+coords: 3.18, 36.6
+links: 3
+
+@ battle-of-timimoun
+wikipedia: Battle of Timimoun
+when: 1957-11 ~ 1957-12
+coords: 0.25, 29.25
+links: 3
+
+@ battle-of-bab-el-bekkouche
+wikipedia: Battle of Bab El Bekkouche
+when: 1958-05
+coords: 1.55, 35.75
+links: 2
+
+@ battle-of-bab-el-oued
+wikipedia: Battle of Bab El Oued
+when: 1962-03 ~ 1962-04
+coords: 3.05, 36.79
+links: 7

@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Russo-Turkish War (1877–1878)
+region: europe
+when: 1877-04 ~ 1878-03
+unit: month
+borders-step: 1
+view: 32, 42.5, 4.5
+search: 20, 46, 38, 47
+min-links: 3
+side.a.ko: 러시아와 동맹국
+side.a.en: Russia & allies
+side.a.zh: 俄国及其盟友
+side.a.es: Rusia y aliados
+side.a.hi: रूस और सहयोगी
+side.a.ar: روسيا وحلفاؤها
+side.a.fr: Russie et alliés
+side.a.pt: Rússia e aliados
+side.b.ko: 오스만 제국
+side.b.en: Ottoman Empire
+side.b.zh: 奥斯曼帝国
+side.b.es: Imperio otomano
+side.b.hi: उस्मानी साम्राज्य
+side.b.ar: الدولة العثمانية
+side.b.fr: Empire ottoman
+side.b.pt: Império Otomano

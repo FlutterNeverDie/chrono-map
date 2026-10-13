@@ -1,0 +1,8 @@
+# 나라(정치체)별 진영 — 형식은 content/campaigns/CLAUDE.md
+
+Zululand = b
+# 원본의 Natalia Republic = 영국령 나탈 식민지
+Natalia Republic = a
+# British Cape Colony = 케이프 + 1877년 병합된 트란스발 (서아프리카 등 먼 작은 영역도 섞여 있으나 지도 범위 밖)
+British Cape Colony = a
+# British Colonial Empire, (British Empire)는 넣지 않는다: 전 세계 식민지가 함께 칠해짐

@@ -1,0 +1,49 @@
+# Soviet–Afghan War 전투 (Wikidata 자동 생성, 직접 고쳐도 됨). 형식은 content/campaigns/CLAUDE.md
+
+@ operation-storm-333
+wikipedia: Operation Storm-333
+when: 1979-12
+coords: 69.11, 34.45
+links: 28
+
+@ siege-of-khost
+wikipedia: Siege of Khost
+when: 1980-01 ~ 1989-02
+coords: 69.92, 33.33
+links: 10
+
+@ panjshir-offensives-soviet-afghan-war
+wikipedia: Panjshir offensives (Soviet–Afghan War)
+when: 1980-04 ~ 1985-06
+coords: 69.47, 35.27
+links: 12
+
+@ siege-of-urgun
+wikipedia: Siege of Urgun
+when: 1983-08 ~ 1984-01
+coords: 69.16, 32.9
+links: 5
+
+@ battle-of-maravar-pass
+wikipedia: Battle of Maravar Pass
+when: 1985-04
+coords: 71.22, 34.87
+links: 6
+
+@ operation-trap
+wikipedia: Operation Trap
+when: 1986-08
+coords: 61.11, 35.27
+links: 2
+
+@ operation-magistral
+wikipedia: Operation Magistral
+when: 1987-11 ~ 1988-01
+coords: 69.5, 33.6
+links: 10
+
+@ battle-for-hill-3234
+wikipedia: Battle for Hill 3234
+when: 1988-01
+coords: 69.3, 33.35
+links: 19

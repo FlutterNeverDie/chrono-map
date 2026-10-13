@@ -1,0 +1,13 @@
+# 직접 추가한 전투 (Wikidata에 좌표·날짜가 없거나 전투 분류가 아니어서 자동으로 안 잡힌 것). 형식은 content/campaigns/CLAUDE.md
+
+@ operation-badr-1973
+wikipedia: Operation Badr (1973)
+when: 1973-10
+coords: 32.35, 30.6
+links: 18
+
+@ battle-of-latakia
+wikipedia: Battle of Latakia
+when: 1973-10
+coords: 35.73, 35.52
+links: 15

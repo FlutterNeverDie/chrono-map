@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Mongol conquest of the Song dynasty
+region: china
+when: 1235 ~ 1279
+unit: year
+borders-step: 2
+view: 113, 29, 4
+search: 100, 123, 20, 36
+min-links: 1
+side.a.ko: 몽골·원
+side.a.en: Mongols & Yuan
+side.a.zh: 蒙古与元朝
+side.a.es: Mongoles y Yuan
+side.a.hi: मंगोल और युआन
+side.a.ar: المغول واليوان
+side.a.fr: Mongols et Yuan
+side.a.pt: Mongóis e Yuan
+side.b.ko: 남송
+side.b.en: Southern Song
+side.b.zh: 南宋
+side.b.es: Song del Sur
+side.b.hi: दक्षिणी सांग
+side.b.ar: سونغ الجنوبية
+side.b.fr: Song du Sud
+side.b.pt: Song do Sul

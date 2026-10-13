@@ -1,0 +1,13 @@
+# 나라(정치체)별 진영: 원본 이름 = a | b | n [시작 ~ 끝]. 없으면 기타(n). 형식은 content/campaigns/CLAUDE.md
+
+Tsardom of Russia = a
+Russian Empire = a
+Polish-Lithuanian Commonwealth = a
+Denmark-Norway = a 1700 ~ 1700
+Denmark-Norway = a 1709 ~
+Kingdom of Prussia = a 1715 ~
+Brandenburg-Prussia = a 1715 ~
+Electorate of Hanover = a 1715 ~
+Swedish Empire = b
+Pro-Swedish Poland = b
+# 오스만(1710~11 프루트 전쟁)·자포로제 카자크(마제파, 일부)는 넣지 않음

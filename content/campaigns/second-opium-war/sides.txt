@@ -1,0 +1,10 @@
+# 나라(정치체)별 진영: 원본 이름 = a | b | n [시작 ~ 끝]. 없으면 기타(n). 형식은 content/campaigns/CLAUDE.md
+
+# 원본의 British Empire(1856~58)·British Raj(1859~)는 영국령 인도 — 원정군 상당수가 인도에서 왔다 (제1차 아편전쟁과 같은 처리)
+British Empire = a
+British Raj = a
+Second French Empire = a
+# French Indochina(1860~)는 같은 시기 프랑스가 점령한 코친차이나(사이공)
+French Indochina = a
+Qing Dynasty = b
+# (British Empire)·British Colonial Empire는 캐나다·호주 등 전 세계 식민지, (Second French Empire)는 아프리카까지 포함해 넣지 않는다
