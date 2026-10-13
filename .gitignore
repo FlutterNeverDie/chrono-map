@@ -45,3 +45,6 @@ next-env.d.ts
 
 # 원본 데이터 (스크립트로 내려받음)
 /data-raw/
+
+# wrangler 로컬 임시 파일
+/.wrangler/
