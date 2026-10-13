@@ -3,12 +3,12 @@
 기반 코드만 있다. **게시자 ID·광고 단위 ID(환경변수)를 넣기 전까지 아무것도 그리지 않는다** — 화면·성능은 광고가 없을 때와 같다.
 실제 연결(계정·승인·광고 단위 만들기)은 `docs/launch.md` 순서대로 사용자와 함께 진행한다.
 
-| 파일 | 역할 |
-| --- | --- |
-| `config.ts` | 환경변수 `NEXT_PUBLIC_ADSENSE_CLIENT`(ca-pub-…), `NEXT_PUBLIC_ADSENSE_SLOT_ARTICLE` → 설정, `adsTxtLine()` |
-| `AdsScript.tsx` | AdSense 스크립트(RootDocument에서 한 번). 운영 빌드 + 게시자 ID가 있을 때만 |
-| `AdSlot.tsx` | 광고 한 칸(반응형). 개발 모드는 회색 자리표시자, 자리 높이 280px를 미리 잡아 CLS 방지 |
-| `app/(home)/ads.txt/route.ts` | `/ads.txt` (게시자 ID가 있을 때 채워짐). 빌드 후 정리(prune-out)가 지우지 않게 예외 처리됨 |
+| 파일                          | 역할                                                                                                       |
+| ----------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| `config.ts`                   | 환경변수 `NEXT_PUBLIC_ADSENSE_CLIENT`(ca-pub-…), `NEXT_PUBLIC_ADSENSE_SLOT_ARTICLE` → 설정, `adsTxtLine()` |
+| `AdsScript.tsx`               | AdSense 스크립트(RootDocument에서 한 번). 운영 빌드 + 게시자 ID가 있을 때만                                |
+| `AdSlot.tsx`                  | 광고 한 칸(반응형). 개발 모드는 회색 자리표시자, 자리 높이 280px를 미리 잡아 CLS 방지                      |
+| `app/(home)/ads.txt/route.ts` | `/ads.txt` (게시자 ID가 있을 때 채워짐). 빌드 후 정리(prune-out)가 지우지 않게 예외 처리됨                 |
 
 ## 배치 규칙
 

@@ -112,7 +112,17 @@ export function SiteHeader({
             align="end"
             button={<SlidersIcon className="size-[22px] text-muted" />}
           >
-            {() => <div className="flex items-center gap-0.5">{settings}</div>}
+            {() => (
+              // 한 줄씩 가득 — 아이콘 옆 여백을 눌러도 동작하게
+              <div className="flex min-w-56 flex-col">
+                <LanguageSelect wide />
+                <ThemeToggle
+                  wide
+                  toDarkLabel={messages.ui.toDark}
+                  toLightLabel={messages.ui.toLight}
+                />
+              </div>
+            )}
           </Popover>
         </div>
       </div>

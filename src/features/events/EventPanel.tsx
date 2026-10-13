@@ -7,7 +7,7 @@ import { formatPeriodRange } from "@/lib/period";
 import { fill } from "@/i18n";
 import { useI18n } from "@/i18n/I18nProvider";
 import { localeHref } from "@/i18n/locales";
-import { ChevronDownIcon, ChevronUpIcon } from "@/components/ui/icons";
+import { ChevronUpIcon, XIcon } from "@/components/ui/icons";
 import { EventList, useRankedEvents } from "./EventList";
 import { CategoryFilter } from "./CategoryFilter";
 import { OtherMaps } from "./OtherMaps";
@@ -27,7 +27,11 @@ export function EventPanel() {
     <section
       data-map-overlay
       aria-label={messages.ui.events}
-      className="pointer-events-auto absolute inset-x-2 bottom-[calc(var(--bar-h)+0.5rem)] z-20 flex flex-col overflow-hidden rounded-xl border border-line bg-background/95 shadow-lg backdrop-blur lg:inset-x-auto lg:end-3 lg:top-[4.5rem] lg:w-[34rem] xl:w-[40rem] 2xl:w-[46rem]"
+      className={clsx(
+        "pointer-events-auto absolute inset-x-2 bottom-[calc(var(--bar-h)+0.5rem)] z-20 flex flex-col overflow-hidden rounded-xl border border-line bg-background/95 shadow-lg backdrop-blur lg:inset-x-auto lg:end-3 lg:top-[4.5rem] lg:w-[34rem] xl:w-[40rem] 2xl:w-[46rem]",
+        // 모바일에서 펼치면 위 끝을 상단 바(--top-h, 화면이 정함) 바로 아래로 — 머리줄(접기 버튼)이 가려지지 않게
+        open && "max-lg:top-[calc(var(--top-h)+0.5rem)]",
+      )}
     >
       <button
         type="button"
@@ -44,7 +48,7 @@ export function EventPanel() {
         </span>
         <span aria-hidden className="text-muted lg:hidden">
           {open ? (
-            <ChevronDownIcon className="size-6" />
+            <XIcon className="size-6" />
           ) : (
             <ChevronUpIcon className="size-6" />
           )}
@@ -57,7 +61,7 @@ export function EventPanel() {
       <div
         className={clsx(
           "overflow-y-auto overscroll-contain px-3 pb-3",
-          open ? "max-h-[58dvh]" : "hidden",
+          open ? "min-h-0 flex-1" : "hidden",
           "lg:block lg:max-h-none lg:flex-1",
         )}
       >

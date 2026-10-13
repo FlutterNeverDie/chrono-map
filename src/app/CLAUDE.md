@@ -20,3 +20,4 @@
 - 사이트 전체 404는 `global-not-found.tsx`(next.config `experimental.globalNotFound`, 루트 레이아웃이 둘이라). 개발 서버에서는 모르는 주소가 `[locale]`로 잡혀 오류가 나지만 정적 빌드에서는 404.html이 나간다.
 - 아이콘: `icon.svg`(앱 루트) + `(home)/apple-touch-icon.png/route.tsx`. 레이아웃의 `icons`에 둘 다 적는다(metadata icons를 쓰면 자동 아이콘 링크가 빠짐).
 - 상단 바(`SiteHeader`): 데스크톱은 [지도 탭][화면별 도구][언어·테마], 모바일은 [지금 지도 ▾][화면 도구(mobileTool, 예: 시점 ▾)] … [설정 ⚙ → 언어·테마] 한 줄(mobileTool이 없으면 범례 등 children을 둘째 줄에). 모바일에서 지도 탭을 다 펼치면 잘리고 세 줄로 접혀 화면 위 40%를 가렸다. 펼침 메뉴의 링크는 닫혀 있어도 HTML에 있다(검색 로봇). 확대 +/− 버튼은 없앴다(휠·두 손가락·두 번 클릭).
+- `--top-h`(화면 루트에서 지정): 모바일 상단 바 높이. 지도 위 목록 패널을 펼치면 이 아래까지만 올라간다. 상단 바가 한 줄이면 safe-area + 3rem, 둘째 줄(범례)이 있으면 + 6.25rem — 상단 바 구성을 바꾸면 같이 고친다.

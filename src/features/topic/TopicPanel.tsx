@@ -6,11 +6,7 @@ import { fill } from "@/i18n";
 import { useI18n } from "@/i18n/I18nProvider";
 import { localeHref } from "@/i18n/locales";
 import { pick } from "@/lib/localize";
-import {
-  ChevronDownIcon,
-  ChevronUpIcon,
-  ExternalIcon,
-} from "@/components/ui/icons";
+import { ChevronUpIcon, XIcon, ExternalIcon } from "@/components/ui/icons";
 import { ExpandableText } from "@/components/ui/ExpandableText";
 import { useTopic, useTopicState } from "./store";
 import {
@@ -70,7 +66,11 @@ export function TopicPanel() {
     <section
       data-map-overlay
       aria-label={messages.maps.now}
-      className="pointer-events-auto absolute inset-x-2 bottom-[calc(var(--bar-h)+0.5rem)] z-20 flex flex-col overflow-hidden rounded-xl border border-line bg-background/95 shadow-lg backdrop-blur lg:inset-x-auto lg:end-3 lg:top-[4.75rem] lg:w-[34rem] xl:w-[40rem] 2xl:w-[46rem]"
+      className={clsx(
+        "pointer-events-auto absolute inset-x-2 bottom-[calc(var(--bar-h)+0.5rem)] z-20 flex flex-col overflow-hidden rounded-xl border border-line bg-background/95 shadow-lg backdrop-blur lg:inset-x-auto lg:end-3 lg:top-[4.75rem] lg:w-[34rem] xl:w-[40rem] 2xl:w-[46rem]",
+        // 모바일에서 펼치면 위 끝을 상단 바(--top-h, 화면이 정함) 바로 아래로 — 머리줄(접기 버튼)이 가려지지 않게
+        open && "max-lg:top-[calc(var(--top-h)+0.5rem)]",
+      )}
     >
       <button
         type="button"
@@ -87,7 +87,7 @@ export function TopicPanel() {
         </span>
         <span aria-hidden className="text-muted lg:hidden">
           {open ? (
-            <ChevronDownIcon className="size-6" />
+            <XIcon className="size-6" />
           ) : (
             <ChevronUpIcon className="size-6" />
           )}
@@ -108,7 +108,7 @@ export function TopicPanel() {
       <div
         className={clsx(
           "overflow-y-auto overscroll-contain px-3 pb-3",
-          open ? "max-h-[52dvh]" : "hidden",
+          open ? "min-h-0 flex-1" : "hidden",
           "lg:block lg:max-h-none lg:flex-1",
         )}
       >
