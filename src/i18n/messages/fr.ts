@@ -29,6 +29,7 @@ export const fr: Messages = {
     polityColors: "Couleurs par État",
   },
   pages: {
+    report: "Une erreur ? Signalez-la",
     backToMap: "Voir sur la carte",
     about: "À propos",
     privacy: "Politique de confidentialité",

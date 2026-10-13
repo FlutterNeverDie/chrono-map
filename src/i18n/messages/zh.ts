@@ -28,6 +28,7 @@ export const zh: Messages = {
     polityColors: "按国家着色",
   },
   pages: {
+    report: "发现错误？请告诉我们",
     backToMap: "在地图上查看",
     about: "关于",
     privacy: "隐私政策",

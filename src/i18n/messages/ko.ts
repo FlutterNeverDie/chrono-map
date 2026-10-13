@@ -27,6 +27,7 @@ export const ko = {
     polityColors: "나라별 색",
   },
   pages: {
+    report: "내용이 틀렸나요? 알려 주세요",
     backToMap: "지도에서 보기",
     about: "소개",
     privacy: "개인정보처리방침",

@@ -29,6 +29,7 @@ export const hi: Messages = {
     polityColors: "राज्य के अनुसार रंग",
   },
   pages: {
+    report: "कोई गलती दिखी? हमें बताएँ",
     backToMap: "मानचित्र पर देखें",
     about: "परिचय",
     privacy: "गोपनीयता नीति",

@@ -29,6 +29,7 @@ export const ar: Messages = {
     polityColors: "ألوان حسب الدولة",
   },
   pages: {
+    report: "هل وجدت خطأ؟ أخبرنا",
     backToMap: "عرض على الخريطة",
     about: "حول الموقع",
     privacy: "سياسة الخصوصية",

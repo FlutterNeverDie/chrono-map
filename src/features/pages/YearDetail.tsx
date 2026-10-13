@@ -5,7 +5,12 @@ import { eventSummary, eventTitle, pick } from "@/lib/localize";
 import { formatPeriod, formatPeriodRange, type Period } from "@/lib/period";
 import { formatWhen } from "@/lib/year";
 import { MAP_LANES } from "@/data/mapMarkers";
-import { ChevronLeftIcon, ChevronRightIcon } from "@/components/ui/icons";
+import {
+  ChevronLeftIcon,
+  ChevronRightIcon,
+  ExternalIcon,
+} from "@/components/ui/icons";
+import { reportIssueUrl } from "@/data/links";
 import { periodSlug, yearPage } from "./years";
 
 /** 연도 페이지 (/year/[slug]). 그 기간에 시작한 사건 + 이어지는 일 + 다른 지도 + 앞뒤 기간 */
@@ -107,6 +112,19 @@ export function YearDetail({ locale, slug }: { locale: Locale; slug: string }) {
           </ul>
         </>
       )}
+
+      <a
+        href={reportIssueUrl(
+          formatPeriod(period, locale),
+          localeHref(locale, `year/${periodSlug(period)}`),
+        )}
+        target="_blank"
+        rel="noreferrer"
+        className="mt-8 inline-flex min-h-11 items-center gap-1.5 text-sm text-muted underline hover:text-foreground"
+      >
+        {messages.pages.report}
+        <ExternalIcon className="size-3.5" />
+      </a>
 
       <nav className="mt-12 grid grid-cols-2 gap-3">
         {prev ? (

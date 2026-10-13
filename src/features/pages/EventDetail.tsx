@@ -5,6 +5,7 @@ import { eventSummary, eventTitle, pick } from "@/lib/localize";
 import { formatWhen } from "@/lib/year";
 import { formatPeriod, periodOf } from "@/lib/period";
 import { EVENTS } from "@/data/content";
+import { reportIssueUrl } from "@/data/links";
 import { ExternalIcon } from "@/components/ui/icons";
 import { ogImage } from "@/components/og/card";
 import { periodSlug } from "./years";
@@ -100,6 +101,18 @@ export function EventDetail({ locale, id }: { locale: Locale; id: string }) {
           ))}
         </ul>
       )}
+      <a
+        href={reportIssueUrl(
+          eventTitle(e, locale),
+          localeHref(locale, `event/${e.id}`),
+        )}
+        target="_blank"
+        rel="noreferrer"
+        className="mt-8 inline-flex min-h-11 items-center gap-1.5 text-sm text-muted underline hover:text-foreground"
+      >
+        {messages.pages.report}
+        <ExternalIcon className="size-3.5" />
+      </a>
     </article>
   );
 }

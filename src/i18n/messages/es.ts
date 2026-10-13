@@ -29,6 +29,7 @@ export const es: Messages = {
     polityColors: "Colores por estado",
   },
   pages: {
+    report: "¿Ves un error? Avísanos",
     backToMap: "Ver en el mapa",
     about: "Acerca de",
     privacy: "Política de privacidad",
