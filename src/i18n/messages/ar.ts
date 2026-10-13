@@ -123,6 +123,7 @@ export const ar: Messages = {
     exploration: "استكشاف",
   },
   ui: {
+    settings: "الإعدادات",
     viewpoint: "العرض",
     language: "اللغة",
     prevYear: "السنة السابقة",

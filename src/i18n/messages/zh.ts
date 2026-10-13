@@ -120,6 +120,7 @@ export const zh: Messages = {
     exploration: "探险",
   },
   ui: {
+    settings: "设置",
     viewpoint: "视角",
     language: "语言",
     prevYear: "上一年",

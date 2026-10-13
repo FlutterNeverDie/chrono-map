@@ -124,6 +124,7 @@ export const es: Messages = {
     exploration: "Exploración",
   },
   ui: {
+    settings: "Ajustes",
     viewpoint: "Vista",
     language: "Idioma",
     prevYear: "Año anterior",

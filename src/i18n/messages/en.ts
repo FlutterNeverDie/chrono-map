@@ -124,6 +124,7 @@ export const en: Messages = {
     exploration: "Exploration",
   },
   ui: {
+    settings: "Settings",
     viewpoint: "View",
     language: "Language",
     prevYear: "Previous year",

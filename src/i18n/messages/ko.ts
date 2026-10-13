@@ -121,6 +121,7 @@ export const ko = {
     exploration: "탐험",
   },
   ui: {
+    settings: "설정",
     viewpoint: "시점",
     language: "언어",
     prevYear: "1년 전",

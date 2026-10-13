@@ -123,6 +123,7 @@ export const pt: Messages = {
     exploration: "Exploração",
   },
   ui: {
+    settings: "Configurações",
     viewpoint: "Vista",
     language: "Idioma",
     prevYear: "Ano anterior",

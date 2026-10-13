@@ -91,3 +91,11 @@ export const PauseIcon = ({ className }: IconProps) => (
     <path d="M8 5v14M16 5v14" strokeWidth={2.5} />
   </svg>
 );
+
+export const SlidersIcon = ({ className }: IconProps) => (
+  <svg {...base} className={className}>
+    <path d="M4 7h10M18 7h2M4 17h4M12 17h8" />
+    <circle cx="16" cy="7" r="2" />
+    <circle cx="10" cy="17" r="2" />
+  </svg>
+);

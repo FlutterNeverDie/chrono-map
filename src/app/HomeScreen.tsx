@@ -5,8 +5,8 @@ import { YearGauge } from "@/features/timeline";
 import {
   Attribution,
   ViewpointBar,
+  ViewpointMenu,
   WorldMap,
-  ZoomControls,
 } from "@/features/map";
 import { EventPanel } from "@/features/events";
 import { EventsProvider } from "@/store/events";
@@ -33,14 +33,9 @@ export function HomeScreen({ locale }: { locale: Locale }) {
             <WorldMap />
           </div>
 
-          <SiteHeader current="chronomap">
+          <SiteHeader current="chronomap" mobileTool={<ViewpointMenu />}>
             <ViewpointBar />
           </SiteHeader>
-
-          {/* 확대 버튼은 데스크톱만 — 모바일은 두 손가락으로 확대 */}
-          <div className="absolute start-3 top-[4.75rem] z-20 hidden lg:block">
-            <ZoomControls />
-          </div>
 
           <EventPanel />
 

@@ -60,9 +60,6 @@ export function useBorders(year: number, locale: Locale) {
     };
   }, [locale]);
 
-  const nameOf = useCallback(
-    (p: PolityProps) => names[p.n] || p.n,
-    [names],
-  );
+  const nameOf = useCallback((p: PolityProps) => names[p.n] || p.n, [names]);
   return { polities, nameOf };
 }

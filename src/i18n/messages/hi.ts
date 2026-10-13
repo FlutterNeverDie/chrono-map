@@ -124,6 +124,7 @@ export const hi: Messages = {
     exploration: "अन्वेषण",
   },
   ui: {
+    settings: "सेटिंग्स",
     viewpoint: "दृश्य",
     language: "भाषा",
     prevYear: "पिछला वर्ष",

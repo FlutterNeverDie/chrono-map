@@ -1,4 +1,3 @@
 export { WorldMap } from "./WorldMap";
-export { ViewpointBar } from "./ViewpointBar";
-export { ZoomControls } from "./ZoomControls";
+export { ViewpointBar, ViewpointMenu } from "./ViewpointBar";
 export { Attribution } from "./Attribution";
