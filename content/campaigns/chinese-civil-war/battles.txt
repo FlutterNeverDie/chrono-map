@@ -1,0 +1,43 @@
+# Chinese Civil War 전투 (Wikidata 자동 생성, 직접 고쳐도 됨). 형식은 content/campaigns/CLAUDE.md
+
+@ battle-of-luding-bridge
+wikipedia: Battle of Luding Bridge
+when: 1935
+coords: 102.23, 29.91
+links: 4
+
+@ battle-of-jinzhou
+wikipedia: Battle of Jinzhou
+when: 1948
+coords: 121.13, 41.1
+links: 4
+
+@ linfen-campaign
+wikipedia: Linfen Campaign
+when: 1948
+coords: 112.4, 37.7
+links: 2
+
+@ siege-of-changchun
+wikipedia: Siege of Changchun
+when: 1948
+coords: 125.2, 43.9
+links: 9
+
+@ battle-of-jinan
+wikipedia: Battle of Jinan
+when: 1948
+coords: 116.98, 36.67
+links: 3
+
+@ battle-of-guningtou
+wikipedia: Battle of Guningtou
+when: 1949
+coords: 118.31, 24.48
+links: 12
+
+@ battle-of-dengbu-island
+wikipedia: Battle of Dengbu Island
+when: 1949
+coords: 122.31, 29.87
+links: 4

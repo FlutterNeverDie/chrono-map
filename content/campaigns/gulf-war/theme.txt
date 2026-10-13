@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Gulf War
+region: middle-east
+when: 1990-08 ~ 1991-02
+unit: month
+borders-step: 1
+view: 46, 29, 5
+search: 38, 52, 23, 37
+min-links: 3
+side.a.ko: 이라크
+side.a.en: Iraq
+side.a.zh: 伊拉克
+side.a.es: Irak
+side.a.hi: इराक
+side.a.ar: العراق
+side.a.fr: Irak
+side.a.pt: Iraque
+side.b.ko: 미국 주도 다국적군
+side.b.en: US-led coalition
+side.b.zh: 美国领导的联军
+side.b.es: Coalición liderada por EE. UU.
+side.b.hi: अमेरिका के नेतृत्व वाला गठबंधन
+side.b.ar: التحالف بقيادة الولايات المتحدة
+side.b.fr: Coalition menée par les États-Unis
+side.b.pt: Coalizão liderada pelos EUA

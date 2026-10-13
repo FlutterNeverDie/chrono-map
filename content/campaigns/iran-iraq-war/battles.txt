@@ -1,0 +1,97 @@
+# Iran–Iraq War 전투 (Wikidata 자동 생성, 직접 고쳐도 됨). 형식은 content/campaigns/CLAUDE.md
+
+@ operation-scorch-sword
+wikipedia: Operation Scorch Sword
+when: 1980-09
+coords: 44.53, 33.21
+links: 11
+
+@ battle-of-khorramshahr-1980
+wikipedia: Battle of Khorramshahr (1980)
+when: 1980-09 ~ 1980-11
+coords: 48.17, 30.43
+links: 15
+
+@ operation-dezful
+wikipedia: Operation Dezful
+when: 1980-10
+coords: 48.47, 32.38
+links: 5
+
+@ siege-of-abadan
+wikipedia: Siege of Abadan
+when: 1980-11 ~ 1981-09
+coords: 48.28, 30.33
+links: 16
+
+@ operation-nasr
+wikipedia: Operation Nasr
+when: 1981-01
+coords: 48.18, 31.56
+links: 13
+
+@ operation-tariq-al-quds
+wikipedia: Operation Tariq al-Quds
+when: 1981-12
+coords: 48.04, 31.73
+links: 11
+
+@ battle-of-khorramshahr-1982
+wikipedia: Battle of Khorramshahr (1982)
+when: 1982-04 ~ 1982-05
+coords: 48.18, 30.43
+links: 14
+
+@ battle-of-the-marshes
+wikipedia: Battle of the Marshes
+when: 1984-02
+coords: 47.71, 31.54
+links: 7
+
+@ operation-badr-1985
+wikipedia: Operation Badr (1985)
+when: 1985-03
+coords: 47.43, 31.02
+links: 13
+
+@ chemical-attack-on-behbahan-battalion
+wikipedia: Chemical attack on Behbahan battalion
+when: 1986-01
+coords: 48.14, 30.57
+links: 3
+
+@ anfal-campaign
+wikipedia: Anfal campaign
+when: 1986-02 ~ 1988-09
+coords: 43, 33
+links: 40
+
+@ first-battle-of-al-faw
+wikipedia: First Battle of al-Faw
+when: 1986-02
+coords: 48.47, 29.98
+links: 13
+
+@ operation-karbala-4
+wikipedia: Operation Karbala-4
+when: 1986-12
+coords: 48.12, 30.43
+links: 9
+
+@ siege-of-basra
+wikipedia: Siege of Basra
+when: 1987-02
+coords: 47.8, 30.5
+links: 14
+
+@ uss-stark-incident
+wikipedia: USS Stark incident
+when: 1987-05
+coords: 51.92, 26.78
+links: 9
+
+@ bridgeton-incident
+wikipedia: Bridgeton incident
+when: 1987-07
+coords: 49.83, 27.97
+links: 5

@@ -554,7 +554,7 @@ links: 10
 
 @ german-campaign-of-1813
 wikipedia: German campaign of 1813
-when: 1813-01 ~ 1814-01
+when: 1813-04 ~ 1813-11
 coords: 10, 51
 links: 12
 

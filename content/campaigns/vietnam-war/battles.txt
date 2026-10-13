@@ -26,7 +26,7 @@ links: 8
 
 @ operation-starlite
 wikipedia: Operation Starlite
-when: 1965-01
+when: 1965-08
 coords: 108.84, 15.3
 links: 9
 

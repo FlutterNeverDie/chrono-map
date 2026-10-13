@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Goguryeo–Tang War
+region: korea
+when: 645 ~ 668
+unit: year
+borders-step: 1
+view: 125, 39.5, 5
+search: 116, 131, 34, 44
+min-links: 1
+side.a.ko: 당·신라
+side.a.en: Tang & Silla
+side.a.zh: 唐朝与新罗
+side.a.es: Tang y Silla
+side.a.hi: तांग और सिल्ला
+side.a.ar: تانغ وشيلا
+side.a.fr: Tang et Silla
+side.a.pt: Tang e Silla
+side.b.ko: 고구려
+side.b.en: Goguryeo
+side.b.zh: 高句丽
+side.b.es: Goguryeo
+side.b.hi: गोगुर्यो
+side.b.ar: غوغوريو
+side.b.fr: Koguryo
+side.b.pt: Goguryeo

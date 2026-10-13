@@ -1,0 +1,7 @@
+# 나라(정치체)별 진영: 원본 이름 = a | b | n [시작 ~ 끝]. 없으면 기타(n). 형식은 content/campaigns/CLAUDE.md
+
+# 원본 이름이 시기마다 다르다: 공산당 Chinese Communists(1928~31) → Communist Party of China, 국민당 Kuomintang(~1929) → Republic of China
+Chinese Communists = a
+Communist Party of China = a
+Kuomintang = b
+Republic of China = b

@@ -1,0 +1,61 @@
+# Gulf War 전투 (Wikidata 자동 생성, 직접 고쳐도 됨). 형식은 content/campaigns/CLAUDE.md
+
+@ battle-of-the-bridges
+wikipedia: Battle of the Bridges
+when: 1990-08
+coords: 47.62, 29.34
+links: 7
+
+@ battle-of-dasman-palace
+wikipedia: Battle of Dasman Palace
+when: 1990-08
+coords: 48, 29.39
+links: 10
+
+@ battle-of-failaka
+wikipedia: Battle of Failaka
+when: 1990-08
+coords: 48, 29.39
+links: 6
+
+@ battle-of-khafji
+wikipedia: Battle of Khafji
+when: 1991-01 ~ 1991-02
+coords: 48.5, 28.43
+links: 20
+
+@ battle-of-al-busayyah
+wikipedia: Battle of Al Busayyah
+when: 1991-02
+coords: 46.11, 30.11
+links: 6
+
+@ battle-of-phase-line-bullet
+wikipedia: Battle of Phase Line Bullet
+when: 1991-02
+coords: 46.87, 29.89
+links: 5
+
+@ battle-of-73-easting
+wikipedia: Battle of 73 Easting
+when: 1991-02
+coords: 46.63, 29.54
+links: 12
+
+@ battle-of-wadi-al-batin
+wikipedia: Battle of Wadi al-Batin
+when: 1991-02
+coords: 46.54, 29.17
+links: 7
+
+@ battle-of-medina-ridge
+wikipedia: Battle of Medina Ridge
+when: 1991-02
+coords: 46.94, 30.17
+links: 10
+
+@ battle-for-jalibah-airfield
+wikipedia: Battle for Jalibah Airfield
+when: 1991-02
+coords: 46.6, 30.55
+links: 4

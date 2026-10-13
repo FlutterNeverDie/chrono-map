@@ -1,0 +1,133 @@
+# 1948 Palestine war 전투 (Wikidata 자동 생성, 직접 고쳐도 됨). 형식은 content/campaigns/CLAUDE.md
+
+@ battle-of-jenin-1948
+wikipedia: Battle of Jenin (1948)
+when: 1948-06
+coords: 35.3, 32.46
+links: 8
+
+@ sa-sa-massacre
+wikipedia: Sa'sa' massacre
+when: 1948-02
+coords: 35.39, 33.03
+links: 6
+
+@ battle-of-mishmar-haemek
+wikipedia: Battle of Mishmar HaEmek
+when: 1948-04
+coords: 35.16, 32.6
+links: 9
+
+@ battle-of-haifa-1948
+wikipedia: Battle of Haifa (1948)
+when: 1948-04
+coords: 34.98, 32.82
+links: 11
+
+@ battles-of-latrun-1948
+wikipedia: Battles of Latrun (1948)
+when: 1948-05 ~ 1948-07
+coords: 34.98, 31.84
+links: 11
+
+@ battles-of-the-kinarot-valley
+wikipedia: Battles of the Kinarot Valley
+when: 1948-05
+coords: 35.59, 32.7
+links: 8
+
+@ battle-of-yad-mordechai
+wikipedia: Battle of Yad Mordechai
+when: 1948-05
+coords: 34.56, 31.59
+links: 6
+
+@ battle-of-nirim
+wikipedia: Battle of Nirim
+when: 1948-05
+coords: 34.34, 31.24
+links: 7
+
+@ battle-of-gesher
+wikipedia: Battle of Gesher
+when: 1948-05
+coords: 35.57, 32.64
+links: 6
+
+@ operation-pleshet
+wikipedia: Operation Pleshet
+when: 1948-05 ~ 1948-06
+coords: 34.67, 31.76
+links: 10
+
+@ al-kabri-massacre
+wikipedia: Al-Kabri massacre
+when: 1948-05
+coords: 35.15, 33.02
+links: 4
+
+@ battle-of-nitzanim
+wikipedia: Battle of Nitzanim
+when: 1948-06
+coords: 34.63, 31.72
+links: 8
+
+@ battles-of-negba
+wikipedia: Battles of Negba
+when: 1948-07
+coords: 34.68, 31.66
+links: 5
+
+@ battle-of-be-erot-yitzhak
+wikipedia: Battle of Be'erot Yitzhak
+when: 1948-07
+coords: 34.51, 31.47
+links: 3
+
+@ operation-death-to-the-invader
+wikipedia: Operation Death to the Invader
+when: 1948-07
+coords: 34.74, 31.64
+links: 6
+
+@ operation-shoter
+wikipedia: Operation Shoter
+when: 1948-07
+coords: 34.97, 32.63
+links: 5
+
+@ beit-hanoun-wedge
+wikipedia: Beit Hanoun wedge
+when: 1948-10
+coords: 34.54, 31.54
+links: 4
+
+@ battle-of-beersheba-1948
+wikipedia: Battle of Beersheba (1948)
+when: 1948-10
+coords: 34.79, 31.24
+links: 7
+
+@ operation-shmone
+wikipedia: Operation Shmone
+when: 1948-11
+coords: 34.68, 31.65
+links: 4
+
+@ battle-of-hill-86
+wikipedia: Battle of Hill 86
+when: 1948-12
+coords: 34.37, 31.37
+links: 5
+
+@ battle-of-auja
+wikipedia: Battle of 'Auja
+when: 1948-12
+coords: 34.42, 30.89
+links: 5
+
+@ battle-of-rafah-1949
+wikipedia: Battle of Rafah (1949)
+when: 1949-01
+coords: 34.22, 31.23
+links: 5

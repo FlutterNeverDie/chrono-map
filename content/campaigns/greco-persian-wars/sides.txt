@@ -1,0 +1,7 @@
+# 나라(정치체)별 진영: 원본 이름 = a | b | n [시작 ~ 끝]. 없으면 기타(n). 형식은 content/campaigns/CLAUDE.md
+
+Achaemenid Empire = a
+Greek City-States = b
+Peloponnesian League = b
+# 마케도니아는 넣지 않는다: 492~479 페르시아 속국이었지만 원본은 전 기간 같은 이름이라 구분 불가
+# 주의: 원본의 Greek City-States는 시칠리아·흑해 등 식민 도시까지 포함

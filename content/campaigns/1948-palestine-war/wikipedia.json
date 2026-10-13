@@ -1,0 +1,719 @@
+{
+  "1948 Palestine war": {
+    "pages": {
+      "ko": {
+        "title": "1948년 팔레스타인 전쟁",
+        "extract": "1948년 팔레스타인 전쟁은 팔레스타인 위임통치령의 영토에서 벌어진 전쟁이다. 이스라엘에서는 독립 전쟁으로, 아랍권에서는 나크바의 중심부로서 알려져 있다. 이 전쟁 동안 대영 제국은 1917년까지 오스만 제국의 일부였던 의무 팔레스타인에서 철수했다. 전쟁은 유대인들에 의한 이스라엘 국가 수립으로 절정에 달했고, 약 700,000명의 팔레스타인 아랍인들이 이주하고 그들의 도시 지역 대부분이 파괴되는 등 유대인들이 점령한 영토의 완전한 인구학적 변화를 보았다. 많은 팔레스타인 아랍인들은 결국 무국적자가 되었고, 이집트와 요르단에 의해 점령된 팔레스타인 영토나 주변 아랍 국가들로 추방되었다. 전쟁 전에 영국의 통치하에 있던 영토는 그것의 약 78%를 점령한 이스라엘, 요르단 으로 나뉘었고, 후에 요르단강 서안 지구과 지중해 연안의 해안 영토인 가자 지구를 점령한 이집트를 병합했고, 아랍 연맹이 전팔레스타인 정부를 수립했다.",
+        "url": "https://ko.wikipedia.org/wiki/1948%EB%85%84_%ED%8C%94%EB%A0%88%EC%8A%A4%ED%83%80%EC%9D%B8_%EC%A0%84%EC%9F%81"
+      },
+      "en": {
+        "title": "1948 Palestine war",
+        "extract": "The 1948 Palestine war, known in Palestine as the Nakba and in Israel as the War of Independence, was fought in the territory of what had been, at the start of the war, British-ruled Mandatory Palestine. It began as a civil war between the Arab and Jewish communities following the United Nations Partition Plan and became an international conflict with the Declaration of the Establishment of the State of Israel, the termination of the British mandate, and the entry of the armies of neighbouring Arab states into Palestine. During the war, Zionist forces conquered about 78% of the former territory of the mandate, causing the expulsion and flight of over 700,000 Palestinians. Transjordan took control of the territory west of the Jordan River and Egypt occupied the coastal territory around Gaza. The war formally ended with the 1949 Armistice Agreements, which established the Green Line de facto borders of the State of Israel, the West Bank, and the Gaza Strip. It was the first war of the Israeli–Palestinian conflict and the broader Arab–Israeli conflict.",
+        "url": "https://en.wikipedia.org/wiki/1948_Palestine_war"
+      },
+      "zh": {
+        "title": "第一次中东战争",
+        "extract": "第一次中东战争，又称1947-1949年阿以冲突、以色列独立战争、大灾难，是指1947年至1949年的一系列冲突，尤指1948年以色列在巴勒斯坦地区和阿拉伯国家之间发生的大规模战争。经过前面1947-1948年巴勒斯坦托管地内战促使25万巴勒斯坦难民流离失所，1948年5月15日英国结束对巴勒斯坦的托管，以色列宣布建国（部分托管地由埃及和外约旦所控制）。使当时的阿拉伯国家联合对以色列发起军事攻击。该次战争中预估有400,000至900,000名巴勒斯坦人逃离家园，战后也有850,000至900,000名犹太人逃离阿拉伯国家，战争激化了阿拉伯国家和以色列之间的矛盾，以及阿拉伯国家与美英之间的矛盾，从此中东战乱与冲突不断。",
+        "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%B8%AD%E4%B8%9C%E6%88%98%E4%BA%89"
+      },
+      "es": {
+        "title": "Guerra árabe-israelí de 1948",
+        "extract": "La guerra árabe-israelí de 1948, sucedida desde mayo de 1948 hasta mediados de 1949, fue el primero de una serie de conflictos armados que enfrentaron a Israel y a sus vecinos árabes, en lo que se conoce globalmente como el conflicto árabe-israelí. Para el pueblo palestino esta guerra marcó el comienzo de la Nakba. Para el pueblo israelí fue la guerra de Independencia o guerra de Liberación.",
+        "url": "https://es.wikipedia.org/wiki/Guerra_%C3%A1rabe-israel%C3%AD_de_1948"
+      },
+      "hi": {
+        "title": "अरब-इजराइल युद्ध (१९४८)",
+        "extract": "१९४८ का अरब-इजराइली युद्ध इजराइल तथा अरब राज्यों के सैनिक गुट और फिलिस्तीनी अरब सेनाओं के बीच लड़ा गया प्रथम युद्ध था।",
+        "url": "https://hi.wikipedia.org/wiki/%E0%A4%85%E0%A4%B0%E0%A4%AC-%E0%A4%87%E0%A4%9C%E0%A4%B0%E0%A4%BE%E0%A4%87%E0%A4%B2_%E0%A4%AF%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A7_(%E0%A5%A7%E0%A5%AF%E0%A5%AA%E0%A5%AE)"
+      },
+      "ar": {
+        "title": "حرب فلسطين 1947–1949",
+        "extract": "حرب فلسطين 1947–1949 هي حرب جرت في أراضي فلسطين، تحديداً في فترة الانتداب البريطاني على فلسطين. سمّاها الصهاينة آنذاك باسم \"حرب الاستقلال\". وهي الحرب الأولى في الصراع الإسرائيلي الفلسطيني والصراع العربي الأوسع مع إسرائيل. خلال هذه الحرب، انسحبت الإمبراطورية البريطانية من فلسطين الانتدابية والتي كانت جزءاً من الدولة العثمانية حتى عام 1917. وقد بلغت الحرب ذروتها أثناء تأسيس\" دولة إسرائيل\" على يد اليهود وشهدت تحوُّلاً ديموغرافياً كاملاً للمنطقة التي احتلها اليهود بإزاحة ما يقرب من 800 ألف فلسطيني من قراهم وبلداتهم وتدمير معظم مناطقهم الحضرية. انتهى المطاف بالعديد من العرب الفلسطينيّين بلا وطن، أو مشردين، إمّا في المناطق الفلسطينية أو الدول العربية المحيطة بها. العديد منهم، وكذلك أحفادهم، ما زالوا بلا دولة وفي مخيمات اللاجئين.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%AD%D8%B1%D8%A8_%D9%81%D9%84%D8%B3%D8%B7%D9%8A%D9%86_1947%E2%80%931949"
+      },
+      "fr": {
+        "title": "Guerre israélo-arabe de 1948",
+        "extract": "La guerre israélo-arabe de 1948, également nommée guerre de 1948, guerre de Palestine de 1948, guerre d'indépendance ou guerre de la Libération et al-Nakba, est une guerre se déroulant en deux phases, qui, à la suite du plan de partage de la Palestine par l'ONU en novembre 1947, mena à la fondation de l'État d'Israël en mai 1948. Elle marque la naissance du problème des réfugiés palestiniens et le début de l'exode des communautés juives du monde arabe. La guerre marque également le début du conflit israélo-arabe et du conflit israélo-palestinien.",
+        "url": "https://fr.wikipedia.org/wiki/Guerre_isra%C3%A9lo-arabe_de_1948"
+      },
+      "pt": {
+        "title": "Guerra da Palestina de 1948",
+        "extract": "A guerra da Palestina de 1948 teve início em 30 de novembro de 1947 e perdurou até meados de 1949 na Palestina Mandatária.",
+        "url": "https://pt.wikipedia.org/wiki/Guerra_da_Palestina_de_1948"
+      }
+    }
+  },
+  "Battle of Jenin (1948)": {
+    "pages": {
+      "en": {
+        "title": "Battle of Jenin (1948)",
+        "extract": "The Battle of Jenin was fought between Israel and Iraq, along with Arab irregular forces, during the 1948 Arab–Israeli War.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Jenin_(1948)"
+      },
+      "ar": {
+        "title": "معركة جنين (1948)",
+        "extract": "معركة جنين معركة دارت بين العصابات الصهيونية والعراق، إلى جانب قوات غير نظامية عربية، خلال حرب فلسطين 1948م. لقد كانت جنين هي النصر العراقي الهام الوحيد خلال الحرب.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%AC%D9%86%D9%8A%D9%86_(1948)"
+      },
+      "pt": {
+        "title": "Batalha de Jenin (1948)",
+        "extract": "A Batalha de Jenin foi uma batalha travada entre Israel e o Iraque, juntamente com forças irregulares árabes, durante a Guerra Árabe-Israelense de 1948.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Jenin_(1948)"
+      }
+    }
+  },
+  "Sa'sa' massacre": {
+    "pages": {
+      "en": {
+        "title": "Sa'sa' massacre",
+        "extract": "During the 1948 Palestine war, two massacres were perpetrated by Zionist forces in the Palestinian village of Sa'sa'. The first occurred on the night of 14-15 February 1948, when Palmach forces attacked the village killing approximately 60 people. The second massacre occurred on 30 October 1948 when the village was conquered by the Israeli military as part of Operation Hiram.",
+        "url": "https://en.wikipedia.org/wiki/Sa'sa'_massacre"
+      },
+      "ar": {
+        "title": "مجزرة سعسع",
+        "extract": "تشير مجزرة سعسع إلى المجزرتين التي ارتكبتهما قوات الهاغاناه خلال عام 1948 في قرية سعسع. الأولى وقعت في منتصف شباط 1948 والثانية في أواخر تشرين الأول 1948. ففي ليلة 14-15 من شباط دمرت القوات الإسرائيلية عشرين منزلاً فوق رؤوس أصحابها، وكانت حصيلة هذه المجزرة قتل حوالي 60 من أهالي القرية، معظمهم من النساء والأطفال. أما المجزرة الثانية فقد ارتكبت في 30 تشرين الأول يوم احتلال القرية في سياق عملية حيرام.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%AC%D8%B2%D8%B1%D8%A9_%D8%B3%D8%B9%D8%B3%D8%B9"
+      },
+      "pt": {
+        "title": "Massacre de Saasa",
+        "extract": "O massacre de Sa'sa' refere-se a dois massacres cometidos pelas forças do Haganah em 1948 na aldeia de Sa'sa'. O primeiro ocorreu em meados de fevereiro de 1948 e o segundo no final de outubro do mesmo ano.",
+        "url": "https://pt.wikipedia.org/wiki/Massacre_de_Saasa"
+      }
+    }
+  },
+  "Battle of Mishmar HaEmek": {
+    "pages": {
+      "en": {
+        "title": "Battle of Mishmar HaEmek",
+        "extract": "The Battle of Mishmar HaEmek was part of the civil war in Mandatory Palestine ahead of the 1948 Arab–Israeli War. It was a ten-day battle fought from 4 to 15 April 1948 between the Arab Liberation Army commanded by Fawzi al-Qawuqji and the Haganah commanded by Yitzhak Sadeh and Dan Laner. The battle began when al-Qawuqji launched an attack against Mishmar HaEmek with the intent of taking the kibbutz, which was strategically placed beside the main road between Jenin and Haifa. In 1947 it had a population of 550.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Mishmar_HaEmek"
+      },
+      "es": {
+        "title": "Batalla de Mishmar HaEmek",
+        "extract": "La batalla de Mishmar HaEmek fue un enfrentamiento de diez días que tuvo lugar entre el 4 y el 15 de abril de 1948 en el kibutz Mishmar HaEmek, entre el Ejército Árabe de Liberación, comandado por Fawzi al-Qawuqji y la Haganá, comandada por Yitzhak Sadeh. La batalla comenzó cuando al-Qawuqji lanzó un ataque contra Mismar Haemek, con la intención de tomar el kibutz, que tenía una ubicación estratégica, al lado de la carretera principal entre Jenin y Haifa. En 1947, Mishmar HaEmek tenía 550 habitantes.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Mishmar_HaEmek"
+      },
+      "ar": {
+        "title": "معركة مشمار هعيمق",
+        "extract": "معركة مشمار هعيمق هي معركة دامت عشرة أيام من 4 إلى 15 أبريل 1948 بين جيش الإنقاذ العربي بقيادة فوزي القاوقجي والهاغاناه بقيادة إسحاق ساده. بدأت المعركة عندما شن فوزي القاوقجي هجوماً على مشمار هعيمق بقصد السيطرة على الكيبوتس، الذي كان يتموضع استراتيجياً على جانب الطريق الرئيسي بين جنين وحيفا. في عام 1947، كان عدد سكانه 550 نسمة.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D9%85%D8%B4%D9%85%D8%A7%D8%B1_%D9%87%D8%B9%D9%8A%D9%85%D9%82"
+      }
+    }
+  },
+  "Battle of Haifa (1948)": {
+    "pages": {
+      "en": {
+        "title": "Battle of Haifa (1948)",
+        "extract": "The Battle of Haifa, also known as the Fall of Haifa, and called by the Jewish forces Operation Bi'ur Hametz, was a Haganah operation carried out on 21–22 April 1948 and a major event in the final stages of the civil war in Palestine, leading up to the 1948 Arab–Israeli War.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Haifa_(1948)"
+      },
+      "es": {
+        "title": "Batalla de Haifa (1948)",
+        "extract": "La batalla de Haifa (1948), denominada por las fuerzas judías Operación Bi'ur Hametz fue una operación de la Haganá llevada a cabo el 21 y 22 de abril de 1948. El objetivo de la operación era la captura de los barrios árabes de Haifa y fue un acontecimiento importante en las etapas finales de la guerra civil en Palestina, que condujo a la guerra árabe-israelí de 1948.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Haifa_(1948)"
+      },
+      "ar": {
+        "title": "سقوط حيفا (1948)",
+        "extract": "كانت معركة حيفا أو سقوط حيفا أو كما أسمتها القوات اليهودية عملية بيعور حميتس ، «التطهير في الفصح») عملية للهاغانا نفذت في 21–22 أبريل 1948. وكان الهدف من العملية هو الاستيلاء على الأحياء العربية في حيفا وكان حدثًا هامًا في المراحل الأخيرة من حرب التطهير العرقي في فلسطين، مما أدى إلى الحرب العربية الإسرائيلية عام 1948.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%B3%D9%82%D9%88%D8%B7_%D8%AD%D9%8A%D9%81%D8%A7_(1948)"
+      }
+    }
+  },
+  "Battles of Latrun (1948)": {
+    "pages": {
+      "en": {
+        "title": "Battles of Latrun (1948)",
+        "extract": "The Battles of Latrun were a series of military engagements between the Israel Defense Forces and the Jordanian Arab Legion on the outskirts of Latrun between 25 May and 18 July 1948, during the 1948 Arab–Israeli War. Latrun takes its name from the monastery close to the junction of two major highways: Jerusalem to Jaffa/Tel Aviv and Gaza to Ramallah. During the British Mandate it became a Palestine Police base with a Tegart fort. The United Nations Resolution 181 placed this area within the proposed Arab state. In May 1948, it was under the control of the Arab Legion. It commanded the only road linking the Yishuv-controlled area of Jerusalem to Israel, giving Latrun strategic importance in the battle for Jerusalem.",
+        "url": "https://en.wikipedia.org/wiki/Battles_of_Latrun_(1948)"
+      },
+      "es": {
+        "title": "Batalla de Latrún (1948)",
+        "extract": "La batalla de Latrún (1948) consistió en una serie de enfrentamientos militares entre las Fuerzas de Defensa de Israel y la transjordana Legión Árabe, en las afueras de Latrún entre el 25 de mayo y el 18 de julio de 1948, durante la guerra de Independencia de Israel. Latrún toma su nombre del monasterio ubicado cerca de la intersección de dos carreteras principales: Jerusalén a Jaffa/Tel Aviv y Gaza a Ramala. Durante el mandato británico, se convirtió en una base de la Policía Palestina británica: un fuerte Tegart. La resolución 181 de las Naciones Unidas colocó esta área dentro del Estado árabe propuesto. En mayo de 1948, estaba bajo el control de la Legión Árabe. El fuerte dominaba la carretera que unía el área controlada por el Yishuv en Jerusalén con el resto de Israel, dando a Latrún una importancia estratégica en la batalla por Jerusalén.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Latr%C3%BAn_(1948)"
+      },
+      "ar": {
+        "title": "معركة اللطرون",
+        "extract": "مَعْرَكَة اللطرون أو معارك اللطرون هي سلسلة من الاشتباكات العسكرية التي حدثت على مَشَارِف مَنْطِقة اللطرون بين الجَيْش العَرَبي الأردني والجيش الإسرائيلي في الفترة المُمْتَدَّة من 25 مايو وحتى 18 يوليو من عام 1948م، وذلك ضِمْن حَرب النَّكْبة سنة 1948م. وتستمدّ منطقة اللطرون اسمها من اسم الدَّيْر القَرِيب من تقاطع الشارعين الرئيسيين التاليين: الشارع الواصِل بين القُدْس ويافا، والشارع الواصل بين غزة ورام الله. وخلال الانتداب البريطاني على فلسطين، أصبح ذلك الدَّيْر قاعدة لقوات الشرطة البريطانية في فلسطين، حيث تحوَّل المبنى إلى ما يُسَمَّى قَلعَة تيغارت. وقد وَضَع قَرَار الأمم المتحدة رقم 181 منطقة اللطرون ضمن الدولة العربية المُفْتَرَضة. وفي شهر مايو 1948م، كانت المنطقة تحت سيطرة الجيش العربي، ونتيجةً لذلك، كان الجيش العربي مُسَيْطرًا على الطريق الوحيد الواصِل بين المنطقة المحتلة من القدس وبين دولة إسرائيل، وذلك ما أعطى اللطرون أهمية إستراتيجية في معركة القدس.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%A7%D9%84%D9%84%D8%B7%D8%B1%D9%88%D9%86"
+      },
+      "fr": {
+        "title": "Batailles de Latroun (1948)",
+        "extract": "Les batailles de Latroun sont cinq batailles qui ont opposé Israéliens et Transjordaniens sur les contreforts de Latroun entre les 25 mai et 18 juillet 1948 pendant la première guerre israélo-arabe.",
+        "url": "https://fr.wikipedia.org/wiki/Batailles_de_Latroun_(1948)"
+      }
+    }
+  },
+  "Battles of the Kinarot Valley": {
+    "pages": {
+      "en": {
+        "title": "Battles of the Kinarot Valley",
+        "extract": "The Battles of the Kinarot Valley, is a collective name for a series of military engagements between the Haganah and the Syrian army during the 1948 Arab–Israeli War, fought between 15–22 May 1948 in the Kinarot Valley. It includes two main sites: the Battle of Degania–Samakh (Tzemah), and battles near Masada–Sha'ar HaGolan. The engagements were part of the battles of the Jordan Valley, which also saw fighting against Transjordan in the area of Gesher.",
+        "url": "https://en.wikipedia.org/wiki/Battles_of_the_Kinarot_Valley"
+      },
+      "es": {
+        "title": "Batalla del Valle de Kinarot",
+        "extract": "La batalla del Valle de Kinarot es el nombre colectivo utilizado para una serie de enfrentamientos militares entre la Haganá y el Ejército sirio durante la guerra árabe-israelí de 1948, quienes combatieron entre el 15 y el 22 de mayo de 1948 en el valle de Kinarot. Incluye dos sitios principales: la batalla de Degania–Samakh (Tzemah), y las batallas cerca de Masada–Sha'ar HaGolan. Los combates fueron parte de las batallas del valle del Jordán, que también involucraron los combates contra Transjordania en el área de Gesher.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_del_Valle_de_Kinarot"
+      },
+      "ar": {
+        "title": "معارك وادي كيناروت",
+        "extract": "معارك وادي كيناروت اسم جماعي يطلق على سلسلة من الاشتباكات العسكرية بين الجيش السوري ومنظمة الهاغانا خلال حرب 1948 في الفترة بين 15–21 مايو 1948 بوادي كيناروت. تشتمل المعارك على موقعين هما: معركة دجانيا–سمخ ومعارك قرب مسادا–شاعار هاجولان. كانت تعتبر الاشتباكات جزء من معارك غور الأردن التي شهدت قتال بين قوات من شرق الأردن والمنظمات الصهيونية في مستعمرة غيشر.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%A7%D8%B1%D9%83_%D9%88%D8%A7%D8%AF%D9%8A_%D9%83%D9%8A%D9%86%D8%A7%D8%B1%D9%88%D8%AA"
+      },
+      "fr": {
+        "title": "Bataille des Déganias",
+        "extract": "La bataille des Déganias est un affrontement entre l’armée israélienne et l’armée syrienne, en mai 1948, lors de la guerre de Palestine de 1948.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_des_D%C3%A9ganias"
+      }
+    }
+  },
+  "Battle of Yad Mordechai": {
+    "pages": {
+      "en": {
+        "title": "Battle of Yad Mordechai",
+        "extract": "The Battle of Yad Mordechai was fought between Egypt and Israel in the 1948 Arab-Israeli War, at the Israeli kibbutz of Yad Mordechai. The Egyptians attacked the settlement several times throughout May 19 and May 20, but failed to capture it. A final attack was launched on May 23, in which the Egyptians succeeded in capturing part of Yad Mordechai, following which the Israeli defenders withdrew. Yad Mordechai finally fell to the Egyptians on May 24 after hours of bombardment of the vacated kibbutz.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Yad_Mordechai"
+      },
+      "es": {
+        "title": "Batalla de Yad Mordejai",
+        "extract": "La batalla de Yad Mordejai se libró entre Egipto e Israel en la guerra árabe-israelí de 1948, en el kibutz israelí de Yad Mordejai. Los egipcios atacaron el asentamiento en varias ocasiones entre el 19 y el 20 de mayo, pero no lograron capturarlo. Un ataque final fue lanzado el 23 de mayo, en el que los egipcios lograron capturar parte del kibutz, tras lo cual los defensores israelíes se retiraron. Yad Mordejai finalmente cayó ante los egipcios el 24 de mayo, después de horas de bombardeo en el desocupado kibutz.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Yad_Mordejai"
+      },
+      "ar": {
+        "title": "معركة ياد مردخاي",
+        "extract": "دَارَت معركة ياد مردخاي بين مصر وإسرائيل خلال حرب 1948م عند المٌسْتَوْطَنَة\\الكيبوتز الإسرائيلي ياد مردخاي. حيث هاجَم المصريون المستوطنة عدة مرات في يَوْمَيْ 19 و20 مايو ولكنهم لم ينجحوا في تحريرها. وعادوا في 23 مايو في هجوم نهائي استطاعوا فيه الحصول على جزء منها، ولَحِق ذلك انسحاب الإسرائيليين من باقي الأجزاء. وفي 24 مايو أصبحت ياد مردخاي كاملة تحت السيطرة المصرية بعد ساعات من القصف المدفعي على ذلك الكيبوتز الذي كان خاليًا من السكان، حيث أن المصريين لم يكونوا على دراية بالانسحاب الإسرائيلي.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D9%8A%D8%A7%D8%AF_%D9%85%D8%B1%D8%AF%D8%AE%D8%A7%D9%8A"
+      }
+    }
+  },
+  "Battle of Nirim": {
+    "pages": {
+      "en": {
+        "title": "Battle of Nirim",
+        "extract": "The Battle of Nirim was a military engagement between the Egyptian army and the Jewish Haganah militia on May 15, 1948, the first day of the Egyptian invasion of Israel in the 1948 Arab–Israeli War. It was fought in kibbutz Nirim, founded just two years earlier as part of the strategic settlement push known as the \"11 points in the Negev\". The Egyptian 6th Battalion attacked about 40 Israeli defenders at dawn on May 15, backed by armored vehicles, mortars, cannons and aircraft. They failed to take the village and retreated about 7 hours later, leaving behind about 30–35 dead.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Nirim"
+      },
+      "es": {
+        "title": "Batalla de Nirim",
+        "extract": "La batalla de Nirim fue un enfrentamiento militar entre el ejército egipcio y la Haganá judía, el 15 de mayo de 1948, el primer día de la invasión egipcia de Israel en la guerra árabe-israelí de 1948. Se luchó en el kibutz Nirim, fundado dos años antes como parte de los 11 puntos en el Néguev. El 6º Batallón egipcio atacó a unos 40 defensores israelíes en la madrugada del 15 de mayo, secundado por vehículos blindados, morteros, cañones y aviones. Ellos no tomaron el pueblo y se retiraron alrededor de 7 horas después, dejando tras de sí unos 30–35 muertos.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Nirim"
+      },
+      "ar": {
+        "title": "معركة نيريم",
+        "extract": "كانت معركة نيريم اشتباك عسكري بين الجيش المصري والهاغاناه اليهودية في 15 مايو 1948، وهو اليوم الأول للغزو المصري لما كان يعرف بغرب فلسطين المنتدبة في الحرب العربية الإسرائيلية عام 1948. وقد تم خوضها في كيبوتز نيريم، التي تأسست قبل عامين فقط كجزء من 11 نقطة في النقب. يذكر أن الكتيبة السادسة المصرية هاجمت حوالي 40 مدافعا إسرائيليا فجر يوم 15 مايو تدعمهم العربات المدرعة ومدافع الهاون والمدافع والطائرات. فشلوا في أخذ القرية وانسحبوا بعد حوالي 7 ساعات، تاركين وراءهم حوالي 30 إلى 35 قتيلا.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D9%86%D9%8A%D8%B1%D9%8A%D9%85"
+      }
+    }
+  },
+  "Battle of Gesher": {
+    "pages": {
+      "en": {
+        "title": "Battle of Gesher",
+        "extract": "The Battle of Gesher was an attempted joint Iraqi-Jordanian advance against the newly created State of Israel during the 1948 Arab-Israeli War. The battle began on May 14, 1948, when the Jewish exclave of Naharayim was stormed by Arab forces in an attempt to reach the town of Afula and link with the First Yarmouk Brigade of the Arab Liberation Army. The battle was a tactical Israeli victory as the Iraqi Army would move south to the cities of Nablus and Jenin to take over the Samarian Front, resulting in the halting of the advance to Afula.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Gesher"
+      },
+      "es": {
+        "title": "Batalla de Gesher",
+        "extract": "La batalla de Gesher fue un enfrentamiento producido en la guerra de Independencia de Israel, entre los combatientes del Palmaj y del batallón Barak de la brigada Golani y la Fuerza Expedicionaria Iraquí. Los iraquíes iniciaron el ataque al kibutz, tratando de cruzar los puentes sobre el río Jordán. Sin embargo, los zapadores israelíes los habían destruido. Gracias a la construcción de un puente provisional, los iraquíes lograron pasar y comenzaron a bombardear el asentamiento. Los israelíes resistieron y el 22 de mayo lograron derrotar a los atacantes, que se retiraron a Yenín por el resto de la guerra.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Gesher"
+      },
+      "ar": {
+        "title": "معركة جيشر",
+        "extract": "معركة جيشر هي إتحادًا عراقيًا اردنيًا ضد دولة إسرائيل المُنشأة حديثّا التي اشتركت بشكل خاص مع لواء جولاني خلال حرب فلسطين الكبرى 1947 - 1949 في الرابع عشر حتى الثاني والعشرين من شهر مايو عام 1948. في الرابع عشر من مايو قامت القوّات العربية باقتحام معبر نهاريم اليهودي وذلك في محاولة الوصول إلى مدينة العفولة بهدف الإلتحاق ب لواء اليرموك الاول للعرب جيش الإنقاذ. كانت المعركة انتصارًا إسرائيليًا حيث تحرك الجيش العراقي جنوبًا إلى مدينتي نابلس وجنين للسيطرة على الجبهة السامريّة مما أدّى إلى إيقاف التقدم ألى العفولة.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%AC%D9%8A%D8%B4%D8%B1"
+      },
+      "pt": {
+        "title": "Batalha de Gesher",
+        "extract": "A Batalha de Gesher foi um avanço conjunto iraquiano-jordaniano contra o recém-criado Estado de Israel e engajado especificamente com a Brigada Golani durante a mais ampla Guerra da Palestina de 1947-1949 em 14-22 de maio de 1948. A batalha começou quando o enclave judeu de Naharayim em 14 de maio foi invadido pelas forças árabes em uma tentativa de chegar à cidade de Afula e se conectar com a Primeira Brigada Yarmouk do Exército de Libertação Árabe (ELA). A batalha foi uma vitória tática israelense, com o Exército iraquiano abandonando o ataque e se redirecionando para o sul, para as cidades de Nablus e Jenin, para assumir o controle da Frente de Samaria, resultando na interrupção do avanço para Afula.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Gesher"
+      }
+    }
+  },
+  "Operation Pleshet": {
+    "pages": {
+      "en": {
+        "title": "Operation Pleshet",
+        "extract": "Operation Pleshet was an Israeli military action near the village of Isdud from May 29 to June 3, 1948 during the 1948 Arab–Israeli War. Isdud was on the Israeli southern front against the Egyptian Army, and the operation was aimed at capturing the village and stopping the Egyptian advance northwards. While only the June 2–3 engagements are officially named Operation Pleshet, the events immediately preceding are historiographically joined with it.",
+        "url": "https://en.wikipedia.org/wiki/Operation_Pleshet"
+      },
+      "es": {
+        "title": "Operación Pleshet",
+        "extract": "La operación Pleshet, nombrada por la región geográfica en la que se llevó a cabo, fue una operación militar israelí durante la guerra árabe-israelí de 1948. Fue llevada a cabo entre el 29 de mayo y el 3 de junio de 1948 en la zona Isdud/Ad Halom del frente sur, contra el Ejército egipcio. El objetivo de la operación era capturar Isdud y detener el avance egipcio hacia el norte. Mientras que solamente los compromisos del 2-3 de junio son nombrados oficialmente «Operación Pleshet», los acontecimientos inmediatamente anteriores se unieron historiográficamente con esta.",
+        "url": "https://es.wikipedia.org/wiki/Operaci%C3%B3n_Pleshet"
+      },
+      "ar": {
+        "title": "معركة أسدود",
+        "extract": "معركة أسدود كانت عملية عسكرية إسرائيلية بالقرب من قرية إسدود في الفترة من 29 مايو إلى 3 يونيو 1948 خلال الحرب العربية الإسرائيلية عام 1948. كانت قرية أسدود تقع على الجبهة الجنوبية الإسرائيلية ضد الجيش المصري، وكانت العملية تهدف إلى الاستيلاء على القرية ووقف التقدم المصري شمالاً. في حين أن المعارك التي جرت يومي 2 و3 يونيو/حزيران فقط هي التي تم تسميتها رسميًا بعملية بليشيت، فإن الأحداث التي سبقتها مباشرة تم ربطها بها تاريخيًا.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%A3%D8%B3%D8%AF%D9%88%D8%AF"
+      }
+    }
+  },
+  "Al-Kabri massacre": {
+    "pages": {
+      "en": {
+        "title": "Al-Kabri massacre",
+        "extract": "The Al-Kabri massacre occurred when the Israeli army attacked the Palestinian village of Al-Kabri on the night of May 20-21, 1948, during the 1948 Palestine war. The attack was part of Operation Ben-Ami, itself a part of Plan Dalet. Orders were given to \"attack with the aim of capturing, the villages of Kabri, Umm al Faraj and Al-Nahr, to kill the men [and] to destroy and set fire to the villages\", orders which Meron Benvenisti states were \"carried out to the letter\". At least seven people were killed. The attack was committed partially as revenge for the March 27 Yehiam convoy ambush.",
+        "url": "https://en.wikipedia.org/wiki/Al-Kabri_massacre"
+      },
+      "ar": {
+        "title": "مجزرة الكابري",
+        "extract": "مجزرة الكابري هي عملية عسكرية نفذتها قوات جيش الاحتلال الإسرائيلي خلال الحرب العربية الإسرائيلية عام 1948 رداً على الهجوم الذي تعرضت له قافلة يحيعام.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%AC%D8%B2%D8%B1%D8%A9_%D8%A7%D9%84%D9%83%D8%A7%D8%A8%D8%B1%D9%8A"
+      },
+      "fr": {
+        "title": "Massacre d'Al-Kabri",
+        "extract": "Le massacre d’Al-Kabri est commis par l'armée israélienne lors de son attaque du village palestinien d'Al-Kabri dans la nuit du 20 au 21 mai 1948, pendant la guerre de Palestine de 1948. L'attaque s'inscrivait dans le cadre de l'opération Ben-Ami, elle-même intégrée au Plan Dalet. L'ordre fut donné par Moshe Carmel d'« attaquer pour prendre les villages de Kabri, Umm al-Faraj et Al-Nahr, de tuer les hommes adultes et de détruire et incendier les villages », ordres qui, selon Meron Benvenisti, furent « exécutés à la lettre ». L'attaque a été commise en partie pour se venger de l' embuscade du convoi Yehiam du 27 mars.",
+        "url": "https://fr.wikipedia.org/wiki/Massacre_d'Al-Kabri"
+      }
+    }
+  },
+  "Battle of Nitzanim": {
+    "pages": {
+      "en": {
+        "title": "Battle of Nitzanim",
+        "extract": "The Battle of Nitzanim was fought between the Israel Defense Forces and the Egyptian Army in the 1948 Arab–Israeli War, on June 7, 1948. It was the first major Egyptian victory of the war, and one of the few cases of Israeli surrender.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Nitzanim"
+      },
+      "es": {
+        "title": "Batalla de Nitzanim",
+        "extract": "La batalla de Nitzanim fue una batalla entre las Fuerzas de Defensa de Israel y el Ejército egipcio durante la guerra de Independencia de Israel, el 7 de junio de 1948. Fue la primera victoria egipcia importante de la guerra, y uno de los pocos casos de rendición israelí.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Nitzanim"
+      },
+      "ar": {
+        "title": "معركة نيتسانيم",
+        "extract": "معركة نيتسانيم هي معركة نشبت بين الجيش الإسرائيلي والجيش المصري في حرب العربية الإسرائيلية عام 1948، في 7 يونيو، 1948. وكان هذا أول انتصار كبير للجانب المصري في حرب 48، وواحدة من الحالات القليلة التي استسلم فيها الجانب الإسرائيلي في حرب فلسطين.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D9%86%D9%8A%D8%AA%D8%B3%D8%A7%D9%86%D9%8A%D9%85"
+      },
+      "fr": {
+        "title": "Bataille de Nitzanim",
+        "extract": "La bataille de Nitzanim se produisit à partir de la nuit du 6 au 7 juin 1948 durant la Guerre israélo-arabe de 1948-1949. Elle opposa des éléments de la brigade Guivati de l'armée israélienne aidée des habitants à l'égyptienne aux alentours du village de Nitzarim (en), un kibboutz fondé en 1943 le long de la côte situé à mi-chemin entre Ashdod et Ashkelon, dans le territoire attribué aux Arabes par le plan de partage de la Palestine.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Nitzanim"
+      }
+    }
+  },
+  "Battles of Negba": {
+    "pages": {
+      "en": {
+        "title": "Battles of Negba",
+        "extract": "The Battles of Negba were a series of military engagements between the Israel Defense Forces and the Egyptian army in the 1948 Arab–Israeli War. Negba, a kibbutz founded in 1939, had a strategic position overlooking the Majdal – Bayt Jibrin road, and was a target of two major assaults by the Egyptians in June and July 1948.",
+        "url": "https://en.wikipedia.org/wiki/Battles_of_Negba"
+      },
+      "es": {
+        "title": "Batallas de Negba",
+        "extract": "Las batallas de Negba fueron una serie de enfrentamientos militares entre las Fuerzas de Defensa de Israel y el ejército egipcio en la guerra de la Independencia de Israel de 1948. Negba, un kibutz fundado en 1939, tenía una posición estratégica, punto de observación de la carretera Majdal-Bayt Jibrin, y fue blanco de dos ataques egipcios importantes en junio y julio de 1948.",
+        "url": "https://es.wikipedia.org/wiki/Batallas_de_Negba"
+      },
+      "ar": {
+        "title": "معارك نيغبا",
+        "extract": "كانت معارك نيغبا سلسلة من الاشتباكات العسكرية بين الجيش الإسرائيلي و‌الجيش المصري في حرب 1948، وكان لنيغبا، وهو كيبوتس تأسس في عام 1939، موقع استراتيجي يطل على طريق المجدل - بيت جبرين، وكان هدفا لهجومين كبيرين من قبل المصريين في يونيو ويوليو 1948.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%A7%D8%B1%D9%83_%D9%86%D9%8A%D8%BA%D8%A8%D8%A7"
+      }
+    }
+  },
+  "Battle of Be'erot Yitzhak": {
+    "pages": {
+      "en": {
+        "title": "Battle of Be'erot Yitzhak",
+        "extract": "The Battle of Be'erot Yitzhak was a military engagement between the Israel Defense Forces and Egyptian army in the 1948 Arab–Israeli War. It was fought on July 15, 1948, in the ten-day period between the first and second truces of the war.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Be'erot_Yitzhak"
+      }
+    }
+  },
+  "Operation Death to the Invader": {
+    "pages": {
+      "en": {
+        "title": "Operation Death to the Invader",
+        "extract": "Operation Death to the Invader, also Death to the Invaders, was an Israeli military operation during the 1948 Arab–Israeli War. It was carried out on July 16–18, 1948 in the northwestern Negev desert. The operation's objective was to link Jewish villages in the Negev desert with the rest of Israel, after this aim was not achieved in Operation An-Far that ended on July 15. The Egyptians blocked Israeli access to its Negev villages during the first truce of the war, by taking up positions on the Majdal – Bayt Jibrin road, where most of the battles of Death to the Invaders were fought.",
+        "url": "https://en.wikipedia.org/wiki/Operation_Death_to_the_Invader"
+      },
+      "es": {
+        "title": "Operación Muerte al Invasor",
+        "extract": "La Operación Muerte al Invasor, también llamada Muerte a los Invasores, fue una operación militar israelí durante la guerra árabe-israelí de 1948. Se llevó a cabo entre el 16 y el 18 de julio de 1948 al noroeste del desierto de Néguev. El objetivo de la operación era unir territorialmente a los pueblos judíos en el desierto de Néguev con el resto de Israel, después de que no se hubiese logrado este objetivo en la Operación An-Far, que finalizó el 15 de julio. Los egipcios bloquearon el acceso de Israel a estos pueblos en el Néguev durante la primera tregua de la guerra, tomando posiciones en la carretera Majdal–Bayt Jibrin, donde la mayoría de las batallas de la operación se libraron.",
+        "url": "https://es.wikipedia.org/wiki/Operaci%C3%B3n_Muerte_al_Invasor"
+      },
+      "ar": {
+        "title": "عملية الموت للغزاة",
+        "extract": "عملية الموت للغزاة ، كانت عملية عسكرية إسرائيلية خلال الحرب العربية الإسرائيلية عام 1948. جرت في الفترة من 16 إلى 18 يوليو/ 1948 في النقب الشمالية الغربية. وكان هدف العملية ربط القرى اليهودية في صحراء النقب ببقية إسرائيل، بعد أن فشلت عملية أن فار التي انتهت في 15 يوليو/تموز في تحقيق هذا الهدف. قام المصريون بمنع وصول الإسرائيليين إلى قراهم في النقب خلال الهدنة الأولى من الحرب ، وذلك من خلال اتخاذ مواقع على طريق المجدل – بيت جبرين، حيث دارت معظم معارك الموت للغزاة.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%B9%D9%85%D9%84%D9%8A%D8%A9_%D8%A7%D9%84%D9%85%D9%88%D8%AA_%D9%84%D9%84%D8%BA%D8%B2%D8%A7%D8%A9"
+      }
+    }
+  },
+  "Operation Shoter": {
+    "pages": {
+      "en": {
+        "title": "Operation Shoter",
+        "extract": "Operation Shoter, also Operation Jaba', was a three-day Israeli operation during the 1948 Arab–Israeli War in the \"Little Triangle\" area south of Haifa. The operational objective was to clear the Tel Aviv – Haifa Road, which had been closed by local militia. Israelis had been forced to take a long and dangerous route to the east through Wadi Milk. The operation was launched a week after the start of the second truce imposed by United Nations. Attacks on Israeli traffic had continued during the truce. The operation was carried out by the Alexandroni's 33rd Battalion with support from additional Golani and Carmeli units. The Arab forces were irregular local militia.",
+        "url": "https://en.wikipedia.org/wiki/Operation_Shoter"
+      }
+    }
+  },
+  "Beit Hanoun wedge": {
+    "pages": {
+      "en": {
+        "title": "Beit Hanoun wedge",
+        "extract": "The Beit Hanoun wedge was a piece of land around Beit Hanoun that the Israel Defense Forces captured during Operation Yoav in the final stage of the 1948 Arab–Israeli War. With this and other wedges, the Israelis hoped to divide various units in the Egyptian army's expeditionary force in Palestine as part of Operation Yoav's plan. The battles around the wedge were fought on October 15–22, 1948. Creating the wedge involved the capture of a series of positions overlooking Beit Hanoun between October 15–19, and eventually taking the village itself between October 20–22.",
+        "url": "https://en.wikipedia.org/wiki/Beit_Hanoun_wedge"
+      }
+    }
+  },
+  "Battle of Beersheba (1948)": {
+    "pages": {
+      "en": {
+        "title": "Battle of Beersheba (1948)",
+        "extract": "The Battle of Beersheba, codenamed Operation Moses, was an Israeli offensive on Beersheba on October 21, 1948. It was part of Operation Yoav and was conducted at the end of the operation. It was made possible following the opening of a land corridor from the Negev desert to the rest of Israel in the Battles of the Separation Corridor. The capture had both military and political significance. It helped sever the supply route of the Egyptian expeditionary force's eastern wing, and strengthened Israel's claim to the Negev desert.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Beersheba_(1948)"
+      },
+      "es": {
+        "title": "Batalla de Beerseba (1948)",
+        "extract": "La batalla de Beerseba, en código Operación Moisés, fue una ofensiva israelí en Beerseba, ocurrida el 21 de octubre de 1948. Era parte de la Operación Yoav, llevándose a cabo al final de esta. Esto fue posible tras la apertura de un corredor terrestre desde el desierto del Néguev hasta el resto de Israel, gracias a las batallas del corredor de separación. La captura tuvo tanto un significado militar y como político: ayudó a cortar la ruta de abastecimiento del ala este de la Fuerza Expedicionaria Egipcia, y fortaleció la posición de Israel en el desierto del Néguev.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Beerseba_(1948)"
+      },
+      "ar": {
+        "title": "معركة بئر السبع (1948)",
+        "extract": "معركة بئر السبع أو عملية موسى ، كان هجوماً إسرائيلياً على بئر السبع في 21 أكتوبر عام 1948. وكانت المعركة الشق الأخير من عملية يوآف. ساعدت على فتح ممر بري عبر صحراء النقب لتتصل بباقي إسرائيل، مما له من اهمية عسكرية وسياسية، فقد ساعدت في قطع طريق إمداد الجناح الشرقي لقوة الاستكشاف المصرية، كما عززت مطالبة إسرائيل بضم صحراء النقب.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%A8%D8%A6%D8%B1_%D8%A7%D9%84%D8%B3%D8%A8%D8%B9_(1948)"
+      },
+      "fr": {
+        "title": "Bataille de Beersheba (1948)",
+        "extract": "La bataille de Beersheba, nom de code opération Moïse pour les Israéliens, est un affrontement entre les armées israélienne et égyptienne à Beersheba, dans le désert du Néguer, le 21 octobre 1948. Elle a lieu dans le cadre de l’opération Yoav et conduit à la fin des combats dans ce secteur. Elle suit l’ouverture d’un corridor du Néguev vers le reste du territoire contrôlé par les Israéliens lors de la bataille du corridor de séparation (en). La chute de la ville a des conséquences politiques et militaires : elle coue les voies de ravitaillement de l’aile droite du corps expéditionnaire égyptien, et renforce les revendications israéliennes sur le désert du Néguer.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Beersheba_(1948)"
+      }
+    }
+  },
+  "Operation Shmone": {
+    "pages": {
+      "en": {
+        "title": "Operation Shmone",
+        "extract": "Operation Shmone was an Israeli military operation conducted against the Egyptian-held police fort of Iraq Suwaydan in the 1948 Arab–Israeli War. The battle was fought between the Israel Defense Forces and the Egyptian Army on 9 November 1948, and ended in an Israeli victory, following numerous previous Israeli attempts to capture the fort, two of them in Operation Yoav just weeks before.",
+        "url": "https://en.wikipedia.org/wiki/Operation_Shmone"
+      },
+      "es": {
+        "title": "Operación Shmone",
+        "extract": "La operación Shmone fue una operación militar israelí llevada a cabo en contra del fuerte de policía de Irak Suwaydan, ocupado por los egipcios, en la guerra árabe-israelí de 1948. La batalla se libró entre las Fuerzas de Defensa de Israel y el ejército egipcio el 9 de noviembre de 1948, y terminó en una victoria israelí, tras numerosos intentos israelíes previos de capturar el fuerte, dos de ellos en la Operación Yoav apenas unas semanas antes.",
+        "url": "https://es.wikipedia.org/wiki/Operaci%C3%B3n_Shmone"
+      },
+      "ar": {
+        "title": "عملية شموني",
+        "extract": "عملية شموني كانت عملية عسكرية إسرائيلية ضد حصن الشرطة في عراق سويدان الخاضع للسيطرة المصرية في الحرب العربية الإسرائيلية 1948. المعركة دارت بين قوات الدفاع الإسرائيلية والجيش المصري في 9 نوفمبر 1948 وانتهت بنصر إسرائيلي بعد محاولات إسرائيلية عديدة سابقة للاستيلاء على الحصن اثنين منهم في عملية يواف قبل أسابيع.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%B9%D9%85%D9%84%D9%8A%D8%A9_%D8%B4%D9%85%D9%88%D9%86%D9%8A"
+      }
+    }
+  },
+  "Battle of Hill 86": {
+    "pages": {
+      "en": {
+        "title": "Battle of Hill 86",
+        "extract": "The Battle of Hill 86 was a military engagement between the Israel Defense Forces and the Egyptian Army as part of Operation Horev. It was fought on December 22–23, 1948, and was the first battle of the operation. The Israelis initiated the battle, as well as a concurrent raid on the Arab village of 'Abasan and aerial and naval shelling of the coastal strip, with the hope of deceiving the Egyptians into thinking that the coming operation would be aimed at isolating the Egyptian forces in Gaza.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Hill_86"
+      },
+      "ar": {
+        "title": "معركة التل 86",
+        "extract": "كانت معركة التل 86 اشتباكاً عسكرياً بين جيش الاحتلال الإسرائيلي والجيش المصري كجزء من عملية حوريب، وكانت في الفترة بين 22 و23 ديسمبر 1948، وكانت أول معركة في العملية. بدأ الإسرائيليون القتال في المعركة؛ بالإضافة إلى غارة متزامنة على قرية عبسان الفلسطينية بمصاحبة قصف جوي وبحري للشريط الساحلي، على أمل خداع المصريين للاعتقاد بأن العملية القادمة ستكون لعزل القوات المصرية في غزة.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%A7%D9%84%D8%AA%D9%84_86"
+      }
+    }
+  },
+  "Battle of 'Auja": {
+    "pages": {
+      "en": {
+        "title": "Battle of 'Auja",
+        "extract": "The Battle of 'Auja, also called Battle of Nitzana, was a military engagement between the Israel Defense Forces and the Egyptian Army in and around 'Auja, a small village on the Egypt–Israel border. It was fought on December 26–27, 1948, as part of Operation Horev, an Israeli campaign meant to expel all Egyptian forces from the country. The first stage of the operation was the simultaneous capture of 18 Egyptian positions on the Beersheba–'Auja road, including 7 around 'Auja.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_'Auja"
+      },
+      "es": {
+        "title": "Batalla de 'Auja",
+        "extract": "La batalla de 'Auja, también llamada batalla de Nitzana, fue un enfrentamiento militar entre las Fuerzas de Defensa de Israel y el Ejército egipcio en y alrededor de 'Auja, un pequeño pueblo en la frontera entre Egipto e Israel. Se combatió el 26-27 de diciembre, como parte de la operación Horeb, una campaña israelí destinada a expulsar a todas las fuerzas egipcias del país. La primera fase de la operación fue la captura simultánea de 18 posiciones egipcias en la carretera Beersheba-'Auja, incluyendo 7 en torno a la última.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_'Auja"
+      },
+      "ar": {
+        "title": "معركة العوجة",
+        "extract": "معركة العوجة، والتي تُدعى أيضاً بمعركة نيتسانا، كانت اشتباكاً عسكرياً بين الجيش الإسرائيلي و‌الجيش المصري داخل وحول العوجة، وهي قرية صغيرة على الحدود المصرية الفلسطينية. دارت في 26–27 ديسمبر 1948، كجزء من عملية حوريب، وهي حملة إسرائيلية لطرد جميع القوات المصرية من البلاد. كانت أول مرحلة من العملية هي الاستيلاء المتزامن على 18 موقعاً مصرياً في طريق بئر السبع-العوجة، والتي تتضمّن 7 في محيط العوجة.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%A7%D9%84%D8%B9%D9%88%D8%AC%D8%A9"
+      }
+    }
+  },
+  "Battle of Rafah (1949)": {
+    "pages": {
+      "en": {
+        "title": "Battle of Rafah (1949)",
+        "extract": "The Battle of Rafah was a military engagement between the Israel Defense Forces and the Egyptian Army in the final stage of the 1948 Arab–Israeli War. It was fought on January 3–8, 1949, just south of Rafah, today in the Gaza Strip. The battle was initiated by Israel as part of Operation Horev, on the backdrop of the Sinai battles just before. The Israelis were hoping to encircle all Egyptian forces in Palestine and drive them back to Egypt.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Rafah_(1949)"
+      },
+      "es": {
+        "title": "Batalla de Rafah (1949)",
+        "extract": "La batalla de Rafah (1949) fue un enfrentamiento militar entre las Fuerzas de Defensa de Israel y el ejército egipcio en la etapa final de la guerra árabe-israelí de 1948. Se luchó entre el 3 y 8 de enero de 1949, justo al sur de Rafah, hoy en la franja de Gaza. La batalla fue iniciada por Israel como parte de la operación Horeb, en el contexto de las recién iniciadas batallas del Sinaí. Los israelíes esperaban para rodear todas las fuerzas egipcias en Palestina y enviarlas de vuelta a Egipto.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Rafah_(1949)"
+      },
+      "ar": {
+        "title": "معركة رفح (1949)",
+        "extract": "كانت معركة رفح اشتباكاً عسكرياً بين جيش الاحتلال الإسرائيلي والجيش المصري في المرحلة الأخيرة من الحرب العربية الإسرائيلية عام 1948. دارت رحاها في الفترة من 3 إلى 8 يناير 1949 جنوب مدينة رفح مباشرة، والواقعة اليوم ضمن قطاع غزة. بدأت المعركة من قبل إسرائيل كجزء من عملية حوريب، على خلفية معارك سيناء. كان الإسرائيليون يأملون في محاصرة كل القوات المصرية في فلسطين وإعادتها مرة أخرى إلى مصر.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%B1%D9%81%D8%AD_(1949)"
+      }
+    }
+  },
+  "Battle for Jerusalem": {
+    "pages": {
+      "en": {
+        "title": "Battle for Jerusalem",
+        "extract": "The Battle for Jerusalem took place during the 1947–1948 civil war phase of the 1947–1949 Palestine war. It saw Jewish and Arab militias in Mandatory Palestine, and later the militaries of Israel and Transjordan, fight for control over the city of Jerusalem. Under the 1947 United Nations Partition Plan for Palestine, Jerusalem was to be a corpus separatum administered by an international body. Fighting nevertheless immediately broke out in the city between Jewish and Arab militias, with bombings and other attacks being carried out by both sides.",
+        "url": "https://en.wikipedia.org/wiki/Battle_for_Jerusalem"
+      },
+      "zh": {
+        "title": "耶路撒冷圍城戰 (1947—1948年)",
+        "extract": "耶路撒冷围城战是第一次中东战争期间犹太人民兵和阿拉伯人民兵为夺取巴勒斯坦托管地的耶路撒冷而爆发的冲突。以色列建国后对阵双方变成以色列国防军和约旦军队。",
+        "url": "https://zh.wikipedia.org/wiki/%E8%80%B6%E8%B7%AF%E6%92%92%E5%86%B7%E5%9C%8D%E5%9F%8E%E6%88%B0_(1947%E2%80%941948%E5%B9%B4)"
+      },
+      "es": {
+        "title": "Batalla de Jerusalén (1948)",
+        "extract": "La batalla de Jerusalén fue un enfrentamiento producido desde diciembre de 1947 hasta el 18 de julio de 1948, cuando las comunidades judía y árabe del Mandato de Palestina y, posteriormente, los ejércitos jordano e israelí lucharon por el control de la ciudad.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Jerusal%C3%A9n_(1948)"
+      },
+      "ar": {
+        "title": "معركة القدس",
+        "extract": "وقعت معركة القدس خلال مرحلة الحرب الأهلية 1947–48 من حرب فلسطين 1947–1949. وشهدت الحرب مشاركة الميليشيات اليهودية عرب في فلسطين الانتدابية، ثم جيوش إسرائيل والأردن في وقت لاحق، في القتال من أجل السيطرة على مدينة القدس.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%A7%D9%84%D9%82%D8%AF%D8%B3"
+      }
+    }
+  },
+  "Operation Nachshon": {
+    "pages": {
+      "en": {
+        "title": "Operation Nachshon",
+        "extract": "Operation Nachshon was a military operation of the Haganah during the 1947–1948 civil war in Mandatory Palestine and part of Plan Dalet. Its objective was to open the Tel Aviv – Jerusalem road blockaded by Palestinian Arabs, and furnish arms and supplies to the besieged Jewish community of Jerusalem. The operation was also known as \"The operation to take control of the Jerusalem road,\" following which participating units later broke off to form the Harel Brigade. Following attempts to take control of the road to Jerusalem were unsuccessful and led to the construction of a makeshift bypass—Burma Road.",
+        "url": "https://en.wikipedia.org/wiki/Operation_Nachshon"
+      },
+      "es": {
+        "title": "Operación Najshón",
+        "extract": "La Operación Najshón fue una operación militar judía durante la guerra civil durante el Mandato de Palestina. Se realizó entre el 5 y el 20 de abril de 1948; su objetivo era romper el cerco de Jerusalén abriendo la carretera de Tel Aviv-Jerusalén, bloqueada por árabes palestinos, para suministrar alimentos y armas a la comunidad judía aislada de Jerusalén.",
+        "url": "https://es.wikipedia.org/wiki/Operaci%C3%B3n_Najsh%C3%B3n"
+      },
+      "ar": {
+        "title": "عملية نحشون",
+        "extract": "عملية نحشون هي التسمية الإسرائيلية لهجوم عسكري صهيوني واسع استمر من 5-16 أبريل 1948. كانت نحشون أول عملية كبرى للهاغاناه والخطوة الأولى لخطة دالت وتم تنفيذها من قبل جفعاتي التابع للهاغاناه وما عُرف لاحقًا باسم لواء هارئيل في البلماح.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%B9%D9%85%D9%84%D9%8A%D8%A9_%D9%86%D8%AD%D8%B4%D9%88%D9%86"
+      },
+      "fr": {
+        "title": "Opération Nahshon",
+        "extract": "L'opération Nahshon est une opération militaire menée par la Haganah entre le 2 et le 20 avril 1948 pendant le conflit judéo-arabe de 1947-1949. Elle tire son nom de Nahchon ben Aminadav personnage qui, selon le récit biblique, fut le premier à entrer dans la mer Rouge avant qu'elle ne s'ouvre, lors de la sortie d'Égypte des Hébreux durant l'Exode. C’est la première opération du plan Dalet de conquête de la Palestine et de nettoyage ethnique des Palestiniens.",
+        "url": "https://fr.wikipedia.org/wiki/Op%C3%A9ration_Nahshon"
+      }
+    }
+  },
+  "Deir Yassin massacre": {
+    "pages": {
+      "ko": {
+        "title": "데이르 야신 학살",
+        "extract": "데이르 야신 학살(히브리어: טבח דיר יאסין, 영어: Deir Yassin massacre) 또는 데이르 야신 사건(히브리어: פרשת דיר יאסין)은 1948년 4월 9일 팔레스타인 위임통치령 예루살렘 인근 데이르 야신에서 시온주의 준군사조직이 마을을 공격해 여성과 아동을 포함해 최소 107명의 팔레스타인인이 사망한 사건이다. 학살은 팔레스타인 위임통치령 내전 중에 이르군과 레히에 의해 수행되었으며, 나크바의 중요한 사건 가운데 하나이다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%8D%B0%EC%9D%B4%EB%A5%B4_%EC%95%BC%EC%8B%A0_%ED%95%99%EC%82%B4"
+      },
+      "en": {
+        "title": "Deir Yassin massacre",
+        "extract": "The Deir Yassin massacre took place on 9 April 1948, when Zionist paramilitaries attacked the village of Deir Yassin near Jerusalem, then part of Mandatory Palestine, killing at least 107 Palestinian Arab villagers, including women and children. The attack was conducted primarily by the Irgun and Lehi, who were supported by the Haganah and Palmach. The massacre was carried out despite the village having agreed to a non-aggression pact. It occurred during the 1947–1948 civil war and was a central component of the Nakba and the 1948 Palestinian expulsion and flight.",
+        "url": "https://en.wikipedia.org/wiki/Deir_Yassin_massacre"
+      },
+      "zh": {
+        "title": "代爾亞辛村大屠殺",
+        "extract": "代尔亚辛村大屠杀，是一场发生在1948年4月的屠杀事件。1948年4月9日，犹太复国主义恐怖组织伊尔贡和莱希的约120名武装份子试图占领耶路撒冷附近的代尔亚辛村。当时该村约有600名巴勒斯坦阿拉伯人居住。事件发生于英国对巴勒斯坦地区的托管行将终止之时，犹太人与阿拉伯人正处于内战。在战斗中，约107名村民被枪杀或被手榴弹炸死，其中包括妇孺。一些村民被俘虏至西耶路撒冷游街示众，然后被处决。伊尔贡及莱希方面有4人死亡、约35人受伤。事后亦爆发了阿拉伯民兵对犹太人实施报复的哈达萨医疗车队大屠杀，造成犹太人以及一名英国士兵共79人死亡。",
+        "url": "https://zh.wikipedia.org/wiki/%E4%BB%A3%E7%88%BE%E4%BA%9E%E8%BE%9B%E6%9D%91%E5%A4%A7%E5%B1%A0%E6%AE%BA"
+      },
+      "es": {
+        "title": "Masacre de Deir Yassin",
+        "extract": "La masacre de Deir Yassin se refiere al asesinato deliberado de entre 107 y 120 civiles árabes palestinos, entre el 9 de abril y 11 de abril de 1948 por milicianos sionistas del Irgún y del Leji durante y después de la batalla por la aldea de Deir Yassin, cerca de Jerusalén en el Mandato Británico de Palestina. Ocurrió en el marco de la guerra civil que precedió al final del mandato.",
+        "url": "https://es.wikipedia.org/wiki/Masacre_de_Deir_Yassin"
+      },
+      "ar": {
+        "title": "مذبحة دير ياسين",
+        "extract": "وقعت مذبحة دير ياسين في 9 أبريل 1948، عندما هاجمت الجماعات الصهيونية شبه العسكرية قرية دير ياسين بالقرب من القدس، التي كانت آنذاك جزءًا من فلسطين الانتدابية، مما أسفر عن مقتل ما لا يقل عن 107 من سكان القرى العربية الفلسطينية، بما في ذلك النساء والأطفال. تم تنفيذ الهجوم بشكل أساسي من قبل منظمتي إرجون وليحي، اللتين كانتا مدعومتين من قبل منظمتي الهاجاناه والبالماخ. وقد وقعت المذبحة رغم أن القرية وافقت على معاهدة عدم الاعتداء. وقد حدثت خلال الحرب الأهلية عامي 1947 و1948 وكانت عنصراً أساسياً في النكبة وطرد الفلسطينيين وهروبهم عام 1948.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B0%D8%A8%D8%AD%D8%A9_%D8%AF%D9%8A%D8%B1_%D9%8A%D8%A7%D8%B3%D9%8A%D9%86"
+      },
+      "fr": {
+        "title": "Massacre de Deir Yassin",
+        "extract": "Le massacre de Deir Yassin se déroule le 9 avril 1948 au cours de la prise du village de Deir Yassin, à l'ouest de Jérusalem, durant la guerre de 1947-1948 en Palestine mandataire. Il est perpétré par 120 terroristes sionistes de l'Irgoun et du Lehi. Les historiens évaluent aujourd'hui le nombre de tués entre 77 et 120 Arabes. À l'époque, la presse et différents commentateurs exagèrent le nombre à 254 victimes, afin d'exercer une pression psychologique sur les Palestiniens.",
+        "url": "https://fr.wikipedia.org/wiki/Massacre_de_Deir_Yassin"
+      },
+      "pt": {
+        "title": "Massacre de Deir Yassin",
+        "extract": "O massacre de Deir Yassin foi um assassinato em massa de civis palestinos desarmados, ocorrida na vila de Deir Yassin, nas proximidades de Jerusalém, no que então era o Mandato Britânico da Palestina, cometida pelas forças terroristas judaico-sionistas entre 9 de abril e 11 de abril de 1948. As estimativas geralmente aceitas pelos estudiosos, calculam a matança de entre 107 e 120 civis palestinos desarmados durante e possivelmente após a invasão armada judaica. Teriam ocorrido enquanto as forças judaico-sionistas conseguiram romper o cerco a Jerusalém, durante a guerra civil que antecedeu o fim do Mandato Britânico da Palestina, em maio.",
+        "url": "https://pt.wikipedia.org/wiki/Massacre_de_Deir_Yassin"
+      }
+    }
+  },
+  "Kfar Etzion massacre": {
+    "pages": {
+      "en": {
+        "title": "Kfar Etzion massacre",
+        "extract": "The Kfar Etzion massacre refers to a massacre of Jews that took place after a two-day battle in which Jewish Kibbutz residents and Haganah militia defended Kfar Etzion from a combined force of the Arab Legion and local Arab men on May 13, 1948, the day before the Israeli Declaration of Independence. Of the 127 Haganah fighters and Jewish kibbutzniks who died during the defence of the settlement, Martin Gilbert states that fifteen were killed on surrendering.",
+        "url": "https://en.wikipedia.org/wiki/Kfar_Etzion_massacre"
+      },
+      "es": {
+        "title": "Masacre de Kfar Etzion",
+        "extract": "La masacre de Kfar Etzion se refiere a una masacre de judíos que tuvo lugar después de una batalla de dos días entre los residentes judíos y la milicia de la Haganá que defendían el kibutz Kfar Etzion de una fuerza combinada de la Legión Árabe y milicianos árabes locales el 13 de mayo de 1948, el día anterior a la declaración de independencia de Israel. De los 129 combatientes de la Haganá y kibutzniks judíos que murieron durante la defensa del asentamiento, Martin Gilbert afirma que quince prisioneros rendidos fueron asesinados. La controversia rodea la responsabilidad y el papel de la Legión Árabe en la muerte de los que se entregaron. La versión oficial israelí sostiene que los residentes del kibutz y los soldados de la Haganá fueron masacrados por los árabes locales y la Legión Árabe del Ejército jordano cuando ya se habían rendido. La versión de la Legión Árabe sostiene que llegó demasiado tarde para prevenir el ataque contra el kibutz por los hombres de las aldeas árabes cercanas, que presuntamente fueron motivados por un deseo de venganza de la masacre de Deir Yassin, y la destrucción de una de sus aldeas varios meses atrás. Los residentes judíos y combatientes rendidos habrían sido reunidos en un patio, solamente para ser repentinamente asesinados a quemarropa; muchos murieron en el acto, mientras que la mayoría de los que lograron huir fueron perseguidos y asesinados.",
+        "url": "https://es.wikipedia.org/wiki/Masacre_de_Kfar_Etzion"
+      },
+      "ar": {
+        "title": "مذبحة كفار عتصيون",
+        "extract": "مذبحة كفار عصيون هي عملية عسكرية حدثت في 12 مايو 1948 في كيبوتس كفار عصيون ، وتقع بين بيت لحم والخليل. اتت العملية بعد فترة ليست ببعيدة من مذبحة دير ياسين، حيث تم محاصرة العصابات الصهيونية بعد أن استولوا على القرية من قبل القوات العربية المقاومة، وتم قتلهم وطردهم من المنطقة. في 13 مايو تم تصفية الصهاينة من المنطقة وقاموا بالقاء السلاح ومحاولة الفرار إلى أن تم قتلهم من قبل الفيلق العربي. فيما بعد، أصبحت المنطقة موقعا لقيادة لواء حطين وكتيبة عبد الله بن رواحة اثناء الحكم الأردني.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B0%D8%A8%D8%AD%D8%A9_%D9%83%D9%81%D8%A7%D8%B1_%D8%B9%D8%AA%D8%B5%D9%8A%D9%88%D9%86"
+      },
+      "fr": {
+        "title": "Massacre de Kfar Etzion",
+        "extract": "Le massacre de Kfar Etzion eut lieu le 13 mai 1948, durant la guerre israélo-arabe de 1948 quand le Goush Etzion fut pris d'assaut par la Légion arabe transjordanienne et des irréguliers arabes palestiniens.",
+        "url": "https://fr.wikipedia.org/wiki/Massacre_de_Kfar_Etzion"
+      }
+    }
+  },
+  "Operation Dani": {
+    "pages": {
+      "en": {
+        "title": "Operation Dani",
+        "extract": "Operation Dani, also spelled Danny, was an Israeli military offensive launched on July 9–19, 1948 at the end of the first truce of the 1948 Arab–Israeli War. The objectives were to capture territory east of Tel Aviv and then to push inland and relieve the Jewish population and forces in Jerusalem. The main forces fighting against the IDF were the Arab Legion and Palestinian irregulars",
+        "url": "https://en.wikipedia.org/wiki/Operation_Dani"
+      },
+      "es": {
+        "title": "Operación Dani",
+        "extract": "La Operación Dani fue una ofensiva militar israelí lanzada al final de la primera tregua de la guerra árabe-israelí de 1948. Los objetivos eran capturar territorios al este de Tel Aviv y luego avanzar hacia el interior, aliviando a la población y fuerzas judías en Jerusalén. Las principales fuerzas que lucharon contra el ejército israelí fueron la Legión Árabe y los irregulares palestinos.",
+        "url": "https://es.wikipedia.org/wiki/Operaci%C3%B3n_Dani"
+      },
+      "ar": {
+        "title": "عملية داني",
+        "extract": "عملية داني هي التسمية الإسرائيلية لهجوم عسكري صهيوني واسع في نهاية الهدنة الأولى من حرب 1948 بهدف السيطرة على المناطق الواقعة بين تل أبيب-يافا والقدس.الجيش العربي",
+        "url": "https://ar.wikipedia.org/wiki/%D8%B9%D9%85%D9%84%D9%8A%D8%A9_%D8%AF%D8%A7%D9%86%D9%8A"
+      },
+      "fr": {
+        "title": "Opération Dani",
+        "extract": "L'opération Dani est une opération israélienne de la Première Guerre israélo-arabe qui se déroula du 9 au 18 juillet 1948.",
+        "url": "https://fr.wikipedia.org/wiki/Op%C3%A9ration_Dani"
+      },
+      "pt": {
+        "title": "Operação Dani",
+        "extract": "A Operação Dani foi uma ofensiva militar israelense lançada no final da primeira trégua da Guerra Árabe-Israelense de 1948. Os objetivos eram capturar o território a leste de Tel Aviv e depois avançar para o interior e alcançar a população e as forças judaicas em Jerusalém. As principais forças que lutaram contra as FDI foram a Legião Árabe e os irregulares palestinos.",
+        "url": "https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Dani"
+      }
+    }
+  },
+  "Operation Dekel": {
+    "pages": {
+      "en": {
+        "title": "Operation Dekel",
+        "extract": "Operation Dekel, was the largest offensive by Israeli forces in the north of Palestine after the first truce of the 1948 Arab–Israeli War. It was carried out by the 7th Armoured Brigade led by Canadian volunteer Ben Dunkelman, a battalion from the Carmeli Brigade, and some elements from the Golani Brigade between 8–18 July. Its objective was to capture Nazareth and the Lower Galilee.",
+        "url": "https://en.wikipedia.org/wiki/Operation_Dekel"
+      },
+      "ar": {
+        "title": "عملية ديكل",
+        "extract": "عملية ديكل أكبر هجوم شنته القوات الإسرائيلية على شمال فلسطين بعد الهدنة الأولى للحرب العربية الإسرائيلية في عام 1948. وقد أجرتها الفرقة المدرعة الخامسة بقيادة المتطوع الكندي بن دونكلمان ، وكتيبة من لواء كارميلي، وبعض العناصر من لواء جولاني في الفترة من 8 إلى 18 يوليو. وكان هدفها الاستيلاء على الناصرة ومنطقة الجليل الأسفل.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%B9%D9%85%D9%84%D9%8A%D8%A9_%D8%AF%D9%8A%D9%83%D9%84"
+      },
+      "fr": {
+        "title": "Opération Dekel",
+        "extract": "L'opération Dekel est une opération militaire israélienne de la guerre israélo-arabe de 1948-1949. Elle fut menée du 8 au 18 juillet sous le commandement de Haïm Laskov Il disposait de la 7e brigade blindée Sheva, sous les ordres du volontaire canadien Ben Dunkelman, du 21e bataillon de la brigade Carmeli et du 13e bataillon de la brigade Golani.",
+        "url": "https://fr.wikipedia.org/wiki/Op%C3%A9ration_Dekel"
+      }
+    }
+  },
+  "Operation Yoav": {
+    "pages": {
+      "en": {
+        "title": "Operation Yoav",
+        "extract": "Operation Yoav was an Israeli military operation carried out from 15–22 October 1948 in the Negev Desert, during the 1948 Arab–Israeli War. Its goal was to drive a wedge between the Egyptian forces along the coast and the Beersheba–Hebron–Jerusalem road, and ultimately to conquer the whole Negev. Operation Yoav was headed by the Southern Front commander Yigal Allon. The operation was named after Yitzhak Dubno, codenamed \"Yoav\" by his commanders in the Palmach. Dubno, a senior Palmach officer, was charged with planning and leading the defense of the kibbutzim Negba and Yad Mordechai. Dubno was killed in an air raid on Kibbutz Negba shortly after Egyptian forces began their offensive on Israel's southern front.",
+        "url": "https://en.wikipedia.org/wiki/Operation_Yoav"
+      },
+      "es": {
+        "title": "Operación Yoav",
+        "extract": "La Operación Yoav fue un operación militar israelí realizada entre el 15 y el 22 de octubre de 1948 en el Desierto del Néguev, durante la guerra árabe-israelí de 1948. Su objetivo era abrir una brecha entre las fuerzas egipcias a lo largo de la costa y la carretera Beerseba–Hebrón–Jerusalén y, en última instancia, la conquista de todo el Néguev. La Operación Yoav fue encabezada por el comandante del frente sur, Yigal Alón. La operación fue llamada a posteriori en honor a Yitzhak Dubno, con el nombre en código \"Yoav\" ante los comandantes del Palmaj. Dubno, un oficial de alto cargo en el Palmaj, fue el encargado de planificar y dirigir la defensa de los kibutz Yad Mordejai y Negba. Dubno fue muerto en un ataque aéreo en el kibutz Negba poco después de que las fuerzas egipcias comenzaran su ofensiva en el frente sur de Israel.",
+        "url": "https://es.wikipedia.org/wiki/Operaci%C3%B3n_Yoav"
+      },
+      "ar": {
+        "title": "عملية يوآف",
+        "extract": "عملية يوآف هي عملية عسكرية إسرائيلية نفذت في الفترة من 15 إلى 22 أكتوبر 1948 في الجزء الشمالي والأوسط من صحراء النقب، خلال حرب 1948.\nكان هدف العملية إبعاد القوات المصرية المتواجدة في وسط وجنوب فلسطين وصولاً إلى الساحل الجنوبي لفلسطين عن طريق بئر السبع - الخليل - القدس، أدت العملية إلى احتلال النقب الشمالي والأوسط بما فيه مركز النقب وهي بلدة بئر السبع. قاد عملية يوآف قائد الجبهة الجنوبية إيغال آلون وسُميت العملية على اسم إسحاق دوبنو، الذي أطلق عليه قادته في البلماح اسم «يوآف». كان دوبنو مسؤولاً عن الدفاع عن كيبوتسات نيجبا وياد مردخاي. وقُتل دوبنو في غارة جوية مصرية على كيبوتس نيجبا بعد وقت قصير من بدء القوات المصرية هجومها على الجبهة الفلسطينية الجنوبية.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%B9%D9%85%D9%84%D9%8A%D8%A9_%D9%8A%D9%88%D8%A2%D9%81"
+      },
+      "fr": {
+        "title": "Opération Yoav",
+        "extract": "L’opération Yoav est une opération militaire de la guerre israélo-arabe de 1948-1949. Elle fut menée du 15 au 22 octobre 1948 avec pour objectif de désenclaver les implantations du Néguev et les forces de la 12e brigade du Palmah encerclées par les forces égyptiennes.",
+        "url": "https://fr.wikipedia.org/wiki/Op%C3%A9ration_Yoav"
+      },
+      "pt": {
+        "title": "Operação Yoav",
+        "extract": "A Operação Yoav foi uma operação militar israelense realizada de 15 a 22 de outubro de 1948 no deserto do Negev, durante a Guerra Árabe-Israelense de 1948. Seu objetivo era criar uma barreira entre as forças egípcias ao longo da costa e a estrada Beersheba – Hebron – Jerusalém e, finalmente, conquistar todo o Negev. A Operação Yoav foi liderada pelo comandante da Frente Sul, Yigal Allon. A operação recebeu o nome de Yitzhak Dubno, que recebeu o codinome \"Yoav\" dos seus comandantes no Palmach. Dubno, um alto oficial do Palmach, foi encarregado de planejar e liderar a defesa dos kibutzim Negba e Yad Mordechai. Dubno foi morto em um ataque aéreo no Kibutz Negba logo após as forças egípcias iniciarem sua ofensiva na frente sul de Israel.",
+        "url": "https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Yoav"
+      }
+    }
+  },
+  "Operation Hiram": {
+    "pages": {
+      "en": {
+        "title": "Operation Hiram",
+        "extract": "Operation Hiram was a military operation conducted by the Israel Defense Forces (IDF) during the 1948 Arab–Israeli War. It was led by General Moshe Carmel, and aimed at capturing the Upper Galilee region from the Arab Liberation Army (ALA) forces led by Fawzi al-Qawuqji and a Syrian battalion. The operation, which lasted 60 hours, ended just before the ceasefire with the neighboring Arab countries went into effect.",
+        "url": "https://en.wikipedia.org/wiki/Operation_Hiram"
+      },
+      "zh": {
+        "title": "海勒姆行动",
+        "extract": "海勒姆行动是1948年阿拉伯-以色列战争期间以色列国防军发起的一次军事行动。以色列国防军当时试图夺取上加利利地区。 这次军事行动持续了6 个小时（10月29日至31日）， 最终在以色列与邻近的阿拉伯国家的停火协议生效之前结束。",
+        "url": "https://zh.wikipedia.org/wiki/%E6%B5%B7%E5%8B%92%E5%A7%86%E8%A1%8C%E5%8A%A8"
+      },
+      "es": {
+        "title": "Operación Hiram",
+        "extract": "La Operación Hiram fue una operación militar llevada a cabo por las Fuerzas de Defensa de Israel (FDI) durante la guerra de Independencia de Israel. La operación fue dirigida por el General Moshe Carmel, quien encabezó la captura de la región de la Alta Galilea de las fuerzas del Ejército Árabe de Liberación, liderado por Fawzi al-Qawuqji y un batallón sirio. La operación, que duró solo 60 horas, estuvo marcada por varias masacres de ciudadanos árabes palestinos y finalizó justo antes de que entrara en vigor el alto el fuego con los países árabes vecinos. Como resultado de la operación la Alta Galilea, originalmente programada por el plan de partición de las Naciones Unidas, para ser parte de un estado árabe, la región fue controlada por el recién creado estado de Israel, originando que más de 50.000 nuevos refugiados árabes palestinos se dirigieran hacia el Líbano.",
+        "url": "https://es.wikipedia.org/wiki/Operaci%C3%B3n_Hiram"
+      },
+      "ar": {
+        "title": "عملية حيرام",
+        "extract": "عملية حيرام هي عملية شنتها قوات الاحتلال الإسرائيلي إبان الحرب العربية الإسرائيلية 1948. تولى قيادة العملية الجنرال موشيه كرمل، وكان هدفها الاستيلاء على منطقة الجليل الأعلى من جيش الإنقاذ العربي بقيادة فوزي القاوقجي والكتيبة السورية. العملية التي دامت 60 ساعة اتسمت بالعديد من المجازر وانتهت قبل سريان اتفاق وقف إطلاق النار حيز التنفيذ.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%B9%D9%85%D9%84%D9%8A%D8%A9_%D8%AD%D9%8A%D8%B1%D8%A7%D9%85"
+      },
+      "fr": {
+        "title": "Opération Hiram",
+        "extract": "L'opération Hiram est une opération militaire israélienne de la guerre israélo-arabe de 1948 menée entre les 28 et 31 octobre 1948 dans le nord de la Galilée. Inscrite dans le plan général d’opérations israélien dit plan Dalet ou plan D, elle répond à ses objectifs généraux de conquête des territoires palestiniens et de nettoyage ethnique par l’expulsion de la majorité arabe, et s’accompagne de nombreux massacres. Deux lots d’archives, certaines déclassifiées, d’autres découvertes fortuitement en 2024, confirment que les expulsions et massacres faisaient partie des ordres donnés aux unités.",
+        "url": "https://fr.wikipedia.org/wiki/Op%C3%A9ration_Hiram"
+      }
+    }
+  },
+  "Operation Horev": {
+    "pages": {
+      "en": {
+        "title": "Operation Horev",
+        "extract": "Operation Horev was a large-scale offensive against the Egyptian army in the Western Negev towards the end of the Arab–Israeli War in 1948 and 1949. Its objective was to entrap the Egyptian Army in the Gaza Strip. The operation took place from 22 December 1948 to 7 January 1949 and concluded after Britain threatened to intervene unless Israeli troops immediately withdrew from Egyptian territory.",
+        "url": "https://en.wikipedia.org/wiki/Operation_Horev"
+      },
+      "es": {
+        "title": "Operación Horeb",
+        "extract": "La Operación Horeb fue una ofensiva a gran escala contra el ejército egipcio en el oeste de Néguev, al final de la Guerra de Independencia de Israel. Su objetivo era atrapar el ejército egipcio en la Franja de Gaza. La operación comenzó el 22 de diciembre de 1948 y terminó el 7 de enero de 1949, después de que los británicos amenazaron con intervenir. A pesar de no alcanzar todos los objetivos, la operación fue un éxito israelí.",
+        "url": "https://es.wikipedia.org/wiki/Operaci%C3%B3n_Horeb"
+      },
+      "ar": {
+        "title": "عملية حوريب",
+        "extract": "عملية حوريب كانت هجومًا واسعًا ضد الجيش المصري غرب النقب في نهاية حرب 1948. كان الهدف منها هو حصار الجيش المصري في قطاع غزة. بدأت العملية في 22 ديسمبر 1948 وانتهت في 7 يناير 1949، بعد أن هدد البريطانيون بالتدخل.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%B9%D9%85%D9%84%D9%8A%D8%A9_%D8%AD%D9%88%D8%B1%D9%8A%D8%A8"
+      },
+      "pt": {
+        "title": "Operação Horev",
+        "extract": "A Operação Horev foi uma ofensiva em larga escala contra o Exército Egípcio no Negev Ocidental no final da Guerra Árabe-Israelense em 1948 e 1949. Seu objetivo era prender o Exército Egípcio na Faixa de Gaza. A operação começou em 22 de dezembro de 1948 e terminou em 7 de janeiro de 1949, depois que os britânicos ameaçaram intervir.",
+        "url": "https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Horev"
+      }
+    }
+  },
+  "Operation Uvda": {
+    "pages": {
+      "en": {
+        "title": "Operation Uvda",
+        "extract": "Operation Uvda was an operation conducted by the Israel Defense Forces during the 1948 Arab–Israeli War, from 5 March to 10 March 1949. It was the last campaign undertaken by the IDF during the war and its objective was to capture the southern Negev desert, which was claimed by the Kingdom of Jordan to be under Jordanian control in the armistice talks of 1949.",
+        "url": "https://en.wikipedia.org/wiki/Operation_Uvda"
+      },
+      "es": {
+        "title": "Operación Uvdá",
+        "extract": "La operación Uvdá fue una operación llevada a cabo por las Fuerzas de Defensa de Israel durante la guerra árabe-israelí de 1948, entre el 5 y el 10 de marzo de 1949. Fue la última campaña llevada a cabo por el ejército israelí durante la guerra y su objetivo era capturar el sur del desierto del Néguev, reclamado por el reino de Transjordania por encontrarse bajo su control durante las conversaciones de armisticio de 1949, iniciadas en enero.",
+        "url": "https://es.wikipedia.org/wiki/Operaci%C3%B3n_Uvd%C3%A1"
+      },
+      "ar": {
+        "title": "عملية عوبدا",
+        "extract": "عملية عوبدا كانت عملية عسكرية قام بها الجيش الإسرائيلي خلال حرب 1948، بين 5 مارس و10 مارس 1949. وقد كانت تحت قيادة إسحاق رابين، للاستيلاء على منطقة أم الرشراش (المرشرش) أو ما تسميها إسرائيل إيلات في عام 1948. ونتج عنها احتلال منطقة جنوب صحراء النقب، وأم الرشراش في مارس 1949.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%B9%D9%85%D9%84%D9%8A%D8%A9_%D8%B9%D9%88%D8%A8%D8%AF%D8%A7"
+      },
+      "fr": {
+        "title": "Opération Ouvda",
+        "extract": "L'opération Ouvda opération Ouvda, ou Uvda ou Ovda, est une opération militaire de la guerre israélo-arabe de 1948-1949, par laquelle Israël s'empare du Néguev central, méridional et oriental, du 5 mars 1949 au 10 mars 1949.",
+        "url": "https://fr.wikipedia.org/wiki/Op%C3%A9ration_Ouvda"
+      }
+    }
+  }
+}

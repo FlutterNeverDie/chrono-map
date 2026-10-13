@@ -5,6 +5,7 @@
 
 ```bash
 npm run wars:fetch -- <id>     # Wikidata에서 battles.txt 생성 + 위키백과 요약(8개 언어) 받기 (결과는 파일로 캐시)
+npm run wars:months -- <id>    # 월 단위 전쟁: Wikidata 날짜가 연까지만 있어 1월로 적힌 전투를 요약의 날짜로 바로잡기
 npm run wars:borders -- <id>   # public/campaigns/<id>/borders/<연도>.json (원본 Cliopatria, 먼저 npm run borders 필요)
 npm run wars:build             # src/data/generated/campaigns.json (dev/build 때 자동)
 ```
@@ -57,4 +58,5 @@ links: 25                         ← 위키백과 언어판 수 = 중요도(목
 
 - 자동 생성은 "기간 안 + search 범위 안 + 언어판 min-links 이상"인 Wikidata 전투·포위전·작전·전역.
   범위 안의 다른 전쟁 전투가 섞일 수 있으니 확인하고 지운다.
+- Wikidata 날짜가 연 단위뿐인 전투는 자동 생성에서 **1월**로 적힌다. `wars:months`가 고치고, 요약에도 월이 없으면 "확인 필요"로 알려 준다(직접 고친다).
 - `npm run wars:fetch -- <id> --list`는 battles.txt를 다시 만든다(손으로 고친 내용은 사라짐).

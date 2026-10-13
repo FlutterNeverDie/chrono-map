@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Seven Years' War
+region: world
+when: 1756 ~ 1763
+unit: year
+borders-step: 1
+view: -20, 35, 2
+search: -95, 92, 5, 60
+min-links: 6
+side.a.ko: 영국·프로이센
+side.a.en: Great Britain & Prussia
+side.a.zh: 英国与普鲁士
+side.a.es: Gran Bretaña y Prusia
+side.a.hi: ब्रिटेन और प्रशा
+side.a.ar: بريطانيا العظمى وبروسيا
+side.a.fr: Grande-Bretagne et Prusse
+side.a.pt: Grã-Bretanha e Prússia
+side.b.ko: 프랑스·오스트리아·러시아
+side.b.en: France, Austria & Russia
+side.b.zh: 法国、奥地利与俄国
+side.b.es: Francia, Austria y Rusia
+side.b.hi: फ़्रांस, ऑस्ट्रिया और रूस
+side.b.ar: فرنسا والنمسا وروسيا
+side.b.fr: France, Autriche et Russie
+side.b.pt: França, Áustria e Rússia

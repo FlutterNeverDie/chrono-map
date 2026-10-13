@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Mexican–American War
+region: north-america
+when: 1846-04 ~ 1848-02
+unit: month
+borders-step: 1
+view: -104, 27, 4
+search: -125, -88, 14, 40
+min-links: 3
+side.a.ko: 미국
+side.a.en: United States
+side.a.zh: 美国
+side.a.es: Estados Unidos
+side.a.hi: संयुक्त राज्य अमेरिका
+side.a.ar: الولايات المتحدة
+side.a.fr: États-Unis
+side.a.pt: Estados Unidos
+side.b.ko: 멕시코
+side.b.en: Mexico
+side.b.zh: 墨西哥
+side.b.es: México
+side.b.hi: मेक्सिको
+side.b.ar: المكسيك
+side.b.fr: Mexique
+side.b.pt: México

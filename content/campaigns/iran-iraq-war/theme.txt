@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Iran–Iraq War
+region: middle-east
+when: 1980-09 ~ 1988-08
+unit: month
+borders-step: 1
+view: 47, 32, 5
+search: 42, 56, 26, 39
+min-links: 3
+side.a.ko: 이라크
+side.a.en: Iraq
+side.a.zh: 伊拉克
+side.a.es: Irak
+side.a.hi: इराक
+side.a.ar: العراق
+side.a.fr: Irak
+side.a.pt: Iraque
+side.b.ko: 이란
+side.b.en: Iran
+side.b.zh: 伊朗
+side.b.es: Irán
+side.b.hi: ईरान
+side.b.ar: إيران
+side.b.fr: Iran
+side.b.pt: Irã

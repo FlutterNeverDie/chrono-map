@@ -1,0 +1,9 @@
+# 나라(정치체)별 진영 — 형식은 content/campaigns/CLAUDE.md
+
+United States of America = a
+Vermont Republic = a
+(Kingdom of France) = a 1778-02 ~
+(British Empire) = b
+British Colonial Empire = b
+# New France는 넣지 않는다: 원본에서 이미 스페인령이던 루이지애나가 New France로 나옴
+# 스페인(1779~)·네덜란드(1780~)는 영국과 싸웠지만 미국 동맹은 아니고 영토가 넓어 생략

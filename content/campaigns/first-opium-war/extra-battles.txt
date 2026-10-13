@@ -1,0 +1,7 @@
+# Wikidata에 날짜·좌표가 없거나 분류가 달라 자동으로 안 잡히는 전투를 직접 추가 (자동 생성이 덮어쓰지 않음). 날짜는 Wikidata·위키백과 기준 양력
+
+@ sanyuanli-incident
+wikipedia: Sanyuanli incident
+when: 1841-05
+coords: 113.25, 23.16
+links: 7

@@ -1,0 +1,19 @@
+# 나라(정치체)별 진영: 원본 이름 = a | b | n [시작 ~ 끝]. 없으면 기타(n). 형식은 content/campaigns/CLAUDE.md
+
+Habsburg Monarchy = a
+(Habsburg Monarchy) = a
+Holy Roman Empire = a
+Duchy of Bavaria = a
+Spanish Empire = a
+(Spanish Empire) = a
+Iberian Union = a
+Kingdom of Spain = a
+Electorate of Saxony = a
+Electorate of Saxony = b 1631 ~ 1634
+Principality of Transylvania = b 1619 ~ 1626
+Principality of Transylvania = b 1644 ~ 1645
+Dutch Republic = b 1621 ~
+Denmark-Norway = b 1625 ~ 1629
+Swedish Empire = b 1630 ~
+Kingdom of France = b 1635 ~
+(Kingdom of France) = b 1635 ~

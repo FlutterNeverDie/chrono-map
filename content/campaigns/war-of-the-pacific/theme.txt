@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: War of the Pacific
+region: south-america
+when: 1879-02 ~ 1884-10
+unit: month
+borders-step: 1
+view: -72, -18, 4
+search: -82, -64, -27, -5
+min-links: 2
+side.a.ko: 칠레
+side.a.en: Chile
+side.a.zh: 智利
+side.a.es: Chile
+side.a.hi: चिली
+side.a.ar: تشيلي
+side.a.fr: Chili
+side.a.pt: Chile
+side.b.ko: 페루·볼리비아
+side.b.en: Peru & Bolivia
+side.b.zh: 秘鲁与玻利维亚
+side.b.es: Perú y Bolivia
+side.b.hi: पेरू और बोलीविया
+side.b.ar: بيرو وبوليفيا
+side.b.fr: Pérou et Bolivie
+side.b.pt: Peru e Bolívia

@@ -1,0 +1,121 @@
+# Wikidata에 날짜·좌표가 없거나 분류가 달라 자동으로 안 잡히는 전투를 직접 추가 (자동 생성이 덮어쓰지 않음). 날짜는 Wikidata·위키백과 기준 양력
+
+@ shanghai-massacre
+wikipedia: Shanghai massacre
+when: 1927
+coords: 121.47, 31.23
+links: 24
+
+@ nanchang-uprising
+wikipedia: Nanchang Uprising
+when: 1927
+coords: 115.89, 28.68
+links: 31
+
+@ autumn-harvest-uprising
+wikipedia: Autumn Harvest Uprising
+when: 1927
+coords: 113.85, 27.65
+links: 21
+
+@ guangzhou-uprising
+wikipedia: Guangzhou Uprising
+when: 1927
+coords: 113.26, 23.13
+links: 12
+
+@ fifth-encirclement-campaign-against-the-jiangxi-soviet
+wikipedia: Fifth encirclement campaign against the Jiangxi Soviet
+when: 1933 ~ 1934
+coords: 116.03, 25.89
+links: 4
+
+@ xian-incident
+wikipedia: Xi'an Incident
+when: 1936
+coords: 108.93, 34.27
+links: 28
+
+@ new-fourth-army-incident
+wikipedia: New Fourth Army Incident
+when: 1941
+coords: 118.41, 30.69
+links: 13
+
+@ shangdang-campaign
+wikipedia: Shangdang Campaign
+when: 1945
+coords: 113.1, 36.2
+links: 4
+
+@ second-battle-of-siping
+wikipedia: Second Battle of Siping
+when: 1946
+coords: 124.37, 43.17
+links: 5
+
+@ battle-of-kalgan
+wikipedia: Battle of Kalgan
+when: 1946
+coords: 114.88, 40.82
+links: 3
+
+@ battle-of-yanan
+wikipedia: Battle of Yan'an
+when: 1947
+coords: 109.49, 36.6
+links: 1
+
+@ menglianggu-campaign
+wikipedia: Menglianggu campaign
+when: 1947
+coords: 118.2, 35.6
+links: 3
+
+@ liaoshen-campaign
+wikipedia: Liaoshen campaign
+when: 1948
+coords: 123.43, 41.8
+links: 10
+
+@ huaihai-campaign
+wikipedia: Huaihai campaign
+when: 1948 ~ 1949
+coords: 117.28, 34.2
+links: 9
+
+@ pingjin-campaign
+wikipedia: Pingjin campaign
+when: 1948 ~ 1949
+coords: 116.4, 39.9
+links: 8
+
+@ taiyuan-campaign
+wikipedia: Taiyuan campaign
+when: 1948 ~ 1949
+coords: 112.55, 37.87
+links: 3
+
+@ yangtze-river-crossing-campaign
+wikipedia: Yangtze River Crossing campaign
+when: 1949
+coords: 118.78, 32.06
+links: 9
+
+@ shanghai-campaign
+wikipedia: Shanghai Campaign
+when: 1949
+coords: 121.47, 31.23
+links: 3
+
+@ lanzhou-campaign
+wikipedia: Lanzhou Campaign
+when: 1949
+coords: 103.83, 36.06
+links: 4
+
+@ chengdu-campaign
+wikipedia: Chengdu campaign
+when: 1949
+coords: 104.07, 30.67
+links: 2

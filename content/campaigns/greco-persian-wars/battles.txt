@@ -1,0 +1,62 @@
+# Greco-Persian Wars 전투 (Wikidata 자동 생성, 직접 고쳐도 됨). 형식은 content/campaigns/CLAUDE.md
+
+@ siege-of-naxos-499-bc
+wikipedia: Siege of Naxos (499 BC)
+when: -499
+coords: 25.47, 37.08
+links: 18
+
+@ siege-of-sardis-498-bc
+wikipedia: Siege of Sardis (498 BC)
+when: -498
+coords: 28.04, 38.49
+links: 8
+
+@ battle-of-lade
+wikipedia: Battle of Lade
+when: -494
+coords: 27.1, 37.55
+links: 27
+
+@ siege-of-eretria
+wikipedia: Siege of Eretria
+when: -490
+coords: 23.79, 38.39
+links: 14
+
+@ battle-of-marathon
+wikipedia: Battle of Marathon
+when: -490
+coords: 23.98, 38.12
+links: 76
+
+@ battle-of-artemisium
+wikipedia: Battle of Artemisium
+when: -480
+coords: 23.32, 39.05
+links: 34
+
+@ battle-of-thermopylae
+wikipedia: Battle of Thermopylae
+when: -480
+coords: 22.54, 38.8
+links: 83
+
+@ battle-of-salamis
+wikipedia: Battle of Salamis
+when: -480
+coords: 23.57, 37.95
+links: 67
+
+@ battle-of-mycale
+wikipedia: Battle of Mycale
+when: -479
+coords: 27.16, 37.69
+links: 39
+
+@ battle-of-plataea
+wikipedia: Battle of Plataea
+when: -479
+coords: 23.32, 38.24
+links: 52
+

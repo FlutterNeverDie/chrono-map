@@ -20,7 +20,8 @@
     "lint": "eslint",
     "og:fonts": "tsx scripts/og-fonts.ts",
     "postbuild": "node scripts/prune-out.mjs",
-    "audit": "tsx scripts/audit-events.ts"
+    "audit": "tsx scripts/audit-events.ts",
+    "wars:months": "tsx scripts/campaigns/months.ts"
   },
   "dependencies": {
     "@radix-ui/react-slider": "^1.6.0",

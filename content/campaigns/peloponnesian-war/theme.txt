@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Peloponnesian War
+region: europe
+when: -431 ~ -404
+unit: year
+borders-step: 1
+view: 23, 38, 5
+search: 12, 30, 35, 42.5
+min-links: 3
+side.a.ko: 스파르타·펠로폰네소스 동맹
+side.a.en: Sparta & Peloponnesian League
+side.a.zh: 斯巴达与伯罗奔尼撒同盟
+side.a.es: Esparta y la Liga del Peloponeso
+side.a.hi: स्पार्टा और पेलोपोनेसियन संघ
+side.a.ar: إسبرطة والرابطة البيلوبونيسية
+side.a.fr: Sparte et ligue du Péloponnèse
+side.a.pt: Esparta e Liga do Peloponeso
+side.b.ko: 아테네·델로스 동맹
+side.b.en: Athens & Delian League
+side.b.zh: 雅典与提洛同盟
+side.b.es: Atenas y la Liga de Delos
+side.b.hi: एथेंस और डेलियन संघ
+side.b.ar: أثينا ورابطة ديلوس
+side.b.fr: Athènes et ligue de Délos
+side.b.pt: Atenas e Liga de Delos

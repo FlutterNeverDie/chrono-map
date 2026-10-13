@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Goguryeo–Sui War
+region: korea
+when: 598 ~ 614
+unit: year
+borders-step: 1
+view: 124.5, 40, 5
+search: 116, 131, 35, 44
+min-links: 1
+side.a.ko: 수
+side.a.en: Sui
+side.a.zh: 隋朝
+side.a.es: Sui
+side.a.hi: सुई राजवंश
+side.a.ar: سلالة سوي
+side.a.fr: Sui
+side.a.pt: Sui
+side.b.ko: 고구려
+side.b.en: Goguryeo
+side.b.zh: 高句丽
+side.b.es: Goguryeo
+side.b.hi: गोगुर्यो
+side.b.ar: غوغوريو
+side.b.fr: Koguryo
+side.b.pt: Goguryeo

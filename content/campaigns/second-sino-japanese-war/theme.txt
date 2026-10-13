@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Second Sino-Japanese War
+region: china
+when: 1937-07 ~ 1945-09
+unit: month
+borders-step: 1
+view: 113, 32, 3
+search: 97, 125, 18, 48
+min-links: 5
+side.a.ko: 일본
+side.a.en: Japan
+side.a.zh: 日本
+side.a.es: Japón
+side.a.hi: जापान
+side.a.ar: اليابان
+side.a.fr: Japon
+side.a.pt: Japão
+side.b.ko: 중국
+side.b.en: China
+side.b.zh: 中国
+side.b.es: China
+side.b.hi: चीन
+side.b.ar: الصين
+side.b.fr: Chine
+side.b.pt: China

@@ -1,0 +1,49 @@
+# Wikidata에 날짜·좌표가 없거나 분류가 달라 자동으로 안 잡히는 전투를 직접 추가 (자동 생성이 덮어쓰지 않음). 날짜는 Wikidata·위키백과 기준 양력
+
+@ battle-of-beiping-tianjin
+wikipedia: Battle of Beiping–Tianjin
+when: 1937-07 ~ 1937-08
+coords: 116.4, 39.9
+links: 20
+
+@ battle-of-wanjialing
+wikipedia: Battle of Wanjialing
+when: 1938-10
+coords: 115.6, 29.3
+links: 11
+
+@ battle-of-kunlun-pass
+wikipedia: Battle of Kunlun Pass
+when: 1939-12 ~ 1940-01
+coords: 108.65, 23.08
+links: 9
+
+@ zhejiang-jiangxi-campaign
+wikipedia: Zhejiang-Jiangxi campaign
+when: 1942-05 ~ 1942-09
+coords: 118.87, 28.94
+links: 13
+
+@ battle-of-central-henan
+wikipedia: Battle of Central Henan
+when: 1944-04 ~ 1944-05
+coords: 113.5, 33.9
+links: 3
+
+@ battle-of-mount-song
+wikipedia: Battle of Mount Song
+when: 1944-06 ~ 1944-09
+coords: 98.83, 24.63
+links: 9
+
+@ battle-of-west-henan-north-hubei
+wikipedia: Battle of West Henan–North Hubei
+when: 1945-03 ~ 1945-05
+coords: 111.67, 32.38
+links: 5
+
+@ battle-of-west-hunan
+wikipedia: Battle of West Hunan
+when: 1945-04 ~ 1945-06
+coords: 109.68, 27.44
+links: 12

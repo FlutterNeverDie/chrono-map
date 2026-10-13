@@ -1,0 +1,28 @@
+# 나라(정치체)별 진영: 원본 이름 = a | b | n [시작 ~ 끝]. 없으면 기타(n). 형식은 content/campaigns/CLAUDE.md
+
+Second French Empire = a
+(Second French Empire) = a
+French Third Republic = a
+(French Third Republic) = a
+North German Confederation = b
+German Empire = b
+Kingdom of Bavaria = b
+Kingdom of Württemberg = b
+Grand Duchy of Baden = b
+Grand Duchy of Hesse = b
+# 북독일 연방 회원국(원본에서 따로 그려짐)
+Kingdom of Saxony = b
+Duchy of Mecklenburg = b
+Duchy of Oldenburg = b
+Duchy of Brunswick = b
+Duchy of Anhalt = b
+Saxe-Meiningen = b
+Saxe-Altenburg = b
+Grand Duchy of Saxe-Weimar-Eisenach = b
+Principality of Lippe = b
+Principality of Reuss-Gera = b
+Principality of Schwarzburg-Sonderhausen = b
+Principality of Waldeck and Pyrmont = b
+Free City of Lübeck = b
+Free City of Bremen = b
+Free City of Hamburg = b

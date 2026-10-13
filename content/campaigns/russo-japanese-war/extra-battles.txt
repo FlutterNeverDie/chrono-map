@@ -1,0 +1,13 @@
+# Wikidata에 날짜·좌표가 없거나 분류가 달라 자동으로 안 잡히는 전투를 직접 추가 (자동 생성이 덮어쓰지 않음). 날짜는 Wikidata·위키백과 기준 양력
+
+@ battle-of-tsushima
+wikipedia: Battle of Tsushima
+when: 1905-05
+coords: 130.15, 34.45
+links: 53
+
+@ japanese-invasion-of-sakhalin
+wikipedia: Japanese invasion of Sakhalin
+when: 1905-07
+coords: 142.65, 46.75
+links: 14

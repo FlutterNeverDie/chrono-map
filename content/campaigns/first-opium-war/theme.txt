@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: First Opium War
+region: china
+when: 1839-09 ~ 1842-08
+unit: month
+borders-step: 1
+view: 116, 27, 5
+search: 108, 123, 20, 33
+min-links: 3
+side.a.ko: 영국
+side.a.en: Britain
+side.a.zh: 英国
+side.a.es: Reino Unido
+side.a.hi: ब्रिटेन
+side.a.ar: بريطانيا
+side.a.fr: Royaume-Uni
+side.a.pt: Reino Unido
+side.b.ko: 청
+side.b.en: Qing China
+side.b.zh: 清朝
+side.b.es: China Qing
+side.b.hi: चिंग चीन
+side.b.ar: الصين (تشينغ)
+side.b.fr: Chine Qing
+side.b.pt: China Qing

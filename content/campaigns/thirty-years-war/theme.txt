@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Thirty Years' War
+region: europe
+when: 1618 ~ 1648
+unit: year
+borders-step: 1
+view: 11, 50, 4.5
+search: -2, 24, 43, 57
+min-links: 5
+side.a.ko: 신성 로마 제국·가톨릭 동맹
+side.a.en: Holy Roman Empire & Catholic League
+side.a.zh: 神圣罗马帝国与天主教联盟
+side.a.es: Sacro Imperio y Liga Católica
+side.a.hi: पवित्र रोमन साम्राज्य और कैथोलिक लीग
+side.a.ar: الإمبراطورية الرومانية المقدسة والرابطة الكاثوليكية
+side.a.fr: Saint-Empire et Ligue catholique
+side.a.pt: Sacro Império e Liga Católica
+side.b.ko: 개신교 연합·스웨덴·프랑스
+side.b.en: Protestant states, Sweden & France
+side.b.zh: 新教诸邦、瑞典与法国
+side.b.es: Estados protestantes, Suecia y Francia
+side.b.hi: प्रोटेस्टेंट राज्य, स्वीडन और फ़्रांस
+side.b.ar: الدول البروتستانتية والسويد وفرنسا
+side.b.fr: États protestants, Suède et France
+side.b.pt: Estados protestantes, Suécia e França

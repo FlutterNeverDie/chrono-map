@@ -1,0 +1,5 @@
+# 나라(정치체)별 진영: 원본 이름 = a | b | n [시작 ~ 끝]. 없으면 기타(n). 형식은 content/campaigns/CLAUDE.md
+
+Empire of Japan = a
+Republic of China = b
+Communist Party of China = b

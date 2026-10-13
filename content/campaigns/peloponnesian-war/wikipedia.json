@@ -1,0 +1,573 @@
+{
+  "Peloponnesian War": {
+    "pages": {
+      "ko": {
+        "title": "펠로폰네소스 전쟁",
+        "extract": "펠로폰네소스 전쟁(Πελοποννησιακός Πόλεμος, 영어: Peloponnesian War)은 기원전 431년에서 기원전 404년까지 고대 그리스에서 아테네 주도의 델로스 동맹과 스파르타 주도의 펠로폰네소스 동맹 사이에 일어난 전쟁이다. 역사가들은 전통적으로 이 전쟁을 세 단계로 구분한다. 첫 번째는 ‘아르키다모스 전쟁’으로 스파르타는 아티케의 침략을 되풀이하였고, 아테네는 자신의 세력권에 불안의 징조를 억누르기 위하여 자국의 해군력을 이용하여 펠로폰네소스반도 해안을 습격하였다. 전쟁의 첫 단계는 기원전 421년에 니키아스 평화조약이 체결되어 막을 내렸다. 그러나 펠로폰네소스에서 다시 교전이 일어나 이내 조약의 효력은 약해졌다. 기원전 415년 아테네는 시켈리아(시칠리아)의 시라쿠사이를 공격하기 위해 거대한 시켈리아 원정대를 파견하였으나, 기원전 413년 공격군은 대패하여 군대 전체가 궤멸되었다. 이 패배로 전쟁은 마지막 단계에 돌입하였는데, 보통 ‘데켈레이아 전쟁’ 혹은 ‘이오니아 전쟁’으로 불린다. 이때 스파르타는 페르시아의 도움을 받아 아테네에 종속된 에게해와 이오니아의 나라에서 일어난 반란을 지원하여 아테네의 패권을 잠식하였으며, 결국 아테네의 제해권을 빼앗았다. 아이고스포타모이 해전에서 아테네 함대가 궤멸되면서 사실상 전쟁은 끝났으며, 아테네는 이듬해에 항복하였다.",
+        "url": "https://ko.wikipedia.org/wiki/%ED%8E%A0%EB%A1%9C%ED%8F%B0%EB%84%A4%EC%86%8C%EC%8A%A4_%EC%A0%84%EC%9F%81"
+      },
+      "en": {
+        "title": "Peloponnesian War",
+        "extract": "The Peloponnesian War was fought in the Eastern Mediterranean between the Athenian-led Delian League and the Spartan-led Peloponnesian League from 431 to 404 BC for hegemony over Ancient Greece. Initially inconclusive, the intervention of the Persian Empire in support of Sparta in 413 BC allowed the Spartan coalition to decisively defeat Athens, beginning a period of Spartan hegemony over Greece.",
+        "url": "https://en.wikipedia.org/wiki/Peloponnesian_War"
+      },
+      "zh": {
+        "title": "伯罗奔尼撒战争",
+        "extract": "以雅典为首的提洛同盟与军事强国斯巴达为首的伯罗奔尼撒联盟之间的伯罗奔尼撒战争从公元前431年持续到公元前404年，期间因多次停战而中断，最终以斯巴达人的胜利告终。这场战争结束了雅典和雅典式民主的古典时代，并永久地改变了希腊文明。几乎当时所有的希腊城邦都参与其中，战斗几乎遍及整个希腊文化圈。",
+        "url": "https://zh.wikipedia.org/wiki/%E4%BC%AF%E7%BD%97%E5%A5%94%E5%B0%BC%E6%92%92%E6%88%98%E4%BA%89"
+      },
+      "es": {
+        "title": "Guerra del Peloponeso",
+        "extract": "La guerra del Peloponeso (431 a. C.-404 a. C.) fue un conflicto militar de la antigua Grecia que enfrentó a las ciudades formadas por la Liga de Delos y la Liga del Peloponeso.",
+        "url": "https://es.wikipedia.org/wiki/Guerra_del_Peloponeso"
+      },
+      "hi": {
+        "title": "पेलोपोनेशियन युद्ध",
+        "extract": "पेलोपोनेसियन युद्ध, जो 431 ईसा पूर्व से 404 ईसा पूर्व तक चला, ग्रीस के दो सबसे शक्तिशाली शहर-राज्यों, एथेंस और स्पार्टा के बीच एक लंबा और विनाशकारी युद्ध था। युद्ध के कई कारण थे, लेकिन सबसे प्रमुख कारण थे एथेंस के बढ़ती हुई शक्ति और प्रभुत्व। स्पार्टा की एथेंस की शक्ति को सीमित करना चाह रहा था। एथेंस ने 479 ईसा पूर्व में ग्रीस-फ़ारसी युद्धों में अपनी भूमिका के बाद एक प्रमुख शक्ति के रूप में उभरना शुरू कर दिया। उसने एक मजबूत नौसेना विकसित की और डेलियन लीग की स्थापना की, जो एक सैन्य और आर्थिक गठबंधन था जिसने ग्रीक दुनिया के अधिकांश हिस्सों को नियंत्रित किया। एथेंस ने लीग के माध्यम से अपने प्रभाव का विस्तार किया, जिससे अन्य शहर-राज्यों को एथेंस के अधीन होने के लिए मजबूर होना पड़ा।",
+        "url": "https://hi.wikipedia.org/wiki/%E0%A4%AA%E0%A5%87%E0%A4%B2%E0%A5%8B%E0%A4%AA%E0%A5%8B%E0%A4%A8%E0%A5%87%E0%A4%B6%E0%A4%BF%E0%A4%AF%E0%A4%A8_%E0%A4%AF%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A7"
+      },
+      "ar": {
+        "title": "الحرب البيلوبونيسية",
+        "extract": "الحرب البيلوبونيسية حرب يونانية قديمة نشبت بين الحلف الديلي بقيادة أثينا ضد الاتحاد البيلوبونيزي بقيادة أسبرطة. قسم المؤرخون الحرب إلى ثلاث مراحل. المرحلة الأولى تعرف باسم حرب الأركيدميان، شنت فيها أسبرطة غزوات متكررة على أتيكا، في حين استغلت أثينا تفوقها البحري لمداهمة ساحل البيلوبونيز ومحاولة قمع الاضطرابات داخل إمبراطوريتها، انتهت هذه الفترة من الحرب عام 421 قبل الميلاد، بتوقيع معاهدة سلام نيكياس، ولكن، قُوّضت تلك المعاهدة بسبب تجدد القتال في بيلوبونيز. في عام 415 قبل الميلاد، أرسلت أثينا قوة استطلاعية ضخمة لمهاجمة سرقوسة في صقلية، لكن الهجوم فشل على نحو كارثي، ودمرت القوة بالكامل عام 413 قبل الميلاد، وقد أدى ذلك إلى بداية المرحلة الأخيرة من الحرب، والتي عرفت عمومًا بالحرب الأيونية. في هذه المرحلة، تلقت أسبرطة تعزيزات من الإمبراطورية الأخمينية، ودعمت تمردات في الدول الخاضعة لحكم أثينا في بحر إيجة وإيونية، الأمر الذي قوض إمبراطورية أثينا، وسلبها في النهاية قوتها وتفوقها البحري، وقد أدى تدمير أسطولها في معركة ايجبوسبوتامي إلى إنهاء الحرب فعليًا، واستسلمت أثينا في العام التالي. طالبت كل من كورنث وثيفا بتدمير أثينا بالكامل واستعباد مواطنيها، ولكن أسبرطة رفضت ذلك.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%AD%D8%B1%D8%A8_%D8%A7%D9%84%D8%A8%D9%8A%D9%84%D9%88%D8%A8%D9%88%D9%86%D9%8A%D8%B3%D9%8A%D8%A9"
+      },
+      "fr": {
+        "title": "Guerre du Péloponnèse",
+        "extract": "La guerre du Péloponnèse est le conflit qui oppose la ligue de Délos, menée par Athènes, et la ligue du Péloponnèse, sous l'hégémonie de Sparte.",
+        "url": "https://fr.wikipedia.org/wiki/Guerre_du_P%C3%A9loponn%C3%A8se"
+      },
+      "pt": {
+        "title": "Guerra do Peloponeso",
+        "extract": "Guerra do Peloponeso foi um conflito armado entre Atenas e Esparta, de 431 a 404 a.C. Sua história foi detalhadamente registrada por Tucídides, na obra História da Guerra do Peloponeso, e por Xenofonte, na obra Helênicas. De acordo com Tucídides, a razão fundamental da guerra foi o crescimento do poder ateniense e o temor que tal despertava entre os espartanos. A cidade de Corinto foi especialmente atuante, pressionando Esparta a fim de que esta declarasse guerra contra Atenas.",
+        "url": "https://pt.wikipedia.org/wiki/Guerra_do_Peloponeso"
+      }
+    }
+  },
+  "Battle of Spartolos": {
+    "pages": {
+      "en": {
+        "title": "Battle of Spartolos",
+        "extract": "The Battle of Spartolos took place in 429 BC between Athens and the Chalcidian League and their allies, in the early part of the Peloponnesian War.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Spartolos"
+      },
+      "es": {
+        "title": "Batalla de Calcídica",
+        "extract": "La batalla de Calcídica tuvo lugar en 429 a. C. entre Atenas y los calcideos y sus aliados, en la primera parte de la guerra del Peloponeso, la llamada guerra arquidámica.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Calc%C3%ADdica"
+      },
+      "fr": {
+        "title": "Bataille de Chalcis",
+        "extract": "La bataille de Chalcis opposa Athènes aux Chalcidiens et leurs alliés, au début de la guerre du Péloponnèse, à l'été 429 av. J.-C..",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Chalcis"
+      }
+    }
+  },
+  "Siege of Plataea": {
+    "pages": {
+      "en": {
+        "title": "Siege of Plataea",
+        "extract": "The siege of Plataea took place in 429–427 BC, during the Peloponnesian War. At the beginning of the conflict, the Thebans attacked the city of Plataea, an Athenian ally on the border between Boeotia and Attica. The initial Theban attempt to capture the city failed, but in 429 BC the Thebans' allies, the Spartans under their king Archidamus II, laid siege to the city. Left unaided by Athens, the Plataeans finally surrendered in 428 BC. Plataea was razed to the ground by the Thebans, and was not restored until after 338 BC by Philip II of Macedon.",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Plataea"
+      },
+      "pt": {
+        "title": "Cerco de Plateia",
+        "extract": "O cerco de Plateias ocorreu entre 429 e 427 a.C., durante a Guerra do Peloponeso. No início do conflito, os tebanos atacaram a cidade de Plateias, uma aliada de Atenas situada na fronteira entre a Beócia e a Ática. A tentativa inicial tebana de capturar a cidade fracassou, mas em 429 a.C. os aliados de Tebas, os espartanos, sob o comando de seu rei Arquídamo II, cercaram a cidade. Deixados sem auxílio por Atenas, os plateenses finalmente se renderam em 428 a.C. Plateias foi arrasada até o chão pelos tebanos e não foi restaurada até depois de 338 a.C., por Filipe II da Macedónia.",
+        "url": "https://pt.wikipedia.org/wiki/Cerco_de_Plateia"
+      }
+    }
+  },
+  "Battle of Naupactus": {
+    "pages": {
+      "en": {
+        "title": "Battle of Naupactus",
+        "extract": "The Battle of Naupactus was a naval battle in the Peloponnesian War. The battle, which took place a week after the Athenian victory at Rhium, set an Athenian fleet of twenty ships, commanded by Phormio, against a Peloponnesian fleet of seventy-seven ships, commanded by Cnemus.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Naupactus"
+      },
+      "es": {
+        "title": "Batalla de Naupacto",
+        "extract": "La batalla de Naupacto fue una batalla de la guerra del Peloponeso entre los atenienses y los corintios ayudados estos últimos por sus aliados lacedemonios.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Naupacto"
+      },
+      "fr": {
+        "title": "Bataille de Naupacte",
+        "extract": "La bataille de Naupacte est une bataille navale qui fut livrée en 429 av. J.-C. au large de Naupacte, pendant la guerre du Péloponnèse entre les 20 navires du stratège athénien Phormion et une flotte péloponnésienne de 77 navires.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Naupacte"
+      }
+    }
+  },
+  "Battle of Rhium": {
+    "pages": {
+      "en": {
+        "title": "Battle of Rhium",
+        "extract": "The Battle of Rhium or the battle of Chalcis was a naval battle in the Peloponnesian War between an Athenian fleet commanded by Phormio and a Peloponnesian fleet composed of contingents from various states, each with its own commander. The battle came about when the Peloponnesian fleet, numbering 47 triremes, attempted to cross over to the northern shore of the Gulf of Patras to attack Acarnania in support of an offensive in northwestern Greece; Phormio's fleet attacked the Peloponnesians while they were making the crossing.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Rhium"
+      },
+      "es": {
+        "title": "Batalla de Patras",
+        "extract": "La batalla de Patras (429 a. C.) fue una batalla naval en el marco de la guerra del Peloponeso que enfrentó a la flota ateniense al mando de Formión con la flota peloponesia compuesta por contingentes de varios estados, cada uno con su propio comandante. La batalla sucedió cuando la flota peloponesia, formada por 47 trirremes, intentó pasar a la orilla norte del golfo de Patras para atacar a Acarnania como apoyo a una ofensiva en el noroeste de Grecia; la flota de Formión atacó a los peloponesios mientras navegaban hacia el norte.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Patras"
+      },
+      "fr": {
+        "title": "Bataille de Patras",
+        "extract": "La bataille de Patras fut livrée pendant l'été 429 av. J.-C., au large de Patras, au sud de la Grèce, pendant la guerre du Péloponnèse. Les 20 trirèmes athéniennes de l'amiral Phormion y anéantirent un convoi spartiate et corinthien de 47 navires de transport de troupes et d'approvisionnements, à l'appui des troupes péloponnésiennes déjà engagées dans la campagne d'Acarnanie. Les navires péloponnésiens, qui n'étaient pas équipés pour une bataille sur mer, se placèrent en cercle pour mieux se défendre mais les équipages athéniens, beaucoup plus expérimentés, manœuvrèrent afin de faire entrer en collision les navires adverses. Quand cela arriva, avec l'aide du vent, la flotte athénienne passa à l'attaque et captura 12 navires, les autres prenant la fuite.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Patras"
+      }
+    }
+  },
+  "Battle of Olpae": {
+    "pages": {
+      "en": {
+        "title": "Battle of Olpae",
+        "extract": "The Battle of Olpae took place during the Peloponnesian War in 426 BC, between armies led by Athens and Sparta.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Olpae"
+      },
+      "zh": {
+        "title": "奥尔匹之战",
+        "extract": "奥尔匹之战 为伯罗奔尼撒战争中发生在前426年的一场战斗，交战双方为雅典联军与伯罗奔尼撒联军以及安布累喜阿。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%A5%A5%E5%B0%94%E5%8C%B9%E4%B9%8B%E6%88%98"
+      },
+      "es": {
+        "title": "Batalla de Olpas",
+        "extract": "La Batalla de Olpas fue una batalla de la guerra del Peloponeso disputada en 426 a. C. entre los ejércitos ateniense y espartano.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Olpas"
+      },
+      "fr": {
+        "title": "Bataille d'Olpae",
+        "extract": "La bataille d'Olpae est une bataille qui fut livrée en 426 av. J.-C. à Olpae (en) pendant la guerre du Péloponnèse.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_d'Olpae"
+      }
+    }
+  },
+  "Battle of Sphacteria": {
+    "pages": {
+      "en": {
+        "title": "Battle of Sphacteria",
+        "extract": "The Battle of Sphacteria was a land battle of the Peloponnesian War, fought in 425 BC between Athens and Sparta. Following the Battle of Pylos and subsequent peace negotiations, which failed, a number of Spartans were stranded on the island of Sphacteria. An Athenian force under Cleon and Demosthenes attacked and forced them to surrender.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Sphacteria"
+      },
+      "zh": {
+        "title": "斯法克特里亚之战",
+        "extract": "斯法克特里亚之战 为伯罗奔尼撒战争中发生在前425年的一场战斗，是派娄斯之战的延续，交战双方为雅典联军与伯罗奔尼撒联军。",
+        "url": "https://zh.wikipedia.org/wiki/%E6%96%AF%E6%B3%95%E5%85%8B%E7%89%B9%E9%87%8C%E4%BA%9A%E4%B9%8B%E6%88%98"
+      },
+      "es": {
+        "title": "Batalla de Esfacteria",
+        "extract": "La batalla de Esfacteria en 425 a. C., durante la guerra arquidámica, representó la victoria de Atenas sobre Esparta. Es una etapa importante de la historia militar, dado que una tropa de infantería ligera venció a una falange de hoplitas.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Esfacteria"
+      },
+      "fr": {
+        "title": "Bataille de Sphactérie",
+        "extract": "La bataille de Sphactérie, en 425 av. J.-C., pendant la guerre du Péloponnèse, voit une victoire athénienne sur Sparte. C’est une étape importante de l’histoire militaire, puisqu’une troupe d’infanterie légère vainc une phalange d’hoplites.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Sphact%C3%A9rie"
+      },
+      "pt": {
+        "title": "Batalha de Esfactéria",
+        "extract": "A batalha de Esfactéria foi um confronto militar travado em 425 a.C., durante a guerra do Peloponeso, no qual ocorreu a vitória dos atenienses sobre Esparta. É uma etapa importante da história militar, dado que uma tropa de infantaria ligeira venceu uma falange de hoplitas.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Esfact%C3%A9ria"
+      }
+    }
+  },
+  "Battle of Pylos": {
+    "pages": {
+      "en": {
+        "title": "Battle of Pylos",
+        "extract": "The Battle of Pylos, fought at sea and land, took place in 425 BC during the Peloponnesian War at the peninsula of Pylos, on the present-day Bay of Navarino in Messenia, and was an Athenian victory over Sparta. An Athenian fleet had been driven ashore at Pylos by a storm, and, at the instigation of Demosthenes, the Athenian soldiers fortified the peninsula, and a small force was left there when the fleet departed again. The establishment of an Athenian garrison in Spartan territory frightened the Spartan leadership, and the Spartan army, which had been ravaging Attica under the command of Agis, ended their expedition and marched home, while the Spartan fleet at Corcyra sailed to Pylos.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Pylos"
+      },
+      "zh": {
+        "title": "派娄斯之战",
+        "extract": "派娄斯之战是伯罗奔尼撒战争中的一场战役。",
+        "url": "https://zh.wikipedia.org/wiki/%E6%B4%BE%E5%A8%84%E6%96%AF%E4%B9%8B%E6%88%98"
+      },
+      "es": {
+        "title": "Batalla de Pilos",
+        "extract": "La batalla de Pilos se desarrolló en ese lugar en el año 425 a. C. durante la guerra arquidámica, la primera fase de la guerra del Peloponeso, que se libró entre Atenas y Esparta.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Pilos"
+      },
+      "fr": {
+        "title": "Bataille de Pylos",
+        "extract": "La bataille de Pylos se déroule en 425 av. J.-C. durant la guerre du Péloponnèse entre Athènes et Sparte.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Pylos"
+      }
+    }
+  },
+  "Battle of Delium": {
+    "pages": {
+      "en": {
+        "title": "Battle of Delium",
+        "extract": "The Battle of Delium took place in 424 BC, during the Peloponnesian War. It was fought between the Athenians and the Boeotians, who were allies of the Spartans, and ended with the siege of Delium in the following weeks.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Delium"
+      },
+      "es": {
+        "title": "Batalla de Delio",
+        "extract": "La batalla de Delio tuvo lugar durante la guerra arquidámica, al principio del invierno del 424 a. C. en las proximidades de la pequeña ciudad beocia de Delio, situada no lejos de la frontera con el Ática y en la que se halla un santuario dedicado a Apolo.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Delio"
+      },
+      "ar": {
+        "title": "معركة دليوم",
+        "extract": "وقعت معركة دليوم عام 424 قبل الميلاد خلال الحرب البيلوبونيسية بين شعبي أثينا وبيوتيا -الذين كانوا حلفاء لإسبرطة- وانتهت بحصار مدينة دليوم في الأسابيع التي تلتها.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%AF%D9%84%D9%8A%D9%88%D9%85"
+      },
+      "fr": {
+        "title": "Bataille de Délion",
+        "extract": "La bataille de Délion a lieu pendant la guerre du Péloponnèse, en novembre 424 av. J.-C. à proximité de la petite ville béotienne de Délion située non loin de la frontière avec l'Attique et dans laquelle se trouve un sanctuaire dédié à Apollon.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_D%C3%A9lion"
+      },
+      "pt": {
+        "title": "Batalha de Délio",
+        "extract": "A Batalha de Délio aconteceu durante a guerra do Peloponeso no princípio do inverno de 424 a.C., nas imediações da pequena cidade beócia de Délio, na Grécia, situada não distante da fronteira com Ática e na qual se encontrava um santuário dedicado a Apolo.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_D%C3%A9lio"
+      }
+    }
+  },
+  "Battle of Amphipolis": {
+    "pages": {
+      "en": {
+        "title": "Battle of Amphipolis",
+        "extract": "The Battle of Amphipolis was fought in 422 BC during the Peloponnesian War between Athens and Sparta. It was the culmination of events that began in 424 BC with the capture of Amphipolis by the Spartans.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Amphipolis"
+      },
+      "es": {
+        "title": "Batalla de Anfípolis",
+        "extract": "La batalla de Anfípolis fue disputada en 422 a. C. durante la guerra arquidámica entre Atenas y Esparta. Fue la culminación de los acontecimientos que comenzaron en 424 a. C. con la captura de Anfípolis por los espartanos.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Anf%C3%ADpolis"
+      },
+      "fr": {
+        "title": "Bataille d'Amphipolis",
+        "extract": "La bataille d'Amphipolis eut lieu en 422 av. J.-C. durant la guerre du Péloponnèse entre Athènes et Sparte. Cette bataille constitue le paroxysme d'un conflit qui commença en 424 av. J.-C. par la prise d'Amphipolis par les Spartiates.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_d'Amphipolis"
+      },
+      "pt": {
+        "title": "Batalha de Anfípolis",
+        "extract": "Batalha de Anfípole, ou de Anfípolis, foi uma batalha da guerra do Peloponeso, entre forças espartanas e atenienses.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Anf%C3%ADpolis"
+      }
+    }
+  },
+  "Battle of Mantinea (418 BC)": {
+    "pages": {
+      "ko": {
+        "title": "만티네이아 전투 (기원전 418년)",
+        "extract": "만티네이아 전투(Battle of Mantinea)는 펠로폰네소스 전쟁에서 기원전 418년에 스파르타와 그 동맹국과 아테네, 아르고스와 그 동맹국 사이에서 벌어진 전투이다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%A7%8C%ED%8B%B0%EB%84%A4%EC%9D%B4%EC%95%84_%EC%A0%84%ED%88%AC_(%EA%B8%B0%EC%9B%90%EC%A0%84_418%EB%85%84)"
+      },
+      "en": {
+        "title": "Battle of Mantinea (418 BC)",
+        "extract": "The first Battle of Mantinea was fought in 418 BC during the Peloponnesian War. In this battle, Sparta and its Peloponnesian allies defeated an allied army of Argos, Athens, Mantinea and several others.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Mantinea_(418_BC)"
+      },
+      "es": {
+        "title": "Batalla de Mantinea (418 a. C.)",
+        "extract": "La batalla de Mantinea fue una de las batallas más importantes de la guerra del Peloponeso. La misma ocurrió en el año 418 a. C., enfrentando a Esparta y sus aliados con el ejército encabezado por Argos y Atenas.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Mantinea_(418_a._C.)"
+      },
+      "ar": {
+        "title": "معركة مانتينيا (418 ق.م)",
+        "extract": "معركة مانتينيا أو المعركة الأولي من مانتينيا في 418 ق.م كان معركة كبيرة في الحرب البيلوبونيسية. أسبرطة وحلفائها هزموا جيش آرغوس ووأثينا.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D9%85%D8%A7%D9%86%D8%AA%D9%8A%D9%86%D9%8A%D8%A7_(418_%D9%82.%D9%85)"
+      },
+      "fr": {
+        "title": "Bataille de Mantinée (418 av. J.-C.)",
+        "extract": "La bataille de Mantinée a lieu en 418 av. J.-C. au cours de la guerre du Péloponnèse, dont elle est un des épisodes cruciaux, et oppose Sparte à une coalition menée par Athènes et Argos. La bataille de Mantinée est une des plus grandes batailles de l'époque classique ; seule la bataille de Platées aligne des effectifs plus importants au Ve siècle av. J.-C.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Mantin%C3%A9e_(418_av._J.-C.)"
+      }
+    }
+  },
+  "Siege of Melos": {
+    "pages": {
+      "ko": {
+        "title": "멜로스의 대화",
+        "extract": "멜로스의 대화(the Melian Dialogue)는 투키디데스의 펠로폰네소스 전쟁사 제5책 제84-116장에 나오는 일화다. 기원전 416년 아테나이가 멜로스섬을 공격한 것을 배경으로 삼고 있다. 국가의 이기심과 실용적 이해관계가 전쟁의 여부를 결정한다는 냉혹한 정치외교의 현실주의를 강조하는 일화로 주로 인용된다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%A9%9C%EB%A1%9C%EC%8A%A4%EC%9D%98_%EB%8C%80%ED%99%94"
+      },
+      "en": {
+        "title": "Siege of Melos",
+        "extract": "The siege of Melos occurred in 416 BC, during the Peloponnesian War between Athens and Sparta, when the Athenians attacked Melos, an island in the Aegean Sea roughly 110 kilometres east of mainland Greece. Though the Melians had ancestral ties to Sparta, they were neutral in the war. Athens invaded Melos in the summer of 416 BC and demanded that the Melians surrender and pay tribute to Athens or face annihilation. The Melians refused, so the Athenians laid siege to their city. Melos surrendered in the winter, and the Athenians executed the men of Melos and enslaved the women and children.",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Melos"
+      },
+      "zh": {
+        "title": "米洛斯圍城戰",
+        "extract": "米洛斯围城战，公元前416年，正值雅典与斯巴达之间的伯罗奔尼撒战争期间，雅典入侵米洛斯岛。米洛斯岛位于希腊半岛以东约110千米（68英里）处。虽然米洛斯人先祖来自斯巴达，但米洛斯在战争中保持中立。公元前416年夏，雅典入侵了米洛斯。雅典要求米洛斯投降，并向雅典纳贡，否则将面临灭亡。米洛斯拒绝雅典的要求。于是，雅典人围攻米洛斯。冬季，米洛斯投降。战后，雅典人处决米洛斯的男子，妇女儿童掳为奴隶。",
+        "url": "https://zh.wikipedia.org/wiki/%E7%B1%B3%E6%B4%9B%E6%96%AF%E5%9C%8D%E5%9F%8E%E6%88%B0"
+      },
+      "es": {
+        "title": "Batalla de Melos",
+        "extract": "La batalla de Melos fue un enfrentamiento militar librado en el contexto de la guerra del Peloponeso, en el 416 a. C., entre Atenas y los habitantes de la isla de Melos. Es especialmente conocida por la obra de Tucídides, ya que se inspiró en las negociaciones previas al combate para escribir el Diálogo de los melios, considerado un ejemplo clásico de realismo político.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Melos"
+      },
+      "ar": {
+        "title": "معركة ميلوس",
+        "extract": "وقعت معركة ميلوس سنة 415 قبل الميلاد بين أثينا وميلوس. وكانت ميلوس تحاول البقاء على الحياد في الحرب البيلوبونيسية، ولكن قامت أثينا بالهجوم واضطرت ميلوس إلى الاستسلام بعد تجويع وحصار قاس للمدينة. بعد احتلال المدينة من قبل أثينا، قام الاثينيون بقتل جميع الذكور القادرين على حمل السلاح واستعباد النساء والأطفال.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D9%85%D9%8A%D9%84%D9%88%D8%B3"
+      },
+      "fr": {
+        "title": "Siège de Mélos",
+        "extract": "Le siège de Mélos a lieu en 416-415 av. J.-C. Il est mené par Athènes sous le commandement d'Alcibiade.",
+        "url": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_M%C3%A9los"
+      }
+    }
+  },
+  "Battle of Cynossema": {
+    "pages": {
+      "en": {
+        "title": "Battle of Cynossema",
+        "extract": "The naval Battle of Cynossema took place in 411 BC during the Second Peloponnesian War. In the battle, an Athenian fleet commanded by Thrasybulus and Thrasyllus, although initially thrown on the defensive by a numerically superior Spartan fleet, won a narrow victory. This victory had an impact out of proportion to its tactical significance, coming when Athens' traditional democratic government had been replaced by an oligarchy and an Athenian defeat could have ended the war. The newly confident Athenian fleet proceeded to win two more victories in the Hellespont in quick succession, the second being the dramatic rout at Cyzicus, which ended the immediate Spartan threat to Athens' Black Sea lifeline.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Cynossema"
+      },
+      "es": {
+        "title": "Batalla de Cinosema",
+        "extract": "La batalla de Cinosema fue un conflicto naval ocurrido en 411 a. C. durante la guerra de Decelia. En la batalla, la flota ateniense comandada por Trasíbulo y Trasilo obtuvo una apretada victoria, pese a que inicialmente la superioridad numérica de los espartanos la habían puesto a la defensiva. Esta victoria, sucedida cuando el \ngobierno democrático de Atenas había sido reemplazado por una oligarquía y una derrota ateniense pudo haber puesto fin a la guerra, tuvo un impacto desproporcionado en cuanto a su significado táctico. Renovada su confianza, y en rápida sucesión, la flota ateniense ganó dos batallas más en el Helesponto; la segunda de ellas fue la victoria aplastante de Cícico, que acabó con la amenaza inmediata de Esparta sobre las posesiones de Atenas en el mar Negro.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Cinosema"
+      },
+      "fr": {
+        "title": "Bataille de Cynosséma",
+        "extract": "La bataille de Cynosséma est une bataille navale qui fut livrée en 411 av. J.-C., au large de Cynosséma et de la péninsule de Gallipoli, pendant la guerre du Péloponnèse.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Cynoss%C3%A9ma"
+      },
+      "pt": {
+        "title": "Batalha de Cinossema",
+        "extract": "A batalha de Cinossema foi um conflito naval travado em 411 a.C. durante a Guerra de Decélia. Na batalha, a frota ateniense comandada por Trasíbulo e Trasilo, apesar de inicialmente posta à defensiva pela frota espartana numericamente superior, obteve uma apertada vitória. Esta vitória, conseguida no tempo em que a democracia ateniense fora substituída por uma oligarquia, e quando uma derrota ateniense poderia ter colocado fim a guerra, teve um impacto desproporcionado a respeito do seu significado tático. Renovada a sua confiança, a frota ateniense conseguiu, em rápida sucessão, mais duas vitórias no Helesponto; a segunda delas foi a vitória esmagadora de Cízico, que acabou com a ameaça imediata de Esparta sobre as posses de Atenas no mar Negro.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Cinossema"
+      }
+    }
+  },
+  "Battle of Cyzicus": {
+    "pages": {
+      "en": {
+        "title": "Battle of Cyzicus",
+        "extract": "The Battle of Cyzicus took place in May or June 410 BC during the Peloponnesian War. During the battle, an Athenian fleet commanded by Alcibiades, Thrasybulus, and Theramenes routed and destroyed a Spartan fleet commanded by Mindarus. The victory allowed Athens to recover control over a number of cities in the Hellespont over the next year. In the wake of their defeat, the Spartans made a peace offer, which the Athenians rejected.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Cyzicus"
+      },
+      "es": {
+        "title": "Batalla de Cícico",
+        "extract": "La batalla de Cícico tuvo lugar en 410 a. C. durante la guerra del Peloponeso. En la batalla, una flota ateniense comandada por Alcibíades, Trasíbulo y Terámenes destruyó completamente una flota espartana mandada por Míndaro. La victoria permitió a Atenas recobrar el control sobre un número de ciudades del Helesponto. Tras la derrota, los espartanos hicieron una oferta de paz, que los atenienses rechazaron.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_C%C3%ADcico"
+      },
+      "fr": {
+        "title": "Bataille de Cyzique",
+        "extract": "La bataille de Cyzique est une bataille qui a eu lieu en -410, au cours de la guerre du Péloponnèse, près de Cyzique. Dans la bataille, une flotte athénienne commandée par Alcibiade, Thrasybule, et Théramène a complètement détruit une flotte commandée par le spartiate Mindarus. La victoire d'Athènes a permis de récupérer le contrôle sur un certain nombre de villes de l'Hellespont au cours de l'année suivante. À la suite de leur défaite, les Spartiates ont fait une offre de paix, qui fut rejetée par les Athéniens.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Cyzique"
+      }
+    }
+  },
+  "Battle of Selinus": {
+    "pages": {
+      "en": {
+        "title": "Battle of Selinus",
+        "extract": "The Battle of Selinus, which took place early in 409 BC, is the opening battle of the so-called Second Sicilian War. The ten-day-long siege and battle was fought in Sicily between the Carthaginian forces under Hannibal Mago and the Dorian Greeks of Selinus. The city of Selinus had defeated the Elymian city of Segesta in 415, an event that led to the Athenian invasion of Sicily in 415 and ended in the defeat of Athenian forces in 413. When Selinus again worsted Segesta in 411, Carthage, responding to the appeal of Segesta, had besieged and sacked Selinus after the Carthaginian offer of negotiations had been refused by the Greeks. This was the first step towards Hannibal's campaign to avenge the Carthaginian defeat at the first battle of Himera in 480. The city of Selinus was later rebuilt, but never regained her former status.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Selinus"
+      },
+      "es": {
+        "title": "Batalla de Selinunte (409 a. C.)",
+        "extract": "La Batalla de Selinunte, que tuvo lugar en la primavera de 409 a. C., fue la primera batalla de la llamada Segunda guerra siciliana. El sitio se prolongó diez días y la batalla se libró en Sicilia entre las fuerzas cartaginesas bajo Aníbal Magón y los griegos dorios de Selinunte. La ciudad de Selinunte había derrotado a la ciudad élimo de Segesta en 415 a. C., un evento que llevó a la invasión ateniense de Sicilia en 415 a. C. y que terminó con la derrota de las fuerzas atenienses en 413 a. C. Cuando Selinunte nuevamente atacó a Segesta en 411 a. C., Cartago, respondió al llamado de Segesta, Selinunte fue sitiada y saqueada después de que los cartagineses rechazarán los ofrecimientos de negociaciones hechas por los griegos. Este fue el primer paso de la campaña de Aníbal para vengar la derrota cartaginesa en la primera batalla de Hímera en el año 480 a. C. La ciudad de Selinunte fue reconstruida posteriormente, pero no volvió a recuperar su poderío anterior.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Selinunte_(409_a._C.)"
+      },
+      "pt": {
+        "title": "Batalha de Selino",
+        "extract": "A Batalha de Selino, que ocorreu no início de 409 a.C., é a batalha de abertura da chamada Segunda Guerra da Sicília.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Selino"
+      }
+    }
+  },
+  "Battle of Himera (409 BC)": {
+    "pages": {
+      "en": {
+        "title": "Battle of Himera (409 BC)",
+        "extract": "Near the site of the first battle and great Carthaginian defeat of 480 BC, the Second Battle of Himera was fought near the city of Himera in Sicily in 409 between the Carthaginian forces under Hannibal Mago and the Ionian Greeks of Himera aided by an army and a fleet from Syracuse. Hannibal, acting under the instructions of the Carthaginian senate, had previously sacked and destroyed the city of Selinus after the Battle of Selinus in 409. Hannibal then destroyed Himera which was never rebuilt. \nMass graves associated with this battle were discovered in 2008-2011, corroborating the stories told by ancient historians.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Himera_(409_BC)"
+      },
+      "es": {
+        "title": "Batalla de Hímera (409 a. C.)",
+        "extract": "La segunda batalla de Hímera se libró cerca de la ciudad de Hímera en Sicilia en 409 a. C. entre las fuerzas cartaginesas bajo Aníbal Magón y los griegos jonios de Hímera ayudados por un ejército y una flota de Siracusa. Aníbal, actuando bajo las instrucciones del senado cartaginés, ya había saqueado y destruido la ciudad de Selinunte después de la Batalla de Selinunte en 409 a. C. Aníbal atacó a la ciudad de Hímera, sitio de la gran derrota cartaginesa en 480 a. C. y destruyó por completo el lugar. Hímera nunca fue reconstruida, una nueva ciudad llamada Termes fue construida al oeste de la ciudad en ruinas, que contenía una población mixta de griegos y fenicios.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_H%C3%ADmera_(409_a._C.)"
+      },
+      "ar": {
+        "title": "حرب صقلية ثانية",
+        "extract": "بعد أقل من سبعين عام رجعت قرطاج إلى قوتها الأصلية. بعد أنشأت مدن كثيرة في شمال إفريقية واستعمرت جزءا أكبر من تونس.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%AD%D8%B1%D8%A8_%D8%B5%D9%82%D9%84%D9%8A%D8%A9_%D8%AB%D8%A7%D9%86%D9%8A%D8%A9"
+      }
+    }
+  },
+  "Battle of Veii": {
+    "pages": {
+      "en": {
+        "title": "Battle of Veii",
+        "extract": "The battle of Veii, also known as the siege of Veii, involved ancient Rome, and is approximately dated at 396 BC. The main source about it is Livy's Ab Urbe Condita.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Veii"
+      },
+      "es": {
+        "title": "Sitio de Veyes",
+        "extract": "La batalla de Veii, más conocida como el asedio de Veyes, es una batalla de la antigua Roma, aproximadamente en el año 396 a. C. La mayor fuente sobre esto es Ab urbe condita de Tito Livio.",
+        "url": "https://es.wikipedia.org/wiki/Sitio_de_Veyes"
+      },
+      "fr": {
+        "title": "Bataille de Véies",
+        "extract": "La bataille de Véies, connue également sous le nom de siège de Véies, se déroule durant la troisième guerre de Véies (406/403-396) et oppose la République romaine aux Étrusques assiégés de Véies. La ville tombe entre les mains des Romains vers 396 av. J.-C., à l'issue d'un siège long de dix ans selon la tradition telle qu'elle est rapportée par Tite-Live dans son Histoire romaine. Cette victoire marque un tournant dans l'histoire romaine : Rome devient la puissance dominante du Latium, ce qui va avoir pour conséquence une détérioration de ses rapports avec ses voisins territoriaux. Toutefois, l'expansion romaine est temporairement stoppée aux lendemains de cette victoire par une invasion gauloise qui se termine par la mise à sac de Rome.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_V%C3%A9ies"
+      },
+      "pt": {
+        "title": "Batalha de Veios",
+        "extract": "A Batalha de Veios, também conhecida como o Cerco de Veios é uma batalha da República Romana, datada de cerca de 396 a.C. A principal fonte sobre ela é a Ab Urbe Condita de Tito Lívio.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Veios"
+      }
+    }
+  },
+  "Battle of Notium": {
+    "pages": {
+      "en": {
+        "title": "Battle of Notium",
+        "extract": "The Battle of Notium in 406 BC was a Spartan naval victory in the Peloponnesian War. Prior to the battle, the Athenian commander, Alcibiades, left his helmsman, Antiochus, in command of the Athenian fleet, which was blockading the Spartan fleet in Ephesus. In violation of his orders, Antiochus attempted to draw the Spartans into battle by tempting them with a small decoy force. His strategy backfired, and the Spartans under Lysander scored a small but symbolically significant victory over the Athenian fleet. This victory resulted in the downfall of Alcibiades, and established Lysander as a commander who could defeat the Athenians at sea.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Notium"
+      },
+      "es": {
+        "title": "Batalla de Notio",
+        "extract": "La batalla de Notio en 406 a. C., fue una victoria naval espartana en la guerra del Peloponeso. Antes de la batalla, el estratego ateniense Alcibíades, dejó a su timonel, Antíoco, al mando de la flota ateniense, que estaba bloqueando a la flota espartana en Éfeso. En violación de sus órdenes, Antíoco intentó atraer a los espartanos a la batalla tentándolos con una pequeña fuerza como señuelo. Su estrategia fracasó, y los espartanos bajo el mando de Lisandro, consiguieron una pequeña victoria, pero simbólicamente importante, sobre la flota ateniense. Esta victoria tuvo como consecuencia la caída de Alcibíades y dejó claro que Lisandro era un comandante que podía derrotar a los atenienses en el mar.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Notio"
+      },
+      "fr": {
+        "title": "Bataille de Notion",
+        "extract": "La bataille de Notion est une bataille navale de la guerre du Péloponnèse qui eut lieu au printemps 407 av. J.-C.. Notion, ou en latin « Notium », est une ville d’Asie mineure proche d'Éphèse dont les coordonnées sont approximativement 37° 58′ N, 27° 16′ E. Elle vit la défaite des troupes athéniennes commandées par Alcibiade face aux forces spartiates, soutenues par les Perses.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Notion"
+      }
+    }
+  },
+  "Siege of Akragas (406 BC)": {
+    "pages": {
+      "en": {
+        "title": "Siege of Akragas (406 BC)",
+        "extract": "The siege of Akragas took place in 406 BC in Sicily; the Carthaginian enterprise ultimately lasted a total of eight months. The Carthaginian army under Hannibal Mago besieged the Dorian Greek city of Akragas in retaliation for the Greek raids on Punic colonies in Sicily. The city managed to repel Carthaginian attacks until a relief army from Syracuse defeated part of the besieging Carthaginian army and lifted the siege of the city.",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Akragas_(406_BC)"
+      },
+      "es": {
+        "title": "Sitio de Agrigento (406 a. C.)",
+        "extract": "El sitio de Agrigento tuvo lugar en 406 a. C. en Sicilia. El sitio cartaginés duró un total de ocho meses. El ejército cartaginés bajo Aníbal Magón sitió la ciudad griega doria de Acragante en represalia contra los ataques griegos de las colonias púnicas en Sicilia. La ciudad había logrado repeler los ataques cartagineses hasta que un ejército de ayuda de Siracusa derrotó a una parte del ejército sitiador cartaginés y levantó el asedio de la ciudad.",
+        "url": "https://es.wikipedia.org/wiki/Sitio_de_Agrigento_(406_a._C.)"
+      }
+    }
+  },
+  "Battle of Arginusae": {
+    "pages": {
+      "en": {
+        "title": "Battle of Arginusae",
+        "extract": "The Battle of Arginusae took place in 406 BC during the Peloponnesian War near the city of Canae in the Arginusae Islands, east of the island of Lesbos. In the battle, an Athenian fleet commanded by eight strategoi defeated a Spartan fleet under Callicratidas. The battle was precipitated by a Spartan victory, which led to the Athenian fleet under Conon being blockaded at Mytilene. To relieve Conon, the Athenians assembled a scratch force composed largely of newly-constructed ships manned by inexperienced crews. The inexperienced fleet was thus tactically inferior to the Spartans, but its commanders circumvented the problem by employing new and unorthodox tactics, which allowed the Athenians to secure a dramatic and unexpected victory. Slaves and metics who participated in the battle may have been granted Athenian citizenship.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Arginusae"
+      },
+      "es": {
+        "title": "Batalla de Arginusas",
+        "extract": "La batalla de Arginusas fue un enfrentamiento naval que tuvo lugar en 406 a. C., durante la guerra del Peloponeso, justo al este de la isla de Lesbos. En la batalla, una flota ateniense mandada por ocho estrategos derrotó a una flota espartana bajo el mando de Calicrátidas. La batalla fue precipitada por una victoria espartana que condujo a la flota ateniense dirigida por Conón a ser bloqueada en Mitilene; para auxiliar a Conón, los atenienses reunieron una fuerza improvisada compuesta en gran parte de barcos recién construidos y con tripulaciones inexpertas. Esta flota era, por su inexperiencia, tácticamente inferior a la espartana, pero sus comandantes fueron capaces de evitar este problema empleando tácticas poco ortodoxas, que permitieron a los atenienses conseguir una dramática e inesperada victoria.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Arginusas"
+      },
+      "ar": {
+        "title": "معركة أرغينوز",
+        "extract": "معركة أرغينوز هي معركة بحرية وقعت في سنة 406 ق م أثناء الحرب البيلوبونيسية بالقرب من مدينة كاناي شرق جزيرة لسبوس بين إسبرطة وأثينا، إنتهت المعركة بانتصار أثينا التي تمكنت من إغراق 70 سفينة من إسبرطة من أصل 120 سفينة وإنتهت بمقتل كاليكراتيداس قائد جيش إسبرطة.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%A3%D8%B1%D8%BA%D9%8A%D9%86%D9%88%D8%B2"
+      },
+      "fr": {
+        "title": "Bataille des Arginuses",
+        "extract": "La bataille navale des Arginuses est l’un des derniers grands épisodes de la guerre du Péloponnèse, qui opposa Athènes à Sparte pendant près de trente ans. Elle eut lieu pendant l’été -406, dans la mer Égée, au large de l’île de Lesbos, face aux petites îles Arginuses qui bordent à cet endroit la côte de l’actuelle Turquie. La flotte athénienne, commandée par huit stratèges, y défit la flotte lacédémonienne dirigée par Callicratidas.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_des_Arginuses"
+      }
+    }
+  },
+  "Battle of Gela (405 BC)": {
+    "pages": {
+      "en": {
+        "title": "Battle of Gela (405 BC)",
+        "extract": "The Battle of Gela took place in the summer of 405 BC in Sicily. The Carthaginian army under Himilco, which had spent the winter and spring in the captured city of Akragas, marched to confront the Greeks at Gela. The Syracuse government had deposed Daphnaeus, the unsuccessful general of the Greek army at Akragas, with Dionysius, another officer who had been a follower of Hermocrates. Dionysius schemed and gained full dictatorial powers.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Gela_(405_BC)"
+      },
+      "es": {
+        "title": "Batalla de Gela (405 a. C.)",
+        "extract": "La batalla de Gela tuvo lugar en el verano de 405 a. C. en Sicilia. El ejército cartaginés bajo Himilcón, que había pasado el invierno y la primavera en la ciudad capturada de Akragas, marcharon para hacer frente a los griegos en Gela. El gobierno de Siracusa había depuesto a Dafneo, el general sin éxito del ejército griego en Akragas, con Dionisio, otro oficial que había sido un seguidor de Hermócrates. Dionisio planeó y consiguió plenos poderes dictatoriales. Cuando los cartagineses avanzaron sobre Gela y pusieron la ciudad bajo asedio, Dionisio marchó de Siracusa para hacer frente a la amenaza. Planeaba usar un complejo ataque de tres pasos contra los cartagineses, que fracasó debido a la falta de una adecuada coordinación. Dionisio decidió evacuar a Gela, ya que la derrota provocó el descontento en Siracusa y no querían perder su poder. Himilcón saqueó la ciudad abandonada después de que los griegos habían huido a Camarina.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Gela_(405_a._C.)"
+      }
+    }
+  },
+  "Battle of Aegospotami": {
+    "pages": {
+      "ko": {
+        "title": "아이고스포타모이 해전",
+        "extract": "아이고스포타모이 해전(Αιγός Ποταμοί -)은 펠로폰네소스 전쟁 최후의 대전으로 기원전 405년에 일어났다. 이 해전에서 뤼산드로스의 스파르타 해군은 아테나이 해군을 완전히 격멸하였다. 이로써 아테나이는 제해권을 잃어 곡물 수입과 해외 영토 연락이 끊겨 전쟁이 사실상 종결되었다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%95%84%EC%9D%B4%EA%B3%A0%EC%8A%A4%ED%8F%AC%ED%83%80%EB%AA%A8%EC%9D%B4_%ED%95%B4%EC%A0%84"
+      },
+      "en": {
+        "title": "Battle of Aegospotami",
+        "extract": "The Battle of Aegospotami was a naval confrontation that took place in 405 BC and was the last major battle of the Peloponnesian War. In the battle, a Spartan fleet under Lysander destroyed the Athenian navy. This effectively ended the war, since Athens could not import grain or communicate with its empire without control of the sea.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Aegospotami"
+      },
+      "zh": {
+        "title": "伊哥斯波塔米戰役",
+        "extract": "伊哥斯波塔米战役 发生于西元前405年，为斯巴达和雅典两国间伯罗奔尼撒战争的局部战役。以海战为主的该战役，斯巴达船队使用偷袭战术，攻击摧毁拥有180艘船舰的雅典舰队，并乘胜进逼雅典。翌年，雅典投降。",
+        "url": "https://zh.wikipedia.org/wiki/%E4%BC%8A%E5%93%A5%E6%96%AF%E6%B3%A2%E5%A1%94%E7%B1%B3%E6%88%B0%E5%BD%B9"
+      },
+      "es": {
+        "title": "Batalla de Egospótamos",
+        "extract": "La batalla de Egospótamos fue un enfrentamiento naval librado entre Atenas y Esparta en el marco de la guerra del Peloponeso en 405 a. C. en la desembocadura del Egospótamos, río del Quersoneso. Parece ser que allí llegó a caer un meteorito, según predijo Anaxágoras.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Egosp%C3%B3tamos"
+      },
+      "fr": {
+        "title": "Bataille d'Aigos Potamos",
+        "extract": "La bataille d'Aigos Potamos, en Chersonèse de Thrace, a eu lieu en 405 av. J.-C. entre les flottes d'Athènes et de Sparte. Elle a été le dernier engagement majeur de la guerre du Péloponnèse. À l'issue de cette bataille, la flotte spartiate, sous le commandement de Lysandre, détruisit complètement sa concurrente athénienne. Cela mit un terme effectif à la guerre, Athènes ne pouvant pas importer du grain ou communiquer avec le reste de son empire sans le contrôle de la mer.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_d'Aigos_Potamos"
+      },
+      "pt": {
+        "title": "Batalha de Egospótamo",
+        "extract": "A batalha naval de Egospótamo teve lugar em 405 a.C., na Grécia, opondo a frota recém-construída de Esparta à de Atenas, com a derrota desta última.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Egosp%C3%B3tamo"
+      }
+    }
+  },
+  "Battle of Munychia": {
+    "pages": {
+      "en": {
+        "title": "Battle of Munychia",
+        "extract": "The Battle of Munychia was fought between Athenians exiled by the oligarchic government of the Thirty Tyrants and the forces of that government, supported by a Spartan garrison. In the battle, a substantially superior force composed of the Spartan garrison of Athens and the army of the oligarchic government attacked a hill in Piraeus which had been seized by 1,000 exiles under Thrasybulus, but was defeated. After this defeat, the Thirty Tyrants were forced to flee to Eleusis.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Munychia"
+      },
+      "es": {
+        "title": "Batalla de Muniquia",
+        "extract": "La batalla de Muniquia fue un conflicto militar entre los atenienses exiliados por el gobierno oligárquico de los Treinta Tiranos y las fuerzas de estos, apoyadas por una guarnición espartana. En la lid, la guarnición espartana de Atenas y el ejército del gobierno de los oligarcas, que eran sustancialmente superiores en número a sus enemigos, atacaron una colina de El Pireo, en la que se habían refugiado mil exiliados acaudillados por Trasíbulo. Los asaltantes, sin embargo, resultaron vencidos, y su derrota suscitó que los Treinta Tiranos se viesen obligados a exiliarse a Eleusis.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Muniquia"
+      }
+    }
+  },
+  "Sicilian Expedition": {
+    "pages": {
+      "ko": {
+        "title": "시켈리아 원정",
+        "extract": "시켈리아 원정은 펠로폰네소스 전쟁 중인 기원전 415년부터 기원전 413년에 걸쳐 아테네가 실시한 시켈리아 방면에 대한 군사 작전이다. 이 원정의 목적도, 명령 체계도 불확실했고, 원정군의 규모도 당초 계획인 60척의 배로 소규모 부대를 보내는 것에서 대규모 함대와 대규모의 중장보병 부대를 파견하는 것으로 확대되었다. 당초 원정을 주도한 지휘관 중 한 명이었던 알키비아데스는 함대가 시켈리아에 도착하기 전에 해임되어 재판에 회부되어 송환되었다. 그래도 초기에는 성공을 거둘 수 있었다. 아테네의 이런 위협에 대해 시켈리아에서 지배적인 도시였던 시라쿠사의 반응은 매우 둔했으며, 결과적으로 스파르타 군이 도착하기 전에 아테네는 시라쿠사를 봉쇄하기 위한 공성 보루를 거의 완성했다. 스파르타의 장군 길리포스는 도착하자마자 시라쿠사 시민의 행동을 촉구했다. 이 시점에서 아테네는 주도권을 잃었고, 전쟁의 흐름은 바뀌었다. 아테네는 증원 부대를 충당받아 일단의 우세를 회복했다. 그러나 전략적으로 중요한 지점에서의 큰 패배를 당했고, 여러 해전에서의 연이은 패배를 겪으며 포위군의 전투력과 사기는 급격히 떨어졌다. 결국 아테네 군이 공략을 예정하고 있었던 시라쿠사에서 육지를 통해 탈출할 수밖에 없게 되었다. 이 시도마저 실패로 돌아가자 원정군의 대부분이 시켈리아 내륙에서 항복하거나 전사했다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%8B%9C%EC%BC%88%EB%A6%AC%EC%95%84_%EC%9B%90%EC%A0%95"
+      },
+      "en": {
+        "title": "Sicilian Expedition",
+        "extract": "The Sicilian Expedition was an Athenian military campaign in Sicily from 415 to 413 BC during the Peloponnesian War. It pitted Athens and its allies against Syracuse, supported by Sparta and Corinth. The expedition ended in a devastating defeat for the Athenians and severely weakened their position in the war.",
+        "url": "https://en.wikipedia.org/wiki/Sicilian_Expedition"
+      },
+      "zh": {
+        "title": "西西里遠征",
+        "extract": "西西里远征是雅典人对西西里岛的一次军事远征，此次远征发生在公元前415-413年伯罗奔尼撒战争期间，战斗一方是古雅典，另一方是斯巴达、叙拉古和科林斯。这次远征以雅典军队的毁灭性失败告终，并对雅典造成了巨大影响。",
+        "url": "https://zh.wikipedia.org/wiki/%E8%A5%BF%E8%A5%BF%E9%87%8C%E9%81%A0%E5%BE%81"
+      },
+      "es": {
+        "title": "Expedición a Sicilia",
+        "extract": "La expedición a Sicilia es la denominación con la que se conoce a una campaña o expedición militar de Atenas en la isla de Sicilia durante la guerra del Peloponeso, antes de la guerra de Decelia. Se extendió desde el año 415 a. C. al 413 a. C., y su episodio más importante fue el sitio de Siracusa.",
+        "url": "https://es.wikipedia.org/wiki/Expedici%C3%B3n_a_Sicilia"
+      },
+      "ar": {
+        "title": "الحملة الصقلية",
+        "extract": "الحملة الصقلية كانت رحلة استكشافية أثينية إلى صقلية من 415 قبل الميلاد إلى 413 قبل الميلاد وخلال الحرب البيلوبونيسية. أعاق البعثة منذ البداية عدم اليقين حول هدفها وبنية قيادتها السياسية في أثينا التي حولتها من قوة خفيفة من عشرين سفينة إلى أسطول ضخم.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%AD%D9%85%D9%84%D8%A9_%D8%A7%D9%84%D8%B5%D9%82%D9%84%D9%8A%D8%A9"
+      },
+      "fr": {
+        "title": "Expédition de Sicile",
+        "extract": "L’expédition de Sicile est une opération montée par Athènes en -415 pour aider la cité sicilienne de Ségeste contre Sélinonte, soutenue par les Syracusains. L'épisode s'inscrit dans la guerre du Péloponnèse, conflit qui oppose de -431 à -404 Athènes et la ligue de Délos à Sparte et la ligue du Péloponnèse. L'expédition se solde par un cuisant échec pour Athènes, ce qui amène à la reprise des hostilités avec Sparte et, en -411, à la révolution oligarchique des Quatre-Cents.",
+        "url": "https://fr.wikipedia.org/wiki/Exp%C3%A9dition_de_Sicile"
+      },
+      "pt": {
+        "title": "Expedição Siciliana",
+        "extract": "Expedição Siciliana foi uma expedição militar ateniense à ilha da Sicília, que ocorreu entre 415–413 a.C. durante a Guerra do Peloponeso entre Atenas de um lado e Esparta, Siracusa e Corinto do outro. A expedição terminou numa derrota devastadora para as forças atenienses, o que teve um forte impacto na cidade.",
+        "url": "https://pt.wikipedia.org/wiki/Expedi%C3%A7%C3%A3o_Siciliana"
+      }
+    }
+  }
+}

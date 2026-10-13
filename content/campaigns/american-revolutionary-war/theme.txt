@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: American Revolutionary War
+region: north-america
+when: 1775-04 ~ 1783-09
+unit: month
+borders-step: 1
+view: -76, 38, 4
+search: -92, -60, 24, 48
+min-links: 4
+side.a.ko: 대륙군·프랑스
+side.a.en: Patriots & France
+side.a.zh: 大陆军与法国
+side.a.es: Patriotas y Francia
+side.a.hi: देशभक्त और फ़्रांस
+side.a.ar: الوطنيون وفرنسا
+side.a.fr: Patriotes et France
+side.a.pt: Patriotas e França
+side.b.ko: 영국
+side.b.en: Great Britain
+side.b.zh: 大不列颠
+side.b.es: Gran Bretaña
+side.b.hi: ग्रेट ब्रिटेन
+side.b.ar: بريطانيا العظمى
+side.b.fr: Grande-Bretagne
+side.b.pt: Grã-Bretanha

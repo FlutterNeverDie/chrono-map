@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Crimean War
+region: europe
+when: 1853-10 ~ 1856-03
+unit: month
+borders-step: 1
+view: 34, 45, 4
+search: 20, 46, 38, 48.5
+min-links: 3
+side.a.ko: 러시아
+side.a.en: Russia
+side.a.zh: 俄罗斯帝国
+side.a.es: Rusia
+side.a.hi: रूस
+side.a.ar: روسيا
+side.a.fr: Russie
+side.a.pt: Rússia
+side.b.ko: 오스만·영국·프랑스·사르데냐
+side.b.en: Ottomans, Britain, France & Sardinia
+side.b.zh: 奥斯曼、英国、法国与撒丁
+side.b.es: Otomanos, Gran Bretaña, Francia y Cerdeña
+side.b.hi: उस्मानी, ब्रिटेन, फ़्रांस और सार्डिनिया
+side.b.ar: العثمانيون وبريطانيا وفرنسا وسردينيا
+side.b.fr: Ottomans, Grande-Bretagne, France et Sardaigne
+side.b.pt: Otomanos, Grã-Bretanha, França e Sardenha

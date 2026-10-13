@@ -1,0 +1,23 @@
+# 나라(정치체)별 진영: 원본 이름 = a | b | n [시작 ~ 끝]. 없으면 기타(n). 형식은 content/campaigns/CLAUDE.md
+
+Kingdom of Great Britain = a
+(British Empire) = a
+British Empire = a
+British Colonial Empire = a
+English Colonial Empire = a
+Electorate of Hanover = a
+Kingdom of Prussia = a
+Kingdom of Portugal = a 1762 ~
+Kingdom of France = b
+(Kingdom of France) = b
+New France = b
+French India = b
+Habsburg Monarchy = b
+(Habsburg Monarchy) = b
+Russian Empire = b ~ 1761
+Swedish Empire = b 1757 ~ 1762
+Electorate of Saxony = b
+Kingdom of Spain = b 1762 ~
+Spanish Empire = b 1762 ~
+(Spanish Empire) = b 1762 ~
+Nawabs of Bengal = b 1756 ~ 1757

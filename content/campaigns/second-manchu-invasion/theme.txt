@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Qing invasion of Joseon
+region: korea
+when: 1636-12 ~ 1637-02
+unit: month
+borders-step: 1
+view: 126.8, 38.5, 6
+search: 123, 130.5, 34, 42.5
+min-links: 1
+side.a.ko: 청
+side.a.en: Qing
+side.a.zh: 清朝
+side.a.es: Qing
+side.a.hi: चिंग राजवंश
+side.a.ar: تشينغ
+side.a.fr: Qing
+side.a.pt: Qing
+side.b.ko: 조선
+side.b.en: Joseon
+side.b.zh: 朝鲜王朝
+side.b.es: Joseon
+side.b.hi: जोसॉन
+side.b.ar: جوسون
+side.b.fr: Joseon
+side.b.pt: Joseon

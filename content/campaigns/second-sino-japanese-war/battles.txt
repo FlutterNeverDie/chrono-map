@@ -1,0 +1,193 @@
+# Second Sino-Japanese War 전투 (Wikidata 자동 생성, 직접 고쳐도 됨). 형식은 content/campaigns/CLAUDE.md
+
+@ marco-polo-bridge-incident
+wikipedia: Marco Polo Bridge incident
+when: 1937-07
+coords: 116.21, 39.85
+links: 50
+
+@ battle-of-shanghai
+wikipedia: Battle of Shanghai
+when: 1937-08 ~ 1937-11
+coords: 121.47, 31.23
+links: 36
+
+@ battle-of-xinkou
+wikipedia: Battle of Xinkou
+when: 1937-09 ~ 1937-11
+coords: 112, 38
+links: 13
+
+@ battle-of-pingxingguan
+wikipedia: Battle of Pingxingguan
+when: 1937-09
+coords: 113.96, 39.35
+links: 14
+
+@ battle-of-taiyuan
+wikipedia: Battle of Taiyuan
+when: 1937-09 ~ 1937-11
+coords: 112.55, 37.85
+links: 15
+
+@ defense-of-sihang-warehouse
+wikipedia: Defense of Sihang Warehouse
+when: 1937-10 ~ 1937-11
+coords: 121.47, 31.24
+links: 12
+
+@ battle-of-nanking
+wikipedia: Battle of Nanking
+when: 1937-12
+coords: 118.78, 32.01
+links: 25
+
+@ bombing-of-chongqing
+wikipedia: Bombing of Chongqing
+when: 1938-02 ~ 1943-08
+coords: 106.94, 29.48
+links: 14
+
+@ battle-of-taierzhuang
+wikipedia: Battle of Taierzhuang
+when: 1938-03 ~ 1938-04
+coords: 117.73, 34.56
+links: 21
+
+@ battle-of-xuzhou
+wikipedia: Battle of Xuzhou
+when: 1938-03 ~ 1938-05
+coords: 117.17, 34.27
+links: 19
+
+@ amoy-operation
+wikipedia: Amoy Operation
+when: 1938-05
+coords: 118.14, 24.5
+links: 6
+
+@ battle-of-wuhan
+wikipedia: Battle of Wuhan
+when: 1938-06 ~ 1938-10
+coords: 114.27, 30.57
+links: 25
+
+@ canton-operation
+wikipedia: Canton Operation
+when: 1938-10 ~ 1938-12
+coords: 113.3, 23.09
+links: 9
+
+@ battle-of-changsha-1939
+wikipedia: Battle of Changsha (1939)
+when: 1939-09 ~ 1939-10
+coords: 112.97, 28.2
+links: 25
+
+@ battle-of-suixian-zaoyang
+wikipedia: Battle of Suixian–Zaoyang
+when: 1939-05
+coords: 112.75, 32.13
+links: 9
+
+@ battle-of-nanchang
+wikipedia: Battle of Nanchang
+when: 1939-05
+coords: 115.88, 28.68
+links: 14
+
+@ battle-of-south-guangxi
+wikipedia: Battle of South Guangxi
+when: 1939-11 ~ 1940-11
+coords: 108.98, 23.81
+links: 12
+
+@ battle-of-wuyuan
+wikipedia: Battle of Wuyuan
+when: 1940-03 ~ 1940-04
+coords: 108.27, 31.09
+links: 5
+
+@ battle-of-zaoyang-yichang
+wikipedia: Battle of Zaoyang–Yichang
+when: 1940-05 ~ 1940-06
+coords: 112.75, 32.13
+links: 11
+
+@ hundred-regiments-offensive
+wikipedia: Hundred Regiments Offensive
+when: 1940-08 ~ 1940-12
+coords: 116.3, 37.45
+links: 22
+
+@ battle-of-south-henan
+wikipedia: Battle of South Henan
+when: 1941-01 ~ 1941-03
+coords: 113.5, 33.83
+links: 10
+
+@ battle-of-shanggao
+wikipedia: Battle of Shanggao
+when: 1941-03 ~ 1941-04
+coords: 114.88, 28.18
+links: 12
+
+@ battle-of-south-shanxi
+wikipedia: Battle of South Shanxi
+when: 1941-05
+coords: 112, 38
+links: 9
+
+@ battle-of-changsha-1941
+wikipedia: Battle of Changsha (1941)
+when: 1941-09 ~ 1941-10
+coords: 112.97, 28.2
+links: 20
+
+@ battle-of-changsha-1941-1942
+wikipedia: Battle of Changsha (1941–1942)
+when: 1942-01
+coords: 112.97, 28.2
+links: 17
+
+@ battle-of-the-yunnan-burma-road
+wikipedia: Battle of the Yunnan–Burma Road
+when: 1942-06
+coords: 97, 21
+links: 7
+
+@ battle-of-west-hubei
+wikipedia: Battle of West Hubei
+when: 1943-05 ~ 1943-06
+coords: 112.25, 29.16
+links: 12
+
+@ battle-of-northern-burma-and-western-yunnan
+wikipedia: Battle of Northern Burma and Western Yunnan
+when: 1943-10 ~ 1945-03
+coords: 97.14, 22.83
+links: 8
+
+@ battle-of-changde
+wikipedia: Battle of Changde
+when: 1943-11 ~ 1943-12
+coords: 111.68, 29.03
+links: 18
+
+@ battle-of-changsha-1944
+wikipedia: Battle of Changsha (1944)
+when: 1944-05 ~ 1944-08
+coords: 112.97, 28.2
+links: 13
+
+@ battle-of-hengyang
+wikipedia: Battle of Hengyang
+when: 1944-06 ~ 1944-08
+coords: 112.57, 26.89
+links: 7
+
+@ battle-of-guilin-liuzhou
+wikipedia: Battle of Guilin–Liuzhou
+when: 1944-08 ~ 1944-11
+coords: 110.3, 25.27
+links: 12

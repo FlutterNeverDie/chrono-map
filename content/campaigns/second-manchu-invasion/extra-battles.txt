@@ -1,0 +1,13 @@
+# 병자호란: 영어 위키백과에 개별 전투 문서가 없어 핵심 전장(성곽) 문서로 대신한다. 날짜는 양력 월
+
+@ siege-of-namhansanseong
+wikipedia: Namhansanseong
+when: 1636-12 ~ 1637-02
+coords: 127.18, 37.48
+links: 35
+
+@ fall-of-ganghwa
+wikipedia: Ganghwasanseong Fortress
+when: 1637-02
+coords: 126.48, 37.76
+links: 2

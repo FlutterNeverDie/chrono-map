@@ -1,0 +1,2019 @@
+{
+  "Chinese Civil War": {
+    "pages": {
+      "ko": {
+        "title": "국공 내전",
+        "extract": "국공 내전(중국어 정체자: 國共內戰, 간체자: 国共内战, 병음: Guógòng Nèizhàn 궈궁 네이잔[*], 영어: Chinese Civil War)은 1927년 이후 중국공산당이 당시 중국의 중앙 정부였던 중화민국 국민정부를 상대로 벌인 내란 혹은 중국국민당과 중국공산당 사이에 중국 대륙의 패권을 두고 일어난 두 차례의 내전을 말한다. 중화인민공화국에서는 전쟁(戰爭)이라고도 부른다.",
+        "url": "https://ko.wikipedia.org/wiki/%EA%B5%AD%EA%B3%B5_%EB%82%B4%EC%A0%84"
+      },
+      "en": {
+        "title": "Chinese Civil War",
+        "extract": "The Chinese Civil War was fought between the government of the Republic of China (ROC), led by the Kuomintang (KMT), and the Chinese Communist Party (CCP). Armed conflict continued intermittently from 1 August 1927 until Communist victory that led to the Kuomintang's retreat to Taiwan on 7 December 1949.",
+        "url": "https://en.wikipedia.org/wiki/Chinese_Civil_War"
+      },
+      "zh": {
+        "title": "国共内战",
+        "extract": "国共内战 是20世纪上半叶中国爆发的内战，也是20世纪中国规模最大、影响最深远的内战，可分为第一次国共内战和第二次国共内战两个阶段，是中国现代史的重大转折点。内战一方为1947年行宪之前由中国国民党领导的国民政府与行宪后的中华民国政府，另一方为中国共产党及其领导军队与政权。中国共产党一方在内战中取得决定性胜利，获得中国大陆地区的统治权，并于1949年建立中华人民共和国；而中国国民党则于内战中失利，率中华民国政府迁至台湾，造成今日台湾海峡两岸政治分立与军事对峙的局面，双方至1979年1月1日实现军事停火，结束武装冲突。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%9B%BD%E5%85%B1%E5%86%85%E6%88%98"
+      },
+      "es": {
+        "title": "Guerra civil china",
+        "extract": "La guerra civil china, llamada guerra de Liberación por el Partido Comunista Chino (PCCh), fue el conflicto que tuvo lugar en China entre el Kuomintang o Partido Nacionalista Chino (KMT) y el Partido Comunista Chino (PCCh). Esta guerra civil se desarrolló en dos etapas: la primera de ellas entre 1927 y 1936, y la segunda entre 1945 y 1949, abarcando esta última la Revolución china de 1949. El conflicto quedó en gran medida suspendido entre 1936 y 1945, cuando ambos partidos colaboraron para enfrentar al Imperio japonés, el cual había invadido China en el marco de la segunda guerra sino-japonesa.",
+        "url": "https://es.wikipedia.org/wiki/Guerra_civil_china"
+      },
+      "hi": {
+        "title": "चीनी गृहयुद्ध",
+        "extract": "चीनी गृहयुद्ध चीन गणराज्य की नेतृत्व कर रही गुओमिंदांग दल और चीनी साम्यवादी दल के बीच 1945 से 1949 तक चलने वाला संघर्ष था। वास्तव में यह गृहयुद्ध समय-समय पर 1927 से ही जारी रहा, जब गुओमिंदांग के नेता च्यांग काई शेक ने साम्यवादियों को कुचलने के लिए उनके विरुद्ध प्रथम कड़ा अभियान चलाया। इन दोनों के बीच झड़पें 1937 तक चली, जब जापान ने चीन पर आक्रमण करा। इसके बाद 1937–1945 काल में द्वितीय चीन-जापान युद्ध चला और यह दोनों दल जापान से लड़ने के लिए आपसी सहयोग करने लगे। इस काल के अंत भाग में जापान द्वितीय विश्ववयुद्ध में उलझ गया और यह चीन-जापान युद्ध उसी का एक भाग बन गया। इसमें 1945 में जापान की पराजय होने के बाद, गुओमिंदांग-साम्यवादी गृहयुद्ध फिर आरम्भ हो गया और 1949 तक साम्यवादी चीन की मुख्यभूमि पर हावी हो गये जहाँ उन्होंने जनवादी गणतंत्र चीन की स्थापना करी, जबकि गुओमिंदांग ने ताइवान में जा कर गढ़ बना लिया और वहाँ चीनी गणराज्य की नीव रखी। उस समय से इन दोनों की स्थिति लगभग वैसी ही है।",
+        "url": "https://hi.wikipedia.org/wiki/%E0%A4%9A%E0%A5%80%E0%A4%A8%E0%A5%80_%E0%A4%97%E0%A5%83%E0%A4%B9%E0%A4%AF%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A7"
+      },
+      "ar": {
+        "title": "الحرب الأهلية الصينية",
+        "extract": "الحرب الأهلية الصينية أو ، حرب أهلية قامت في الصين بين القوات الموالية لحزب كومينتانغ بقيادة حكومة جمهورية الصين، والقوات الموالية للحزب الشيوعي الصيني. بدأت الحرب في أغسطس 1927، مع الحملة الشمالية بقيادة الجنرال تشانغ كاي تشيك، وانتهت عندما توقفت عمليات القتال الرئيسية في عام 1950. ويمكن تقسيمها عموما إلى مرحلتين؛ أولها بين عامي 1927-1937، والثانية بين عامي 1946-1950 وتفصل بينهما الحرب الصينية اليابانية الثانية. كانت الحرب نقطة تحول كبرى في تاريخ الصين الحديث، بسيطرة للحزب الشيوعي الصيني على ما يقرب من كامل بر الصين الرئيسي، وإقامة جمهورية الصين الشعبية ليحل محل جمهورية الصين. كما تسبب بمواجهة سياسية وعسكرية دائم بين الجانبين على مضيق تايوان، إذ أن كلا من جمهورية الصين في تايوان وجمهورية الصين الشعبية في القارة تطالب رسميا بالاعتراف بها كحكومة شرعية على كل الصين.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%AD%D8%B1%D8%A8_%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A%D8%A9_%D8%A7%D9%84%D8%B5%D9%8A%D9%86%D9%8A%D8%A9"
+      },
+      "fr": {
+        "title": "Guerre civile chinoise",
+        "extract": "La guerre civile chinoise est un conflit qui opposa le gouvernement de la république de Chine, dirigé par le Kuomintang, aux forces du Parti communiste chinois (PCC). Le conflit armé se poursuivit par intermittence du 1er août 1927 jusqu'à la victoire des communistes, qui leur assura le contrôle total de la Chine continentale le 7 décembre 1949. Si le conflit est de facto terminé depuis 1949, il est de jure toujours en cours en raison de l'absence de ratification d'un traité de paix entre les deux parties.",
+        "url": "https://fr.wikipedia.org/wiki/Guerre_civile_chinoise"
+      },
+      "pt": {
+        "title": "Guerra Civil Chinesa",
+        "extract": "A Guerra Civil Chinesa foi uma série de conflitos entre forças chinesas nacionalistas lideradas pelo Partido Nacionalista da China (KMT) contra as comunistas lideradas pelo Partido Comunista da China (PCCh), que se arrastaram por toda década de 1930 e 1940.",
+        "url": "https://pt.wikipedia.org/wiki/Guerra_Civil_Chinesa"
+      }
+    }
+  },
+  "Marco Polo Bridge incident": {
+    "pages": {
+      "ko": {
+        "title": "루거우차오 사건",
+        "extract": "루거우차오 사건(노구교 사건, 문화어: 로구교 사건) 혹은 7·7 사변(七七事变)은 1937년 7월 7일에 베이징 서남쪽 방향 루거우차오(루거우 다리, 중국어 간체자: 卢沟桥, 정체자: 盧溝橋, 병음: Lúgōuqiáo)에서 일본군의 자작극으로 벌어진 발포 사건으로, 중일 전쟁의 발단이 되었다. 이 사건을 계기로 일본 제국과 중화민국은 전쟁 상태로 돌입, 그 후 전선을 확대하게 되었다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%A3%A8%EA%B1%B0%EC%9A%B0%EC%B0%A8%EC%98%A4_%EC%82%AC%EA%B1%B4"
+      },
+      "en": {
+        "title": "Marco Polo Bridge incident",
+        "extract": "The Marco Polo Bridge incident, also known as the Lugou Bridge incident or the July 7 incident, was a three-day battle that began on 7 July 1937 in the district of Beijing between the 29th Army of the National Revolutionary Army of the Republic of China and the Imperial Japanese Army.",
+        "url": "https://en.wikipedia.org/wiki/Marco_Polo_Bridge_incident"
+      },
+      "zh": {
+        "title": "七七事变",
+        "extract": "七七事变，又称卢沟桥抗战、卢沟桥事变、马可波罗桥事变，日方当时称北支事变。事变发生于1937年7月7日晚至8日凌晨，地点在北平西南的卢沟桥、宛平城（河北省宛平县）一带，交战双方为日本中国驻屯军与中国国民革命军第二十九军。该事件被认为是日本帝国主义发动全面侵华战争、中国全民族抗战的起点。",
+        "url": "https://zh.wikipedia.org/wiki/%E4%B8%83%E4%B8%83%E4%BA%8B%E5%8F%98"
+      },
+      "es": {
+        "title": "Incidente del Puente de Marco Polo",
+        "extract": "El incidente del Puente de Marco Polo, ocurrido el 7 de julio de 1937, marcó el inicio de la segunda guerra sino-japonesa entre el Imperio del Japón y la República de China. Los soldados de ambas potencias se enfrentaron 15 kilómetros al suroeste del centro de Pekín, en el Puente de Marco Polo, sobre el río Yongding. En Japón se conoce al incidente como Asunto del Puente Roko o Incidente del Puente Roko. En China se lo conoce, en cambio, como Incidente del 7 de julio e incidente Lugouqiao.",
+        "url": "https://es.wikipedia.org/wiki/Incidente_del_Puente_de_Marco_Polo"
+      },
+      "hi": {
+        "title": "मार्को पोलो पुल हादसा",
+        "extract": "मार्को पोलो पुल हादसा, जिसे लुगौ पुल हादसा या डबल-सेवन घटना से भी जाना जाता है, चीन की राष्ट्रीय क्रांतिकारी सेना और इंपीरियल जापानी सेना के बीच जुलाई १९३७ में हुआ था।",
+        "url": "https://hi.wikipedia.org/wiki/%E0%A4%AE%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%95%E0%A5%8B_%E0%A4%AA%E0%A5%8B%E0%A4%B2%E0%A5%8B_%E0%A4%AA%E0%A5%81%E0%A4%B2_%E0%A4%B9%E0%A4%BE%E0%A4%A6%E0%A4%B8%E0%A4%BE"
+      },
+      "ar": {
+        "title": "حادثة جسر ماركو بولو",
+        "extract": "كانت حادثة جسر ماركو بولو ، والمعروف أيضاً باسم حادثة جسر لوغو أو حادثة السبعة المزدوجة، معركة جرت في يوليو 1937 بين الجيش الوطني الثوري الصيني والجيش الإمبراطوري الياباني. وتُعتبر بشكل واسع أنها شكلت بداية الحرب الصينية اليابانية الثانية، وبناء على ذلك، يعتبر تاريخ حدوثها أحياناً تاريخاً بديلاً لقيام الحرب العالمية الثانية.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%AD%D8%A7%D8%AF%D8%AB%D8%A9_%D8%AC%D8%B3%D8%B1_%D9%85%D8%A7%D8%B1%D9%83%D9%88_%D8%A8%D9%88%D9%84%D9%88"
+      },
+      "fr": {
+        "title": "Incident du pont Marco-Polo",
+        "extract": "L'incident du pont Marco-Polo, aussi connu sous le nom d'incident du double sept, incident du pont de Lugou ou incident de Lou-Kou-Chiao, est un incident survenu entre l'Armée nationale révolutionnaire de la république de Chine et l'Armée impériale japonaise le 7 juillet 1937. Les Japonais s'en servent de prétexte pour engager les hostilités, prélude à la seconde guerre sino-japonaise.",
+        "url": "https://fr.wikipedia.org/wiki/Incident_du_pont_Marco-Polo"
+      },
+      "pt": {
+        "title": "Incidente da Ponte Marco Polo",
+        "extract": "O Incidente da Ponte Marco Polo foi uma batalha ocorrida entre o Exército Nacional Revolucionário Chinês e o Exército Imperial Japonês em julho de 1937, e que marca, oficialmente, o início da Segunda Guerra Sino-Japonesa entre a República da China e o Império do Japão.",
+        "url": "https://pt.wikipedia.org/wiki/Incidente_da_Ponte_Marco_Polo"
+      }
+    }
+  },
+  "Battle of Shanghai": {
+    "pages": {
+      "ko": {
+        "title": "상하이 전투",
+        "extract": "상하이 전투(송호회전, 淞滬會戰) 또는  제2차 상하이 사변은 중일 전쟁 발발했을 당시 1937년 8월, 일본 제국이 상하이에 상륙하여 전투했던 전쟁을 말한다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%83%81%ED%95%98%EC%9D%B4_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Shanghai",
+        "extract": "The Battle of Shanghai was a major battle fought between the Empire of Japan and the Republic of China in the Chinese city of Shanghai during the Second Sino-Japanese War. It lasted from August 13 to November 26, 1937, and was arguably the single largest and longest battle of the entire war, with it even regarded by some historians as the first battle of World War II. It resulted in the Japanese capture of Shanghai and heavy destruction to the city.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Shanghai"
+      },
+      "zh": {
+        "title": "淞沪会战",
+        "extract": "淞沪会战（又称八一三战役、八一三之役或上海战役；日本称为第二次上海事变）爆发于1937年8月13日，是中华民国和大日本帝国在中国抗日战争中第一场大型会战。“淞”是指吴淞江，“沪”是上海的简称。",
+        "url": "https://zh.wikipedia.org/wiki/%E6%B7%9E%E6%B2%AA%E4%BC%9A%E6%88%98"
+      },
+      "es": {
+        "title": "Batalla de Shanghái",
+        "extract": "La batalla de Shanghái fue una importante batalla librada entre el Imperio del Japón y la República de China en la ciudad china de Shanghái durante la segunda guerra sino-japonesa. Duró del 13 de agosto de 1937 al 26 de noviembre de 1937, y podría decirse que fue la batalla más grande y más larga de toda la guerra, incluso algunos historiadores la consideran la primera batalla de la Segunda Guerra Mundial. Resultó en la captura japonesa de la ciudad y una gran destrucción de la ciudad.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Shangh%C3%A1i"
+      },
+      "ar": {
+        "title": "معركة شانغهاي",
+        "extract": "معركة شانغهاي  المعروفة بالصينية بـ معركة سونغهو، وهي أولى المعارك الـ 22 الرئيسية بين الجيش الوطني الثوري الصيني والجيش الإمبراطوري الياباني خلال الحرب اليابانية الصينية الثانية، وأحد أكبر المعارك وأكثرها دموية في الحرب كلها.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%B4%D8%A7%D9%86%D8%BA%D9%87%D8%A7%D9%8A"
+      },
+      "fr": {
+        "title": "Bataille de Shanghai (1937)",
+        "extract": "La bataille de Shanghai opposa d'août à novembre 1937 l'Armée impériale japonaise à l'Armée nationale révolutionnaire chinoise pendant la guerre sino-japonaise.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Shanghai_(1937)"
+      },
+      "pt": {
+        "title": "Batalha de Xangai",
+        "extract": "A Batalha de Xanghai ou Segundo Incidente em Xangai foi uma grande batalha urbana travada entre o Império do Japão e a República da China, de agosto a novembro de 1937, na cidade chinesa de Xangai durante a Segunda Guerra Sino-Japonesa. Foi a segunda batalha pela cidade e o primeiro dos vinte e dois confrontos principais travados entre o Exército Nacional Revolucionário Chinês e o Exército Imperial Japonês de 1937 a 1945.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Xangai"
+      }
+    }
+  },
+  "Battle of Taiyuan": {
+    "pages": {
+      "en": {
+        "title": "Battle of Taiyuan",
+        "extract": "The Battle of Taiyuan was a major battle fought in 1937 between China and Japan named for Taiyuan, which lay in the 2nd Military Region. The battle concluded in a victory for Japan over the National Revolutionary Army (NRA), including part of Suiyuan, most of Shanxi and the NRA arsenal at Taiyuan, and effectively ended large-scale organized resistance in the North China area.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Taiyuan"
+      },
+      "zh": {
+        "title": "太原會戰",
+        "extract": "太原会战是1937年9月13日至11月8日抗日战争时期，中国第二战区与日本军队在山西太原附近地区进行的一场大规模战役。包括天镇战斗、平型关战役、忻口战役、娘子关战役、太原保卫战，以及广灵、灵邱、崞县、原平等战斗。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%A4%AA%E5%8E%9F%E6%9C%83%E6%88%B0"
+      },
+      "es": {
+        "title": "Batalla de Taiyuan",
+        "extract": "La ofensiva japonesa llamada o batalla de Taiyuan fue una gran batalla entre China y Japón llamada Taiyuan, que se encontraba en la 2.ª Región Militar. Esta batalla concluyó con una derrota para el ENR, incluida parte de Suiyuan, la mayor parte de Shanxi y su arsenal más moderno en Taiyuan, y terminó efectivamente con la resistencia regular a gran escala en el área del norte de China.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Taiyuan"
+      },
+      "fr": {
+        "title": "Bataille de Taiyuan",
+        "extract": "La bataille de Taiyuan opposa en 1937 l'Armée impériale japonaise et l'Armée nationale révolutionnaire chinoise pendant la guerre sino-japonaise.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Taiyuan"
+      }
+    }
+  },
+  "Battle of Xinkou": {
+    "pages": {
+      "en": {
+        "title": "Battle of Xinkou",
+        "extract": "The Battle of Xinkou was a decisive engagement of the Taiyuan Campaign, the second of the 22 major engagements between the National Revolutionary Army and Imperial Japanese Army during the Second Sino-Japanese War.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Xinkou"
+      },
+      "zh": {
+        "title": "忻口會戰",
+        "extract": "忻口战役发生于1937年10月11日至11月2日，属太原会战的一部分，是抗日战争主要战斗之一。该战斗攻击部队为日本板垣征四郎率领的日军第5师团和察哈尔派遣兵团等；守军为卫立煌率领的国民革命军十个师以上兵力，人数达十万左右。交战地点是在中国山西北部雁门关内的军事重镇，太原的北部屏障。起始时间为10月2日，总攻击则发动于10月11日。中方守军于11月2日退守太原。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%BF%BB%E5%8F%A3%E6%9C%83%E6%88%B0"
+      },
+      "es": {
+        "title": "Batalla de Xinkou",
+        "extract": "La batalla de Xinkou fue un enfrentamiento decisivo de la campaña de Taiyuan, el segundo de los 22 enfrentamientos principales entre el Ejército Nacional Revolucionario y el Ejército Imperial Japonés durante la segunda guerra sino-japonesa.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Xinkou"
+      },
+      "fr": {
+        "title": "Bataille de Xinkou",
+        "extract": "La bataille de Xinkou opposa l'Armée nationale révolutionnaire de la République de Chine à l'Armée impériale japonaise. pendant la guerre sino-japonaise.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Xinkou"
+      }
+    }
+  },
+  "Battle of Pingxingguan": {
+    "pages": {
+      "en": {
+        "title": "Battle of Pingxingguan",
+        "extract": "The Battle of Pingxingguan was the initial significant confrontation in northwestern Shanxi after the commencement of the full-scale Second Sino-Japanese War at the Pingxing Pass. The conflict commenced in late September and endured for almost ten days. Initially, Chinese soldiers effectively ambushed and repelled Japanese troops in the Pingxingguan region. Subsequently, the Japanese force breached Ruyuekou and seized the county seat of Fanshi. This battle also saw cooperation between Nationalist and Communist troops. The Pingxingguan Ambush, commonly called the Great Victory of Pingxingguan, was a part of this battle fought on 25 September 1937, at the beginning of the Second Sino-Japanese War, between the Eighth Route Army of the Chinese Communist Party and the Imperial Japanese Army.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Pingxingguan"
+      },
+      "zh": {
+        "title": "平型关战役",
+        "extract": "平型关战役，是国民政府于1937年9月11日大同战斗失利后，于雁门关至平型关一线依托山脉与旧长城组织的一次对日抗战战役，失守后导致太原会战（1937年9月11日至11月8日）爆发并再次失利。平型关战役由国民政府第二战区司令官阎锡山所领导，历时9天（9月22日-30日），战场范围达数百里，中国方面投入兵力11个军共计十余万，对付日军方面2个兵团约2万，历经大小战斗数十次，属中等规模战役。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%B9%B3%E5%9E%8B%E5%85%B3%E6%88%98%E5%BD%B9"
+      },
+      "es": {
+        "title": "Batalla de Pingxingguan",
+        "extract": "La batalla de Pingxingguan, comúnmente llamada Gran Victoria de Pingxingguan en la China continental, fue un enfrentamiento librado el 25 de septiembre de 1937, al comienzo de la segunda guerra sino-japonesa, entre el 8.º Ejército de Ruta del Partido Comunista de China y el Ejército Imperial Japonés.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Pingxingguan"
+      },
+      "fr": {
+        "title": "Bataille de Pingxingguan",
+        "extract": "La bataille de Pingxingguan plus communément appelée la grande victoire de Pingxingguan fut un affrontement entre la Huitième armée de route du parti communiste chinois et l'Armée impériale japonaise, le 25 septembre 1937.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Pingxingguan"
+      }
+    }
+  },
+  "Defense of Sihang Warehouse": {
+    "pages": {
+      "en": {
+        "title": "Defense of Sihang Warehouse",
+        "extract": "The Defense of Sihang Warehouse took place from October 27 to October 31, 1937, and marked the beginning of the end of the three-month Battle of Shanghai in the opening phase of the Second Sino-Japanese War. Defenders of the warehouse held out against numerous waves of Japanese forces to cover Chinese forces retreating west during the Battle of Shanghai.",
+        "url": "https://en.wikipedia.org/wiki/Defense_of_Sihang_Warehouse"
+      },
+      "zh": {
+        "title": "四行仓库保卫战",
+        "extract": "四行仓库保卫战是中国抗日战争淞沪会战中的一场战斗，发生于1937年10月27日至11月1日，标志著淞沪会战的尾声。参加这场保卫战的国民革命军第88师262旅524团第1营将士，被称为“八百壮士”（又称四行孤军），实际四百馀人，他们任命驻守在紧邻公共租界的四行仓库，阻挡日本军的进攻，以掩护国军第八十八师及其他国军向西撤退。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%9B%9B%E8%A1%8C%E4%BB%93%E5%BA%93%E4%BF%9D%E5%8D%AB%E6%88%98"
+      },
+      "es": {
+        "title": "Defensa de los almacenes Sihang",
+        "extract": "La Defensa de los Almacenes Sihang tuvo lugar en el distrito de Zhabei, en Shanghái, del 26 de octubre al 1 de noviembre de 1937, como etapa final de la batalla de Shanghái en la fase inicial de la segunda guerra sino-japonesa.",
+        "url": "https://es.wikipedia.org/wiki/Defensa_de_los_almacenes_Sihang"
+      },
+      "fr": {
+        "title": "Défense de l'entrepôt Sihang",
+        "extract": "La Défense de l'entrepôt Sihang ou défense des entrepôts Sihang a lieu du 26 octobre au 1er novembre 1937. Elle marque la période finale de la bataille de Shanghai qui dure depuis trois mois, au début de la seconde guerre sino-japonaise.",
+        "url": "https://fr.wikipedia.org/wiki/D%C3%A9fense_de_l'entrep%C3%B4t_Sihang"
+      }
+    }
+  },
+  "Battle of Nanking": {
+    "pages": {
+      "ko": {
+        "title": "난징 전투",
+        "extract": "난징 전투(영어: Battle of Nanking, 중국어: 南京保卫战, 일본어: 南京戦, ナンキンせん 난킨센[*], 1937년 12월 1일~ 1937년 12월 13일)는 1937년 7월 7일부터 1945년 9월 2일까지 벌어진 중일전쟁의 초기에 발발했던 전투로 중국 국민혁명군과 일본 제국 육군 간 전투이다. 당시 중화민국의 수도였던 난징의 통치를 놓고 일어난 전투로 12월 13일 중화민국 난징을 점령한 일본 제국은 6주간에 걸쳐 난징대학살을 자행하게 된다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%82%9C%EC%A7%95_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Nanking",
+        "extract": "The Battle of Nanking was fought in early December 1937 during the Second Sino-Japanese War between the Chinese National Revolutionary Army and the Imperial Japanese Army for control of Nanjing, the capital of the Republic of China.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Nanking"
+      },
+      "zh": {
+        "title": "南京保卫战",
+        "extract": "南京保卫战或南京战役、南京之役，是1937年继淞沪会战之后，大日本帝国中支那方面军向中华民国首都南京推进的战役。日本称为南京攻略战。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%8D%97%E4%BA%AC%E4%BF%9D%E5%8D%AB%E6%88%98"
+      },
+      "es": {
+        "title": "Batalla de Nankín",
+        "extract": "La batalla de Nankín inició con la caída de Shanghái el 9 de octubre de 1937 y terminó con la caída de la entonces capital china, Nankín, en diciembre del mismo año. Después de esta derrota, el gobierno de la República de China tuvo que huir a la remota Chongqing hasta el final de la guerra, en 1945. Las victoriosas tropas del Ejército Imperial Japonés se entregaron entonces a una orgía de violaciones y asesinatos conocida como la Masacre de Nankín.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Nank%C3%ADn"
+      },
+      "ar": {
+        "title": "معركة نانجنغ",
+        "extract": "معركة نانجنغ هي معركة اندلعت في أوائل ديسمبر من عام 1937 خلال الحرب اليابانية الصينية الثانية بين الجيش الوطني الثوري الصيني وجيش اليابان الإمبراطوري من أجل السيطرة على مدينة نانجنغ، عاصمة جمهورية الصين (1912–1949).",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D9%86%D8%A7%D9%86%D8%AC%D9%86%D8%BA"
+      },
+      "fr": {
+        "title": "Bataille de Nankin",
+        "extract": "La bataille de Nankin oppose en 1937 l'Armée impériale japonaise à l'Armée nationale révolutionnaire chinoise, durant la guerre sino-japonaise, et voit une victoire écrasante des troupes japonaises. Elle a pour conséquence immédiate le massacre de Nankin.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Nankin"
+      },
+      "pt": {
+        "title": "Batalha de Nanquim",
+        "extract": "A Batalha de Nanquim foi travada no início de dezembro de 1937 durante a Segunda Guerra Sino-Japonesa entre o Exército Nacional Revolucionário chinês e o Exército Imperial Japonês pelo controle de Nanquim, a capital da República da China.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Nanquim"
+      }
+    }
+  },
+  "Amoy Operation": {
+    "pages": {
+      "en": {
+        "title": "Amoy Operation",
+        "extract": "The Amoy Operation, also known as the Battle of Xiamen was part of a campaign by Japan during the Second Sino-Japanese War to blockade China to prevent it from communicating with the outside world and importing needed arms and materials. Control of Amoy Island would provide a base to make the blockade of Fujian province more effective.",
+        "url": "https://en.wikipedia.org/wiki/Amoy_Operation"
+      },
+      "zh": {
+        "title": "廈門戰鬥 (抗日戰爭)",
+        "extract": "厦门战役发生于1937年9月以及1938年5月10日－16日，地点则是在中国闽南一带。是抗日战争重要战役之一，交战一方为守军之国民革命军，另一方则为日军。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%BB%88%E9%96%80%E6%88%B0%E9%AC%A5_(%E6%8A%97%E6%97%A5%E6%88%B0%E7%88%AD)"
+      },
+      "es": {
+        "title": "Operación Amoy",
+        "extract": "La Operación Amoy fue parte de la campaña de Japón durante la segunda guerra sino-japonesa para bloquear a China y evitar que se comunicara con el mundo exterior e importara las armas y los materiales necesarios. El control de la isla de Xiamen proporcionaría una base para hacer más efectivo el bloqueo de la provincia de Fujian.",
+        "url": "https://es.wikipedia.org/wiki/Operaci%C3%B3n_Amoy"
+      },
+      "fr": {
+        "title": "Opération Amoy",
+        "extract": "L'opération Amoy (廈門戰鬥) se déroule en mai 1938 durant la seconde guerre sino-japonaise. La marine impériale japonaise tente de faire un blocus de la Chine pour l'empêcher de communiquer avec l'extérieur et d'importer des armes et du matériel militaire. Le contrôle de l'île d'Amoy permet un blocus plus efficace de la province du Fujian.",
+        "url": "https://fr.wikipedia.org/wiki/Op%C3%A9ration_Amoy"
+      }
+    }
+  },
+  "Bombing of Chongqing": {
+    "pages": {
+      "ko": {
+        "title": "충칭 대공습",
+        "extract": "충칭 대공습(한국 한자: 重慶大空襲, 중국어 간체자: 重庆大轰炸, 정체자: 重慶大轟炸, 일본어: 重慶爆撃)은 중일 전쟁 당시 일본군이 1938년 2월 18일부터 1943년 8월 23일까지 5년여간 중국 충칭에 실시한 폭격작전이다. 일본군은 충칭을 218차례 공습하였고, 최대 9513대의 비행기가 동원되었으며 21593여발의 폭탄이 투하되었다. 이 대공습으로 사망한 사람은 11889명이며 1만여 가옥과 시가지 대다수가 파괴되었다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%B6%A9%EC%B9%AD_%EB%8C%80%EA%B3%B5%EC%8A%B5"
+      },
+      "en": {
+        "title": "Bombing of Chongqing",
+        "extract": "The bombing of Chongqing, from 18 February 1938 to 19 December 1944, was a series of massive terror bombing operations authorized by the Empire of Japan's Imperial General Headquarters and conducted by the Imperial Japanese Army Air Service (IJAAF) and Imperial Japanese Navy Air Service (IJNAF). Resistance was put up by the Chinese Air Force and the National Revolutionary Army's anti-aircraft artillery units in defense of the provisional wartime capital of Chongqing and other targets in Sichuan.",
+        "url": "https://en.wikipedia.org/wiki/Bombing_of_Chongqing"
+      },
+      "zh": {
+        "title": "重庆大轰炸",
+        "extract": "重庆大轰炸 是指中国抗日战争期间大日本帝国对中华民国国民政府陪都重庆（同时也是大韩民国临时政府驻地）及邻近重庆市的周边地区进行了长达6年半的战略轰炸和地毯式轰炸。",
+        "url": "https://zh.wikipedia.org/wiki/%E9%87%8D%E5%BA%86%E5%A4%A7%E8%BD%B0%E7%82%B8"
+      },
+      "es": {
+        "title": "Bombardeo de Chongqing",
+        "extract": "El bombardeo de Chongqing fueron una serie de ataques aéreos llevados a cabo por el Ejército Imperial Japonés desde el 18 de febrero de 1938 hasta el 23 de agosto de 1943, en el marco de la segunda guerra sino-japonesa y de la Segunda Guerra Mundial.\nLos bombardeos se situaron mayoritariamente en Chongqing, capital en ese momento de la República de China; según estimaciones modernas, se llegaron a lanzar más de 11 500 bombas, en su mayor parte bombas incendiarias; los objetivos principales fueron edificios civiles, como áreas comerciales, zonas residenciales, hospitales, escuelas, etc; en cambio, apenas fueron bombardeados objetivos militares, pues los bombardeos iban dirigidos como forma de intimidar al gobierno chino.",
+        "url": "https://es.wikipedia.org/wiki/Bombardeo_de_Chongqing"
+      },
+      "fr": {
+        "title": "Bombardement de Chongqing",
+        "extract": "Le nom de bombardement de Chongqing désigne une campagne de bombardements stratégiques menée par le Service aérien de l'Armée impériale japonaise, durant la seconde guerre sino-japonaise. Les bombardements durèrent du 18 février 1938 au 23 août 1943, période durant laquelle plus de 3 000 tonnes de bombes auraient été lâchées sur la ville.",
+        "url": "https://fr.wikipedia.org/wiki/Bombardement_de_Chongqing"
+      },
+      "pt": {
+        "title": "Bombardeio de Chongqing",
+        "extract": "O bombardeio de Chongqing, de 18 de fevereiro de 1938 a 19 de dezembro de 1944, foi uma série de operações maciças de bombardeio de terror autorizadas pelo Quartel-General Imperial do Império do Japão e conduzidas pelo Serviço Aéreo do Exército Imperial Japonês (IJAAF) e pelo Serviço Aéreo da Marinha Imperial Japonesa (IJNAF). A resistência foi feita pela Força Aérea da República da China e pelas unidades de artilharia antiaérea do Exército Nacional Revolucionário na defesa da capital provisória de guerra de Chongqing e outros alvos em Sichuan.",
+        "url": "https://pt.wikipedia.org/wiki/Bombardeio_de_Chongqing"
+      }
+    }
+  },
+  "Battle of Taierzhuang": {
+    "pages": {
+      "ko": {
+        "title": "타이얼좡 전투",
+        "extract": "타이얼좡 전투(台儿庄会战)는 중일 전쟁 초기 1938년 3월 24일부터 1938년 4월 7일까지 타이얼좡 구 지역에서 벌어진 중화민국과 일본 제국간의 전투였다. 중화민국군이 대승을 거뒀으며, 이 전투는 중일 전쟁 개전 이래 중화민국이 처음으로 승리한 전투였다. 타이얼좡은 대운하 동쪽에 위치한 소도시로, 쉬저우에서 동북쪽에 위치한 전방요새였다. 또한 진푸 철도와 룽하이 철로가 쉬저우에 위치하고 있었기 때문에 일본군은 이 지역을 병참기지로 활용할 예정이었지만 타이얼좡 전투에서의 패배로 계획에 차질이 빚어졌다.",
+        "url": "https://ko.wikipedia.org/wiki/%ED%83%80%EC%9D%B4%EC%96%BC%EC%A2%A1_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Taierzhuang",
+        "extract": "The Battle of Taierzhuang took place during the Second Sino-Japanese War in 1938. It was fought between the armies of the Republic of China and the Empire of Japan at the peak of the Xuzhou Campaign. The battle was the war's first major Chinese victory. The battle was a setback for the Japanese military and its reputation as an invincible force. For Chinese forces, it was a tremendous morale boost.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Taierzhuang"
+      },
+      "zh": {
+        "title": "台兒莊戰役",
+        "extract": "台儿庄战役为1938年3月至4月中旬中华民国国民革命军（以下简称国军）在山东南部的台儿庄与意图由山东分两路进攻徐州的日本陆军进行的战役，这场战役是中国抗日战争中徐州会战的一部分。国军在以徐州为中心地区与日军激战，史称徐州会战。日军第5师团主攻临沂，第10师团主攻滕县、临城、台儿庄，均遭国军击退。因为是对日抗战爆发后国军首次取得的胜利，又称为台儿庄大捷。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%8F%B0%E5%85%92%E8%8E%8A%E6%88%B0%E5%BD%B9"
+      },
+      "es": {
+        "title": "Batalla de Tai'erzhuang",
+        "extract": "La batalla de Tai'erzhuang fue una batalla de la segunda guerra sino-japonesa en 1938, entre los ejércitos de la República de China y el Imperio del Japón. La batalla fue la primera gran victoria china de la guerra. Humilló al ejército japonés y su reputación como una fuerza invencible, mientras que para los chinos representó un tremendo impulso moral.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Tai'erzhuang"
+      },
+      "ar": {
+        "title": "معركة تايرزوانغ",
+        "extract": "معركة تايرزوانغ هي إحدي معارك الحرب الصينية اليابانية الثانية في عام 1938 ، والتي دارت بين جيوش جمهورية الصين وإمبراطورية اليابان. كانت المعركة أول انتصار صيني كبير لتلك الحرب. لقد أذل الجيش الياباني وسمعته كقوة لا تقهر. بالنسبة للصينيين، فقد مثلت دفعة معنوية هائلة.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%AA%D8%A7%D9%8A%D8%B1%D8%B2%D9%88%D8%A7%D9%86%D8%BA"
+      },
+      "fr": {
+        "title": "Bataille de Taierzhuang",
+        "extract": "La bataille de Taierzhuang est une bataille majeure de la seconde guerre sino-japonaise ayant eu lieu du 24 mars au 7 avril 1938. Dans le cadre de la campagne de Xuzhou, l'armée nationale révolutionnaire chinoise du Kuomintang affronte l'armée impériale japonaise dans les régions de Shandong et de Pizhou.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Taierzhuang"
+      }
+    }
+  },
+  "Battle of Xuzhou": {
+    "pages": {
+      "en": {
+        "title": "Battle of Xuzhou",
+        "extract": "The Battle of Xuzhou was a military campaign between the Empire of Japan and the Republic of China forces in early 1938 during the Second Sino-Japanese War. It lasted for more than three months, with both sides taking heavy casualties and claiming victories. It resulted in an eventual victory for the Japanese, but they failed to destroy the Chinese army, who managed to retreat and regroup to fight later at Wuhan.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Xuzhou"
+      },
+      "zh": {
+        "title": "徐州会战",
+        "extract": "徐州会战指1938年1月至6月间，中国军队在以徐州为中心的江苏、山东、安徽、河南等省防御侵华日军攻势的作战。是中国抗日战争中一次重要的会战。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%BE%90%E5%B7%9E%E4%BC%9A%E6%88%98"
+      },
+      "es": {
+        "title": "Batalla de Xuzhou",
+        "extract": "La batalla de Xuzhou fue un conflicto militar entre el Imperio del Japón y las fuerzas de la República de China en mayo de 1938 durante la segunda guerra sino-japonesa.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Xuzhou"
+      },
+      "ar": {
+        "title": "معركة شوتشو",
+        "extract": "معركة شوتشو كانت حملة عسكرية خيضت بين قوات الإمبراطورية اليابانية وقوات جمهورية الصين في أوائل عام 1938 خلال الحرب الصينية اليابانية الثانية. استمرت لأكثر من ثلاثة أشهر، تكبد خلالها كلا الجانبين خسائر فادحة، وادعى كل منهما الانتصار. لكن، انتهت المعركة بانتصار اليابانيين في نهاية المطاف، لكنهم فشلوا في تدمير الجيش الصيني، الذي تمكن من التراجع وإعادة تنظيم صفوفه للقتال لاحقًا في ووهان.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%B4%D9%88%D8%AA%D8%B4%D9%88"
+      },
+      "fr": {
+        "title": "Bataille de Xuzhou",
+        "extract": "La bataille de Xuzhou opposa l'armée nationale révolutionnaire chinoise à l'armée impériale japonaise pendant la guerre sino-japonaise. Elle vit la victoire des troupes japonaises.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Xuzhou"
+      },
+      "pt": {
+        "title": "Batalha de Xuzhou",
+        "extract": "A Batalha de Xuzhou foi uma campanha militar entre o Império do Japão e as forças da República da China no início de 1938 durante a Segunda Guerra Sino-Japonesa. Durou mais de três meses, com ambos os lados sofrendo pesadas baixas e reivindicando vitórias. Resultou numa eventual vitória para os japoneses, mas eles falharam em destruir o exército chinês, que conseguiu retirar-se e reagrupar-se para lutar mais tarde em Wuhan.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Xuzhou"
+      }
+    }
+  },
+  "Battle of Wuhan": {
+    "pages": {
+      "en": {
+        "title": "Battle of Wuhan",
+        "extract": "The Battle of Wuhan, popularly known to the Chinese as the Defense of Wuhan, and to the Japanese as the Capture of Wuhan, was the largest, longest, and bloodiest battle of the Second Sino-Japanese War.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Wuhan"
+      },
+      "zh": {
+        "title": "武汉会战",
+        "extract": "武汉会战（1938年6月11日－1938年10月25日）是中国抗日战争初期的最后一场会战，横跨安徽省、江西省、河南省、浙江省及湖北省等广阔地域大规模战役，国民政府军事委员会委员长蒋中正领导中国第5、第9战区部队，以湖北武汉地区为中心，抗击由日本陆军大将畑俊六指挥的华中方面军，大约在1938年秋开始逐渐占领了除了租界以外的武汉全境，日军惨胜标志著初期抗战的结束，中日迈入抗战中期的胶著阶段。",
+        "url": "https://zh.wikipedia.org/wiki/%E6%AD%A6%E6%B1%89%E4%BC%9A%E6%88%98"
+      },
+      "es": {
+        "title": "Batalla de Wuhan",
+        "extract": "La batalla de Wuhan, \"popularmente\" conocida como la Defensa de Wuhan, también llamada Invasión de Wuhan, fue una batalla de la segunda guerra sino-japonesa. Más de un millón de soldados del Ejército Nacional Revolucionario de China, comandados por Chiang Kai-shek, defendieron Wuhan del Ejército Imperial Japonés comandado por Yasuji Okamura. Los enfrentamientos tuvieron lugar en las orillas norte y sur del río Yangtze, abarcando grandes áreas de las provincias de Anhui, Henan, Jiangxi y Hubei. Duró cuatro meses y medio, y fue la mayor, más larga y una de las más significativas batallas de la Segunda Guerra Sino-japonesa.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Wuhan"
+      },
+      "fr": {
+        "title": "Bataille de Wuhan",
+        "extract": "La bataille de Wuhan opposa en 1938 l'Armée impériale japonaise à l'Armée nationale révolutionnaire chinoise — aidée par l'Armée de l'air soviétique, envoyée officieusement sous l'appellation de troupes « volontaires » — pendant la guerre sino-japonaise.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Wuhan"
+      },
+      "pt": {
+        "title": "Batalha de Wuhan",
+        "extract": "A Batalha de Wuhan, popularmente conhecida entre os chineses como a Defesa de Wuhan, e pelos japoneses como a Invasão de Wuhan, foi uma grande batalha na Segunda Guerra Sino-Japonesa. Foram reunidos mais de um milhão de soldados do Exército Nacional Revolucionário Chinês, com Chiang Kai-shek em pessoa no comando, para defender Wuhan do ataque do Exército Imperial Japonês liderado por Yasuji Okamura. Os combates se deram nas margens setentrional e meridional do rio Yangtzé, espalhando-se através de vastas áreas das províncias de Anhui, Henan, Jiangxi e Hubei. Durou quatro meses e meio, e foi a maior, mais longa e uma das mais significativas batalhas de toda a Segunda Guerra Sino-Japonesa.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Wuhan"
+      }
+    }
+  },
+  "Canton Operation": {
+    "pages": {
+      "en": {
+        "title": "Canton Operation",
+        "extract": "The Canton Operation was part of a campaign by Japan during the Second Sino-Japanese War to blockade China to prevent it from communicating with the outside world and importing needed arms and materials. Control of Guangzhou (Canton) and the Pearl River Delta would provide a base to make the blockade of Guangdong province more effective by seizing southern China's major port and isolate the British port of British Hong Kong.",
+        "url": "https://en.wikipedia.org/wiki/Canton_Operation"
+      },
+      "zh": {
+        "title": "廣州戰役 (1938年)",
+        "extract": "广州战役，也称“惠广战役”，是中国抗日战争中，中国第四战区部队在广东省大亚湾地区与日本第21军进行的防御战役。大日本帝国攻占中华民国广东省省会广州周边。1938年10月21日日军攻克广州，但一直没有攻击广州旁的英属香港和葡属澳门，直至1941年12月7日偷袭美国珍珠港6小时后才突击英属香港，引发香港保卫战。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%BB%A3%E5%B7%9E%E6%88%B0%E5%BD%B9_(1938%E5%B9%B4)"
+      },
+      "es": {
+        "title": "Operación Cantón",
+        "extract": "La Operación Cantón fue parte de una campaña del Imperio del Japón durante la segunda guerra sino-japonesa para bloquear a China y evitar que se comunicara con el mundo exterior e importara las armas y materiales necesarios. El control de Guangzhou (Cantón) y el delta del río Pearl proporcionaría una base para hacer que el bloqueo de la provincia de Guangdong sea más efectivo al apoderarse del principal puerto del sur de China y aislar el puerto del Hong Kong británico.",
+        "url": "https://es.wikipedia.org/wiki/Operaci%C3%B3n_Cant%C3%B3n"
+      },
+      "fr": {
+        "title": "Opération Canton",
+        "extract": "L'opération Canton (廣州戰役) se déroule d'octobre à décembre 1938 durant la seconde guerre sino-japonaise. L'armée impériale japonaise et la marine impériale japonaise tentent de faire un blocus de la Chine pour l'empêcher de communiquer avec l'extérieur et d'importer des armes et du matériel militaire. Le contrôle de la ville de Canton et de la rivière des Perles permet un blocus plus efficace de la province du Guangdong et également d'isoler la colonie britannique de Hong Kong.",
+        "url": "https://fr.wikipedia.org/wiki/Op%C3%A9ration_Canton"
+      }
+    }
+  },
+  "Battles of Khalkhin Gol": {
+    "pages": {
+      "ko": {
+        "title": "할힌골 전투",
+        "extract": "할힌골 전투(몽골어: Халхын голын байлдаан, 러시아어: бои на реке Халхин-Гол, 일본어: ノモンハン事件 노몬한 지켄[*], 영어: Battles of Khalkhin Gol)는 1939년 5월부터 8월까지 몽골 인민공화국과 만주국의 국경 지대인 할하강 유역에서 소련군·몽골군과 관동군·만주국군 간의 국경 분쟁으로부터 시작된 전투를 말한다.",
+        "url": "https://ko.wikipedia.org/wiki/%ED%95%A0%ED%9E%8C%EA%B3%A8_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battles of Khalkhin Gol",
+        "extract": "The Battles of Khalkhin Gol, known in Japan as the Nomonhan Incident  after Nomonhan Burd Obo, were the decisive engagements of the undeclared Soviet–Japanese border conflicts which involved the Soviet Union, Mongolia, Japan, and Manchukuo in 1939. The conflict is named after the river Khalkhin Gol, which passes through the battlefield. The Soviet offensive, led by general Georgy Zhukov, utilized airplanes, tanks, and infantry in a simultaneous three-pronged offensive, the first of its kind in modern warfare. Similar tactics were later used during Operation Uranus at the Battle of Stalingrad.",
+        "url": "https://en.wikipedia.org/wiki/Battles_of_Khalkhin_Gol"
+      },
+      "zh": {
+        "title": "諾門罕戰役",
+        "extract": "诺门罕战役 是1939年5月至8月以日本帝国和满洲国为一方，苏联和蒙古人民共和国为另一方而进行的大规模边界战争。这场战争从1939年5月11日直至1939年9月16日签署停战协议为止。苏联方面指挥这场战役的统帅是朱可夫、日方主要将领是植田谦吉、小松原道太郎等人。虽然这场战争规模很大，但苏、日双方并没有向对方正式宣战，战争的结果以日本关东军的失利和苏联的获胜为结局，但苏联并无意进一步扩大战事。为此苏联在1941年4月与日本缔结了《苏日中立条约》，双方相互承认满洲国和蒙古人民共和国领土完整和不受侵犯，此后两国在二战中一直维持和平状态，直至苏联在1945年8月8日对日本宣战并发动八月风暴行动为止。",
+        "url": "https://zh.wikipedia.org/wiki/%E8%AB%BE%E9%96%80%E7%BD%95%E6%88%B0%E5%BD%B9"
+      },
+      "es": {
+        "title": "Batalla de Jaljin Gol",
+        "extract": "La batalla de Jaljin Gol, más conocida en Japón como el incidente de Nomonhan , fue el enfrentamiento decisivo durante la guerra fronteriza no declarada entre el Imperio de Japón y la Unión Soviética a mediados de 1939. No debe ser confundida con la guerra declarada de 1945, cuando la URSS atacó a Japón en cumplimiento de los pactos entre los Aliados, en la llamada Operación Tormenta de Agosto.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Jaljin_Gol"
+      },
+      "ar": {
+        "title": "معركة خالخين غول",
+        "extract": "معركة خالخين غول ، و(باليابانية:ノモンハン事件) هي اشتباك حاسم غير مُعلن ضمن النزاعات الحدودية السوفيتية اليابانية ودارت بين الاتحاد السوفيتي والجمهورية الشعبية المنغولية واليابان ومانشوكو في عام 1939. سُمي الصراع باسم نهر خالخين غول، الذي يمر عبر ساحة المعركة. في اليابان تُعرف تلك الحرب الحاسمة بواقعة نومونهان وهو اسم قرية نومونهان القريبة على الحدود بين الجمهورية الشعبية المنغولية ومانشوكو. ونتج عن المعركة هزيمة الجيش الياباني السادس.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%AE%D8%A7%D9%84%D8%AE%D9%8A%D9%86_%D8%BA%D9%88%D9%84"
+      },
+      "fr": {
+        "title": "Bataille de Khalkhin Gol",
+        "extract": "La bataille de Khalkhin Gol, quelquefois orthographiée Halhin Gol ou Khalkhyn Gol, aussi appelée incident de Nomonhan (ノモンハン事件, Nomonhan jiken) par les Japonais, est un incident de frontière en Mongolie qui dégénéra en deux batailles opposant l'Union soviétique à l'empire du Japon du 11 mai au 16 septembre 1939.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Khalkhin_Gol"
+      },
+      "pt": {
+        "title": "Batalhas de Khalkhin Gol",
+        "extract": "As Batalhas de Khalkhin Gol foram campanhas militares dos conflitos fronteiriços soviético-japoneses não declarados envolvendo a União Soviética, Mongólia, Japão e Manchukuo em 1939. Sua designação está associada ao rio Khalkhin Gol. As batalhas resultaram na derrota do Sexto Exército japonês, reconhecida por um cessar-fogo acordado por soviéticos e japoneses em 15 de setembro.",
+        "url": "https://pt.wikipedia.org/wiki/Batalhas_de_Khalkhin_Gol"
+      }
+    }
+  },
+  "Battle of Nanchang": {
+    "pages": {
+      "en": {
+        "title": "Battle of Nanchang",
+        "extract": "The Battle of Nanchang was a military campaign fought in 1939 around Nanchang, Jiangxi between the Chinese National Revolutionary Army and the Japanese Imperial Japanese Army in the Second Sino-Japanese War. It was the first major conflict after the 1938 Battle of Wuhan.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Nanchang"
+      },
+      "zh": {
+        "title": "南昌会战",
+        "extract": "南昌会战是中国抗战时期1939年春夏之际，中日双方以争夺江西省会南昌城为目标展开的会战。该会战是武汉会战后，中国军队抵御日本有限攻势的首次会战，也是中日正面战场进入相持阶段后中日军队的首次大战。中方参战部队为薛岳指挥的第九战区，日方参战部队为冈村宁次指挥的第11军。会战中，国军29军军长陈安宝阵亡。日方称南昌作战，代号“仁号作战”。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%8D%97%E6%98%8C%E4%BC%9A%E6%88%98"
+      },
+      "es": {
+        "title": "Batalla de Nanchang",
+        "extract": "La batalla de Nanchang fue una campaña militar librada alrededor de Nanchang, en Jiangxi, entre el Ejército Nacional Revolucionario de la República de China y el Ejército Imperial Japonés durante la segunda guerra sino-japonesa. Fue el primer gran enfrentamiento ocurrido después de la batalla de Wuhan.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Nanchang"
+      },
+      "fr": {
+        "title": "Bataille de Nanchang",
+        "extract": "La bataille de Nanchang est une campagne militaire dans la ville de Nanchang, dans le Jiangxi. Elle oppose l'Armée nationale révolutionnaire chinoise à l'Armée impériale japonaise durant la guerre sino-japonaise.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Nanchang"
+      }
+    }
+  },
+  "Battle of Suixian–Zaoyang": {
+    "pages": {
+      "en": {
+        "title": "Battle of Suixian–Zaoyang",
+        "extract": "The Battle of Suixian–Zaoyang, also known as the Battle of Suizao, was one of the 22 major engagements between the National Revolutionary Army (NRA) and Imperial Japanese Army (IJA) during the Second Sino-Japanese War. The Japanese launched a major two-pronged offensive that captured many cities and towns. However, their failure to defend against a series of coordinated Chinese counter-attacks forced them to completely withdraw, resulting in territorial control returning to the original status quo.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Suixian%E2%80%93Zaoyang"
+      },
+      "zh": {
+        "title": "随枣会战",
+        "extract": "随枣会战发生于1939年5月，日军为消灭中国第5战区的主力，向随县、枣阳地区发动进攻，中国军队与之展开为期20馀天的会战。",
+        "url": "https://zh.wikipedia.org/wiki/%E9%9A%8F%E6%9E%A3%E4%BC%9A%E6%88%98"
+      },
+      "fr": {
+        "title": "Bataille de Suixian-Zaoyang",
+        "extract": "La bataille de Suixian-Zaoyang, aussi connue sous le nom de bataille de Suizao fut l'un des 22 affrontements majeurs qui opposèrent l'Armée nationale révolutionnaire de la République de Chine à l'Armée impériale japonaise, durant la Seconde Guerre sino-japonaise.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Suixian-Zaoyang"
+      }
+    }
+  },
+  "Battle of Changsha (1939)": {
+    "pages": {
+      "ko": {
+        "title": "창사 전투 (1939년)",
+        "extract": "제1차 창사 전투 는 중일 전쟁 기간 동안 일본군이 후난의 창사 시를 점령하려던 네 번의 시도 중 첫 번째 시도였다. 중일 전 기간, 중국 제9전구 부대는 후난·후베이·장시 3성 접경 지역에서 일본군에 대한 방어 작전을 전개하였다. 이번 전투는 제2차 세계 대전 유럽 전선이 발발한 이후 일본군이 중국 전선에서 벌인 첫 대규모 정면 공세였다. 일본군은 국민정부를 군사적으로 타격하고 항복을 강요하기 위해 10만여 명의 병력을 집중시켜, 장시 북부·후베이 남부·후난 북부 세 방향에서 창사로 공세를 가했다. 제9전구 대사령장관이었던 설월(薛岳, 1939년 10월 1일 정식 사령관으로 임명)은 창사를 방어하기 위해 후난 북부를 방어의 중점으로 삼고, ‘후퇴 결전, 외익 확보’의 작전 방침을 채택하여 30여 개 사단과 3개 진격종대를 동원해 총 약 24만여 명이 이번 전투에 참가했다. 10월 9일에 이르러 중국군 제195사단은 루자오(鹿角)·신창(新牆)·양린제(楊林街) 선까지 진격을 회복했고, 일본군은 차례로 신창허(新牆河) 이북 지역으로 철수했다. 10월 14일에는 양측이 전투 전의 태세로 돌아갔다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%B0%BD%EC%82%AC_%EC%A0%84%ED%88%AC_(1939%EB%85%84)"
+      },
+      "en": {
+        "title": "Battle of Changsha (1939)",
+        "extract": "The First Battle of Changsha was the first of four attempts by Japan to take the city of Changsha, Hunan, during the second Sino-Japanese War. Coming two weeks after Germany's invasion of Poland on September 1, it was the first major battle of the war to fall within the time frame of what is widely considered World War II.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Changsha_(1939)"
+      },
+      "zh": {
+        "title": "第一次长沙战役",
+        "extract": "第一次长沙战役，指1939年（民国28年）9月至10月抗日战争期间，中国第九战区部队在以湖南、湖北、江西三省接壤地区对日本军队进行的防御战役。",
+        "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%95%BF%E6%B2%99%E6%88%98%E5%BD%B9"
+      },
+      "es": {
+        "title": "Batalla de Changsha (1939)",
+        "extract": "Este artículo trata sobre la primera ofensiva que el Imperio del Japón lanzó sobre Changsha y sus alrededores. Para el segundo intento, véase batalla de Changsha (1941). Para el tercer intento, consulte batalla de Changsha (1942). Para el cuarto intento, véase batalla de Changsha (1944).",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Changsha_(1939)"
+      },
+      "fr": {
+        "title": "Bataille de Changsha (1939)",
+        "extract": "La première bataille de Changsha (長沙會戰) a eu lieu du 17 septembre au 6 octobre 1939. Cette bataille représente une tentative japonaise de la prise de la ville de Changsha pendant la guerre sino-japonaise. Il s'agit du premier de quatre conflits majeurs ayant opposé l'Armée impériale japonaise à l'Armée nationale révolutionnaire chinoise pour la possession de cette ville. Les autres batailles ont eu lieu en 1941, 1942 et 1944.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Changsha_(1939)"
+      },
+      "pt": {
+        "title": "Batalha de Changsha (1939)",
+        "extract": "A Primeira Batalha de Changsha foi a primeira de quatro tentativas do Japão de tomar a cidade de Changsha, Hunão, durante a Segunda Guerra Sino-Japonesa. Foi a primeira grande batalha da guerra a ocorrer no período que é amplamente considerado a Segunda Guerra Mundial.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Changsha_(1939)"
+      }
+    }
+  },
+  "Battle of South Guangxi": {
+    "pages": {
+      "ko": {
+        "title": "남광시 전투",
+        "extract": "남광시 전투는 계남회전(桂南會戰)이라고도 하며 오늘날의 광시 좡족 자치구 남부에서 벌어진 전투이다. 1939년 11월, 일본군은 당시는 광시성이 아니었던 광시 해안지대(친롄)에 상륙하였고 당시의 광시-광둥 경계를 넘어 난닝시까지 함락시켰다. 이에 따라 중국군은 인도차이나, 버마 로드와 더 험프만으로밖에 보급을 받을 수 밖에 없게 되었다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%82%A8%EA%B4%91%EC%8B%9C_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of South Guangxi",
+        "extract": "The Battle of South Guangxi was one of the 22 major engagements between the National Revolutionary Army and Imperial Japanese Army during the Second Sino-Japanese War.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_South_Guangxi"
+      },
+      "zh": {
+        "title": "桂南会战",
+        "extract": "桂南会战，发生在1939年11月－1940年2月，中国军队在广西省南部地区防御侵华日军进攻的作战。",
+        "url": "https://zh.wikipedia.org/wiki/%E6%A1%82%E5%8D%97%E4%BC%9A%E6%88%98"
+      },
+      "es": {
+        "title": "Batalla del sur de Guangxi",
+        "extract": "La batalla del sur de Guangxi fue uno de los 22 enfrentamientos principales entre el Ejército Nacional Revolucionario y el Ejército Imperial Japonés durante la segunda guerra sino-japonesa.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_del_sur_de_Guangxi"
+      },
+      "fr": {
+        "title": "Bataille du sud du Guangxi",
+        "extract": "La bataille du sud du Guangxi opposa l'Armée nationale révolutionnaire chinoise et l'Armée impériale japonaise pendant la guerre sino-japonaise.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_du_sud_du_Guangxi"
+      }
+    }
+  },
+  "Battle of Wuyuan": {
+    "pages": {
+      "en": {
+        "title": "Battle of Wuyuan",
+        "extract": "The Battle of Wuyuan was a Chinese counterattack defeating a Japanese offensive in the Wuyuan area as part of the 1939-40 Winter Offensive in Suiyuan during the Second Sino-Japanese War. The Japanese call it the \"Second Battle of the Back Loop\" (第2次後套作戦).",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Wuyuan"
+      },
+      "zh": {
+        "title": "五原战役",
+        "extract": "五原战役，是1940年中国第八战区冬季攻势的最后一场战役，该战役由第八战区司令傅作义发动，意在收复在绥西战役当中被日军占领的陕坝、临河、五原新城以及五原旧城等城池。战役于2月5日打响，共历时近2个月，最终以中方军队胜利告终，日军被逐出绥远省西部地区。此后日军几乎没有派遣“伪军”对中方进行大规模的攻击。",
+        "url": "https://zh.wikipedia.org/wiki/%E4%BA%94%E5%8E%9F%E6%88%98%E5%BD%B9"
+      },
+      "es": {
+        "title": "Batalla de Wuyuan",
+        "extract": "La batalla de Wuyuan fue un contraataque chino que derrotó la invasión japonesa de la zona de Wuyuan. Esto sucedió como reacción a la ofensiva de invierno china de 1939-40 en Suiyuan durante la segunda guerra sino-japonesa. Los japoneses lo llaman 第２次後套作戦.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Wuyuan"
+      }
+    }
+  },
+  "Battle of Zaoyang–Yichang": {
+    "pages": {
+      "en": {
+        "title": "Battle of Zaoyang–Yichang",
+        "extract": "The Battle of Zaoyang–Yichang, also known as the Battle of Zaoyi, was one of the 22 major engagements between the National Revolutionary Army and Imperial Japanese Army during the Second Sino-Japanese War.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Zaoyang%E2%80%93Yichang"
+      },
+      "zh": {
+        "title": "枣宜会战",
+        "extract": "枣宜会战为1940年5月至6月，中国第5战区部队在湖北省枣阳、宜昌地区对日军华中派遣军第11军进行的防御战役，日军方面则称为宜昌作战，目标是消灭宜昌周围的第5战区兵力。",
+        "url": "https://zh.wikipedia.org/wiki/%E6%9E%A3%E5%AE%9C%E4%BC%9A%E6%88%98"
+      },
+      "es": {
+        "title": "Batalla de Zaoyang-Yichang",
+        "extract": "La batalla de Zaoyang-Yichang, también conocida como la batalla de Zaoyi, fue uno de los 22 enfrentamientos principales entre el Ejército Nacional Revolucionario y el Ejército Imperial Japonés durante la segunda guerra sino-japonesa.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Zaoyang-Yichang"
+      },
+      "fr": {
+        "title": "Bataille de Zaoyang-Yichang",
+        "extract": "La bataille de Zaoyang-Yichang fut une offensive menée en 1940 par l'Armée impériale japonaise contre l'Armée nationale révolutionnaire chinoise, pendant la guerre sino-japonaise.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Zaoyang-Yichang"
+      }
+    }
+  },
+  "Hundred Regiments Offensive": {
+    "pages": {
+      "ko": {
+        "title": "백단대전",
+        "extract": "백단대전(중국어: 百團大戰)은 펑더화이가 이끄는 국민혁명군 소속 중국 공산당의 사단이 화중 지역에서 일본 제국 육군과 맞서 싸운 전투이다. 이 전투는 오랫동안 중국 공산당 역사의 선전 도구로 활용되었지만, 문화대혁명 때 펑더화이의 '범죄'로 규정되었다. 전투의 전개와 결과에 관한 문제는 현재까지 논란에 있다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%B0%B1%EB%8B%A8%EB%8C%80%EC%A0%84"
+      },
+      "en": {
+        "title": "Hundred Regiments Offensive",
+        "extract": "The Hundred Regiments Offensive or the Hundred Regiments Campaign was a tactical campaign initiated by the Eighth Route Army, led by the Chinese Communist Party, against the Japanese invasion in North China from 20 August 1940, to 24 January 1941. The operation was named in recognition of the involvement of 105 regiments and represented the most extensive and protracted offensive by the Eighth Route Army in Japanese-occupied territory since the onset of the countrywide War of Resistance. The campaign aimed at undermining the Shijiazhuang–Taiyuan railway, a significant line under Japanese dominion, and spanned several crucial transportation corridors in North China, occurring in three distinct periods. The operation secured substantial strategic advantages, inflicted a severe setback on Japan's \"prison cage policy.\" According to the CCP's official histories, it elevated national morale, and highlighted the crucial role of the Chinese Communist Party and its military as a cornerstone in the Second Sino-Japanese War.",
+        "url": "https://en.wikipedia.org/wiki/Hundred_Regiments_Offensive"
+      },
+      "zh": {
+        "title": "百团大战",
+        "extract": "百团大战，又称晋南游击战、正太战役，是中国抗日战争中的一次战役，是由国民政府所辖的国民革命军第十八集团军（以下皆以八路军称呼）在1940年8月至10月间自行发动、以破坏华北日军占领的交通线、矿山为目的的破袭作战。参加作战的中国军队包括八路军120师、129师和晋察冀军区共22个团。但战争期间日军也发动反击战，使得周边一带的八路军根据地受到一定打击，受损的平汉铁路、同蒲路、石太路、井陉煤矿区，又迅速恢复运作。",
+        "url": "https://zh.wikipedia.org/wiki/%E7%99%BE%E5%9B%A2%E5%A4%A7%E6%88%98"
+      },
+      "es": {
+        "title": "Ofensiva de los Cien Regimientos",
+        "extract": "La Ofensiva de los Cien Regimientos fue una importante campaña de las divisiones Ejército Nacional Revolucionario del Partido Comunista de China, comandadas por Peng Dehuai, en contra del Ejército Imperial Japonés en China central. La batalla fue por mucho tiempo el enfoque de propaganda en la historia del Partido Comunista de China, pero se convirtió en un \"crimen\" de Peng Dehuai en la Revolución Cultural. Algunos elementos sobre su ejecución y sus consecuencias aún siguen siendo controvertidos.",
+        "url": "https://es.wikipedia.org/wiki/Ofensiva_de_los_Cien_Regimientos"
+      },
+      "ar": {
+        "title": "هجوم الأفواج المئة",
+        "extract": "هجوم الأفواج المئة ، حملة كبيرة شنتها كتائب الجيش القومي الثوري التابع للحزب الشيوعي الصيني، بقيادة بينغ دهواي، على الجيش الياباني الإمبراطوري في الصين الوسطى. لطالما كانت المعركة محور بروباغندا في تاريخ الحزب الشيوعي الصيني، لكنها صارت «جريمة» بينغ دهواي في أثناء الثورة الثقافية. ما زال الجدل قائمًا حول تفاصيل متعلقة بشنّها وعواقبها.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%87%D8%AC%D9%88%D9%85_%D8%A7%D9%84%D8%A3%D9%81%D9%88%D8%A7%D8%AC_%D8%A7%D9%84%D9%85%D8%A6%D8%A9"
+      },
+      "fr": {
+        "title": "Offensive des Cent Régiments",
+        "extract": "L’offensive des Cent Régiments (百團大戰) désigne un ensemble d'attaques de la 8e armée de route commandée par des officiers membres du Parti communiste chinois contre l'Armée impériale du Japon, durant la guerre sino-japonaise.",
+        "url": "https://fr.wikipedia.org/wiki/Offensive_des_Cent_R%C3%A9giments"
+      },
+      "pt": {
+        "title": "Ofensiva dos Cem Regimentos",
+        "extract": "A Ofensiva dos Cem Regimentos, também conhecida como Campanha dos Cem Regimentos foi uma grande campanha das divisões do Exército Nacional Revolucionário do Partido Comunista Chinês. Foi comandado por Peng Dehuai contra o Exército Imperial Japonês na China Central. A batalha havia sido o foco da propaganda na história do Partido Comunista Chinês, mas se tornou o \"crime\" de Peng Dehuai durante a Revolução Cultural. Algumas questões relativas ao seu lançamento e consequências ainda são controversas.",
+        "url": "https://pt.wikipedia.org/wiki/Ofensiva_dos_Cem_Regimentos"
+      }
+    }
+  },
+  "Battle of South Henan": {
+    "pages": {
+      "en": {
+        "title": "Battle of South Henan",
+        "extract": "The Battle of South Henan, was one of the 22 major engagements between the National Revolutionary Army (NRA) and Imperial Japanese Army during the Second Sino-Japanese War. This battle was the first time the NRA engaged the Japanese in southern Henan.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_South_Henan"
+      },
+      "zh": {
+        "title": "豫南会战",
+        "extract": "豫南会战为1941年1月至3月，中国第五战区部队在河南省南部对日军华中派遣军第11军进行的防御战役。",
+        "url": "https://zh.wikipedia.org/wiki/%E8%B1%AB%E5%8D%97%E4%BC%9A%E6%88%98"
+      },
+      "fr": {
+        "title": "Bataille du sud de Henan",
+        "extract": "La Bataille du sud de Henan opposa en 1941, l'Armée nationale révolutionnaire chinoise et l'Armée impériale japonaise pendant la guerre sino-japonaise.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_du_sud_de_Henan"
+      }
+    }
+  },
+  "Battle of Shanggao": {
+    "pages": {
+      "en": {
+        "title": "Battle of Shanggao",
+        "extract": "The Battle of Shanggao, also called Operation Kinkō, was one of the 22 major engagements between the National Revolutionary Army and Imperial Japanese Army during the Second Sino-Japanese War.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Shanggao"
+      },
+      "zh": {
+        "title": "上高会战",
+        "extract": "上高会战为1941年初日军为巩固南昌外围阵地，保证占领区安全，决定对中华民国国民革命军第9战区部队实施的军事打击。日方将此次战事的名称称为锦江作战，日军将此作战视为短期战术攻势，但最后在国民革命军优势的防御作战中遭到击退，且遭受预期以上的战损。",
+        "url": "https://zh.wikipedia.org/wiki/%E4%B8%8A%E9%AB%98%E4%BC%9A%E6%88%98"
+      },
+      "es": {
+        "title": "Batalla de Shanggao",
+        "extract": "La batalla de Shanggao, también llamada Operación Kinkō, fue uno de los 22 principales enfrentamientos entre el Ejército Nacional Revolucionario y el Ejército Imperial Japonés durante la segunda guerra sino-japonesa.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Shanggao"
+      },
+      "fr": {
+        "title": "Bataille de Shanggao",
+        "extract": "La bataille de Shanggao opposa en 1941, l'Armée nationale révolutionnaire chinoise et l'Armée impériale japonaise pendant la guerre sino-japonaise.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Shanggao"
+      }
+    }
+  },
+  "Battle of South Shanxi": {
+    "pages": {
+      "en": {
+        "title": "Battle of South Shanxi",
+        "extract": "The Battle of South Shanxi, also known as the Battle of Jinnan and Zhongtiao Mountains campaign by the Chinese and as the Chungyuan Operation by the Japanese, was one of the 22 major engagements between the National Revolutionary Army and the Imperial Japanese Army during the Second Sino-Japanese War (1937–1945).",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_South_Shanxi"
+      },
+      "zh": {
+        "title": "中條山會戰",
+        "extract": "中条山会战，又称晋南战役、中条山战役，日本方面称中原会戦、百号作戦，是中国抗日战争进入相持阶段后，1938年起计13次防卫成功击退日方；第14次于1941年5月间，中华民国军队在山西省范围内的一场大规模对日作战。",
+        "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E6%A2%9D%E5%B1%B1%E6%9C%83%E6%88%B0"
+      },
+      "fr": {
+        "title": "Bataille du Sud-Shanxi",
+        "extract": "La bataille du Sud-Shanxi opposa en 1941 l'Armée nationale révolutionnaire chinoise et l'Armée impériale japonaise pendant la guerre sino-japonaise.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_du_Sud-Shanxi"
+      }
+    }
+  },
+  "Battle of Changsha (1941)": {
+    "pages": {
+      "en": {
+        "title": "Battle of Changsha (1941)",
+        "extract": "The (Second) Battle of Changsha was Japan's second attempt at taking the city of Changsha, China, the capital of Hunan Province, as part of the Second Sino-Japanese War.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Changsha_(1941)"
+      },
+      "zh": {
+        "title": "第二次长沙战役",
+        "extract": "第二次长沙战役（又称“第二次长沙会战”），指1941年（民国30年）9月至10月，抗日战争期间，以中国第九战区为主的部队在湖南省长沙地区对日本军队进行的防御战役；本次会战从1941年9月7日至10月9日结束，历时仅一个月，在日追击下长沙一度失守，日方因为初步占领该城，遂把这次作战称作第一次，可是因为在宜昌的国军立刻发起攻势，日本不得不撤军长沙回防而丢失。",
+        "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E9%95%BF%E6%B2%99%E6%88%98%E5%BD%B9"
+      },
+      "es": {
+        "title": "Batalla de Changsha (1941)",
+        "extract": "La batalla de Changde fue un enfrentamiento entre las fuerzas del Ejército Nacional Revolucionario de China y el Ejército Imperial Japonés, durante la segunda guerra sino-japonesa. La batalla formaba parte de la Operación Chungking u operación 5, cuyo objetivo era rodear y destruir los cuarteles generales del Kuomintang ubicados en Sichuan.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Changsha_(1941)"
+      },
+      "fr": {
+        "title": "Bataille de Changsha (1941)",
+        "extract": "La deuxième bataille de Changsha a eu lieu en 1941 et opposa l'Armée nationale révolutionnaire chinoise et l'Armée impériale japonaise pendant la guerre sino-japonaise et vit un nouvel échec des Japonais à réduire la résistance dans le Hunan.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Changsha_(1941)"
+      },
+      "pt": {
+        "title": "Batalha de Changsha (1941)",
+        "extract": "A Batalha de Changsha foi a segunda tentativa do Japão de tomar a cidade de Changsha, na China, capital da província de Hunan, como parte da Segunda Guerra Sino-Japonesa.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Changsha_(1941)"
+      }
+    }
+  },
+  "Battle of Hong Kong": {
+    "pages": {
+      "ko": {
+        "title": "홍콩 전투",
+        "extract": "홍콩 전투(영어: Battle of Hong Kong, 일본어: 香港の戦い 혼콘노타타카이[*]), 혹은 중국에서의 명칭 홍콩 방어전(중국어: 香港保衛戰 샹강바오웨이잔[*], Defence of Hong Kong) 또는 홍콩 함락(Fall of Hong Kong)은 제2차 세계 대전 중 태평양 전쟁 극초기 동시다발적으로 일어났던 첫 전투 중 하나이다. 같은 날 아침 진주만 공격이 일어남과 동시에 일본 제국은 대영제국에게 선전포고했고 곧바로 대영제국의 왕령 식민지였던 영국령 홍콩을 공격했다. 당시 홍콩 주둔군은 영국군, 인도군, 캐나다군 및 보조 방위군과 홍콩 자원방위대(HKVCD)로 구성되었다.",
+        "url": "https://ko.wikipedia.org/wiki/%ED%99%8D%EC%BD%A9_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Hong Kong",
+        "extract": "The Battle of Hong Kong, also known as the Defence of Hong Kong and the Fall of Hong Kong, was one of the first battles of the Pacific War in World War II. On the same morning as the attack on Pearl Harbor, forces of the Empire of Japan attacked the British Crown colony of Hong Kong around the same time that Japan declared war on Britain. The Hong Kong garrison consisted of British, Indian and Canadian units, the Auxiliary Defence Units, and the Hong Kong Volunteer Defence Corps (HKVDC).",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Hong_Kong"
+      },
+      "zh": {
+        "title": "香港保衛戰",
+        "extract": "香港保卫战，是第二次世界大战期间，大日本帝国发动太平洋战争的首天，日军入侵英属香港的一场战役，战役爆发于1941年12月8日清晨，亦即日军偷袭珍珠港约6小时后，日军在12月10日攻破醉酒湾防线，12月13日占领九龙半岛，日军于12月18日晚上成功登陆香港岛，香港守军（驻港英军、香港义勇防卫军、香港华人军团、加拿大陆军）展开顽强抵抗，攻守两军在黄泥涌峡、浅水湾及赤柱等地爆发激战。因为香港守军作战失利而且孤军无援，身兼香港三军总司令的总督杨慕琦于12月25日下午决定投降，当日时值圣诞节，因而被称为“黑色圣诞”。香港日占时期历时“三年零八个月”，至1945年8月30日英国皇家海军舰队抵达维多利亚港，占领香港的日军向英军投降，香港重光，香港恢复由英国管治。",
+        "url": "https://zh.wikipedia.org/wiki/%E9%A6%99%E6%B8%AF%E4%BF%9D%E8%A1%9B%E6%88%B0"
+      },
+      "es": {
+        "title": "Batalla de Hong Kong",
+        "extract": "La batalla de Hong Kong fue parte de la Segunda Guerra Mundial en Asia. Hong Kong, en aquel entonces colonia británica, fue atacada por el Imperio de Japón el 8 de diciembre de 1941, la misma mañana que el ataque a Pearl Harbor, iniciándose abiertamente la guerra entre Japón y las naciones occidentales. La débil guarnición británica no podría hacerle frente a la superior fuerza nipona y se rendiría 18 días después de iniciada la batalla.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Hong_Kong"
+      },
+      "ar": {
+        "title": "معركة هونغ كونغ",
+        "extract": "معركة هونغ كونغ هي واحدةٌ من أولى معارك حرب المحيط الهادئ خلال الحرب العالمية الثانية، اندلعت في ذات صباح وقوع الهجوم على بيرل هاربر، حيث غزت قوات إمبراطورية اليابان منطقة هونغ كونغ البريطانية ولاقت مقاومةً عنيفة، شكَّلها جنود صينيون من أهل المدينة إلى جانب الحامية البريطانية والكندية والهندية. هجر المدافعون اليابسة القارية خلال أقل من أسبوع، ثم استسلموا تماماً خلال أسبوعين بعد أن باتت مواقعهم على جزيرة هونغ كونغ غير ممكنة الدفاع.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D9%87%D9%88%D9%86%D8%BA_%D9%83%D9%88%D9%86%D8%BA"
+      },
+      "fr": {
+        "title": "Bataille de Hong Kong",
+        "extract": "La bataille de Hong Kong est un affrontement militaire qui a lieu du 8 au 25 décembre 1941, au cours de la guerre du Pacifique pendant la Seconde Guerre mondiale. Elle oppose les forces de l'empire du Japon à la garnison britannique de Hong Kong, qui comprend également des troupes canadiennes, indiennes et chinoises. L'offensive japonaise débute huit heures après l'attaque de Pearl Harbor, marquant l'entrée en guerre du Japon contre les puissances alliées.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Hong_Kong"
+      },
+      "pt": {
+        "title": "Batalha de Hong Kong",
+        "extract": "A Batalha de Hong Kong, também conhecida como a Defesa de Hong Kong e a Queda de Hong Kong, foi uma das primeiras batalhas da Guerra do Pacífico na Segunda Guerra Mundial. Na mesma manhã do ataque a Pearl Harbor, forças do Império do Japão atacaram a Colônia da coroa britânica de Hong Kong aproximadamente na mesma altura em que o Japão declarou guerra à Grã-Bretanha. A guarnição de Hong Kong consistia em unidades britânicas [en], indianas [en] e canadenses, as Unidades de Defesa Auxiliares, e o Corpo de Defesa Voluntário de Hong Kong [en] (HKVDC).",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Hong_Kong"
+      }
+    }
+  },
+  "Battle of Changsha (1941–1942)": {
+    "pages": {
+      "en": {
+        "title": "Battle of Changsha (1941–1942)",
+        "extract": "The Third Battle of Changsha was the first major offensive in China by Imperial Japanese forces following the Japanese attack on the Western Allies and the attack on Pearl Harbor, and Japan's third of four attempts to capture the Chinese city of Changsha. It was conducted with the purpose of severing Chinese lines of communication with British Hong Kong, and seizing control of Changsha's food production.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Changsha_(1941%E2%80%931942)"
+      },
+      "zh": {
+        "title": "第三次长沙会战",
+        "extract": "第三次长沙会战，是中国抗日战争中的一次重要战役，发生在1941年12月24日至1942年1月16日的湖南和江西北部的部分地区，交战双方为中华民国第9战区司令薛岳所统帅的国民革命军第9战区部队共300,000人与日本第11军司令阿南惟几所统率的日军第11军共约120,000人，此次战役主要经历日军向长沙推进的外围战斗、攻守双方在长沙城的攻防战斗和日军撤退时国军进行的反击作战三个阶段。在战役指导上国军方面指挥官采用了“天炉战法”对抗日军，而日军指挥官阿南惟几则出现了明显的判断失误，最终导致战役结果为中方成功防守长沙，日方遭受惨重损失撤退而结束，因此又被中国方面称为“长沙大捷”。此次战役是1941年12月7日珍珠港事件爆发后盟军与日军交战的首场战役胜利。",
+        "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%B8%89%E6%AC%A1%E9%95%BF%E6%B2%99%E4%BC%9A%E6%88%98"
+      },
+      "fr": {
+        "title": "Bataille de Changsha (1942)",
+        "extract": "La troisième bataille de Changsha a eu lieu entre la fin 1941 et le début 1942. Elle opposa l'Armée impériale et la Marine impériale japonaise à l'Armée nationale révolutionnaire chinoise et à la guérilla des communistes chinois, dans la province du Hunan.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Changsha_(1942)"
+      },
+      "pt": {
+        "title": "Batalha de Changsha (1941–1942)",
+        "extract": "A terceira Batalha de Changsha foi a primeira grande ofensiva feita na China pelas forças do Império do Japão após suas ofensivas contra os Aliados Ocidentais ao final de 1941.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Changsha_(1941%E2%80%931942)"
+      }
+    }
+  },
+  "Proposed Japanese invasion of Sichuan": {
+    "pages": {
+      "en": {
+        "title": "Proposed Japanese invasion of Sichuan",
+        "extract": "The proposed Japanese invasion of Sichuan was the Imperial Japanese Army's failed plan to destroy the Republic of China during the Second Sino-Japanese War. It was to be a stepping stone for the Empire of Japan's final control of the Chinese mainland.",
+        "url": "https://en.wikipedia.org/wiki/Proposed_Japanese_invasion_of_Sichuan"
+      },
+      "zh": {
+        "title": "五號作戰",
+        "extract": "五号作战，又名五十一号作战、重庆作战、四川作战，是中国抗日战争中后期日本陆军预定于1943年春季发动，以攻占国民政府陪都重庆为目标的作战。由于1942年下半日军在太平洋战区的需求抽调大批兵力支援、无力实施而中止。1944年春季，日军发动其史上最大规模地面作战——“一号作战”时，日军有了再次进攻重庆的机会，此计画又再度被提起，但最终在1945年1月20日因太平洋战场局势的全面恶化而彻底放弃。",
+        "url": "https://zh.wikipedia.org/wiki/%E4%BA%94%E8%99%9F%E4%BD%9C%E6%88%B0"
+      },
+      "es": {
+        "title": "Operación Chongqing",
+        "extract": "La Operación Chongqing fue ejecutada por el Ejército Imperial Japonés en China entre 1942 y 1943, durante la segunda guerra sino-japonesa. El objetivo final, que no fue logrado, implicaba la captura de los Cuarteles Generales del Ejército Nacional Revolucionario de China, ubicados en la provincia de Sichuan. Por esta razón, la operación también es conocida como Invasión de Sichuan. La primera fase implicaba la limpieza de las regiones al sur de China, entre las que se encontraba Chongqing.",
+        "url": "https://es.wikipedia.org/wiki/Operaci%C3%B3n_Chongqing"
+      }
+    }
+  },
+  "Burma campaign": {
+    "pages": {
+      "ko": {
+        "title": "버마 전역",
+        "extract": "버마 전역(영어: Burma campaign)은 영국령 버마에서 벌어진 일련의 전투로, 제2차 세계 대전의 동남아시아 전선의 일부였다. 주로 인도 제국, 중화민국, 그리고 미국의 지원을 받은 영국군과 버마를 침략한 일본 제국 간의 전투였다. 일본 제국은 태국의 파야프군과 함께 두 개의 협력 독립 운동 및 군대의 지원을 받았다. 점령된 지역에서는 형식적으로 독립한 괴뢰 정권이 세워졌으며, 일부 지역은 태국에 병합되기도 했다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%B2%84%EB%A7%88_%EC%A0%84%EC%97%AD"
+      },
+      "en": {
+        "title": "Burma campaign",
+        "extract": "The Burma campaign was a series of battles fought in the British colony of Burma as part of the South-East Asian theatre of World War II. It primarily involved forces of the Allies against the invading forces of the Empire of Japan. Imperial Japan was supported by the Thai Phayap Army, as well as two collaborationist independence movements and armies, The State of Burma and the Provisional Government of Free India. Nominally independent puppet states were established in the conquered areas and some territories were annexed by Thailand. In 1942 and 1943, the international Allied force in British India launched several failed offensives to retake lost territories. Fighting intensified in 1944, and British Empire forces peaked at around 1 million land and air forces. These forces were drawn primarily from British India, with British Army forces, 100,000 East and West African colonial troops, and smaller numbers of land and air forces from several other Dominions and Colonies. These additional forces allowed the Allied recapture of Burma in 1945.",
+        "url": "https://en.wikipedia.org/wiki/Burma_campaign"
+      },
+      "zh": {
+        "title": "緬甸戰役",
+        "extract": "缅甸战役是第二次世界大战东南亚战场的一部分，为1942年－1945年发生在英属缅甸的一系列战役，主要由盟军 对抗日本、泰国西北军，以及两个与日合作的独立运动&武装支持所联合组成的入侵部队。当时被征服的地区建立了名义上独立的傀儡政府，部分领土被泰国吞并。 1942年和1943年，驻英属印度的盟军发动了数次试图夺回失地的攻势，但都以失败告终。 1944年战局升高之时，大英帝国所投入陆军和空军兵力达到约100万的顶峰，而这些部队主要来自英属印度，包括英国陆军（相当于8个正规步兵师和6个坦克团）、东非和西非殖民兵团10万人，以及来自其他几个自治领和殖民地的少量陆军和空军。这些额外的部队使盟军于1945年重新夺回了缅甸。",
+        "url": "https://zh.wikipedia.org/wiki/%E7%B7%AC%E7%94%B8%E6%88%B0%E5%BD%B9"
+      },
+      "es": {
+        "title": "Campaña de Birmania",
+        "extract": "La Campaña de Birmania engloba todos los combates librados en la Birmania británica, actual Birmania, entre las fuerzas aliadas y las fuerzas japonesas, apoyadas por movimientos independentistas locales, durante la II Guerra Mundial.",
+        "url": "https://es.wikipedia.org/wiki/Campa%C3%B1a_de_Birmania"
+      },
+      "hi": {
+        "title": "बर्मा अभियान",
+        "extract": "दक्षिण-पूर्व एशिया में द्वितीय विश्वयुद्ध के समय जो प्रमुख युद्ध लड़ा गया उसमें ब्रिटिश साम्राज्य, चीन एक तरफ थे तो दूसरी तरफ थे जापान साम्राज्य, थाइलैण्ड और आजाद हिन्द फौज। अमेरिका, ब्रिटिश साम्राज्य का समर्थन कर रहा था।",
+        "url": "https://hi.wikipedia.org/wiki/%E0%A4%AC%E0%A4%B0%E0%A5%8D%E0%A4%AE%E0%A4%BE_%E0%A4%85%E0%A4%AD%E0%A4%BF%E0%A4%AF%E0%A4%BE%E0%A4%A8"
+      },
+      "ar": {
+        "title": "حملة بورما",
+        "extract": "حملة بورما هي سلسلة من المعارك التي اندلعت في مستعمرة بورما البريطانية. كان الحملة جزءًا من مسرح عمليات جنوب شرق آسيا إبان الحرب العالمية الثانية، وشملت بشكل رئيس قوات الحلفاء، متمثلة بالإمبراطورية البريطانية وجمهورية الصين، وبدعمٍ من الولايات المتحدة. واجه هؤلاء قوات الإمبراطورية اليابانية الغازية، والتي ساندها جيش باياب التايلاندي، بالإضافة إلى حركتين انفصاليتين وجيوشهما المتواطئة مع قوى المحور، أحدهما جيش الاستقلال البورمي الذي تزعّم الهجمات الأولى ضد البلاد. تأسست دول عميلة في المناطق التي تعرضت للغزو والأراضي التي أُلحقت، بينما شنّت قوات الحلفاء الدولية في الهند البريطانية مجموعة من الهجمات التي باءت بالفشل. خلال عملية يو غو التي بدأت عام 1944، واستعادة الحلفاء بورما في وقتٍ لاحق، خاض الجيش الهندي تحت زعامة الثوري سبوهاش شاندرا بوز وحركته «آزاد هند» حربًا ضد اليابان. وصل عدد القوات الإمبراطورية البريطانية إلى 1 مليون مقاتل برًا وجوًا، وجُنّد معظم هؤلاء من الهند البريطانية، فحاربوا إلى جانب القوات البريطانية، بالإضافة إلى 100 ألف مقاتل من قوات المستعمرات في أفريقيا الغربية والشرقية، وعدد أقل من القوات البرية والجوية التي استُدعيت من المستعمرات والدول المستقلة ذاتيًا التابعة للكومنولث البريطاني (دومينيون).",
+        "url": "https://ar.wikipedia.org/wiki/%D8%AD%D9%85%D9%84%D8%A9_%D8%A8%D9%88%D8%B1%D9%85%D8%A7"
+      },
+      "fr": {
+        "title": "Campagne de Birmanie",
+        "extract": "La campagne de Birmanie est une phase du théâtre extrême-oriental de la Seconde Guerre mondiale, qui s'est déroulée de janvier 1942 à juillet 1945 sur le territoire de la Birmanie, alors colonie de l'Empire britannique. Elle a opposé les forces Alliées à celle de l'Axe, représentées par l'empire du Japon et le royaume de Thaïlande.",
+        "url": "https://fr.wikipedia.org/wiki/Campagne_de_Birmanie"
+      },
+      "pt": {
+        "title": "Campanha da Birmânia",
+        "extract": "A Campanha da Birmânia foi um dos principais teatros de operações ocorrida na frente de combate do Sudeste Asiático da Guerra do Pacífico, durante a Segunda Guerra Mundial, iniciada em 1942 com a invasão japonesa do país e encerrada com a Rendição do Japão e a vitória dos Aliados em 1945. A campanha ocorreu entre 1942 e 1945. Envolveu forças britânicas, indianas, chinesas, americanas e da resistência birmanesa contra o Exército Imperial Japonês. A campanha militar envolveu de um lado do Eixo, o Império do Japão e seu aliado Exército Nacional Indiano - que lutava pela independência da Índia do domínio britânico - e do lado dos Aliados, a China, o Reino Unido, as Índias Britânicas – que hoje inclui Paquistão e Bangladesh, e as ações e o apoio dos Estados Unidos.",
+        "url": "https://pt.wikipedia.org/wiki/Campanha_da_Birm%C3%A2nia"
+      }
+    }
+  },
+  "Battle of Toungoo": {
+    "pages": {
+      "en": {
+        "title": "Battle of Toungoo",
+        "extract": "The Battle of Toungoo was one of the key battles in the Battle of Yunnan-Burma Road in the Burma Campaign of World War II and Second Sino-Japanese War. The failure of the Chinese to hold the city of Toungoo opened up the route for the Japanese to make their lunge to Lashio around the allied flank and into the Chinese rear.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Toungoo"
+      },
+      "zh": {
+        "title": "同古戰役",
+        "extract": "同古战役，也称同古保卫战，是发生在1942年3月19日至3月29日的战役。会战双方是中国远征军第五军入缅先头部队——第二〇〇师与进攻英属缅甸同古（今称东吁）的日本帝国陆军，属于第二次世界大战的缅甸战役的一部分。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%90%8C%E5%8F%A4%E6%88%B0%E5%BD%B9"
+      },
+      "fr": {
+        "title": "Bataille de Taungû",
+        "extract": "La bataille de Taungû ou de Toungou est un affrontement de la campagne de Birmanie mettant aux prises la 200e division de l'Armée nationale révolutionnaire chinoise aux troupes de l'Armée impériale japonaise entre le 24 et le 30 mars 1942 pour le contrôle de la route de Mandalay et l'accès au Yunnan. Elle se déroula dans la ville de Taungû, sur le fleuve Sittang. Après plusieurs jours de combats intenses, les troupes chinoises durent battre en retraite.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Taung%C3%BB"
+      }
+    }
+  },
+  "Battle of the Yunnan–Burma Road": {
+    "pages": {
+      "en": {
+        "title": "Battle of the Yunnan–Burma Road",
+        "extract": "Battle of Yunnan-Burma Road was the name of the Chinese intervention to aid their British allies in the 1942 Burma Campaign. Its forces were composed of the Fifth, Sixth and Sixty-sixth Army under the command of the Chinese Expeditionary Force in Burma, commanded by Lt. General Joseph Stilwell, Lt. General Luo Zhuoying was his executive officer.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_the_Yunnan%E2%80%93Burma_Road"
+      },
+      "zh": {
+        "title": "滇缅路战役",
+        "extract": "滇缅路战役为中国抗日战争的大型战役，地点是在中国云南省缅甸北部交界，起始时间为1942年3月上旬。日军第12、18、33、35师团及泰国军队两师，攻陷仰光，并在随后攻打缅北。中国部队越过边境，以200师为主，与其对抗。8月，一度占领缅北的中国军队退至怒江，该战役以日军占领缅甸而结束，日军获胜。第十一集团军司令兼昆明防守司令宋希濂，所部编入远征军，在滇西缅北抗击日军，主持滇西缅北战役三年，歼灭日军3个师团，完全打通中印公路，至1945年3月取得胜利。",
+        "url": "https://zh.wikipedia.org/wiki/%E6%BB%87%E7%BC%85%E8%B7%AF%E6%88%98%E5%BD%B9"
+      },
+      "ar": {
+        "title": "معركة طريق اليونان– بورما",
+        "extract": "معركة طريق اليونان– بورما هي اسم المعركة التي شهدت تدخل الجيش الصيني لمساعدة حلفائهم البريطانيين في حملة بورما عام 1942. كانت القوات مؤلفة من الجيش السادس والستين والخامس والسادس تحت قيادة قوة المشاة الصينية في بورما، بقيادة اللواء جوزف ستيلويل، واللواء لو تشوي ينج مسؤوله التنفيذي.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%B7%D8%B1%D9%8A%D9%82_%D8%A7%D9%84%D9%8A%D9%88%D9%86%D8%A7%D9%86%E2%80%93_%D8%A8%D9%88%D8%B1%D9%85%D8%A7"
+      },
+      "fr": {
+        "title": "Bataille de la route Yunnan-Birmanie",
+        "extract": "Bataille de la route Yunnan-Birmanie est le nom de l'intervention chinoise pour aider leurs alliés britanniques dans la campagne de Birmanie en 1942.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_la_route_Yunnan-Birmanie"
+      }
+    }
+  },
+  "Battle of West Hubei": {
+    "pages": {
+      "en": {
+        "title": "Battle of West Hubei",
+        "extract": "The Battle of West Hubei, was one of 22 major engagements between the National Revolutionary Army and the Imperial Japanese Armed Forces during the Second Sino-Japanese War. It was also one of four major battles that took place in Hubei.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_West_Hubei"
+      },
+      "zh": {
+        "title": "鄂西会战",
+        "extract": "鄂西会战发生于1943年5月至6月，是日军为打通长江上游航线、控制洞庭湖产粮区并摧破陪都重庆门户而向湖北西部国民革命军第六战区守军进攻的战役。",
+        "url": "https://zh.wikipedia.org/wiki/%E9%84%82%E8%A5%BF%E4%BC%9A%E6%88%98"
+      },
+      "es": {
+        "title": "Batalla del oeste de Hubei",
+        "extract": "La batalla del oeste de Hubei o batalla de Hubei Occidental fue un conflicto parte de la segunda guerra sino-japonesa, llevado a cabo entre mayo y junio de 1943 en la zona occidental de Hubei. Enfrentó al Ejército Imperial Japonés y al Ejército Revolucionario Chino. China designó a la operación el nombre de \"Batalla de Hubei Occidental\", mientras que la Armada Imperial Japonesa se refería a ella como \"Estrategia G\".",
+        "url": "https://es.wikipedia.org/wiki/Batalla_del_oeste_de_Hubei"
+      },
+      "fr": {
+        "title": "Bataille de l'ouest d'Hubei",
+        "extract": "La bataille de l'ouest d'Hubei  opposa en 1943 l'Armée nationale révolutionnaire chinoise et l'Armée impériale japonaise pendant la guerre sino-japonaise.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_l'ouest_d'Hubei"
+      }
+    }
+  },
+  "Battle of Northern Burma and Western Yunnan": {
+    "pages": {
+      "en": {
+        "title": "Battle of Northern Burma and Western Yunnan",
+        "extract": "Battle of Northern Burma and Western Yunnan was the name of the Chinese campaign with their allies in the 1943–45 Burma Campaign. The campaign ended in an Allied victory.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Northern_Burma_and_Western_Yunnan"
+      },
+      "zh": {
+        "title": "滇西缅北战役",
+        "extract": "滇西缅北会战 为抗日战争的大型战役之一，地点是在中国云南省与缅甸北部交界地区，起始时间为1943年10月初。其战役目的为打通中印公路。1945年3月底，中国远征军、英军及麦瑞尔突击队于芒友会师，日军则失去缅北要塞，是国军少数战前取胜的战斗。",
+        "url": "https://zh.wikipedia.org/wiki/%E6%BB%87%E8%A5%BF%E7%BC%85%E5%8C%97%E6%88%98%E5%BD%B9"
+      },
+      "fr": {
+        "title": "Bataille du nord de la Birmanie et de l'ouest du Yunnan",
+        "extract": "La bataille du nord de la Birmanie et de l'ouest du Yunnan est le nom de la campagne chinoise et leurs alliés lors de la campagne de Birmanie de 1943–45.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_du_nord_de_la_Birmanie_et_de_l'ouest_du_Yunnan"
+      }
+    }
+  },
+  "Battle of Changde": {
+    "pages": {
+      "ko": {
+        "title": "창더 전투",
+        "extract": "창더 전투(常德會戰, Chángdé Huìzhàn)는 중일 전쟁 때의 전투다. 전투 중 일본군은 화학무기를 사용했다. 일본군의 공격 이유는 해당 지역에서의 중국군 전투 능력과 버마 전역 지원 능력을 약화시키기 위함이었다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%B0%BD%EB%8D%94_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Changde",
+        "extract": "The Battle of Changde was a major engagement in the Second Sino-Japanese War in and around the Chinese city of Changde (Changteh) in the province of Hunan.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Changde"
+      },
+      "zh": {
+        "title": "常德会战",
+        "extract": "常德战役是抗日战争中一场战役，于1943年（民国32年）11月至1944年1月期间。在抗日战争中，中国第6战区部队在湖南西北部常德地区对日军第11军进行的防御战役。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%B8%B8%E5%BE%B7%E4%BC%9A%E6%88%98"
+      },
+      "es": {
+        "title": "Batalla de Changde",
+        "extract": "La Batalla de Changde fue un enfrentamiento entre las fuerzas del Ejército Nacional Revolucionario de China y el Ejército Imperial Japonés, durante la segunda guerra sino-japonesa. La batalla formaba parte de la Operación Chungking u operación 5, cuyo objetivo era rodear y destruir los cuarteles generales del Kuomintang ubicados en Sichuan.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Changde"
+      },
+      "ar": {
+        "title": "معركة تشانغده",
+        "extract": "معركة تشانغده ( ) منحنى رئيسي في الحرب الصينية اليابانية الثانية نشأت في مدينة تشانغده الصينية في مقاطعة خونان والأحياء المجاورة. خلال المعركة، استخدم الجيش الإمبراطوري الياباني الأسلحة الكيميائية على نطاق واسع.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%AA%D8%B4%D8%A7%D9%86%D8%BA%D8%AF%D9%87"
+      },
+      "fr": {
+        "title": "Bataille de Changde",
+        "extract": "La bataille de Changde est une bataille de la seconde guerre sino-japonaise opposant l'Armée impériale japonaise et l'Armée nationale révolutionnaire chinoise dans la ville de Changde dans la province du Hunan. Commençant en novembre et décembre 1943, elle se solde par une victoire chinoise le 5 janvier 1944.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Changde"
+      }
+    }
+  },
+  "Battle of Changsha (1944)": {
+    "pages": {
+      "en": {
+        "title": "Battle of Changsha (1944)",
+        "extract": "The Battle of Changsha of 1944 was an invasion of the Chinese province of Hunan by Japanese troops near the end of the Second Sino-Japanese War. As such, it encompasses three separate conflicts: an invasion of the city of Changsha and two invasions of Hengyang.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Changsha_(1944)"
+      },
+      "zh": {
+        "title": "第四次长沙会战",
+        "extract": "第四次长沙会战为中国抗日战争末期的大型战役之一，是指1944年5月至8月，中国第9战区部队在湖南长沙、衡阳地区对日军进行的防御战役——长衡会战中的第1个阶段，从5月27日到6月19日，中日双方以争夺长沙为目标在湖南北部地区作战。",
+        "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E5%9B%9B%E6%AC%A1%E9%95%BF%E6%B2%99%E4%BC%9A%E6%88%98"
+      },
+      "es": {
+        "title": "Batalla de Changsha (1944)",
+        "extract": "La batalla de Changsha de 1944 fue una invasión de la provincia de China de Hunan por parte de las tropas de Japón cerca del final de la segunda guerra sino-japonesa. Como tal, abarca tres conflictos distintos: una invasión de la ciudad de Changsha y dos invasiones de Hengyang.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Changsha_(1944)"
+      },
+      "fr": {
+        "title": "Bataille de Changsha (1944)",
+        "extract": "La Quatrième bataille de Changsha, également appelée Bataille de Changsha-Hengyang, a eu lieu en 1944 pendant la guerre sino-japonaise, opposant l'Armée impériale japonaise et l'Armée nationale révolutionnaire chinoise, dans le cadre de l'offensive majeure exécutée par les japonais sous le nom d'Opération Ichi-Go.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Changsha_(1944)"
+      }
+    }
+  },
+  "Battle of Mogaung": {
+    "pages": {
+      "en": {
+        "title": "Battle of Mogaung",
+        "extract": "The Battle of Mogaung was a series of engagements that was fought in the Burma Campaign of World War II between 6 and 26 June 1944 at the Burmese town of Mogaung. In brutal fighting, the 77th 'Chindit' Brigade under Brigadier Michael Calvert, later assisted by Chinese forces of Generalissimo Chiang Kai-shek, fought for and captured the town from the occupying forces of Imperial Japan.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Mogaung"
+      },
+      "fr": {
+        "title": "Bataille de Mogaung",
+        "extract": "La bataille de Mogaung est une série d'engagements qui se sont déroulés durant la campagne birmane de la Seconde Guerre mondiale entre le 6 et le 26 juin 1944 dans la ville birmane de Mogaung. À la suite de combats brutaux, la 77e brigade « Chindit » sous le brigadier Mike Calvert, plus tard assistée par les forces chinoises du généralissime Tchang Kaï-chek, parvint à capturer la ville des forces d'occupation du Japon impérial.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Mogaung"
+      },
+      "pt": {
+        "title": "Batalha de Mogaung",
+        "extract": "A Batalha de Mogaung foi uma série de combates travados na Campanha da Birmânia da Segunda Guerra Mundial entre 6 e 26 de junho de 1944, na cidade birmanesa de Mogaung. Em combates brutais, a 77.ª Brigada 'Chindit' sob o comando do Brigadeiro Mike Calvert [en], mais tarde auxiliada por forças chinesas do Generalíssimo Chiang Kai-shek, lutou e capturou a cidade das forças de ocupação do Japão Imperial.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Mogaung"
+      }
+    }
+  },
+  "Battle of Hengyang": {
+    "pages": {
+      "en": {
+        "title": "Battle of Hengyang",
+        "extract": "The Battle of Hengyang 23 June – 8 August 1944 was fought between Chinese and Japanese forces in mainland China during World War II. Although the city fell, Japanese casualties far exceeded the total number of Chinese troops defending the city. It has been described as \"the most savage battle ever fought in the smallest battlefield with the greatest casualties in the military history of the world\". Japanese military historians equate it to the most arduous battle in the Russo-Japanese War, calling it a \"Battle of Ryojun in South China\". A major Chinese newspaper of the day compared it to the Battle of Stalingrad.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Hengyang"
+      },
+      "zh": {
+        "title": "衡阳保卫战",
+        "extract": "衡阳保卫战发生在1944年6月22日到1944年8月8日之间，是中国抗日战争后期最惨烈的一场城市争夺战。",
+        "url": "https://zh.wikipedia.org/wiki/%E8%A1%A1%E9%98%B3%E4%BF%9D%E5%8D%AB%E6%88%98"
+      }
+    }
+  },
+  "Battle of Guilin–Liuzhou": {
+    "pages": {
+      "en": {
+        "title": "Battle of Guilin–Liuzhou",
+        "extract": "The Battle of Guilin–Liuzhou, also known as the Battle of Guiliu, was one of the 22 major engagements between the National Revolutionary Army (NRA) and Imperial Japanese Army (IJA) during the Second Sino-Japanese War.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Guilin%E2%80%93Liuzhou"
+      },
+      "zh": {
+        "title": "桂柳会战",
+        "extract": "桂柳会战亦被称为桂柳战役，是抗日战争中日本帝国陆军与国民革命军之间的陆上战役。这场战役是豫湘桂战役、也被称为一号作战的第3部分。作为上述行动的一部分，这次进攻的主要目标是将日本占领的领土连接起来，同时，摧毁在该地区的美国陆军航空军基地。",
+        "url": "https://zh.wikipedia.org/wiki/%E6%A1%82%E6%9F%B3%E4%BC%9A%E6%88%98"
+      },
+      "es": {
+        "title": "Batalla de Guilin-Liuzhou",
+        "extract": "La batalla de Guilin-Liuzhou, también conocida como la batalla de Guiliu, fue uno de los 22 enfrentamientos principales entre el Ejército Nacional Revolucionario (ENR) y el Ejército Imperial Japonés (EIJ) durante la segunda guerra sino-japonesa.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Guilin-Liuzhou"
+      },
+      "fr": {
+        "title": "Bataille de Guilin-Liuzhou",
+        "extract": "La bataille de Guilin-Liuzhou est une bataille de la guerre sino-japonaise opposant du 16 août au 24 novembre 1944 l'Armée impériale japonaise et l'Armée nationale révolutionnaire chinoise.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Guilin-Liuzhou"
+      }
+    }
+  },
+  "Battle of Pokoku and Irrawaddy River operations": {
+    "pages": {
+      "en": {
+        "title": "Battle of Pokoku and Irrawaddy River operations",
+        "extract": "The Battle of Pakokku and Irrawaddy River operations were a series of battles fought between the British Indian Army and the Imperial Japanese Army and allied forces over the successful Allied Burma campaign on the China Burma India Theater during World War II. The battles and operations were instrumental in facilitating the eventual capture of Rangoon in summer 1945.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Pokoku_and_Irrawaddy_River_operations"
+      },
+      "fr": {
+        "title": "Bataille de Pakokku et opérations de l'Irrawaddy",
+        "extract": "La bataille de Pakokku et les opérations de l'Irrawaddy sont une série de batailles entre l'armée indienne britannique contre l'armée impériale japonaise lors de la campagne de Birmanie du théâtre Chine-Birmanie, pendant la Seconde Guerre mondiale.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Pakokku_et_op%C3%A9rations_de_l'Irrawaddy"
+      }
+    }
+  },
+  "Battle of Meiktila and Mandalay": {
+    "pages": {
+      "en": {
+        "title": "Battle of Meiktila and Mandalay",
+        "extract": "The concurrent Battle of Meiktila and Battle of Mandalay were decisive engagements near the end of the Burma campaign during World War II. Collectively, they are sometimes referred to as the Battle of Central Burma. Despite logistical difficulties, the Allies were able to deploy large armoured and mechanised forces in Central Burma, and also possessed air supremacy. Most of the Japanese forces in Burma were destroyed during the battles, allowing the Allies to later recapture the capital, Rangoon, and reoccupy most of the country with little organised opposition.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Meiktila_and_Mandalay"
+      },
+      "fr": {
+        "title": "Bataille de Meiktila et de Mandalay",
+        "extract": "La bataille simultanée de Meiktila et de Mandalay ou communément bataille de la Birmanie centrale, a été l'un des derniers engagements décisifs de la campagne de Birmanie. Malgré des difficultés logistiques, les Alliés ont pu déployer de grandes forces blindées et mécanisées dans le centre de la Birmanie, et possédaient également la suprématie aérienne. La plupart des forces japonaises en Birmanie ont été détruites pendant les batailles, permettant aux Alliés de reprendre plus tard la capitale, Rangoun, et ainsi de réoccuper la majeure partie du pays en rencontrant une opposition désorganisée.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Meiktila_et_de_Mandalay"
+      }
+    }
+  },
+  "Battle of Okinawa": {
+    "pages": {
+      "ko": {
+        "title": "오키나와 전투",
+        "extract": "오키나와 전투(일본어: 沖縄戦 오키나와센[*], 영어: Battle of Okinawa) 또는 코드네임 아이스버그 작전(영어: Operation Iceberg)는 태평양 전쟁이 막바지이던 1945년 4월 1일부터 6월 23일까지 83일에 걸쳐 치른 전투로 이오지마 전투에 이어 최초로 일본 영토 내에서 벌어진 미군과 일본군의 전면전으로 미국인과 일본인을 포함한 전 세계인들에게 큰 충격을 주었다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Okinawa",
+        "extract": "The Battle of Okinawa , codenamed Operation Iceberg, was a major battle of the Pacific War fought on the island of Okinawa by the United States Army and United States Marine Corps forces against the Imperial Japanese Army. The initial invasion of Okinawa on 1 April 1945 was the largest amphibious assault in the Pacific Theater of World War II. The Kerama Islands surrounding Okinawa were preemptively captured on 26 March 1945 by the U.S. Army 77th Infantry Division. The 82-day battle on Okinawa lasted from 1 April 1945 until 22 June 1945. After a long campaign of island hopping, the Allies were planning to use Kadena Air Base on the island as a staging point for Operation Downfall, the planned invasion of the Japanese home islands,\n340 mi (550 km) away.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Okinawa"
+      },
+      "zh": {
+        "title": "沖繩島戰役",
+        "extract": "冲绳岛战役，盟军代号为“冰山行动”，是在琉球群岛中冲绳本岛进行的一场战役，也是第二次世界大战太平洋战场中规模最大的两栖登陆行动以及最后一场战役。战役从1945年4月上旬开始持续到6月中旬，为期82天。",
+        "url": "https://zh.wikipedia.org/wiki/%E6%B2%96%E7%B9%A9%E5%B3%B6%E6%88%B0%E5%BD%B9"
+      },
+      "es": {
+        "title": "Batalla de Okinawa",
+        "extract": "La batalla de Okinawa, cuyo nombre en clave fue Operación Iceberg, se libró en la isla de Okinawa, en las islas Ryūkyū y fue el mayor asalto anfibio en el teatro del Pacífico. Se combatió durante 82 días, desde principios de abril hasta mediados de junio de 1945.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Okinawa"
+      },
+      "ar": {
+        "title": "معركة أوكيناوا",
+        "extract": "معركة أوكيناوا أو أوكيناوا-سين بنظام هيبورن و ، والتي حملت الاسم الرمزي «عملية جبل الجليد»، كانت إحدى المعارك الرئيسية في مسرح حرب المحيط الهادئ التي اندلعت في جزيرة أوكيناوا بين القوات البحرية والجيش الأمريكي ضد الجيش الإمبراطوري الياباني. اعُتبر الغزو الأولي لأوكيناوا في 1 أبريل 1945، أكبر هجوم برمائي في مسرح المحيط الهادئ خلال الحرب العالمية الثانية. بدأت المعركة التي استمرت 82 يوماً من 1 أبريل حتى 22 يونيو 1945. بعد حملة طويلة من إستراتيجية غزو الجزر، كان الحلفاء يخططون لاستخدام قاعدة كادينا الجوية في جزيرة أوكيناوا الكبرى كمركز لعملية السقوط، الغزو المخطط للجزر الأم اليابانية، على بُعد 340 ميل.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%A3%D9%88%D9%83%D9%8A%D9%86%D8%A7%D9%88%D8%A7"
+      },
+      "fr": {
+        "title": "Bataille d'Okinawa",
+        "extract": "La bataille d'Okinawa se déroule du 1er avril au 22 juin 1945, soit quatre-vingt-deux jours, dans l'archipel Okinawa au Japon lors de la Seconde Guerre mondiale. Dernière grande bataille de la Seconde Guerre mondiale, elle a été l'une des plus sanglantes sur le théâtre du Pacifique. C'est également le plus grand assaut amphibie de la guerre du Pacifique.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_d'Okinawa"
+      },
+      "pt": {
+        "title": "Batalha de Okinawa",
+        "extract": "A Batalha de Okinawa, cujo codinome foi Operação Iceberg, teve lugar na ilha de Okinawa, no arquipélago de Ryukyu, tendo sido o maior ataque anfíbio durante a campanha do Pacífico da Segunda Guerra Mundial. Foi a maior batalha marítimo-terrestre-aérea da história, ocorrendo de Abril a Junho de 1945.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Okinawa"
+      }
+    }
+  },
+  "Battle of the Sittang Bend": {
+    "pages": {
+      "ko": {
+        "title": "시탕강 굽이 전투",
+        "extract": "시탕강 굽이 전투(영어: Battle of the Sittang Bend) 또는 싯탕 작전(일본어: シッタン作戦)은 제2차 세계 대전 말기 일어난 버마 전역에서 있었던 일련의 연계된 일본의 군사 작전들이었다. 페구 산맥으로 쫓겨난 일본군 생존자들은 영국군으로부터 후퇴하는 다른 일본군과 합류하기 위해 동쪽으로 탈출을 시도했다. 일본 28군은 처음에는 33군, 나중에는 15군의 지원을 받아 탈주를 목표로 삼았다. 예비적으로, 일본 제33군은 연합군의 주의를 분산시키기 위해 시탕강 어귀 근처의 시탕강 굽이에 있는 연합군의 거점을 공격했다. 영국군은 탈출 시도에 대해 경고를 받았고, 이 탈출 시도는 일본인들이 많은 손실을 입음으로써 비극적으로 끝났으며, 일부 일본군 편제는 궤멸되었다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%8B%9C%ED%83%95%EA%B0%95_%EA%B5%BD%EC%9D%B4_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of the Sittang Bend",
+        "extract": "The Battle of the Sittang Bend and the Japanese Breakout across Pegu Yomas were linked Japanese military operations during the Burma Campaign, which took place nearly at the end of World War II. Surviving elements of the Imperial Japanese Army who had been driven into the Pegu Yoma attempted to break out eastwards in order to join other Japanese troops retreating from the British forces. The break-out was the objective of the Japanese Twenty-Eighth Army with support at first from the Thirty-Third Army and later the Fifteenth Army. As a preliminary, the Japanese Thirty-Third Army attacked Allied positions in the Sittang Bend, near the mouth of the river, to distract the Allies. The British had been alerted to the break-out attempt and it ended calamitously for the Japanese, who suffered many losses, with some formations being wiped out.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_the_Sittang_Bend"
+      },
+      "fr": {
+        "title": "Bataille du coude de la Sittang",
+        "extract": "La bataille du coude de la Sittang, également connue sous le nom d'évasion japonaise à travers Pegu Yoma, est une opération militaire japonaise s'étant déroulée pendant la campagne de Birmanie, à la fin de la Seconde Guerre mondiale.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_du_coude_de_la_Sittang"
+      },
+      "pt": {
+        "title": "Batalha da Curva do Sittang",
+        "extract": "A Batalha do Curvão do Sittang e a Ruptura Japonesa através dos Pegu Yomas foram operações militares japonesas interligadas durante a Campanha da Birmânia, ocorridas quase no final da Segunda Guerra Mundial. Os elementos sobreviventes do Exército Imperial Japonês, que haviam sido empurrados para os Pegu Yoma [en], tentaram romper o cerco em direção ao leste para se juntar a outras tropas japonesas em retirada das forças britânicas. A ruptura era o objetivo do Vigésimo Oitavo Exército [en] japonês, com apoio inicial do Trigésimo Terceiro Exército [en] e, posteriormente, do Décimo Quinto Exército [en]. Como preliminar, o Trigésimo Terceiro Exército japonês atacou as posições aliadas no Curvão do Sittang, perto da foz do rio, para distrair os Aliados. Os britânicos foram alertados sobre a tentativa de ruptura, que terminou de forma desastrosa para os japoneses, que sofreram muitas perdas, com algumas formações sendo aniquiladas.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_da_Curva_do_Sittang"
+      }
+    }
+  },
+  "Soviet invasion of Manchuria": {
+    "pages": {
+      "ko": {
+        "title": "만주 전략공세작전",
+        "extract": "소련의 만주 침공, 공식적으로 만주 전략 공세 작전 또는 간단히 만주 작전(Маньчжурская операция)으로 알려져 있으며 때로는 8월 폭풍 작전으로도 불린다,는 1945년 8월 9일 소련이 일본 점령 하 만주에 위치한 일본 제국의 괴뢰정권인 만주국을 침공하면서 시작되었다. 이는 1945년 소련-일본 전쟁의 가장 큰 전역이었으며, 거의 6년간의 평화 이후 소련과 일본 제국 간의 적대 행위를 재개했다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%A7%8C%EC%A3%BC_%EC%A0%84%EB%9E%B5%EA%B3%B5%EC%84%B8%EC%9E%91%EC%A0%84"
+      },
+      "en": {
+        "title": "Soviet invasion of Manchuria",
+        "extract": "The Soviet invasion of Manchuria, formally known as the Manchurian Strategic Offensive Operation or simply the Manchurian Operation, began on 8 August 1945 with the Soviet Union's invasion of the Empire of Japan's puppet states of Manchukuo and Mengjiang, in Japanese-occupied Manchuria and Inner Mongolia respectively. It was the largest campaign of the 1945 Soviet–Japanese War, which resumed hostilities between the Union of Soviet Socialist Republics and the Empire of Japan after almost six years of peace.",
+        "url": "https://en.wikipedia.org/wiki/Soviet_invasion_of_Manchuria"
+      },
+      "zh": {
+        "title": "八月風暴行動",
+        "extract": "八月风暴行动，正式名称为满洲战略攻势行动，是第二次世界大战苏日战争的一部分。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%85%AB%E6%9C%88%E9%A2%A8%E6%9A%B4%E8%A1%8C%E5%8B%95"
+      },
+      "es": {
+        "title": "Batalla de Manchuria",
+        "extract": "La Operación Tormenta de Agosto o la Batalla de Manchuria comenzó el 8 de agosto de 1945, con la invasión soviética del Estado títere japonés de Manchukuo; la invasión más grande abarcaba el vecino Mengjiang, así como el norte de Corea, el sur de la isla de Sajalín y las islas Kuriles. Marcó la primera y única acción militar de la Unión Soviética contra el Imperio del Japón durante la Segunda Guerra Mundial, sin contar las acciones realizadas en el conflicto ruso-japonés de Manchuria.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Manchuria"
+      },
+      "ar": {
+        "title": "الغزو السوفيتي لمنشوريا",
+        "extract": "الغزو السوفيتي لمنشوريا أو كما أسمتها القيادة السوفيتية عملية هجوم منشوريا الإستراتيجية ، بدأت في 9 أغسطس 1945 بغزو الاتحاد السوفيتي لدولة مانشوكو العميلة لليابان في أكبر عمليات الحرب السوفيتية اليابانية، حيث تمكنت القوات السوفيتية من الاستيلاء على مانشوكو ومينتشيانغ وشمال كوريا وجنوب سخالين علاوة على جزر الكوريل مما عجّل باستسلام اليابان في الحرب العالمية الثانية بعد الهزيمة السريعة التي لاقاها جيش كوانتونغ بعدما وضح جليا قدرة الاتحاد السوفيتي ونيته في انتزاع كامل الأراضي اليابانية بما في ذلك التراب الوطني نفسه بعد الهجوم الخاطف على منشوريا وسخالين.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%BA%D8%B2%D9%88_%D8%A7%D9%84%D8%B3%D9%88%D9%81%D9%8A%D8%AA%D9%8A_%D9%84%D9%85%D9%86%D8%B4%D9%88%D8%B1%D9%8A%D8%A7"
+      },
+      "fr": {
+        "title": "Offensive soviétique de Mandchourie",
+        "extract": "L’offensive soviétique de Mandchourie, parfois appelée invasion soviétique de la Mandchourie[réf. nécessaire], officiellement nommée opération offensive stratégique en Mandchourie, est la première phase de la guerre soviéto-japonaise de 1945, et l'une des dernières grandes opérations de la guerre du Pacifique, dans le cadre de la Seconde Guerre mondiale qui prend fin.",
+        "url": "https://fr.wikipedia.org/wiki/Offensive_sovi%C3%A9tique_de_Mandchourie"
+      },
+      "pt": {
+        "title": "Operação Tempestade de Agosto",
+        "extract": "A Ofensiva Estratégica na Manchúria, também conhecida como Operação da Manchúria ou \"Batalha da Manchúria\", foi parte da \"Guerra Nipo-Soviética\" de 1945.",
+        "url": "https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Tempestade_de_Agosto"
+      }
+    }
+  },
+  "Battle of Hanoi (1946)": {
+    "pages": {
+      "en": {
+        "title": "Battle of Hanoi (1946)",
+        "extract": "On December 19, 1946, Viet Minh soldiers detonated explosives in Hanoi, and the ensuing battle, known as the Battle of Hanoi marked the opening salvo of the First Indochina War.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Hanoi_(1946)"
+      },
+      "zh": {
+        "title": "河內戰役 (1946年)",
+        "extract": "河内战役发生于1946年12月19日至1947年2月18日，越盟士兵在河内引爆了炸药，并屠杀法国平民，使得最终爆发了河内战役，也标志著第一次印度支那战争的开始。",
+        "url": "https://zh.wikipedia.org/wiki/%E6%B2%B3%E5%85%A7%E6%88%B0%E5%BD%B9_(1946%E5%B9%B4)"
+      },
+      "es": {
+        "title": "Batalla de Hanói",
+        "extract": "La batalla de Hanói comenzó con un ataque del Viet Minh a la infraestructura y la presencia de tropas francesas en Hanói, la capital de Tonkín, el 19 de diciembre de 1946. Después de meses de guerra de guerrillas, que siguió a ello, la batalla terminó con la retirada de los últimos soldados del Viet Minh de Hanói el 17 de febrero de 1947. Durante esos combates se produjeron graves daños en la ciudad. También hubo durante ese tiempo ataques a la población civil profrancesa.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Han%C3%B3i"
+      },
+      "ar": {
+        "title": "معركة هانوي (1946)",
+        "extract": "في 19 ديسمبر 1946، فجَّر جنود الفيت مين مُتفجرات في هانوي ، وكانت المعركة التي تلت تلك الواقعة، والمعروفة باسم معركة هانوي، بمثابة المعركة الافتتاحية لحرب الهند الصينية الأولى.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D9%87%D8%A7%D9%86%D9%88%D9%8A_(1946)"
+      },
+      "fr": {
+        "title": "Bataille de Hanoï",
+        "extract": "La bataille de Hanoï est le premier engagement de la guerre d'Indochine, livrée du 19 décembre 1946 au 18 février 1947 à la suite du bombardement de Haïphong par les français en novembre. Le Viet Minh, dirigé par Hô Chi Minh, décide de lancer une offensive ayant pour but la libération de la ville de Hanoï.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Hano%C3%AF"
+      }
+    }
+  },
+  "Operation Léa": {
+    "pages": {
+      "en": {
+        "title": "Operation Léa",
+        "extract": "Operation Léa was a French Union military operation between 7 October and 8 November 1947 during the First Indochina War. It is also known as the Việt Bắc campaign by the Viet Minh. It was an attempt by the French General Valluy to crush the Việt Minh. An airborne force would capture the Việt Minh leadership and three French columns would strike into the Việt Minh heartland.",
+        "url": "https://en.wikipedia.org/wiki/Operation_L%C3%A9a"
+      },
+      "zh": {
+        "title": "利亞行動",
+        "extract": "利亚行动发生于1947年10月7日至11月8日，是第一次印度支那战争期间法军的一次军事行动。法国将军让·艾蒂安·瓦吕计画以一支空降部队俘虏越南的领导层，和三支法军纵队袭击越南的核心地带。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%88%A9%E4%BA%9E%E8%A1%8C%E5%8B%95"
+      },
+      "es": {
+        "title": "Operación Léa",
+        "extract": "La operación Léa fue una operación militar entre el 7 de octubre y el 8 de noviembre de 1947 llevada a cabo por la Unión Francesa en la región de Việt Bắcal al noreste de Vietnam, durante la guerra de Indochina. También es conocida como la campaña Việt Bắc por el Viet Minh. Fue un intento del general francés Jean-Étienne Valluy de derrotar rápidamente al Viet Minh. La estrategia básica francesa consistía en enviar una fuerza aerotransportada que debía capturar al alto mando del Việt Minh, mientras tres columnas francesas atacarían la retaguardia del Việt Minh.",
+        "url": "https://es.wikipedia.org/wiki/Operaci%C3%B3n_L%C3%A9a"
+      },
+      "fr": {
+        "title": "Opération Léa",
+        "extract": "L'opération Léa est un épisode de la guerre d'Indochine qui a opposé en octobre 1947 les forces de l'Union française aux forces communistes du Viêt Minh.",
+        "url": "https://fr.wikipedia.org/wiki/Op%C3%A9ration_L%C3%A9a"
+      }
+    }
+  },
+  "Siege of Changchun": {
+    "pages": {
+      "ko": {
+        "title": "창춘 포위전",
+        "extract": "창춘 포위전(중국어: 长春围困战 창춘웨이쿤잔[*], 중국어: 長春圍城 창춘웨이청[*])은 1948년 5월부터 10월까지 5개월간 중화민국 육군의 북중국 지역 본부이자 만주에서 가장 큰 도시였던 창춘시를 중국 인민해방군 산하 동북인민해방군이 봉쇄했던 포위전이다. 창춘 포위전은 제2차 국공 내전에서 랴오선 전역의 전투 중 가장 오랫동안 진행된 전투이다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%B0%BD%EC%B6%98_%ED%8F%AC%EC%9C%84%EC%A0%84"
+      },
+      "en": {
+        "title": "Siege of Changchun",
+        "extract": "The siege of Changchun was a military blockade undertaken by the People's Liberation Army against Changchun between May and October 1948, the largest city in Manchuria at the time, and one of the headquarters of the Republic of China Army in Northeast China. It was one of the longest campaigns in the Liaoshen Campaign of the Chinese Civil War.",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Changchun"
+      },
+      "zh": {
+        "title": "长春围困战",
+        "extract": "长春围困战，或称长春围城，是第二次国共内战时期在吉林省长春市发生的一场围城战，进攻方为萧劲光所指挥的东北人民解放军，守城方为郑洞国所指挥的中华民国国军（下简称国军）。长春围困战是辽沈战役的组成部分，解放军占领长春宣告了辽沈战役第一阶段的结束。",
+        "url": "https://zh.wikipedia.org/wiki/%E9%95%BF%E6%98%A5%E5%9B%B4%E5%9B%B0%E6%88%98"
+      },
+      "es": {
+        "title": "Asedio de Changchun",
+        "extract": "El Asedio de Changchun fue una batalla que formó parte de la Guerra de Liberación que enfrentó a los comunistas chinos contra el Kuomintang, los nacionalistas chinos. Tuvo lugar entre el 23 de mayo y el 16 de octubre de 1948.",
+        "url": "https://es.wikipedia.org/wiki/Asedio_de_Changchun"
+      },
+      "fr": {
+        "title": "Siège de Changchun",
+        "extract": "Le siège de Changchun est une opération lancée par l'armée populaire de libération durant la guerre civile chinoise contre la ville de Changchun, tenue par les forces nationalistes du Kuomintang. Le siège en lui-même se déroule dans le cadre de la campagne de Liaoshen et la chute de Changchun marque la fin de sa première étape.",
+        "url": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Changchun"
+      }
+    }
+  },
+  "Battle of Guningtou": {
+    "pages": {
+      "ko": {
+        "title": "구닝터우 전투",
+        "extract": "구닝터우 전투(古寧頭之役, Gǔníngtóu zhī Yì) 또는 진먼 전투(金門戰役, Jīnmén Zhànyì)는 제2차 국공 내전 중이었던 1949년 10월(10월 25일 ~ 10월 27일)에 중화민국과 중화인민공화국이 금문도를 두고 벌인 전투이다. 이 전투에서 중국 인민해방군이 대패하여 중화인민공화국은 금문도 점령에 실패하였고, 중화민국 정부의 타이완 지배가 공고해졌다.",
+        "url": "https://ko.wikipedia.org/wiki/%EA%B5%AC%EB%8B%9D%ED%84%B0%EC%9A%B0_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Guningtou",
+        "extract": "The Battle of Guningtou (古寧頭之役), also known as the Battle of Kuningtou or the Battle of Kinmen, was fought in October 1949 on the island of Kinmen (Quemoy), located in the Taiwan Strait, during the final stages of the Chinese Civil War.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Guningtou"
+      },
+      "zh": {
+        "title": "古寧頭戰役",
+        "extract": "金门战役（台湾作古宁头战役）是第二次国共内战期间在福建金门开展的战役。中华民国国军在此战中取得胜利，击退中国人民解放军对金门本岛的攻击。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%8F%A4%E5%AF%A7%E9%A0%AD%E6%88%B0%E5%BD%B9"
+      },
+      "pt": {
+        "title": "Batalha de Guningtou",
+        "extract": "Batalha de Guningtou, também chamada Batalha de Quemói foi uma batalha travada sobre Quemói durante a Guerra Civil Chinesa de 1949.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Guningtou"
+      }
+    }
+  },
+  "Battle of Guangzhou": {
+    "pages": {
+      "en": {
+        "title": "Battle of Guangzhou",
+        "extract": "The Battle of Guangzhou was an internal conflict within the National Revolutionary Army in the aftermath of Chiang Kai-shek's successes in the Northern Expedition. It occurred shortly after the Chinese Communist Party-led Guangzhou Uprising, which was crushed by Li Jishen's opponent Zhang Fakui in December 1927. On December 29, 1927, Li Jishen's forces were able to capture Guangzhou, and Miao Peinan retreated to Huizhou. On December 29, 1927, local leader Li Fulin, an opponent of Li Jishen, was removed from office and replaced with Deng Yanhua.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Guangzhou"
+      },
+      "zh": {
+        "title": "廣州戰鬥 (國軍內戰)",
+        "extract": "广州战斗发生于1927年12月18日，地点则是在中国广东一带，是国民革命军内部所发生的内战战斗之一。广州战斗的交战双方，一方为粤军八路军李济深部，另一方为缪培南部。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%BB%A3%E5%B7%9E%E6%88%B0%E9%AC%A5_(%E5%9C%8B%E8%BB%8D%E5%85%A7%E6%88%B0)"
+      }
+    }
+  },
+  "Second Battle of Guangzhou": {
+    "pages": {
+      "en": {
+        "title": "Second Battle of Guangzhou",
+        "extract": "The Second Battle of Guangzhou was fought between the rival armies of the Liangguang region in Southern China as part of the internal conflicts within the Kuomintang leading up to the Central Plains War. The previous month, the New Guangxi clique had fought the Sichuan clique at the Battle of Yichang in Hubei. The forces of the New Guangxi clique attacked Guangzhou from both their home province of Guangxi as well as Jiangxi. Guangdong forces captured a brigade commander of the New Guangxi clique's army.",
+        "url": "https://en.wikipedia.org/wiki/Second_Battle_of_Guangzhou"
+      },
+      "zh": {
+        "title": "第二次廣州戰鬥",
+        "extract": "广州战斗发生于1929年5月17日－21日，地点则是在中国粤中南一带，是国民革命军内部所发生的内战战斗之一。广州战斗的交战双方，一方为粤军蔡廷锴部，另一方为桂军白崇禧部。",
+        "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E5%BB%A3%E5%B7%9E%E6%88%B0%E9%AC%A5"
+      }
+    }
+  },
+  "Second Battle of Guilin": {
+    "pages": {
+      "en": {
+        "title": "Second Battle of Guilin",
+        "extract": "The Second Battle of Guilin was fought between the invading Hunan Army, allied to the forces of Chiang Kai-shek, and the forces of the New Guangxi clique personally commanded by Li Zongren. Li was facing a second invasion by the forces of the Yunnan Army targeted at Nanning. Li was forced to withdraw his forces from Guilin.",
+        "url": "https://en.wikipedia.org/wiki/Second_Battle_of_Guilin"
+      },
+      "zh": {
+        "title": "第二次桂林戰鬥 (國軍內戰)",
+        "extract": "桂林战斗发生于1930年7月17日，地点则是在广西省桂林一带，是国民革命军内部所发生的内战战斗之一。桂林战斗的交战双方，一方为湘军，另一方为桂军李宗仁部。",
+        "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E6%A1%82%E6%9E%97%E6%88%B0%E9%AC%A5_(%E5%9C%8B%E8%BB%8D%E5%85%A7%E6%88%B0)"
+      }
+    }
+  },
+  "Second Battle of Nanning": {
+    "pages": {
+      "en": {
+        "title": "Second Battle of Nanning",
+        "extract": "The Battle of Nanning was fought between the invading Yunnan Army, allied to Chiang Kai-shek's faction, and the defending forces of the New Guangxi clique.",
+        "url": "https://en.wikipedia.org/wiki/Second_Battle_of_Nanning"
+      },
+      "zh": {
+        "title": "第二次南寧戰鬥 (國軍內戰)",
+        "extract": "南宁战斗发生于1930年8月15日－10月22日，是国民革命军内部发生在广西省南宁的内战战斗之一。南宁战斗的交战双方，一方为云南张冲师部，另一方为桂军部。",
+        "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E5%8D%97%E5%AF%A7%E6%88%B0%E9%AC%A5_(%E5%9C%8B%E8%BB%8D%E5%85%A7%E6%88%B0)"
+      }
+    }
+  },
+  "Battle of Luding Bridge": {
+    "pages": {
+      "en": {
+        "title": "Battle of Luding Bridge",
+        "extract": "The Battle of Luding Bridge of 1935 was a controversial crossing of the Luding Bridge by the soldiers of the Fourth Regiment of the Chinese Workers and Peasants' Red Army during the Long March. The bridge, situated over the Dadu River in Luding County, Garzê Tibetan Autonomous Prefecture, Sichuan, China, was located about 80 kilometers west of the city of Ya'an and was a river crossing vital to the Red Army.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Luding_Bridge"
+      },
+      "zh": {
+        "title": "泸定桥战斗",
+        "extract": "泸定桥战斗，又称飞夺泸定桥，是中国工农红军红一方面军在长征途中与西康省的川军驻军发生的一次战斗。",
+        "url": "https://zh.wikipedia.org/wiki/%E6%B3%B8%E5%AE%9A%E6%A1%A5%E6%88%98%E6%96%97"
+      },
+      "es": {
+        "title": "Batalla del Puente de Luding",
+        "extract": "La batalla del puente de Luding de 1935 fue un enfrentamiento armado entre el Cuarto Regimiento de Trabajadores Chinos y Ejército Campesino y fuerzas locales afines al Kuomintang durante la Larga marcha.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_del_Puente_de_Luding"
+      }
+    }
+  },
+  "Swatow Operation": {
+    "pages": {
+      "en": {
+        "title": "Swatow Operation",
+        "extract": "The Swatow Operation was part of a campaign by Japan during the Second Sino-Japanese War to blockade China in order to prevent it from communicating with the outside world and importing needed arms and materials. Control of Swatow and its harbour would provide a base to make the blockade of Guangdong province more effective.",
+        "url": "https://en.wikipedia.org/wiki/Swatow_Operation"
+      },
+      "zh": {
+        "title": "潮汕戰鬥 (抗日戰爭)",
+        "extract": "潮汕战斗发生于1939年6月21日－9月4日，地点则是在中国粤东南一带。是抗日战争主要战斗之一，交战一方为守军之国民革命军，另一方则为日军。",
+        "url": "https://zh.wikipedia.org/wiki/%E6%BD%AE%E6%B1%95%E6%88%B0%E9%AC%A5_(%E6%8A%97%E6%97%A5%E6%88%B0%E7%88%AD)"
+      },
+      "es": {
+        "title": "Operación Swatow",
+        "extract": "La Operación Swatow fue parte de una campaña de Japón durante la segunda guerra sino-japonesa para bloquear China a fin de evitar que se comunicara con el mundo exterior e importara las armas y los materiales necesarios. El control de Shantou y su puerto proporcionaría una base para hacer más efectivo el bloqueo de la provincia de Cantón.",
+        "url": "https://es.wikipedia.org/wiki/Operaci%C3%B3n_Swatow"
+      }
+    }
+  },
+  "Battle of West Suiyuan": {
+    "pages": {
+      "en": {
+        "title": "Battle of West Suiyuan",
+        "extract": "The Battle of West Suiyuan was part of the\nSecond Sino-Japanese War. It was fought from January – February 1940 during the Chinese 1939 Winter Offensive.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_West_Suiyuan"
+      },
+      "zh": {
+        "title": "绥西战役",
+        "extract": "绥西战役，是1940年中国国民革命军在第八战区发动的冬季攻势中的第二场战役。战役由日军发动，是以消灭中方军队有生力量为目的，针对包头战役的一场报复性战役。战役以日军攻占绥远西部多座城池宣告结束，中方军队在战役中并没有与日军进行过多的正面接触，总体以游击消耗为目标，但由于作战方针传达不到位，以至于遭受了很多不应有的损失。但日军在随后以伪军为主要守城部队，这也为中方发动五原战役提供了条件。",
+        "url": "https://zh.wikipedia.org/wiki/%E7%BB%A5%E8%A5%BF%E6%88%98%E5%BD%B9"
+      },
+      "es": {
+        "title": "Batalla de Suiyuan Occidental",
+        "extract": "La batalla de Suiyuan Occidental fue parte de la segunda guerra sino-japonesa. Se libró de enero a febrero de 1940, como parte de la ofensiva de invierno china de 1939.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Suiyuan_Occidental"
+      }
+    }
+  },
+  "Battle of Oktwin": {
+    "pages": {
+      "en": {
+        "title": "Battle of Oktwin",
+        "extract": "The Battle of Oktwin was the second battle in the Battle of Yunnan-Burma Road in the Burma campaign of World War II and Second Sino-Japanese War.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Oktwin"
+      },
+      "fr": {
+        "title": "Bataille d'Oktwin",
+        "extract": "La bataille d'Oktwin, s'étant déroulée du 20 au 23 mars 1942, est le second affrontement de la bataille de la route Yunnan-Birmanie de la campagne de Birmanie pendant la Seconde Guerre mondiale et la Seconde Guerre sino-japonaise.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_d'Oktwin"
+      }
+    }
+  },
+  "Battle of Tachiao": {
+    "pages": {
+      "en": {
+        "title": "Battle of Tachiao",
+        "extract": "The Battle of Tachiao, was the first clash in the Battle of Yunnan-Burma Road in the Burma Campaign of World War II and Second Sino-Japanese War.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Tachiao"
+      },
+      "fr": {
+        "title": "Bataille de Tachiao",
+        "extract": "La bataille de Tachiao est le premier affrontement de la bataille de la route Yunnan-Birmanie de la campagne de Birmanie pendant la Seconde Guerre mondiale et la Seconde Guerre sino-japonaise.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Tachiao"
+      }
+    }
+  },
+  "Battle of Prome (1942)": {
+    "pages": {
+      "en": {
+        "title": "Battle of Prome (1942)",
+        "extract": "The Battle of Prome took place during the Japanese conquest of Burma. China's Generalissimo, Chiang Kai-shek, believed \"As long as the British hold Prome, we hold Toungoo.\"",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Prome_(1942)"
+      },
+      "fr": {
+        "title": "Bataille de Prome (1942)",
+        "extract": "La bataille de Prome est un affrontement lors de la conquête japonaise de la Birmanie, au début de la campagne birmane. Le généralissime chinois, Chiang Kai-shek, estima : « Tant que les Britanniques tiennent Prome, nous tenons Taungû ».",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Prome_(1942)"
+      }
+    }
+  },
+  "Battle of Central Henan": {
+    "pages": {
+      "ko": {
+        "title": "대륙타통작전",
+        "extract": "대륙타통작전(大陸打通作戦)이란, 중일 전쟁 기간 동안 전쟁 막바지인 1944년 4월 17일부터 12월 10일에 걸쳐서 중국 대륙에서 행해진 일본 제국의 최후의 대규모 공격 작전을 말한다. 중국측에서는 예상계회전(간체자: 豫湘桂会战; 번체자: 豫湘桂會戰; 병음 표기: Yù Xīang Guì Huìzhàn)이라 부르기도 한다. 일본 제국 육군과 중화민국 국민혁명군간에 벌어진 허난성, 후난성, 광서성에서의 일련의 전투들을 통칭한다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%8C%80%EB%A5%99%ED%83%80%ED%86%B5%EC%9E%91%EC%A0%84"
+      },
+      "en": {
+        "title": "Operation Ichi-Go",
+        "extract": "Operation Ichi-Go was a campaign with several battles between the Imperial Japanese Army forces and the National Revolutionary Army of the Republic of China, fought from April to December 1944. It consisted of three battles in the Chinese provinces of Henan, Hunan and Guangxi.",
+        "url": "https://en.wikipedia.org/wiki/Operation_Ichi-Go"
+      },
+      "zh": {
+        "title": "豫湘桂会战",
+        "extract": "豫湘桂会战，日方称之为“一号作战” 或“大陆打通作战”，是中国抗日战争末期日本陆军于1944年4月至12月期间于中国河南、湖南和广西为穿插三地突出部进行的一系列大型会战，是自攻克武汉的会战之后，少有的大规模战役。",
+        "url": "https://zh.wikipedia.org/wiki/%E8%B1%AB%E6%B9%98%E6%A1%82%E4%BC%9A%E6%88%98"
+      },
+      "es": {
+        "title": "Operación Ichi-Go",
+        "extract": "La Operación Ichi-Go  fue una ofensiva militar japonesa lanzada por el Ejército Imperial en la zona de la China Central durante la segunda guerra sino-japonesa. Uno de los objetivos japoneses era la toma, o al menos la destrucción, de las bases aéreas de la Fuerza Aérea estadounidense (USAAF) empleadas para lanzar bombardeos estratégicos de los B-29 sobre el archipiélago nipón. Por otro lado, se pretendía conquistar varios enlaces ferroviarios y puntos clave de la retaguardia china, expandiendo así el territorio chino bajo control japonés.",
+        "url": "https://es.wikipedia.org/wiki/Operaci%C3%B3n_Ichi-Go"
+      },
+      "ar": {
+        "title": "عملية إتشي-جو",
+        "extract": "عملية إتشي-جو كانت حملة لسلسلة من المعارك الكبرى بين قوات الجيش الإمبراطوري الياباني والجيش الثوري الوطني لجمهورية الصين، والتي وقعت خلال العام 1944. تألفت من ثلاث معارك منفصلة في مقاطعات خنان وهونان وجوانجشي الصينية.\nكانت هذه المعارك هي عملية كوغو اليابانية أو معركة وسط خنان، وعملية توغو 1 أو معركة تشانغنغ، وعملية توغو 2 وتوغو 3، أو معركة قويلين ليوتشو، على التوالي. كانت أهداف العملية بالنسبة للجيش الإمبراطوري الياباني هي فتح طريق بري إلى الهند الصينية الفرنسية، والاستيلاء على القواعد الجوية في جنوب شرق الصين التي كانت القاذفات الأمريكية تهاجم منها سفن الشحن والأراضي اليابانية.\nفي اليابانية، كانت العملية تسمى أيضًا (大陸打通作戦)، أو بالعربية «عملية عبر القارة»، بينما يشير إليها الصينيون باسم معركة خنان-هونان-جوانجشي.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%B9%D9%85%D9%84%D9%8A%D8%A9_%D8%A5%D8%AA%D8%B4%D9%8A-%D8%AC%D9%88"
+      },
+      "fr": {
+        "title": "Opération Ichi-Go",
+        "extract": "L'opération Ichi-Go, appelée par les Chinois campagne du Henan-Hunan-Guangxi, fut une offensive de grande ampleur, menée en 1944 par l'Armée impériale japonaise contre l'Armée nationale révolutionnaire chinoise et l'Armée de l'air américaine pendant la guerre sino-japonaise. Les troupes japonaises remportèrent sur le terrain une victoire militaire, qui se traduisit par des gains stratégiques relatifs.",
+        "url": "https://fr.wikipedia.org/wiki/Op%C3%A9ration_Ichi-Go"
+      },
+      "pt": {
+        "title": "Operação Ichi-Go",
+        "extract": "A Operação Ichi-Go foi uma campanha de uma série de grandes batalhas entre as forças do Exército Imperial Japonês e o Exército Revolucionário da República da China, ocorrida a partir de abril a dezembro de 1944. Consistiram em três separadas batalhas nas províncias da China de Henan, Hunan e Guangxi.\nEssas batalhas foram a Operação Kogo do Japão ou Battle of Central Henan, Operação Togo 1 ou Battle of Changheng, e Operação Togo 2 e Togo 3, ou Battle of Guilin-Liuzhou, respectivamente. Os dois objetivos primários de Ichi-go foram abrir uma rota por terra à Indochina francesa, e capturar bases aéreas no sudeste da China, onde bombardeadores americanos estavam atacando terras japonesas e embarcações.\nEm japonês a operação também se chamava Tairiku Datsū Sakusen (大陸打通作戦), ou \"Continent Cross-Through Operation\", enquanto os chineses a conhecem como a batalha de Henan-Hunan-Guangxi.",
+        "url": "https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Ichi-Go"
+      }
+    }
+  },
+  "Battle of Jinzhou": {
+    "pages": {
+      "en": {
+        "title": "Battle of Jinzhou",
+        "extract": "Battle of Chinchow took place between the People's Liberation Army and the National Revolutionary Army during the Liaoshen Campaign in the Chinese Civil War. The battle was a turning point in the campaign, which eventually led to capture of Northeast China by the Communist Party.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Jinzhou"
+      },
+      "zh": {
+        "title": "锦州战役 (1948年)",
+        "extract": "锦州之战是第二次国共内战中中国人民解放军与中华民国国军之间的一场战役，它是发生在中国东北地区的一场决定性战役，是辽沈战役的一个组成部份。",
+        "url": "https://zh.wikipedia.org/wiki/%E9%94%A6%E5%B7%9E%E6%88%98%E5%BD%B9_(1948%E5%B9%B4)"
+      }
+    }
+  },
+  "Linfen Campaign": {
+    "pages": {
+      "en": {
+        "title": "Linfen Campaign",
+        "extract": "Linfen Campaign (临汾战役) was a series of battles fought between the communists and the nationalists during the Chinese Civil War to control the city of Linfen, and resulted in the communist victory.",
+        "url": "https://en.wikipedia.org/wiki/Linfen_Campaign"
+      },
+      "zh": {
+        "title": "临汾战役",
+        "extract": "临汾战役，为发生于1948年3月至5月山西省临汾县，中华民国国军与中国人民解放军华北野战军之间的战役。经过大型攻坚战，徐向前领导的中国人民解放军占领临汾县城（在今山西省临汾市）。",
+        "url": "https://zh.wikipedia.org/wiki/%E4%B8%B4%E6%B1%BE%E6%88%98%E5%BD%B9"
+      }
+    }
+  },
+  "Battle of Jinan": {
+    "pages": {
+      "ko": {
+        "title": "지난 전역",
+        "extract": "지난 전역(济南战役)은 제2차 국공 내전 도중 1948년 9월 16일에서 9월 24일에 일어난 전투다. 중공군 화동야전군이 산둥성의 중심 도시이자 주변 지역 보급 중심지로 당대 인구 60만의 도시였던 지난을 포위하고 함락시켰다. 해당 전투는 화이하이 전역으로 이어졌다. 지난 수비군은 천이가 이끄는 화동야전군이 도시 남쪽 철로를 장악한 1948년 여름에 고립됐다. 도시 방어 담당자는 왕야오우로 그는 정규 여단 9개, 경비 여단 5개, 10만에 이르는 특수 병력을 거느리고 있었다. 지난 전역에서의 패배 이후 왕야오우는 중공군에 포로로 끌려 갔다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%A7%80%EB%82%9C_%EC%A0%84%EC%97%AD"
+      },
+      "en": {
+        "title": "Battle of Jinan",
+        "extract": "The Battle of Jinan was a critical engagement fought between the Kuomintang and the Chinese Communist Party (CCP) from September 16 to September 24, 1948, during the Chinese Civil War. The communist Eastern China Field Army besieged and finally captured the city of Jinan, the capital of Shandong Province and a major urban center as well as a transportation hub in northeastern China that had a population of about 600,000 at the time of the battle. The communist victory set the stage for the Huaihai Campaign.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Jinan"
+      },
+      "zh": {
+        "title": "济南战役",
+        "extract": "济南战役是第二次国共内战的一次战役。1948年9月16日，中国人民解放军的华东野战军发动了济南战役，9月24日攻占济南。",
+        "url": "https://zh.wikipedia.org/wiki/%E6%B5%8E%E5%8D%97%E6%88%98%E5%BD%B9"
+      }
+    }
+  },
+  "Battle of Dengbu Island": {
+    "pages": {
+      "en": {
+        "title": "Battle of Dengbu Island",
+        "extract": "The Battle of Dengbu Island was a conflict between the Republic of China Army and People's Liberation Army over Dengbu Island near mainland China. This conflict occurred from 3 November 1949 to 5 November 1949 and resulted in a Republic of China Army's victory.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Dengbu_Island"
+      },
+      "zh": {
+        "title": "登步島戰役",
+        "extract": "登步岛战役，为中华民国国军与中国人民解放军在第二次国共内战中的一次交战。",
+        "url": "https://zh.wikipedia.org/wiki/%E7%99%BB%E6%AD%A5%E5%B3%B6%E6%88%B0%E5%BD%B9"
+      },
+      "ar": {
+        "title": "معركة جزيرة دنجبو",
+        "extract": "معركة جزيرة دنغبو ( كانت صراع بين جيش جمهورية الصين وجيش التحرير الشعبي على جزيرة دنغبو بالقرب من البر الرئيسي للصين. وقعت المعركة في الفترة من 3 نوفمبر 1949 إلى 5 نوفمبر 1949 وأسفر عن انتصار جمهورية الصين.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%AC%D8%B2%D9%8A%D8%B1%D8%A9_%D8%AF%D9%86%D8%AC%D8%A8%D9%88"
+      },
+      "pt": {
+        "title": "Batalha da Ilha de Dengbu",
+        "extract": "A Batalha da Ilha Dengbu foi um conflito entre o Exército da República da China e o Exército de Libertação Popular sobre a Ilha Dengbu perto da China continental. Este conflito ocorreu de 3 de novembro de 1949 a 5 de novembro de 1949 e resultou em uma vitória da República da China (RC).",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_da_Ilha_de_Dengbu"
+      }
+    }
+  },
+  "Shanghai massacre": {
+    "pages": {
+      "ko": {
+        "title": "4·12 사건",
+        "extract": "4•12 사건( - 事件, 영어: April 12 Incident)은 1927년 4월 12일 상하이에서 발생한 중국국민당의 중국공산당 초기 혁명 진영을 대상으로 한 무력을 동원한 진압과 공격을 가리킨다. 이 사건은 소련에 의해 진행된 제1차 국공 합작이 종료됨을 상징하였고 제1차 국공 내전이 이어지게 되었다.",
+        "url": "https://ko.wikipedia.org/wiki/4%C2%B712_%EC%82%AC%EA%B1%B4"
+      },
+      "en": {
+        "title": "Shanghai massacre",
+        "extract": "The Shanghai massacre of 12 April 1927, the April 12 Purge or the April 12 Incident as it is commonly known in China, was the violent suppression of Chinese Communist Party (CCP) organizations and leftist elements in Shanghai by forces supporting General Chiang Kai-shek and conservative factions in the Kuomintang. The event began the campaign of anti-communist repression in Nationalist China.",
+        "url": "https://en.wikipedia.org/wiki/Shanghai_massacre"
+      },
+      "zh": {
+        "title": "四一二事件",
+        "extract": "四一二事件 是中国国民党清党第一期中的标志性事件。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%9B%9B%E4%B8%80%E4%BA%8C%E4%BA%8B%E4%BB%B6"
+      },
+      "es": {
+        "title": "Matanza de Shanghái de 1927",
+        "extract": "La matanza de Shanghái de 1927, también conocida como el Incidente del 12 de abril, fue un acontecimiento que tuvo lugar en la urbe china homónima en abril de 1927 en el que la derecha del Kuomintang, encabezada por Chiang Kai-shek, desbarató violentamente a sus rivales de la izquierda del partido y a sus entonces aliados del Partido Comunista.",
+        "url": "https://es.wikipedia.org/wiki/Matanza_de_Shangh%C3%A1i_de_1927"
+      },
+      "ar": {
+        "title": "مذبحة شانغهاي",
+        "extract": "مذبحة شانغهاي كانت قمعًا عنيفًا لمنظمات «الحزب الشيوعي الصيني» في شانغهاي، على يد القوات المسلحة التابعة للقائد العام شيانغ كاي شيك والفصائل المحافظة في الكومينتانغ. بعد الحادثة بدأت عناصر الكومينتانغ المحافِظة تطهيرًا شاملًا لجميع أراضيهم من الشيوعيين، وحصل قمع أعنف في غوانزو وتشانغشا. بعد التطهير انقسمت فصائل الكومينتانغ اليسارية عن اليمينية، ونصّب شيانغ كاي شيك نفسه زعيمًا لليمينيين في نانجينغ، معارَضةً لحكومة الكومينتانغ اليسارية الأساسية القائمة في ووهان بقيادة وانغ جينغوي.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B0%D8%A8%D8%AD%D8%A9_%D8%B4%D8%A7%D9%86%D8%BA%D9%87%D8%A7%D9%8A"
+      },
+      "fr": {
+        "title": "Massacre de Shanghai",
+        "extract": "Le massacre de Shanghai est une attaque menée le 12 avril 1927 par des troupes de l’Armée nationale révolutionnaire et des membres des triades, contre des civils et des militants du Parti communiste chinois (PCC). C'est l'un des principaux évènements qui signèrent en 1927 la rupture entre le Kuomintang (KMT) et le PCC, et marquèrent le début de la guerre civile chinoise.",
+        "url": "https://fr.wikipedia.org/wiki/Massacre_de_Shanghai"
+      },
+      "pt": {
+        "title": "Massacre de Xangai de 1927",
+        "extract": "O Massacre de Xangai de 1927, também conhecido como Incidente de 12 de abril, foi um expurgo em grande escala dos comunistas, em Xangai, ordenada pelo generalíssimo Chiang Kai-shek, em 12 de abril de 1927, durante a Expedição do Norte contra os senhores da guerra.",
+        "url": "https://pt.wikipedia.org/wiki/Massacre_de_Xangai_de_1927"
+      }
+    }
+  },
+  "Nanchang Uprising": {
+    "pages": {
+      "ko": {
+        "title": "난창 봉기",
+        "extract": "난창 봉기(중국어 간체자: 南昌起义, 정체자: 南昌起義)는 1927년 8월 1일 중화민국 장시성 난창(南昌)에서 일어난 공산주의자들의 봉기로 국공 내전 중 중국 국민당과 중국 공산당 사이에 벌어진 최초의 전투였다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%82%9C%EC%B0%BD_%EB%B4%89%EA%B8%B0"
+      },
+      "en": {
+        "title": "Nanchang Uprising",
+        "extract": "The Nanchang Uprising of August 1927 was the point at which conflict between the Chinese Communist Party and the Nationalist Party of China (Kuomintang) became an outright rebellion. This began the Chinese Civil War. It was initiated by the Communists in response to the massacre of their party comrades in Shanghai by the Kuomintang four months before.",
+        "url": "https://en.wikipedia.org/wiki/Nanchang_Uprising"
+      },
+      "zh": {
+        "title": "南昌起義",
+        "extract": "南昌起义、八一起义，是中国共产党领导，以国民党左派及革命委员会名义于1927年8月1日针对中国国民党（主要目标为国民党右派及蒋中正于宁汉分裂后在南京组建的南京政府）在江西南昌发动的武装夺权事件。南昌起义被视为第一次国共内战开始，也是中国共产党及其直辖与间接管辖的武装力量事实上退出北伐战争的时点。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%8D%97%E6%98%8C%E8%B5%B7%E7%BE%A9"
+      },
+      "es": {
+        "title": "Revuelta de Nanchang",
+        "extract": "La Revuelta de Nanchang (南昌起义), después de la Matanza de Shanghái de abril, fue el primer choque significativo entre el Kuomintang y el Partido Comunista de China en la guerra civil china.",
+        "url": "https://es.wikipedia.org/wiki/Revuelta_de_Nanchang"
+      },
+      "fr": {
+        "title": "Soulèvement de Nanchang",
+        "extract": "Le soulèvement de Nanchang fut l'un des premiers épisodes de la longue guerre civile entre le Kuomintang (KMT) et le Parti communiste chinois (PCC), et en constitua le premier affrontement militaire d'envergure. Il fit suite à la rupture du premier front uni chinois et aux purges lancées contre le PCC par le Kuomintang lors du putsch de Canton et surtout lors du massacre de Shanghai avait signé le début quelques mois plus tôt.",
+        "url": "https://fr.wikipedia.org/wiki/Soul%C3%A8vement_de_Nanchang"
+      },
+      "pt": {
+        "title": "Revolta de Nanchang",
+        "extract": "A Revolta de Nanchang, 1 de agosto de 1927 foi o primeiro choque significativo entre o Kuomintang e o Partido Comunista da China durante a Guerra Civil Chinesa.",
+        "url": "https://pt.wikipedia.org/wiki/Revolta_de_Nanchang"
+      }
+    }
+  },
+  "Autumn Harvest Uprising": {
+    "pages": {
+      "ko": {
+        "title": "추수 봉기",
+        "extract": "추수 봉기 는 1927년 9월 7일 중국 후난성과 장시성일대에서 마오쩌둥이 주도하는 공산주의자들이 일으킨 무장봉기이다. 이 봉기는 중국에서 최초의 공산당 무장봉기로 기록된다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%B6%94%EC%88%98_%EB%B4%89%EA%B8%B0"
+      },
+      "en": {
+        "title": "Autumn Harvest Uprising",
+        "extract": "The Autumn Harvest Uprising was an insurrection that took place in Hunan and Jiangxi provinces of China, on September 7, 1927, led by Mao Zedong, who established a short-lived Hunan Soviet.",
+        "url": "https://en.wikipedia.org/wiki/Autumn_Harvest_Uprising"
+      },
+      "zh": {
+        "title": "秋收起义",
+        "extract": "秋收起义，又称两湖秋收暴动，是1927年9月中国共产党按《中央关于湘鄂粤赣四省农民秋收暴动大纲》所规划的一连串的暴动，是一个涉及四省的全盘暴动计划。毛泽东并未参与决策，仅领导湖南、江西边界的湘南一路，此外湖南还有湘东（中）、湘西两路。至于湖北，则计划有七处暴动。",
+        "url": "https://zh.wikipedia.org/wiki/%E7%A7%8B%E6%94%B6%E8%B5%B7%E4%B9%89"
+      },
+      "es": {
+        "title": "Levantamiento de la Cosecha de Otoño",
+        "extract": "El Levantamiento de la Cosecha de Otoño es el nombre dado a una sublevación liderada por Mao Zedong en 1927 en China, específicamente en las provincias de Hunan y Jiangxi. Esto corresponde, junto con la matanza de Shanghái y la Revuelta de Nanchang, uno de los elementos que marcaron el comienzo de la guerra civil china.",
+        "url": "https://es.wikipedia.org/wiki/Levantamiento_de_la_Cosecha_de_Oto%C3%B1o"
+      },
+      "ar": {
+        "title": "انتفاضة حصاد الخريف",
+        "extract": "انتفاضة حصاد الخريف،و تُسمى أيضاً ب اضطرابات حصاد الخريف، أحداث حصاد الخريف أو تمرد حصاد الخريف.\nهي انتفاضة قام بها الحزب الشيوعي الصيني في شهر سبتمبر من عام 1927، وذلك وفقاً ل أقره فلاحوا مقاطعة جوانغ دونغ و \"\"\nتم التخطيط لهذه الانتفاضة من قبل فلاحي مقاطعة ستشوان، ولم يُشارك ماو تسي دونغ في وضع سياستها. أشارت الإحصائات إلى أن الحزب الشيوعي الصيني قام بأكثر من مئة انتفاضة مسلحة جالت أنحاء الصين، بحيث جالت أربعة عشر مقاطعة و مئة وأربعين مدينة بالصين.\nلكنها امتدت على نحو أوسع في وسط، شرق و غرب مقطعة خوبي. وفي غرب المقاطعة تمركز في كلاً من المدن الآتية: فويانغ، جيان لي و جونغ آن.\nقام فانغ بينغ قائد انتفاضة فانغ بينغ زعيم انتفاضة جزيرة هاي نان ببحر الصين الجنوبي، يانغ جينغ يو زعيم انتفاضة خا نان تشوا شان و تانغ شو وغيرهم من زعماء انتفاضة تشيان جيان ب شآن سي. أما في شهر نوفمبر من عام 1927 فكان وو جوانغ هاو زعيم انتفاضة خو باي هوانغ ما، و كان تسنغ تيان يو زعيم مقاطعة جيانغ سي دونغ جو. وبعد شهر تزعم جانغ تاي لاي انتفاضة مقاطعة جوانغ دونغ.\nامتدت انتفاضة حصاد الخريف حتى عام1928 ، وانتشرت بصورةٍ أكبر، وقد تزعم فانغ تجي مين انتفاضة يي هانغ ب جيانغ سي، تزعم كلاً من تشو دي وتشن يي انتفاضة شيانغ نان. وأيضاً تزعم كلاً من تجو يي تشون و هي لونغ انتفاضة سانغ تجي بمقاطعة خونان. تزعم كلاً من تجو جي لي و غيره من القادة انتفاضة مين شي، تزعم ليو تجي دان انتفاضة وي خوا ب شآن سي. بانغ دا خواي زعيم انتفاضة بينغ جيانغ.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%86%D8%AA%D9%81%D8%A7%D8%B6%D8%A9_%D8%AD%D8%B5%D8%A7%D8%AF_%D8%A7%D9%84%D8%AE%D8%B1%D9%8A%D9%81"
+      },
+      "fr": {
+        "title": "Soulèvement de la récolte d'automne",
+        "extract": "Le soulèvement de la récolte d’automne  est le nom donné à une insurrection, conduite par Mao Zedong en 1927 en Chine dans les provinces du Hunan et du Jiangxi. Ce fut, avec le massacre de Shanghai et le soulèvement de Nanchang, l'un des éléments qui marquèrent le déclenchement de la guerre civile chinoise.",
+        "url": "https://fr.wikipedia.org/wiki/Soul%C3%A8vement_de_la_r%C3%A9colte_d'automne"
+      },
+      "pt": {
+        "title": "Revolta da Colheita de Outono",
+        "extract": "A Revolta da Colheita de Outono foi uma insurreição que ocorreu nas províncias de Hunan e Jiangxi, China, em 7 de setembro de 1927. Liderada por Mao Zedong, a rebelião estabeleceu o Soviete de Hunan, um soviete que teve curta duração.",
+        "url": "https://pt.wikipedia.org/wiki/Revolta_da_Colheita_de_Outono"
+      }
+    }
+  },
+  "Guangzhou Uprising": {
+    "pages": {
+      "ko": {
+        "title": "광저우 봉기",
+        "extract": "광주기의(廣州起義) 또는 광주폭동(廣州暴動)은 1927년 12월 11일 중국 광둥성 광저우시에서 소비에트 건립을 의도해 발생한 폭동으로 중국공산당의 장태뢰(張太雷), 엽검영(葉劍英) 등이 현장을 지도하였고, 한국인 공산주의자 최용건 등이 가담하였다.",
+        "url": "https://ko.wikipedia.org/wiki/%EA%B4%91%EC%A0%80%EC%9A%B0_%EB%B4%89%EA%B8%B0"
+      },
+      "en": {
+        "title": "Guangzhou Uprising",
+        "extract": "The Guangzhou Uprising, Canton Uprising, or Canton Riots of 1927 was a failed communist uprising in the city of Guangzhou (Canton) in southern China.",
+        "url": "https://en.wikipedia.org/wiki/Guangzhou_Uprising"
+      },
+      "zh": {
+        "title": "廣州暴動 (1927年)",
+        "extract": "广州起义是1927年中国国民党实行武力清党（广州对应的是广州四一五事变）之后，中国共产党于1927年12月在广州发动的最后一次大规模武装举事，也是瞿秋白在共产国际帮助下策动的三次起义之一，而前两次分别是南昌起义和秋收起义。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%BB%A3%E5%B7%9E%E6%9A%B4%E5%8B%95_(1927%E5%B9%B4)"
+      },
+      "fr": {
+        "title": "Commune de Canton",
+        "extract": "La Commune de Canton est une insurrection qui prit le pouvoir dans la ville industrielle de Canton, en Chine, pendant 4 jours en décembre 1927. Son dénouement fut sanglant : des milliers d'ouvriers et communistes chinois furent tués par les hommes du Kuomintang.",
+        "url": "https://fr.wikipedia.org/wiki/Commune_de_Canton"
+      }
+    }
+  },
+  "Fifth encirclement campaign against the Jiangxi Soviet": {
+    "pages": {
+      "en": {
+        "title": "Fifth encirclement campaign against the Jiangxi Soviet",
+        "extract": "The fifth encirclement campaign against the Jiangxi Soviet was a series of military operations undertaken during the Chinese Civil War, spanning from September 1933 to October 1934. The conflict pitted the forces of Chiang Kai-shek's Chinese Nationalist Party (Kuomintang) against the Chinese Communists.",
+        "url": "https://en.wikipedia.org/wiki/Fifth_encirclement_campaign_against_the_Jiangxi_Soviet"
+      },
+      "zh": {
+        "title": "中央苏区第五次反围剿战争",
+        "extract": "中央苏区第五次反围剿战争，从1933年10月17日，中华民国国民政府动员近100万国军，开始攻打中国共产党控制下的各个农村根据地，并以50万兵力重点进攻中央苏区。围剿历时363天，直到1934年10月14日才结束；红军被迫撤退，离开中央苏区根据地，标志着国民革命军第五次围剿的胜利。",
+        "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%A4%AE%E8%8B%8F%E5%8C%BA%E7%AC%AC%E4%BA%94%E6%AC%A1%E5%8F%8D%E5%9B%B4%E5%89%BF%E6%88%98%E4%BA%89"
+      }
+    }
+  },
+  "Xi'an Incident": {
+    "pages": {
+      "ko": {
+        "title": "시안 사건",
+        "extract": "시안 사건 또는 서안사건, 시안 사태, 시안 사변(중국어 정체자: 西安事變, 간체자: 西安事变, 병음: Xī'ān Shìbìan)는 1936년 12월 12일 동북군 총사령관 장쉐량이 국민당 정권의 총통 장제스를 산시성의 성도(省都) 시안(西安) 화청지에서 납치하여 구금하고 공산당과의 내전을 중지하고 일본 제국주의의 침략에 맞서 함께 싸울 것을 요구한 사건이다. 이 사건으로 국민당군과 홍군은 국공 내전을 중지하고 제2차 국공 합작이 이루어져 함께 대 일본 전쟁을 수행하는 계기가 되었다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%8B%9C%EC%95%88_%EC%82%AC%EA%B1%B4"
+      },
+      "en": {
+        "title": "Xi'an Incident",
+        "extract": "The Xi'an Incident was a Chinese political crisis that lasted from 12 to 26 December 1936. Generals Zhang Xueliang and Yang Hucheng seized Chiang Kai-shek in Xi'an, demanding the Nationalist government end the Chinese Civil War and ally with the Chinese Communist Party (CCP) against Japanese expansionism, resulting in the Second United Front.",
+        "url": "https://en.wikipedia.org/wiki/Xi'an_Incident"
+      },
+      "zh": {
+        "title": "西安事变",
+        "extract": "西安事变，也被称作西安兵变、双十二事变是第一次国共内战期间一场国民革命军西北军与东北军发动的军事政变。1936年12月12日，西北剿匪总司令部副总司令、东北军将领张学良和国民革命军第十七路军总指挥、西北军将领杨虎城在西安发动“兵谏”，扣押国民政府军事委员会委员长兼行政院院长蒋介石，要求蒋介石立即抗日，停止“剿共”。",
+        "url": "https://zh.wikipedia.org/wiki/%E8%A5%BF%E5%AE%89%E4%BA%8B%E5%8F%98"
+      },
+      "es": {
+        "title": "Incidente de Xi'an",
+        "extract": "El incidente de Xi'an o Sian consistió en el rapto del líder nacionalista chino Chiang Kai-shek por dos de sus generales, con el fin de convencerlo de posponer su guerra contra el Partido Comunista de China hasta que la invasión japonesa hubiera sido derrotada. El secuestro duró del 12 de diciembre de 1936 al 25 del mismo mes.",
+        "url": "https://es.wikipedia.org/wiki/Incidente_de_Xi'an"
+      },
+      "fr": {
+        "title": "Accord de Xi'an",
+        "extract": "Conséquence immédiate de l'incident de Xi'an, l’accord de Xi'an de décembre 1936, est le traité constituant le deuxième front uni entre les nationalistes et les communistes chinois contre l'empire du Japon.",
+        "url": "https://fr.wikipedia.org/wiki/Accord_de_Xi'an"
+      },
+      "pt": {
+        "title": "Incidente de Xian",
+        "extract": "Incidente de Xian foi um episódio político da história moderna da China, ocorrido na cidade de Xian, Xianxim em 1936, durante a guerra civil chinesa — travada entre o governo central do país, o Kuomintang, e o rebelde Partido Comunista Chinês, às vésperas do início da Segunda Guerra Sino-Japonesa, ocorrida entre 1937 e 1945.",
+        "url": "https://pt.wikipedia.org/wiki/Incidente_de_Xian"
+      }
+    }
+  },
+  "New Fourth Army Incident": {
+    "pages": {
+      "ko": {
+        "title": "신사군 사건",
+        "extract": "신사군 사건(新四軍事件) 또는 원난 사건(皖南事变)은 중일 전쟁중인 1941년 중국 공산당과 중국 국민당이 공동 항일 전선을 펼 당시 일어난 사건으로 이 사건으로 공산당과 국민당의 합작은 사실상 결렬되었고 이론적으로만 존재하게 되었다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%8B%A0%EC%82%AC%EA%B5%B0_%EC%82%AC%EA%B1%B4"
+      },
+      "en": {
+        "title": "New Fourth Army Incident",
+        "extract": "The New Fourth Army Incident, also known as the South Anhui Incident or Wannan Incident, occurred in China in January 1941 during the Second Sino-Japanese War, during which the Chinese Civil War was, in theory, suspended, uniting the Chinese Communist Party (CCP) and Nationalist Kuomintangs under a United Front against the Japanese invasion. It is significant as the end of substantive cooperation between the Nationalists and the CCP. Today, ROC and PRC historians view the New Fourth Army Incident differently. From the ROC point of view, the CCP attacked first and the incident was a punishment for its insubordination; from the PRC view, it was Nationalist treachery.",
+        "url": "https://en.wikipedia.org/wiki/New_Fourth_Army_Incident"
+      },
+      "zh": {
+        "title": "皖南事变",
+        "extract": "皖南事变又称为新四军事件，此间的“皖南”即指事变发生地区——安徽南部，而新四军则是指共产党辖下，分别由叶挺、项英任正副军长、袁国平任政治部主任的国民革命军新编第四军。",
+        "url": "https://zh.wikipedia.org/wiki/%E7%9A%96%E5%8D%97%E4%BA%8B%E5%8F%98"
+      },
+      "es": {
+        "title": "Incidente del Nuevo Cuarto Ejército",
+        "extract": "El Incidente del Nuevo Cuarto Ejército (新四軍事件), también conocido como el Incidente de Anhui del Sur (皖南事变), ocurrió en China en enero de 1941 durante la segunda guerra sino-japonesa, durante la cual la guerra civil china fue en teoría suspendida, uniendo a los comunistas y nacionalistas contra los japoneses. Es significativo como el fin de la cooperación real entre los nacionalistas y los comunistas. Hoy, los historiadores de la República de China y la República Popular China ven el Incidente del Nuevo Cuarto Ejército de manera diferente. Desde el punto de vista de la República de China, fue un castigo por la insubordinación comunista; desde el punto de vista de la RPC, fue una traición nacionalista.",
+        "url": "https://es.wikipedia.org/wiki/Incidente_del_Nuevo_Cuarto_Ej%C3%A9rcito"
+      },
+      "ar": {
+        "title": "حادثة الجيش الرابع الجديد",
+        "extract": "حادثة الجيش الرابع الجديد ، والمعروفة أيضًا باسم حادثة جنوب آنهوي أو حادثة وانان وقعت في الصين في يناير 1941 أثناء الحرب الصينية اليابانية الثانية، والتي عُلقت خلالها الحرب الأهلية الصينية نظريًا، مما أدى إلى توحيد الشيوعيين والقوميين تحت جبهة موحدة ضد اليابانيين. تُعد هذه الحادثة ذات أهمية بالغة لأنها أنهت التعاون الحقيقي بين القوميين والشيوعيين. واليوم ينظر مؤرخو جمهورية الصين وجمهورية الصين الشعبية إلى حادثة الجيش الرابع الجديد بشكل مختلف. من وجهة نظر جمهورية الصين، كان الشيوعيون هم من هاجموا أولاً وكان ذلك بمثابة عقاب على العصيان الشيوعي؛ بينما اعتبرتها جمهورية الصين الشعبية خيانةً من القوميين.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%AD%D8%A7%D8%AF%D8%AB%D8%A9_%D8%A7%D9%84%D8%AC%D9%8A%D8%B4_%D8%A7%D9%84%D8%B1%D8%A7%D8%A8%D8%B9_%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF"
+      },
+      "fr": {
+        "title": "Incident de la Nouvelle Quatrième armée",
+        "extract": "L'incident de la Nouvelle Quatrième armée (新四軍事件), aussi appelé incident de l'Anhui du Sud (皖南事变), se déroule en Chine en janvier 1941 durant la Seconde guerre sino-japonaise. Épisode de la guerre civile chinoise, théoriquement suspendue à l'époque, il marque la fin de la coopération réelle entre les nationalistes et les communistes.",
+        "url": "https://fr.wikipedia.org/wiki/Incident_de_la_Nouvelle_Quatri%C3%A8me_arm%C3%A9e"
+      }
+    }
+  },
+  "Shangdang Campaign": {
+    "pages": {
+      "en": {
+        "title": "Shangdang Campaign",
+        "extract": "The Shangdang Campaign was a series of battles fought between Eighth Route Army troops led by Liu Bocheng and Kuomintang troops led by Yan Xishan in what is now Shanxi Province, China. The campaign lasted from 10 September 1945, through 12 October 1945. Like all other Chinese Communist victories in the clashes immediately after Imperial Japan's surrender in World War II, the outcome of this campaign altered the course of the peace negotiation held in Chongqing from 28 August 1945, through 11 October 1945, resulting in a more favourable outcome for Mao Zedong and the party.",
+        "url": "https://en.wikipedia.org/wiki/Shangdang_Campaign"
+      },
+      "zh": {
+        "title": "上党战役",
+        "extract": "上党战役，又称长治战役，发生于1945年中华民国山西省上党地区境内，是抗日战争结束之际中国战区受降仪式后中国国民党、中国共产党两党发生的首次大规模战役，是1945年国共冲突的一部分，成为第二次国共内战的序曲。",
+        "url": "https://zh.wikipedia.org/wiki/%E4%B8%8A%E5%85%9A%E6%88%98%E5%BD%B9"
+      }
+    }
+  },
+  "Second Battle of Siping": {
+    "pages": {
+      "en": {
+        "title": "Second Battle of Siping",
+        "extract": "The Battle of Siping was a battle between the Nationalists and the Chinese Communist Party (CCP) for the control of Siping in 1946 during the Chinese Civil War. This campaign was characterized by the fact that the supreme commanders of both sides had overestimated their strength and set unrealistic goals, but in both cases, the frontline commanders on both sides averted the potential catastrophes by convincing their respective supreme commanders to change their original decisions.",
+        "url": "https://en.wikipedia.org/wiki/Second_Battle_of_Siping"
+      },
+      "zh": {
+        "title": "第二次四平街會戰",
+        "extract": "第二次四平街会战，也称二战四平或四平街保卫战，是第二次国共内战中东北国民革命军与东北民主联军发生的战役。",
+        "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E5%9B%9B%E5%B9%B3%E8%A1%97%E6%9C%83%E6%88%B0"
+      }
+    }
+  },
+  "Battle of Kalgan": {
+    "pages": {
+      "en": {
+        "title": "Battle of Kalgan",
+        "extract": "The Battle of Kalgan took place during the off and on mediation of a cease fire between the Kuomintang and the Chinese Communist Party by George Marshall. It was fought in the renamed city of Zhangjiakou, China.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Kalgan"
+      },
+      "zh": {
+        "title": "张家口战役",
+        "extract": "张家口战役，是1946年9月29日至10月11日八路军晋察冀军区部队抗击国民革命军第十一战区、第十二战区部队沿平绥铁路从东、西两面夹击张家口的一场战役。以傅作义部奇袭张北县城，晋察冀党政军学各单位匆忙撤出张家口进入山区告终。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%BC%A0%E5%AE%B6%E5%8F%A3%E6%88%98%E5%BD%B9"
+      }
+    }
+  },
+  "Battle of Yan'an": {
+    "pages": {
+      "en": {
+        "title": "Battle of Yan'an",
+        "extract": "After World War II, Hu Zongnan battled the Chinese Communist Party and in the early stage of the struggle, was successful in the Battle of Yan'an capturing Yan'an, the capital of the communist base in Shaanxi.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Yan'an"
+      }
+    }
+  },
+  "Menglianggu campaign": {
+    "pages": {
+      "en": {
+        "title": "Menglianggu campaign",
+        "extract": "The Menglianggu campaign was fought between the nationalists and the communists during the Chinese Civil War in the post-World War II era. The battle resulted in the encirclement and destruction of the nationalist corps-sized 74th Reorganized Division, one of the most elite forces of their side, and a significant communist victory. The campaign was later used by the communists as a specific battle example in their military science and history. The battle mainly took place in Menglianggu of Linyi region in Shandong Province.",
+        "url": "https://en.wikipedia.org/wiki/Menglianggu_campaign"
+      },
+      "zh": {
+        "title": "孟良崮戰役",
+        "extract": "孟良崮战役是1947年5月第二次国共内战期间在山东省中部沂蒙山区的一次重大战役。陈毅、粟裕指挥的解放军华东野战军取得了战役的胜利，张灵甫指挥的精锐“王牌模范师”整编七十四师被完全消灭，师长张灵甫身亡。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%AD%9F%E8%89%AF%E5%B4%AE%E6%88%B0%E5%BD%B9"
+      }
+    }
+  },
+  "Liaoshen campaign": {
+    "pages": {
+      "ko": {
+        "title": "랴오선 전역",
+        "extract": "랴오선 전역(중국어 간체자: 辽沈战役, 병음: Liáoshěn zhànyì, 한자음: 요심전역), 랴오닝-선양 전역은 제2차 국공 내전 후기에 중화민국 국군에 대항해 중국 인민해방군이 벌인 전역이다. 국민당 측에서 붙인 랴오시 회전(중국어 정체자: 遼西會戰, 병음: Liáoxī huìzhàn, 한자음: 요서회전)으로도 알려져 있다. 이어지는 화이하이 전역, 핑진 전역과 함께 제2차 국공 내전의 중요한 세 개 전역으로 꼽힌다. 1948년 9월에서 11월까지에 걸쳐 52일 간 전개되었으며, 이 전역으로 중국 인민해방군은 만주 전역에서 중화민국 국군을 격파하여 진저우, 창춘을 획득하고 선양에 입성했다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%9E%B4%EC%98%A4%EC%84%A0_%EC%A0%84%EC%97%AD"
+      },
+      "en": {
+        "title": "Liaoshen campaign",
+        "extract": "The Liaoshen campaign, an abbreviation of Liaoning–Shenyang campaign after the province of Liaoning and its Yuan directly administered capital city Shenyang, was the first of the three major military campaigns launched by the Chinese Communist Party's People's Liberation Army (PLA) against the Kuomintang Nationalist government during the late stage of the Chinese Civil War. This engagement is also known to the Kuomintang as the Liaohsi campaign, and took place between September and November 1948, lasting a total of 52 days. The campaign ended after the Nationalist forces suffered sweeping defeats across Manchuria, losing the major cities of Jinzhou, Changchun, and eventually Shenyang in the process, leading to the capture of the whole of Manchuria by the Communist forces. The victory of the campaign resulted in the Communists achieving a strategic numerical advantage over the Nationalists for the first time in its history.",
+        "url": "https://en.wikipedia.org/wiki/Liaoshen_campaign"
+      },
+      "zh": {
+        "title": "辽沈战役",
+        "extract": "辽沈战役（台湾作辽西会战），又作辽沈会战、锦沈会战。辽沈战役发生在辽宁省西部（以锦州为中心）和沈阳、长春地区，是中国近代史中第二次国共内战的“三大战役”之一，自1948年9月12日开始，至11月2日结束，历时52天。",
+        "url": "https://zh.wikipedia.org/wiki/%E8%BE%BD%E6%B2%88%E6%88%98%E5%BD%B9"
+      },
+      "fr": {
+        "title": "Campagne de Liaoshen",
+        "extract": "La campagne de Liaoshen, abréviation de campagne de Liaoning-Shenyang d'après la province de Liaoning et sa capitale Shenyang administrée directement par les Yuan, fut la première des trois grandes campagnes militaires lancées par l'Armée populaire de libération communiste (APL) contre le gouvernement nationaliste du Kuomintang pendant la dernière phase de la guerre civile chinoise. Cet engagement est également connu du Kuomintang sous le nom de campagne de Liaohsi, et a eu lieu entre septembre et novembre 1948, durant un total de 52 jours. La campagne prit fin après que les forces nationalistes eurent subi des défaites écrasantes à travers la Mandchourie, perdant les principales villes de Jinzhou, Changchun et finalement Shenyang, ce qui conduisit à la capture de toute la Mandchourie par les forces communistes. La victoire de la campagne a permis aux communistes d'obtenir un avantage numérique stratégique sur les nationalistes pour la première fois de leur histoire.",
+        "url": "https://fr.wikipedia.org/wiki/Campagne_de_Liaoshen"
+      },
+      "pt": {
+        "title": "Campanha de Liaoshen",
+        "extract": "A campanha de Liaoshen, uma abreviação da campanha de Liaoning-Shenyang, foi a primeira das três grandes campanhas militares lançadas pelo Exército de Libertação do Povo Comunista contra o governo nacionalista do Kuomintang durante a fase final da Guerra Civil Chinesa. Este engajamento também é conhecido pelo Kuomintang como a campanha de Liaohsi Liáoxī huìzhàn, e ocorreu entre setembro e novembro de 1948, durando um total de 52 dias. A campanha terminou depois que as forças nacionalistas sofreram derrotas abrangentes em toda a Manchúria, perdendo as principais cidades de Jinzhou, Changchun e, eventualmente, Shenyang no processo, levando à captura de toda a Manchúria pelas forças comunistas. A vitória da campanha fez com que os comunistas alcançassem uma vantagem numérica estratégica sobre os nacionalistas pela primeira vez em sua história.",
+        "url": "https://pt.wikipedia.org/wiki/Campanha_de_Liaoshen"
+      }
+    }
+  },
+  "Huaihai campaign": {
+    "pages": {
+      "ko": {
+        "title": "화이하이 전역",
+        "extract": "화이하이 전역(중국어 간체자: 淮海战役, 병음: Huáihǎi Zhànyì)은 랴오선 전역, 핑진 전역과 함께 제2차 국공 내전 후기에 중화민국 국군에 대항해 중국공산군이 벌인 세 개의 전역 중 하나이다. 화이하이 전역은 중국공산군이 1948년 11월 6일 쑤저우에 있는 쑤저우 초비총사령부를 공격하며 시작되었으며, 1949년 1월 10일 공산군이 장강 북안에 도달하며 종료되었다. 화이하이와 핑진 두 전역에서의 패배는 정치적 입지가 좁아진 장제스가 1949년 1월 21일 주석직에서 하야하게 되는 원인이 되었다.",
+        "url": "https://ko.wikipedia.org/wiki/%ED%99%94%EC%9D%B4%ED%95%98%EC%9D%B4_%EC%A0%84%EC%97%AD"
+      },
+      "en": {
+        "title": "Huaihai campaign",
+        "extract": "The Huaihai campaign, or Battle of Hsupeng, was the second of the three major campaigns that was fought between the Kuomintang (KMT) and the Chinese Communist Party (CCP) during the Chinese Civil War. The campaign started when the People's Liberation Army (PLA) of the CCP launched a major offensive against KMT forces operating between the city of Xuzhou and Huai River areas on 6 November 1948, and ended on 10 January 1949 with the destruction or surrender of major KMT forces in the region.",
+        "url": "https://en.wikipedia.org/wiki/Huaihai_campaign"
+      },
+      "zh": {
+        "title": "淮海战役",
+        "extract": "淮海战役（台湾作徐蚌会战）是第二次国共内战中的“三大战役”之一，由中国人民解放军进攻中华民国国军徐州剿匪总司令部防区。由1948年11月6日开始，1949年1月10日结束，历时66天。是第二次国共内战时期，解放军华东野战军、中原野战军在以徐州为中心，东起海州，西迄商丘，北起临城（今枣庄市薛城），南达淮河（蚌埠、淮安一带）的广大地区，对国军一次战略性进攻战役。战役历时65天，解放军歼灭国军5个兵团和1个绥靖区部队，计22个军56个师，共55.5万人，此外还击退由蚌埠方面屡次北援之第六、八两个兵团。",
+        "url": "https://zh.wikipedia.org/wiki/%E6%B7%AE%E6%B5%B7%E6%88%98%E5%BD%B9"
+      }
+    }
+  },
+  "Pingjin campaign": {
+    "pages": {
+      "ko": {
+        "title": "핑진 전역",
+        "extract": "핑진 전역(平津战役)은 랴오선 전역, 화이하이 전역과 더불어 제2차 국공 내전 후기에 중화민국 국군에 대항해 중국공산군이 벌인 3대 전역 중 하나다. 1948년 11월 29일 시작해 64일 간 진행되어 1949년 1월 31일 끝났다. 중화민국의 허베이에서의 우세를 끝냈다. ‘핑진’이라는 단어는 베이핑과 톈진에서 따왔다.",
+        "url": "https://ko.wikipedia.org/wiki/%ED%95%91%EC%A7%84_%EC%A0%84%EC%97%AD"
+      },
+      "en": {
+        "title": "Pingjin campaign",
+        "extract": "The Pingjin campaign, also known as the Battle of Pingjin and also officially known in Chinese Communist historiography as the Liberation of Beijing and Tianjin was part of the three major campaigns launched by the People's Liberation Army during the late stage of the Chinese Civil War against the Government of the Republic of China. It began on 29 November 1948 and ended on 31 January 1949, lasting a total of 64 days. This campaign marked the end of Nationalist dominance in the North China Plain. The term Pingjin refers to the cities Beiping and Tianjin.",
+        "url": "https://en.wikipedia.org/wiki/Pingjin_campaign"
+      },
+      "zh": {
+        "title": "平津战役",
+        "extract": "平津战役（台湾称作平津会战）是中国近代史中的第二次国共内战“三大战役”之一。1948年11月29日开始，1949年1月31日结束，共64天。林彪、罗荣桓、聂荣臻、刘亚楼指挥中国人民解放军东北野战军和华北军区部队进攻，以伤亡3.9万人的代价，歼灭及改编中华民国国军3个兵团，13个军50个师52.1万人，控制北平、天津等华北大片地区。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%B9%B3%E6%B4%A5%E6%88%98%E5%BD%B9"
+      }
+    }
+  },
+  "Taiyuan campaign": {
+    "pages": {
+      "en": {
+        "title": "Taiyuan campaign",
+        "extract": "The Taiyuan campaign was a campaign of the Chinese Civil War fought between the nationalist and communist factions. The campaign was over the control of Taiyuan, the capital of the province of Shanxi, China. The campaign resulted in a communist victory.",
+        "url": "https://en.wikipedia.org/wiki/Taiyuan_campaign"
+      },
+      "zh": {
+        "title": "太原戰役",
+        "extract": "太原战役，是第二次国共内战后期的一场大型战役，战役发生于中华民国山西省太原。1948年10月，中国人民解放军华北野战军等部在徐向前指挥下发起战役。整个战役经过六个月激烈战斗、双方共陆续投入42万余部队参战，围城之际阎锡山治下的山西省政府拒绝投降献城，伤亡惨重。最终解放军于1949年4月25日攻克太原城，随后成功占领了山西乃至华北全境。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%A4%AA%E5%8E%9F%E6%88%B0%E5%BD%B9"
+      }
+    }
+  },
+  "Yangtze River Crossing campaign": {
+    "pages": {
+      "en": {
+        "title": "Yangtze River Crossing campaign",
+        "extract": "The Yangtze River Crossing campaign was a military campaign launched by the People's Liberation Army to cross the Yangtze River and capture Nanjing, the capital of the Nationalist government of the Kuomintang, in the final stage of the Chinese Civil War. The campaign began at night on 20 April, and lasted until 2 June 1949, concluding after the fall of Nanjing and Shanghai to the Communist forces, which eventually resulted in the exile of the Nationalists to the island of Taiwan.",
+        "url": "https://en.wikipedia.org/wiki/Yangtze_River_Crossing_campaign"
+      },
+      "zh": {
+        "title": "渡江战役",
+        "extract": "渡江战役，又称京沪杭战役，是第二次国共内战末期，中国共产党领导的中国人民解放军于1949年4月21日至6月2日在长江中下游强渡长江，与中国国民党领导中华民国国军汤恩伯、白崇禧两集团进行的战略性战役。",
+        "url": "https://zh.wikipedia.org/wiki/%E6%B8%A1%E6%B1%9F%E6%88%98%E5%BD%B9"
+      },
+      "es": {
+        "title": "Campaña del cruce del Yangtsé",
+        "extract": "La campaña del cruce del Yangtzé fue una campaña militar llevada a cabo por el Ejército Popular de Liberación para cruzar el río Yangtsé y capturar Nankín, la capital del gobierno nacionalista del Kuomintang, en la etapa final de la guerra civil china. La campaña comenzó en la noche del 20 de abril y duró hasta el 2 de junio de 1949, concluyendo después de la caída de Nankín y Shanghái ante las fuerzas comunistas.",
+        "url": "https://es.wikipedia.org/wiki/Campa%C3%B1a_del_cruce_del_Yangts%C3%A9"
+      },
+      "pt": {
+        "title": "Campanha de travessia do rio Yangtze",
+        "extract": "A campanha de travessia do rio Yangtze foi uma campanha militar lançada pelo Exército de Libertação Popular para atravessar o rio Yangtze e capturar Nanquim, a capital do governo nacionalista do Kuomintang, na fase final da Guerra Civil Chinesa. A campanha começou na noite de 20 de abril e durou até 2 de junho de 1949, terminando após a queda de Nanquim e Xangai para as forças comunistas, o que acabou resultando no exílio dos nacionalistas para a ilha de Taiwan.",
+        "url": "https://pt.wikipedia.org/wiki/Campanha_de_travessia_do_rio_Yangtze"
+      }
+    }
+  },
+  "Shanghai Campaign": {
+    "pages": {
+      "en": {
+        "title": "Shanghai Campaign",
+        "extract": "The Shanghai Campaign was a series of battles fought between the nationalists and the Chinese Communist Party (CCP) in 1949 for the control of Shanghai, the largest city in China in the latter stage of the Chinese Civil War, and resulted in the city being taken over by the communists, who enjoyed numerical superiority.",
+        "url": "https://en.wikipedia.org/wiki/Shanghai_Campaign"
+      },
+      "zh": {
+        "title": "上海戰役",
+        "extract": "上海战役，是1949年5月12日至27日间，中国人民解放军攻克上海市的战役，是第二次国共内战后期渡江战役末期中相对独立的一场战役。",
+        "url": "https://zh.wikipedia.org/wiki/%E4%B8%8A%E6%B5%B7%E6%88%B0%E5%BD%B9"
+      }
+    }
+  },
+  "Lanzhou Campaign": {
+    "pages": {
+      "en": {
+        "title": "Lanzhou Campaign",
+        "extract": "The Lanzhou Campaign was a series of battles fought between the nationalists and the communists for the control of the largest city in northwestern China during the Chinese Civil War in the post-World War II era, and resulted in a communist victory.",
+        "url": "https://en.wikipedia.org/wiki/Lanzhou_Campaign"
+      },
+      "zh": {
+        "title": "兰州战役",
+        "extract": "兰州战役，是1949年8月至9月发生在中国甘肃及青海地区，中国人民解放军第一野战军同西北中华民国国军进行的一场战役。解放军最终占领兰州和西宁，控制青海全部。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%85%B0%E5%B7%9E%E6%88%98%E5%BD%B9"
+      }
+    }
+  },
+  "Chengdu campaign": {
+    "pages": {
+      "en": {
+        "title": "Chengdu campaign",
+        "extract": "The Chengdu campaign was the capture of Chengdu by the People's Republic of China (Communists) in December 1949 during the Chinese Civil War. The city was the national capital of the Republic of China (Nationalists) and provincial capital of the southwestern Chinese province of Sichuan. The campaign was the Southwestern China campaign, also considered part of the Campaign to Suppress Bandits in Southwestern China.",
+        "url": "https://en.wikipedia.org/wiki/Chengdu_campaign"
+      },
+      "zh": {
+        "title": "成都战役",
+        "extract": "成都战役是第二次国共内战后期的一次战役，发生于1949年12月的四川成都平原，通过此次战役，刘伯承、邓小平率领中国人民解放军第二野战军在成都平原歼灭胡宗南所率领的国军30余万人，进占成都。",
+        "url": "https://zh.wikipedia.org/wiki/%E6%88%90%E9%83%BD%E6%88%98%E5%BD%B9"
+      }
+    }
+  }
+}

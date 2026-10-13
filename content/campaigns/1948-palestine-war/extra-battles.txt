@@ -1,0 +1,61 @@
+# Wikidata에 날짜·좌표가 없어 자동으로 안 잡히는 전투를 직접 추가 (자동 생성이 덮어쓰지 않음)
+
+@ battle-for-jerusalem
+wikipedia: Battle for Jerusalem
+when: 1947-12 ~ 1948-07
+coords: 35.23, 31.78
+links: 11
+
+@ operation-nachshon
+wikipedia: Operation Nachshon
+when: 1948-04
+coords: 35.08, 31.82
+links: 11
+
+@ deir-yassin-massacre
+wikipedia: Deir Yassin massacre
+when: 1948-04
+coords: 35.18, 31.79
+links: 40
+
+@ kfar-etzion-massacre
+wikipedia: Kfar Etzion massacre
+when: 1948-05
+coords: 35.12, 31.65
+links: 11
+
+@ operation-dani
+wikipedia: Operation Dani
+when: 1948-07
+coords: 34.89, 31.94
+links: 15
+
+@ operation-dekel
+wikipedia: Operation Dekel
+when: 1948-07
+coords: 35.3, 32.7
+links: 9
+
+@ operation-yoav
+wikipedia: Operation Yoav
+when: 1948-10
+coords: 34.7, 31.45
+links: 11
+
+@ operation-hiram
+wikipedia: Operation Hiram
+when: 1948-10
+coords: 35.4, 33.02
+links: 13
+
+@ operation-horev
+wikipedia: Operation Horev
+when: 1948-12 ~ 1949-01
+coords: 34.45, 30.95
+links: 9
+
+@ operation-uvda
+wikipedia: Operation Uvda
+when: 1949-03
+coords: 34.95, 29.56
+links: 10

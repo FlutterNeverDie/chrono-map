@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Chinese Civil War
+region: china
+when: 1927 ~ 1949
+unit: year
+borders-step: 1
+view: 112, 33, 3
+search: 95, 128, 18, 50
+min-links: 2
+side.a.ko: 공산당
+side.a.en: Communists
+side.a.zh: 中国共产党
+side.a.es: Comunistas
+side.a.hi: साम्यवादी
+side.a.ar: الشيوعيون
+side.a.fr: Communistes
+side.a.pt: Comunistas
+side.b.ko: 국민당
+side.b.en: Nationalists
+side.b.zh: 中国国民党
+side.b.es: Nacionalistas
+side.b.hi: राष्ट्रवादी
+side.b.ar: القوميون
+side.b.fr: Nationalistes
+side.b.pt: Nacionalistas

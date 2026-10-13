@@ -1,0 +1,6 @@
+# 나라(정치체)별 진영: 원본 이름 = a | b | n [시작 ~ 끝]. 없으면 기타(n). 형식은 content/campaigns/CLAUDE.md
+
+Tang Dynasty = a
+Silla = a
+Goguryeo = b
+# 백제(660 멸망)는 별개 전쟁(나당-백제 전쟁)이라 기타로 둔다

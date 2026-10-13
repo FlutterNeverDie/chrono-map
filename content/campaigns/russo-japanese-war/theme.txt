@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Russo-Japanese War
+region: japan
+when: 1904-02 ~ 1905-09
+unit: month
+borders-step: 1
+view: 127, 39, 4
+search: 115, 145, 30, 52
+min-links: 2
+side.a.ko: 일본
+side.a.en: Japan
+side.a.zh: 日本
+side.a.es: Japón
+side.a.hi: जापान
+side.a.ar: اليابان
+side.a.fr: Japon
+side.a.pt: Japão
+side.b.ko: 러시아
+side.b.en: Russia
+side.b.zh: 俄罗斯
+side.b.es: Rusia
+side.b.hi: रूस
+side.b.ar: روسيا
+side.b.fr: Russie
+side.b.pt: Rússia

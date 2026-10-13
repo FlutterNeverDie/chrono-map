@@ -1,0 +1,98 @@
+# Peloponnesian War 전투 (Wikidata 자동 생성, 직접 고쳐도 됨). 형식은 content/campaigns/CLAUDE.md
+
+@ battle-of-spartolos
+wikipedia: Battle of Spartolos
+when: -429
+coords: 23.3, 40.28
+links: 13
+
+@ siege-of-plataea
+wikipedia: Siege of Plataea
+when: -429
+coords: 23.27, 38.22
+links: 8
+
+@ battle-of-naupactus
+wikipedia: Battle of Naupactus
+when: -429
+coords: 21.83, 38.39
+links: 18
+
+@ battle-of-rhium
+wikipedia: Battle of Rhium
+when: -429
+coords: 21.77, 38.32
+links: 11
+
+@ battle-of-olpae
+wikipedia: Battle of Olpae
+when: -426
+coords: 21.15, 38.95
+links: 14
+
+@ battle-of-sphacteria
+wikipedia: Battle of Sphacteria
+when: -425
+coords: 21.67, 36.93
+links: 21
+
+@ battle-of-pylos
+wikipedia: Battle of Pylos
+when: -425
+coords: 21.7, 36.92
+links: 18
+
+@ battle-of-delium
+wikipedia: Battle of Delium
+when: -424
+coords: 23.65, 38.35
+links: 21
+
+@ battle-of-amphipolis
+wikipedia: Battle of Amphipolis
+when: -422
+coords: 23.85, 40.82
+links: 21
+
+@ battle-of-mantinea-418-bc
+wikipedia: Battle of Mantinea (418 BC)
+when: -418
+coords: 22.4, 37.6
+links: 19
+
+@ siege-of-melos
+wikipedia: Siege of Melos
+when: -415
+coords: 24.42, 36.68
+links: 15
+
+@ battle-of-cynossema
+wikipedia: Battle of Cynossema
+when: -411
+coords: 26.39, 40.14
+links: 13
+
+@ battle-of-cyzicus
+wikipedia: Battle of Cyzicus
+when: -410
+coords: 27.89, 40.38
+links: 18
+
+@ battle-of-notium
+wikipedia: Battle of Notium
+when: -406
+coords: 26.85, 37.99
+links: 15
+
+@ battle-of-arginusae
+wikipedia: Battle of Arginusae
+when: -406
+coords: 26.8, 39.03
+links: 26
+
+@ battle-of-aegospotami
+wikipedia: Battle of Aegospotami
+when: -405
+coords: 26.55, 40.25
+links: 33
+

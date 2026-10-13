@@ -1,0 +1,43 @@
+# Wikidata에 날짜·좌표가 없어 자동으로 안 잡히는 전투를 직접 추가 (자동 생성이 덮어쓰지 않음)
+
+@ operation-morvarid
+wikipedia: Operation Morvarid
+when: 1980-11
+coords: 49.0, 29.7
+links: 11
+
+@ operation-fath-ol-mobin
+wikipedia: Operation Fath ol-Mobin
+when: 1982-03
+coords: 48.1, 32.45
+links: 12
+
+@ operation-ramadan
+wikipedia: Operation Ramadan
+when: 1982-07 ~ 1982-08
+coords: 47.95, 30.55
+links: 14
+
+@ halabja-massacre
+wikipedia: Halabja massacre
+when: 1988-03
+coords: 45.98, 35.18
+links: 36
+
+@ second-battle-of-al-faw
+wikipedia: Second Battle of al-Faw
+when: 1988-04
+coords: 48.47, 29.98
+links: 9
+
+@ operation-praying-mantis
+wikipedia: Operation Praying Mantis
+when: 1988-04
+coords: 52.6, 26.4
+links: 18
+
+@ operation-mersad
+wikipedia: Operation Mersad
+when: 1988-07
+coords: 46.8, 34.15
+links: 10

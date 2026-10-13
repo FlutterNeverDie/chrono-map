@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: 1948 Palestine war
+region: middle-east
+when: 1947-11 ~ 1949-07
+unit: month
+borders-step: 1
+view: 35, 31.5, 6
+search: 33, 37, 29, 34
+min-links: 3
+side.a.ko: 이스라엘(이슈브)
+side.a.en: Israel (Yishuv)
+side.a.zh: 以色列（伊休夫）
+side.a.es: Israel (Yishuv)
+side.a.hi: इज़राइल (यिशूव)
+side.a.ar: إسرائيل (اليشوف)
+side.a.fr: Israël (Yichouv)
+side.a.pt: Israel (Yishuv)
+side.b.ko: 아랍 국가·팔레스타인 아랍인
+side.b.en: Arab states & Palestinian Arabs
+side.b.zh: 阿拉伯国家与巴勒斯坦阿拉伯人
+side.b.es: Estados árabes y árabes palestinos
+side.b.hi: अरब राज्य और फ़िलिस्तीनी अरब
+side.b.ar: الدول العربية والعرب الفلسطينيون
+side.b.fr: États arabes et Arabes palestiniens
+side.b.pt: Estados árabes e árabes palestinos

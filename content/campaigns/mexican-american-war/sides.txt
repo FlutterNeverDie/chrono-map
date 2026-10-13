@@ -1,0 +1,7 @@
+# 나라(정치체)별 진영 — 형식은 content/campaigns/CLAUDE.md
+
+United States of America = a
+California Republic = a
+Federated Republic of Mexico = b
+Centralist Mexico = b
+# 원본 1846~48 United States of America에 라이베리아가 포함돼 있음(작은 영역이라 그대로 둠)

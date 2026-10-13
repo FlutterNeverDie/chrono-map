@@ -1,0 +1,638 @@
+{
+  "Russo-Japanese War": {
+    "pages": {
+      "ko": {
+        "title": "러일 전쟁",
+        "extract": "러일 전쟁(일본어: 日露戦争 니치로센소[*], 러시아어: Русско-японская война 루스코야폰스카야 보이나[*], 영어: Russo-Japanese War, 문화어: 로일전쟁)은 1904년 2월 8일에 발발하여 1905년 가을까지 계속된 전쟁으로 러시아 제국과 일본 제국이 대한제국에서 주도권을 쟁취하려는 무력 충돌이었다. 러일 전쟁의 주요 무대는 만주 남부, 특히 요동 반도와 한반도 근해였다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%9F%AC%EC%9D%BC_%EC%A0%84%EC%9F%81"
+      },
+      "en": {
+        "title": "Russo-Japanese War",
+        "extract": "The Russo-Japanese War was fought between the Russian Empire and the Empire of Japan over rival imperial ambitions in Manchuria and the Korean Empire. The major land battles of the war were fought on the Liaodong Peninsula and near Mukden in Southern Manchuria, with naval battles taking place in the Yellow Sea and the Sea of Japan.",
+        "url": "https://en.wikipedia.org/wiki/Russo-Japanese_War"
+      },
+      "zh": {
+        "title": "日俄战争",
+        "extract": "日俄战争 是1904至1905年亚洲地区发生的大规模冲突，因大日本帝国和俄罗斯帝国为争夺中国东北地区与朝鲜的争端而起。日本海军于1904年2月9日袭击驻扎在旅顺港的俄国太平洋舰队，后其陆军登陆朝鲜入侵满洲地区，并于1905年1月攻下旅顺，于3月攻占奉天。俄国海军舰队后于5月抵达，但在对马海峡海战被日军舰队击溃，最终在美国总统西奥多·罗斯福斡旋下，签订《朴次茅斯条约》，结束战争。",
+        "url": "https://zh.wikipedia.org/wiki/%E6%97%A5%E4%BF%84%E6%88%98%E4%BA%89"
+      },
+      "es": {
+        "title": "Guerra ruso-japonesa",
+        "extract": "La guerra ruso-japonesa\n(日露戦争 o Nichirosensō en japonés, y Русско-японская война o Russko-yaponskaya voyna en ruso)\nfue una guerra entre el Imperio ruso y el Imperio japonés por sus ambiciones imperiales rivales en Manchuria y el Imperio de Corea.\nTranscurrió entre el 8 de febrero de 1904 y el 5 de septiembre de 1905.\nLas principales batallas terrestres de la guerra se libraron en la península de Liaodong y cerca de Mukden, en el sur de Manchuria, y las batallas navales tuvieron lugar en el mar Amarillo y el mar del Japón.",
+        "url": "https://es.wikipedia.org/wiki/Guerra_ruso-japonesa"
+      },
+      "hi": {
+        "title": "रूस-जापान युद्ध",
+        "extract": "रूस-जापान युद्ध रूस तथा जापान के मध्य 1904 -1905 के दौरान लड़ा गया था। इसमें जापान की विजय हुई थी जिसके फलस्वरूप जापान को मंचूरिया तथा कोरिया का अधिकार मिला था। इस जीत ने विश्व के सभी प्रेक्षकों को आश्चर्यचकित कर दिया और जापान को विश्वमंच पर लाकर खड़ा कर दिया।",
+        "url": "https://hi.wikipedia.org/wiki/%E0%A4%B0%E0%A5%82%E0%A4%B8-%E0%A4%9C%E0%A4%BE%E0%A4%AA%E0%A4%BE%E0%A4%A8_%E0%A4%AF%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A7"
+      },
+      "ar": {
+        "title": "الحرب الروسية اليابانية",
+        "extract": "اندلعت الحرب الروسية اليابانية بين عامي 1904 و 1905 بين الإمبراطورية الروسية وإمبراطورية اليابان، بسبب طموحات الدولتين التنافسية في منشوريا وكوريا. كانت أهم مسارح العمليات شبه جزيرة ليودونغ وموكدين في منشوريا الجنوبية والبحار المحيطة بكوريا، واليابان والبحر الأصفر.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%AD%D8%B1%D8%A8_%D8%A7%D9%84%D8%B1%D9%88%D8%B3%D9%8A%D8%A9_%D8%A7%D9%84%D9%8A%D8%A7%D8%A8%D8%A7%D9%86%D9%8A%D8%A9"
+      },
+      "fr": {
+        "title": "Guerre russo-japonaise",
+        "extract": "La guerre russo-japonaise se déroule du 8 février 1904 au 5 septembre 1905. Elle oppose l'Empire russe à l'empire du Japon, lequel, victorieux, obtient par le traité de Portsmouth la moitié méridionale de l'île de Sakhaline.",
+        "url": "https://fr.wikipedia.org/wiki/Guerre_russo-japonaise"
+      },
+      "pt": {
+        "title": "Guerra Russo-Japonesa",
+        "extract": "A Guerra Russo-Japonesa foi travada entre o Império Russo e o Império do Japão devido a ambições imperiais rivais na Manchúria e no Império Coreano. As principais batalhas terrestres da guerra foram travadas na Península de Liautum e perto de Mukden, no sul da Manchúria, com batalhas navais ocorrendo no Mar Amarelo e no Mar do Japão.",
+        "url": "https://pt.wikipedia.org/wiki/Guerra_Russo-Japonesa"
+      }
+    }
+  },
+  "Battle of Chemulpo Bay": {
+    "pages": {
+      "ko": {
+        "title": "제물포 해전",
+        "extract": "제물포 해전(일본어: 仁川沖海戦, 러시아어: Бой в заливе Чемульпо)은 러일 전쟁 초기 1904년 2월 9일에 벌어진 전투로 여순항 해전과 함께 러시아와 일본이 벌인 첫 전투이며 모두 기습적인 공격으로 일본이 승리했다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%A0%9C%EB%AC%BC%ED%8F%AC_%ED%95%B4%EC%A0%84"
+      },
+      "en": {
+        "title": "Battle of Chemulpo Bay",
+        "extract": "The Battle of Chemulpo Bay was a naval battle in the Russo-Japanese War (1904–1905), which took place on 9 February 1904, off the coast of present-day Incheon, Korea.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Chemulpo_Bay"
+      },
+      "zh": {
+        "title": "仁川海战",
+        "extract": "仁川海战 是1904年2月9日，日俄战争的揭幕战之一。是役大日本帝国海军投入了压倒性的兵力，轻松击败了俄罗斯帝国海军驻扎在仁川港的舰艇，俄军损失两艘军舰。由于仁川旧称“济物浦”，因此本次战斗在一些著作里（如俄文、韩文、英文）也称为济物浦海战。",
+        "url": "https://zh.wikipedia.org/wiki/%E4%BB%81%E5%B7%9D%E6%B5%B7%E6%88%98"
+      },
+      "es": {
+        "title": "Batalla de Chemulpo",
+        "extract": "La batalla de Chemulpo fue una batalla naval que tuvo lugar el 9 de febrero de 1904 en el puerto del mismo nombre, en Corea, en el marco de la guerra ruso-japonesa (1904-1905), enfrentando a la Marina de la Rusia Imperial con la Armada Imperial Japonesa.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Chemulpo"
+      },
+      "ar": {
+        "title": "معركة خليج تشيمولبو",
+        "extract": "معركة خليج تشيمولبو هي معركة بحرية وقعت في بداية الحرب الروسية اليابانية في 9 فبراير 1904 بخليج تشيمولبو في إنشيون بالإمبواطورية الكورية.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%AE%D9%84%D9%8A%D8%AC_%D8%AA%D8%B4%D9%8A%D9%85%D9%88%D9%84%D8%A8%D9%88"
+      },
+      "fr": {
+        "title": "Bataille de Chemulpo",
+        "extract": "La bataille de Chemulpo est une bataille navale livrée le 9 février 1904 en Corée, pendant la guerre russo-japonaise (1904-1905).",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Chemulpo"
+      },
+      "pt": {
+        "title": "Batalha da Baía de Chemulpo",
+        "extract": "A Batalha da Baía de Chemulpo foi uma batalha naval da Guerra Russo-Japonesa que ocorreu em 9 de fevereiro de 1904 na costa da atual Incheon, na Coreia.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_da_Ba%C3%ADa_de_Chemulpo"
+      }
+    }
+  },
+  "Battle of Port Arthur": {
+    "pages": {
+      "ko": {
+        "title": "여순항 해전",
+        "extract": "여순항 해전(일본어: 旅順港閉塞作戦, 러시아어: Бой у Порт-Артура)은 러일 전쟁의 초기 전투이자 첫 전투로 1904년 2월 8일 만주 여순항에 정박하고 있던 러시아 제1태평양 함대를 일본의 구축함 편대가 공격하면서 시작되었다. 전투는 다음날 2월 9일에도 계속되어 7척의 러시아 전함이 피해를 입었고 뒤이어 여순항 봉쇄로 이어져 5월까지 계속되었다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%97%AC%EC%88%9C%ED%95%AD_%ED%95%B4%EC%A0%84"
+      },
+      "en": {
+        "title": "Battle of Port Arthur",
+        "extract": "The Battle of Port Arthur  of 8–9 February 1904 marked the commencement of the Russo-Japanese War. It began with a surprise night attack by a squadron of Japanese destroyers on the neutral Russian fleet anchored at Port Arthur, Manchuria, and continued with an engagement the following morning; further skirmishing off Port Arthur would continue until May 1904. The attack ended inconclusively.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Port_Arthur"
+      },
+      "zh": {
+        "title": "旅顺口海战",
+        "extract": "旅顺口海战 主要是指1904年2月8-9日间，即日俄战争开战初期，大日本帝国海军主力对俄罗斯帝国海军驻扎在旅顺口的太平洋舰队旅顺分舰队突然发动的夜间鱼雷袭击，以及随之而来的日间水面战斗。有时候也包括了随后数个月内的一连串封锁与反封锁的海上战斗。",
+        "url": "https://zh.wikipedia.org/wiki/%E6%97%85%E9%A1%BA%E5%8F%A3%E6%B5%B7%E6%88%98"
+      },
+      "es": {
+        "title": "Batalla de Port Arthur",
+        "extract": "La batalla de Port Arthur  del 8 al 9 de febrero de 1904, marcó el comienzo de la guerra ruso-japonesa (1904-1905). Esta se inicio con un ataque nocturno sorpresa de un escuadrón de destructores de la Armada Imperial Japonesa contra la flota Rusa, la que se hallaba anclada en Port Arthur, Manchuria. Al día siguiente continuó con la batalla de Chemulpo, Corea, que en realidad terminaría siendo una auténtica masacre perpetrada a traición por los japoneses que tenían una ventaja numérica de nueve barcos de guerra contra dos de los rusos, quienes los acribillaron, mientras estos salían de este puerto, que era un puerto neutral. Las escaramuzas en Port Arthur, continuarían hasta mayo de 1904. El ataque terminó sin resultados concluyentes, aunque la guerra en general, acabó en una decisiva victoria japonesa.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Port_Arthur"
+      },
+      "fr": {
+        "title": "Bataille de Port-Arthur",
+        "extract": "La bataille de Port-Arthur est une bataille navale qui met aux prises la marine impériale japonaise et l'escadre russe au début de la guerre russo-japonaise de 1904-1905.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Port-Arthur"
+      },
+      "pt": {
+        "title": "Batalha de Port Arthur",
+        "extract": "A Batalha de Port Arthur  de 8 à 9 de fevereiro de 1904 marcou o início da Guerra Russo-Japonesa. Começou com um ataque noturno surpresa de uma esquadra de contratorpedeiros japoneses contra a frota russa neutra ancorada em Port Arthur, Manchúria, China e continuou com um confronto na manhã seguinte; outras escaramuças perto de Port Arthur continuariam até maio de 1904. O ataque terminou sem um vencedor claro.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Port_Arthur"
+      }
+    }
+  },
+  "Battle of the Yalu River (1904)": {
+    "pages": {
+      "ko": {
+        "title": "압록강 회전",
+        "extract": "압록강 회전(일본어: 鴨綠江會戰 오우료쿠코 카이센[*], 러시아어: Бой на реке Ялу 보이 나 레케 얄루[*])은 1904년 4월 30일 러일 전쟁에서 일본 제국 육군 제1군이 압록강을 도하하여 만주로 가는 길에 대기하고 있던 러시아 제국 육군과 최초로 격돌한 전투이다. 압록강 도하작전(鴨緑江渡河作戦)이라고도 불린다. 교전은 압록강 하구 의주에서 벌어졌으며, 압록강을 경계로 조선과 만주의 경계가 경계가 되는 곳이었다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%95%95%EB%A1%9D%EA%B0%95_%ED%9A%8C%EC%A0%84"
+      },
+      "en": {
+        "title": "Battle of the Yalu River (1904)",
+        "extract": "The Battle of the Yalu River lasted from April 30 to May 1, 1904 and was the first major land battle during the Russo-Japanese War. It was fought near Wiju on the lower reaches of the Yalu River, on the border between Korea and China. Also known as the Yalu River Crossing Operation.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_the_Yalu_River_(1904)"
+      },
+      "zh": {
+        "title": "鸭绿江会战",
+        "extract": "鸭绿江会战是日俄战争中两国陆军的初次交锋，这意味着战争主场转移至中国东北。",
+        "url": "https://zh.wikipedia.org/wiki/%E9%B8%AD%E7%BB%BF%E6%B1%9F%E4%BC%9A%E6%88%98"
+      },
+      "es": {
+        "title": "Batalla del río Yalu (1904)",
+        "extract": "La batalla del río Yalu, fue la primera batalla terrestre importante durante la guerra ruso-japonesa. Se libró cerca de la aldea Wiju, en la parte baja del río Yalu, en la frontera entre Corea y China.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_del_r%C3%ADo_Yalu_(1904)"
+      },
+      "fr": {
+        "title": "Bataille du fleuve Yalou (1904)",
+        "extract": "La bataille du fleuve Yalou, du 30 avril au 1er mai 1904, est le premier affrontement terrestre de la guerre russo-japonaise. Elle a lieu près de Wiju dans le cours inférieur du Yalou à la frontière entre la Corée et la Chine.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_du_fleuve_Yalou_(1904)"
+      }
+    }
+  },
+  "Battle of Nanshan": {
+    "pages": {
+      "ko": {
+        "title": "남산 전투",
+        "extract": "남산 전투(일본어: 南山の戦 난잔 노 타타카이[*], 러시아어: Бой у Цзиньчжоу)는 1904년 5월 25일부터 5월 26일까지 요동반도의 남산과 그 근교의 진저우 성에서 벌어진 러시아 제국 육군과 일본 제국 육해군 간의 전투이다. 러시아 군은 기관총 등으로 무장하고 남산을 어느 정도 요새화시켜 두었기 때문에, 절반은 참호전, 공성전이 되었다. 일본 육군 제2군은 러시아군의 2배가 넘는 병력을 보유하고 있었음에도 불구하고 총 병력의 10%가 넘는 병력을 잃었다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%82%A8%EC%82%B0_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Nanshan",
+        "extract": "The Battle of Nanshan , also known as the battle of Jinzhou or Chinchou, was one of many vicious land battles of the Russo-Japanese War. It took place on 24–26 May 1904 across a two-mile-wide defense line across the narrowest part of the Liáodōng Peninsula, covering the approaches to Port Arthur and on the 116-meter high Nanshan Hill, the present-day Jinzhou District, north of the city center of Dalian, Liaoning, China.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Nanshan"
+      },
+      "zh": {
+        "title": "南山会战",
+        "extract": "南山会战是日俄战争中许多险恶会战之一。该会战于1904年5月24日至26日在覆盖了旅顺港和116米高的南山的，横贯辽东半岛最狭窄部分的一条两英里宽的防线上进行。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%8D%97%E5%B1%B1%E4%BC%9A%E6%88%98"
+      },
+      "es": {
+        "title": "Batalla de Nanshan",
+        "extract": "La batalla de Nanshan fue una de las muchas batallas terrestres de la guerra ruso-japonesa. Tuvo lugar del 24 al 26 de mayo de 1904 a través de una línea de defensa de dos millas de ancho en la parte más estrecha de la península de Liáodōng, cubriendo los accesos a Port Arthur y en la colina de Nanshan de 116 metros de altura, el actual distrito de Jinzhou, al norte del centro de la ciudad de Dalian, Liaoning, China.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Nanshan"
+      },
+      "fr": {
+        "title": "Bataille de Nanshan",
+        "extract": "La bataille de Nanshan est l'un des violents affrontements de la guerre russo-japonaise. Elle a lieu du 24 au 26 mai 1904 dans la province chinoise du Liaoning au nord de Port-Arthur. Bien que victorieux, les Japonais eurent à souffrir de pertes plus importantes que les Russes.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Nanshan"
+      }
+    }
+  },
+  "Battle of Te-li-Ssu": {
+    "pages": {
+      "ko": {
+        "title": "텔리수 전투",
+        "extract": "텔리수 전투(일본어: 得利寺の戦い 도쿠리지 노 타타카이[*]) 또는 와팡구 전투(러시아어: Бой у Вафангоу)는 러일 전쟁 중에 벌어진 전투 중 하나이다. 뤼순에 틀어 박혀 있던 러시아 군을 엄호하기 위해 득리사(得利寺, 일본어로 도쿠리지)에 진지를 구축 중이던 시베리아 제1군단과 그들을 공격한 일본 육군 제2군 사이에 벌어진 전투이다. 전투는 만주 여순항 북쪽 130 km 떨어진 작은 촌락에서 벌어졌다. 오늘날 이 촌락은 ‘드리시’(중국어: 得利寺 Delisi[*])로 알려져 있으며, 랴오닝성 와팡뎬 북쪽에 위치해 있다.",
+        "url": "https://ko.wikipedia.org/wiki/%ED%85%94%EB%A6%AC%EC%88%98_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Te-li-Ssu",
+        "extract": "The Battle of Te-li-ssu, also called Battle of Wafangou after the nearby railway station, was a land battle of the Russo-Japanese War. The battle was fought on 14–15 June 1904 between the Japanese Second Army under General Oku Yasukata and the Russian First Siberian Army Corps under Lieutenant General Georgii Stackelberg, at a hamlet some 80 mi (130 km) north of Port Arthur, Manchuria. The battle resulted in a Japanese victory.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Te-li-Ssu"
+      },
+      "es": {
+        "title": "Batalla de Te-li-Ssu",
+        "extract": "La batalla de Te-li-Ssu, también llamada batalla de Wafangou después de la cercana estación de ferrocarril, fue una batalla terrestre de la guerra ruso-japonesa. Se combatió en una aldea a unos 130 km al norte de Port Arthur, Manchuria. La aldea se conoce hoy como Delisi, y se encuentra justo al norte de Wafangdian, provincia de Liaoning, China. Se libró del 14 al 15 de junio de 1904 entre el Segundo Ejército japonés bajo el mando del general Oku Yasukata y el 1.er Cuerpo del Ejército Siberiano bajo el teniente general Georgii Stackelberg.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Te-li-Ssu"
+      },
+      "fr": {
+        "title": "Bataille de Te-li-Ssu",
+        "extract": "La bataille de Te-li-Ssu (得利寺の戦い, Tokuriji no tatakai), aussi appelée bataille de Wafangou d'après le nom d'une gare environnante, est un affrontement terrestre de la guerre russo-japonaise qui eut lieu à environ 130 km au nord de Port-Arthur du 14 au 15 juin 1904.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Te-li-Ssu"
+      }
+    }
+  },
+  "Battle of Motien Pass": {
+    "pages": {
+      "ko": {
+        "title": "모티엔 전투",
+        "extract": "모티엔 전투(일본어: 摩天嶺の戦い 마텐레이 노 타타카이[*], 러시아어: Бой на Янзелинском перевале) 또는 모티엔 고개 전투는 1904년 6월 27일 러일 전쟁 당시 만주에서 표도르 켈레르 중장이 이끄는 러시아 제국 육군과 구로키 다메모토가 이끄는 일본 제국 육군의 소규모 군대가 전략적 요충지인 모티엔 고개에서 벌인 전투이다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%AA%A8%ED%8B%B0%EC%97%94_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Motien Pass",
+        "extract": "The Battle of Motien Pass was a minor land battle of the Russo-Japanese War, fought between the Imperial Japanese Army under General Kuroki Tamemoto and the Imperial Russian Army under General Fyodor Eduardovich Keller over control of a strategic mountain pass on the main road between the coast and Liaoyang in Qing China on 10 July 1904.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Motien_Pass"
+      },
+      "zh": {
+        "title": "摩天嶺之戰",
+        "extract": "摩天岭之战是1904年7月10日，日俄战争期间的一场小型陆战，日本帝国方面由黑木为桢指挥11000人对阵俄罗斯帝国费多尔·凯勒指挥的25000人，地点为东北辽东半岛摩天岭（本溪满族自治县连山关镇），期间凯勒阵亡，日本方面获得胜利。",
+        "url": "https://zh.wikipedia.org/wiki/%E6%91%A9%E5%A4%A9%E5%B6%BA%E4%B9%8B%E6%88%B0"
+      },
+      "es": {
+        "title": "Batalla del Paso Motien",
+        "extract": "La batalla del Paso Motien fue un conflicto menor de la guerra ruso-japonesa, que tuvo lugar el 27 de junio de 1904, entre tropas del Ejército Imperial Japonés bajo el mando del General Kuroki Tamemoto y las del Ejército Imperial ruso al mando del General Conde Fyodor Keller, por el control de un paso estratégico entre montañas de la carretera principal que une la costa y Liaoyang, Manchuria.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_del_Paso_Motien"
+      },
+      "fr": {
+        "title": "Bataille du col de Motien",
+        "extract": "La bataille du col de Motien (得利寺の戦い, Matenrei-no-tatakai) est un petit affrontement terrestre de la guerre russo-japonaise qui eut lieu le 10 juillet 1904. Elle avait pour objectif le contrôle d'une passe de montagne stratégique entre la côté et la ville de Liaoyang.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_du_col_de_Motien"
+      }
+    }
+  },
+  "Battle of Tashihchiao": {
+    "pages": {
+      "ko": {
+        "title": "대석교 전투",
+        "extract": "대석교 전투(일본어: 大石橋の戦い 타이세키하시 노 타타카이[*] 또는 중국어로 타이시차오 전투)는 1904년 7월 24일부터 이틀동안 러일 전쟁 중에 발발한 전투 중 하나로, 잉커우와 남만주 철도 본선을 연결하는 대석교에 자리를 잡은 러시아 제국 육군의 시베리아 제1군단과 시베리아 제4군단을 일본 제국 육군 제2군이 공격하여 승리했다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%8C%80%EC%84%9D%EA%B5%90_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Tashihchiao",
+        "extract": "The Battle of Tashihchiao  was a land engagement fought on 24–25 July 1904, during the Imperial Japanese Army's advance toward Liaoyang in first stage of the Russo-Japanese War. Tashihchiao is located about 25 kilometres (16 mi) southwest of the city of Haicheng, in present-day Liaoning Province, China. The town of Tashihchiao was of strategic importance in the Russo-Japanese War, as it was a railroad junction between the main line on the Russian South Manchurian Railway and a spur which led to the old treaty port of Yingkou (Newchwang). Control of both was essential for further advances by Japanese forces towards Liaoyang and Mukden.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Tashihchiao"
+      },
+      "es": {
+        "title": "Batalla de Tashihchiao",
+        "extract": "La batalla de Tashihchiao fue un enfrentamiento terrestre, a pequeña escala, ocurrido los días 24 y 25 de julio de 1904, durante el avance hacia Liaoyang del Ejército Imperial Japonés, en la primera etapa de la guerra ruso-japonesa.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Tashihchiao"
+      },
+      "fr": {
+        "title": "Bataille de Tashihchiao",
+        "extract": "La bataille de Tashihchiao (大石橋の戦い, Taisekihashi no Tatakai) est un affrontement terrestre de la guerre russo-japonaise qui eut lieu les 24 et 25 juillet 1904. La ville de Tashihchiao est située à environ 25 km au sud-ouest de Haicheng dans la province du Liaoning. Elle est d'une importance stratégique durant la guerre en raison de la jonction ferroviaire entre la ligne principale des chemins de fer de Mandchourie du Sud et d'une voie menant à l'ancien port ouvert de Yingkou. Le contrôle des deux villes est vital pour l'avancée japonaise vers Liaoyang et Mukden.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Tashihchiao"
+      }
+    }
+  },
+  "Battle of Hsimucheng": {
+    "pages": {
+      "ko": {
+        "title": "시무청 전투",
+        "extract": "시무청 전투(일본어: 析木城の戦い 세키조 노 타타카이[*], 러시아어: Бой у Симучена)는 1904년 7월 31일에서 8월 1일까지 러일 전쟁 중 발발한 전투 중 하나이다. 이 전투에서 승리한 일본 제국 육군 제4군은 대규모 작전을 펼치기 위해 랴오양 시로 향하게 되었다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%8B%9C%EB%AC%B4%EC%B2%AD_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Hsimucheng",
+        "extract": "The Battle of Hsimucheng was a minor land engagement of the Russo-Japanese War. It was fought on 31 July 1904 near Hsimucheng, a hamlet in today's Ximu Town (析木镇) about 20 kilometres (12 mi) southeast of the strategic junction town of Haicheng, on the main road connecting Haicheng with the coast between elements of the Imperial Japanese Army and the Imperial Russian Army.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Hsimucheng"
+      },
+      "es": {
+        "title": "Batalla de Hsimucheng",
+        "extract": "La batalla de Hsimucheng fue un combate terrestre menor de la guerra ruso-japonesa, que aconteció el 31 de julio de 1904, cerca de Hsimucheng, una aldea a unos 20 kilómetros al sudoeste de la estratégica ciudad de Haicheng, (Manchuria) en la principal carretera que conecta Haicheng con la costa.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Hsimucheng"
+      },
+      "fr": {
+        "title": "Bataille de Hsimucheng",
+        "extract": "La bataille de Hsimucheng (析木城の戦い, Sekijō no tatakai) est un petit affrontement terrestre de la guerre russo-japonaise qui eut lieu le 31 juillet 1904 près de la ville de Hsimucheng, un hameau situé à 20 km au sud-est de la ville stratégique de Haicheng.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Hsimucheng"
+      },
+      "pt": {
+        "title": "Batalha de Hsimucheng",
+        "extract": "A Batalha de Hsimucheng foi um confronto terrestre menor da Guerra Russo-Japonesa. Foi travada em 31 de julho de 1904 perto de Hsimucheng, um vilarejo na atual cidade de Ximu (析木镇) a cerca de 20 quilômetros a sudeste do entroncamento estratégico da cidade de Haicheng, na estrada principal que liga Haicheng com a costa entre os elementos do Exército Imperial Japonês e Exército Imperial Russo.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Hsimucheng"
+      }
+    }
+  },
+  "Battle off Ulsan": {
+    "pages": {
+      "ko": {
+        "title": "울산 해전",
+        "extract": "울산 해전(일본어: 蔚山沖海戦) 또는 대한해협 해전(러시아어: Бой в Корейском проливе 보이 브 코레이스콤 프롤리베[*])은 1904년 8월 14일 러일 전쟁에서 일본 제국 해군과 러시아 제국 해군 사이에 조선 울산 앞바다에서 벌어진 해전이다. 이 해전은 황해 해전이 벌어진 4일 이후에 도주한 러시아 함정을 추격하며 일어난 교전이다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%9A%B8%EC%82%B0_%ED%95%B4%EC%A0%84"
+      },
+      "en": {
+        "title": "Battle off Ulsan",
+        "extract": "The naval Battle off Ulsan, also known as the Battle of the Japanese Sea or Battle of the Korean Strait, took place on 14 August 1904 between cruiser squadrons of the Imperial Russian Navy and the Imperial Japanese Navy during the Russo-Japanese War, four days after the Battle of the Yellow Sea.",
+        "url": "https://en.wikipedia.org/wiki/Battle_off_Ulsan"
+      },
+      "zh": {
+        "title": "蔚山海战",
+        "extract": "蔚山海战，日俄战争中两国在黄海海战之后仅4天爆发的一次较小规模的海上冲突。",
+        "url": "https://zh.wikipedia.org/wiki/%E8%94%9A%E5%B1%B1%E6%B5%B7%E6%88%98"
+      },
+      "es": {
+        "title": "Batalla naval de Ulsan",
+        "extract": "La batalla de Ulsan, conocida también como la batalla del Mar de Japón o la batalla rusa del Estrecho de Corea, fue una batalla naval librada el 14 de agosto, parte de la Guerra ruso-japonesa.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_naval_de_Ulsan"
+      },
+      "fr": {
+        "title": "Bataille d'Ulsan",
+        "extract": "La bataille au large d'Ulsan, en japonais : 蔚山冲海戦 Urusan'oki Kaisen ; en russe : Бой в Корейском проливе, Boi v Koreiskom prolive, connue également sous le nom de bataille de la mer du Japon ou pour les Russes bataille du détroit de Corée, est l'une des batailles navales de la Guerre russo-japonaise de 1904-1905.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_d'Ulsan"
+      }
+    }
+  },
+  "Battle of the Yellow Sea": {
+    "pages": {
+      "ko": {
+        "title": "황해 해전 (1904년)",
+        "extract": "황해 해전(일본어: 黄海海戦 고카이 카이센[*], 러시아어: Бой в Жёлтом море)은 1904년 8월 10일에 일본 제국 해군 연합함대와 러시아 제국 해군 제1태평양 함대(뤼순 함대) 사이에서 벌어진 해전이다. 이 해전에서 러시아 태평양 함대의 함선은 심하게 손상을 입고, 이후 대규모 해전을 치를 수 있는 여력을 잃었다.",
+        "url": "https://ko.wikipedia.org/wiki/%ED%99%A9%ED%95%B4_%ED%95%B4%EC%A0%84_(1904%EB%85%84)"
+      },
+      "en": {
+        "title": "Battle of the Yellow Sea",
+        "extract": "The Battle of the Yellow Sea was a naval battle of the Russo-Japanese War, fought on 10 August 1904. In the Russian Navy, it was referred to as the Battle of 10 August. The battle foiled an attempt by the Russian fleet at Lüshunkou to break out and form up with the Vladivostok squadron, forcing them to return to port. Four days later, the Battle off Ulsan similarly ended the Vladivostok group's sortie, forcing both fleets to remain at anchor.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_the_Yellow_Sea"
+      },
+      "zh": {
+        "title": "黄海海战 (1904年)",
+        "extract": "黄海海战 是日俄战争期间两国第一次正面的海上冲突，结果俄舰队突围失败。",
+        "url": "https://zh.wikipedia.org/wiki/%E9%BB%84%E6%B5%B7%E6%B5%B7%E6%88%98_(1904%E5%B9%B4)"
+      },
+      "es": {
+        "title": "Batalla del mar Amarillo",
+        "extract": "La batalla del mar Amarillo fue un gran combate naval de la guerra ruso-japonesa que tuvo lugar el 10 de agosto de 1904. En la Marina rusa se la conoce como la batalla del 10 de agosto. La batalla frustró un intento de la flota rusa de Port Arthur de salir y unirse con los buques de guerra de Vladivostok y la obligó a volver a puerto. Cuatro días más tarde, la batalla de Ulsan puso fin igualmente a la salida del grupo de Vladivostok; las dos flotas tuvieron que permanecer ancladas.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_del_mar_Amarillo"
+      },
+      "fr": {
+        "title": "Bataille de la mer Jaune",
+        "extract": "La bataille de la mer Jaune opposa le 10 août 1904 la 1re escadre du Pacifique de la marine impériale russe à la marine impériale japonaise. Elle fut la seconde bataille navale de la Guerre russo-japonaise de 1904-1905. Le résultat de cette bataille navale eut un impact décisif sur la suite des combats en mer.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_la_mer_Jaune"
+      },
+      "pt": {
+        "title": "Batalha do Mar Amarelo",
+        "extract": "A Batalha do Mar Amarelo foi uma batalha naval da Guerra Russo-Japonesa, travada em 10 de agosto de 1904. Na Marinha Imperial Russa, era conhecida como a Batalha de 10 de Agosto. A batalha frustrou uma tentativa da frota russa em Port Arthur de romper o cerco e se juntar a esquadra de Vladivostoque, forçando-os a retornar ao porto. Quatro dias depois, a Batalha de Ulsan pôs fim à incursão do grupo de Vladivostoque, obrigando ambas as frotas a permanecerem ancoradas.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_do_Mar_Amarelo"
+      }
+    }
+  },
+  "Battle of Liaoyang": {
+    "pages": {
+      "ko": {
+        "title": "요양 회전",
+        "extract": "요양 회전(일본어: 遼陽会戦, 러시아어: Сражение при Ляояне)은 러일 전쟁 중기 요동반도와 선양 근처 철도에서 러시아군과 일본군이 벌인 주요 전투이다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%9A%94%EC%96%91_%ED%9A%8C%EC%A0%84"
+      },
+      "en": {
+        "title": "Battle of Liaoyang",
+        "extract": "The Battle of Liaoyang  was a major land battle of the Russo-Japanese War, on the outskirts of the city of Liaoyang in present-day Liaoning Province, China. The city was of great strategic importance as the major Russian military center for southern Manchuria, and a major population center on the main line on the Russian South Manchurian Railway connecting Port Arthur with Mukden. The city was fortified by the Imperial Russian Army with three lines of fortifications.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Liaoyang"
+      },
+      "zh": {
+        "title": "辽阳会战",
+        "extract": "辽阳会战 是日俄战争陆上战场中的第一场大型会战。战事主要围绕今属辽宁省的辽阳市周边进行。当时，这座城市既是连接旅顺港和奉天的南满铁路上的人口聚居地，又是俄军在南满洲的军事重镇，战略地位十分重要。俄军在城市周围设置了三条防线。",
+        "url": "https://zh.wikipedia.org/wiki/%E8%BE%BD%E9%98%B3%E4%BC%9A%E6%88%98"
+      },
+      "es": {
+        "title": "Batalla de Liaoyang",
+        "extract": "La batalla de Liaoyang fue una de las mayores batallas terrestres de la guerra ruso-japonesa. Tres ejércitos japoneses arrebataron Liaoyang a las fuerzas rusas del general Alekséi Kuropatkin, que tuvo que replegarse a Mukden.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Liaoyang"
+      },
+      "ar": {
+        "title": "معركة لياويانغ",
+        "extract": "معركة لياويانغ كانت واحدة من أكبر المعارك البرية في الحرب الروسية اليابانية، وقعت على أطراف مدينة لياو يانغ في منشوريا، بشمال شرق الصين. شارك فيها حوالي 130,000 جندي ياباني ضد 158,000 جندي روسي، وكانت أول معركة واسعة النطاق بين الطرفين.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D9%84%D9%8A%D8%A7%D9%88%D9%8A%D8%A7%D9%86%D8%BA"
+      },
+      "fr": {
+        "title": "Bataille de Liaoyang",
+        "extract": "La bataille de Liaoyang (遼陽会戦, Ryōyō-kaisen) est le premier affrontement terrestre important de la guerre russo-japonaise. Il a lieu du 25 août au 3 septembre 1904 dans les environs de Liaoyang au Liaoning. La ville est d'une grande importance stratégique car elle est le centre des forces russes de Mandchourie du sud, et un centre de population important sur la ligne principale des chemins de fer de Mandchourie du sud reliant Port-Arthur à Mukden. La ville est fortifiée par l'armée impériale russe avec trois lignes de défense.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Liaoyang"
+      },
+      "pt": {
+        "title": "Batalha de Liaoyang",
+        "extract": "A Batalha de Liaoyang foi uma das grandes batalhas terrestres da Guerra Russo-Japonesa.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Liaoyang"
+      }
+    }
+  },
+  "Battle of Korsakov": {
+    "pages": {
+      "ko": {
+        "title": "코르사코프 해전",
+        "extract": "코르사코프 해전(Battle of Korsakov, 일본어: コルサコフ海戦)은 일본 제국 해군의 순양함 지토세와 쓰시마 그리고 러시아 제국 해군의 순양함 노비크 사이에서 벌어진 해전이다. 일본에서는 소야 해전(宗谷沖海戦)이라고 부른다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%BD%94%EB%A5%B4%EC%82%AC%EC%BD%94%ED%94%84_%ED%95%B4%EC%A0%84"
+      },
+      "en": {
+        "title": "Battle of Korsakov",
+        "extract": "The Battle of Korsakov, a naval engagement of the Russo-Japanese War, was fought on 20 August 1904 off the southern coast of Sakhalin island. The battle foiled an attempt by the Imperial Russian Navy protected cruiser Novik at escaping Port Arthur to join the Russian cruiser squadron at Vladivostok, Russia, after the Russian Pacific Squadron was scattered in the Battle of the Yellow Sea.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Korsakov"
+      },
+      "zh": {
+        "title": "科尔萨科夫海战",
+        "extract": "科尔萨科夫海战，又称宗谷海战（日语：宗谷沖海戦／そうやおきかいせん，罗马化：Sōya Oki Kaisen，为1904年8月20日，日俄战争期间的一次小规模海战，为黄海海战的后续战斗。8月10日俄国海军太平洋舰队旅顺分舰队试图突围时遭到日本海军主力拦截，大部分撤回旅顺港内，仅一艘巡洋舰突破封锁北进，日军紧追之下，在科尔萨科夫附近发生交战，并击沉俄舰。",
+        "url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E5%B0%94%E8%90%A8%E7%A7%91%E5%A4%AB%E6%B5%B7%E6%88%98"
+      },
+      "es": {
+        "title": "Batalla de Korsakov",
+        "extract": "La batalla de Korsakov fue un combate naval de la guerra ruso-japonesa. Tuvo lugar el 20 de agosto de 1904 en la costa sur de la isla de Sajalin, cerca de la ciudad de Korsakov. Como resultado del combate el crucero Novik perteneciente a Rusia quedó inutilizado y semihundido.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Korsakov"
+      },
+      "fr": {
+        "title": "Bataille de Korsakov",
+        "extract": "La bataille de Korsakov (コルサコフ海戦) est un affrontement naval de la guerre russo-japonaise qui eut lieu le 20 août 1904.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Korsakov"
+      }
+    }
+  },
+  "Siege of Port Arthur": {
+    "pages": {
+      "ko": {
+        "title": "여순항 포위전",
+        "extract": "여순항 포위(일본어: 旅順攻囲戦 료준 코이센[*], 러시아어: Оборона Порт-Артура)는 러일 전쟁 중기부터 후기까지 일어난 최대의 전투로 전략적 요충지이던 만주의 여순항을 둘러싸고 벌어진 지상전과 해상전이다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%97%AC%EC%88%9C%ED%95%AD_%ED%8F%AC%EC%9C%84%EC%A0%84"
+      },
+      "en": {
+        "title": "Siege of Port Arthur",
+        "extract": "The siege of Port Arthur was the longest and most violent land battle of the Russo-Japanese War.",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Port_Arthur"
+      },
+      "zh": {
+        "title": "旅順會戰",
+        "extract": "旅顺会战 是日俄战争中的一场陆上会战。大日本帝国陆军为夺取俄罗斯太平洋舰队母港，对其包围，最终攻占了清朝的辽东半岛旅顺口。会战共持续了5个月，是日俄战争中持续时间最长的一次会战。",
+        "url": "https://zh.wikipedia.org/wiki/%E6%97%85%E9%A0%86%E6%9C%83%E6%88%B0"
+      },
+      "es": {
+        "title": "Asedio de Port Arthur",
+        "extract": "El asedio de Port Arthur, el puerto de aguas profundas y la base naval rusa en la punta de la península de Liaodong en Manchuria, fue la batalla terrestre más larga y violenta de la guerra ruso-japonesa.",
+        "url": "https://es.wikipedia.org/wiki/Asedio_de_Port_Arthur"
+      },
+      "ar": {
+        "title": "حصار ميناء آرثر",
+        "extract": "حصار ميناء آرثر ، هي أطول واعنف معركة برية في الحرب الروسية اليابانية دارت في ميناء آرثر البحري الروسي الواقع في منشوريا.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%AD%D8%B5%D8%A7%D8%B1_%D9%85%D9%8A%D9%86%D8%A7%D8%A1_%D8%A2%D8%B1%D8%AB%D8%B1"
+      },
+      "fr": {
+        "title": "Siège de Port-Arthur",
+        "extract": "Le siège de Port-Arthur par les Japonais commence fin mai 1904. Port-Arthur capitule au début de 1905.",
+        "url": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Port-Arthur"
+      },
+      "pt": {
+        "title": "Cerco de Port Arthur",
+        "extract": "O Cerco de Port Arthur foi a mais longa e violenta batalha terrestre da Guerra Russo-Japonesa. Terminou com a conquista da base naval russa de Port Arthur e a captura ou destruição dos navios da Frota Russa do Pacífico nela ancorada.",
+        "url": "https://pt.wikipedia.org/wiki/Cerco_de_Port_Arthur"
+      }
+    }
+  },
+  "Battle of Shaho": {
+    "pages": {
+      "ko": {
+        "title": "사하 전투",
+        "extract": "사하 전투(일본어: 沙河会戦 사카 노 카이센[*], 러시아어: Сражение на реке Шахе)는 러일 전쟁 중기 만주 남부의 선양시 사하 강에서 러시아군과 일본군이 치른 전투이다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%82%AC%ED%95%98_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Shaho",
+        "extract": "The Battle of Shaho was the second large-scale land battle of the Russo-Japanese War fought along a 37-mile (60 km) front centered at the Shaho River along the Mukden–Port Arthur spur of the China Far East Railway north of Liaoyang, Manchuria.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Shaho"
+      },
+      "zh": {
+        "title": "沙河会战",
+        "extract": "沙河会战是日俄战争中规模第二大的陆战，地点在中国东北奉天以南东清铁路沿线沙河（今辽宁省沈阳市苏家屯区沙河街道），日军投入兵力170000人，俄军投入兵力210000人，双方战略上未分胜负，日本战术胜利，战后被迫撤退。",
+        "url": "https://zh.wikipedia.org/wiki/%E6%B2%99%E6%B2%B3%E4%BC%9A%E6%88%98"
+      },
+      "es": {
+        "title": "Batalla del río Sha-ho",
+        "extract": "La batalla del río Sha-ho fue una batalla terrestre que tuvo lugar entre el 5 y el 17 de octubre de 1904, junto al río Sha-ho en Manchuria (China), durante la guerra ruso-japonesa; conflicto que enfrentó al Imperio de Japón con la Rusia Imperial a principios del siglo XX. El resultado de esta batalla fue indeciso, si bien las tropas rusas se retiraron hacia Mukden.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_del_r%C3%ADo_Sha-ho"
+      },
+      "ar": {
+        "title": "معركة شاهو",
+        "extract": "معركة شاهو هي ثاني أكبر معركة برية في الحرب الروسية اليابانية، وقعت في أكتوبر 1904، على جبهة طولها 60 كم تقريبًا، قرب نهر شاهو شمال لياويانغ في منشوريا. شارك فيها الجيش الإمبراطوري الياباني بقيادة أوياما إيواو،ضد الجيش الإمبراطوري الروسي بقيادة أليكسي كوروباتكين.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%B4%D8%A7%D9%87%D9%88"
+      },
+      "fr": {
+        "title": "Bataille du Cha-Ho",
+        "extract": "La bataille de la rivière Cha est l'une des principales batailles terrestres de la guerre russo-japonaise. Elle s'est déroulée du 5 au 17 octobre 1904 dans la province de Mandchourie.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_du_Cha-Ho"
+      },
+      "pt": {
+        "title": "Batalha de Shaho",
+        "extract": "A Batalha de Shaho foi uma das batalhas da Guerra Russo-Japonesa ao longo dos 60 km do centro do Rio Sha em Mukden-Port Arthur, perto da Ferrovia Trans-Manchuriana no norte de Liaoyang, Manchúria.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Shaho"
+      }
+    }
+  },
+  "Battle of Sandepu": {
+    "pages": {
+      "ko": {
+        "title": "산데푸 전투",
+        "extract": "산데푸 전투(러시아어: Сражение при Сандепу) 또는 흑구대 전투(일본어: 黒溝台会戦 콧코다이 카이센[*])는 러일 전쟁 후기 만주 남부 선양시의 58km 내에서 일본군과 러시아군이 치른 전투이다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%82%B0%EB%8D%B0%ED%91%B8_%EC%A0%84%ED%88%AC"
+      },
+      "en": {
+        "title": "Battle of Sandepu",
+        "extract": "The Battle of Sandepu was a major land battle of the Russo-Japanese War. It was fought within a group of villages about 36 miles (58 km) southwest of Mukden, Manchuria.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Sandepu"
+      },
+      "zh": {
+        "title": "黑沟台会战",
+        "extract": "黑沟台会战，俄语：Сражение при Сандепу ) 是日俄战争的主要陆战。会战地点位于奉天西南58公里的村庄。",
+        "url": "https://zh.wikipedia.org/wiki/%E9%BB%91%E6%B2%9F%E5%8F%B0%E4%BC%9A%E6%88%98"
+      },
+      "es": {
+        "title": "Batalla de Sandepu",
+        "extract": "La batalla de Sandepu, también conocida como batalla de Heikoutai, fue una batalla terrestre mayor de la guerra ruso-japonesa, que tuvo lugar en una zona que contaba con una serie de pueblos, a unos 58 kilómetros al sudoeste de Mukden, Manchuria.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Sandepu"
+      },
+      "fr": {
+        "title": "Bataille de Sandepu",
+        "extract": "La bataille de Sandepu (黒溝台会戦, Kokkōdai no kaisen), aussi connue sous le nom de bataille de Heikoutai, est un important affrontement terrestre de la guerre russo-japonaise qui eut lieu en janvier 1905 à environ 58 km au sud-ouest de Mukden en Mandchourie.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Sandepu"
+      },
+      "pt": {
+        "title": "Batalha de Sandepu",
+        "extract": "A batalha de Sandepu, também conhecida como batalha de Heikoutai, foi uma batalha terrestre de grandes proporções da guerra russo-japonesa, travada em uma região repleta de povoados, a uns 58 km a sudoeste de Makden, Manchúria.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Sandepu"
+      }
+    }
+  },
+  "Battle of Mukden": {
+    "pages": {
+      "ko": {
+        "title": "봉천 회전",
+        "extract": "봉천 회전(일본어: 奉天会戦 호텐 카이센[*], 러시아어: Мукденское сражение)는 러일 전쟁 당시 1905년 2월 20일부터 3월 10일까지 약 20일간 만주의 봉천 근처에서 마지막이자 가장 치열했던 지상전으로 선양 전투라고도 불린다. 제1차 세계 대전 이전에 가장 치열했던 전투 중 하나로 손꼽히며, 또한 러일 전쟁에서 비교적 가장 결정적인 결과를 도출하게 되는 주요 지상전이다. ‘봉천’(奉天)은 현재 ‘선양’으로 불리고 있으며, 랴오닝성의 성도이다.",
+        "url": "https://ko.wikipedia.org/wiki/%EB%B4%89%EC%B2%9C_%ED%9A%8C%EC%A0%84"
+      },
+      "en": {
+        "title": "Battle of Mukden",
+        "extract": "The Battle of Mukden was fought in the Russo-Japanese War between the Russian Empire and the Empire of Japan near the town of Mukden. Involving close to 550,000 troops and resulting in over 150,000 casualties, it was the largest and most decisive battle of the war, as well as the last major engagement on land. The Battle of Mukden was a strategic victory for the Japanese that, coupled with their victory at sea in the Battle of Tsushima four months later, proved critical in ending the war in Japan's favour.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Mukden"
+      },
+      "zh": {
+        "title": "奉天会战",
+        "extract": "奉天会战 是日俄战争中最后一场大型决战，发生于1905年2月20日至3月10日。战场位于清朝境内的奉天郊外（今沈阳苏家屯区附近）。该会战是第一次世界大战之前，全球规模最庞大的地面军事冲突之一，双方共投入约60万兵力，最终以日军惨胜、俄军败退告终，并对后续《朴茨茅斯和约》的签订产生决定性影响。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%A5%89%E5%A4%A9%E4%BC%9A%E6%88%98"
+      },
+      "es": {
+        "title": "Batalla de Mukden (1905)",
+        "extract": "La batalla de Mukden fue la última gran batalla terrestre de la guerra ruso-japonesa y una de las más grandes batallas terrestres acontecida antes de la Primera Guerra Mundial. Se libró desde el 20 de febrero al 10 de marzo de 1905 entre el Ejército Imperial Japonés y el Ejército Imperial Ruso cerca de Mukden, en Manchuria (China). La ciudad se llama hoy Shenyang y es la capital de la provincia de Liaoning.",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Mukden_(1905)"
+      },
+      "ar": {
+        "title": "معركة موكدن",
+        "extract": "معركة موكدن، هي واحدة من أكبر المعارك البرية قبل الحرب العالمية الأولى وهي المعركة الأخيرة والأكثر حسمًا في الحرب الروسية اليابانية، استمرت هذه المعركة من 20 فبراير إلى 10 مارس عام 1905 بين اليابان وروسيا بالقرب من موكدن في منشوريا. تسمى هذه المدينة الآن شنيانغ، عاصمة مقاطعة لياونينغ في الصين.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D9%85%D9%88%D9%83%D8%AF%D9%86"
+      },
+      "fr": {
+        "title": "Bataille de Mukden",
+        "extract": "La bataille de Mukden, ou de Moukden selon l'orthographe française en usage à l'époque, est la bataille terrestre décisive de la guerre russo-japonaise s'étant déroulée du 20 février au 10 mars 1905 au sud de Fengtian en Mandchourie.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Mukden"
+      },
+      "pt": {
+        "title": "Batalha de Mukden",
+        "extract": "A batalha de Mukden foi a última grande batalha terrestre da guerra russo-japonesa e uma das maiores batalhas terrestres acontecidas antes da Primeira Guerra Mundial. Ocorreu de 20 de fevereiro a 10 de março de 1905, envolvendo o exército imperial japonês e o exército imperial russo, na Manchúria (China). A cidade onde aconteceu o confronto hoje se chama Cheniangue e é capital da província de Liaoningue.",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Mukden"
+      }
+    }
+  },
+  "Battle of Tsushima": {
+    "pages": {
+      "ko": {
+        "title": "쓰시마 해전",
+        "extract": "쓰시마 해전(対馬沖海戦, 일본어: 日本海海戦, 러시아어: Цусимское сражение)은 1905년 러일 전쟁 중 쓰시마섬 부근 바다에서 일본 연합함대와 러시아 발트 함대 사이에서 벌어진 전투이다. 노급전함을 주력으로 한 함대가 정면으로 격돌한 최대의 해전이었다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%93%B0%EC%8B%9C%EB%A7%88_%ED%95%B4%EC%A0%84"
+      },
+      "en": {
+        "title": "Battle of Tsushima",
+        "extract": "The Battle of Tsushima was the final naval battle of the Russo-Japanese War, fought on 27–28 May 1905 in the Tsushima Strait. A devastating defeat for the Imperial Russian Navy, the battle was the only decisive engagement ever fought between modern steel battleship fleets and the first in which wireless telegraphy (radio) played a critically important role. The battle was described by contemporary Sir George Clarke as by far the greatest and the most important naval event since Trafalgar. The battle is known in Japan as the Naval Battle of the Sea of Japan.",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Tsushima"
+      },
+      "zh": {
+        "title": "对马海峡海战",
+        "extract": "对马海峡海战，简称对马海战，是1905年日俄战争中日本帝国与俄罗斯帝国在对马海峡进行的最后一场海战，由日本帝国海军大将东乡平八郎指挥的联合舰队对阵俄罗斯帝国海军中将齐诺维·罗杰斯特文斯基指挥的俄国第二太平洋舰队。战役以日方大获全胜而告终。俄国第二太平洋舰队中三分之二的舰只被摧毁，几乎全军覆没；而日方仅损失三艘鱼雷艇。这是海战史上损失最为悬殊的海战之一。日本联合舰队使用丁字战法歼灭了俄罗斯帝国第二太平洋舰队。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%AF%B9%E9%A9%AC%E6%B5%B7%E5%B3%A1%E6%B5%B7%E6%88%98"
+      },
+      "es": {
+        "title": "Batalla de Tsushima",
+        "extract": "La batalla de Tsushima, comúnmente denominada la batalla del mar del Japón en Japón, fue un importante combate naval librado entre Rusia y Japón los días 27 y 28 de mayo de 1905 durante la guerra ruso-japonesa (1904-1905). Fue la única batalla naval decisiva de la historia en la que intervinieron flotas compuestas por acorazados modernos y la primera batalla naval en la que tuvo un papel crítico el uso de la radiocomunicación. Esta batalla ha sido calificada como «el último suspiro de una vieja era, porque por última vez en la guerra naval los navíos de línea de una flota derrotada se rindieron en alta mar».",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Tsushima"
+      },
+      "ar": {
+        "title": "معركة تسوشيما",
+        "extract": "معركة تسوشيما و(الروسية: Цусимское сражение)، حدثت أثناء الحرب الروسية اليابانية بداية القرن العشرين من 27 إلى 28 مايو 1905 حيث حدثت أثناء محاولة كل من روسيا واليابان مد نفوذهما الاستعماري في كوريا حيث رفضت روسيا التفاوض مع اليابانيين وقد أدت المعركة إلى انتصار اليابان حيث تم تحطيم أسطول روسي كبير، فمن بين 34 سفينة روسية تم إغراق 21، وأسر 7 ونزع سلاح 6 وقتل 4545 جندي روسي وأخذ 6106 جندي أسيراً. أما من الطرف الياباني فقد خسرت اليابان 116 رجل و 3 قوارب طوربيد.",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%AA%D8%B3%D9%88%D8%B4%D9%8A%D9%85%D8%A7"
+      },
+      "fr": {
+        "title": "Bataille de Tsushima",
+        "extract": "La bataille de Tsushima a lieu les 27 et 28 mai 1905 entre la flotte de la Baltique de la Marine impériale russe commandée par l'amiral Zinovi Rojestvenski, et la Marine impériale japonaise sous les ordres de l'amiral Tōgō, dans le détroit de Tsushima qui sépare la Corée du Japon.",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_de_Tsushima"
+      },
+      "pt": {
+        "title": "Batalha de Tsushima",
+        "extract": "A Batalha de Tsushima, também chamada de Batalha do Estreito de Tsushima ou Batalha Naval do Mar do Japão, foi a maior batalha naval travada entre a Rússia e o Japão durante a Guerra Russo-Japonesa. Foi a única batalha marítima decisiva combatida com modernas frotas de encouraçados de aço da história naval, a primeira batalha naval em que a Radiotelegrafia desempenhou um papel de extrema importância, e tem sido caracterizada como um \"eco moribundo da antiga era – pela última vez na história das batalhas navais, navios da linha de uma frota derrotada renderam-se em alto-mar\".",
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Tsushima"
+      }
+    }
+  },
+  "Japanese invasion of Sakhalin": {
+    "pages": {
+      "ko": {
+        "title": "사할린 전투 (1905년)",
+        "extract": "사할린 전투(일본어: 樺太の戦い, 러시아어: Японское вторжение на Сахалин)는 러일 전쟁 마지막 전투이다. 시어도어 루즈벨트 미국 대통령의 강화 권고 후 일본은 강화 담판을 유리하게 진행하기 위해 러시아령 사할린을 침공하여 점령했다.",
+        "url": "https://ko.wikipedia.org/wiki/%EC%82%AC%ED%95%A0%EB%A6%B0_%EC%A0%84%ED%88%AC_(1905%EB%85%84)"
+      },
+      "en": {
+        "title": "Japanese invasion of Sakhalin",
+        "extract": "The Japanese invasion of Sakhalin was the last land battle of the Russo-Japanese War, and took place from 7 July to 31 July 1905.",
+        "url": "https://en.wikipedia.org/wiki/Japanese_invasion_of_Sakhalin"
+      },
+      "zh": {
+        "title": "庫頁島戰役 (1905年)",
+        "extract": "库页岛战役 是日俄战争最后之战。朴资茅斯条约缔结前，日本为了使讲和谈判有利进行，先行进攻俄国的库页岛。朴资茅斯条约缔结后，库页岛的北纬50度线以北归还俄国，以南割让成为日本领土。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%BA%AB%E9%A0%81%E5%B3%B6%E6%88%B0%E5%BD%B9_(1905%E5%B9%B4)"
+      },
+      "es": {
+        "title": "Invasión japonesa de Sajalín",
+        "extract": "La invasión japonesa de Sajalín, llamada por Japón Operación Karafuto  y también conocida como batalla de Sajalín, fue la última batalla de la guerra ruso-japonesa que tuvo lugar tras la victoria de la Armada Imperial Japonesa sobre la Armada Imperial Rusa en la batalla de Tsushima y tras el llamamiento a la paz del presidente de los Estados Unidos, Theodore Roosevelt, a ambos contendientes.",
+        "url": "https://es.wikipedia.org/wiki/Invasi%C3%B3n_japonesa_de_Sajal%C3%ADn"
+      },
+      "ar": {
+        "title": "اجتياح سخالين",
+        "extract": "اجتياح ستالين ، ويسمى عند المؤرخين الروس الغزو الياباني لسخالين ، بينما يسمى عند المؤرخين اليابانيين معركة سخالين ، هي معركة فاصلة حدثت بين القوات الإمبراطورية الروسية من جهة وبين القوات البحرية اليابانية من جهة أخرى وذلك من تاريخ 7 إلى 31 يوليو عام 1905 ، وكانت النتيجة انتصاراً حاسماً لليابان وهزيمة مذلة للجيش الإمبراطوري الروسي، وأجبرت الحكومة الروسية على الموافقة من الطلب الياباني بتقسيم جزيرة سخالين، تم الاستحواذ على الجزء الأكبر من جنوب سخالين لليابان وسميت لاحقاً محافظة كارافوتو وبقيت أجزاء الشمالية من الجزيرة لروسيا.",
+        "url": "https://ar.wikipedia.org/wiki/%D8%A7%D8%AC%D8%AA%D9%8A%D8%A7%D8%AD_%D8%B3%D8%AE%D8%A7%D9%84%D9%8A%D9%86"
+      },
+      "fr": {
+        "title": "Invasion japonaise de Sakhaline",
+        "extract": "L'Invasion de Sakhaline (樺太の戦い, Karafuto no tatakai) est la dernière bataille de la guerre russo-japonaise de 1904-1905.",
+        "url": "https://fr.wikipedia.org/wiki/Invasion_japonaise_de_Sakhaline"
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+# 나라(정치체)별 진영: 원본 이름 = a | b | n [시작 ~ 끝]. 없으면 기타(n). 형식은 content/campaigns/CLAUDE.md
+
+Macedonian Empire = a
+(Macedonian Empire) = a
+# 원본은 알렉산드로스가 정복한 이집트·레반트·아나톨리아를 Ptolemaic Kingdom이라는 이름으로 그린다
+Ptolemaic Kingdom = a
+Perdiccas = a
+Laomedon = a
+Kingdom of Lysimachus = a
+Achaemenid Empire = b

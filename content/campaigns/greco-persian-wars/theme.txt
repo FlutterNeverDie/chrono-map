@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Greco-Persian Wars
+region: europe
+when: -499 ~ -449
+unit: year
+borders-step: 2
+view: 26, 38, 4.5
+search: 18, 36, 32, 43
+min-links: 3
+side.a.ko: 페르시아
+side.a.en: Achaemenid Persia
+side.a.zh: 阿契美尼德波斯
+side.a.es: Persia aqueménida
+side.a.hi: हख़ामनी फ़ारस
+side.a.ar: الفرس الأخمينيون
+side.a.fr: Perse achéménide
+side.a.pt: Pérsia Aquemênida
+side.b.ko: 그리스 도시국가
+side.b.en: Greek city-states
+side.b.zh: 希腊城邦
+side.b.es: Ciudades-estado griegas
+side.b.hi: यूनानी नगर-राज्य
+side.b.ar: المدن الإغريقية
+side.b.fr: Cités grecques
+side.b.pt: Cidades-estado gregas

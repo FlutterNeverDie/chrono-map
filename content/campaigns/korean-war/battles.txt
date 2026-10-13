@@ -314,7 +314,7 @@ links: 4
 
 @ attack-on-the-sui-ho-dam
 wikipedia: Attack on the Sui-ho Dam
-when: 1952-01
+when: 1952-06
 coords: 124.97, 40.47
 links: 4
 

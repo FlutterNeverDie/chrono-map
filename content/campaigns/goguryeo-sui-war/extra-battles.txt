@@ -1,0 +1,13 @@
+# Wikidata에 날짜·좌표가 없거나 분류가 달라 자동으로 안 잡히는 전투를 직접 추가 (자동 생성이 덮어쓰지 않음). 날짜는 Wikidata·위키백과 기준 양력
+
+@ battle-of-linyuguan
+wikipedia: Battle of Linyuguan
+when: 598
+coords: 119.75, 40.0
+links: 3
+
+@ battle-of-salsu
+wikipedia: Battle of Salsu
+when: 612
+coords: 125.65, 39.62
+links: 22

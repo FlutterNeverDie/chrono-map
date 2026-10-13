@@ -1,0 +1,10 @@
+# 나라(정치체)별 진영 — 형식은 content/campaigns/CLAUDE.md
+
+State of Israel = a
+Palestinians = b
+Kingdom of Egypt = b 1948-05 ~
+Kingdom of Jordan = b 1948-05 ~
+Kingdom of Iraq = b 1948-05 ~
+Second Syrian Republic = b 1948-05 ~
+Lebanon = b 1948-05 ~
+# 1947년 국경 파일에는 이스라엘·팔레스타인 정치체가 없음(위임통치령). 아랍 국가는 1948-05 개입부터

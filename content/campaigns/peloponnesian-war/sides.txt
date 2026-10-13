@@ -1,0 +1,6 @@
+# 나라(정치체)별 진영: 원본 이름 = a | b | n [시작 ~ 끝]. 없으면 기타(n). 형식은 content/campaigns/CLAUDE.md
+
+Peloponnesian League = a
+Greek City-States = b
+# 원본의 Greek City-States는 아테네 외 그리스 세계 전체(시칠리아·흑해 식민 도시 포함)라 일부 지역은 실제와 다르다
+# 페르시아(Achaemenid Empire)는 412년부터 스파르타를 지원했지만 영토가 너무 넓어 넣지 않는다

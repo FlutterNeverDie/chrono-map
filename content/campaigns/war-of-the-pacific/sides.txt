@@ -1,0 +1,5 @@
+# 나라(정치체)별 진영 — 형식은 content/campaigns/CLAUDE.md
+
+Republic of Chile = a
+Republic of Peru = b
+Bolivia = b

@@ -1,0 +1,6 @@
+# 나라(정치체)별 진영: 원본 이름 = a | b | n [시작 ~ 끝]. 없으면 기타(n). 형식은 content/campaigns/CLAUDE.md
+
+# 원본의 British Empire는 이 시기 영국령 인도(동인도회사) — 원정군 상당수가 인도에서 왔다
+British Empire = a
+Qing Dynasty = b
+# British Colonial Empire는 캐나다·호주 등 전 세계 식민지라 넣지 않는다

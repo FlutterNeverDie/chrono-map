@@ -1,0 +1,7 @@
+# 펠로폰네소스 전쟁: Wikidata에 날짜·좌표가 없어 자동으로 안 잡히는 전투를 직접 추가 (자동 생성이 덮어쓰지 않음)
+
+@ sicilian-expedition
+wikipedia: Sicilian Expedition
+when: -415 ~ -413
+coords: 15.28, 37.08
+links: 34

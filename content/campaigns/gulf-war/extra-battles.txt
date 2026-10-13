@@ -1,0 +1,19 @@
+# Wikidata에 날짜·좌표가 없어 자동으로 안 잡히는 전투를 직접 추가 (자동 생성이 덮어쓰지 않음)
+
+@ iraqi-invasion-of-kuwait
+wikipedia: Iraqi invasion of Kuwait
+when: 1990-08
+coords: 47.98, 29.37
+links: 44
+
+@ battle-of-kuwait-international-airport
+wikipedia: Battle of Kuwait International Airport
+when: 1991-02
+coords: 47.97, 29.24
+links: 6
+
+@ highway-of-death
+wikipedia: Highway of Death
+when: 1991-02
+coords: 47.65, 29.38
+links: 27

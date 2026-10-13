@@ -1,0 +1,104 @@
+# Wars of Alexander the Great 전투 (Wikidata 자동 생성, 직접 고쳐도 됨). 형식은 content/campaigns/CLAUDE.md
+
+@ battle-of-thebes
+wikipedia: Battle of Thebes
+when: -335
+coords: 23.32, 38.32
+links: 17
+
+@ siege-of-miletus
+wikipedia: Siege of Miletus
+when: -334
+coords: 27.28, 37.53
+links: 19
+
+@ siege-of-halicarnassus
+wikipedia: Siege of Halicarnassus
+when: -334
+coords: 27.42, 37.04
+links: 23
+
+@ battle-of-the-granicus
+wikipedia: Battle of the Granicus
+when: -334
+coords: 27.24, 40.23
+links: 48
+
+@ battle-of-issus
+wikipedia: Battle of Issus
+when: -333
+coords: 36.21, 36.84
+links: 54
+
+@ siege-of-tyre-332-bc
+wikipedia: Siege of Tyre (332 BC)
+when: -332
+coords: 35.2, 33.27
+links: 34
+
+@ siege-of-gaza-332-bc
+wikipedia: Siege of Gaza (332 BC)
+when: -332
+coords: 34.45, 31.52
+links: 24
+
+@ battle-of-megalopolis
+wikipedia: Battle of Megalopolis
+when: -331
+coords: 22.14, 37.4
+links: 18
+
+@ battle-of-gaugamela
+wikipedia: Battle of Gaugamela
+when: -331
+coords: 43.25, 36.36
+links: 64
+
+@ battle-of-the-uxian-defile
+wikipedia: Battle of the Uxian Defile
+when: -331
+coords: 48.26, 32.19
+links: 6
+
+@ battle-of-the-persian-gate
+wikipedia: Battle of the Persian Gate
+when: -330
+coords: 51.6, 30.71
+links: 29
+
+@ siege-of-cyropolis
+wikipedia: Siege of Cyropolis
+when: -329
+coords: 66.87, 36.77
+links: 7
+
+@ battle-of-jaxartes
+wikipedia: Battle of Jaxartes
+when: -329
+coords: 69.62, 40.28
+links: 17
+
+@ siege-of-the-sogdian-rock
+wikipedia: Siege of the Sogdian Rock
+when: -327
+coords: 69.4, 40.4
+links: 18
+
+@ cophen-campaign
+wikipedia: Cophen campaign
+when: -327
+coords: 72.48, 35.2
+links: 3
+
+@ battle-of-the-hydaspes
+wikipedia: Battle of the Hydaspes
+when: -326
+coords: 73.64, 32.83
+links: 50
+
+@ mallian-campaign
+wikipedia: Mallian campaign
+when: -326
+coords: 72.3, 30.7
+links: 11
+

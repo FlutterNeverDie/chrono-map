@@ -1,0 +1,13 @@
+# Wikidata에 날짜·좌표가 없어 자동으로 안 잡히는 전투를 직접 추가 (자동 생성이 덮어쓰지 않음)
+
+@ battle-of-contreras
+wikipedia: Battle of Contreras
+when: 1847-08
+coords: -99.22, 19.32
+links: 10
+
+@ battle-for-mexico-city
+wikipedia: Battle for Mexico City
+when: 1847-09
+coords: -99.13, 19.43
+links: 7

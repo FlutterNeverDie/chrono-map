@@ -1,0 +1,296 @@
+# Franco-Prussian War 전투 (Wikidata 자동 생성, 직접 고쳐도 됨). 형식은 content/campaigns/CLAUDE.md
+
+@ siege-of-bitche
+wikipedia: Siege of Bitche
+when: 1870-08 ~ 1871-03
+coords: 7.43, 49.05
+links: 3
+
+@ battle-of-bazeilles
+wikipedia: Battle of Bazeilles
+when: 1870-08 ~ 1870-09
+coords: 4.98, 49.68
+links: 13
+
+@ battle-of-noisseville
+wikipedia: Battle of Noisseville
+when: 1870-08
+coords: 6.27, 49.14
+links: 14
+
+@ siege-of-strasbourg
+wikipedia: Siege of Strasbourg
+when: 1870-08 ~ 1870-09
+coords: 7.75, 48.58
+links: 19
+
+@ siege-of-metz-1870
+wikipedia: Siege of Metz (1870)
+when: 1870-08 ~ 1870-10
+coords: 6.18, 49.12
+links: 23
+
+@ battle-of-wissembourg-1870
+wikipedia: Battle of Wissembourg (1870)
+when: 1870-08
+coords: 7.95, 49.02
+links: 19
+
+@ battle-of-spicheren
+wikipedia: Battle of Spicheren
+when: 1870-08
+coords: 6.02, 49.15
+links: 18
+
+@ battle-of-beaumont
+wikipedia: Battle of Beaumont
+when: 1870-08
+coords: 5.06, 49.54
+links: 15
+
+@ battle-of-mars-la-tour
+wikipedia: Battle of Mars-la-Tour
+when: 1870-08
+coords: 5.87, 49.1
+links: 21
+
+@ battle-of-worth
+wikipedia: Battle of Wörth
+when: 1870-08
+coords: 7.73, 48.94
+links: 17
+
+@ battle-of-borny-colombey
+wikipedia: Battle of Borny–Colombey
+when: 1870-08
+coords: 6.25, 49.11
+links: 14
+
+@ battle-of-gravelotte
+wikipedia: Battle of Gravelotte
+when: 1870-08
+coords: 6.03, 49.11
+links: 25
+
+@ siege-of-toul
+wikipedia: Siege of Toul
+when: 1870-08 ~ 1870-09
+coords: 5.89, 48.68
+links: 9
+
+@ battle-of-saarbrucken
+wikipedia: Battle of Saarbrücken
+when: 1870-08
+coords: 7, 49.23
+links: 7
+
+@ siege-of-lichtenberg
+wikipedia: Siege of Lichtenberg
+when: 1870-08
+coords: 7.49, 48.92
+links: 3
+
+@ battle-of-nouart
+wikipedia: Battle of Nouart
+when: 1870-08
+coords: 5.05, 49.44
+links: 4
+
+@ battle-of-buzancy
+wikipedia: Battle of Buzancy
+when: 1870-08
+coords: 4.96, 49.43
+links: 3
+
+@ siege-of-phalsbourg
+wikipedia: Siege of Phalsbourg
+when: 1870-08 ~ 1870-12
+coords: 7.26, 48.77
+links: 4
+
+@ siege-of-thionville-1870
+wikipedia: Siege of Thionville (1870)
+when: 1870-08 ~ 1870-11
+coords: 6.17, 49.36
+links: 4
+
+@ battle-of-sedan
+wikipedia: Battle of Sedan
+when: 1870-09
+coords: 4.95, 49.7
+links: 49
+
+@ siege-of-paris-1870-1871
+wikipedia: Siege of Paris (1870–1871)
+when: 1870-09 ~ 1871-01
+coords: 2.35, 48.86
+links: 27
+
+@ battle-of-chevilly
+wikipedia: Battle of Chevilly
+when: 1870-09
+coords: 2.35, 48.77
+links: 5
+
+@ siege-of-montmedy
+wikipedia: Siege of Montmédy
+when: 1870-09 ~ 1870-12
+coords: 5.37, 49.52
+links: 5
+
+@ siege-of-soissons
+wikipedia: Siege of Soissons
+when: 1870-09 ~ 1870-10
+coords: 3.32, 49.38
+links: 4
+
+@ battle-of-le-bourget
+wikipedia: Battle of Le Bourget
+when: 1870-10
+coords: 2.43, 48.94
+links: 7
+
+@ battle-of-chatillon
+wikipedia: Battle of Châtillon
+when: 1870-10
+coords: 2.29, 48.8
+links: 6
+
+@ battle-of-bellevue
+wikipedia: Battle of Bellevue
+when: 1870-10
+coords: 6.18, 49.12
+links: 8
+
+@ battle-of-buzenval-1870
+wikipedia: Battle of Buzenval (1870)
+when: 1870-10
+coords: 2.18, 48.88
+links: 5
+
+@ battle-of-chateaudun
+wikipedia: Battle of Châteaudun
+when: 1870-10
+coords: 1.34, 48.07
+links: 5
+
+@ battle-of-dijon-1870
+wikipedia: Battle of Dijon (1870)
+when: 1870-10 ~ 1871-01
+coords: 5.04, 47.32
+links: 6
+
+@ battle-of-villiers
+wikipedia: Battle of Villiers
+when: 1870-11 ~ 1870-12
+coords: 2.52, 48.82
+links: 7
+
+@ siege-of-belfort
+wikipedia: Siege of Belfort
+when: 1870-11 ~ 1871-02
+coords: 6.86, 47.64
+links: 10
+
+@ battle-of-beaune-la-rolande
+wikipedia: Battle of Beaune-la-Rolande
+when: 1870-11
+coords: 2.43, 48.07
+links: 13
+
+@ battle-of-coulmiers
+wikipedia: Battle of Coulmiers
+when: 1870-11
+coords: 1.66, 47.93
+links: 13
+
+@ battle-of-amiens-1870
+wikipedia: Battle of Amiens (1870)
+when: 1870-11
+coords: 2.52, 49.87
+links: 15
+
+@ siege-of-la-fere
+wikipedia: Siege of La Fère
+when: 1870-11
+coords: 3.37, 49.66
+links: 3
+
+@ battle-of-loigny-poupry
+wikipedia: Battle of Loigny–Poupry
+when: 1870-12
+coords: 1.76, 48.12
+links: 9
+
+@ battle-of-beaugency-1870
+wikipedia: Battle of Beaugency (1870)
+when: 1870-12
+coords: 1.63, 47.78
+links: 7
+
+@ battle-of-hallue
+wikipedia: Battle of Hallue
+when: 1870-12
+coords: 2.44, 49.94
+links: 9
+
+@ battle-of-orleans-december-1870
+wikipedia: Battle of Orléans (December 1870)
+when: 1870-12
+coords: 1.91, 47.9
+links: 11
+
+@ battle-of-chateauneuf
+wikipedia: Battle of Chateauneuf
+when: 1870-12
+coords: 4.64, 47.22
+links: 3
+
+@ siege-of-peronne
+wikipedia: Siege of Péronne
+when: 1870-12 ~ 1871-01
+coords: 2.94, 49.93
+links: 4
+
+@ battle-of-le-mans
+wikipedia: Battle of Le Mans
+when: 1871-01
+coords: 0.2, 48
+links: 13
+
+@ battle-of-the-lisaine
+wikipedia: Battle of the Lisaine
+when: 1871-01
+coords: 6.8, 47.5
+links: 11
+
+@ battle-of-villersexel
+wikipedia: Battle of Villersexel
+when: 1871-01
+coords: 6.43, 47.55
+links: 10
+
+@ battle-of-buzenval-1871
+wikipedia: Battle of Buzenval (1871)
+when: 1871-01
+coords: 2.18, 48.88
+links: 9
+
+@ battle-of-bapaume-1871
+wikipedia: Battle of Bapaume (1871)
+when: 1871-01
+coords: 2.85, 50.1
+links: 11
+
+@ battle-of-st-quentin-1871
+wikipedia: Battle of St. Quentin (1871)
+when: 1871-01
+coords: 3.29, 49.85
+links: 14
+
+@ battle-of-pontarlier
+wikipedia: Battle of Pontarlier
+when: 1871-01 ~ 1871-02
+coords: 6.36, 46.92
+links: 3
+

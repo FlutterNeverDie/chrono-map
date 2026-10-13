@@ -1,0 +1,26 @@
+# 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
+
+wikipedia: Wars of Alexander the Great
+region: middle-east
+when: -336 ~ -323
+unit: year
+borders-step: 1
+view: 48, 32, 3
+search: 18, 76, 22, 44
+min-links: 3
+side.a.ko: 마케도니아
+side.a.en: Macedon
+side.a.zh: 马其顿
+side.a.es: Macedonia
+side.a.hi: मकदूनिया
+side.a.ar: مقدونيا
+side.a.fr: Macédoine
+side.a.pt: Macedônia
+side.b.ko: 페르시아
+side.b.en: Achaemenid Persia
+side.b.zh: 阿契美尼德波斯
+side.b.es: Persia aqueménida
+side.b.hi: हख़ामनी फ़ारस
+side.b.ar: الفرس الأخمينيون
+side.b.fr: Perse achéménide
+side.b.pt: Pérsia Aquemênida

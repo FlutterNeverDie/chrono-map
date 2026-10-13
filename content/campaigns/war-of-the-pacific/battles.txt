@@ -1,0 +1,103 @@
+# War of the Pacific 전투 (Wikidata 자동 생성, 직접 고쳐도 됨). 형식은 content/campaigns/CLAUDE.md
+
+@ battle-of-topater
+wikipedia: Battle of Topáter
+when: 1879-03
+coords: -68.91, -22.46
+links: 7
+
+@ blockade-of-iquique
+wikipedia: Blockade of Iquique
+when: 1879-04
+coords: -70.15, -20.22
+links: 3
+
+@ battle-of-iquique
+wikipedia: Battle of Iquique
+when: 1879-05
+coords: -70.16, -20.2
+links: 16
+
+@ battle-of-rio-grande
+wikipedia: Battle of Río Grande
+when: 1879-09
+coords: -68.2, -22.8
+links: 2
+
+@ battle-of-quillagua
+wikipedia: Battle of Quillagua
+when: 1879-10
+coords: -69.61, -21.62
+links: 2
+
+@ battle-of-angamos
+wikipedia: Battle of Angamos
+when: 1879-10
+coords: -71, -23
+links: 14
+
+@ battle-of-san-francisco
+wikipedia: Battle of San Francisco
+when: 1879-11
+coords: -69.95, -19.67
+links: 5
+
+@ battle-of-pisagua
+wikipedia: Battle of Pisagua
+when: 1879-11
+coords: -70.21, -19.6
+links: 8
+
+@ battle-of-pampa-germania
+wikipedia: Battle of Pampa Germania
+when: 1879-11
+coords: -69.83, -19.87
+links: 3
+
+@ battle-of-tambillo
+wikipedia: Battle of Tambillo
+when: 1879-12
+coords: -68.08, -23.12
+links: 2
+
+@ battle-of-los-angeles
+wikipedia: Battle of Los Ángeles
+when: 1880-03
+coords: -70.9, -17.15
+links: 2
+
+@ battle-of-locumba
+wikipedia: Battle of Locumba
+when: 1880-04
+coords: -70.76, -17.61
+links: 2
+
+@ battle-of-buenavista
+wikipedia: Battle of Buenavista
+when: 1880-04
+coords: -70.54, -17.85
+links: 2
+
+@ battle-of-tacna
+wikipedia: Battle of Tacna
+when: 1880-05
+coords: -70.29, -18
+links: 11
+
+@ battle-of-san-juan-and-chorrillos
+wikipedia: Battle of San Juan and Chorrillos
+when: 1881-01
+coords: -76.96, -12.18
+links: 11
+
+@ first-battle-of-pucara
+wikipedia: First Battle of Pucará
+when: 1882-02
+coords: -75.15, -12.17
+links: 2
+
+@ battle-of-la-concepcion
+wikipedia: Battle of La Concepción
+when: 1882-07
+coords: -75.31, -11.92
+links: 8
