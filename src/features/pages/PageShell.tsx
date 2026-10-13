@@ -50,6 +50,9 @@ export function SiteFooter({ locale }: { locale: Locale }) {
   return (
     <footer className="border-t border-line">
       <div className="mx-auto flex max-w-3xl flex-wrap items-center gap-x-5 gap-y-2 px-4 py-6 text-sm text-muted">
+        <a href={localeHref(locale, "year")} className="hover:text-foreground">
+          {messages.years.tab}
+        </a>
         <a href={localeHref(locale, "about")} className="hover:text-foreground">
           {messages.pages.about}
         </a>

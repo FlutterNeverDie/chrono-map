@@ -1,10 +1,13 @@
 import type { Locale } from "@/lib/types";
-import { getMessages } from "@/i18n";
+import { fill, getMessages } from "@/i18n";
 import { localeHref } from "@/i18n/locales";
 import { eventSummary, eventTitle, pick } from "@/lib/localize";
 import { formatWhen } from "@/lib/year";
+import { formatPeriod, periodOf } from "@/lib/period";
 import { EVENTS } from "@/data/content";
 import { ExternalIcon } from "@/components/ui/icons";
+import { ogImage } from "@/components/og/card";
+import { periodSlug } from "./years";
 
 export function findEvent(id: string) {
   return EVENTS.find((e) => e.id === id);
@@ -46,6 +49,14 @@ export function EventDetail({ locale, id }: { locale: Locale; id: string }) {
           className="inline-flex h-12 items-center rounded-md bg-foreground px-5 text-base font-semibold text-background"
         >
           {messages.pages.backToMap}
+        </a>
+        <a
+          href={localeHref(locale, `year/${periodSlug(periodOf(e.start))}`)}
+          className="inline-flex h-12 items-center rounded-md border border-foreground px-5 text-base font-semibold"
+        >
+          {fill(messages.years.title, {
+            period: formatPeriod(periodOf(e.start), locale),
+          })}
         </a>
         {e.campaign && (
           <a
@@ -98,8 +109,15 @@ export function eventMetadata(locale: Locale, id: string) {
   if (!e) return {};
   const messages = getMessages(locale);
   const summary = eventSummary(e, locale);
+  const title = `${eventTitle(e, locale)} (${formatWhen(e, locale)})`;
+  const description = summary.text.slice(0, 160);
   return {
-    title: `${eventTitle(e, locale)} (${formatWhen(e, locale)}) — ${messages.siteName}`,
-    description: summary.text.slice(0, 160),
+    title: `${title} — ${messages.siteName}`,
+    description,
+    openGraph: {
+      title,
+      description,
+      images: ogImage(locale, `event/${id}/og.png`),
+    },
   };
 }

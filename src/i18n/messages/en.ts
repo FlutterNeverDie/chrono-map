@@ -53,6 +53,23 @@ export const en: Messages = {
       "Any changes to this policy will be posted on this page.",
     ],
   },
+  years: {
+    indexTitle: "World history by period",
+    indexDescription:
+      "From the 35th century BC to today: what happened across the world in each period.",
+    tab: "By period",
+    title: "The world: {period}",
+    metaDescription:
+      "What happened across the world, {period} ({range}): {titles} and {n} events in all.",
+    events: "Events in this period",
+    nearby: "Around the same time",
+    ongoing: "Still under way",
+    count: "{n}",
+    prev: "Previous period",
+    next: "Next period",
+    all: "All periods",
+    note: "Descriptions are the opening paragraph of each Wikipedia article (CC BY-SA 4.0). Open an event for the full text and a link to the source.",
+  },
   eras: {
     ancient: "Ancient",
     medieval: "Medieval",

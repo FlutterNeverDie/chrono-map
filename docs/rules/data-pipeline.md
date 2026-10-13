@@ -9,6 +9,7 @@
 | 역사 국경 | Cliopatria 원본(`data-raw/`) | `npm run borders` → `public/borders` | — |
 | 전쟁 지도 | `content/campaigns/<id>` | `npm run wars:fetch` / `wars:borders` | `npm run wars:build` |
 | 주제 지도 | `content/topics/<id>` | `npm run topics:fetch` | `npm run topics:build` |
+| OG 이미지 글꼴 | 모든 OG 카드의 글자 | `npm run og:fonts` → `content/og-fonts` (사건 제목·문구가 바뀌면) | — (이미지는 `next build`가 생성) |
 
 ```bash
 npm run dev     # 개발 서버 http://localhost:3000 (자동 변환 포함)

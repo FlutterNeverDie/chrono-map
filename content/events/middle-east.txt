@@ -166,7 +166,7 @@ importance: 3
 
 @ 1948-palestine-war
 wikipedia: 1948 Palestine war
-when: 1940 ~ 1949
+when: 1947 ~ 1949
 coords: 36, 34
 category: war
 importance: 3
@@ -187,7 +187,7 @@ importance: 4
 
 @ iranian-revolution
 wikipedia: Iranian Revolution
-when: 1970 ~ 1979
+when: 1978 ~ 1979
 coords: 53, 32
 category: politics
 importance: 4
@@ -236,14 +236,14 @@ importance: 4
 
 @ gaza-war
 wikipedia: Gaza war
-when: 2020
+when: 2023 ~ 2025
 coords: 53, 32
 category: war
 importance: 5
 
 @ 2025-2026-iranian-protests
 wikipedia: 2025–2026 Iranian protests
-when: 2020
+when: 2025 ~ 2026
 coords: 53, 32
 category: politics
 importance: 3

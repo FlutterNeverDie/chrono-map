@@ -51,6 +51,23 @@ export const ko = {
       "이 방침이 바뀌면 이 페이지에 게시합니다.",
     ],
   },
+  years: {
+    indexTitle: "연도별 세계사",
+    indexDescription:
+      "기원전 35세기부터 지금까지, 시기마다 세계 곳곳에서 일어난 일을 모아 봅니다.",
+    tab: "연도별",
+    title: "{period} 세계사",
+    metaDescription:
+      "{period}({range}) 세계 곳곳에서 일어난 일: {titles} 등 {n}건.",
+    events: "이 시기의 사건",
+    nearby: "같은 무렵",
+    ongoing: "계속되는 일",
+    count: "{n}건",
+    prev: "이전 시기",
+    next: "다음 시기",
+    all: "연도별 보기",
+    note: "설명은 위키백과(CC BY-SA 4.0) 문서의 첫 문단입니다. 사건을 누르면 전체 글과 원문 링크를 볼 수 있습니다.",
+  },
   eras: {
     ancient: "고대",
     medieval: "중세",

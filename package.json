@@ -17,7 +17,9 @@
     "prebuild": "npm run content && npm run wars:build && npm run topics:build",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "og:fonts": "tsx scripts/og-fonts.ts",
+    "postbuild": "node scripts/prune-out.mjs"
   },
   "dependencies": {
     "@radix-ui/react-slider": "^1.6.0",

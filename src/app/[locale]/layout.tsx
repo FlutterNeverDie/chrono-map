@@ -3,6 +3,8 @@ import { notFound } from "next/navigation";
 import { RootDocument } from "../RootDocument";
 import { getMessages } from "@/i18n";
 import { DEFAULT_LOCALE, LOCALES, isLocale } from "@/i18n/locales";
+import { SITE_URL } from "../site";
+import { ogImage } from "@/components/og/card";
 
 /** 한국어는 `/`(home)에서 처리하므로 나머지 언어만 정적 생성 */
 export function generateStaticParams() {
@@ -18,7 +20,17 @@ export async function generateMetadata({
   const { locale } = await params;
   if (!isLocale(locale)) return {};
   const messages = getMessages(locale);
-  return { title: messages.metaTitle, description: messages.metaDescription };
+  return {
+    metadataBase: new URL(SITE_URL),
+    title: messages.metaTitle,
+    description: messages.metaDescription,
+    // 하위 페이지가 openGraph를 따로 정하지 않으면 이 첫 화면 이미지를 쓴다
+    openGraph: {
+      siteName: messages.siteName,
+      images: ogImage(locale, "og.png"),
+    },
+    twitter: { card: "summary_large_image" },
+  };
 }
 
 export const viewport: Viewport = {

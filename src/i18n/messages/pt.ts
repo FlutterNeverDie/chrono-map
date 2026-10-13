@@ -53,6 +53,23 @@ export const pt: Messages = {
       "Qualquer alteração desta política será publicada nesta página.",
     ],
   },
+  years: {
+    indexTitle: "História mundial por período",
+    indexDescription:
+      "Do século XXXV a.C. até hoje: o que aconteceu no mundo em cada período.",
+    tab: "Por período",
+    title: "O mundo: {period}",
+    metaDescription:
+      "O que aconteceu no mundo, {period} ({range}): {titles} e {n} eventos no total.",
+    events: "Eventos deste período",
+    nearby: "Por volta da mesma época",
+    ongoing: "Ainda em curso",
+    count: "{n}",
+    prev: "Período anterior",
+    next: "Próximo período",
+    all: "Todos os períodos",
+    note: "As descrições são o primeiro parágrafo de cada artigo da Wikipédia (CC BY-SA 4.0). Abra um evento para ver o texto completo e o link da fonte.",
+  },
   eras: {
     ancient: "Antiguidade",
     medieval: "Idade Média",

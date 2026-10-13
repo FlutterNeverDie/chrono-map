@@ -144,7 +144,7 @@ importance: 4
 
 @ mexican-american-war
 wikipedia: Mexican–American War
-when: 1840 ~ 1848
+when: 1846 ~ 1848
 coords: -102, 23
 category: war
 importance: 3

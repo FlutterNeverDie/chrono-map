@@ -301,7 +301,7 @@ importance: 3
 
 @ wars-of-the-roses
 wikipedia: Wars of the Roses
-when: 1500
+when: 1455 ~ 1487
 coords: -1.32, 52.07
 category: war
 importance: 4
@@ -560,7 +560,7 @@ importance: 3
 
 @ polish-soviet-war
 wikipedia: Polish–Soviet War
-when: 1920 ~ 1921
+when: 1919 ~ 1921
 coords: 20, 50
 category: war
 importance: 3
@@ -742,7 +742,7 @@ importance: 3
 
 @ euromaidan
 wikipedia: Euromaidan
-when: 2010 ~ 2014
+when: 2013 ~ 2014
 coords: 30.52, 50.45
 category: politics
 importance: 3

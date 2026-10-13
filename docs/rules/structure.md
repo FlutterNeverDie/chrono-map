@@ -18,10 +18,11 @@ src/
     map/ timeline/ events/   본 지도(크로노맵)                            → 각 CLAUDE.md
     campaign/          전쟁 지도 (/wars/<id>)                             → CLAUDE.md
     topic/             주제 지도 (/maps/<id>)                             → CLAUDE.md
-    pages/             글 페이지: 사건 상세·소개·개인정보처리방침             → CLAUDE.md
+    pages/             글 페이지: 사건 상세·연도 페이지·소개·개인정보처리방침  → CLAUDE.md
     ads/               AdSense (개발 완료 후)
   components/ui/       도메인을 모르는 공용 UI                             → CLAUDE.md
   components/map/      도메인을 모르는 지도 부품(뷰포트·국경 로더)            → CLAUDE.md
+  components/og/       공유 미리보기 이미지 그리기·글꼴                      → CLAUDE.md
   store/  data/  lib/  전역 상태 · 정의·콘텐츠 진입점 · 순수 함수            → 각 CLAUDE.md
 scripts/               데이터 변환(content·wiki·draft·borders, campaigns/, topics/, lib/ 공용)
 docs/                  기획서(`기획서.md`, 기능 ID F-01 …), 규칙(`rules/`)

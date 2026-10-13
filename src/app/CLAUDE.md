@@ -1,7 +1,7 @@
 # app — 라우트 규칙
 
 - 라우트 파일 + 화면 조립(`HomeScreen.tsx` 크로노맵, `CampaignScreen.tsx` 전쟁 지도, `TopicScreen.tsx` 주제 지도·전쟁 지도 첫 화면, `warsTopic.ts` 전쟁 목록 → 주제 지도 데이터), 공용 상단 바 `SiteHeader.tsx`(지도 탭 · 화면별 도구 · 언어·테마), html 뼈대 `RootDocument.tsx`만 둔다. UI 로직은 `src/features`에서 가져온다.
-- 라우트(언어마다 `/` 또는 `/en` 아래): 지도 `/`, 전쟁 지도 첫 화면 `/wars`(모든 전쟁이 보이는 지도 — 상단 "전쟁 지도" 탭은 바로 여기로)·각 전쟁 `/wars/[id]`, 주제 지도 `/maps/[id]`, 사건 상세 `/event/[id]`, `/about`, `/privacy`, 그리고 `sitemap.xml`·`robots.txt`(주소는 `site.ts`, 배포 시 `NEXT_PUBLIC_SITE_URL`).
+- 라우트(언어마다 `/` 또는 `/en` 아래): 지도 `/`, 연도 페이지 `/year`·`/year/[slug]`, 공유 이미지 `og.png`(첫 화면·연도·사건, 빌드 때 PNG — components/og), 전쟁 지도 첫 화면 `/wars`(모든 전쟁이 보이는 지도 — 상단 "전쟁 지도" 탭은 바로 여기로)·각 전쟁 `/wars/[id]`, 주제 지도 `/maps/[id]`, 사건 상세 `/event/[id]`, `/about`, `/privacy`, 그리고 `sitemap.xml`·`robots.txt`(주소는 `site.ts`, 배포 시 `NEXT_PUBLIC_SITE_URL`).
 - 루트 레이아웃이 두 개다(다국어 + 한국어 기본 `/`):
   - `(home)/layout.tsx` + `page.tsx` → `/` (한국어). 전에 다른 언어를 골랐으면 그 언어 경로로 이동.
   - `[locale]/layout.tsx` + `page.tsx` → `/en`, `/zh` … (한국어 제외 7개, `generateStaticParams`).
@@ -15,3 +15,5 @@
 - 테마: SSR 기본값은 `data-theme="light"`. 저장된 값이 dark일 때만 `next/script`(`beforeInteractive`)가 바꾼다.
 - 쿠키·헤더·Server Action·Request 기반 Route Handler 금지(루트 CLAUDE.md 2번).
 - 본 지도 사건은 `HomeScreen`(서버)이 `localizeEvent`로 그 언어 부분만 골라 `EventsProvider`(store/events)로 넘긴다. 클라이언트 코드에서 `data/content.ts`를 import하지 않는다(8개 언어 전체가 번들에 들어감).
+- `metadataBase`(site.ts의 SITE_URL)는 두 레이아웃에 있다 — canonical·hreflang·OG 이미지의 상대 주소가 절대 주소가 된다. 레이아웃의 `openGraph.images`(첫 화면 이미지)는 openGraph를 따로 정한 페이지(연도·사건)에서는 덮어써지므로 그 페이지가 이미지를 직접 넣는다.
+- 빌드 후 `scripts/prune-out.mjs`(postbuild)가 out/의 RSC 페이로드(*.txt, 약 390MB)를 지운다. 모든 이동이 `<a>`라 쓰이지 않기 때문. **next/link·router를 쓰기 시작하면 이 단계를 없앨 것.**
