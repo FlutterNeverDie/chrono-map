@@ -132,3 +132,32 @@ export function polityColor(key: string): string {
   for (let i = 0; i < key.length; i++) h = (h * 31 + key.charCodeAt(i)) | 0;
   return PALETTE[Math.abs(h) % PALETTE.length];
 }
+
+/**
+ * 이름표를 달 나라: 넓은 순(넓이가 같으면 괄호 없는 이름 먼저), 같은 이름·같은 자리는 하나만.
+ * 원본 국경은 같은 땅을 여러 층으로 겹쳐 둔다(예: "Kingdom of the Franks"·"(Kingdom of the Franks)"·
+ * "(Carolingian Empire)"가 넓이·위치까지 같음) — 그대로 그리면 같은 이름표가 여러 번 나온다.
+ */
+export function labelCandidates<P extends PolityProps>(
+  polities: Feature<Polygon | MultiPolygon, P>[],
+  nameOf: (p: P) => string,
+): { polity: Feature<Polygon | MultiPolygon, P>; text: string }[] {
+  const seenText = new Set<string>();
+  const seenPoint = new Set<string>();
+  return polities
+    .filter((p) => p.properties.l)
+    .sort(
+      (a, b) =>
+        b.properties.a - a.properties.a ||
+        Number(a.properties.n.startsWith("(")) -
+          Number(b.properties.n.startsWith("(")),
+    )
+    .flatMap((polity) => {
+      const text = nameOf(polity.properties);
+      const point = polity.properties.l!.join(",");
+      if (seenText.has(text) || seenPoint.has(point)) return [];
+      seenText.add(text);
+      seenPoint.add(point);
+      return [{ polity, text }];
+    });
+}

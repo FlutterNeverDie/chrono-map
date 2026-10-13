@@ -114,3 +114,27 @@ Zand Dynasty = 잔드 왕조
 Ziyadid dynasty = 지야드 왕조
 Éire = 아일랜드
 British Africa = 영국령 아프리카
+
+# 서로 다른 나라가 같은 이름으로 번역되던 것(동·서 분열, 같은 한자음 등)과 원본 이름 오류(Franciaf)
+Lower Egypt = 하이집트
+Upper Egypt = 상이집트
+Southern Xiongnu = 남흉노
+Eastern Kushans = 동쿠샨
+Western Kushans = 서쿠샨
+Eastern Göktürks = 동돌궐
+Western Göktürks = 서돌궐
+Land Chenla = 육진랍
+Water Chenla = 수진랍
+Eastern Kara-Khanids = 동카라한 왕조
+Western Karakhanid Khanate = 서카라한 왕조
+Eastern Moghulistan = 동모굴리스탄
+Western Moghulistan = 서모굴리스탄
+Eastern Chagatai Khanate = 동차가타이 칸국
+Jin = 진(晉)
+Qin = 진(秦)
+Wei = 위(魏)
+Wey = 위(衛)
+Duchy of Wrocław = 브로츠와프 공국
+Principality of Pinsk = 핀스크 공국
+Beylik of Sinop = 시노프 베이국
+Carolingian Empire = 카롤링거 제국

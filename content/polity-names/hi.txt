@@ -362,3 +362,16 @@ Zululand = ज़ूलूलैंड
 Éire = आयरलैंड
 Đại Việt = दाई वियत
 British Africa = ब्रिटिश अफ़्रीका
+
+# 서로 다른 나라가 같은 이름으로 번역되던 것(동·서 분열, 같은 한자음 등)과 원본 이름 오류(Franciaf)
+Lower Egypt = निचला मिस्र
+Upper Egypt = ऊपरी मिस्र
+Southern Xiongnu = दक्षिणी शियोंगनु
+Eastern Kushans = पूर्वी कुषाण
+Western Kushans = पश्चिमी कुषाण
+Eastern Göktürks = पूर्वी तुर्क ख़ागानत
+Western Göktürks = पश्चिमी तुर्क ख़ागानत
+Land Chenla = स्थल चेनला
+Eastern Kara-Khanids = पूर्वी काराख़ानी
+Western Karakhanid Khanate = पश्चिमी काराख़ानी
+Carolingian Empire = कैरोलिंजियन साम्राज्य

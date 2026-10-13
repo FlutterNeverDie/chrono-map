@@ -7,6 +7,7 @@ import {
   useMapViewport,
   usePolities,
   usePolityNames,
+  labelCandidates,
   type PolityProps,
 } from "@/components/map";
 import { useCampaign, useCampaignState } from "./store";
@@ -74,17 +75,15 @@ export function CampaignMap() {
       size: number;
       text: string;
     }[] = [];
-    [...polities]
-      .filter((p) => p.properties.l && p.properties.a >= minArea)
-      .sort((a, b) => b.properties.a - a.properties.a)
-      .forEach((p, i) => {
+    labelCandidates(polities, nameOf)
+      .filter(({ polity }) => polity.properties.a >= minArea)
+      .forEach(({ polity: p, text }, i) => {
         const at = vp.project(p.properties.l!);
         if (!at) return;
         const size = round2(
           Math.min(14, 8.5 + Math.log10(p.properties.a / 150_000 + 1) * 4) *
             Math.pow(unit, 0.8),
         );
-        const text = nameOf(p.properties);
         const width = [...text].reduce(
           (w, ch) => w + (ch.charCodeAt(0) > 0x2e80 ? 1 : 0.58) * size,
           0,
@@ -131,10 +130,7 @@ export function CampaignMap() {
         fill="var(--map-ocean)"
       />
       {vp.copies.map((offset, copy) => (
-        <g
-          key={copy}
-          transform={`translate(${offset} 0)`}
-        >
+        <g key={copy} transform={`translate(${offset} 0)`}>
           <path
             d={vp.graticuleD}
             fill="none"

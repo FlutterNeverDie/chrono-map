@@ -34,3 +34,24 @@ Tibetans = 西藏
 Zand Dynasty = 赞德王朝
 Éire = 爱尔兰
 British Africa = 英属非洲
+
+# 서로 다른 나라가 같은 이름으로 번역되던 것(동·서 분열, 같은 한자음 등)과 원본 이름 오류(Franciaf)
+Lower Egypt = 下埃及
+Upper Egypt = 上埃及
+Southern Xiongnu = 南匈奴
+Eastern Kushans = 东贵霜
+Western Kushans = 西贵霜
+Eastern Göktürks = 东突厥
+Western Göktürks = 西突厥
+Land Chenla = 陆真腊
+Water Chenla = 水真腊
+Eastern Kara-Khanids = 东喀喇汗国
+Western Karakhanid Khanate = 西喀喇汗国
+Eastern Moghulistan = 东蒙兀儿斯坦
+Western Moghulistan = 西蒙兀儿斯坦
+Eastern Chagatai Khanate = 东察合台汗国
+Duchy of Wrocław = 弗罗茨瓦夫公国
+Principality of Pinsk = 平斯克公国
+Principality of Turov = 图罗夫公国
+Beylik of Sinop = 锡诺普贝伊国
+Carolingian Empire = 加洛林帝国

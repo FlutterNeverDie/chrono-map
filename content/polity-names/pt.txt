@@ -134,3 +134,24 @@ Yenisei Kyrgyz = Quirguizes do Ienissei
 Ziyadid dynasty = Dinastia Ziyadida
 Zululand = Zululândia
 British Africa = África Britânica
+
+# 서로 다른 나라가 같은 이름으로 번역되던 것(동·서 분열, 같은 한자음 등)과 원본 이름 오류(Franciaf)
+Lower Egypt = Baixo Egito
+Upper Egypt = Alto Egito
+Southern Xiongnu = Xiongnu do Sul
+Eastern Kushans = Kushanas orientais
+Western Kushans = Kushanas ocidentais
+Eastern Göktürks = Canato Turco Oriental
+Western Göktürks = Canato Turco Ocidental
+Land Chenla = Chenla Terrestre
+Water Chenla = Chenla Aquática
+Eastern Kara-Khanids = Caracânidas Orientais
+Western Karakhanid Khanate = Caracânidas Ocidentais
+Eastern Moghulistan = Mogulistão Oriental
+Western Moghulistan = Mogulistão Ocidental
+Eastern Chagatai Khanate = Canato de Chagatai Oriental
+Wei = Wei (魏)
+Wey = Wei (衛)
+Duchy of Wrocław = Ducado de Breslávia
+Principality of Pinsk = Principado de Pinsk
+Carolingian Empire = Império Carolíngio

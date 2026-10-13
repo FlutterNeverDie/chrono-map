@@ -266,14 +266,22 @@ export function WorldMap() {
   // 나라가 적은 시대(고대 초기 등)는 작은 나라도 이름을 모두 보여준다
   const labeled = useMemo(() => {
     const minArea = polities.length <= 30 ? 0 : LABEL_MIN_AREA / (zoom * zoom);
-    return polities
-      .filter(
-        (p) =>
-          p.properties.l &&
-          (p.properties.a >= minArea || p.properties.n === selectedPolity),
-      )
-      .sort((a, b) => b.properties.a - a.properties.a)
-      .slice(0, Math.round(45 * zoom));
+    return (
+      polities
+        .filter(
+          (p) =>
+            p.properties.l &&
+            (p.properties.a >= minArea || p.properties.n === selectedPolity),
+        )
+        // 넓이가 같으면(원본의 겹친 층) 괄호 없는 이름을 먼저 — "(Carolingian Empire)"보다 "Kingdom of the Franks"
+        .sort(
+          (a, b) =>
+            b.properties.a - a.properties.a ||
+            Number(a.properties.n.startsWith("(")) -
+              Number(b.properties.n.startsWith("(")),
+        )
+        .slice(0, Math.round(45 * zoom))
+    );
   }, [polities, zoom, selectedPolity]);
 
   // 글자·핀은 확대해도 화면에서 거의 같은 크기로 (지도 좌표 ÷ 배율)
@@ -294,9 +302,18 @@ export function WorldMap() {
       fontSize: number;
       text: string;
     }[] = [];
+    // 원본 국경은 같은 땅을 여러 층으로 겹쳐 둔다(예: 840년 "Kingdom of the Franks"·"(Kingdom of the Franks)"·
+    // "(Carolingian Empire)"가 넓이·위치까지 같음) → 같은 이름이나 같은 자리의 이름표는 하나만
+    const seenText = new Set<string>();
+    const seenPoint = new Set<string>();
     ordered.forEach((p, i) => {
       const at = project(p.properties.l!);
       if (!at) return;
+      const point = p.properties.l!.join(",");
+      const name = nameOf(p.properties);
+      if (seenText.has(name) || seenPoint.has(point)) return;
+      seenText.add(name);
+      seenPoint.add(point);
       // 기본 8.5, 큰 나라일수록 최대 15까지 (지도 좌표 단위)
       const base = Math.min(
         15,
@@ -306,7 +323,7 @@ export function WorldMap() {
       const fontSize = round2(
         (selected ? Math.max(base, 13) : base) * Math.pow(unit, 0.8),
       );
-      const text = nameOf(p.properties);
+      const text = name;
       // 글자 폭 추정: 한글·한자 등은 글자 크기만큼, 라틴 문자는 약 0.58배
       const width = [...text].reduce(
         (w, ch) => w + (ch.charCodeAt(0) > 0x2e80 ? 1 : 0.58) * fontSize,

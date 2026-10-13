@@ -98,3 +98,21 @@ Zimbabwe Rhodesia = زيمبابوي روديسيا
 Zululand = أرض الزولو
 Đại Việt = داي فيت
 British Africa = أفريقيا البريطانية
+
+# 서로 다른 나라가 같은 이름으로 번역되던 것(동·서 분열, 같은 한자음 등)과 원본 이름 오류(Franciaf)
+Lower Egypt = مصر السفلى
+Upper Egypt = مصر العليا
+Southern Xiongnu = شيونغنو الجنوبية
+Eastern Kushans = الكوشانيون الشرقيون
+Western Kushans = الكوشانيون الغربيون
+Eastern Göktürks = الخاقانية التركية الشرقية
+Western Göktürks = الخاقانية التركية الغربية
+Land Chenla = شينلا البرية
+Water Chenla = شينلا المائية
+Eastern Kara-Khanids = القراخانيون الشرقيون
+Western Karakhanid Khanate = القراخانيون الغربيون
+Eastern Moghulistan = مغولستان الشرقية
+Western Moghulistan = مغولستان الغربية
+Eastern Chagatai Khanate = خانية جغطاي الشرقية
+Beylik of Sinop = إمارة سينوب
+Carolingian Empire = الإمبراطورية الكارولنجية

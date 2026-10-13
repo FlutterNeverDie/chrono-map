@@ -8,6 +8,7 @@ import {
   useMapViewport,
   usePolities,
   usePolityNames,
+  labelCandidates,
 } from "@/components/map";
 import { useTopic, useTopicState } from "./store";
 import {
@@ -250,14 +251,13 @@ export function TopicMap() {
             className="pointer-events-none"
             opacity={0.8}
           >
-            {polities
+            {labelCandidates(polities, nameOf)
               .filter(
-                (p) =>
-                  p.properties.l &&
-                  p.properties.a > 1_500_000 / (vp.zoom * vp.zoom),
+                ({ polity }) =>
+                  polity.properties.a > 1_500_000 / (vp.zoom * vp.zoom),
               )
               .slice(0, 30)
-              .map((p, i) => {
+              .map(({ polity: p, text }, i) => {
                 const at = vp.project(p.properties.l!);
                 return (
                   at && (
@@ -267,7 +267,7 @@ export function TopicMap() {
                       y={at[1]}
                       fontSize={round2(9 * Math.pow(unit, 0.8))}
                     >
-                      {nameOf(p.properties)}
+                      {text}
                     </text>
                   )
                 );

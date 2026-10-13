@@ -66,3 +66,4 @@ hunminjeongeum
 2. 사건마다 영어 위키백과 문서를 먼저 찾아 `wikipedia:`로 연결한다(사건 자체 문서가 가장 좋고, 없으면 가장 가까운 문서).
 3. 연도·좌표는 그 문서와 대조한다. 확실하지 않으면 `precision: decade/century`.
 4. `npm run wiki` → `npm run content` — 오류는 `파일:줄` 형식으로 나온다. 통과해야 끝.
+- 지도 나라 이름: 서로 다른 나라가 같은 이름으로 번역되면(동·서 분열 — 동돌궐/서돌궐, 같은 한자음 — 진(晉)/진(秦)) `content/polity-names/<언어>.txt`에서 구분해 준다. 원본이 같은 땅을 여러 층("X"·"(X)"·"(상위 제국)")으로 겹쳐 둔 것은 화면에서 이름표를 하나만 단다(`components/map`의 `labelCandidates`).

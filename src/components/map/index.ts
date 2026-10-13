@@ -7,5 +7,6 @@ export {
   loadJson,
   loadPolities,
   useSettled,
+  labelCandidates,
 } from "./borders";
 export type { Polity, PolityProps } from "./borders";
