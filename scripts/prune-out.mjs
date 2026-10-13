@@ -1,7 +1,7 @@
 /**
  * 빌드 후 정리(npm run build 뒤 자동 실행): out/의 RSC 페이로드(*.txt)를 지운다.
  * 이 사이트는 next/link·router를 쓰지 않고 모든 이동이 <a>(전체 새로고침)라 브라우저가 이 파일을 받지 않는다.
- * 빌드 결과의 약 1/3(수백 MB)이라 배포 용량 제한(Vercel 정적 파일 1GB)을 넘지 않게 지운다.
+ * 빌드 결과의 약 1/3(수백 MB)이라 배포 제한(Cloudflare Pages 무료: 파일 2만 개)을 넘지 않게 지운다(남기면 3만 개가 넘음).
  * next/link를 쓰기 시작하면 이 스크립트를 없앨 것.
  */
 import { readdirSync, rmSync, statSync } from "node:fs";

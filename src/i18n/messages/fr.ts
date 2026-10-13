@@ -59,7 +59,7 @@ export const fr: Messages = {
     privacyBody: [
       "ChronoMap n'a ni compte ni connexion et ne collecte aucune donnée personnelle comme un nom ou une adresse e-mail.",
       "Vos choix de langue et de thème sont enregistrés uniquement dans votre navigateur (localStorage) et ne sont jamais envoyés à un serveur.",
-      "Le site est hébergé par Vercel, qui peut traiter temporairement des journaux d'accès (adresse IP, navigateur) pour faire fonctionner le service.",
+      "Le site est hébergé par Cloudflare Pages, qui peut traiter temporairement des journaux d'accès (adresse IP, navigateur) pour faire fonctionner le service.",
       "Ce site affiche des annonces Google AdSense. Des fournisseurs tiers, dont Google, utilisent des cookies pour diffuser des annonces en fonction de vos visites antérieures sur ce site ou sur d'autres sites.",
       "Les cookies publicitaires permettent à Google et à ses partenaires de diffuser des annonces en fonction de vos visites sur ce site et/ou d'autres sites Internet. Vous pouvez désactiver la publicité personnalisée dans les Paramètres des annonces Google et refuser l'utilisation de cookies par des fournisseurs tiers sur www.aboutads.info.",
       "Les visiteurs de l'Espace économique européen, du Royaume-Uni et de la Suisse sont invités à donner leur consentement via le message de consentement de Google avant l'utilisation de cookies publicitaires. Vous pouvez modifier votre choix à tout moment.",

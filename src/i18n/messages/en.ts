@@ -59,7 +59,7 @@ export const en: Messages = {
     privacyBody: [
       "ChronoMap has no accounts or sign-in and does not collect personal information such as names or email addresses.",
       "Your language and theme choices are stored only in your browser (localStorage) and are never sent to a server.",
-      "The site is hosted on Vercel, which may temporarily process access logs (IP address, browser information) to operate the service.",
+      "The site is hosted on Cloudflare Pages, which may temporarily process access logs (IP address, browser information) to operate the service.",
       "This site shows Google AdSense ads. Third-party vendors, including Google, use cookies to serve ads based on your prior visits to this website or other websites.",
       "Google's use of advertising cookies enables it and its partners to serve ads based on your visits to this site and/or other sites on the Internet. You can opt out of personalized advertising in Google Ad Settings, and opt out of third-party vendors' use of cookies for personalized advertising at www.aboutads.info.",
       "Visitors in the European Economic Area, the UK and Switzerland are asked for consent through Google's consent message before advertising cookies are used. You can change your choice at any time.",

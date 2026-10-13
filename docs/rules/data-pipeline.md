@@ -18,6 +18,6 @@ npm run build   # 정적 빌드 → out/ (백엔드 기능을 쓰면 여기서 �
 npm run lint
 ```
 
-- 사이트 방문자는 외부 API를 부르지 않는다. 정적 지도 데이터의 CDN·브라우저 캐시 시간은 `vercel.json`.
+- 사이트 방문자는 외부 API를 부르지 않는다. 정적 지도 데이터의 CDN·브라우저 캐시 시간은 `public/_headers`(Cloudflare Pages).
 - 위키백과·Wikidata 요청은 `scripts/lib/wikipediaApi.ts` 한 곳(요청 제한 시 재시도, User-Agent 지정).
 - 개발 서버 주의: `globals.css`를 바꿨는데 반영이 안 되면 서버를 끄고 `.next`를 지운 뒤 다시 실행.

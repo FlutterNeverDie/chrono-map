@@ -57,7 +57,7 @@ export const zh: Messages = {
     privacyBody: [
       "ChronoMap 没有注册或登录功能，不收集姓名、电子邮箱等个人信息。",
       "语言和主题选择仅保存在你的浏览器（localStorage）中，不会发送到服务器。",
-      "本站托管于 Vercel，托管方可能为运营服务临时处理访问记录（IP 地址、浏览器信息等）。",
+      "本站托管于 Cloudflare Pages，托管方可能为运营服务临时处理访问记录（IP 地址、浏览器信息等）。",
       "本网站展示 Google AdSense 广告。包括 Google 在内的第三方供应商会使用 Cookie，根据您以往访问本网站或其他网站的情况投放广告。",
       "Google 使用广告 Cookie，使其及其合作伙伴能够根据您访问本网站和/或互联网上其他网站的情况投放广告。您可以在 Google 广告设置中关闭个性化广告，也可以访问 www.aboutads.info 拒绝第三方供应商使用 Cookie 投放个性化广告。",
       "对于欧洲经济区、英国和瑞士的访问者，在使用广告 Cookie 之前会通过 Google 的同意提示征求您的同意。您可以随时更改选择。",

@@ -10,11 +10,11 @@
 - 광고 기반: `src/features/ads`(스크립트·광고 칸·ads.txt). 환경변수가 없으면 아무것도 그리지 않는다
 - Search Console 소유 확인 메타 태그 자리
 
-## 환경변수 (Vercel → Project → Settings → Environment Variables)
+## 환경변수 (Cloudflare → Workers & Pages → 프로젝트 → Settings → Variables and Secrets, Production)
 
 | 이름 | 예 | 언제 |
 | --- | --- | --- |
-| `NEXT_PUBLIC_SITE_URL` | `https://chronomap.example` | 도메인 연결 직후(사이트맵·canonical·OG 주소) |
+| `NEXT_PUBLIC_SITE_URL` | `https://chronomap.example` | 도메인 연결 직후(사이트맵·canonical·OG 주소). 없으면 `https://chrono-map.pages.dev` |
 | `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` | Search Console의 HTML 태그 값 | Search Console 등록 때 |
 | `NEXT_PUBLIC_CONTACT_EMAIL` | (선택) 연락용 이메일 | 연락처에 이메일을 보일 때 |
 | `NEXT_PUBLIC_ADSENSE_CLIENT` | `ca-pub-0000000000000000` | AdSense 신청 때(심사 코드 = 이 스크립트, ads.txt도 채워짐) |
@@ -24,8 +24,14 @@
 
 ## 순서
 
-1. **Vercel 배포**: GitHub 저장소 연결 → Framework Next.js, Build `npm run build`, Output `out`. (CLI 업로드는 무료 플랜 용량 제한이 있어 GitHub 연동 빌드를 쓴다.)
-2. **도메인**: 독자 도메인 구입·연결(`*.vercel.app`은 AdSense 승인이 어렵다) → `NEXT_PUBLIC_SITE_URL` 지정 후 재배포.
+호스팅은 **Cloudflare Pages**(무료 플랜, 상업적 사용 가능). Vercel 무료(Hobby) 플랜은 광고를 넣으면 상업적 사용이라 Pro가 필요해서 쓰지 않는다.
+빌드 결과 제한: 무료 플랜은 파일 2만 개·파일당 25MB — 지금 약 1만 개(빌드 후 정리 `prune-out`이 RSC 페이로드를 지워서), 5MB 넘는 파일 없음.
+
+1. **Cloudflare Pages 배포**: Workers & Pages → Create → Pages → GitHub 저장소 연결.
+   - Framework preset: None(또는 Next.js (Static HTML Export)), Build command `npm run build`, Build output directory `out`.
+   - Node 버전은 저장소의 `.node-version`(22)을 따른다. 빌드는 약 2분(무료 플랜 제한 20분).
+   - 캐시 헤더는 `public/_headers`. 404는 `out/404.html`을 자동으로 쓴다.
+2. **도메인**: Cloudflare Registrar에서 구입(원가, .com 연 10달러 안팎) → Pages 프로젝트 → Custom domains에 연결 → `NEXT_PUBLIC_SITE_URL` 지정 후 다시 배포. (`*.pages.dev`는 AdSense 승인이 안 된다.)
 3. **Search Console**: 도메인 속성 추가 → 소유 확인(DNS 또는 `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION`) → `sitemap.xml` 제출.
 4. **AdSense 신청**: 사이트 추가 → `NEXT_PUBLIC_ADSENSE_CLIENT` 지정·재배포 → `/ads.txt` 확인 → 심사 요청(1~4주).
 5. **동의 메시지(CMP)**: AdSense → 개인 정보 보호 및 메시지 → 유럽 규정 메시지 만들기·게시.
