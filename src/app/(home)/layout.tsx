@@ -18,6 +18,8 @@ export const metadata: Metadata = {
     images: ogImage(DEFAULT_LOCALE, "og.png"),
   },
   twitter: { card: "summary_large_image" },
+  // 아이콘: app/icon.svg(자동) + iOS 홈 화면용 PNG
+  icons: { icon: "/icon.svg", apple: "/apple-touch-icon.png" },
 };
 
 export const viewport: Viewport = {

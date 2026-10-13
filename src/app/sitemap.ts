@@ -15,6 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "wars",
     "about",
     "privacy",
+    "contact",
     ...CAMPAIGNS.map((c) => `wars/${c.id}`),
     ...TOPICS.map((t) => `maps/${t.id}`),
     "year",

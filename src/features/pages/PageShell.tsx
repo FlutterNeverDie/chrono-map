@@ -57,6 +57,12 @@ export function SiteFooter({ locale }: { locale: Locale }) {
           {messages.pages.about}
         </a>
         <a
+          href={localeHref(locale, "contact")}
+          className="hover:text-foreground"
+        >
+          {messages.pages.contactTitle}
+        </a>
+        <a
           href={localeHref(locale, "privacy")}
           className="hover:text-foreground"
         >
