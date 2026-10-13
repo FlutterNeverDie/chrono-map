@@ -101,6 +101,7 @@ coords: 10, 34
 category: war
 importance: 3
 title.hi: तृतीय प्यूनिक युद्ध
+summary.hi: तृतीय प्यूनिक युद्ध रोम और कार्थेज के बीच हुआ अंतिम प्यूनिक युद्ध था, जो पूरी तरह आज के उत्तरी ट्यूनीशिया में लड़ा गया। रोमन सेना ने कार्थेज नगर को लंबे समय तक घेरे रखा और ई.पू. 146 में उसे जीतकर नष्ट कर दिया। इसके बाद कार्थेज का क्षेत्र रोम का अफ़्रीका प्रांत बन गया।
 
 @ second-boer-war
 wikipedia: Second Boer War
@@ -116,6 +117,7 @@ coords: 13.19, 32.89
 category: war
 importance: 3
 title.hi: इतालवी–तुर्की युद्ध
+summary.hi: सितंबर 1911 से अक्टूबर 1912 तक इटली राज्य और उस्मानी साम्राज्य के बीच हुआ युद्ध। इटली ने उस्मानी त्रिपोलितानिया के तटीय क्षेत्रों पर कब्ज़ा किया, जो बाद में इतालवी लीबिया उपनिवेश का हिस्सा बने।
 
 @ gaza-war-2008-2009
 wikipedia: Gaza War (2008–2009)
@@ -124,6 +126,7 @@ coords: 34.4, 31.45
 category: war
 importance: 3
 title.hi: ग़ाज़ा युद्ध (2008–2009)
+summary.hi: 27 दिसंबर 2008 से 18 जनवरी 2009 तक ग़ाज़ा पट्टी के फ़िलिस्तीनी सशस्त्र समूहों और इज़राइली रक्षा बलों के बीच तीन सप्ताह तक चला संघर्ष, जिसे इज़राइल ने ऑपरेशन कास्ट लेड नाम दिया। इसमें 1,166 से 1,417 फ़िलिस्तीनी और 13 इज़राइली मारे गए तथा ग़ाज़ा में बड़े पैमाने पर विनाश हुआ।
 
 @ punic-wars
 wikipedia: Punic Wars
@@ -141,6 +144,7 @@ category: politics
 importance: 4
 title.ko: 이집트 통일 (나르메르)
 title.hi: नारमेर द्वारा मिस्र का एकीकरण
+summary.hi: नारमेर प्राचीन मिस्र के प्रारंभिक राजवंश काल का शासक था, जिसका शासन ई.पू. चौथी सहस्राब्दी के अंत में शुरू हुआ। अधिकांश विद्वान उसे ऊपरी और निचले मिस्र का एकीकरण करने वाला और प्रथम राजवंश का संस्थापक मानते हैं। इस प्रकार वह एकीकृत मिस्र का पहला राजा माना जाता है।
 
 @ carthage-founding
 wikipedia: Ancient Carthage
@@ -169,6 +173,7 @@ importance: 3
 title.ko: 악숨 왕국의 기독교 개종
 summary.ko: 4세기 악숨 왕국의 왕 에자나가 기독교를 받아들여 국교로 삼았다. 그는 기록이 비교적 잘 남아 있는 악숨의 군주로, 에티오피아라는 이름을 처음 쓴 왕으로도 알려져 있다.
 title.hi: अक्सूम के एज़ाना का ईसाई धर्म अपनाना
+summary.hi: चौथी शताब्दी में अक्सूम राज्य के राजा एज़ाना ने ईसाई धर्म अपनाया और उसे राज्य का धर्म बनाया। वह अक्सूम के उन शासकों में से है जिनके बारे में अपेक्षाकृत अच्छे अभिलेख मिलते हैं। उसे अपने देश के लिए इथियोपिया नाम का प्रयोग करने वाला पहला राजा भी माना जाता है।
 
 @ muslim-conquest-of-egypt
 wikipedia: Arab conquest of Egypt
@@ -186,6 +191,7 @@ category: war
 importance: 3
 title.ko: 이슬람의 마그레브 정복
 title.hi: मग़रिब पर मुस्लिम विजय
+summary.hi: मग़रिब पर मुस्लिम विजय प्रारंभिक इस्लामी विजयों के सबसे लंबे अभियानों में से एक थी, जो लगभग 70 वर्ष चली। मिस्र की विजय के बाद 640 के दशक में आरंभ हुए इस अभियान में बाइज़ेंटाइन सेनाओं और स्थानीय बर्बर जनजातियों से लंबा संघर्ष हुआ। अंततः उत्तर-पश्चिमी अफ़्रीका उमय्यद ख़िलाफ़त के अधीन आ गया।
 
 @ al-azhar-university
 wikipedia: Al-Azhar University
@@ -214,6 +220,8 @@ title.ko: 키리나 전투 (말리 제국 성립)
 summary.ko: 만딩카족의 왕자 순디아타 케이타가 키리나 전투에서 소소 왕국의 수망구루 칸테를 크게 물리쳤다. 이 승리로 순디아타가 세운 말리 제국이 서아프리카의 패권을 차지하게 되었다.
 title.zh: 基里纳战役
 title.hi: किरीना का युद्ध
+summary.hi: किरीना का युद्ध मांडिंका राजकुमार सुंदियाता केइता और सोसो राजा सुमांगुरु कांते के बीच लड़ा गया। सुंदियाता की सेना ने सुमांगुरु को निर्णायक रूप से पराजित किया। इस विजय से सुंदियाता द्वारा स्थापित माली साम्राज्य का पश्चिम अफ़्रीका पर प्रभुत्व सुनिश्चित हुआ।
+summary.zh: 约1235年，曼丁卡王子松迪亚塔·凯塔在基里纳战役中击败索索国王苏曼古鲁·坎特。这场胜利确立了松迪亚塔所建马里帝国在西非的霸主地位。
 
 @ conquest-of-ceuta
 wikipedia: Portuguese conquest of Ceuta
@@ -225,6 +233,8 @@ title.ko: 포르투갈의 세우타 정복
 summary.ko: 1415년 포르투갈 왕 주앙 1세가 이끄는 군대가 마린 왕조가 다스리던 북아프리카의 항구 도시 세우타를 점령했다. 이 정복은 포르투갈 해외 제국의 출발점으로 여겨진다.
 title.zh: 葡萄牙征服休达
 title.hi: पुर्तगाल द्वारा सेउता की विजय
+summary.hi: 21 अगस्त 1415 को पुर्तगाल के राजा जोआओ प्रथम के नेतृत्व में पुर्तगाली सेना ने मरीनी सल्तनत के अधीन उत्तरी अफ़्रीका के बंदरगाह नगर सेउता पर कब्ज़ा किया। सावधानी से तैयार किए गए इस आक्रमण में नगर जल्दी ही गिर गया। इस विजय को पुर्तगाली विदेशी साम्राज्य की शुरुआत माना जाता है।
+summary.zh: 1415年，葡萄牙国王若昂一世率军攻占马林王朝统治下的北非港口城市休达。这次征服被视为葡萄牙海外帝国的开端，休达此后由葡萄牙控制，直到1668年移交西班牙。
 
 @ bartolomeu-dias
 wikipedia: Bartolomeu Dias
@@ -243,6 +253,7 @@ importance: 3
 title.ko: 오스만의 이집트 정복
 summary.ko: 1516년부터 1517년까지 오스만 제국이 이집트의 맘루크 술탄국과 싸워 승리하고 맘루크 왕조를 무너뜨렸다. 오스만은 레반트와 이집트, 메카가 있는 헤자즈를 차지하며 이슬람 세계의 중심 제국으로 떠올랐다.
 title.hi: उस्मानी–मामलूक युद्ध (1516–1517)
+summary.hi: 1516 से 1517 तक चले इस युद्ध में उस्मानी साम्राज्य ने मिस्र स्थित मामलूक सल्तनत को पराजित कर उसका अंत कर दिया। उस्मानियों ने लेवांत, मिस्र और मक्का वाले हिजाज़ क्षेत्र को अपने साम्राज्य में मिला लिया। इसके साथ उस्मानी साम्राज्य इस्लामी जगत की केंद्रीय शक्ति बन गया।
 
 @ cape-colony
 wikipedia: Dutch Cape Colony
@@ -254,6 +265,9 @@ title.ko: 케이프 식민지 건설
 title.fr: Colonie néerlandaise du Cap
 title.pt: Colônia holandesa do Cabo
 title.hi: डच केप उपनिवेश
+summary.hi: डच केप उपनिवेश दक्षिणी अफ़्रीका में डच ईस्ट इंडिया कंपनी का उपनिवेश था, जिसका केंद्र केप ऑफ़ गुड होप था। 1652 में यान फ़ान रीबेक के नेतृत्व में इसकी स्थापना एशिया जाने वाले कंपनी के जहाज़ों को रसद देने वाले पड़ाव के रूप में हुई। समय के साथ यहाँ यूरोपीय बसावट फैलती गई और यह आगे चलकर ब्रिटिश नियंत्रण में चला गया।
+summary.fr: En 1652, une expédition de la Compagnie néerlandaise des Indes orientales dirigée par Jan van Riebeeck fonda au cap de Bonne-Espérance une escale de ravitaillement pour les navires en route vers l'Asie. La colonie, gouvernée par la Compagnie jusqu'en 1795, s'étendit rapidement vers l'intérieur des terres au fil de l'installation de colons.
+summary.pt: Em 1652, uma expedição da Companhia Holandesa das Índias Orientais liderada por Jan van Riebeeck fundou no cabo da Boa Esperança um posto de abastecimento para os navios que seguiam para a Ásia. A colônia, governada pela Companhia até 1795, expandiu-se rapidamente para o interior com a chegada de colonos.
 
 @ french-invasion-of-egypt
 wikipedia: French invasion of Egypt and Syria
@@ -263,6 +277,7 @@ category: war
 importance: 3
 title.ko: 나폴레옹의 이집트 원정
 title.hi: मिस्र और सीरिया पर फ़्रांसीसी आक्रमण
+summary.hi: 1798 से 1801 तक नेपोलियन बोनापार्ट के नेतृत्व में फ़्रांस ने उस्मानी अधीन मिस्र और सीरिया पर सैन्य अभियान चलाया। इसका उद्देश्य ब्रिटेन के व्यापार मार्गों को कमज़ोर करना और फ़्रांसीसी प्रभाव बढ़ाना था। अभियान सैन्य रूप से विफल रहा, पर साथ गए विद्वानों के कार्य और रोसेटा पत्थर की खोज ने मिस्र विद्या को बढ़ावा दिया।
 
 @ invasion-of-algiers-1830
 wikipedia: Invasion of Algiers (1830)
@@ -274,6 +289,8 @@ title.ko: 프랑스의 알제리 침공
 summary.ko: 1830년 샤를 10세가 다스리던 프랑스가 외교 분쟁을 구실로 알제를 침공해 정복했다. 이 침공은 프랑스가 130여 년에 걸쳐 알제리를 식민 지배하는 출발점이 되었다.
 title.es: Invasión de Argel (1830)
 title.hi: अल्जीयर्स पर फ़्रांसीसी आक्रमण (1830)
+summary.hi: 1830 में राजा चार्ल्स दशम के शासन वाले फ़्रांस ने एक कूटनीतिक विवाद को बहाना बनाकर अल्जीयर्स पर आक्रमण किया और उसे जीत लिया। 1827 की तथाकथित पंखा घटना के बाद से फ़्रांस ने अल्जीयर्स बंदरगाह की नाकाबंदी कर रखी थी। यह आक्रमण अल्जीरिया पर 130 से अधिक वर्षों तक चले फ़्रांसीसी औपनिवेशिक शासन की शुरुआत बना।
+summary.es: En 1830 Francia, bajo el reinado de Carlos X, invadió y conquistó la Regencia de Argel, tomando como pretexto un incidente diplomático ocurrido en 1827. La operación marcó el comienzo de más de un siglo de dominio colonial francés en Argelia.
 
 @ suez-canal
 wikipedia: Suez Canal
@@ -315,6 +332,7 @@ category: war
 importance: 3
 title.ko: 아도와 전투
 title.hi: अद्वा का युद्ध
+summary.hi: 1 मार्च 1896 को अद्वा नगर के पास सम्राट मेनेलिक द्वितीय के नेतृत्व में इथियोपियाई सेना ने जनरल ओरेस्ते बारातिएरी की इतालवी औपनिवेशिक सेना को निर्णायक रूप से हराया। इस जीत ने प्रथम इटली-इथियोपिया युद्ध का अंत किया और इथियोपिया की स्वतंत्रता सुरक्षित रखी।
 
 @ herero-nama-genocide
 wikipedia: Herero and Nama genocide
@@ -324,6 +342,7 @@ category: war
 importance: 3
 title.ko: 헤레로·나마 학살
 title.hi: हेरेरो और नामा नरसंहार
+summary.hi: 1904 से 1908 के बीच जर्मन साम्राज्य ने अपने उपनिवेश जर्मन दक्षिण-पश्चिम अफ़्रीका (वर्तमान नामीबिया) में हेरेरो और नामा लोगों का संहार किया। इसमें लगभग 40,000 से 80,000 हेरेरो और 10,000 नामा मारे गए; इसे बीसवीं सदी का पहला नरसंहार माना जाता है।
 
 @ el-alamein
 wikipedia: Second Battle of El Alamein
@@ -333,6 +352,7 @@ category: war
 importance: 4
 title.ko: 제2차 엘알라메인 전투
 title.hi: अल-अलामीन का द्वितीय युद्ध
+summary.hi: द्वितीय विश्व युद्ध में 1942 के अक्टूबर-नवंबर में मिस्र के अल-अलामीन के पास लड़ा गया युद्ध, जिसमें मोंटगोमरी के नेतृत्व में ब्रिटिश आठवीं सेना ने रोमेल की जर्मन-इतालवी सेना को हराया। इसके बाद उत्तरी अफ़्रीका में धुरी सेनाओं का पीछे हटना शुरू हुआ और मिस्र तथा स्वेज़ नहर सुरक्षित रहे।
 
 @ apartheid
 wikipedia: Apartheid
@@ -378,6 +398,11 @@ title.ar: عام أفريقيا
 title.fr: Année de l'Afrique
 title.pt: Ano da África
 title.hi: अफ़्रीका वर्ष
+summary.hi: 1960 में सत्रह अफ़्रीकी देशों के स्वतंत्र होने की घटनाओं के कारण इस वर्ष को अफ़्रीका वर्ष कहा जाता है। इसने अफ़्रीकी स्वतंत्रता आंदोलनों की परिणति और महाद्वीप में बढ़ती अखिल-अफ़्रीकी भावना को दर्शाया, तथा संयुक्त राष्ट्र में अफ़्रीका एक प्रमुख शक्ति के रूप में उभरा।
+summary.zh: 1960年，非洲共有17个国家获得独立，泛非主义情绪高涨，这一年因此被称为“非洲年”。非洲国家在联合国的影响力随之上升，但新独立国家也开始面对后殖民时代的冲突。
+summary.ar: يُطلق اسم عام أفريقيا على عام 1960 الذي نالت فيه سبع عشرة دولة أفريقية استقلالها، وتصاعدت فيه المشاعر الأفريقية الجامعة. وشهد العام ذروة حركات الاستقلال وبروز أفريقيا قوةً مؤثرة في الأمم المتحدة، لكنه شهد أيضًا بداية أزمات ما بعد الاستعمار.
+summary.fr: L'année 1960 vit l'accession à l'indépendance de dix-sept pays africains, dont une grande partie des colonies françaises d'Afrique subsaharienne. Elle marqua l'apogée des mouvements d'indépendance et l'affirmation de l'Afrique aux Nations unies, mais aussi le début de nouvelles crises postcoloniales.
+summary.pt: O ano de 1960 ficou conhecido como Ano da África porque dezessete países africanos conquistaram a independência, em meio ao fortalecimento do pan-africanismo. O ano marcou o auge dos movimentos de independência e a afirmação da África nas Nações Unidas, mas também o início de conflitos pós-coloniais.
 
 @ oau-founding
 wikipedia: Organisation of African Unity
@@ -387,6 +412,7 @@ category: politics
 importance: 3
 title.ko: 아프리카 통일 기구 창설
 title.hi: अफ़्रीकी एकता संगठन की स्थापना
+summary.hi: 25 मई 1963 को इथियोपिया के अदीस अबाबा में 33 अफ़्रीकी सरकारों के हस्ताक्षर से अफ़्रीकी एकता संगठन की स्थापना हुई। इसका उद्देश्य सदस्य देशों के बीच राजनीतिक और आर्थिक एकीकरण को बढ़ावा देना तथा अफ़्रीका से उपनिवेशवाद और नव-उपनिवेशवाद को समाप्त करना था; 2002 में इसका स्थान अफ़्रीकी संघ ने लिया।
 
 @ nigerian-civil-war
 wikipedia: Nigerian Civil War
@@ -420,3 +446,4 @@ category: politics
 importance: 3
 title.ko: 튀니지 재스민 혁명
 title.hi: ट्यूनीशियाई क्रांति
+summary.hi: दिसंबर 2010 से जनवरी 2011 तक ट्यूनीशिया में 28 दिनों तक चले नागरिक प्रतिरोध और सड़क प्रदर्शनों से लंबे समय से सत्ता में रहे तानाशाह ज़ैन अल-आबिदीन बेन अली को सत्ता छोड़नी पड़ी। इसे जैस्मिन क्रांति भी कहते हैं; इसने देश में लोकतांत्रिक चुनावों का मार्ग खोला और अरब स्प्रिंग की शुरुआत की।

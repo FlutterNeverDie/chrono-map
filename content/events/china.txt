@@ -100,6 +100,7 @@ coords: 116.39, 39.91
 category: politics
 importance: 5
 title.hi: चीनी जनवादी गणराज्य की स्थापना की घोषणा
+summary.hi: 1 अक्टूबर 1949 को चीनी कम्युनिस्ट पार्टी के अध्यक्ष माओ त्से-तुंग ने बीजिंग के तियानआनमेन चौक पर चीनी जनवादी गणराज्य की स्थापना की घोषणा की। इसी समारोह में केंद्रीय जन सरकार की घोषणा भी हुई, जिसे आधुनिक चीन की स्थापना माना जाता है।
 
 @ covid-19-pandemic
 wikipedia: COVID-19 pandemic
@@ -150,6 +151,7 @@ coords: 123.47, 41.83
 category: war
 importance: 3
 title.hi: मुकदेन घटना
+summary.hi: 18 सितंबर 1931 को मुकदेन के पास जापानी सैनिकों ने जापान की दक्षिण मंचूरिया रेलवे की पटरी के पास विस्फोट किया और उसका दोष चीनियों पर डाल दिया। इस झूठे बहाने के सहारे जापान ने मंचूरिया पर आक्रमण कर उस पर कब्ज़ा कर लिया।
 
 @ second-sino-japanese-war
 wikipedia: Second Sino-Japanese War
@@ -183,6 +185,7 @@ category: culture
 importance: 3
 title.ko: 갑골문
 title.ar: كتابة عظام العرافة
+summary.ar: كتابة عظام العرافة هي أقدم شكل موثق من الكتابة الصينية، ويعود إلى أواخر الألفية الثانية ق.م في عهد أسرة شانغ. نُقشت الرموز على عظام أكتاف الثيران أو دروع السلاحف، وسجّلت في الغالب أسئلة طقوس العرافة الملكية وتفسير الشقوق التي تظهر على العظام بعد تعريضها للنار.
 
 @ battle-of-muye
 wikipedia: Battle of Muye
@@ -193,6 +196,8 @@ importance: 3
 title.ko: 목야 전투 (주나라의 상 정복)
 title.pt: Batalha de Muye
 title.hi: मुये का युद्ध
+summary.hi: मुये का युद्ध प्राचीन चीन में शांग राजवंश के अंतिम राजा दी शिन और झोउ के राजा वू की सेनाओं के बीच लड़ा गया। झोउ की जीत के बाद शांग की राजधानी यिन पर कब्ज़ा हो गया। इससे शांग राजवंश का अंत हुआ और झोउ राजवंश की स्थापना हुई।
+summary.pt: Na Batalha de Muye, as forças do estado rebelde de Zhou, lideradas pelo rei Wu, derrotaram o exército da dinastia Shang, comandado pelo rei Di Xin, e tomaram a capital Yin. A vitória pôs fim à dinastia Shang e deu início à dinastia Zhou, sendo tradicionalmente citada na historiografia chinesa como exemplo do Mandato do Céu.
 
 @ confucius
 wikipedia: Confucius
@@ -212,6 +217,8 @@ importance: 3
 title.ko: 장평 전투
 title.pt: Batalha de Changping
 title.hi: चांगपिंग का युद्ध
+summary.hi: चांगपिंग का युद्ध चीन के युद्धरत राज्य काल में दो सबसे शक्तिशाली राज्यों छिन और चाओ के बीच लड़ा गया। लगभग दो वर्ष के गतिरोध के बाद ई.पू. 260 में छिन को निर्णायक विजय मिली। इस पराजय से चाओ की सैन्य शक्ति टूट गई और आगे चलकर छिन द्वारा चीन के एकीकरण का मार्ग खुला।
+summary.pt: Durante o Período dos Reinos Combatentes, os dois estados militarmente mais fortes da China, Qin e Zhao, enfrentaram-se em Changping num impasse que durou de 262 a 260 a.C. A batalha terminou com uma vitória decisiva de Qin, e a execução em massa dos prisioneiros de Zhao enfraqueceu esse estado de forma irreversível.
 
 @ terracotta-army
 wikipedia: Terracotta Army
@@ -262,6 +269,7 @@ category: war
 importance: 3
 title.ko: 적벽 대전
 title.hi: लाल चट्टानों का युद्ध
+summary.hi: लाल चट्टानों का युद्ध, जिसे चिबी का युद्ध भी कहते हैं, ईस्वी 208–209 की सर्दियों में यांग्त्ज़ी नदी पर लड़ा गया एक निर्णायक नौसैनिक युद्ध था। हान राजवंश के अंतिम दौर में सुन च्वान और लियू बेई की संयुक्त सेनाओं ने उत्तर के शक्तिशाली सरदार त्साओ त्साओ को पराजित किया। इसने चीन के तीन राज्यों में बँटने की नींव रखी।
 
 @ sui-conquest-of-chen
 wikipedia: Sui dynasty
@@ -279,6 +287,7 @@ category: economy
 importance: 4
 title.ko: 수 대운하 건설
 title.hi: चीन की महान नहर
+summary.hi: चीन की महान नहर उत्तर और पूर्वी चीन की प्रमुख नदियों और झीलों को जोड़ने वाली नहरों की एक विशाल प्रणाली है। सुई राजवंश के समय सातवीं शताब्दी के आरंभ में इसके बड़े हिस्सों को जोड़कर उत्तर और दक्षिण के बीच जल परिवहन का मुख्य मार्ग बनाया गया। यह विश्व का सबसे लंबा कृत्रिम जलमार्ग है और यूनेस्को विश्व धरोहर स्थल है।
 
 @ tang-founding
 wikipedia: Tang dynasty
@@ -296,6 +305,7 @@ category: war
 importance: 4
 title.ko: 안사의 난
 title.hi: आन लुशान विद्रोह
+summary.hi: आन लुशान विद्रोह ईस्वी 755 से 763 तक तांग राजवंश के विरुद्ध चला एक बड़ा गृहयुद्ध था। सीमांत सेनापति आन लुशान ने विद्रोह कर यान राजवंश की घोषणा की और राजधानी चांगआन पर भी कब्ज़ा कर लिया। विद्रोह अंततः दबा दिया गया, पर इससे तांग राजवंश की शक्ति स्थायी रूप से कमज़ोर हो गई।
 
 @ diamond-sutra
 wikipedia: Diamond Sutra
@@ -323,6 +333,8 @@ importance: 3
 title.ko: 필승의 활자 발명
 title.ar: بي شنغ والطباعة بالحروف المتحركة
 title.hi: बी शेंग का चल मुद्रण आविष्कार
+summary.hi: बी शेंग चीन के सोंग राजवंश काल का एक शिल्पकार था, जिसने 1039 से 1048 के बीच विश्व की पहली चल मुद्रण प्रणाली का आविष्कार किया। उसकी प्रणाली में हर चीनी अक्षर के लिए पकी मिट्टी का अलग ठप्पा बनाया जाता था। मुद्रण को चीन के चार महान आविष्कारों में गिना जाता है।
+summary.ar: ابتكر الحرفي الصيني بي شنغ في عهد أسرة سونغ، بين عامي 1039 و1048 تقريبًا، أول نظام معروف للطباعة بالحروف المتحركة في العالم. وكان نظامه يعتمد على قطع من الطين المحروق، لكل رمز صيني قطعة خاصة به، ولا يُعرف عن حياته إلا القليل لأنه كان من عامة الناس.
 
 @ jingkang-incident
 wikipedia: Jingkang incident
@@ -334,6 +346,9 @@ title.ko: 정강의 변
 title.ar: حادثة جينغكانغ
 title.pt: Incidente de Jingkang
 title.hi: जिंगकांग घटना
+summary.hi: जिंगकांग घटना 1127 में जिन–सोंग युद्धों के दौरान हुई, जब जुरचेन नेतृत्व वाले जिन राजवंश की सेना ने उत्तरी सोंग की राजधानी बियानजिंग को घेरकर लूट लिया। जिन सेना ने सम्राट छिनज़ोंग, पूर्व सम्राट हुइज़ोंग और अनेक राजपरिवार के सदस्यों को बंदी बना लिया। इससे उत्तरी सोंग का अंत हुआ और दक्षिण में दक्षिणी सोंग राजवंश की स्थापना हुई।
+summary.ar: في عام 1127، خلال الحروب بين أسرتي جين وسونغ، حاصرت قوات أسرة جين التي أسسها الجورتشن مدينة بيانجينغ عاصمة سونغ الشمالية ونهبتها. وأسر الغزاة الإمبراطور تشينزونغ ووالده الإمبراطور المتقاعد هويزونغ مع كثير من أفراد الأسرة الحاكمة والمسؤولين، فانتهت سونغ الشمالية وقامت سونغ الجنوبية في الجنوب.
+summary.pt: Em 1127, durante as guerras entre as dinastias Jin e Song, tropas da dinastia Jin, fundada pelos jurchens, cercaram e saquearam Bianjing, capital da dinastia Song do Norte. Os invasores capturaram o imperador Qinzong, seu pai, o imperador aposentado Huizong, e muitos membros da corte, o que levou ao fim da Song do Norte e ao surgimento da Song do Sul.
 
 @ battle-of-yamen
 wikipedia: Battle of Yamen
@@ -344,6 +359,8 @@ importance: 3
 title.ko: 애산 전투 (남송 멸망)
 title.pt: Batalha de Yamen
 title.hi: यामेन का युद्ध
+summary.hi: यामेन का युद्ध 19 मार्च 1279 को दक्षिणी चीन के तट पर लड़ा गया एक नौसैनिक युद्ध था। इसे मंगोल नेतृत्व वाले युआन राजवंश के विरुद्ध सोंग राजवंश का अंतिम मोर्चा माना जाता है। सोंग की पराजय के साथ सोंग राजवंश का अंत हुआ और पूरा चीन युआन के अधीन आ गया।
+summary.pt: A Batalha de Yamen foi uma batalha naval travada no sul da China em 19 de março de 1279, considerada a última resistência da dinastia Song contra a dinastia Yuan, de origem mongol. Com a derrota da frota Song e a morte do jovem imperador, a dinastia Song chegou ao fim e os Yuan passaram a dominar toda a China.
 
 @ treasure-voyages
 wikipedia: Ming treasure voyages
@@ -353,6 +370,7 @@ category: exploration
 importance: 4
 title.ko: 정화의 대항해
 title.hi: झेंग हे की समुद्री यात्राएँ
+summary.hi: 1405 से 1433 के बीच चीन के मिंग राजवंश के विशाल बेड़े ने दक्षिण चीन सागर और हिंद महासागर में सात लंबी समुद्री यात्राएँ कीं। योंगल सम्राट के आदेश पर बने इस बेड़े की कमान एडमिरल झेंग हे के हाथ में थी। ये यात्राएँ दक्षिण-पूर्व एशिया, भारत, अरब और पूर्वी अफ़्रीका के तटों तक पहुँचीं।
 
 @ battle-of-shanhai-pass
 wikipedia: Battle of Shanhai Pass
@@ -363,6 +381,8 @@ importance: 4
 title.ko: 산해관 전투 (명 멸망·청의 입관)
 title.ar: معركة ممر شانهاي
 title.hi: शानहाई दर्रे का युद्ध
+summary.hi: शानहाई दर्रे का युद्ध 27 मई 1644 को चीन की महान दीवार के पूर्वी छोर पर शानहाई दर्रे में लड़ा गया। चिंग के राजप्रतिनिधि दोरगोन ने पूर्व मिंग सेनापति वू सानगुई के साथ मिलकर अल्पकालिक शुन राजवंश के संस्थापक विद्रोही नेता ली ज़िचेंग को पराजित किया। इस विजय के बाद चिंग सेना बीजिंग में प्रवेश कर गई और चीन पर चिंग शासन की शुरुआत हुई।
+summary.ar: في 27 مايو 1644، عند ممر شانهاي في الطرف الشرقي من سور الصين العظيم، تحالف الوصي على عرش تشينغ الأمير دورغون مع قائد مينغ السابق وو سانغوي وهزما زعيم التمرد الفلاحي لي تسيتشنغ. وفتح هذا النصر الطريق أمام جيش تشينغ للاستيلاء على بكين، فبدأ حكم أسرة تشينغ للصين.
 
 @ taiping-rebellion
 wikipedia: Taiping Rebellion
@@ -427,6 +447,7 @@ category: economy
 importance: 5
 title.ko: 개혁개방
 title.hi: चीन में सुधार और खुलापन
+summary.hi: 1976 में माओ त्से-तुंग की मृत्यु के बाद देंग श्याओपिंग के नेतृत्व में 1978 से चीन में शुरू किए गए आर्थिक सुधारों की नीति। इसके तहत बाज़ार तंत्र और विदेशी निवेश को धीरे-धीरे अपनाया गया, जिससे चीन ने तीव्र आर्थिक विकास किया।
 
 @ tiananmen-1989
 wikipedia: 1989 Tiananmen Square protests and massacre

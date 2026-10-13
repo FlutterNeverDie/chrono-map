@@ -121,6 +121,8 @@ title.ko: 제3차 영국-마라타 전쟁
 summary.ko: 1817년부터 1819년까지 영국 동인도 회사가 마라타 제국과 벌인 마지막 전쟁이다. 영국군이 마라타군을 격파하면서 마라타 세력은 무너졌고, 동인도 회사는 인도 대부분을 지배하게 되었다.
 title.fr: Troisième guerre anglo-marathe
 title.pt: Terceira guerra anglo-marata
+summary.fr: De 1817 à 1819, la Compagnie britannique des Indes orientales affronta l'Empire marathe lors du dernier conflit entre les deux puissances. Malgré leur infériorité numérique, les troupes britanniques écrasèrent l'armée marathe, et la Compagnie prit le contrôle de la majeure partie de l'Inde.
+summary.pt: De 1817 a 1819, a Companhia Britânica das Índias Orientais enfrentou o Império Marata no último conflito entre as duas potências. Apesar da inferioridade numérica, as tropas britânicas derrotaram o exército marata, e a Companhia passou a controlar a maior parte da Índia.
 
 @ mohenjo-daro
 wikipedia: Mohenjo-daro
@@ -173,6 +175,7 @@ category: war
 importance: 3
 title.ko: 칼링가 전쟁 (아소카의 불교 귀의)
 title.ar: حرب كالينغا
+summary.ar: خاض الإمبراطور أشوكا ملك الإمبراطورية الماورية نحو عام 261 ق.م حربًا ضد مملكة كالينغا المستقلة على الساحل الشرقي للهند، في منطقة أوديشا الحالية. وتُعد من أكبر المعارك وأشدها دموية في تاريخ الهند، وقد دفعت فظائعها أشوكا وفق الروايات المعروفة إلى اعتناق البوذية ونبذ الحرب.
 
 @ gupta-founding
 wikipedia: Gupta Empire
@@ -199,6 +202,7 @@ importance: 3
 title.ko: 아리아바타의 수학·천문학
 summary.ko: 5세기 인도의 수학자이자 천문학자 아리아바타가 산스크리트어로 된 천문학서 『아리아바티야』를 저술했다. 그의 유일하게 전하는 저작으로, 수학과 천문학 계산법을 담아 이후 인도 과학에 큰 영향을 주었다.
 title.zh: 阿耶波多历书
+summary.zh: 《阿耶波多历书》是5世纪印度数学家、天文学家阿耶波多用梵文写成的天文学著作，也是他唯一传世的作品。书中系统阐述了数学和天文计算方法，对后来的印度科学影响深远。
 
 @ second-battle-of-tarain
 wikipedia: Second Battle of Tarain
@@ -211,6 +215,9 @@ summary.ko: 1192년 델리 북쪽 타라인 부근에서 구르 왕조의 무함
 title.zh: 第二次塔拉因战役
 title.fr: Seconde bataille de Tarain
 title.pt: Segunda batalha de Tarain
+summary.zh: 1192年，古尔王朝的穆罕默德·古尔在德里以北的塔拉因附近大败普里特维拉杰·乔汉率领的拉其普特联军。这场决定性胜利为穆斯林势力深入北印度平原打开了道路。
+summary.fr: En 1192, près de Tarain, au nord de Delhi, les forces ghurides de Muhammad de Ghor écrasèrent la confédération rajpoute menée par Prithviraj Chauhan. Cette victoire décisive ouvrit aux Ghurides les plaines du nord de l'Inde et prépara l'établissement durable d'un pouvoir musulman dans la région.
+summary.pt: Em 1192, perto de Tarain, ao norte de Délhi, as forças gúridas de Maomé de Gor derrotaram a confederação rajpute liderada por Prithviraj Chauhan. A vitória decisiva abriu aos gúridas o caminho para as planícies do norte da Índia e para a consolidação do poder muçulmano na região.
 
 @ delhi-sultanate
 wikipedia: Delhi Sultanate
@@ -238,6 +245,8 @@ title.ko: 바스쿠 다 가마의 인도 항로 개척
 summary.ko: 포르투갈 왕 마누엘 1세 때 바스쿠 다 가마가 희망봉을 돌아 인도에 도착해, 유럽에서 인도로 가는 바닷길을 처음 열었다. 이 항해를 계기로 포르투갈은 인도양 무역에 진출하고 고아 등지에 거점을 마련했다.
 title.zh: 达伽马开辟印度航线
 title.hi: वास्को द गामा का भारत पहुँचना
+summary.hi: पुर्तगाल के राजा मानुएल प्रथम के समय 1497–1499 में वास्को द गामा ने केप ऑफ़ गुड होप का चक्कर लगाकर भारत तक समुद्री यात्रा की। 1498 में उसका बेड़ा कालीकट पहुँचा, और इस प्रकार यूरोप से भारत का सीधा समुद्री मार्ग पहली बार खुला। इसके बाद पुर्तगाल ने हिंद महासागर के व्यापार में प्रवेश किया और गोवा जैसे ठिकाने बनाए।
+summary.zh: 1497年至1499年，葡萄牙国王曼努埃尔一世在位期间，达伽马率船队绕过好望角抵达印度，首次开辟从欧洲直达印度的海上航线。此后葡萄牙进入印度洋贸易，并在果阿等地建立据点。
 
 @ taj-mahal
 wikipedia: Taj Mahal
@@ -256,6 +265,7 @@ importance: 3
 title.ko: 제3차 파니파트 전투
 summary.ko: 1761년 델리 북쪽 파니파트에서 마라타 제국군과 침입해 온 두라니 제국(아프가니스탄)군이 맞붙었다. 아프간군은 인도 내 여러 세력의 지원을 받아 마라타군에 큰 패배를 안겼고, 마라타의 북인도 진출은 한동안 꺾였다.
 title.pt: Terceira batalha de Panipat
+summary.pt: Em 14 de janeiro de 1761, perto de Panipat, ao norte de Délhi, o exército do Império Marata enfrentou as forças invasoras do Império Durrani, do Afeganistão, apoiadas por aliados indianos. Os afegãos infligiram uma pesada derrota aos maratas, cuja expansão no norte da Índia foi contida por algum tempo.
 
 @ indian-rebellion-1857
 wikipedia: Indian Rebellion of 1857
@@ -314,6 +324,7 @@ category: politics
 importance: 3
 title.ko: 인도 헌법 시행
 title.pt: Constituição da Índia
+summary.pt: A Constituição da Índia, adotada pela Assembleia Constituinte em 1949, entrou em vigor em 26 de janeiro de 1950, data em que o país se tornou uma república. É a constituição nacional escrita mais longa do mundo e estabelece a estrutura do governo, os direitos fundamentais e os deveres dos cidadãos.
 
 @ green-revolution-india
 wikipedia: Green Revolution in India
@@ -325,6 +336,9 @@ title.ko: 인도 녹색 혁명
 title.zh: 印度绿色革命
 title.es: Revolución verde en India
 title.ar: الثورة الخضراء في الهند
+summary.zh: 20世纪60年代起，印度通过推广高产作物品种、化肥和灌溉等技术，推动农业走向现代化，这一进程称为印度绿色革命。农业科学家斯瓦米纳坦是主要推动者，粮食产量因此大幅提高。
+summary.es: Desde la década de 1960, la India modernizó su agricultura mediante variedades de cultivo de alto rendimiento, fertilizantes y nuevas técnicas, en un proceso conocido como Revolución verde. Impulsada principalmente por el agrónomo M. S. Swaminathan, permitió aumentar notablemente la producción de alimentos del país.
+summary.ar: بدأت الثورة الخضراء في الهند في ستينيات القرن العشرين، حين جرى تحديث الزراعة باستخدام أصناف عالية الإنتاجية من المحاصيل والأسمدة والتقنيات الحديثة. وقادها بصورة رئيسية العالم الزراعي إم. إس. سواميناثان، فارتفع إنتاج الغذاء في البلاد ارتفاعًا كبيرًا.
 
 @ smiling-buddha
 wikipedia: Smiling Buddha
@@ -352,3 +366,5 @@ title.ko: 인도 경제 자유화
 summary.ko: 1991년 인도 정부가 외환 위기를 계기로 무역과 외국인 투자를 개방하고 민간 기업과 시장의 역할을 넓히는 경제 개혁을 단행했다. 이 자유화 정책은 이후 인도 경제가 빠르게 성장하는 바탕이 되었다.
 title.es: Liberalización económica de la India
 title.fr: Libéralisation économique de l'Inde
+summary.es: En 1991, en medio de una grave crisis de balanza de pagos, el gobierno de la India emprendió amplias reformas que abrieron la economía al comercio y a la inversión extranjera. Las medidas otorgaron un papel mayor al mercado y a la empresa privada y sentaron las bases del rápido crecimiento económico posterior.
+summary.fr: À partir de 1991, face à une grave crise de la balance des paiements, le gouvernement indien engagea de profondes réformes ouvrant l'économie au commerce extérieur et aux investissements étrangers. Ces mesures accrurent le rôle du marché et du secteur privé et posèrent les bases de la forte croissance des décennies suivantes.

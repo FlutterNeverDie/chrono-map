@@ -131,6 +131,7 @@ coords: 126.98, 37.57
 category: politics
 importance: 5
 title.hi: 1 मार्च आंदोलन
+summary.hi: 1 मार्च 1919 से जापानी औपनिवेशिक शासन के विरुद्ध पूरे कोरिया और विदेशों में बसे कोरियाइयों द्वारा किए गए स्वतंत्रता प्रदर्शनों की श्रृंखला। स्वतंत्रता घोषणापत्र के पाठ से शुरू हुआ यह आंदोलन कोरियाई स्वतंत्रता संग्राम की ऐतिहासिक घटना माना जाता है और इसी के बाद अस्थायी सरकार की स्थापना हुई।
 
 @ korean-war
 wikipedia: Korean War
@@ -155,6 +156,9 @@ importance: 4
 title.es: Cumbre intercoreana de 2000
 title.pt: Cúpula intercoreana de 2000
 title.hi: 2000 का अंतर-कोरियाई शिखर सम्मेलन
+summary.hi: 13 से 15 जून 2000 को प्योंगयांग में दक्षिण कोरियाई राष्ट्रपति किम डे-जुंग और उत्तर कोरियाई नेता किम जोंग-इल के बीच पहला अंतर-कोरियाई शिखर सम्मेलन हुआ। इसके बाद 15 जून दक्षिण-उत्तर संयुक्त घोषणा पर हस्ताक्षर हुए, जिसमें एकीकरण के मुद्दे को स्वतंत्र रूप से सुलझाने और हर क्षेत्र में सहयोग पर सहमति बनी।
+summary.es: Del 13 al 15 de junio de 2000, el presidente surcoreano Kim Dae-jung y el líder norcoreano Kim Jong-il se reunieron en Pionyang en la primera cumbre entre ambas Coreas. Tras el encuentro firmaron la Declaración Conjunta del 15 de Junio, en la que acordaron buscar la reunificación por sí mismos y promover la cooperación y los intercambios.
+summary.pt: De 13 a 15 de junho de 2000, o presidente sul-coreano Kim Dae-jung e o líder norte-coreano Kim Jong-il reuniram-se em Pyongyang, na primeira cúpula entre as duas Coreias. Ao final, assinaram a Declaração Conjunta de 15 de Junho, comprometendo-se a buscar a reunificação de forma autônoma e a ampliar a cooperação e os intercâmbios.
 
 @ first-sino-japanese-war
 wikipedia: First Sino-Japanese War
@@ -174,6 +178,10 @@ title.es: Guerra Gojoseon-Han
 title.ar: حرب غوجوسون وهان
 title.pt: Guerra Gojoseon-Han
 title.hi: हान द्वारा गोजोसन की विजय
+summary.hi: ई.पू. 109 से ई.पू. 108 के बीच चीन के हान राजवंश के सम्राट वू ने वीमान गोजोसन के विरुद्ध सैन्य अभियान चलाया। इस युद्ध में गोजोसन का पतन हो गया। इसके बाद हान ने कोरियाई प्रायद्वीप के उत्तरी भाग में चार कमांडरियाँ स्थापित कीं।
+summary.es: Entre el 109 y el 108 a. C., el emperador Wu de la dinastía Han lanzó una campaña contra el reino de Gojoseon, gobernado entonces por la dinastía de Wiman. La guerra terminó con la caída de Gojoseon y la creación de las Cuatro Comandancias de Han en la mitad norte de la península de Corea.
+summary.ar: بين عامي 109 و108 ق.م شنّ الإمبراطور وو من أسرة هان حملة عسكرية على مملكة غوجوسون التي كانت تحكمها أسرة ويمان. وانتهت الحرب بسقوط غوجوسون وإنشاء القيادات الأربع لأسرة هان في النصف الشمالي من شبه الجزيرة الكورية.
+summary.pt: Entre 109 e 108 a.C., o imperador Wu da dinastia Han lançou uma campanha contra o reino de Gojoseon, então governado pela dinastia de Wiman. A guerra terminou com a queda de Gojoseon e a criação das Quatro Comandâncias de Han na metade norte da península da Coreia.
 
 @ goguryeo-founding
 wikipedia: Goguryeo
@@ -192,6 +200,8 @@ importance: 3
 title.ko: 살수대첩
 title.ar: معركة سالسو
 title.hi: साल्सू का युद्ध
+summary.hi: साल्सू का युद्ध ईस्वी 612 में गोगुर्यो–सुई युद्ध के दूसरे अभियान के दौरान कोरिया के गोगुर्यो और चीन के सुई राजवंश के बीच हुआ। गोगुर्यो के सेनापति उलजी मुनदोक के नेतृत्व में साल्सू नदी पर संख्या में कहीं बड़ी सुई सेना को भारी पराजय मिली। यह कोरियाई इतिहास की सबसे प्रसिद्ध विजयों में गिनी जाती है।
+summary.ar: وقعت معركة سالسو عام 612 خلال الحملة الثانية في الحرب بين مملكة غوغوريو الكورية وأسرة سوي الصينية. وحقق جيش غوغوريو بقيادة القائد أولجي مون-دوك نصرًا ساحقًا على قوات سوي المتفوقة عددًا عند نهر سالسو، مما أفشل الغزو.
 
 @ battle-of-baekgang
 wikipedia: Battle of Baekgang
@@ -202,6 +212,8 @@ importance: 3
 title.ko: 백강 전투
 title.ar: معركة بايكغانغ
 title.hi: बैकगांग का युद्ध
+summary.hi: बैकगांग का युद्ध ईस्वी 663 में बैकजे के पुनरुद्धार बलों और उनके सहयोगी जापान (यामातो) तथा शिल्ला और तांग चीन की संयुक्त सेनाओं के बीच लड़ा गया। यह युद्ध आज के कोरिया की गुम नदी के मुहाने के पास हुआ और इसमें शिल्ला–तांग पक्ष विजयी रहा। इसके बाद बैकजे को पुनर्जीवित करने के प्रयास समाप्त हो गए।
+summary.ar: دارت معركة بايكغانغ في أغسطس 663 عند المجرى الأدنى لنهر غيوم في كوريا، بين قوات إحياء مملكة بايكجي وحليفتها اليابان من جهة، وتحالف مملكة شيلا وأسرة تانغ الصينية من جهة أخرى. وانتصر تحالف شيلا وتانغ انتصارًا حاسمًا، فانسحبت اليابان من شؤون شبه الجزيرة الكورية وانتهت حركة إحياء بايكجي.
 
 @ goguryeo-tang-war
 wikipedia: Goguryeo–Tang War
@@ -212,6 +224,8 @@ importance: 3
 title.ko: 고구려-당 전쟁 (고구려 멸망)
 title.pt: Guerra Goguryeo-Tang
 title.hi: गोगुर्यो–तांग युद्ध
+summary.hi: गोगुर्यो–तांग युद्ध ईस्वी 645 से 668 तक कोरिया के गोगुर्यो राज्य और चीन के तांग राजवंश के बीच चला। गोगुर्यो ने 645–648 के आरंभिक तांग आक्रमणों को सफलतापूर्वक रोक दिया। परंतु 660 में बैकजे के पतन के बाद तांग और शिल्ला की संयुक्त सेनाओं ने आक्रमण किया और 668 में गोगुर्यो का अंत हो गया।
+summary.pt: Entre 645 e 668, o reino coreano de Goguryeo enfrentou repetidas invasões da dinastia Tang da China, repelindo com sucesso as primeiras campanhas. Após a morte de Yeon Gaesomun em 666, Goguryeo mergulhou em disputas internas, e a aliança entre Tang e Silla conquistou sua capital, Pyongyang, em 668, pondo fim ao reino.
 
 @ silla-tang-war
 wikipedia: Silla–Tang War
@@ -224,6 +238,10 @@ title.es: Guerra Silla-Tang
 title.ar: حرب شيلا وتانغ
 title.pt: Guerra Silla-Tang
 title.hi: शिल्ला–तांग युद्ध
+summary.hi: शिल्ला–तांग युद्ध ईस्वी 670 से 676 तक कोरिया के शिल्ला राज्य और चीन के तांग राजवंश के बीच लड़ा गया। गोगुर्यो और बैकजे को मिलकर जीतने के बाद तांग ने कोरियाई प्रायद्वीप पर नियंत्रण जमाने का प्रयास किया, जिसका शिल्ला ने विरोध किया। शिल्ला ने तांग सेनाओं को पीछे धकेल दिया और प्रायद्वीप के अधिकांश भाग का एकीकरण किया।
+summary.es: Tras derrotar juntos a Baekje y Goguryeo, el reino coreano de Silla y la dinastía Tang de China se enfrentaron entre 670 y 676 por el control de la península de Corea. Silla logró expulsar a las fuerzas Tang, lo que permitió la unificación de buena parte de la península bajo su dominio.
+summary.ar: بعد أن أسقطت مملكة شيلا الكورية وأسرة تانغ الصينية معًا مملكتي بايكجي وغوغوريو، تحولتا إلى خصمين وتحاربتا بين عامي 670 و676 للسيطرة على شبه الجزيرة الكورية. وتمكنت شيلا من طرد قوات تانغ، مما مهّد لتوحيد معظم شبه الجزيرة تحت حكمها.
+summary.pt: Depois de derrotarem juntos os reinos de Baekje e Goguryeo, o reino coreano de Silla e a dinastia Tang da China entraram em guerra entre 670 e 676 pelo controle da península da Coreia. Silla conseguiu expulsar as forças Tang, o que permitiu unificar grande parte da península sob seu domínio.
 
 @ balhae-founding
 wikipedia: Parhae
@@ -252,6 +270,10 @@ title.ar: معركة غويجو
 title.fr: Bataille de Gwiju
 title.pt: Batalha de Gwiju
 title.hi: ग्विजू का युद्ध
+summary.hi: ग्विजू का युद्ध ईस्वी 1019 में तीसरे गोरयो–खितान युद्ध के दौरान कोरिया के गोरयो राजवंश और खितान नेतृत्व वाले लियाओ राजवंश के बीच लड़ा गया। सेनापति कांग गाम-चान के नेतृत्व में गोरयो सेना ने लौटती हुई लियाओ सेना को भारी पराजय दी। इस विजय के बाद गोरयो और लियाओ के बीच लंबे समय तक शांति बनी रही।
+summary.ar: وقعت معركة غويجو عام 1019 وكانت المعركة الكبرى في الحرب الثالثة بين مملكة غوريو الكورية وأسرة لياو التي أسسها الخيتان. وألحق جيش غوريو بقيادة كانغ غام-تشان هزيمة ثقيلة بالغزاة، فانتهت الحرب وتلتها فترة سلام طويلة بين الدولتين.
+summary.fr: En 1019, lors de la troisième guerre entre le royaume coréen de Goryeo et la dynastie Liao des Khitans, l'armée de Goryeo commandée par Gang Gam-chan infligea une lourde défaite aux envahisseurs près de Gwiju. Cette victoire mit fin à la guerre et assura une longue période de paix entre les deux États.
+summary.pt: Em 1019, durante a terceira guerra entre o reino coreano de Goryeo e a dinastia Liao dos khitans, o exército de Goryeo comandado por Gang Gam-chan infligiu uma pesada derrota aos invasores perto de Gwiju. A vitória encerrou a guerra e garantiu um longo período de paz entre os dois estados.
 
 @ mongol-invasions-of-korea
 wikipedia: Mongol invasions of Korea
@@ -262,6 +284,8 @@ importance: 3
 title.ko: 몽골의 고려 침입
 title.pt: Invasões mongóis da Coreia
 title.hi: कोरिया पर मंगोल आक्रमण
+summary.hi: 1231 से 1270 के बीच मंगोल साम्राज्य ने कोरिया के गोरयो राज्य पर कई बार आक्रमण किए। गोरयो ने राजधानी को गांगह्वा द्वीप पर ले जाकर लंबे समय तक प्रतिरोध किया। अंततः शांति संधि के बाद गोरयो युआन राजवंश का अधीनस्थ राज्य बन गया और यह संबंध लगभग 80 वर्ष तक चला।
+summary.pt: Entre 1231 e 1270, o Império Mongol realizou uma série de campanhas contra o reino coreano de Goryeo, cuja corte chegou a transferir-se para a ilha de Ganghwa para resistir. As guerras terminaram com um acordo de paz pelo qual Goryeo se tornou estado vassalo da dinastia Yuan, relação que durou cerca de oitenta anos.
 
 @ tripitaka-koreana
 wikipedia: Tripitaka Koreana
@@ -287,6 +311,7 @@ category: war
 importance: 3
 title.ko: 명량 해전
 title.hi: म्योंगन्यांग का युद्ध
+summary.hi: म्योंगन्यांग का युद्ध 1597 में कोरियाई प्रायद्वीप के दक्षिण-पश्चिमी छोर पर जिंदो द्वीप के पास म्योंगन्यांग जलडमरूमध्य में लड़ा गया। एडमिरल यी सुन-सिन ने चिलचोल्यांग की हार के बाद बचे केवल 13 जहाज़ों के साथ कहीं बड़े जापानी बेड़े को रोक दिया। यह विजय जोसन की नौसेना के मनोबल को फिर से जगाने वाली मानी जाती है।
 
 @ second-manchu-invasion
 wikipedia: Qing invasion of Joseon
@@ -296,6 +321,7 @@ category: war
 importance: 3
 title.ko: 병자호란
 title.hi: जोसन पर चिंग आक्रमण
+summary.hi: 1636 की सर्दियों में मांचू नेतृत्व वाले नवस्थापित चिंग साम्राज्य ने कोरिया के जोसन राज्य पर आक्रमण किया। राजा इनजो ने नामहान पर्वतीय किले में शरण ली, पर 1637 में आत्मसमर्पण करना पड़ा। इसके बाद जोसन ने मिंग राजवंश से संबंध तोड़कर चिंग की अधीनता स्वीकार की।
 
 @ ganghwa-treaty
 wikipedia: Japan–Korea Treaty of 1876
@@ -305,6 +331,7 @@ category: politics
 importance: 3
 title.ko: 강화도 조약
 title.hi: गांगह्वा संधि
+summary.hi: 1876 में जापानी साम्राज्य और जोसन राजवंश के बीच हुई संधि, जिस पर फ़रवरी 1876 में वार्ता पूरी हुई। इसके तहत जोसन को अपने बंदरगाह जापान के लिए खोलने पड़े; इसे कोरिया पर थोपी गई पहली असमान संधि माना जाता है।
 
 @ donghak-revolution
 wikipedia: Tonghak Peasant Revolution
@@ -314,6 +341,7 @@ category: war
 importance: 3
 title.ko: 동학 농민 운동
 title.hi: दोंगहाक किसान क्रांति
+summary.hi: 1894 में जोसन कोरिया में दोंगहाक धर्म के अनुयायी किसानों ने भ्रष्ट शासन और विदेशी प्रभाव के विरुद्ध व्यापक विद्रोह किया। इसे दबाने के बहाने चीन और जापान की सेनाएँ कोरिया आईं, जिससे प्रथम चीन-जापान युद्ध छिड़ गया।
 
 @ korean-empire
 wikipedia: Korean Empire
@@ -323,6 +351,7 @@ category: politics
 importance: 3
 title.ko: 대한제국 선포
 title.hi: कोरियाई साम्राज्य की घोषणा
+summary.hi: अक्टूबर 1897 में जोसन के राजा गोजोंग ने स्वयं को सम्राट घोषित कर कोरियाई साम्राज्य (तेहान जेगुक) की स्थापना की, ताकि कोरिया की स्वतंत्र स्थिति पर बल दिया जा सके। यह साम्राज्य अगस्त 1910 में जापान द्वारा कोरिया के विलय तक बना रहा।
 
 @ eulsa-treaty
 wikipedia: Japan–Korea Treaty of 1905
@@ -332,6 +361,7 @@ category: politics
 importance: 3
 title.ko: 을사늑약
 title.hi: उलसा संधि (1905)
+summary.hi: रूस-जापान युद्ध में जीत के बाद 17 नवंबर 1905 को जापान ने कोरियाई साम्राज्य पर यह संधि थोप दी। इसके द्वारा कोरिया से उसकी कूटनीतिक संप्रभुता छीन ली गई और वह जापान का संरक्षित राज्य बन गया।
 
 @ korea-annexation
 wikipedia: Japan–Korea Treaty of 1910
@@ -341,6 +371,7 @@ category: politics
 importance: 4
 title.ko: 경술국치 (일제의 국권 침탈)
 title.hi: जापान द्वारा कोरिया का विलय
+summary.hi: 22 अगस्त 1910 को जापानी साम्राज्य और कोरियाई साम्राज्य के प्रतिनिधियों के बीच हस्ताक्षरित संधि, जिसके द्वारा जापान ने कोरिया का औपचारिक रूप से विलय कर लिया। इसके साथ कोरियाई साम्राज्य का अंत हुआ और 1945 तक कोरिया जापानी औपनिवेशिक शासन में रहा।
 
 @ provisional-government
 wikipedia: Provisional Government of the Republic of Korea
@@ -350,6 +381,7 @@ category: politics
 importance: 3
 title.ko: 대한민국 임시정부 수립
 title.hi: कोरिया गणराज्य की अस्थायी सरकार
+summary.hi: 1 मार्च आंदोलन के बाद अप्रैल 1919 में चीन के शांघाई में स्थापित कोरिया की निर्वासित सरकार, जिसने जापानी शासन के दौरान स्वतंत्रता आंदोलन का नेतृत्व किया। दक्षिण कोरिया का संविधान कोरिया गणराज्य को इसी अस्थायी सरकार की परंपरा का उत्तराधिकारी मानता है।
 
 @ first-republic-of-korea
 wikipedia: First Republic of Korea
@@ -368,6 +400,8 @@ importance: 3
 title.ko: 제주 4·3 사건
 title.pt: Incidente de 3 de Abril de Jeju
 title.hi: जेजू 4·3 घटना
+summary.hi: 3 अप्रैल 1948 को दक्षिण कोरिया के जेजू द्वीप पर शुरू हुआ सशस्त्र विद्रोह और उसके दमन की घटना, जो मई 1949 तक चली और जिसके बाद भी हिंसा जारी रही। दमन अभियान में बड़ी संख्या में निर्दोष नागरिक मारे गए, और बाद में दक्षिण कोरियाई सरकार ने इस पर आधिकारिक रूप से माफ़ी माँगी।
+summary.pt: Em 3 de abril de 1948, teve início na ilha de Jeju, na Coreia do Sul, uma revolta armada ligada à oposição às eleições separadas no sul da península. A repressão por forças militares e policiais, que se estendeu até 1949, causou a morte de um grande número de civis, e o episódio permaneceu por décadas como um tema silenciado na história do país.
 
 @ korean-armistice
 wikipedia: Korean Armistice Agreement
@@ -377,6 +411,7 @@ category: war
 importance: 3
 title.ko: 정전 협정
 title.hi: कोरियाई युद्धविराम समझौता
+summary.hi: 27 जुलाई 1953 को संयुक्त राष्ट्र कमान, उत्तर कोरियाई जन सेना और चीनी जन स्वयंसेवक सेना के प्रतिनिधियों के बीच कोरियाई युद्ध रोकने के लिए हुआ युद्धविराम समझौता। इसके तहत सैन्य सीमांकन रेखा और विसैन्यीकृत क्षेत्र बने, पर कोई शांति संधि नहीं हुई, इसलिए औपचारिक रूप से युद्ध समाप्त नहीं हुआ।
 
 @ april-revolution
 wikipedia: April Revolution
@@ -386,6 +421,7 @@ category: politics
 importance: 3
 title.ko: 4·19 혁명
 title.hi: अप्रैल क्रांति (दक्षिण कोरिया)
+summary.hi: 11 से 26 अप्रैल 1960 तक दक्षिण कोरिया में राष्ट्रपति ई सुंग-मान (सिंगमैन री) और प्रथम गणराज्य के विरुद्ध चुनावी धांधली को लेकर हुए व्यापक जन-प्रदर्शन। 19 अप्रैल के बड़े प्रदर्शनों के बाद राष्ट्रपति को इस्तीफ़ा देना पड़ा, और इसे कोरियाई लोकतंत्र का महत्वपूर्ण पड़ाव माना जाता है।
 
 @ may-16-coup
 wikipedia: May 16 coup
@@ -395,6 +431,7 @@ category: politics
 importance: 3
 title.ko: 5·16 군사정변
 title.hi: 16 मई का सैन्य तख़्तापलट
+summary.hi: 16 मई 1961 को दक्षिण कोरिया में पार्क चुंग-ही और उनके सहयोगी सैन्य अधिकारियों ने तख़्तापलट कर सत्ता पर कब्ज़ा किया। इसने प्रधानमंत्री चांग म्योन की लोकतांत्रिक रूप से चुनी गई सरकार को अपदस्थ कर दिया और लंबे सैन्य-समर्थित शासन की शुरुआत की।
 
 @ gwangju-uprising
 wikipedia: Gwangju Uprising
@@ -413,6 +450,8 @@ importance: 3
 title.ko: 6월 민주 항쟁
 title.pt: Luta democrática de junho
 title.hi: जून लोकतांत्रिक संघर्ष
+summary.hi: 10 से 29 जून 1987 तक दक्षिण कोरिया में देशव्यापी लोकतंत्र-समर्थक जन-आंदोलन हुआ। व्यापक प्रदर्शनों ने सत्तावादी सरकार को राष्ट्रपति के प्रत्यक्ष चुनाव और अन्य लोकतांत्रिक सुधार स्वीकार करने पर मजबूर किया, जिससे वर्तमान छठे गणराज्य की स्थापना हुई।
+summary.pt: De 10 a 29 de junho de 1987, protestos em massa por democracia tomaram as cidades de toda a Coreia do Sul contra o governo autoritário. As manifestações forçaram o governo a aceitar eleições presidenciais diretas e outras reformas democráticas, que levaram ao estabelecimento da Sexta República, regime em vigor até hoje.
 
 @ martial-law-2024
 wikipedia: 2024 South Korean martial law crisis

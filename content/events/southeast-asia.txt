@@ -84,6 +84,7 @@ coords: 103.02, 21.39
 category: war
 importance: 3
 title.hi: दिएन बिएन फू का युद्ध
+summary.hi: प्रथम हिंदचीन युद्ध में 13 मार्च से 7 मई 1954 तक उत्तर-पश्चिमी वियतनाम के दिएन बिएन फू में वियत मिन्ह ने फ़्रांसीसी संघ की सेना को हराया। इस हार के बाद फ़्रांस को हिंदचीन से हटना पड़ा और जिनेवा सम्मेलन में वियतनाम का विभाजन हुआ।
 
 @ vietnam-war
 wikipedia: Vietnam War
@@ -127,6 +128,8 @@ importance: 3
 title.ko: 바익당 전투 (베트남 독립)
 title.ar: معركة باخ دانغ (938)
 title.hi: बाख़ दांग का युद्ध (938)
+summary.hi: बाख़ दांग का युद्ध ईस्वी 938 के अंत में उत्तरी वियतनाम में हा लोंग खाड़ी के पास बाख़ दांग नदी पर लड़ा गया। न्गो क्वेन के नेतृत्व में वियतनामी सेना ने चीन के दक्षिणी हान राज्य के आक्रमणकारी बेड़े को पराजित किया। इस विजय से लगभग एक हज़ार वर्ष के चीनी प्रभुत्व का अंत हुआ और इसे वियतनामी इतिहास का निर्णायक मोड़ माना जाता है।
+summary.ar: في أواخر عام 938 هزم القائد الفيتنامي نغو كوين على نهر باخ دانغ قرب خليج ها لونغ القوات الغازية لدولة هان الجنوبية الصينية. وأنهت هذه المعركة فترة طويلة من الهيمنة الصينية على شمال فيتنام، وتُعد نقطة تحول في التاريخ الفيتنامي.
 
 @ battle-of-bach-dang-1288
 wikipedia: Battle of Bạch Đằng (1288)
@@ -137,6 +140,8 @@ importance: 3
 title.ko: 바익당 전투 (몽골군 격퇴)
 title.ar: معركة باخ دانغ (1288)
 title.hi: बाख़ दांग का युद्ध (1288)
+summary.hi: बाख़ दांग का युद्ध 1288 में वियतनाम पर तीसरे मंगोल आक्रमण के दौरान बाख़ दांग नदी पर लड़ा गया एक निर्णायक नौसैनिक युद्ध था। राजकुमार त्रान क्वोक तुआन (हुंग दाओ) के नेतृत्व में दाई वियत ने नदी में गाड़े गए नुकीले खूँटों और घात की रणनीति से युआन बेड़े को नष्ट कर दिया। इस विजय से युआन का आक्रमण विफल हो गया।
+summary.ar: في عام 1288، خلال الغزو المغولي الثالث لفيتنام، نصب الأمير تران هونغ داو قائد جيش داي فيت كمينًا لأسطول أسرة يوان على نهر باخ دانغ ودمّره. وأنهى هذا النصر الحاسم مساعي قوبلاي خان لغزو داي فيت، ويُعد من أعظم الانتصارات في التاريخ العسكري الفيتنامي.
 
 @ majapahit
 wikipedia: Majapahit
@@ -171,6 +176,7 @@ importance: 3
 title.ko: 포르투갈의 믈라카 점령
 summary.ko: 1511년 포르투갈령 인도 총독 아폰수 드 알부케르크가 동남아시아 해상 무역의 요충지 믈라카를 점령했다. 이로써 믈라카 술탄국이 무너지고 포르투갈이 향신료 교역로를 장악하는 발판을 얻었다.
 title.hi: मलक्का पर पुर्तगाली क़ब्ज़ा (1511)
+summary.hi: 1511 में पुर्तगाली भारत के गवर्नर अफ़ोंसो द अल्बुकर्क ने दक्षिण-पूर्व एशिया के प्रमुख समुद्री व्यापार केंद्र मलक्का पर कब्ज़ा कर लिया। इससे मलक्का सल्तनत का पतन हुआ। इस विजय से पुर्तगाल को मसालों के व्यापार मार्ग पर नियंत्रण का महत्वपूर्ण आधार मिला।
 
 @ battle-of-mactan
 wikipedia: Battle of Mactan
@@ -180,6 +186,7 @@ category: exploration
 importance: 3
 title.ko: 막탄 전투 (마젤란의 죽음)
 title.hi: मकतान का युद्ध
+summary.hi: मकतान का युद्ध 27 अप्रैल 1521 को फ़िलीपींस के मकतान द्वीप के तट पर लड़ा गया। स्पेन की सेवा में कार्यरत पुर्तगाली नाविक फ़र्डिनेंड मैगलन और उसके स्थानीय सहयोगियों का सामना द्वीप के सरदार लापुलापु की सेना से हुआ। इस युद्ध में मैगलन मारा गया, और आज फ़िलीपींस में लापुलापु को राष्ट्रीय नायक माना जाता है।
 
 @ manila-galleon
 wikipedia: Manila galleon
@@ -190,6 +197,8 @@ importance: 3
 title.ko: 마닐라 갤리온 무역
 title.ar: غليون مانيلا
 title.hi: मनीला गैलियन व्यापार
+summary.hi: मनीला गैलियन व्यापार प्रशांत महासागर के पार फ़िलीपींस को मेक्सिको से जोड़ने वाला स्पेनी व्यापार मार्ग था, जो 1565 से 1815 तक चला। इस मार्ग पर गैलियन जहाज़ साल में एक या दो बार मनीला और अकापुल्को के बीच यात्रा करते थे। इससे अमेरिका की चाँदी एशिया पहुँची और चीनी रेशम व चीनी मिट्टी के बर्तन अमेरिका और यूरोप तक गए।
+summary.ar: كان طريق غليون مانيلا خطًا تجاريًا إسبانيًا يربط الفلبين بالمكسيك عبر المحيط الهادئ، واستُخدم من عام 1565 حتى عام 1815. وكانت سفن الغليون تقوم برحلة أو رحلتين ذهابًا وإيابًا كل عام بين مانيلا وأكابولكو، ناقلة سلع آسيا وفضة الأمريكتين.
 
 @ batavia
 wikipedia: Batavia, Dutch East Indies
@@ -200,6 +209,7 @@ importance: 3
 title.ko: 바타비아 건설 (네덜란드의 동인도 지배)
 summary.ko: 1619년 네덜란드 동인도 회사가 자와섬 자야카르타를 점령하고 그 자리에 바타비아를 건설했다. 바타비아는 이후 네덜란드령 동인도의 중심 도시이자 수도가 되었으며, 오늘날 인도네시아의 자카르타이다.
 title.hi: बटाविया की स्थापना
+summary.hi: 1619 में डच ईस्ट इंडिया कंपनी ने जावा द्वीप के जयकर्ता पर कब्ज़ा कर उसी स्थान पर बटाविया नगर बसाया। बटाविया आगे चलकर डच ईस्ट इंडीज़ का प्रमुख केंद्र और राजधानी बना। यही नगर आज इंडोनेशिया की राजधानी जकार्ता है।
 
 @ founding-of-singapore
 wikipedia: 1819 Singapore Treaty
@@ -214,6 +224,12 @@ title.ar: تأسيس سنغافورة الحديثة
 title.fr: Fondation de Singapour (1819)
 title.pt: Fundação de Singapura (1819)
 title.hi: सिंगापुर की स्थापना
+summary.hi: 6 फ़रवरी 1819 को हुई सिंगापुर संधि को आधुनिक सिंगापुर की स्थापना के रूप में आधिकारिक मान्यता प्राप्त है। स्टैमफ़र्ड रैफ़ल्स की पहल पर हुई इस संधि से ब्रिटिश ईस्ट इंडिया कंपनी को सिंगापुर में व्यापारिक चौकी खोलने का अधिकार मिला। इसके साथ यहाँ ब्रिटिश बसावट की शुरुआत हुई और सिंगापुर शीघ्र ही प्रमुख बंदरगाह बन गया।
+summary.zh: 1819年2月6日签订的《新加坡条约》允许英国东印度公司在新加坡设立贸易站，被官方视为现代新加坡的开端。由于新加坡在古代已是重要港口，这一事件通常被称为“现代新加坡的建立”。
+summary.es: El 6 de febrero de 1819 se firmó el Tratado de Singapur, que permitió a la Compañía Británica de las Indias Orientales establecer un puesto comercial en la isla. Este acuerdo se considera oficialmente el inicio del Singapur moderno, aunque el lugar ya había sido un importante puerto comercial en épocas antiguas.
+summary.ar: في 6 فبراير 1819 وُقّعت معاهدة سنغافورة التي سمحت لشركة الهند الشرقية البريطانية بإنشاء مركز تجاري في الجزيرة، وتُعد رسميًا بداية سنغافورة الحديثة. ويُستخدم وصف «الحديثة» لأن سنغافورة كانت ميناءً تجاريًا مهمًا منذ العصور القديمة.
+summary.fr: Le traité de Singapour, signé le 6 février 1819, autorisa la Compagnie britannique des Indes orientales à établir un comptoir commercial sur l'île. Il est officiellement considéré comme l'acte fondateur de Singapour moderne, le site ayant déjà été un port de commerce important dans l'Antiquité.
+summary.pt: O Tratado de Singapura, assinado em 6 de fevereiro de 1819, permitiu que a Companhia Britânica das Índias Orientais estabelecesse um entreposto comercial na ilha. Ele é oficialmente considerado o marco de fundação da Singapura moderna, já que o local havia sido um importante porto comercial desde a Antiguidade.
 
 @ philippine-revolution
 wikipedia: Philippine Revolution
@@ -239,6 +255,7 @@ category: war
 importance: 4
 title.ko: 싱가포르 함락
 title.hi: सिंगापुर का पतन
+summary.hi: 8 से 15 फ़रवरी 1942 तक चली लड़ाई के बाद जापानी साम्राज्य ने ब्रिटिश सेना से सिंगापुर छीन लिया। दक्षिण-पूर्व एशिया में ब्रिटेन का प्रमुख सैन्य अड्डा और बंदरगाह होने के कारण इसका पतन ब्रिटिश इतिहास की सबसे बड़ी सैन्य पराजयों में गिना जाता है।
 
 @ battle-of-leyte-gulf
 wikipedia: Battle of Leyte Gulf
@@ -248,6 +265,7 @@ category: war
 importance: 4
 title.ko: 레이테만 해전
 title.hi: लेयते खाड़ी का युद्ध
+summary.hi: अक्टूबर 1944 में फ़िलीपींस के लेयते द्वीप के पास अमेरिकी और ऑस्ट्रेलियाई नौसेनाओं तथा जापानी नौसेना के बीच हुआ युद्ध, जिसमें दो लाख से अधिक नौसैनिक शामिल थे। यह द्वितीय विश्व युद्ध का सबसे बड़ा नौसैनिक युद्ध था, जिसमें जापानी नौसेना को भारी हानि हुई।
 
 @ august-revolution
 wikipedia: August Revolution
@@ -257,6 +275,7 @@ category: politics
 importance: 3
 title.ko: 베트남 8월 혁명
 title.hi: अगस्त क्रांति (वियतनाम)
+summary.hi: 16 से 30 अगस्त 1945 तक वियत मिन्ह के नेतृत्व में जापानी कब्ज़े और जापान-समर्थित ङुयेन राजवंश के वियतनाम साम्राज्य के विरुद्ध हुई क्रांति। इसके बाद 2 सितंबर 1945 को हो ची मिन्ह ने वियतनाम लोकतांत्रिक गणराज्य की स्वतंत्रता की घोषणा की।
 
 @ bandung-conference
 wikipedia: Bandung Conference
@@ -266,6 +285,7 @@ category: politics
 importance: 4
 title.ko: 반둥 회의
 title.hi: बांडुंग सम्मेलन
+summary.hi: 18–24 अप्रैल 1955 को इंडोनेशिया के बांडुंग में आयोजित एशियाई और अफ़्रीकी देशों का पहला बड़ा सम्मेलन, जिसमें अधिकांश नव-स्वतंत्र देशों सहित 29 देशों ने भाग लिया। भारत, इंडोनेशिया, बर्मा, श्रीलंका और पाकिस्तान द्वारा आयोजित इस सम्मेलन ने उपनिवेशवाद-विरोध और आगे चलकर गुटनिरपेक्ष आंदोलन की नींव रखी।
 
 @ singapore-independence
 wikipedia: Proclamation of Singapore
@@ -280,6 +300,11 @@ title.es: Independencia de Singapur
 title.ar: استقلال سنغافورة
 title.pt: Independência de Singapura
 title.hi: सिंगापुर की स्वतंत्रता की घोषणा
+summary.hi: 9 अगस्त 1965 को सिंगापुर मलेशिया संघ से अलग होकर स्वतंत्र और संप्रभु देश बना। पहले प्रधानमंत्री ली कुआन यू ने स्वतंत्रता घोषणापत्र पर हस्ताक्षर किए; 1963 में संघ में शामिल होने के लगभग दो वर्ष बाद यह अलगाव हुआ।
+summary.zh: 1965年8月9日，新加坡脱离马来西亚联邦，成为独立的主权国家，首任总理李光耀签署独立宣言。此时距新加坡于1963年加入马来西亚仅约两年。
+summary.es: El 9 de agosto de 1965, Singapur se separó de la Federación de Malasia y se convirtió en un Estado independiente y soberano. La proclamación fue firmada por Lee Kuan Yew, primer ministro del país, apenas dos años después de que Singapur se integrara en la federación en 1963.
+summary.ar: في 9 أغسطس 1965 انفصلت سنغافورة عن اتحاد ماليزيا وأصبحت دولة مستقلة ذات سيادة. ووقّع لي كوان يو، أول رئيس وزراء للبلاد، إعلان الاستقلال، بعد نحو عامين فقط من انضمام سنغافورة إلى الاتحاد عام 1963.
+summary.pt: Em 9 de agosto de 1965, Singapura separou-se da Federação da Malásia e tornou-se um Estado independente e soberano. A proclamação foi assinada por Lee Kuan Yew, primeiro primeiro-ministro do país, apenas cerca de dois anos depois da entrada de Singapura na federação, em 1963.
 
 @ indonesian-mass-killings
 wikipedia: Indonesian mass killings of 1965–66
@@ -289,6 +314,7 @@ category: politics
 importance: 4
 title.ko: 인도네시아 대학살
 title.hi: 1965–66 का इंडोनेशियाई नरसंहार
+summary.hi: अक्टूबर 1965 से मार्च 1966 तक इंडोनेशिया में मुख्यतः इंडोनेशियाई कम्युनिस्ट पार्टी के सदस्यों और कथित समर्थकों को निशाना बनाकर बड़े पैमाने पर हत्याएँ हुईं। ट्रेड यूनियन सदस्य, चीनी मूल के लोग और वामपंथी भी इसके शिकार बने, और इसके बाद सुहार्तो का सैन्य-समर्थित शासन स्थापित हुआ।
 
 @ asean-declaration
 wikipedia: ASEAN Declaration
@@ -300,6 +326,9 @@ title.ko: 아세안 창설
 title.es: Declaración de la ASEAN
 title.pt: Declaração da ASEAN
 title.hi: आसियान घोषणा
+summary.hi: 8 अगस्त 1967 को बैंकॉक में इंडोनेशिया, मलेशिया, फ़िलीपींस, सिंगापुर और थाईलैंड के विदेश मंत्रियों ने इस घोषणा पर हस्ताक्षर किए, जिसे बैंकॉक घोषणा भी कहते हैं। इसके द्वारा क्षेत्रीय आर्थिक, सामाजिक और सांस्कृतिक सहयोग के लिए दक्षिण-पूर्व एशियाई राष्ट्र संघ (आसियान) की स्थापना हुई।
+summary.es: El 8 de agosto de 1967, los ministros de Asuntos Exteriores de Indonesia, Malasia, Filipinas, Singapur y Tailandia firmaron en Bangkok la declaración fundacional de la Asociación de Naciones del Sudeste Asiático. Su objetivo era fomentar la cooperación regional en los ámbitos económico, social y cultural, así como la paz y la estabilidad en la región.
+summary.pt: Em 8 de agosto de 1967, os ministros das Relações Exteriores da Indonésia, Malásia, Filipinas, Singapura e Tailândia assinaram em Bangcoc a declaração que fundou a Associação de Nações do Sudeste Asiático. O objetivo era promover a cooperação regional nas áreas econômica, social e cultural, além da paz e da estabilidade na região.
 
 @ fall-of-saigon
 wikipedia: Fall of Saigon
@@ -309,6 +338,7 @@ category: war
 importance: 4
 title.ko: 사이공 함락
 title.hi: साइगॉन का पतन
+summary.hi: 30 अप्रैल 1975 को उत्तरी वियतनाम की सेना ने दक्षिण वियतनाम की राजधानी साइगॉन पर कब्ज़ा कर लिया, जिससे वियतनाम युद्ध समाप्त हुआ। हज़ारों नागरिकों और अमेरिकी कर्मियों को निकाला गया, और 1976 में वियतनाम का औपचारिक पुनर्एकीकरण हुआ।
 
 @ cambodian-genocide
 wikipedia: Cambodian genocide
@@ -326,6 +356,7 @@ category: politics
 importance: 3
 title.ko: 피플 파워 혁명
 title.hi: जनशक्ति क्रांति (फ़िलीपींस)
+summary.hi: 22 से 25 फ़रवरी 1986 तक फ़िलीपींस में, मुख्यतः मनीला की एड्सा सड़क पर, चुनावी धांधली और दमन के विरुद्ध व्यापक शांतिपूर्ण जन-प्रदर्शन हुए। इस अहिंसक क्रांति से फ़र्डिनेंड मार्कोस की 20 वर्ष पुरानी तानाशाही समाप्त हुई और कोराज़ोन अक्विनो राष्ट्रपति बनीं।
 
 @ doi-moi
 wikipedia: Đổi Mới
@@ -335,6 +366,7 @@ category: economy
 importance: 3
 title.ko: 도이머이 (베트남 개혁)
 title.hi: दोई मोई (वियतनामी सुधार)
+summary.hi: 1986 के अंत से वियतनाम में शुरू की गई आर्थिक सुधारों की नीति, जिसका उद्देश्य समाजवाद-उन्मुख बाज़ार अर्थव्यवस्था बनाना था। 'दोई मोई' का अर्थ नवीनीकरण है; इसके तहत केंद्रीय नियोजित अर्थव्यवस्था से बाज़ार की ओर बदलाव हुआ और देश में तेज़ आर्थिक विकास हुआ।
 
 @ indian-ocean-tsunami-2004
 wikipedia: 2004 Indian Ocean earthquake and tsunami
