@@ -8,11 +8,11 @@ import { useI18n } from "@/i18n/I18nProvider";
 const chip =
   "h-9 shrink-0 rounded-md border px-3 text-sm whitespace-nowrap transition-colors lg:h-10 lg:text-base";
 
-/** 카테고리 필터 (F-07). 아무것도 고르지 않으면 전체 */
+/** 카테고리 필터 (F-07). 한 번에 하나만, 아무것도 고르지 않으면 전체 */
 export function CategoryFilter() {
   const { messages } = useI18n();
   const selected = useFilters((s) => s.categories);
-  const toggle = useFilters((s) => s.toggleCategory);
+  const select = useFilters((s) => s.selectCategory);
   const clear = useFilters((s) => s.clearCategories);
 
   return (
@@ -41,7 +41,7 @@ export function CategoryFilter() {
             key={id}
             type="button"
             aria-pressed={on}
-            onClick={() => toggle(id)}
+            onClick={() => select(id)}
             className={clsx(
               chip,
               on

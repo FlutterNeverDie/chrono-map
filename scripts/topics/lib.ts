@@ -37,6 +37,8 @@ export type Topic = {
   showMonthFrom: number | null;
   view: { lon: number; lat: number; zoom: number };
   color: string;
+  /** 하단 바 지도 아이콘 이름(virus · bulb · map) */
+  icon: string;
   title: Partial<Record<Locale, string>>;
   description: Partial<Record<Locale, string>>;
 };
@@ -66,6 +68,7 @@ export function readTopic(id: string): Topic {
     showMonthFrom: kv.has("show-month-from") ? Number(kv.get("show-month-from")) : null,
     view: { lon, lat, zoom },
     color: kv.get("color") ?? "#b4232a",
+    icon: kv.get("icon") ?? "map",
     title,
     description: localized("description"),
   };

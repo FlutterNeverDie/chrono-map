@@ -1,42 +1,21 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import * as Slider from "@radix-ui/react-slider";
 import clsx from "clsx";
 import { useI18n } from "@/i18n/I18nProvider";
-import {
-  ChevronLeftIcon,
-  ChevronRightIcon,
-  PauseIcon,
-  PlayIcon,
-} from "@/components/ui/icons";
-import { useCampaign, useCampaignState, useCampaignStore } from "./store";
+import { ChevronLeftIcon, ChevronRightIcon } from "@/components/ui/icons";
+import { useCampaign, useCampaignState } from "./store";
 import { formatTime, tickYears } from "./logic";
 
 const button =
   "flex size-12 shrink-0 items-center justify-center rounded-md text-muted transition-colors hover:bg-chip hover:text-foreground";
 
-/** 전쟁 기간 슬라이더(월 또는 연 단위) + 자동 재생 */
+/** 전쟁 기간 슬라이더(월 또는 연 단위) */
 export function TimeGauge() {
   const { locale, messages } = useI18n();
   const c = useCampaign();
-  const store = useCampaignStore();
   const t = useCampaignState((s) => s.t);
   const setT = useCampaignState((s) => s.setT);
-  const [playing, setPlaying] = useState(false);
-
-  useEffect(() => {
-    if (!playing) return;
-    const timer = setInterval(
-      () => {
-        const now = store.getState().t;
-        if (now >= c.end) return setPlaying(false);
-        store.getState().setT(now + 1);
-      },
-      c.unit === "month" ? 600 : 450,
-    );
-    return () => clearInterval(timer);
-  }, [playing, store, c.end, c.unit]);
 
   const span = c.end - c.start || 1;
   const pct = ((t - c.start) / span) * 100;
@@ -45,21 +24,6 @@ export function TimeGauge() {
 
   return (
     <div dir="ltr" className="flex w-full min-w-0 items-center gap-1">
-      <button
-        type="button"
-        aria-label={playing ? messages.ui.pause : messages.ui.play}
-        onClick={() => {
-          if (!playing && t >= c.end) setT(c.start);
-          setPlaying(!playing);
-        }}
-        className={clsx(button, playing && "bg-chip text-foreground")}
-      >
-        {playing ? (
-          <PauseIcon className="size-5" />
-        ) : (
-          <PlayIcon className="size-5" />
-        )}
-      </button>
       <button
         type="button"
         aria-label={messages.ui.prevYear}

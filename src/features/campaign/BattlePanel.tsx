@@ -4,7 +4,8 @@ import { useEffect, useMemo, useState } from "react";
 import clsx from "clsx";
 import { fill } from "@/i18n";
 import { useI18n } from "@/i18n/I18nProvider";
-import { ChevronUpIcon, XIcon, ExternalIcon } from "@/components/ui/icons";
+import { ChevronUpIcon, XIcon } from "@/components/ui/icons";
+import { WikiLink } from "@/components/ui/WikiLink";
 import { ExpandableText } from "@/components/ui/ExpandableText";
 import { useCampaign, useCampaignState } from "./store";
 import {
@@ -130,16 +131,14 @@ export function BattlePanel() {
               moreLabel={messages.ui.details}
               lessLabel={messages.ui.collapse}
               className="mt-2 text-[15px] text-muted lg:text-lg"
+              trailing={
+                <WikiLink
+                  href={war.url}
+                  label={messages.ui.readMore}
+                  source={`${messages.ui.wikipedia} · CC BY-SA 4.0`}
+                />
+              }
             />
-            <a
-              href={war.url}
-              target="_blank"
-              rel="noreferrer"
-              className="mt-2 inline-flex items-center gap-1 text-sm font-medium underline decoration-line underline-offset-2"
-            >
-              {messages.ui.readMore}
-              <ExternalIcon className="size-4" />
-            </a>
           </div>
         )}
         {list.length === 0 && (
@@ -176,22 +175,16 @@ export function BattlePanel() {
                       moreLabel={messages.ui.details}
                       lessLabel={messages.ui.collapse}
                       className="mt-2 text-base text-muted lg:text-lg xl:text-[19px]"
+                      trailing={
+                        summary.page && (
+                          <WikiLink
+                            href={summary.page.url}
+                            label={messages.ui.readMore}
+                            source={`${messages.ui.wikipedia} · CC BY-SA 4.0`}
+                          />
+                        )
+                      }
                     />
-                  )}
-                  {summary.page && (
-                    <p className="mt-3 flex flex-wrap items-center gap-x-3 text-sm text-muted">
-                      <a
-                        href={summary.page.url}
-                        target="_blank"
-                        rel="noreferrer"
-                        onClick={(e) => e.stopPropagation()}
-                        className="inline-flex items-center gap-1 font-medium text-foreground underline decoration-line underline-offset-2"
-                      >
-                        {messages.ui.readMore}
-                        <ExternalIcon className="size-4" />
-                      </a>
-                      <span>{messages.ui.wikipedia} · CC BY-SA 4.0</span>
-                    </p>
                   )}
                 </article>
               </li>

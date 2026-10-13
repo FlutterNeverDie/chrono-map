@@ -6,7 +6,8 @@ import { fill } from "@/i18n";
 import { useI18n } from "@/i18n/I18nProvider";
 import { localeHref } from "@/i18n/locales";
 import { pick } from "@/lib/localize";
-import { ChevronUpIcon, XIcon, ExternalIcon } from "@/components/ui/icons";
+import { ChevronUpIcon, XIcon } from "@/components/ui/icons";
+import { WikiLink } from "@/components/ui/WikiLink";
 import { ExpandableText } from "@/components/ui/ExpandableText";
 import { useTopic, useTopicState } from "./store";
 import {
@@ -67,7 +68,7 @@ export function TopicPanel() {
       data-map-overlay
       aria-label={messages.maps.now}
       className={clsx(
-        "pointer-events-auto absolute inset-x-2 bottom-[calc(var(--bar-h)+0.5rem)] z-20 flex flex-col overflow-hidden rounded-xl border border-line bg-background/95 shadow-lg backdrop-blur lg:inset-x-auto lg:end-3 lg:top-[4.75rem] lg:w-[34rem] xl:w-[40rem] 2xl:w-[46rem]",
+        "pointer-events-auto absolute inset-x-2 bottom-[calc(var(--bar-h)+0.5rem)] z-20 flex flex-col overflow-hidden rounded-xl border border-line bg-background/95 shadow-lg backdrop-blur lg:inset-x-auto lg:end-3 lg:top-3 lg:w-[34rem] xl:w-[40rem] 2xl:w-[46rem]",
         // 모바일에서 펼치면 위 끝을 화면 40% 지점에(지도가 위에 보이게), 키 작은 기기에서도 상단 바(--top-h) 아래로
         open && "max-lg:top-[max(calc(var(--top-h)+0.5rem),40dvh)]",
       )}
@@ -151,22 +152,16 @@ export function TopicPanel() {
                       moreLabel={messages.ui.details}
                       lessLabel={messages.ui.collapse}
                       className="mt-2 text-base text-muted lg:text-lg xl:text-[19px]"
+                      trailing={
+                        summary.page && (
+                          <WikiLink
+                            href={summary.page.url}
+                            label={messages.ui.readMore}
+                            source={`${messages.ui.wikipedia} · CC BY-SA 4.0`}
+                          />
+                        )
+                      }
                     />
-                  )}
-                  {summary.page && (
-                    <p className="mt-3 flex flex-wrap items-center gap-x-3 text-sm text-muted lg:text-[15px]">
-                      <a
-                        href={summary.page.url}
-                        target="_blank"
-                        rel="noreferrer"
-                        onClick={(e) => e.stopPropagation()}
-                        className="inline-flex items-center gap-1 font-medium text-foreground underline decoration-line underline-offset-2"
-                      >
-                        {messages.ui.readMore}
-                        <ExternalIcon className="size-4" />
-                      </a>
-                      <span>{messages.ui.wikipedia} · CC BY-SA 4.0</span>
-                    </p>
                   )}
                   {it.link && (
                     <a

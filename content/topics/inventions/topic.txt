@@ -4,6 +4,7 @@ mode: persist
 scale: -1000000, -10000, -3000, 0, 1000, 1500, 1800, 1900, 1950, 2025
 view: 60, 30, 1
 color: #1f6feb
+icon: bulb
 title.ko: 발명 지도
 title.en: Inventions map
 title.zh: 发明地图

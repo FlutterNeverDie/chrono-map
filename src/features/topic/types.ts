@@ -35,6 +35,8 @@ export type Topic = {
   showMonthFrom: number | null;
   view: { lon: number; lat: number; zoom: number };
   color: string;
+  /** 하단 바 지도 아이콘 이름(topic.txt의 icon) */
+  icon?: string;
   title: Partial<Record<Locale, string>>;
   description: Partial<Record<Locale, string>>;
   items: TopicItem[];

@@ -11,7 +11,7 @@
 - `store.tsx`: `CampaignProvider`(전쟁 데이터 + 페이지 전용 zustand 상태: 시점 t, 선택 전투, 패널, 지도 이동 요청).
 - `CampaignMap.tsx`: 진영 색(진영 없으면 나라별 색) 영토, 해안선으로 자름, 전투 표시, 끌기·휠·두 번 클릭 확대, 전투 목록에서 고르면 그 전투로 이동(패널에 가리지 않게).
 - `BattlePanel.tsx`: "이 시기"(슬라이더 시점의 전투, 중요한 순 + 맨 위 전쟁 요약) / "전체 전투"(전쟁 전체 시간 순, 고르면 슬라이더도 그 시점으로). 글은 접어 두고 "자세히"로 그 자리에서 펼침. 위키백과 링크 + CC BY-SA 4.0.
-- `TimeGauge.tsx`: 기간 슬라이더 + 재생. `Legend.tsx`: 전쟁 이름 + 진영 범례.
+- `TimeGauge.tsx`: 기간 슬라이더. `Legend.tsx`: 전쟁 이름 + 진영 범례.
 - `meta.ts`: 페이지 메타데이터(서버) — 각 전쟁 `campaignMetadata`, 첫 화면 `warsMetadata`.
 - 진영 색은 `globals.css`의 `--side-a`(빨강) `--side-b`(파랑) `--side-n`(기타).
 - 화면에 넘길 때는 `localizeCampaign(전쟁, 언어)`(data.ts, CampaignScreen에서 호출)로 그 언어와 영어 위키백과 요약만 남긴다. 전투마다 8개 언어가 붙어 있어 그대로 넘기면 페이지가 2MB를 넘는다.

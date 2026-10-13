@@ -9,3 +9,4 @@
 - `useMainBordersUrl(year)`: 본 지도 국경 스냅샷(public/borders) 중 그 해에 맞는 파일 — 주제 지도의 배경 국경용.
 - `polityColor(key)`: 나라별 고정 색.
 - `useHydrated()`: 하이드레이션이 끝났는지. 해안선·경위선 경로(`landD`, `graticuleD`)는 하이드레이션 뒤에만 채운다 — 서버 HTML에 넣으면 복사본·clip·외곽선마다 반복돼 페이지가 수백 KB 커진다(같은 데이터가 JS 번들에 이미 있음). 본 지도 WorldMap도 같은 규칙.
+- `swallowNextClick()`(ghostClick.ts): 지도 탭(pointerup)으로 패널을 열면 폰이 같은 자리에 click을 한 번 더 보내, 그 사이 펼쳐진 패널 머리줄을 눌러 바로 닫혀 버린다. 탭으로 연 직후 0.5초 안의 click 하나를 버린다 — `useMapViewport`의 onTap과 본 지도 WorldMap이 쓴다. 새로 pointerup에서 무언가를 여는 코드를 만들면 같이 부른다.

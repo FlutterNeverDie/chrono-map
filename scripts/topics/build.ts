@@ -25,6 +25,7 @@ writeFileSync(
       order: t.order,
       mode: t.mode,
       color: t.color,
+      icon: t.icon,
       title: t.title,
       description: t.description,
       // 본 지도 슬라이더의 "이 시기 다른 지도" 표시용 (항목 이름만, 가볍게)

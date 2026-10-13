@@ -5,6 +5,7 @@ scale: -430, 500, 1300, 1700, 1850, 1950, 2025
 show-month-from: 1800
 view: 40, 30, 1
 color: #7e3fb5
+icon: virus
 title.ko: 역병 지도
 title.en: Epidemics map
 title.zh: 瘟疫地图

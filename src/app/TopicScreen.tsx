@@ -9,7 +9,7 @@ import {
   type Topic,
 } from "@/features/topic";
 import { localizeTopic } from "@/features/topic/data";
-import { SiteHeader } from "./SiteHeader";
+import { BottomBar } from "./BottomBar";
 
 /** 주제 지도 화면 (/maps/[id]) — 역병·발명 등, 그리고 전쟁 지도 첫 화면(/wars). 페이지가 고른 지도 하나만 클라이언트로 넘긴다 */
 export function TopicScreen({
@@ -26,19 +26,19 @@ export function TopicScreen({
   return (
     <I18nProvider locale={locale} messages={messages}>
       <TopicProvider topic={localizeTopic(topic, locale)}>
-        <div className="relative h-dvh w-full overflow-hidden bg-[var(--map-ocean)] [--bar-h:calc(5.75rem+env(safe-area-inset-bottom))] [--top-h:calc(max(0.5rem,env(safe-area-inset-top))+3rem)]">
+        <div className="relative h-dvh w-full overflow-hidden bg-[var(--map-ocean)] [--bar-h:calc(8.75rem+env(safe-area-inset-bottom))] lg:[--bar-h:calc(5.75rem+env(safe-area-inset-bottom))] [--top-h:0rem]">
           <div className="absolute inset-x-0 top-0 bottom-[var(--bar-h)]">
             <TopicMap />
           </div>
-          <SiteHeader current={section} />
+
           <TopicPanel />
           <div className="pointer-events-none absolute start-3 bottom-[calc(var(--bar-h)+0.5rem)] z-10 hidden rounded bg-surface/70 px-1.5 py-0.5 text-xs text-muted lg:block">
             {messages.ui.wikipedia} · CC BY-SA 4.0 · Cliopatria (Seshat) · CC BY
             4.0
           </div>
-          <nav className="absolute inset-x-0 bottom-0 z-30 flex h-[var(--bar-h)] items-start border-t border-line bg-surface px-2 pt-3 pb-[env(safe-area-inset-bottom)] sm:px-4">
+          <BottomBar current={section}>
             <TopicGauge />
-          </nav>
+          </BottomBar>
         </div>
       </TopicProvider>
     </I18nProvider>

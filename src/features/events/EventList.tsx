@@ -14,7 +14,8 @@ import { REGION_BY_ID } from "@/data/regions";
 import { VIEWPOINT_BY_ID } from "@/data/viewpoints";
 import { useI18n } from "@/i18n/I18nProvider";
 import { localeHref } from "@/i18n/locales";
-import { ExternalIcon, PinIcon } from "@/components/ui/icons";
+import { PinIcon } from "@/components/ui/icons";
+import { WikiLink } from "@/components/ui/WikiLink";
 import { ExpandableText } from "@/components/ui/ExpandableText";
 
 /** 사건 카드를 한 번에 그리는 수 */
@@ -124,30 +125,24 @@ export function EventList() {
                   moreLabel={messages.ui.details}
                   lessLabel={messages.ui.collapse}
                   className="mt-2 text-base text-muted lg:text-lg xl:text-[19px]"
+                  trailing={
+                    summary.page && (
+                      <WikiLink
+                        href={summary.page.url}
+                        label={messages.ui.readMore}
+                        source={`${messages.ui.wikipedia} · CC BY-SA 4.0`}
+                      />
+                    )
+                  }
                 />
-                {summary.page && (
-                  <p className="mt-3 flex flex-wrap items-center gap-x-3 text-sm text-muted lg:text-[15px]">
-                    <a
-                      href={summary.page.url}
-                      target="_blank"
-                      rel="noreferrer"
-                      onClick={(ev) => ev.stopPropagation()}
-                      className="inline-flex items-center gap-1 font-medium text-foreground underline decoration-line underline-offset-2 hover:decoration-foreground"
-                    >
-                      {messages.ui.readMore}
-                      <ExternalIcon className="size-4" />
-                    </a>
-                    <span>{messages.ui.wikipedia} · CC BY-SA 4.0</span>
-                    {e.campaign && (
-                      <a
-                        href={localeHref(locale, `wars/${e.campaign}`)}
-                        onClick={(ev) => ev.stopPropagation()}
-                        className="inline-flex h-9 items-center rounded-md bg-foreground px-3 font-semibold text-background"
-                      >
-                        {messages.wars.openMap}
-                      </a>
-                    )}
-                  </p>
+                {e.campaign && (
+                  <a
+                    href={localeHref(locale, `wars/${e.campaign}`)}
+                    onClick={(ev) => ev.stopPropagation()}
+                    className="mt-2 inline-flex h-10 items-center rounded-md bg-foreground px-3 text-sm font-semibold text-background lg:text-[15px]"
+                  >
+                    {messages.wars.openMap}
+                  </a>
                 )}
               </article>
             </li>

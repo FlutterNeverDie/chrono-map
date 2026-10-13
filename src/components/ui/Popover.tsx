@@ -11,6 +11,7 @@ export function Popover({
   label,
   button,
   align = "start",
+  side = "bottom",
   children,
 }: {
   /** 버튼의 접근성 이름(아이콘만 있을 때) */
@@ -18,6 +19,8 @@ export function Popover({
   /** 버튼 안 내용 */
   button: ReactNode;
   align?: "start" | "end";
+  /** 펼치는 방향: 버튼 아래(기본) 또는 위(하단 바) */
+  side?: "bottom" | "top";
   /** close를 받아 항목을 고른 뒤 닫을 수 있다 */
   children: (close: () => void) => ReactNode;
 }) {
@@ -59,7 +62,8 @@ export function Popover({
       </button>
       <div
         className={clsx(
-          "absolute top-12 z-40 min-w-48 rounded-lg border border-line bg-surface p-1 shadow-lg",
+          "absolute z-40 min-w-48 rounded-lg border border-line bg-surface p-1 shadow-lg",
+          side === "bottom" ? "top-12" : "bottom-12",
           align === "start" ? "start-0" : "end-0",
           !open && "hidden",
         )}

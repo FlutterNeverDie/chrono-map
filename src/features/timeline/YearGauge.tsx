@@ -1,28 +1,27 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import * as Slider from "@radix-ui/react-slider";
 import clsx from "clsx";
 import { usePeriod, useTimeline } from "@/store/timeline";
 import { MAX_POSITION, MIN_POSITION } from "@/lib/timeScale";
-import { MAX_YEAR, MIN_YEAR, TIME_SCALE } from "@/data/timeline";
+import { MIN_YEAR, TIME_SCALE } from "@/data/timeline";
 
 const { positionToYear, yearToPosition } = TIME_SCALE;
-import { formatPeriod, periodOf, stepPeriod } from "@/lib/period";
+import { formatPeriod, stepPeriod } from "@/lib/period";
 import eras from "@/data/eras.json";
 import { MapLanes } from "./MapLanes";
-import {
-  ChevronLeftIcon,
-  ChevronRightIcon,
-  PauseIcon,
-  PlayIcon,
-} from "@/components/ui/icons";
+import { ChevronLeftIcon, ChevronRightIcon } from "@/components/ui/icons";
 import { useI18n } from "@/i18n/I18nProvider";
 import { useYearUrl } from "./useYearUrl";
 import type { Messages } from "@/i18n";
 
 const stepButton =
   "flex size-12 shrink-0 items-center justify-center rounded-md text-muted transition-colors hover:bg-chip hover:text-foreground active:bg-chip";
+
+/** 글자 폭 어림(em): 한중일 글자 1, 그 밖 0.6 + 여백 */
+const eraLabelEm = (text: string) =>
+  [...text].reduce((w, ch) => w + (ch.codePointAt(0)! >= 0x2e80 ? 1 : 0.6), 0) +
+  0.6;
 
 /** 연도 게이지: 남는 가로폭을 모두 쓴다 (모바일·데스크톱 공통) */
 export function YearGauge({ className }: { className?: string }) {
@@ -38,45 +37,12 @@ export function YearGauge({ className }: { className?: string }) {
   const step = (direction: 1 | -1) =>
     setYear(stepPeriod(period, direction).start);
 
-  // 자동 재생 (F-10): 한 기간씩 앞으로, 끝에 닿으면 멈춤. 끝에서 누르면 처음부터
-  const lastStart = periodOf(MAX_YEAR).start;
-  const [playing, setPlaying] = useState(false);
-  useEffect(() => {
-    if (!playing) return;
-    const timer = setInterval(() => {
-      const current = periodOf(useTimeline.getState().year);
-      if (current.start >= lastStart) {
-        setPlaying(false);
-        return;
-      }
-      setYear(stepPeriod(current, 1).start);
-    }, 1200);
-    return () => clearInterval(timer);
-  }, [playing, lastStart, setYear]);
-  const togglePlay = () => {
-    if (!playing && period.start >= lastStart) setYear(MIN_YEAR);
-    setPlaying(!playing);
-  };
-
   return (
     // 아랍어(RTL)에서도 시간 축은 왼쪽(과거) → 오른쪽(현재)
     <div
       dir="ltr"
       className={clsx("flex min-w-0 items-center gap-1", className)}
     >
-      <button
-        type="button"
-        aria-label={playing ? messages.ui.pause : messages.ui.play}
-        aria-pressed={playing}
-        onClick={togglePlay}
-        className={clsx(stepButton, playing && "bg-chip text-foreground")}
-      >
-        {playing ? (
-          <PauseIcon className="size-5" />
-        ) : (
-          <PlayIcon className="size-5" />
-        )}
-      </button>
       <button
         type="button"
         aria-label={messages.ui.prevYear}
@@ -146,11 +112,11 @@ export function YearGauge({ className }: { className?: string }) {
                   aria-hidden
                   className="absolute start-0 -top-1 h-2.5 w-px bg-line"
                 />
+                {/* 좁은 화면은 눈금만(현재 시대 이름은 아래 따로) */}
                 <span
                   className={clsx(
-                    current
-                      ? "font-semibold text-foreground"
-                      : "sr-only sm:not-sr-only sm:whitespace-nowrap",
+                    "sr-only sm:not-sr-only sm:whitespace-nowrap",
+                    current && "sm:font-semibold sm:text-foreground",
                   )}
                 >
                   {messages.eras[era.id as keyof Messages["eras"]]}
@@ -158,6 +124,19 @@ export function YearGauge({ className }: { className?: string }) {
               </button>
             );
           })}
+          {/* 좁은 화면: 현재 시대 이름 하나만. 다음 눈금까지로 폭을 묶으면 근세·현대처럼 짧은 시대가 잘려서
+              폭 제한 없이 두고, 오른쪽 끝에서는 글자 길이만큼 안쪽으로 당겨 화면 밖으로 나가지 않게 */}
+          {currentEra && (
+            <span
+              aria-hidden
+              className="absolute top-0 ps-1.5 font-semibold whitespace-nowrap text-foreground sm:hidden"
+              style={{
+                left: `min(${(yearToPosition(currentEra.start) / MAX_POSITION) * 100}%, calc(100% - ${eraLabelEm(messages.eras[currentEra.id as keyof Messages["eras"]])}em))`,
+              }}
+            >
+              {messages.eras[currentEra.id as keyof Messages["eras"]]}
+            </span>
+          )}
         </div>
       </div>
 

@@ -24,6 +24,7 @@ import {
 } from "./baseMap";
 import { useBorders, type PolityProps } from "./borders";
 import { useHydrated } from "@/components/map/useHydrated";
+import { swallowNextClick } from "@/components/map/ghostClick";
 
 const DEFAULT_LON = VIEWPOINT_BY_ID.get(DEFAULT_VIEWPOINT)!.lon;
 /** 이 픽셀보다 적게 움직이면 끌기가 아니라 탭으로 본다 */
@@ -580,6 +581,8 @@ export function WorldMap() {
       setCenterLon(lonRef.current);
       return;
     }
+    // 탭으로 연 패널이 뒤따르는 click에 바로 닫히지 않게(components/map/ghostClick)
+    swallowNextClick();
     if (g.eventId) selectEvent(g.eventId);
     else
       setSelectedPolity((cur) =>

@@ -28,7 +28,7 @@ export function MapLanes({ period }: { period: Period }) {
   return (
     <div
       aria-hidden
-      className="pointer-events-none absolute inset-x-2 top-0 flex flex-col gap-[3px] pt-px"
+      className="pointer-events-none absolute inset-x-2 top-0 z-10 flex flex-col gap-[3px] pt-px"
     >
       {MAP_LANES.map((lane) => (
         <div key={lane.id} className="relative h-[5px]">

@@ -10,3 +10,4 @@ export {
   labelCandidates,
 } from "./borders";
 export type { Polity, PolityProps } from "./borders";
+export { swallowNextClick } from "./ghostClick";

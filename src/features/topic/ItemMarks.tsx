@@ -30,7 +30,7 @@ export function ItemMarks() {
   const pct = (p: number) => `${(p / MAX_POS) * 100}%`;
 
   return (
-    <div className="pointer-events-none absolute inset-x-2 bottom-[calc(50%+7px)] h-4">
+    <div className="pointer-events-none absolute inset-x-2 bottom-[calc(50%+7px)] z-10 h-4">
       {marks.map(({ item, from, to, row }) => {
         const big = item.importance >= 5;
         const on =

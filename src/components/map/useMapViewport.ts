@@ -11,6 +11,7 @@ import {
 import { geoGraticule10, geoMercator, geoPath } from "d3-geo";
 import { feature } from "topojson-client";
 import type { GeometryCollection, Topology } from "topojson-specification";
+import { swallowNextClick } from "./ghostClick";
 import { useHydrated } from "./useHydrated";
 import world from "world-atlas/land-110m.json";
 
@@ -250,7 +251,11 @@ export function useMapViewport(initial: {
     onPointerUp: () => {
       const d = drag.current;
       drag.current = null;
-      if (d && !d.moved) onTap?.(d.target);
+      if (d && !d.moved && onTap) {
+        onTap(d.target);
+        // 탭으로 연 패널이 뒤따르는 click에 바로 닫히지 않게(ghostClick.ts)
+        swallowNextClick();
+      }
     },
     onPointerCancel: () => {
       drag.current = null;

@@ -105,3 +105,51 @@ export const XIcon = ({ className }: IconProps) => (
     <path d="M6 6l12 12M18 6 6 18" />
   </svg>
 );
+
+/** 접힌 지도(본 지도) */
+export const MapIcon = ({ className }: IconProps) => (
+  <svg {...base} className={className}>
+    <path d="m3 6 6-2 6 2 6-2v14l-6 2-6-2-6 2Z" />
+    <path d="M9 4v14M15 6v14" />
+  </svg>
+);
+
+/** 엇갈린 두 칼(전쟁 지도) */
+export const SwordsIcon = ({ className }: IconProps) => (
+  <svg {...base} className={className}>
+    <path d="M4 4l10 10M12.5 16.5l4-4M15 15l4.5 4.5" />
+    <path d="M20 4 10 14M7.5 12.5l4 4M9 15l-4.5 4.5" />
+  </svg>
+);
+
+/** 바이러스(역병 지도): 몸통 + 끝이 둥근 돌기 */
+export const VirusIcon = ({ className }: IconProps) => (
+  <svg {...base} className={className}>
+    <circle cx="12" cy="12" r="4.5" />
+    <path d="M12 7.5V5M12 16.5V19M7.5 12H5M16.5 12H19M15.2 8.8l1.6-1.6M8.8 15.2l-1.6 1.6M8.8 8.8 7.2 7.2M15.2 15.2l1.6 1.6" />
+    <circle cx="12" cy="3.6" r="1.2" />
+    <circle cx="12" cy="20.4" r="1.2" />
+    <circle cx="3.6" cy="12" r="1.2" />
+    <circle cx="20.4" cy="12" r="1.2" />
+    <circle cx="17.8" cy="6.2" r="1.2" />
+    <circle cx="6.2" cy="17.8" r="1.2" />
+    <circle cx="6.2" cy="6.2" r="1.2" />
+    <circle cx="17.8" cy="17.8" r="1.2" />
+  </svg>
+);
+
+/** 전구(발명 지도) */
+export const BulbIcon = ({ className }: IconProps) => (
+  <svg {...base} className={className}>
+    <path d="M9 18h6M10 21h4" />
+    <path d="M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2.1h5c0-.9.4-1.6 1-2.1A6 6 0 0 0 12 3Z" />
+  </svg>
+);
+
+/** 위키백과(둥근 테두리 안의 W) */
+export const WikipediaIcon = ({ className }: IconProps) => (
+  <svg {...base} className={className}>
+    <circle cx="12" cy="12" r="9.5" />
+    <path d="m6.5 8.5 2.6 7.5 2.9-6.5 2.9 6.5 2.6-7.5" />
+  </svg>
+);

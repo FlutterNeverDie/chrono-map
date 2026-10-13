@@ -1,6 +1,6 @@
 # app — 라우트 규칙
 
-- 라우트 파일 + 화면 조립(`HomeScreen.tsx` 크로노맵, `CampaignScreen.tsx` 전쟁 지도, `TopicScreen.tsx` 주제 지도·전쟁 지도 첫 화면, `warsTopic.ts` 전쟁 목록 → 주제 지도 데이터), 공용 상단 바 `SiteHeader.tsx`(지도 탭 · 화면별 도구 · 언어·테마), html 뼈대 `RootDocument.tsx`만 둔다. UI 로직은 `src/features`에서 가져온다.
+- 라우트 파일 + 화면 조립(`HomeScreen.tsx` 크로노맵, `CampaignScreen.tsx` 전쟁 지도, `TopicScreen.tsx` 주제 지도·전쟁 지도 첫 화면, `warsTopic.ts` 전쟁 목록 → 주제 지도 데이터), 공용 하단 바 `BottomBar.tsx`(지도 아이콘 · 슬라이더 · 설정)와 위쪽 도구 `SiteHeader.tsx`, html 뼈대 `RootDocument.tsx`만 둔다. UI 로직은 `src/features`에서 가져온다.
 - 라우트(언어마다 `/` 또는 `/en` 아래): 지도 `/`, 연도 페이지 `/year`·`/year/[slug]`, 공유 이미지 `og.png`(첫 화면·연도·사건, 빌드 때 PNG — components/og), 전쟁 지도 첫 화면 `/wars`(모든 전쟁이 보이는 지도 — 상단 "전쟁 지도" 탭은 바로 여기로)·각 전쟁 `/wars/[id]`, 주제 지도 `/maps/[id]`, 사건 상세 `/event/[id]`, `/about`, `/privacy`, 그리고 `sitemap.xml`·`robots.txt`(주소는 `site.ts`, 배포 시 `NEXT_PUBLIC_SITE_URL`).
 - 루트 레이아웃이 두 개다(다국어 + 한국어 기본 `/`):
   - `(home)/layout.tsx` + `page.tsx` → `/` (한국어). 전에 다른 언어를 골랐으면 그 언어 경로로 이동.
@@ -19,5 +19,6 @@
 - 빌드 후 `scripts/prune-out.mjs`(postbuild)가 out/의 RSC 페이로드(*.txt, 약 390MB)를 지운다. 모든 이동이 `<a>`라 쓰이지 않기 때문. **next/link·router를 쓰기 시작하면 이 단계를 없앨 것.**
 - 사이트 전체 404는 `global-not-found.tsx`(next.config `experimental.globalNotFound`, 루트 레이아웃이 둘이라). 개발 서버에서는 모르는 주소가 `[locale]`로 잡혀 오류가 나지만 정적 빌드에서는 404.html이 나간다.
 - 아이콘: `icon.svg`(앱 루트) + `(home)/apple-touch-icon.png/route.tsx`. 레이아웃의 `icons`에 둘 다 적는다(metadata icons를 쓰면 자동 아이콘 링크가 빠짐).
-- 상단 바(`SiteHeader`): 데스크톱은 [지도 탭][화면별 도구][언어·테마], 모바일은 [지금 지도 ▾][화면 도구(mobileTool, 예: 시점 ▾)] … [설정 ⚙ → 언어·테마] 한 줄(mobileTool이 없으면 범례 등 children을 둘째 줄에). 모바일에서 지도 탭을 다 펼치면 잘리고 세 줄로 접혀 화면 위 40%를 가렸다. 펼침 메뉴의 링크는 닫혀 있어도 HTML에 있다(검색 로봇). 확대 +/− 버튼은 없앴다(휠·두 손가락·두 번 클릭).
-- `--top-h`(화면 루트에서 지정): 모바일 상단 바 높이. 지도 위 목록 패널을 펼치면 이 아래까지만 올라간다. 상단 바가 한 줄이면 safe-area + 3rem, 둘째 줄(범례)이 있으면 + 6.25rem — 상단 바 구성을 바꾸면 같이 고친다.
+- 하단 바(`BottomBar`): [지도 고르기 — 지금 지도 아이콘을 누르면 위로 목록(아이콘 + 이름), 주제 지도 아이콘은 topic.txt의 icon] [시간 슬라이더] [설정 ⚙ → 언어·테마]. 데스크톱 한 줄, 모바일은 슬라이더 한 줄 + [지도 … 설정] 한 줄. 높이 `--bar-h`(모바일 8.75rem, lg 5.75rem + safe-area). 재생 버튼은 없앴다.
+- 위쪽(`SiteHeader`)에는 화면별 도구만: 지금은 전쟁 지도 범례뿐. 본 지도·주제 지도는 위쪽이 비어 있다(시점 고르기는 없앰 — 지도를 끌어서 옮김). 확대 +/− 버튼은 없앴다(휠·두 손가락·두 번 클릭).
+- `--top-h`(화면 루트에서 지정): 모바일 상단 바 높이. 지도 위 목록 패널을 펼치면 이 아래까지만 올라간다. 위쪽 도구가 있으면(전쟁 지도) safe-area + 3rem, 없으면 0 — 위쪽 구성을 바꾸면 같이 고친다.

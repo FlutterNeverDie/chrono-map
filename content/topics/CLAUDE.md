@@ -16,6 +16,7 @@ scale: -430, 500, 1300, 1700, 1850, 1950, 2025   ← 슬라이더 눈금 연도.
 show-month-from: 1800            ← (선택) 이 연도부터 슬라이더에 월까지 표시
 view: 40, 30, 1                  ← 처음 화면: 가운데 경도, 위도, 확대 배율
 color: #b4232a                   ← 항목 점·경로·슬라이더 색
+icon: virus                      ← 하단 바 지도 아이콘: virus | bulb | map(기본). 새 아이콘은 components/ui/icons + app/BottomBar의 MAP_ICONS
 title.ko: 역병 지도               ← 8개 언어 (title.ko 필수)
 description.ko: …                ← 8개 언어 (검색 노출용 설명)
 ```

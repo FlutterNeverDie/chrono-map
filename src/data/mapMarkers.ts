@@ -21,7 +21,11 @@ export type MapMarker = {
   importance: number;
 };
 
-export type MapLane = { id: string; color: string; titles: Partial<Record<Locale, string>> | null };
+export type MapLane = {
+  id: string;
+  color: string;
+  titles: Partial<Record<Locale, string>> | null;
+};
 
 type CampaignEntry = {
   id: string;
@@ -47,12 +51,17 @@ type TopicEntry = {
   }[];
 };
 
-const toYear = (t: number, unit: "month" | "year") => (unit === "year" ? t : Math.floor(t / 12));
+const toYear = (t: number, unit: "month" | "year") =>
+  unit === "year" ? t : Math.floor(t / 12);
 
 /** 띠 순서: 전쟁 지도 → 주제 지도(order 순). 전쟁 띠 이름은 화면 사전(wars.tab)을 쓰므로 null */
 export const MAP_LANES: MapLane[] = [
   { id: "wars", color: "var(--side-a)", titles: null },
-  ...(topicIndex as TopicEntry[]).map((t) => ({ id: t.id, color: t.color, titles: t.title })),
+  ...(topicIndex as TopicEntry[]).map((t) => ({
+    id: t.id,
+    color: t.color,
+    titles: t.title,
+  })),
 ];
 
 export const MAP_MARKERS: MapMarker[] = [
