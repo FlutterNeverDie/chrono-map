@@ -1,0 +1,30 @@
+# main에 푸시하면 정적 빌드 후 Cloudflare(Workers 정적 파일)에 배포한다.
+# 필요한 저장소 Secret: CLOUDFLARE_API_TOKEN (Cloudflare → My Profile → API Tokens → "Edit Cloudflare Workers" 템플릿)
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - name: Cloudflare 배포
+        run: npx wrangler deploy
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: 0109eea511068bb16093556e52ca723f
