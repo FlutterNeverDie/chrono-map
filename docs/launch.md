@@ -14,7 +14,7 @@
 
 | 이름 | 예 | 언제 |
 | --- | --- | --- |
-| `NEXT_PUBLIC_SITE_URL` | `https://chronomap.example` | 도메인 연결 직후(사이트맵·canonical·OG 주소). 없으면 `https://chrono-map.pages.dev` |
+| `NEXT_PUBLIC_SITE_URL` | `https://chronomap.example` | 도메인 연결 직후(사이트맵·canonical·OG 주소). 없으면 `https://chrono-map.histlab.workers.dev`(site.ts 기본값) |
 | `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` | Search Console의 HTML 태그 값 | Search Console 등록 때 |
 | `NEXT_PUBLIC_CONTACT_EMAIL` | (선택) 연락용 이메일 | 연락처에 이메일을 보일 때 |
 | `NEXT_PUBLIC_ADSENSE_CLIENT` | `ca-pub-0000000000000000` | AdSense 신청 때(심사 코드 = 이 스크립트, ads.txt도 채워짐) |
