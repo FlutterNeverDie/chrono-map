@@ -14,3 +14,4 @@
 - `TimeGauge.tsx`: 기간 슬라이더 + 재생. `Legend.tsx`: 전쟁 이름 + 진영 범례.
 - `meta.ts`: 페이지 메타데이터(서버) — 각 전쟁 `campaignMetadata`, 첫 화면 `warsMetadata`.
 - 진영 색은 `globals.css`의 `--side-a`(빨강) `--side-b`(파랑) `--side-n`(기타).
+- 화면에 넘길 때는 `localizeCampaign(전쟁, 언어)`(data.ts, CampaignScreen에서 호출)로 그 언어와 영어 위키백과 요약만 남긴다. 전투마다 8개 언어가 붙어 있어 그대로 넘기면 페이지가 2MB를 넘는다.

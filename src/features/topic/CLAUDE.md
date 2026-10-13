@@ -14,3 +14,4 @@
 - `ItemMarks.tsx`: 슬라이더 바로 위 항목 표식(span: 기간 막대를 최대 3줄로 쌓음, persist: 눈금). 중요도 5는 진하게, 지금 보이는 항목은 강조, 누르면 그 항목으로 이동. 자리 계산은 `logic.ts`의 `itemMarks`.
 - 상단 탭은 `topic-index.json`으로 자동 생성(`src/app/SiteHeader.tsx`).
 - 항목에 `link`가 있으면 패널 카드에 그 지도로 가는 버튼(`topic.linkLabel`)을 붙인다 — 전쟁 지도 첫 화면(/wars)이 이렇게 각 전쟁 지도로 보낸다.
+- 화면에 넘길 때는 `localizeTopic(주제, 언어)`(data.ts, TopicScreen에서 호출)로 그 언어와 대체 언어만 남긴다(`lib/localize`의 `keepLocales`).

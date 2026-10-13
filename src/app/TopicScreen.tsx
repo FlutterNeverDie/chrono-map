@@ -8,6 +8,7 @@ import {
   TopicProvider,
   type Topic,
 } from "@/features/topic";
+import { localizeTopic } from "@/features/topic/data";
 import { SiteHeader } from "./SiteHeader";
 
 /** 주제 지도 화면 (/maps/[id]) — 역병·발명 등, 그리고 전쟁 지도 첫 화면(/wars). 페이지가 고른 지도 하나만 클라이언트로 넘긴다 */
@@ -24,7 +25,7 @@ export function TopicScreen({
   const messages = getMessages(locale);
   return (
     <I18nProvider locale={locale} messages={messages}>
-      <TopicProvider topic={topic}>
+      <TopicProvider topic={localizeTopic(topic, locale)}>
         <div className="relative h-dvh w-full overflow-hidden bg-[var(--map-ocean)] [--bar-h:calc(5.75rem+env(safe-area-inset-bottom))]">
           <div className="absolute inset-x-0 top-0 bottom-[var(--bar-h)]">
             <TopicMap />

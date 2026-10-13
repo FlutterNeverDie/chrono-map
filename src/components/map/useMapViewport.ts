@@ -1,9 +1,17 @@
 "use client";
 
-import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
+import {
+  useCallback,
+  useEffect,
+  useLayoutEffect,
+  useMemo,
+  useRef,
+  useState,
+} from "react";
 import { geoGraticule10, geoMercator, geoPath } from "d3-geo";
 import { feature } from "topojson-client";
 import type { GeometryCollection, Topology } from "topojson-specification";
+import { useHydrated } from "./useHydrated";
 import world from "world-atlas/land-110m.json";
 
 /**
@@ -198,6 +206,8 @@ export function useMapViewport(initial: {
     return () => cancelAnimationFrame(frame);
   }, []);
 
+  const hydrated = useHydrated();
+
   // 지금 경도만큼 옮긴 자리에 지도 복사본을 놓는다(끝없이 이어지는 지도). 개수는 고정이라 끌 때 다시 만들지 않는다
   const shift = round1((-lon * MAP_WIDTH) / 360);
   const copyCount = Math.ceil(v.w / MAP_WIDTH / 2) + 1;
@@ -261,7 +271,8 @@ export function useMapViewport(initial: {
     svgProps,
     /** 지도 복사본을 놓을 가로 위치들 — 각각 `translate(x 0)`으로 그리고, key·id는 순번(index)으로 */
     copies,
-    landD: cachedPath(land),
-    graticuleD: cachedPath(graticule),
+    // 서버 HTML에는 넣지 않는다(useHydrated 참고)
+    landD: hydrated ? cachedPath(land) : "",
+    graticuleD: hydrated ? cachedPath(graticule) : "",
   };
 }

@@ -34,13 +34,21 @@ export function eventSummary(
   return { text: e.summary.ko ?? "", lang: "ko" };
 }
 
-/** 언어 하나만 남긴 텍스트 (요청 언어 → 영어 → 한국어 대체에 필요한 것만) */
-function only(text: LocalizedText, locale: Locale): LocalizedText {
-  const out: LocalizedText = {};
-  for (const l of [locale, "en", "ko"] as Locale[])
-    if (text[l]) out[l] = text[l];
+/**
+ * 언어별 값에서 그 언어와 대체용 언어만 남긴다 — 브라우저로 보내는 데이터를 줄일 때.
+ * 화면의 대체 순서와 같은 목록을 넘겨야 결과가 같다(pick: 영어 → 한국어, 위키백과 요약: 영어).
+ */
+export function keepLocales<T>(
+  values: Partial<Record<Locale, T>>,
+  locale: Locale,
+  fallbacks: Locale[] = ["en", "ko"],
+): Partial<Record<Locale, T>> {
+  const out: Partial<Record<Locale, T>> = {};
+  for (const l of [locale, ...fallbacks]) if (values[l]) out[l] = values[l];
   return out;
 }
+
+const only = (text: LocalizedText, locale: Locale) => keepLocales(text, locale);
 
 /**
  * 화면(브라우저)에 보낼 사건: 그 언어 설명과 대체용 영어만 남긴다.

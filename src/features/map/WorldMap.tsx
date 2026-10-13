@@ -23,6 +23,7 @@ import {
   normalizeLon,
 } from "./baseMap";
 import { useBorders, type PolityProps } from "./borders";
+import { useHydrated } from "@/components/map/useHydrated";
 
 const DEFAULT_LON = VIEWPOINT_BY_ID.get(DEFAULT_VIEWPOINT)!.lon;
 /** 이 픽셀보다 적게 움직이면 끌기가 아니라 탭으로 본다 */
@@ -339,8 +340,16 @@ export function WorldMap() {
     });
     return placed;
   }, [labeled, selectedPolity, project, unit, nameOf, polities.length]);
-  const landD = useMemo(() => path(landShape) ?? "", [path, landShape]);
-  const graticuleD = useMemo(() => path(graticule) ?? "", [path]);
+  // 해안선·경위선은 서버 HTML에 넣지 않는다(JS 번들에 같은 데이터가 있어 HTML만 수백 KB 커짐)
+  const hydrated = useHydrated();
+  const landD = useMemo(
+    () => (hydrated ? (path(landShape) ?? "") : ""),
+    [hydrated, path, landShape],
+  );
+  const graticuleD = useMemo(
+    () => (hydrated ? (path(graticule) ?? "") : ""),
+    [hydrated, path],
+  );
   const polityDs = useMemo(
     () => polities.map((p) => path(p) ?? ""),
     [path, polities],

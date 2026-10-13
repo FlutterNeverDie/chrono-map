@@ -9,6 +9,7 @@ import {
   TimeGauge,
   type Campaign,
 } from "@/features/campaign";
+import { localizeCampaign } from "@/features/campaign/data";
 import { SiteHeader } from "./SiteHeader";
 
 /** 전쟁 지도 화면 (/wars/[id]). 페이지가 고른 전쟁 하나만 클라이언트로 넘긴다 */
@@ -22,7 +23,7 @@ export function CampaignScreen({
   const messages = getMessages(locale);
   return (
     <I18nProvider locale={locale} messages={messages}>
-      <CampaignProvider campaign={campaign}>
+      <CampaignProvider campaign={localizeCampaign(campaign, locale)}>
         <div className="relative h-dvh w-full overflow-hidden bg-[var(--map-ocean)] [--bar-h:calc(5.75rem+env(safe-area-inset-bottom))]">
           <div className="absolute inset-x-0 top-0 bottom-[var(--bar-h)]">
             <CampaignMap />
