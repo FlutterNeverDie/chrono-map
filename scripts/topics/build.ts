@@ -33,7 +33,10 @@ writeFileSync(
         start: i.start,
         end: i.end,
         importance: i.importance,
-        titles: Object.fromEntries(Object.entries(i.wiki).map(([l, p]) => [l, (p as { title: string }).title])),
+        titles: {
+          ...Object.fromEntries(Object.entries(i.wiki).map(([l, p]) => [l, (p as { title: string }).title])),
+          ...i.title,
+        },
         wikipedia: i.wikipedia,
       })),
     })),

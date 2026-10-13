@@ -1,6 +1,12 @@
 "use client";
 
-import { createContext, useContext, useEffect, useState, type ReactNode } from "react";
+import {
+  createContext,
+  useContext,
+  useEffect,
+  useState,
+  type ReactNode,
+} from "react";
 import { createStore, useStore, type StoreApi } from "zustand";
 import { keyframes } from "./logic";
 import type { Topic } from "./types";

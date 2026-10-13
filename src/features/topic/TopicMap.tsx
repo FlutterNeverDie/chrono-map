@@ -51,6 +51,49 @@ export function TopicMap() {
   const unit = 1 / vp.zoom;
   const color = topic.color;
 
+  // 강조 항목 이름표 자리: 고른 항목 → 중요한 순으로 위·아래를 차례로 시도하고, 겹치면 이름을 뺀다
+  const labelY = useMemo(() => {
+    const s = unit * 1.2;
+    const out = new Map<string, number>();
+    const boxes: [number, number, number, number][] = [];
+    const strong = items
+      .filter((it) => highlighted.has(it.id) || it.id === selected)
+      .sort(
+        (a, b) =>
+          Number(b.id === selected) - Number(a.id === selected) ||
+          b.importance - a.importance,
+      );
+    for (const it of strong) {
+      const at = vp.project(it.coords);
+      if (!at) continue;
+      const r = 8;
+      const w =
+        [...itemTitle(it, locale)].reduce(
+          (sum, ch) => sum + (ch.codePointAt(0)! >= 0x2e80 ? 12 : 7),
+          0,
+        ) * s;
+      const h = 14 * s;
+      for (const y of [-r - 7, r + 17]) {
+        const top = at[1] + (y - 11) * s;
+        const box: [number, number, number, number] = [
+          at[0] - w / 2,
+          top,
+          at[0] + w / 2,
+          top + h,
+        ];
+        const hit = boxes.some(
+          (b) =>
+            box[0] < b[2] && box[2] > b[0] && box[1] < b[3] && box[3] > b[1],
+        );
+        if (hit && it.id !== selected) continue;
+        boxes.push(box);
+        out.set(it.id, y);
+        break;
+      }
+    }
+    return out;
+  }, [items, highlighted, selected, unit, vp, locale]);
+
   return (
     <svg
       {...vp.svgProps((target) => {
@@ -68,10 +111,7 @@ export function TopicMap() {
         fill="var(--map-ocean)"
       />
       {vp.copies.map((offset, copy) => (
-        <g
-          key={copy}
-          transform={`translate(${offset} 0)`}
-        >
+        <g key={copy} transform={`translate(${offset} 0)`}>
           <path
             d={vp.graticuleD}
             fill="none"
@@ -178,9 +218,9 @@ export function TopicMap() {
                   stroke={it.id === selected ? "var(--foreground)" : "none"}
                   strokeWidth={2}
                 />
-                {strong && (
+                {strong && labelY.has(it.id) && (
                   <text
-                    y={-r - 7}
+                    y={labelY.get(it.id)}
                     textAnchor="middle"
                     fontSize={12}
                     fontWeight={700}

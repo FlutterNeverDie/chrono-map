@@ -20,6 +20,8 @@ export function localizeTopic(t: Topic, locale: Locale): Topic {
     items: t.items.map((i) => ({
       ...i,
       wiki: keepLocales(i.wiki, locale, ["en"]),
+      title: i.title && keepLocales(i.title, locale, ["en"]),
+      summary: i.summary && keepLocales(i.summary, locale, []),
     })),
   };
 }

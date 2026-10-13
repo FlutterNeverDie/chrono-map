@@ -81,6 +81,9 @@ export type ItemSource = {
   coords: [number, number];
   spread: SpreadPoint[];
   importance: number;
+  /** 직접 쓴 제목·설명 — 그 언어 위키백과 문서가 없을 때 쓴다 */
+  title: Partial<Record<Locale, string>>;
+  summary: Partial<Record<Locale, string>>;
 };
 
 export function readItems(id: string): ItemSource[] {
@@ -111,6 +114,10 @@ export function readItems(id: string): ItemSource[] {
         return { t: toMonth(m![1]), coords: pair(m![2]) };
       })
       .sort((x, y) => x.t - y.t);
+    const localized = (prefix: string) =>
+      Object.fromEntries(
+        LOCALES.filter((l) => get(`${prefix}.${l}`)).map((l) => [l, get(`${prefix}.${l}`)!]),
+      );
     const start = toMonth(a, "start");
     out.push({
       id: item,
@@ -121,6 +128,8 @@ export function readItems(id: string): ItemSource[] {
       coords: pair(get("coords") ?? fail("coords 필요")!),
       spread,
       importance: Number(get("importance") ?? 3),
+      title: localized("title"),
+      summary: localized("summary"),
     });
   }
   return out.sort((x, y) => x.start - y.start);

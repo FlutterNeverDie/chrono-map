@@ -87,6 +87,8 @@ export function formatPeriod(p: Period, locale: Locale): string {
         return `século ${roman(n)} a.C.`;
     }
   }
+  // 서기 1~9년(0년은 없음)은 "0년대"가 어색하므로 연도 범위로 쓴다: "1–9년", "1–9"
+  if (p.start === 1) return formatPeriodRange(p, locale);
   const d = Math.floor(p.start / 10) * 10;
   switch (locale) {
     case "ko":

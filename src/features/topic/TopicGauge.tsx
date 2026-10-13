@@ -126,9 +126,7 @@ export function TopicGauge() {
                 i === 0 && "translate-x-0",
                 i === scale.marks.length - 1 && "-translate-x-full",
                 // 좁은 화면은 처음·끝만 (오래전 연도 글자가 길어 겹침)
-                i !== 0 &&
-                  i !== scale.marks.length - 1 &&
-                  "hidden sm:block",
+                i !== 0 && i !== scale.marks.length - 1 && "hidden sm:block",
               )}
               style={{ left: `${(m.pos / MAX_POS) * 100}%` }}
             >

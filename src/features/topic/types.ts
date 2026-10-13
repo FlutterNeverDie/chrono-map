@@ -18,6 +18,9 @@ export type TopicItem = {
   spread: SpreadPoint[];
   importance: number;
   wiki: Partial<Record<Locale, WikiPage>>;
+  /** (선택) 직접 쓴 제목·설명 — 그 언어 위키백과 문서가 없을 때(items.txt의 title.<언어>, summary.<언어>) */
+  title?: Partial<Record<Locale, string>>;
+  summary?: Partial<Record<Locale, string>>;
   /** (선택) 더 자세한 지도로 가는 경로(언어 접두어 없이, 예: "wars/imjin-war") */
   link?: string;
 };
