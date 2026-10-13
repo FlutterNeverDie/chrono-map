@@ -7,7 +7,8 @@
 import { readdirSync, rmSync, statSync } from "node:fs";
 import { join } from "node:path";
 
-const KEEP = new Set(["robots.txt"]);
+// 사이트 루트의 진짜 텍스트 파일은 남긴다
+const KEEP = new Set(["robots.txt", "ads.txt"]);
 let count = 0;
 let bytes = 0;
 function walk(dir) {

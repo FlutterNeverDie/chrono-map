@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import { AdSlot } from "@/features/ads";
 import { DEFAULT_LOCALE } from "@/i18n/locales";
 import {
   PageShell,
@@ -24,7 +25,11 @@ export default async function YearPage({ params }: PageProps<"/year/[slug]">) {
   if (!yearPage(slug)) notFound();
   return (
     <PageShell locale={DEFAULT_LOCALE}>
-      <YearDetail locale={DEFAULT_LOCALE} slug={slug} />
+      <YearDetail
+        locale={DEFAULT_LOCALE}
+        slug={slug}
+        ad={<AdSlot name="article" className="mt-10" />}
+      />
     </PageShell>
   );
 }

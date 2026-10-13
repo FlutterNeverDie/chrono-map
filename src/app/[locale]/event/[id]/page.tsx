@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import { AdSlot } from "@/features/ads";
 import { EVENTS } from "@/data/content";
 import { isLocale } from "@/i18n/locales";
 import {
@@ -27,7 +28,11 @@ export default async function EventPage({
   if (!isLocale(locale) || !findEvent(id)) notFound();
   return (
     <PageShell locale={locale}>
-      <EventDetail locale={locale} id={id} />
+      <EventDetail
+        locale={locale}
+        id={id}
+        ad={<AdSlot name="article" className="mt-10" />}
+      />
     </PageShell>
   );
 }

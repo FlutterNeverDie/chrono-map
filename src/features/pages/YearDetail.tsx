@@ -1,3 +1,4 @@
+import type { ReactNode } from "react";
 import type { HistoryEvent, Locale } from "@/lib/types";
 import { fill, getMessages } from "@/i18n";
 import { localeHref } from "@/i18n/locales";
@@ -14,7 +15,16 @@ import { reportIssueUrl } from "@/data/links";
 import { periodSlug, yearPage } from "./years";
 
 /** 연도 페이지 (/year/[slug]). 그 기간에 시작한 사건 + 이어지는 일 + 다른 지도 + 앞뒤 기간 */
-export function YearDetail({ locale, slug }: { locale: Locale; slug: string }) {
+export function YearDetail({
+  locale,
+  slug,
+  ad,
+}: {
+  locale: Locale;
+  slug: string;
+  /** 사건 목록 아래 광고 자리(app이 AdSlot을 넣는다) */
+  ad?: ReactNode;
+}) {
   const data = yearPage(slug);
   if (!data) return null;
   const { period, events, ongoing, nearby, maps, prev, next } = data;
@@ -78,6 +88,7 @@ export function YearDetail({ locale, slug }: { locale: Locale; slug: string }) {
         })}
       </ol>
       <p className="mt-4 text-sm text-muted">{t.note}</p>
+      {ad}
 
       <EventChips locale={locale} title={t.ongoing} events={ongoing} />
       <EventChips locale={locale} title={t.nearby} events={nearby} />

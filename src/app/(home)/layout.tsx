@@ -18,6 +18,8 @@ export const metadata: Metadata = {
     images: ogImage(DEFAULT_LOCALE, "og.png"),
   },
   twitter: { card: "summary_large_image" },
+  // Google Search Console 소유 확인(배포 때 NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION)
+  verification: { google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION },
   // 아이콘: app/icon.svg(자동) + iOS 홈 화면용 PNG
   icons: { icon: "/icon.svg", apple: "/apple-touch-icon.png" },
 };

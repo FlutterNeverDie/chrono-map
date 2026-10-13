@@ -12,4 +12,5 @@
 - [docs/rules/code-style.md](docs/rules/code-style.md) — 코드·디자인·글자 크기 (화면을 고칠 때)
 - [docs/rules/data-pipeline.md](docs/rules/data-pipeline.md) — 데이터 흐름·명령어 (content·scripts를 고칠 때)
 - [docs/rules/git.md](docs/rules/git.md) — 커밋 규칙
+- [docs/launch.md](docs/launch.md) — 배포·도메인·Search Console·AdSense 연결 순서와 환경변수
 - 폴더마다 `CLAUDE.md`가 그 모듈의 세부 규칙이다.

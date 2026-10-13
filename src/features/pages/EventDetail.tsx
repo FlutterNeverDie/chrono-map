@@ -1,3 +1,4 @@
+import type { ReactNode } from "react";
 import type { Locale } from "@/lib/types";
 import { fill, getMessages } from "@/i18n";
 import { localeHref } from "@/i18n/locales";
@@ -15,7 +16,16 @@ export function findEvent(id: string) {
 }
 
 /** 사건 상세 페이지 (/event/[id]). 위키백과 첫 문단 + 출처 + 지도로 돌아가는 링크 */
-export function EventDetail({ locale, id }: { locale: Locale; id: string }) {
+export function EventDetail({
+  locale,
+  id,
+  ad,
+}: {
+  locale: Locale;
+  id: string;
+  /** 본문 아래 광고 자리(app이 features/ads의 AdSlot을 넣는다 — features끼리는 서로 import하지 않음) */
+  ad?: ReactNode;
+}) {
   const e = findEvent(id);
   if (!e) return null;
   const messages = getMessages(locale);
@@ -101,6 +111,7 @@ export function EventDetail({ locale, id }: { locale: Locale; id: string }) {
           ))}
         </ul>
       )}
+      {ad}
       <a
         href={reportIssueUrl(
           eventTitle(e, locale),

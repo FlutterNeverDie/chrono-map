@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import Script from "next/script";
 import type { Locale } from "@/lib/types";
 import { LOCALE_INFO } from "@/i18n/locales";
+import { AdsScript } from "@/features/ads";
 import "./globals.css";
 
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
@@ -34,6 +35,7 @@ export function RootDocument({
     >
       <body className="min-h-full">
         {children}
+        <AdsScript />
         <Script id="theme-init" strategy="beforeInteractive">
           {themeScript}
         </Script>

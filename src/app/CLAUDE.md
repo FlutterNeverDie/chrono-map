@@ -17,3 +17,5 @@
 - 본 지도 사건은 `HomeScreen`(서버)이 `localizeEvent`로 그 언어 부분만 골라 `EventsProvider`(store/events)로 넘긴다. 클라이언트 코드에서 `data/content.ts`를 import하지 않는다(8개 언어 전체가 번들에 들어감).
 - `metadataBase`(site.ts의 SITE_URL)는 두 레이아웃에 있다 — canonical·hreflang·OG 이미지의 상대 주소가 절대 주소가 된다. 레이아웃의 `openGraph.images`(첫 화면 이미지)는 openGraph를 따로 정한 페이지(연도·사건)에서는 덮어써지므로 그 페이지가 이미지를 직접 넣는다.
 - 빌드 후 `scripts/prune-out.mjs`(postbuild)가 out/의 RSC 페이로드(*.txt, 약 390MB)를 지운다. 모든 이동이 `<a>`라 쓰이지 않기 때문. **next/link·router를 쓰기 시작하면 이 단계를 없앨 것.**
+- 사이트 전체 404는 `global-not-found.tsx`(next.config `experimental.globalNotFound`, 루트 레이아웃이 둘이라). 개발 서버에서는 모르는 주소가 `[locale]`로 잡혀 오류가 나지만 정적 빌드에서는 404.html이 나간다.
+- 아이콘: `icon.svg`(앱 루트) + `(home)/apple-touch-icon.png/route.tsx`. 레이아웃의 `icons`에 둘 다 적는다(metadata icons를 쓰면 자동 아이콘 링크가 빠짐).
