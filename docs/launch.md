@@ -32,6 +32,7 @@
    - `wrangler.jsonc`가 없으면 wrangler가 Next.js를 알아보고 서버용 변환(OpenNext)을 붙이려다 실패한다 — 지우지 않는다.
    - Node 버전은 `.node-version`(22). 빌드는 약 5분(무료 제한 20분). 캐시 헤더는 `public/_headers`, 404는 `out/404.html`.
    - 주소는 `https://chrono-map.<계정 하위 도메인>.workers.dev`. 도메인 연결 전까지 `NEXT_PUBLIC_SITE_URL`에 이 주소를 넣는다.
+   - **직접 배포**(GitHub 자동 배포가 안 돌 때): `npx wrangler login`(한 번) → `npm run build` → `npx wrangler deploy`. 바뀐 파일만 올라간다.
 2. **도메인**: Cloudflare Registrar에서 구입(원가, .com 연 10달러 안팎) → 프로젝트 → Settings → Domains & Routes에 연결 → `NEXT_PUBLIC_SITE_URL` 지정 후 다시 배포. (`*.workers.dev`·`*.pages.dev`는 AdSense 승인이 안 된다.)
 3. **Search Console**: 도메인 속성 추가 → 소유 확인(DNS 또는 `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION`) → `sitemap.xml` 제출.
 4. **AdSense 신청**: 사이트 추가 → `NEXT_PUBLIC_ADSENSE_CLIENT` 지정·재배포 → `/ads.txt` 확인 → 심사 요청(1~4주).
