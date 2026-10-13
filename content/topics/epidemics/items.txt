@@ -6,6 +6,8 @@ wikipedia: Plague of Athens
 when: -430 ~ -426
 coords: 23.73, 37.98
 importance: 4
+summary.hi: एथेंस का प्लेग 430 ईसा पूर्व में पेलोपोनेसियाई युद्ध के दूसरे वर्ष प्राचीन यूनान के नगर-राज्य एथेंस में फैली एक विनाशकारी महामारी थी। माना जाता है कि यह बंदरगाह पिरेयस के रास्ते शहर में पहुँची और इसने लगभग एक चौथाई आबादी की जान ले ली। इससे बचे इतिहासकार थ्यूसीडाइड्स ने इसका विवरण लिखा।
+title.hi: एथेंस का प्लेग
 
 @ antonine-plague
 wikipedia: Antonine Plague
@@ -13,6 +15,8 @@ when: 165 ~ 180
 coords: 44.52, 33.1
 spread: 166 12.48, 41.89 | 168 16.86, 48.11
 importance: 4
+summary.hi: एंटोनाइन प्लेग, जिसे गैलेन का प्लेग भी कहा जाता है, 165 से 180 ईस्वी तक रोमन साम्राज्य में फैली एक लंबी और विनाशकारी महामारी थी। माना जाता है कि निकट पूर्व के सैन्य अभियान से लौटे सैनिक इसे अपने साथ लाए और साम्राज्य में फैलाया।
+title.hi: एंटोनाइन प्लेग
 
 @ plague-of-cyprian
 wikipedia: Plague of Cyprian
@@ -20,6 +24,8 @@ when: 249 ~ 262
 coords: 29.92, 31.2
 spread: 250 12.48, 41.89 | 251 10.32, 36.85
 importance: 3
+summary.hi: साइप्रियन का प्लेग लगभग 249 से 262 ईस्वी तक रोमन साम्राज्य में फैली महामारी थी, जिसने तीसरी शताब्दी के संकट के दौरान खेती और सेना के लिए जनशक्ति की भारी कमी पैदा की। इसका नाम कार्थेज के बिशप साइप्रियन पर पड़ा, जिन्होंने इसका वर्णन किया। इसका रोगाणु अब तक पहचाना नहीं जा सका है।
+title.hi: साइप्रियन का प्लेग
 
 @ plague-of-justinian
 wikipedia: Plague of Justinian
@@ -27,6 +33,8 @@ when: 541 ~ 549
 coords: 32.55, 31.04
 spread: 541 29.92, 31.2 | 542-04 28.98, 41.01 | 543 12.48, 41.89 | 543 4.83, 45.76 | 544 -3.7, 40.42
 importance: 5
+summary.hi: जस्टिनियन का प्लेग 541 ईस्वी से भूमध्यसागरीय क्षेत्र, यूरोप और निकट पूर्व में फैली प्लेग महामारी थी, जिसने बाइज़ेंटाइन और सासानी साम्राज्यों को विशेष रूप से प्रभावित किया। इसका नाम सम्राट जस्टिनियन प्रथम पर पड़ा, जो स्वयं संक्रमित होकर ठीक हुए थे। चरम पर इसने राजधानी कॉन्स्टेंटिनोपल की लगभग पाँचवें हिस्से की आबादी की जान ली।
+title.hi: जस्टिनियन का प्लेग
 
 @ black-death
 wikipedia: Black Death
@@ -40,12 +48,18 @@ wikipedia: Cocoliztli epidemics
 when: 1545 ~ 1548
 coords: -99.13, 19.43
 importance: 3
+summary.hi: कोकोलिज़्त्ली महामारी 16वीं शताब्दी में न्यू स्पेन (वर्तमान मेक्सिको) में फैली एक रहस्यमय बीमारी थी, जिसमें तेज़ बुखार और रक्तस्राव होता था। इससे 50 लाख से 1.5 करोड़ लोगों की मृत्यु हुई और कई मूलनिवासी समुदायों की आबादी ढह गई। नाहुआत्ल भाषा में कोकोलिज़्त्ली का अर्थ है महामारी।
+summary.pt: A epidemia de cocoliztli foi o surto de uma doença misteriosa, marcada por febre alta e sangramentos, que atingiu a Nova Espanha no século XVI. Causou entre 5 e 15 milhões de mortes e devastou o planalto mexicano, levando ao colapso demográfico de vários povos indígenas. Em náuatle, cocoliztli significa pestilência.
+title.hi: कोकोलिज़्त्ली महामारी
+title.pt: Epidemia de cocoliztli
 
 @ great-plague-of-london
 wikipedia: Great Plague of London
 when: 1665 ~ 1666
 coords: -0.13, 51.5
 importance: 3
+summary.hi: लंदन का महाप्लेग 1665–1666 में फैला और यह इंग्लैंड में ब्यूबोनिक प्लेग की अंतिम बड़ी महामारी थी। यह 1331 में मध्य एशिया से शुरू हुई दूसरी प्लेग महामारी के लंबे दौर का हिस्सा था, जो रुक-रुककर 1750 तक चलता रहा।
+title.hi: लंदन का महाप्लेग
 
 @ first-cholera-pandemic
 wikipedia: 1817–1824 cholera pandemic
@@ -53,6 +67,12 @@ when: 1817 ~ 1824
 coords: 88.36, 22.57
 spread: 1819 79.86, 6.93 | 1820 100.5, 13.75 | 1821 106.85, -6.21 | 1821 58.38, 23.59 | 1821 47.78, 30.5 | 1822 129.87, 32.75 | 1823 48.03, 46.35
 importance: 4
+summary.fr: La première pandémie de choléra, dite aussi choléra asiatique, partit des environs de Calcutta et gagna l'Asie du Sud et du Sud-Est, le Moyen-Orient, l'Afrique de l'Est et les rives de la Méditerranée. Elle fit des millions de morts, dont environ 10 000 soldats au service britannique, ce qui attira l'attention de l'Europe.
+summary.hi: पहली हैजा महामारी, जिसे एशियाई हैजा भी कहा जाता है, कलकत्ता के पास शुरू हुई और दक्षिण व दक्षिण-पूर्व एशिया से होते हुए मध्य पूर्व, पूर्वी अफ्रीका और भूमध्यसागरीय तट तक फैल गई। इसमें लाखों लोग मारे गए, जिनमें ब्रिटिश सेवा के लगभग 10,000 सैनिक भी थे, और इसने यूरोप का ध्यान इस रोग की ओर खींचा।
+summary.pt: A primeira pandemia de cólera, também chamada de cólera asiática, começou perto de Calcutá e se espalhou pelo Sul e Sudeste Asiático até o Oriente Médio, a África Oriental e o litoral do Mediterrâneo. Milhões de pessoas morreram, entre elas cerca de 10 mil soldados a serviço britânico, o que despertou a atenção da Europa.
+title.fr: Première pandémie de choléra (1817-1824)
+title.hi: पहली हैजा महामारी (1817–1824)
+title.pt: Primeira pandemia de cólera (1817–1824)
 
 @ third-plague-pandemic
 wikipedia: Third plague pandemic
@@ -60,6 +80,10 @@ when: 1855 ~ 1960
 coords: 102.71, 25.04
 spread: 1894-05 114.17, 22.32 | 1896-09 72.88, 19.08 | 1899 29.92, 31.2 | 1900-03 -122.42, 37.77 | 1900 151.21, -33.87 | 1910 126.65, 45.75
 importance: 4
+summary.hi: तीसरी प्लेग महामारी 1855 में चीन के युन्नान प्रांत से शुरू हुई और सभी आबाद महाद्वीपों तक फैल गई। इसमें दुनिया भर में कम से कम 1.5 करोड़ लोग मारे गए, जिनमें से 1 से 1.2 करोड़ मौतें ब्रिटिश भारत में और 22 लाख चीन में हुईं।
+summary.pt: A terceira pandemia de peste começou em Yunnan, na China, em 1855, e se espalhou por todos os continentes habitados. Causada pela bactéria Yersinia pestis, provocou pelo menos 15 milhões de mortes, das quais 10 a 12 milhões na Índia britânica e 2,2 milhões na China.
+title.hi: तीसरी प्लेग महामारी
+title.pt: Terceira pandemia de peste
 
 @ russian-flu
 wikipedia: 1889–1890 pandemic
@@ -67,6 +91,10 @@ when: 1889-10 ~ 1890-12
 coords: 30.31, 59.94
 spread: 1889-12 2.35, 48.86 | 1889-12 -0.13, 51.5 | 1890-01 -73.94, 40.67
 importance: 3
+summary.hi: 1889–1890 की महामारी, जिसे एशियाई फ़्लू या रूसी फ़्लू भी कहा जाता है, एक विश्वव्यापी श्वसन वायरस महामारी थी। यह 19वीं सदी की अंतिम बड़ी महामारी थी, जिसमें लगभग 1.5 अरब की विश्व आबादी में से करीब 10 लाख लोग मारे गए। इसके बाद 1895 तक इसके कई दौर लौटते रहे।
+summary.ko: 러시아 독감 또는 아시아 독감으로 불리는 1889~1890년 범유행은 전 세계로 퍼진 호흡기 바이러스 유행이다. 19세기의 마지막 대유행으로, 당시 세계 인구 약 15억 명 가운데 약 100만 명이 사망했다. 이후에도 1895년 무렵까지 여러 차례 재유행했다.
+title.hi: रूसी फ़्लू (1889–1890)
+title.ko: 러시아 독감
 
 @ spanish-flu
 wikipedia: Spanish flu
@@ -81,6 +109,8 @@ when: 1957-02 ~ 1958-12
 coords: 106.71, 26.58
 spread: 1957-04 114.17, 22.32 | 1957-05 103.82, 1.35 | 1957-06 -122.42, 37.77 | 1957-09 -0.13, 51.5
 importance: 3
+summary.hi: 1957–1958 का एशियाई फ़्लू इन्फ़्लुएंज़ा A वायरस के H2N2 उपप्रकार से फैली वैश्विक महामारी थी, जो दक्षिणी चीन के गुइझोउ से शुरू हुई। इसमें दुनिया भर में अनुमानतः 10 से 40 लाख अतिरिक्त मौतें हुईं। एक दशक बाद इससे विकसित H3N2 स्ट्रेन ने हांगकांग फ़्लू महामारी को जन्म दिया।
+title.hi: एशियाई फ़्लू
 
 @ hong-kong-flu
 wikipedia: Hong Kong flu
@@ -88,6 +118,8 @@ when: 1968-07 ~ 1969-12
 coords: 114.17, 22.32
 spread: 1968-09 -117.16, 32.72 | 1968-12 2.35, 48.86 | 1969-01 139.69, 35.69
 importance: 3
+summary.hi: हांगकांग फ़्लू, जिसे 1968 की फ़्लू महामारी भी कहा जाता है, 1968 से 1970 तक चली इन्फ़्लुएंज़ा महामारी थी, जिसमें दुनिया भर में 10 से 40 लाख लोग मारे गए। यह इन्फ़्लुएंज़ा A वायरस के H3N2 स्ट्रेन से फैली, जो एंटीजेनिक शिफ़्ट के ज़रिए H2N2 से विकसित हुआ था।
+title.hi: हांगकांग फ़्लू
 
 @ hiv-aids
 wikipedia: HIV/AIDS
@@ -102,6 +134,8 @@ when: 2002-11 ~ 2004-05
 coords: 113.26, 23.13
 spread: 2003-02 114.17, 22.32 | 2003-03 105.85, 21.03 | 2003-03 103.82, 1.35 | 2003-03 -79.38, 43.65 | 2003-04 121.56, 25.03
 importance: 4
+summary.hi: 2002–2004 का सार्स प्रकोप सीवियर एक्यूट रेस्पिरेटरी सिंड्रोम कोरोनावायरस के कारण फैला, जिसकी शुरुआत दक्षिणी चीन से हुई। इसने 30 देशों और क्षेत्रों में 8,000 से अधिक लोगों को संक्रमित किया और दुनिया भर में कम से कम 774 लोगों की जान ली।
+title.hi: सार्स प्रकोप (2002–2004)
 
 @ swine-flu
 wikipedia: 2009 swine flu pandemic
@@ -109,6 +143,8 @@ when: 2009-03 ~ 2010-08
 coords: -97.3, 19.3
 spread: 2009-04 -99.13, 19.43 | 2009-04 -117.16, 32.72 | 2009-05 139.69, 35.69 | 2009-05 126.98, 37.57 | 2009-06 -0.13, 51.5
 importance: 4
+summary.hi: H1N1 इन्फ़्लुएंज़ा वायरस से फैली 2009 की स्वाइन फ़्लू महामारी को विश्व स्वास्थ्य संगठन ने जून 2009 से अगस्त 2010 तक महामारी घोषित रखा। पहला पहचाना गया मानव मामला मेक्सिको के वेराक्रूज़ राज्य के ला ग्लोरिया गाँव में मिला। यह वायरस पक्षी, सूअर और मानव फ़्लू वायरसों के मिश्रण से बना एक नया स्ट्रेन था।
+title.hi: 2009 की स्वाइन फ़्लू महामारी
 
 @ mers
 wikipedia: Middle East respiratory syndrome
@@ -116,6 +152,8 @@ when: 2012-06 ~ 2015-12
 coords: 39.17, 21.54
 spread: 2014-04 54.37, 24.45 | 2015-05 127.1, 37.0
 importance: 3
+summary.hi: मध्य पूर्व श्वसन सिंड्रोम (MERS) MERS-कोरोनावायरस से होने वाला वायरल श्वसन संक्रमण है, जिसकी पहचान 2012 में सऊदी अरब में हुई। इसके आम लक्षणों में बुखार, खाँसी, दस्त और साँस फूलना शामिल हैं, और पहले से बीमार लोगों में यह अधिक गंभीर होता है। 2015 में दक्षिण कोरिया में इसका बड़ा प्रकोप हुआ।
+title.hi: मध्य पूर्व श्वसन सिंड्रोम (मर्स)
 
 @ west-africa-ebola
 wikipedia: Western African Ebola virus epidemic
@@ -137,6 +175,10 @@ when: 638 ~ 639
 coords: 34.99, 31.84
 spread: 639 36.29, 33.51
 importance: 3
+summary.hi: अमवास का प्लेग 638–639 ईस्वी में इस्लामी शासन वाले सीरिया में फैली ब्यूबोनिक प्लेग की महामारी थी, जो संभवतः जस्टिनियन के प्लेग का पुनः उभार था। इसका नाम फ़िलिस्तीन के अमवास पर पड़ा, जो अरब मुस्लिम सेना का मुख्य शिविर था। इसमें 25,000 तक सैनिक और उनके परिजन मारे गए, जिनमें सेना के अधिकांश शीर्ष कमांडर भी थे।
+summary.zh: 阿姆瓦斯瘟疫是638年至639年间在伊斯兰治下的叙利亚暴发的腺鼠疫，发生于穆斯林征服该地区的尾声，可能是查士丁尼瘟疫的再度出现。瘟疫以阿拉伯穆斯林军队的主营地阿姆瓦斯命名，造成多达2.5万名士兵及其家属死亡，军队高层大多丧生。
+title.hi: अमवास का प्लेग
+title.zh: 阿姆瓦斯瘟疫
 
 @ japanese-smallpox-735
 wikipedia: 735–737 Japanese smallpox epidemic
@@ -144,6 +186,8 @@ when: 735 ~ 737
 coords: 130.52, 33.51
 spread: 737 135.8, 34.69
 importance: 3
+summary.hi: 735 से 737 ईस्वी के बीच जापान के बड़े हिस्से में चेचक की महामारी फैली, जिसने देश की लगभग एक तिहाई आबादी की जान ले ली। इस आपदा के पूरे जापान में गहरे सामाजिक, आर्थिक और धार्मिक परिणाम हुए।
+title.hi: जापान की चेचक महामारी (735–737)
 
 @ sweating-sickness
 wikipedia: Sweating sickness
@@ -151,6 +195,8 @@ when: 1485 ~ 1551
 coords: -0.13, 51.51
 spread: 1528 13.4, 52.52 | 1529 4.9, 52.37
 importance: 3
+summary.ko: 발한병은 1485년부터 잉글랜드와 이후 유럽 대륙에서 여러 차례 유행한 원인 불명의 전염병이다. 1508년, 1517년, 1528년에 큰 유행이 이어졌고 1551년을 마지막으로 자취를 감췄다. 증상이 갑자기 나타나 8~10시간 안에 사망하거나 회복하는 경우가 많았다.
+title.ko: 발한병
 
 @ mexico-smallpox-1520
 wikipedia: History of smallpox in Mexico
@@ -158,6 +204,14 @@ when: 1520 ~ 1521
 coords: -96.13, 19.18
 spread: 1520 -99.13, 19.43
 importance: 4
+summary.ar: جلب الغزاة الإسبان مرض الجدري إلى ما يُعرف اليوم بالمكسيك، فانتشر إلى وسط البلاد وكان عاملًا مهمًا في سقوط تينوتشتيتلان عاصمة الأزتيك. وتكررت تفشياته الكبرى خلال الحقبة الاستعمارية، إلى أن أُعلن القضاء عليه رسميًا في المكسيك عام 1951.
+summary.fr: Apportée par les conquistadors espagnols, la variole se propagea jusqu'au centre du Mexique et joua un rôle majeur dans la chute de Tenochtitlan. De grandes épidémies frappèrent ensuite la Nouvelle-Espagne à l'époque coloniale, jusqu'à l'éradication officielle de la maladie au Mexique en 1951.
+summary.hi: चेचक को स्पेनी विजेताओं ने वर्तमान मेक्सिको में पहुँचाया, जहाँ से यह मध्य मेक्सिको में फैली और तेनोच्तित्लान के पतन का एक बड़ा कारण बनी। औपनिवेशिक काल में भी इसके कई बड़े प्रकोप हुए, और अंततः 1951 में मेक्सिको गणराज्य में इसका आधिकारिक उन्मूलन हुआ।
+summary.pt: Trazida pelos conquistadores espanhóis, a varíola se espalhou até o centro do México e foi um fator importante na queda de Tenochtitlán. Durante o período colonial, novos surtos atingiram a Nova Espanha, até a erradicação oficial da doença no México em 1951.
+title.ar: وباء الجدري في المكسيك
+title.fr: Épidémie de variole au Mexique
+title.hi: मेक्सिको की चेचक महामारी
+title.pt: Epidemia de varíola no México
 
 @ italian-plague-1629
 wikipedia: Italian plague of 1629–1631
@@ -165,6 +219,10 @@ when: 1629 ~ 1631
 coords: 9.19, 45.46
 spread: 1630 11.25, 43.77 | 1630 12.32, 45.44
 importance: 3
+summary.hi: 1629–1631 का इटली का प्लेग, जिसे मिलान का महाप्लेग भी कहा जाता है, ब्लैक डेथ से शुरू हुई दूसरी प्लेग महामारी का हिस्सा था और इसने उत्तरी व मध्य इटली को प्रभावित किया। इसमें कम से कम 2,80,000 लोग मारे गए, और कुछ अनुमानों के अनुसार मृतकों की संख्या दस लाख तक थी।
+summary.ko: 밀라노 대역병으로도 불리며, 흑사병에서 시작된 2차 페스트 범유행의 일부로 이탈리아 북부와 중부를 휩쓸었다. 최소 28만 명이 사망했고 인구의 약 35%인 100만 명에 이르렀다는 추정도 있다. 이탈리아 경제가 다른 서유럽 국가에 비해 쇠퇴하는 데 영향을 주었을 것으로 본다.
+title.hi: इटली का प्लेग (1629–1631)
+title.ko: 1629~1631년 이탈리아 페스트
 
 @ great-plague-of-seville
 wikipedia: Great Plague of Seville
@@ -172,12 +230,28 @@ when: 1647 ~ 1652
 coords: -0.38, 39.47
 spread: 1649 -5.98, 37.39
 importance: 2
+summary.fr: La grande peste de Séville est une vaste épidémie qui frappa l'Espagne de 1647 à 1652. Elle emporta jusqu'à un quart de la population de Séville, grande ville d'Andalousie durement éprouvée par ce fléau.
+summary.hi: सेविल का महाप्लेग 1647 से 1652 तक स्पेन में फैली एक बड़ी महामारी थी। इसने दक्षिणी स्पेन के प्रमुख नगर सेविल की लगभग एक चौथाई तक आबादी की जान ले ली और शहर को गहरा आघात पहुँचाया।
+summary.ko: 세비야 대역병은 1647년부터 1652년까지 스페인에서 일어난 대규모 전염병 유행이다. 안달루시아의 중심 도시 세비야는 이 역병으로 인구의 최대 4분의 1을 잃었다.
+summary.zh: 塞维利亚大瘟疫是1647年至1652年间在西班牙暴发的大规模疫病。安达卢西亚重镇塞维利亚因此遭受沉重打击，多达四分之一的城市人口丧生。
+title.fr: Grande peste de Séville
+title.hi: सेविल का महाप्लेग
+title.ko: 세비야 대역병
+title.zh: 塞维利亚大瘟疫
 
 @ great-plague-of-vienna
 wikipedia: Great Plague of Vienna
 when: 1679 ~ 1679
 coords: 16.37, 48.21
 importance: 2
+summary.ar: اجتاح طاعون فيينا العظيم عام 1679 مدينة فيينا النمساوية، مقر حكام آل هابسبورغ. ويُعتقد من الأوصاف المعاصرة أنه كان طاعونًا دمليًا تسببه بكتيريا اليرسينية الطاعونية التي تنقلها براغيث الفئران. وتكرر الوباء بشكل متقطع حتى مطلع ثمانينيات القرن السابع عشر، وأودى بحياة نحو 76 ألف نسمة وفق التقديرات.
+summary.hi: वियना का महाप्लेग 1679 में ऑस्ट्रियाई हैब्सबर्ग शासकों की राजधानी वियना में फैला। समकालीन विवरणों के आधार पर इसे चूहों के पिस्सुओं से फैलने वाला ब्यूबोनिक प्लेग माना जाता है। 1680 के दशक की शुरुआत तक रुक-रुककर लौटती इस महामारी में अनुमानित 76,000 निवासियों की मृत्यु हुई।
+summary.ko: 빈 대역병은 1679년 합스부르크 왕가의 황궁이 있던 오스트리아 빈에서 일어난 전염병 유행이다. 당시 기록으로 보아 쥐벼룩이 옮기는 페스트균에 의한 선페스트로 여겨진다. 1680년대 초까지 간헐적으로 재발하며 약 7만 6천 명의 주민이 목숨을 잃은 것으로 추정된다.
+summary.zh: 维也纳大瘟疫于1679年暴发于哈布斯堡王朝皇室驻地奥地利维也纳。根据当时的记载，该病被认为是由鼠蚤传播鼠疫杆菌引起的腺鼠疫。疫情时断时续延至1680年代初，估计造成约7.6万名居民死亡。
+title.ar: طاعون فيينا العظيم
+title.hi: वियना का महाप्लेग
+title.ko: 빈 대역병
+title.zh: 维也纳大瘟疫
 
 @ great-plague-of-marseille
 wikipedia: Great Plague of Marseille
@@ -185,6 +259,8 @@ when: 1720 ~ 1722
 coords: 5.37, 43.3
 spread: 1721 4.36, 43.84
 importance: 3
+summary.hi: मार्सेय का महाप्लेग, जिसे प्रोवेंस का प्लेग भी कहते हैं, पश्चिमी यूरोप में ब्यूबोनिक प्लेग का अंतिम बड़ा प्रकोप था। 1720 में फ़्रांस के मार्सेय पहुँचे इस रोग ने एक लाख से अधिक लोगों की जान ली, जिनमें लगभग आधे शहर में और बाकी आसपास के प्रांतों में मारे गए।
+title.hi: मार्सेय का महाप्लेग
 
 @ great-plague-of-1738
 wikipedia: Great Plague of 1738
@@ -192,12 +268,30 @@ when: 1738 ~ 1740
 coords: 21.23, 45.75
 spread: 1738 20.46, 44.82
 importance: 2
+summary.fr: La grande peste de 1738 est une épidémie de peste bubonique qui sévit de 1738 à 1743 dans l'empire des Habsbourg. Elle toucha des régions situées aujourd'hui en Roumanie, Hongrie, Ukraine, Serbie, Croatie, Slovaquie, Tchéquie et Autriche, et dura au moins cinq ans malgré son nom.
+summary.hi: 1738 का महाप्लेग 1738 से 1743 तक हैब्सबर्ग साम्राज्य के क्षेत्रों में फैला ब्यूबोनिक प्लेग का प्रकोप था। इसने आज के रोमानिया, हंगरी, यूक्रेन, सर्बिया, क्रोएशिया, स्लोवाकिया, चेकिया और ऑस्ट्रिया के इलाकों को प्रभावित किया। नाम के विपरीत यह कम से कम पाँच वर्षों तक चला।
+summary.ko: 1738년 대역병은 1738년부터 1743년까지 합스부르크 제국 일대에서 유행한 선페스트이다. 오늘날의 루마니아, 헝가리, 우크라이나, 세르비아, 크로아티아, 슬로바키아, 체코, 오스트리아 지역이 피해를 입었다. 이름과 달리 유행은 최소 5년간 이어졌다.
+summary.zh: 1738年大瘟疫是1738年至1743年间在哈布斯堡帝国境内流行的腺鼠疫，波及今罗马尼亚、匈牙利、乌克兰、塞尔维亚、克罗地亚、斯洛伐克、捷克和奥地利等地。尽管名称只提1738年，疫情实际持续了至少五年。
+title.fr: Grande peste de 1738
+title.hi: 1738 का महाप्लेग
+title.ko: 1738년 대역병
+title.zh: 1738年大瘟疫
 
 @ russian-plague-1770
 wikipedia: Russian plague of 1770–1772
 when: 1770 ~ 1772
 coords: 37.62, 55.76
 importance: 3
+summary.ar: كان وباء الطاعون الروسي بين عامي 1770 و1772 آخر تفشٍّ واسع للطاعون في وسط روسيا. بدأ على جبهة مولدافيا خلال الحرب الروسية العثمانية، ثم زحف شمالًا عبر أوكرانيا وبلغ ذروته في موسكو في سبتمبر 1771 متسببًا في شغب الطاعون، وأودى بحياة ما بين 52 ألفًا و100 ألف شخص في موسكو وحدها.
+summary.fr: Aussi appelée peste de 1771, cette épidémie fut la dernière grande flambée de peste en Russie centrale. Partie du front moldave de la guerre russo-turque, elle remonta vers le nord par l'Ukraine et culmina à Moscou en septembre 1771, provoquant l'émeute de la peste. Elle fit entre 52 000 et 100 000 morts dans la seule ville de Moscou.
+summary.hi: 1770–1772 की रूसी प्लेग महामारी मध्य रूस में प्लेग का अंतिम बड़ा प्रकोप थी। रूस-तुर्की युद्ध के मोल्दावियाई मोर्चे से शुरू होकर यह यूक्रेन होते हुए उत्तर की ओर फैली और सितंबर 1771 में मॉस्को में चरम पर पहुँचकर प्लेग दंगे का कारण बनी। अकेले मॉस्को में 52,000 से 1,00,000 लोग मारे गए।
+summary.pt: Também chamada de Peste de 1771, foi o último grande surto de peste na Rússia central. Iniciada no front da Moldávia durante a guerra russo-turca, avançou para o norte pela Ucrânia e atingiu o auge em Moscou em setembro de 1771, provocando o Motim da Peste. Só em Moscou, matou entre 52 mil e 100 mil pessoas.
+summary.zh: 1770年至1772年的俄国鼠疫又称1771年瘟疫，是俄国中部最后一次大规模鼠疫。疫情起源于俄土战争的摩尔达维亚战场，经乌克兰北上，1771年9月在莫斯科达到高峰并引发鼠疫暴动，仅莫斯科就有5.2万至10万人死亡。
+title.ar: طاعون روسيا (1770–1772)
+title.fr: Peste de Russie de 1770-1772
+title.hi: रूसी प्लेग (1770–1772)
+title.pt: Peste russa de 1770–1772
+title.zh: 1770–1772年俄国鼠疫
 
 @ north-american-smallpox
 wikipedia: 1775–1782 North American smallpox epidemic
@@ -205,12 +299,28 @@ when: 1775 ~ 1782
 coords: -71.06, 42.36
 spread: 1779 -99.13, 19.43 | 1781 -104.99, 39.74
 importance: 2
+summary.fr: L'épidémie de variole de 1775 à 1782 ravagea l'Amérique du Nord et fit au moins 130 000 morts selon les estimations. En pleine guerre d'indépendance, George Washington, commandant en chef de l'Armée continentale, imposa en 1777 l'inoculation de ses troupes, une décision alors controversée.
+summary.hi: 1775 में शुरू हुई उत्तरी अमेरिका की चेचक महामारी ने पश्चिमी गोलार्ध में भारी तबाही मचाई और अनुमानतः कम से कम 1,30,000 लोगों की जान ली। अमेरिकी स्वतंत्रता युद्ध के दौरान कॉन्टिनेंटल आर्मी के सेनापति जॉर्ज वॉशिंगटन ने 1777 में सैनिकों का चेचक-टीकाकरण अनिवार्य किया, जो उस समय विवादास्पद था।
+summary.pt: A epidemia de varíola de 1775 a 1782 devastou a América do Norte e matou pelo menos 130 mil pessoas, segundo estimativas. Durante a Guerra de Independência, George Washington, comandante do Exército Continental, ordenou em 1777 a inoculação das tropas, decisão polêmica na época.
+summary.zh: 1775年至1782年的北美天花疫情给西半球带来沉重打击，据估计至少13万人因此死亡。美国独立战争期间，大陆军总司令乔治·华盛顿于1777年下令为部队接种天花，此举在当时颇具争议。
+title.fr: Épidémie de variole en Amérique du Nord (1775-1782)
+title.hi: उत्तरी अमेरिका की चेचक महामारी (1775–1782)
+title.pt: Epidemia de varíola na América do Norte (1775–1782)
+title.zh: 1775–1782年北美天花疫情
 
 @ philadelphia-yellow-fever
 wikipedia: 1793 Philadelphia yellow fever epidemic
 when: 1793-08 ~ 1793-11
 coords: -75.16, 39.95
 importance: 2
+summary.fr: En 1793, la fièvre jaune frappa Philadelphie, alors ville de 50 000 habitants, faisant plus de 5 000 morts entre août et novembre. Environ 20 000 personnes, dont des responsables du gouvernement fédéral, fuirent la ville, ce qui en fait l'une des épidémies les plus graves de l'histoire des États-Unis.
+summary.hi: 1793 में फ़िलाडेल्फ़िया में फैली पीत ज्वर (येलो फ़ीवर) महामारी अमेरिकी इतिहास की सबसे भीषण महामारियों में से एक थी। अगस्त से नवंबर के बीच लगभग 50,000 की आबादी वाले इस शहर में 5,000 से अधिक लोग मरे और संघीय सरकार के अधिकारियों सहित करीब 20,000 लोग शहर छोड़कर चले गए।
+summary.pt: Em 1793, a febre amarela atingiu a Filadélfia, então com cerca de 50 mil habitantes, matando mais de 5 mil pessoas entre agosto e novembro. Cerca de 20 mil moradores, incluindo autoridades do governo federal, fugiram da cidade, tornando o surto um dos mais graves da história dos Estados Unidos.
+summary.zh: 1793年费城黄热病疫情是美国历史上最严重的疫情之一。当年8月至11月，这座约5万人口的城市有5000多人死亡，约2万人逃离，其中包括联邦政府官员。疫情在10月达到高峰，直到秋末霜冻后才逐渐平息。
+title.fr: Épidémie de fièvre jaune de Philadelphie (1793)
+title.hi: फ़िलाडेल्फ़िया पीत ज्वर महामारी (1793)
+title.pt: Epidemia de febre amarela na Filadélfia (1793)
+title.zh: 1793年费城黄热病疫情
 
 @ second-cholera-pandemic
 wikipedia: 1826–1837 cholera pandemic
@@ -218,6 +328,10 @@ when: 1826 ~ 1837
 coords: 88.36, 22.57
 spread: 1829 49.12, 55.79 | 1830-09 37.62, 55.76 | 1831-10 -0.13, 51.51 | 1832-03 2.35, 48.86 | 1832-06 -74.0, 40.71
 importance: 4
+summary.hi: दूसरी हैजा महामारी भारत से शुरू होकर पश्चिमी एशिया, यूरोप, ग्रेट ब्रिटेन और अमेरिका महाद्वीपों तक तथा पूर्व में चीन और जापान तक फैली। 19वीं शताब्दी में हैजे ने किसी भी अन्य महामारी रोग से अधिक जानें लीं, और यह रोग दूषित जल तथा बढ़ती यात्राओं के ज़रिए फैलता था।
+summary.pt: A segunda pandemia de cólera partiu da Índia e alcançou a Ásia Ocidental, a Europa, a Grã-Bretanha e as Américas, além da China e do Japão. No século XIX, a cólera matou mais do que qualquer outra doença epidêmica, transmitida por água contaminada e pelas rotas de viagem da época.
+title.hi: दूसरी हैजा महामारी (1826–1837)
+title.pt: Segunda pandemia de cólera (1826–1837)
 
 @ third-cholera-pandemic
 wikipedia: 1846–1860 cholera pandemic
@@ -225,6 +339,8 @@ when: 1846 ~ 1860
 coords: 88.36, 22.57
 spread: 1848 37.62, 55.76 | 1849 -0.13, 51.51 | 1849 -90.07, 29.95 | 1854-08 -0.14, 51.51
 importance: 4
+summary.hi: तीसरी हैजा महामारी 19वीं शताब्दी में भारत से शुरू हुआ हैजे का तीसरा बड़ा प्रकोप था, जो देश की सीमाओं से बहुत दूर तक फैला। रूसी साम्राज्य में दस लाख से अधिक लोग मारे गए और 1853–1854 में अकेले लंदन में 10,000 से अधिक मौतें हुईं। इसे 19वीं सदी की सबसे घातक महामारी माना जाता है।
+title.hi: तीसरी हैजा महामारी (1846–1860)
 
 @ fourth-cholera-pandemic
 wikipedia: 1863–1875 cholera pandemic
@@ -232,6 +348,10 @@ when: 1863 ~ 1875
 coords: 88.36, 22.57
 spread: 1865 39.83, 21.42 | 1865 31.24, 30.04 | 1866 2.35, 48.86
 importance: 3
+summary.hi: चौथी हैजा महामारी बंगाल के गंगा डेल्टा से शुरू हुई और मुस्लिम तीर्थयात्रियों के साथ मक्का पहुँची, जहाँ पहले ही वर्ष 90,000 में से 30,000 तीर्थयात्री मारे गए। इसके बाद यह मध्य पूर्व, रूसी साम्राज्य, यूरोप, अफ्रीका और उत्तरी अमेरिका तक बंदरगाहों और नदी मार्गों से फैली।
+summary.pt: A quarta pandemia de cólera começou no delta do Ganges, em Bengala, e chegou a Meca com peregrinos muçulmanos, matando 30 mil de 90 mil peregrinos no primeiro ano. Depois se espalhou pelo Oriente Médio, Império Russo, Europa, África e América do Norte, levada por viajantes a partir de cidades portuárias e hidrovias.
+title.hi: चौथी हैजा महामारी (1863–1875)
+title.pt: Quarta pandemia de cólera (1863–1875)
 
 @ fifth-cholera-pandemic
 wikipedia: 1881–1896 cholera pandemic
@@ -239,6 +359,10 @@ when: 1881 ~ 1896
 coords: 88.36, 22.57
 spread: 1883 31.24, 30.04 | 1892 9.99, 53.55 | 1892 44.79, 41.72
 importance: 3
+summary.hi: पाँचवीं हैजा महामारी 19वीं शताब्दी में हैजे का पाँचवाँ बड़ा अंतरराष्ट्रीय प्रकोप थी, जिसका उद्गम पिछली महामारियों की तरह पश्चिम बंगाल का गंगा डेल्टा था। भाप के जहाज़ों और रेलवे जैसे तेज़ परिवहन साधनों ने यात्रा का समय घटाकर इस रोग के फैलाव को आसान बना दिया।
+summary.pt: A quinta pandemia de cólera foi o quinto grande surto internacional da doença no século XIX e, como as anteriores, teve origem no delta do Ganges, em Bengala Ocidental. Meios de transporte mais rápidos, como navios a vapor e ferrovias, encurtaram as viagens e facilitaram a propagação da cólera.
+title.hi: पाँचवीं हैजा महामारी (1881–1896)
+title.pt: Quinta pandemia de cólera (1881–1896)
 
 @ sixth-cholera-pandemic
 wikipedia: 1899–1923 cholera pandemic
@@ -246,12 +370,22 @@ when: 1899 ~ 1923
 coords: 88.36, 22.57
 spread: 1902 120.98, 14.6 | 1910 14.27, 40.85
 importance: 3
+summary.hi: छठी हैजा महामारी भारत से शुरू हुई, जहाँ इसने 8,00,000 से अधिक लोगों की जान ली। इसके बाद यह पश्चिमी एशिया, उत्तरी अफ्रीका, पूर्वी यूरोप और रूस तक फैल गई और बीसवीं सदी के आरंभिक दशकों तक चलती रही।
+title.hi: छठी हैजा महामारी (1899–1923)
 
 @ samoa-measles
 wikipedia: 2019 Samoa measles outbreak
 when: 2019-10 ~ 2020-01
 coords: -171.76, -13.83
 importance: 2
+summary.ar: بدأ تفشي الحصبة في ساموا في سبتمبر 2019، وحتى 6 يناير 2020 سُجلت أكثر من 5700 إصابة و83 وفاة من بين نحو 200 ألف نسمة. ويعود سببه إلى تراجع معدلات تطعيم المواليد من 74% عام 2017 إلى ما بين 31 و34% عام 2018.
+summary.es: El brote de sarampión de Samoa comenzó en septiembre de 2019 y, hasta el 6 de enero de 2020, registró más de 5700 casos y 83 muertes en una población de unos 200 000 habitantes. Su causa fue la caída de la vacunación infantil, del 74 % en 2017 a entre el 31 y el 34 % en 2018.
+summary.hi: समोआ में खसरे का प्रकोप सितंबर 2019 में शुरू हुआ और 6 जनवरी 2020 तक लगभग 2 लाख की आबादी में 5,700 से अधिक मामले और 83 मौतें दर्ज हुईं। इसका कारण नवजात शिशुओं में टीकाकरण दर का 2017 के 74% से घटकर 2018 में 31–34% रह जाना था।
+summary.ko: 2019년 9월 사모아에서 시작된 홍역 유행으로, 2020년 1월 6일까지 약 20만 명 인구 가운데 5,700건 이상의 환자와 83명의 사망자가 보고되었다. 원인은 영아 예방접종률이 2017년 74%에서 2018년 31~34%로 급감한 데 있었다.
+title.ar: تفشي الحصبة في ساموا 2019
+title.es: Brote de sarampión en Samoa de 2019
+title.hi: 2019 का समोआ खसरा प्रकोप
+title.ko: 2019년 사모아 홍역 유행
 
 @ manchurian-plague
 wikipedia: Manchurian plague
@@ -259,12 +393,22 @@ when: 1910-10 ~ 1911-04
 coords: 117.43, 49.6
 spread: 1910-11 126.64, 45.76 | 1911-01 123.43, 41.8
 importance: 3
+summary.ar: كان طاعون منشوريا تفشيًا للطاعون الرئوي وقع أساسًا في منشوريا بين عامي 1910 و1911، وأودى بحياة نحو 60 ألف شخص. وقد حفّز استجابة طبية متعددة الجنسيات، وشهد ارتداء أولى معدات الوقاية الشخصية في التاريخ.
+summary.fr: La peste de Mandchourie est une épidémie de peste pulmonaire survenue principalement en Mandchourie en 1910-1911. Elle fit environ 60 000 morts et suscita une réponse médicale internationale, marquée par le port des premiers équipements de protection individuelle.
+summary.hi: मंचूरियाई प्लेग 1910–1911 में मुख्य रूप से मंचूरिया में फैला न्यूमोनिक प्लेग का प्रकोप था, जिसमें लगभग 60,000 लोग मारे गए। इसने बहुराष्ट्रीय चिकित्सा प्रयासों को जन्म दिया और पहली बार व्यक्तिगत सुरक्षा उपकरण (PPE) पहनने की शुरुआत हुई।
+summary.pt: A peste da Manchúria foi um surto de peste pneumônica ocorrido principalmente na Manchúria em 1910–1911, que matou cerca de 60 mil pessoas. A epidemia mobilizou uma resposta médica multinacional e marcou o uso dos primeiros equipamentos de proteção individual (EPI).
+title.ar: طاعون منشوريا
+title.fr: Peste de Mandchourie
+title.hi: मंचूरियाई प्लेग
+title.pt: Peste da Manchúria
 
 @ encephalitis-lethargica
 wikipedia: Encephalitis lethargica
 when: 1915 ~ 1926
 coords: 16.37, 48.21
 importance: 2
+summary.hi: एन्सेफ़ेलाइटिस लेथार्जिका मस्तिष्क ज्वर का एक असामान्य रूप है, जिसे 1917 में कॉन्स्टेंटिन वॉन इकोनोमो और ज्याँ-रेने क्रूशे ने पहली बार वर्णित किया। यह रोग मस्तिष्क पर हमला कर कुछ रोगियों को मूर्ति की तरह मूक और गतिहीन बना देता था। 1915 से 1926 के बीच इसकी महामारी दुनिया भर में फैली और दस लाख से अधिक लोग इससे ग्रसित हुए।
+title.hi: एन्सेफ़ेलाइटिस लेथार्जिका
 
 @ seventh-cholera-pandemic
 wikipedia: 1961–1975 cholera pandemic
@@ -272,6 +416,12 @@ when: 1961 ~ 1975
 coords: 119.42, -5.14
 spread: 1963 90.41, 23.81 | 1966 51.39, 35.69 | 1970 3.38, 6.52 | 1973 14.27, 40.85
 importance: 3
+summary.es: La séptima gran pandemia de cólera comenzó en 1961 y todavía continúa, pues la enfermedad se ha vuelto endémica en muchos países. En 2017, la Organización Mundial de la Salud anunció una estrategia global con el objetivo de ponerle fin para 2030.
+summary.hi: हैजे की सातवीं बड़ी महामारी 1961 में शुरू हुई और आज भी जारी है, क्योंकि कई देशों में यह रोग स्थानिक बन चुका है। 2017 में विश्व स्वास्थ्य संगठन ने 2030 तक इस महामारी को समाप्त करने के लक्ष्य के साथ एक वैश्विक रणनीति की घोषणा की।
+summary.pt: A sétima grande pandemia de cólera começou em 1961 e continua até hoje, já que a doença se tornou endêmica em muitos países. Em 2017, a Organização Mundial da Saúde anunciou uma estratégia global para acabar com a pandemia até 2030.
+title.es: Séptima pandemia de cólera
+title.hi: सातवीं हैजा महामारी
+title.pt: Sétima pandemia de cólera
 
 @ russian-flu-1977
 wikipedia: 1977 Russian flu
@@ -279,12 +429,20 @@ when: 1977-05 ~ 1979-12
 coords: 117.2, 39.13
 spread: 1977-11 37.62, 55.76
 importance: 2
+summary.hi: 1977 का रूसी फ़्लू एक इन्फ़्लुएंज़ा महामारी थी, जिसकी सूचना पहली बार 1977 में सोवियत संघ ने दी और जो 1979 तक चली; उत्तरी चीन में इसका प्रकोप थोड़ा पहले मई 1977 में शुरू हुआ था। इसने मुख्यतः 25 वर्ष से कम उम्र के लोगों को प्रभावित किया और इसे हल्का माना गया। इसका H1N1 स्ट्रेन 1946–1957 में फैले वायरस से बहुत मिलता-जुलता था।
+summary.ko: 1977년 러시아 독감은 1977년 소련이 처음 보고해 1979년까지 이어진 인플루엔자 유행으로, 중국 북부에서는 이보다 조금 이른 1977년 5월에 발생했다. 주로 25세 안팎 이하의 젊은 층이 감염되었고 증상은 가벼운 편이었다. 원인인 H1N1 바이러스는 1946~1957년에 유행한 균주와 매우 비슷했다.
+title.hi: रूसी फ़्लू (1977)
+title.ko: 1977년 러시아 독감
 
 @ haiti-cholera
 wikipedia: 2010s Haiti cholera outbreak
 when: 2010-10 ~ 2019-02
 coords: -72.33, 18.54
 importance: 2
+summary.hi: अक्टूबर 2010 में, उसी वर्ष आए विनाशकारी भूकंप के कुछ समय बाद, हैती में हैजा फिर से पहुँचा और पूरे देश में फैलकर स्थानिक बन गया। यह आधुनिक समय का पहला बड़े पैमाने का हैजा प्रकोप था। संयुक्त राष्ट्र के अनुसार 8,20,000 हैतीवासी संक्रमित हुए और लगभग 10,000 की मृत्यु हुई।
+summary.zh: 2010年10月，海地大地震发生后不久，霍乱再次传入海地并在全国蔓延，成为当地的地方性疾病。这是现代首次大规模霍乱暴发。据联合国统计，约82万海地人感染，近1万人死亡。
+title.hi: हैती हैजा प्रकोप (2010 का दशक)
+title.zh: 2010年代海地霍乱疫情
 
 @ zika
 wikipedia: 2015–2016 Zika virus epidemic
@@ -298,6 +456,8 @@ wikipedia: Kivu Ebola epidemic
 when: 2018-08 ~ 2020-06
 coords: 29.46, 0.49
 importance: 2
+summary.hi: किवू इबोला महामारी 2018 से 2020 तक मुख्य रूप से पूर्वी कांगो लोकतांत्रिक गणराज्य और मध्य अफ्रीका के अन्य हिस्सों में फैला इबोला वायरस रोग का प्रकोप था। 1 अगस्त 2018 से 25 जून 2020 के बीच इसके 3,470 मामले दर्ज हुए, और यह कांगो के इतिहास का सबसे बड़ा इबोला प्रकोप बन गया।
+title.hi: किवू इबोला महामारी
 
 @ mpox-2022
 wikipedia: 2022–2023 mpox outbreak

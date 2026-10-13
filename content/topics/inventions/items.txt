@@ -42,6 +42,8 @@ when: -1200
 precision: approx
 coords: 35.0, 39.0
 importance: 4
+summary.hi: लौह धातुकर्म लोहे और उसकी मिश्रधातुओं से संबंधित धातुकर्म है। अयस्क से लोहा गलाने की शुरुआत कब और कहाँ हुई, यह ज्ञात नहीं, पर ईसा पूर्व दूसरी सहस्राब्दी के अंत तक यूनान से भारत तक के क्षेत्र में लौह अयस्क से लोहा बनाया जाने लगा था। इसके प्रसार ने लौह युग को परिभाषित किया।
+title.hi: लौह धातुकर्म
 
 @ alphabet
 wikipedia: Phoenician alphabet
@@ -76,6 +78,10 @@ when: 1040
 precision: approx
 coords: 114.3, 34.8
 importance: 4
+summary.hi: चल टाइप मुद्रण की वह प्रणाली है जिसमें अलग-अलग अक्षरों के पुर्ज़ों को जोड़कर दस्तावेज़ छापे जाते हैं। 11वीं शताब्दी में चीन के बी शेंग ने मिट्टी के चल अक्षर बनाए, और बाद में कोरिया में धातु के चल अक्षरों का विकास हुआ।
+summary.pt: Os tipos móveis são um sistema de impressão que usa peças separadas e reutilizáveis para compor os elementos de um documento, geralmente em papel. No século XI, o chinês Bi Sheng criou tipos de argila, e mais tarde a Coreia desenvolveu os tipos metálicos.
+title.hi: चल टाइप मुद्रण
+title.pt: Tipos móveis
 
 @ jikji
 wikipedia: Jikji
@@ -106,6 +112,8 @@ wikipedia: Watt steam engine
 when: 1776
 coords: -1.9, 52.48
 importance: 5
+summary.pt: A máquina a vapor de Watt, criada por James Watt, foi uma das forças motrizes da Revolução Industrial. Segundo a Encyclopædia Britannica, foi a primeira máquina a vapor verdadeiramente eficiente; seu condensador separado reduziu muito o desperdício de combustível em relação aos modelos anteriores.
+title.pt: Máquina a vapor de Watt
 
 @ smallpox-vaccine
 wikipedia: Smallpox vaccine
@@ -118,30 +126,52 @@ wikipedia: Voltaic pile
 when: 1800
 coords: 9.08, 45.81
 importance: 4
+summary.es: La pila voltaica fue la primera batería eléctrica capaz de suministrar corriente de forma continua a un circuito. La inventó el químico italiano Alessandro Volta a raíz de su debate con Luigi Galvani sobre los experimentos con ancas de rana. Su uso permitió nuevos descubrimientos, como la electrólisis del agua en oxígeno e hidrógeno en 1800.
+title.es: Pila voltaica
 
 @ steam-locomotive
 wikipedia: Steam locomotive
 when: 1804
 coords: -3.38, 51.75
 importance: 4
+summary.hi: भाप लोकोमोटिव ऐसा रेल इंजन है जो भाप के फैलाव से स्वयं को और अन्य वाहनों को खींचता है। इसमें ईंधन जलाकर बॉयलर का पानी गर्म किया जाता है, जिससे बनी भाप का आयतन 1,600 से 1,700 गुना तक बढ़ जाता है। सरल शब्दों में यह पहियों पर चलने वाला स्व-चालित भाप इंजन है।
+title.hi: भाप लोकोमोटिव
 
 @ photography
 wikipedia: View from the Window at Le Gras
 when: 1826
 coords: 4.75, 46.78
 importance: 4
+summary.hi: ले ग्रा की खिड़की से दृश्य आज तक बची सबसे पुरानी तस्वीर है, जिसे फ़्रांसीसी आविष्कारक निसेफ़ोर निएप्स ने 1827 में फ़्रांस के सें-लू-द-वारेन में अपनी जागीर की ऊँची खिड़की से बनाया। इसके लिए उन्होंने अपनी हेलियोग्राफ़ी विधि अपनाई, जिसमें प्रकाश से बिटुमेन के कठोर होने का उपयोग कर छवि दर्ज की जाती है।
+title.hi: ले ग्रा की खिड़की से दृश्य
 
 @ telegraph
 wikipedia: Electrical telegraph
 when: 1837
 coords: -0.13, 51.5
 importance: 4
+summary.es: El telégrafo eléctrico permitía comunicarse a distancia, de punto a punto, mediante señales eléctricas enviadas por cable, y se usó sobre todo desde la década de 1840 hasta finales del siglo XX. Fue el primer sistema de telecomunicación eléctrica y transmitía mensajes mucho más rápido que su transporte físico.
+summary.hi: विद्युत टेलीग्राफ़ तारों के ज़रिए विद्युत संकेत भेजकर दो स्थानों के बीच दूर संचार की प्रणाली है, जिसका उपयोग मुख्यतः 1840 के दशक से 20वीं शताब्दी के अंत तक हुआ। यह पहली विद्युत दूरसंचार प्रणाली थी, जिसने संदेशों को भौतिक रूप से पहुँचाने की तुलना में कहीं तेज़ी से भेजना संभव बनाया।
+summary.zh: 电报是通过电线传送电信号进行点对点远距离通信的技术，主要使用于19世纪40年代至20世纪后期。它是最早的电气通信系统，能比人工传递更快地发送文字信息，也被视为电气工程的最早实例。
+title.es: Telégrafo eléctrico
+title.hi: विद्युत टेलीग्राफ़
+title.zh: 电报
 
 @ telephone
 wikipedia: Invention of the telephone
 when: 1876
 coords: -71.06, 42.36
 importance: 5
+summary.es: La invención del teléfono fue la culminación del trabajo de muchas personas, entre ellas Antonio Meucci, Philipp Reis, Elisha Gray y Alexander Graham Bell. Bell obtuvo la patente en 1876, pero las reclamaciones enfrentadas de varios inventores y empresas desencadenaron numerosos pleitos.
+summary.hi: टेलीफ़ोन का आविष्कार कई लोगों के काम का परिणाम था, जिनमें एंटोनियो मेउची, फ़िलिप राइस, एलिशा ग्रे और अलेक्ज़ेंडर ग्राहम बेल प्रमुख हैं। 1876 में बेल को इसका पेटेंट मिला, लेकिन परस्पर विरोधी पेटेंट दावों के कारण कई मुक़दमे चले।
+summary.ko: 전화기의 발명은 안토니오 메우치, 필리프 라이스, 엘리샤 그레이, 알렉산더 그레이엄 벨 등 여러 사람의 연구가 쌓여 이루어진 결과이다. 1876년 벨이 특허를 받았으나, 엇갈린 특허 주장으로 수많은 소송이 이어졌다.
+summary.pt: A invenção do telefone foi resultado do trabalho de várias pessoas, entre elas Antonio Meucci, Philipp Reis, Elisha Gray e Alexander Graham Bell. Bell obteve a patente em 1876, mas reivindicações conflitantes de inventores e empresas geraram uma série de processos judiciais.
+summary.zh: 电话的发明是许多人共同努力的成果，其中包括安东尼奥·梅乌奇、菲利普·赖斯、伊莱沙·格雷和亚历山大·格拉汉姆·贝尔。1876年贝尔获得电话专利，但多方相互冲突的专利主张引发了一系列诉讼。
+title.es: Teléfono
+title.hi: टेलीफ़ोन
+title.ko: 전화기
+title.pt: Telefone
+title.zh: 电话
 
 @ light-bulb
 wikipedia: Incandescent light bulb
@@ -154,18 +184,32 @@ wikipedia: Benz Patent-Motorwagen
 when: 1886
 coords: 8.47, 49.49
 importance: 5
+summary.hi: बेंज़ पेटेंट-मोटरवागन 1885 से 1893 के बीच बेंज़ एंड सी द्वारा बनाई गई पहली कारों का नाम है, जिन्हें आधुनिक मोटरकार की शुरुआत माना जाता है। इनमें तीन पहिये, एक-सिलेंडर फ़ोर-स्ट्रोक इंजन और बेल्ट ड्राइव था। कार्ल बेंज़ को 1886 में इस तकनीक का पेटेंट मिला, इसी से यह नाम पड़ा।
+title.hi: बेंज़ पेटेंट-मोटरवागन
 
 @ radio
 wikipedia: Invention of radio
 when: 1895
 coords: 11.34, 44.49
 importance: 4
+summary.fr: L'invention de la radio fut précédée de plusieurs décennies de travaux théoriques, de découvertes et d'expériences sur les ondes radio, ainsi que de progrès techniques pour les émettre et les détecter. Ces avancées permirent à Guglielmo Marconi de faire des ondes radio un système de communication sans fil vers 1895.
+summary.hi: रेडियो संचार के आविष्कार से पहले कई दशकों तक रेडियो तरंगों के सिद्धांत, खोज और प्रयोगों के साथ उन्हें भेजने और पकड़ने की तकनीकें विकसित हुईं। इन्हीं उपलब्धियों के आधार पर गुलिएल्मो मार्कोनी ने 1895 के आसपास रेडियो तरंगों को एक बेतार संचार प्रणाली में बदला।
+summary.ko: 라디오의 발명은 수십 년에 걸친 전파 이론의 정립과 실험, 송수신 기술의 발전 위에서 이루어졌다. 이를 바탕으로 굴리엘모 마르코니가 1895년 무렵 전파를 이용한 무선 통신 체계를 실현했다.
+summary.pt: A invenção do rádio foi precedida por décadas de fundamentos teóricos, descobertas e experimentos com ondas de rádio, além de avanços técnicos na sua transmissão e detecção. Esses progressos permitiram a Guglielmo Marconi transformar as ondas de rádio em um sistema de comunicação sem fio por volta de 1895.
+summary.zh: 无线电的发明建立在数十年的理论奠基、电磁波的发现与实验，以及发射和接收技术的发展之上。在此基础上，古列尔莫·马可尼于1895年前后将无线电波发展为实用的无线通信系统。
+title.fr: Radio
+title.hi: रेडियो
+title.ko: 라디오
+title.pt: Rádio
+title.zh: 无线电
 
 @ airplane
 wikipedia: Wright Flyer
 when: 1903
 coords: -75.67, 36.02
 importance: 5
+summary.hi: राइट फ़्लायर ने 17 दिसंबर 1903 को हवा से भारी, इंजन-चालित और नियंत्रित मानवयुक्त विमान की पहली सतत उड़ान भरी। इसे ऑरविल और विल्बर राइट भाइयों ने बनाया और उड़ाया, और इसी से विमानन के अग्रणी युग की शुरुआत हुई।
+title.hi: राइट फ़्लायर
 
 @ television
 wikipedia: Television
@@ -190,6 +234,8 @@ wikipedia: Trinity (nuclear test)
 when: 1945
 coords: -106.48, 33.68
 importance: 5
+summary.hi: ट्रिनिटी परमाणु हथियार का पहला विस्फोट था, जिसे मैनहट्टन परियोजना के तहत अमेरिकी सेना ने 16 जुलाई 1945 को किया। इसमें इम्प्लोज़न डिज़ाइन वाले प्लूटोनियम बम का परीक्षण हुआ, जो बाद में जापान के नागासाकी पर गिराए गए फ़ैट मैन बम जैसा ही था। इसका कूट नाम जे. रॉबर्ट ओपेनहाइमर ने रखा था।
+title.hi: ट्रिनिटी परमाणु परीक्षण
 
 @ eniac
 wikipedia: ENIAC
@@ -300,6 +346,8 @@ when: 220
 precision: approx
 coords: 112.45, 34.62
 importance: 3
+summary.pt: A impressão xilográfica é uma técnica de impressão de textos, imagens e padrões que surgiu na China antiga, primeiro em tecidos e depois em papel, e se difundiu por toda a Ásia Oriental. Cada página é entalhada em um bloco de madeira, deixando em relevo as áreas que recebem tinta; o entalhe é trabalhoso, mas permite muitas impressões.
+title.pt: Xilogravura
 
 @ windmill
 wikipedia: Windmill
@@ -327,6 +375,14 @@ wikipedia: Cheugugi
 when: 1441
 coords: 126.98, 37.57
 importance: 3
+summary.es: Los cheugugi fueron pluviómetros inventados en la dinastía Joseon de Corea, durante el reinado del rey Sejong el Grande, y distribuidos a cada oficina provincial. Hoy solo se conserva uno, el Cheugugi de Geumyeong, declarado Tesoro Nacional de Corea, junto con los registros oficiales de lluvia tomados con estos instrumentos.
+summary.hi: चुगुगी कोरिया के जोसन राजवंश में राजा सेजोंग महान के शासनकाल के दौरान आविष्कृत वर्षामापी यंत्र थे, जिन्हें हर प्रांतीय कार्यालय में भेजा गया। आज केवल एक चुगुगी बचा है, जो कोरिया का राष्ट्रीय खज़ाना घोषित है, और इनसे दर्ज वर्षा के आधिकारिक आँकड़े भी सुरक्षित हैं।
+summary.pt: Os cheugugi foram pluviômetros inventados na dinastia Joseon da Coreia, durante o reinado do rei Sejong, o Grande, e distribuídos a cada escritório provincial. Resta apenas um exemplar, o Cheugugi de Geumyeong, designado Tesouro Nacional da Coreia, e os registros oficiais de chuva feitos com esses instrumentos também foram preservados.
+summary.zh: 测雨器是朝鲜王朝世宗大王在位时发明的雨量计，被分发到各道官衙用于测量降雨。现存唯一实物为锦营测雨器，被指定为韩国国宝。从正祖到高宗时期用测雨器记录的官方降雨数据也保存至今。
+title.es: Cheugugi
+title.hi: चुगुगी (वर्षामापी)
+title.pt: Cheugugi
+title.zh: 测雨器
 
 @ microscope
 wikipedia: Microscope
@@ -340,12 +396,18 @@ wikipedia: Turtle ship
 when: 1592
 coords: 127.66, 34.76
 importance: 3
+summary.hi: कछुआ जहाज़ कोरिया के जोसन राजवंश की नौसेना का युद्धपोत था, जिसका उपयोग 15वीं से 19वीं शताब्दी तक हुआ। पानोक्सन युद्धपोतों के साथ इन्होंने आक्रमणकारी जापानी बेड़ों से लड़ाई लड़ी, और इम्जिन युद्ध में एडमिरल यी सुन-सिन ने इनका प्रसिद्ध उपयोग किया। कछुए के खोल जैसे ढके ऊपरी हिस्से से इसका नाम पड़ा।
+title.hi: कछुआ जहाज़ (गोबुकसन)
 
 @ pascal-calculator
 wikipedia: Pascal's calculator
 when: 1642
 coords: 2.35, 48.86
 importance: 2
+summary.hi: पास्कलाइन एक यांत्रिक कैलकुलेटर है, जिसे ब्लेज़ पास्कल ने 1642 में बनाया। फ़्रांस के रूआँ में कर अधीक्षक रहे अपने पिता की कठिन गणनाओं को आसान बनाने के लिए उन्होंने इसे विकसित किया। यह दो संख्याओं को जोड़-घटा सकता था और बार-बार जोड़ या घटाकर गुणा-भाग भी करता था।
+summary.pt: A pascalina é uma calculadora mecânica inventada por Blaise Pascal em 1642 para aliviar os cálculos trabalhosos do pai, superintendente de impostos em Rouen, na França. A máquina somava e subtraía dois números e fazia multiplicações e divisões por meio de somas ou subtrações repetidas.
+title.hi: पास्कलाइन
+title.pt: Pascalina
 
 @ barometer
 wikipedia: Barometer
@@ -371,6 +433,8 @@ when: 1764
 precision: approx
 coords: -2.4, 53.75
 importance: 3
+summary.ar: آلة الغزل جيني هي آلة غزل متعددة المغازل، وتُعد من أبرز التطورات في تصنيع النسيج خلال المرحلة المبكرة من الثورة الصناعية. اخترعها جيمس هارغريفز بين عامي 1764 و1765 في مقاطعة لانكشاير بإنجلترا، فأتاحت للعامل الواحد غزل عدة خيوط في آن واحد.
+title.ar: آلة الغزل جيني
 
 @ hot-air-balloon
 wikipedia: Hot air balloon
@@ -425,6 +489,10 @@ wikipedia: Cinematograph
 when: 1895
 coords: 2.35, 48.86
 importance: 3
+summary.hi: सिनेमैटोग्राफ़ प्रारंभिक चलचित्र उपकरण था, जो मूल रूप से मूवी कैमरा और फ़िल्म प्रोजेक्टर दोनों का काम करता था; लुमिएर बंधुओं का सिनेमैटोग्राफ़ निगेटिव से फ़िल्म प्रिंट भी कर सकता था। 1895 में पेरिस में उन्होंने इससे पहला सार्वजनिक सशुल्क फ़िल्म प्रदर्शन किया। सिनेमा शब्द भी इसी नाम से निकला है।
+summary.zh: 活动电影机是早期的电影机械，最初指兼具摄影机和放映机功能的装置，卢米埃尔兄弟的活动电影机还能从底片冲印胶片。1895年卢米埃尔兄弟在巴黎用它举行了首次公开售票放映，英语中的cinema一词也源于这一名称。
+title.hi: सिनेमैटोग्राफ़
+title.zh: 活动电影机
 
 @ x-ray
 wikipedia: X-ray
@@ -437,6 +505,8 @@ wikipedia: Liquid-propellant rocket
 when: 1926
 coords: -71.83, 42.19
 importance: 3
+summary.hi: तरल-ईंधन रॉकेट ऐसे रॉकेट इंजन का उपयोग करता है जो तरल प्रणोदक जलाता है। तरल प्रणोदकों का घनत्व अधिक होता है और इनसे उच्च विशिष्ट आवेग मिलता है, जिससे ईंधन टंकियाँ अपेक्षाकृत छोटी रखी जा सकती हैं। 1926 में अमेरिकी वैज्ञानिक रॉबर्ट गोडार्ड ने पहला तरल-ईंधन रॉकेट उड़ाया।
+title.hi: तरल-ईंधन रॉकेट
 
 @ radar
 wikipedia: Radar
@@ -455,6 +525,8 @@ wikipedia: Obninsk Nuclear Power Plant
 when: 1954
 coords: 36.6, 55.08
 importance: 3
+summary.hi: ओब्निन्स्क परमाणु बिजलीघर मॉस्को से लगभग 110 किमी दक्षिण-पश्चिम में सोवियत संघ के विज्ञान नगर ओब्निन्स्क में बनाया गया। जून 1954 में ग्रिड से जुड़कर यह दुनिया का पहला ऐसा परमाणु रिएक्टर बना जिसने औद्योगिक रूप से बिजली पैदा की, हालाँकि छोटे पैमाने पर। यह 2002 तक चालू रहा।
+title.hi: ओब्निन्स्क परमाणु बिजलीघर
 
 @ integrated-circuit
 wikipedia: Integrated circuit
@@ -467,6 +539,8 @@ wikipedia: Laser
 when: 1960
 coords: -118.78, 34.03
 importance: 4
+summary.hi: लेज़र ऐसा उपकरण है जो विद्युतचुंबकीय विकिरण के उद्दीप्त उत्सर्जन पर आधारित प्रकाशीय प्रवर्धन से प्रकाश उत्सर्जित करता है। पहला लेज़र 1960 में ह्यूज़ रिसर्च लेबोरेटरीज़ में थियोडोर मेमन ने बनाया, जो चार्ल्स टाउन्स और आर्थर शॉलो के सैद्धांतिक कार्य पर आधारित था।
+title.hi: लेज़र
 
 @ mobile-phone
 wikipedia: Mobile phone
@@ -479,6 +553,8 @@ wikipedia: Intel 4004
 when: 1971
 coords: -121.96, 37.35
 importance: 4
+summary.hi: इंटेल 4004, जिसे इंटेल कॉर्पोरेशन ने 15 नवंबर 1971 को जारी किया, कंपनी के सेंट्रल प्रोसेसिंग यूनिट (CPU) की लंबी श्रृंखला का पहला चिप था। इसे पहला व्यावसायिक माइक्रोप्रोसेसर माना जाता है, और 60 अमेरिकी डॉलर कीमत वाला यह चिप कंप्यूटिंग में तकनीकी और आर्थिक दोनों दृष्टि से मील का पत्थर बना।
+title.hi: इंटेल 4004
 
 @ gps
 wikipedia: Global Positioning System
@@ -497,9 +573,13 @@ wikipedia: CRISPR gene editing
 when: 2012
 coords: -122.27, 37.87
 importance: 3
+summary.hi: क्रिस्पर जीन संपादन आणविक जीवविज्ञान की एक आनुवंशिक इंजीनियरिंग तकनीक है, जिससे जीवों के जीनोम में बदलाव किया जा सकता है। यह बैक्टीरिया की CRISPR-Cas9 एंटीवायरल रक्षा प्रणाली के सरल रूप पर आधारित है, जिसमें गाइड RNA के साथ Cas9 एंज़ाइम को कोशिका में पहुँचाकर जीनोम को मनचाही जगह से काटा जाता है।
+title.hi: क्रिस्पर जीन संपादन
 
 @ mrna-vaccine
 wikipedia: MRNA vaccine
 when: 2020
 coords: 8.27, 50.0
 importance: 3
+summary.hi: mRNA टीका एक प्रकार का टीका है जो मैसेंजर RNA (mRNA) की प्रति का उपयोग कर प्रतिरक्षा प्रतिक्रिया उत्पन्न करता है। कोशिकाएँ इस mRNA को खाके की तरह इस्तेमाल कर रोगाणु जैसा प्रोटीन बनाती हैं, जिससे शरीर उस रोगाणु को पहचानना और नष्ट करना सीखता है। कोविड-19 महामारी के दौरान ये टीके बड़े पैमाने पर इस्तेमाल हुए।
+title.hi: mRNA टीका
