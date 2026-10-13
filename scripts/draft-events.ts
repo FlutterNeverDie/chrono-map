@@ -16,7 +16,7 @@ import { readEvents, root } from "./lib/content";
 import { regionOf } from "./lib/regionOf";
 
 const USER_AGENT =
-  "ChronoMap/0.1 (https://github.com/FlutterNeverDie/chrono-map)";
+  "ChronoMap/0.1 (https://github.com/FlutterNeverDie/chrono-map; oasa741@gmail.com)";
 
 /** 가져올 Wikidata 분류와 우리 카테고리, 최소 언어판 수 */
 const CLASSES: {

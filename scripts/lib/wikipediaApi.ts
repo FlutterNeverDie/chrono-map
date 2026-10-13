@@ -3,7 +3,7 @@ import type { Locale, WikiPage } from "../../src/lib/types";
 import { LOCALES } from "../../src/i18n/locales";
 
 export const USER_AGENT =
-  "ChronoMap/0.1 (https://github.com/FlutterNeverDie/chrono-map)";
+  "ChronoMap/0.1 (https://github.com/FlutterNeverDie/chrono-map; oasa741@gmail.com)";
 export const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
 export async function getJson<T>(

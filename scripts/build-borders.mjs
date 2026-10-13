@@ -196,7 +196,7 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 async function fetchJson(url) {
   for (let attempt = 1; ; attempt++) {
     const res = await fetch(url, {
-      headers: { "User-Agent": "ChronoMap/0.1 (build script)" },
+      headers: { "User-Agent": "ChronoMap/0.1 (https://github.com/FlutterNeverDie/chrono-map; oasa741@gmail.com)" },
     });
     if (res.ok) return res.json();
     if (res.status !== 429 || attempt >= 6)

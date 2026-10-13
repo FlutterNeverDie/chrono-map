@@ -583,3 +583,586 @@ coords: 8.27, 50.0
 importance: 3
 summary.hi: mRNA टीका एक प्रकार का टीका है जो मैसेंजर RNA (mRNA) की प्रति का उपयोग कर प्रतिरक्षा प्रतिक्रिया उत्पन्न करता है। कोशिकाएँ इस mRNA को खाके की तरह इस्तेमाल कर रोगाणु जैसा प्रोटीन बनाती हैं, जिससे शरीर उस रोगाणु को पहचानना और नष्ट करना सीखता है। कोविड-19 महामारी के दौरान ये टीके बड़े पैमाने पर इस्तेमाल हुए।
 title.hi: mRNA टीका
+
+@ ishango-bone
+wikipedia: Ishango bone
+when: -20000
+precision: approx
+coords: 29.6, -0.13
+importance: 2
+title.hi: इशांगो हड्डी
+summary.hi: इशांगो हड्डी कांगो लोकतांत्रिक गणराज्य में इशांगो के पास मिला एक प्राचीन हड्डी का औज़ार है, जिस पर कई पंक्तियों में खाँचे बने हैं। इसे उत्तर पुरापाषाण काल का माना जाता है। कुछ शोधकर्ता इन खाँचों को गिनती या गणितीय अभिलेख का शुरुआती उदाहरण मानते हैं।
+
+@ pesse-canoe
+wikipedia: Pesse canoe
+when: -8000
+precision: approx
+coords: 6.55, 52.77
+importance: 2
+title.ko: 페세 카누
+summary.ko: 페세 카누는 네덜란드 드렌터주 페세 마을 근처에서 발견된 통나무배이다. 소나무 줄기 하나를 파내어 만들었으며, 방사성 탄소 연대 측정으로 중석기 시대의 것으로 확인되었다. 지금까지 알려진 가장 오래된 배 가운데 하나로 꼽힌다.
+title.zh: 佩塞独木舟
+summary.zh: 佩塞独木舟是在荷兰德伦特省佩塞村附近发现的一艘独木舟，由一整根松树树干挖空制成。放射性碳测年表明它属于中石器时代，是已知最古老的船只之一。
+title.hi: पेस्से डोंगी
+summary.hi: पेस्से डोंगी नीदरलैंड के ड्रेंटे प्रांत में पेस्से गाँव के पास मिली एक डोंगी है, जिसे चीड़ के एक तने को खोखला करके बनाया गया था। रेडियोकार्बन तिथि-निर्धारण के अनुसार यह मध्यपाषाण काल की है, और इसे ज्ञात सबसे पुरानी नौकाओं में गिना जाता है।
+
+@ egyptian-hieroglyphs
+wikipedia: Egyptian hieroglyphs
+when: -3200
+precision: approx
+coords: 31.92, 26.18
+importance: 4
+
+@ papyrus
+wikipedia: Papyrus
+when: -2900
+precision: approx
+coords: 31.22, 29.87
+importance: 3
+
+@ silk
+wikipedia: Silk
+when: -2700
+precision: approx
+coords: 120.1, 30.87
+importance: 3
+
+@ sundial
+wikipedia: Sundial
+when: -1500
+precision: approx
+coords: 32.6, 25.74
+importance: 2
+
+@ water-clock
+wikipedia: Water clock
+when: -1400
+precision: approx
+coords: 32.66, 25.72
+importance: 2
+
+@ qanat
+wikipedia: Qanat
+when: -800
+precision: approx
+coords: 58.68, 34.35
+importance: 2
+
+@ crossbow
+wikipedia: Crossbow
+when: -500
+precision: approx
+coords: 112.18, 30.35
+importance: 2
+
+@ aqueduct
+wikipedia: Aqua Appia
+when: -312
+coords: 12.49, 41.89
+importance: 3
+title.hi: एक्वा एप्पिया
+summary.hi: एक्वा एप्पिया प्राचीन रोम का पहला जलसेतु (एक्वाडक्ट) था, जिसे 312 ईसा पूर्व में सेंसर एपियस क्लॉडियस कैकस के समय बनाया गया। यह शहर तक पानी पहुँचाता था और इसका अधिकांश मार्ग ज़मीन के नीचे से गुज़रता था।
+title.ar: أكوا أبيا
+summary.ar: أكوا أبيا هي أول قناة مائية في روما القديمة، شُيّدت سنة 312 ق.م في عهد الرقيب أبيوس كلاوديوس كايكوس. كانت تنقل المياه إلى المدينة، ويمر معظم مسارها تحت الأرض.
+
+@ wootz-steel
+wikipedia: Wootz steel
+when: -300
+precision: approx
+coords: 77.5, 11.1
+importance: 2
+title.ko: 우츠강
+summary.ko: 우츠강은 고대 남인도와 스리랑카에서 만들어진 도가니강이다. 철과 탄소 재료를 도가니에 넣고 녹여 만든 고탄소강으로, 특유의 물결무늬가 나타난다. 중동으로 수출되어 다마스쿠스강 칼의 재료로 쓰였다고 알려져 있다.
+
+@ maya-script
+wikipedia: Maya script
+when: -300
+precision: approx
+coords: -89.37, 17.33
+importance: 3
+
+@ archimedes-screw
+wikipedia: Archimedes' screw
+when: -250
+precision: approx
+coords: 15.29, 37.07
+importance: 2
+title.hi: आर्किमिडीज़ पेंच
+summary.hi: आर्किमिडीज़ पेंच एक नली के भीतर घूमने वाले पेंच से बना उपकरण है, जिससे पानी को नीचे से ऊपर उठाया जाता है। इसका श्रेय प्राचीन यूनानी वैज्ञानिक आर्किमिडीज़ को दिया जाता है। आज भी इसका उपयोग सिंचाई और जल निकासी में होता है।
+
+@ astrolabe
+wikipedia: Astrolabe
+when: -150
+precision: approx
+coords: 29.92, 31.2
+importance: 3
+
+@ antikythera-mechanism
+wikipedia: Antikythera mechanism
+when: -100
+precision: approx
+coords: 28.22, 36.43
+importance: 3
+title.hi: एंटीकिथेरा यंत्र
+summary.hi: एंटीकिथेरा यंत्र प्राचीन यूनान का एक हस्तचालित यंत्र है, जिसमें काँसे के गियर लगे हैं और जिससे सूर्य, चंद्रमा की स्थिति और ग्रहणों का अनुमान लगाया जाता था। यह यूनान के एंटीकिथेरा द्वीप के पास एक जहाज़ के मलबे से मिला। इसे सबसे पुराना ज्ञात एनालॉग कंप्यूटर कहा जाता है।
+
+@ porcelain
+wikipedia: Porcelain
+when: 100
+precision: approx
+coords: 120.87, 30.03
+importance: 3
+
+@ stirrup
+wikipedia: Stirrup
+when: 322
+precision: approx
+coords: 118.8, 32.06
+importance: 3
+
+@ hindu-arabic-numerals
+wikipedia: Hindu–Arabic numeral system
+when: 500
+precision: approx
+coords: 75.78, 23.18
+importance: 5
+title.ko: 힌두-아라비아 숫자
+summary.ko: 힌두-아라비아 숫자는 0을 포함한 10개의 기호로 모든 수를 나타내는 십진 자리값 기수법이다. 고대 인도에서 발달해 이슬람 세계를 거쳐 유럽으로 전해졌다. 오늘날 세계에서 가장 널리 쓰이는 숫자 체계이다.
+
+@ quipu
+wikipedia: Quipu
+when: 600
+precision: approx
+coords: -74.2, -13.06
+importance: 2
+title.hi: क्विपु
+summary.hi: क्विपु दक्षिण अमेरिका की एंडीज़ सभ्यताओं, विशेषकर इंका साम्राज्य, में इस्तेमाल होने वाली गाँठदार रस्सियाँ थीं। रस्सियों पर बँधी गाँठों से संख्याएँ और अन्य जानकारी, जैसे कर और जनगणना के आँकड़े, दर्ज की जाती थीं।
+
+@ cheomseongdae
+wikipedia: Cheomseongdae
+when: 640
+precision: approx
+coords: 129.22, 35.83
+importance: 2
+title.hi: चमसॉन्गदे
+summary.hi: चमसॉन्गदे दक्षिण कोरिया के ग्यॉंगजू में स्थित पत्थर की एक मीनार है, जिसे 7वीं शताब्दी में सिला राज्य की रानी सनदक के शासनकाल में बनाया गया। इसे पूर्वी एशिया की सबसे पुरानी ज्ञात खगोलीय वेधशालाओं में गिना जाता है।
+
+@ algebra
+wikipedia: Al-Jabr
+when: 820
+precision: approx
+coords: 44.36, 33.31
+importance: 4
+title.ko: 알자브르 왈무카발라
+summary.ko: 《알자브르 왈무카발라》는 9세기 초 바그다드에서 수학자 무함마드 이븐 무사 알콰리즈미가 쓴 수학책이다. 일차·이차 방정식을 체계적으로 푸는 방법을 다루었으며, '대수학(algebra)'이라는 말이 이 책 제목의 '알자브르'에서 나왔다.
+
+@ book-of-optics
+wikipedia: Book of Optics
+when: 1021
+precision: approx
+coords: 31.24, 30.04
+importance: 3
+title.ko: 광학의 서
+summary.ko: 《광학의 서》는 아랍 학자 이븐 알하이삼이 11세기 초 카이로에서 쓴 일곱 권짜리 광학 책이다. 빛이 물체에서 눈으로 들어와 사물이 보인다는 이론을 실험으로 뒷받침했다. 라틴어로 번역되어 유럽 광학 발전에 큰 영향을 주었다.
+title.zh: 光学之书
+summary.zh: 《光学之书》是阿拉伯学者伊本·海赛木于11世纪初在开罗写成的七卷本光学著作。书中用实验支持光从物体进入眼睛而产生视觉的理论。此书后被译成拉丁文，对欧洲光学影响深远。
+title.hi: प्रकाशिकी की पुस्तक
+summary.hi: प्रकाशिकी की पुस्तक (किताब अल-मनाज़िर) अरब विद्वान इब्न अल-हैथम द्वारा 11वीं शताब्दी की शुरुआत में काहिरा में लिखा गया सात खंडों का ग्रंथ है। इसमें प्रयोगों के आधार पर बताया गया कि प्रकाश वस्तुओं से आँख तक पहुँचता है, तभी हम देख पाते हैं। लैटिन अनुवाद के ज़रिए इसने यूरोप में प्रकाशिकी पर गहरा प्रभाव डाला।
+title.pt: Livro de Óptica
+summary.pt: O Livro de Óptica (Kitab al-Manazir) é um tratado em sete volumes escrito pelo estudioso árabe Ibn al-Haytham no Cairo, no início do século XI. Com base em experimentos, defendeu que a visão ocorre quando a luz vai dos objetos aos olhos. Traduzido para o latim, influenciou fortemente a óptica europeia.
+
+@ paper-money
+wikipedia: Jiaozi (currency)
+when: 1024
+coords: 104.07, 30.67
+importance: 3
+title.hi: जियाओज़ी (मुद्रा)
+summary.hi: जियाओज़ी चीन के सोंग राजवंश के समय सिचुआन क्षेत्र में शुरू हुई कागज़ी मुद्रा है। पहले इसे निजी व्यापारी जारी करते थे, फिर 1024 के आसपास सरकार ने इसे जारी करना शुरू किया। इसे दुनिया की सबसे पुरानी सरकारी कागज़ी मुद्रा माना जाता है।
+title.ar: جياوزي (عملة)
+summary.ar: الجياوزي عملة ورقية ظهرت في إقليم سيتشوان الصيني في عهد أسرة سونغ. أصدرها التجار في البداية، ثم تولت الحكومة إصدارها نحو عام 1024، وتُعدّ أقدم عملة ورقية حكومية في العالم.
+title.pt: Jiaozi (moeda)
+summary.pt: O jiaozi foi uma forma de papel-moeda surgida na região de Sichuan, na China, durante a dinastia Song. Inicialmente emitido por comerciantes, passou a ser emitido pelo governo por volta de 1024 e é considerado o primeiro papel-moeda oficial do mundo.
+
+@ su-song-clock
+wikipedia: Su Song
+when: 1092
+coords: 114.31, 34.8
+importance: 3
+title.hi: सू सोंग की खगोलीय घड़ी मीनार
+summary.hi: सू सोंग चीन के सोंग राजवंश के विद्वान और राजनेता थे। 1090 के दशक में उन्होंने राजधानी कैफ़ेंग में पानी से चलने वाली एक खगोलीय घड़ी मीनार बनवाई, जिसमें एस्केपमेंट तंत्र और शृंखला-चालित संचरण था।
+
+@ goryeo-celadon
+wikipedia: Goryeo ware
+when: 1100
+precision: approx
+coords: 126.77, 34.64
+importance: 2
+title.es: Celadón de Goryeo
+summary.es: El celadón de Goryeo es la cerámica vidriada de tono verde azulado producida en Corea durante la dinastía Goryeo. Alcanzó su apogeo en el siglo XII, cuando se desarrolló la técnica de incrustación llamada sanggam. Los hornos de Gangjin y Buan fueron importantes centros de producción.
+title.hi: गोरयो सेलाडॉन
+summary.hi: गोरयो सेलाडॉन कोरिया के गोरयो राजवंश के समय बने हरे-नीले रंग के चमकदार मिट्टी के पात्र हैं। 12वीं शताब्दी में यह कला अपने शिखर पर पहुँची, जब 'संगगाम' नामक जड़ाऊ तकनीक विकसित हुई। गांगजिन और बुआन इसके प्रमुख उत्पादन केंद्र थे।
+title.ar: سيلادون كوريو
+summary.ar: سيلادون كوريو خزف مزجج بلون أخضر مائل إلى الزرقة صُنع في كوريا خلال عهد أسرة كوريو. بلغ ذروته في القرن الثاني عشر مع تطوير تقنية الترصيع المعروفة باسم سانغام، وكانت أفران كانغجين وبوان من أهم مراكز إنتاجه.
+title.pt: Celadon de Goryeo
+summary.pt: O celadon de Goryeo é a cerâmica vidrada de tom verde-azulado produzida na Coreia durante a dinastia Goryeo. Atingiu seu auge no século XII, quando se desenvolveu a técnica de incrustação chamada sanggam. Os fornos de Gangjin e Buan foram importantes centros de produção.
+
+@ chinampa
+wikipedia: Chinampa
+when: 1150
+precision: approx
+coords: -99.1, 19.26
+importance: 2
+title.hi: चिनाम्पा
+summary.hi: चिनाम्पा मेसोअमेरिका की एक खेती पद्धति है, जिसमें उथली झीलों में मिट्टी और वनस्पति से आयताकार कृत्रिम खेत बनाए जाते थे। एज़्टेक लोगों ने मेक्सिको घाटी की झीलों में इसका बड़े पैमाने पर उपयोग किया। मेक्सिको सिटी के ज़ोचिमिल्को में आज भी चिनाम्पा देखे जा सकते हैं।
+title.ar: تشينامبا
+summary.ar: التشينامبا أسلوب زراعي من أمريكا الوسطى تُبنى فيه حقول اصطناعية مستطيلة في البحيرات الضحلة من الطين والنباتات. استخدمه الأزتك على نطاق واسع في بحيرات وادي المكسيك، ولا تزال نماذج منه قائمة في سوتشيميلكو بمدينة مكسيكو.
+
+@ tripitaka-koreana
+wikipedia: Tripitaka Koreana
+when: 1251
+coords: 126.49, 37.75
+importance: 3
+
+@ jagyeongnu
+wikipedia: Borugak Jagyeongnu
+when: 1434
+coords: 126.977, 37.579
+importance: 2
+title.zh: 报漏阁自击漏
+summary.zh: 自击漏是朝鲜王朝世宗时期于1434年由蒋英实等人制造的自动报时水钟。它利用流水驱动机关，自动敲钟、击鼓、打钲报时。现存的报漏阁自击漏是1536年重制的，被列为韩国国宝。
+title.es: Jagyeongnu de Borugak
+summary.es: El Jagyeongnu es un reloj de agua automático construido en 1434, durante el reinado del rey Sejong de Joseon, por Jang Yeong-sil y otros. Usaba el flujo del agua para hacer sonar automáticamente una campana, un tambor y un gong que marcaban la hora. El ejemplar conservado es una reconstrucción de 1536 y es Tesoro Nacional de Corea del Sur.
+title.hi: बोरुगाक जागयॉन्गनु
+summary.hi: जागयॉन्गनु एक स्वचालित जल घड़ी है, जिसे 1434 में कोरिया के जोसॉन राजवंश के राजा सेजोंग के समय जांग यॉन्ग-सिल और अन्य लोगों ने बनाया। बहते पानी की शक्ति से यह घंटी, ढोल और घड़ियाल बजाकर अपने-आप समय बताती थी। आज बची हुई घड़ी 1536 में दोबारा बनाई गई थी और दक्षिण कोरिया का राष्ट्रीय खज़ाना है।
+title.ar: ساعة بوروغاك جاغيونغنو المائية
+summary.ar: جاغيونغنو ساعة مائية آلية صُنعت عام 1434 في عهد الملك سيجونغ من أسرة جوسون الكورية على يد جانغ يونغ-سيل وآخرين. كانت تستخدم جريان الماء لتقرع جرسًا وطبلًا وصنجًا تلقائيًا للإعلان عن الوقت. والنسخة الباقية أعيد صنعها عام 1536، وهي من الكنوز الوطنية لكوريا الجنوبية.
+title.pt: Jagyeongnu de Borugak
+summary.pt: O Jagyeongnu é um relógio de água automático construído em 1434, no reinado do rei Sejong de Joseon, por Jang Yeong-sil e outros. Usava o fluxo da água para tocar automaticamente um sino, um tambor e um gongo que marcavam as horas. O exemplar preservado é uma reconstrução de 1536 e é Tesouro Nacional da Coreia do Sul.
+
+@ cotton-gin
+wikipedia: Cotton gin
+when: 1793
+coords: -81.2, 32.2
+importance: 2
+title.hi: कॉटन जिन
+summary.hi: कॉटन जिन एक मशीन है जो कपास के रेशों को उसके बीजों से जल्दी अलग करती है। अमेरिका में एली व्हिटनी ने 1793 में इसका एक रूप बनाया और 1794 में पेटेंट कराया। इससे अमेरिका के दक्षिणी राज्यों में कपास की खेती और दास श्रम दोनों का तेज़ी से विस्तार हुआ।
+
+@ bicycle
+wikipedia: Dandy horse
+when: 1817
+coords: 8.47, 49.49
+importance: 3
+title.ko: 드라이지네
+summary.ko: 드라이지네(댄디 호스)는 1817년 독일 만하임에서 카를 드라이스가 만든 두 바퀴 탈것이다. 페달 없이 발로 땅을 차서 나아가는 방식이었으며, 자전거의 시초로 여겨진다.
+title.zh: 德莱斯自行车
+summary.zh: 德莱斯车（又称“丹迪马”）是德国人卡尔·德莱斯于1817年在曼海姆制造的两轮代步工具。它没有踏板，骑行者用脚蹬地前进，被视为自行车的雏形。
+title.hi: ड्रेसीन (डैंडी हॉर्स)
+summary.hi: डैंडी हॉर्स या ड्रेसीन दो पहियों वाला वाहन है, जिसे जर्मनी के कार्ल ड्राइस ने 1817 में मैनहाइम में बनाया। इसमें पैडल नहीं थे; सवार पैरों से ज़मीन को धकेलकर आगे बढ़ता था। इसे साइकिल का पूर्वज माना जाता है।
+
+@ quinine
+wikipedia: Quinine
+when: 1820
+coords: 2.35, 48.85
+importance: 3
+
+@ sewing-machine
+wikipedia: Sewing machine
+when: 1830
+coords: 4.39, 45.43
+importance: 2
+
+@ refrigeration
+wikipedia: Vapor-compression refrigeration
+when: 1834
+coords: -0.1, 51.52
+importance: 3
+title.hi: वाष्प-संपीडन प्रशीतन
+summary.hi: वाष्प-संपीडन प्रशीतन वह तकनीक है जिसमें एक प्रशीतक द्रव को बार-बार संपीडित और वाष्पित करके ऊष्मा बाहर निकाली जाती है। 1834 में जैकब पर्किन्स ने लंदन में इस सिद्धांत पर आधारित प्रणाली का पेटेंट कराया। आज के अधिकांश फ़्रिज और एयर कंडीशनर इसी सिद्धांत पर चलते हैं।
+
+@ analytical-engine
+wikipedia: Analytical engine
+when: 1837
+coords: -0.13, 51.5
+importance: 3
+title.hi: एनालिटिकल इंजन
+summary.hi: एनालिटिकल इंजन अंग्रेज़ गणितज्ञ चार्ल्स बैबेज द्वारा 1837 में प्रस्तावित एक यांत्रिक सामान्य-उद्देश्य कंप्यूटर का डिज़ाइन था। इसमें अंकगणितीय इकाई, नियंत्रण प्रवाह और स्मृति जैसी विशेषताएँ थीं। यह कभी पूरा नहीं बना, पर इसे आधुनिक कंप्यूटर का पूर्वरूप माना जाता है।
+
+@ anesthesia
+wikipedia: History of general anesthesia
+when: 1846-10
+coords: -71.069, 42.363
+importance: 4
+title.ko: 에테르 전신 마취
+summary.ko: 1846년 10월 미국 보스턴의 매사추세츠 종합병원에서 치과의사 윌리엄 모턴이 에테르를 이용한 전신 마취를 공개 시연했다. 환자는 통증 없이 목의 종양 제거 수술을 받았고, 이 소식이 빠르게 퍼지며 마취 수술이 세계로 확산되었다. 이보다 앞서 1804년 일본의 하나오카 세이슈가 약초 마취제로 수술한 기록도 있다.
+title.zh: 乙醚全身麻醉
+summary.zh: 1846年10月，牙医威廉·莫顿在美国波士顿的麻省总医院公开演示了用乙醚进行的全身麻醉。患者在无痛状态下接受了颈部肿瘤切除手术，消息迅速传开，麻醉手术随之推广到世界各地。在此之前，日本的华冈青洲曾于1804年使用草药麻醉剂进行手术。
+title.es: Anestesia general con éter
+summary.es: En octubre de 1846, el dentista William Morton realizó en el Hospital General de Massachusetts, en Boston, una demostración pública de anestesia general con éter. El paciente fue operado de un tumor en el cuello sin dolor, y la noticia difundió rápidamente la cirugía con anestesia por todo el mundo. Antes, en 1804, el japonés Hanaoka Seishū ya había operado con un anestésico a base de hierbas.
+title.hi: ईथर द्वारा सामान्य संज्ञाहरण
+summary.hi: अक्टूबर 1846 में अमेरिका के बोस्टन स्थित मैसाचुसेट्स जनरल अस्पताल में दंत चिकित्सक विलियम मॉर्टन ने ईथर से सामान्य संज्ञाहरण (एनेस्थीसिया) का सार्वजनिक प्रदर्शन किया। मरीज़ की गर्दन से ट्यूमर बिना दर्द के निकाला गया, और यह खबर तेज़ी से फैलने के साथ संज्ञाहरण के साथ शल्यक्रिया दुनिया भर में अपनाई गई। इससे पहले 1804 में जापान के हानाओका सेइशू ने जड़ी-बूटियों से बने संज्ञाहारी के साथ शल्यक्रिया की थी।
+title.fr: Anesthésie générale à l'éther
+summary.fr: En octobre 1846, le dentiste William Morton fit à l'hôpital général du Massachusetts, à Boston, une démonstration publique d'anesthésie générale à l'éther. Le patient fut opéré sans douleur d'une tumeur au cou, et la nouvelle diffusa rapidement la chirurgie sous anesthésie dans le monde. Auparavant, en 1804, le Japonais Hanaoka Seishū avait déjà opéré à l'aide d'un anesthésique à base de plantes.
+title.pt: Anestesia geral com éter
+summary.pt: Em outubro de 1846, o dentista William Morton fez no Hospital Geral de Massachusetts, em Boston, uma demonstração pública de anestesia geral com éter. O paciente foi operado de um tumor no pescoço sem dor, e a notícia espalhou rapidamente a cirurgia com anestesia pelo mundo. Antes, em 1804, o japonês Hanaoka Seishū já havia operado com um anestésico à base de ervas.
+
+@ elevator
+wikipedia: Elevator
+when: 1857-03
+coords: -73.999, 40.723
+importance: 3
+
+@ antiseptic-surgery
+wikipedia: Antiseptic
+when: 1867
+coords: -4.24, 55.86
+importance: 3
+
+@ typewriter
+wikipedia: Sholes and Glidden typewriter
+when: 1868
+coords: -87.91, 43.04
+importance: 2
+title.ko: 숄스 앤드 글리든 타자기
+summary.ko: 숄스 앤드 글리든 타자기는 크리스토퍼 레이섬 숄스 등이 미국 밀워키에서 개발하고 1873년부터 레밍턴사가 생산한, 처음으로 상업적 성공을 거둔 타자기이다. 오늘날 키보드에 쓰이는 쿼티(QWERTY) 자판 배열이 이 기계에서 처음 쓰였다.
+title.hi: शोल्स एंड ग्लिडन टाइपराइटर
+summary.hi: शोल्स एंड ग्लिडन टाइपराइटर पहला व्यावसायिक रूप से सफल टाइपराइटर था, जिसे क्रिस्टोफ़र लैथम शोल्स और उनके साथियों ने अमेरिका के मिल्वॉकी में विकसित किया और 1873 से रेमिंगटन कंपनी ने बनाया। आज के कीबोर्ड में प्रयुक्त QWERTY कुंजी-क्रम पहली बार इसी मशीन में इस्तेमाल हुआ।
+
+@ diesel-engine
+wikipedia: Diesel engine
+when: 1893
+coords: 10.9, 48.37
+importance: 3
+
+@ aspirin
+wikipedia: Aspirin
+when: 1897
+coords: 7.15, 51.26
+importance: 3
+
+@ vacuum-tube
+wikipedia: Vacuum tube
+when: 1904
+coords: -0.134, 51.525
+importance: 3
+
+@ bakelite
+wikipedia: Bakelite
+when: 1907
+coords: -73.9, 40.93
+importance: 3
+
+@ haber-process
+wikipedia: Haber process
+when: 1909
+coords: 8.41, 49.01
+importance: 4
+
+@ assembly-line
+wikipedia: Assembly line
+when: 1913
+coords: -83.1, 42.41
+importance: 4
+
+@ insulin
+wikipedia: Insulin (medication)
+when: 1922-01
+coords: -79.39, 43.66
+importance: 4
+title.ko: 인슐린 (약물)
+summary.ko: 인슐린은 당뇨병 치료에 쓰이는 호르몬 약물이다. 1921년 캐나다 토론토 대학교의 프레더릭 밴팅과 찰스 베스트가 췌장에서 인슐린을 추출했고, 1922년 1월 처음으로 환자에게 투여되었다. 이 업적으로 1923년 노벨 생리의학상이 수여되었다.
+title.hi: इंसुलिन (औषधि)
+summary.hi: इंसुलिन मधुमेह के इलाज में इस्तेमाल होने वाली हार्मोन औषधि है। 1921 में कनाडा के टोरंटो विश्वविद्यालय में फ़्रेडरिक बैंटिंग और चार्ल्स बेस्ट ने अग्न्याशय से इंसुलिन निकाला, और जनवरी 1922 में पहली बार किसी मरीज़ को यह दिया गया। इस खोज के लिए 1923 का चिकित्सा नोबेल पुरस्कार दिया गया।
+
+@ nylon
+wikipedia: Nylon
+when: 1935
+coords: -75.55, 39.74
+importance: 3
+
+@ helicopter
+wikipedia: Helicopter
+when: 1936
+coords: 8.8, 53.08
+importance: 3
+
+@ colossus-computer
+wikipedia: Colossus computer
+when: 1944
+coords: -0.74, 51.99
+importance: 3
+title.hi: कोलोसस कंप्यूटर
+summary.hi: कोलोसस द्वितीय विश्व युद्ध के दौरान ब्रिटेन के ब्लेचली पार्क में जर्मन लॉरेंज सिफ़र को तोड़ने के लिए बनाए गए कंप्यूटरों की श्रृंखला थी। टॉमी फ़्लावर्स के नेतृत्व में बने इन यंत्रों को पहला प्रोग्राम योग्य इलेक्ट्रॉनिक डिजिटल कंप्यूटर माना जाता है। पहला कोलोसस 1944 की शुरुआत में काम करने लगा।
+
+@ solar-cell
+wikipedia: Solar cell
+when: 1954
+coords: -74.4, 40.68
+importance: 3
+
+@ polio-vaccine
+wikipedia: Polio vaccine
+when: 1955-04
+coords: -79.96, 40.44
+importance: 4
+
+@ containerization
+wikipedia: Containerization
+when: 1956-04
+coords: -74.15, 40.68
+importance: 3
+title.zh: 集装箱化
+summary.zh: 集装箱化是使用标准化集装箱运输货物的方式，集装箱可在船舶、铁路和卡车之间直接转运。1956年，美国企业家马尔科姆·麦克莱恩用改装的油轮“理想X号”从纽瓦克运出首批集装箱，此后全球贸易的运输成本大幅下降。
+title.hi: कंटेनरीकरण
+summary.hi: कंटेनरीकरण मानक आकार के कंटेनरों में माल ढोने की प्रणाली है, जिसमें कंटेनरों को जहाज़, रेल और ट्रक के बीच सीधे बदला जा सकता है। 1956 में अमेरिकी उद्यमी मैल्कम मैकलीन ने बदले हुए टैंकर 'आइडियल एक्स' से न्यूआर्क से पहली खेप भेजी। इससे वैश्विक व्यापार में माल ढुलाई की लागत बहुत घट गई।
+
+@ flight-recorder
+wikipedia: Flight recorder
+when: 1958
+coords: 144.96, -37.81
+importance: 2
+
+@ instant-noodles
+wikipedia: Instant noodles
+when: 1958
+coords: 135.43, 34.82
+importance: 2
+
+@ led
+wikipedia: Light-emitting diode
+when: 1962
+coords: -76.15, 43.05
+importance: 3
+
+@ computer-mouse
+wikipedia: Computer mouse
+when: 1964
+coords: -122.17, 37.457
+importance: 3
+
+@ shinkansen
+wikipedia: Shinkansen
+when: 1964-10
+coords: 139.77, 35.68
+importance: 3
+
+@ dram
+wikipedia: Dynamic random-access memory
+when: 1966
+coords: -73.8, 41.27
+importance: 3
+title.hi: डायनामिक रैंडम-एक्सेस मेमोरी
+summary.hi: डायनामिक रैंडम-एक्सेस मेमोरी (DRAM) एक प्रकार की अर्धचालक मेमोरी है, जिसमें हर बिट एक छोटे संधारित्र में संग्रहीत होती है, इसलिए इसे बार-बार रिफ़्रेश करना पड़ता है। IBM के रॉबर्ट डेनार्ड ने 1966 में एक-ट्रांज़िस्टर DRAM सेल का आविष्कार किया। आज यह कंप्यूटर और स्मार्टफ़ोन की मुख्य मेमोरी है।
+
+@ heart-transplant
+wikipedia: Heart transplantation
+when: 1967-12
+coords: 18.46, -33.94
+importance: 3
+
+@ optical-fiber
+wikipedia: Optical fiber
+when: 1970
+coords: -77.05, 42.14
+importance: 3
+
+@ ct-scan
+wikipedia: CT scan
+when: 1971-10
+coords: -0.21, 51.42
+importance: 3
+
+@ mri
+wikipedia: Magnetic resonance imaging
+when: 1973
+coords: -73.12, 40.91
+importance: 3
+
+@ apple-ii
+wikipedia: Apple II
+when: 1977
+coords: -122.03, 37.32
+importance: 4
+title.hi: एप्पल II
+summary.hi: एप्पल II एक माइक्रोकंप्यूटर है, जिसे मुख्य रूप से स्टीव वॉज़नियाक ने डिज़ाइन किया और एप्पल ने 1977 में बाज़ार में उतारा। रंगीन ग्राफ़िक्स वाला और तैयार अवस्था में बिकने वाला यह कंप्यूटर व्यावसायिक रूप से बहुत सफल शुरुआती पर्सनल कंप्यूटरों में से एक था।
+title.fr: Apple II
+summary.fr: L'Apple II est un micro-ordinateur conçu principalement par Steve Wozniak et commercialisé par Apple à partir de 1977. Vendu prêt à l'emploi et doté d'un affichage en couleur, il fut l'un des premiers ordinateurs personnels à connaître un grand succès commercial.
+
+@ ivf
+wikipedia: In vitro fertilisation
+when: 1978-07
+coords: -2.12, 53.54
+importance: 3
+
+@ 3d-printing
+wikipedia: 3D printing
+when: 1984
+coords: -118.6, 34.44
+importance: 3
+
+@ hubble
+wikipedia: Hubble Space Telescope
+when: 1990-04
+coords: -80.65, 28.57
+importance: 3
+
+@ linux
+wikipedia: Linux
+when: 1991-09
+coords: 24.94, 60.17
+importance: 3
+
+@ qr-code
+wikipedia: QR code
+when: 1994
+coords: 137.0, 34.99
+importance: 2
+
+@ dolly-sheep
+wikipedia: Dolly (sheep)
+when: 1996-07
+coords: -3.17, 55.86
+importance: 3
+
+@ google-search
+wikipedia: Google Search
+when: 1998-09
+coords: -122.17, 37.43
+importance: 4
+
+@ iss
+wikipedia: International Space Station
+when: 1998-11
+coords: 63.31, 45.96
+importance: 3
+
+@ m-pesa
+wikipedia: M-Pesa
+when: 2007-03
+coords: 36.82, -1.29
+importance: 2
+title.hi: एम-पेसा
+summary.hi: एम-पेसा मोबाइल फ़ोन से पैसे भेजने, जमा करने और भुगतान करने की सेवा है, जिसे 2007 में केन्या में सफ़ारीकॉम और वोडाफ़ोन ने शुरू किया। बैंक खाते के बिना भी इस्तेमाल हो सकने के कारण यह पूर्वी अफ़्रीका में तेज़ी से फैली।
+title.ar: إم-بيسا
+summary.ar: إم-بيسا خدمة لتحويل الأموال وإيداعها والدفع عبر الهاتف المحمول، أطلقتها شركتا سفاريكوم وفودافون في كينيا عام 2007. انتشرت بسرعة في شرق أفريقيا لأنها تتيح الاستخدام دون حساب مصرفي.
+
+@ reusable-rocket
+wikipedia: Falcon 9 flight 20
+when: 2015-12
+coords: -80.54, 28.49
+importance: 3
+title.ko: 팰컨 9 첫 1단 착륙
+summary.ko: 팰컨 9 20번째 비행은 2015년 12월 미국 케이프커내버럴에서 스페이스X가 발사한 임무이다. 위성들을 궤도에 올린 뒤 1단 로켓이 발사장 근처 착륙장에 수직으로 내려앉아, 궤도 발사 로켓의 1단이 처음으로 온전히 회수되었다. 이후 로켓 재사용 시대를 여는 계기가 되었다.
+title.zh: 猎鹰9号首次一级回收
+summary.zh: 猎鹰9号第20次飞行是SpaceX于2015年12月在美国卡纳维拉尔角发射的任务。火箭将卫星送入轨道后，第一级垂直降落在发射场附近的着陆区，这是轨道运载火箭的第一级首次被完整回收，开启了火箭重复使用的时代。
+title.hi: फ़ॉल्कन 9 की पहली प्रथम-चरण लैंडिंग
+summary.hi: फ़ॉल्कन 9 की 20वीं उड़ान स्पेसएक्स ने दिसंबर 2015 में अमेरिका के केप कैनावेरल से भेजी थी। उपग्रहों को कक्षा में पहुँचाने के बाद रॉकेट का पहला चरण प्रक्षेपण स्थल के पास सीधा उतरा, और पहली बार किसी कक्षीय रॉकेट का पहला चरण सुरक्षित वापस मिला। इससे रॉकेटों के पुनः उपयोग का रास्ता खुला।
+title.ar: أول هبوط للمرحلة الأولى من فالكون 9
+summary.ar: الرحلة العشرون لصاروخ فالكون 9 أطلقتها شركة سبيس إكس من كيب كانافيرال في الولايات المتحدة في ديسمبر 2015. بعد وضع الأقمار الصناعية في المدار، هبطت المرحلة الأولى عموديًا على منصة قرب موقع الإطلاق، لتكون أول مرحلة أولى لصاروخ مداري تُستعاد سليمة، ما مهّد لعصر إعادة استخدام الصواريخ.
+title.fr: Premier atterrissage du premier étage de Falcon 9
+summary.fr: Le vol 20 de Falcon 9 est une mission lancée par SpaceX depuis Cap Canaveral, aux États-Unis, en décembre 2015. Après la mise en orbite de satellites, le premier étage s'est posé verticalement près du site de lancement : c'était la première fois que le premier étage d'un lanceur orbital était récupéré intact, ouvrant la voie à la réutilisation des fusées.
+
+@ alphago
+wikipedia: AlphaGo
+when: 2016-03
+coords: 126.98, 37.57
+importance: 3

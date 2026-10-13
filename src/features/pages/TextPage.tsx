@@ -5,8 +5,9 @@ import { ExternalIcon } from "@/components/ui/icons";
 
 export type TextPageKind = "about" | "privacy" | "contact";
 
-/** 연락용 이메일. 배포 때 NEXT_PUBLIC_CONTACT_EMAIL로 지정하면 연락처 페이지에 보인다(없으면 GitHub 이슈만) */
-const CONTACT_EMAIL = process.env.NEXT_PUBLIC_CONTACT_EMAIL;
+/** 연락용 이메일(연락처 페이지에 공개). 배포 환경변수 NEXT_PUBLIC_CONTACT_EMAIL로 바꿀 수 있다 */
+const CONTACT_EMAIL =
+  process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "oasa741@gmail.com";
 
 function content(locale: Locale, kind: TextPageKind) {
   const p = getMessages(locale).pages;
