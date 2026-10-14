@@ -83,7 +83,7 @@ export function TopicGauge() {
             </span>
           </Slider.Thumb>
         </Slider.Root>
-        <div className="pointer-events-none absolute inset-x-2 top-full h-5 text-sm leading-none text-muted">
+        <div className="pointer-events-none absolute inset-x-2 top-[calc(100%-0.75rem)] h-5 lg:top-full text-sm leading-none text-muted">
           {scale.marks.map((m, i) => (
             <button
               key={m.year}

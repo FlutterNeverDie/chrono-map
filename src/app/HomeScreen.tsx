@@ -8,6 +8,7 @@ import { EventsProvider } from "@/store/events";
 import { localizeEvent } from "@/lib/localize";
 import { EVENTS, RANKINGS } from "@/data/content";
 import { BottomBar } from "./BottomBar";
+import { AdSlot } from "@/features/ads";
 
 /**
  * 메인 화면(크로노맵): 지도가 하단 바 위 영역을 모두 덮고, 나머지 UI는 그 위에 떠 있다.
@@ -23,12 +24,12 @@ export function HomeScreen({ locale }: { locale: Locale }) {
         events={EVENTS.map((e) => localizeEvent(e, locale))}
         rankings={RANKINGS}
       >
-        <div className="relative h-dvh w-full overflow-hidden bg-[var(--map-ocean)] [--bar-h:calc(8.75rem+env(safe-area-inset-bottom))] lg:[--bar-h:calc(5.75rem+env(safe-area-inset-bottom))] [--top-h:0rem]">
+        <div className="relative h-dvh w-full overflow-hidden bg-[var(--map-ocean)] [--bar-h:calc(6.3rem+env(safe-area-inset-bottom))] lg:[--bar-h:calc(5.75rem+env(safe-area-inset-bottom))] [--top-h:0rem]">
           <div className="absolute inset-x-0 top-0 bottom-[var(--bar-h)]">
             <WorldMap />
           </div>
 
-          <EventPanel />
+          <EventPanel ad={<AdSlot name="infeed" />} />
 
           <div className="pointer-events-none absolute start-3 bottom-[calc(var(--bar-h)+0.5rem)] z-10 hidden lg:block">
             <Attribution />

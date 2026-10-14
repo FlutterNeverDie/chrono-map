@@ -1,11 +1,14 @@
 "use client";
 
+import type { ReactNode } from "react";
+
 import { useEffect, useMemo, useState } from "react";
 import clsx from "clsx";
 import { fill } from "@/i18n";
 import { useI18n } from "@/i18n/I18nProvider";
 import { ChevronUpIcon, XIcon } from "@/components/ui/icons";
 import { WikiLink } from "@/components/ui/WikiLink";
+import { withAd } from "@/components/ui/withAd";
 import { ExpandableText } from "@/components/ui/ExpandableText";
 import { useCampaign, useCampaignState } from "./store";
 import {
@@ -23,7 +26,8 @@ import type { Battle } from "./types";
  * "이 시기" = 슬라이더가 가리키는 때의 전투(중요한 순), "전체 전투" = 전쟁 전체를 시간 순으로.
  * 전체 목록에서 전투를 고르면 슬라이더도 그 시점으로 옮긴다.
  */
-export function BattlePanel() {
+/** ad: 전투 카드 사이에 넣을 광고(3번째 뒤) — app이 넘긴다 */
+export function BattlePanel({ ad }: { ad?: ReactNode } = {}) {
   const { locale, messages } = useI18n();
   const c = useCampaign();
   const t = useCampaignState((s) => s.t);
@@ -147,49 +151,52 @@ export function BattlePanel() {
           </p>
         )}
         <ol className="space-y-3">
-          {list.map((b) => {
-            const summary = battleSummary(b, locale);
-            const on = b.id === selected;
-            return (
-              <li key={b.id} id={`battle-${b.id}`}>
-                <article
-                  onClick={() => choose(b)}
-                  className={clsx(
-                    "cursor-pointer rounded-lg border bg-surface p-5 transition-colors",
-                    on
-                      ? "border-accent ring-2 ring-accent/30"
-                      : "border-line hover:border-muted/50",
-                  )}
-                >
-                  <p className="text-[15px] text-muted">
-                    {formatRange(b.start, b.end, c.unit, locale)}
-                  </p>
-                  <h3 className="mt-1.5 text-xl leading-snug font-bold lg:text-2xl xl:text-[26px]">
-                    {battleTitle(b, locale)}
-                  </h3>
-                  {summary.text && (
-                    <ExpandableText
-                      text={summary.text}
-                      lang={summary.lang}
-                      lines={3}
-                      moreLabel={messages.ui.details}
-                      lessLabel={messages.ui.collapse}
-                      className="mt-2 text-base text-muted lg:text-lg xl:text-[19px]"
-                      trailing={
-                        summary.page && (
-                          <WikiLink
-                            href={summary.page.url}
-                            label={messages.ui.readMore}
-                            source={`${messages.ui.wikipedia} · CC BY-SA 4.0`}
-                          />
-                        )
-                      }
-                    />
-                  )}
-                </article>
-              </li>
-            );
-          })}
+          {withAd(
+            list.map((b) => {
+              const summary = battleSummary(b, locale);
+              const on = b.id === selected;
+              return (
+                <li key={b.id} id={`battle-${b.id}`}>
+                  <article
+                    onClick={() => choose(b)}
+                    className={clsx(
+                      "cursor-pointer rounded-lg border bg-surface p-5 transition-colors",
+                      on
+                        ? "border-accent ring-2 ring-accent/30"
+                        : "border-line hover:border-muted/50",
+                    )}
+                  >
+                    <p className="text-[15px] text-muted">
+                      {formatRange(b.start, b.end, c.unit, locale)}
+                    </p>
+                    <h3 className="mt-1.5 text-xl leading-snug font-bold lg:text-2xl xl:text-[26px]">
+                      {battleTitle(b, locale)}
+                    </h3>
+                    {summary.text && (
+                      <ExpandableText
+                        text={summary.text}
+                        lang={summary.lang}
+                        lines={3}
+                        moreLabel={messages.ui.details}
+                        lessLabel={messages.ui.collapse}
+                        className="mt-2 text-base text-muted lg:text-lg xl:text-[19px]"
+                        trailing={
+                          summary.page && (
+                            <WikiLink
+                              href={summary.page.url}
+                              label={messages.ui.readMore}
+                              source={`${messages.ui.wikipedia} · CC BY-SA 4.0`}
+                            />
+                          )
+                        }
+                      />
+                    )}
+                  </article>
+                </li>
+              );
+            }),
+            ad,
+          )}
         </ol>
       </div>
     </section>

@@ -13,6 +13,7 @@ export const zh: Messages = {
     latest: "最新出现",
   },
   wars: {
+    backToList: "全部战争地图",
     tab: "战争地图",
     indexTitle: "战争地图",
     indexDescription:
@@ -121,6 +122,7 @@ export const zh: Messages = {
   },
   ui: {
     settings: "设置",
+    ad: "广告",
     viewpoint: "视角",
     language: "语言",
     prevYear: "上一年",
@@ -143,7 +145,7 @@ export const zh: Messages = {
     zoomOut: "缩小",
     wikipedia: "维基百科",
     readMore: "在维基百科上继续阅读",
-    details: "详情",
+    details: "展开",
     collapse: "收起",
     otherMaps: "这一时期的其他地图",
     close: "关闭",

@@ -147,9 +147,3 @@ export const BulbIcon = ({ className }: IconProps) => (
 );
 
 /** 위키백과(둥근 테두리 안의 W) */
-export const WikipediaIcon = ({ className }: IconProps) => (
-  <svg {...base} className={className}>
-    <circle cx="12" cy="12" r="9.5" />
-    <path d="m6.5 8.5 2.6 7.5 2.9-6.5 2.9 6.5 2.6-7.5" />
-  </svg>
-);

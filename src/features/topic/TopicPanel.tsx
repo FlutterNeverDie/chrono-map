@@ -1,5 +1,7 @@
 "use client";
 
+import type { ReactNode } from "react";
+
 import { useEffect, useMemo, useState } from "react";
 import clsx from "clsx";
 import { fill } from "@/i18n";
@@ -8,6 +10,7 @@ import { localeHref } from "@/i18n/locales";
 import { pick } from "@/lib/localize";
 import { ChevronUpIcon, XIcon } from "@/components/ui/icons";
 import { WikiLink } from "@/components/ui/WikiLink";
+import { withAd } from "@/components/ui/withAd";
 import { ExpandableText } from "@/components/ui/ExpandableText";
 import { useTopic, useTopicState } from "./store";
 import {
@@ -21,7 +24,8 @@ import {
 import type { TopicItem } from "./types";
 
 /** 항목 목록: "이 시기"(진행 중이거나 최근 등장) / "전체"(시간 순, 고르면 그 시점으로 이동) */
-export function TopicPanel() {
+/** ad: 항목 카드 사이에 넣을 광고(3번째 뒤) — app이 넘긴다 */
+export function TopicPanel({ ad }: { ad?: ReactNode } = {}) {
   const { locale, messages } = useI18n();
   const topic = useTopic();
   const t = useTopicState((s) => s.t);
@@ -119,63 +123,66 @@ export function TopicPanel() {
           </p>
         )}
         <ol className="space-y-3">
-          {list.map((it) => {
-            const summary = itemSummary(it, locale);
-            const on = it.id === selected;
-            return (
-              <li key={it.id} id={`item-${it.id}`}>
-                <article
-                  onClick={() => choose(it)}
-                  className={clsx(
-                    "cursor-pointer rounded-lg border bg-surface p-5 transition-colors",
-                    on
-                      ? "border-accent ring-2 ring-accent/30"
-                      : "border-line hover:border-muted/50",
-                  )}
-                >
-                  <p className="flex items-center gap-2 text-[15px] text-muted lg:text-base">
-                    <span
-                      aria-hidden
-                      className="size-3 rounded-full"
-                      style={{ backgroundColor: itemColor(topic, it.id) }}
-                    />
-                    {formatItemWhen(it, topic, locale)}
-                  </p>
-                  <h3 className="mt-1.5 text-xl leading-snug font-bold lg:text-2xl xl:text-[26px]">
-                    {itemTitle(it, locale)}
-                  </h3>
-                  {summary.text && (
-                    <ExpandableText
-                      text={summary.text}
-                      lang={summary.lang}
-                      lines={3}
-                      moreLabel={messages.ui.details}
-                      lessLabel={messages.ui.collapse}
-                      className="mt-2 text-base text-muted lg:text-lg xl:text-[19px]"
-                      trailing={
-                        summary.page && (
-                          <WikiLink
-                            href={summary.page.url}
-                            label={messages.ui.readMore}
-                            source={`${messages.ui.wikipedia} · CC BY-SA 4.0`}
-                          />
-                        )
-                      }
-                    />
-                  )}
-                  {it.link && (
-                    <a
-                      href={localeHref(locale, it.link)}
-                      onClick={(e) => e.stopPropagation()}
-                      className="mt-3 inline-flex h-11 items-center rounded-md bg-foreground px-4 text-base font-semibold text-background"
-                    >
-                      {pick(topic.linkLabel ?? {}, locale)}
-                    </a>
-                  )}
-                </article>
-              </li>
-            );
-          })}
+          {withAd(
+            list.map((it) => {
+              const summary = itemSummary(it, locale);
+              const on = it.id === selected;
+              return (
+                <li key={it.id} id={`item-${it.id}`}>
+                  <article
+                    onClick={() => choose(it)}
+                    className={clsx(
+                      "cursor-pointer rounded-lg border bg-surface p-5 transition-colors",
+                      on
+                        ? "border-accent ring-2 ring-accent/30"
+                        : "border-line hover:border-muted/50",
+                    )}
+                  >
+                    <p className="flex items-center gap-2 text-[15px] text-muted lg:text-base">
+                      <span
+                        aria-hidden
+                        className="size-3 rounded-full"
+                        style={{ backgroundColor: itemColor(topic, it.id) }}
+                      />
+                      {formatItemWhen(it, topic, locale)}
+                    </p>
+                    <h3 className="mt-1.5 text-xl leading-snug font-bold lg:text-2xl xl:text-[26px]">
+                      {itemTitle(it, locale)}
+                    </h3>
+                    {summary.text && (
+                      <ExpandableText
+                        text={summary.text}
+                        lang={summary.lang}
+                        lines={3}
+                        moreLabel={messages.ui.details}
+                        lessLabel={messages.ui.collapse}
+                        className="mt-2 text-base text-muted lg:text-lg xl:text-[19px]"
+                        trailing={
+                          summary.page && (
+                            <WikiLink
+                              href={summary.page.url}
+                              label={messages.ui.readMore}
+                              source={`${messages.ui.wikipedia} · CC BY-SA 4.0`}
+                            />
+                          )
+                        }
+                      />
+                    )}
+                    {it.link && (
+                      <a
+                        href={localeHref(locale, it.link)}
+                        onClick={(e) => e.stopPropagation()}
+                        className="mt-3 inline-flex h-11 items-center rounded-md bg-foreground px-4 text-base font-semibold text-background"
+                      >
+                        {pick(topic.linkLabel ?? {}, locale)}
+                      </a>
+                    )}
+                  </article>
+                </li>
+              );
+            }),
+            ad,
+          )}
         </ol>
       </div>
     </section>

@@ -1,5 +1,7 @@
 "use client";
 
+import type { ReactNode } from "react";
+
 import clsx from "clsx";
 import { useUi } from "@/store/ui";
 import { usePeriod } from "@/store/timeline";
@@ -15,7 +17,8 @@ import { CategoryFilter } from "./CategoryFilter";
  * 지도 위에 떠 있는 사건 목록.
  * 모바일: 하단 게이지 위 접이식 시트 / 데스크톱(lg): 오른쪽 패널
  */
-export function EventPanel() {
+/** ad: 사건 카드 사이 광고(app이 넘김) */
+export function EventPanel({ ad }: { ad?: ReactNode } = {}) {
   const { locale, messages } = useI18n();
   const period = usePeriod();
   const open = useUi((s) => s.panelOpen);
@@ -63,7 +66,7 @@ export function EventPanel() {
           "lg:block lg:max-h-none lg:flex-1",
         )}
       >
-        <EventList />
+        <EventList ad={ad} />
         <p className="mt-4 flex gap-4 px-1 text-sm text-muted">
           <a
             href={localeHref(locale, "about")}

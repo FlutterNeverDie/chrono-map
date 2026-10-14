@@ -12,6 +12,7 @@ export const ko = {
     latest: "최근 등장",
   },
   wars: {
+    backToList: "전쟁 지도 목록",
     tab: "전쟁 지도",
     indexTitle: "전쟁 지도",
     indexDescription:
@@ -122,6 +123,7 @@ export const ko = {
   },
   ui: {
     settings: "설정",
+    ad: "광고",
     viewpoint: "시점",
     language: "언어",
     prevYear: "1년 전",
@@ -144,7 +146,7 @@ export const ko = {
     zoomOut: "축소",
     wikipedia: "위키백과",
     readMore: "위키백과에서 계속 읽기",
-    details: "자세히",
+    details: "펼치기",
     collapse: "접기",
     otherMaps: "이 시기의 다른 지도",
     close: "닫기",

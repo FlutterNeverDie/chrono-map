@@ -14,6 +14,7 @@ export const en: Messages = {
     latest: "Most recent",
   },
   wars: {
+    backToList: "All war maps",
     tab: "War maps",
     indexTitle: "War maps",
     indexDescription:
@@ -125,6 +126,7 @@ export const en: Messages = {
   },
   ui: {
     settings: "Settings",
+    ad: "Advertisement",
     viewpoint: "View",
     language: "Language",
     prevYear: "Previous year",
@@ -147,7 +149,7 @@ export const en: Messages = {
     zoomOut: "Zoom out",
     wikipedia: "Wikipedia",
     readMore: "Continue reading on Wikipedia",
-    details: "Details",
+    details: "Expand",
     collapse: "Show less",
     otherMaps: "Other maps for this period",
     close: "Close",

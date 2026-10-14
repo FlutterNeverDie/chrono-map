@@ -14,6 +14,7 @@ export const fr: Messages = {
     latest: "Les plus récents",
   },
   wars: {
+    backToList: "Toutes les cartes de guerre",
     tab: "Cartes des guerres",
     indexTitle: "Cartes des guerres",
     indexDescription:
@@ -125,6 +126,7 @@ export const fr: Messages = {
   },
   ui: {
     settings: "Réglages",
+    ad: "Publicité",
     viewpoint: "Vue",
     language: "Langue",
     prevYear: "Année précédente",
@@ -147,7 +149,7 @@ export const fr: Messages = {
     zoomOut: "Zoom arrière",
     wikipedia: "Wikipédia",
     readMore: "Lire la suite sur Wikipédia",
-    details: "Détails",
+    details: "Déplier",
     collapse: "Réduire",
     otherMaps: "Autres cartes de cette période",
     close: "Fermer",

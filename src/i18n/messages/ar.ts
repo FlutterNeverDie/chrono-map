@@ -14,6 +14,7 @@ export const ar: Messages = {
     latest: "الأحدث",
   },
   wars: {
+    backToList: "كل خرائط الحروب",
     tab: "خرائط الحروب",
     indexTitle: "خرائط الحروب",
     indexDescription:
@@ -124,6 +125,7 @@ export const ar: Messages = {
   },
   ui: {
     settings: "الإعدادات",
+    ad: "إعلان",
     viewpoint: "العرض",
     language: "اللغة",
     prevYear: "السنة السابقة",
@@ -146,7 +148,7 @@ export const ar: Messages = {
     zoomOut: "تصغير",
     wikipedia: "ويكيبيديا",
     readMore: "تابع القراءة في ويكيبيديا",
-    details: "التفاصيل",
+    details: "توسيع",
     collapse: "عرض أقل",
     otherMaps: "خرائط أخرى لهذه الفترة",
     close: "إغلاق",

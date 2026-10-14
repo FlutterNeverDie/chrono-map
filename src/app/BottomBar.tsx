@@ -32,7 +32,7 @@ const MAP_ICONS: Record<string, typeof MapIcon> = {
  * 모든 지도 화면의 하단 바: [지도 고르기(지금 지도 아이콘 → 위로 목록)] [시간 슬라이더(children)] [설정 → 언어·테마].
  * 데스크톱(lg~)은 한 줄, 모바일은 슬라이더 한 줄 + [지도 … 설정] 한 줄
  * (한 줄에 다 넣으면 좁은 폰에서 슬라이더가 50px 남짓으로 줄어 조작이 어렵다).
- * 높이는 화면 루트의 --bar-h(모바일 8.75rem, lg 5.75rem + safe-area)와 맞춘다.
+ * 높이는 화면 루트의 --bar-h(모바일 6.3rem, lg 5.75rem + safe-area)와 맞춘다.
  */
 export function BottomBar({
   current,
@@ -72,12 +72,12 @@ export function BottomBar({
   const here = maps.find((m) => m.section === current) ?? maps[0];
 
   return (
-    <nav className="absolute inset-x-0 bottom-0 z-30 flex h-[var(--bar-h)] flex-col border-t border-line bg-surface px-2 pt-3 pb-[env(safe-area-inset-bottom)] sm:px-4 lg:flex-row lg:items-start lg:gap-2">
+    <nav className="absolute inset-x-0 bottom-0 z-30 flex h-[var(--bar-h)] flex-col border-t border-line bg-surface px-2 pt-1 pb-[env(safe-area-inset-bottom)] sm:px-4 lg:flex-row lg:pt-3 lg:items-start lg:gap-2">
       {/* 시간 슬라이더 — 모바일 첫 줄, 데스크톱 가운데 */}
       <div className="min-w-0 lg:order-2 lg:flex-1">{children}</div>
 
       {/* 모바일은 이 줄에 [지도 … 설정], 데스크톱은 lg:contents로 슬라이더 양옆에 */}
-      <div className="mt-auto mb-1 flex items-center justify-between lg:contents">
+      <div className="mt-auto mb-0.5 flex items-center justify-between lg:contents">
         {/* 지도 고르기: 지금 지도 아이콘 → 위로 펼쳐지는 목록(아이콘 + 이름) */}
         <div className="lg:order-1">
           <Popover

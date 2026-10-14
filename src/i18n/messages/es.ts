@@ -14,6 +14,7 @@ export const es: Messages = {
     latest: "Más recientes",
   },
   wars: {
+    backToList: "Todos los mapas de guerras",
     tab: "Mapas de guerras",
     indexTitle: "Mapas de guerras",
     indexDescription:
@@ -125,6 +126,7 @@ export const es: Messages = {
   },
   ui: {
     settings: "Ajustes",
+    ad: "Publicidad",
     viewpoint: "Vista",
     language: "Idioma",
     prevYear: "Año anterior",
@@ -147,7 +149,7 @@ export const es: Messages = {
     zoomOut: "Alejar",
     wikipedia: "Wikipedia",
     readMore: "Seguir leyendo en Wikipedia",
-    details: "Detalles",
+    details: "Desplegar",
     collapse: "Ver menos",
     otherMaps: "Otros mapas de este periodo",
     close: "Cerrar",

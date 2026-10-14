@@ -2,7 +2,13 @@
 
 import { useEffect, useRef } from "react";
 import clsx from "clsx";
-import { ADSENSE_CLIENT, AD_SLOTS, type AdSlotName } from "./config";
+import { useI18n } from "@/i18n/I18nProvider";
+import {
+  ADSENSE_CLIENT,
+  ADS_PREVIEW,
+  AD_SLOTS,
+  type AdSlotName,
+} from "./config";
 
 declare global {
   interface Window {
@@ -10,10 +16,16 @@ declare global {
   }
 }
 
+/** 광고 종류별 미리 잡아 둘 높이(광고가 늦게 떠도 글·카드가 밀리지 않게 — CLS) */
+const MIN_HEIGHT: Record<AdSlotName, string> = {
+  article: "min-h-[280px]",
+  infeed: "min-h-[250px]",
+};
+
 /**
- * 광고 한 칸(반응형 디스플레이). 게시자 ID·광고 단위 ID가 없으면 아무것도 그리지 않는다.
- * 개발 모드에서는 회색 자리표시자만(실제 광고 요청 금지 — 무효 트래픽).
- * 자리 높이를 미리 잡아 광고가 늦게 떠도 글이 밀리지 않게 한다(CLS).
+ * 광고 한 칸(반응형 디스플레이) + 위에 작은 "광고" 표시(AdSense 권장).
+ * 게시자 ID·광고 단위 ID가 없으면 아무것도 그리지 않는다(ADS_PREVIEW면 회색 자리만).
+ * 개발 모드에서는 실제 광고를 요청하지 않는다(무효 트래픽).
  */
 export function AdSlot({
   name,
@@ -22,10 +34,11 @@ export function AdSlot({
   name: AdSlotName;
   className?: string;
 }) {
+  const { messages } = useI18n();
   const slot = AD_SLOTS[name];
   const pushed = useRef(false);
-  const live =
-    !!ADSENSE_CLIENT && !!slot && process.env.NODE_ENV === "production";
+  const ready = !!ADSENSE_CLIENT && !!slot;
+  const live = ready && process.env.NODE_ENV === "production";
 
   useEffect(() => {
     if (!live || pushed.current) return;
@@ -37,22 +50,37 @@ export function AdSlot({
     }
   }, [live]);
 
-  if (!ADSENSE_CLIENT || !slot) return null;
+  if (!ready && !ADS_PREVIEW) return null;
   return (
-    <div className={clsx("min-h-[280px] w-full overflow-hidden", className)}>
-      {live ? (
-        <ins
-          className="adsbygoogle block"
-          data-ad-client={ADSENSE_CLIENT}
-          data-ad-slot={slot}
-          data-ad-format="auto"
-          data-full-width-responsive="true"
-        />
-      ) : (
-        <div className="flex h-[280px] items-center justify-center rounded-lg border border-dashed border-line text-sm text-muted">
-          AD · {name}
-        </div>
-      )}
-    </div>
+    <aside
+      aria-label={messages.ui.ad}
+      // 목록 카드처럼 눌러도 카드 선택으로 번지지 않게
+      onClick={(e) => e.stopPropagation()}
+      className={clsx("w-full", className)}
+    >
+      <p className="mb-1 px-1 text-xs text-muted">{messages.ui.ad}</p>
+      <div
+        className={clsx("w-full overflow-hidden rounded-lg", MIN_HEIGHT[name])}
+      >
+        {live ? (
+          <ins
+            className="adsbygoogle block"
+            data-ad-client={ADSENSE_CLIENT}
+            data-ad-slot={slot}
+            data-ad-format="auto"
+            data-full-width-responsive="true"
+          />
+        ) : (
+          <div
+            className={clsx(
+              "flex items-center justify-center rounded-lg border border-dashed border-line bg-surface text-sm text-muted",
+              MIN_HEIGHT[name],
+            )}
+          >
+            AD · {name}
+          </div>
+        )}
+      </div>
+    </aside>
   );
 }

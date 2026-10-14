@@ -14,6 +14,7 @@ export const hi: Messages = {
     latest: "सबसे नए",
   },
   wars: {
+    backToList: "सभी युद्ध मानचित्र",
     tab: "युद्ध मानचित्र",
     indexTitle: "युद्ध मानचित्र",
     indexDescription:
@@ -125,6 +126,7 @@ export const hi: Messages = {
   },
   ui: {
     settings: "सेटिंग्स",
+    ad: "विज्ञापन",
     viewpoint: "दृश्य",
     language: "भाषा",
     prevYear: "पिछला वर्ष",
@@ -147,7 +149,7 @@ export const hi: Messages = {
     zoomOut: "ज़ूम आउट",
     wikipedia: "विकिपीडिया",
     readMore: "विकिपीडिया पर आगे पढ़ें",
-    details: "विवरण",
+    details: "विस्तार करें",
     collapse: "कम दिखाएँ",
     otherMaps: "इस अवधि के अन्य मानचित्र",
     close: "बंद करें",

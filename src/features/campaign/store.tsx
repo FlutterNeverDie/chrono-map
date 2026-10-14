@@ -9,6 +9,8 @@ type State = {
   setT: (t: number) => void;
   selectedBattle: string | null;
   selectBattle: (id: string | null) => void;
+  /** 패널은 그대로 두고 지금 전투만 바꾼다(슬라이더로 전투를 넘길 때) */
+  markBattle: (id: string) => void;
   panelOpen: boolean;
   setPanelOpen: (open: boolean) => void;
   /** 전투 목록에서 고르면 지도를 그 좌표로 */
@@ -39,6 +41,7 @@ export function CampaignProvider({
       selectedBattle: null,
       selectBattle: (selectedBattle) =>
         set({ selectedBattle, panelOpen: selectedBattle != null }),
+      markBattle: (selectedBattle) => set({ selectedBattle }),
       panelOpen: false,
       setPanelOpen: (panelOpen) => set({ panelOpen }),
       focus: null,

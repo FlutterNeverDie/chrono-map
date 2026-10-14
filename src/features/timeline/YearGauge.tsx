@@ -91,7 +91,7 @@ export function YearGauge({ className }: { className?: string }) {
         </Slider.Root>
 
         {/* 시대 눈금 (F-03): 누르면 그 시대 시작으로 이동. 좁은 화면은 현재 시대 이름만 */}
-        <div className="pointer-events-none absolute inset-x-2 top-full h-5 text-sm leading-none text-muted">
+        <div className="pointer-events-none absolute inset-x-2 top-[calc(100%-0.75rem)] h-5 lg:top-full text-sm leading-none text-muted">
           {eras.map((era) => {
             const current = era.id === currentEra?.id;
             const left = (yearToPosition(era.start) / MAX_POSITION) * 100;
