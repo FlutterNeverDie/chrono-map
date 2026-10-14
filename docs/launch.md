@@ -36,7 +36,7 @@
    - **직접 배포**(Actions를 못 쓸 때): `npx wrangler login`(한 번) → `npm run build` → `npx wrangler deploy`. 바뀐 파일만 올라간다.
 2. **도메인**: ✅ `historymapworld.com`(2026-10-13 구입, wrangler.jsonc의 routes로 연결). 다른 도메인이면 Cloudflare Registrar에서 구입(원가, .com 연 10달러 안팎) → 프로젝트 → Settings → Domains & Routes에 연결 → `NEXT_PUBLIC_SITE_URL` 지정 후 다시 배포. (`*.workers.dev`·`*.pages.dev`는 AdSense 승인이 안 된다.)
 3. **Search Console**: 도메인 속성 추가 → 소유 확인(DNS 또는 `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION`) → `sitemap.xml` 제출.
-4. **AdSense 신청**: 사이트 추가 → `NEXT_PUBLIC_ADSENSE_CLIENT` 지정·재배포 → `/ads.txt` 확인 → 심사 요청(1~4주).
+4. **AdSense 신청**: 게시자 ID `ca-pub-1402935877769846`(features/ads/config.ts 기본값, 2026-10-14). 사이트 추가 → `NEXT_PUBLIC_ADSENSE_CLIENT` 지정·재배포 → `/ads.txt` 확인 → 심사 요청(1~4주).
 5. **동의 메시지(CMP)**: AdSense → 개인 정보 보호 및 메시지 → 유럽 규정 메시지 만들기·게시.
 6. **승인 후**: 디스플레이 광고 단위(반응형) 만들기 → `NEXT_PUBLIC_ADSENSE_SLOT_ARTICLE` 지정·재배포 → 사건 상세·연도 페이지에서 광고 확인. 자동 광고는 글 페이지에서만 시험.
 7. **확인**: 모바일에서 광고가 게이지·카드를 가리지 않는지, 레이아웃 밀림(CLS) 없는지, Search Console 색인 상태.

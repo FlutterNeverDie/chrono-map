@@ -6,7 +6,9 @@
  *   NEXT_PUBLIC_ADSENSE_SLOT_INFEED   지도 화면 목록(사건·전투·항목 카드 사이) 광고 단위 ID
  *   NEXT_PUBLIC_ADS_PREVIEW=1         광고 자리만 회색으로 보여 주기(배치 확인용, 실제 광고 요청 없음)
  */
-export const ADSENSE_CLIENT = process.env.NEXT_PUBLIC_ADSENSE_CLIENT ?? "";
+/** 게시자 ID(2026-10-14 애드센스 계정 pub-1402935877769846). 스크립트(배포본에서만)·ads.txt에 쓴다 */
+export const ADSENSE_CLIENT =
+  process.env.NEXT_PUBLIC_ADSENSE_CLIENT ?? "ca-pub-1402935877769846";
 
 export const AD_SLOTS = {
   article: process.env.NEXT_PUBLIC_ADSENSE_SLOT_ARTICLE ?? "",
