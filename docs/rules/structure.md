@@ -26,6 +26,7 @@ src/
   store/  data/  lib/  전역 상태 · 정의·콘텐츠 진입점 · 순수 함수            → 각 CLAUDE.md
 scripts/               데이터 변환(content·wiki·draft·borders, campaigns/, topics/, lib/ 공용)
 docs/                  기획서(`기획서.md`, 기능 ID F-01 …), 규칙(`rules/`)
+marketing/             홍보 할 일(`todo.md`)
 ```
 
 ## 의존 방향
