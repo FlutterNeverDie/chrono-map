@@ -159,6 +159,7 @@ export const pt: Messages = {
     wikipedia: "Wikipédia",
     readMore: "Continuar lendo na Wikipédia",
     details: "Expandir",
+    eventPage: "Ver página do evento",
     collapse: "Mostrar menos",
     otherMaps: "Outros mapas deste período",
     close: "Fechar",

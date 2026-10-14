@@ -158,6 +158,7 @@ export const ko = {
     wikipedia: "위키백과",
     readMore: "위키백과에서 계속 읽기",
     details: "펼치기",
+    eventPage: "이 사건 페이지로",
     collapse: "접기",
     otherMaps: "이 시기의 다른 지도",
     close: "닫기",

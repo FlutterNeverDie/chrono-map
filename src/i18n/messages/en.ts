@@ -160,6 +160,7 @@ export const en: Messages = {
     wikipedia: "Wikipedia",
     readMore: "Continue reading on Wikipedia",
     details: "Expand",
+    eventPage: "Open event page",
     collapse: "Show less",
     otherMaps: "Other maps for this period",
     close: "Close",

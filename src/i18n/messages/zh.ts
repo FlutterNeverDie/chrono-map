@@ -156,6 +156,7 @@ export const zh: Messages = {
     wikipedia: "维基百科",
     readMore: "在维基百科上继续阅读",
     details: "展开",
+    eventPage: "查看事件页面",
     collapse: "收起",
     otherMaps: "这一时期的其他地图",
     close: "关闭",

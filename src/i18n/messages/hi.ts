@@ -160,6 +160,7 @@ export const hi: Messages = {
     wikipedia: "विकिपीडिया",
     readMore: "विकिपीडिया पर आगे पढ़ें",
     details: "विस्तार करें",
+    eventPage: "घटना पृष्ठ देखें",
     collapse: "कम दिखाएँ",
     otherMaps: "इस अवधि के अन्य मानचित्र",
     close: "बंद करें",

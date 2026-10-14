@@ -159,6 +159,7 @@ export const ar: Messages = {
     wikipedia: "ويكيبيديا",
     readMore: "تابع القراءة في ويكيبيديا",
     details: "توسيع",
+    eventPage: "صفحة الحدث",
     collapse: "عرض أقل",
     otherMaps: "خرائط أخرى لهذه الفترة",
     close: "إغلاق",
