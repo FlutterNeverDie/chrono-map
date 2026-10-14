@@ -14,7 +14,7 @@
 
 | 이름 | 예 | 언제 |
 | --- | --- | --- |
-| `NEXT_PUBLIC_SITE_URL` | `https://chronomap.example` | 도메인 연결 직후(사이트맵·canonical·OG 주소). 없으면 `https://chrono-map.histlab.workers.dev`(site.ts 기본값) |
+| `NEXT_PUBLIC_SITE_URL` | `https://chronomap.example` | 도메인 연결 직후(사이트맵·canonical·OG 주소). 없으면 `https://historymapworld.com`(site.ts 기본값) |
 | `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` | Search Console의 HTML 태그 값 | Search Console 등록 때 |
 | `NEXT_PUBLIC_CONTACT_EMAIL` | (선택) 연락용 이메일 | 기본값 oasa741@gmail.com(TextPage.tsx). 바꿀 때만 |
 | `NEXT_PUBLIC_ADSENSE_CLIENT` | `ca-pub-0000000000000000` | AdSense 신청 때(심사 코드 = 이 스크립트, ads.txt도 채워짐) |
@@ -34,7 +34,7 @@
    - 주소는 `https://chrono-map.<계정 하위 도메인>.workers.dev`. 도메인 연결 전까지 `NEXT_PUBLIC_SITE_URL`에 이 주소를 넣는다.
    - **자동 배포**: `.github/workflows/deploy.yml` — main에 푸시하면 GitHub Actions가 빌드·배포한다. 저장소 Secret `CLOUDFLARE_API_TOKEN` 필요(Cloudflare API Tokens의 "Edit Cloudflare Workers" 템플릿). Cloudflare 쪽 Git 연결 빌드는 쓰지 않는다(권한 문제로 멈춰 있었음).
    - **직접 배포**(Actions를 못 쓸 때): `npx wrangler login`(한 번) → `npm run build` → `npx wrangler deploy`. 바뀐 파일만 올라간다.
-2. **도메인**: Cloudflare Registrar에서 구입(원가, .com 연 10달러 안팎) → 프로젝트 → Settings → Domains & Routes에 연결 → `NEXT_PUBLIC_SITE_URL` 지정 후 다시 배포. (`*.workers.dev`·`*.pages.dev`는 AdSense 승인이 안 된다.)
+2. **도메인**: ✅ `historymapworld.com`(2026-10-13 구입, wrangler.jsonc의 routes로 연결). 다른 도메인이면 Cloudflare Registrar에서 구입(원가, .com 연 10달러 안팎) → 프로젝트 → Settings → Domains & Routes에 연결 → `NEXT_PUBLIC_SITE_URL` 지정 후 다시 배포. (`*.workers.dev`·`*.pages.dev`는 AdSense 승인이 안 된다.)
 3. **Search Console**: 도메인 속성 추가 → 소유 확인(DNS 또는 `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION`) → `sitemap.xml` 제출.
 4. **AdSense 신청**: 사이트 추가 → `NEXT_PUBLIC_ADSENSE_CLIENT` 지정·재배포 → `/ads.txt` 확인 → 심사 요청(1~4주).
 5. **동의 메시지(CMP)**: AdSense → 개인 정보 보호 및 메시지 → 유럽 규정 메시지 만들기·게시.

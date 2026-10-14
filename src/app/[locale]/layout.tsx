@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { RootDocument } from "../RootDocument";
 import { getMessages } from "@/i18n";
 import { DEFAULT_LOCALE, LOCALES, isLocale } from "@/i18n/locales";
-import { SITE_URL } from "../site";
+import { SITE_URL, siteVerification } from "../site";
 import { ogImage } from "@/components/og/card";
 
 /** 한국어는 `/`(home)에서 처리하므로 나머지 언어만 정적 생성 */
@@ -30,8 +30,8 @@ export async function generateMetadata({
       images: ogImage(locale, "og.png"),
     },
     twitter: { card: "summary_large_image" },
-    // Google Search Console 소유 확인(배포 때 NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION)
-    verification: { google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION },
+    // 검색 사이트 소유 확인(구글·네이버·Bing) — 코드는 site.ts
+    verification: siteVerification(),
     // 아이콘: app/icon.svg(자동) + iOS 홈 화면용 PNG
     icons: { icon: "/icon.svg", apple: "/apple-touch-icon.png" },
   };

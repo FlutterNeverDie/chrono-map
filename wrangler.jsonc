@@ -4,6 +4,13 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "chrono-map",
   "compatibility_date": "2026-10-01",
+  // 독자 도메인(Cloudflare에서 구입) — 배포하면 이 도메인에 연결되고 인증서도 자동 발급된다
+  "routes": [
+    { "pattern": "historymapworld.com", "custom_domain": true },
+    { "pattern": "www.historymapworld.com", "custom_domain": true },
+  ],
+  // 예전 주소(chrono-map.histlab.workers.dev)도 계속 열리게 — 대표 주소(canonical)는 새 도메인이라 검색에는 지장 없음
+  "workers_dev": true,
   "assets": {
     "directory": "./out",
     // /about → about.html, 없는 주소 → out/404.html

@@ -3,7 +3,7 @@ import { RootDocument } from "../RootDocument";
 import { getMessages } from "@/i18n";
 import { DEFAULT_LOCALE } from "@/i18n/locales";
 import { localeRedirectScript } from "@/i18n/localeRedirect";
-import { SITE_URL } from "../site";
+import { SITE_URL, siteVerification } from "../site";
 import { ogImage } from "@/components/og/card";
 
 const messages = getMessages(DEFAULT_LOCALE);
@@ -19,8 +19,8 @@ export const metadata: Metadata = {
     images: ogImage(DEFAULT_LOCALE, "og.png"),
   },
   twitter: { card: "summary_large_image" },
-  // Google Search Console 소유 확인(배포 때 NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION)
-  verification: { google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION },
+  // 검색 사이트 소유 확인(구글·네이버·Bing) — 코드는 site.ts
+  verification: siteVerification(),
   // 아이콘: app/icon.svg(자동) + iOS 홈 화면용 PNG
   icons: { icon: "/icon.svg", apple: "/apple-touch-icon.png" },
 };
