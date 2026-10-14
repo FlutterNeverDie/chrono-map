@@ -10,9 +10,10 @@
 export const ADSENSE_CLIENT =
   process.env.NEXT_PUBLIC_ADSENSE_CLIENT ?? "ca-pub-2701613674219184";
 
+/** 광고 단위(반응형 디스플레이, 2026-10-14 승인 후 생성): historymap-article, historymap-infeed */
 export const AD_SLOTS = {
-  article: process.env.NEXT_PUBLIC_ADSENSE_SLOT_ARTICLE ?? "",
-  infeed: process.env.NEXT_PUBLIC_ADSENSE_SLOT_INFEED ?? "",
+  article: process.env.NEXT_PUBLIC_ADSENSE_SLOT_ARTICLE ?? "1083142564",
+  infeed: process.env.NEXT_PUBLIC_ADSENSE_SLOT_INFEED ?? "5083676333",
 } as const;
 export type AdSlotName = keyof typeof AD_SLOTS;
 
