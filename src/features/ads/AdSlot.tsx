@@ -56,7 +56,11 @@ export function AdSlot({
       aria-label={messages.ui.ad}
       // 목록 카드처럼 눌러도 카드 선택으로 번지지 않게
       onClick={(e) => e.stopPropagation()}
-      className={clsx("w-full", className)}
+      // 애드센스가 광고를 못 채우면(<ins data-ad-status="unfilled">) "광고" 표시와 빈칸을 통째로 숨긴다
+      className={clsx(
+        "w-full has-[ins[data-ad-status=unfilled]]:hidden",
+        className,
+      )}
     >
       <p className="mb-1 px-1 text-xs text-muted">{messages.ui.ad}</p>
       <div
