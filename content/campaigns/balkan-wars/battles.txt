@@ -128,7 +128,7 @@ links: 7
 
 @ battle-of-bulair
 wikipedia: Battle of Bulair
-when: 1913-01
+when: 1913-02
 coords: 26.79, 40.53
 links: 10
 

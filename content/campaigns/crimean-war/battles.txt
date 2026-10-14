@@ -32,7 +32,7 @@ links: 6
 
 @ siege-of-silistria-1854
 wikipedia: Siege of Silistria (1854)
-when: 1854-01 ~ 1854-06
+when: 1854-05 ~ 1854-06
 coords: 27.26, 44.12
 links: 13
 

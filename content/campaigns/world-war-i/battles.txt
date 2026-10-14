@@ -80,7 +80,7 @@ links: 59
 
 @ battle-of-the-frontiers
 wikipedia: Battle of the Frontiers
-when: 1914-09 ~ 1919-09
+when: 1914-08 ~ 1914-09
 coords: 6, 49
 links: 31
 
@@ -110,7 +110,7 @@ links: 28
 
 @ first-battle-of-the-aisne
 wikipedia: First Battle of the Aisne
-when: 1914-10
+when: 1914-09
 coords: 3.67, 49.43
 links: 21
 
@@ -188,13 +188,13 @@ links: 75
 
 @ battles-of-the-isonzo
 wikipedia: Battles of the Isonzo
-when: 1915-05 ~ 1917-10
+when: 1915-06 ~ 1917-11
 coords: 13.55, 46.05
 links: 28
 
 @ gorlice-tarnow-offensive
 wikipedia: Gorlice–Tarnów offensive
-when: 1915-06
+when: 1915-05
 coords: 21.16, 49.65
 links: 31
 
@@ -224,7 +224,7 @@ links: 28
 
 @ battle-of-asiago
 wikipedia: Battle of Asiago
-when: 1916-01 ~ 1916-06
+when: 1916-05 ~ 1916-06
 coords: 11.51, 45.9
 links: 24
 
@@ -260,7 +260,7 @@ links: 70
 
 @ battle-of-transylvania
 wikipedia: Battle of Transylvania
-when: 1916-10 ~ 1916-11
+when: 1916-08 ~ 1916-11
 coords: 23.58, 46.6
 links: 21
 
@@ -332,7 +332,7 @@ links: 43
 
 @ battle-of-megiddo-1918
 wikipedia: Battle of Megiddo (1918)
-when: 1918-01 ~ 1918-09
+when: 1918-09
 coords: 34.88, 32.4
 links: 23
 

@@ -2,7 +2,7 @@ import { create } from "zustand";
 import type { ViewpointId } from "@/lib/types";
 import { DEFAULT_VIEWPOINT, VIEWPOINTS } from "@/data/viewpoints";
 
-export const MAX_ZOOM = 8;
+export const MAX_ZOOM = 16;
 
 type UiState = {
   /** 첫 화면 시점을 언어에 맞춘다(WorldMap이 처음 그릴 때 한 번) */

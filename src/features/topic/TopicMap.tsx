@@ -54,13 +54,27 @@ export function TopicMap() {
   // 항목마다 다른 색(logic.ts의 itemColor)
   const colorOf = (id: string) => itemColor(topic, id);
 
-  // 강조 항목 이름표 자리: 고른 항목 → 중요한 순으로 위·아래를 차례로 시도하고, 겹치면 이름을 뺀다
-  const labelY = useMemo(() => {
+  // 강조 항목 이름표 자리: 고른 항목 → 중요한 순으로 위·아래·오른쪽·왼쪽을 차례로 시도하고,
+  // 다른 이름표나 **점**과 겹치면 다음 자리, 다 막히면 이름을 뺀다(고른 항목은 위에 무조건).
+  // 자리 값은 점 기준 오프셋(점 배율 좌표: 실제 크기 = 값 × unit × 1.2)
+  type Spot = { dx: number; dy: number; anchor: "middle" | "start" | "end" };
+  const labelAt = useMemo(() => {
     const s = unit * 1.2;
-    const out = new Map<string, number>();
-    const boxes: [number, number, number, number][] = [];
+    const out = new Map<string, Spot>();
+    type Box = [number, number, number, number];
+    const overlaps = (a: Box, b: Box) =>
+      a[0] < b[2] && a[2] > b[0] && a[1] < b[3] && a[3] > b[1];
+    const isStrong = (id: string) => highlighted.has(id) || id === selected;
+    // 모든 점을 장애물로
+    const boxes: Box[] = [];
+    for (const it of items) {
+      const at = vp.project(it.coords);
+      if (!at) continue;
+      const rr = ((isStrong(it.id) ? 8 : 4.5) + 2.5) * s;
+      boxes.push([at[0] - rr, at[1] - rr, at[0] + rr, at[1] + rr]);
+    }
     const strong = items
-      .filter((it) => highlighted.has(it.id) || it.id === selected)
+      .filter((it) => isStrong(it.id))
       .sort(
         (a, b) =>
           Number(b.id === selected) - Number(a.id === selected) ||
@@ -70,27 +84,32 @@ export function TopicMap() {
       const at = vp.project(it.coords);
       if (!at) continue;
       const r = 8;
-      const w =
-        [...itemTitle(it, locale)].reduce(
-          (sum, ch) => sum + (ch.codePointAt(0)! >= 0x2e80 ? 12 : 7),
-          0,
-        ) * s;
-      const h = 14 * s;
-      for (const y of [-r - 7, r + 17]) {
-        const top = at[1] + (y - 11) * s;
-        const box: [number, number, number, number] = [
-          at[0] - w / 2,
-          top,
-          at[0] + w / 2,
-          top + h,
+      const w = [...itemTitle(it, locale)].reduce(
+        (sum, ch) => sum + (ch.codePointAt(0)! >= 0x2e80 ? 12 : 7),
+        0,
+      );
+      const spots: Spot[] = [
+        { dx: 0, dy: -r - 7, anchor: "middle" },
+        { dx: 0, dy: r + 17, anchor: "middle" },
+        { dx: r + 5, dy: 4, anchor: "start" },
+        { dx: -r - 5, dy: 4, anchor: "end" },
+      ];
+      for (const spot of spots) {
+        const left =
+          spot.anchor === "middle"
+            ? spot.dx - w / 2
+            : spot.anchor === "start"
+              ? spot.dx
+              : spot.dx - w;
+        const box: Box = [
+          at[0] + left * s,
+          at[1] + (spot.dy - 11) * s,
+          at[0] + (left + w) * s,
+          at[1] + (spot.dy + 3) * s,
         ];
-        const hit = boxes.some(
-          (b) =>
-            box[0] < b[2] && box[2] > b[0] && box[1] < b[3] && box[3] > b[1],
-        );
-        if (hit && it.id !== selected) continue;
+        if (it.id !== selected && boxes.some((b) => overlaps(box, b))) continue;
         boxes.push(box);
-        out.set(it.id, y);
+        out.set(it.id, spot);
         break;
       }
     }
@@ -221,21 +240,6 @@ export function TopicMap() {
                   stroke={it.id === selected ? "var(--foreground)" : "none"}
                   strokeWidth={2}
                 />
-                {strong && labelY.has(it.id) && (
-                  <text
-                    y={labelY.get(it.id)}
-                    textAnchor="middle"
-                    fontSize={12}
-                    fontWeight={700}
-                    fill="var(--map-label)"
-                    stroke="var(--map-label-halo)"
-                    strokeWidth={3}
-                    paintOrder="stroke"
-                    className="pointer-events-none"
-                  >
-                    {itemTitle(it, locale)}
-                  </text>
-                )}
               </g>
             );
           })}
@@ -272,6 +276,37 @@ export function TopicMap() {
                   )
                 );
               })}
+          </g>
+
+          {/* 항목 이름: 점·나라 이름보다 위에(가려지지 않게). 자리는 labelAt.
+              direction ltr: 아랍어(RTL) 페이지에서도 start = 점 오른쪽 */}
+          <g
+            direction="ltr"
+            fontSize={12}
+            fontWeight={700}
+            fill="var(--map-label)"
+            stroke="var(--map-label-halo)"
+            strokeWidth={3}
+            paintOrder="stroke"
+            className="pointer-events-none"
+          >
+            {items.map((it) => {
+              const spot = labelAt.get(it.id);
+              const at = spot && vp.project(it.coords);
+              return (
+                at && (
+                  <text
+                    key={it.id}
+                    transform={`translate(${at[0]} ${at[1]}) scale(${round2(unit * 1.2)})`}
+                    x={spot.dx}
+                    y={spot.dy}
+                    textAnchor={spot.anchor}
+                  >
+                    {itemTitle(it, locale)}
+                  </text>
+                )
+              );
+            })}
           </g>
         </g>
       ))}

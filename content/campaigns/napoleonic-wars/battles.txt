@@ -176,7 +176,7 @@ links: 16
 
 @ battle-of-athos
 wikipedia: Battle of Athos
-when: 1807-06
+when: 1807-07
 coords: 24.93, 40.07
 links: 12
 
@@ -608,7 +608,7 @@ links: 10
 
 @ battle-of-gro-beeren
 wikipedia: Battle of Großbeeren
-when: 1813-09
+when: 1813-08
 coords: 13.3, 52.35
 links: 21
 

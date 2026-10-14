@@ -2,43 +2,43 @@
 
 @ first-battle-of-naktong-bulge
 wikipedia: First Battle of Naktong Bulge
-when: 1950-01 ~ 1950-08
+when: 1950-08
 coords: 128.5, 35.54
 links: 8
 
 @ battle-of-ka-san
 wikipedia: Battle of Ka-san
-when: 1950-01 ~ 1950-09
+when: 1950-09
 coords: 128.58, 36.04
 links: 5
 
 @ battle-of-chochiwon
 wikipedia: Battle of Chochiwon
-when: 1950-01 ~ 1950-07
+when: 1950-07
 coords: 127.3, 36.6
 links: 4
 
 @ battle-of-yongdong
 wikipedia: Battle of Yongdong
-when: 1950-01 ~ 1950-07
+when: 1950-07
 coords: 127.78, 36.17
 links: 4
 
 @ battle-of-yongsan
 wikipedia: Battle of Yongsan
-when: 1950-01 ~ 1950-09
+when: 1950-09
 coords: 128.53, 35.45
 links: 5
 
 @ battle-of-the-bowling-alley
 wikipedia: Battle of the Bowling Alley
-when: 1950-01 ~ 1950-08
+when: 1950-08
 coords: 128.6, 35.87
 links: 5
 
 @ second-battle-of-naktong-bulge
 wikipedia: Second Battle of Naktong Bulge
-when: 1950-01 ~ 1950-09
+when: 1950-09
 coords: 128.44, 35.54
 links: 6
 

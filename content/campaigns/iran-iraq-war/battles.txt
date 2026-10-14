@@ -56,7 +56,7 @@ links: 13
 
 @ chemical-attack-on-behbahan-battalion
 wikipedia: Chemical attack on Behbahan battalion
-when: 1986-01
+when: 1987-01
 coords: 48.14, 30.57
 links: 3
 

@@ -230,7 +230,7 @@ links: 18
 
 @ battle-of-santander
 wikipedia: Battle of Santander
-when: 1937-09
+when: 1937-08
 coords: -3.8, 43.45
 links: 12
 

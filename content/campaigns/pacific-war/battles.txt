@@ -1,17 +1,5 @@
 # Pacific War 전투 (Wikidata 자동 생성, 직접 고쳐도 됨). 형식은 content/campaigns/CLAUDE.md
 
-@ battle-of-ko-chang
-wikipedia: Battle of Ko Chang
-when: 1941-01
-coords: 102.45, 12
-links: 16
-
-@ battle-of-changsha-1941
-wikipedia: Battle of Changsha (1941)
-when: 1941-09 ~ 1941-10
-coords: 112.97, 28.2
-links: 20
-
 @ battle-of-wake-island
 wikipedia: Battle of Wake Island
 when: 1941-12
@@ -62,13 +50,13 @@ links: 17
 
 @ battle-of-corregidor
 wikipedia: Battle of Corregidor
-when: 1942-01 ~ 1942-05
+when: 1942-05
 coords: 120.42, 14.67
 links: 19
 
 @ battle-of-savo-island
 wikipedia: Battle of Savo Island
-when: 1942-01 ~ 1942-08
+when: 1942-08
 coords: 159.82, -9.13
 links: 29
 
@@ -396,8 +384,3 @@ when: 1945-04
 coords: 128.07, 30.37
 links: 38
 
-@ battle-of-surabaya
-wikipedia: Battle of Surabaya
-when: 1945-10 ~ 1945-11
-coords: 112.74, -7.26
-links: 18

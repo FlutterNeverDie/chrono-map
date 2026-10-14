@@ -26,7 +26,7 @@ export function CampaignScreen({
   return (
     <I18nProvider locale={locale} messages={messages}>
       <CampaignProvider campaign={localizeCampaign(campaign, locale)}>
-        <div className="relative h-dvh w-full overflow-hidden bg-[var(--map-ocean)] [--bar-h:calc(6.3rem+env(safe-area-inset-bottom))] lg:[--bar-h:calc(5.75rem+env(safe-area-inset-bottom))] [--top-h:calc(max(0.5rem,env(safe-area-inset-top))+3rem)]">
+        <div className="relative h-dvh w-full touch-pan-x touch-pan-y overflow-hidden bg-[var(--map-ocean)] [--bar-h:calc(6.3rem+env(safe-area-inset-bottom))] lg:[--bar-h:calc(5.75rem+env(safe-area-inset-bottom))] [--top-h:calc(max(0.5rem,env(safe-area-inset-top))+3rem)]">
           <div className="absolute inset-x-0 top-0 bottom-[var(--bar-h)]">
             <CampaignMap />
           </div>

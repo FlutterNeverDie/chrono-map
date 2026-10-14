@@ -2,13 +2,13 @@
 
 @ battle-of-cheat-mountain
 wikipedia: Battle of Cheat Mountain
-when: 1861-01 ~ 1861-09
+when: 1861-09
 coords: -79.88, 38.62
 links: 8
 
 @ first-battle-of-lexington
 wikipedia: First Battle of Lexington
-when: 1861-01 ~ 1861-09
+when: 1861-09
 coords: -93.87, 39.18
 links: 11
 
@@ -92,19 +92,19 @@ links: 13
 
 @ battle-of-pea-ridge
 wikipedia: Battle of Pea Ridge
-when: 1862-01 ~ 1862-03
+when: 1862-03
 coords: -94.03, 36.45
 links: 15
 
 @ second-battle-of-bull-run
 wikipedia: Second Battle of Bull Run
-when: 1862-01 ~ 1862-08
+when: 1862-08
 coords: -77.52, 38.81
 links: 33
 
 @ battle-of-chickasaw-bayou
 wikipedia: Battle of Chickasaw Bayou
-when: 1862-01 ~ 1862-12
+when: 1862-12
 coords: -90.85, 32.41
 links: 9
 
@@ -248,7 +248,7 @@ links: 11
 
 @ peninsula-campaign
 wikipedia: Peninsula campaign
-when: 1862-07
+when: 1862-03 ~ 1862-07
 coords: -76.61, 37.26
 links: 20
 
@@ -368,7 +368,7 @@ links: 12
 
 @ second-battle-of-winchester
 wikipedia: Second Battle of Winchester
-when: 1863-01 ~ 1863-06
+when: 1863-06
 coords: -78.17, 39.18
 links: 8
 
@@ -506,7 +506,7 @@ links: 21
 
 @ battle-of-fisher-s-hill
 wikipedia: Battle of Fisher's Hill
-when: 1864-01 ~ 1864-10
+when: 1864-09
 coords: -78.4, 38.98
 links: 8
 
@@ -716,13 +716,13 @@ links: 19
 
 @ battle-of-palmito-ranch
 wikipedia: Battle of Palmito Ranch
-when: 1865-01 ~ 1865-05
+when: 1865-05
 coords: -97.29, 25.95
 links: 11
 
 @ battle-of-bentonville
 wikipedia: Battle of Bentonville
-when: 1865-01 ~ 1865-03
+when: 1865-03
 coords: -78.32, 35.31
 links: 14
 

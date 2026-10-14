@@ -64,7 +64,8 @@ const project = (c: [number, number]) => {
   return r && ([round1(r[0]), round1(r[1])] as const);
 };
 
-const MAX_ZOOM = 10;
+/** 전쟁 지도는 처음부터 4~6배로 시작하는 게 많아 넉넉히. 더 키우면 국경 데이터(Cliopatria)가 각져 보인다 */
+const MAX_ZOOM = 16;
 
 /** 패널에 가리지 않게 가운데를 옮길 화면 픽셀 (오른쪽/왼쪽 패널은 가로, 아래 시트는 세로) */
 function overlayOffset(rect: DOMRect) {
@@ -105,7 +106,14 @@ export function useMapViewport(initial: {
     cy: number;
     moved: boolean;
     target: Element;
+    /** 두 손가락 확대: 시작 때 손가락 사이 거리와 배율 */
+    pinch?: { dist: number; zoom: number };
   } | null>(null);
+  /** 화면에 닿아 있는 손가락(포인터)들 */
+  const pointers = useRef(new Map<number, { x: number; y: number }>());
+  /** 두 번 탭 판정용: 마지막 탭(시각·위치), 손가락 두 번 탭으로 확대한 시각(뒤따르는 dblclick 무시) */
+  const lastTap = useRef<{ t: number; x: number; y: number } | null>(null);
+  const touchZoomAt = useRef(0);
 
   useEffect(() => {
     const el = svgRef.current;
@@ -228,6 +236,24 @@ export function useMapViewport(initial: {
       "absolute inset-0 block h-full w-full cursor-grab touch-none select-none active:cursor-grabbing",
     onPointerDown: (e: React.PointerEvent<SVGSVGElement>) => {
       e.currentTarget.setPointerCapture(e.pointerId);
+      pointers.current.set(e.pointerId, { x: e.clientX, y: e.clientY });
+      const [a, b] = [...pointers.current.values()];
+      if (b) {
+        // 두 번째 손가락: 끌기를 멈추고 두 손가락 확대 시작
+        drag.current = {
+          x: a.x,
+          y: a.y,
+          lon: state.current.lon,
+          cy: state.current.centerY,
+          moved: true,
+          target: e.target as Element,
+          pinch: {
+            dist: Math.hypot(a.x - b.x, a.y - b.y) || 1,
+            zoom: state.current.zoom,
+          },
+        };
+        return;
+      }
       drag.current = {
         x: e.clientX,
         y: e.clientY,
@@ -239,7 +265,17 @@ export function useMapViewport(initial: {
     },
     onPointerMove: (e: React.PointerEvent<SVGSVGElement>) => {
       const d = drag.current;
-      if (!d) return;
+      if (!d || !pointers.current.has(e.pointerId)) return;
+      pointers.current.set(e.pointerId, { x: e.clientX, y: e.clientY });
+      const [a, b] = [...pointers.current.values()];
+      if (d.pinch && b) {
+        zoomAt(
+          d.pinch.zoom * (Math.hypot(a.x - b.x, a.y - b.y) / d.pinch.dist),
+          (a.x + b.x) / 2,
+          (a.y + b.y) / 2,
+        );
+        return;
+      }
       const dx = e.clientX - d.x;
       const dy = e.clientY - d.y;
       if (!d.moved && Math.hypot(dx, dy) < 5) return;
@@ -248,20 +284,56 @@ export function useMapViewport(initial: {
       setLon(normalizeLon(d.lon - dx * upp * (360 / MAP_WIDTH)));
       setCenterY(d.cy - dy * upp);
     },
-    onPointerUp: () => {
+    onPointerUp: (e: React.PointerEvent<SVGSVGElement>) => {
+      pointers.current.delete(e.pointerId);
       const d = drag.current;
+      if (pointers.current.size > 0) {
+        // 두 손가락 중 하나만 뗐으면 남은 손가락으로 이어서 끌기
+        const [rest] = [...pointers.current.values()];
+        if (d)
+          drag.current = {
+            ...d,
+            pinch: undefined,
+            x: rest.x,
+            y: rest.y,
+            lon: state.current.lon,
+            cy: state.current.centerY,
+          };
+        return;
+      }
       drag.current = null;
-      if (d && !d.moved && onTap) {
+      if (!d || d.moved) return;
+      // 손가락 두 번 탭 = 확대(iOS는 touch-none 지도에서 dblclick이 오지 않을 때가 있어 직접 판정)
+      if (e.pointerType === "touch") {
+        const now = Date.now();
+        const p = lastTap.current;
+        if (
+          p &&
+          now - p.t < 320 &&
+          Math.hypot(e.clientX - p.x, e.clientY - p.y) < 30
+        ) {
+          lastTap.current = null;
+          touchZoomAt.current = now;
+          zoomAt(state.current.zoom * 2, e.clientX, e.clientY);
+          return;
+        }
+        lastTap.current = { t: now, x: e.clientX, y: e.clientY };
+      }
+      if (onTap) {
         onTap(d.target);
         // 탭으로 연 패널이 뒤따르는 click에 바로 닫히지 않게(ghostClick.ts)
         swallowNextClick();
       }
     },
-    onPointerCancel: () => {
+    onPointerCancel: (e: React.PointerEvent<SVGSVGElement>) => {
+      pointers.current.delete(e.pointerId);
       drag.current = null;
     },
-    onDoubleClick: (e: React.MouseEvent<SVGSVGElement>) =>
-      zoomAt(zoom * 2, e.clientX, e.clientY),
+    onDoubleClick: (e: React.MouseEvent<SVGSVGElement>) => {
+      // 손가락 두 번 탭은 위에서 이미 확대했다 — 브라우저가 뒤따라 보내는 dblclick으로 또 확대하지 않게
+      if (Date.now() - touchZoomAt.current < 600) return;
+      zoomAt(zoom * 2, e.clientX, e.clientY);
+    },
   });
 
   return {

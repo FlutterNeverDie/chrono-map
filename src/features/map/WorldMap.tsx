@@ -101,6 +101,9 @@ export function WorldMap() {
   const centerYRef = useRef(MAP_HEIGHT / 2);
   const pointers = useRef(new Map<number, { x: number; y: number }>());
   const gesture = useRef<Gesture | null>(null);
+  /** 두 번 탭 판정용: 마지막 탭(시각·위치), 손가락 두 번 탭으로 확대한 시각(뒤따르는 dblclick 무시) */
+  const lastTap = useRef<{ t: number; x: number; y: number } | null>(null);
+  const touchZoomAt = useRef(0);
 
   const updateLon = useCallback((next: number) => {
     lonRef.current = normalizeLon(next);
@@ -586,6 +589,22 @@ export function WorldMap() {
       setCenterLon(lonRef.current);
       return;
     }
+    // 손가락 두 번 탭 = 확대(iOS는 touch-none 지도에서 dblclick이 오지 않을 때가 있어 직접 판정)
+    if (e.pointerType === "touch") {
+      const now = Date.now();
+      const p = lastTap.current;
+      if (
+        p &&
+        now - p.t < 320 &&
+        Math.hypot(e.clientX - p.x, e.clientY - p.y) < 30
+      ) {
+        lastTap.current = null;
+        touchZoomAt.current = now;
+        zoomAt(useUi.getState().zoom * 2, e.clientX, e.clientY);
+        return;
+      }
+      lastTap.current = { t: now, x: e.clientX, y: e.clientY };
+    }
     // 탭으로 연 패널이 뒤따르는 click에 바로 닫히지 않게(components/map/ghostClick)
     swallowNextClick();
     if (g.eventId) selectEvent(g.eventId);
@@ -612,7 +631,11 @@ export function WorldMap() {
         pointers.current.delete(e.pointerId);
         gesture.current = null;
       }}
-      onDoubleClick={(e) => zoomAt(zoom * 2, e.clientX, e.clientY)}
+      onDoubleClick={(e) => {
+        // 손가락 두 번 탭은 onPointerUp에서 이미 확대했다
+        if (Date.now() - touchZoomAt.current < 600) return;
+        zoomAt(zoom * 2, e.clientX, e.clientY);
+      }}
     >
       <rect
         x={round1(v.x)}

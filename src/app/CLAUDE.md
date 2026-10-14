@@ -10,6 +10,7 @@
 - 동적 라우트(`/year/[year]`, `/event/[slug]`)는 반드시 `generateStaticParams()`와 `export const dynamicParams = false`를 둔다. 정적 export에서 빠지면 빌드가 실패한다.
 - 모든 페이지는 `metadata` 또는 `generateMetadata`로 고유 title/description을 갖는다(SEO).
 - viewport는 각 레이아웃의 `export const viewport`로 지정한다(`viewport-fit=cover`로 safe-area 사용).
+- 지도 화면 세 개의 루트는 `touch-pan-x touch-pan-y` — 패널·하단 바 위에서 두 손가락을 벌려도 페이지 전체가 확대되지 않게(지도 확대는 지도 svg가 직접 처리). 글 페이지(사건 상세·소개)는 그대로 확대 가능.
 - 화면(`HomeScreen.tsx`): 지도가 하단 바 위 영역을 모두 덮고, 위에 연도 카드·시점 바·확대 버튼·사건 패널이 떠 있다. body는 스크롤하지 않는다.
   - 하단 바 높이는 CSS 변수 `--bar-h` 하나로 관리(모바일 두 줄: 게이지 / 언어·테마, `sm:` 이상 한 줄: [언어·테마 | 게이지]). 지도·패널·출처 표기는 이 값 위에 놓인다.
 - 테마: SSR 기본값은 `data-theme="light"`. 저장된 값이 dark일 때만 `next/script`(`beforeInteractive`)가 바꾼다.

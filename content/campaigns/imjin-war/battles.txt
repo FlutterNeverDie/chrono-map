@@ -2,19 +2,19 @@
 
 @ siege-of-yeongwon
 wikipedia: Siege of Yeongwon
-when: 1592-01 ~ 1592-08
+when: 1592-08
 coords: 128.04, 37.31
 links: 4
 
 @ battle-of-chungju
 wikipedia: Battle of Chungju
-when: 1592-04
+when: 1592-06
 coords: 127.95, 36.97
 links: 10
 
 @ siege-of-dongnae
 wikipedia: Siege of Dongnae
-when: 1592-04
+when: 1592-05
 coords: 129.08, 35.2
 links: 12
 
@@ -32,7 +32,7 @@ links: 10
 
 @ battle-of-okpo
 wikipedia: Battle of Okpo
-when: 1592-05
+when: 1592-06
 coords: 128.69, 34.89
 links: 15
 
@@ -50,7 +50,7 @@ links: 9
 
 @ battle-of-hansan-island
 wikipedia: Battle of Hansan Island
-when: 1592-07
+when: 1592-08
 coords: 128.5, 34.76
 links: 14
 

@@ -608,7 +608,7 @@ links: 5
 
 @ siege-of-pensacola
 wikipedia: Siege of Pensacola
-when: 1781-05
+when: 1781-03 ~ 1781-05
 coords: -87.3, 30.35
 links: 15
 

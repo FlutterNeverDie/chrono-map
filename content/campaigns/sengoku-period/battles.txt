@@ -794,7 +794,7 @@ links: 6
 
 @ battle-of-imafuku
 wikipedia: Battle of Imafuku
-when: 1600
+when: 1614
 coords: 135.55, 34.7
 links: 8
 
