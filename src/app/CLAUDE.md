@@ -19,7 +19,7 @@
 - `metadataBase`(site.ts의 SITE_URL)는 두 레이아웃에 있다 — canonical·hreflang·OG 이미지의 상대 주소가 절대 주소가 된다. 레이아웃의 `openGraph.images`(첫 화면 이미지)는 openGraph를 따로 정한 페이지(연도·사건)에서는 덮어써지므로 그 페이지가 이미지를 직접 넣는다.
 - 빌드 후 `scripts/prune-out.mjs`(postbuild)가 out/의 RSC 페이로드(*.txt, 약 390MB)를 지운다. 모든 이동이 `<a>`라 쓰이지 않기 때문. **next/link·router를 쓰기 시작하면 이 단계를 없앨 것.**
 - 사이트 전체 404는 `global-not-found.tsx`(next.config `experimental.globalNotFound`, 루트 레이아웃이 둘이라). 개발 서버에서는 모르는 주소가 `[locale]`로 잡혀 오류가 나지만 정적 빌드에서는 404.html이 나간다.
-- 아이콘: `icon.svg`(앱 루트) + `(home)/apple-touch-icon.png/route.tsx`. 레이아웃의 `icons`에 둘 다 적는다(metadata icons를 쓰면 자동 아이콘 링크가 빠짐).
+- 아이콘(로고 그림은 `lib/logo.ts`: 접힌 종이 지도 + 실제 대륙 + 한반도 핀): `icon.svg`(앱 루트, logo.ts와 같은 그림), `favicon.ico`(16·32·48 PNG 묶음 - 로고를 바꾸면 다시 만든다), `(home)/apple-touch-icon.png/route.tsx`(모서리 없는 사각). 레이아웃의 `icons`에는 icon.svg·apple만 적는다(favicon.ico 링크는 Next가 자동으로 넣음 - 또 적으면 두 번 들어감). 공유 이미지 머리글에도 로고(components/og/render).
 - 하단 바(`BottomBar`): [지도 고르기 — 지금 지도 아이콘을 누르면 위로 목록(아이콘 + 이름), 주제 지도 아이콘은 topic.txt의 icon] [시간 슬라이더] [설정 ⚙(톱니바퀴) → 언어·테마·나라 이름 숨기기(`NamesToggle`, `<html data-names="off">`)·공유하기(`ShareButton`)·개발자에게 문의(`ContactMenu` - 펼치면 주소·복사·Gmail 웹·메일 앱. mailto만 두면 메일 앱 없는 기기에서 주소가 글자로 뜸. 제목 앞머리 `[History Map World]`, 주소는 site.ts)·소개/개인정보처리방침 링크]. 데스크톱 한 줄, 모바일은 슬라이더 한 줄 + [지도 … 설정] 한 줄. 높이 `--bar-h`(모바일 6.3rem, lg 5.75rem + safe-area). 재생 버튼은 없앴다.
 - 위쪽(`SiteHeader`)에는 화면별 도구만: 지금은 전쟁 지도 범례뿐. 본 지도·주제 지도는 위쪽이 비어 있다(시점 고르기는 없앰 — 지도를 끌어서 옮김). 확대 +/− 버튼은 없앴다(휠·두 손가락·두 번 클릭).
 - `--top-h`(화면 루트에서 지정): 모바일 상단 바 높이. 지도 위 목록 패널을 펼치면 이 아래까지만 올라간다. 위쪽 도구가 있으면(전쟁 지도) safe-area + 3rem, 없으면 0 — 위쪽 구성을 바꾸면 같이 고친다.

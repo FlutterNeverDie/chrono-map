@@ -22,6 +22,7 @@ export const metadata: Metadata = {
   // 검색 사이트 소유 확인(구글·네이버·Bing) — 코드는 site.ts
   verification: siteVerification(),
   // 아이콘: app/icon.svg(자동) + iOS 홈 화면용 PNG
+  // favicon.ico(app 루트)는 Next가 링크를 자동으로 넣는다
   icons: { icon: "/icon.svg", apple: "/apple-touch-icon.png" },
 };
 

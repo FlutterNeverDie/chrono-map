@@ -1,4 +1,5 @@
 import { ImageResponse } from "next/og";
+import { logoDataUri } from "@/lib/logo";
 import { geoMercator, geoPath } from "d3-geo";
 import { feature } from "topojson-client";
 import type { GeometryCollection, Topology } from "topojson-specification";
@@ -174,14 +175,20 @@ export function renderOg(card: OgCard): ImageResponse {
           background: C.paper,
         }}
       >
+        {/* 머리글: 로고 + 사이트 이름 */}
         <div
           style={{
+            display: "flex",
+            alignItems: "center",
+            gap: 14,
             fontSize: 28,
             fontWeight: 700,
             letterSpacing: 2,
             color: C.accent,
           }}
         >
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src={logoDataUri()} width={48} height={48} alt="" />
           {card.kicker}
         </div>
         <div
