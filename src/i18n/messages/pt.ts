@@ -1,8 +1,8 @@
 import type { Messages } from "./ko";
 
 export const pt: Messages = {
-  siteName: "ChronoMap",
-  metaTitle: "ChronoMap — Mapa da história mundial por ano",
+  siteName: "History Map World",
+  metaTitle: "History Map World - Mapa da história mundial por ano",
   metaDescription:
     "Deslize pelo tempo e veja o que acontecia em cada região do mundo no mesmo ano.",
   maps: {
@@ -39,9 +39,9 @@ export const pt: Messages = {
     region: "Região",
     category: "Categoria",
     sources: "Fontes",
-    aboutTitle: "Sobre o ChronoMap",
+    aboutTitle: "Sobre o History Map World",
     aboutBody: [
-      "O ChronoMap mostra num mapa o que acontecia no mundo inteiro num mesmo período, enquanto você percorre os anos.",
+      "O History Map World mostra num mapa o que acontecia no mundo inteiro num mesmo período, enquanto você percorre os anos.",
       "As descrições dos eventos são exibidas tal como estão na Wikipédia (CC BY-SA 4.0), com link para o artigo original. As fronteiras históricas vêm dos dados Cliopatria do Seshat Global History Databank (CC BY 4.0).",
       "Em territórios e nomes ligados à Coreia seguimos a posição da República da Coreia (Dokdo, mar do Leste); nas demais disputas seguimos cada edição da Wikipédia.",
       "Se encontrar um erro, abra uma issue no nosso repositório do GitHub.",
@@ -50,14 +50,14 @@ export const pt: Messages = {
     privacyPartnerSites: "Como o Google usa informações de sites parceiros",
     contactTitle: "Contato",
     contactBody: [
-      "Para dúvidas sobre o ChronoMap, relatos de erros ou sugestões, fale conosco pelos meios abaixo.",
+      "Para dúvidas sobre o History Map World, relatos de erros ou sugestões, fale conosco pelos meios abaixo.",
       'Se um evento tiver um erro, use o link "Viu um erro? Avise-nos" no fim da página desse evento: ele abre um relato com os dados da página já preenchidos.',
     ],
     contactIssue: "Falar conosco pelo GitHub Issues",
     contactEmail: "E-mail",
     privacyTitle: "Política de privacidade",
     privacyBody: [
-      "O ChronoMap não tem contas nem login e não coleta dados pessoais como nomes ou e-mails.",
+      "O History Map World não tem contas nem login e não coleta dados pessoais como nomes ou e-mails.",
       "Suas escolhas de idioma e tema ficam salvas apenas no seu navegador (localStorage) e nunca são enviadas a um servidor.",
       "O site é hospedado no Cloudflare Pages, que pode processar temporariamente registros de acesso (endereço IP, dados do navegador) para operar o serviço.",
       "Este site exibe anúncios do Google AdSense. Fornecedores terceiros, incluindo o Google, usam cookies para exibir anúncios com base nas suas visitas anteriores a este site ou a outros.",
@@ -125,6 +125,16 @@ export const pt: Messages = {
   },
   ui: {
     settings: "Configurações",
+    contactDev: "Fale com o desenvolvedor",
+    contactSubject: "Contato",
+    copyEmail: "Copiar endereço",
+    emailCopied: "Endereço copiado",
+    writeGmail: "Escrever no Gmail",
+    writeMailApp: "Abrir app de e-mail",
+    share: "Compartilhar",
+    linkCopied: "Link copiado",
+    hideNames: "Ocultar nomes dos países",
+    showNames: "Mostrar nomes dos países",
     ad: "Publicidade",
     viewpoint: "Vista",
     language: "Idioma",

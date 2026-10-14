@@ -1,6 +1,6 @@
 export const ko = {
-  siteName: "크로노맵",
-  metaTitle: "크로노맵 — 연도별 세계사 지도",
+  siteName: "세계사 지도",
+  metaTitle: "세계사 지도 - 연도를 움직여 보는 세계 역사",
   metaDescription:
     "연도 게이지를 움직여 같은 시기 세계 각 지역의 역사를 한눈에 보세요.",
   maps: {
@@ -37,9 +37,9 @@ export const ko = {
     region: "지역",
     category: "분류",
     sources: "출처",
-    aboutTitle: "크로노맵 소개",
+    aboutTitle: "세계사 지도 소개",
     aboutBody: [
-      "크로노맵은 연도를 움직이며 같은 시기 세계 여러 지역에서 무슨 일이 있었는지 지도로 보여주는 사이트입니다.",
+      "세계사 지도는 연도를 움직이며 같은 시기 세계 여러 지역에서 무슨 일이 있었는지 지도로 보여주는 사이트입니다.",
       "사건 설명은 위키백과(CC BY-SA 4.0)의 글을 그대로 보여주며, 각 사건에 원문 링크를 표시합니다. 시대별 나라 영역은 Seshat Global History Databank의 Cliopatria 데이터(CC BY 4.0)를 사용합니다.",
       "대한민국 관련 영토와 명칭은 대한민국의 입장(독도, 동해)을 따르며, 그 밖의 분쟁 사안은 각 언어 위키백과의 표기를 따릅니다.",
       "잘못된 내용은 GitHub 저장소의 이슈로 알려 주세요.",
@@ -48,14 +48,14 @@ export const ko = {
     privacyPartnerSites: "Google이 파트너 사이트의 정보를 사용하는 방법",
     contactTitle: "연락처",
     contactBody: [
-      "크로노맵에 대한 문의, 잘못된 내용 제보, 제안은 아래 방법으로 보내 주세요.",
+      "세계사 지도에 대한 문의, 잘못된 내용 제보, 제안은 아래 방법으로 보내 주세요.",
       '사건 내용이 틀렸다면 해당 사건 페이지 아래의 "내용이 틀렸나요?" 링크를 누르면 페이지 정보가 채워진 채로 제보할 수 있습니다.',
     ],
     contactIssue: "GitHub 이슈로 문의하기",
     contactEmail: "이메일",
     privacyTitle: "개인정보처리방침",
     privacyBody: [
-      "크로노맵은 회원 가입이나 로그인이 없으며, 이름·이메일 등 개인정보를 수집하지 않습니다.",
+      "세계사 지도는 회원 가입이나 로그인이 없으며, 이름·이메일 등 개인정보를 수집하지 않습니다.",
       "언어와 화면 테마 선택은 사용자의 브라우저(localStorage)에만 저장되며 서버로 전송되지 않습니다.",
       "사이트는 Cloudflare Pages에서 호스팅되며, 호스팅 업체가 서비스 운영을 위해 접속 기록(IP 주소, 브라우저 정보 등)을 일시적으로 처리할 수 있습니다.",
       "이 사이트는 Google AdSense 광고를 게재합니다. Google을 비롯한 제3자 공급업체는 쿠키를 사용해 사용자가 이 사이트와 다른 웹사이트를 방문한 기록을 바탕으로 광고를 제공합니다.",
@@ -123,6 +123,17 @@ export const ko = {
   },
   ui: {
     settings: "설정",
+    /** 설정 메뉴의 문의 메일 링크와 메일 제목(앞에 [History Map World]가 붙는다) */
+    contactDev: "개발자에게 문의",
+    contactSubject: "문의",
+    copyEmail: "주소 복사",
+    emailCopied: "주소를 복사했어요",
+    writeGmail: "Gmail로 쓰기",
+    writeMailApp: "메일 앱으로 쓰기",
+    share: "공유하기",
+    linkCopied: "링크를 복사했어요",
+    hideNames: "나라 이름 숨기기",
+    showNames: "나라 이름 보이기",
     ad: "광고",
     viewpoint: "시점",
     language: "언어",

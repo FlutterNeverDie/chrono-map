@@ -248,7 +248,7 @@ export function TopicMap() {
             stroke="var(--map-label-halo)"
             strokeWidth={round2(2.5 * unit)}
             paintOrder="stroke"
-            className="pointer-events-none"
+            className="map-names pointer-events-none"
             opacity={0.8}
           >
             {labelCandidates(polities, nameOf)

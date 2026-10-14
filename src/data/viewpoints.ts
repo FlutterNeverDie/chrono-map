@@ -1,4 +1,4 @@
-import type { RegionId, ViewpointId } from "@/lib/types";
+import type { Locale, RegionId, ViewpointId } from "@/lib/types";
 
 export type Viewpoint = {
   id: ViewpointId;
@@ -160,5 +160,22 @@ const ALL_VIEWPOINTS: Viewpoint[] = [
 export const VIEWPOINTS = [...ALL_VIEWPOINTS].sort((a, b) => a.lon - b.lon);
 
 export const DEFAULT_VIEWPOINT: ViewpointId = "east-asia";
+
+/**
+ * 언어별 첫 화면 시점: 그 언어를 쓰는 사람이 많은 곳(영어 북아메리카, 스페인어·포르투갈어 중남미 …).
+ * 접속 국가는 모르므로(서버 없음) 언어로 정한다. 정적 페이지가 언어마다 따로라 첫 화면부터 이 시점으로 그려진다.
+ */
+const HOME_VIEWPOINT: Record<Locale, ViewpointId> = {
+  ko: "east-asia",
+  zh: "east-asia",
+  en: "north-america",
+  es: "south-america",
+  pt: "south-america",
+  fr: "western-europe",
+  hi: "central-asia",
+  ar: "west-asia",
+};
+export const homeViewpoint = (locale: Locale): ViewpointId =>
+  HOME_VIEWPOINT[locale] ?? DEFAULT_VIEWPOINT;
 
 export const VIEWPOINT_BY_ID = new Map(VIEWPOINTS.map((v) => [v.id, v]));

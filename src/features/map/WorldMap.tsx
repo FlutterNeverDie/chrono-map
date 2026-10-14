@@ -10,7 +10,7 @@ import { eventTitle } from "@/lib/localize";
 import { formatWhen } from "@/lib/year";
 import { formatPeriod } from "@/lib/period";
 import { REGION_BY_ID } from "@/data/regions";
-import { DEFAULT_VIEWPOINT, VIEWPOINT_BY_ID } from "@/data/viewpoints";
+import { VIEWPOINT_BY_ID, homeViewpoint } from "@/data/viewpoints";
 import { fill } from "@/i18n";
 import { useI18n } from "@/i18n/I18nProvider";
 import {
@@ -26,7 +26,6 @@ import { useBorders, type PolityProps } from "./borders";
 import { useHydrated } from "@/components/map/useHydrated";
 import { swallowNextClick } from "@/components/map/ghostClick";
 
-const DEFAULT_LON = VIEWPOINT_BY_ID.get(DEFAULT_VIEWPOINT)!.lon;
 /** 이 픽셀보다 적게 움직이면 끌기가 아니라 탭으로 본다 */
 const TAP_SLOP = 5;
 /** 배율 1에서 이름을 표시할 최소 면적(km²). 확대할수록 작은 나라도 표시 */
@@ -77,6 +76,12 @@ type Gesture = {
  */
 export function WorldMap() {
   const { locale, messages } = useI18n();
+  // 첫 시점은 언어별(homeViewpoint). 아래 useUi 읽기·목록 정렬보다 먼저 저장소에 넣는다
+  const [startLon] = useState(() => {
+    const home = homeViewpoint(locale);
+    useUi.getState().initViewpoint(home);
+    return VIEWPOINT_BY_ID.get(home)!.lon;
+  });
   const period = usePeriod();
   const viewpoint = useUi((s) => s.viewpoint);
   const setViewpoint = useUi((s) => s.setViewpoint);
@@ -88,11 +93,11 @@ export function WorldMap() {
   const { polities, nameOf } = useBorders(period.start, locale);
 
   const svgRef = useRef<SVGSVGElement>(null);
-  const [lon, setLon] = useState(DEFAULT_LON);
+  const [lon, setLon] = useState(startLon);
   const [centerY, setCenterY] = useState(MAP_HEIGHT / 2);
   const [size, setSize] = useState<{ w: number; h: number } | null>(null);
   const [selectedPolity, setSelectedPolity] = useState<string | null>(null);
-  const lonRef = useRef(DEFAULT_LON);
+  const lonRef = useRef(startLon);
   const centerYRef = useRef(MAP_HEIGHT / 2);
   const pointers = useRef(new Map<number, { x: number; y: number }>());
   const gesture = useRef<Gesture | null>(null);
@@ -463,7 +468,7 @@ export function WorldMap() {
           stroke="var(--map-label-halo)"
           strokeWidth={round2(3 * unit)}
           paintOrder="stroke"
-          className="pointer-events-none"
+          className="map-names pointer-events-none"
         >
           {placedLabels.map((label) => (
             <text

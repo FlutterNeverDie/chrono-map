@@ -1,8 +1,8 @@
 import type { Messages } from "./ko";
 
 export const en: Messages = {
-  siteName: "ChronoMap",
-  metaTitle: "ChronoMap — World History Map by Year",
+  siteName: "History Map World",
+  metaTitle: "History Map World - See World History by Year",
   metaDescription:
     "Slide through time and see what was happening across every region of the world in the same year.",
   maps: {
@@ -39,9 +39,9 @@ export const en: Messages = {
     region: "Region",
     category: "Category",
     sources: "Sources",
-    aboutTitle: "About ChronoMap",
+    aboutTitle: "About History Map World",
     aboutBody: [
-      "ChronoMap shows on a map what was happening across the world in the same period as you move through the years.",
+      "History Map World shows on a map what was happening across the world in the same period as you move through the years.",
       "Event descriptions are shown as written on Wikipedia (CC BY-SA 4.0), with a link to the original article. Historical borders come from the Cliopatria dataset of the Seshat Global History Databank (CC BY 4.0).",
       "For territories and names involving Korea we follow the position of the Republic of Korea (Dokdo, East Sea); for other disputes we follow each language edition of Wikipedia.",
       "Please report mistakes as an issue on our GitHub repository.",
@@ -51,14 +51,14 @@ export const en: Messages = {
       "How Google uses information from sites that use its services",
     contactTitle: "Contact",
     contactBody: [
-      "For questions about ChronoMap, error reports or suggestions, please reach us using the options below.",
+      "For questions about History Map World, error reports or suggestions, please reach us using the options below.",
       'If an event has a mistake, use the "Spotted a mistake?" link at the bottom of that event\'s page — it opens a report with the page details filled in.',
     ],
     contactIssue: "Contact us via GitHub issues",
     contactEmail: "Email",
     privacyTitle: "Privacy policy",
     privacyBody: [
-      "ChronoMap has no accounts or sign-in and does not collect personal information such as names or email addresses.",
+      "History Map World has no accounts or sign-in and does not collect personal information such as names or email addresses.",
       "Your language and theme choices are stored only in your browser (localStorage) and are never sent to a server.",
       "The site is hosted on Cloudflare Pages, which may temporarily process access logs (IP address, browser information) to operate the service.",
       "This site shows Google AdSense ads. Third-party vendors, including Google, use cookies to serve ads based on your prior visits to this website or other websites.",
@@ -126,6 +126,16 @@ export const en: Messages = {
   },
   ui: {
     settings: "Settings",
+    contactDev: "Contact the developer",
+    contactSubject: "Feedback",
+    copyEmail: "Copy address",
+    emailCopied: "Address copied",
+    writeGmail: "Write in Gmail",
+    writeMailApp: "Open mail app",
+    share: "Share",
+    linkCopied: "Link copied",
+    hideNames: "Hide country names",
+    showNames: "Show country names",
     ad: "Advertisement",
     viewpoint: "View",
     language: "Language",

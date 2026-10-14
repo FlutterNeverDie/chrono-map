@@ -9,7 +9,7 @@ import { DEFAULT_LOCALE, LOCALES, localeHref } from "@/i18n/locales";
  * 주소로는 언어를 알 수 없어 한국어·영어를 함께 쓰고, 각 언어 첫 화면 링크를 둔다.
  */
 export const metadata: Metadata = {
-  title: "404 — 크로노맵 ChronoMap",
+  title: "404 - 세계사 지도 History Map World",
   robots: { index: false },
 };
 
@@ -34,7 +34,7 @@ export default function GlobalNotFound() {
             href={localeHref(DEFAULT_LOCALE)}
             className="mt-8 inline-flex h-12 w-fit items-center rounded-md bg-foreground px-5 text-base font-semibold text-background"
           >
-            크로노맵 첫 화면으로 · Home
+            세계사 지도 첫 화면으로 · Home
           </a>
           <ul className="mt-8 flex flex-wrap gap-x-4 gap-y-2 text-base">
             {LOCALES.map((l) => (

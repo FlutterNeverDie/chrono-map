@@ -1,8 +1,8 @@
 import type { Messages } from "./ko";
 
 export const fr: Messages = {
-  siteName: "ChronoMap",
-  metaTitle: "ChronoMap — Carte de l'histoire mondiale par année",
+  siteName: "History Map World",
+  metaTitle: "History Map World - Carte de l'histoire mondiale par année",
   metaDescription:
     "Faites défiler le temps et découvrez ce qui se passait dans chaque région du monde la même année.",
   maps: {
@@ -39,9 +39,9 @@ export const fr: Messages = {
     region: "Région",
     category: "Catégorie",
     sources: "Sources",
-    aboutTitle: "À propos de ChronoMap",
+    aboutTitle: "À propos de History Map World",
     aboutBody: [
-      "ChronoMap montre sur une carte ce qui se passait dans le monde à une même période, au fil des années.",
+      "History Map World montre sur une carte ce qui se passait dans le monde à une même période, au fil des années.",
       "Les descriptions sont affichées telles qu'elles figurent sur Wikipédia (CC BY-SA 4.0), avec un lien vers l'article d'origine. Les frontières historiques proviennent des données Cliopatria du Seshat Global History Databank (CC BY 4.0).",
       "Pour les territoires et noms liés à la Corée, nous suivons la position de la République de Corée (Dokdo, mer de l'Est) ; pour les autres litiges, nous suivons chaque édition linguistique de Wikipédia.",
       "Signalez toute erreur en ouvrant une issue sur notre dépôt GitHub.",
@@ -51,14 +51,14 @@ export const fr: Messages = {
       "Comment Google utilise les informations des sites partenaires",
     contactTitle: "Contact",
     contactBody: [
-      "Pour toute question sur ChronoMap, signalement d'erreur ou suggestion, contactez-nous par les moyens ci-dessous.",
+      "Pour toute question sur History Map World, signalement d'erreur ou suggestion, contactez-nous par les moyens ci-dessous.",
       "Si un événement contient une erreur, utilisez le lien « Une erreur ? Signalez-la » en bas de la page de cet événement : il ouvre un signalement déjà rempli avec les informations de la page.",
     ],
     contactIssue: "Nous contacter via GitHub Issues",
     contactEmail: "E-mail",
     privacyTitle: "Politique de confidentialité",
     privacyBody: [
-      "ChronoMap n'a ni compte ni connexion et ne collecte aucune donnée personnelle comme un nom ou une adresse e-mail.",
+      "History Map World n'a ni compte ni connexion et ne collecte aucune donnée personnelle comme un nom ou une adresse e-mail.",
       "Vos choix de langue et de thème sont enregistrés uniquement dans votre navigateur (localStorage) et ne sont jamais envoyés à un serveur.",
       "Le site est hébergé par Cloudflare Pages, qui peut traiter temporairement des journaux d'accès (adresse IP, navigateur) pour faire fonctionner le service.",
       "Ce site affiche des annonces Google AdSense. Des fournisseurs tiers, dont Google, utilisent des cookies pour diffuser des annonces en fonction de vos visites antérieures sur ce site ou sur d'autres sites.",
@@ -126,6 +126,16 @@ export const fr: Messages = {
   },
   ui: {
     settings: "Réglages",
+    contactDev: "Contacter le développeur",
+    contactSubject: "Question",
+    copyEmail: "Copier l'adresse",
+    emailCopied: "Adresse copiée",
+    writeGmail: "Écrire dans Gmail",
+    writeMailApp: "Ouvrir l'app mail",
+    share: "Partager",
+    linkCopied: "Lien copié",
+    hideNames: "Masquer les noms des pays",
+    showNames: "Afficher les noms des pays",
     ad: "Publicité",
     viewpoint: "Vue",
     language: "Langue",

@@ -9,3 +9,5 @@
 - `ExpandableText`: 긴 글을 몇 줄로 접고 "펼치기/접기"로 그 자리에서 펼친다(실제로 잘릴 때만 버튼 표시). 문구는 props.
 - `Popover`: 누르면 펼쳐지는 작은 메뉴(바깥 누르기·Esc로 닫힘, 닫혀도 내용은 HTML에 있음). 모바일 상단 바의 지도 고르기·시점·설정.
 - `WikiLink`: 카드 오른쪽 끝의 "위키백과 · CC BY-SA 4.0 ↗" 글자 링크(원문 링크 + 라이선스 표기). 위키백과 로고·W 아이콘은 위키미디어 상표라 쓰지 않는다. `ExpandableText`의 `trailing`에 넣어 "펼치기"와 같은 줄 양끝에 둔다.
+- `NamesToggle`: 지도 나라 이름 보이기/숨기기. `<html data-names="off">` + localStorage(`names`), 지도 쪽은 이름 묶음 `<g>`에 `map-names` 클래스만 붙이면 globals.css가 숨긴다.
+- `ShareButton`: 지금 주소 공유(Web Share, 없으면 복사 후 "복사됨").

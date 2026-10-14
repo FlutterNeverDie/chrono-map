@@ -92,14 +92,6 @@ export const PauseIcon = ({ className }: IconProps) => (
   </svg>
 );
 
-export const SlidersIcon = ({ className }: IconProps) => (
-  <svg {...base} className={className}>
-    <path d="M4 7h10M18 7h2M4 17h4M12 17h8" />
-    <circle cx="16" cy="7" r="2" />
-    <circle cx="10" cy="17" r="2" />
-  </svg>
-);
-
 export const XIcon = ({ className }: IconProps) => (
   <svg {...base} className={className}>
     <path d="M6 6l12 12M18 6 6 18" />
@@ -114,11 +106,11 @@ export const MapIcon = ({ className }: IconProps) => (
   </svg>
 );
 
-/** 엇갈린 두 칼(전쟁 지도) */
+/** 칼 한 자루(전쟁 지도) - 작은 크기에서도 X로 보이지 않게 */
 export const SwordsIcon = ({ className }: IconProps) => (
   <svg {...base} className={className}>
-    <path d="M4 4l10 10M12.5 16.5l4-4M15 15l4.5 4.5" />
-    <path d="M20 4 10 14M7.5 12.5l4 4M9 15l-4.5 4.5" />
+    <path d="M14.5 17.5 3 6V3h3l11.5 11.5" />
+    <path d="M13 19l6-6M16 16l4 4M19 21l2-2" />
   </svg>
 );
 
@@ -147,3 +139,35 @@ export const BulbIcon = ({ className }: IconProps) => (
 );
 
 /** 위키백과(둥근 테두리 안의 W) */
+
+/** 톱니바퀴(설정) */
+export const GearIcon = ({ className }: IconProps) => (
+  <svg {...base} className={className}>
+    <path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z" />
+    <circle cx="12" cy="12" r="3" />
+  </svg>
+);
+
+/** 편지 봉투(메일) */
+export const MailIcon = ({ className }: IconProps) => (
+  <svg {...base} className={className}>
+    <rect x="3" y="5" width="18" height="14" rx="2" />
+    <path d="m3.5 6.5 8.5 6.5 8.5-6.5" />
+  </svg>
+);
+
+/** 공유(위로 나가는 화살표 + 상자) */
+export const ShareIcon = ({ className }: IconProps) => (
+  <svg {...base} className={className}>
+    <path d="M12 15V3M8 7l4-4 4 4" />
+    <path d="M8 11H6a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-6a2 2 0 0 0-2-2h-2" />
+  </svg>
+);
+
+/** 이름표(지도 나라 이름 보이기/숨기기) */
+export const TagIcon = ({ className }: IconProps) => (
+  <svg {...base} className={className}>
+    <path d="M3 12V4a1 1 0 0 1 1-1h8l9 9-9 9z" />
+    <circle cx="7.5" cy="7.5" r="1.5" />
+  </svg>
+);

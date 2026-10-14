@@ -30,6 +30,11 @@
 }
 
 /* 다크 모드 */
+/* 설정 "나라 이름 숨기기"(components/ui/NamesToggle) — 세 지도의 나라 이름 묶음 */
+[data-names="off"] .map-names {
+  display: none;
+}
+
 [data-theme="dark"] {
   --background: #0b1220;
   --foreground: #e5e7eb;

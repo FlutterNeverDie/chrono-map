@@ -8,7 +8,6 @@ import { usePeriod } from "@/store/timeline";
 import { formatPeriodRange } from "@/lib/period";
 import { fill } from "@/i18n";
 import { useI18n } from "@/i18n/I18nProvider";
-import { localeHref } from "@/i18n/locales";
 import { ChevronUpIcon, XIcon } from "@/components/ui/icons";
 import { EventList, useRankedEvents } from "./EventList";
 import { CategoryFilter } from "./CategoryFilter";
@@ -67,20 +66,6 @@ export function EventPanel({ ad }: { ad?: ReactNode } = {}) {
         )}
       >
         <EventList ad={ad} />
-        <p className="mt-4 flex gap-4 px-1 text-sm text-muted">
-          <a
-            href={localeHref(locale, "about")}
-            className="hover:text-foreground"
-          >
-            {messages.pages.about}
-          </a>
-          <a
-            href={localeHref(locale, "privacy")}
-            className="hover:text-foreground"
-          >
-            {messages.pages.privacy}
-          </a>
-        </p>
       </div>
     </section>
   );

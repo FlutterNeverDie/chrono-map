@@ -208,7 +208,7 @@ export function CampaignMap() {
             stroke="var(--map-label-halo)"
             strokeWidth={round2(3 * unit)}
             paintOrder="stroke"
-            className="pointer-events-none"
+            className="map-names pointer-events-none"
           >
             {labels.map((l) => (
               <text key={l.key} x={l.x} y={l.y} fontSize={l.size}>

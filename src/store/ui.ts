@@ -5,6 +5,8 @@ import { DEFAULT_VIEWPOINT, VIEWPOINTS } from "@/data/viewpoints";
 export const MAX_ZOOM = 8;
 
 type UiState = {
+  /** 첫 화면 시점을 언어에 맞춘다(WorldMap이 처음 그릴 때 한 번) */
+  initViewpoint: (viewpoint: ViewpointId) => void;
   /** 선택된 지도 시점. 지도를 직접 끌면 null */
   viewpoint: ViewpointId | null;
   setViewpoint: (viewpoint: ViewpointId | null) => void;
@@ -25,6 +27,11 @@ type UiState = {
 };
 
 export const useUi = create<UiState>((set) => ({
+  initViewpoint: (viewpoint) =>
+    set({
+      viewpoint,
+      centerLon: VIEWPOINTS.find((v) => v.id === viewpoint)!.lon,
+    }),
   viewpoint: DEFAULT_VIEWPOINT,
   setViewpoint: (viewpoint) => set({ viewpoint }),
   centerLon: VIEWPOINTS.find((v) => v.id === DEFAULT_VIEWPOINT)!.lon,

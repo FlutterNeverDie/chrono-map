@@ -9,11 +9,14 @@ import { pick } from "@/lib/localize";
 import topicIndex from "@/data/generated/topic-index.json";
 import { ThemeToggle } from "@/components/ui/ThemeToggle";
 import { Popover } from "@/components/ui/Popover";
+import { ShareButton } from "@/components/ui/ShareButton";
+import { NamesToggle } from "@/components/ui/NamesToggle";
+import { ContactMenu } from "./ContactMenu";
 import {
   BulbIcon,
   ChevronUpIcon,
+  GearIcon,
   MapIcon,
-  SlidersIcon,
   SwordsIcon,
   VirusIcon,
 } from "@/components/ui/icons";
@@ -29,7 +32,7 @@ const MAP_ICONS: Record<string, typeof MapIcon> = {
 };
 
 /**
- * 모든 지도 화면의 하단 바: [지도 고르기(지금 지도 아이콘 → 위로 목록)] [시간 슬라이더(children)] [설정 → 언어·테마].
+ * 모든 지도 화면의 하단 바: [지도 고르기(지금 지도 아이콘 → 위로 목록)] [시간 슬라이더(children)] [설정 ⚙ → 언어·테마·나라 이름·공유·문의 메일·소개/개인정보].
  * 데스크톱(lg~)은 한 줄, 모바일은 슬라이더 한 줄 + [지도 … 설정] 한 줄
  * (한 줄에 다 넣으면 좁은 폰에서 슬라이더가 50px 남짓으로 줄어 조작이 어렵다).
  * 높이는 화면 루트의 --bar-h(모바일 6.3rem, lg 5.75rem + safe-area)와 맞춘다.
@@ -118,7 +121,7 @@ export function BottomBar({
             label={messages.ui.settings}
             align="end"
             side="top"
-            button={<SlidersIcon className="size-[22px] text-muted" />}
+            button={<GearIcon className="size-[22px] text-muted" />}
           >
             {() => (
               // 한 줄씩 가득 — 아이콘 옆 여백을 눌러도 동작하게
@@ -129,6 +132,31 @@ export function BottomBar({
                   toDarkLabel={messages.ui.toDark}
                   toLightLabel={messages.ui.toLight}
                 />
+                <NamesToggle
+                  hideLabel={messages.ui.hideNames}
+                  showLabel={messages.ui.showNames}
+                />
+                <ShareButton
+                  label={messages.ui.share}
+                  copiedLabel={messages.ui.linkCopied}
+                />
+                {/* 문의: 주소 복사·Gmail·메일 앱(ContactMenu) */}
+                <ContactMenu />
+                {/* 소개·개인정보처리방침(애드센스 심사에도 필요한 글) — 작은 글자 한 줄 */}
+                <p className="mt-1 flex gap-1 border-t border-line px-1 pt-1 text-sm text-muted">
+                  <a
+                    href={localeHref(locale, "about")}
+                    className="flex h-11 items-center rounded-md px-2 hover:bg-chip hover:text-foreground"
+                  >
+                    {messages.pages.about}
+                  </a>
+                  <a
+                    href={localeHref(locale, "privacy")}
+                    className="flex h-11 items-center rounded-md px-2 hover:bg-chip hover:text-foreground"
+                  >
+                    {messages.pages.privacy}
+                  </a>
+                </p>
               </div>
             )}
           </Popover>

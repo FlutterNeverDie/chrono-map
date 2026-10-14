@@ -1,8 +1,8 @@
 import type { Messages } from "./ko";
 
 export const zh: Messages = {
-  siteName: "ChronoMap",
-  metaTitle: "ChronoMap — 按年份浏览的世界历史地图",
+  siteName: "世界史地图",
+  metaTitle: "世界史地图 - 按年份浏览世界历史",
   metaDescription: "拖动年份滑块，一览同一时期世界各地发生的历史事件。",
   maps: {
     now: "当前时期",
@@ -38,9 +38,9 @@ export const zh: Messages = {
     region: "地区",
     category: "分类",
     sources: "来源",
-    aboutTitle: "关于 ChronoMap",
+    aboutTitle: "关于世界史地图",
     aboutBody: [
-      "ChronoMap 让你拖动年份，在地图上查看同一时期世界各地发生的事情。",
+      "世界史地图让你拖动年份，在地图上查看同一时期世界各地发生的事情。",
       "事件说明原样显示维基百科（CC BY-SA 4.0）的内容，并附有原文链接。历史疆域数据来自 Seshat 全球历史数据库的 Cliopatria 数据集（CC BY 4.0）。",
       "涉及韩国的领土和名称遵循大韩民国的立场（独岛、东海）；其他争议问题遵循各语言维基百科的写法。",
       "如发现错误，请在 GitHub 仓库提交 issue。",
@@ -49,14 +49,14 @@ export const zh: Messages = {
     privacyPartnerSites: "Google 如何使用合作伙伴网站的信息",
     contactTitle: "联系我们",
     contactBody: [
-      "关于 ChronoMap 的问题、错误报告或建议，请通过以下方式联系我们。",
+      "关于世界史地图的问题、错误报告或建议，请通过以下方式联系我们。",
       "如果某个事件内容有误，请点击该事件页面底部的“发现错误？”链接，即可在预先填好页面信息的情况下提交报告。",
     ],
     contactIssue: "通过 GitHub Issues 联系",
     contactEmail: "电子邮件",
     privacyTitle: "隐私政策",
     privacyBody: [
-      "ChronoMap 没有注册或登录功能，不收集姓名、电子邮箱等个人信息。",
+      "世界史地图没有注册或登录功能，不收集姓名、电子邮箱等个人信息。",
       "语言和主题选择仅保存在你的浏览器（localStorage）中，不会发送到服务器。",
       "本站托管于 Cloudflare Pages，托管方可能为运营服务临时处理访问记录（IP 地址、浏览器信息等）。",
       "本网站展示 Google AdSense 广告。包括 Google 在内的第三方供应商会使用 Cookie，根据您以往访问本网站或其他网站的情况投放广告。",
@@ -122,6 +122,16 @@ export const zh: Messages = {
   },
   ui: {
     settings: "设置",
+    contactDev: "联系开发者",
+    contactSubject: "反馈",
+    copyEmail: "复制地址",
+    emailCopied: "已复制地址",
+    writeGmail: "用 Gmail 写信",
+    writeMailApp: "打开邮件应用",
+    share: "分享",
+    linkCopied: "已复制链接",
+    hideNames: "隐藏国家名称",
+    showNames: "显示国家名称",
     ad: "广告",
     viewpoint: "视角",
     language: "语言",
