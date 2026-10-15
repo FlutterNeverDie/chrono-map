@@ -4,7 +4,7 @@ import { pageAlternates } from "@/i18n/alternates";
 import { REPO_URL } from "@/data/links";
 import { ExternalIcon } from "@/components/ui/icons";
 
-export type TextPageKind = "about" | "privacy" | "contact";
+export type TextPageKind = "about" | "privacy" | "contact" | "guide";
 
 /** 연락용 이메일(연락처 페이지에 공개). 배포 환경변수 NEXT_PUBLIC_CONTACT_EMAIL로 바꿀 수 있다 */
 const CONTACT_EMAIL =
@@ -14,6 +14,8 @@ function content(locale: Locale, kind: TextPageKind) {
   const p = getMessages(locale).pages;
   if (kind === "about")
     return { title: p.aboutTitle, body: p.aboutBody, links: [] };
+  if (kind === "guide")
+    return { title: p.guideTitle, body: p.guideBody, links: [] };
   if (kind === "privacy")
     return {
       title: p.privacyTitle,
@@ -45,7 +47,10 @@ function content(locale: Locale, kind: TextPageKind) {
   };
 }
 
-/** 소개·개인정보처리방침·연락처: 사전의 문단을 그대로 보여주고, 필요한 바깥 링크를 붙인다 */
+/**
+ * 소개·개인정보처리방침·연락처·사용 설명서: 사전의 문단을 그대로 보여주고, 필요한 바깥 링크를 붙인다.
+ * "## "로 시작하는 문단은 소제목(사용 설명서)
+ */
 export function TextPage({
   locale,
   kind,
@@ -58,9 +63,15 @@ export function TextPage({
     <article>
       <h1 className="text-3xl font-bold sm:text-4xl">{title}</h1>
       <div className="mt-8 space-y-5 text-lg leading-relaxed">
-        {body.map((text) => (
-          <p key={text}>{text}</p>
-        ))}
+        {body.map((text) =>
+          text.startsWith("## ") ? (
+            <h2 key={text} className="pt-4 text-xl font-bold">
+              {text.slice(3)}
+            </h2>
+          ) : (
+            <p key={text}>{text}</p>
+          ),
+        )}
       </div>
       {links.length > 0 && (
         <ul className="mt-8 space-y-2">

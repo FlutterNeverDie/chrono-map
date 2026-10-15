@@ -3,7 +3,7 @@
 ## 책임
 
 - 연도 선택 UI(게이지), 시대 레이블 띠, 이전/다음 버튼, (나중에) 자동 재생.
-- 선택은 연도 하나가 아니라 **기간**이다(기원전 세기 / 서기 10년, `lib/period.ts`). `store/timeline`의 `year`는 기간 시작 연도로 맞춰 저장되고, 화면에서는 `usePeriod()`로 읽는다.
+- 선택은 연도 하나가 아니라 **기간**이다(기원전 세기 / 서기 `step`년 - 기본 10년, 설정의 `YearStepSetting`에서 5·10·30·50·100, `lib/period.ts`의 `YEAR_STEPS`). 단위는 `store/timeline`의 `step`, localStorage(`yearStep`, 기본값이면 지움)에 저장하고 `useSavedYearStep`이 하이드레이션 뒤 불러온다(주소의 `?y`보다 먼저 - YearGauge에서 useYearUrl보다 앞에 부름). `store/timeline`의 `year`는 기간 시작 연도로 맞춰 저장되고, 화면에서는 `usePeriod()`로 읽는다.
 - 슬라이더는 비선형 축 위치를 연도로 바꾼 뒤 기간 시작으로 맞춘다. ◀ ▶는 한 기간씩 이동.
 - 현재 기간 표시는 손잡이 바로 위 말풍선. 사건 패널 제목 옆에는 실제 연도 범위(`formatPeriodRange`: 1490–1499년)를 함께 보여준다.
 - 주소의 `?y=연도`와 선택 기간을 맞춘다(`useYearUrl`, 공유 링크 F-12). 주소 갱신은 연도가 0.4초 멈춘 뒤에만(History API 호출 제한, Safari 30초 100번). 개발 모드에서 효과가 두 번 실행돼도 처음 주소 값을 잃지 않도록 ref로 들고 있는다.

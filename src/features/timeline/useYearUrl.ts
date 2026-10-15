@@ -11,6 +11,7 @@ import { useTimeline } from "@/store/timeline";
 export function useYearUrl() {
   const year = useTimeline((s) => s.year);
   const setYear = useTimeline((s) => s.setYear);
+  const step = useTimeline((s) => s.step);
   // 처음 주소에서 읽은 연도. ref로 들고 있어야 개발 모드에서 효과가 두 번 실행돼도 값을 잃지 않는다
   const pending = useRef<number | null | undefined>(undefined);
 
@@ -26,7 +27,7 @@ export function useYearUrl() {
     if (pending.current === undefined) return;
     // 주소의 연도가 아직 적용되기 전이면 주소를 덮어쓰지 않는다
     if (pending.current !== null) {
-      if (periodOf(pending.current).start !== year) return;
+      if (periodOf(pending.current, step).start !== year) return;
       pending.current = null;
     }
     // 끄는 동안 매번 주소를 바꾸면 브라우저가 History API 호출을 막는다(Safari는 30초에 100번 제한) → 멈춘 뒤 한 번만
@@ -37,5 +38,5 @@ export function useYearUrl() {
       window.history.replaceState(null, "", url);
     }, 400);
     return () => clearTimeout(timer);
-  }, [year]);
+  }, [year, step]);
 }

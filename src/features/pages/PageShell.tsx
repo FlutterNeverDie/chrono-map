@@ -44,7 +44,7 @@ export function PageShell({
   );
 }
 
-/** 바닥글: 소개·개인정보처리방침 링크 + 데이터 출처 */
+/** 바닥글: 연도별·사용 설명서·소개·연락처·개인정보처리방침 링크 + 데이터 출처 */
 export function SiteFooter({ locale }: { locale: Locale }) {
   const messages = getMessages(locale);
   return (
@@ -52,6 +52,9 @@ export function SiteFooter({ locale }: { locale: Locale }) {
       <div className="mx-auto flex max-w-3xl flex-wrap items-center gap-x-5 gap-y-2 px-4 py-6 text-sm text-muted">
         <a href={localeHref(locale, "year")} className="hover:text-foreground">
           {messages.years.tab}
+        </a>
+        <a href={localeHref(locale, "guide")} className="hover:text-foreground">
+          {messages.pages.guide}
         </a>
         <a href={localeHref(locale, "about")} className="hover:text-foreground">
           {messages.pages.about}

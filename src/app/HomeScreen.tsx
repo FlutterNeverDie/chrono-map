@@ -1,7 +1,7 @@
 import type { Locale } from "@/lib/types";
 import { getMessages } from "@/i18n";
 import { I18nProvider } from "@/i18n/I18nProvider";
-import { YearGauge } from "@/features/timeline";
+import { YearGauge, YearStepSetting } from "@/features/timeline";
 import { Attribution, WorldMap } from "@/features/map";
 import { EventPanel } from "@/features/events";
 import { EventsProvider } from "@/store/events";
@@ -35,7 +35,7 @@ export function HomeScreen({ locale }: { locale: Locale }) {
             <Attribution />
           </div>
 
-          <BottomBar current="chronomap">
+          <BottomBar current="chronomap" settings={<YearStepSetting />}>
             <YearGauge className="w-full" />
           </BottomBar>
         </div>

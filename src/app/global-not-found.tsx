@@ -7,7 +7,7 @@ import {
   LOCALE_INFO,
   localeHref,
 } from "@/i18n/locales";
-import { getMessages } from "@/i18n";
+import { getMessages, type Messages } from "@/i18n";
 import { NotFoundLocale } from "./NotFoundLocale";
 
 /**
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 
 const texts = Object.fromEntries(
   LOCALES.map((l) => [l, getMessages(l).notFound]),
-) as Record<Locale, ReturnType<typeof getMessages>["notFound"]>;
+) as Record<Locale, Messages["notFound"]>;
 const { [DEFAULT_LOCALE]: ko, en } = texts;
 
 const themeScript = `(function(){try{if(localStorage.getItem("theme")==="dark")document.documentElement.dataset.theme="dark"}catch(e){}})()`;

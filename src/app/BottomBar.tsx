@@ -13,6 +13,7 @@ import { ShareButton } from "@/components/ui/ShareButton";
 import { NamesToggle } from "@/components/ui/NamesToggle";
 import { ContactMenu } from "./ContactMenu";
 import {
+  BookIcon,
   BulbIcon,
   ChevronUpIcon,
   GearIcon,
@@ -34,16 +35,19 @@ const MAP_ICONS: Record<string, typeof MapIcon> = {
 };
 
 /**
- * 모든 지도 화면의 하단 바: [지도 고르기(지금 지도 아이콘 → 위로 목록)] [시간 슬라이더(children)] [설정 ⚙ → 언어·테마·나라 이름·공유·문의 메일·소개/개인정보].
+ * 모든 지도 화면의 하단 바: [지도 고르기(지금 지도 아이콘 → 위로 목록)] [시간 슬라이더(children)] [설정 ⚙ → 언어·테마·나라 이름·(지도별 설정)·사용 설명서·공유·문의 메일·소개/개인정보].
  * 데스크톱(lg~)은 한 줄, 모바일은 슬라이더 한 줄 + [지도 … 설정] 한 줄
  * (한 줄에 다 넣으면 좁은 폰에서 슬라이더가 50px 남짓으로 줄어 조작이 어렵다).
  * 높이는 화면 루트의 --bar-h(모바일 6.3rem, lg 5.75rem + safe-area)와 맞춘다.
  */
 export function BottomBar({
   current,
+  settings,
   children,
 }: {
   current: SiteSection;
+  /** 그 지도에만 있는 설정(본 지도의 연도 단위 등). 언어·테마 아래에 들어간다 */
+  settings?: ReactNode;
   children: ReactNode;
 }) {
   const { locale, messages } = useI18n();
@@ -138,6 +142,14 @@ export function BottomBar({
                   hideLabel={messages.ui.hideNames}
                   showLabel={messages.ui.showNames}
                 />
+                {settings}
+                <a
+                  href={localeHref(locale, "guide")}
+                  className="flex h-12 w-full items-center gap-3 rounded-md px-3 text-base text-foreground hover:bg-chip"
+                >
+                  <BookIcon className="size-[22px] shrink-0 text-muted" />
+                  {messages.pages.guide}
+                </a>
                 <ShareButton
                   label={messages.ui.share}
                   copiedLabel={messages.ui.linkCopied}

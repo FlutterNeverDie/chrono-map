@@ -13,6 +13,7 @@ import { MapLanes } from "./MapLanes";
 import { ChevronLeftIcon, ChevronRightIcon } from "@/components/ui/icons";
 import { useI18n } from "@/i18n/I18nProvider";
 import { useYearUrl } from "./useYearUrl";
+import { useSavedYearStep } from "./YearStepSetting";
 import type { Messages } from "@/i18n";
 
 const stepButton =
@@ -30,12 +31,15 @@ export function YearGauge({ className }: { className?: string }) {
   const setYear = useTimeline((s) => s.setYear);
   const currentEra = eras.findLast((e) => year >= e.start);
 
+  // 저장된 연도 단위를 주소의 연도보다 먼저 적용(효과는 선언 순서대로 실행)
+  useSavedYearStep();
   useYearUrl();
   const period = usePeriod();
   const label = formatPeriod(period, locale);
   const position = yearToPosition(period.start);
+  const yearStep = useTimeline((s) => s.step);
   const step = (direction: 1 | -1) =>
-    setYear(stepPeriod(period, direction).start);
+    setYear(stepPeriod(period, direction, yearStep).start);
 
   return (
     // 아랍어(RTL)에서도 시간 축은 왼쪽(과거) → 오른쪽(현재)

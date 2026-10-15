@@ -2,16 +2,16 @@ import type { ReactNode } from "react";
 import type { HistoryEvent, Locale } from "@/lib/types";
 import { fill, getMessages } from "@/i18n";
 import { localeHref } from "@/i18n/locales";
-import { eventSummary, eventTitle, pick } from "@/lib/localize";
+import { eventSummary, eventTitle } from "@/lib/localize";
 import { formatPeriod, formatPeriodRange, type Period } from "@/lib/period";
 import { formatWhen } from "@/lib/year";
-import { MAP_LANES } from "@/data/mapMarkers";
 import {
   ChevronLeftIcon,
   ChevronRightIcon,
   ExternalIcon,
 } from "@/components/ui/icons";
 import { reportIssueUrl } from "@/data/links";
+import { MapChips } from "./MapChips";
 import { periodSlug, yearPage } from "./years";
 
 /** 연도 페이지 (/year/[slug]). 그 기간에 시작한 사건 + 이어지는 일 + 다른 지도 + 앞뒤 기간 */
@@ -30,7 +30,6 @@ export function YearDetail({
   const { period, events, ongoing, nearby, maps, prev, next } = data;
   const messages = getMessages(locale);
   const t = messages.years;
-  const lane = (id: string) => MAP_LANES.find((l) => l.id === id)!;
 
   return (
     <article>
@@ -93,36 +92,7 @@ export function YearDetail({
       <EventChips locale={locale} title={t.ongoing} events={ongoing} />
       <EventChips locale={locale} title={t.nearby} events={nearby} />
 
-      {maps.length > 0 && (
-        <>
-          <h2 className="mt-10 text-xl font-bold">{messages.ui.otherMaps}</h2>
-          <ul className="mt-3 flex flex-wrap gap-2">
-            {maps.map((m) => {
-              const l = lane(m.lane);
-              return (
-                <li key={m.key}>
-                  <a
-                    href={localeHref(locale, m.path)}
-                    className="inline-flex min-h-11 items-center gap-2 rounded-md border border-line px-3 py-1.5 text-base hover:border-foreground/40"
-                  >
-                    <span
-                      aria-hidden
-                      className="size-2.5 shrink-0 rounded-full"
-                      style={{ backgroundColor: l.color }}
-                    />
-                    <span className="text-muted">
-                      {l.titles ? pick(l.titles, locale) : messages.wars.tab}
-                    </span>
-                    <span className="font-semibold">
-                      {pick(m.titles, locale) || m.fallback}
-                    </span>
-                  </a>
-                </li>
-              );
-            })}
-          </ul>
-        </>
-      )}
+      <MapChips locale={locale} maps={maps} />
 
       <a
         href={reportIssueUrl(

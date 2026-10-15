@@ -7,7 +7,7 @@
 | 본 지도 사건 | `content/events`, `rankings` | `npm run wiki` → `content/wikipedia.json` | `npm run content` |
 | 사건 검수 | `content/events` | `npm run audit` → Wikidata 날짜·좌표, 동음이의 문서, 긴 기간 등 의심 목록 출력(고치지 않음, 캐시 `data-raw/`) | — |
 | 사건 후보 | — | `npm run draft` → `content/drafts` (`-- --promote 55`) | — |
-| 역사 국경 | Cliopatria 원본(`data-raw/`) | `npm run borders` → `public/borders` | — |
+| 역사 국경 | Cliopatria 원본(`data-raw/`) | `npm run borders` → `public/borders` | `npm run lands`(사건 자리를 다스린 나라, `public/borders` + 사건 좌표) |
 | 전쟁 지도 | `content/campaigns/<id>` | `npm run wars:fetch` / `wars:borders` | `npm run wars:build` |
 | 주제 지도 | `content/topics/<id>` | `npm run topics:fetch` | `npm run topics:build` |
 | OG 이미지 글꼴 | 모든 OG 카드의 글자 | `npm run og:fonts` → `content/og-fonts` (사건 제목·문구가 바뀌면) | — (이미지는 `next build`가 생성) |

@@ -1,25 +1,43 @@
 import type { Locale } from "./types";
 
 /**
- * 연도 선택 단위. 기원전은 세기(100년), 서기는 10년.
- *   기원전 3세기 = -300 ~ -201,  710년대 = 710 ~ 719
+ * 연도 선택 단위. 기원전은 세기(100년), 서기는 `step`년(기본 10년, 본 지도 설정에서 5·10·30·50·100).
+ *   기원전 3세기 = -300 ~ -201,  710년대 = 710 ~ 719,  5년 단위 1490 ~ 1494
  * 앱의 "현재 선택"은 항상 이 기간 하나다(연도 하나가 아니다).
+ * 기원전은 사건·국경 데이터가 성겨 설정과 상관없이 세기 단위다.
  */
-export type Period = { start: number; end: number; kind: "century" | "decade" };
+export type Period = {
+  start: number;
+  end: number;
+  /** century: 기원전 세기, decade: 서기 10년, years: 서기 그 밖의 단위(이름 대신 연도 범위로 표시) */
+  kind: "century" | "decade" | "years";
+};
 
-export function periodOf(year: number): Period {
+/** 서기 연도 단위(설정에서 고름) */
+export const YEAR_STEPS = [5, 10, 30, 50, 100] as const;
+export const DEFAULT_STEP = 10;
+
+export function periodOf(year: number, step: number = DEFAULT_STEP): Period {
   if (year < 0) {
     const n = Math.ceil(-year / 100);
     return { start: -n * 100, end: -(n - 1) * 100 - 1, kind: "century" };
   }
-  const start = Math.floor(year / 10) * 10;
-  return { start: Math.max(1, start), end: start + 9, kind: "decade" };
+  const start = Math.floor(year / step) * step;
+  return {
+    start: Math.max(1, start),
+    end: start + step - 1,
+    kind: step === 10 ? "decade" : "years",
+  };
 }
 
 /** 이전(-1)/다음(+1) 기간. 0년은 건너뛴다 */
-export function stepPeriod(p: Period, direction: 1 | -1): Period {
-  if (direction > 0) return periodOf(p.end + 1 === 0 ? 1 : p.end + 1);
-  return periodOf(p.start - 1 === 0 ? -1 : p.start - 1);
+export function stepPeriod(
+  p: Period,
+  direction: 1 | -1,
+  step: number = DEFAULT_STEP,
+): Period {
+  if (direction > 0) return periodOf(p.end + 1 === 0 ? 1 : p.end + 1, step);
+  return periodOf(p.start - 1 === 0 ? -1 : p.start - 1, step);
 }
 
 /** 사건 기간과 선택 기간 사이 거리(년). 겹치면 0 */
@@ -87,9 +105,12 @@ export function formatPeriod(p: Period, locale: Locale): string {
         return `século ${roman(n)} a.C.`;
     }
   }
-  // 서기 1~9년(0년은 없음)은 "0년대"가 어색하므로 연도 범위로 쓴다: "1–9년", "AD 1–9"
-  if (p.start === 1)
-    return (locale === "en" ? "AD " : "") + formatPeriodRange(p, locale);
+  // 서기 1~9년(0년은 없음)은 "0년대"가 어색하므로, 10년이 아닌 단위는 이름이 없으므로 연도 범위로 쓴다: "1–9년", "AD 1–9", "1490–1494년"
+  if (p.start === 1 || p.kind === "years")
+    return (
+      (locale === "en" && p.start < 1000 ? "AD " : "") +
+      formatPeriodRange(p, locale)
+    );
   const d = Math.floor(p.start / 10) * 10;
   switch (locale) {
     case "ko":

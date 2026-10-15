@@ -156,6 +156,14 @@ export const GearIcon = ({ className }: IconProps) => (
   </svg>
 );
 
+/** 펼친 책(사용 설명서) */
+export const BookIcon = ({ className }: IconProps) => (
+  <svg {...base} className={className}>
+    <path d="M12 7v14" />
+    <path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z" />
+  </svg>
+);
+
 /** 편지 봉투(메일) */
 export const MailIcon = ({ className }: IconProps) => (
   <svg {...base} className={className}>
