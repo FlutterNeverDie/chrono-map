@@ -128,7 +128,7 @@ links: 3
 
 @ battle-of-ramadi-2006
 wikipedia: Battle of Ramadi (2006)
-when: 2006-11
+when: 2006-03 ~ 2006-11
 coords: 43.3, 33.42
 links: 9
 

@@ -2,7 +2,7 @@
 
 @ battle-of-k-z-l-tepe
 wikipedia: Battle of Kızıl Tepe
-when: 1877-06
+when: 1877-08
 coords: 43.1, 40.62
 links: 10
 

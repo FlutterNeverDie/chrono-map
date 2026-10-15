@@ -1,0 +1,18 @@
+# 이 전쟁이 아닌 전투. battles.txt를 Wikidata에서 다시 만들어도(--list) 빠진다. 한 줄에 위키백과 문서 제목 또는 전투 id, # 뒤는 메모. 형식은 content/campaigns/CLAUDE.md
+
+# 1·2차 포에니 전쟁 사이: 바르카 가문의 히스파니아 정복, 로마-갈리아 전쟁(기원전 225~222)
+battle-of-helike
+battle-of-telamon
+battle-of-faesulae-225-bc
+battle-of-clastidium
+
+# 2차 포에니 전쟁 뒤: 갈리아 전쟁, 2차 마케도니아 전쟁
+battle-of-cremona-200-bc
+battle-of-the-aous-198-bc
+battle-of-placentia-194-bc
+battle-of-mutina-193-bc
+
+# 용병 전쟁(기원전 240~238, 카르타고 vs 반란 용병): 1·2차 포에니 전쟁 사이의 별개 전쟁
+battle-of-the-bagradas-river-240-bc
+battle-of-utica
+siege-of-tunis-mercenary-war

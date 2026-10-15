@@ -1,13 +1,21 @@
-# 병자호란: 영어 위키백과에 개별 전투 문서가 없어 핵심 전장(성곽) 문서로 대신한다. 날짜는 양력 월
+# 병자호란: 영어 위키백과에 개별 전투 문서가 없어(성곽 문서는 건축물 설명이라 맞지 않음) 이름·설명을 직접 쓴다
+# wikipedia가 없는 전투는 title.<언어>·summary.<언어>를 쓴다(ko 필수, 다른 언어는 영어로 대체). 형식은 content/campaigns/CLAUDE.md
+# 날짜는 양력 월
 
 @ siege-of-namhansanseong
-wikipedia: Namhansanseong
+title.ko: 남한산성 항전
+title.en: Siege of Namhansanseong
+summary.ko: 청군이 강화도로 가는 길을 끊자 인조와 조정은 한양 남쪽의 산성인 남한산성으로 들어갔다. 청군에 포위된 채 47일 동안 버텼으나 식량이 떨어지고 강화도마저 함락되자, 1637년 초 인조는 삼전도에서 청 태종에게 항복했다.
+summary.en: When Qing cavalry cut the road to Ganghwa Island, King Injo and his court took refuge in Namhansanseong, a mountain fortress south of Hanyang (Seoul). Surrounded by the Qing army, they held out for about 47 days, but with food running out and Ganghwa fallen, Injo surrendered to Hong Taiji at Samjeondo in early 1637.
 when: 1636-12 ~ 1637-02
 coords: 127.18, 37.48
 links: 35
 
 @ fall-of-ganghwa
-wikipedia: Ganghwasanseong Fortress
+title.ko: 강화도 함락 (1637)
+title.en: Fall of Ganghwa (1637)
+summary.ko: 1637년 초 도르곤이 이끄는 청군이 바다를 건너 강화도를 점령하고, 그곳에 피란해 있던 세자빈과 왕자들, 관리들을 사로잡았다. 강화도 함락 소식은 남한산성의 인조가 항복을 결심하는 계기가 되었다.
+summary.en: In early 1637 Qing troops under Dorgon crossed to Ganghwa Island and took it, capturing the crown princess, royal princes and officials who had taken refuge there. News of its fall pushed King Injo, besieged in Namhansanseong, to surrender.
 when: 1637-02
 coords: 126.48, 37.76
 links: 2

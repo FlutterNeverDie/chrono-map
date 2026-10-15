@@ -23,7 +23,7 @@ export function homeCard(pageLocale: Locale): OgCard {
   return {
     locale,
     kicker: m.siteName,
-    title: m.metaTitle.split(" — ")[1] ?? m.metaTitle,
+    title: m.metaTitle.split(" - ")[1] ?? m.metaTitle,
     subtitle: m.metaDescription,
     lines: [],
     dots: EVENTS.map((e) => dot(e, e.importance === 5)),

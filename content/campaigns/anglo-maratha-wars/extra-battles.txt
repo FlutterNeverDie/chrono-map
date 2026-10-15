@@ -1,0 +1,7 @@
+# 직접 추가한 전투: 1차 영국-마라타 전쟁(1775-1782)은 Wikidata에 좌표·날짜가 없어 자동으로 안 잡혔다. 형식은 content/campaigns/CLAUDE.md
+
+@ battle-of-wadgaon
+wikipedia: Battle of Wadgaon
+when: 1779
+coords: 73.73, 18.74
+links: 2

@@ -1,7 +1,12 @@
-# 몽골의 남송 정복: 임안(항저우) 함락은 개별 문서가 없어 임안부 문서로 대신한다
+# 몽골의 남송 정복: 임안(항저우) 함락은 영어 위키백과에 개별 문서가 없어(임안부 문서는 행정구역 설명) 이름·설명을 직접 쓴다
+# wikipedia가 없는 전투는 title.<언어>·summary.<언어>를 쓴다(ko 필수, 다른 언어는 영어로 대체). 형식은 content/campaigns/CLAUDE.md
 
 @ fall-of-linan-1276
-wikipedia: Lin'an Prefecture
+title.ko: 임안 함락 (1276)
+title.en: Fall of Lin'an (1276)
+title.zh: 临安陷落 (1276)
+summary.ko: 1276년 초 바얀이 이끄는 원나라 군대가 남송의 수도 임안(항저우)에 이르자, 사태후와 어린 공제가 싸우지 않고 항복했다. 남송의 남은 세력은 남쪽으로 내려가 1279년 애산 전투까지 저항을 이어 갔다.
+summary.en: In early 1276 the Yuan army under Bayan reached Lin'an (Hangzhou), the Southern Song capital, and Grand Empress Dowager Xie and the child Emperor Gong surrendered the city without a fight. Song loyalists fled south and fought on until the Battle of Yamen in 1279.
 when: 1276
 coords: 120.17, 30.27
 links: 8

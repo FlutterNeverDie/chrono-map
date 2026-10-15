@@ -87,14 +87,16 @@ export function formatPeriod(p: Period, locale: Locale): string {
         return `século ${roman(n)} a.C.`;
     }
   }
-  // 서기 1~9년(0년은 없음)은 "0년대"가 어색하므로 연도 범위로 쓴다: "1–9년", "1–9"
-  if (p.start === 1) return formatPeriodRange(p, locale);
+  // 서기 1~9년(0년은 없음)은 "0년대"가 어색하므로 연도 범위로 쓴다: "1–9년", "AD 1–9"
+  if (p.start === 1)
+    return (locale === "en" ? "AD " : "") + formatPeriodRange(p, locale);
   const d = Math.floor(p.start / 10) * 10;
   switch (locale) {
     case "ko":
       return `${d}년대`;
     case "en":
-      return `${d}s`;
+      // "30s", "100s"는 1930년대·2세기로 읽히므로 1000년 전은 "AD 30s"
+      return d < 1000 ? `AD ${d}s` : `${d}s`;
     case "zh":
       return `${d}年代`;
     case "es":

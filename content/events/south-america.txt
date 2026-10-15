@@ -114,6 +114,7 @@ coords: -71.97, -13.53
 category: politics
 importance: 4
 title.ko: 잉카 제국 성립
+title.en: Rise of the Inca Empire
 
 @ machu-picchu
 wikipedia: Machu Picchu
@@ -131,6 +132,7 @@ coords: -39.06, -16.45
 category: exploration
 importance: 4
 title.ko: 카브랄의 브라질 도착
+title.en: Cabral reaches Brazil
 title.hi: काब्राल का ब्राज़ील पहुँचना
 summary.hi: पुर्तगाली नाविक पेद्रो आल्वारेस काब्राल 1500 में भारत जाने वाले बेड़े का नेतृत्व करते हुए दक्षिण अमेरिका के तट पर पहुँचा। उसे ब्राज़ील का यूरोपीय खोजकर्ता माना जाता है और उसने वहाँ पुर्तगाल का दावा स्थापित किया। इसके बाद उसका बेड़ा अफ़्रीका होते हुए भारत की ओर आगे बढ़ा।
 
@@ -149,6 +151,7 @@ coords: -65.75, -19.58
 category: economy
 importance: 4
 title.ko: 포토시 은광 발견
+title.en: Silver discovered at Potosí
 summary.ko: 1545년 오늘날 볼리비아의 안데스 산지에서 거대한 은광이 있는 세로 리코(포토시 산)가 발견되었다. 이곳에서 캐낸 막대한 은이 에스파냐로 실려 가 에스파냐 제국의 재정과 세계 은 유통에 큰 영향을 주었다.
 title.ar: اكتشاف فضة بوتوسي
 title.hi: पोतोसी की चाँदी की खान
@@ -253,6 +256,7 @@ coords: -43.17, -22.9
 category: politics
 importance: 2
 title.ko: 브라질 공화국 선포
+title.en: Proclamation of the Brazilian Republic
 summary.ko: 1889년 11월 15일 브라질에서 군부가 쿠데타를 일으켜 입헌 군주제인 브라질 제국을 무너뜨리고 공화국을 선포했다. 황제 페드루 2세는 퇴위했고 제1공화국이 시작되었다.
 title.ar: إعلان الجمهورية في البرازيل
 title.hi: ब्राज़ील गणराज्य की घोषणा

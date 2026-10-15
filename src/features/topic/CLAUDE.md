@@ -15,5 +15,6 @@
 - `ItemMarks.tsx`: 슬라이더 바로 위 항목 표식(span: 기간 막대를 최대 3줄로 쌓음, persist: 눈금). 중요도 5는 진하게, 지금 보이는 항목은 강조, 누르면 그 항목으로 이동. 자리 계산은 `logic.ts`의 `itemMarks`.
 - 상단 탭은 `topic-index.json`으로 자동 생성(`src/app/SiteHeader.tsx`).
 - 항목에 `link`가 있으면 패널 카드에 그 지도로 가는 버튼(`topic.linkLabel`)을 붙인다 — 전쟁 지도 첫 화면(/wars)이 이렇게 각 전쟁 지도로 보낸다.
+- 항목 설명(`itemSummary`): 그 언어 위키백과 → 직접 쓴 summary → 영어 위키백과 → 직접 쓴 영어·한국어. 직접 쓴 summary가 있는 언어의 위키백과 요약은 빌드에서 빠진다.
 - 화면에 넘길 때는 `localizeTopic(주제, 언어)`(data.ts, TopicScreen에서 호출)로 그 언어와 대체 언어만 남긴다(`lib/localize`의 `keepLocales`).
 - 색: 항목마다 다른 색(`itemColor`, 9색 팔레트를 시작 순서대로 돌려 씀 → 시기가 가까운 항목끼리 다른 색). 지도 점·확산 경로·목록 카드·슬라이더 표식에 쓴다. 주제 지도 자체 색(`topic.txt`의 color)은 탭·슬라이더 진행 막대·본 지도 띠에만 쓰고, 지도끼리 겹치지 않게 고른다(전쟁 빨강, 역병 보라, 발명 파랑).

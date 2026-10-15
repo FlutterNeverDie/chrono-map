@@ -4,4 +4,4 @@ Iraqi Republic = b ~ 2003-04
 United States of America = a 2006-01 ~
 # 바트당 정권 붕괴(2003-04) 뒤 이라크 영역은 진영 없음(새 이라크 정부는 연합군 편이라 b로 칠하지 않음)
 # 원본 2006~2011 이라크 영역이 United States of America(점령)로 나와 그 기간만 a. 2003~05 원본 미국에는 베트남이 섞여 있어 제외
-# 영국은 넣지 않는다: 원본 Kingdom of Great Britain에 오만이 포함됨
+# 영국은 넣지 않는다: 원본 영국 도형에 섞여 있던 오만을 떼어 낸 뒤(scripts/lib/polityFixes.mjs) 이 지도 범위 밖

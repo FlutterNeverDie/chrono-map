@@ -12,18 +12,6 @@ when: 1338
 coords: 3.37, 51.65
 links: 14
 
-@ battle-of-parabiago
-wikipedia: Battle of Parabiago
-when: 1339
-coords: 8.85, 45.55
-links: 7
-
-@ battle-of-laupen
-wikipedia: Battle of Laupen
-when: 1339
-coords: 7.23, 46.9
-links: 14
-
 @ siege-of-tournai-1340
 wikipedia: Siege of Tournai (1340)
 when: 1340
@@ -210,101 +198,17 @@ when: 1370
 coords: 0.21, 47.77
 links: 8
 
-@ battle-of-duns
-wikipedia: Battle of Duns
-when: 1372
-coords: -2.35, 55.77
-links: 5
-
 @ battle-of-la-rochelle
 wikipedia: Battle of La Rochelle
 when: 1372
 coords: -1.15, 46.17
 links: 20
 
-@ battle-of-sorenberg
-wikipedia: Battle of Sörenberg
-when: 1380
-coords: 8.05, 46.81
-links: 5
-
-@ battle-of-beverhoutsveld
-wikipedia: Battle of Beverhoutsveld
-when: 1382
-coords: 3.38, 51.16
-links: 7
-
 @ battle-of-roosebeke
 wikipedia: Battle of Roosebeke
 when: 1382
 coords: 3.01, 50.93
 links: 12
-
-@ battle-of-sempach
-wikipedia: Battle of Sempach
-when: 1386
-coords: 8.21, 47.15
-links: 20
-
-@ battle-of-nafels
-wikipedia: Battle of Näfels
-when: 1388
-coords: 9.07, 47.1
-links: 14
-
-@ battle-of-otterburn
-wikipedia: Battle of Otterburn
-when: 1388
-coords: -2.19, 55.24
-links: 7
-
-@ battle-of-alessandria
-wikipedia: Battle of Alessandria
-when: 1391
-coords: 8.62, 44.92
-links: 6
-
-@ battle-of-mynydd-hyddgen
-wikipedia: Battle of Mynydd Hyddgen
-when: 1401
-coords: -3.8, 52.51
-links: 6
-
-@ battle-of-bryn-glas
-wikipedia: Battle of Bryn Glas
-when: 1402
-coords: -3.1, 52.31
-links: 8
-
-@ battle-of-homildon-hill
-wikipedia: Battle of Homildon Hill
-when: 1402
-coords: -2.05, 55.56
-links: 8
-
-@ battle-of-shrewsbury
-wikipedia: Battle of Shrewsbury
-when: 1403
-coords: -2.72, 52.75
-links: 15
-
-@ battle-of-pwll-melyn
-wikipedia: Battle of Pwll Melyn
-when: 1405
-coords: -2.95, 51.72
-links: 5
-
-@ battle-of-bramham-moor
-wikipedia: Battle of Bramham Moor
-when: 1408
-coords: -1.34, 53.86
-links: 5
-
-@ battle-of-othee
-wikipedia: Battle of Othée
-when: 1408
-coords: 5.46, 50.72
-links: 7
 
 @ siege-of-harfleur
 wikipedia: Siege of Harfleur
@@ -341,12 +245,6 @@ wikipedia: Siege of Meaux
 when: 1421 ~ 1422
 coords: 2.89, 48.96
 links: 10
-
-@ battle-of-arbedo
-wikipedia: Battle of Arbedo
-when: 1422
-coords: 9.04, 46.21
-links: 14
 
 @ battle-of-cravant
 wikipedia: Battle of Cravant
@@ -420,24 +318,6 @@ when: 1430
 coords: 2.82, 49.41
 links: 14
 
-@ battle-on-the-po-1431
-wikipedia: Battle on the Po (1431)
-when: 1431
-coords: 8, 45
-links: 7
-
-@ battle-of-bulgneville
-wikipedia: Battle of Bulgnéville
-when: 1431
-coords: 5.84, 48.21
-links: 7
-
-@ battle-of-delebio
-wikipedia: Battle of Delebio
-when: 1432
-coords: 9.47, 46.13
-links: 6
-
 @ battle-of-gerberoy
 wikipedia: Battle of Gerberoy
 when: 1435
@@ -456,29 +336,11 @@ when: 1436
 coords: 1.86, 50.95
 links: 6
 
-@ battle-of-st-jakob-an-der-sihl
-wikipedia: Battle of St. Jakob an der Sihl
-when: 1443
-coords: 8.53, 47.37
-links: 9
-
-@ battle-of-st-jakob-an-der-birs
-wikipedia: Battle of St. Jakob an der Birs
-when: 1444
-coords: 7.62, 47.54
-links: 11
-
 @ battle-of-formigny
 wikipedia: Battle of Formigny
 when: 1450
 coords: -0.9, 49.34
 links: 26
-
-@ battle-of-gavere
-wikipedia: Battle of Gavere
-when: 1453
-coords: 3.65, 50.93
-links: 7
 
 @ battle-of-castillon
 wikipedia: Battle of Castillon

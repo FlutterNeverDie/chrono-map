@@ -8,7 +8,7 @@ links: 21
 
 @ battle-of-guadarrama
 wikipedia: Battle of Guadarrama
-when: 1936-07
+when: 1936-07 ~ 1936-09
 coords: -3.59, 41.16
 links: 9
 

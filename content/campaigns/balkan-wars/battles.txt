@@ -140,7 +140,7 @@ links: 13
 
 @ second-battle-of-catalca
 wikipedia: Second Battle of Çatalca
-when: 1913-04
+when: 1913-02 ~ 1913-04
 coords: 28.46, 41.14
 links: 8
 

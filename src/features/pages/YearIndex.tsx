@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import type { Locale } from "@/lib/types";
 import { fill, getMessages, type Messages } from "@/i18n";
-import { LOCALES, localeHref } from "@/i18n/locales";
+import { localeHref } from "@/i18n/locales";
+import { pageAlternates } from "@/i18n/alternates";
 import { eventTitle } from "@/lib/localize";
 import { formatPeriod, formatPeriodRange } from "@/lib/period";
 import eras from "@/data/eras.json";
@@ -58,20 +59,12 @@ export function YearIndex({ locale }: { locale: Locale }) {
   );
 }
 
-/** 같은 화면의 언어별 주소(hreflang). 상대 경로는 레이아웃의 metadataBase로 절대 주소가 된다 */
-function alternates(locale: Locale, path: string): Metadata["alternates"] {
-  return {
-    canonical: localeHref(locale, path),
-    languages: Object.fromEntries(LOCALES.map((l) => [l, localeHref(l, path)])),
-  };
-}
-
 export function yearIndexMetadata(locale: Locale): Metadata {
   const messages = getMessages(locale);
   return {
     title: `${messages.years.indexTitle} — ${messages.siteName}`,
     description: messages.years.indexDescription,
-    alternates: alternates(locale, "year"),
+    alternates: pageAlternates(locale, "year"),
   };
 }
 
@@ -91,7 +84,7 @@ export function yearMetadata(locale: Locale, slug: string): Metadata {
   return {
     title: `${title} — ${messages.siteName}`,
     description,
-    alternates: alternates(locale, `year/${slug}`),
+    alternates: pageAlternates(locale, `year/${slug}`),
     openGraph: {
       title,
       description,

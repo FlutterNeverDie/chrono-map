@@ -15,13 +15,17 @@ export type SideRule = {
 
 export type Battle = {
   id: string;
-  wikipedia: string;
+  /** 맞는 위키백과 문서가 없는 전투는 없음 → 직접 쓴 title·summary를 쓰고 출처 표기도 없다 */
+  wikipedia?: string;
   start: number;
   end: number;
   coords: [number, number];
   /** 위키백과 언어판 수 — 중요도 */
   links: number;
   wiki: Partial<Record<Locale, WikiPage>>;
+  /** 직접 쓴 이름·설명(battles.txt의 title.<언어>, summary.<언어>) */
+  title?: Partial<Record<Locale, string>>;
+  summary?: Partial<Record<Locale, string>>;
 };
 
 export type Campaign = {
@@ -39,6 +43,9 @@ export type Campaign = {
   sides: Partial<Record<"a" | "b", Partial<Record<Locale, string>>>>;
   sideRules: SideRule[];
   wiki: Partial<Record<Locale, WikiPage>>;
+  /** 직접 쓴 전쟁 이름·설명(theme.txt). summary가 있는 언어는 빌드에서 그 언어 위키백과 요약을 뺀다 */
+  title?: Partial<Record<Locale, string>>;
+  summary?: Partial<Record<Locale, string>>;
   battles: Battle[];
   borderYears: number[];
 };

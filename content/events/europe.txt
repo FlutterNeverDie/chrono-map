@@ -165,6 +165,7 @@ when: 2022
 coords: 30.52, 50.45
 category: war
 importance: 5
+title.en: Russian invasion of Ukraine
 
 @ battle-of-marathon
 wikipedia: Battle of Marathon
@@ -464,7 +465,7 @@ importance: 3
 
 @ belgian-revolution
 wikipedia: Belgian Revolution
-when: 1831
+when: 1830 ~ 1831
 coords: 5, 51
 category: politics
 importance: 3
@@ -480,7 +481,7 @@ importance: 3
 
 @ hungarian-revolution-of-1848
 wikipedia: Hungarian Revolution of 1848
-when: 1849
+when: 1848 ~ 1849
 coords: 19, 47
 category: politics
 importance: 3
@@ -510,7 +511,7 @@ importance: 4
 
 @ russo-turkish-war-1877-1878
 wikipedia: Russo-Turkish War (1877–1878)
-when: 1878
+when: 1877 ~ 1878
 coords: 44.5, 42.75
 category: war
 importance: 3
@@ -603,7 +604,7 @@ importance: 4
 
 @ german-revolution-of-1918-1919
 wikipedia: German revolution of 1918–1919
-when: 1918
+when: 1918 ~ 1919
 coords: 10, 51
 category: politics
 importance: 3
@@ -680,6 +681,7 @@ when: 1941 ~ 1945
 coords: 15.5, 53.5
 category: war
 importance: 4
+title.en: Eastern Front of World War II
 
 @ siege-of-leningrad
 wikipedia: Siege of Leningrad
@@ -874,6 +876,7 @@ coords: 12.45, 41.9
 category: politics
 importance: 4
 title.ko: 카롤루스 대제의 황제 대관
+title.en: Coronation of Charlemagne
 
 @ east-west-schism
 wikipedia: East–West Schism
@@ -907,6 +910,7 @@ coords: 8.27, 50.0
 category: science
 importance: 5
 title.ko: 구텐베르크의 인쇄술
+title.en: Gutenberg's printing press
 
 @ ninety-five-theses
 wikipedia: Ninety-five Theses
@@ -993,6 +997,7 @@ coords: 6.05, 46.23
 category: science
 importance: 5
 title.ko: 월드 와이드 웹 발명
+title.en: Invention of the World Wide Web
 
 @ maastricht-treaty
 wikipedia: Maastricht Treaty

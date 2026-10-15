@@ -412,7 +412,7 @@ title.hi: एन्सेफ़ेलाइटिस लेथार्जिक
 
 @ seventh-cholera-pandemic
 wikipedia: 1961–1975 cholera pandemic
-when: 1961 ~ 1975
+when: 1961 ~ 2025-12
 coords: 119.42, -5.14
 spread: 1963 90.41, 23.81 | 1966 51.39, 35.69 | 1970 3.38, 6.52 | 1973 14.27, 40.85
 importance: 3
@@ -422,6 +422,7 @@ summary.pt: A sétima grande pandemia de cólera começou em 1961 e continua at�
 title.es: Séptima pandemia de cólera
 title.hi: सातवीं हैजा महामारी
 title.pt: Sétima pandemia de cólera
+# 1975년 이후에도 끝나지 않았다(영어·중국어·프랑스어 요약: 지금도 진행 중) → hiv-aids처럼 슬라이더 끝까지
 
 @ russian-flu-1977
 wikipedia: 1977 Russian flu

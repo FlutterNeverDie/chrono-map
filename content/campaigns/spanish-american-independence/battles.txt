@@ -72,12 +72,6 @@ when: 1815
 coords: -66.35, -17.46
 links: 8
 
-@ battle-of-india-muerta
-wikipedia: Battle of India Muerta
-when: 1816
-coords: -54.29, -34.09
-links: 6
-
 @ battle-of-chacabuco
 wikipedia: Battle of Chacabuco
 when: 1817
@@ -107,12 +101,6 @@ wikipedia: Battle of Boyacá
 when: 1819
 coords: -73.43, 5.45
 links: 25
-
-@ battle-of-cepeda-1820
-wikipedia: Battle of Cepeda (1820)
-when: 1820
-coords: -61, -33
-links: 8
 
 @ battle-of-camino-real
 wikipedia: Battle of Camino Real
@@ -197,33 +185,3 @@ wikipedia: Battle of Ayacucho
 when: 1824
 coords: -74.13, -13.04
 links: 32
-
-@ battle-of-sarandi
-wikipedia: Battle of Sarandí
-when: 1825
-coords: -56.29, -33.67
-links: 7
-
-@ battle-of-monte-santiago
-wikipedia: Battle of Monte Santiago
-when: 1827
-coords: -57.95, -34.82
-links: 5
-
-@ battle-of-ituzaingo
-wikipedia: Battle of Ituzaingó
-when: 1827
-coords: -54.87, -30.24
-links: 8
-
-@ battle-of-juncal
-wikipedia: Battle of Juncal
-when: 1827
-coords: -58.4, -33.95
-links: 8
-
-@ desert-campaign-1833-1834
-wikipedia: Desert Campaign (1833–1834)
-when: 1833 ~ 1834
-coords: -62.36, -39.5
-links: 6

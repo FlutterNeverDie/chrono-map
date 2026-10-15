@@ -954,5 +954,24 @@
         "url": "https://pt.wikipedia.org/wiki/Batalha_de_Washington"
       }
     }
+  },
+  "Siege of Fort Harrison": {
+    "pages": {
+      "en": {
+        "title": "Fort Harrison, Indiana",
+        "extract": "Fort Harrison was a War of 1812 era stockade constructed in October 1811 on high ground overlooking the Wabash River on a portion of what is today the modern city of Terre Haute, Indiana, by forces under command of General William Henry Harrison. It was a staging point for Harrison to encamp his forces just prior to the Battle of Tippecanoe a month later. The fort was the site of a famous battle in the War of 1812, the siege of Fort Harrison, in September 1812 that was the first significant victory for the US in the war. The fort was abandoned in 1818 as the frontier moved westward.",
+        "url": "https://en.wikipedia.org/wiki/Fort_Harrison%2C_Indiana"
+      },
+      "zh": {
+        "title": "哈里森堡壘戰役",
+        "extract": "哈里森堡垒战役 是为一个美国于1812年战争中的决定性胜利，在这战役里，15个美国人独自对抗600名印地安人。",
+        "url": "https://zh.wikipedia.org/wiki/%E5%93%88%E9%87%8C%E6%A3%AE%E5%A0%A1%E5%A3%98%E6%88%B0%E5%BD%B9"
+      },
+      "fr": {
+        "title": "Siège de Fort Harrison",
+        "extract": "Le siège de Fort Harrison est un épisode de la guerre anglo-américaine de 1812 qui eut lieu du 4 au 15 septembre 1812 dans le territoire de l'Indiana, près de la ville actuelle de Terre Haute.",
+        "url": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Fort_Harrison"
+      }
+    }
   }
 }

@@ -1,6 +1,11 @@
 # 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
 
 wikipedia: Anglo-Maratha wars
+# 영어 문서가 동음이의어 문서라 영어·한국어(문서 없음)는 직접 쓴 이름·설명을 쓴다
+title.ko: 영국-마라타 전쟁
+title.en: Anglo-Maratha Wars
+summary.ko: 영국-마라타 전쟁은 인도에서 마라타 동맹과 영국 동인도 회사가 벌인 세 차례 전쟁이다. 1차 전쟁(1775-1782)은 살바이 조약으로 사실상 무승부로 끝났고, 2차(1803-1805)와 3차(1817-1818) 전쟁에서 마라타 세력이 무너져 1818년 이후 동인도 회사가 인도 대부분을 지배하게 되었다.
+summary.en: The Anglo-Maratha Wars were three wars fought in India between the Maratha Confederacy and the British East India Company. The First War (1775-1782) ended in a stalemate with the Treaty of Salbai; the Second (1803-1805) and Third (1817-1818) broke Maratha power, and after 1818 the Company controlled most of India.
 region: india
 when: 1775 ~ 1818
 unit: year
@@ -16,11 +21,11 @@ side.a.hi: मराठा साम्राज्य
 side.a.ar: إمبراطورية المراثا
 side.a.fr: Empire marathe
 side.a.pt: Império Marata
-side.b.ko: 영국
-side.b.en: British
-side.b.zh: 英国
-side.b.es: Británicos
-side.b.hi: ब्रिटिश
-side.b.ar: البريطانيون
-side.b.fr: Britanniques
-side.b.pt: Britânicos
+side.b.ko: 영국 동인도 회사
+side.b.en: British East India Company
+side.b.zh: 英国东印度公司
+side.b.es: Compañía Británica de las Indias Orientales
+side.b.hi: ब्रिटिश ईस्ट इंडिया कंपनी
+side.b.ar: شركة الهند الشرقية البريطانية
+side.b.fr: Compagnie britannique des Indes orientales
+side.b.pt: Companhia Britânica das Índias Orientais

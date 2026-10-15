@@ -77,7 +77,7 @@ title.ar: هبوط أبولو 11 على القمر
 title.fr: Alunissage d'Apollo 11
 title.pt: Pouso da Apollo 11 na Lua
 place.ko: 미국 케네디 우주센터
-place.en: Kennedy Space Center, USA
+place.en: Launched from Kennedy Space Center, USA
 place.zh: 美国肯尼迪航天中心
 place.es: Centro Espacial Kennedy, EE. UU.
 place.hi: कैनेडी अंतरिक्ष केंद्र, अमेरिका
@@ -324,6 +324,7 @@ coords: -79.68, 9.08
 category: economy
 importance: 4
 title.ko: 파나마 운하 개통
+title.en: Opening of the Panama Canal
 
 @ trinity-test
 wikipedia: Trinity (nuclear test)
@@ -332,6 +333,7 @@ coords: -106.48, 33.68
 category: science
 importance: 5
 title.ko: 트리니티 핵실험 (최초의 핵폭발)
+title.en: Trinity nuclear test
 title.hi: ट्रिनिटी परमाणु परीक्षण
 summary.hi: 16 जुलाई 1945 को मैनहट्टन परियोजना के तहत अमेरिकी सेना ने न्यू मेक्सिको में दुनिया का पहला परमाणु विस्फोट किया। इसमें इम्प्लोज़न डिज़ाइन वाले प्लूटोनियम बम का परीक्षण किया गया, जिसका डिज़ाइन बाद में नागासाकी पर गिराए गए फ़ैट मैन बम जैसा था।
 

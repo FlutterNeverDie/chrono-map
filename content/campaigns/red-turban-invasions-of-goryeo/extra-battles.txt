@@ -1,19 +1,29 @@
-# 홍건적의 침입: 영어 위키백과에 개별 전투 문서가 없어 핵심 전장(도시) 문서로 대신한다
+# 홍건적의 침입: 영어 위키백과에 개별 전투 문서가 없어(도시 문서는 현대 도시 설명이라 맞지 않음) 이름·설명을 직접 쓴다
+# wikipedia가 없는 전투는 title.<언어>·summary.<언어>를 쓴다(ko 필수, 다른 언어는 영어로 대체). 형식은 content/campaigns/CLAUDE.md
 
 @ fall-of-uiju-1359
-wikipedia: Uiju County
+title.ko: 의주 함락 (1359)
+title.en: Fall of Uiju (1359)
+summary.ko: 1359년 겨울, 원나라 군대에 밀려난 홍건적 약 4만 명이 얼어붙은 압록강을 건너 고려를 침입해 의주를 함락하고 정주·인주를 차례로 빼앗았다.
+summary.en: In the winter of 1359 about 40,000 Red Turbans, pushed out of northern China by Yuan forces, crossed the frozen Yalu River into Goryeo, took Uiju and went on to capture Jeongju and Inju.
 when: 1359
 coords: 124.53, 40.2
 links: 6
 
 @ fall-and-recapture-of-seogyeong
-wikipedia: Pyongyang
+title.ko: 서경 함락과 수복 (1359-1360)
+title.en: Fall and recapture of Seogyeong (1359-1360)
+summary.ko: 홍건적은 고려의 서경(평양)까지 점령했다. 1360년 초 고려군이 반격해 서경을 되찾고, 큰 피해를 입은 홍건적을 압록강 너머로 몰아냈다.
+summary.en: The Red Turbans went on to seize Seogyeong (Pyongyang), Goryeo's western capital. In early 1360 Goryeo forces counterattacked, retook the city and drove the invaders back across the Yalu with heavy losses.
 when: 1359 ~ 1360
 coords: 125.75, 39.02
 links: 8
 
 @ fall-and-recapture-of-gaegyeong
-wikipedia: Kaesong
+title.ko: 개경 함락과 수복 (1361-1362)
+title.en: Fall and recapture of Gaegyeong (1361-1362)
+summary.ko: 1361년 겨울 10만이라 일컬어지는 홍건적이 다시 쳐들어와 수도 개경을 함락했고, 공민왕은 복주(안동)로 피란했다. 1362년 초 정세운이 이끄는 고려군이 이성계 등과 함께 개경을 되찾고 홍건적을 몰아냈다.
+summary.en: In late 1361 a much larger Red Turban army, said to number 100,000, invaded again and captured Gaegyeong (Kaesong), the Goryeo capital, forcing King Gongmin to flee to Andong. In early 1362 Goryeo armies under Jeong Se-un, with commanders including Yi Seong-gye, retook the capital and routed the invaders.
 when: 1361 ~ 1362
 coords: 126.55, 37.97
 links: 10

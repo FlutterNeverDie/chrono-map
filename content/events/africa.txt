@@ -70,7 +70,7 @@ coords: 28.19, -25.75
 category: politics
 importance: 5
 title.ko: 만델라 대통령 당선
-title.en: Mandela is elected president
+title.en: Mandela elected President of South Africa
 title.zh: 曼德拉当选总统
 title.es: Mandela es elegido presidente
 title.hi: मंडेला राष्ट्रपति चुने गए
@@ -143,6 +143,7 @@ coords: 32.78, 25.1
 category: politics
 importance: 4
 title.ko: 이집트 통일 (나르메르)
+title.en: Narmer unifies Egypt
 title.hi: नारमेर द्वारा मिस्र का एकीकरण
 summary.hi: नारमेर प्राचीन मिस्र के प्रारंभिक राजवंश काल का शासक था, जिसका शासन ई.पू. चौथी सहस्राब्दी के अंत में शुरू हुआ। अधिकांश विद्वान उसे ऊपरी और निचले मिस्र का एकीकरण करने वाला और प्रथम राजवंश का संस्थापक मानते हैं। इस प्रकार वह एकीकृत मिस्र का पहला राजा माना जाता है।
 
@@ -153,6 +154,7 @@ coords: 10.32, 36.85
 category: politics
 importance: 3
 title.ko: 카르타고 건국
+title.en: Founding of Carthage
 
 @ library-of-alexandria
 wikipedia: Library of Alexandria
@@ -171,6 +173,7 @@ coords: 38.72, 14.13
 category: religion
 importance: 3
 title.ko: 악숨 왕국의 기독교 개종
+title.en: Aksum adopts Christianity
 summary.ko: 4세기 악숨 왕국의 왕 에자나가 기독교를 받아들여 국교로 삼았다. 그는 기록이 비교적 잘 남아 있는 악숨의 군주로, 에티오피아라는 이름을 처음 쓴 왕으로도 알려져 있다.
 title.hi: अक्सूम के एज़ाना का ईसाई धर्म अपनाना
 summary.hi: चौथी शताब्दी में अक्सूम राज्य के राजा एज़ाना ने ईसाई धर्म अपनाया और उसे राज्य का धर्म बनाया। वह अक्सूम के उन शासकों में से है जिनके बारे में अपेक्षाकृत अच्छे अभिलेख मिलते हैं। उसे अपने देश के लिए इथियोपिया नाम का प्रयोग करने वाला पहला राजा भी माना जाता है।
@@ -243,6 +246,7 @@ coords: 18.47, -34.36
 category: exploration
 importance: 4
 title.ko: 디아스의 희망봉 도달
+title.en: Dias rounds the Cape of Good Hope
 
 @ ottoman-mamluk-war
 wikipedia: Ottoman–Mamluk War (1516–1517)
@@ -299,6 +303,7 @@ coords: 32.35, 30.6
 category: economy
 importance: 4
 title.ko: 수에즈 운하 개통
+title.en: Opening of the Suez Canal
 
 @ anglo-zulu-war
 wikipedia: Anglo-Zulu War
@@ -323,6 +328,7 @@ coords: 15.3, -4.3
 category: politics
 importance: 3
 title.ko: 콩고 자유국 수립
+title.en: Creation of the Congo Free State
 
 @ battle-of-adwa
 wikipedia: Battle of Adwa
@@ -361,6 +367,7 @@ coords: 28.19, -25.75
 category: politics
 importance: 4
 title.ko: 아파르트헤이트 시행
+title.en: Apartheid introduced in South Africa
 
 @ egyptian-revolution-1952
 wikipedia: Egyptian revolution of 1952
@@ -411,6 +418,7 @@ coords: 38.75, 9.03
 category: politics
 importance: 3
 title.ko: 아프리카 통일 기구 창설
+title.en: Founding of the Organisation of African Unity
 title.hi: अफ़्रीकी एकता संगठन की स्थापना
 summary.hi: 25 मई 1963 को इथियोपिया के अदीस अबाबा में 33 अफ़्रीकी सरकारों के हस्ताक्षर से अफ़्रीकी एकता संगठन की स्थापना हुई। इसका उद्देश्य सदस्य देशों के बीच राजनीतिक और आर्थिक एकीकरण को बढ़ावा देना तथा अफ़्रीका से उपनिवेशवाद और नव-उपनिवेशवाद को समाप्त करना था; 2002 में इसका स्थान अफ़्रीकी संघ ने लिया।
 

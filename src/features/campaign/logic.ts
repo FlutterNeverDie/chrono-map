@@ -1,4 +1,4 @@
-import type { Locale } from "@/lib/types";
+import type { Locale, WikiPage } from "@/lib/types";
 import { formatYear } from "@/lib/year";
 import type { Battle, Campaign, SideKey, Unit } from "./types";
 
@@ -46,26 +46,62 @@ export function formatRange(
   unit: Unit,
   locale: Locale,
 ): string {
-  return a === b
-    ? formatTime(a, unit, locale)
-    : `${formatTime(a, unit, locale)} – ${formatTime(b, unit, locale)}`;
+  if (a === b) return formatTime(a, unit, locale);
+  const range = `${formatTime(a, unit, locale)} – ${formatTime(b, unit, locale)}`;
+  // 영어는 같은 기원을 한 번만: "AD 622 – AD 750" → "AD 622–750", "264 BC – 146 BC" → "264–146 BC"
+  return locale === "en"
+    ? range
+        .replace(/^AD (\d+) – AD (\d+)$/, "AD $1–$2")
+        .replace(/^(\d+) BC – (\d+) BC$/, "$1–$2 BC")
+    : range;
+}
+
+/** 이름: 직접 쓴 이름(그 언어) → 그 언어 위키백과 → 직접 쓴 영어 → 영어 위키백과 → 직접 쓴 한국어 */
+function ownOrWikiTitle(
+  title: Partial<Record<Locale, string>> | undefined,
+  wiki: Partial<Record<Locale, WikiPage>>,
+  locale: Locale,
+): string | undefined {
+  return (
+    title?.[locale] ??
+    wiki[locale]?.title ??
+    title?.en ??
+    wiki.en?.title ??
+    title?.ko
+  );
+}
+
+/**
+ * 설명: 그 언어 위키백과 → 직접 쓴 설명(그 언어) → 영어 위키백과 → 직접 쓴 영어 → 직접 쓴 한국어.
+ * `page`가 있을 때만 위키백과 원문이므로 출처(문서 링크, CC BY-SA 4.0)를 붙인다.
+ */
+function ownOrWikiSummary(
+  summary: Partial<Record<Locale, string>> | undefined,
+  wiki: Partial<Record<Locale, WikiPage>>,
+  locale: Locale,
+): { text: string; page?: WikiPage; lang: Locale } {
+  const own = wiki[locale];
+  if (own) return { text: own.extract, page: own, lang: locale };
+  if (summary?.[locale]) return { text: summary[locale]!, lang: locale };
+  if (wiki.en) return { text: wiki.en.extract, page: wiki.en, lang: "en" };
+  if (summary?.en) return { text: summary.en, lang: "en" };
+  if (summary?.ko) return { text: summary.ko, lang: "ko" };
+  return { text: "", lang: locale };
 }
 
 export function campaignTitle(c: Campaign, locale: Locale): string {
-  return c.wiki[locale]?.title ?? c.wiki.en?.title ?? c.wikipedia;
+  return ownOrWikiTitle(c.title, c.wiki, locale) ?? c.wikipedia;
 }
+
+export const campaignSummary = (c: Campaign, locale: Locale) =>
+  ownOrWikiSummary(c.summary, c.wiki, locale);
 
 export function battleTitle(b: Battle, locale: Locale): string {
-  return b.wiki[locale]?.title ?? b.wiki.en?.title ?? b.wikipedia;
+  return ownOrWikiTitle(b.title, b.wiki, locale) ?? b.wikipedia ?? b.id;
 }
 
-export function battleSummary(b: Battle, locale: Locale) {
-  const own = b.wiki[locale];
-  if (own) return { text: own.extract, page: own, lang: locale };
-  if (b.wiki.en)
-    return { text: b.wiki.en.extract, page: b.wiki.en, lang: "en" as Locale };
-  return { text: "", page: undefined, lang: locale };
-}
+export const battleSummary = (b: Battle, locale: Locale) =>
+  ownOrWikiSummary(b.summary, b.wiki, locale);
 
 /** 슬라이더 눈금 연도: 기간에 맞춰 1·2·5·10·20·25·50·100년 간격 중 6~9개가 되는 것 */
 export function tickYears(c: Campaign): number[] {

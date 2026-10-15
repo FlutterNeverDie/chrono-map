@@ -17,3 +17,14 @@ wikipedia: Battle of Craney Island
 when: 1813-06
 coords: -76.35, 36.95
 links: 2
+
+# 영어 "Siege of Fort Harrison"은 요새 문서로 넘어가므로 영어·한국어는 직접 쓴 글(summary.<언어>가 있으면 그 언어 위키백과 대신)
+@ siege-of-fort-harrison
+wikipedia: Siege of Fort Harrison
+title.ko: 해리슨 요새 포위전
+title.en: Siege of Fort Harrison
+summary.ko: 1812년 9월 테쿰세 동맹에 속한 원주민 전사 수백 명이 인디애나 준주 와배시강 가의 해리슨 요새를 공격했다. 병자가 많아 싸울 수 있는 병사가 얼마 되지 않던 재커리 테일러 대위의 수비대는 방어 시설에 붙은 불을 끄며 버텼고, 구원군이 올 때까지 요새를 지켰다. 이 전쟁에서 미국이 육상에서 거둔 첫 승리로 꼽힌다.
+summary.en: In September 1812 several hundred Native American warriors allied with Tecumseh attacked Fort Harrison on the Wabash River in Indiana Territory. Captain Zachary Taylor's garrison, many of them sick, fought off the attack, put out a fire set to the blockhouse and held the fort until a relief column arrived. It is often called the first American land victory of the war.
+when: 1812-09
+coords: -87.41, 39.51
+links: 4

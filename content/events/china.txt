@@ -175,6 +175,7 @@ coords: 113.65, 34.75
 category: politics
 importance: 3
 title.ko: 상나라 건국
+title.en: Founding of the Shang dynasty
 
 @ oracle-bone-script
 wikipedia: Oracle bone script
@@ -207,6 +208,7 @@ coords: 116.99, 35.6
 category: culture
 importance: 4
 title.ko: 공자와 유학의 성립
+title.en: Confucius and the rise of Confucianism
 
 @ battle-of-changping
 wikipedia: Battle of Changping
@@ -235,6 +237,7 @@ coords: 108.94, 34.26
 category: politics
 importance: 4
 title.ko: 한나라 건국
+title.en: Founding of the Han dynasty
 
 @ silk-road
 wikipedia: Silk Road
@@ -252,6 +255,7 @@ coords: 112.45, 34.62
 category: science
 importance: 4
 title.ko: 채륜의 제지술 개량
+title.en: Cai Lun improves papermaking
 
 @ yellow-turban-rebellion
 wikipedia: Yellow Turban Rebellion
@@ -278,6 +282,7 @@ coords: 118.78, 32.06
 category: war
 importance: 3
 title.ko: 수나라의 중국 재통일
+title.en: Sui reunifies China
 
 @ grand-canal
 wikipedia: Grand Canal (China)
@@ -286,6 +291,7 @@ coords: 119.4, 32.4
 category: economy
 importance: 4
 title.ko: 수 대운하 건설
+title.en: Construction of the Grand Canal
 title.hi: चीन की महान नहर
 summary.hi: चीन की महान नहर उत्तर और पूर्वी चीन की प्रमुख नदियों और झीलों को जोड़ने वाली नहरों की एक विशाल प्रणाली है। सुई राजवंश के समय सातवीं शताब्दी के आरंभ में इसके बड़े हिस्सों को जोड़कर उत्तर और दक्षिण के बीच जल परिवहन का मुख्य मार्ग बनाया गया। यह विश्व का सबसे लंबा कृत्रिम जलमार्ग है और यूनेस्को विश्व धरोहर स्थल है।
 
@@ -296,6 +302,7 @@ coords: 108.94, 34.26
 category: politics
 importance: 4
 title.ko: 당나라 건국
+title.en: Founding of the Tang dynasty
 
 @ an-lushan-rebellion
 wikipedia: An Lushan rebellion
@@ -322,6 +329,7 @@ coords: 114.3, 34.8
 category: politics
 importance: 4
 title.ko: 송나라 건국
+title.en: Founding of the Song dynasty
 
 @ bi-sheng
 wikipedia: Bi Sheng
@@ -331,6 +339,7 @@ coords: 114.3, 34.8
 category: science
 importance: 3
 title.ko: 필승의 활자 발명
+title.en: Bi Sheng invents movable type
 title.ar: بي شنغ والطباعة بالحروف المتحركة
 title.hi: बी शेंग का चल मुद्रण आविष्कार
 summary.hi: बी शेंग चीन के सोंग राजवंश काल का एक शिल्पकार था, जिसने 1039 से 1048 के बीच विश्व की पहली चल मुद्रण प्रणाली का आविष्कार किया। उसकी प्रणाली में हर चीनी अक्षर के लिए पकी मिट्टी का अलग ठप्पा बनाया जाता था। मुद्रण को चीन के चार महान आविष्कारों में गिना जाता है।

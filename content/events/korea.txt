@@ -15,7 +15,7 @@ title.ar: تأسيس مملكة جوسون
 title.fr: Fondation de Joseon
 title.pt: Fundação de Joseon
 place.ko: 개경
-place.en: Gaegyeong
+place.en: Gaegyeong (Kaesong)
 place.zh: 开京
 place.es: Gaegyeong
 place.hi: गैग्योंग
@@ -46,7 +46,7 @@ title.ar: ابتكار الأبجدية الكورية (هانغول)
 title.fr: Création de l'alphabet coréen (hangeul)
 title.pt: Criação do alfabeto coreano (Hangul)
 place.ko: 조선 한양
-place.en: Hanyang, Joseon
+place.en: Hanyang (Seoul), Joseon
 place.zh: 朝鲜汉阳
 place.es: Hanyang, Joseon
 place.hi: हान्यांग, जोसॉन
@@ -174,6 +174,7 @@ coords: 125.75, 39.03
 category: war
 importance: 3
 title.ko: 고조선 멸망 (고조선-한 전쟁)
+title.en: Han conquest of Gojoseon
 title.es: Guerra Gojoseon-Han
 title.ar: حرب غوجوسون وهان
 title.pt: Guerra Gojoseon-Han
@@ -190,6 +191,7 @@ coords: 125.36, 41.27
 category: politics
 importance: 3
 title.ko: 고구려 건국
+title.en: Founding of Goguryeo
 
 @ battle-of-salsu
 wikipedia: Battle of Salsu
@@ -250,6 +252,7 @@ coords: 128.2, 43.35
 category: politics
 importance: 3
 title.ko: 발해 건국
+title.en: Founding of Balhae
 
 @ goryeo-founding
 wikipedia: Goryeo
@@ -258,6 +261,7 @@ coords: 126.55, 37.97
 category: politics
 importance: 4
 title.ko: 고려 건국
+title.en: Founding of Goryeo
 
 @ battle-of-gwiju
 wikipedia: Battle of Kuju
@@ -266,6 +270,7 @@ coords: 125.25, 39.98
 category: war
 importance: 3
 title.ko: 귀주대첩
+title.en: Battle of Gwiju
 title.ar: معركة غويجو
 title.fr: Bataille de Gwiju
 title.pt: Batalha de Gwiju
@@ -340,6 +345,7 @@ coords: 126.86, 35.57
 category: war
 importance: 3
 title.ko: 동학 농민 운동
+title.en: Donghak Peasant Revolution
 title.hi: दोंगहाक किसान क्रांति
 summary.hi: 1894 में जोसन कोरिया में दोंगहाक धर्म के अनुयायी किसानों ने भ्रष्ट शासन और विदेशी प्रभाव के विरुद्ध व्यापक विद्रोह किया। इसे दबाने के बहाने चीन और जापान की सेनाएँ कोरिया आईं, जिससे प्रथम चीन-जापान युद्ध छिड़ गया।
 
@@ -350,6 +356,7 @@ coords: 126.98, 37.57
 category: politics
 importance: 3
 title.ko: 대한제국 선포
+title.en: Proclamation of the Korean Empire
 title.hi: कोरियाई साम्राज्य की घोषणा
 summary.hi: अक्टूबर 1897 में जोसन के राजा गोजोंग ने स्वयं को सम्राट घोषित कर कोरियाई साम्राज्य (तेहान जेगुक) की स्थापना की, ताकि कोरिया की स्वतंत्र स्थिति पर बल दिया जा सके। यह साम्राज्य अगस्त 1910 में जापान द्वारा कोरिया के विलय तक बना रहा।
 
@@ -390,6 +397,7 @@ coords: 126.98, 37.57
 category: politics
 importance: 4
 title.ko: 대한민국 정부 수립
+title.en: Establishment of the Republic of Korea
 
 @ jeju-uprising
 wikipedia: Jeju uprising

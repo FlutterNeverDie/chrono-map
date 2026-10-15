@@ -1,26 +1,39 @@
-# 정묘호란: 영어 위키백과에 개별 전투 문서가 없어 핵심 전장(성·도시) 문서로 대신한다
+# 정묘호란: 영어 위키백과에 개별 전투 문서가 없어(도시 문서는 현대 도시 설명이라 맞지 않음) 이름·설명을 직접 쓴다
+# wikipedia가 없는 전투는 title.<언어>·summary.<언어>를 쓴다(ko 필수, 다른 언어는 영어로 대체). 형식은 content/campaigns/CLAUDE.md
 # 날짜는 양력 월 (음력 1627-01-13 압록강 도하 ≈ 양력 2월 말, 음력 3월 3일 강화 ≈ 양력 4월 중순)
 
 @ fall-of-uiju-1627
-wikipedia: Uiju County
+title.ko: 의주 함락 (1627)
+title.en: Fall of Uiju (1627)
+summary.ko: 1627년 초 아민이 이끄는 후금군이 압록강을 건너 국경의 요충지 의주성을 공격했다. 부윤 이완이 맞서 싸우다 전사하고 성이 함락되어 남쪽으로 가는 길이 열렸다.
+summary.en: In early 1627 a Later Jin army under Amin crossed the Yalu River and stormed Uiju, the Joseon border fortress. Its commander Yi Wan was killed in the fighting, and the fall of the town opened the road south.
 when: 1627-03
 coords: 124.53, 40.2
 links: 6
 
 @ fall-of-anju-1627
-wikipedia: Anju, South Pyongan
+title.ko: 안주 함락 (1627)
+title.en: Fall of Anju (1627)
+summary.ko: 후금군은 곧이어 청천강 가의 거점인 안주성을 함락했다. 평안병사 남이흥은 성이 무너지자 항복하지 않고 화약고에 불을 질러 스스로 목숨을 끊었다.
+summary.en: Days later the Later Jin army took Anju, the main Joseon stronghold on the Cheongcheon River. When the walls were breached, the commander Nam I-heung refused to surrender and blew himself up in the powder magazine.
 when: 1627-03
 coords: 125.66, 39.62
 links: 6
 
 @ fall-of-pyongyang-1627
-wikipedia: Pyongyang
+title.ko: 평양 함락 (1627)
+title.en: Fall of Pyongyang (1627)
+summary.ko: 평안감사 윤훤이 싸우지 않고 평양을 버리고 물러나자 후금군은 평양에 들어와 황주까지 내려왔다. 인조와 조정은 강화도로 피란했다.
+summary.en: The governor of Pyeongan Province abandoned Pyongyang without a fight, and the Later Jin army entered the city and advanced as far as Hwangju. King Injo and his court fled to Ganghwa Island.
 when: 1627-03
 coords: 125.75, 39.02
 links: 8
 
 @ treaty-of-ganghwa-1627
-wikipedia: Ganghwa Island
+title.ko: 강화 화의 (1627)
+title.en: Peace of Ganghwa (1627)
+summary.ko: 강화도로 피란한 조정은 1627년 음력 3월 후금과 화의를 맺었다(정묘약조). 조선은 후금을 형으로 대하는 형제 관계를 받아들였고, 후금군은 물러갔다.
+summary.en: With the court sheltering on Ganghwa Island, Joseon made peace with Later Jin in spring 1627. Joseon accepted a relationship in which Later Jin was the "elder brother", and the Jin army withdrew.
 when: 1627-03 ~ 1627-04
 coords: 126.44, 37.71
 links: 8

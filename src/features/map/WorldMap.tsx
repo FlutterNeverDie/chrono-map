@@ -30,6 +30,8 @@ import { swallowNextClick } from "@/components/map/ghostClick";
 const TAP_SLOP = 5;
 /** 배율 1에서 이름을 표시할 최소 면적(km²). 확대할수록 작은 나라도 표시 */
 const LABEL_MIN_AREA = 200_000;
+/** 배율 1에서 이름표 최대 개수(이름 수). 현대 지도는 나라가 80개 넘게 커서 영국(약 26만 km², 76위)도 들어가게 - 겹치는 이름은 배치에서 빠지므로 빽빽해지지 않는다 */
+const MAX_LABELS = 90;
 
 /** 정치체마다 고정된 색 (Wikidata ID/이름 해시) */
 const POLITY_COLORS = [
@@ -289,7 +291,16 @@ export function WorldMap() {
             Number(a.properties.n.startsWith("(")) -
               Number(b.properties.n.startsWith("(")),
         )
-        .slice(0, Math.round(45 * zoom))
+        // 최대 개수는 이름 수로 센다 - 한 나라가 여러 조각·겹친 층(식민지, "(British Empire)" 등)이면
+        // 조각마다 한 자리씩 차지해 영국 같은 큰 나라 이름이 밀려나던 문제
+        .filter(
+          (
+            (names) => (p) =>
+              names.has(p.properties.n) ||
+              (names.size < Math.round(MAX_LABELS * zoom) &&
+                !!names.add(p.properties.n))
+          )(new Set<string>()),
+        )
     );
   }, [polities, zoom, selectedPolity]);
 

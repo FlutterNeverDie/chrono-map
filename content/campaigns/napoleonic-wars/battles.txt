@@ -6,12 +6,6 @@ when: 1805-07
 coords: -9.27, 42.89
 links: 20
 
-@ battle-of-ivankovac
-wikipedia: Battle of Ivankovac
-when: 1805-08
-coords: 21.43, 43.97
-links: 10
-
 @ battle-of-ulm
 wikipedia: Battle of Ulm
 when: 1805-10
@@ -89,12 +83,6 @@ wikipedia: Battle of Maida
 when: 1806-07
 coords: 16.37, 38.85
 links: 11
-
-@ battle-of-misar
-wikipedia: Battle of Mišar
-when: 1806-08
-coords: 19.76, 44.73
-links: 13
 
 @ battle-of-jena-auerstedt
 wikipedia: Battle of Jena–Auerstedt
@@ -330,12 +318,6 @@ when: 1809-04
 coords: 12.01, 48.88
 links: 12
 
-@ battle-of-cegar
-wikipedia: Battle of Čegar
-when: 1809-04 ~ 1809-05
-coords: 21.94, 43.37
-links: 10
-
 @ battle-of-the-basque-roads
 wikipedia: Battle of the Basque Roads
 when: 1809-04
@@ -544,12 +526,6 @@ links: 32
 wikipedia: Battle of Vyazma
 when: 1812-11
 coords: 34.3, 55.2
-links: 10
-
-@ siege-of-lankaran
-wikipedia: Siege of Lankaran
-when: 1813-01
-coords: 38.65, 53.65
 links: 10
 
 @ german-campaign-of-1813

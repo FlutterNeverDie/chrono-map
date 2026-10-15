@@ -101,6 +101,7 @@ coords: 104.76, -2.99
 category: politics
 importance: 3
 title.ko: 스리위자야 성립
+title.en: Rise of Srivijaya
 
 @ borobudur
 wikipedia: Borobudur
@@ -118,6 +119,7 @@ coords: 104.1, 13.55
 category: politics
 importance: 3
 title.ko: 크메르 제국 성립
+title.en: Founding of the Khmer Empire
 
 @ battle-of-bach-dang-938
 wikipedia: Battle of Bạch Đằng (938)
@@ -150,6 +152,7 @@ coords: 112.37, -7.54
 category: politics
 importance: 3
 title.ko: 마자파힛 건국
+title.en: Founding of Majapahit
 
 @ ayutthaya-kingdom
 wikipedia: Ayutthaya Kingdom
@@ -158,6 +161,7 @@ coords: 100.56, 14.35
 category: politics
 importance: 3
 title.ko: 아유타야 왕국 건국
+title.en: Founding of the Ayutthaya Kingdom
 
 @ malacca-sultanate
 wikipedia: Malacca Sultanate
@@ -166,6 +170,7 @@ coords: 102.25, 2.2
 category: economy
 importance: 3
 title.ko: 믈라카 술탄국 건국
+title.en: Founding of the Malacca Sultanate
 
 @ capture-of-malacca
 wikipedia: Capture of Malacca (1511)
@@ -174,6 +179,7 @@ coords: 102.25, 2.2
 category: war
 importance: 3
 title.ko: 포르투갈의 믈라카 점령
+title.en: Portuguese capture of Malacca
 summary.ko: 1511년 포르투갈령 인도 총독 아폰수 드 알부케르크가 동남아시아 해상 무역의 요충지 믈라카를 점령했다. 이로써 믈라카 술탄국이 무너지고 포르투갈이 향신료 교역로를 장악하는 발판을 얻었다.
 title.hi: मलक्का पर पुर्तगाली क़ब्ज़ा (1511)
 summary.hi: 1511 में पुर्तगाली भारत के गवर्नर अफ़ोंसो द अल्बुकर्क ने दक्षिण-पूर्व एशिया के प्रमुख समुद्री व्यापार केंद्र मलक्का पर कब्ज़ा कर लिया। इससे मलक्का सल्तनत का पतन हुआ। इस विजय से पुर्तगाल को मसालों के व्यापार मार्ग पर नियंत्रण का महत्वपूर्ण आधार मिला।
@@ -207,6 +213,7 @@ coords: 106.8, -6.13
 category: economy
 importance: 3
 title.ko: 바타비아 건설 (네덜란드의 동인도 지배)
+title.en: Founding of Batavia
 summary.ko: 1619년 네덜란드 동인도 회사가 자와섬 자야카르타를 점령하고 그 자리에 바타비아를 건설했다. 바타비아는 이후 네덜란드령 동인도의 중심 도시이자 수도가 되었으며, 오늘날 인도네시아의 자카르타이다.
 title.hi: बटाविया की स्थापना
 summary.hi: 1619 में डच ईस्ट इंडिया कंपनी ने जावा द्वीप के जयकर्ता पर कब्ज़ा कर उसी स्थान पर बटाविया नगर बसाया। बटाविया आगे चलकर डच ईस्ट इंडीज़ का प्रमुख केंद्र और राजधानी बना। यही नगर आज इंडोनेशिया की राजधानी जकार्ता है।

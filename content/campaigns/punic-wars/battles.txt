@@ -108,30 +108,6 @@ when: -238
 coords: 10.17, 36.8
 links: 9
 
-@ battle-of-helike
-wikipedia: Battle of Helike
-when: -228
-coords: -1.28, 38.38
-links: 6
-
-@ battle-of-telamon
-wikipedia: Battle of Telamon
-when: -225
-coords: 11.13, 42.56
-links: 22
-
-@ battle-of-faesulae-225-bc
-wikipedia: Battle of Faesulae (225 BC)
-when: -225
-coords: 12.39, 43.46
-links: 9
-
-@ battle-of-clastidium
-wikipedia: Battle of Clastidium
-when: -222
-coords: 9.13, 45.02
-links: 14
-
 @ siege-of-saguntum
 wikipedia: Siege of Saguntum
 when: -219
@@ -407,30 +383,6 @@ wikipedia: Battle of Zama
 when: -202
 coords: 9.45, 36.3
 links: 57
-
-@ battle-of-cremona-200-bc
-wikipedia: Battle of Cremona (200 BC)
-when: -200
-coords: 10.03, 45.13
-links: 11
-
-@ battle-of-the-aous-198-bc
-wikipedia: Battle of the Aous (198 BC)
-when: -198
-coords: 19.32, 40.64
-links: 14
-
-@ battle-of-placentia-194-bc
-wikipedia: Battle of Placentia (194 BC)
-when: -194
-coords: 9.7, 45.03
-links: 8
-
-@ battle-of-mutina-193-bc
-wikipedia: Battle of Mutina (193 BC)
-when: -193
-coords: 10.93, 44.65
-links: 8
 
 @ siege-of-carthage-third-punic-war
 wikipedia: Siege of Carthage (Third Punic War)

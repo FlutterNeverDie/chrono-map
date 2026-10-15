@@ -15,7 +15,7 @@ title.ar: تأسيس شوغونية إيدو
 title.fr: Établissement du shogunat d'Edo
 title.pt: Estabelecimento do xogunato Edo
 place.ko: 에도
-place.en: Edo
+place.en: Edo (Tokyo)
 place.zh: 江户
 place.es: Edo
 place.hi: एदो
@@ -46,7 +46,7 @@ title.ar: إصلاح ميجي
 title.fr: Restauration de Meiji
 title.pt: Restauração Meiji
 place.ko: 도쿄
-place.en: Tokyo
+place.en: Kyoto and Edo (Tokyo)
 place.zh: 东京
 place.es: Tokio
 place.hi: टोक्यो
@@ -120,6 +120,7 @@ coords: 135.76, 35.01
 category: politics
 importance: 3
 title.ko: 헤이안쿄 천도
+title.en: Capital moves to Heian-kyō
 title.ar: نقل العاصمة إلى هييان-كيو
 title.pt: Transferência da capital para Heian-kyō
 title.hi: हेइआन-क्यो
@@ -155,6 +156,7 @@ coords: 139.55, 35.32
 category: politics
 importance: 4
 title.ko: 가마쿠라 막부 성립
+title.en: Founding of the Kamakura shogunate
 title.ar: قيام شوغونية كاماكورا
 title.hi: कामाकुरा शोगुनेट
 summary.hi: कामाकुरा शोगुनेट 1185 से 1333 तक कामाकुरा काल में जापान की सामंती सैन्य सरकार थी। मिनामोतो नो योरितोमो ने गेनपेई युद्ध में जीत के बाद कामाकुरा में इसकी स्थापना की। इसके साथ जापान में समुराई वर्ग के नेतृत्व वाले शोगुन शासन का युग आरंभ हुआ।
@@ -177,6 +179,7 @@ coords: 135.76, 35.01
 category: politics
 importance: 3
 title.ko: 무로마치 막부 성립
+title.en: Founding of the Ashikaga shogunate
 title.hi: आशिकागा शोगुनेट
 summary.hi: आशिकागा शोगुनेट, जिसे मुरोमाची शोगुनेट भी कहते हैं, 1336 से 1573 तक मुरोमाची काल में जापान की सामंती सैन्य सरकार थी। इसकी स्थापना आशिकागा ताकाउजी ने की और इसका केंद्र क्योतो का मुरोमाची क्षेत्र था। इसके उत्तरार्ध में केंद्रीय सत्ता कमज़ोर हुई और देश सेंगोकु काल के गृहयुद्धों में उलझ गया।
 

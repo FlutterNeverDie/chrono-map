@@ -5,11 +5,13 @@
 ## 완료
 
 - [x] Search Console 사이트맵 다시 제출 (2026-10-14) - 10/13에 읽은 예전 사이트맵(주소가 `chrono-map.histlab.workers.dev`)이라 "URL이 허용되지 않음" 오류 5,744개 → 다시 제출 후 성공
+- [x] 모든 페이지에 canonical·hreflang (2026-10-15) - www로 열어도 검색에는 historymapworld.com 주소 하나만 잡힌다
+- [x] 영어판(`/en`) 점검·수정 (2026-10-15) - 사건 제목·날짜, 위키 요약 찌꺼기, 미리보기 설명, 화면 문구, 지도 나라 이름(문서 연결 오류·독립한 땅), 전쟁 지도에 섞인 다른 전쟁 전투 133개, 도시 문서에 연결된 전투
+- [x] 영어판 남은 것 (2026-10-15) - 전쟁 지도 국경에도 나라 이름 고침 적용(POLITY_FIXES 공용화), 영국·아덴·오만 분리, 네덜란드령 수리남, 시대·민족 이름, 확신 낮은 전투 정리, WWII 영어 설명에 1937년 시작 이유 명시, 영어 연도 "AD 9"·"1592–1598"
 
 ## 할 일
 
-- [ ] Cloudflare에서 www → historymapworld.com 301 리디렉션 (Rules → Redirect Rules → "Redirect from WWW to root") - 지금은 www도 같은 페이지를 그대로 보여 줌
-- [ ] 영어판(`/en`) 점검 - 사건 글·나라 이름 중 어색한 영어
+- [ ] (선택) Cloudflare에서 www → historymapworld.com 301 리디렉션 (Rules → Redirect Rules → "Redirect from WWW to root") - canonical로 검색 문제는 해결됨. 주소창까지 통일하고 싶을 때만
 - [ ] 홍보 영상 - 기원전 3400년 → 2024년 국경 변화 15~20초 (MP4·GIF, 가로·세로)
 - [ ] Reddit 계정 준비 (아래)
 - [ ] Reddit 글 올리기 (아래 순서)

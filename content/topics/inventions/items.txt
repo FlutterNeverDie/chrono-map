@@ -278,6 +278,12 @@ wikipedia: IPhone (1st generation)
 when: 2007
 coords: -122.03, 37.33
 importance: 4
+# 위키백과 API가 첫 글자를 대문자로 돌려줘 "IPhone"이 되므로 제목을 직접 쓴다
+title.en: iPhone (1st generation)
+title.zh: iPhone (第一代)
+title.es: iPhone (1.ª generación)
+title.fr: iPhone 2G
+title.pt: iPhone (1.ª geração)
 
 @ chatgpt
 wikipedia: ChatGPT
@@ -383,6 +389,7 @@ title.es: Cheugugi
 title.hi: चुगुगी (वर्षामापी)
 title.pt: Cheugugi
 title.zh: 测雨器
+title.en: Ch'ŭgugi rain gauge
 
 @ microscope
 wikipedia: Microscope
@@ -398,6 +405,9 @@ coords: 127.66, 34.76
 importance: 3
 summary.hi: कछुआ जहाज़ कोरिया के जोसन राजवंश की नौसेना का युद्धपोत था, जिसका उपयोग 15वीं से 19वीं शताब्दी तक हुआ। पानोक्सन युद्धपोतों के साथ इन्होंने आक्रमणकारी जापानी बेड़ों से लड़ाई लड़ी, और इम्जिन युद्ध में एडमिरल यी सुन-सिन ने इनका प्रसिद्ध उपयोग किया। कछुए के खोल जैसे ढके ऊपरी हिस्से से इसका नाम पड़ा।
 title.hi: कछुआ जहाज़ (गोबुकसन)
+# 위키백과 요약은 15세기 초 첫 기록부터 설명하므로, 1592년(이순신이 다시 설계해 실전에 쓴 해)임을 제목에 밝힌다
+title.ko: 거북선 (이순신 설계)
+title.en: Turtle ship (Yi Sun-sin's design)
 
 @ pascal-calculator
 wikipedia: Pascal's calculator
@@ -583,6 +593,8 @@ coords: 8.27, 50.0
 importance: 3
 summary.hi: mRNA टीका एक प्रकार का टीका है जो मैसेंजर RNA (mRNA) की प्रति का उपयोग कर प्रतिरक्षा प्रतिक्रिया उत्पन्न करता है। कोशिकाएँ इस mRNA को खाके की तरह इस्तेमाल कर रोगाणु जैसा प्रोटीन बनाती हैं, जिससे शरीर उस रोगाणु को पहचानना और नष्ट करना सीखता है। कोविड-19 महामारी के दौरान ये टीके बड़े पैमाने पर इस्तेमाल हुए।
 title.hi: mRNA टीका
+# 위키백과 API가 첫 글자를 대문자로 돌려줘 "MRNA vaccine"이 되므로 제목을 직접 쓴다
+title.en: mRNA vaccine
 
 @ ishango-bone
 wikipedia: Ishango bone
@@ -746,6 +758,7 @@ coords: 129.22, 35.83
 importance: 2
 title.hi: चमसॉन्गदे
 summary.hi: चमसॉन्गदे दक्षिण कोरिया के ग्यॉंगजू में स्थित पत्थर की एक मीनार है, जिसे 7वीं शताब्दी में सिला राज्य की रानी सनदक के शासनकाल में बनाया गया। इसे पूर्वी एशिया की सबसे पुरानी ज्ञात खगोलीय वेधशालाओं में गिना जाता है।
+title.en: Cheomseongdae observatory
 
 @ algebra
 wikipedia: Al-Jabr
@@ -790,6 +803,21 @@ coords: 114.31, 34.8
 importance: 3
 title.hi: सू सोंग की खगोलीय घड़ी मीनार
 summary.hi: सू सोंग चीन के सोंग राजवंश के विद्वान और राजनेता थे। 1090 के दशक में उन्होंने राजधानी कैफ़ेंग में पानी से चलने वाली एक खगोलीय घड़ी मीनार बनवाई, जिसमें एस्केपमेंट तंत्र और शृंखला-चालित संचरण था।
+# 위키백과 문서는 인물(소송) 문서라, 시계탑 이름·설명을 직접 쓴다(summary.<언어>가 있으면 그 언어 위키백과 대신)
+title.ko: 소송의 천문 시계탑
+summary.ko: 북송의 학자이자 재상 소송이 1092년 수도 개봉에 완성한 높이 약 12m의 천문 시계탑(수운의상대). 물레방아로 움직이며 탈진기로 일정하게 돌아가 혼의·혼상을 천체의 움직임에 맞춰 돌리고 시각을 알렸고, 동력을 전하는 데 끝없이 이어진 체인을 썼다. 소송은 그 구조를 『신의상법요』에 그림과 함께 남겼다.
+title.en: Su Song's astronomical clock tower
+summary.en: Su Song, a scholar-official of the Northern Song dynasty, completed a water-driven astronomical clock tower about 12 m tall in the capital Kaifeng in 1092. An escapement kept its waterwheel turning at a steady rate, driving an armillary sphere and a celestial globe in step with the sky and sounding the hours, and it used an endless chain drive to transmit power. Su Song described the machine with detailed illustrations in his treatise Xin Yixiang Fayao.
+title.zh: 苏颂的水运仪象台
+summary.zh: 水运仪象台是北宋苏颂等人于1092年在都城开封建成的天文钟楼，高约12米。它以水轮驱动，并以擒纵机构控制转速，带动浑仪和浑象与天体同步运转并报时，还使用了传递动力的链条传动。苏颂在《新仪象法要》中以图文详细记录了它的构造。
+title.es: Torre del reloj astronómico de Su Song
+summary.es: Su Song, erudito y funcionario de la dinastía Song del Norte, terminó en 1092 en la capital, Kaifeng, una torre de reloj astronómico de unos 12 m movida por agua. Un escape regulaba el giro de la rueda hidráulica, que movía una esfera armilar y un globo celeste al ritmo del cielo y marcaba las horas; la fuerza se transmitía con una cadena sin fin. Su Song describió la máquina con ilustraciones en su tratado Xin Yixiang Fayao.
+title.fr: Tour horloge astronomique de Su Song
+summary.fr: Su Song, lettré et haut fonctionnaire des Song du Nord, acheva en 1092 à Kaifeng, la capitale, une tour horloge astronomique d'environ 12 m mue par l'eau. Un échappement régulait la rotation de la roue hydraulique, qui entraînait une sphère armillaire et un globe céleste au rythme du ciel et sonnait les heures ; la force était transmise par une chaîne sans fin. Su Song décrivit la machine, illustrations à l'appui, dans son traité Xin Yixiang Fayao.
+title.pt: Torre do relógio astronômico de Su Song
+summary.pt: Su Song, erudito e alto funcionário da dinastia Song do Norte, concluiu em 1092, na capital Kaifeng, uma torre de relógio astronômico de cerca de 12 m movida a água. Um escape regulava o giro da roda hidráulica, que movia uma esfera armilar e um globo celeste no ritmo do céu e marcava as horas; a força era transmitida por uma corrente sem fim. Su Song descreveu a máquina, com ilustrações, em seu tratado Xin Yixiang Fayao.
+title.ar: برج الساعة الفلكية لسو سونغ
+summary.ar: أكمل سو سونغ، العالم ورجل الدولة في عهد سلالة سونغ الشمالية، عام 1092 في العاصمة كايفنغ برجًا للساعة الفلكية يبلغ ارتفاعه نحو 12 مترًا ويُدار بالماء. كانت آلية ميزان (مُفلت) تضبط دوران العجلة المائية التي تحرّك كرة ذات حلقات وكرة سماوية بانسجام مع حركة السماء وتعلن الساعات، واستُخدمت سلسلة متصلة لنقل الحركة. ووصف سو سونغ الآلة بالرسوم في كتابه «شين يي شيانغ فا ياو».
 
 @ goryeo-celadon
 wikipedia: Goryeo ware
@@ -805,6 +833,7 @@ title.ar: سيلادون كوريو
 summary.ar: سيلادون كوريو خزف مزجج بلون أخضر مائل إلى الزرقة صُنع في كوريا خلال عهد أسرة كوريو. بلغ ذروته في القرن الثاني عشر مع تطوير تقنية الترصيع المعروفة باسم سانغام، وكانت أفران كانغجين وبوان من أهم مراكز إنتاجه.
 title.pt: Celadon de Goryeo
 summary.pt: O celadon de Goryeo é a cerâmica vidrada de tom verde-azulado produzida na Coreia durante a dinastia Goryeo. Atingiu seu auge no século XII, quando se desenvolveu a técnica de incrustação chamada sanggam. Os fornos de Gangjin e Buan foram importantes centros de produção.
+title.en: Goryeo celadon
 
 @ chinampa
 wikipedia: Chinampa
@@ -822,6 +851,7 @@ wikipedia: Tripitaka Koreana
 when: 1251
 coords: 126.49, 37.75
 importance: 3
+title.en: Tripitaka Koreana woodblocks
 
 @ jagyeongnu
 wikipedia: Borugak Jagyeongnu
@@ -838,6 +868,9 @@ title.ar: ساعة بوروغاك جاغيونغنو المائية
 summary.ar: جاغيونغنو ساعة مائية آلية صُنعت عام 1434 في عهد الملك سيجونغ من أسرة جوسون الكورية على يد جانغ يونغ-سيل وآخرين. كانت تستخدم جريان الماء لتقرع جرسًا وطبلًا وصنجًا تلقائيًا للإعلان عن الوقت. والنسخة الباقية أعيد صنعها عام 1536، وهي من الكنوز الوطنية لكوريا الجنوبية.
 title.pt: Jagyeongnu de Borugak
 summary.pt: O Jagyeongnu é um relógio de água automático construído em 1434, no reinado do rei Sejong de Joseon, por Jang Yeong-sil e outros. Usava o fluxo da água para tocar automaticamente um sino, um tambor e um gongo que marcavam as horas. O exemplar preservado é uma reconstrução de 1536 e é Tesouro Nacional da Coreia do Sul.
+# 영어 요약이 국보 지정 내용뿐이라 영어도 직접 쓴 요약
+title.en: Jagyeongnu water clock
+summary.en: The Jagyeongnu is an automatic water clock built in 1434, during the reign of King Sejong of Joseon, by Jang Yeong-sil and others. Flowing water drove a mechanism that struck a bell, a drum and a gong to announce the time. The surviving Borugak Jagyeongnu, held by the National Palace Museum of Korea in Seoul, is a 1536 reconstruction and a National Treasure of South Korea.
 
 @ cotton-gin
 wikipedia: Cotton gin
@@ -916,6 +949,10 @@ wikipedia: Antiseptic
 when: 1867
 coords: -4.24, 55.86
 importance: 3
+# 영어 문서는 소독약(antiseptic) 일반 설명 → 영어는 리스터의 소독 수술(1867)로 직접 씀
+title.ko: 소독 수술
+title.en: Antiseptic surgery
+summary.en: In 1867 Joseph Lister, a surgeon at the Glasgow Royal Infirmary, published his method of antiseptic surgery. Building on Louis Pasteur's germ theory, he used carbolic acid (phenol) to clean wounds, dressings and surgical instruments, and deaths from infection after operations fell sharply. Antiseptic and later aseptic technique became standard practice in surgery.
 
 @ typewriter
 wikipedia: Sholes and Glidden typewriter
@@ -956,6 +993,8 @@ wikipedia: Haber process
 when: 1909
 coords: 8.41, 49.01
 importance: 4
+# 영어 요약이 반응식 앞의 ":"에서 끊긴다(식은 API가 지움) → 영어만 직접 쓴 요약
+summary.en: The Haber process, also called the Haber-Bosch process, is the main industrial method of producing ammonia. It converts nitrogen from the air into ammonia by reacting it with hydrogen over an iron catalyst at high temperature and pressure. Fritz Haber demonstrated it in 1909 at Karlsruhe, and Carl Bosch scaled it up at BASF; ammonia made this way for fertilizer now helps feed about half of the world's population.
 
 @ assembly-line
 wikipedia: Assembly line

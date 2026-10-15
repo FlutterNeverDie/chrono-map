@@ -33,7 +33,7 @@ Gothia = 고티아
 Grand Duchy of Würzburg = 뷔르츠부르크 대공국
 Habsburg Monarchy = 합스부르크 군주국
 Hamdanid Emirates = 함단 왕조
-Hashemite Arab Federation = 하심 아랍 연방
+Hashemite Arab Federation = 아랍 이라크
 House of Khalifa = 할리파 왕가(바레인)
 Imamate of Oman = 오만 이맘국
 Imamate of Yemen = 예멘 이맘국
@@ -46,7 +46,7 @@ Kingdom of France = 프랑스 왕국
 Kingdom of Lunda = 룬다 왕국
 Lakhmid Kingdom = 라흠 왕국
 Later Han = 후한
-Libyan Arab Republic = 리비아 아랍 공화국
+Libyan Arab Republic = 리비아
 Lohara Dynasty = 로하라 왕조
 Majeerteen Sultanate = 마지르틴 술탄국
 Mali Empire = 말리 제국
@@ -107,7 +107,7 @@ Third Hellenic Republic = 그리스 제3공화국
 Tibet = 티베트
 Tibetans = 티베트
 Turk Shahis = 투르크 샤히 왕조
-Turks = 돌궐
+Turks = 후돌궐
 Türgesh = 튀르기시
 Wadai Empire = 와다이 제국
 Zand Dynasty = 잔드 왕조
@@ -138,3 +138,56 @@ Duchy of Wrocław = 브로츠와프 공국
 Principality of Pinsk = 핀스크 공국
 Beylik of Sinop = 시노프 베이국
 Carolingian Empire = 카롤링거 제국
+
+# 원본·Wikidata 연결 오류로 틀리던 이름(사건·인물·역사 문서, 소문자 일반명사, 연도 괄호 등) - 2026-10 영어 지도 검토
+Duchies of Poland = 폴란드 공국들
+(Taifas of Iberia) = 타이파 왕국들
+Republics of the Soviet Union = 소비에트 공화국들
+Hungarian Nationalists = 헝가리 혁명군
+Caliphate of Córdoba = 코르도바 칼리파국
+Athenian Coalition = 아테네 동맹
+Anti-Kuomintang Coalition = 반장제스 연합
+Scandinavian minor kingdoms = 스칸디나비아 소왕국들
+Norse Greenland = 노르드인 그린란드
+Norman Italy = 노르만 이탈리아
+Kingdom of Lysimachus = 리시마코스 왕국
+Samo's Empire = 사모 제국
+Greek Colonies = 그리스 식민 도시
+Phoenician Colonies = 페니키아 식민 도시
+Commune of the Zealots = 젤롯 코뮌
+Kingdom of Pajana = 파자나 왕국
+Kingdom of Thuringia = 튀링겐 왕국
+Maderistas = 마데로파
+Earldom of Desmond = 데즈먼드 백작령
+Cuban Nationalists = 쿠바 무장 공화국
+Bahrani Dynasty = 자르완 왕조
+Sultanate of Bone = 보네 술탄국
+Kingdom of Great Britain = 영국
+
+# 십팔제후국(기원전 206) 각 나라 - 원본이 모두 "십팔제후국" 문서에 이어져 같은 이름이던 것(서초는 초한전쟁 문서). 고개도(高開道)의 연(燕). 멕시코 독립 전쟁 반란군 점령지(1811~1819). 네덜란드령 수리남(1820~1975, 원본은 네덜란드령 안틸레스에 포함)
+Western Chu = 서초
+Dai = 대(代)
+Jibei = 제북
+Jiujiang = 구강
+Henan = 하남
+Hán = 한(韓)
+Linjiang = 임강
+Chang-shan = 상산
+Sai = 새(塞)
+Liaodong = 요동
+Jiaodong = 교동
+Yong = 옹(雍)
+Yin = 은(殷)
+Zhai = 적(翟)
+Gao Kaidao = 연(고개도)
+Mexicans = 멕시코 독립군
+Dutch Suriname = 네덜란드령 수리남
+
+# 고치기(scripts/lib/polityFixes.mjs)로 생긴 나라 중 Wikidata에 이 언어 이름이 없는 것
+Curaçao and Dependencies = 퀴라소 및 속령
+
+# British East Africa(1961~1972)는 원본에서 British Africa의 뒤를 잇는 남은 영국령 아프리카(로디지아 등) - Wikidata는 케냐의 "동아프리카 보호령"(1895~1920)으로 이어 둠
+British East Africa = 영국령 아프리카
+
+# 탈레반 정권(1996~2001, 2021~) - 단체 이름이 아니라 국가 이름으로
+Taliban = 아프가니스탄 이슬람 토후국

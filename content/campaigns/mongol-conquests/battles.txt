@@ -1,17 +1,5 @@
 # Mongol invasions and conquests 전투 (Wikidata 자동 생성, 직접 고쳐도 됨). 형식은 content/campaigns/CLAUDE.md
 
-@ battle-of-umera
-wikipedia: Battle of Ümera
-when: 1210
-coords: 25.42, 57.5
-links: 11
-
-@ battle-of-antioch-on-the-meander
-wikipedia: Battle of Antioch on the Meander
-when: 1211
-coords: 28.57, 37.87
-links: 14
-
 @ yehuling-campaign
 wikipedia: Yehuling Campaign
 when: 1211
@@ -23,24 +11,6 @@ wikipedia: Sieges of Zhongdu
 when: 1215
 coords: 116.39, 39.91
 links: 15
-
-@ battle-of-st-matthew-s-day
-wikipedia: Battle of St. Matthew's Day
-when: 1217
-coords: 25.48, 58.45
-links: 16
-
-@ siege-of-damietta-1218-1219
-wikipedia: Siege of Damietta (1218–1219)
-when: 1218 ~ 1219
-coords: 31.82, 31.42
-links: 24
-
-@ battle-of-lyndanisse
-wikipedia: Battle of Lyndanisse
-when: 1219
-coords: 24.74, 59.44
-links: 25
 
 @ otrar-catastrophe
 wikipedia: Otrar Catastrophe
@@ -60,12 +30,6 @@ when: 1220
 coords: 64.41, 39.78
 links: 20
 
-@ battle-of-lihula
-wikipedia: Battle of Lihula
-when: 1220
-coords: 23.84, 58.69
-links: 12
-
 @ siege-of-gurganj
 wikipedia: Siege of Gurganj
 when: 1220 ~ 1221
@@ -84,41 +48,11 @@ when: 1223
 coords: 37.5, 47.25
 links: 49
 
-@ battle-of-poimanenon
-wikipedia: Battle of Poimanenon
-when: 1224
-coords: 36, 37.89
-links: 13
-
-@ battle-of-garni
-wikipedia: Battle of Garni
-when: 1225
-coords: 44.72, 40.12
-links: 16
-
-@ battle-of-klokotnitsa
-wikipedia: Battle of Klokotnitsa
-when: 1230
-coords: 25.5, 41.98
-links: 21
-
 @ siege-of-kaifeng-1232
 wikipedia: Siege of Kaifeng (1232)
 when: 1232 ~ 1233
 coords: 114.34, 34.79
 links: 12
-
-@ siege-of-constantinople-1235-1236
-wikipedia: Siege of Constantinople (1235–1236)
-when: 1235
-coords: 28.98, 41.01
-links: 17
-
-@ battle-of-saule
-wikipedia: Battle of Saule
-when: 1236
-coords: 23.51, 56.11
-links: 34
 
 @ siege-of-ryazan
 wikipedia: Siege of Ryazan
@@ -132,12 +66,6 @@ when: 1238
 coords: 37.85, 58.07
 links: 19
 
-@ battle-of-the-neva
-wikipedia: Battle of the Neva
-when: 1240
-coords: 30.6, 59.81
-links: 43
-
 @ siege-of-kiev-1240
 wikipedia: Siege of Kiev (1240)
 when: 1240
@@ -150,47 +78,11 @@ when: 1241
 coords: 20.91, 47.98
 links: 39
 
-@ battle-on-the-ice
-wikipedia: Battle on the Ice
-when: 1242
-coords: 27.5, 58.23
-links: 48
-
 @ battle-of-kose-dag
 wikipedia: Battle of Köse Dağ
 when: 1243
 coords: 39.6, 40.28
 links: 30
-
-@ siege-of-jerusalem-1244
-wikipedia: Siege of Jerusalem (1244)
-when: 1244
-coords: 35.22, 31.78
-links: 27
-
-@ battle-of-forbie
-wikipedia: Battle of Forbie
-when: 1244
-coords: 34.55, 31.61
-links: 22
-
-@ siege-of-damietta-1249
-wikipedia: Siege of Damietta (1249)
-when: 1249
-coords: 31.82, 31.42
-links: 15
-
-@ battle-of-mansurah-1250
-wikipedia: Battle of Mansurah (1250)
-when: 1250
-coords: 31.38, 31.05
-links: 20
-
-@ battle-of-fariskur-1250
-wikipedia: Battle of Fariskur (1250)
-when: 1250
-coords: 31.71, 31.33
-links: 23
 
 @ siege-of-baghdad
 wikipedia: Siege of Baghdad
@@ -198,23 +90,11 @@ when: 1258
 coords: 44.34, 33.35
 links: 56
 
-@ battle-of-pelagonia
-wikipedia: Battle of Pelagonia
-when: 1259
-coords: 21.57, 40.82
-links: 23
-
 @ siege-of-aleppo-1260
 wikipedia: Siege of Aleppo (1260)
 when: 1260
 coords: 37.16, 36.2
 links: 11
-
-@ battle-of-durbe
-wikipedia: Battle of Durbe
-when: 1260
-coords: 21.35, 56.6
-links: 26
 
 @ battle-of-ain-jalut
 wikipedia: Battle of Ain Jalut
@@ -222,29 +102,11 @@ when: 1260
 coords: 35.36, 32.55
 links: 50
 
-@ siege-of-constantinople-1260
-wikipedia: Siege of Constantinople (1260)
-when: 1260
-coords: 28.98, 41.01
-links: 13
-
 @ first-battle-of-homs
 wikipedia: First Battle of Homs
 when: 1260
 coords: 36.71, 34.72
 links: 16
-
-@ reconquest-of-constantinople
-wikipedia: Reconquest of Constantinople
-when: 1261
-coords: 28.98, 41.02
-links: 23
-
-@ battle-of-settepozzi
-wikipedia: Battle of Settepozzi
-when: 1263
-coords: 23.1, 37.25
-links: 12
 
 @ battle-of-mari
 wikipedia: Battle of Mari
@@ -257,30 +119,6 @@ wikipedia: Battle of Xiangyang
 when: 1267 ~ 1273
 coords: 112.14, 32.03
 links: 12
-
-@ battle-of-wesenberg-1268
-wikipedia: Battle of Wesenberg (1268)
-when: 1268
-coords: 26.35, 59.35
-links: 20
-
-@ siege-of-antioch-1268
-wikipedia: Siege of Antioch (1268)
-when: 1268
-coords: 36.15, 36.2
-links: 13
-
-@ battle-of-karuse
-wikipedia: Battle of Karuse
-when: 1270
-coords: 23.5, 58.5
-links: 14
-
-@ fall-of-krak-des-chevaliers
-wikipedia: Fall of Krak des Chevaliers
-when: 1271
-coords: 36.3, 34.76
-links: 11
 
 @ battle-of-bun-ei
 wikipedia: Battle of Bun'ei
@@ -300,12 +138,6 @@ when: 1279
 coords: 113.08, 22.27
 links: 31
 
-@ battle-of-aizkraukle
-wikipedia: Battle of Aizkraukle
-when: 1279
-coords: 25.25, 56.6
-links: 16
-
 @ battle-of-koan
 wikipedia: Battle of Kōan
 when: 1281
@@ -324,23 +156,11 @@ when: 1288
 coords: 106.63, 20.94
 links: 14
 
-@ siege-of-acre-1291
-wikipedia: Siege of Acre (1291)
-when: 1291
-coords: 35.08, 32.93
-links: 36
-
 @ battle-of-wadi-al-khaznadar
 wikipedia: Battle of Wadi al-Khaznadar
 when: 1299
 coords: 36.72, 34.74
 links: 21
-
-@ fall-of-ruad
-wikipedia: Fall of Ruad
-when: 1302
-coords: 35.86, 34.86
-links: 10
 
 @ battle-of-marj-al-saffar-1303
 wikipedia: Battle of Marj al-Saffar (1303)
@@ -348,98 +168,8 @@ when: 1303
 coords: 36.25, 33.36
 links: 24
 
-@ battle-of-skafida
-wikipedia: Battle of Skafida
-when: 1304
-coords: 27.41, 42.34
-links: 13
-
-@ battle-of-halmyros
-wikipedia: Battle of Halmyros
-when: 1311
-coords: 22.84, 39.16
-links: 15
-
-@ battle-of-gallipoli-1312
-wikipedia: Battle of Gallipoli (1312)
-when: 1312
-coords: 26.67, 40.41
-links: 11
-
-@ battle-of-rozgony
-wikipedia: Battle of Rozgony
-when: 1312
-coords: 21.34, 48.74
-links: 16
-
-@ siege-of-bursa
-wikipedia: Siege of Bursa
-when: 1317 ~ 1326
-coords: 29.07, 40.18
-links: 24
-
-@ battle-on-the-irpin-river
-wikipedia: Battle on the Irpin River
-when: 1320
-coords: 30.22, 50.38
-links: 17
-
-@ siege-of-nicaea-1328-1331
-wikipedia: Siege of Nicaea (1328–1331)
-when: 1328 ~ 1331
-coords: 29.72, 40.43
-links: 20
-
-@ battle-of-pelekanon
-wikipedia: Battle of Pelekanon
-when: 1329
-coords: 29.15, 41.01
-links: 24
-
-@ battle-of-posada
-wikipedia: Battle of Posada
-when: 1330
-coords: 25.62, 45.29
-links: 20
-
-@ battle-of-rusokastro
-wikipedia: Battle of Rusokastro
-when: 1332
-coords: 27.2, 42.47
-links: 14
-
-@ siege-of-nicomedia
-wikipedia: Siege of Nicomedia
-when: 1333 ~ 1337
-coords: 29.92, 40.77
-links: 17
-
-@ battle-of-peritheorion
-wikipedia: Battle of Peritheorion
-when: 1345
-coords: 25.09, 41.1
-links: 11
-
-@ battle-of-streva
-wikipedia: Battle of Strėva
-when: 1348
-coords: 24.42, 54.8
-links: 12
-
-@ capture-of-gallipoli-1354
-wikipedia: Capture of Gallipoli (1354)
-when: 1354
-coords: 26.67, 40.41
-links: 21
-
 @ battle-of-blue-waters
 wikipedia: Battle of Blue Waters
 when: 1362 ~ 1363
 coords: 30.78, 48.66
 links: 29
-
-@ battle-of-lake-poyang
-wikipedia: Battle of Lake Poyang
-when: 1363
-coords: 116.38, 29.07
-links: 18

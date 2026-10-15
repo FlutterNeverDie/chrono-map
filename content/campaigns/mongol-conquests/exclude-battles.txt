@@ -1,0 +1,56 @@
+# 이 전쟁이 아닌 전투. battles.txt를 Wikidata에서 다시 만들어도(--list) 빠진다. 한 줄에 위키백과 문서 제목 또는 전투 id, # 뒤는 메모. 형식은 content/campaigns/CLAUDE.md
+
+# 리보니아·북방 십자군 (독일·스웨덴·덴마크 vs 발트인·노브고로드, 몽골 없음)
+battle-of-umera
+battle-of-st-matthew-s-day
+battle-of-lyndanisse
+battle-of-lihula
+battle-of-saule
+battle-of-the-neva
+battle-on-the-ice
+battle-of-durbe
+battle-of-wesenberg-1268
+battle-of-karuse
+battle-of-aizkraukle
+battle-of-streva
+
+# 십자군 vs 아이유브·맘루크 (crusades 지도에 있음)
+siege-of-damietta-1218-1219
+siege-of-jerusalem-1244
+battle-of-forbie
+siege-of-damietta-1249
+battle-of-mansurah-1250
+battle-of-fariskur-1250
+siege-of-antioch-1268
+fall-of-krak-des-chevaliers
+siege-of-acre-1291
+fall-of-ruad
+
+# 비잔티움·라틴 제국·불가리아·니케아 전쟁
+battle-of-antioch-on-the-meander
+battle-of-poimanenon
+battle-of-klokotnitsa
+siege-of-constantinople-1235-1236
+battle-of-pelagonia
+siege-of-constantinople-1260
+reconquest-of-constantinople
+battle-of-settepozzi
+battle-of-skafida
+battle-of-halmyros
+battle-of-gallipoli-1312
+battle-of-rusokastro
+battle-of-peritheorion
+
+# 초기 오스만-비잔티움 전쟁
+siege-of-bursa
+siege-of-nicaea-1328-1331
+battle-of-pelekanon
+siege-of-nicomedia
+capture-of-gallipoli-1354
+
+# 그 밖의 다른 전쟁 (헝가리 내전, 왈라키아-헝가리, 리투아니아-키예프, 원말 군웅 간 전투, 호라즘-조지아)
+battle-of-rozgony
+battle-of-posada
+battle-on-the-irpin-river
+battle-of-lake-poyang
+battle-of-garni

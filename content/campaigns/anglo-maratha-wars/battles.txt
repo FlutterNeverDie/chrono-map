@@ -1,113 +1,5 @@
 # Anglo-Maratha wars 전투 (Wikidata 자동 생성, 직접 고쳐도 됨). 형식은 content/campaigns/CLAUDE.md
 
-@ siege-of-pondicherry-1778
-wikipedia: Siege of Pondicherry (1778)
-when: 1778
-coords: 79.83, 11.93
-links: 4
-
-@ siege-of-tellicherry
-wikipedia: Siege of Tellicherry
-when: 1779 ~ 1782
-coords: 75.49, 11.75
-links: 3
-
-@ battle-of-porto-novo
-wikipedia: Battle of Porto Novo
-when: 1781
-coords: 79.77, 11.49
-links: 5
-
-@ battle-of-pollilur-1781
-wikipedia: Battle of Pollilur (1781)
-when: 1781
-coords: 79.7, 12.97
-links: 5
-
-@ siege-of-negapatam
-wikipedia: Siege of Negapatam
-when: 1781
-coords: 79.83, 10.77
-links: 6
-
-@ capture-of-trincomalee
-wikipedia: Capture of Trincomalee
-when: 1782
-coords: 81.24, 8.55
-links: 4
-
-@ battle-of-sadras
-wikipedia: Battle of Sadras
-when: 1782
-coords: 80.18, 12.52
-links: 8
-
-@ battle-of-providien
-wikipedia: Battle of Providien
-when: 1782
-coords: 81.51, 8.25
-links: 9
-
-@ battle-of-negapatam-1782
-wikipedia: Battle of Negapatam (1782)
-when: 1782
-coords: 79.87, 10.78
-links: 11
-
-@ battle-of-trincomalee
-wikipedia: Battle of Trincomalee
-when: 1782
-coords: 81.24, 8.55
-links: 8
-
-@ battle-of-halani
-wikipedia: Battle of Halani
-when: 1783
-coords: 68.31, 27.09
-links: 5
-
-@ siege-of-mangalore
-wikipedia: Siege of Mangalore
-when: 1783 ~ 1784
-coords: 74.88, 12.87
-links: 4
-
-@ siege-of-cuddalore
-wikipedia: Siege of Cuddalore
-when: 1783
-coords: 79.75, 11.75
-links: 6
-
-@ battle-of-cuddalore-1783
-wikipedia: Battle of Cuddalore (1783)
-when: 1783
-coords: 79.75, 11.75
-links: 10
-
-@ siege-of-pondicherry-1793
-wikipedia: Siege of Pondicherry (1793)
-when: 1793
-coords: 79.83, 11.93
-links: 4
-
-@ battle-of-kharda
-wikipedia: Battle of Kharda
-when: 1795
-coords: 73.46, 25.43
-links: 7
-
-@ battle-of-mallavelly
-wikipedia: Battle of Mallavelly
-when: 1799
-coords: 76.69, 12.42
-links: 3
-
-@ siege-of-seringapatam-1799
-wikipedia: Siege of Seringapatam (1799)
-when: 1799
-coords: 76.69, 12.42
-links: 16
-
 @ battle-of-ujjain
 wikipedia: Battle of Ujjain
 when: 1801
@@ -154,12 +46,6 @@ links: 8
 wikipedia: Battle of Mukandwara Pass
 when: 1804
 coords: 75.99, 24.81
-links: 3
-
-@ battle-of-visakhapatnam
-wikipedia: Battle of Visakhapatnam
-when: 1804
-coords: 83.32, 17.68
 links: 3
 
 @ siege-of-delhi-1804

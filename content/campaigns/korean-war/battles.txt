@@ -284,7 +284,7 @@ links: 6
 
 @ chinese-spring-offensive
 wikipedia: Chinese spring offensive
-when: 1951-05 ~ 1951-06
+when: 1951-04 ~ 1951-05
 coords: 126.94, 37.94
 links: 6
 

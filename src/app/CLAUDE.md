@@ -8,7 +8,7 @@
   - 둘 다 `RootDocument`(`<html lang dir data-theme>`)를 쓴다. 두 레이아웃 사이 이동은 전체 새로고침이다.
 - 타입은 Next 전역 헬퍼 `LayoutProps<"/[locale]">`, `PageProps<"/[locale]">`를 쓴다. 라우트를 바꾼 뒤 타입 오류가 나면 `npx next typegen`.
 - 동적 라우트(`/year/[year]`, `/event/[slug]`)는 반드시 `generateStaticParams()`와 `export const dynamicParams = false`를 둔다. 정적 export에서 빠지면 빌드가 실패한다.
-- 모든 페이지는 `metadata` 또는 `generateMetadata`로 고유 title/description을 갖는다(SEO).
+- 모든 페이지는 `metadata` 또는 `generateMetadata`로 고유 title/description을 갖는다(SEO) 그리고 `pageAlternates(언어, 경로)`(i18n/alternates)로 canonical·hreflang을 넣는다 - www.historymapworld.com으로 들어와도 검색에는 대표 주소 하나만 잡히게. 레이아웃에는 넣지 않는다(하위 페이지가 첫 화면 주소를 물려받음).
 - viewport는 각 레이아웃의 `export const viewport`로 지정한다(`viewport-fit=cover`로 safe-area 사용).
 - 지도 화면 세 개의 루트는 `touch-pan-x touch-pan-y` — 패널·하단 바 위에서 두 손가락을 벌려도 페이지 전체가 확대되지 않게(지도 확대는 지도 svg가 직접 처리). 글 페이지(사건 상세·소개)는 그대로 확대 가능.
 - 화면(`HomeScreen.tsx`): 지도가 하단 바 위 영역을 모두 덮고, 위에 연도 카드·시점 바·확대 버튼·사건 패널이 떠 있다. body는 스크롤하지 않는다.

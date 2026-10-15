@@ -7,7 +7,7 @@ coords: 106.9, 47.9
 category: politics
 importance: 5
 title.ko: 칭기즈 칸 즉위
-title.en: Genghis Khan is proclaimed
+title.en: Temüjin proclaimed Genghis Khan
 title.zh: 成吉思汗即位
 title.es: Proclamación de Gengis Kan
 title.hi: चंगेज़ ख़ान का राज्यारोहण
@@ -112,6 +112,7 @@ coords: 102.0, 47.5
 category: politics
 importance: 3
 title.ko: 흉노 제국 성립 (묵특 선우)
+title.en: Modu Chanyu unites the Xiongnu
 
 @ kushan-empire
 wikipedia: Kushan Empire
@@ -121,6 +122,7 @@ coords: 69.27, 35.0
 category: politics
 importance: 3
 title.ko: 쿠샨 제국 성립
+title.en: Rise of the Kushan Empire
 
 @ first-turkic-khaganate
 wikipedia: First Turkic Khaganate
@@ -129,6 +131,7 @@ coords: 102.0, 47.5
 category: politics
 importance: 3
 title.ko: 돌궐 건국
+title.en: Founding of the First Turkic Khaganate
 title.hi: प्रथम तुर्क ख़ागानत
 summary.hi: प्रथम तुर्क ख़ागानत, जिसे गोकतुर्क ख़ागानत भी कहते हैं, ईस्वी 552 में आशिना कुल के बुमिन ख़ागान और उसके भाई इस्तेमी के नेतृत्व में भीतरी एशिया में स्थापित हुआ। इसने रौरान ख़ागानत का स्थान लेकर मंगोलियाई स्तेपी पर प्रभुत्व जमाया। यह साम्राज्य शीघ्र ही पूर्वी और पश्चिमी भागों में बँट गया।
 
@@ -139,6 +142,7 @@ coords: 102.67, 47.43
 category: politics
 importance: 2
 title.ko: 위구르 칸국 건국
+title.en: Founding of the Uyghur Khaganate
 
 @ battle-of-talas
 wikipedia: Battle of Talas
@@ -157,6 +161,7 @@ coords: 61.83, 37.66
 category: politics
 importance: 3
 title.ko: 셀주크 제국 성립
+title.en: Founding of the Seljuk Empire
 
 @ mongol-invasion-khwarazm
 wikipedia: Mongol invasion of the Khwarazmian Empire
@@ -176,6 +181,7 @@ coords: 47.5, 46.9
 category: politics
 importance: 3
 title.ko: 킵차크 칸국 (금장 칸국) 성립
+title.en: Founding of the Golden Horde
 
 @ ulugh-beg-observatory
 wikipedia: Ulugh Beg Observatory
@@ -195,6 +201,7 @@ coords: 73.0, 43.5
 category: politics
 importance: 2
 title.ko: 카자흐 칸국 건국
+title.en: Founding of the Kazakh Khanate
 
 @ dzungar-genocide
 wikipedia: Dzungar genocide

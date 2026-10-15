@@ -33,3 +33,86 @@ Beylik of Sinop = Beylik of Sinop
 Kingdom of the Franks = Francia
 Merovingian Empire = Francia
 Carolingian Empire = Carolingian Empire
+
+# 원본·Wikidata 연결 오류로 틀리던 이름(사건·인물·역사 문서, 소문자 일반명사, 연도 괄호 등) - 2026-10 영어 지도 검토
+Duchies of Poland = Duchies of Poland
+(Taifas of Iberia) = Taifa kingdoms
+Republics of the Soviet Union = Soviet republics
+Pro-Swedish Poland = Pro-Swedish Poland
+Hungarian Nationalists = Hungarian revolutionaries
+Caliphate of Córdoba = Caliphate of Córdoba
+Athenian Coalition = Athenian coalition
+Anti-Kuomintang Coalition = Anti-Chiang coalition
+Scandinavian minor kingdoms = Scandinavian petty kingdoms
+Norse Greenland = Norse Greenland
+Norman Italy = Norman Italy
+Kingdom of Lysimachus = Kingdom of Lysimachus
+Samo's Empire = Samo's Empire
+Assyrian Egypt = Assyrian Egypt
+Greek Colonies = Greek colonies
+Phoenician Colonies = Phoenician colonies
+Commune of the Zealots = Commune of the Zealots
+Kingdom of Pajana = Kingdom of Pajana
+Kingdom of Thuringia = Kingdom of the Thuringians
+Maderistas = Maderistas
+Earldom of Desmond = Earldom of Desmond
+Imamate of Yemen = Imamate of Yemen
+Unified Silla = Unified Silla
+Sultanate of Perak = Perak Sultanate
+Sultanate of Selangor = Selangor Sultanate
+Sultanate of Terengganu = Terengganu Sultanate
+Free City of Lübeck = Free City of Lübeck
+Free City of Bremen = Free City of Bremen
+Kingdom of Numidia = Numidia
+Turks = Second Turkic Khaganate
+Later Jin Dynasty = Later Jin
+Janapada of Cedī = Chedi
+Federal League = Federal League
+English Colonial Empire = English colonial empire
+Chenla = Chenla
+Maurya Empire = Maurya Empire
+Vakataka Kingdom = Vakataka Empire
+Seleucid Empire = Seleucid Empire
+Median Kingdom = Median Empire
+Later Han = Later Han
+Sultanate of Malacca = Malacca Sultanate
+Yadava Dynasty = Seuna dynasty
+Olmec Civilization = Olmecs
+Toltec = Toltecs
+Sikhs = Sikhs
+Thebans = Thebes
+Angevins = Angevins
+County of Anjou = County of Anjou
+Saint Kitts = Saint Kitts and Nevis
+Swaziland = Swaziland
+(Five Dynasties and Ten Kingdoms) = Five Dynasties and Ten Kingdoms
+Korean Jin = Jin state
+People's Republic of China = China
+Pahlavi Dynasty = Pahlavi Iran
+Qajar Dynasty = Qajar Iran
+Omani Slave Coast = Omani East Africa
+
+# 십팔제후국(기원전 206) 각 나라 - 원본이 모두 "십팔제후국" 문서에 이어져 같은 이름이던 것(서초는 초한전쟁 문서). 고개도(高開道)의 연(燕). 멕시코 독립 전쟁 반란군 점령지(1811~1819). 네덜란드령 수리남(1820~1975, 원본은 네덜란드령 안틸레스에 포함)
+Western Chu = Western Chu
+Dai = Dai
+Jibei = Jibei
+Jiujiang = Jiujiang
+Henan = Henan
+Hán = Hán (韓)
+Linjiang = Linjiang
+Chang-shan = Changshan
+Sai = Sai
+Liaodong = Liaodong
+Jiaodong = Jiaodong
+Yong = Yong
+Yin = Yin
+Zhai = Zhai
+Gao Kaidao = Yan (Gao Kaidao)
+Mexicans = Mexican insurgents
+Dutch Suriname = Dutch Suriname
+
+# British East Africa(1961~1972)는 원본에서 British Africa의 뒤를 잇는 남은 영국령 아프리카(로디지아 등) - Wikidata는 케냐의 "동아프리카 보호령"(1895~1920)으로 이어 둠
+British East Africa = British Africa
+
+# 탈레반 정권(1996~2001, 2021~) - 단체 이름이 아니라 국가 이름으로
+Taliban = Islamic Emirate of Afghanistan

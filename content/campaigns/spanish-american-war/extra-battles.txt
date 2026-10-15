@@ -14,6 +14,6 @@ links: 6
 
 @ puerto-rico-campaign
 wikipedia: Puerto Rico campaign
-when: 1898-07 ~ 1898-08
+when: 1898-05 ~ 1898-08
 coords: -66.61, 18.0
 links: 7

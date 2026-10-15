@@ -66,3 +66,20 @@ export function localizeEvent(e: HistoryEvent, locale: Locale): HistoryEvent {
     summary: only(e.summary, locale),
   };
 }
+
+/**
+ * 검색·공유 미리보기 설명(약 160자): 문장 끝에서 끊을 수 있으면 거기서, 아니면 단어 사이에서 자르고 "…".
+ * 띄어쓰기 없는 언어(중국어)는 글자 수로 자른다.
+ */
+export function clipText(text: string, max = 160): string {
+  const s = text.replace(/\s+/g, " ").trim();
+  if (s.length <= max) return s;
+  const head = s.slice(0, max - 1);
+  // 문장 끝: 마침표 뒤에 대문자로 시작하는 다음 문장("a.m. on"은 아님), 또는 。।؟
+  let sentence = -1;
+  for (const m of s.slice(0, max + 1).matchAll(/[.!?](?=\s+["“(]?\p{Lu})|[。।؟]/gu))
+    if (m.index < max) sentence = m.index + 1;
+  if (sentence >= max * 0.6) return head.slice(0, sentence);
+  const space = head.lastIndexOf(" ");
+  return (space >= max * 0.6 ? head.slice(0, space) : head).replace(/[\s,;:、，]+$/, "") + "…";
+}

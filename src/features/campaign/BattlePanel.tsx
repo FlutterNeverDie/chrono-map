@@ -15,6 +15,7 @@ import {
   battleSummary,
   battleTitle,
   battlesAt,
+  campaignSummary,
   campaignTitle,
   formatRange,
   formatTime,
@@ -40,7 +41,7 @@ export function BattlePanel({ ad }: { ad?: ReactNode } = {}) {
   const [tab, setTab] = useState<"now" | "all">("now");
   const now = useMemo(() => battlesAt(c, t), [c, t]);
   const list = tab === "now" ? now : c.battles;
-  const war = c.wiki[locale] ?? c.wiki.en;
+  const war = campaignSummary(c, locale);
 
   useEffect(() => {
     if (selected)
@@ -122,7 +123,7 @@ export function BattlePanel({ ad }: { ad?: ReactNode } = {}) {
           "lg:block lg:max-h-none lg:flex-1",
         )}
       >
-        {war && tab === "now" && (
+        {war.text && tab === "now" && (
           <div className="mb-3 rounded-lg bg-chip/60 p-4">
             <h2 className="text-lg font-bold lg:text-2xl">
               {campaignTitle(c, locale)}
@@ -131,16 +132,19 @@ export function BattlePanel({ ad }: { ad?: ReactNode } = {}) {
               {formatRange(c.start, c.end, c.unit, locale)}
             </p>
             <ExpandableText
-              text={war.extract}
+              text={war.text}
+              lang={war.lang}
               moreLabel={messages.ui.details}
               lessLabel={messages.ui.collapse}
               className="mt-2 text-[15px] text-muted lg:text-lg"
               trailing={
-                <WikiLink
-                  href={war.url}
-                  label={messages.ui.readMore}
-                  source={`${messages.ui.wikipedia} · CC BY-SA 4.0`}
-                />
+                war.page && (
+                  <WikiLink
+                    href={war.page.url}
+                    label={messages.ui.readMore}
+                    source={`${messages.ui.wikipedia} · CC BY-SA 4.0`}
+                  />
+                )
               }
             />
           </div>

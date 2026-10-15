@@ -54,7 +54,7 @@ place.ar: نيودلهي
 place.fr: New Delhi
 place.pt: Nova Délhi
 summary.ko: 인도가 영국으로부터 독립했고 파키스탄과 분리되었다.
-summary.en: India gained independence from Britain and was partitioned from Pakistan.
+summary.en: India gained independence from Britain, and British India was partitioned into India and Pakistan.
 summary.zh: 印度脱离英国独立，并与巴基斯坦分治。
 summary.es: La India se independizó del Reino Unido y quedó separada de Pakistán.
 summary.hi: भारत ब्रिटेन से स्वतंत्र हुआ और पाकिस्तान से विभाजित हुआ।
@@ -150,6 +150,7 @@ coords: 84.99, 24.7
 category: religion
 importance: 5
 title.ko: 석가모니와 불교의 성립
+title.en: The Buddha and the rise of Buddhism
 
 @ battle-of-the-hydaspes
 wikipedia: Battle of the Hydaspes
@@ -166,6 +167,7 @@ coords: 85.14, 25.6
 category: politics
 importance: 4
 title.ko: 마우리아 왕조 건국
+title.en: Founding of the Maurya Empire
 
 @ kalinga-war
 wikipedia: Kalinga War
@@ -184,6 +186,7 @@ coords: 85.14, 25.6
 category: politics
 importance: 3
 title.ko: 굽타 왕조 건국
+title.en: Founding of the Gupta Empire
 
 @ nalanda
 wikipedia: Nalanda mahavihara
@@ -226,6 +229,7 @@ coords: 77.2, 28.6
 category: politics
 importance: 3
 title.ko: 델리 술탄국 성립
+title.en: Founding of the Delhi Sultanate
 
 @ vijayanagara-empire
 wikipedia: Vijayanagara Empire
@@ -234,6 +238,7 @@ coords: 76.46, 15.33
 category: politics
 importance: 2
 title.ko: 비자야나가르 제국 건국
+title.en: Founding of the Vijayanagara Empire
 
 @ vasco-da-gama-india
 wikipedia: Portuguese discovery of the sea route to India
@@ -282,6 +287,7 @@ coords: 72.83, 18.94
 category: politics
 importance: 3
 title.ko: 인도 국민회의 창립
+title.en: Founding of the Indian National Congress
 
 @ jallianwala-bagh
 wikipedia: Jallianwala Bagh massacre

@@ -2,7 +2,8 @@ import type { ReactNode } from "react";
 import type { Locale } from "@/lib/types";
 import { fill, getMessages } from "@/i18n";
 import { localeHref } from "@/i18n/locales";
-import { eventSummary, eventTitle, pick } from "@/lib/localize";
+import { pageAlternates } from "@/i18n/alternates";
+import { clipText, eventSummary, eventTitle, pick } from "@/lib/localize";
 import { formatWhen } from "@/lib/year";
 import { formatPeriod, periodOf } from "@/lib/period";
 import { EVENTS } from "@/data/content";
@@ -128,16 +129,27 @@ export function EventDetail({
   );
 }
 
+/**
+ * 페이지·공유 제목 "제목 (때)". 위키백과 제목에 이미 괄호가 있으면 겹치지 않게:
+ * 괄호 안에 연도가 있으면("Siege of Jerusalem (587 BC)") 그대로, 아니면 "Trinity (nuclear test), 1945"
+ */
+function titleWithWhen(title: string, when: string): string {
+  const paren = title.match(/\(([^()]*)\)$/);
+  if (!paren) return `${title} (${when})`;
+  return /\d{3}|\b(BC|AD|BCE|CE)\b/.test(paren[1]) ? title : `${title}, ${when}`;
+}
+
 export function eventMetadata(locale: Locale, id: string) {
   const e = findEvent(id);
   if (!e) return {};
   const messages = getMessages(locale);
   const summary = eventSummary(e, locale);
-  const title = `${eventTitle(e, locale)} (${formatWhen(e, locale)})`;
-  const description = summary.text.slice(0, 160);
+  const title = titleWithWhen(eventTitle(e, locale), formatWhen(e, locale));
+  const description = clipText(summary.text);
   return {
     title: `${title} — ${messages.siteName}`,
     description,
+    alternates: pageAlternates(locale, `event/${id}`),
     openGraph: {
       title,
       description,

@@ -21,7 +21,7 @@ export function localizeTopic(t: Topic, locale: Locale): Topic {
       ...i,
       wiki: keepLocales(i.wiki, locale, ["en"]),
       title: i.title && keepLocales(i.title, locale, ["en"]),
-      summary: i.summary && keepLocales(i.summary, locale, []),
+      summary: i.summary && keepLocales(i.summary, locale),
     })),
   };
 }

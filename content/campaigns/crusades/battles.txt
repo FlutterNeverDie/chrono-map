@@ -102,12 +102,6 @@ when: 1111
 coords: 36.57, 35.27
 links: 13
 
-@ siege-of-nicaea-1113
-wikipedia: Siege of Nicaea (1113)
-when: 1113
-coords: 29.72, 40.43
-links: 14
-
 @ battle-of-al-sannabra
 wikipedia: Battle of al-Sannabra
 when: 1113
@@ -120,23 +114,11 @@ when: 1115
 coords: 36.72, 35.9
 links: 18
 
-@ battle-of-philomelion-1116
-wikipedia: Battle of Philomelion (1116)
-when: 1116
-coords: 31.42, 38.36
-links: 13
-
 @ battle-of-the-field-of-blood
 wikipedia: Battle of the Field of Blood
 when: 1119
 coords: 36.72, 36.18
 links: 27
-
-@ battle-of-didgori
-wikipedia: Battle of Didgori
-when: 1121
-coords: 44.52, 41.68
-links: 29
 
 @ battle-of-yibneh
 wikipedia: Battle of Yibneh
@@ -210,12 +192,6 @@ when: 1153
 coords: 34.55, 31.67
 links: 21
 
-@ siege-of-baghdad-1157
-wikipedia: Siege of Baghdad (1157)
-when: 1157
-coords: 44.42, 33.35
-links: 8
-
 @ battle-of-lake-huleh-1157
 wikipedia: Battle of Lake Huleh (1157)
 when: 1157
@@ -239,12 +215,6 @@ wikipedia: Battle of al-Babein
 when: 1167
 coords: 31.22, 30.02
 links: 11
-
-@ battle-of-myriokephalon
-wikipedia: Battle of Myriokephalon
-when: 1176
-coords: 31.95, 37.91
-links: 32
 
 @ battle-of-montgisard
 wikipedia: Battle of Montgisard
@@ -336,18 +306,6 @@ when: 1192
 coords: 34.75, 32.05
 links: 23
 
-@ battle-of-arcadiopolis-1194
-wikipedia: Battle of Arcadiopolis (1194)
-when: 1194
-coords: 27.25, 41.44
-links: 8
-
-@ battle-of-basiani
-wikipedia: Battle of Basiani
-when: 1202
-coords: 41.68, 39.98
-links: 15
-
 @ siege-of-constantinople-1203
 wikipedia: Siege of Constantinople (1203)
 when: 1203
@@ -359,12 +317,6 @@ wikipedia: Sack of Constantinople
 when: 1204
 coords: 28.95, 41.04
 links: 38
-
-@ siege-of-trebizond-1205-1206
-wikipedia: Siege of Trebizond (1205–1206)
-when: 1205 ~ 1206
-coords: 39.73, 41
-links: 12
 
 @ battle-of-adramyttion-1205
 wikipedia: Battle of Adramyttion (1205)
@@ -378,53 +330,11 @@ when: 1205
 coords: 26.57, 41.67
 links: 26
 
-@ siege-of-attaleia
-wikipedia: Siege of Attaleia
-when: 1207
-coords: 30.7, 36.91
-links: 8
-
-@ battle-of-antioch-on-the-meander
-wikipedia: Battle of Antioch on the Meander
-when: 1211
-coords: 28.57, 37.87
-links: 14
-
 @ siege-of-damietta-1218-1219
 wikipedia: Siege of Damietta (1218–1219)
 when: 1218 ~ 1219
 coords: 31.82, 31.42
 links: 24
-
-@ battle-of-poimanenon
-wikipedia: Battle of Poimanenon
-when: 1224
-coords: 36, 37.89
-links: 13
-
-@ battle-of-garni
-wikipedia: Battle of Garni
-when: 1225
-coords: 44.72, 40.12
-links: 16
-
-@ battle-of-klokotnitsa
-wikipedia: Battle of Klokotnitsa
-when: 1230
-coords: 25.5, 41.98
-links: 21
-
-@ siege-of-constantinople-1235-1236
-wikipedia: Siege of Constantinople (1235–1236)
-when: 1235
-coords: 28.98, 41.01
-links: 17
-
-@ battle-of-kose-dag
-wikipedia: Battle of Köse Dağ
-when: 1243
-coords: 39.6, 40.28
-links: 30
 
 @ siege-of-jerusalem-1244
 wikipedia: Siege of Jerusalem (1244)
@@ -456,47 +366,11 @@ when: 1250
 coords: 31.71, 31.33
 links: 23
 
-@ battle-of-adrianople-1254
-wikipedia: Battle of Adrianople (1254)
-when: 1254
-coords: 26.57, 41.67
-links: 9
-
-@ siege-of-baghdad
-wikipedia: Siege of Baghdad
-when: 1258
-coords: 44.34, 33.35
-links: 56
-
-@ siege-of-aleppo-1260
-wikipedia: Siege of Aleppo (1260)
-when: 1260
-coords: 37.16, 36.2
-links: 11
-
 @ battle-of-ain-jalut
 wikipedia: Battle of Ain Jalut
 when: 1260
 coords: 35.36, 32.55
 links: 50
-
-@ siege-of-constantinople-1260
-wikipedia: Siege of Constantinople (1260)
-when: 1260
-coords: 28.98, 41.01
-links: 13
-
-@ first-battle-of-homs
-wikipedia: First Battle of Homs
-when: 1260
-coords: 36.71, 34.72
-links: 16
-
-@ reconquest-of-constantinople
-wikipedia: Reconquest of Constantinople
-when: 1261
-coords: 28.98, 41.02
-links: 23
 
 @ battle-of-mari
 wikipedia: Battle of Mari
@@ -521,18 +395,6 @@ wikipedia: Truce of Tripoli (1271)
 when: 1271
 coords: 35.83, 34.43
 links: 8
-
-@ battle-of-elbistan
-wikipedia: Battle of Elbistan
-when: 1277
-coords: 37.19, 38.2
-links: 12
-
-@ second-battle-of-homs
-wikipedia: Second Battle of Homs
-when: 1281
-coords: 36.71, 34.72
-links: 23
 
 @ siege-of-acre-1291
 wikipedia: Siege of Acre (1291)

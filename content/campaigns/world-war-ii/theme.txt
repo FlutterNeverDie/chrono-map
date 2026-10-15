@@ -1,6 +1,8 @@
 # 전쟁 지도 설정 — 형식은 content/campaigns/CLAUDE.md
 
 wikipedia: World War II
+# 지도는 동아시아 기준으로 1937-07(중일 전쟁)에 시작한다. 영어권은 보통 1939년부터 세므로 영어 설명에 그 이유를 밝힌다
+summary.en: World War II was a global conflict between the Allies and the Axis powers. This map starts in July 1937, when Japan's full-scale invasion of China began the Second Sino-Japanese War, two years before Germany's invasion of Poland in September 1939, the start date usually given in Europe and North America. The deadliest war in history, it killed an estimated 60 to 75 million people, most of them civilians, including the victims of the Holocaust. It ended with Germany's surrender in May 1945 and Japan's in September 1945.
 region: world
 when: 1937-07 ~ 1945-09
 unit: month

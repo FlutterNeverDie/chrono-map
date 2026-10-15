@@ -9,5 +9,6 @@ Kingdom of Bahrain = b
 Sultanate of Oman = b
 Arab Republic of Egypt = b
 Syria = b
-# 미국·영국·프랑스는 넣지 않는다: 원본 1990~91년 국경에서 미국에 베트남, 영국에 오만, 프랑스에 알제리가 섞여 나옴
+French Fifth Republic = b
+# 미국은 넣지 않는다: 원본 1990~91년 국경에서 미국에 베트남이 섞여 나옴. 영국은 오만을 떼어 낸 뒤(scripts/lib/polityFixes.mjs) 이 지도 범위 밖
 # 1990년 쿠웨이트는 이라크 점령지로 Iraqi Republic에 포함

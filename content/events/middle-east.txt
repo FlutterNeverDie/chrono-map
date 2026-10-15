@@ -47,7 +47,8 @@ importance: 4
 
 @ neolithic-revolution
 wikipedia: Neolithic Revolution
-when: -9001 ~ -3001
+when: -10000 ~ -3000
+precision: century
 coords: 40, 36
 category: politics
 importance: 4
@@ -275,7 +276,7 @@ summary.hi: 13 से 24 जून 2025 तक ईरान और इज़र�
 
 @ crusades
 wikipedia: Crusades
-when: 1096 ~ 1291
+when: 1095 ~ 1291
 coords: 35.2, 31.78
 category: war
 importance: 5
@@ -297,10 +298,12 @@ coords: 44.0, 33.1
 category: politics
 importance: 4
 title.ko: 아카드 제국 건국
+title.en: Founding of the Akkadian Empire
 
 @ code-of-hammurabi
 wikipedia: Code of Hammurabi
 when: -1754
+precision: decade
 coords: 44.42, 32.54
 category: politics
 importance: 4
@@ -388,6 +391,7 @@ coords: 46.29, 38.08
 category: politics
 importance: 3
 title.ko: 사파비 왕조 건국
+title.en: Founding of the Safavid dynasty
 
 @ sykes-picot
 wikipedia: Sykes–Picot Agreement

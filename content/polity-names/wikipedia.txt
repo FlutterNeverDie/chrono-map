@@ -1,0 +1,62 @@
+# 지도 위 나라 이름 - 원본이 엉뚱한 위키 문서에 이어진 정치체의 문서 바꾸기 (8개 언어 공통)
+# 형식: 원본 이름(public/borders/*.json의 "n" 값 그대로) = 영어 위키백과 문서 제목
+# 원본(Cliopatria)의 Wikipedia 칸이 사건·인물·역사 문서를 가리켜 모든 언어에서 이름이 틀리던 것
+# (예: Qarlugs → "Mongol invasion of Central Asia", Kingdom of Numidia → "Jugurtha").
+# 여기 적은 문서의 Wikidata 항목에서 8개 언어 이름을 다시 받는다. "X"에 적으면 "(X)"에도 적용된다.
+# 언어별 파일(<언어>.txt)에 적은 이름이 이것보다 우선한다. 적용: npm run borders (새 문서는 위키백과·Wikidata에서 받음)
+# 알맞은 문서가 없는 것은 언어별 파일에 직접 적는다.
+# 연도에 따라 나라가 바뀌는 것(Great Britain → United Kingdom 1801~, Mali Federation → Mali 1961~)과
+# 도형 오류(1962년 이후 프랑스에 붙은 알제리 등)는 scripts/lib/polityFixes.mjs의 POLITY_FIXES에서 고친다(본 지도·전쟁 지도 공통).
+
+# 사건·인물·역사 문서에 이어져 있던 것
+Qarlugs = Karluks
+Cuban Nationalists = Republic of Cuba in Arms
+Kingdom of Numidia = Numidia
+Oghuz Turks = Oghuz Yabgu State
+Turks = Second Turkic Khaganate
+Denmark-England = North Sea Empire
+Libyan Arab Republic = Libya
+Muhammad Ali dynasty = Muhammad Ali dynasty
+Sumerian City-States = Sumer
+Greek City-States = Ancient Greece
+Mujahideen = Afghan mujahideen
+Second Republic of Austria = Austria
+Khmer Rouge = Democratic Kampuchea
+Great Mongol State = Bogd Khanate of Mongolia
+Kingdom of Israel = Kingdom of Israel (Samaria)
+Harsha's Empire = Pushyabhuti dynasty
+German Africa = German colonial empire
+Norman England = Kingdom of England
+Danish Magnates = Denmark
+Sultan of Yogyakarta = Yogyakarta Sultanate
+County of Barcelona = County of Barcelona
+Barghawata Conference = Barghawata
+Đại Việt = Đại Việt
+Bahrani Dynasty = Jarwanid dynasty
+Qasimids = Qasimid State
+Mexican Monarchists = Second Mexican Empire
+Guayaquil Junta = Guayaquil
+Li Zicheng = Shun dynasty
+Cao Cao = Cao Wei
+Livonian Conference = Livonian Confederation
+Nawabs of Bengal = Bengal Subah
+Polish Armed Forces = Second Polish Republic
+Min = Min (Ten Kingdoms)
+Sultanate of Bone = Bone State
+Great Yuan = Dayuan
+
+# 근현대 나라는 짧은 이름으로(다른 나라처럼): 프랑스 제5공화국 → 프랑스, Éire → 아일랜드
+French Fifth Republic = France
+Éire = Republic of Ireland
+
+# 시대 이름이 나라 이름표로 나오던 것 → 그 나라(다른 시대의 막부·제국 이름은 그대로)
+Asuka Japan = Japan
+Nara Japan = Japan
+Heian Japan = Japan
+Warring States Japan = Japan
+
+# 민족 이름이 나라 이름표로 나오던 것 → 그때의 정치체가 분명하면 그 나라
+# Serbs(1805~1915) = 세르비아 봉기 정부 → 세르비아 공국 → 세르비아 왕국, Poles(1830) = 11월 봉기의 폴란드 왕국
+# Mexicans(1811~1819)는 독립 전쟁 반란군 점령지 → 언어별 파일에 "멕시코 독립군", Palestinians(1948)는 정치체가 분명하지 않아 그대로
+Serbs = Serbia
+Poles = Poland

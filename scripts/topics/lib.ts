@@ -84,7 +84,7 @@ export type ItemSource = {
   coords: [number, number];
   spread: SpreadPoint[];
   importance: number;
-  /** 직접 쓴 제목·설명 — 그 언어 위키백과 문서가 없을 때 쓴다 */
+  /** 직접 쓴 제목·설명 — 그 언어 위키백과 문서가 없거나 맞지 않을 때. summary가 있는 언어는 위키백과 요약 대신 쓴다 */
   title: Partial<Record<Locale, string>>;
   summary: Partial<Record<Locale, string>>;
 };

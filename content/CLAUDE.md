@@ -10,6 +10,7 @@
 | `campaigns/<전쟁>/` | 전쟁 지도(/wars) 설정·진영·전투 — `content/campaigns/CLAUDE.md` | `npm run wars:fetch`·`wars:borders`·`wars:build` |
 | `topics/<지도>/` | 주제 지도(/maps: 역병·발명 …) 설정·항목 — `content/topics/CLAUDE.md` | `npm run topics:fetch`·`topics:build` |
 | `polity-names/<언어>.txt` | 지도 위 나라 이름 수정·보충. 한 줄에 `원본 이름 = 번역` | `npm run borders` |
+| `polity-names/wikipedia.txt` | 원본이 엉뚱한 위키 문서(사건·인물·역사 문서)에 이어진 나라의 문서 바꾸기. 한 줄에 `원본 이름 = 영어 위키백과 문서 제목` → 8개 언어 이름이 그 문서에서 온다 | `npm run borders` |
 | `wikipedia.json` | **자동 생성, 직접 고치지 않음.** 사건별 위키백과 요약(8개 언어) | `npm run wiki`로 받음 → `npm run content`가 합침 |
 
 지역 id: korea, china, japan, central-asia, southeast-asia, india, middle-east, europe, africa, north-america, south-america, oceania
@@ -66,4 +67,6 @@ hunminjeongeum
 2. 사건마다 영어 위키백과 문서를 먼저 찾아 `wikipedia:`로 연결한다(사건 자체 문서가 가장 좋고, 없으면 가장 가까운 문서).
 3. 연도·좌표는 그 문서와 대조한다. 확실하지 않으면 `precision: decade/century`.
 4. `npm run wiki` → `npm run content` — 오류는 `파일:줄` 형식으로 나온다. 통과해야 끝.
+- 지도 나라 이름이 틀리면 먼저 원인을 본다: 원본이 엉뚱한 문서에 이어져 **모든 언어에서** 틀리면(예: Qarlugs → "Mongol invasion of Central Asia") `polity-names/wikipedia.txt`에서 문서를 바꾸고, 알맞은 문서가 없거나 한 언어만 어색하면 `<언어>.txt`에 직접 적는다(언어별 파일이 우선). `X`에 적은 이름은 `(X)`에도 적용된다. 연도에 따라 나라가 바뀌거나 도형이 틀린 것(1962년 이후 프랑스에 붙은 알제리 등)은 `scripts/lib/polityFixes.mjs`의 `POLITY_FIXES`(본 지도·전쟁 지도 공통, `npm run borders` + `npm run wars:borders`). 여기서 원본 이름(`n`)을 바꾸거나 새 나라를 만들면 전쟁 지도 진영(`campaigns/<id>/sides.txt`)도 새 이름으로 고친다(예: 1801년 이후 `United Kingdom`).
+- 시대·민족 이름이 나라 이름표로 나오면 그때의 나라로 적는다(헤이안 시대 등 → 일본, Serbs → 세르비아). 그때의 정치체가 분명하지 않으면 그대로 두거나 설명하는 이름으로(Mexicans → 멕시코 독립군, Palestinians(1948)는 그대로).
 - 지도 나라 이름: 서로 다른 나라가 같은 이름으로 번역되면(동·서 분열 — 동돌궐/서돌궐, 같은 한자음 — 진(晉)/진(秦)) `content/polity-names/<언어>.txt`에서 구분해 준다. 원본이 같은 땅을 여러 층("X"·"(X)"·"(상위 제국)")으로 겹쳐 둔 것은 화면에서 이름표를 하나만 단다(`components/map`의 `labelCandidates`).

@@ -18,16 +18,25 @@ export function formatYear(
   approximate = false,
 ): string {
   const f = FORMATS[locale];
-  const text = (year < 0 ? f.bc : f.ad).replace("{n}", String(Math.abs(year)));
+  // 영어: 서기 1000년 전은 "9"만 쓰면 숫자로 읽히므로 "AD 9"
+  const ad = locale === "en" && year < 1000 ? "AD {n}" : f.ad;
+  const text = (year < 0 ? f.bc : ad).replace("{n}", String(Math.abs(year)));
   return approximate ? f.approx.replace("{s}", text) : text;
 }
 
-/** 사건의 때: 한 해면 "1492년", 기간이면 "1592년 – 1598년", 부정확하면 "약 …" */
+/** 사건의 때: 한 해면 "1492년", 기간이면 "1592년 – 1598년"(영어 "1592–1598"), 부정확하면 "약 …" */
 export function formatWhen(
   e: Pick<HistoryEvent, "start" | "end" | "precision">,
   locale: Locale,
 ): string {
   const approx = e.precision !== "year";
   if (e.start === e.end) return formatYear(e.start, locale, approx);
+  if (locale === "en" && (e.start > 0 || e.end < 0)) {
+    // 영어는 같은 기원 안의 기간을 한 번만 붙여 "1592–1598", "AD 66–74", "300–201 BC"
+    const [a, b] = [Math.abs(e.start), Math.abs(e.end)];
+    const text =
+      e.end < 0 ? `${a}–${b} BC` : e.start < 1000 ? `AD ${a}–${b}` : `${a}–${b}`;
+    return approx ? FORMATS.en.approx.replace("{s}", text) : text;
+  }
   return `${formatYear(e.start, locale, approx)} – ${formatYear(e.end, locale)}`;
 }

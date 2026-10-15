@@ -7,7 +7,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import type { Content } from "../src/lib/types";
 import { readEvents, readRankings, root } from "./lib/content";
-import { readWikiCache } from "./lib/wikipedia";
+import { readWikiCache, tidyPages } from "./lib/wikipedia";
 import { listCampaigns, readTheme } from "./campaigns/lib";
 
 const OUT_DIR = root("src/data/generated");
@@ -28,7 +28,7 @@ for (const e of events) {
     );
     continue;
   }
-  e.wiki = entry.pages;
+  e.wiki = tidyPages(entry.pages);
 }
 
 // 같은 위키백과 문서를 쓰는 전쟁 지도와 연결 → 사건 카드에 "전쟁 지도로 보기"

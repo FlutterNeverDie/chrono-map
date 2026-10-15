@@ -1,11 +1,5 @@
 # War of 1812 전투 (Wikidata 자동 생성, 직접 고쳐도 됨). 형식은 content/campaigns/CLAUDE.md
 
-@ fort-harrison-indiana
-wikipedia: Fort Harrison, Indiana
-when: 1812-09
-coords: -87.41, 39.51
-links: 4
-
 @ siege-of-fort-mackinac
 wikipedia: Siege of Fort Mackinac
 when: 1812-07

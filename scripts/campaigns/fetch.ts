@@ -2,12 +2,12 @@
 //
 //   npm run wars:fetch                    모든 전쟁: battles.txt가 없으면 만들고, 빠진 위키백과 요약만 받기
 //   npm run wars:fetch -- imjin-war       특정 전쟁만
-//   npm run wars:fetch -- --list          전투 목록을 Wikidata에서 다시 만들기(손으로 고친 battles.txt는 덮어씀)
+//   npm run wars:fetch -- --list          전투 목록을 Wikidata에서 다시 만들기(손으로 고친 battles.txt는 덮어씀, exclude-battles.txt는 빼고)
 //
 // 전투 = 그 전쟁 기간에 search 범위 안에서 일어난 전투·포위전·군사작전 중 위키백과 언어판 min-links개 이상.
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { USER_AGENT, fetchSummaries, sleep } from "../lib/wikipediaApi";
-import { dirOf, listCampaigns, readBattles, readTheme, type Theme } from "./lib";
+import { dirOf, listCampaigns, readBattles, readExcluded, readTheme, type Theme } from "./lib";
 
 const slug = (t: string) =>
   t
@@ -48,6 +48,7 @@ SELECT ?article (MAX(?l) AS ?links) (SAMPLE(?s) AS ?start) (SAMPLE(?e) AS ?end) 
   type Cell = { value: string } | undefined;
   const rows = ((await res.json()) as { results: { bindings: Record<string, Cell>[] } }).results.bindings;
 
+  const excluded = readExcluded(t.id);
   const fmt = (d: { year: number; month: number }) =>
     t.unit === "year" ? String(d.year) : `${d.year}-${String(d.month).padStart(2, "0")}`;
   const items = rows
@@ -67,6 +68,8 @@ SELECT ?article (MAX(?l) AS ?links) (SAMPLE(?s) AS ?start) (SAMPLE(?e) AS ?end) 
       };
     })
     .filter((x): x is NonNullable<typeof x> => !!x)
+    // exclude-battles.txt(다른 전쟁의 전투)는 다시 만들 때도 넣지 않는다
+    .filter((x) => !excluded.has(x.wikipedia) && !excluded.has(slug(x.wikipedia)))
     .sort((x, y) => x.sort - y.sort);
 
   writeFileSync(
@@ -94,7 +97,7 @@ async function main() {
     const wikiFile = `${dirOf(id)}/wikipedia.json`;
     const cache = existsSync(wikiFile) ? JSON.parse(readFileSync(wikiFile, "utf8")) : {};
     const titles = [theme.wikipedia, ...readBattles(id, theme.unit).map((b) => b.wikipedia)];
-    const todo = [...new Set(titles)].filter((t) => !cache[t]);
+    const todo = [...new Set(titles)].filter((t): t is string => !!t && !cache[t]);
     if (!todo.length) continue;
     console.log(`  ${id}: 위키백과 요약 ${todo.length}건 받는 중…`);
     let n = 0;

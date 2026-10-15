@@ -1,0 +1,30 @@
+# 이 전쟁이 아닌 전투. battles.txt를 Wikidata에서 다시 만들어도(--list) 빠진다. 한 줄에 위키백과 문서 제목 또는 전투 id, # 뒤는 메모. 형식은 content/campaigns/CLAUDE.md
+
+# 영국-마이소르 전쟁 (하이데르 알리·티푸 술탄)
+battle-of-porto-novo
+battle-of-pollilur-1781
+siege-of-mangalore
+siege-of-cuddalore
+battle-of-mallavelly
+siege-of-seringapatam-1799
+siege-of-tellicherry
+
+# 영국-프랑스·영국-네덜란드 해전·식민지 전투 (미국 독립 전쟁·프랑스 혁명 전쟁·나폴레옹 전쟁)
+siege-of-pondicherry-1778
+siege-of-negapatam
+capture-of-trincomalee
+battle-of-sadras
+battle-of-providien
+battle-of-negapatam-1782
+battle-of-trincomalee
+battle-of-cuddalore-1783
+siege-of-pondicherry-1793
+battle-of-visakhapatnam
+
+# 영국이 없는 전투 (신드의 탈푸르-칼호로, 마라타-니잠)
+battle-of-halani
+battle-of-kharda
+
+# 마라타끼리 싸운 전투 (영국 없음). 푸나 전투(1802)는 2차 전쟁의 원인이지만 전쟁의 전투는 아니다
+battle-of-ujjain
+battle-of-poona

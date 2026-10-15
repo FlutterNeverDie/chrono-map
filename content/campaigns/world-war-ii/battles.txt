@@ -31,12 +31,6 @@ when: 1938-07 ~ 1938-08
 coords: 130.61, 42.44
 links: 35
 
-@ battle-of-the-ebro
-wikipedia: Battle of the Ebro
-when: 1938-07 ~ 1938-11
-coords: 0.48, 41.16
-links: 25
-
 @ battles-of-khalkhin-gol
 wikipedia: Battles of Khalkhin Gol
 when: 1939-05 ~ 1939-09

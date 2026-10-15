@@ -14,7 +14,7 @@ French Louisiana = 法属路易斯安那
 German Africa = 德属非洲
 Gothia = 哥特领
 Habsburg Monarchy = 哈布斯堡君主国
-Hashemite Arab Federation = 哈希姆阿拉伯联邦
+Hashemite Arab Federation = 阿拉伯伊拉克
 Joseon = 朝鲜王朝
 Kingdom of France = 法兰西王国
 Later Han = 东汉
@@ -55,3 +55,57 @@ Principality of Pinsk = 平斯克公国
 Principality of Turov = 图罗夫公国
 Beylik of Sinop = 锡诺普贝伊国
 Carolingian Empire = 加洛林帝国
+
+# 원본·Wikidata 연결 오류로 틀리던 이름(사건·인물·역사 문서, 소문자 일반명사, 연도 괄호 등) - 2026-10 영어 지도 검토
+Duchies of Poland = 波兰诸公国
+(Taifas of Iberia) = 泰法诸国
+Pro-Swedish Poland = 亲瑞典波兰
+Hungarian Nationalists = 匈牙利革命者
+Caliphate of Córdoba = 哥多華哈里發國
+Athenian Coalition = 雅典同盟
+Anti-Kuomintang Coalition = 反蒋联军
+Scandinavian minor kingdoms = 斯堪的纳维亚诸小王国
+Norse Greenland = 诺斯人格陵兰
+Norman Italy = 诺曼意大利
+Kingdom of Lysimachus = 利西马科斯王国
+Samo's Empire = 萨莫王国
+Greek Colonies = 希腊殖民地
+Phoenician Colonies = 腓尼基殖民地
+Commune of the Zealots = 狂热派公社
+Kingdom of Pajana = 帕贾纳王国
+Kingdom of Thuringia = 图林根王国
+Maderistas = 马德罗派
+Earldom of Desmond = 迪斯蒙伯爵领
+Imamate of Yemen = 也门伊玛目国
+Sultanate of Perak = 霹雳苏丹国
+Sultanate of Selangor = 雪兰莪苏丹国
+Sultanate of Terengganu = 登嘉楼苏丹国
+Free City of Bremen = 不来梅自由市
+Qasimids = 卡西姆王朝
+Min = 闽
+Kingdom of Great Britain = 英国
+
+# 십팔제후국(기원전 206) 각 나라 - 원본이 모두 "십팔제후국" 문서에 이어져 같은 이름이던 것(서초는 초한전쟁 문서). 고개도(高開道)의 연(燕). 멕시코 독립 전쟁 반란군 점령지(1811~1819). 네덜란드령 수리남(1820~1975, 원본은 네덜란드령 안틸레스에 포함)
+Western Chu = 西楚
+Dai = 代国
+Jibei = 济北国
+Jiujiang = 九江国
+Henan = 河南国
+Hán = 韩 (十八诸侯)
+Linjiang = 临江国
+Chang-shan = 常山国
+Sai = 塞国
+Liaodong = 辽东国
+Jiaodong = 胶东国
+Yong = 雍国
+Yin = 殷国
+Zhai = 翟国
+Gao Kaidao = 燕 (高开道)
+Mexicans = 墨西哥独立军
+Dutch Suriname = 荷属苏里南
+
+# British East Africa(1961~1972)는 원본에서 British Africa의 뒤를 잇는 남은 영국령 아프리카(로디지아 등) - Wikidata는 케냐의 "동아프리카 보호령"(1895~1920)으로 이어 둠
+British East Africa = 英属非洲
+
+# 탈레반 정권(1996~2001, 2021~) - 단체 이름이 아니라 국가 이름으로
+Taliban = 阿富汗伊斯兰酋长国

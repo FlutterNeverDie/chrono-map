@@ -38,6 +38,9 @@ export function warsTopic(): Topic {
         spread: [],
         importance: big >= 20 ? 5 : big >= 5 ? 4 : 3,
         wiki: c.wiki,
+        // 직접 쓴 전쟁 이름·설명(theme.txt) — 위키백과 문서가 맞지 않는 언어용
+        title: c.title,
+        summary: c.summary,
         link: `wars/${c.id}`,
       };
     }),

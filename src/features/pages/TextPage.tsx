@@ -1,5 +1,6 @@
 import type { Locale } from "@/lib/types";
 import { getMessages } from "@/i18n";
+import { pageAlternates } from "@/i18n/alternates";
 import { REPO_URL } from "@/data/links";
 import { ExternalIcon } from "@/components/ui/icons";
 
@@ -19,7 +20,7 @@ function content(locale: Locale, kind: TextPageKind) {
       body: p.privacyBody,
       // AdSense 정책: 맞춤 광고 끄기와 Google의 파트너 사이트 정보 사용 안내 링크
       links: [
-        { label: p.privacyAdsSettings, href: "https://adssettings.google.com" },
+        { label: p.privacyAdsSettings, href: "https://myadcenter.google.com" },
         {
           label: p.privacyPartnerSites,
           href: "https://policies.google.com/technologies/partner-sites",
@@ -87,5 +88,10 @@ export function TextPage({
 export function textPageMetadata(locale: Locale, kind: TextPageKind) {
   const m = getMessages(locale);
   const { title, body } = content(locale, kind);
-  return { title: `${title} — ${m.siteName}`, description: body[0] };
+  return {
+    // "About History Map World — History Map World"처럼 사이트 이름이 두 번 나오지 않게
+    title: title.includes(m.siteName) ? title : `${title} — ${m.siteName}`,
+    description: body[0],
+    alternates: pageAlternates(locale, kind),
+  };
 }

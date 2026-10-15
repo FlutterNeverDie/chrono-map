@@ -134,6 +134,6 @@ links: 12
 
 @ siege-of-kars
 wikipedia: Siege of Kars
-when: 1855-11
+when: 1855-06 ~ 1855-11
 coords: 43.09, 40.61
 links: 16

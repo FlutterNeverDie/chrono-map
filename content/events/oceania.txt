@@ -115,6 +115,7 @@ coords: 147.0, -42.9
 category: exploration
 importance: 3
 title.ko: 태즈먼의 태즈메이니아·뉴질랜드 발견
+title.en: Tasman reaches Tasmania and New Zealand
 
 @ first-fleet
 wikipedia: First Fleet

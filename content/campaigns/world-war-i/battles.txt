@@ -182,7 +182,7 @@ links: 38
 
 @ gallipoli-campaign
 wikipedia: Gallipoli campaign
-when: 1915-04 ~ 1916-01
+when: 1915-02 ~ 1916-01
 coords: 26.28, 40.24
 links: 75
 
@@ -336,22 +336,10 @@ when: 1918-09
 coords: 34.88, 32.4
 links: 23
 
-@ battle-of-kruty
-wikipedia: Battle of Kruty
-when: 1918-01
-coords: 32.15, 51.08
-links: 22
-
 @ operation-michael
 wikipedia: Operation Michael
 when: 1918-03 ~ 1918-04
 coords: 3.28, 49.85
-links: 21
-
-@ battle-of-tampere
-wikipedia: Battle of Tampere
-when: 1918-03 ~ 1918-04
-coords: 23.75, 61.5
 links: 21
 
 @ german-spring-offensive

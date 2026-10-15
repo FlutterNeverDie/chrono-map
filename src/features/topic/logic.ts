@@ -107,7 +107,7 @@ export const itemTitle = (i: TopicItem, locale: Locale) =>
   i.wiki.en?.title ??
   i.wikipedia;
 
-/** 항목 설명: 그 언어 위키백과 → 직접 쓴 설명 → 영어 위키백과 (page가 있으면 출처 표기) */
+/** 항목 설명: 그 언어 위키백과 → 직접 쓴 설명 → 영어 위키백과 → 직접 쓴 영어·한국어 (page가 있으면 출처 표기) */
 export function itemSummary(i: TopicItem, locale: Locale) {
   const own = i.wiki[locale];
   if (own) return { text: own.extract, page: own, lang: locale };
@@ -115,6 +115,8 @@ export function itemSummary(i: TopicItem, locale: Locale) {
   if (written) return { text: written, page: undefined, lang: locale };
   if (i.wiki.en)
     return { text: i.wiki.en.extract, page: i.wiki.en, lang: "en" as Locale };
+  if (i.summary?.en) return { text: i.summary.en, page: undefined, lang: "en" as Locale };
+  if (i.summary?.ko) return { text: i.summary.ko, page: undefined, lang: "ko" as Locale };
   return { text: "", page: undefined, lang: locale };
 }
 

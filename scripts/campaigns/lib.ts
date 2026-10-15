@@ -25,6 +25,9 @@ export type Theme = {
   search: { west: number; east: number; south: number; north: number };
   minLinks: number;
   sides: Partial<Record<"a" | "b", Partial<Record<Locale, string>>>>;
+  /** 직접 쓴 전쟁 이름·설명(theme.txt의 title.<언어>, summary.<언어>). summary가 있는 언어는 위키백과 요약 대신 쓴다 */
+  title: Partial<Record<Locale, string>>;
+  summary: Partial<Record<Locale, string>>;
 };
 
 export const listCampaigns = () =>
@@ -73,6 +76,8 @@ export function readTheme(id: string): Theme {
     }
   const start = toTime(a, unit, "start");
   const end = toTime(b, unit, "end");
+  const localized = (prefix: string) =>
+    Object.fromEntries(LOCALES.filter((l) => kv.get(`${prefix}.${l}`)).map((l) => [l, kv.get(`${prefix}.${l}`)!]));
   return {
     id,
     wikipedia: need("wikipedia"),
@@ -87,28 +92,50 @@ export function readTheme(id: string): Theme {
     search: { west, east, south, north },
     minLinks: Number(kv.get("min-links") ?? 5),
     sides,
+    title: localized("title"),
+    summary: localized("summary"),
   };
 }
 
 export type BattleSource = {
   id: string;
-  wikipedia: string;
+  /** 맞는 위키백과 문서가 없으면 없음 → title·summary(직접 쓴 글)를 쓴다 */
+  wikipedia?: string;
   start: number;
   end: number;
   coords: [number, number];
   links: number;
+  /** 직접 쓴 전투 이름·설명(title.<언어>, summary.<언어>): 맞는 위키백과 문서가 없을 때 */
+  title: Partial<Record<Locale, string>>;
+  summary: Partial<Record<Locale, string>>;
 };
 
 /**
- * battles.txt(자동 생성) + extra-battles.txt(직접 추가, 자동 생성이 덮어쓰지 않음).
+ * exclude-battles.txt: 다른 전쟁의 전투라 빼는 목록(한 줄에 하나, 위키백과 문서 제목 또는 전투 id, # 뒤는 메모).
+ * battles.txt를 Wikidata에서 다시 만들어도(`--list`) 이 목록은 남아 다시 빠진다.
+ */
+export function readExcluded(id: string): Set<string> {
+  const file = `${dirOf(id)}/exclude-battles.txt`;
+  if (!existsSync(file)) return new Set();
+  return new Set(
+    readFileSync(file, "utf8")
+      .split("\n")
+      .map((l) => l.replace(/#.*/, "").trim())
+      .filter(Boolean),
+  );
+}
+
+/**
+ * battles.txt(자동 생성) + extra-battles.txt(직접 추가, 자동 생성이 덮어쓰지 않음) − exclude-battles.txt.
  * 같은 위키백과 문서가 두 파일에 있으면 extra 쪽을 쓴다.
  */
 export function readBattles(id: string, unit: Unit): BattleSource[] {
   const extra = parseBattles(id, "extra-battles.txt", unit);
-  const titles = new Set(extra.map((b) => b.wikipedia));
-  return [...parseBattles(id, "battles.txt", unit).filter((b) => !titles.has(b.wikipedia)), ...extra].sort(
-    (a, b) => a.start - b.start,
-  );
+  const titles = new Set(extra.map((b) => b.wikipedia).filter(Boolean));
+  const excluded = readExcluded(id);
+  return [...parseBattles(id, "battles.txt", unit).filter((b) => !b.wikipedia || !titles.has(b.wikipedia)), ...extra]
+    .filter((b) => !excluded.has(b.id) && !(b.wikipedia && excluded.has(b.wikipedia)))
+    .sort((a, b) => a.start - b.start);
 }
 
 function parseBattles(id: string, name: string, unit: Unit): BattleSource[] {
@@ -123,16 +150,24 @@ function parseBattles(id: string, name: string, unit: Unit): BattleSource[] {
     const bid = head.slice(1).trim();
     const [a, b = a] = (get("when") ?? "").split("~").map((s) => s.trim());
     const [lon, lat] = (get("coords") ?? "").split(",").map(Number);
-    if (!get("wikipedia") || !a || Number.isNaN(lon))
-      throw new Error(`content/campaigns/${id}/${name} [${bid}] wikipedia·when·coords 필요`);
+    const localized = (prefix: string) =>
+      Object.fromEntries(LOCALES.filter((l) => get(`${prefix}.${l}`)).map((l) => [l, get(`${prefix}.${l}`)!]));
+    const title = localized("title");
+    const summary = localized("summary");
+    if ((!get("wikipedia") && !(title.ko && summary.ko)) || !a || Number.isNaN(lon))
+      throw new Error(
+        `content/campaigns/${id}/${name} [${bid}] when·coords와 wikipedia(없으면 title.ko·summary.ko) 필요`,
+      );
     const start = toTime(a, unit, "start");
     out.push({
       id: bid,
-      wikipedia: get("wikipedia")!,
+      wikipedia: get("wikipedia") || undefined,
       start,
       end: Math.max(start, toTime(b, unit, "end")),
       coords: [lon, lat],
       links: Number(get("links") ?? 0),
+      title,
+      summary,
     });
   }
   return out;
