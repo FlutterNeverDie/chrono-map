@@ -278,12 +278,22 @@ export function applyRenames(features, labels) {
   for (const fix of POLITY_FIXES.rename) {
     const from = fix.from ?? -Infinity;
     const until = fix.until ?? Infinity;
+    // Wikidata ID도 바꾼 나라의 것으로 - 원본 ID가 남으면 색(w)과 이름 찾기가 옛 나라를 따라간다.
+    // 원본에 같은 이름의 나라가 있으면 그 ID(이어지는 한나라·연합왕국과 같은 색), 없으면 비워 위키백과 문서로 찾게 한다
+    const wikidata =
+      features.find((f) => f.properties.Name === fix.to)?.properties.Wikidata ??
+      "";
     const n = features.length;
     for (let i = 0; i < n; i++) {
       const p = features[i].properties;
       if (p.Name !== fix.name || p.ToYear < from || p.FromYear >= until)
         continue;
-      const renamed = { ...p, Name: fix.to, Wikipedia: fix.wikipedia };
+      const renamed = {
+        ...p,
+        Name: fix.to,
+        Wikipedia: fix.wikipedia,
+        Wikidata: wikidata,
+      };
       // 기간 앞·뒤로 남는 부분은 원래 이름 그대로 새 도형으로
       const parts = [];
       if (p.FromYear < from) parts.push({ ...p, ToYear: Math.ceil(from) - 1 });
@@ -361,9 +371,26 @@ const polygonsOf = (g) =>
  * 도형을 다각형 안·밖으로 나눈다(mapshaper -clip / -erase). 다각형의 경위도 범위에 걸치는 조각만 mapshaper에 넘기고
  * 나머지 조각은 손대지 않는다. 같은 도형이 여러 해에 반복되니 결과를 기억한다.
  */
+// 열쇠는 도형의 짧은 지문(꼭짓점 수·좌표 합) + 자르는 다각형 번호. 도형 전체를 문자열로 만들면 해마다 수 MB씩 쌓인다
+// (도형 객체는 스냅샷마다 새로 만들어지므로 객체 참조로는 열쇠를 삼을 수 없다)
 const cutCache = new Map();
+const clipIds = new Map();
+function fingerprint(geometry) {
+  let n = 0;
+  let sx = 0;
+  let sy = 0;
+  for (const rings of polygonsOf(geometry))
+    for (const ring of rings)
+      for (const [x, y] of ring) {
+        n++;
+        sx += x;
+        sy += y;
+      }
+  return `${n}:${sx.toFixed(6)}:${sy.toFixed(6)}`;
+}
 async function cut(geometry, clip) {
-  const key = JSON.stringify([clip, geometry]);
+  if (!clipIds.has(clip)) clipIds.set(clip, clipIds.size);
+  const key = `${clipIds.get(clip)}|${fingerprint(geometry)}`;
   if (cutCache.has(key)) return cutCache.get(key);
   const xs = clip[0].map((c) => c[0]);
   const ys = clip[0].map((c) => c[1]);

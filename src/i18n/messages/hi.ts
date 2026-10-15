@@ -29,6 +29,11 @@ export const hi: Messages = {
     openMap: "युद्ध मानचित्र देखें",
     polityColors: "राज्य के अनुसार रंग",
   },
+  notFound: {
+    title: "पेज नहीं मिला",
+    body: "आप जो पेज खोज रहे हैं वह मौजूद नहीं है।",
+    home: "मुखपृष्ठ",
+  },
   pages: {
     report: "कोई गलती दिखी? हमें बताएँ",
     backToMap: "मानचित्र पर देखें",

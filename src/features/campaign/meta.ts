@@ -11,7 +11,7 @@ export function campaignMetadata(locale: Locale, id: string) {
   if (!c) return {};
   const m = getMessages(locale);
   const title = campaignTitle(c, locale);
-  const extract = campaignSummary(c, locale)?.text || m.wars.indexDescription;
+  const extract = campaignSummary(c, locale).text || m.wars.indexDescription;
   return {
     title: `${title} (${formatRange(c.start, c.end, c.unit, locale)}) — ${m.wars.tab} · ${m.siteName}`,
     description: clipText(extract),

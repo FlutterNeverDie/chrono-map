@@ -27,6 +27,11 @@ export const ko = {
     openMap: "전쟁 지도로 보기",
     polityColors: "나라별 색",
   },
+  notFound: {
+    title: "페이지를 찾을 수 없습니다",
+    body: "찾으시는 페이지가 없습니다.",
+    home: "세계사 지도 첫 화면으로",
+  },
   pages: {
     report: "내용이 틀렸나요? 알려 주세요",
     backToMap: "지도에서 보기",

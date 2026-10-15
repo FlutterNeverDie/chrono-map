@@ -29,6 +29,11 @@ export const ar: Messages = {
     openMap: "عرض خريطة الحرب",
     polityColors: "ألوان حسب الدولة",
   },
+  notFound: {
+    title: "الصفحة غير موجودة",
+    body: "الصفحة التي تبحث عنها غير موجودة.",
+    home: "الصفحة الرئيسية",
+  },
   pages: {
     report: "هل وجدت خطأ؟ أخبرنا",
     backToMap: "عرض على الخريطة",

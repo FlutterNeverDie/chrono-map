@@ -1,14 +1,8 @@
 // content/campaigns → src/data/generated/campaigns.json (네트워크 없음, dev/build 전에 자동)
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
-import type { Locale } from "../../src/lib/types";
 import { root } from "../lib/content";
-import { tidyPages } from "../lib/wikipedia";
+import { tidyPages, withoutOwn } from "../lib/wikipedia";
 import { dirOf, listCampaigns, readBattles, readSides, readTheme } from "./lib";
-
-/** 직접 쓴 설명(summary.<언어>)이 있는 언어의 위키백과 요약을 뺀다 → 화면은 직접 쓴 글을, 출처 표기 없이 보여 준다 */
-function withoutOwn<T>(pages: Partial<Record<Locale, T>>, own: Partial<Record<Locale, string>>) {
-  return Object.fromEntries(Object.entries(pages).filter(([l]) => !own[l as Locale])) as Partial<Record<Locale, T>>;
-}
 
 const campaigns = listCampaigns().map((id) => {
   const theme = readTheme(id);
@@ -18,17 +12,17 @@ const campaigns = listCampaigns().map((id) => {
     .filter((b) => b.end >= theme.start && b.start <= theme.end)
     // 위키백과 문서가 없는 전투(직접 쓴 title·summary만)는 wiki가 비어 출처 표기도 붙지 않는다.
     // summary.<언어>를 직접 쓴 언어는 그 언어 위키백과 요약을 쓰지 않는다(예: 영어 문서가 요새 문서로 넘어감)
-    .map((b) => ({ ...b, wiki: withoutOwn(b.wikipedia ? tidyPages(wiki[b.wikipedia]?.pages ?? {}) : {}, b.summary) }));
+    .map((b) => ({ ...b, ...withoutOwn(b.wikipedia ? tidyPages(wiki[b.wikipedia]?.pages ?? {}) : {}, b.summary, b.title) }));
   const borderYears: number[] = [];
   for (let y = theme.startYear; y <= theme.endYear; y += theme.bordersStep) borderYears.push(y === 0 ? 1 : y);
   if (borderYears.at(-1) !== theme.endYear) borderYears.push(theme.endYear);
   const missing = battles.filter((b) => b.wikipedia && !wiki[b.wikipedia]).length;
   // theme.txt에 summary.<언어>를 직접 쓴 언어는 그 언어 위키백과 요약을 쓰지 않는다(예: 영어 문서가 동음이의어 문서)
-  const warWiki = withoutOwn(tidyPages(wiki[theme.wikipedia]?.pages ?? {}), theme.summary);
+  const war = withoutOwn(tidyPages(wiki[theme.wikipedia]?.pages ?? {}), theme.summary, theme.title);
   console.log(`  ${id}: 전투 ${battles.length}건${missing ? ` (요약 없음 ${missing} → npm run wars:fetch)` : ""}`);
   return {
     ...theme,
-    wiki: warWiki,
+    ...war,
     battles,
     sideRules: readSides(id, theme.unit),
     borderYears,

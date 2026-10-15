@@ -138,7 +138,7 @@ mkdirSync(`${OUT}/names`, { recursive: true });
 
 const years = snapshotYears();
 let totalBytes = 0;
-for (const year of years) {
+for (const [k, year] of years.entries()) {
   const active = [];
   features.forEach((f, i) => {
     const p = f.properties;
@@ -159,8 +159,10 @@ for (const year of years) {
       },
     });
   });
-  // 스냅샷 y는 화면에서 y년 한 해(다음 스냅샷 전까지)를 대표 → 그해 말 기준으로 고친다
-  await applySnapshotFixes(active, year + 0.99, (n) => wikidataOfName.get(n));
+  // 스냅샷 y는 화면에서 다음 스냅샷 전까지(1900년 이후 2년, 그 전 5~100년)를 대표한다 → 그 기간의 마지막 시점 기준으로 고친다.
+  // 전쟁 지도(scripts/campaigns/borders.ts)도 "그 스냅샷이 화면에 쓰이는 마지막 시점" 기준이라 두 지도의 결과가 같다
+  const shownUntil = (years[k + 1] ?? year + 1) - 0.01;
+  await applySnapshotFixes(active, shownUntil, (n) => wikidataOfName.get(n));
   const topo = quantize(
     topology({ p: { type: "FeatureCollection", features: active } }),
     1e5,

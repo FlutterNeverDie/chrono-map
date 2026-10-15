@@ -29,6 +29,11 @@ export const fr: Messages = {
     openMap: "Voir la carte de la guerre",
     polityColors: "Couleurs par État",
   },
+  notFound: {
+    title: "Page introuvable",
+    body: "La page que vous cherchez n'existe pas.",
+    home: "Accueil",
+  },
   pages: {
     report: "Une erreur ? Signalez-la",
     backToMap: "Voir sur la carte",

@@ -28,6 +28,11 @@ export const zh: Messages = {
     openMap: "查看战争地图",
     polityColors: "按国家着色",
   },
+  notFound: {
+    title: "找不到页面",
+    body: "您要查找的页面不存在。",
+    home: "返回首页",
+  },
   pages: {
     report: "发现错误？请告诉我们",
     backToMap: "在地图上查看",

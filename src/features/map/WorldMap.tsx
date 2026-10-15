@@ -277,31 +277,33 @@ export function WorldMap() {
   // 나라가 적은 시대(고대 초기 등)는 작은 나라도 이름을 모두 보여준다
   const labeled = useMemo(() => {
     const minArea = polities.length <= 30 ? 0 : LABEL_MIN_AREA / (zoom * zoom);
-    return (
-      polities
-        .filter(
-          (p) =>
-            p.properties.l &&
-            (p.properties.a >= minArea || p.properties.n === selectedPolity),
-        )
-        // 넓이가 같으면(원본의 겹친 층) 괄호 없는 이름을 먼저 — "(Carolingian Empire)"보다 "Kingdom of the Franks"
-        .sort(
-          (a, b) =>
-            b.properties.a - a.properties.a ||
-            Number(a.properties.n.startsWith("(")) -
-              Number(b.properties.n.startsWith("(")),
-        )
-        // 최대 개수는 이름 수로 센다 - 한 나라가 여러 조각·겹친 층(식민지, "(British Empire)" 등)이면
-        // 조각마다 한 자리씩 차지해 영국 같은 큰 나라 이름이 밀려나던 문제
-        .filter(
-          (
-            (names) => (p) =>
-              names.has(p.properties.n) ||
-              (names.size < Math.round(MAX_LABELS * zoom) &&
-                !!names.add(p.properties.n))
-          )(new Set<string>()),
-        )
-    );
+    const sorted = polities
+      .filter(
+        (p) =>
+          p.properties.l &&
+          (p.properties.a >= minArea || p.properties.n === selectedPolity),
+      )
+      // 넓이가 같으면(원본의 겹친 층) 괄호 없는 이름을 먼저 — "(Carolingian Empire)"보다 "Kingdom of the Franks"
+      .sort(
+        (a, b) =>
+          b.properties.a - a.properties.a ||
+          Number(a.properties.n.startsWith("(")) -
+            Number(b.properties.n.startsWith("(")),
+      );
+    // 최대 개수는 조각 수가 아니라 이름 수로 센다 - 한 나라가 여러 조각·겹친 층(식민지, "(British Empire)" 등)이면
+    // 조각마다 한 자리씩 차지해 영국 같은 큰 나라 이름이 밀려나던 문제
+    const limit = Math.round(MAX_LABELS * zoom);
+    const names = new Set<string>();
+    const out: typeof sorted = [];
+    for (const p of sorted) {
+      // 선택한 나라는 개수와 상관없이 항상 이름을 단다
+      if (!names.has(p.properties.n) && p.properties.n !== selectedPolity) {
+        if (names.size >= limit) continue;
+        names.add(p.properties.n);
+      }
+      out.push(p);
+    }
+    return out;
   }, [polities, zoom, selectedPolity]);
 
   // 글자·핀은 확대해도 화면에서 거의 같은 크기로 (지도 좌표 ÷ 배율)

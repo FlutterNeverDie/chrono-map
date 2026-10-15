@@ -2,7 +2,7 @@
 import { existsSync, readdirSync, readFileSync } from "node:fs";
 import { LOCALES } from "../../src/i18n/locales";
 import type { Locale } from "../../src/lib/types";
-import { root } from "../lib/content";
+import { localizedFields, root } from "../lib/content";
 
 export const CAMPAIGNS_DIR = root("content/campaigns");
 export const dirOf = (id: string) => `${CAMPAIGNS_DIR}/${id}`;
@@ -76,8 +76,7 @@ export function readTheme(id: string): Theme {
     }
   const start = toTime(a, unit, "start");
   const end = toTime(b, unit, "end");
-  const localized = (prefix: string) =>
-    Object.fromEntries(LOCALES.filter((l) => kv.get(`${prefix}.${l}`)).map((l) => [l, kv.get(`${prefix}.${l}`)!]));
+  const localized = (prefix: string) => localizedFields((k) => kv.get(k), prefix);
   return {
     id,
     wikipedia: need("wikipedia"),
@@ -150,8 +149,7 @@ function parseBattles(id: string, name: string, unit: Unit): BattleSource[] {
     const bid = head.slice(1).trim();
     const [a, b = a] = (get("when") ?? "").split("~").map((s) => s.trim());
     const [lon, lat] = (get("coords") ?? "").split(",").map(Number);
-    const localized = (prefix: string) =>
-      Object.fromEntries(LOCALES.filter((l) => get(`${prefix}.${l}`)).map((l) => [l, get(`${prefix}.${l}`)!]));
+    const localized = (prefix: string) => localizedFields(get, prefix);
     const title = localized("title");
     const summary = localized("summary");
     if ((!get("wikipedia") && !(title.ko && summary.ko)) || !a || Number.isNaN(lon))

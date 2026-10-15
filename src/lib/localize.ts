@@ -5,34 +5,52 @@ export function pick(text: LocalizedText, locale: Locale): string {
   return text[locale] ?? text.en ?? text.ko ?? "";
 }
 
-/** 사건 제목: 직접 쓴 제목 → 그 언어 위키백과 문서 제목 → 영어/한국어 대체 */
-export function eventTitle(e: HistoryEvent, locale: Locale): string {
+type Wiki = Partial<Record<Locale, WikiPage>>;
+
+/**
+ * 이름(사건·전쟁·전투·주제 지도 항목 공통): 직접 쓴 이름(그 언어) → 그 언어 위키백과 → 직접 쓴 영어 → 영어 위키백과 → 직접 쓴 한국어.
+ * 모두 없으면 undefined(호출부가 문서 제목·id로 대신한다).
+ */
+export function localizedTitle(
+  own: LocalizedText | undefined,
+  wiki: Wiki,
+  locale: Locale,
+): string | undefined {
   return (
-    e.title[locale] ??
-    e.wiki[locale]?.title ??
-    e.title.en ??
-    e.wiki.en?.title ??
-    e.title.ko ??
-    e.id
+    own?.[locale] ??
+    wiki[locale]?.title ??
+    own?.en ??
+    wiki.en?.title ??
+    own?.ko
   );
 }
 
 /**
- * 사건 설명: 그 언어 위키백과 요약 → 직접 쓴 요약 → 영어 위키백과 요약 → 대체.
+ * 설명(공통): 그 언어 위키백과 → 직접 쓴 설명(그 언어) → 영어 위키백과 → 직접 쓴 영어 → 직접 쓴 한국어.
  * `page`가 있으면 위키백과 원문이므로 화면에 출처(문서 링크, CC BY-SA 4.0)를 함께 보여야 한다.
+ * 직접 쓴 글을 위키백과보다 먼저 보여 주려면 빌드에서 그 언어 위키 요약을 뺀다(scripts/lib/wikipedia의 withoutOwn - 전쟁·주제 지도만).
  */
-export function eventSummary(
-  e: HistoryEvent,
+export function localizedSummary(
+  own: LocalizedText | undefined,
+  wiki: Wiki,
   locale: Locale,
 ): { text: string; page?: WikiPage; lang: Locale } {
-  const own = e.wiki[locale];
-  if (own) return { text: own.extract, page: own, lang: locale };
-  if (e.summary[locale]) return { text: e.summary[locale]!, lang: locale };
-  if (e.wiki.en)
-    return { text: e.wiki.en.extract, page: e.wiki.en, lang: "en" };
-  if (e.summary.en) return { text: e.summary.en, lang: "en" };
-  return { text: e.summary.ko ?? "", lang: "ko" };
+  if (wiki[locale])
+    return { text: wiki[locale].extract, page: wiki[locale], lang: locale };
+  if (own?.[locale]) return { text: own[locale], lang: locale };
+  if (wiki.en) return { text: wiki.en.extract, page: wiki.en, lang: "en" };
+  if (own?.en) return { text: own.en, lang: "en" };
+  if (own?.ko) return { text: own.ko, lang: "ko" };
+  return { text: "", lang: locale };
 }
+
+/** 사건 제목: 직접 쓴 제목 → 그 언어 위키백과 문서 제목 → 영어/한국어 대체 */
+export const eventTitle = (e: HistoryEvent, locale: Locale): string =>
+  localizedTitle(e.title, e.wiki, locale) ?? e.id;
+
+/** 사건 설명 (localizedSummary) */
+export const eventSummary = (e: HistoryEvent, locale: Locale) =>
+  localizedSummary(e.summary, e.wiki, locale);
 
 /**
  * 언어별 값에서 그 언어와 대체용 언어만 남긴다 — 브라우저로 보내는 데이터를 줄일 때.
@@ -69,17 +87,25 @@ export function localizeEvent(e: HistoryEvent, locale: Locale): HistoryEvent {
 
 /**
  * 검색·공유 미리보기 설명(약 160자): 문장 끝에서 끊을 수 있으면 거기서, 아니면 단어 사이에서 자르고 "…".
- * 띄어쓰기 없는 언어(중국어)는 글자 수로 자른다.
+ * 문장 끝 = 마침표·물음표·느낌표 뒤 공백 다음에 대문자나 대소문자 없는 글자(한글·아랍 문자·데바나가리 등)가 오는 곳
+ * ("a.m. on"처럼 소문자가 오면 문장 끝이 아님), 또는 。।؟. 띄어쓰기 없는 언어(중국어)는 글자 수로 자른다.
  */
 export function clipText(text: string, max = 160): string {
   const s = text.replace(/\s+/g, " ").trim();
   if (s.length <= max) return s;
-  const head = s.slice(0, max - 1);
-  // 문장 끝: 마침표 뒤에 대문자로 시작하는 다음 문장("a.m. on"은 아님), 또는 。।؟
+  // 문장 끝 기호가 max 안에 있으면 되고, 다음 문장 첫 글자 확인은 max 뒤까지 본다
   let sentence = -1;
-  for (const m of s.slice(0, max + 1).matchAll(/[.!?](?=\s+["“(]?\p{Lu})|[。।؟]/gu))
-    if (m.index < max) sentence = m.index + 1;
-  if (sentence >= max * 0.6) return head.slice(0, sentence);
+  for (const m of s.matchAll(/[.!?](?=\s+["“(]?[\p{Lu}\p{Lo}])|[。।؟]/gu)) {
+    if (m.index >= max) break;
+    sentence = m.index + 1;
+  }
+  if (sentence >= max * 0.6) return s.slice(0, sentence);
+  const head = s.slice(0, max - 1);
   const space = head.lastIndexOf(" ");
-  return (space >= max * 0.6 ? head.slice(0, space) : head).replace(/[\s,;:、，]+$/, "") + "…";
+  return (
+    (space >= max * 0.6 ? head.slice(0, space) : head).replace(
+      /[\s,;:、，]+$/,
+      "",
+    ) + "…"
+  );
 }

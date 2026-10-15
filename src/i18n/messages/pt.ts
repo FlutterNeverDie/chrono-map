@@ -29,6 +29,11 @@ export const pt: Messages = {
     openMap: "Ver mapa da guerra",
     polityColors: "Cores por Estado",
   },
+  notFound: {
+    title: "Página não encontrada",
+    body: "A página que você procura não existe.",
+    home: "Início",
+  },
   pages: {
     report: "Viu um erro? Avise-nos",
     backToMap: "Ver no mapa",

@@ -29,6 +29,11 @@ export const en: Messages = {
     openMap: "Open war map",
     polityColors: "Colors by country",
   },
+  notFound: {
+    title: "Page not found",
+    body: "The page you are looking for does not exist.",
+    home: "Home",
+  },
   pages: {
     report: "Spotted a mistake? Let us know",
     backToMap: "View on the map",

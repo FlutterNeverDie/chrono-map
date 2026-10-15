@@ -8,7 +8,7 @@
 - `types.ts`: Campaign·Battle·SideRule. 시간값 t는 unit이 month면 월 번호(연×12+월−1), year면 연도.
 - `data.ts`: 생성된 campaigns.json — **서버(페이지)에서만 import**. 클라이언트에는 그 페이지의 전쟁 하나만 props로 넘긴다(번들 크기).
 - `logic.ts`: 순수 함수 — `sideOf`, `battlesAt`(연 단위면 앞뒤 1년 포함), `formatTime`(월은 Intl, 연은 lib/year), `tickYears`,
-  `campaignTitle`·`campaignSummary`·`battleTitle`·`battleSummary`(이름: 직접 쓴 title → 위키백과 → 영어, 설명: 그 언어 위키백과 → 직접 쓴 summary → 영어 위키백과 → 직접 쓴 영어·한국어. `page`가 있을 때만 위키백과 출처 표기).
+  `campaignTitle`·`campaignSummary`·`battleTitle`·`battleSummary`(대체 순서는 `lib/localize`의 `localizedTitle`·`localizedSummary`. 직접 쓴 summary가 있는 언어는 빌드에서 위키 요약을 빼므로(`withoutOwn`) 직접 쓴 글이 나온다. `page`가 있을 때만 위키백과 출처 표기).
   직접 쓴 summary가 있는 언어의 위키백과 요약은 빌드(scripts/campaigns/build.ts)에서 이미 빠져 있고, `wikipedia`가 없는 전투는 wiki가 비어 있다.
 - `store.tsx`: `CampaignProvider`(전쟁 데이터 + 페이지 전용 zustand 상태: 시점 t, 선택 전투, 패널, 지도 이동 요청).
 - `CampaignMap.tsx`: 진영 색(진영 없으면 나라별 색) 영토, 해안선으로 자름, 전투 표시, 끌기·휠·두 번 클릭 확대, 전투 목록에서 고르면 그 전투로 이동(패널에 가리지 않게).

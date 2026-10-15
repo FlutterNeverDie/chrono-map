@@ -9,11 +9,22 @@ import { CATEGORIES } from "../../src/data/categories";
 import { LOCALES } from "../../src/i18n/locales";
 import type {
   HistoryEvent,
+  Locale,
   Precision,
   Rankings,
   RegionId,
   ViewpointId,
 } from "../../src/lib/types";
+
+/** `title.ko`·`title.en` … 처럼 언어별로 적은 값을 { ko, en … }로 모은다(값이 있는 언어만) */
+export function localizedFields(
+  get: (key: string) => string | undefined,
+  prefix: string,
+): Partial<Record<Locale, string>> {
+  return Object.fromEntries(
+    LOCALES.filter((l) => get(`${prefix}.${l}`)).map((l) => [l, get(`${prefix}.${l}`)!]),
+  );
+}
 
 export const root = (p: string) =>
   fileURLToPath(new URL(`../../${p}`, import.meta.url));

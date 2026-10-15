@@ -1,6 +1,6 @@
 import type { Locale } from "@/lib/types";
-import { pick } from "@/lib/localize";
-import { formatYear } from "@/lib/year";
+import { localizedSummary, localizedTitle, pick } from "@/lib/localize";
+import { formatYear, formatYearRange } from "@/lib/year";
 import type { Topic, TopicItem } from "./types";
 
 export const MAX_POS = 1000;
@@ -94,31 +94,24 @@ export function formatItemWhen(
   const sameYear =
     yearOf(i.start) === yearOf(i.end) && topic.showMonthFrom === null;
   if (topic.mode === "persist" || i.start === i.end || sameYear) return a;
+  const [ya, yb] = [yearOf(i.start), yearOf(i.end)];
+  const yearsOnly = (y: number) =>
+    (topic.showMonthFrom === null || y < topic.showMonthFrom) &&
+    Math.abs(y) < 10_000;
+  // 연도로만 보이는 기간은 사건·전쟁과 같은 표기("AD 541–549")
+  if (yearsOnly(ya) && yearsOnly(yb))
+    return formatYearRange(ya, yb, locale, i.approx);
   return `${a} – ${formatT(i.end, topic, locale)}`;
 }
 
 export const topicTitle = (topic: Topic, locale: Locale) =>
   pick(topic.title, locale);
-/** 항목 제목: 직접 쓴 제목 → 그 언어 위키백과 → 영어 */
+/** 항목 제목·설명: 사건·전쟁과 같은 대체 순서(lib/localize) */
 export const itemTitle = (i: TopicItem, locale: Locale) =>
-  i.title?.[locale] ??
-  i.wiki[locale]?.title ??
-  i.title?.en ??
-  i.wiki.en?.title ??
-  i.wikipedia;
+  localizedTitle(i.title, i.wiki, locale) ?? i.wikipedia;
 
-/** 항목 설명: 그 언어 위키백과 → 직접 쓴 설명 → 영어 위키백과 → 직접 쓴 영어·한국어 (page가 있으면 출처 표기) */
-export function itemSummary(i: TopicItem, locale: Locale) {
-  const own = i.wiki[locale];
-  if (own) return { text: own.extract, page: own, lang: locale };
-  const written = i.summary?.[locale];
-  if (written) return { text: written, page: undefined, lang: locale };
-  if (i.wiki.en)
-    return { text: i.wiki.en.extract, page: i.wiki.en, lang: "en" as Locale };
-  if (i.summary?.en) return { text: i.summary.en, page: undefined, lang: "en" as Locale };
-  if (i.summary?.ko) return { text: i.summary.ko, page: undefined, lang: "ko" as Locale };
-  return { text: "", page: undefined, lang: locale };
-}
+export const itemSummary = (i: TopicItem, locale: Locale) =>
+  localizedSummary(i.summary, i.wiki, locale);
 
 /**
  * 슬라이더 위 항목 표식 자리. 위치는 슬라이더 위치값(0~MAX_POS).

@@ -1,8 +1,7 @@
 // 주제 지도(content/topics/<id>/) 읽기 — 크로노맵 본 데이터·전쟁 지도와 따로 둔다
 import { existsSync, readdirSync, readFileSync } from "node:fs";
-import { LOCALES } from "../../src/i18n/locales";
 import type { Locale } from "../../src/lib/types";
-import { root } from "../lib/content";
+import { localizedFields, root } from "../lib/content";
 
 export const TOPICS_DIR = root("content/topics");
 export const topicDir = (id: string) => `${TOPICS_DIR}/${id}`;
@@ -56,8 +55,7 @@ export function readTopic(id: string): Topic {
   const mode = need("mode");
   if (mode !== "span" && mode !== "persist") throw new Error(`${id}: mode는 span | persist`);
   const [lon, lat, zoom] = nums("view");
-  const localized = (prefix: string) =>
-    Object.fromEntries(LOCALES.filter((l) => kv.get(`${prefix}.${l}`)).map((l) => [l, kv.get(`${prefix}.${l}`)!]));
+  const localized = (prefix: string) => localizedFields((k) => kv.get(k), prefix);
   const title = localized("title");
   if (!title.ko) throw new Error(`${id}: title.ko 필요`);
   return {
@@ -117,10 +115,7 @@ export function readItems(id: string): ItemSource[] {
         return { t: toMonth(m![1]), coords: pair(m![2]) };
       })
       .sort((x, y) => x.t - y.t);
-    const localized = (prefix: string) =>
-      Object.fromEntries(
-        LOCALES.filter((l) => get(`${prefix}.${l}`)).map((l) => [l, get(`${prefix}.${l}`)!]),
-      );
+    const localized = (prefix: string) => localizedFields(get, prefix);
     const start = toMonth(a, "start");
     out.push({
       id: item,

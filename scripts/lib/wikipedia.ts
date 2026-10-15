@@ -44,13 +44,17 @@ export function tidyExtract(text: string, locale: string): string {
     )
     .replace(/\(\s*,\s*/g, "(")
     .replace(/,\s*,/g, ",");
-  // 여는 괄호가 지워지고 " ; 원어 표기)"만 남은 경우
-  s = s.replace(/ ; ([^();]*\))/, (m, rest: string, offset: number) => {
-    const before = s.slice(0, offset);
-    const open = (before.match(/\(/g) ?? []).length;
-    const close = (before.match(/\)/g) ?? []).length;
-    return open === close ? ` (${rest}` : m;
-  });
+  // 여는 괄호가 지워지고 " ; 원어 표기)"만 남은 경우 - 앞쪽 괄호 짝이 맞을 때만, 여러 군데면 모두
+  for (let from = 0; ; ) {
+    const m = / ; ([^();]*\))/.exec(s.slice(from));
+    if (!m) break;
+    const at = from + m.index;
+    const before = s.slice(0, at);
+    const balanced =
+      (before.match(/\(/g) ?? []).length === (before.match(/\)/g) ?? []).length;
+    if (balanced) s = `${before} (${m[1]}${s.slice(at + m[0].length)}`;
+    from = at + 2;
+  }
   // 영어: 괄호가 통째로 지워지고 남은 " ; " ("Sumaq Urqu ; is a mountain")
   if (locale === "en") s = s.replace(/ ; (?=[a-z])/g, " ");
   // 문장부호 앞 공백 (프랑스어는 ; : 앞에 띄어 쓰는 게 맞으므로 , . 만)
@@ -74,4 +78,27 @@ export function tidyPages(
       p && { ...p, extract: tidyExtract(p.extract, l) },
     ]),
   );
+}
+
+/**
+ * 직접 쓴 설명(summary.<언어>)이 있는 언어는 그 언어 위키백과 요약을 뺀다 → 화면은 그 언어에서 직접 쓴 글을 출처 표기 없이 보여 준다.
+ * 빼는 문서의 제목은 직접 쓴 제목(title.<언어>)이 없을 때 그 자리로 옮겨 둔다(요약만 맞지 않고 이름은 맞는 경우 - 힌두교 hi 등).
+ * 전쟁·전투·주제 지도 항목에 쓴다(위키 문서가 동음이의어·요새·인물 문서처럼 맞지 않을 때).
+ * 사건(content/events)은 쓰지 않는다 - 사건의 summary는 "그 언어 위키백과 문서가 없을 때"의 대체 설명이다.
+ */
+export function withoutOwn(
+  pages: Partial<Record<Locale, WikiPage>>,
+  summary: Partial<Record<Locale, string>> | undefined,
+  title: Partial<Record<Locale, string>> | undefined,
+): {
+  wiki: Partial<Record<Locale, WikiPage>>;
+  title: Partial<Record<Locale, string>>;
+} {
+  const wiki: Partial<Record<Locale, WikiPage>> = {};
+  const titles: Partial<Record<Locale, string>> = { ...title };
+  for (const [l, page] of Object.entries(pages) as [Locale, WikiPage][]) {
+    if (!summary?.[l]) wiki[l] = page;
+    else titles[l] ??= page.title;
+  }
+  return { wiki, title: titles };
 }

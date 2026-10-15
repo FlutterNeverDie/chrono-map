@@ -1,8 +1,7 @@
 // content/topics → src/data/generated/topics.json(지도 데이터) + topic-index.json(탭·목록용 작은 색인)
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
-import type { Locale } from "../../src/lib/types";
 import { root } from "../lib/content";
-import { tidyPages } from "../lib/wikipedia";
+import { tidyPages, withoutOwn } from "../lib/wikipedia";
 import { listTopics, readItems, readTopic, topicDir } from "./lib";
 
 const topics = listTopics()
@@ -12,11 +11,10 @@ const topics = listTopics()
     const wiki = existsSync(file) ? JSON.parse(readFileSync(file, "utf8")) : {};
     // summary.<언어>를 직접 쓴 언어는 그 언어 위키백과 요약을 빼서 직접 쓴 글을 출처 표기 없이 보여 준다
     // (예: 인물 문서밖에 없는 발명품). 제목은 title.<언어>가 언제나 먼저다
-    const items = readItems(id).map((i) => {
-      const pages = tidyPages(wiki[i.wikipedia]?.pages ?? {});
-      for (const l of Object.keys(i.summary) as Locale[]) delete pages[l];
-      return { ...i, wiki: pages };
-    });
+    const items = readItems(id).map((i) => ({
+      ...i,
+      ...withoutOwn(tidyPages(wiki[i.wikipedia]?.pages ?? {}), i.summary, i.title),
+    }));
     const missing = items.filter((i) => !wiki[i.wikipedia]).length;
     console.log(`  ${id}: 항목 ${items.length}건${missing ? ` (요약 없음 ${missing} → npm run topics:fetch)` : ""}`);
     return { ...topic, items };
