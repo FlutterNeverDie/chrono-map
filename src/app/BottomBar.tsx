@@ -18,6 +18,7 @@ import {
   GearIcon,
   MapIcon,
   SwordsIcon,
+  TempleIcon,
   VirusIcon,
 } from "@/components/ui/icons";
 
@@ -28,6 +29,7 @@ export type SiteSection = string;
 const MAP_ICONS: Record<string, typeof MapIcon> = {
   virus: VirusIcon,
   bulb: BulbIcon,
+  temple: TempleIcon,
   map: MapIcon,
 };
 

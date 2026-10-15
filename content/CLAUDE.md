@@ -8,7 +8,7 @@
 | `events/<지역id>.txt` | 사건. 파일 이름 = 지역 (korea, china, …) | `npm run content` (dev/build 때 자동) |
 | `rankings/<시점id>.txt` | 그 시점에서 중요한 사건 순서 | `npm run content` |
 | `campaigns/<전쟁>/` | 전쟁 지도(/wars) 설정·진영·전투 — `content/campaigns/CLAUDE.md` | `npm run wars:fetch`·`wars:borders`·`wars:build` |
-| `topics/<지도>/` | 주제 지도(/maps: 역병·발명 …) 설정·항목 — `content/topics/CLAUDE.md` | `npm run topics:fetch`·`topics:build` |
+| `topics/<지도>/` | 주제 지도(/maps: 역병·발명·종교 …) 설정·항목 — `content/topics/CLAUDE.md` | `npm run topics:fetch`·`topics:build` |
 | `polity-names/<언어>.txt` | 지도 위 나라 이름 수정·보충. 한 줄에 `원본 이름 = 번역` | `npm run borders` |
 | `polity-names/wikipedia.txt` | 원본이 엉뚱한 위키 문서(사건·인물·역사 문서)에 이어진 나라의 문서 바꾸기. 한 줄에 `원본 이름 = 영어 위키백과 문서 제목` → 8개 언어 이름이 그 문서에서 온다 | `npm run borders` |
 | `wikipedia.json` | **자동 생성, 직접 고치지 않음.** 사건별 위키백과 요약(8개 언어) | `npm run wiki`로 받음 → `npm run content`가 합침 |

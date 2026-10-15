@@ -370,3 +370,100 @@ coords: -118.44, 34.07
 category: science
 importance: 4
 title.ko: 아르파넷 (인터넷의 시작)
+
+@ hopewell-tradition
+wikipedia: Hopewell tradition
+when: 100
+precision: century
+coords: -83.0, 39.38
+category: economy
+importance: 2
+title.ko: 호프웰 교역망의 번영
+title.en: Hopewell exchange network
+place.ko: 오하이오강 유역
+summary.ko: 기원전 100년~기원후 500년 무렵 북아메리카 동부 삼림지대의 강가 마을들을 잇는 호프웰 교역망이 번영했다. 단일 사회가 아닌 여러 집단이 오대호에서 플로리다까지 이어진 교역로로 물자와 사상을 주고받았으며, 거대한 흙 둔덕(마운드)을 남겼다.
+
+@ teotihuacan
+wikipedia: Teotihuacan
+when: 200
+precision: century
+coords: -98.84, 19.69
+category: culture
+importance: 3
+title.ko: 테오티우아칸 대도시의 번영
+title.en: Height of Teotihuacan
+
+@ tikal-entrada-378
+wikipedia: Siyaj Kʼakʼ
+when: 378
+coords: -89.62, 17.22
+category: politics
+importance: 2
+title.ko: 테오티우아칸 세력의 티칼 장악
+title.en: Teotihuacan's intervention at Tikal
+place.ko: 티칼
+summary.ko: 378년 1월 테오티우아칸과 연결된 인물 시야흐 카크가 마야의 도시 티칼에 들어와 왕 착 톡 이착 1세가 죽고 새 왕조가 세워졌다. 마야 비문에 기록된 이 사건은 멕시코 중앙 고원과 마야 지역의 정치적 관계를 보여 준다.
+
+@ temple-of-the-inscriptions
+wikipedia: Temple of the Inscriptions
+when: 683
+precision: decade
+coords: -92.05, 17.48
+category: culture
+importance: 2
+title.ko: 팔렝케 비문의 신전 건립
+title.en: Temple of the Inscriptions at Palenque
+place.ko: 팔렝케
+summary.ko: 7세기 마야의 도시 팔렝케의 왕 파칼(683년 사망)의 무덤으로 지어진 계단식 피라미드 신전이다. 마야 왕조사를 담은 긴 상형문자 비문과, 1952년 발견된 파칼의 석관으로 유명하다.
+
+@ pueblo-bonito
+wikipedia: Pueblo Bonito
+when: 850
+precision: decade
+coords: -107.96, 36.06
+category: culture
+importance: 2
+title.ko: 차코 캐니언 푸에블로 보니토 건설
+title.en: Construction of Pueblo Bonito (Chaco Canyon)
+place.ko: 차코 캐니언
+
+@ chichen-itza
+wikipedia: Chichen Itza
+when: 900
+precision: century
+coords: -88.57, 20.68
+category: culture
+importance: 2
+title.ko: 치첸이트사의 번영
+title.en: Rise of Chichen Itza
+
+@ lanse-aux-meadows
+wikipedia: L'Anse aux Meadows
+when: 1021
+coords: -55.53, 51.6
+category: exploration
+importance: 3
+title.ko: 노르드인의 아메리카 정착 (랑스 오 메도즈)
+title.en: Norse settlement at L'Anse aux Meadows
+place.ko: 뉴펀들랜드
+
+@ cahokia
+wikipedia: Cahokia
+when: 1050
+precision: decade
+coords: -90.06, 38.65
+category: culture
+importance: 2
+title.ko: 미시시피 문화의 도시 카호키아 번영
+title.en: Rise of Cahokia
+
+@ dresden-codex
+wikipedia: Dresden Codex
+when: 1100
+precision: century
+coords: -88.6, 20.7
+category: science
+importance: 2
+title.ko: 마야 천문서 드레스덴 코덱스
+title.en: Dresden Codex, Maya astronomical book
+summary.ko: 11~12세기 무렵 유카탄의 치첸이트사 일대에서 만들어진 것으로 보이는 마야의 그림 문자 책이다. 금성의 주기표와 일식 예측표 등 정밀한 천문 계산을 담고 있어 마야 천문학과 문자 해독에 중요한 자료다.

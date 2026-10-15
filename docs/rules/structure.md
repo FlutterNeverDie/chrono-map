@@ -6,7 +6,7 @@
 content/               사람·AI가 편집하는 원본 데이터                       → content/CLAUDE.md
   events/ rankings/    본 지도 사건, 시점별 순서
   campaigns/<id>/      전쟁 지도 (설정·진영·전투)                         → content/campaigns/CLAUDE.md
-  topics/<id>/         주제 지도 (역병·발명 … N개)                        → content/topics/CLAUDE.md
+  topics/<id>/         주제 지도 (역병·발명·종교 … N개)                     → content/topics/CLAUDE.md
   polity-names/        지도 나라 이름 수정(언어별)
 public/                생성된 정적 데이터 (git에 올림)
   borders/ campaigns/  연도별 국경 스냅샷, 언어별 나라 이름

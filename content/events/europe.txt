@@ -1006,3 +1006,166 @@ coords: 5.69, 50.85
 category: politics
 importance: 4
 title.ko: 마스트리흐트 조약 (유럽 연합 출범)
+
+@ stonehenge
+wikipedia: Stonehenge
+when: -2500
+precision: century
+coords: -1.83, 51.18
+category: culture
+importance: 3
+title.ko: 스톤헨지 거석 축조
+title.en: Construction of Stonehenge
+
+@ knossos-palace
+wikipedia: Knossos
+when: -1900
+precision: century
+coords: 25.16, 35.3
+category: culture
+importance: 3
+title.ko: 크노소스 궁전 건설 (미노스 문명)
+title.en: Minoan palace of Knossos
+
+@ late-bronze-age-collapse
+wikipedia: Late Bronze Age collapse
+when: -1200
+precision: century
+coords: 22.76, 37.73
+category: politics
+importance: 4
+title.ko: 후기 청동기 시대의 붕괴
+title.en: Late Bronze Age collapse
+
+@ ancient-olympic-games
+wikipedia: Ancient Olympic Games
+when: -776
+coords: 21.63, 37.64
+category: culture
+importance: 3
+title.ko: 제1회 고대 올림픽 개최
+title.en: First Olympic Games
+
+@ founding-of-rome
+wikipedia: Founding of Rome
+when: -753
+coords: 12.49, 41.89
+category: politics
+importance: 3
+title.ko: 로마 건국 (전승)
+title.en: Founding of Rome
+
+@ cleisthenes-reforms
+wikipedia: Athenian democracy
+when: -508
+coords: 23.72, 37.97
+category: politics
+importance: 4
+title.ko: 클레이스테네스의 개혁과 아테네 민주정 성립
+title.en: Reforms of Cleisthenes and Athenian democracy
+
+@ vesuvius-eruption-79
+wikipedia: Eruption of Mount Vesuvius in 79 AD
+when: 79
+coords: 14.48, 40.75
+category: science
+importance: 3
+title.ko: 베수비오산 분화와 폼페이 매몰
+title.en: Eruption of Vesuvius buries Pompeii
+
+@ first-council-of-nicaea
+wikipedia: First Council of Nicaea
+when: 325
+coords: 29.72, 40.43
+category: religion
+importance: 4
+title.ko: 제1차 니케아 공의회
+
+@ founding-of-constantinople
+wikipedia: Constantinople
+when: 330
+coords: 28.98, 41.01
+category: politics
+importance: 4
+title.ko: 콘스탄티노폴리스 천도
+title.en: Founding of Constantinople
+
+@ edict-of-thessalonica
+wikipedia: Edict of Thessalonica
+when: 380
+coords: 22.94, 40.64
+category: religion
+importance: 4
+title.ko: 기독교의 로마 국교화 (테살로니카 칙령)
+title.en: Christianity becomes the Roman state religion
+
+@ sack-of-rome-410
+wikipedia: Sack of Rome (410)
+when: 410
+coords: 12.48, 41.9
+category: war
+importance: 4
+title.ko: 서고트족의 로마 약탈
+title.en: Visigothic sack of Rome
+
+@ corpus-juris-civilis
+wikipedia: Corpus Juris Civilis
+when: 529 ~ 534
+coords: 28.97, 41.01
+category: politics
+importance: 4
+title.ko: 유스티니아누스 법전 편찬
+title.en: Justinian's Code
+
+@ hagia-sophia
+wikipedia: Hagia Sophia
+when: 537
+coords: 28.98, 41.01
+category: culture
+importance: 4
+title.ko: 아야 소피아 대성당 완공
+title.en: Completion of the Hagia Sophia
+
+@ umayyad-conquest-of-hispania
+wikipedia: Muslim conquest of the Iberian Peninsula
+when: 711 ~ 718
+coords: -5.35, 36.14
+category: war
+importance: 4
+title.ko: 우마이야 왕조의 이베리아반도 정복
+
+@ carolingian-renaissance
+wikipedia: Carolingian Renaissance
+when: 789
+precision: decade
+coords: 6.08, 50.78
+category: culture
+importance: 3
+title.ko: 카롤링거 르네상스
+
+@ christianization-of-kievan-rus
+wikipedia: Christianization of Kievan Rus'
+when: 988
+coords: 30.52, 50.45
+category: religion
+importance: 4
+title.ko: 키예프 루스의 기독교 수용
+title.en: Baptism of Kievan Rus'
+
+@ sidereus-nuncius
+wikipedia: Sidereus Nuncius
+when: 1610
+coords: 12.32, 45.44
+category: science
+importance: 4
+title.ko: 갈릴레이의 망원경 천체 관측 발표
+title.en: Galileo's telescopic discoveries
+
+@ jenner-smallpox-vaccine
+wikipedia: Smallpox vaccine
+when: 1796
+coords: -2.46, 51.69
+category: science
+importance: 4
+title.ko: 제너의 종두법 개발
+title.en: Jenner's smallpox vaccine

@@ -1,0 +1,256 @@
+# 종교 지도 항목 — 형식은 content/topics/CLAUDE.md
+# 위치는 처음 생긴 곳(대표 지점), spread는 전파·국교 채택 등 대표 도시 몇 곳(대략적인 시기·위치)
+# 오래된 종교는 시작 시기가 학설마다 달라 대략적인 시기(precision: approx)로 둔다
+
+@ hinduism
+wikipedia: Hinduism
+when: -1500
+precision: approx
+coords: 74.3, 31.5
+spread: -1000 83.0, 25.32 | -300 78.12, 9.93 | 802 103.87, 13.41 | 850 110.49, -7.75
+importance: 5
+summary.hi: हिन्दू धर्म भारतीय उपमहाद्वीप की धार्मिक और आध्यात्मिक परंपराओं का समूह है, जो धर्म, कर्म और मोक्ष जैसी अवधारणाओं से जुड़ा है। इसकी जड़ें वैदिक काल (लगभग 1500-500 ईसा पूर्व) के धर्म में हैं, और बाद में यह दक्षिण-पूर्व एशिया तक फैला। अनुयायियों की संख्या के हिसाब से यह दुनिया का तीसरा सबसे बड़ा धर्म है।
+
+@ zoroastrianism
+wikipedia: Zoroastrianism
+when: -1000
+precision: approx
+coords: 66.9, 36.76
+spread: -550 53.17, 30.2 | 224 44.58, 33.09 | 936 72.87, 20.2
+importance: 4
+
+@ judaism
+wikipedia: Judaism
+when: -1000
+precision: approx
+coords: 35.23, 31.78
+spread: -586 44.42, 32.54 | -300 29.92, 31.2 | -100 12.48, 41.89 | 900 -4.78, 37.88 | 1350 19.94, 50.06 | 1654 -74.0, 40.71
+importance: 5
+
+@ jainism
+wikipedia: Jainism
+when: -500
+precision: approx
+coords: 85.13, 25.99
+spread: -300 76.49, 12.86 | 1150 72.12, 23.85
+importance: 4
+
+@ buddhism
+wikipedia: Buddhism
+when: -500
+precision: approx
+coords: 84.99, 24.69
+spread: -260 77.74, 23.48 | -250 72.83, 33.75 | 67 112.45, 34.62
+importance: 5
+
+@ confucianism
+wikipedia: Confucianism
+when: -500
+precision: approx
+coords: 116.99, 35.6
+spread: -136 108.94, 34.34 | 1070 105.84, 21.03 | 1392 126.98, 37.57 | 1603 139.69, 35.69
+importance: 4
+title.ko: 유교
+
+@ taoism
+wikipedia: Taoism
+when: -400
+precision: approx
+coords: 115.48, 33.86
+spread: 142 103.6, 30.9 | 624 125.75, 39.02
+importance: 4
+
+@ theravada
+wikipedia: Theravada
+when: -250
+precision: approx
+coords: 80.4, 8.35
+spread: 1056 94.86, 21.17 | 1250 99.82, 17.01 | 1353 102.13, 19.89
+importance: 3
+
+@ christianity
+wikipedia: Christianity
+when: 30
+precision: approx
+coords: 35.23, 31.78
+spread: 40 36.16, 36.2 | 60 12.48, 41.89 | 100 29.92, 31.2 | 200 10.32, 36.85
+importance: 5
+
+@ mahayana
+wikipedia: Mahayana
+when: 100
+precision: approx
+coords: 71.58, 34.0
+spread: 372 126.19, 41.12 | 401 108.94, 34.34 | 538 135.82, 34.47
+importance: 4
+
+@ manichaeism
+wikipedia: Manichaeism
+when: 240
+coords: 44.58, 33.09
+spread: 373 10.32, 36.85 | 762 102.66, 47.43 | 1300 118.68, 24.87
+importance: 2
+title.fr: Manichéisme
+
+@ christianization-of-armenia
+wikipedia: Christianization of Armenia
+when: 301
+coords: 44.29, 40.16
+importance: 3
+title.ko: 아르메니아의 기독교 국교화
+title.zh: 亚美尼亚基督教化
+title.es: Cristianización de Armenia
+title.hi: आर्मेनिया का ईसाईकरण
+title.fr: Christianisation de l'Arménie
+summary.ko: 아르메니아 왕국은 301년 무렵 티리다테스 3세 때 계몽자 성 그레고리오스의 선교로 기독교를 국교로 받아들였다. 흔히 세계에서 처음으로 기독교를 국교로 삼은 나라로 꼽힌다. 수도 바가르샤파트에 에치미아진 대성당이 세워졌다.
+summary.zh: 约301年，亚美尼亚国王梯里达底三世在启蒙者圣格列高利的传教下接受基督教为国教。亚美尼亚通常被认为是世界上第一个以基督教为国教的国家，首都瓦加尔沙帕特随后建起了埃奇米阿津大教堂。
+summary.es: Hacia el año 301, el rey Tiridates III de Armenia adoptó el cristianismo como religión del Estado por la predicación de san Gregorio el Iluminador. Suele considerarse a Armenia el primer país que lo hizo. En la capital, Vagharshapat, se levantó la catedral de Echmiadzin.
+summary.hi: लगभग 301 ईस्वी में आर्मेनिया के राजा तिरिदातेस तृतीय ने संत ग्रेगरी द इल्युमिनेटर के प्रचार से ईसाई धर्म को राजधर्म बनाया। आर्मेनिया को प्रायः ईसाई धर्म को राजधर्म बनाने वाला पहला देश माना जाता है। राजधानी वाघर्शपात में एचमियादज़िन कैथेड्रल बनाया गया।
+summary.fr: Vers 301, le roi Tiridate III d'Arménie fit du christianisme la religion d'État sous l'influence de saint Grégoire l'Illuminateur. L'Arménie est souvent présentée comme le premier pays à l'avoir fait. La cathédrale d'Etchmiadzin fut construite dans la capitale, Vagharshapat.
+
+@ edict-of-milan
+wikipedia: Edict of Milan
+when: 313
+coords: 9.19, 45.46
+spread: 330 28.98, 41.01
+importance: 4
+title.zh: 米兰敕令
+
+@ ethiopian-orthodox
+wikipedia: Ethiopian Orthodox Tewahedo Church
+when: 330
+precision: approx
+coords: 38.72, 14.13
+importance: 3
+
+@ church-of-the-east
+wikipedia: Church of the East
+when: 410
+coords: 44.58, 33.09
+spread: 500 61.83, 37.66 | 635 108.94, 34.34 | 1275 116.4, 39.9
+importance: 3
+
+@ islam
+wikipedia: Islam
+when: 610
+coords: 39.83, 21.42
+spread: 622 39.61, 24.47 | 638 35.23, 31.78 | 641 29.92, 31.2 | 661 36.29, 33.51 | 711 -4.78, 37.88 | 712 66.96, 39.65 | 712 71.47, 30.2 | 1206 77.21, 28.61
+importance: 5
+
+@ shinto
+wikipedia: Shinto
+when: 712
+coords: 136.73, 34.46
+importance: 3
+
+@ shia-islam
+wikipedia: Shia Islam
+when: 680
+coords: 44.02, 32.62
+spread: 909 11.06, 35.5 | 969 31.24, 30.04 | 1501 46.29, 38.08
+importance: 4
+
+@ tibetan-buddhism
+wikipedia: Tibetan Buddhism
+when: 779
+coords: 91.5, 29.33
+spread: 1578 111.75, 40.84 | 1586 102.84, 47.2
+importance: 3
+
+@ christianization-of-kievan-rus
+wikipedia: Christianization of Kievan Rus'
+when: 988
+coords: 30.52, 50.45
+spread: 989 31.27, 58.52
+importance: 3
+
+@ islam-in-africa
+wikipedia: Islam in Africa
+when: 670
+coords: 10.1, 35.68
+spread: 1000 39.51, -8.96 | 1085 14.4, 13.5 | 1324 -3.0, 16.77
+importance: 3
+title.ko: 아프리카의 이슬람교
+title.hi: अफ़्रीका में इस्लाम
+summary.ko: 이슬람교는 7세기 아랍인의 정복으로 북아프리카에 들어왔고(670년 카이라완 건설), 그 뒤 사하라 횡단 교역과 인도양 교역을 따라 서아프리카와 동아프리카 해안으로 퍼졌다. 카넴 왕국과 말리 제국 등이 이슬람을 받아들였고, 팀북투는 학문의 중심지가 되었다. 오늘날 아프리카 인구의 상당수가 무슬림이다.
+summary.hi: इस्लाम सातवीं शताब्दी में अरब विजयों के साथ उत्तरी अफ़्रीका पहुँचा (670 में कैरुआन की स्थापना) और फिर सहारा-पार तथा हिंद महासागर के व्यापार मार्गों से पश्चिम और पूर्वी अफ़्रीका के तट तक फैला। कानेम और माली जैसे राज्यों ने इस्लाम अपनाया और टिम्बकटू शिक्षा का केंद्र बना।
+
+@ east-west-schism
+wikipedia: East–West Schism
+when: 1054
+coords: 28.98, 41.01
+importance: 4
+summary.hi: पूर्व-पश्चिम महाविच्छेद 1054 में रोम और कॉन्स्टेंटिनोपल की कलीसियाओं के बीच हुआ विभाजन है, जिससे रोमन कैथोलिक और पूर्वी ऑर्थोडॉक्स कलीसियाएँ अलग हो गईं। पोप की सत्ता, धर्मसिद्धांत और रीति-रिवाजों पर लंबे समय से चले आ रहे मतभेद इसके कारण थे।
+
+@ islam-in-indonesia
+wikipedia: Spread of Islam in Indonesia
+when: 1297
+coords: 97.14, 5.18
+spread: 1414 102.25, 2.19 | 1475 110.64, -6.89 | 1605 119.43, -5.15
+importance: 3
+title.hi: इंडोनेशिया में इस्लाम का प्रसार
+title.fr: Diffusion de l'islam en Indonésie
+title.pt: Expansão do islã na Indonésia
+summary.hi: इंडोनेशिया में इस्लाम मुख्य रूप से व्यापारियों और सूफ़ी प्रचारकों के माध्यम से धीरे-धीरे फैला। सुमात्रा का समुद्र पसई (13वीं शताब्दी के अंत) शुरुआती इस्लामी राज्यों में था, और बाद में मलक्का, जावा के देमाक और सुलावेसी के मकस्सर तक इस्लाम पहुँचा। आज इंडोनेशिया दुनिया का सबसे अधिक मुस्लिम आबादी वाला देश है।
+summary.fr: L'islam s'est diffusé en Indonésie surtout par les marchands et les prédicateurs soufis. Le sultanat de Samudera Pasai, à Sumatra (fin du XIIIe siècle), fut l'un des premiers États musulmans, puis l'islam gagna Malacca, Demak à Java et Makassar à Sulawesi. L'Indonésie est aujourd'hui le pays qui compte le plus de musulmans au monde.
+summary.pt: O islã difundiu-se na Indonésia sobretudo por meio de mercadores e pregadores sufis. O sultanato de Samudera Pasai, em Samatra (fim do século XIII), foi um dos primeiros Estados muçulmanos; depois o islã chegou a Malaca, a Demak em Java e a Macáçar em Celebes. Hoje a Indonésia é o país com mais muçulmanos do mundo.
+
+@ catholicism-in-latin-america
+wikipedia: Catholic Church in Latin America
+when: 1493
+coords: -69.93, 18.48
+spread: 1524 -99.13, 19.43 | 1535 -77.04, -12.05 | 1549 -38.5, -12.97
+importance: 4
+title.ko: 라틴아메리카의 가톨릭교회
+title.zh: 拉丁美洲天主教会
+title.es: Iglesia católica en América Latina
+title.hi: लैटिन अमेरिका में कैथोलिक चर्च
+title.ar: الكنيسة الكاثوليكية في أمريكا اللاتينية
+title.fr: Église catholique en Amérique latine
+summary.ko: 라틴아메리카의 가톨릭교회는 1492년 이후 스페인과 포르투갈의 식민 지배와 함께 시작되었다. 히스파니올라섬을 시작으로 멕시코, 페루, 브라질에 선교사들이 들어가 교회를 세웠고, 오늘날 라틴아메리카는 세계 가톨릭 신자의 큰 비중을 차지한다.
+summary.zh: 拉丁美洲的天主教会随着1492年后西班牙和葡萄牙的殖民而开始。传教士从伊斯帕尼奥拉岛出发，先后在墨西哥、秘鲁和巴西建立教会。如今拉丁美洲拥有全世界很大一部分天主教徒。
+summary.es: La Iglesia católica en América Latina comenzó con la colonización española y portuguesa a partir de 1492. Desde La Española, los misioneros llevaron la fe a México, Perú y Brasil, y hoy América Latina reúne a una gran parte de los católicos del mundo.
+summary.hi: लैटिन अमेरिका में कैथोलिक चर्च की शुरुआत 1492 के बाद स्पेनी और पुर्तगाली उपनिवेशीकरण के साथ हुई। हिस्पानियोला द्वीप से मिशनरी मेक्सिको, पेरू और ब्राज़ील तक पहुँचे, और आज दुनिया के कैथोलिकों का बड़ा हिस्सा लैटिन अमेरिका में रहता है।
+summary.fr: L'Église catholique en Amérique latine est née avec la colonisation espagnole et portugaise à partir de 1492. Depuis Hispaniola, les missionnaires gagnèrent le Mexique, le Pérou et le Brésil ; l'Amérique latine rassemble aujourd'hui une grande partie des catholiques du monde.
+
+@ sikhism
+wikipedia: Sikhism
+when: 1500
+precision: approx
+coords: 75.14, 31.21
+spread: 1604 74.87, 31.63 | 1699 76.5, 31.24
+importance: 4
+
+@ reformation
+wikipedia: Reformation
+when: 1517
+coords: 12.65, 51.87
+spread: 1523 8.54, 47.37 | 1527 18.07, 59.33 | 1534 -0.13, 51.51 | 1541 6.14, 46.2 | 1560 -3.19, 55.95
+importance: 5
+
+@ christianity-in-korea
+wikipedia: Christianity in Korea
+when: 1784
+coords: 126.98, 37.57
+importance: 3
+title.es: Cristianismo en Corea
+title.hi: कोरिया में ईसाई धर्म
+title.pt: Cristianismo na Coreia
+title.fr: Christianisme en Corée
+summary.es: El catolicismo llegó a Corea a través de libros traídos de China, y en 1784 Yi Seung-hun, bautizado en Pekín, fundó la primera comunidad católica en Seúl. A pesar de las persecuciones del siglo XIX, el cristianismo creció, y desde 1885 llegaron misioneros protestantes. Hoy católicos y protestantes son una parte importante de la población surcoreana.
+summary.hi: कैथोलिक धर्म चीन से आई पुस्तकों के माध्यम से कोरिया पहुँचा, और 1784 में बीजिंग में बपतिस्मा लेने वाले यी सुंग-हुन ने सियोल में पहला कैथोलिक समुदाय बनाया। 19वीं शताब्दी के उत्पीड़न के बावजूद ईसाई धर्म बढ़ता रहा, और 1885 से प्रोटेस्टेंट मिशनरी भी आए।
+summary.pt: O catolicismo chegou à Coreia por meio de livros vindos da China, e em 1784 Yi Seung-hun, batizado em Pequim, fundou a primeira comunidade católica em Seul. Apesar das perseguições do século XIX, o cristianismo cresceu, e a partir de 1885 chegaram missionários protestantes. Hoje católicos e protestantes são parte importante da população sul-coreana.
+
+@ latter-day-saints
+wikipedia: The Church of Jesus Christ of Latter-day Saints
+when: 1830
+coords: -76.8, 42.82
+spread: 1847 -111.89, 40.76
+importance: 2
+
+@ bahai-faith
+wikipedia: Baháʼí Faith
+when: 1863
+coords: 44.36, 33.31
+spread: 1868 35.07, 32.93
+importance: 2

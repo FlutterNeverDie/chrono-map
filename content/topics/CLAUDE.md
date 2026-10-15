@@ -1,4 +1,4 @@
-# content/topics — 주제 지도 (/maps/<id>): 역병·발명 … N개
+# content/topics — 주제 지도 (/maps/<id>): 역병·발명·종교 … N개
 
 지도 하나 = 폴더 하나(`content/topics/<id>/`). **폴더를 추가하면 상단 탭·라우트·사이트맵이 자동으로 생긴다.**
 
@@ -11,12 +11,12 @@ npm run topics:build           # src/data/generated/topics.json (dev/build 때 �
 
 ```
 order: 1                         ← 상단 탭 순서
-mode: span                       ← span: 기간 동안만 보임(전염병) | persist: 생긴 뒤 계속 남음(발명)
+mode: span                       ← span: 기간 동안만 보임(전염병) | persist: 생긴 뒤 계속 남음(발명·종교)
 scale: -430, 500, 1300, 1700, 1850, 1950, 2025   ← 슬라이더 눈금 연도. 같은 간격으로 놓여 비선형 축이 된다
 show-month-from: 1800            ← (선택) 이 연도부터 슬라이더에 월까지 표시
 view: 40, 30, 1                  ← 처음 화면: 가운데 경도, 위도, 확대 배율
 color: #b4232a                   ← 항목 점·경로·슬라이더 색
-icon: virus                      ← 하단 바 지도 아이콘: virus | bulb | map(기본). 새 아이콘은 components/ui/icons + app/BottomBar의 MAP_ICONS
+icon: virus                      ← 하단 바 지도 아이콘: virus | bulb | temple | map(기본). 새 아이콘은 components/ui/icons + app/BottomBar의 MAP_ICONS
 title.ko: 역병 지도               ← 8개 언어 (title.ko 필수)
 description.ko: …                ← 8개 언어 (검색 노출용 설명)
 ```
@@ -40,4 +40,4 @@ title.ko: 발한병                 ← (선택) 직접 쓴 제목·설명 (titl
 - 아직 끝나지 않은 항목(span)은 `when`의 끝을 슬라이더 끝 해의 12월로 둔다(예: `hiv-aids`, `seventh-cholera-pandemic` `~ 2025-12`).
 - 위치·시기는 위키백과 문서와 대조한다. 확산 지점은 대표 도시 몇 곳이면 충분하다(대략적인 경로).
 - 슬라이더의 ◀ ▶·재생은 항목 등장·확산 시점으로 건너뛴다.
-- 새 지도 예시: 탐험 항로, 종교 전파, 제국 수도, 세계유산 … (`mode`와 `spread`로 대부분 표현 가능).
+- 새 지도 예시: 탐험 항로, 제국 수도, 세계유산 … (`mode`와 `spread`로 대부분 표현 가능). `spread`는 span·persist 모두 발원지→확산 지점 점선으로 그린다(종교 지도).

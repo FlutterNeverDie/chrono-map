@@ -374,3 +374,127 @@ title.es: Liberalización económica de la India
 title.fr: Libéralisation économique de l'Inde
 summary.es: En 1991, en medio de una grave crisis de balanza de pagos, el gobierno de la India emprendió amplias reformas que abrieron la economía al comercio y a la inversión extranjera. Las medidas otorgaron un papel mayor al mercado y a la empresa privada y sentaron las bases del rápido crecimiento económico posterior.
 summary.fr: À partir de 1991, face à une grave crise de la balance des paiements, le gouvernement indien engagea de profondes réformes ouvrant l'économie au commerce extérieur et aux investissements étrangers. Ces mesures accrurent le rôle du marché et du secteur privé et posèrent les bases de la forte croissance des décennies suivantes.
+
+@ sigiriya
+wikipedia: Sigiriya
+when: 477 ~ 495
+coords: 80.76, 7.96
+category: culture
+importance: 2
+title.ko: 시기리야 바위 왕궁 건설
+title.en: Building of the Sigiriya rock palace
+place.ko: 스리랑카 시기리야
+
+@ ajanta-caves
+wikipedia: Ajanta Caves
+when: 480
+precision: decade
+coords: 75.7, 20.55
+category: culture
+importance: 3
+title.ko: 아잔타 석굴 벽화 조성
+title.en: Ajanta Caves paintings
+
+@ harsha-kannauj
+wikipedia: Harsha
+when: 606
+coords: 79.92, 27.05
+category: politics
+importance: 2
+title.ko: 하르샤 왕의 북인도 통일
+title.en: Harsha's reign over northern India begins
+place.ko: 카나우지
+
+@ brahmasphutasiddhanta
+wikipedia: Brāhmasphuṭasiddhānta
+when: 628
+coords: 72.27, 25.0
+category: science
+importance: 3
+title.ko: 브라마굽타의 0의 연산 규칙 정립
+title.en: Brahmagupta's rules for zero
+place.ko: 빌라말라
+
+@ mahabalipuram-monuments
+wikipedia: Group of Monuments at Mahabalipuram
+when: 700
+precision: century
+coords: 80.19, 12.62
+category: culture
+importance: 2
+title.ko: 팔라바 왕조의 마하발리푸람 사원 건립
+title.en: Pallava monuments at Mahabalipuram
+summary.ko: 7~8세기 남인도 팔라바 왕조가 벵골만 연안의 항구 도시 마하발리푸람에 바위를 깎아 만든 석굴 사원·조각과 해안 사원 등 힌두 건축물을 세웠다. 남인도 사원 건축의 출발점으로 꼽히며 유네스코 세계유산이다.
+
+@ arab-conquest-of-sindh
+wikipedia: Arab conquest of Sindh
+when: 711 ~ 713
+coords: 67.53, 24.75
+category: war
+importance: 3
+title.ko: 우마이야 왕조의 신드 정복
+place.ko: 데발
+summary.ko: 711~713년 우마이야 칼리파국의 무함마드 빈 카심이 신드의 차치 왕조를 무너뜨리고 인더스강 하류를 이슬람 제국의 속주로 삼았다. 남아시아에서 처음으로 이슬람 세력의 지배를 받게 된 지역이 되었다.
+
+@ kailasa-temple-ellora
+wikipedia: Kailasa Temple, Ellora
+when: 756 ~ 773
+coords: 75.18, 20.02
+category: religion
+importance: 2
+title.ko: 엘로라 카일라사 사원 조성
+title.en: Carving of the Kailasa Temple at Ellora
+summary.ko: 8세기 라슈트라쿠타 왕조의 크리슈나 1세 때 엘로라 석굴의 절벽을 위에서부터 통째로 깎아 내 거대한 힌두 사원 카일라사(제16굴)를 만들었다. 하나의 바위로 된 세계 최대급 석조 건축물로, 인도 석굴 건축의 정점으로 꼽힌다.
+
+@ adi-shankara
+wikipedia: Adi Shankara
+when: 800
+precision: century
+coords: 76.44, 10.17
+category: religion
+importance: 3
+title.ko: 아디 샹카라의 아드바이타 베단타 정립
+title.en: Adi Shankara and Advaita Vedanta
+place.ko: 칼라디
+
+@ chola-revival
+wikipedia: Vijayalaya Chola
+when: 848
+precision: decade
+coords: 79.14, 10.8
+category: politics
+importance: 2
+title.ko: 비자얄라야의 탄자부르 점령과 촐라 왕조 부흥
+title.en: Rise of the Imperial Chola dynasty
+place.ko: 탄자부르
+
+@ brihadisvara-temple
+wikipedia: Brihadisvara Temple
+when: 1010
+coords: 79.13, 10.78
+category: religion
+importance: 2
+title.ko: 촐라 왕조의 브리하디스와라 사원 완공
+title.en: Completion of the Brihadisvara Temple
+place.ko: 탄자부르
+
+@ din-i-ilahi
+wikipedia: Din-i Ilahi
+when: 1582
+coords: 77.66, 27.09
+category: religion
+importance: 2
+title.ko: 악바르의 딘이 일라히 제창
+title.en: Akbar proclaims Din-i Ilahi
+place.ko: 파테푸르 시크리
+summary.ko: 1582년 무굴 제국의 악바르 황제가 이슬람·힌두교·조로아스터교 등 여러 종교의 요소를 아우른 혼합 신앙 '딘이 일라히(신성한 종교)'를 내세웠다. 따르는 이가 적어 악바르 사후 곧 사라졌으나, 그의 종교 관용 정책을 상징한다.
+
+@ adi-granth
+wikipedia: Guru Granth Sahib
+when: 1604
+coords: 74.88, 31.62
+category: religion
+importance: 3
+title.ko: 시크교 경전 아디 그란트 편찬
+title.en: Compilation of the Adi Granth
+place.ko: 암리차르 황금 사원

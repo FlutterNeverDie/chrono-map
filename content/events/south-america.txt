@@ -315,3 +315,70 @@ title.hi: असुनसियोन की संधि (मर्कोसु
 summary.hi: 26 मार्च 1991 को अर्जेंटीना, ब्राज़ील, पराग्वे और उरुग्वे ने पराग्वे की राजधानी असुनसियोन में यह संधि कर साझा बाज़ार मर्कोसुर की स्थापना की। बाद में ओरो प्रेतो प्रोटोकॉल द्वारा इस संगठन की कानूनी स्थिति को पूरा किया गया।
 summary.zh: 1991年3月26日，阿根廷、巴西、巴拉圭和乌拉圭在巴拉圭首都亚松森签订条约，决定建立共同市场，即南方共同市场。其后签订的《欧鲁普雷图议定书》进一步确立了该组织的法律地位。
 summary.ar: في 26 مارس 1991 وقّعت الأرجنتين والبرازيل والباراغواي والأوروغواي في مدينة أسونسيون معاهدة لإنشاء سوق مشتركة بينها عُرفت باسم ميركوسور. ثم استُكملت المعاهدة لاحقًا ببروتوكول أورو بريتو الذي حدد الوضع القانوني للمنظمة.
+
+@ chavin-de-huantar
+wikipedia: Chavín de Huántar
+when: -900
+precision: century
+coords: -77.18, -9.59
+category: religion
+importance: 2
+title.ko: 차빈 데 우안타르 신전 번영
+title.en: Chavín de Huántar religious center
+summary.ko: 페루 안데스 고지의 차빈 데 우안타르는 기원전 1200년 무렵부터 세워진 신전 유적으로, 기원전 1천년기에 차빈 문화의 종교 중심지로 번영했다. 지하 회랑과 석조 신상으로 유명하며, 차빈의 양식은 안데스 넓은 지역에 퍼졌다.
+
+@ moche-culture
+wikipedia: Moche culture
+when: 100
+precision: century
+coords: -79.0, -8.15
+category: culture
+importance: 2
+title.ko: 모체 문화의 번영
+title.en: Rise of the Moche civilization
+place.ko: 페루 북부 해안
+
+@ tiwanaku
+wikipedia: Tiwanaku
+when: 500
+precision: century
+coords: -68.67, -16.55
+category: culture
+importance: 2
+title.ko: 티와나쿠 문명의 전성기
+title.en: Height of Tiwanaku
+place.ko: 티티카카호 남쪽
+
+@ wari-empire
+wikipedia: Wari Empire
+when: 600
+precision: century
+coords: -74.2, -13.06
+category: politics
+importance: 2
+title.ko: 와리 제국의 성립
+title.en: Rise of the Wari Empire
+place.ko: 아야쿠초
+summary.ko: 600년 무렵 페루 아야쿠초 분지에서 일어난 와리 제국은 도로망과 행정 중심지를 갖추고 페루 고지와 해안 대부분으로 세력을 넓혔다. 약 500년 동안 이어졌으며, 훗날 잉카 제국에 앞선 안데스 최초의 제국 가운데 하나로 꼽힌다.
+
+@ marajoara-culture
+wikipedia: Marajoara culture
+when: 800
+precision: century
+coords: -49.6, -1.0
+category: culture
+importance: 1
+title.ko: 아마존 하구 마라조아라 문화 번영
+title.en: Marajoara culture flourishes
+place.ko: 마라조섬
+summary.ko: 아마존강 하구의 마라조섬에서 800년~1400년 무렵 번영한 문화로, 흙을 쌓은 거대한 주거 둔덕과 정교한 채색 토기로 유명하다. 아마존 유역에도 복잡한 사회가 있었음을 보여 준다.
+
+@ chan-chan
+wikipedia: Chan Chan
+when: 900
+precision: century
+coords: -79.07, -8.11
+category: culture
+importance: 2
+title.ko: 치무 왕국의 수도 찬찬 건설
+title.en: Construction of Chan Chan

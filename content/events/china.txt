@@ -473,3 +473,142 @@ coords: 114.17, 22.28
 category: politics
 importance: 3
 title.ko: 홍콩 반환
+
+@ white-horse-temple
+wikipedia: White Horse Temple
+when: 68
+coords: 112.6, 34.72
+category: religion
+importance: 3
+title.ko: 백마사 건립 (중국 최초의 불교 사찰)
+title.en: White Horse Temple, China's first Buddhist temple
+place.ko: 뤄양
+
+@ zhang-heng-seismoscope
+wikipedia: Zhang Heng
+when: 132
+coords: 112.45, 34.62
+category: science
+importance: 3
+title.ko: 장형의 지동의(지진계) 발명
+title.en: Zhang Heng presents the first seismoscope
+place.ko: 뤄양
+
+@ mogao-caves
+wikipedia: Mogao Caves
+when: 366
+coords: 94.8, 40.04
+category: religion
+importance: 3
+title.ko: 둔황 막고굴 조성 시작
+title.en: First Mogao Caves carved at Dunhuang
+place.ko: 둔황
+
+@ faxian-pilgrimage
+wikipedia: Faxian
+when: 399 ~ 412
+coords: 108.94, 34.26
+category: exploration
+importance: 2
+title.ko: 법현의 인도 구법 여행
+title.en: Faxian's pilgrimage to India
+place.ko: 장안
+
+@ yungang-grottoes
+wikipedia: Yungang Grottoes
+when: 460
+precision: decade
+coords: 113.13, 40.11
+category: culture
+importance: 2
+title.ko: 북위의 윈강 석굴 조성
+title.en: Northern Wei carves the Yungang Grottoes
+place.ko: 핑청 (다퉁)
+
+@ imperial-examination-sui
+wikipedia: Imperial examination
+when: 605
+coords: 108.96, 34.3
+category: politics
+importance: 4
+title.ko: 수나라의 과거제 시행
+title.en: Sui dynasty establishes the imperial examination
+place.ko: 대흥성 (장안)
+
+@ xuanzang-journey
+wikipedia: Xuanzang
+when: 629 ~ 645
+coords: 108.92, 34.22
+category: exploration
+importance: 4
+title.ko: 현장의 인도 구법 여행
+title.en: Xuanzang's journey to India
+place.ko: 장안
+
+@ single-whip-law
+wikipedia: Single whip law
+when: 1581
+coords: 116.39, 39.91
+category: economy
+importance: 3
+title.ko: 장거정의 일조편법 전국 시행
+title.en: Single whip law enacted empire-wide
+place.ko: 베이징
+
+@ matteo-ricci-beijing
+wikipedia: Matteo Ricci
+when: 1601
+coords: 116.4, 39.92
+category: religion
+importance: 4
+title.ko: 마테오 리치의 베이징 입성
+title.en: Matteo Ricci enters Beijing
+place.ko: 베이징
+
+@ revolt-of-three-feudatories
+wikipedia: Revolt of the Three Feudatories
+when: 1673 ~ 1681
+coords: 102.71, 25.04
+category: war
+importance: 3
+title.ko: 삼번의 난
+place.ko: 윈난
+
+@ treaty-of-nerchinsk
+wikipedia: Treaty of Nerchinsk
+when: 1689
+coords: 116.53, 51.98
+category: politics
+importance: 3
+title.ko: 네르친스크 조약 체결
+place.ko: 네르친스크
+
+@ canton-system
+wikipedia: Canton System
+when: 1757
+coords: 113.26, 23.13
+category: economy
+importance: 3
+title.ko: 광저우 일구통상 (광동 체제)
+title.en: Qing restricts Western trade to Canton
+place.ko: 광저우
+
+@ siku-quanshu
+wikipedia: Siku Quanshu
+when: 1772 ~ 1782
+coords: 116.38, 39.9
+category: culture
+importance: 3
+title.ko: 『사고전서』 편찬
+title.en: Compilation of the Siku Quanshu
+place.ko: 베이징
+
+@ macartney-embassy
+wikipedia: Macartney Embassy
+when: 1793
+coords: 117.94, 40.99
+category: politics
+importance: 3
+title.ko: 매카트니 사절단의 건륭제 알현
+title.en: Macartney Embassy meets the Qianlong Emperor
+place.ko: 러허 (청더)

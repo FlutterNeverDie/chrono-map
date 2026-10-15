@@ -455,3 +455,69 @@ importance: 3
 title.ko: 튀니지 재스민 혁명
 title.hi: ट्यूनीशियाई क्रांति
 summary.hi: दिसंबर 2010 से जनवरी 2011 तक ट्यूनीशिया में 28 दिनों तक चले नागरिक प्रतिरोध और सड़क प्रदर्शनों से लंबे समय से सत्ता में रहे तानाशाह ज़ैन अल-आबिदीन बेन अली को सत्ता छोड़नी पड़ी। इसे जैस्मिन क्रांति भी कहते हैं; इसने देश में लोकतांत्रिक चुनावों का मार्ग खोला और अरब स्प्रिंग की शुरुआत की।
+
+@ almagest
+wikipedia: Almagest
+when: 150
+precision: decade
+coords: 29.92, 31.21
+category: science
+importance: 4
+title.ko: 프톨레마이오스의 《알마게스트》 저술
+title.en: Ptolemy's Almagest
+
+@ vandal-conquest-of-carthage
+wikipedia: Vandal Kingdom
+when: 439
+coords: 10.32, 36.85
+category: war
+importance: 3
+title.ko: 반달족의 카르타고 점령
+title.en: Vandal conquest of Carthage
+
+@ al-qarawiyyin
+wikipedia: University of al-Qarawiyyin
+when: 859
+coords: -4.97, 34.06
+category: culture
+importance: 3
+title.ko: 페스 알카라윈 대학 설립
+title.en: Founding of al-Qarawiyyin
+
+@ book-of-optics
+wikipedia: Book of Optics
+when: 1011 ~ 1021
+coords: 31.24, 30.04
+category: science
+importance: 4
+title.ko: 이븐 알하이삼의 《광학의 서》 저술
+title.en: Ibn al-Haytham's Book of Optics
+summary.ko: 11세기 초 카이로에서 아랍 학자 이븐 알하이삼(알하젠)이 쓴 일곱 권짜리 광학서다. 시각은 빛이 물체에서 눈으로 들어와 생긴다는 이론을 실험으로 뒷받침해, 실험을 중시하는 과학 방법의 선구로 꼽히며 중세 유럽 광학에도 큰 영향을 주었다.
+
+@ ibn-battuta-travels
+wikipedia: Ibn Battuta
+when: 1325 ~ 1354
+coords: -5.81, 35.77
+category: exploration
+importance: 3
+title.ko: 이븐 바투타의 대여행
+title.en: Travels of Ibn Battuta
+
+@ djinguereber-mosque
+wikipedia: Djinguereber Mosque
+when: 1327
+coords: -3.01, 16.77
+category: culture
+importance: 3
+title.ko: 팀북투 징게레베르 모스크 건립
+title.en: Djinguereber Mosque of Timbuktu
+summary.ko: 1327년 말리 제국의 만사 무사가 메카 순례에서 돌아온 뒤 팀북투에 세운 모스크다. 상코레·시디 야히아 모스크와 함께 '팀북투 대학'이라 불린 학문 공동체의 중심이 되어, 팀북투를 서아프리카 이슬람 학문의 중심지로 만들었다. 1988년 유네스코 세계유산에 올랐다.
+
+@ muqaddimah
+wikipedia: Muqaddimah
+when: 1377
+coords: 1.04, 35.06
+category: science
+importance: 3
+title.ko: 이븐 할둔의 《무깟디마》 저술
+title.en: Ibn Khaldun's Muqaddimah

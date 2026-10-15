@@ -1,0 +1,23 @@
+# 주제 지도 설정 — 형식은 content/topics/CLAUDE.md
+order: 3
+mode: persist
+scale: -1500, -500, 0, 500, 1000, 1500, 1800, 2025
+view: 70, 30, 1
+color: #2f855a
+icon: temple
+title.ko: 종교 지도
+title.en: Religions map
+title.zh: 宗教地图
+title.es: Mapa de religiones
+title.hi: धर्म मानचित्र
+title.ar: خريطة الأديان
+title.fr: Carte des religions
+title.pt: Mapa das religiões
+description.ko: 베다 종교와 불교부터 기독교, 이슬람, 시크교까지, 세계의 종교가 어디서 시작해 어떻게 퍼져 나갔는지 지도로 보세요.
+description.en: From the Vedic religion and Buddhism to Christianity, Islam and Sikhism, see where the world's religions began and how they spread.
+description.zh: 从吠陀宗教和佛教到基督教、伊斯兰教和锡克教，在地图上查看世界各宗教的起源与传播。
+description.es: De la religión védica y el budismo al cristianismo, el islam y el sijismo: mira dónde nacieron las religiones del mundo y cómo se difundieron.
+description.hi: वैदिक धर्म और बौद्ध धर्म से ईसाई धर्म, इस्लाम और सिख धर्म तक, देखें कि दुनिया के धर्म कहाँ शुरू हुए और कैसे फैले।
+description.ar: من الديانة الفيدية والبوذية إلى المسيحية والإسلام والسيخية، شاهد على الخريطة أين نشأت أديان العالم وكيف انتشرت.
+description.fr: De la religion védique et du bouddhisme au christianisme, à l'islam et au sikhisme, voyez où sont nées les religions du monde et comment elles se sont répandues.
+description.pt: Da religião védica e do budismo ao cristianismo, ao islã e ao siquismo, veja onde nasceram as religiões do mundo e como se espalharam.

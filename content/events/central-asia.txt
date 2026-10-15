@@ -281,3 +281,90 @@ importance: 2
 title.ko: 타지키스탄 내전
 title.hi: ताजिकिस्तान गृहयुद्ध
 summary.hi: मई 1992 से जून 1997 तक ताजिकिस्तान में चला सशस्त्र संघर्ष, जिसमें गार्म और गोर्नो-बदख़्शां क्षेत्रों के समूहों ने राष्ट्रपति रहमोन नबियेव की नई सरकार के विरुद्ध विद्रोह किया। विद्रोही उदारवादी सुधारवादियों और इस्लामवादियों का गठबंधन थे, और 1997 के शांति समझौते से युद्ध समाप्त हुआ।
+
+@ kanishka-reign
+wikipedia: Kanishka
+when: 127
+precision: decade
+coords: 71.58, 34.01
+category: religion
+importance: 4
+title.ko: 카니슈카 즉위와 쿠샨 불교의 융성
+title.en: Kanishka's reign and the flowering of Kushan Buddhism
+place.ko: 푸루샤푸라 (페샤와르)
+
+@ afrasiab-murals
+wikipedia: Afrasiab murals
+when: 660
+precision: decade
+coords: 66.99, 39.67
+category: culture
+importance: 2
+title.ko: 소그드 아프라시압 궁전 벽화 (사절도)
+title.en: Sogdian Afrasiab murals painted in Samarkand
+place.ko: 사마르칸트
+
+@ muslim-conquest-transoxiana
+wikipedia: Muslim conquest of Transoxiana
+when: 705 ~ 715
+coords: 64.42, 39.77
+category: religion
+importance: 4
+title.ko: 쿠타이바의 트란스옥시아나 정복과 이슬람화
+title.en: Qutayba ibn Muslim conquers Transoxiana
+place.ko: 부하라·사마르칸트
+summary.ko: 7세기 중반부터 아랍 무슬림 군대가 아무다리야강 너머 트란스옥시아나(소그디아나)로 진출했다. 705~715년 우마이야 왕조의 장군 쿠타이바 이븐 무슬림이 부하라·사마르칸트 등을 정복하면서 이 지역은 칼리파국에 편입되었고, 이후 중앙아시아의 이슬람화가 진행되었다.
+
+@ samanid-empire
+wikipedia: Samanid Empire
+when: 819
+coords: 64.42, 39.78
+category: culture
+importance: 3
+title.ko: 사만 왕조 성립과 페르시아 문예 부흥
+title.en: Rise of the Samanid Empire
+place.ko: 부하라
+summary.ko: 사만 왕조는 819년부터 999년까지 호라산과 트란스옥시아나를 다스린 이란계 수니파 무슬림 왕조다. 수도 부하라는 이슬람 세계의 학문·문예 중심지가 되었고, 궁정 시인 루다키 등이 활동한 페르시아어 문학 부흥의 무대가 되었다.
+
+@ khanate-of-bukhara
+wikipedia: Khanate of Bukhara
+when: 1501
+coords: 64.43, 39.77
+category: politics
+importance: 3
+title.ko: 샤이반 왕조의 부하라 칸국 성립
+title.en: Shaybanids found the Khanate of Bukhara
+place.ko: 부하라
+
+@ dzungar-khanate
+wikipedia: Dzungar Khanate
+when: 1634
+precision: decade
+coords: 83.5, 46.0
+category: politics
+importance: 3
+title.ko: 준가르 칸국 성립
+title.en: Founding of the Dzungar Khanate
+place.ko: 준가리아
+
+@ siege-of-tashkent
+wikipedia: Siege of Tashkent
+when: 1865
+coords: 69.28, 41.31
+category: war
+importance: 3
+title.ko: 러시아 제국의 타슈켄트 점령
+title.en: Russian capture of Tashkent
+place.ko: 타슈켄트
+summary.ko: 1865년 5~6월 체르냐예프가 이끄는 러시아군이 코칸트 칸국의 타슈켄트를 포위해 점령했다. 코칸트의 실권자 알림쿨이 전사하면서 칸국은 크게 약해졌고, 타슈켄트는 1867년 설치된 러시아령 투르키스탄 총독부의 중심지가 되었다.
+
+@ panjdeh-incident
+wikipedia: Panjdeh incident
+when: 1885
+coords: 62.9, 35.95
+category: politics
+importance: 2
+title.ko: 판지데 사건 (그레이트 게임의 위기)
+title.en: Panjdeh incident
+place.ko: 판지데 (쿠슈카강)
+summary.ko: 1885년 러시아 제국군이 판지데(쿠슈카강 유역)에서 아프가니스탄군을 공격해 점령한 사건이다. 러시아의 남하가 영국령 인도를 위협한다고 본 영국과 러시아 사이에 전쟁 직전의 외교 위기가 벌어졌으나, 국경위원회를 통해 아프가니스탄 북부 국경을 정하는 것으로 수습되었다.

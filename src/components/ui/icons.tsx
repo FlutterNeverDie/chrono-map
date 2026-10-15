@@ -138,6 +138,14 @@ export const BulbIcon = ({ className }: IconProps) => (
   </svg>
 );
 
+/** 기둥 있는 신전(종교 지도) - 특정 종교 상징 대신 "예배하는 곳"을 일반적으로 */
+export const TempleIcon = ({ className }: IconProps) => (
+  <svg {...base} className={className}>
+    <path d="M3 9.5 12 4l9 5.5Z" />
+    <path d="M6 12v6M10 12v6M14 12v6M18 12v6M3.5 20.5h17" />
+  </svg>
+);
+
 /** 위키백과(둥근 테두리 안의 W) */
 
 /** 톱니바퀴(설정) */

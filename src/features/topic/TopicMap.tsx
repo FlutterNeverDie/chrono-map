@@ -171,49 +171,48 @@ export function TopicMap() {
             vectorEffect="non-scaling-stroke"
           />
 
-          {/* 확산 경로(span): 발원지 → 그 시점까지 퍼진 지점 */}
-          {topic.mode === "span" &&
-            items.map((it) => {
-              const pts = [
-                it.coords,
-                ...it.spread.filter((s) => s.t <= t).map((s) => s.coords),
-              ]
-                .map((c) => vp.project(c))
-                .filter((p): p is readonly [number, number] => !!p);
-              return (
-                <g
-                  key={`path-${it.id}`}
-                  opacity={selected && selected !== it.id ? 0.35 : 1}
-                >
-                  {pts.slice(1).map((p, k) => (
-                    <line
-                      key={k}
-                      x1={pts[0][0]}
-                      y1={pts[0][1]}
-                      x2={p[0]}
-                      y2={p[1]}
-                      stroke={colorOf(it.id)}
-                      strokeWidth={1.4}
-                      strokeDasharray="4 3"
-                      vectorEffect="non-scaling-stroke"
-                      opacity={0.75}
-                    />
-                  ))}
-                  {pts.slice(1).map((p, k) => (
-                    <circle
-                      key={`c${k}`}
-                      cx={p[0]}
-                      cy={p[1]}
-                      r={round2(5 * unit)}
-                      fill={colorOf(it.id)}
-                      fillOpacity={0.55}
-                      stroke="#fff"
-                      strokeWidth={round2(1 * unit)}
-                    />
-                  ))}
-                </g>
-              );
-            })}
+          {/* 확산 경로: 발원지 → 그 시점까지 퍼진 지점 (persist여도 spread가 있으면 그린다 - 종교 전파) */}
+          {items.map((it) => {
+            const pts = [
+              it.coords,
+              ...it.spread.filter((s) => s.t <= t).map((s) => s.coords),
+            ]
+              .map((c) => vp.project(c))
+              .filter((p): p is readonly [number, number] => !!p);
+            return (
+              <g
+                key={`path-${it.id}`}
+                opacity={selected && selected !== it.id ? 0.35 : 1}
+              >
+                {pts.slice(1).map((p, k) => (
+                  <line
+                    key={k}
+                    x1={pts[0][0]}
+                    y1={pts[0][1]}
+                    x2={p[0]}
+                    y2={p[1]}
+                    stroke={colorOf(it.id)}
+                    strokeWidth={1.4}
+                    strokeDasharray="4 3"
+                    vectorEffect="non-scaling-stroke"
+                    opacity={0.75}
+                  />
+                ))}
+                {pts.slice(1).map((p, k) => (
+                  <circle
+                    key={`c${k}`}
+                    cx={p[0]}
+                    cy={p[1]}
+                    r={round2(5 * unit)}
+                    fill={colorOf(it.id)}
+                    fillOpacity={0.55}
+                    stroke="#fff"
+                    strokeWidth={round2(1 * unit)}
+                  />
+                ))}
+              </g>
+            );
+          })}
 
           {/* 항목 점: 터치 영역 크게, 강조 항목은 크게 + 이름 */}
           {items.map((it) => {

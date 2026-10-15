@@ -382,3 +382,74 @@ coords: 95.85, 3.3
 category: science
 importance: 3
 title.ko: 인도양 지진 해일
+
+@ trung-sisters-rebellion
+wikipedia: Trưng sisters' rebellion
+when: 40 ~ 43
+coords: 105.72, 21.18
+category: war
+importance: 2
+title.ko: 쯩 자매의 봉기
+place.ko: 메린
+
+@ champa-linyi
+wikipedia: Champa
+when: 192
+coords: 107.58, 16.46
+category: politics
+importance: 2
+title.ko: 참파(임읍) 건국
+title.en: Founding of Champa (Linyi)
+place.ko: 베트남 중부
+
+@ oc-eo-funan
+wikipedia: Óc Eo
+when: 200
+precision: century
+coords: 105.15, 10.23
+category: economy
+importance: 2
+title.ko: 부남의 무역항 옥에오 번영
+title.en: Óc Eo, trading port of Funan
+place.ko: 메콩 삼각주
+
+@ my-son-sanctuary
+wikipedia: Mỹ Sơn archaeological site
+when: 400
+precision: century
+coords: 108.12, 15.77
+category: religion
+importance: 2
+title.ko: 참파의 미선 성지 건립
+title.en: Founding of the Mỹ Sơn sanctuary
+
+@ prambanan
+wikipedia: Prambanan
+when: 850
+precision: decade
+coords: 110.49, -7.75
+category: religion
+importance: 2
+title.ko: 프람바난 힌두 사원 건립
+title.en: Construction of Prambanan
+
+@ thang-long-capital
+wikipedia: Edict on the Transfer of the Capital
+when: 1010
+coords: 105.85, 21.03
+category: politics
+importance: 2
+title.ko: 리 왕조의 탕롱(하노이) 천도
+title.en: Lý dynasty moves the capital to Thăng Long (Hanoi)
+place.ko: 탕롱
+summary.ko: 1010년 리 왕조를 연 리타이또(이공온)가 천도 조서를 내려 수도를 화르에서 다이라로 옮기고 이름을 탕롱(昇龍)이라 했다. 탕롱은 오늘날 하노이로, 이후 오랫동안 베트남의 수도가 되었다.
+
+@ pagan-empire
+wikipedia: Pagan Kingdom
+when: 1044
+coords: 94.86, 21.17
+category: politics
+importance: 2
+title.ko: 아노라타의 버강 왕조 통일
+title.en: Anawrahta founds the Pagan Empire
+place.ko: 버강

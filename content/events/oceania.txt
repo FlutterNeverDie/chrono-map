@@ -258,3 +258,68 @@ summary.hi: 3 जून 1992 को ऑस्ट्रेलिया के उ
 summary.zh: 1992年，澳大利亚高等法院在埃迪·马伯等人起诉昆士兰州一案中，首次承认原住民对土地的传统权利（原住民地权）。该判决否定了殖民前澳大利亚土地属于“无主地”的观念。
 summary.ar: في 3 يونيو 1992 أصدرت المحكمة العليا في أستراليا حكمها في القضية التي رفعها إيدي مابو وآخرون ضد ولاية كوينزلاند، معترفة لأول مرة بحق السكان الأصليين في ملكية أراضيهم التقليدية. وأسقط الحكم فكرة أن أستراليا كانت أرضًا بلا مالك قبل الاستعمار.
 summary.pt: Em 3 de junho de 1992, o Supremo Tribunal da Austrália decidiu a ação movida por Eddie Mabo e outros contra o estado de Queensland, reconhecendo pela primeira vez os direitos tradicionais dos povos indígenas sobre suas terras. A decisão rejeitou a ideia de que a Austrália era terra de ninguém antes da colonização.
+
+@ kuk-swamp
+wikipedia: Kuk Swamp
+when: -7000
+precision: century
+coords: 144.33, -5.78
+category: economy
+importance: 3
+title.ko: 뉴기니 쿡 습지의 농경 시작
+title.en: Beginnings of agriculture at Kuk Swamp
+place.ko: 파푸아뉴기니 고지
+summary.ko: 파푸아뉴기니 고지의 쿡 습지에서는 약 9,000년 전부터 물을 빼는 배수로를 파고 토란을 기른 흔적이 발견되었고, 이후 바나나와 사탕수수 재배도 이루어졌다. 세계에서 농업이 독자적으로 시작된 곳 가운데 하나로 유네스코 세계유산이다.
+
+@ tui-tonga-empire
+wikipedia: Tuʻi Tonga Empire
+when: 950
+precision: century
+coords: -175.12, -21.17
+category: politics
+importance: 2
+title.ko: 투이 통가 제국의 성장
+title.en: Rise of the Tuʻi Tonga Empire
+place.ko: 통가 무아
+
+@ hawaii-settlement
+wikipedia: History of Hawaii
+when: 1000
+precision: century
+coords: -155.5, 19.6
+category: exploration
+importance: 3
+title.ko: 폴리네시아인의 하와이 정착
+title.en: Polynesian settlement of Hawaii
+
+@ nan-madol
+wikipedia: Nan Madol
+when: 1200
+precision: century
+coords: 158.33, 6.84
+category: culture
+importance: 2
+title.ko: 사우델레르 왕조의 난마돌 건설
+title.en: Construction of Nan Madol
+place.ko: 폰페이섬
+
+@ new-zealand-settlement
+wikipedia: History of New Zealand
+when: 1320
+precision: decade
+coords: 175.5, -38.5
+category: exploration
+importance: 3
+title.ko: 폴리네시아인(마오리)의 뉴질랜드 정착
+title.en: Polynesian settlement of New Zealand
+
+@ hokulea-voyage
+wikipedia: Hōkūleʻa
+when: 1976
+coords: -157.86, 21.3
+category: exploration
+importance: 1
+title.ko: 호쿨레아호의 전통 항법 타히티 항해
+title.en: Hōkūleʻa's voyage to Tahiti
+place.ko: 하와이 - 타히티
+summary.ko: 1976년 폴리네시아 항해협회가 복원한 쌍동 카누 호쿨레아호가 계기 없이 별·파도·바람만 읽는 전통 항법으로 하와이에서 타히티까지 항해했다. 고대 폴리네시아인이 의도적인 원양 항해로 태평양 섬들에 정착했음을 보여 주며 폴리네시아 문화 부흥의 계기가 되었다.

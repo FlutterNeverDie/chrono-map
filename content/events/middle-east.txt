@@ -441,3 +441,114 @@ coords: 36.3, 33.5
 category: war
 importance: 4
 title.ko: 시리아 내전
+
+@ sasanian-founding
+wikipedia: Sasanian Empire
+when: 224
+coords: 44.58, 33.09
+category: politics
+importance: 4
+title.ko: 사산 제국 건국
+title.en: Founding of the Sasanian Empire
+
+@ muhammad-first-revelation
+wikipedia: Muhammad's first revelation
+when: 610
+coords: 39.86, 21.46
+category: religion
+importance: 4
+title.ko: 무함마드의 첫 계시
+title.en: Muhammad's first revelation
+summary.ko: 이슬람 전승에 따르면 610년 무렵 메카 근처 히라 동굴에서 명상하던 무함마드에게 천사 지브릴(가브리엘)이 나타나 꾸란의 첫 구절을 전했다. 이때부터 무함마드의 예언자 활동이 시작된 것으로 여겨진다.
+
+@ dome-of-the-rock
+wikipedia: Dome of the Rock
+when: 691
+coords: 35.24, 31.78
+category: religion
+importance: 3
+title.ko: 예루살렘 바위의 돔 완공
+title.en: Completion of the Dome of the Rock
+
+@ round-city-of-baghdad
+wikipedia: Round City of Baghdad
+when: 762 ~ 766
+coords: 44.34, 33.35
+category: economy
+importance: 4
+title.ko: 아바스 왕조의 바그다드 건설
+title.en: Founding of Baghdad
+
+@ al-jabr
+wikipedia: Al-Jabr
+when: 820
+precision: decade
+coords: 44.4, 33.33
+category: science
+importance: 4
+title.ko: 콰리즈미의 대수학 저술
+title.en: Al-Khwarizmi's Al-Jabr
+summary.ko: 820년 무렵 바그다드에서 수학자 콰리즈미가 쓴 아랍어 대수학 책이다. 방정식을 체계적으로 푸는 방법을 정리한 수학사의 이정표로, 책 이름의 '알자브르'가 '대수학(algebra)'이라는 말의 어원이 되었다.
+
+@ battle-of-chaldiran
+wikipedia: Battle of Chaldiran
+when: 1514
+coords: 44.33, 39.09
+category: war
+importance: 3
+title.ko: 찰디란 전투
+
+@ isfahan-naqsh-e-jahan
+wikipedia: Naqsh-e Jahan Square
+when: 1598
+coords: 51.68, 32.66
+category: culture
+importance: 3
+title.ko: 아바스 1세의 이스파한 천도와 왕의 광장 건설
+title.en: Shah Abbas rebuilds Isfahan
+
+@ treaty-of-zuhab
+wikipedia: Treaty of Zuhab
+when: 1639
+coords: 45.58, 34.52
+category: politics
+importance: 3
+title.ko: 주하브 조약 (오스만-사파비 국경 확정)
+title.en: Treaty of Zuhab
+summary.ko: 1639년 이란 서부 카스레시린에서 맺은 조약으로, 1623년부터 이어진 오스만 제국과 사파비 왕조의 전쟁을 끝냈다. 메소포타미아(오늘날 이라크)는 오스만, 동쪽 산지는 이란에 속하도록 경계를 정해 오늘날 이란-이라크 국경의 바탕이 되었다.
+
+@ ottoman-printing-press
+wikipedia: Ibrahim Muteferrika
+when: 1727
+coords: 28.96, 41.02
+category: culture
+importance: 3
+title.ko: 오스만 제국 최초의 아랍 문자 인쇄소 설립
+title.en: First Ottoman printing press
+
+@ diriyah-pact
+wikipedia: First Saudi state
+when: 1744
+coords: 46.57, 24.73
+category: religion
+importance: 3
+title.ko: 사우드 가문과 와하브파의 동맹 (디리야 협약)
+title.en: Diriyah pact founds the First Saudi State
+
+@ edict-of-gulhane
+wikipedia: Edict of Gülhane
+when: 1839
+coords: 28.98, 41.01
+category: politics
+importance: 4
+title.ko: 탄지마트 개혁 시작 (귈하네 칙령)
+title.en: Tanzimat reforms begin
+
+@ ottoman-constitution-1876
+wikipedia: Constitution of the Ottoman Empire
+when: 1876
+coords: 28.99, 41.02
+category: politics
+importance: 3
+title.ko: 오스만 제국 헌법 반포
+title.en: Promulgation of the Ottoman constitution

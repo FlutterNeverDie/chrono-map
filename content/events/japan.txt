@@ -329,3 +329,74 @@ title.ar: فقاعة أسعار الأصول في اليابان
 title.hi: जापान का परिसंपत्ति मूल्य बुलबुला
 summary.hi: 1986 से 1991 तक जापान में अचल संपत्ति और शेयर बाज़ार की कीमतें अत्यधिक बढ़ गईं, जिसके पीछे ढीली मौद्रिक नीति, ऋण का अनियंत्रित विस्तार और सट्टेबाज़ी थी। 1990 के दशक की शुरुआत में बुलबुला फूटा और जापानी अर्थव्यवस्था लंबे समय तक ठहराव में चली गई, जिसे 'खोया हुआ दशक' कहा जाता है।
 summary.ar: بين عامي 1986 و1991 شهدت اليابان فقاعة اقتصادية تضخمت فيها أسعار العقارات والأسهم تضخمًا كبيرًا، مدفوعة بالتوسع النقدي والائتماني والمضاربة. وانفجرت الفقاعة في مطلع التسعينيات، فدخل الاقتصاد الياباني مرحلة ركود طويلة عُرفت بالعقد الضائع.
+
+@ himiko-wei-embassy
+wikipedia: Himiko
+when: 239
+coords: 135.84, 34.55
+category: politics
+importance: 3
+title.ko: 야마타이국 히미코의 위나라 사신 파견
+title.en: Queen Himiko sends envoys to Wei
+place.ko: 야마타이국
+
+@ buddhism-to-japan
+wikipedia: Buddhism in Japan
+when: 538
+precision: decade
+coords: 135.82, 34.47
+category: religion
+importance: 3
+title.ko: 백제를 통한 일본 불교 전래
+title.en: Buddhism introduced to Japan from Baekje
+place.ko: 아스카
+
+@ kojiki
+wikipedia: Kojiki
+when: 712
+coords: 135.8, 34.69
+category: culture
+importance: 3
+title.ko: 『고사기』 편찬
+title.en: Compilation of the Kojiki
+place.ko: 헤이조쿄 (나라)
+
+@ todai-ji-great-buddha
+wikipedia: Tōdai-ji
+when: 752
+coords: 135.84, 34.69
+category: religion
+importance: 3
+title.ko: 도다이지 대불 개안
+title.en: Eye-opening of the Great Buddha at Tōdai-ji
+place.ko: 나라
+
+@ kabuki-origin
+wikipedia: Kabuki
+when: 1603
+coords: 135.77, 35.0
+category: culture
+importance: 2
+title.ko: 이즈모노 오쿠니의 가부키 시작
+title.en: Izumo no Okuni begins kabuki
+place.ko: 교토
+
+@ kaitai-shinsho
+wikipedia: Kaitai Shinsho
+when: 1774
+coords: 139.77, 35.68
+category: science
+importance: 3
+title.ko: 『해체신서』 간행 (난학의 시작)
+title.en: Publication of Kaitai Shinsho
+place.ko: 에도
+
+@ great-wave-off-kanagawa
+wikipedia: The Great Wave off Kanagawa
+when: 1831
+coords: 139.76, 35.69
+category: culture
+importance: 3
+title.ko: 호쿠사이의 우키요에 「가나가와 해변의 높은 파도 아래」
+title.en: Hokusai's The Great Wave off Kanagawa
+place.ko: 에도

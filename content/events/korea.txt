@@ -468,3 +468,74 @@ coords: 126.92, 37.53
 category: politics
 importance: 2
 title.ko: 12·3 비상계엄 사태
+
+@ goguryeo-buddhism
+wikipedia: Korean Buddhism
+when: 372
+coords: 126.18, 41.13
+category: religion
+importance: 3
+title.ko: 고구려 불교 수용과 태학 설립
+title.en: Buddhism reaches Goguryeo
+place.ko: 국내성
+
+@ gwanggaeto-stele
+wikipedia: Gwanggaeto Stele
+when: 414
+coords: 126.21, 41.14
+category: culture
+importance: 3
+title.ko: 광개토대왕릉비 건립
+title.en: Erection of the Gwanggaeto Stele
+place.ko: 국내성 (지안)
+
+@ ichadon-martyrdom
+wikipedia: Ichadon
+when: 527
+coords: 129.21, 35.84
+category: religion
+importance: 2
+title.ko: 이차돈 순교와 신라 불교 공인
+title.en: Martyrdom of Ichadon; Silla adopts Buddhism
+place.ko: 서라벌 (경주)
+
+@ cheomseongdae
+wikipedia: Cheomseongdae
+when: 640
+precision: decade
+coords: 129.22, 35.83
+category: science
+importance: 2
+title.ko: 첨성대 건립
+title.en: Construction of Cheomseongdae observatory
+place.ko: 서라벌 (경주)
+
+@ hyecho-journey
+wikipedia: Hyech'o
+when: 724 ~ 729
+coords: 129.23, 35.85
+category: exploration
+importance: 2
+title.ko: 혜초의 인도 순례 (『왕오천축국전』)
+title.en: Hyecho's pilgrimage to India
+place.ko: 신라
+
+@ bulguksa-seokguram
+wikipedia: Bulguksa
+when: 751
+coords: 129.33, 35.79
+category: culture
+importance: 3
+title.ko: 불국사·석굴암 창건
+title.en: Construction of Bulguksa and Seokguram begins
+place.ko: 경주 토함산
+
+@ cheonghaejin
+wikipedia: Chang Pogo
+when: 828
+coords: 126.76, 34.32
+category: economy
+importance: 2
+title.ko: 장보고의 청해진 설치
+title.en: Jang Bogo establishes the Cheonghae Garrison
+place.ko: 완도
