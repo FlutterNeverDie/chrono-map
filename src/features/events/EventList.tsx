@@ -16,10 +16,11 @@ import { REGION_BY_ID } from "@/data/regions";
 import { VIEWPOINT_BY_ID } from "@/data/viewpoints";
 import { useI18n } from "@/i18n/I18nProvider";
 import { localeHref } from "@/i18n/locales";
-import { PinIcon, ChevronRightIcon } from "@/components/ui/icons";
+import { PinIcon } from "@/components/ui/icons";
 import { WikiLink } from "@/components/ui/WikiLink";
 import { withAd } from "@/components/ui/withAd";
 import { ExpandableText } from "@/components/ui/ExpandableText";
+import { PageLink } from "@/components/ui/PageLink";
 
 /** 사건 카드를 한 번에 그리는 수 */
 const PAGE = 20;
@@ -132,14 +133,10 @@ export function EventList({ ad }: { ad?: ReactNode } = {}) {
                     className="mt-2 text-base text-muted lg:text-lg xl:text-[19px]"
                     expanded={
                       // 끝까지 읽은 사람에게만: 사건 상세 페이지(글 + 본문 광고)로
-                      <a
+                      <PageLink
                         href={localeHref(locale, `event/${e.id}`)}
-                        onClick={(ev) => ev.stopPropagation()}
-                        className="inline-flex min-h-10 items-center gap-1 text-sm font-semibold text-foreground hover:underline lg:text-[15px]"
-                      >
-                        {messages.ui.eventPage}
-                        <ChevronRightIcon className="size-4 rtl:rotate-180" />
-                      </a>
+                        label={messages.ui.eventPage}
+                      />
                     }
                     trailing={
                       summary.page && (

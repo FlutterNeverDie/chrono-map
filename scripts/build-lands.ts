@@ -1,6 +1,7 @@
-// 사건 자리를 다스린 나라의 차례: public/borders(연도별 국경 스냅샷) + content.json(사건 좌표)
-//   → src/data/generated/lands.json (사건 상세 "이 땅을 다스린 나라", 네트워크 없음, dev/build 전에 자동)
-// npm run content 뒤에 돈다(사건 좌표를 content.json에서 읽음).
+// 상세 페이지 자리를 다스린 나라의 차례: public/borders(연도별 국경 스냅샷)
+//   + 사건(content.json)·전쟁(campaigns.json)·주제 지도 항목(topics.json)의 좌표
+//   → src/data/generated/lands.json ("이 땅을 다스린 나라", 네트워크 없음, dev/build 전에 자동)
+// npm run content·wars:build·topics:build 뒤에 돈다. 열쇠는 상세 페이지 경로(event/<id>, wars/<id>, maps/<지도>/<항목>)
 import { readFileSync, writeFileSync } from "node:fs";
 import { geoArea } from "d3-geo";
 import { feature } from "topojson-client";
@@ -16,7 +17,22 @@ type Shape = { f: Feature<Polygon | MultiPolygon, Props>; box: [[number, number]
 type LandRun = { n: string; from: number; to: number | null };
 
 const BORDERS = root("public/borders");
-const { events } = JSON.parse(readFileSync(root("src/data/generated/content.json"), "utf8")) as Content;
+const readGenerated = <T>(name: string) => JSON.parse(readFileSync(root(`src/data/generated/${name}`), "utf8")) as T;
+const { events } = readGenerated<Content>("content.json");
+type Coords = [number, number];
+const campaigns = readGenerated<{ id: string; view: { lon: number; lat: number }; battles: { coords: Coords; links: number }[] }[]>(
+  "campaigns.json",
+);
+const topics = readGenerated<{ id: string; items: { id: string; coords: Coords }[] }[]>("topics.json");
+// 전쟁 자리 = 가장 중요한(언어판이 많은) 전투의 자리, 전투가 없으면 처음 화면 가운데
+const places: { key: string; coords: Coords }[] = [
+  ...events.map((e) => ({ key: `event/${e.id}`, coords: e.coords })),
+  ...campaigns.map((c) => ({
+    key: `wars/${c.id}`,
+    coords: [...c.battles].sort((a, b) => b.links - a.links)[0]?.coords ?? ([c.view.lon, c.view.lat] as Coords),
+  })),
+  ...topics.flatMap((t) => t.items.map((i) => ({ key: `maps/${t.id}/${i.id}`, coords: i.coords }))),
+];
 const years = JSON.parse(readFileSync(`${BORDERS}/index.json`, "utf8")) as number[];
 
 // 바다 위 사건(해전·작은 섬 등)은 둘레를 조금씩 넓혀 가며 가장 가까운 땅을 찾는다(약 30km ~ 220km. 더 넓히면 바다 건너 엉뚱한 나라가 잡힌다)
@@ -69,15 +85,15 @@ function polityAt(shapes: Shape[], [lon, lat]: [number, number]): string | null 
   return null;
 }
 
-const runs: Record<string, LandRun[]> = Object.fromEntries(events.map((e) => [e.id, []]));
+const runs: Record<string, LandRun[]> = Object.fromEntries(places.map((p) => [p.key, []]));
 for (const year of years) {
   const t = JSON.parse(readFileSync(`${BORDERS}/${year}.json`, "utf8")) as Topology<{ p: GeometryCollection<Props> }>;
   const shapes: Shape[] = (feature(t, t.objects.p).features as Shape["f"][])
     .filter((f) => geoArea(f) < 2 * Math.PI) // 뒤집힌 도형은 지구 전체를 덮는다(화면과 같은 검사)
     .map((f) => ({ f, box: boxOf(f.geometry) }));
-  for (const e of events) {
-    const n = polityAt(shapes, e.coords);
-    const list = runs[e.id];
+  for (const place of places) {
+    const n = polityAt(shapes, place.coords);
+    const list = runs[place.key];
     const last = list.at(-1);
     if (last?.n === n && last.to === null) continue;
     if (last && last.to === null) last.to = prevYear(year);
@@ -99,5 +115,5 @@ const names = Object.fromEntries(
 );
 
 writeFileSync(root("src/data/generated/lands.json"), JSON.stringify({ runs, names }));
-const avg = Object.values(runs).reduce((s, l) => s + l.length, 0) / events.length;
-console.log(`사건 ${events.length}건 자리의 나라 차례(평균 ${avg.toFixed(1)}개) → src/data/generated/lands.json`);
+const avg = Object.values(runs).reduce((s, l) => s + l.length, 0) / places.length;
+console.log(`상세 페이지 ${places.length}곳 자리의 나라 차례(평균 ${avg.toFixed(1)}개) → src/data/generated/lands.json`);

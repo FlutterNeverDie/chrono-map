@@ -6,10 +6,12 @@ import { useEffect, useMemo, useState } from "react";
 import clsx from "clsx";
 import { fill } from "@/i18n";
 import { useI18n } from "@/i18n/I18nProvider";
+import { localeHref } from "@/i18n/locales";
 import { ChevronUpIcon, XIcon } from "@/components/ui/icons";
 import { WikiLink } from "@/components/ui/WikiLink";
 import { withAd } from "@/components/ui/withAd";
 import { ExpandableText } from "@/components/ui/ExpandableText";
+import { PageLink } from "@/components/ui/PageLink";
 import { useCampaign, useCampaignState } from "./store";
 import {
   battleSummary,
@@ -137,6 +139,12 @@ export function BattlePanel({ ad }: { ad?: ReactNode } = {}) {
               moreLabel={messages.ui.details}
               lessLabel={messages.ui.collapse}
               className="mt-2 text-[15px] text-muted lg:text-lg"
+              expanded={
+                <PageLink
+                  href={localeHref(locale, `wars/${c.id}/about`)}
+                  label={messages.ui.detailPage}
+                />
+              }
               trailing={
                 war.page && (
                   <WikiLink
@@ -184,6 +192,16 @@ export function BattlePanel({ ad }: { ad?: ReactNode } = {}) {
                         moreLabel={messages.ui.details}
                         lessLabel={messages.ui.collapse}
                         className="mt-2 text-base text-muted lg:text-lg xl:text-[19px]"
+                        expanded={
+                          // 전투마다 페이지를 두지 않고 전쟁 상세의 그 전투 자리로(정적 파일 수 한도)
+                          <PageLink
+                            href={localeHref(
+                              locale,
+                              `wars/${c.id}/about#battle-${b.id}`,
+                            )}
+                            label={messages.ui.detailPage}
+                          />
+                        }
                         trailing={
                           summary.page && (
                             <WikiLink

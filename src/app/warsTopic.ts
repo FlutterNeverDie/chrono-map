@@ -42,6 +42,7 @@ export function warsTopic(): Topic {
         title: c.title,
         summary: c.summary,
         link: `wars/${c.id}`,
+        page: `wars/${c.id}/about`,
       };
     }),
   };

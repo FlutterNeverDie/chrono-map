@@ -1,7 +1,7 @@
 # app — 라우트 규칙
 
 - 라우트 파일 + 화면 조립(`HomeScreen.tsx` 크로노맵, `CampaignScreen.tsx` 전쟁 지도, `TopicScreen.tsx` 주제 지도·전쟁 지도 첫 화면, `warsTopic.ts` 전쟁 목록 → 주제 지도 데이터), 공용 하단 바 `BottomBar.tsx`(지도 아이콘 · 슬라이더 · 설정)와 위쪽 도구 `SiteHeader.tsx`, html 뼈대 `RootDocument.tsx`만 둔다. UI 로직은 `src/features`에서 가져온다.
-- 라우트(언어마다 `/` 또는 `/en` 아래): 지도 `/`, 연도 페이지 `/year`·`/year/[slug]`, 공유 이미지 `og.png`(첫 화면·연도·사건, 빌드 때 PNG — components/og), 전쟁 지도 첫 화면 `/wars`(모든 전쟁이 보이는 지도 — 상단 "전쟁 지도" 탭은 바로 여기로)·각 전쟁 `/wars/[id]`, 주제 지도 `/maps/[id]`, 사건 상세 `/event/[id]`, `/about`, `/privacy`, `/contact`, `/guide`(사용 설명서), 그리고 `sitemap.xml`·`robots.txt`(주소는 `site.ts`, 배포 시 `NEXT_PUBLIC_SITE_URL`).
+- 라우트(언어마다 `/` 또는 `/en` 아래): 지도 `/`, 연도 페이지 `/year`·`/year/[slug]`, 공유 이미지 `og.png`(첫 화면·연도·사건, 빌드 때 PNG — components/og), 전쟁 지도 첫 화면 `/wars`(모든 전쟁이 보이는 지도 — 상단 "전쟁 지도" 탭은 바로 여기로)·각 전쟁 `/wars/[id]`, 주제 지도 `/maps/[id]`, 사건 상세 `/event/[id]`, `/about`, `/privacy`, `/contact`, `/guide`(사용 설명서), 상세 `/maps/[id]/[item]`(주제 지도 항목)·`/wars/[id]/about`(전쟁 + 전투, 조립은 `details.tsx`), 그리고 `sitemap.xml`·`robots.txt`(주소는 `site.ts`, 배포 시 `NEXT_PUBLIC_SITE_URL`).
 - 루트 레이아웃이 두 개다(다국어 + 한국어 기본 `/`):
   - `(home)/layout.tsx` + `page.tsx` → `/` (한국어). 전에 다른 언어를 골랐으면 그 언어 경로로 이동.
   - `[locale]/layout.tsx` + `page.tsx` → `/en`, `/zh` … (한국어 제외 7개, `generateStaticParams`).

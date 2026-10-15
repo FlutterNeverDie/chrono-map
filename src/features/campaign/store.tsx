@@ -1,6 +1,12 @@
 "use client";
 
-import { createContext, useContext, useState, type ReactNode } from "react";
+import {
+  createContext,
+  useContext,
+  useEffect,
+  useState,
+  type ReactNode,
+} from "react";
 import { createStore, useStore, type StoreApi } from "zustand";
 import type { Campaign } from "./types";
 
@@ -49,6 +55,17 @@ export function CampaignProvider({
         set((s) => ({ focus: { coords, nonce: (s.focus?.nonce ?? 0) + 1 } })),
     })),
   );
+  // 주소에 ?battle=<id>가 있으면 그 전투를 고른 상태로 시작(전쟁 상세 페이지의 전투 "지도에서 보기")
+  useEffect(() => {
+    const id = new URLSearchParams(window.location.search).get("battle");
+    const battle = id && campaign.battles.find((b) => b.id === id);
+    if (!battle) return;
+    const s = store.getState();
+    s.setT(battle.start);
+    s.selectBattle(battle.id);
+    s.focusOn(battle.coords);
+  }, [campaign, store]);
+
   return <Ctx.Provider value={{ campaign, store }}>{children}</Ctx.Provider>;
 }
 

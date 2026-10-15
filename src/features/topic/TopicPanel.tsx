@@ -12,6 +12,7 @@ import { ChevronUpIcon, XIcon } from "@/components/ui/icons";
 import { WikiLink } from "@/components/ui/WikiLink";
 import { withAd } from "@/components/ui/withAd";
 import { ExpandableText } from "@/components/ui/ExpandableText";
+import { PageLink } from "@/components/ui/PageLink";
 import { useTopic, useTopicState } from "./store";
 import {
   currentItems,
@@ -157,6 +158,15 @@ export function TopicPanel({ ad }: { ad?: ReactNode } = {}) {
                         moreLabel={messages.ui.details}
                         lessLabel={messages.ui.collapse}
                         className="mt-2 text-base text-muted lg:text-lg xl:text-[19px]"
+                        expanded={
+                          <PageLink
+                            href={localeHref(
+                              locale,
+                              it.page ?? `maps/${topic.id}/${it.id}`,
+                            )}
+                            label={messages.ui.detailPage}
+                          />
+                        }
                         trailing={
                           summary.page && (
                             <WikiLink

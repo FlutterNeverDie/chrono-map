@@ -2,8 +2,9 @@ import type { Locale } from "@/lib/types";
 import generated from "./generated/lands.json";
 
 /**
- * 사건 자리를 다스린 나라의 차례(사건 상세 "이 땅을 다스린 나라"). **서버에서만** import.
- * `npm run lands`(scripts/build-lands.ts)가 국경 스냅샷(public/borders)에서 사건 좌표가 속한 나라를 찾아 만든다.
+ * 상세 페이지(사건·전쟁·주제 지도 항목) 자리를 다스린 나라의 차례("이 땅을 다스린 나라"). **서버에서만** import.
+ * `npm run lands`(scripts/build-lands.ts)가 국경 스냅샷(public/borders)에서 그 좌표가 속한 나라를 찾아 만든다.
+ * 열쇠는 상세 페이지 경로: `event/<id>`, `wars/<id>`, `maps/<지도>/<항목>`.
  */
 export type LandRun = {
   /** 국경 원본 이름(public/borders의 n) */
@@ -19,5 +20,5 @@ const lands = generated as unknown as {
   names: Record<Locale, Record<string, string>>;
 };
 
-export const landRuns = (eventId: string): LandRun[] => lands.runs[eventId] ?? [];
+export const landRuns = (path: string): LandRun[] => lands.runs[path] ?? [];
 export const landName = (n: string, locale: Locale) => lands.names[locale][n] ?? n;

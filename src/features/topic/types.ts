@@ -23,6 +23,8 @@ export type TopicItem = {
   summary?: Partial<Record<Locale, string>>;
   /** (선택) 더 자세한 지도로 가는 경로(언어 접두어 없이, 예: "wars/imjin-war") */
   link?: string;
+  /** (선택) 상세 페이지 경로(언어 접두어 없이). 없으면 maps/<지도>/<항목> - 전쟁 목록(/wars)은 wars/<id>/about */
+  page?: string;
 };
 
 export type Topic = {
