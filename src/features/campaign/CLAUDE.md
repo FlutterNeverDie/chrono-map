@@ -12,7 +12,7 @@
   직접 쓴 summary가 있는 언어의 위키백과 요약은 빌드(scripts/campaigns/build.ts)에서 이미 빠져 있고, `wikipedia`가 없는 전투는 wiki가 비어 있다.
 - `store.tsx`: `CampaignProvider`(전쟁 데이터 + 페이지 전용 zustand 상태: 시점 t, 선택 전투, 패널, 지도 이동 요청). 주소에 `?battle=<id>`가 있으면 그 전투를 고르고 그 시점·위치로 시작(전쟁 상세의 전투 "지도에서 보기").
 - `CampaignMap.tsx`: 진영 색(진영 없으면 나라별 색) 영토, 해안선으로 자름, 전투 표시, 끌기·휠·두 번 클릭 확대, 전투 목록에서 고르면 그 전투로 이동(패널에 가리지 않게).
-- `BattlePanel.tsx`: "이 시기"(슬라이더 시점의 전투, 중요한 순 + 맨 위 전쟁 요약) / "전체 전투"(전쟁 전체 시간 순, 고르면 슬라이더도 그 시점으로). 글은 접어 두고 "펼치기"로 그 자리에서 펼침. 위키백과 링크 + CC BY-SA 4.0. 펼치면 "상세 페이지로" → 전쟁 요약은 `wars/<id>/about`, 전투는 `wars/<id>/about#battle-<id>`.
+- `BattlePanel.tsx`: "이 시기"(슬라이더 시점의 전투, 중요한 순 + 맨 위 전쟁 요약) / "전체 전투"(전쟁 전체 시간 순, 고르면 슬라이더도 그 시점으로). 글은 3~4줄까지(`CardSummary`). 위키백과 링크 + CC BY-SA 4.0. "자세히 ›"는 바로 상세 페이지로 → 전쟁 요약은 `wars/<id>/about`, 전투는 `wars/<id>/about#battle-<id>`.
 - `TimeGauge.tsx`: 전투 단위 슬라이더 — 한 칸 = 전투 하나(시작 순, 같은 시점이면 중요한 순, 같은 간격). 말풍선은 연도 대신 전투 이름, 끌기·◀ ▶ 모두 한 칸씩. 옮기면 그 전투 시점으로 가고 `markBattle`로 강조만 한다(목록 패널은 열지 않음 — `selectBattle`은 패널을 연다). 아래 눈금은 몇몇 칸의 연도. 전투가 하나 이하면 기간 슬라이더. `Legend.tsx`: ‹ 전쟁 지도 목록으로 + 전쟁 이름 + 진영 범례.
 - `meta.ts`: 페이지 메타데이터(서버) — 각 전쟁 `campaignMetadata`, 첫 화면 `warsMetadata`.
 - 진영 색은 `globals.css`의 `--side-a`(빨강) `--side-b`(파랑) `--side-n`(기타).

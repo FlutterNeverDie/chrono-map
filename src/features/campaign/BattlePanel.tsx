@@ -10,8 +10,7 @@ import { localeHref } from "@/i18n/locales";
 import { ChevronUpIcon, XIcon } from "@/components/ui/icons";
 import { WikiLink } from "@/components/ui/WikiLink";
 import { withAd } from "@/components/ui/withAd";
-import { ExpandableText } from "@/components/ui/ExpandableText";
-import { PageLink } from "@/components/ui/PageLink";
+import { CardSummary } from "@/components/ui/CardSummary";
 import { useCampaign, useCampaignState } from "./store";
 import {
   battleSummary,
@@ -133,18 +132,12 @@ export function BattlePanel({ ad }: { ad?: ReactNode } = {}) {
             <p className="mt-0.5 text-sm text-muted">
               {formatRange(c.start, c.end, c.unit, locale)}
             </p>
-            <ExpandableText
+            <CardSummary
               text={war.text}
               lang={war.lang}
+              href={localeHref(locale, `wars/${c.id}/about`)}
               moreLabel={messages.ui.details}
-              lessLabel={messages.ui.collapse}
               className="mt-2 text-[15px] text-muted lg:text-lg"
-              expanded={
-                <PageLink
-                  href={localeHref(locale, `wars/${c.id}/about`)}
-                  label={messages.ui.detailPage}
-                />
-              }
               trailing={
                 war.page && (
                   <WikiLink
@@ -184,35 +177,26 @@ export function BattlePanel({ ad }: { ad?: ReactNode } = {}) {
                     <h3 className="mt-1.5 text-xl leading-snug font-bold lg:text-2xl xl:text-[26px]">
                       {battleTitle(b, locale)}
                     </h3>
-                    {summary.text && (
-                      <ExpandableText
-                        text={summary.text}
-                        lang={summary.lang}
-                        lines={3}
-                        moreLabel={messages.ui.details}
-                        lessLabel={messages.ui.collapse}
-                        className="mt-2 text-base text-muted lg:text-lg xl:text-[19px]"
-                        expanded={
-                          // 전투마다 페이지를 두지 않고 전쟁 상세의 그 전투 자리로(정적 파일 수 한도)
-                          <PageLink
-                            href={localeHref(
-                              locale,
-                              `wars/${c.id}/about#battle-${b.id}`,
-                            )}
-                            label={messages.ui.detailPage}
+                    <CardSummary
+                      text={summary.text}
+                      lang={summary.lang}
+                      lines={3}
+                      href={localeHref(
+                        locale,
+                        `wars/${c.id}/about#battle-${b.id}`,
+                      )}
+                      moreLabel={messages.ui.details}
+                      className="mt-2 text-base text-muted lg:text-lg xl:text-[19px]"
+                      trailing={
+                        summary.page && (
+                          <WikiLink
+                            href={summary.page.url}
+                            label={messages.ui.readMore}
+                            source={`${messages.ui.wikipedia} · CC BY-SA 4.0`}
                           />
-                        }
-                        trailing={
-                          summary.page && (
-                            <WikiLink
-                              href={summary.page.url}
-                              label={messages.ui.readMore}
-                              source={`${messages.ui.wikipedia} · CC BY-SA 4.0`}
-                            />
-                          )
-                        }
-                      />
-                    )}
+                        )
+                      }
+                    />
                   </article>
                 </li>
               );

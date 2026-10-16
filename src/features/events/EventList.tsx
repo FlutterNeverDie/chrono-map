@@ -19,8 +19,7 @@ import { localeHref } from "@/i18n/locales";
 import { PinIcon } from "@/components/ui/icons";
 import { WikiLink } from "@/components/ui/WikiLink";
 import { withAd } from "@/components/ui/withAd";
-import { ExpandableText } from "@/components/ui/ExpandableText";
-import { PageLink } from "@/components/ui/PageLink";
+import { CardSummary } from "@/components/ui/CardSummary";
 
 /** 사건 카드를 한 번에 그리는 수 */
 const PAGE = 20;
@@ -129,20 +128,13 @@ export function EventList({ ad }: { ad?: ReactNode } = {}) {
                       {eventTitle(e, locale)}
                     </button>
                   </h3>
-                  {/* 위키백과 첫 문단을 그대로 보여준다. 4줄까지 접어 두고 "자세히"로 그 자리에서 펼친다 */}
-                  <ExpandableText
+                  {/* 위키백과 첫 문단을 4줄까지 보여 주고, "자세히"는 바로 사건 상세 페이지로(글 전체 + 본문 광고) */}
+                  <CardSummary
                     text={summary.text}
                     lang={summary.lang}
+                    href={localeHref(locale, `event/${e.id}`)}
                     moreLabel={messages.ui.details}
-                    lessLabel={messages.ui.collapse}
                     className="mt-2 text-base text-muted lg:text-lg xl:text-[19px]"
-                    expanded={
-                      // 끝까지 읽은 사람에게만: 사건 상세 페이지(글 + 본문 광고)로
-                      <PageLink
-                        href={localeHref(locale, `event/${e.id}`)}
-                        label={messages.ui.eventPage}
-                      />
-                    }
                     trailing={
                       summary.page && (
                         <WikiLink

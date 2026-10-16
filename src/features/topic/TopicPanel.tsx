@@ -11,8 +11,7 @@ import { pick } from "@/lib/localize";
 import { ChevronUpIcon, XIcon } from "@/components/ui/icons";
 import { WikiLink } from "@/components/ui/WikiLink";
 import { withAd } from "@/components/ui/withAd";
-import { ExpandableText } from "@/components/ui/ExpandableText";
-import { PageLink } from "@/components/ui/PageLink";
+import { CardSummary } from "@/components/ui/CardSummary";
 import { useTopic, useTopicState } from "./store";
 import {
   currentItems,
@@ -150,34 +149,26 @@ export function TopicPanel({ ad }: { ad?: ReactNode } = {}) {
                     <h3 className="mt-1.5 text-xl leading-snug font-bold lg:text-2xl xl:text-[26px]">
                       {itemTitle(it, locale)}
                     </h3>
-                    {summary.text && (
-                      <ExpandableText
-                        text={summary.text}
-                        lang={summary.lang}
-                        lines={3}
-                        moreLabel={messages.ui.details}
-                        lessLabel={messages.ui.collapse}
-                        className="mt-2 text-base text-muted lg:text-lg xl:text-[19px]"
-                        expanded={
-                          <PageLink
-                            href={localeHref(
-                              locale,
-                              it.page ?? `maps/${topic.id}/${it.id}`,
-                            )}
-                            label={messages.ui.detailPage}
+                    <CardSummary
+                      text={summary.text}
+                      lang={summary.lang}
+                      lines={3}
+                      href={localeHref(
+                        locale,
+                        it.page ?? `maps/${topic.id}/${it.id}`,
+                      )}
+                      moreLabel={messages.ui.details}
+                      className="mt-2 text-base text-muted lg:text-lg xl:text-[19px]"
+                      trailing={
+                        summary.page && (
+                          <WikiLink
+                            href={summary.page.url}
+                            label={messages.ui.readMore}
+                            source={`${messages.ui.wikipedia} · CC BY-SA 4.0`}
                           />
-                        }
-                        trailing={
-                          summary.page && (
-                            <WikiLink
-                              href={summary.page.url}
-                              label={messages.ui.readMore}
-                              source={`${messages.ui.wikipedia} · CC BY-SA 4.0`}
-                            />
-                          )
-                        }
-                      />
-                    )}
+                        )
+                      }
+                    />
                     {it.link && (
                       <a
                         href={localeHref(locale, it.link)}
