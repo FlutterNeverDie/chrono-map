@@ -179,6 +179,10 @@ export const hi: Messages = {
     nextItem: "अगला आइटम",
     showMore: "और देखें",
     selectYear: "वर्ष चुनें",
+    /** 지도 위 제목: 선택 기간({p} = "1940년대")의 세계 */
+    worldIn: "{p} का विश्व",
+    /** 처음 방문 때 슬라이더 위 안내 */
+    gaugeHint: "समय में यात्रा के लिए खींचें",
     toDark: "डार्क मोड पर जाएँ",
     toLight: "लाइट मोड पर जाएँ",
     events: "घटनाएँ",

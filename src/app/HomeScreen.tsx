@@ -3,7 +3,7 @@ import { getMessages } from "@/i18n";
 import { I18nProvider } from "@/i18n/I18nProvider";
 import { YearGauge, YearStepSetting } from "@/features/timeline";
 import { Attribution, WorldMap } from "@/features/map";
-import { EventPanel } from "@/features/events";
+import { EventPanel, MapTitle } from "@/features/events";
 import { EventsProvider } from "@/store/events";
 import { localizeEvent } from "@/lib/localize";
 import { EVENTS, RANKINGS } from "@/data/content";
@@ -28,6 +28,8 @@ export function HomeScreen({ locale }: { locale: Locale }) {
           <div className="absolute inset-x-0 top-0 bottom-[var(--bar-h)]">
             <WorldMap />
           </div>
+
+          <MapTitle />
 
           <EventPanel ad={<AdSlot name="infeed" />} />
 

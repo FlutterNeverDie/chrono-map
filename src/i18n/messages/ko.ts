@@ -177,6 +177,10 @@ export const ko = {
     nextItem: "다음 항목",
     showMore: "더 보기",
     selectYear: "연도 선택",
+    /** 지도 위 제목: 선택 기간({p} = "1940년대")의 세계 */
+    worldIn: "{p}의 세계",
+    /** 처음 방문 때 슬라이더 위 안내 */
+    gaugeHint: "끌어서 시대 이동",
     toDark: "다크 모드로 전환",
     toLight: "일반 모드로 전환",
     events: "사건",

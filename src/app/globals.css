@@ -69,6 +69,13 @@
   --color-accent: var(--accent);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  /* 처음 방문 때 슬라이더 손잡이를 좌우로 살짝 흔든다(YearGauge 안내) */
+  --animate-nudge: nudge 1s ease-in-out 4;
+  @keyframes nudge {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-6px); }
+    75% { transform: translateX(6px); }
+  }
 }
 
 html {

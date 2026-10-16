@@ -175,6 +175,10 @@ export const zh: Messages = {
     nextItem: "下一项",
     showMore: "显示更多",
     selectYear: "选择年份",
+    /** 지도 위 제목: 선택 기간({p} = "1940년대")의 세계 */
+    worldIn: "{p}的世界",
+    /** 처음 방문 때 슬라이더 위 안내 */
+    gaugeHint: "拖动穿越时代",
     toDark: "切换到深色模式",
     toLight: "切换到浅色模式",
     events: "事件",

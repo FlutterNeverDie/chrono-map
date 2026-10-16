@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import * as Slider from "@radix-ui/react-slider";
 import clsx from "clsx";
 import { usePeriod, useTimeline } from "@/store/timeline";
@@ -38,8 +39,11 @@ export function YearGauge({ className }: { className?: string }) {
   const label = formatPeriod(period, locale);
   const position = yearToPosition(period.start);
   const yearStep = useTimeline((s) => s.step);
-  const step = (direction: 1 | -1) =>
+  const [hint, dismissHint] = useGaugeHint();
+  const step = (direction: 1 | -1) => {
+    dismissHint();
     setYear(stepPeriod(period, direction, yearStep).start);
+  };
 
   return (
     // 아랍어(RTL)에서도 시간 축은 왼쪽(과거) → 오른쪽(현재)
@@ -65,6 +69,7 @@ export function YearGauge({ className }: { className?: string }) {
           step={1}
           value={[position]}
           onValueChange={([p]) => setYear(positionToYear(p))}
+          onPointerDown={dismissHint}
           className="relative flex h-12 w-full touch-none items-center select-none"
         >
           <Slider.Track className="relative h-1.5 grow rounded-full bg-line">
@@ -76,7 +81,28 @@ export function YearGauge({ className }: { className?: string }) {
             aria-valuetext={label}
             className="group relative flex size-12 items-center justify-center focus:outline-none"
           >
-            <span className="block size-5 rounded-full border-[3px] border-accent bg-surface shadow-sm transition-transform group-focus-visible:ring-4 group-focus-visible:ring-accent/30 group-active:scale-110" />
+            <span
+              className={clsx(
+                "block size-5 rounded-full border-[3px] border-accent bg-surface shadow-sm transition-transform group-focus-visible:ring-4 group-focus-visible:ring-accent/30 group-active:scale-110",
+                hint && "motion-safe:animate-nudge",
+              )}
+            />
+            {/* 처음 방문 때만: 기간 말풍선 위에 "← 끌어서 시대 이동 →" */}
+            {hint && (
+              <span
+                aria-hidden
+                className={clsx(
+                  "pointer-events-none absolute bottom-full mb-10 rounded-md bg-accent px-3 py-1.5 text-sm leading-none font-semibold whitespace-nowrap text-white shadow-md",
+                  position < 80
+                    ? "start-1"
+                    : position > 920
+                      ? "end-1"
+                      : "start-1/2 -translate-x-1/2",
+                )}
+              >
+                ← {messages.ui.gaugeHint} →
+              </span>
+            )}
             {/* 현재 기간: 손잡이 바로 위. 양 끝에서는 화면 밖으로 나가지 않게 한쪽으로 붙인다 */}
             <span
               aria-hidden
@@ -154,4 +180,30 @@ export function YearGauge({ className }: { className?: string }) {
       </button>
     </div>
   );
+}
+
+/** 처음 방문 때만 슬라이더 안내(손잡이 흔들기 + 말풍선). 한 번 보이면 기억하고(localStorage `gaugeHint`), 만지거나 6초 뒤 사라진다 */
+const HINT_KEY = "gaugeHint";
+function useGaugeHint(): [boolean, () => void] {
+  const [hint, setHint] = useState(false);
+  useEffect(() => {
+    try {
+      if (localStorage.getItem(HINT_KEY)) return;
+    } catch {
+      return;
+    }
+    // 하이드레이션 뒤에 켜고, 실제로 보인 때 기억한다(개발 모드에서 효과가 두 번 실행돼도 첫 실행이 기억만 남기지 않게)
+    const on = setTimeout(() => {
+      setHint(true);
+      try {
+        localStorage.setItem(HINT_KEY, "1");
+      } catch {}
+    }, 600);
+    const off = setTimeout(() => setHint(false), 6600);
+    return () => {
+      clearTimeout(on);
+      clearTimeout(off);
+    };
+  }, []);
+  return [hint, () => setHint(false)];
 }

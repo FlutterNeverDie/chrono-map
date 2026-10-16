@@ -6,6 +6,8 @@ import clsx from "clsx";
 import { useUi } from "@/store/ui";
 import { usePeriod } from "@/store/timeline";
 import { formatPeriodRange } from "@/lib/period";
+import { eventTitle } from "@/lib/localize";
+import { formatWhen } from "@/lib/year";
 import { fill } from "@/i18n";
 import { useI18n } from "@/i18n/I18nProvider";
 import { ChevronUpIcon, XIcon } from "@/components/ui/icons";
@@ -22,7 +24,10 @@ export function EventPanel({ ad }: { ad?: ReactNode } = {}) {
   const period = usePeriod();
   const open = useUi((s) => s.panelOpen);
   const setOpen = useUi((s) => s.setPanelOpen);
-  const count = useRankedEvents().length;
+  const ranked = useRankedEvents();
+  const count = ranked.length;
+  // 모바일에서 접혀 있을 때 맨 위 사건을 미리 보여 준다(사건 목록이 있다는 것, 누르고 싶게)
+  const preview = !open ? ranked[0] : undefined;
 
   return (
     <section
@@ -39,9 +44,27 @@ export function EventPanel({ ad }: { ad?: ReactNode } = {}) {
         onClick={() => setOpen(!open)}
         aria-expanded={open}
         aria-label={open ? messages.ui.closeEvents : messages.ui.openEvents}
-        className="flex h-14 shrink-0 items-center justify-between px-5 text-lg font-bold lg:pointer-events-none lg:h-16 lg:text-2xl"
+        className={clsx(
+          "flex shrink-0 items-center justify-between gap-3 px-5 text-lg font-bold lg:pointer-events-none lg:h-16 lg:text-2xl",
+          preview ? "h-16" : "h-14",
+        )}
       >
-        <span>
+        {preview && (
+          <span className="flex min-w-0 flex-col items-start lg:hidden">
+            <span className="text-sm font-medium text-muted">
+              {messages.ui.events} ·{" "}
+              {fill(messages.ui.eventCount, { n: count })} ·{" "}
+              {formatPeriodRange(period, locale)}
+            </span>
+            <span className="w-full truncate text-start text-base">
+              {eventTitle(preview, locale)}
+              <span className="ms-2 text-sm font-medium text-muted">
+                {formatWhen(preview, locale)}
+              </span>
+            </span>
+          </span>
+        )}
+        <span className={clsx(preview && "max-lg:hidden")}>
           {messages.ui.events} · {fill(messages.ui.eventCount, { n: count })}
           <span className="ms-2 text-base font-medium text-muted lg:text-xl">
             {formatPeriodRange(period, locale)}

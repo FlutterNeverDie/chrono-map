@@ -179,6 +179,10 @@ export const es: Messages = {
     nextItem: "Elemento siguiente",
     showMore: "Ver más",
     selectYear: "Seleccionar año",
+    /** 지도 위 제목: 선택 기간({p} = "1940년대")의 세계 */
+    worldIn: "Mapa mundial · {p}",
+    /** 처음 방문 때 슬라이더 위 안내 */
+    gaugeHint: "Arrastra para viajar en el tiempo",
     toDark: "Cambiar a modo oscuro",
     toLight: "Cambiar a modo claro",
     events: "Eventos",
