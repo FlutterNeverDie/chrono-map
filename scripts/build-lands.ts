@@ -2,7 +2,8 @@
 //   + 사건(content.json)·전쟁(campaigns.json)·주제 지도 항목(topics.json)의 좌표
 //   → src/data/generated/lands.json ("이 땅을 다스린 나라", 네트워크 없음, dev/build 전에 자동)
 // npm run content·wars:build·topics:build 뒤에 돈다. 열쇠는 상세 페이지 경로(event/<id>, wars/<id>, maps/<지도>/<항목>)
-import { readFileSync, writeFileSync } from "node:fs";
+import { createHash } from "node:crypto";
+import { existsSync, readFileSync, readdirSync, statSync, writeFileSync } from "node:fs";
 import { geoArea } from "d3-geo";
 import { feature } from "topojson-client";
 import type { Feature, MultiPolygon, Polygon } from "geojson";
@@ -12,7 +13,10 @@ import { LOCALES } from "../src/i18n/locales";
 import { root } from "./lib/content";
 
 type Props = { n: string; a: number };
-type Shape = { f: Feature<Polygon | MultiPolygon, Props>; box: [[number, number], [number, number]] };
+type Box = [[number, number], [number, number]];
+type Ring = number[][];
+// 다각형(섬 하나)마다 상자를 따로 둔다 - 섬이 수백 개인 제국도 점 근처 다각형만 짝홀 검사
+type Shape = { n: string; a: number; box: Box; polys: { rings: Ring[]; box: Box }[] };
 // 형식은 src/data/lands.ts의 LandRun
 type LandRun = { n: string; from: number; to: number | null };
 
@@ -35,38 +39,53 @@ const places: { key: string; coords: Coords }[] = [
 ];
 const years = JSON.parse(readFileSync(`${BORDERS}/index.json`, "utf8")) as number[];
 
+// 입력(이 스크립트·자리 좌표·국경 파일)이 지난번과 같으면 다시 계산하지 않는다(약 6초 → dev를 켤 때마다 기다리지 않게)
+const OUT = root("src/data/generated/lands.json");
+const STAMP = root("src/data/generated/lands.stamp");
+const borderFiles = [...readdirSync(BORDERS), ...readdirSync(`${BORDERS}/names`).map((f) => `names/${f}`)].sort();
+const stamp = createHash("sha1")
+  .update(readFileSync(new URL(import.meta.url)))
+  .update(JSON.stringify(places))
+  .update(borderFiles.map((f) => `${f}:${statSync(`${BORDERS}/${f}`).size}:${statSync(`${BORDERS}/${f}`).mtimeMs}`).join("\n"))
+  .digest("hex");
+if (existsSync(OUT) && existsSync(STAMP) && readFileSync(STAMP, "utf8") === stamp) {
+  console.log("이 땅을 다스린 나라: 입력이 그대로라 건너뜀(src/data/generated/lands.json)");
+  process.exit(0);
+}
+
 // 바다 위 사건(해전·작은 섬 등)은 둘레를 조금씩 넓혀 가며 가장 가까운 땅을 찾는다(약 30km ~ 220km. 더 넓히면 바다 건너 엉뚱한 나라가 잡힌다)
 const RINGS = [0, 0.25, 0.5, 1, 2].flatMap((r) =>
   r === 0 ? [[0, 0]] : Array.from({ length: 8 }, (_, k) => [r * Math.cos((k * Math.PI) / 4), r * Math.sin((k * Math.PI) / 4)]),
 );
 
-const inBox = ([x, y]: number[], [[x0, y0], [x1, y1]]: Shape["box"]) => x >= x0 && x <= x1 && y >= y0 && y <= y1;
+const inBox = ([x, y]: number[], [[x0, y0], [x1, y1]]: Box) => x >= x0 && x <= x1 && y >= y0 && y <= y1;
 
-const polygonsOf = (g: Polygon | MultiPolygon) => (g.type === "Polygon" ? [g.coordinates] : g.coordinates);
-
-/** 경위도 평면에서 점이 도형 안인지(짝홀 규칙, 구멍 포함). d3 geoContains(구면)보다 수십 배 빠르고, 나라 하나 크기에서는 결과가 같다 */
-function contains(g: Polygon | MultiPolygon, [x, y]: number[]): boolean {
+/** 경위도 평면에서 점이 다각형 안인지(짝홀 규칙, 구멍 포함). d3 geoContains(구면)보다 수십 배 빠르고, 나라 하나 크기에서는 결과가 같다 */
+function contains(rings: Ring[], [x, y]: number[]): boolean {
   let inside = false;
-  for (const rings of polygonsOf(g))
-    for (const ring of rings)
-      for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
-        const [xi, yi] = ring[i];
-        const [xj, yj] = ring[j];
-        if (yi > y !== yj > y && x < ((xj - xi) * (y - yi)) / (yj - yi) + xi) inside = !inside;
-      }
+  for (const ring of rings)
+    for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
+      const [xi, yi] = ring[i];
+      const [xj, yj] = ring[j];
+      if (yi > y !== yj > y && x < ((xj - xi) * (y - yi)) / (yj - yi) + xi) inside = !inside;
+    }
   return inside;
 }
 
-function boxOf(g: Polygon | MultiPolygon): Shape["box"] {
+function boxOf(points: number[][]): Box {
   let [x0, y0, x1, y1] = [Infinity, Infinity, -Infinity, -Infinity];
-  for (const rings of polygonsOf(g))
-    for (const [x, y] of rings[0]) {
-      x0 = Math.min(x0, x);
-      x1 = Math.max(x1, x);
-      y0 = Math.min(y0, y);
-      y1 = Math.max(y1, y);
-    }
+  for (const [x, y] of points) {
+    x0 = Math.min(x0, x);
+    x1 = Math.max(x1, x);
+    y0 = Math.min(y0, y);
+    y1 = Math.max(y1, y);
+  }
   return [[x0, y0], [x1, y1]];
+}
+
+function shapeOf({ geometry: g, properties: { n, a } }: Feature<Polygon | MultiPolygon, Props>): Shape {
+  const polys = (g.type === "Polygon" ? [g.coordinates] : g.coordinates).map((rings) => ({ rings, box: boxOf(rings[0]) }));
+  return { n, a, box: boxOf(polys.flatMap((q) => q.box)), polys };
 }
 
 /**
@@ -75,12 +94,10 @@ function boxOf(g: Polygon | MultiPolygon): Shape["box"] {
 function polityAt(shapes: Shape[], [lon, lat]: [number, number]): string | null {
   for (const [dx, dy] of RINGS) {
     const p = [lon + dx, lat + dy];
-    const hits = shapes.filter((s) => inBox(p, s.box) && contains(s.f.geometry, p));
+    const hits = shapes.filter((s) => inBox(p, s.box) && s.polys.some((q) => inBox(p, q.box) && contains(q.rings, p)));
     if (!hits.length) continue;
-    hits.sort(
-      (a, b) => Number(a.f.properties.n.startsWith("(")) - Number(b.f.properties.n.startsWith("(")) || a.f.properties.a - b.f.properties.a,
-    );
-    return hits[0].f.properties.n;
+    hits.sort((a, b) => Number(a.n.startsWith("(")) - Number(b.n.startsWith("(")) || a.a - b.a);
+    return hits[0].n;
   }
   return null;
 }
@@ -88,9 +105,9 @@ function polityAt(shapes: Shape[], [lon, lat]: [number, number]): string | null 
 const runs: Record<string, LandRun[]> = Object.fromEntries(places.map((p) => [p.key, []]));
 for (const year of years) {
   const t = JSON.parse(readFileSync(`${BORDERS}/${year}.json`, "utf8")) as Topology<{ p: GeometryCollection<Props> }>;
-  const shapes: Shape[] = (feature(t, t.objects.p).features as Shape["f"][])
+  const shapes = (feature(t, t.objects.p).features as Feature<Polygon | MultiPolygon, Props>[])
     .filter((f) => geoArea(f) < 2 * Math.PI) // 뒤집힌 도형은 지구 전체를 덮는다(화면과 같은 검사)
-    .map((f) => ({ f, box: boxOf(f.geometry) }));
+    .map(shapeOf);
   for (const place of places) {
     const n = polityAt(shapes, place.coords);
     const list = runs[place.key];
@@ -114,6 +131,7 @@ const names = Object.fromEntries(
   LOCALES.map((l) => [l, Object.fromEntries([...used].map((n) => [n, allNames[l][n] || allNames.en[n] || n]))]),
 );
 
-writeFileSync(root("src/data/generated/lands.json"), JSON.stringify({ runs, names }));
+writeFileSync(OUT, JSON.stringify({ runs, names }));
+writeFileSync(STAMP, stamp);
 const avg = Object.values(runs).reduce((s, l) => s + l.length, 0) / places.length;
 console.log(`상세 페이지 ${places.length}곳 자리의 나라 차례(평균 ${avg.toFixed(1)}개) → src/data/generated/lands.json`);
