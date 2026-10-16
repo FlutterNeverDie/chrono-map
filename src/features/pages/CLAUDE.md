@@ -4,7 +4,7 @@
 - `EventDetail` (/event/[id], /[언어]/event/[id]): 사건 제목·시기·지역·장소·분류, 위키백과 첫 문단, 원문 링크 + CC BY-SA 4.0, "지도에서 보기"(`?y=시작연도`). 검색 노출용 메타데이터는 `eventMetadata`.
   - 상세 페이지 공통 틀은 `DetailPage.tsx`(사건·주제 지도 항목·전쟁이 같이 씀): 제목·정보 표·설명·버튼 → children → 더 보기 → 광고 → 다른 지도 → 오류 제보. 항목·전쟁 상세의 조립은 `src/app/details.tsx`(지도 기능끼리 import하지 않으려고 app이 각 지도의 데이터를 꺼내 넘김).
   - 아래에 더 보기(`related.ts`의 `relatedFor` - 입력은 경로·좌표·기간): **이 땅의 앞뒤 사건**(500km 안, 적으면 1000km 안, 그래도 적으면 가장 가까운 6개 중에서 시기가 가까운 앞 3개·뒤 3개, 이 사건 강조), **이 땅을 다스린 나라**(`data/lands` - 국경 스냅샷에서 사건 자리가 속한 나라 차례, 그 언어 이름이 같은 이웃은 합침, 나라가 없는 자리(바다·작은 섬 14건)는 그 까닭을 적음, 이 사건 무렵 앞뒤 4개만 펼치고 나머지는 `<details>`로 접음, 누르면 그해 지도), **이 시기의 다른 지도**(`MapChips`, 연도 페이지와 공용, 이 페이지가 속한 지도는 뺌).
-- 주제 지도 항목 상세 `/maps/[id]/[item]`, 전쟁 상세 `/wars/[id]/about`(전쟁 설명 + 전투 전체, 전투마다 `#battle-<id>` - 전투마다 페이지를 두면 2,600여 개 × 8개 언어로 Cloudflare 정적 파일 한도 2만 개를 넘음). 지도 카드를 펼치면 "상세 페이지로"(`components/ui/PageLink`)가 여기로 온다.
+- 주제 지도 항목 상세 `/maps/[id]/[item]`, 전쟁 상세 `/wars/[id]/about`(전쟁 설명 + 전투 전체, 전투마다 `#battle-<id>` - 전투마다 페이지를 두면 2,600여 개 × 8개 언어로 Cloudflare 정적 파일 한도 2만 개를 넘음). 지도 카드의 "자세히 ›"(`components/ui/CardSummary`)가 여기로 온다.
 - `TextPage` (/about, /privacy, /contact, /guide 사용 설명서): 문구는 i18n 사전 `pages.aboutBody`·`pages.privacyBody`·`pages.guideBody`("## "로 시작하는 문단은 소제목). 내용을 바꾸면 8개 언어 모두 고친다. 사용 설명서는 화면 동작(설정 항목·조작)을 바꾸면 같이 고친다. 들어오는 길: 지도 설정(⚙)의 "사용 설명서", 글 페이지 바닥글, 사이트맵.
 - 서버 컴포넌트로 빌드 때 정적 HTML이 된다(검색·애드센스 심사에 중요).
 - 연도 페이지 (/year, /year/[slug], 언어별 /en/year/…, F-11): `years.ts`가 기간 목록·내용, `YearDetail`·`YearIndex`가 화면, 메타데이터는 `yearMetadata`·`yearIndexMetadata`(canonical·hreflang 포함).
