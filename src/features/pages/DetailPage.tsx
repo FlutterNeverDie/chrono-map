@@ -4,7 +4,7 @@ import { fill, getMessages } from "@/i18n";
 import { localeHref } from "@/i18n/locales";
 import { eventTitle } from "@/lib/localize";
 import { formatWhen, formatYear, formatYearRange } from "@/lib/year";
-import { reportIssueUrl } from "@/data/links";
+import { CC_BY_SA_4, reportIssueUrl } from "@/data/links";
 import { ExternalIcon } from "@/components/ui/icons";
 import { formatPeriod, periodOf } from "@/lib/period";
 import { MapChips } from "./MapChips";
@@ -96,8 +96,25 @@ export function DetailPage({
       </div>
       {summary.page && (
         <p className="mt-4 text-sm text-muted">
-          {messages.pages.sources}: {messages.ui.wikipedia} —{" "}
-          {summary.page.title} · CC BY-SA 4.0
+          {/* 출처 표기: 원문 문서 링크 + 라이선스 원문 링크(CC BY-SA 4.0 조건) */}
+          {messages.pages.sources}: {messages.ui.wikipedia} -{" "}
+          <a
+            href={summary.page.url}
+            target="_blank"
+            rel="noreferrer"
+            className="underline hover:text-foreground"
+          >
+            {summary.page.title}
+          </a>{" "}
+          ·{" "}
+          <a
+            href={CC_BY_SA_4}
+            target="_blank"
+            rel="license noreferrer"
+            className="underline hover:text-foreground"
+          >
+            CC BY-SA 4.0
+          </a>
         </p>
       )}
       {sources.length > 0 && (
@@ -232,7 +249,7 @@ function Lands({
       >
         <span className="w-40 shrink-0 text-sm text-muted">
           {r.to === null
-            ? `${formatYear(r.from, locale)} –`
+            ? `${formatYear(r.from, locale)}~`
             : formatYearRange(r.from, r.to, locale)}
         </span>
         <span>{r.name}</span>
@@ -266,7 +283,6 @@ function Lands({
   );
 }
 
-
 /**
  * 페이지·공유 제목 "제목 (때)". 위키백과 제목에 이미 괄호가 있으면 겹치지 않게:
  * 괄호 안에 연도가 있으면("Siege of Jerusalem (587 BC)") 그대로, 아니면 "Trinity (nuclear test), 1945"
@@ -274,9 +290,10 @@ function Lands({
 export function titleWithWhen(title: string, when: string): string {
   const paren = title.match(/\(([^()]*)\)$/);
   if (!paren) return `${title} (${when})`;
-  return /\d{3}|\b(BC|AD|BCE|CE)\b/.test(paren[1]) ? title : `${title}, ${when}`;
+  return /\d{3}|\b(BC|AD|BCE|CE)\b/.test(paren[1])
+    ? title
+    : `${title}, ${when}`;
 }
-
 
 /** "○○년대 세계사" 버튼: 그 해의 연도 페이지가 있을 때만(연도 페이지는 사건이 있는 기간만 만든다) */
 export function yearPageLink(locale: Locale, year: number): DetailLink[] {

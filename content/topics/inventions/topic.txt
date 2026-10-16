@@ -17,7 +17,7 @@ description.ko: 불과 문자부터 비행기와 미사일, 인터넷까지, 인
 description.en: From fire and writing to airplanes, missiles and the internet, see when and where humanity's landmark inventions appeared.
 description.zh: 从火与文字到飞机、导弹和互联网，在地图上查看人类代表性发明出现的时间和地点。
 description.es: Del fuego y la escritura a los aviones, los misiles e internet: mira cuándo y dónde surgieron los grandes inventos.
-description.hi: आग और लेखन से हवाई जहाज़, मिसाइल और इंटरनेट तक — देखें कि मानवता के बड़े आविष्कार कब और कहाँ हुए।
+description.hi: आग और लेखन से हवाई जहाज़, मिसाइल और इंटरनेट तक - देखें कि मानवता के बड़े आविष्कार कब और कहाँ हुए।
 description.ar: من النار والكتابة إلى الطائرات والصواريخ والإنترنت، شاهد متى وأين ظهرت أبرز اختراعات البشرية.
 description.fr: Du feu et de l'écriture à l'avion, aux missiles et à Internet : voyez quand et où sont nées les grandes inventions.
 description.pt: Do fogo e da escrita ao avião, aos mísseis e à internet: veja quando e onde surgiram as grandes invenções.

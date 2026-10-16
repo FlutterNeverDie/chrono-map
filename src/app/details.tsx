@@ -5,6 +5,7 @@ import { localeHref } from "@/i18n/locales";
 import { pageAlternates } from "@/i18n/alternates";
 import { clipText, eventTitle, pick } from "@/lib/localize";
 import { EVENTS } from "@/data/content";
+import { CC_BY_SA_4 } from "@/data/links";
 import { ExternalIcon } from "@/components/ui/icons";
 import {
   DetailPage,
@@ -111,7 +112,7 @@ export function topicItemMetadata(
     formatItemWhen(item, topic, locale),
   );
   return {
-    title: `${title} — ${topicTitle(topic, locale)} · ${m.siteName}`,
+    title: `${title} - ${topicTitle(topic, locale)} · ${m.siteName}`,
     description: clipText(
       itemSummary(item, locale).text || pick(topic.description, locale),
     ),
@@ -229,8 +230,18 @@ export function WarDetail({
                         rel="noreferrer"
                         className="inline-flex min-h-11 items-center gap-1 text-muted underline"
                       >
-                        {m.ui.wikipedia} · CC BY-SA 4.0
+                        {m.ui.wikipedia}
                         <ExternalIcon className="size-3.5" />
+                      </a>
+                    )}
+                    {summary.page && (
+                      <a
+                        href={CC_BY_SA_4}
+                        target="_blank"
+                        rel="license noreferrer"
+                        className="inline-flex min-h-11 items-center text-muted underline"
+                      >
+                        CC BY-SA 4.0
                       </a>
                     )}
                   </p>
@@ -253,7 +264,7 @@ export function warDetailMetadata(locale: Locale, id: string) {
     formatRange(c.start, c.end, c.unit, locale),
   );
   return {
-    title: `${title} — ${m.wars.tab} · ${m.siteName}`,
+    title: `${title} - ${m.wars.tab} · ${m.siteName}`,
     description: clipText(
       campaignSummary(c, locale).text || m.wars.indexDescription,
     ),

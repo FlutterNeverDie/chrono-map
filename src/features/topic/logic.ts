@@ -98,10 +98,10 @@ export function formatItemWhen(
   const yearsOnly = (y: number) =>
     (topic.showMonthFrom === null || y < topic.showMonthFrom) &&
     Math.abs(y) < 10_000;
-  // 연도로만 보이는 기간은 사건·전쟁과 같은 표기("AD 541–549")
+  // 연도로만 보이는 기간은 사건·전쟁과 같은 표기("AD 541~549")
   if (yearsOnly(ya) && yearsOnly(yb))
     return formatYearRange(ya, yb, locale, i.approx);
-  return `${a} – ${formatT(i.end, topic, locale)}`;
+  return `${a} ~ ${formatT(i.end, topic, locale)}`;
 }
 
 export const topicTitle = (topic: Topic, locale: Locale) =>

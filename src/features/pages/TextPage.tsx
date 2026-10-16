@@ -101,7 +101,7 @@ export function textPageMetadata(locale: Locale, kind: TextPageKind) {
   const { title, body } = content(locale, kind);
   return {
     // "About History Map World — History Map World"처럼 사이트 이름이 두 번 나오지 않게
-    title: title.includes(m.siteName) ? title : `${title} — ${m.siteName}`,
+    title: title.includes(m.siteName) ? title : `${title} - ${m.siteName}`,
     description: body[0],
     alternates: pageAlternates(locale, kind),
   };

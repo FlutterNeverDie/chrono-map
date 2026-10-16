@@ -73,7 +73,7 @@ async function main() {
         const data = await download(FONT_FAMILIES[set], weight, text);
         if (data.length > 1024 * 1024)
           throw new Error(
-            `${set} ${weight}: 부분 글꼴이 아닌 전체 글꼴을 받음 — CHUNK를 줄일 것`,
+            `${set} ${weight}: 부분 글꼴이 아닌 전체 글꼴을 받음 - CHUNK를 줄일 것`,
           );
         const file = `${set}-${weight}-${part}.ttf`;
         writeFileSync(join(FONT_DIR, file), data);

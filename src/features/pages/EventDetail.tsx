@@ -88,7 +88,7 @@ export function eventMetadata(locale: Locale, id: string) {
   const title = titleWithWhen(eventTitle(e, locale), formatWhen(e, locale));
   const description = clipText(summary.text);
   return {
-    title: `${title} — ${messages.siteName}`,
+    title: `${title} - ${messages.siteName}`,
     description,
     alternates: pageAlternates(locale, `event/${id}`),
     openGraph: {

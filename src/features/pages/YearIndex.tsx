@@ -62,7 +62,7 @@ export function YearIndex({ locale }: { locale: Locale }) {
 export function yearIndexMetadata(locale: Locale): Metadata {
   const messages = getMessages(locale);
   return {
-    title: `${messages.years.indexTitle} — ${messages.siteName}`,
+    title: `${messages.years.indexTitle} - ${messages.siteName}`,
     description: messages.years.indexDescription,
     alternates: pageAlternates(locale, "year"),
   };
@@ -82,7 +82,7 @@ export function yearMetadata(locale: Locale, slug: string): Metadata {
     n: data.events.length,
   });
   return {
-    title: `${title} — ${messages.siteName}`,
+    title: `${title} - ${messages.siteName}`,
     description,
     alternates: pageAlternates(locale, `year/${slug}`),
     openGraph: {

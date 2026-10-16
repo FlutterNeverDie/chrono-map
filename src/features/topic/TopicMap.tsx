@@ -123,7 +123,7 @@ export function TopicMap() {
         if (id) select(id);
       })}
       role="img"
-      aria-label={`${topicTitle(topic, locale)} — ${formatT(t, topic, locale)}`}
+      aria-label={`${topicTitle(topic, locale)} - ${formatT(t, topic, locale)}`}
     >
       <rect
         x={vp.v.x}

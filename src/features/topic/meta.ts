@@ -9,7 +9,7 @@ export function topicMetadata(locale: Locale, id: string) {
   const t = findTopic(id);
   if (!t) return {};
   return {
-    title: `${pick(t.title, locale)} — ${getMessages(locale).siteName}`,
+    title: `${pick(t.title, locale)} - ${getMessages(locale).siteName}`,
     description: pick(t.description, locale),
     alternates: pageAlternates(locale, `maps/${id}`),
   };

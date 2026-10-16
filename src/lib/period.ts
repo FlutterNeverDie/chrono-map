@@ -105,7 +105,7 @@ export function formatPeriod(p: Period, locale: Locale): string {
         return `século ${roman(n)} a.C.`;
     }
   }
-  // 서기 1~9년(0년은 없음)은 "0년대"가 어색하므로, 10년이 아닌 단위는 이름이 없으므로 연도 범위로 쓴다: "1–9년", "AD 1–9", "1490–1494년"
+  // 서기 1~9년(0년은 없음)은 "0년대"가 어색하므로, 10년이 아닌 단위는 이름이 없으므로 연도 범위로 쓴다: "1~9년", "AD 1~9", "1490~1494년"
   if (p.start === 1 || p.kind === "years")
     return (
       (locale === "en" && p.start < 1000 ? "AD " : "") +
@@ -134,17 +134,17 @@ export function formatPeriod(p: Period, locale: Locale): string {
 }
 
 const RANGE: Record<Locale, { bc: string; ad: string }> = {
-  ko: { bc: "기원전 {a}–{b}년", ad: "{a}–{b}년" },
-  en: { bc: "{a}–{b} BC", ad: "{a}–{b}" },
-  zh: { bc: "公元前{a}–{b}年", ad: "{a}–{b}年" },
-  es: { bc: "{a}–{b} a. C.", ad: "{a}–{b}" },
-  hi: { bc: "{a}–{b} ई.पू.", ad: "{a}–{b}" },
-  ar: { bc: "{a}–{b} ق.م", ad: "{a}–{b}" },
-  fr: { bc: "{a}–{b} av. J.-C.", ad: "{a}–{b}" },
-  pt: { bc: "{a}–{b} a.C.", ad: "{a}–{b}" },
+  ko: { bc: "기원전 {a}~{b}년", ad: "{a}~{b}년" },
+  en: { bc: "{a}~{b} BC", ad: "{a}~{b}" },
+  zh: { bc: "公元前{a}~{b}年", ad: "{a}~{b}年" },
+  es: { bc: "{a}~{b} a. C.", ad: "{a}~{b}" },
+  hi: { bc: "{a}~{b} ई.पू.", ad: "{a}~{b}" },
+  ar: { bc: "{a}~{b} ق.م", ad: "{a}~{b}" },
+  fr: { bc: "{a}~{b} av. J.-C.", ad: "{a}~{b}" },
+  pt: { bc: "{a}~{b} a.C.", ad: "{a}~{b}" },
 };
 
-/** 기간의 실제 연도 범위: "1490–1499년", "기원전 300–201년", "300–201 BC" … */
+/** 기간의 실제 연도 범위: "1490~1499년", "기원전 300~201년", "300~201 BC" … */
 export function formatPeriodRange(p: Period, locale: Locale): string {
   const f = RANGE[locale];
   const [a, b] = [Math.abs(p.start), Math.abs(p.end)];

@@ -49,7 +49,7 @@ export function formatRange(
 ): string {
   if (unit === "year") return formatYearRange(a, b, locale);
   if (a === b) return formatTime(a, unit, locale);
-  return `${formatTime(a, unit, locale)} – ${formatTime(b, unit, locale)}`;
+  return `${formatTime(a, unit, locale)} ~ ${formatTime(b, unit, locale)}`;
 }
 
 export function campaignTitle(c: Campaign, locale: Locale): string {

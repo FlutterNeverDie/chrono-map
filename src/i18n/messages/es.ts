@@ -37,6 +37,7 @@ export const es: Messages = {
   pages: {
     report: "¿Ves un error? Avísanos",
     backToMap: "Ver en el mapa",
+    back: "Volver",
     about: "Acerca de",
     privacy: "Política de privacidad",
     period: "Periodo",

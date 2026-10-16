@@ -232,7 +232,7 @@ importance: 4
 title.ko: 페리 내항 (흑선 내항)
 title.es: Expedición Perry
 title.hi: पेरी अभियान
-summary.hi: पेरी अभियान 1853–1854 में कमोडोर मैथ्यू पेरी के नेतृत्व में अमेरिकी नौसेना के युद्धपोतों द्वारा जापान के तोकुगावा शोगुनेट तक की गई दो यात्राएँ थीं। इसका उद्देश्य राजनयिक संबंध और व्यापारिक समझौते स्थापित करना था। इसके परिणामस्वरूप 1854 में कानागावा संधि हुई और जापान की लंबी एकांतवास नीति का अंत शुरू हुआ।
+summary.hi: पेरी अभियान 1853~1854 में कमोडोर मैथ्यू पेरी के नेतृत्व में अमेरिकी नौसेना के युद्धपोतों द्वारा जापान के तोकुगावा शोगुनेट तक की गई दो यात्राएँ थीं। इसका उद्देश्य राजनयिक संबंध और व्यापारिक समझौते स्थापित करना था। इसके परिणामस्वरूप 1854 में कानागावा संधि हुई और जापान की लंबी एकांतवास नीति का अंत शुरू हुआ।
 summary.es: Entre 1853 y 1854, buques de guerra de la Armada de los Estados Unidos al mando del comodoro Matthew Perry realizaron dos viajes a Japón para presionar al shogunato Tokugawa. La expedición logró abrir relaciones diplomáticas y comerciales con Japón, poniendo fin a su prolongada política de aislamiento.
 
 @ boshin-war
@@ -280,7 +280,7 @@ category: war
 importance: 3
 title.ko: 쓰시마 해전
 title.hi: त्सुशिमा का युद्ध
-summary.hi: रूस-जापान युद्ध का अंतिम नौसैनिक युद्ध, जो 27–28 मई 1905 को त्सुशिमा जलडमरूमध्य में लड़ा गया। जापानी नौसेना ने रूसी बेड़े को लगभग नष्ट कर दिया, जिससे युद्ध में जापान की जीत तय हो गई और वह एक प्रमुख नौसैनिक शक्ति के रूप में उभरा।
+summary.hi: रूस-जापान युद्ध का अंतिम नौसैनिक युद्ध, जो 27~28 मई 1905 को त्सुशिमा जलडमरूमध्य में लड़ा गया। जापानी नौसेना ने रूसी बेड़े को लगभग नष्ट कर दिया, जिससे युद्ध में जापान की जीत तय हो गई और वह एक प्रमुख नौसैनिक शक्ति के रूप में उभरा।
 
 @ hiroshima-nagasaki
 wikipedia: Atomic bombings of Hiroshima and Nagasaki

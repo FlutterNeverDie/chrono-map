@@ -24,7 +24,7 @@ export function formatYear(
   return approximate ? f.approx.replace("{s}", text) : text;
 }
 
-/** 사건의 때: 한 해면 "1492년", 기간이면 "1592년 – 1598년"(영어 "1592–1598"), 부정확하면 "약 …" */
+/** 사건의 때: 한 해면 "1492년", 기간이면 "1592년 ~ 1598년"(영어 "1592~1598"), 부정확하면 "약 …" */
 export function formatWhen(
   e: Pick<HistoryEvent, "start" | "end" | "precision">,
   locale: Locale,
@@ -34,7 +34,7 @@ export function formatWhen(
 }
 
 /**
- * 연도 기간(사건·전쟁·주제 지도 공통): "1592년 – 1598년", 영어는 같은 기원을 한 번만 붙여 "1592–1598", "AD 66–74", "300–201 BC".
+ * 연도 기간(사건·전쟁·주제 지도 공통): "1592년 ~ 1598년", 영어는 같은 기원을 한 번만 붙여 "1592~1598", "AD 66~74", "300~201 BC".
  * 시작과 끝이 같으면 한 해만.
  */
 export function formatYearRange(
@@ -47,8 +47,8 @@ export function formatYearRange(
   if (locale === "en" && (start > 0 || end < 0)) {
     const [a, b] = [Math.abs(start), Math.abs(end)];
     const text =
-      end < 0 ? `${a}–${b} BC` : start < 1000 ? `AD ${a}–${b}` : `${a}–${b}`;
+      end < 0 ? `${a}~${b} BC` : start < 1000 ? `AD ${a}~${b}` : `${a}~${b}`;
     return approx ? FORMATS.en.approx.replace("{s}", text) : text;
   }
-  return `${formatYear(start, locale, approx)} – ${formatYear(end, locale)}`;
+  return `${formatYear(start, locale, approx)} ~ ${formatYear(end, locale)}`;
 }

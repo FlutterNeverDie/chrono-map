@@ -202,7 +202,7 @@ importance: 3
 title.ko: 살수대첩
 title.ar: معركة سالسو
 title.hi: साल्सू का युद्ध
-summary.hi: साल्सू का युद्ध ईस्वी 612 में गोगुर्यो–सुई युद्ध के दूसरे अभियान के दौरान कोरिया के गोगुर्यो और चीन के सुई राजवंश के बीच हुआ। गोगुर्यो के सेनापति उलजी मुनदोक के नेतृत्व में साल्सू नदी पर संख्या में कहीं बड़ी सुई सेना को भारी पराजय मिली। यह कोरियाई इतिहास की सबसे प्रसिद्ध विजयों में गिनी जाती है।
+summary.hi: साल्सू का युद्ध ईस्वी 612 में गोगुर्यो-सुई युद्ध के दूसरे अभियान के दौरान कोरिया के गोगुर्यो और चीन के सुई राजवंश के बीच हुआ। गोगुर्यो के सेनापति उलजी मुनदोक के नेतृत्व में साल्सू नदी पर संख्या में कहीं बड़ी सुई सेना को भारी पराजय मिली। यह कोरियाई इतिहास की सबसे प्रसिद्ध विजयों में गिनी जाती है।
 summary.ar: وقعت معركة سالسو عام 612 خلال الحملة الثانية في الحرب بين مملكة غوغوريو الكورية وأسرة سوي الصينية. وحقق جيش غوغوريو بقيادة القائد أولجي مون-دوك نصرًا ساحقًا على قوات سوي المتفوقة عددًا عند نهر سالسو، مما أفشل الغزو.
 
 @ battle-of-baekgang
@@ -214,7 +214,7 @@ importance: 3
 title.ko: 백강 전투
 title.ar: معركة بايكغانغ
 title.hi: बैकगांग का युद्ध
-summary.hi: बैकगांग का युद्ध ईस्वी 663 में बैकजे के पुनरुद्धार बलों और उनके सहयोगी जापान (यामातो) तथा शिल्ला और तांग चीन की संयुक्त सेनाओं के बीच लड़ा गया। यह युद्ध आज के कोरिया की गुम नदी के मुहाने के पास हुआ और इसमें शिल्ला–तांग पक्ष विजयी रहा। इसके बाद बैकजे को पुनर्जीवित करने के प्रयास समाप्त हो गए।
+summary.hi: बैकगांग का युद्ध ईस्वी 663 में बैकजे के पुनरुद्धार बलों और उनके सहयोगी जापान (यामातो) तथा शिल्ला और तांग चीन की संयुक्त सेनाओं के बीच लड़ा गया। यह युद्ध आज के कोरिया की गुम नदी के मुहाने के पास हुआ और इसमें शिल्ला-तांग पक्ष विजयी रहा। इसके बाद बैकजे को पुनर्जीवित करने के प्रयास समाप्त हो गए।
 summary.ar: دارت معركة بايكغانغ في أغسطس 663 عند المجرى الأدنى لنهر غيوم في كوريا، بين قوات إحياء مملكة بايكجي وحليفتها اليابان من جهة، وتحالف مملكة شيلا وأسرة تانغ الصينية من جهة أخرى. وانتصر تحالف شيلا وتانغ انتصارًا حاسمًا، فانسحبت اليابان من شؤون شبه الجزيرة الكورية وانتهت حركة إحياء بايكجي.
 
 @ goguryeo-tang-war
@@ -225,8 +225,8 @@ category: war
 importance: 3
 title.ko: 고구려-당 전쟁 (고구려 멸망)
 title.pt: Guerra Goguryeo-Tang
-title.hi: गोगुर्यो–तांग युद्ध
-summary.hi: गोगुर्यो–तांग युद्ध ईस्वी 645 से 668 तक कोरिया के गोगुर्यो राज्य और चीन के तांग राजवंश के बीच चला। गोगुर्यो ने 645–648 के आरंभिक तांग आक्रमणों को सफलतापूर्वक रोक दिया। परंतु 660 में बैकजे के पतन के बाद तांग और शिल्ला की संयुक्त सेनाओं ने आक्रमण किया और 668 में गोगुर्यो का अंत हो गया।
+title.hi: गोगुर्यो-तांग युद्ध
+summary.hi: गोगुर्यो-तांग युद्ध ईस्वी 645 से 668 तक कोरिया के गोगुर्यो राज्य और चीन के तांग राजवंश के बीच चला। गोगुर्यो ने 645~648 के आरंभिक तांग आक्रमणों को सफलतापूर्वक रोक दिया। परंतु 660 में बैकजे के पतन के बाद तांग और शिल्ला की संयुक्त सेनाओं ने आक्रमण किया और 668 में गोगुर्यो का अंत हो गया।
 summary.pt: Entre 645 e 668, o reino coreano de Goguryeo enfrentou repetidas invasões da dinastia Tang da China, repelindo com sucesso as primeiras campanhas. Após a morte de Yeon Gaesomun em 666, Goguryeo mergulhou em disputas internas, e a aliança entre Tang e Silla conquistou sua capital, Pyongyang, em 668, pondo fim ao reino.
 
 @ silla-tang-war
@@ -239,8 +239,8 @@ title.ko: 나당 전쟁 (신라의 삼국 통일)
 title.es: Guerra Silla-Tang
 title.ar: حرب شيلا وتانغ
 title.pt: Guerra Silla-Tang
-title.hi: शिल्ला–तांग युद्ध
-summary.hi: शिल्ला–तांग युद्ध ईस्वी 670 से 676 तक कोरिया के शिल्ला राज्य और चीन के तांग राजवंश के बीच लड़ा गया। गोगुर्यो और बैकजे को मिलकर जीतने के बाद तांग ने कोरियाई प्रायद्वीप पर नियंत्रण जमाने का प्रयास किया, जिसका शिल्ला ने विरोध किया। शिल्ला ने तांग सेनाओं को पीछे धकेल दिया और प्रायद्वीप के अधिकांश भाग का एकीकरण किया।
+title.hi: शिल्ला-तांग युद्ध
+summary.hi: शिल्ला-तांग युद्ध ईस्वी 670 से 676 तक कोरिया के शिल्ला राज्य और चीन के तांग राजवंश के बीच लड़ा गया। गोगुर्यो और बैकजे को मिलकर जीतने के बाद तांग ने कोरियाई प्रायद्वीप पर नियंत्रण जमाने का प्रयास किया, जिसका शिल्ला ने विरोध किया। शिल्ला ने तांग सेनाओं को पीछे धकेल दिया और प्रायद्वीप के अधिकांश भाग का एकीकरण किया।
 summary.es: Tras derrotar juntos a Baekje y Goguryeo, el reino coreano de Silla y la dinastía Tang de China se enfrentaron entre 670 y 676 por el control de la península de Corea. Silla logró expulsar a las fuerzas Tang, lo que permitió la unificación de buena parte de la península bajo su dominio.
 summary.ar: بعد أن أسقطت مملكة شيلا الكورية وأسرة تانغ الصينية معًا مملكتي بايكجي وغوغوريو، تحولتا إلى خصمين وتحاربتا بين عامي 670 و676 للسيطرة على شبه الجزيرة الكورية. وتمكنت شيلا من طرد قوات تانغ، مما مهّد لتوحيد معظم شبه الجزيرة تحت حكمها.
 summary.pt: Depois de derrotarem juntos os reinos de Baekje e Goguryeo, o reino coreano de Silla e a dinastia Tang da China entraram em guerra entre 670 e 676 pelo controle da península da Coreia. Silla conseguiu expulsar as forças Tang, o que permitiu unificar grande parte da península sob seu domínio.
@@ -275,7 +275,7 @@ title.ar: معركة غويجو
 title.fr: Bataille de Gwiju
 title.pt: Batalha de Gwiju
 title.hi: ग्विजू का युद्ध
-summary.hi: ग्विजू का युद्ध ईस्वी 1019 में तीसरे गोरयो–खितान युद्ध के दौरान कोरिया के गोरयो राजवंश और खितान नेतृत्व वाले लियाओ राजवंश के बीच लड़ा गया। सेनापति कांग गाम-चान के नेतृत्व में गोरयो सेना ने लौटती हुई लियाओ सेना को भारी पराजय दी। इस विजय के बाद गोरयो और लियाओ के बीच लंबे समय तक शांति बनी रही।
+summary.hi: ग्विजू का युद्ध ईस्वी 1019 में तीसरे गोरयो-खितान युद्ध के दौरान कोरिया के गोरयो राजवंश और खितान नेतृत्व वाले लियाओ राजवंश के बीच लड़ा गया। सेनापति कांग गाम-चान के नेतृत्व में गोरयो सेना ने लौटती हुई लियाओ सेना को भारी पराजय दी। इस विजय के बाद गोरयो और लियाओ के बीच लंबे समय तक शांति बनी रही।
 summary.ar: وقعت معركة غويجو عام 1019 وكانت المعركة الكبرى في الحرب الثالثة بين مملكة غوريو الكورية وأسرة لياو التي أسسها الخيتان. وألحق جيش غوريو بقيادة كانغ غام-تشان هزيمة ثقيلة بالغزاة، فانتهت الحرب وتلتها فترة سلام طويلة بين الدولتين.
 summary.fr: En 1019, lors de la troisième guerre entre le royaume coréen de Goryeo et la dynastie Liao des Khitans, l'armée de Goryeo commandée par Gang Gam-chan infligea une lourde défaite aux envahisseurs près de Gwiju. Cette victoire mit fin à la guerre et assura une longue période de paix entre les deux États.
 summary.pt: Em 1019, durante a terceira guerra entre o reino coreano de Goryeo e a dinastia Liao dos khitans, o exército de Goryeo comandado por Gang Gam-chan infligiu uma pesada derrota aos invasores perto de Gwiju. A vitória encerrou a guerra e garantiu um longo período de paz entre os dois estados.

@@ -120,7 +120,7 @@ export function CampaignMap() {
         if (id) selectBattle(id);
       })}
       role="img"
-      aria-label={`${campaignTitle(c, locale)} — ${formatTime(t, c.unit, locale)}`}
+      aria-label={`${campaignTitle(c, locale)} - ${formatTime(t, c.unit, locale)}`}
     >
       <rect
         x={vp.v.x}

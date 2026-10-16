@@ -13,7 +13,7 @@ export function campaignMetadata(locale: Locale, id: string) {
   const title = campaignTitle(c, locale);
   const extract = campaignSummary(c, locale).text || m.wars.indexDescription;
   return {
-    title: `${title} (${formatRange(c.start, c.end, c.unit, locale)}) — ${m.wars.tab} · ${m.siteName}`,
+    title: `${title} (${formatRange(c.start, c.end, c.unit, locale)}) - ${m.wars.tab} · ${m.siteName}`,
     description: clipText(extract),
     alternates: pageAlternates(locale, `wars/${id}`),
   };
@@ -23,7 +23,7 @@ export function campaignMetadata(locale: Locale, id: string) {
 export function warsMetadata(locale: Locale) {
   const m = getMessages(locale);
   return {
-    title: `${m.wars.indexTitle} — ${m.siteName}`,
+    title: `${m.wars.indexTitle} - ${m.siteName}`,
     description: m.wars.indexDescription,
     alternates: pageAlternates(locale, "wars"),
   };

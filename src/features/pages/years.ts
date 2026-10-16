@@ -6,7 +6,7 @@ import { markersIn } from "@/data/mapMarkers";
 
 /**
  * 연도 페이지(/year/[slug])의 기간 목록과 내용. 서버(빌드)에서만 쓴다.
- * 주소: 서기 10년 단위는 시작 연도("1490"), 기원전 세기는 "300bc"(기원전 300–201년).
+ * 주소: 서기 10년 단위는 시작 연도("1490"), 기원전 세기는 "300bc"(기원전 300~201년).
  */
 export function periodSlug(p: Period): string {
   return p.start < 0 ? `${-p.start}bc` : String(p.start);

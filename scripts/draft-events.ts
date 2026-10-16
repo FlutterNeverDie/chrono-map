@@ -165,7 +165,7 @@ async function main() {
   const draftFile = root("content/drafts/wikidata.txt");
   writeFileSync(
     draftFile,
-    `# Wikidata 사건 후보 (자동 생성 ${new Date().toISOString().slice(0, 10)}) — 검토 후 content/events/<지역>.txt로 옮긴다\n` +
+    `# Wikidata 사건 후보 (자동 생성 ${new Date().toISOString().slice(0, 10)}) - 검토 후 content/events/<지역>.txt로 옮긴다\n` +
       `# 빌드에는 들어가지 않는다. "links" = 위키백과 언어판 수\n\n` +
       fresh
         .map(

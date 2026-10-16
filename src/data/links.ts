@@ -10,3 +10,7 @@ export function reportIssueUrl(subject: string, path: string): string {
   });
   return `${REPO_URL}/issues/new?${q}`;
 }
+
+/** 라이선스 원문 - 출처 표기에서 라이선스 이름에 건다(위키백과 글 CC BY-SA 4.0, 국경 데이터 CC BY 4.0) */
+export const CC_BY_SA_4 = "https://creativecommons.org/licenses/by-sa/4.0/";
+export const CC_BY_4 = "https://creativecommons.org/licenses/by/4.0/";

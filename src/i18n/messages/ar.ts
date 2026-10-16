@@ -37,6 +37,7 @@ export const ar: Messages = {
   pages: {
     report: "هل وجدت خطأ؟ أخبرنا",
     backToMap: "عرض على الخريطة",
+    back: "رجوع",
     about: "حول الموقع",
     privacy: "سياسة الخصوصية",
     period: "الفترة",
