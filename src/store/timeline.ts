@@ -18,7 +18,8 @@ const snap = (year: number, step: number) =>
   periodOf(Math.min(MAX_YEAR, Math.max(MIN_YEAR, year)), step).start;
 
 export const useTimeline = create<TimelineState>((set) => ({
-  year: snap(1492, DEFAULT_STEP),
+  // 첫 화면: 제2차 세계대전(1939~1945)이 걸치는 1940년대 - 가장 많이 알고 찾는 시기
+  year: snap(1940, DEFAULT_STEP),
   setYear: (year) => set((s) => ({ year: snap(year, s.step) })),
   step: DEFAULT_STEP,
   setStep: (step) => set((s) => ({ step, year: snap(s.year, step) })),

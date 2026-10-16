@@ -9,8 +9,13 @@ import { limitPins } from "@/lib/events";
 import { eventTitle } from "@/lib/localize";
 import { formatWhen } from "@/lib/year";
 import { formatPeriod } from "@/lib/period";
+import type { ViewpointId } from "@/lib/types";
 import { REGION_BY_ID } from "@/data/regions";
-import { VIEWPOINT_BY_ID, homeViewpoint } from "@/data/viewpoints";
+import {
+  VIEWPOINT_BY_ID,
+  homeViewpoint,
+  zoneViewpoint,
+} from "@/data/viewpoints";
 import { fill } from "@/i18n";
 import { useI18n } from "@/i18n/I18nProvider";
 import {
@@ -68,6 +73,27 @@ type Gesture = {
   /** 두 손가락: 핀치 시작 거리와 배율 */
   pinch?: { dist: number; zoom: number };
 };
+
+/**
+ * 지도 위에 떠 있는 패널(데스크톱 오른쪽 / 모바일 아래)에 가려지지 않은 영역의 가운데가 지도 가운데에서 얼마나 떨어졌는지(px).
+ * 패널이 오른쪽(보통)이면 x > 0, 왼쪽(아랍어 RTL)이면 x < 0, 아래(모바일)면 y > 0
+ */
+function overlayOffset(svg: SVGSVGElement): { x: number; y: number } {
+  const rect = svg.getBoundingClientRect();
+  const panel = document
+    .querySelector("[data-map-overlay]")
+    ?.getBoundingClientRect();
+  if (!panel || panel.height <= 0) return { x: 0, y: 0 };
+  if (panel.width >= rect.width * 0.8)
+    return { x: 0, y: (rect.bottom - panel.top) / 2 };
+  return {
+    x:
+      panel.left > rect.left + rect.width / 2
+        ? (rect.right - panel.left) / 2
+        : -(panel.right - rect.left) / 2,
+    y: 0,
+  };
+}
 
 /**
  * 하단 바 위 영역을 모두 덮는 평면 세계지도.
@@ -176,10 +202,25 @@ export function WorldMap() {
     return () => el.removeEventListener("wheel", onWheel);
   }, [zoomAt]);
 
-  // 시점이 바뀌면 가까운 방향으로 회전
+  // 시점이 바뀌면 가까운 방향으로 회전. 시점 경도는 패널에 가려지지 않은 영역의 가운데에 온다
+  // (데스크톱은 오른쪽 사건 패널이 지도 가운데를 가려, 동아시아 시점이 중앙아시아처럼 보였다)
+  // 첫 화면(언어 기준 → 시간대 기준)은 회전 없이 바로 놓는다
+  const instant = useRef(true);
+  const mounted = useRef(false);
   useEffect(() => {
     if (!viewpoint) return;
-    const target = VIEWPOINT_BY_ID.get(viewpoint)!.lon;
+    const svg = svgRef.current;
+    const shift = svg
+      ? (overlayOffset(svg).x * MAP_HEIGHT * 360) /
+        (useUi.getState().zoom * svg.getBoundingClientRect().height * MAP_WIDTH)
+      : 0;
+    const target = VIEWPOINT_BY_ID.get(viewpoint)!.lon + (shift || 0);
+    if (instant.current) {
+      if (mounted.current) instant.current = false;
+      updateLon(target);
+      setCenterLon(lonRef.current);
+      return;
+    }
     const from = lonRef.current;
     const delta = normalizeLon(target - from);
     if (Math.abs(delta) < 0.01) return;
@@ -196,27 +237,25 @@ export function WorldMap() {
     return () => cancelAnimationFrame(frame);
   }, [viewpoint, setCenterLon, updateLon]);
 
+  // 브라우저에서는 기기 시간대로 사는 곳에 가까운 시점을 고른다(정적 HTML은 언어 기준이라 하이드레이션 뒤에)
+  useEffect(() => {
+    mounted.current = true;
+    let zone: ViewpointId | null = null;
+    try {
+      zone = zoneViewpoint(Intl.DateTimeFormat().resolvedOptions().timeZone);
+    } catch {}
+    if (zone && zone !== useUi.getState().viewpoint)
+      useUi.getState().initViewpoint(zone);
+    else instant.current = false;
+  }, []);
+
   // 사건 목록에서 고르면 그 사건이 "가려지지 않은 영역"의 가운데 오도록 이동·확대
   const focus = useUi((s) => s.focus);
   useEffect(() => {
     const svg = svgRef.current;
     if (!focus || !svg) return;
     const rect = svg.getBoundingClientRect();
-    // 지도 위에 떠 있는 패널(데스크톱 오른쪽 / 모바일 아래)만큼 비켜서 가운데를 잡는다
-    const panel = document
-      .querySelector("[data-map-overlay]")
-      ?.getBoundingClientRect();
-    let offsetX = 0;
-    let offsetY = 0;
-    if (panel && panel.height > 0) {
-      if (panel.width < rect.width * 0.8) {
-        // 패널이 오른쪽(보통)이면 지도 가운데를 오른쪽으로, 왼쪽(아랍어 RTL)이면 왼쪽으로
-        offsetX =
-          panel.left > rect.left + rect.width / 2
-            ? (rect.right - panel.left) / 2
-            : -(panel.right - rect.left) / 2;
-      } else offsetY = (rect.bottom - panel.top) / 2;
-    }
+    const { x: offsetX, y: offsetY } = overlayOffset(svg);
     const fromLon = lonRef.current;
     const fromY = centerYRef.current;
     const fromZoom = useUi.getState().zoom;

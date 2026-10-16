@@ -178,4 +178,50 @@ const HOME_VIEWPOINT: Record<Locale, ViewpointId> = {
 export const homeViewpoint = (locale: Locale): ViewpointId =>
   HOME_VIEWPOINT[locale] ?? DEFAULT_VIEWPOINT;
 
+/** 시간대 도시 이름(IANA "대륙/도시"의 도시)으로 고르는 시점. 나머지는 대륙별 기본값(ZONE_DEFAULT) */
+const ZONE_CITIES: [ViewpointId, string][] = [
+  [
+    "west-asia",
+    "Dubai Muscat Riyadh Qatar Bahrain Kuwait Baghdad Tehran Jerusalem Tel_Aviv Beirut Damascus Amman Aden Nicosia Famagusta Gaza Hebron Baku Tbilisi Yerevan Cairo Khartoum Juba Addis_Ababa Asmara Djibouti Mogadishu Nairobi Kampala Dar_es_Salaam Mahe",
+  ],
+  [
+    "central-asia",
+    "Kolkata Calcutta Karachi Tashkent Samarkand Almaty Qostanay Oral Aqtau Aqtobe Atyrau Qyzylorda Bishkek Dushanbe Ashgabat Kabul Dhaka Kathmandu Katmandu Colombo Thimphu Yekaterinburg Omsk Maldives Chagos Mauritius Reunion Kerguelen",
+  ],
+  [
+    "eastern-europe",
+    "Moscow Kiev Kyiv Minsk Istanbul Athens Bucharest Sofia Helsinki Riga Tallinn Vilnius Chisinau Simferopol Volgograd Samara Kirov Saratov Ulyanovsk Astrakhan Kaliningrad Warsaw Johannesburg Harare Maputo Lusaka Lubumbashi Gaborone Windhoek Maseru Mbabane Blantyre Kigali Bujumbura",
+  ],
+  [
+    "south-america",
+    "Sao_Paulo Buenos_Aires Argentina Santiago Lima Bogota Caracas La_Paz Asuncion Montevideo Guayaquil Belem Fortaleza Recife Manaus Bahia Cuiaba Campo_Grande Porto_Velho Rio_Branco Boa_Vista Maceio Araguaina Santarem Noronha Cayenne Paramaribo Guyana Punta_Arenas Easter",
+  ],
+  ["north-america", "Honolulu Johnston Midway"],
+];
+const ZONE_DEFAULT: Record<string, ViewpointId> = {
+  Asia: "east-asia",
+  Europe: "western-europe",
+  Africa: "western-europe",
+  Atlantic: "western-europe",
+  America: "north-america",
+  US: "north-america",
+  Canada: "north-america",
+  Brazil: "south-america",
+  Chile: "south-america",
+  Australia: "oceania",
+  Pacific: "oceania",
+  Indian: "central-asia",
+};
+
+/**
+ * 기기 시간대(Intl, 예 "Asia/Singapore")로 고른 첫 화면 시점 - 사는 곳에 가까운 시점. 모르면 null(언어 기준 homeViewpoint).
+ * 언어만으로는 영어를 쓰는 싱가포르·인도 사용자가 북아메리카에서 시작했다. 브라우저에서만 부른다(정적 HTML은 언어 기준).
+ */
+export function zoneViewpoint(timeZone: string): ViewpointId | null {
+  const parts = timeZone.split("/");
+  for (const [id, cities] of ZONE_CITIES)
+    if (parts.slice(1).some((p) => cities.split(" ").includes(p))) return id;
+  return ZONE_DEFAULT[parts[0]] ?? null;
+}
+
 export const VIEWPOINT_BY_ID = new Map(VIEWPOINTS.map((v) => [v.id, v]));
