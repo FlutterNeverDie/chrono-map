@@ -9,10 +9,11 @@ import { distanceToPeriod, periodWindow, type Period } from "./period";
  *    - 지역 가까움: 시점의 regions 목록에서 앞일수록 가산 (그 나라 입장에서 가까운 역사)
  *    - importance: 세계사 기준 중요도
  *    - 시간 가까움: 선택 기간 안이면 최대, 멀수록 감산
+ *    - 사는 지역(home): 선택 기간에 걸친, 사용자가 사는 지역 사건은 크게 가산 - 자기 나라 역사가 맨 앞에(앞뒤 기간 사건은 가산 없음)
  *
  * 순서 데이터가 나중에 채워지면 1)이 자동으로 우선한다. 가중치는 여기서만 조정한다.
  */
-export const RANK_WEIGHTS = { region: 2, importance: 3, time: 5 };
+export const RANK_WEIGHTS = { region: 2, importance: 3, time: 5, home: 40 };
 
 export type RankContext = {
   period: Period;
@@ -20,6 +21,8 @@ export type RankContext = {
   regionOrder: RegionId[];
   /** 이 시점의 중요 사건 id 순서 (없으면 빈 배열) */
   ranking: string[];
+  /** 사용자가 사는 지역(그 지역 시점을 볼 때만 넘긴다) */
+  home?: RegionId | null;
 };
 
 export function scoreEvent(e: HistoryEvent, ctx: RankContext): number {
@@ -31,7 +34,8 @@ export function scoreEvent(e: HistoryEvent, ctx: RankContext): number {
   return (
     regionScore * RANK_WEIGHTS.region +
     e.importance * RANK_WEIGHTS.importance +
-    timeScore * RANK_WEIGHTS.time
+    timeScore * RANK_WEIGHTS.time +
+    (e.region === ctx.home && timeScore === 1 ? RANK_WEIGHTS.home : 0)
   );
 }
 

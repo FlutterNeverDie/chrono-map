@@ -9,10 +9,10 @@ import { limitPins } from "@/lib/events";
 import { eventTitle } from "@/lib/localize";
 import { formatWhen } from "@/lib/year";
 import { formatPeriod } from "@/lib/period";
-import type { ViewpointId } from "@/lib/types";
 import { REGION_BY_ID } from "@/data/regions";
 import {
   VIEWPOINT_BY_ID,
+  homeRegion,
   homeViewpoint,
   zoneViewpoint,
 } from "@/data/viewpoints";
@@ -240,14 +240,18 @@ export function WorldMap() {
   // 브라우저에서는 기기 시간대로 사는 곳에 가까운 시점을 고른다(정적 HTML은 언어 기준이라 하이드레이션 뒤에)
   useEffect(() => {
     mounted.current = true;
-    let zone: ViewpointId | null = null;
+    let timeZone = "";
     try {
-      zone = zoneViewpoint(Intl.DateTimeFormat().resolvedOptions().timeZone);
+      timeZone = Intl.DateTimeFormat().resolvedOptions().timeZone;
     } catch {}
-    if (zone && zone !== useUi.getState().viewpoint)
-      useUi.getState().initViewpoint(zone);
+    const ui = useUi.getState();
+    const zone = zoneViewpoint(timeZone);
+    const region = homeRegion(timeZone, locale);
+    if (region)
+      ui.setHome({ region, viewpoint: zone ?? homeViewpoint(locale) });
+    if (zone && zone !== ui.viewpoint) ui.initViewpoint(zone);
     else instant.current = false;
-  }, []);
+  }, [locale]);
 
   // 사건 목록에서 고르면 그 사건이 "가려지지 않은 영역"의 가운데 오도록 이동·확대
   const focus = useUi((s) => s.focus);

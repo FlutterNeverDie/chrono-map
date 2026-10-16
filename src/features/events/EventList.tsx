@@ -31,14 +31,19 @@ export function useRankedEvents() {
   const visible = useVisibleEvents();
   const viewpoint = useRankingViewpoint();
   const rankings = useRankings();
+  // 사는 곳 근처를 볼 때만 그 지역 사건을 먼저(다른 곳으로 끌면 그곳 기준)
+  const home = useUi((s) =>
+    s.home?.viewpoint === viewpoint ? s.home.region : null,
+  );
   return useMemo(
     () =>
       rankEvents(visible, {
         period,
         regionOrder: VIEWPOINT_BY_ID.get(viewpoint)!.regions,
         ranking: rankings[viewpoint] ?? [],
+        home,
       }),
-    [visible, period, viewpoint, rankings],
+    [visible, period, viewpoint, rankings, home],
   );
 }
 

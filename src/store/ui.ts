@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import type { ViewpointId } from "@/lib/types";
+import type { RegionId, ViewpointId } from "@/lib/types";
 import { DEFAULT_VIEWPOINT, VIEWPOINTS } from "@/data/viewpoints";
 
 export const MAX_ZOOM = 16;
@@ -24,6 +24,9 @@ type UiState = {
   /** 지도를 이 좌표로 옮겨 달라는 요청(사건 목록에서 고를 때). nonce로 같은 곳도 다시 이동 */
   focus: { coords: [number, number]; nonce: number } | null;
   focusOn: (coords: [number, number]) => void;
+  /** 사용자가 사는 지역과 그 첫 화면 시점(기기 시간대, WorldMap이 처음에 한 번). 그 시점을 보는 동안 이 지역 사건을 먼저 */
+  home: { region: RegionId; viewpoint: ViewpointId } | null;
+  setHome: (home: UiState["home"]) => void;
 };
 
 export const useUi = create<UiState>((set) => ({
@@ -44,6 +47,8 @@ export const useUi = create<UiState>((set) => ({
   focus: null,
   focusOn: (coords) =>
     set((s) => ({ focus: { coords, nonce: (s.focus?.nonce ?? 0) + 1 } })),
+  home: null,
+  setHome: (home) => set({ home }),
   selectEvent: (selectedEventId) =>
     set({ selectedEventId, panelOpen: selectedEventId != null }),
 }));

@@ -225,3 +225,60 @@ export function zoneViewpoint(timeZone: string): ViewpointId | null {
 }
 
 export const VIEWPOINT_BY_ID = new Map(VIEWPOINTS.map((v) => [v.id, v]));
+
+/** 시간대 도시 → 사는 지역(사건 지역 분류). 나머지는 대륙별 기본값(REGION_DEFAULT) */
+const REGION_CITIES: [RegionId, string][] = [
+  ["korea", "Seoul Pyongyang"],
+  ["japan", "Tokyo"],
+  [
+    "china",
+    "Shanghai Hong_Kong Macau Taipei Chongqing Chungking Harbin Urumqi Kashgar",
+  ],
+  [
+    "southeast-asia",
+    "Singapore Kuala_Lumpur Kuching Bangkok Jakarta Makassar Jayapura Pontianak Manila Ho_Chi_Minh Saigon Hanoi Phnom_Penh Vientiane Yangon Rangoon Brunei Dili",
+  ],
+  [
+    "india",
+    "Kolkata Calcutta Dhaka Karachi Kathmandu Katmandu Colombo Thimphu",
+  ],
+  [
+    "central-asia",
+    "Tashkent Samarkand Almaty Qostanay Oral Aqtau Aqtobe Atyrau Qyzylorda Bishkek Dushanbe Ashgabat Kabul Ulaanbaatar Ulan_Bator Hovd Choibalsan",
+  ],
+  [
+    "middle-east",
+    "Dubai Muscat Riyadh Qatar Bahrain Kuwait Baghdad Tehran Jerusalem Tel_Aviv Beirut Damascus Amman Aden Nicosia Famagusta Gaza Hebron Baku Tbilisi Yerevan Istanbul",
+  ],
+  [
+    "south-america",
+    "Sao_Paulo Buenos_Aires Argentina Santiago Lima Bogota Caracas La_Paz Asuncion Montevideo Guayaquil Belem Fortaleza Recife Manaus Bahia Cuiaba Campo_Grande Porto_Velho Rio_Branco Boa_Vista Maceio Araguaina Santarem Noronha Cayenne Paramaribo Guyana Punta_Arenas",
+  ],
+];
+const REGION_DEFAULT: Record<string, RegionId> = {
+  Europe: "europe",
+  Africa: "africa",
+  America: "north-america",
+  US: "north-america",
+  Canada: "north-america",
+  Brazil: "south-america",
+  Chile: "south-america",
+  Australia: "oceania",
+  Pacific: "oceania",
+};
+/** 시간대를 모를 때 언어로 짐작하는 지역(그 언어 사용자가 한 지역에 몰린 경우만) */
+const LOCALE_REGION: Partial<Record<Locale, RegionId>> = {
+  ko: "korea",
+  zh: "china",
+};
+
+/**
+ * 사용자가 사는 지역(기기 시간대 → 없으면 언어). 사건 목록에서 이 지역 사건을 먼저 보여 준다 - 사람들은 자기 나라 역사가 가장 궁금하다.
+ * 브라우저에서만 부른다. 모르면 null.
+ */
+export function homeRegion(timeZone: string, locale: Locale): RegionId | null {
+  const [continent, ...cities] = timeZone.split("/");
+  for (const [id, list] of REGION_CITIES)
+    if (cities.some((c) => list.split(" ").includes(c))) return id;
+  return REGION_DEFAULT[continent] ?? LOCALE_REGION[locale] ?? null;
+}
