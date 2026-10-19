@@ -196,6 +196,8 @@ export const ko = {
     zoomOut: "축소",
     wikipedia: "위키백과",
     readMore: "위키백과에서 계속 읽기",
+    creditFrom: "설명",
+    creditNote: "위키백과 원문 링크는 각 카드의 “자세히”에 있어요",
     details: "자세히",
     otherMaps: "이 시기의 다른 지도",
     close: "닫기",

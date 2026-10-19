@@ -226,7 +226,6 @@ export function WarDetail({
                     {summary.page && (
                       <a
                         href={summary.page.url}
-                        target="_blank"
                         rel="noreferrer"
                         className="inline-flex min-h-11 items-center gap-1 text-muted underline"
                       >

@@ -198,6 +198,8 @@ export const hi: Messages = {
     zoomOut: "ज़ूम आउट",
     wikipedia: "विकिपीडिया",
     readMore: "विकिपीडिया पर आगे पढ़ें",
+    creditFrom: "जानकारी",
+    creditNote: "हर विकिपीडिया लेख का लिंक “विवरण” में है",
     details: "विवरण",
     otherMaps: "इस अवधि के अन्य मानचित्र",
     close: "बंद करें",

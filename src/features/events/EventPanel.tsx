@@ -93,7 +93,8 @@ export function EventPanel({ ad }: { ad?: ReactNode } = {}) {
       </div>
       <div
         className={clsx(
-          "overflow-y-auto overscroll-contain px-3 pb-3",
+          // 휴대폰은 아래 연도 말풍선이 목록 끝을 가려서, 끝까지 내렸을 때 마지막 줄(출처)이 그 위로 오게 여백
+          "overflow-y-auto overscroll-contain px-3 pb-10 lg:pb-3",
           open ? "min-h-0 flex-1" : "hidden",
           "lg:block lg:max-h-none lg:flex-1",
         )}

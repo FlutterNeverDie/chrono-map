@@ -194,6 +194,8 @@ export const zh: Messages = {
     zoomOut: "缩小",
     wikipedia: "维基百科",
     readMore: "在维基百科上继续阅读",
+    creditFrom: "简介",
+    creditNote: "各条目的维基百科原文链接见“详情”",
     details: "详情",
     otherMaps: "这一时期的其他地图",
     close: "关闭",

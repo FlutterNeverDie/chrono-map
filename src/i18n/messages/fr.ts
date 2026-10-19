@@ -198,6 +198,8 @@ export const fr: Messages = {
     zoomOut: "Zoom arrière",
     wikipedia: "Wikipédia",
     readMore: "Lire la suite sur Wikipédia",
+    creditFrom: "Descriptions",
+    creditNote: "Le lien vers chaque article de Wikipédia se trouve dans « Détails »",
     details: "Détails",
     otherMaps: "Autres cartes de cette période",
     close: "Fermer",

@@ -1,11 +1,10 @@
 "use client";
 
-import type { ReactNode } from "react";
 import clsx from "clsx";
 import { ChevronRightIcon } from "./icons";
 
 /**
- * 지도 카드의 설명: 글을 몇 줄로 잘라 보여 주고(lines는 큰 화면 기준, 휴대폰은 3줄·키 작으면 2줄), 그 아래 줄 왼쪽에 "자세히 ›"(상세 페이지로 이동), 오른쪽 끝에 trailing(위키백과 링크).
+ * 지도 카드의 설명: 글을 몇 줄로 잘라 보여 주고(lines는 큰 화면 기준, 휴대폰은 3줄·키 작으면 2줄), 그 아래 줄 왼쪽에 "자세히 ›"(상세 페이지로 이동), 오른쪽 끝에 출처 글자(source - 링크 아님, 잘못 눌려 위키백과로 넘어가지 않게). 라이선스 링크는 목록 끝(WikiCredit).
  * 그 자리에서 펼치지 않고 바로 상세 페이지로 보낸다 - 글 전체·앞뒤 사건·다스린 나라는 상세 페이지에서(본문 광고 자리).
  * 링크는 카드 자체의 클릭(선택)으로 번지지 않게 막는다. 문구는 호출하는 쪽에서 언어에 맞게 넘긴다.
  */
@@ -15,8 +14,8 @@ export function CardSummary({
   lines = 4,
   href,
   moreLabel,
+  source,
   className,
-  trailing,
 }: {
   text: string;
   lang?: string;
@@ -24,8 +23,9 @@ export function CardSummary({
   /** 상세 페이지 주소 */
   href: string;
   moreLabel: string;
+  /** 출처 표기 글자(예: "위키백과 · CC BY-SA 4.0") - 링크가 아니다(눌러도 카드 선택). 문서 링크는 상세 페이지 출처 줄 */
+  source?: string;
   className?: string;
-  trailing?: ReactNode;
 }) {
   return (
     <div className={className}>
@@ -52,7 +52,11 @@ export function CardSummary({
           {moreLabel}
           <ChevronRightIcon className="size-4 rtl:rotate-180" />
         </a>
-        {trailing}
+        {source && (
+          <span className="ms-auto truncate text-[13px] text-muted/80 lg:text-sm">
+            {source}
+          </span>
+        )}
       </div>
     </div>
   );

@@ -198,6 +198,8 @@ export const es: Messages = {
     zoomOut: "Alejar",
     wikipedia: "Wikipedia",
     readMore: "Seguir leyendo en Wikipedia",
+    creditFrom: "Descripciones",
+    creditNote: "El enlace a cada artículo de Wikipedia está en «Detalles»",
     details: "Detalles",
     otherMaps: "Otros mapas de este periodo",
     close: "Cerrar",

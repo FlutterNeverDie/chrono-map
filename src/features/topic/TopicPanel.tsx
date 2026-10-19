@@ -9,7 +9,7 @@ import { useI18n } from "@/i18n/I18nProvider";
 import { localeHref } from "@/i18n/locales";
 import { pick } from "@/lib/localize";
 import { ChevronUpIcon, XIcon } from "@/components/ui/icons";
-import { WikiLink } from "@/components/ui/WikiLink";
+import { WikiCredit } from "@/components/ui/WikiCredit";
 import { withAd } from "@/components/ui/withAd";
 import { CardSummary } from "@/components/ui/CardSummary";
 import { useTopic, useTopicState } from "./store";
@@ -112,7 +112,8 @@ export function TopicPanel({ ad }: { ad?: ReactNode } = {}) {
       </div>
       <div
         className={clsx(
-          "overflow-y-auto overscroll-contain px-3 pb-3",
+          // 휴대폰은 아래 연도 말풍선이 목록 끝을 가려서, 끝까지 내렸을 때 마지막 줄(출처)이 그 위로 오게 여백
+          "overflow-y-auto overscroll-contain px-3 pb-10 lg:pb-3",
           open ? "min-h-0 flex-1" : "hidden",
           "lg:block lg:max-h-none lg:flex-1",
         )}
@@ -158,16 +159,12 @@ export function TopicPanel({ ad }: { ad?: ReactNode } = {}) {
                         it.page ?? `maps/${topic.id}/${it.id}`,
                       )}
                       moreLabel={messages.ui.details}
-                      className="mt-2 text-base text-muted lg:text-lg xl:text-[19px]"
-                      trailing={
-                        summary.page && (
-                          <WikiLink
-                            href={summary.page.url}
-                            label={messages.ui.readMore}
-                            source={`${messages.ui.wikipedia} · CC BY-SA 4.0`}
-                          />
-                        )
+                      source={
+                        summary.page
+                          ? `${messages.ui.wikipedia} · CC BY-SA 4.0`
+                          : undefined
                       }
+                      className="mt-2 text-base text-muted lg:text-lg xl:text-[19px]"
                     />
                     {it.link && (
                       <a
@@ -185,6 +182,14 @@ export function TopicPanel({ ad }: { ad?: ReactNode } = {}) {
             ad,
           )}
         </ol>
+        {/* 출처는 카드마다가 아니라 목록 끝에 한 번(문서별 원문 링크는 상세 페이지) */}
+        <WikiCredit
+          show={list.some((it) => itemSummary(it, locale).page)}
+          from={messages.ui.creditFrom}
+          wikipedia={messages.ui.wikipedia}
+          wikipediaHome={`https://${locale}.wikipedia.org/`}
+          note={messages.ui.creditNote}
+        />
       </div>
     </section>
   );

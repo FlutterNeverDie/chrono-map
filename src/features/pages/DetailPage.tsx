@@ -85,7 +85,6 @@ export function DetailPage({
         {summary.page && (
           <a
             href={summary.page.url}
-            target="_blank"
             rel="noreferrer"
             className="inline-flex h-12 items-center gap-1.5 rounded-md border border-line px-5 text-base font-medium"
           >
@@ -100,7 +99,6 @@ export function DetailPage({
           {messages.pages.sources}: {messages.ui.wikipedia} -{" "}
           <a
             href={summary.page.url}
-            target="_blank"
             rel="noreferrer"
             className="underline hover:text-foreground"
           >
@@ -123,7 +121,6 @@ export function DetailPage({
             <li key={url}>
               <a
                 href={url}
-                target="_blank"
                 rel="noreferrer"
                 className="underline"
               >

@@ -17,7 +17,7 @@ import { VIEWPOINT_BY_ID } from "@/data/viewpoints";
 import { useI18n } from "@/i18n/I18nProvider";
 import { localeHref } from "@/i18n/locales";
 import { PinIcon } from "@/components/ui/icons";
-import { WikiLink } from "@/components/ui/WikiLink";
+import { WikiCredit } from "@/components/ui/WikiCredit";
 import { withAd } from "@/components/ui/withAd";
 import { CardSummary } from "@/components/ui/CardSummary";
 
@@ -65,12 +65,10 @@ export function EventList({ ad }: { ad?: ReactNode } = {}) {
   const half = useUi((s) => s.panelHalf);
   useEffect(() => {
     if (!selectedEventId || selectedIndex < 0) return;
-    document
-      .getElementById(`event-${selectedEventId}`)
-      ?.scrollIntoView({
-        behavior: "smooth",
-        block: half ? "start" : "nearest",
-      });
+    document.getElementById(`event-${selectedEventId}`)?.scrollIntoView({
+      behavior: "smooth",
+      block: half ? "start" : "nearest",
+    });
   }, [selectedEventId, selectedIndex, half]);
 
   if (events.length === 0) {
@@ -139,16 +137,12 @@ export function EventList({ ad }: { ad?: ReactNode } = {}) {
                     lang={summary.lang}
                     href={localeHref(locale, `event/${e.id}`)}
                     moreLabel={messages.ui.details}
-                    className="mt-2 text-base text-muted lg:text-lg xl:text-[19px]"
-                    trailing={
-                      summary.page && (
-                        <WikiLink
-                          href={summary.page.url}
-                          label={messages.ui.readMore}
-                          source={`${messages.ui.wikipedia} · CC BY-SA 4.0`}
-                        />
-                      )
+                    source={
+                      summary.page
+                        ? `${messages.ui.wikipedia} · CC BY-SA 4.0`
+                        : undefined
                     }
+                    className="mt-2 text-base text-muted lg:text-lg xl:text-[19px]"
                   />
                   {e.campaign && (
                     <a
@@ -175,6 +169,14 @@ export function EventList({ ad }: { ad?: ReactNode } = {}) {
           {messages.ui.showMore} · {events.length - count}
         </button>
       )}
+      {/* 출처는 카드마다가 아니라 목록 끝에 한 번(문서별 원문 링크는 상세 페이지) */}
+      <WikiCredit
+        show={events.some((e) => eventSummary(e, locale).page)}
+        from={messages.ui.creditFrom}
+        wikipedia={messages.ui.wikipedia}
+        wikipediaHome={`https://${locale}.wikipedia.org/`}
+        note={messages.ui.creditNote}
+      />
     </>
   );
 }

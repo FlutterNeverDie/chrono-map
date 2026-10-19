@@ -10,7 +10,7 @@
 - `store.tsx`: `TopicProvider`(페이지 전용 상태: t, 선택, 패널, 지도 이동 요청). 주소에 `?item=<id>`가 있으면 그 항목을 고르고 그 시점·위치로 이동해 시작.
 - `TopicMap.tsx`: 배경 = 그 해 역사 국경(옅게, 공용 `public/borders`), 항목 점, `spread`가 있으면(span·persist 모두) 발원지→그 시점까지 퍼진 지점 점선.
   항목 이름은 점·나라 이름보다 위 층에 따로 그린다(`labelAt`): 고른 항목 → 중요한 순으로 위·아래·오른쪽·왼쪽 자리를 시도해 다른 이름표나 **점**과 겹치면 다음 자리, 다 막히면 이름 생략. 이름 층은 `direction=ltr`(아랍어에서도 start = 점 오른쪽).
-- `TopicPanel.tsx`: "이 시기|최근 등장" / "전체"(고르면 그 시점으로 이동), 글은 3줄까지, 위키백과 출처. "자세히 ›"는 바로 상세 페이지로(`CardSummary`) → 항목의 `page`(없으면 `maps/<지도>/<항목>`, 전쟁 목록은 `wars/<id>/about`).
+- `TopicPanel.tsx`: "이 시기|최근 등장" / "전체"(고르면 그 시점으로 이동), 글은 3줄까지, 출처는 카드마다 글자(링크 아님) + 목록 끝 `WikiCredit`(라이선스 링크), 문서 링크는 상세 페이지. "자세히 ›"는 바로 상세 페이지로(`CardSummary`) → 항목의 `page`(없으면 `maps/<지도>/<항목>`, 전쟁 목록은 `wars/<id>/about`).
 - `TopicGauge.tsx`: 비선형 슬라이더, ◀ ▶·재생은 다음 키프레임으로.
 - `ItemMarks.tsx`: 슬라이더 바로 위 항목 표식(span: 기간 막대를 최대 3줄로 쌓음, persist: 눈금). 중요도 5는 진하게, 지금 보이는 항목은 강조, 누르면 그 항목으로 이동. 자리 계산은 `logic.ts`의 `itemMarks`.
 - 상단 탭은 `topic-index.json`으로 자동 생성(`src/app/SiteHeader.tsx`).

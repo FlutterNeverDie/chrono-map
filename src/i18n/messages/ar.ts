@@ -197,6 +197,8 @@ export const ar: Messages = {
     zoomOut: "تصغير",
     wikipedia: "ويكيبيديا",
     readMore: "تابع القراءة في ويكيبيديا",
+    creditFrom: "الأوصاف",
+    creditNote: "رابط كل مقالة في ويكيبيديا موجود في «التفاصيل»",
     details: "التفاصيل",
     otherMaps: "خرائط أخرى لهذه الفترة",
     close: "إغلاق",
