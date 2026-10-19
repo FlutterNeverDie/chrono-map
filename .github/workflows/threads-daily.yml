@@ -1,0 +1,29 @@
+# 오늘의 세계사 - 매일 밤 10시(한국 시간, 미국 동부 오전 9시) 스레드(@today.worldhistory)에 영어 글 하나를 올린다(scripts/threads/today.ts).
+# 필요한 저장소 Secret: THREADS_ACCESS_TOKEN (장기 토큰, 60일마다 `npm run threads -- --refresh`로 연장해 바꿔 넣는다)
+# Secret이 없으면 아무것도 올리지 않고 끝난다. 손으로 돌리려면 Actions → Threads daily → Run workflow.
+name: Threads daily
+
+on:
+  schedule:
+    - cron: "0 13 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: threads-daily
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: npm
+      - run: npm ci
+      - run: npm run content
+      - run: npm run threads -- --post --lang en
+        env:
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}

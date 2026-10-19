@@ -14,10 +14,28 @@
 
 - [ ] (선택) Cloudflare에서 www → historymapworld.com 301 리디렉션 (Rules → Redirect Rules → "Redirect from WWW to root") - canonical로 검색 문제는 해결됨. 주소창까지 통일하고 싶을 때만
 - [ ] 홍보 영상 - 기원전 3400년 → 2024년 국경 변화 15~20초 (MP4·GIF, 가로·세로)
+- [ ] 스레드 "오늘의 세계사" 자동 게시 연결 (아래 스레드)
 - [ ] Reddit 계정 준비 (아래)
 - [ ] Reddit 글 올리기 (아래 순서)
 - [ ] 짧은 영상 채널 - 유튜브 쇼츠, 인스타 릴스, 틱톡 (같은 영상 재사용, 쓰레드는 보조)
 - [ ] 국내 커뮤니티 - GeekNews `Show GN`, 디스콰이엇, 인디스쿨(교사), 역사 커뮤니티
+
+## 스레드 (Threads) - 오늘의 세계사
+
+매일 밤 10시(한국 시간, 미국 동부 오전 9시) @today.worldhistory에 영어로 사건 하나를 공유 이미지 + 요약 + 상세 페이지 링크로 올린다. 스크립트 `scripts/threads/today.ts`, 예약 실행 `.github/workflows/threads-daily.yml`.
+그날이 기념일인 사건(위키백과 첫 문단의 날짜)이 있으면 "N년 전 오늘", 없으면 중요한 사건을 돌아가며.
+
+연결 순서:
+1. 스레드 계정 만들기(인스타그램 계정으로 가입) - 프로필에 사이트 주소
+2. developers.facebook.com → 앱 만들기 → 사용 사례 "Threads API 액세스" → 권한 `threads_basic`, `threads_content_publish`
+3. 앱 역할 → 스레드 테스터에 새 계정 추가 → 스레드 앱 설정 → 웹사이트 권한 → 초대 수락
+4. 사용자 토큰 만들기(그래프 API 탐색기 또는 OAuth) → 장기 토큰(60일)으로 바꾸기
+5. GitHub 저장소 → Settings → Secrets → Actions → `THREADS_ACCESS_TOKEN`
+6. Actions → Threads daily → Run workflow로 한 번 올려 보기
+7. 50일쯤마다 `THREADS_ACCESS_TOKEN=… npm run threads -- --refresh` → 나온 새 토큰으로 Secret 교체
+
+- 남의 글에 자동 댓글·좋아요·팔로우는 하지 않는다(스레드 정책). 가끔 직접 쓴 글을 섞는다.
+- 미리 보기: `npm run threads -- --days 7`
 
 ## Reddit
 
