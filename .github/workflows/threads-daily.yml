@@ -7,6 +7,11 @@ on:
   schedule:
     - cron: "0 13 * * *"
   workflow_dispatch:
+    inputs:
+      replace:
+        description: "오늘 사건 글이 이미 있으면 지우고 다시 올리기"
+        type: boolean
+        default: false
 
 concurrency:
   group: threads-daily
@@ -24,6 +29,6 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run content
-      - run: npm run threads -- --post --lang en
+      - run: npm run threads -- --post --lang en ${{ inputs.replace && '--replace' || '' }}
         env:
           THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}

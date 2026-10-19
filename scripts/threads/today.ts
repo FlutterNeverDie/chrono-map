@@ -5,7 +5,8 @@
  *   npm run threads -- --days 7           오늘부터 7일 치 미리 보기
  *   npm run threads -- --date 2026-08-15  그날 글 미리 보기
  *   npm run threads -- --lang en          영어 글
- *   npm run threads -- --post             실제로 올림(환경변수 THREADS_ACCESS_TOKEN 필요, 없으면 건너뜀)
+ *   npm run threads -- --post             실제로 올림(환경변수 THREADS_ACCESS_TOKEN 필요, 없으면 건너뜀). 최근 글에 같은 사건이 있으면 건너뜀
+ *   npm run threads -- --post --replace   최근 글의 같은 사건 글을 지우고 다시 올림
  *   npm run threads -- --refresh          장기 토큰(60일) 연장 - 새 토큰을 터미널에만 출력. GitHub Secret을 그 값으로 바꾼다
  *
  * 고르는 법(날짜는 한국 시간 기준):
@@ -168,11 +169,11 @@ export function compose({ event: e, anniversary }: Pick, date: string, lang: Lan
   return { text, reply, image: `${SITE}${path}/og.png`, topic: t.topic };
 }
 
-async function call(path: string, params: Record<string, string>, method: "GET" | "POST" = "POST") {
+async function call(path: string, params: Record<string, string>, method: "GET" | "POST" | "DELETE" = "POST") {
   const body = new URLSearchParams({ ...params, access_token: process.env.THREADS_ACCESS_TOKEN! });
   const res = await fetch(
-    method === "GET" ? `${API}/${path}?${body}` : `${API}/${path}`,
-    method === "GET" ? {} : { method, body },
+    method === "POST" ? `${API}/${path}` : `${API}/${path}?${body}`,
+    method === "POST" ? { method, body } : { method },
   );
   const json = (await res.json()) as Record<string, string> & { error?: { message: string } };
   if (!res.ok || json.error) throw new Error(`스레드 API ${path}: ${json.error?.message ?? res.status}`);
@@ -241,10 +242,18 @@ async function main() {
     const post = compose(pickFor(start, events, lang), start, lang);
     // 같은 날 손으로 한 번 더 돌렸거나 예약 실행이 겹쳐도 같은 사건을 두 번 올리지 않는다
     const link = post.text.match(/https:\/\/\S+/)![0];
-    const recent = (await call("me/threads", { fields: "text", limit: "10" }, "GET")) as unknown as { data: { text?: string }[] };
-    if (recent.data.some((t) => t.text?.includes(link))) {
+    const recent = (await call("me/threads", { fields: "id,text", limit: "10" }, "GET")) as unknown as {
+      data: { id: string; text?: string }[];
+    };
+    const same = recent.data.filter((t) => t.text?.includes(link));
+    if (same.length && !args.includes("--replace")) {
       console.log(`최근 글에 이미 있음 - 건너뜀: ${link}`);
       return;
+    }
+    // --replace: 같은 사건 글을 지우고 다시 올린다(형식을 바꾼 뒤 다시 올릴 때). 답글은 본문과 함께 지워진다
+    for (const t of same) {
+      await call(t.id, {}, "DELETE");
+      console.log(`지움: ${t.id}`);
     }
     console.log(`${post.text}\n\n[답글]\n${post.reply}`);
     console.log(`\n게시됨: ${await publish(post)}`);
