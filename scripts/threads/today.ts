@@ -13,7 +13,7 @@
  *   1) 위키백과 첫 문단에 "August 15, 1945"처럼 사건 연도와 월·일이 붙어 있으면 그날을 기념일로 본다 → 그날 날짜("On this day, October 19, 1813").
  *      영어 문단을 먼저 보고(양력), 한국어 문단은 1896년 뒤 사건만(그 전은 음력 날짜가 섞임).
  *   2) 기념일 사건이 없는 날은 기념일이 없는 중요도 3 이상 사건을 정해진 순서(고정 시드로 섞음)로 하루에 하나씩 돌린다 - 상태 파일 없이도 겹치지 않음.
- * 본문: 날짜 / 사건 이름 / 호기심 한 줄 + 사건 상세 링크(맨 끝) + 공유 이미지(/event/<id>/og.png). 위키백과 문장은 싣지 않는다.
+ * 본문: 날짜 / 사건 이름 / 호기심 한 줄 + 지도 링크(맨 끝, ?event=<id>로 그 사건을 고른 채 열림) + 공유 이미지(/event/<id>/og.png). 위키백과 문장은 싣지 않는다.
  * 답글: 위키백과 요약 + 출처·CC BY-SA 4.0(위키백과 글을 옮기는 곳에는 반드시 출처를 쓴다).
  * content.json이 먼저 있어야 한다(npm run content).
  */
@@ -157,7 +157,9 @@ export function compose({ event: e, anniversary }: Pick, date: string, lang: Lan
   const year = formatYear(e.start, lang);
   const head = anniversary ? t.onDay(new Date(`${date}T00:00:00Z`), year) : t.inYear(formatWhen(e, lang));
   // 제목에 연도가 이미 있으면("1956년 헝가리 혁명") 그대로, 기념일 아닌 날은 머리줄에 때가 있다
-  const text = `${head}\n\n${title}\n\n${t.hook} ${SITE}${path}`;
+  // 링크는 상세 페이지가 아니라 지도(그 사건을 고른 채로 열림 - features/events의 useEventUrl)
+  const map = `${SITE}${lang === "ko" ? "/" : `/${lang}`}?event=${e.id}`;
+  const text = `${head}\n\n${title}\n\n${t.hook} ${map}`;
   if (text.length > MAX_TEXT) throw new Error(`글이 ${text.length}자 - ${MAX_TEXT}자를 넘음 (${e.id})`);
 
   const source = summary.page ? trimAsides(summary.text, lang) : summary.text;
@@ -166,7 +168,7 @@ export function compose({ event: e, anniversary }: Pick, date: string, lang: Lan
     : "";
   const reply = `${clipText(source, MAX_TEXT - credit.length)}${credit}`;
   if (reply.length > MAX_TEXT) throw new Error(`답글이 ${reply.length}자 - ${MAX_TEXT}자를 넘음 (${e.id})`);
-  return { text, reply, image: `${SITE}${path}/og.png`, topic: t.topic };
+  return { id: e.id, text, reply, image: `${SITE}${path}/og.png`, topic: t.topic };
 }
 
 async function call(path: string, params: Record<string, string>, method: "GET" | "POST" | "DELETE" = "POST") {
@@ -194,7 +196,7 @@ async function publishOne(params: Record<string, string>) {
 }
 
 /** 본문(사진 + 링크) 게시 → 그 아래 답글(이야기 + 출처). 본문 주소를 돌려준다 */
-async function publish({ text, reply, image, topic }: ReturnType<typeof compose>) {
+async function publish({ text, reply, image, topic }: Omit<ReturnType<typeof compose>, "id">) {
   // 스레드는 이미지를 직접 받아 가므로 사이트에 실제로 있는지 먼저 본다(배포 전 새 사건 등)
   const head = await fetch(image, { method: "HEAD" });
   if (!head.ok) throw new Error(`공유 이미지가 없음 ${head.status}: ${image}`);
@@ -241,13 +243,14 @@ async function main() {
     }
     const post = compose(pickFor(start, events, lang), start, lang);
     // 같은 날 손으로 한 번 더 돌렸거나 예약 실행이 겹쳐도 같은 사건을 두 번 올리지 않는다
-    const link = post.text.match(/https:\/\/\S+/)![0];
+    // 링크 형식이 바뀌어도 알아보게 사건 id로 찾는다(상세 /event/<id> 또는 지도 ?event=<id>)
+    const mine = new RegExp(`(?:/event/|[?&]event=)${post.id}(?![\\w-])`);
     const recent = (await call("me/threads", { fields: "id,text", limit: "10" }, "GET")) as unknown as {
       data: { id: string; text?: string }[];
     };
-    const same = recent.data.filter((t) => t.text?.includes(link));
+    const same = recent.data.filter((t) => t.text && mine.test(t.text));
     if (same.length && !args.includes("--replace")) {
-      console.log(`최근 글에 이미 있음 - 건너뜀: ${link}`);
+      console.log(`최근 글에 이미 있음 - 건너뜀: ${post.id}`);
       return;
     }
     // --replace: 같은 사건 글을 지우고 다시 올린다(형식을 바꾼 뒤 다시 올릴 때). 답글은 본문과 함께 지워진다

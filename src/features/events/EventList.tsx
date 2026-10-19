@@ -60,13 +60,13 @@ export function EventList({ ad }: { ad?: ReactNode } = {}) {
   const selectedIndex = events.findIndex((e) => e.id === selectedEventId);
   const count = Math.max(shown, selectedIndex + 1);
 
-  // 지도에서 핀을 고르면 해당 카드로 스크롤
+  // 지도에서 핀을 고르면 해당 카드로 스크롤. 지도가 옮겨지며 순서가 바뀌어도(시점별 정렬) 다시 따라간다
   useEffect(() => {
-    if (!selectedEventId) return;
+    if (!selectedEventId || selectedIndex < 0) return;
     document
       .getElementById(`event-${selectedEventId}`)
       ?.scrollIntoView({ behavior: "smooth", block: "nearest" });
-  }, [selectedEventId]);
+  }, [selectedEventId, selectedIndex]);
 
   if (events.length === 0) {
     return (

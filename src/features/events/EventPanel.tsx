@@ -13,6 +13,7 @@ import { useI18n } from "@/i18n/I18nProvider";
 import { ChevronUpIcon, XIcon } from "@/components/ui/icons";
 import { EventList, useRankedEvents } from "./EventList";
 import { CategoryFilter } from "./CategoryFilter";
+import { useEventUrl } from "./useEventUrl";
 
 /**
  * 지도 위에 떠 있는 사건 목록.
@@ -21,6 +22,7 @@ import { CategoryFilter } from "./CategoryFilter";
 /** ad: 사건 카드 사이 광고(app이 넘김) */
 export function EventPanel({ ad }: { ad?: ReactNode } = {}) {
   const { locale, messages } = useI18n();
+  useEventUrl();
   const period = usePeriod();
   const open = useUi((s) => s.panelOpen);
   const setOpen = useUi((s) => s.setPanelOpen);
