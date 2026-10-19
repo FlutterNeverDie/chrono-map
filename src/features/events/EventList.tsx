@@ -60,13 +60,18 @@ export function EventList({ ad }: { ad?: ReactNode } = {}) {
   const selectedIndex = events.findIndex((e) => e.id === selectedEventId);
   const count = Math.max(shown, selectedIndex + 1);
 
-  // 지도에서 핀을 고르면 해당 카드로 스크롤. 지도가 옮겨지며 순서가 바뀌어도(시점별 정렬) 다시 따라간다
+  // 지도에서 핀을 고르면 해당 카드로 스크롤. 지도가 옮겨지며 순서가 바뀌어도(시점별 정렬) 다시 따라간다.
+  // 절반 시트(점을 탭해 연 모바일)는 카드를 목록 맨 위에 - 아래 끝은 연도 말풍선에 가려 "자세히" 줄이 잘린다
+  const half = useUi((s) => s.panelHalf);
   useEffect(() => {
     if (!selectedEventId || selectedIndex < 0) return;
     document
       .getElementById(`event-${selectedEventId}`)
-      ?.scrollIntoView({ behavior: "smooth", block: "nearest" });
-  }, [selectedEventId, selectedIndex]);
+      ?.scrollIntoView({
+        behavior: "smooth",
+        block: half ? "start" : "nearest",
+      });
+  }, [selectedEventId, selectedIndex, half]);
 
   if (events.length === 0) {
     return (

@@ -39,16 +39,20 @@ export function EventPanel({ ad }: { ad?: ReactNode } = {}) {
       className={clsx(
         "pointer-events-auto absolute inset-x-2 bottom-[calc(var(--bar-h)+0.5rem)] z-20 flex flex-col overflow-hidden rounded-xl border border-line bg-background/95 shadow-lg backdrop-blur lg:inset-x-auto lg:end-3 lg:top-3 lg:w-[34rem] xl:w-[40rem] 2xl:w-[46rem]",
         // 모바일에서 펼치면 위 끝을 화면 25% 지점에(지도가 위에 보이게), 키 작은 기기에서도 상단 바(--top-h) 아래로.
-        // 지도의 점을 탭해 열었으면 48% 지점까지만(고른 점과 카드가 한 화면에) - 머리줄을 누르면 크게
+        // 지도의 점을 탭해 열었으면 42% 지점까지만(고른 점과 카드 하나가 자세히 줄까지 한 화면에) - 머리줄을 누르면 크게
         open && !half && "max-lg:top-[max(calc(var(--top-h)+0.5rem),25dvh)]",
-        half && "max-lg:top-[max(calc(var(--top-h)+0.5rem),48dvh)]",
+        // 키 작은 휴대폰(760px 미만)은 36% 지점 - 카드 하나가 연도 말풍선에 가리지 않고 다 보이게
+        half &&
+          "max-lg:top-[max(calc(var(--top-h)+0.5rem),42dvh)] max-lg:[@media(max-height:760px)]:top-[max(calc(var(--top-h)+0.5rem),36dvh)]",
       )}
     >
       <button
         type="button"
         onClick={() => setOpen(half || !open)}
         aria-expanded={open && !half}
-        aria-label={open && !half ? messages.ui.closeEvents : messages.ui.openEvents}
+        aria-label={
+          open && !half ? messages.ui.closeEvents : messages.ui.openEvents
+        }
         className={clsx(
           "flex shrink-0 items-center justify-between gap-3 px-5 text-lg font-bold lg:pointer-events-none lg:h-16 lg:text-2xl",
           preview ? "h-16" : "h-14",
@@ -83,7 +87,8 @@ export function EventPanel({ ad }: { ad?: ReactNode } = {}) {
           )}
         </span>
       </button>
-      <div className={clsx(open ? "block" : "hidden", "lg:block")}>
+      {/* 휴대폰 절반 시트(점을 탭해 연 때)는 분류 칩을 숨겨 고른 카드 자리를 넓힌다 - 머리줄을 눌러 크게 열면 다시 보임 */}
+      <div className={clsx(open && !half ? "block" : "hidden", "lg:block")}>
         <CategoryFilter />
       </div>
       <div
