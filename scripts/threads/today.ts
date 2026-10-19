@@ -221,6 +221,13 @@ async function main() {
       return;
     }
     const post = compose(pickFor(start, events, lang), start, lang);
+    // 같은 날 손으로 한 번 더 돌렸거나 예약 실행이 겹쳐도 같은 사건을 두 번 올리지 않는다
+    const link = post.text.match(/https:\/\/\S+/)![0];
+    const recent = (await call("me/threads", { fields: "text", limit: "10" }, "GET")) as unknown as { data: { text?: string }[] };
+    if (recent.data.some((t) => t.text?.includes(link))) {
+      console.log(`최근 글에 이미 있음 - 건너뜀: ${link}`);
+      return;
+    }
     console.log(post.text);
     console.log(`\n게시됨: ${await publish(post)}`);
     return;
