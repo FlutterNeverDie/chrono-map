@@ -21,7 +21,9 @@ export function Legend() {
       ]
     : [];
   return (
-    <div className="flex h-11 w-fit max-w-full items-center gap-3 overflow-x-auto rounded-lg border border-line bg-surface/95 px-3 text-[15px] backdrop-blur [scrollbar-width:none] lg:h-12 lg:gap-4 lg:px-4">
+    // 좁은 화면에서 넘치면 이름·범례만 가로로 민다. 뒤로 버튼은 고정하고, 스크롤 영역은 테두리 안쪽(px-3)에서 잘린다
+    // (예전엔 상자 자체가 스크롤돼 글자가 테두리에 붙어 잘리고, 밀면 뒤로 버튼까지 잘렸다)
+    <div className="flex h-11 w-fit max-w-full items-center gap-3 rounded-lg border border-line bg-surface/95 px-3 text-[15px] backdrop-blur lg:h-12 lg:gap-4 lg:px-4">
       {/* 전쟁 하나를 보다가 전쟁 지도 목록(/wars)으로 돌아가는 길 */}
       <a
         href={localeHref(locale, "wars")}
@@ -31,27 +33,29 @@ export function Legend() {
       >
         <ChevronLeftIcon className="size-5 rtl:-scale-x-100" />
       </a>
-      <strong className="shrink-0 whitespace-nowrap">
-        {campaignTitle(c, locale)}
-      </strong>
-      {items.map((i) => (
-        <span
-          key={i.label}
-          className="inline-flex shrink-0 items-center gap-2 whitespace-nowrap"
-        >
+      <div className="flex min-w-0 items-center gap-3 overflow-x-auto [scrollbar-width:none] lg:gap-4">
+        <strong className="shrink-0 whitespace-nowrap">
+          {campaignTitle(c, locale)}
+        </strong>
+        {items.map((i) => (
           <span
-            aria-hidden
-            className="size-3.5 rounded-sm"
-            style={{ backgroundColor: i.color }}
-          />
-          {i.label}
-        </span>
-      ))}
-      {!items.length && (
-        <span className="shrink-0 text-muted">
-          {messages.wars.polityColors}
-        </span>
-      )}
+            key={i.label}
+            className="inline-flex shrink-0 items-center gap-2 whitespace-nowrap"
+          >
+            <span
+              aria-hidden
+              className="size-3.5 rounded-sm"
+              style={{ backgroundColor: i.color }}
+            />
+            {i.label}
+          </span>
+        ))}
+        {!items.length && (
+          <span className="shrink-0 whitespace-nowrap text-muted">
+            {messages.wars.polityColors}
+          </span>
+        )}
+      </div>
     </div>
   );
 }

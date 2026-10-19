@@ -16,44 +16,46 @@ export function CategoryFilter() {
   const clear = useFilters((s) => s.clearCategories);
 
   return (
-    <div
-      role="group"
-      aria-label={messages.ui.category}
-      // 가로 스크롤 끝에서는 오른쪽 패딩이 무시되는 브라우저가 있어(Safari 등), 끝에 여백 칸(after)을 둔다 - 사이 간격 1.5 + 칸 1.5 = 왼쪽 3과 같게
-      className="flex gap-1.5 overflow-x-auto ps-3 pb-3 [scrollbar-width:none] after:block after:w-1.5 after:shrink-0 after:content-['']"
-    >
-      <button
-        type="button"
-        aria-pressed={selected.length === 0}
-        onClick={clear}
-        className={clsx(
-          chip,
-          selected.length === 0
-            ? "border-foreground bg-foreground font-semibold text-background"
-            : "border-line text-muted hover:text-foreground",
-        )}
+    // 스크롤 영역을 양옆 3만큼 안쪽에 둔다 - 칩이 패널 벽이 아니라 카드와 같은 선에서 잘리게(오른쪽 끝 글자가 벽에 붙어 잘려 보이지 않게)
+    <div className="px-3 pb-3">
+      <div
+        role="group"
+        aria-label={messages.ui.category}
+        className="flex gap-1.5 overflow-x-auto [scrollbar-width:none]"
       >
-        {messages.ui.allCategories}
-      </button>
-      {CATEGORIES.map((id) => {
-        const on = selected.includes(id);
-        return (
-          <button
-            key={id}
-            type="button"
-            aria-pressed={on}
-            onClick={() => select(id)}
-            className={clsx(
-              chip,
-              on
-                ? "border-foreground bg-foreground font-semibold text-background"
-                : "border-line text-muted hover:text-foreground",
-            )}
-          >
-            {messages.categories[id]}
-          </button>
-        );
-      })}
+        <button
+          type="button"
+          aria-pressed={selected.length === 0}
+          onClick={clear}
+          className={clsx(
+            chip,
+            selected.length === 0
+              ? "border-foreground bg-foreground font-semibold text-background"
+              : "border-line text-muted hover:text-foreground",
+          )}
+        >
+          {messages.ui.allCategories}
+        </button>
+        {CATEGORIES.map((id) => {
+          const on = selected.includes(id);
+          return (
+            <button
+              key={id}
+              type="button"
+              aria-pressed={on}
+              onClick={() => select(id)}
+              className={clsx(
+                chip,
+                on
+                  ? "border-foreground bg-foreground font-semibold text-background"
+                  : "border-line text-muted hover:text-foreground",
+              )}
+            >
+              {messages.categories[id]}
+            </button>
+          );
+        })}
+      </div>
     </div>
   );
 }
