@@ -12,6 +12,7 @@ import { geoGraticule10, geoMercator, geoPath } from "d3-geo";
 import { feature } from "topojson-client";
 import type { GeometryCollection, Topology } from "topojson-specification";
 import { swallowNextClick } from "./ghostClick";
+import { mapCover, useMapCover } from "./mapCover";
 import { useHydrated } from "./useHydrated";
 import world from "world-atlas/land-110m.json";
 
@@ -67,21 +68,25 @@ const project = (c: [number, number]) => {
 /** 전쟁 지도는 처음부터 4~6배로 시작하는 게 많아 넉넉히. 더 키우면 국경 데이터(Cliopatria)가 각져 보인다 */
 const MAX_ZOOM = 16;
 
-/** 패널에 가리지 않게 가운데를 옮길 화면 픽셀 (오른쪽/왼쪽 패널은 가로, 아래 시트는 세로) */
-function overlayOffset(rect: DOMRect) {
+/**
+ * 패널에 가리지 않게 가운데를 옮길 화면 픽셀 (오른쪽/왼쪽 패널은 가로, 아래 시트·위 제목/상단 바는 세로).
+ * 세로는 (아래 덮인 높이 - 위 덮인 높이) / 2 - 고른 점이 위아래로 가리지 않은 영역의 가운데에 온다
+ */
+function overlayOffset(svg: SVGSVGElement, rect: DOMRect) {
+  const { top, bottom } = mapCover(svg);
+  const y = (bottom - top) / 2;
   const panel = document
     .querySelector("[data-map-overlay]")
     ?.getBoundingClientRect();
-  if (!panel || panel.height === 0) return { x: 0, y: 0 };
-  if (panel.width < rect.width * 0.8)
-    return {
-      x:
-        panel.left > rect.left + rect.width / 2
-          ? (rect.right - panel.left) / 2
-          : -(panel.right - rect.left) / 2,
-      y: 0,
-    };
-  return { x: 0, y: (rect.bottom - panel.top) / 2 };
+  if (!panel || panel.height === 0 || panel.width >= rect.width * 0.8)
+    return { x: 0, y };
+  return {
+    x:
+      panel.left > rect.left + rect.width / 2
+        ? (rect.right - panel.left) / 2
+        : -(panel.right - rect.left) / 2,
+    y,
+  };
 }
 
 export function useMapViewport(initial: {
@@ -126,18 +131,24 @@ export function useMapViewport(initial: {
     return () => ro.disconnect();
   }, []);
 
+  // 아래 시트·위 상단 바가 덮은 만큼은 지도를 더 옮길 수 있게(남쪽·북쪽 끝 지점도 가리지 않은 곳으로)
+  const cover = useMapCover(svgRef);
   const view = useCallback(
     (k: number, cy: number) => {
       const w = (size ? (MAP_HEIGHT * size.w) / size.h : MAP_WIDTH) / k;
       const h = MAP_HEIGHT / k;
+      const unit = size ? h / size.h : 0;
       return {
         x: (MAP_WIDTH - w) / 2,
-        y: Math.min(MAP_HEIGHT - h, Math.max(0, cy - h / 2)),
+        y: Math.min(
+          MAP_HEIGHT - h + cover.bottom * unit,
+          Math.max(-cover.top * unit, cy - h / 2),
+        ),
         w,
         h,
       };
     },
-    [size],
+    [size, cover],
   );
   const v = view(zoom, centerY);
 
@@ -148,7 +159,7 @@ export function useMapViewport(initial: {
     if (placed.current || !size || !svg) return;
     placed.current = true;
     const rect = svg.getBoundingClientRect();
-    const off = overlayOffset(rect);
+    const off = overlayOffset(svg, rect);
     const upp = MAP_HEIGHT / state.current.zoom / rect.height;
     setLon((l) => normalizeLon(l + (off.x * upp * 360) / MAP_WIDTH));
   }, [size]);
@@ -194,7 +205,7 @@ export function useMapViewport(initial: {
     const svg = svgRef.current;
     if (!svg) return () => {};
     const rect = svg.getBoundingClientRect();
-    const off = overlayOffset(rect);
+    const off = overlayOffset(svg, rect);
     const from = { ...state.current };
     const k2 = Math.max(from.zoom, minZoom);
     const upp = MAP_HEIGHT / k2 / rect.height;

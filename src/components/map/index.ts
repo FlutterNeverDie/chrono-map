@@ -11,3 +11,5 @@ export {
 } from "./borders";
 export type { Polity, PolityProps } from "./borders";
 export { swallowNextClick } from "./ghostClick";
+export { mapCover, useMapCover } from "./mapCover";
+export type { MapCover } from "./mapCover";

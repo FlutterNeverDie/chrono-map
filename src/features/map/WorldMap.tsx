@@ -30,6 +30,7 @@ import {
 import { useBorders, type PolityProps } from "./borders";
 import { useHydrated } from "@/components/map/useHydrated";
 import { swallowNextClick } from "@/components/map/ghostClick";
+import { mapCover, useMapCover } from "@/components/map/mapCover";
 
 /** 이 픽셀보다 적게 움직이면 끌기가 아니라 탭으로 본다 */
 const TAP_SLOP = 5;
@@ -75,23 +76,24 @@ type Gesture = {
 };
 
 /**
- * 지도 위에 떠 있는 패널(데스크톱 오른쪽 / 모바일 아래)에 가려지지 않은 영역의 가운데가 지도 가운데에서 얼마나 떨어졌는지(px).
- * 패널이 오른쪽(보통)이면 x > 0, 왼쪽(아랍어 RTL)이면 x < 0, 아래(모바일)면 y > 0
+ * 지도 위에 떠 있는 것(데스크톱 오른쪽 패널 / 모바일 아래 시트 / 위 제목 상자)에 가려지지 않은 영역의 가운데가 지도 가운데에서 얼마나 떨어졌는지(px).
+ * 패널이 오른쪽(보통)이면 x > 0, 왼쪽(아랍어 RTL)이면 x < 0. 세로는 (아래 덮인 높이 - 위 덮인 높이) / 2
  */
 function overlayOffset(svg: SVGSVGElement): { x: number; y: number } {
   const rect = svg.getBoundingClientRect();
+  const { top, bottom } = mapCover(svg);
+  const y = (bottom - top) / 2;
   const panel = document
     .querySelector("[data-map-overlay]")
     ?.getBoundingClientRect();
-  if (!panel || panel.height <= 0) return { x: 0, y: 0 };
-  if (panel.width >= rect.width * 0.8)
-    return { x: 0, y: (rect.bottom - panel.top) / 2 };
+  if (!panel || panel.height <= 0 || panel.width >= rect.width * 0.8)
+    return { x: 0, y };
   return {
     x:
       panel.left > rect.left + rect.width / 2
         ? (rect.right - panel.left) / 2
         : -(panel.right - rect.left) / 2,
-    y: 0,
+    y,
   };
 }
 
@@ -156,15 +158,21 @@ export function WorldMap() {
   }, []);
 
   /** 보이는 범위(지도 좌표). 가로는 항상 가운데 고정이고, 가로 이동은 회전(lon)으로 한다 */
+  // 아래 시트(모바일 사건 목록)·위 제목 상자가 덮은 만큼은 지도를 더 옮길 수 있게 - 희망봉처럼 남쪽 끝, 북쪽 끝 사건도 가리지 않은 곳으로
+  const cover = useMapCover(svgRef);
   const view = useCallback(
     (k: number, cy: number) => {
       const baseW = size ? (MAP_HEIGHT * size.w) / size.h : MAP_WIDTH;
       const w = baseW / k;
       const h = MAP_HEIGHT / k;
-      const y = Math.min(MAP_HEIGHT - h, Math.max(0, cy - h / 2));
+      const unit = size ? h / size.h : 0;
+      const y = Math.min(
+        MAP_HEIGHT - h + cover.bottom * unit,
+        Math.max(-cover.top * unit, cy - h / 2),
+      );
       return { x: (MAP_WIDTH - w) / 2, y, w, h };
     },
-    [size],
+    [size, cover],
   );
   const v = view(zoom, centerY);
 
