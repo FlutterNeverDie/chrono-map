@@ -1,11 +1,14 @@
-# 오늘의 세계사 - 매일 밤 10시(한국 시간, 미국 동부 오전 9시) 스레드(@today.worldhistory)에 영어 글 하나를 올린다(scripts/threads/today.ts).
+# 오늘의 세계사 - 하루 3번(미국 동부 오전 9시·오후 1시·저녁 7시) 스레드(@today.worldhistory)에 영어 글을 올린다(scripts/threads/today.ts).
 # 필요한 저장소 Secret: THREADS_ACCESS_TOKEN (장기 토큰, 60일마다 `npm run threads -- --refresh`로 연장해 바꿔 넣는다)
 # Secret이 없으면 아무것도 올리지 않고 끝난다. 손으로 돌리려면 Actions → Threads daily → Run workflow.
 name: Threads daily
 
 on:
   schedule:
+    # 하루 3개: UTC 13·17·23시 = 미국 동부 오전 9시·오후 1시·저녁 7시 = 한국 밤 10시·새벽 2시·아침 8시
     - cron: "0 13 * * *"
+    - cron: "0 17 * * *"
+    - cron: "0 23 * * *"
   workflow_dispatch:
     inputs:
       replace:
