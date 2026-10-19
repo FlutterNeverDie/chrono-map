@@ -50,7 +50,8 @@ export function AdSlot({
     }
   }, [live]);
 
-  if (!ready && !ADS_PREVIEW) return null;
+  // 실제 광고는 배포본에서만, 개발 서버에서는 ADS_PREVIEW일 때만 회색 자리(아니면 아무것도 안 그림 - 글·화면 확인을 가리지 않게)
+  if (!live && !ADS_PREVIEW) return null;
   return (
     <aside
       aria-label={messages.ui.ad}

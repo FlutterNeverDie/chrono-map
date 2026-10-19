@@ -20,7 +20,7 @@ export type DetailLink = {
 
 /**
  * 상세 페이지 공통 틀(사건 /event/[id], 주제 지도 항목 /maps/[id]/[item], 전쟁 /wars/[id]/about).
- * 제목·정보 표·설명(위키백과 첫 문단 + 출처) → 버튼 → children(전쟁의 전투 목록 등) →
+ * 제목·정보 표·설명(위키백과 첫 문단 + 출처) → 버튼 → 광고 → children(전쟁의 전투 목록 등) →
  * 이 땅의 앞뒤 사건 → 이 땅을 다스린 나라 → 광고 → 이 시기의 다른 지도 → 오류 제보.
  * 서버 컴포넌트(빌드 때 정적 HTML). 데이터는 app이 각 지도의 data에서 꺼내 넘긴다(features끼리 import하지 않음).
  */
@@ -133,6 +133,8 @@ export function DetailPage({
           ))}
         </ul>
       )}
+      {/* 광고 1: 설명을 다 읽은 바로 뒤(가장 많이 보이는 자리) */}
+      {ad}
       {children}
       <NearbyEvents
         locale={locale}
@@ -141,6 +143,7 @@ export function DetailPage({
         after={r.after}
       />
       <Lands locale={locale} runs={r.lands} now={r.landNow} />
+      {/* 광고 2: 더 보기 끝(끝까지 읽는 사람용). 같은 광고 단위를 한 페이지에 두 번 써도 된다 */}
       {ad}
       <MapChips locale={locale} maps={r.maps} />
       <a
