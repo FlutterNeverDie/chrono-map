@@ -9,17 +9,17 @@
  *   npm run threads -- --refresh          장기 토큰(60일) 연장 - 새 토큰을 터미널에만 출력. GitHub Secret을 그 값으로 바꾼다
  *
  * 고르는 법(날짜는 한국 시간 기준):
- *   1) 위키백과 첫 문단에 "August 15, 1945"처럼 사건 연도와 월·일이 붙어 있으면 그날을 기념일로 본다 → "N년 전 오늘".
+ *   1) 위키백과 첫 문단에 "August 15, 1945"처럼 사건 연도와 월·일이 붙어 있으면 그날을 기념일로 본다 → 그날 날짜("On this day, October 19, 1813").
  *      영어 문단을 먼저 보고(양력), 한국어 문단은 1896년 뒤 사건만(그 전은 음력 날짜가 섞임).
  *   2) 기념일 사건이 없는 날은 기념일이 없는 중요도 3 이상 사건을 정해진 순서(고정 시드로 섞음)로 하루에 하나씩 돌린다 - 상태 파일 없이도 겹치지 않음.
- * 이미지는 사이트의 사건 공유 이미지(/event/<id>/og.png), 링크는 사건 상세 페이지.
- * 위키백과 글을 옮길 때는 출처(문서 이름)와 CC BY-SA 4.0을 함께 쓴다.
+ * 본문: 날짜 / 사건 이름 / 호기심 한 줄 + 사건 상세 링크(맨 끝) + 공유 이미지(/event/<id>/og.png). 위키백과 문장은 싣지 않는다.
+ * 답글: 위키백과 요약 + 출처·CC BY-SA 4.0(위키백과 글을 옮기는 곳에는 반드시 출처를 쓴다).
  * content.json이 먼저 있어야 한다(npm run content).
  */
 import { readFileSync } from "node:fs";
 import type { Content, HistoryEvent, Locale } from "../../src/lib/types";
 import { clipText, eventSummary, eventTitle } from "../../src/lib/localize";
-import { formatWhen } from "../../src/lib/year";
+import { formatWhen, formatYear } from "../../src/lib/year";
 import { root } from "../lib/content";
 
 const SITE = "https://historymapworld.com";
@@ -32,26 +32,29 @@ type Lang = Extract<Locale, "ko" | "en">;
 const TEXT: Record<
   Lang,
   {
-    head: string;
-    ago: (n: number) => string;
-    more: string;
+    /** 기념일: 그날 날짜("On October 19, 1813" - "N년 전"보다 바로 와닿는다) */
+    onDay: (date: Date, year: string) => string;
+    /** 기념일이 아닌 날: 그 해 */
+    inYear: (when: string) => string;
+    /** 링크 바로 위 줄(호기심 + 답글 안내) */
+    hook: string;
     source: (title: string, trimmed: boolean) => string;
-    tag: string;
+    topic: string;
   }
 > = {
   ko: {
-    head: "오늘의 세계사",
-    ago: (n) => `${n}년 전 오늘`,
-    more: "지도에서 그 시대 보기",
+    onDay: (d, y) => `${y} ${d.getUTCMonth() + 1}월 ${d.getUTCDate()}일, 오늘`,
+    inYear: (w) => `${w}의 세계`,
+    hook: "그해 세계는 어땠을까? 이야기는 답글에 ↓\n지도로 보기 →",
     source: (t, trimmed) => `출처: 위키백과 「${t}」 (CC BY-SA 4.0${trimmed ? ", 괄호 속 표기를 줄임" : ""})`,
-    tag: "#세계사",
+    topic: "세계사",
   },
   en: {
-    head: "Today in world history",
-    ago: (n) => `${n} years ago today`,
-    more: "See it on the map",
+    onDay: (d, y) => `On this day, ${d.toLocaleDateString("en-US", { month: "long", day: "numeric", timeZone: "UTC" })}, ${y}`,
+    inYear: (w) => `The world in ${w}`,
+    hook: "What was the rest of the world doing that year? Story in the replies ↓\nSee the map →",
     source: (t, trimmed) => `Source: Wikipedia "${t}" (CC BY-SA 4.0${trimmed ? ", asides trimmed" : ""})`,
-    tag: "#history",
+    topic: "History",
   },
 };
 
@@ -140,26 +143,29 @@ export function trimAsides(text: string, lang: Lang): string {
     .replace(/\s{2,}/g, " ");
 }
 
+/**
+ * 본문: 날짜(또는 그 해) / 사건 이름 / 호기심 한 줄 + 사이트 링크(맨 끝, 그 아래는 쓰지 않음) + 사진.
+ *   위키백과 문장은 본문에 싣지 않는다(출처 줄이 필요 없게, 궁금하면 링크·답글로).
+ * 답글: 위키백과 요약 + 출처(CC BY-SA). 본문을 눌러 답글까지 읽게 한다.
+ */
 export function compose({ event: e, anniversary }: Pick, date: string, lang: Lang) {
   const t = TEXT[lang];
   const title = eventTitle(e, lang);
   const summary = eventSummary(e, lang);
   const path = `${lang === "ko" ? "" : `/${lang}`}/event/${e.id}`;
-  const head = anniversary ? `${t.head} · ${t.ago(+date.slice(0, 4) - e.start)}` : t.head;
-  // 제목에 연도가 이미 있으면("1956년 헝가리 혁명") 때를 다시 붙이지 않는다
-  const when = formatWhen(e, lang);
-  const name = title.includes(String(Math.abs(e.start))) ? title : `${title} (${when})`;
-  const source = summary.page ? trimAsides(summary.text, lang) : summary.text;
-  const tail = [
-    `${t.more} → ${SITE}${path}`,
-    ...(summary.page ? [t.source(summary.page.title, source !== summary.text.replace(/\s+/g, " ").trim())] : []),
-    t.tag,
-  ].join("\n");
-  const fixed = `${head}\n\n${name}\n\n\n\n${tail}`;
-  const body = clipText(source, Math.min(280, MAX_TEXT - fixed.length));
-  const text = `${head}\n\n${name}\n\n${body}\n\n${tail}`;
+  const year = formatYear(e.start, lang);
+  const head = anniversary ? t.onDay(new Date(`${date}T00:00:00Z`), year) : t.inYear(formatWhen(e, lang));
+  // 제목에 연도가 이미 있으면("1956년 헝가리 혁명") 그대로, 기념일 아닌 날은 머리줄에 때가 있다
+  const text = `${head}\n\n${title}\n\n${t.hook} ${SITE}${path}`;
   if (text.length > MAX_TEXT) throw new Error(`글이 ${text.length}자 - ${MAX_TEXT}자를 넘음 (${e.id})`);
-  return { text, image: `${SITE}${path}/og.png` };
+
+  const source = summary.page ? trimAsides(summary.text, lang) : summary.text;
+  const credit = summary.page
+    ? `\n\n${t.source(summary.page.title, source !== summary.text.replace(/\s+/g, " ").trim())}`
+    : "";
+  const reply = `${clipText(source, MAX_TEXT - credit.length)}${credit}`;
+  if (reply.length > MAX_TEXT) throw new Error(`답글이 ${reply.length}자 - ${MAX_TEXT}자를 넘음 (${e.id})`);
+  return { text, reply, image: `${SITE}${path}/og.png`, topic: t.topic };
 }
 
 async function call(path: string, params: Record<string, string>, method: "GET" | "POST" = "POST") {
@@ -174,19 +180,31 @@ async function call(path: string, params: Record<string, string>, method: "GET" 
 }
 
 /** 글 만들기 → 처리 끝날 때까지 기다림 → 게시. 게시된 글 주소를 돌려준다 */
-async function publish({ text, image }: { text: string; image: string }) {
-  // 스레드는 이미지를 직접 받아 가므로 사이트에 실제로 있는지 먼저 본다(배포 전 새 사건 등)
-  const head = await fetch(image, { method: "HEAD" });
-  if (!head.ok) throw new Error(`공유 이미지가 없음 ${head.status}: ${image}`);
-  const { id } = await call("me/threads", { media_type: "IMAGE", image_url: image, text });
+/** 글 하나 만들기 → 처리 끝날 때까지 기다림 → 게시. 게시된 글 id */
+async function publishOne(params: Record<string, string>) {
+  const { id } = await call("me/threads", params);
   for (let i = 0; i < 20; i++) {
     await new Promise((r) => setTimeout(r, 5000));
     const { status, error_message } = await call(id, { fields: "status,error_message" }, "GET");
     if (status === "FINISHED") break;
     if (status === "ERROR" || status === "EXPIRED") throw new Error(`스레드 글 처리 실패: ${status} ${error_message ?? ""}`);
   }
-  const posted = await call("me/threads_publish", { creation_id: id });
-  const { permalink } = await call(posted.id, { fields: "permalink" }, "GET");
+  return (await call("me/threads_publish", { creation_id: id })).id;
+}
+
+/** 본문(사진 + 링크) 게시 → 그 아래 답글(이야기 + 출처). 본문 주소를 돌려준다 */
+async function publish({ text, reply, image, topic }: ReturnType<typeof compose>) {
+  // 스레드는 이미지를 직접 받아 가므로 사이트에 실제로 있는지 먼저 본다(배포 전 새 사건 등)
+  const head = await fetch(image, { method: "HEAD" });
+  if (!head.ok) throw new Error(`공유 이미지가 없음 ${head.status}: ${image}`);
+  const id = await publishOne({ media_type: "IMAGE", image_url: image, text, topic_tag: topic });
+  const { permalink } = await call(id, { fields: "permalink" }, "GET");
+  try {
+    await publishOne({ media_type: "TEXT", text: reply, reply_to_id: id });
+  } catch (err) {
+    // 본문은 이미 올라갔으니 답글 실패로 작업 전체를 실패시키지 않는다(Actions 로그에만 남김)
+    console.error(`답글 실패: ${err instanceof Error ? err.message : err}`);
+  }
   return permalink;
 }
 
@@ -228,7 +246,7 @@ async function main() {
       console.log(`최근 글에 이미 있음 - 건너뜀: ${link}`);
       return;
     }
-    console.log(post.text);
+    console.log(`${post.text}\n\n[답글]\n${post.reply}`);
     console.log(`\n게시됨: ${await publish(post)}`);
     return;
   }
@@ -238,7 +256,7 @@ async function main() {
     const pick = pickFor(date, events, lang);
     const post = compose(pick, date, lang);
     console.log(`──── ${date} ${pick.anniversary ? "(기념일)" : "(돌림)"} · ${post.text.length}자 · ${post.image}`);
-    console.log(post.text + "\n");
+    console.log(`${post.text}\n\n  [답글 ${post.reply.length}자]\n  ${post.reply.replace(/\n/g, "\n  ")}\n`);
   }
 }
 

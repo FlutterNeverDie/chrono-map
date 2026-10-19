@@ -22,8 +22,8 @@
 
 ## 스레드 (Threads) - 오늘의 세계사
 
-매일 밤 10시(한국 시간, 미국 동부 오전 9시) @today.worldhistory에 영어로 사건 하나를 공유 이미지 + 요약 + 상세 페이지 링크로 올린다. 스크립트 `scripts/threads/today.ts`, 예약 실행 `.github/workflows/threads-daily.yml`.
-그날이 기념일인 사건(위키백과 첫 문단의 날짜)이 있으면 "N년 전 오늘", 없으면 중요한 사건을 돌아가며.
+매일 밤 10시(한국 시간, 미국 동부 오전 9시) @today.worldhistory에 영어로 사건 하나를 올린다 - 본문은 날짜·사건 이름·상세 페이지 링크(맨 끝) + 공유 이미지, 이야기(위키백과 요약 + 출처)는 답글로. 스크립트 `scripts/threads/today.ts`, 예약 실행 `.github/workflows/threads-daily.yml`.
+그날이 기념일인 사건(위키백과 첫 문단의 날짜)이 있으면 "On this day, October 19, 1813", 없으면 중요한 사건을 돌아가며.
 
 연결 순서:
 1. 스레드 계정 만들기(인스타그램 계정으로 가입) - 프로필에 사이트 주소
