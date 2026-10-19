@@ -116,7 +116,8 @@ export function WorldMap() {
   const setCenterLon = useUi((s) => s.setCenterLon);
   const zoom = useUi((s) => s.zoom);
   const setZoom = useUi((s) => s.setZoom);
-  const selectEvent = useUi((s) => s.selectEvent);
+  const selectFromMap = useUi((s) => s.selectFromMap);
+  const focusOn = useUi((s) => s.focusOn);
   const selectedEventId = useUi((s) => s.selectedEventId);
   const { polities, nameOf } = useBorders(period.start, locale);
 
@@ -508,6 +509,16 @@ export function WorldMap() {
             >
               <title>{`${formatWhen(e, locale)} ${eventTitle(e, locale)}`}</title>
               <circle r={16} fill="transparent" />
+              {/* 고른 점: 물결이 퍼져 "지금 이 사건"이 바로 보이게 */}
+              {selected && (
+                <circle
+                  r={7.5}
+                  fill="none"
+                  stroke={region.color}
+                  strokeWidth={2}
+                  className="pointer-events-none origin-center animate-pin-pulse [transform-box:fill-box] motion-reduce:hidden"
+                />
+              )}
               <circle r={selected ? 7.5 : 6} fill="var(--map-pin-stroke)" />
               <circle
                 r={selected ? 5 : 4}
@@ -540,6 +551,45 @@ export function WorldMap() {
             </text>
           ))}
         </g>
+
+        {/* 고른 사건 이름: 점 바로 위 말풍선, 나라 이름보다 위 층(나라 이름과 붙어 읽히지 않게 바탕을 깐다). 터치는 통과 */}
+        {(() => {
+          const e = events.find((ev) => ev.id === selectedEventId);
+          const p = e && project(e.coords);
+          if (!e || !p) return null;
+          const title = eventTitle(e, locale);
+          // 글자 폭 어림(한중일 글자 1em, 그 밖 0.6em) - 말풍선 너비
+          const width =
+            [...title].reduce(
+              (w, ch) => w + (ch.codePointAt(0)! >= 0x2e80 ? 12 : 7.2),
+              0,
+            ) + 14;
+          return (
+            <g
+              transform={`translate(${p[0]} ${p[1]}) scale(${round2(unit * 1.2)})`}
+              className="pointer-events-none"
+            >
+              <rect
+                x={-width / 2}
+                y={-33}
+                width={width}
+                height={20}
+                rx={6}
+                style={{ fill: "var(--surface)", stroke: "var(--line)" }}
+                strokeWidth={1}
+              />
+              <text
+                y={-19}
+                textAnchor="middle"
+                fontSize={12}
+                fontWeight={700}
+                fill="var(--map-label)"
+              >
+                {title}
+              </text>
+            </g>
+          );
+        })()}
       </>
     ),
     [
@@ -663,8 +713,15 @@ export function WorldMap() {
     }
     // 탭으로 연 패널이 뒤따르는 click에 바로 닫히지 않게(components/map/ghostClick)
     swallowNextClick();
-    if (g.eventId) selectEvent(g.eventId);
-    else
+    if (g.eventId) {
+      // 시트가 열리며 점을 덮으므로, 패널 크기가 바뀐 뒤(두 프레임 뒤) 점을 가려지지 않은 영역 가운데로 옮긴다
+      const coords = events.find((ev) => ev.id === g.eventId)?.coords;
+      selectFromMap(g.eventId);
+      if (coords)
+        requestAnimationFrame(() =>
+          requestAnimationFrame(() => focusOn(coords)),
+        );
+    } else
       setSelectedPolity((cur) =>
         g.polity && g.polity !== cur ? g.polity : null,
       );

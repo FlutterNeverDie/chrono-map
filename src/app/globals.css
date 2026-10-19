@@ -76,6 +76,12 @@
     25% { transform: translateX(-6px); }
     75% { transform: translateX(6px); }
   }
+  /* 지도에서 고른 사건 점 둘레로 퍼지는 물결(WorldMap) */
+  --animate-pin-pulse: pin-pulse 1.6s ease-out infinite;
+  @keyframes pin-pulse {
+    from { transform: scale(1); opacity: 0.8; }
+    to { transform: scale(3.2); opacity: 0; }
+  }
 }
 
 html {

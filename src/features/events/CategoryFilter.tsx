@@ -19,7 +19,8 @@ export function CategoryFilter() {
     <div
       role="group"
       aria-label={messages.ui.category}
-      className="flex gap-1.5 overflow-x-auto px-3 pb-3 [scrollbar-width:none]"
+      // 가로 스크롤 끝에서는 오른쪽 패딩이 무시되는 브라우저가 있어(Safari 등), 끝에 여백 칸(after)을 둔다 - 사이 간격 1.5 + 칸 1.5 = 왼쪽 3과 같게
+      className="flex gap-1.5 overflow-x-auto ps-3 pb-3 [scrollbar-width:none] after:block after:w-1.5 after:shrink-0 after:content-['']"
     >
       <button
         type="button"

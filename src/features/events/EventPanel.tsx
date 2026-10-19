@@ -25,6 +25,7 @@ export function EventPanel({ ad }: { ad?: ReactNode } = {}) {
   useEventUrl();
   const period = usePeriod();
   const open = useUi((s) => s.panelOpen);
+  const half = useUi((s) => s.panelOpen && s.panelHalf);
   const setOpen = useUi((s) => s.setPanelOpen);
   const ranked = useRankedEvents();
   const count = ranked.length;
@@ -37,15 +38,17 @@ export function EventPanel({ ad }: { ad?: ReactNode } = {}) {
       aria-label={messages.ui.events}
       className={clsx(
         "pointer-events-auto absolute inset-x-2 bottom-[calc(var(--bar-h)+0.5rem)] z-20 flex flex-col overflow-hidden rounded-xl border border-line bg-background/95 shadow-lg backdrop-blur lg:inset-x-auto lg:end-3 lg:top-3 lg:w-[34rem] xl:w-[40rem] 2xl:w-[46rem]",
-        // 모바일에서 펼치면 위 끝을 화면 25% 지점에(지도가 위에 보이게), 키 작은 기기에서도 상단 바(--top-h) 아래로
-        open && "max-lg:top-[max(calc(var(--top-h)+0.5rem),25dvh)]",
+        // 모바일에서 펼치면 위 끝을 화면 25% 지점에(지도가 위에 보이게), 키 작은 기기에서도 상단 바(--top-h) 아래로.
+        // 지도의 점을 탭해 열었으면 48% 지점까지만(고른 점과 카드가 한 화면에) - 머리줄을 누르면 크게
+        open && !half && "max-lg:top-[max(calc(var(--top-h)+0.5rem),25dvh)]",
+        half && "max-lg:top-[max(calc(var(--top-h)+0.5rem),48dvh)]",
       )}
     >
       <button
         type="button"
-        onClick={() => setOpen(!open)}
-        aria-expanded={open}
-        aria-label={open ? messages.ui.closeEvents : messages.ui.openEvents}
+        onClick={() => setOpen(half || !open)}
+        aria-expanded={open && !half}
+        aria-label={open && !half ? messages.ui.closeEvents : messages.ui.openEvents}
         className={clsx(
           "flex shrink-0 items-center justify-between gap-3 px-5 text-lg font-bold lg:pointer-events-none lg:h-16 lg:text-2xl",
           preview ? "h-16" : "h-14",
@@ -73,7 +76,7 @@ export function EventPanel({ ad }: { ad?: ReactNode } = {}) {
           </span>
         </span>
         <span aria-hidden className="text-muted lg:hidden">
-          {open ? (
+          {open && !half ? (
             <XIcon className="size-6" />
           ) : (
             <ChevronUpIcon className="size-6" />

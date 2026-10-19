@@ -18,9 +18,14 @@ type UiState = {
   setZoom: (zoom: number) => void;
   /** 모바일 사건 목록 펼침 여부 */
   panelOpen: boolean;
+  /** 모바일 시트를 절반만 연 상태(지도의 점을 탭해 열었을 때 - 고른 점과 카드가 한 화면에 보이게) */
+  panelHalf: boolean;
+  /** 열고 닫기(머리줄·접기 버튼). 열면 항상 크게 */
   setPanelOpen: (open: boolean) => void;
   selectedEventId: string | null;
   selectEvent: (id: string | null) => void;
+  /** 지도의 점을 탭해 고르기: 닫혀 있었으면 시트를 절반만 연다(이미 크게 열려 있으면 그대로) */
+  selectFromMap: (id: string) => void;
   /** 지도를 이 좌표로 옮겨 달라는 요청(사건 목록에서 고를 때). nonce로 같은 곳도 다시 이동 */
   focus: { coords: [number, number]; nonce: number } | null;
   focusOn: (coords: [number, number]) => void;
@@ -42,7 +47,8 @@ export const useUi = create<UiState>((set) => ({
   zoom: 1,
   setZoom: (zoom) => set({ zoom: Math.min(MAX_ZOOM, Math.max(1, zoom)) }),
   panelOpen: false,
-  setPanelOpen: (panelOpen) => set({ panelOpen }),
+  panelHalf: false,
+  setPanelOpen: (panelOpen) => set({ panelOpen, panelHalf: false }),
   selectedEventId: null,
   focus: null,
   focusOn: (coords) =>
@@ -51,6 +57,12 @@ export const useUi = create<UiState>((set) => ({
   setHome: (home) => set({ home }),
   selectEvent: (selectedEventId) =>
     set({ selectedEventId, panelOpen: selectedEventId != null }),
+  selectFromMap: (selectedEventId) =>
+    set((s) => ({
+      selectedEventId,
+      panelOpen: true,
+      panelHalf: !s.panelOpen || s.panelHalf,
+    })),
 }));
 
 /** 정렬 기준이 되는 시점: 선택된 시점, 없으면(끌었으면) 지도 가운데와 가장 가까운 시점 */
