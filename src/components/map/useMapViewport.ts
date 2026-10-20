@@ -100,10 +100,19 @@ export function useMapViewport(initial: {
   const [zoom, setZoom] = useState(initial.zoom);
   const [size, setSize] = useState<{ w: number; h: number } | null>(null);
   const state = useRef({ lon, centerY, zoom });
-  // 이벤트 처리기(휠·이동 애니메이션)가 최신 값을 읽도록 그릴 때마다 갱신
-  useLayoutEffect(() => {
-    state.current = { lon, centerY, zoom };
-  });
+  /**
+   * 확대 미리보기: 확대(핀치·휠·이동 애니메이션)하는 동안에는 새 배율·위치를 여기에만 두고 이미 그린 지도를
+   * CSS transform으로 늘리고 옮기기만 한다(GPU, 다시 그리지 않음). 멈추면 한 번 그린다.
+   * viewBox 배율이 바뀌면 국경 수백 개의 선 두께·모양을 매번 다시 계산해서 전쟁 지도 핀치가 휴대폰에서 끊겼다.
+   */
+  const pending = useRef<{ lon: number; centerY: number; zoom: number } | null>(
+    null,
+  );
+  const rendered = useRef<{
+    lon: number;
+    v: { x: number; y: number; w: number; h: number };
+  } | null>(null);
+  const commitTimer = useRef(0);
   const drag = useRef<{
     x: number;
     y: number;
@@ -151,6 +160,47 @@ export function useMapViewport(initial: {
     [size, cover],
   );
   const v = view(zoom, centerY);
+  // 이벤트 처리기(휠·이동 애니메이션)가 최신 값을 읽도록 그릴 때마다 갱신. 미리보기를 그렸으면 변환을 지운다(같은 프레임)
+  useLayoutEffect(() => {
+    state.current = { lon, centerY, zoom };
+    rendered.current = { lon, v: view(zoom, centerY) };
+    const svg = svgRef.current;
+    if (!pending.current && svg?.style.transform) {
+      svg.style.transform = "";
+      svg.style.willChange = "";
+    }
+  });
+  /** 지도 칸 크기·위치. 미리보기 중에는 svg에 변환이 걸려 있어 변환 없는 부모 기준 */
+  const mapRect = () =>
+    (svgRef.current?.parentElement ?? svgRef.current)?.getBoundingClientRect();
+  /** 지금 기준 값(미리보기 중이면 그 값) */
+  const current = () => pending.current ?? state.current;
+
+  const preview = useCallback(() => {
+    const svg = svgRef.current;
+    const r = rendered.current;
+    const p = pending.current;
+    const rect = (svg?.parentElement ?? svg)?.getBoundingClientRect();
+    if (!svg || !r || !p || !rect) return;
+    const vp = view(p.zoom, p.centerY);
+    const dShift = (-normalizeLon(p.lon - r.lon) * MAP_WIDTH) / 360;
+    const tx = ((r.v.x + dShift - vp.x) * rect.width) / vp.w;
+    const ty = ((r.v.y - vp.y) * rect.height) / vp.h;
+    svg.style.transformOrigin = "0 0";
+    svg.style.willChange = "transform";
+    svg.style.transform = `translate(${tx}px, ${ty}px) scale(${r.v.w / vp.w})`;
+  }, [view]);
+
+  /** 미리보기 값을 실제로 그린다 */
+  const commit = useCallback(() => {
+    window.clearTimeout(commitTimer.current);
+    const p = pending.current;
+    if (!p) return;
+    pending.current = null;
+    setLon(p.lon);
+    setCenterY(p.centerY);
+    setZoom(p.zoom);
+  }, []);
 
   // 처음 한 번: 가운데가 패널에 가리지 않도록 비켜 놓는다
   const placed = useRef(false);
@@ -164,10 +214,11 @@ export function useMapViewport(initial: {
     setLon((l) => normalizeLon(l + (off.x * upp * 360) / MAP_WIDTH));
   }, [size]);
 
+  /** 화면 좌표(cx, cy)를 고정점으로 배율을 바꾼다. settle이 있으면 미리보기로 두고 그만큼(ms) 뒤에 그린다(0이면 손을 뗄 때) */
   const zoomAt = useCallback(
-    (next: number, cx: number, cy: number) => {
-      const rect = svgRef.current?.getBoundingClientRect();
-      const { zoom: k, centerY: c } = state.current;
+    (next: number, cx: number, cy: number, settle?: number) => {
+      const rect = mapRect();
+      const { zoom: k, centerY: c, lon: l } = current();
       const nk = Math.min(MAX_ZOOM, Math.max(1, next));
       if (!rect || nk === k) return;
       const px = (cx - rect.left) / rect.width;
@@ -176,13 +227,19 @@ export function useMapViewport(initial: {
       const after = view(nk, c);
       const mx = before.x + px * before.w;
       const my = before.y + py * before.h;
-      setLon((l) =>
-        normalizeLon(l - ((after.x + px * after.w - mx) * 360) / MAP_WIDTH),
-      );
-      setCenterY(my - py * after.h + after.h / 2);
-      setZoom(nk);
+      pending.current = {
+        lon: normalizeLon(
+          l - ((after.x + px * after.w - mx) * 360) / MAP_WIDTH,
+        ),
+        centerY: my - py * after.h + after.h / 2,
+        zoom: nk,
+      };
+      if (settle === undefined) return commit();
+      preview();
+      window.clearTimeout(commitTimer.current);
+      if (settle > 0) commitTimer.current = window.setTimeout(commit, settle);
     },
-    [view],
+    [view, preview, commit],
   );
 
   useEffect(() => {
@@ -191,9 +248,10 @@ export function useMapViewport(initial: {
     const onWheel = (e: WheelEvent) => {
       e.preventDefault();
       zoomAt(
-        state.current.zoom * Math.exp(-e.deltaY * 0.0015),
+        current().zoom * Math.exp(-e.deltaY * 0.0015),
         e.clientX,
         e.clientY,
+        150,
       );
     };
     el.addEventListener("wheel", onWheel, { passive: false });
@@ -201,30 +259,42 @@ export function useMapViewport(initial: {
   }, [zoomAt]);
 
   /** 좌표로 부드럽게 이동·확대 (패널에 가리지 않는 곳 가운데로) */
-  const focusTo = useCallback((coords: [number, number], minZoom: number) => {
-    const svg = svgRef.current;
-    if (!svg) return () => {};
-    const rect = svg.getBoundingClientRect();
-    const off = overlayOffset(svg, rect);
-    const from = { ...state.current };
-    const k2 = Math.max(from.zoom, minZoom);
-    const upp = MAP_HEIGHT / k2 / rect.height;
-    const toLon = coords[0] + (off.x * upp * 360) / MAP_WIDTH;
-    const toY = yOfLat(coords[1]) + off.y * upp;
-    const dLon = normalizeLon(toLon - from.lon);
-    const start = performance.now();
-    let frame = 0;
-    const tick = (now: number) => {
-      const p = Math.min(1, (now - start) / 700);
-      const e = p < 0.5 ? 4 * p * p * p : 1 - Math.pow(-2 * p + 2, 3) / 2;
-      setLon(normalizeLon(from.lon + dLon * e));
-      setCenterY(from.centerY + (toY - from.centerY) * e);
-      setZoom(from.zoom + (k2 - from.zoom) * e);
-      if (p < 1) frame = requestAnimationFrame(tick);
-    };
-    frame = requestAnimationFrame(tick);
-    return () => cancelAnimationFrame(frame);
-  }, []);
+  const focusTo = useCallback(
+    (coords: [number, number], minZoom: number) => {
+      const svg = svgRef.current;
+      if (!svg) return () => {};
+      const rect = mapRect()!;
+      const off = overlayOffset(svg, rect);
+      const from = { ...current() };
+      const k2 = Math.max(from.zoom, minZoom);
+      const upp = MAP_HEIGHT / k2 / rect.height;
+      const toLon = coords[0] + (off.x * upp * 360) / MAP_WIDTH;
+      const toY = yOfLat(coords[1]) + off.y * upp;
+      const dLon = normalizeLon(toLon - from.lon);
+      const start = performance.now();
+      let frame = 0;
+      const tick = (now: number) => {
+        const p = Math.min(1, (now - start) / 700);
+        const e = p < 0.5 ? 4 * p * p * p : 1 - Math.pow(-2 * p + 2, 3) / 2;
+        // 이동 중에는 미리보기(다시 그리지 않음), 끝에서 한 번 그린다
+        pending.current = {
+          lon: normalizeLon(from.lon + dLon * e),
+          centerY: from.centerY + (toY - from.centerY) * e,
+          zoom: from.zoom + (k2 - from.zoom) * e,
+        };
+        if (p < 1) {
+          preview();
+          frame = requestAnimationFrame(tick);
+        } else commit();
+      };
+      frame = requestAnimationFrame(tick);
+      return () => {
+        cancelAnimationFrame(frame);
+        commit();
+      };
+    },
+    [preview, commit],
+  );
 
   const hydrated = useHydrated();
 
@@ -246,6 +316,8 @@ export function useMapViewport(initial: {
     className:
       "absolute inset-0 block h-full w-full cursor-grab touch-none select-none active:cursor-grabbing",
     onPointerDown: (e: React.PointerEvent<SVGSVGElement>) => {
+      // 휠 확대 미리보기가 남아 있으면 먼저 그린다(끌기는 그린 화면 기준)
+      if (pending.current && !drag.current) commit();
       e.currentTarget.setPointerCapture(e.pointerId);
       pointers.current.set(e.pointerId, { x: e.clientX, y: e.clientY });
       const [a, b] = [...pointers.current.values()];
@@ -260,7 +332,7 @@ export function useMapViewport(initial: {
           target: e.target as Element,
           pinch: {
             dist: Math.hypot(a.x - b.x, a.y - b.y) || 1,
-            zoom: state.current.zoom,
+            zoom: current().zoom,
           },
         };
         return;
@@ -280,10 +352,12 @@ export function useMapViewport(initial: {
       pointers.current.set(e.pointerId, { x: e.clientX, y: e.clientY });
       const [a, b] = [...pointers.current.values()];
       if (d.pinch && b) {
+        // 손가락을 뗄 때 그린다(onPointerUp)
         zoomAt(
           d.pinch.zoom * (Math.hypot(a.x - b.x, a.y - b.y) / d.pinch.dist),
           (a.x + b.x) / 2,
           (a.y + b.y) / 2,
+          0,
         );
         return;
       }
@@ -298,6 +372,8 @@ export function useMapViewport(initial: {
     onPointerUp: (e: React.PointerEvent<SVGSVGElement>) => {
       pointers.current.delete(e.pointerId);
       const d = drag.current;
+      // 핀치가 끝나면 미리보기 배율을 그린다 - 이어지는 한 손가락 끌기는 그린 화면 기준
+      if (d?.pinch) commit();
       if (pointers.current.size > 0) {
         // 두 손가락 중 하나만 뗐으면 남은 손가락으로 이어서 끌기
         const [rest] = [...pointers.current.values()];
@@ -325,7 +401,7 @@ export function useMapViewport(initial: {
         ) {
           lastTap.current = null;
           touchZoomAt.current = now;
-          zoomAt(state.current.zoom * 2, e.clientX, e.clientY);
+          zoomAt(current().zoom * 2, e.clientX, e.clientY);
           return;
         }
         lastTap.current = { t: now, x: e.clientX, y: e.clientY };
@@ -338,12 +414,13 @@ export function useMapViewport(initial: {
     },
     onPointerCancel: (e: React.PointerEvent<SVGSVGElement>) => {
       pointers.current.delete(e.pointerId);
+      if (drag.current?.pinch) commit();
       drag.current = null;
     },
     onDoubleClick: (e: React.MouseEvent<SVGSVGElement>) => {
       // 손가락 두 번 탭은 위에서 이미 확대했다 — 브라우저가 뒤따라 보내는 dblclick으로 또 확대하지 않게
       if (Date.now() - touchZoomAt.current < 600) return;
-      zoomAt(zoom * 2, e.clientX, e.clientY);
+      zoomAt(current().zoom * 2, e.clientX, e.clientY);
     },
   });
 

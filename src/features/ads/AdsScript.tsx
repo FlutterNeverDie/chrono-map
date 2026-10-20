@@ -10,7 +10,8 @@ export function AdsScript() {
   return (
     <Script
       id="adsense"
-      strategy="afterInteractive"
+      // 첫 화면이 다 뜨고 여유가 생긴 뒤에 받는다(휴대폰에서 지도·목록이 먼저 움직이게). 광고는 목록·본문 아래라 늦어도 된다
+      strategy="lazyOnload"
       crossOrigin="anonymous"
       src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}`}
     />

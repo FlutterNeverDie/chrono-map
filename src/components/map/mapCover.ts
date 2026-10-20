@@ -11,7 +11,8 @@ export type MapCover = { top: number; bottom: number };
  * 지도 세로 한계를 이만큼 늘려 남쪽·북쪽 끝 지점도 가리지 않은 곳으로 옮길 수 있게 하고, 고른 점을 가리지 않은 영역 가운데에 둘 때 쓴다.
  */
 export function mapCover(svg: SVGSVGElement): MapCover {
-  const r = svg.getBoundingClientRect();
+  // 본 지도는 확대하는 동안 svg에 CSS 변환(미리보기)을 걸어서, 변환 없는 부모(지도 칸) 기준으로 잰다
+  const r = (svg.parentElement ?? svg).getBoundingClientRect();
   const panel = document
     .querySelector("[data-map-overlay]")
     ?.getBoundingClientRect();

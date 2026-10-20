@@ -17,11 +17,7 @@ export function localizedTitle(
   locale: Locale,
 ): string | undefined {
   return (
-    own?.[locale] ??
-    wiki[locale]?.title ??
-    own?.en ??
-    wiki.en?.title ??
-    own?.ko
+    own?.[locale] ?? wiki[locale]?.title ?? own?.en ?? wiki.en?.title ?? own?.ko
   );
 }
 
@@ -68,21 +64,36 @@ export function keepLocales<T>(
 
 const only = (text: LocalizedText, locale: Locale) => keepLocales(text, locale);
 
+/** 지도 카드에 보낼 위키백과 첫 문단 길이(글자). 카드는 휴대폰 3줄·큰 화면 4줄까지만 보여 준다 */
+const CARD_EXTRACT = 360;
+
 /**
- * 화면(브라우저)에 보낼 사건: 그 언어 설명과 대체용 영어만 남긴다.
+ * 지도 화면(브라우저)에 보낼 사건: 그 언어 설명과 대체용 영어만 남긴다.
  * 8개 언어 위키백과 요약을 모두 보내지 않아 페이지가 가벼워진다. eventTitle·eventSummary 결과는 같다.
+ * 카드는 첫 문단을 몇 줄만 보여 주므로 앞부분(CARD_EXTRACT자, 문장·단어 끝에서 "…")만 보내고, 지도에서 안 쓰는
+ * 문서 주소(url, 출처 링크는 상세 페이지에)·영어 문서 이름(wikipedia)은 뺀다 - 첫 화면 HTML이 수백 KB였다.
+ * 글 전체·문서 링크는 상세 페이지가 서버에서 원본(data/content)으로 그린다.
  */
 export function localizeEvent(e: HistoryEvent, locale: Locale): HistoryEvent {
   const wiki: HistoryEvent["wiki"] = {};
-  if (e.wiki[locale]) wiki[locale] = e.wiki[locale];
-  else if (e.wiki.en) wiki.en = e.wiki.en;
-  return {
+  const lang = e.wiki[locale] ? locale : e.wiki.en ? "en" : null;
+  if (lang) {
+    const w = e.wiki[lang]!;
+    wiki[lang] = {
+      title: w.title,
+      extract: clipText(w.extract, CARD_EXTRACT),
+      url: "",
+    };
+  }
+  const out: HistoryEvent = {
     ...e,
     wiki,
     title: only(e.title, locale),
     place: only(e.place, locale),
     summary: only(e.summary, locale),
   };
+  delete out.wikipedia;
+  return out;
 }
 
 /**

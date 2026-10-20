@@ -14,7 +14,8 @@
 - 바탕: `world-atlas/land-110m.json` 해안선(현대). 그 위에 연도별 국경.
 - 시점: `data/viewpoints.ts`의 9개 경도. 시점이 바뀌면 600ms 동안 가까운 방향으로 회전, 끝나면 `centerLon` 저장.
 - 끌기: 좌우로 끌면 경도가 바뀐다(끝없이 이어짐). 끌기 시작하면 시점 선택 해제(null), 끝나면 `centerLon` 저장. 5px 미만은 핀 탭.
-- 성능: 투영은 경도 0에서 한 번만 하고 회전은 지도 그룹 translate로(메르카토르에서 경도 회전 = 가로 이동). 지도 내용(`layer`)은 useMemo로 한 번 만들어 복사본마다 재사용 → 끄는 동안 국경 경로를 다시 계산하지 않는다. 핀은 중요한 순 최대 `MAX_PINS`(60, `lib/events.ts`의 `limitPins`).
+- 성능: 투영은 경도 0에서 한 번만 하고 회전은 지도 그룹 translate로(메르카토르에서 경도 회전 = 가로 이동). 지도 내용은 useMemo로 한 번 만들어 복사본마다 재사용(국경 `bordersLayer`는 배율과 무관, 핀·이름표 `overlayLayer`만 배율에 따라) → 끄는 동안 국경 경로를 다시 계산하지 않는다.
+- 확대 미리보기: 핀치·휠·사건 고르기 이동처럼 배율이 바뀌는 동안에는 `zoomRef`·`lonRef`·`centerYRef`만 바꾸고 이미 그린 svg를 CSS transform으로 늘리고 옮긴다(`previewZoom`, GPU). 손을 떼면(핀치)·0.15초 멈추면(휠)·애니메이션 끝에 `commitZoom`으로 한 번 그리고, 다시 그린 직후 useLayoutEffect에서 변환을 지운다(같은 프레임). viewBox 배율이 바뀔 때마다 국경 수백 개의 선 두께·모양을 다시 계산해 휴대폰 핀치가 15~24fps로 끊기던 것 → 70fps(CPU 4배 느림 측정). 미리보기 중에는 svg 크기가 변하므로 화면 크기는 부모(지도 칸) 기준으로 잰다(`mapRect`, `overlayOffset`, `mapCover`). 핀은 중요한 순 최대 `MAX_PINS`(60, `lib/events.ts`의 `limitPins`).
 - 좌표 반올림(`geoPath().digits(1)`, `project()` 소수 1자리) — 서버/브라우저 부동소수점 차이로 하이드레이션 경고가 나기 때문.
 
 ## 역사 국경 (`borders.ts`)
