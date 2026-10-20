@@ -11,7 +11,7 @@
 | `topics/<지도>/` | 주제 지도(/maps: 역병·발명·종교 …) 설정·항목 — `content/topics/CLAUDE.md` | `npm run topics:fetch`·`topics:build` |
 | `polity-names/<언어>.txt` | 지도 위 나라 이름 수정·보충. 한 줄에 `원본 이름 = 번역` | `npm run borders` |
 | `polity-names/wikipedia.txt` | 원본이 엉뚱한 위키 문서(사건·인물·역사 문서)에 이어진 나라의 문서 바꾸기. 한 줄에 `원본 이름 = 영어 위키백과 문서 제목` → 8개 언어 이름이 그 문서에서 온다 | `npm run borders` |
-| `threads/hooks.en.txt` | 스레드 "오늘의 세계사" 본문 한 줄(사건마다, 직접 쓴 영어 60~120자 - 위키백과 문장을 옮기지 않는다). 사건을 추가하면 한 줄 추가 | `npm run threads`가 읽음 |
+| `threads/posts.en.txt` | 스레드 "오늘의 세계사" 글(사건마다 한 줄: `id | 이미지 큰 글씨 | 작은 글씨 | 본문 첫머리 | 끝 질문`, 직접 쓴 영어 - 위키백과 문장을 옮기지 않는다, 날짜는 쓰지 않음). 사건을 추가하면 한 줄 추가. 이미지 글씨를 바꾸면 `npm run og:fonts` | `npm run threads`, 글 이미지 `/en/event/<id>/post.png` |
 | `wikipedia.json` | **자동 생성, 직접 고치지 않음.** 사건별 위키백과 요약(8개 언어) | `npm run wiki`로 받음 → `npm run content`가 합침 |
 
 지역 id: korea, china, japan, central-asia, southeast-asia, india, middle-east, europe, africa, north-america, south-america, oceania

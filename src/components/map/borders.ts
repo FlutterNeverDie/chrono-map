@@ -6,6 +6,8 @@ import { feature } from "topojson-client";
 import type { GeometryCollection, Topology } from "topojson-specification";
 import type { Feature, MultiPolygon, Polygon } from "geojson";
 
+export { polityColor } from "./polityColor";
+
 /** 공용 국경 로더: 정적 TopoJSON(public/…)과 언어별 나라 이름(public/borders/names). 한 번 받은 파일은 메모리에 둔다 */
 export type PolityProps = {
   n: string;
@@ -114,24 +116,6 @@ export function useMainBordersUrl(year: number): string | null {
   return `/borders/${pick}.json`;
 }
 
-const PALETTE = [
-  "#e76f51",
-  "#f4a261",
-  "#e9c46a",
-  "#8ab17d",
-  "#2a9d8f",
-  "#5e9fd1",
-  "#8d7bd1",
-  "#d17bb4",
-  "#c9886b",
-  "#7fa7a0",
-];
-/** 나라마다 고정된 색 */
-export function polityColor(key: string): string {
-  let h = 0;
-  for (let i = 0; i < key.length; i++) h = (h * 31 + key.charCodeAt(i)) | 0;
-  return PALETTE[Math.abs(h) % PALETTE.length];
-}
 
 /**
  * 이름표를 달 나라: 넓은 순(넓이가 같으면 괄호 없는 이름 먼저), 같은 이름·같은 자리는 하나만.

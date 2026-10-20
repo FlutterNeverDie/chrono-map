@@ -22,7 +22,7 @@
 
 ## 스레드 (Threads) - 오늘의 세계사
 
-하루 3번(미국 동부 오전 9시·오후 1시·저녁 7시 = 한국 밤 10시·새벽 2시·아침 8시) @today.worldhistory에 영어로 사건을 올린다 - 본문은 날짜·사건 이름·직접 쓴 한 줄(`content/threads/hooks.en.txt`)·지도 링크(맨 끝, `?event=<id>`로 그 사건을 고른 지도) + 공유 이미지, 이야기(위키백과 요약 + 출처)는 답글로. 스크립트 `scripts/threads/today.ts`, 예약 실행 `.github/workflows/threads-daily.yml`.
+하루 3번(미국 동부 오전 9시·오후 1시·저녁 7시 = 한국 밤 10시·새벽 2시·아침 8시) @today.worldhistory에 영어로 사건을 올린다 - 본문은 놀라운 사실로 시작하는 첫머리·날짜와 사건 이름·편을 고르게 하는 질문(`content/threads/posts.en.txt`, 본문에 링크 없음) + 세로 이미지(그 해 국경 지도 + 큰 한 줄, `/en/event/<id>/post.png`), 이야기(위키백과 요약 + 출처)와 지도 링크(`?event=<id>`)는 답글로. 스크립트 `scripts/threads/today.ts`, 예약 실행 `.github/workflows/threads-daily.yml`.
 그날이 기념일인 사건(위키백과 첫 문단의 날짜)이 있으면 "On this day, October 19, 1813", 없으면 중요한 사건을 돌아가며.
 
 연결 순서:

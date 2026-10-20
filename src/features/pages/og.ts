@@ -1,4 +1,14 @@
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
+import { geoArea } from "d3-geo";
+import { feature } from "topojson-client";
+import type { GeometryCollection, Topology } from "topojson-specification";
+import type { Feature, MultiPolygon, Polygon } from "geojson";
 import type { HistoryEvent, Locale } from "@/lib/types";
+import { parseThreadPosts, type ThreadPost } from "@/lib/threadPosts";
+import { polityColor } from "@/components/map/polityColor";
+import type { PolityProps } from "@/components/map/borders";
+import type { PostCard } from "@/components/og/renderPost";
 import { fill, getMessages } from "@/i18n";
 import { eventTitle, pick } from "@/lib/localize";
 import { formatPeriod, formatPeriodRange, periodOf } from "@/lib/period";
@@ -79,4 +89,65 @@ export function allCards(locales: Locale[]): OgCard[] {
     ...YEAR_PERIODS.map((p) => yearCard(l, periodSlug(p))!),
     ...EVENTS.map((e) => eventCard(l, e.id)!),
   ]);
+}
+
+/** 스레드 글(content/threads/posts.en.txt) - 이미지 글자와 본문. 영어만 */
+let threadPosts: Map<string, ThreadPost> | null = null;
+export function threadPostsEn(): Map<string, ThreadPost> {
+  threadPosts ??= parseThreadPosts(
+    readFileSync(join(process.cwd(), "content/threads/posts.en.txt"), "utf8"),
+  );
+  return threadPosts;
+}
+
+/** 그 해(이하 가장 가까운) 본 지도 국경 스냅샷의 나라들 - public/borders */
+function bordersOf(year: number) {
+  const dir = join(process.cwd(), "public/borders");
+  const years = JSON.parse(
+    readFileSync(join(dir, "index.json"), "utf8"),
+  ) as number[];
+  const snap = years.filter((y) => y <= year).at(-1) ?? years[0];
+  const topo = JSON.parse(
+    readFileSync(join(dir, `${snap}.json`), "utf8"),
+  ) as Topology<{ p: GeometryCollection<PolityProps> }>;
+  return feature(topo, topo.objects.p).features.filter(
+    // 방향이 뒤집힌 도형은 지도 전체를 칠한다(components/map/borders.ts와 같은 검사)
+    (f) => geoArea(f) < 2 * Math.PI,
+  ) as Feature<Polygon | MultiPolygon, PolityProps>[];
+}
+let polityNamesEn: Record<string, string> | null = null;
+
+/** 스레드 글 이미지(4:5): 그 해 국경 지도 + 큰 한 줄. 글이 없는 사건은 null */
+export function eventPostCard(id: string): PostCard | null {
+  const e = findEvent(id);
+  const post = threadPostsEn().get(id);
+  if (!e || !post) return null;
+  const m = getMessages("en");
+  polityNamesEn ??= JSON.parse(
+    readFileSync(join(process.cwd(), "public/borders/names/en.json"), "utf8"),
+  ) as Record<string, string>;
+  const names = polityNamesEn;
+  return {
+    kicker: formatWhen(e, "en"),
+    head: post.head,
+    sub: post.sub,
+    title: eventTitle(e, "en"),
+    brand: m.siteName,
+    credit: "Borders: Cliopatria (CC BY 4.0)",
+    pin: e.coords,
+    // 중요도 5(세계적인 사건)는 대륙이 보이게 넓게
+    span: e.importance >= 5 ? 90 : 40,
+    regions: bordersOf(Number(e.start)).map((f) => ({
+      shape: f,
+      color: polityColor(f.properties.n),
+      label:
+        f.properties.l && !f.properties.n.startsWith("(")
+          ? {
+              text: names[f.properties.n] ?? f.properties.n,
+              at: f.properties.l,
+              area: f.properties.a,
+            }
+          : undefined,
+    })),
+  };
 }

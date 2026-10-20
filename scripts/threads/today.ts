@@ -15,11 +15,14 @@
  *      영어 문단을 먼저 보고(양력), 한국어 문단은 1896년 뒤 사건만(그 전은 음력 날짜가 섞임).
  *   2) 남은 자리는 기념일이 없는 사건을 정해진 순서(고정 시드로 섞음)로 돌린다 - 상태 파일 없이도 한 바퀴 돌 때까지 겹치지 않음.
  *   둘 다 큰 사건만(featured: 중국·유럽·북미·일본의 중요한 사건, 근현대 한국·인도, 어디든 중요도 5).
- * 본문: 날짜 / 사건 이름 / 직접 쓴 한 줄(content/threads/hooks.<언어>.txt, 없으면 질문 한 줄) / 답글 안내 + 지도 링크(맨 끝, ?event=<id>로 그 사건을 고른 채 열림) + 공유 이미지(/event/<id>/og.png). 위키백과 문장은 싣지 않는다.
- * 답글: 위키백과 요약 + 출처·CC BY-SA 4.0(위키백과 글을 옮기는 곳에는 반드시 출처를 쓴다).
+ * 본문(직접 쓴 글이 있는 사건, content/threads/posts.<언어>.txt): 첫머리(놀라운 사실) / 날짜·사건 이름 / 끝 질문(답글 유도) + 세로 이미지(/en/event/<id>/post.png - 그 해 국경 지도 + 큰 한 줄).
+ *   본문에는 링크를 넣지 않는다(링크 글은 덜 보여 준다) - 지도 링크는 답글 끝에. 위키백과 문장은 본문에 싣지 않는다.
+ *   글이 없는 사건(한국어 등)은 예전 형식: 날짜 / 사건 이름 / 질문 한 줄 / 답글 안내 + 지도 링크 + 공유 카드(/event/<id>/og.png).
+ * 답글: 위키백과 요약 + 출처·CC BY-SA 4.0(위키백과 글을 옮기는 곳에는 반드시 출처를 쓴다) + 지도 링크(?event=<id>로 그 사건을 고른 채 열림).
  * content.json이 먼저 있어야 한다(npm run content).
  */
 import { existsSync, readFileSync } from "node:fs";
+import { parseThreadPosts, type ThreadPost } from "../../src/lib/threadPosts";
 import type { Content, HistoryEvent, Locale } from "../../src/lib/types";
 import { clipText, eventSummary, eventTitle } from "../../src/lib/localize";
 import { formatWhen, formatYear } from "../../src/lib/year";
@@ -41,8 +44,12 @@ const TEXT: Record<
     inYear: (when: string) => string;
     /** 직접 쓴 한 줄이 없는 사건의 질문 */
     ask: string;
-    /** 링크 바로 위 줄(답글 안내) */
+    /** 링크 바로 위 줄(답글 안내) - 예전 형식 */
     more: string;
+    /** 답글 끝 지도 링크 앞 글자 */
+    mapLink: string;
+    /** 기념일 줄("On this day, October 21, 1600: Battle of Sekigahara") */
+    onDayTitle: (date: Date, year: string, title: string) => string;
     source: (title: string, trimmed: boolean) => string;
     topic: string;
   }
@@ -52,6 +59,8 @@ const TEXT: Record<
     inYear: (w) => `${w}의 세계`,
     ask: "그해 세계는 어땠을까?",
     more: "이야기는 답글에 ↓\n지도로 보기 →",
+    mapLink: "지도로 보기 →",
+    onDayTitle: (d, y, t) => `${y} ${d.getUTCMonth() + 1}월 ${d.getUTCDate()}일, 오늘: ${t}`,
     source: (t, trimmed) => `출처: 위키백과 「${t}」 (CC BY-SA 4.0${trimmed ? ", 괄호 속 표기를 줄임" : ""})`,
     topic: "세계사",
   },
@@ -60,6 +69,9 @@ const TEXT: Record<
     inYear: (w) => `Back to ${w}`,
     ask: "What was the rest of the world doing that year?",
     more: "Story in the replies ↓\nSee it on the map →",
+    mapLink: "See it on the map →",
+    onDayTitle: (d, y, t) =>
+      `On this day, ${d.toLocaleDateString("en-US", { month: "long", day: "numeric", timeZone: "UTC" })}, ${y}: ${t}`,
     source: (t, trimmed) => `Source: Wikipedia "${t}" (CC BY-SA 4.0${trimmed ? ", asides trimmed" : ""})`,
     topic: "History",
   },
@@ -165,17 +177,10 @@ export function picksFor(date: string, events: HistoryEvent[], lang: Lang): Pick
   return [...today, ...rest];
 }
 
-/** 직접 쓴 한 줄(content/threads/hooks.<언어>.txt, "사건id: 문장"). 위키백과 문장이 아니라 본문에 출처 없이 쓴다 */
-function readHooks(lang: Lang): Map<string, string> {
-  const file = root(`content/threads/hooks.${lang}.txt`);
-  if (!existsSync(file)) return new Map();
-  return new Map(
-    readFileSync(file, "utf8")
-      .split("\n")
-      .map((l) => l.match(/^([\w-]+):\s*(.+)$/))
-      .filter((m) => m !== null)
-      .map((m) => [m[1], m[2].trim()]),
-  );
+/** 직접 쓴 글(content/threads/posts.<언어>.txt). 위키백과 문장이 아니라 본문에 출처 없이 쓴다 */
+function readPosts(lang: Lang): Map<string, ThreadPost> {
+  const file = root(`content/threads/posts.${lang}.txt`);
+  return existsSync(file) ? parseThreadPosts(readFileSync(file, "utf8")) : new Map();
 }
 
 /**
@@ -191,21 +196,30 @@ export function trimAsides(text: string, lang: Lang): string {
 }
 
 /**
- * 본문: 날짜(또는 그 해) / 사건 이름 / 호기심 한 줄 + 사이트 링크(맨 끝, 그 아래는 쓰지 않음) + 사진.
- *   위키백과 문장은 본문에 싣지 않는다(출처 줄이 필요 없게, 궁금하면 링크·답글로).
- * 답글: 위키백과 요약 + 출처(CC BY-SA). 본문을 눌러 답글까지 읽게 한다.
+ * 직접 쓴 글이 있으면: 첫머리 / 날짜·사건 이름 / 끝 질문 + 세로 이미지(post.png). 본문에 링크 없음.
+ * 없으면(예전 형식): 날짜(또는 그 해) / 사건 이름 / 질문 한 줄 + 답글 안내·지도 링크(맨 끝) + 공유 카드(og.png).
+ * 답글: 위키백과 요약 + 출처(CC BY-SA) + (새 형식이면) 지도 링크. 본문을 눌러 답글까지 읽게 한다.
+ * fallbackImage: post.png가 아직 배포되지 않았을 때 올릴 공유 카드.
  */
-export function compose({ event: e, anniversary }: Pick, date: string, lang: Lang, hooks: Map<string, string>) {
+export function compose(
+  { event: e, anniversary }: Pick,
+  date: string,
+  lang: Lang,
+  posts: Map<string, ThreadPost>,
+) {
   const t = TEXT[lang];
   const title = eventTitle(e, lang);
   const summary = eventSummary(e, lang);
   const path = `${lang === "ko" ? "" : `/${lang}`}/event/${e.id}`;
   const year = formatYear(e.start, lang);
-  const head = anniversary ? t.onDay(new Date(`${date}T00:00:00Z`), year) : t.inYear(formatWhen(e, lang));
-  // 제목에 연도가 이미 있으면("1956년 헝가리 혁명") 그대로, 기념일 아닌 날은 머리줄에 때가 있다
+  const day = new Date(`${date}T00:00:00Z`);
   // 링크는 상세 페이지가 아니라 지도(그 사건을 고른 채로 열림 - features/events의 useEventUrl)
   const map = `${SITE}${lang === "ko" ? "/" : `/${lang}`}?event=${e.id}`;
-  const text = `${head}\n\n${title}\n${hooks.get(e.id) ?? t.ask}\n\n${t.more} ${map}`;
+  const post = posts.get(e.id);
+  const text = post
+    ? `${post.hook}\n\n${anniversary ? t.onDayTitle(day, year, title) : `${title}, ${formatWhen(e, lang)}`}\n\n${post.question}`
+    : // 제목에 연도가 이미 있으면("1956년 헝가리 혁명") 그대로, 기념일 아닌 날은 머리줄에 때가 있다
+      `${anniversary ? t.onDay(day, year) : t.inYear(formatWhen(e, lang))}\n\n${title}\n${t.ask}\n\n${t.more} ${map}`;
   if (text.length > MAX_TEXT) throw new Error(`글이 ${text.length}자 - ${MAX_TEXT}자를 넘음 (${e.id})`);
 
   const source = summary.page ? trimAsides(summary.text, lang) : summary.text;
@@ -213,9 +227,17 @@ export function compose({ event: e, anniversary }: Pick, date: string, lang: Lan
     ? `\n\n${t.source(summary.page.title, source !== summary.text.replace(/\s+/g, " ").trim())}`
     : "";
   // 답글은 두세 문장만(길면 안 읽는다). 더 읽고 싶으면 지도·상세 페이지로
-  const reply = `${clipText(source, 300)}${credit}`;
+  const reply = `${clipText(source, 300)}${credit}${post ? `\n\n${t.mapLink} ${map}` : ""}`;
   if (reply.length > MAX_TEXT) throw new Error(`답글이 ${reply.length}자 - ${MAX_TEXT}자를 넘음 (${e.id})`);
-  return { id: e.id, text, reply, image: `${SITE}${path}/og.png`, topic: t.topic };
+  return {
+    id: e.id,
+    title,
+    text,
+    reply,
+    image: `${SITE}${path}/${post ? "post" : "og"}.png`,
+    fallbackImage: `${SITE}${path}/og.png`,
+    topic: t.topic,
+  };
 }
 
 async function call(path: string, params: Record<string, string>, method: "GET" | "POST" | "DELETE" = "POST") {
@@ -241,11 +263,17 @@ async function publishOne(params: Record<string, string>) {
   return (await call("me/threads_publish", { creation_id: id })).id;
 }
 
-/** 본문(사진 + 링크) 게시 → 그 아래 답글(이야기 + 출처). 본문 주소를 돌려준다 */
-async function publish({ text, reply, image, topic }: Omit<ReturnType<typeof compose>, "id">) {
-  // 스레드는 이미지를 직접 받아 가므로 사이트에 실제로 있는지 먼저 본다(배포 전 새 사건 등)
-  const head = await fetch(image, { method: "HEAD" });
-  if (!head.ok) throw new Error(`공유 이미지가 없음 ${head.status}: ${image}`);
+/** 본문(사진) 게시 → 그 아래 답글(이야기 + 출처 + 지도 링크). 본문 주소를 돌려준다 */
+async function publish({ text, reply, image: wanted, fallbackImage, topic }: ReturnType<typeof compose>) {
+  // 스레드는 이미지를 직접 받아 가므로 사이트에 실제로 있는지 먼저 본다(배포 전 새 사건 등).
+  // 글 이미지(post.png)가 아직 배포 전이면 공유 카드로 대신한다
+  let image = wanted;
+  if (!(await fetch(image, { method: "HEAD" })).ok) {
+    console.log(`글 이미지가 없어 공유 카드로: ${image}`);
+    image = fallbackImage;
+    const head = await fetch(image, { method: "HEAD" });
+    if (!head.ok) throw new Error(`공유 이미지가 없음 ${head.status}: ${image}`);
+  }
   const id = await publishOne({ media_type: "IMAGE", image_url: image, text, topic_tag: topic });
   const { permalink } = await call(id, { fields: "permalink" }, "GET");
   try {
@@ -266,7 +294,7 @@ async function main() {
   const lang = (arg("--lang") ?? "ko") as Lang;
   if (!(lang in TEXT)) throw new Error(`--lang은 ${Object.keys(TEXT).join(", ")} 중 하나`);
   const start = arg("--date") ?? todayFor(lang);
-  const hooks = readHooks(lang);
+  const posts = readPosts(lang);
   const days = Number(arg("--days") ?? 1);
   const { events } = JSON.parse(
     readFileSync(root("src/data/generated/content.json"), "utf8"),
@@ -289,14 +317,15 @@ async function main() {
       return;
     }
     const slot = Number(arg("--slot") ?? slotNow());
-    const post = compose(picksFor(start, events, lang)[slot], start, lang, hooks);
+    const post = compose(picksFor(start, events, lang)[slot], start, lang, posts);
     // 같은 날 손으로 한 번 더 돌렸거나 예약 실행이 겹쳐도 같은 사건을 두 번 올리지 않는다
     // 링크 형식이 바뀌어도 알아보게 사건 id로 찾는다(상세 /event/<id> 또는 지도 ?event=<id>)
     const mine = new RegExp(`(?:/event/|[?&]event=)${post.id}(?![\\w-])`);
     const recent = (await call("me/threads", { fields: "id,text", limit: "10" }, "GET")) as unknown as {
       data: { id: string; text?: string }[];
     };
-    const same = recent.data.filter((t) => t.text && mine.test(t.text));
+    // 새 형식은 본문에 링크가 없어 사건 이름으로도 찾는다
+    const same = recent.data.filter((t) => t.text && (mine.test(t.text) || t.text.includes(post.title)));
     if (same.length && !args.includes("--replace")) {
       console.log(`최근 글에 이미 있음 - 건너뜀: ${post.id}`);
       return;
@@ -314,7 +343,7 @@ async function main() {
   for (let i = 0; i < days; i++) {
     const date = new Date(Date.parse(`${start}T00:00:00Z`) + i * 86_400_000).toISOString().slice(0, 10);
     picksFor(date, events, lang).forEach((pick, slot) => {
-      const post = compose(pick, date, lang, hooks);
+      const post = compose(pick, date, lang, posts);
       console.log(`──── ${date} #${slot} ${pick.anniversary ? "(기념일)" : "(돌림)"} · ${post.text.length}자 · ${post.image}`);
       console.log(`${post.text}\n\n  [답글 ${post.reply.length}자]\n  ${post.reply.replace(/\n/g, "\n  ")}\n`);
     });

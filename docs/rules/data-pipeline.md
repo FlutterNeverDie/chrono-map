@@ -11,7 +11,7 @@
 | 전쟁 지도 | `content/campaigns/<id>` | `npm run wars:fetch` / `wars:borders` | `npm run wars:build` |
 | 주제 지도 | `content/topics/<id>` | `npm run topics:fetch` | `npm run topics:build` |
 | OG 이미지 글꼴 | 모든 OG 카드의 글자 | `npm run og:fonts` → `content/og-fonts` (사건 제목·문구가 바뀌면) | — (이미지는 `next build`가 생성) |
-| 스레드 "오늘의 세계사" | `content.json`(사건) | — | `npm run threads`(미리 보기, `-- --days 7`, `-- --lang en`) / `-- --post`(게시, `THREADS_ACCESS_TOKEN`) - 하루 3번(미국 동부 오전 9시·오후 1시·저녁 7시) `.github/workflows/threads-daily.yml`, 본문 한 줄은 `content/threads/hooks.en.txt` |
+| 스레드 "오늘의 세계사" | `content.json`(사건) | — | `npm run threads`(미리 보기, `-- --days 7`, `-- --lang en`) / `-- --post`(게시, `THREADS_ACCESS_TOKEN`) - 하루 3번(미국 동부 오전 9시·오후 1시·저녁 7시) `.github/workflows/threads-daily.yml`, 글은 `content/threads/posts.en.txt`, 글 이미지(4:5, 그 해 국경 지도)는 빌드 때 `/en/event/<id>/post.png` |
 
 ```bash
 npm run dev     # 개발 서버 http://localhost:3000 (자동 변환 포함)

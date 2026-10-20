@@ -8,4 +8,5 @@
 - 글꼴: `content/og-fonts/`의 부분 글꼴(Noto Sans / KR / SC, 500·700). `npm run og:fonts`가 모든 카드의 글자만 모아 Google Fonts에서 받는다(네트워크는 이 스크립트에서만, 결과는 git에).
   - **사건 제목·화면 문구를 바꾸면 `npm run og:fonts`를 다시 실행.** 빠진 글자가 있으면 빌드 로그에 `[og] 글꼴에 없는 글자`가 나온다.
   - 한 번에 400자씩 요청한다. 더 많으면 Google이 부분 글꼴 대신 전체 글꼴(10MB)을 준다(스크립트가 1MB 넘으면 실패시킴).
+- `renderPost(card)`(renderPost.tsx): 스레드 글 이미지 1080×1350(4:5). 그 해 국경 지도(가로 40°, 중요도 5는 90°)를 깔고 위에 큰·작은 글씨, 아래에 제목·사이트 이름·국경 출처(Cliopatria CC BY 4.0). 나라 이름은 svg 글자 대신 div(satori가 svg 안 글자에 글꼴을 못 넣음). 라우트 `app/[locale]/event/[id]/post.png`(영어 글이 있는 사건만), 내용은 `features/pages/og.ts`의 `eventPostCard`. 나라 색은 `components/map/polityColor.ts`(서버에서도 쓰려고 "use client"인 borders.ts에서 뺌).
 - satori 제약: 자식이 여럿인 div는 `display: flex`, `inset` 대신 top/left, 줄 수 제한(lineClamp) 대신 한 줄 `nowrap + ellipsis`.

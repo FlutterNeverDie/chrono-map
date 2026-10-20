@@ -15,7 +15,7 @@ import {
   fontSets,
   type FontSet,
 } from "../src/components/og/fonts";
-import { allCards } from "../src/features/pages/og";
+import { allCards, threadPostsEn } from "../src/features/pages/og";
 
 /** 한 번에 요청하는 글자 수. 너무 많으면 Google이 부분 글꼴 대신 전체 글꼴(10MB)을 준다 */
 const CHUNK = 400;
@@ -51,6 +51,11 @@ async function main() {
       if (ch.codePointAt(0)! < 0x2e80) chars.latin.add(ch);
     }
   }
+
+  // 스레드 글 이미지(post.png, 영어)의 큰·작은 글씨
+  for (const post of threadPostsEn().values())
+    for (const ch of post.head + post.sub)
+      if (!/\s/.test(ch)) chars.latin.add(ch);
 
   mkdirSync(FONT_DIR, { recursive: true });
   for (const f of readdirSync(FONT_DIR))
