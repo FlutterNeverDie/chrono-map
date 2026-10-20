@@ -172,6 +172,7 @@ export const ar: Messages = {
     share: "مشاركة",
     linkCopied: "تم نسخ الرابط",
     yearStep: "فاصل السنوات",
+    mapTilt: "إمالة الخريطة",
     hideNames: "إخفاء أسماء الدول",
     showNames: "إظهار أسماء الدول",
     ad: "إعلان",

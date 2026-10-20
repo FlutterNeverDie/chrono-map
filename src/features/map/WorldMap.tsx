@@ -11,7 +11,7 @@ import {
 import { flushSync } from "react-dom";
 import { geoPath } from "d3-geo";
 import { usePeriod } from "@/store/timeline";
-import { MAX_ZOOM, useUi } from "@/store/ui";
+import { MAX_TILT, MAX_ZOOM, useUi } from "@/store/ui";
 import { useVisibleEvents } from "@/store/useVisibleEvents";
 import { limitPins } from "@/lib/events";
 import { eventTitle } from "@/lib/localize";
@@ -41,6 +41,7 @@ import { useHydrated } from "@/components/map/useHydrated";
 import { swallowNextClick } from "@/components/map/ghostClick";
 import {
   mapCover,
+  mapFrame,
   useMapCover,
   type MapCover,
 } from "@/components/map/mapCover";
@@ -76,6 +77,21 @@ const round1 = (v: number) => Math.round(v * 10) / 10;
 const round2 = (v: number) => Math.round(v * 100) / 100;
 const round4 = (v: number) => Math.round(v * 10000) / 10000;
 
+/**
+ * 기울인 지도(책상 위 지도를 눈높이에서 보듯): 지도 칸 아래 가운데를 축으로 뒤로 눕히고 원근(perspective)을 건다.
+ * 눈 거리 P = 지도 칸 높이의 2배. 먼 쪽(위)이 좁아져 양옆이 비지 않게, 위 끝 폭이 화면 폭이 되도록 k배 키운다(가까운 쪽은 화면 밖으로).
+ */
+function tiltParams(tilt: number, h: number) {
+  const P = 2 * h;
+  const sin = Math.sin((tilt * Math.PI) / 180);
+  return { P, k: P / (P - h * sin) };
+}
+function tiltTransform(tilt: number, h: number) {
+  if (!tilt || !h) return "";
+  const { P, k } = tiltParams(tilt, h);
+  return `perspective(${round1(P)}px) rotateX(${round2(tilt)}deg) scale(${round4(k)})`;
+}
+
 type Gesture = {
   /** 한 손가락/마우스: 끌기 시작 시점의 값 */
   x: number;
@@ -91,6 +107,10 @@ type Gesture = {
   stale?: boolean;
   /** 끌기 속도 계산용 최근 위치(시각 ms, x, y) */
   samples?: [number, number, number][];
+  /** 기울이기: 시작 화면 y와 그때 기울기. 두 손가락이면 처음 움직임으로 핀치인지 기울이기인지 정한다(decided) */
+  tilt?: { y: number; from: number };
+  /** 두 손가락: 시작 가운데 y(화면), 핀치·기울이기가 정해졌는지 */
+  pair?: { midY: number; decided: boolean };
 };
 
 /**
@@ -130,7 +150,7 @@ function extendCopies(clone: SVGSVGElement, x: number, w: number) {
  */
 function overlayOffset(svg: SVGSVGElement): { x: number; y: number } {
   // 확대 미리보기 변환이 걸려 있을 수 있어 변환 없는 부모(지도 칸) 기준
-  const rect = (svg.parentElement ?? svg).getBoundingClientRect();
+  const rect = mapFrame(svg).getBoundingClientRect();
   const { top, bottom } = mapCover(svg);
   const y = (bottom - top) / 2;
   const panel = document
@@ -174,6 +194,16 @@ export function WorldMap() {
   const { polities, nameOf } = useBorders(period.start, locale);
 
   const svgRef = useRef<SVGSVGElement>(null);
+  /** 손짓을 받는 지도 칸(국경 svg·지도 그림·핀 svg를 감싼다) */
+  const hostRef = useRef<HTMLDivElement>(null);
+  /** 핀·나라 이름 svg - 국경 svg 위에 따로 둬서 확대·끌기 미리보기 동안 크기를 화면에서 그대로 유지한다 */
+  const overlayRef = useRef<SVGSVGElement>(null);
+  /** 기울이는 판(국경 svg·지도 그림·핀 svg). 지도 칸(hostRef)은 기울이지 않아 크기를 재는 기준이 된다 */
+  const planeRef = useRef<HTMLDivElement>(null);
+  const tilt = useUi((s) => s.tilt);
+  const setTilt = useUi((s) => s.setTilt);
+  /** 지금 기울기(기울이는 손짓 중에는 저장소보다 앞선 값) */
+  const tiltRef = useRef(tilt);
   const [lon, setLon] = useState(startLon);
   const [centerY, setCenterY] = useState(MAP_HEIGHT / 2);
   const [size, setSize] = useState<{ w: number; h: number } | null>(null);
@@ -192,7 +222,7 @@ export function WorldMap() {
   const previewRect = useRef<DOMRect | null>(null);
   /** 미리보기 변환 쓰기는 한 프레임에 한 번(두 손가락이면 움직임 이벤트가 프레임마다 두 번 온다) */
   const previewFrame = useRef(0);
-  /** 휴대폰용 지도 그림(snapshot): 마지막으로 그린 화면을 좌우 한 화면·위아래 반 화면씩 넓게 구운 canvas. key가 지금 그린 화면 번호와 같을 때만 쓴다 */
+  /** 지도 그림(snapshot): 마지막으로 그린 국경 화면을 좌우 ex·위아래 ey 화면씩 넓게 구운 canvas. key가 지금 그린 화면 번호와 같을 때만 쓴다 */
   const snapHost = useRef<HTMLDivElement>(null);
   const snap = useRef<{
     key: number;
@@ -200,6 +230,9 @@ export function WorldMap() {
     major: number;
     w: number;
     h: number;
+    /** 화면 밖으로 넓게 구운 양(좌우·위아래 각각 몇 화면) */
+    ex: number;
+    ey: number;
     /** 구울 때의 화면(경도·viewBox) - 미리보기 변환의 기준 */
     r: { lon: number; v: { x: number; y: number; w: number; h: number } };
   } | null>(null);
@@ -313,10 +346,49 @@ export function WorldMap() {
 
   /** 지도 화면 크기·위치. 확대 미리보기 중에는 svg에 변환이 걸려 있어서, 변환이 없는 부모(지도 칸) 기준으로 잰다 */
   const mapRect = useCallback(
-    () =>
-      previewRect.current ??
-      svgRef.current?.parentElement?.getBoundingClientRect(),
+    () => previewRect.current ?? hostRef.current?.getBoundingClientRect(),
     [],
+  );
+
+  /** 기울인 판에 바로 쓰기(기울이는 손짓 중에는 프레임마다 - 다시 그리지 않는다). 먼 쪽은 하늘로 흐리게 */
+  const applyTilt = useCallback((t: number) => {
+    tiltRef.current = t;
+    const plane = planeRef.current;
+    const h = hostRef.current?.clientHeight ?? 0;
+    if (!plane) return;
+    plane.style.transform = tiltTransform(t, h);
+    const fade = t
+      ? `linear-gradient(to bottom, transparent, #000 ${round1(4 + t / 4)}%)`
+      : "";
+    plane.style.maskImage = fade;
+    plane.style.webkitMaskImage = fade;
+  }, []);
+  useEffect(() => applyTilt(tilt), [tilt, size, applyTilt]);
+
+  /**
+   * 화면 위 점(client px)을 기울이기 전 지도 칸 위의 점으로(눈에서 그 점으로 가는 선이 누운 판과 만나는 곳).
+   * 끌기·확대 계산은 모두 이 점으로 한다 - 그래서 기울여도 끄는 손가락 밑 지도가 따라온다
+   */
+  const toPlane = useCallback(
+    (cx: number, cy: number): [number, number] => {
+      const t = tiltRef.current;
+      const rect = t ? mapRect() : null;
+      if (!t || !rect) return [cx, cy];
+      const H = rect.height;
+      const { P, k } = tiltParams(t, H);
+      const th = (t * Math.PI) / 180;
+      // 지평선(먼 쪽 끝)보다 위는 지평선 바로 아래로
+      const a = Math.max(
+        cy - rect.bottom,
+        (-0.97 * P * Math.cos(th)) / Math.sin(th),
+      );
+      const w = (a * P) / (k * (P * Math.cos(th) + a * Math.sin(th)));
+      const u =
+        ((cx - rect.left - rect.width / 2) * (P - k * w * Math.sin(th))) /
+        (k * P);
+      return [rect.left + rect.width / 2 + u, rect.bottom + w];
+    },
+    [mapRect],
   );
 
   /**
@@ -342,6 +414,23 @@ export function WorldMap() {
         ty: ((base.v.y - vp.y) * rect.height) / vp.h,
       };
     };
+    // 핀·이름 svg는 그린 화면 기준으로 옮기고, 늘어난 만큼 핀·글자를 줄여 화면에서 크기를 그대로 둔다
+    // (같이 늘렸다가 손을 뗀 뒤 원래 크기로 돌아가는 게 느리고 어색했다). 줄이는 값은 바뀔 때만 쓴다
+    const ov = overlayRef.current;
+    if (ov) {
+      const t = toNow(r);
+      ov.style.transform = `translate(${t.tx}px, ${t.ty}px) scale(${t.scale})`;
+      const pinK = String(round4(1 / t.scale));
+      if (ov.style.getPropertyValue("--pin-k") !== pinK) {
+        ov.style.setProperty("--pin-k", pinK);
+        // 이름 글자는 배율^0.2만큼 커지게 그리므로(placedLabels) 미리보기도 같게
+        ov.style.setProperty("--label-k", String(round4(t.scale ** -0.8)));
+      }
+      if (ov.dataset.preview === undefined) {
+        ov.style.willChange = "transform";
+        ov.dataset.preview = "";
+      }
+    }
     const host = snapHost.current;
     const canvas = host?.firstElementChild as HTMLElement | null;
     const s = snap.current;
@@ -362,10 +451,10 @@ export function WorldMap() {
       // 그림이 화면을 다 덮는지(끌기로 한 화면 넘게 가면 빈 곳이 보인다) - 끌기는 넘으면 한 번 그리고 이어 간다
       const { width: W, height: H } = rect;
       const covered =
-        tx - 2 * W * scale <= 1 &&
-        tx + 3 * W * scale >= W - 1 &&
-        ty - H * scale <= 1 &&
-        ty + 2 * H * scale >= H - 1;
+        tx - s.ex * W * scale <= 1 &&
+        tx + (s.ex + 1) * W * scale >= W - 1 &&
+        ty - s.ey * H * scale <= 1 &&
+        ty + (s.ey + 1) * H * scale >= H - 1;
       if (
         covered ||
         gesture.current?.pinch ||
@@ -473,6 +562,14 @@ export function WorldMap() {
       delete svg.dataset.preview;
       if (snapHost.current) snapHost.current.style.visibility = "hidden";
     }
+    const ov = overlayRef.current;
+    if (ov && ov.dataset.preview !== undefined) {
+      ov.style.transform = "";
+      ov.style.willChange = "";
+      ov.style.removeProperty("--pin-k");
+      ov.style.removeProperty("--label-k");
+      delete ov.dataset.preview;
+    }
     // 이번 그리기의 svg 변화(MutationObserver 기록은 이 뒤 microtask로 온다)를 본 다음 끈다
     queueMicrotask(() => {
       queueMicrotask(() => {
@@ -481,12 +578,17 @@ export function WorldMap() {
     });
   }, [lon, centerY, zoom, view]);
 
-  // 휴대폰: 지도 내용이 바뀌면(svg DOM 변화 - 다시 그렸는데 바뀐 게 없으면 그대로) 지도 그림을 새로 굽는다
+  // 지도 내용이 바뀌면(svg DOM 변화 - 다시 그렸는데 바뀐 게 없으면 그대로) 지도 그림을 새로 굽는다
   // (멈추고 0.5초 뒤, 확대·끌기 중이 아닐 때). 그동안 확대·끌기는 svg를 직접 옮긴다.
   // 렌더마다 버리면 끌기 시작(setViewpoint) 같은 내용 없는 렌더에도 그림을 못 써서 DOM 변화로 판단한다
   useEffect(() => {
     const svg = svgRef.current;
-    if (!svg || !matchMedia("(pointer: coarse)").matches) return;
+    if (!svg) return;
+    // 휴대폰은 좌우 두 화면·위아래 한 화면씩(확대했을 때 금방 그림 밖으로 나가서), 데스크톱은 화면이 커서 한 화면·반 화면씩
+    // (그만큼 해상도를 높여 끄는 동안에도 흐리지 않게)
+    const coarse = matchMedia("(pointer: coarse)").matches;
+    const ex = coarse ? 2 : 1;
+    const ey = coarse ? 1 : 0.5;
     /** 움직이는 중에 내용이 바뀌었음(다음 굽기 때 지금 그림을 버린다) */
     let dirty = false;
     /** 끄는 중 곧바로 굽기 예약됨 */
@@ -494,7 +596,7 @@ export function WorldMap() {
     const build = async () => {
       const host = snapHost.current;
       const r = rendered.current;
-      const rect = svg.parentElement?.getBoundingClientRect();
+      const rect = mapFrame(svg).getBoundingClientRect();
       if (!host || !r || !rect?.width) return;
       // 그림을 보여 주는 중이면 끝난 뒤에. 끄는 중이라도 그림이 없으면(그림 밖으로 나가 예전 방식으로 그리는 중) 바로 굽는다
       if (
@@ -511,23 +613,25 @@ export function WorldMap() {
       const key = renderKey.current;
       const majorAtStart = major.current;
       const { width: W, height: H } = rect;
-      // 그림 크기: 화면 5배 × 3배(좌우 두 화면, 위아래 한 화면 - 확대했을 때는 한 화면이 짧아 금방 그림 밖으로 나갔다).
-      // 해상도는 1.5배까지, 전체 800만 화소 이하(아이폰 canvas 한도 1670만)
+      // 그림 크기: 화면 (2ex+1)배 × (2ey+1)배. 해상도는 휴대폰 1.5배·800만 화소(아이폰 canvas 한도 1670만),
+      // 데스크톱 2배·1600만 화소까지
+      const nx = 2 * ex + 1;
+      const ny = 2 * ey + 1;
       const scale = Math.min(
-        1.5,
+        coarse ? 1.5 : 2,
         devicePixelRatio,
-        Math.sqrt(8e6 / (W * 5 * H * 3)),
+        Math.sqrt((coarse ? 8e6 : 16e6) / (W * nx * H * ny)),
       );
       const canvas = await rasterizeSvg(
         svg,
         {
-          x: r.v.x - 2 * r.v.w,
-          y: r.v.y - r.v.h,
-          w: r.v.w * 5,
-          h: r.v.h * 3,
+          x: r.v.x - ex * r.v.w,
+          y: r.v.y - ey * r.v.h,
+          w: r.v.w * nx,
+          h: r.v.h * ny,
         },
-        { w: W * 5, h: H * 3, scale },
-        (clone) => extendCopies(clone, r.v.x - 2 * r.v.w, r.v.w * 5),
+        { w: W * nx, h: H * ny, scale },
+        (clone) => extendCopies(clone, r.v.x - ex * r.v.w, r.v.w * nx),
         host.querySelector("canvas") ?? undefined,
         () => svg.dataset.preview !== undefined,
       );
@@ -540,15 +644,15 @@ export function WorldMap() {
       if (key !== renderKey.current) return;
       Object.assign(canvas.style, {
         position: "absolute",
-        left: `${-2 * W}px`,
-        top: `${-H}px`,
-        width: `${W * 5}px`,
-        height: `${H * 3}px`,
-        transformOrigin: `${2 * W}px ${H}px`,
+        left: `${-ex * W}px`,
+        top: `${-ey * H}px`,
+        width: `${W * nx}px`,
+        height: `${H * ny}px`,
+        transformOrigin: `${ex * W}px ${ey * H}px`,
         willChange: "transform",
       });
       if (canvas.parentElement !== host) host.replaceChildren(canvas);
-      snap.current = { key, major: majorAtStart, w: W, h: H, r };
+      snap.current = { key, major: majorAtStart, w: W, h: H, ex, ey, r };
     };
     /** 확대·끌기·관성 이동 중(지도 그림을 보여 주는 중 포함) */
     const interacting = () =>
@@ -569,7 +673,7 @@ export function WorldMap() {
         ((-normalizeLon(r.lon - s.r.lon) * MAP_WIDTH) / 360 + s.r.v.x - r.v.x) /
         r.v.w;
       const dy = (s.r.v.y - r.v.y) / r.v.h;
-      return Math.abs(dx) < 1 && Math.abs(dy) < 0.5;
+      return Math.abs(dx) < s.ex / 2 && Math.abs(dy) < s.ey / 2;
     };
     const invalidate = (content = true) => {
       if (content) {
@@ -628,20 +732,16 @@ export function WorldMap() {
 
   // 휠 확대 (페이지 스크롤을 막아야 해서 passive: false로 직접 등록)
   useEffect(() => {
-    const el = svgRef.current;
+    const el = hostRef.current;
     if (!el) return;
     const onWheel = (e: WheelEvent) => {
       e.preventDefault();
-      zoomAt(
-        zoomRef.current * Math.exp(-e.deltaY * 0.0015),
-        e.clientX,
-        e.clientY,
-        150,
-      );
+      const [x, y] = toPlane(e.clientX, e.clientY);
+      zoomAt(zoomRef.current * Math.exp(-e.deltaY * 0.0015), x, y, 150);
     };
     el.addEventListener("wheel", onWheel, { passive: false });
     return () => el.removeEventListener("wheel", onWheel);
-  }, [zoomAt]);
+  }, [zoomAt, toPlane]);
 
   // 시점이 바뀌면 가까운 방향으로 회전. 시점 경도는 패널에 가려지지 않은 영역의 가운데에 온다
   // (데스크톱은 오른쪽 사건 패널이 지도 가운데를 가려, 동아시아 시점이 중앙아시아처럼 보였다)
@@ -654,7 +754,7 @@ export function WorldMap() {
     const shift = svg
       ? (overlayOffset(svg).x * MAP_HEIGHT * 360) /
         (useUi.getState().zoom *
-          (svg.parentElement ?? svg).getBoundingClientRect().height *
+          mapFrame(svg).getBoundingClientRect().height *
           MAP_WIDTH)
       : 0;
     const target = VIEWPOINT_BY_ID.get(viewpoint)!.lon + (shift || 0);
@@ -701,7 +801,7 @@ export function WorldMap() {
   useEffect(() => {
     const svg = svgRef.current;
     if (!focus || !svg) return;
-    const rect = (svg.parentElement ?? svg).getBoundingClientRect();
+    const rect = mapFrame(svg).getBoundingClientRect();
     const { x: offsetX, y: offsetY } = overlayOffset(svg);
     const fromLon = lonRef.current;
     const fromY = centerYRef.current;
@@ -894,6 +994,10 @@ export function WorldMap() {
   const copies = [-2, -1, 0, 1, 2]
     .map((k) => ({ k, offset: round1(shift + k * MAP_WIDTH) }))
     .filter(({ offset: o }) => o < v.x + v.w && o + MAP_WIDTH > v.x);
+  // 핀·이름 svg는 좌우 한 화면·위아래 반 화면씩 넓게 그린다 - 끄는 동안 다시 그리지 않고 옮기기만 하므로 화면 밖 핀·이름도 미리
+  const overlayCopies = [-2, -1, 0, 1, 2]
+    .map((k) => ({ k, offset: round1(shift + k * MAP_WIDTH) }))
+    .filter(({ offset: o }) => o < v.x + 2 * v.w && o + MAP_WIDTH > v.x - v.w);
 
   // 지도 내용은 끌기 중에 바뀌지 않으므로 한 번 만들어 복사본마다 재사용(React가 다시 그리지 않는다).
   // 국경(배율과 무관)과 핀·이름표(배율에 따라 크기가 바뀜)를 나눠, 배율이 바뀌어도 수백 개 국경 경로는 다시 맞춰 보지 않는다
@@ -961,27 +1065,30 @@ export function WorldMap() {
               key={e.id}
               data-event-id={e.id}
               transform={`translate(${p[0]} ${p[1]}) scale(${round2(unit * 1.2)})`}
-              className="cursor-pointer"
+              className="pointer-events-auto cursor-pointer"
             >
               <title>{`${formatWhen(e, locale)} ${eventTitle(e, locale)}`}</title>
-              <circle r={16} fill="transparent" />
-              {/* 고른 점: 물결이 퍼져 "지금 이 사건"이 바로 보이게 */}
-              {selected && (
+              {/* 미리보기로 늘린 만큼 줄인다(--pin-k, applyPreview) */}
+              <g style={{ transform: "scale(var(--pin-k, 1))" }}>
+                <circle r={16} fill="transparent" />
+                {/* 고른 점: 물결이 퍼져 "지금 이 사건"이 바로 보이게 */}
+                {selected && (
+                  <circle
+                    r={7.5}
+                    fill="none"
+                    stroke={region.color}
+                    strokeWidth={2}
+                    className="pointer-events-none origin-center animate-pin-pulse [transform-box:fill-box] motion-reduce:hidden"
+                  />
+                )}
+                <circle r={selected ? 7.5 : 6} fill="var(--map-pin-stroke)" />
                 <circle
-                  r={7.5}
-                  fill="none"
-                  stroke={region.color}
-                  strokeWidth={2}
-                  className="pointer-events-none origin-center animate-pin-pulse [transform-box:fill-box] motion-reduce:hidden"
+                  r={selected ? 5 : 4}
+                  fill={region.color}
+                  stroke="var(--map-pin-ring)"
+                  strokeWidth={selected ? 1.5 : 1}
                 />
-              )}
-              <circle r={selected ? 7.5 : 6} fill="var(--map-pin-stroke)" />
-              <circle
-                r={selected ? 5 : 4}
-                fill={region.color}
-                stroke="var(--map-pin-ring)"
-                strokeWidth={selected ? 1.5 : 1}
-              />
+              </g>
             </g>
           );
         })}
@@ -999,8 +1106,10 @@ export function WorldMap() {
           {placedLabels.map((label) => (
             <text
               key={label.key}
-              x={label.x}
-              y={label.y}
+              // 미리보기로 늘린 만큼 줄이도록(--label-k) 자리는 CSS transform으로 - 그 점을 중심으로 줄어든다
+              style={{
+                transform: `translate(${label.x}px, ${label.y}px) scale(var(--label-k, 1))`,
+              }}
               fontSize={label.fontSize}
             >
               {label.text}
@@ -1025,24 +1134,26 @@ export function WorldMap() {
               transform={`translate(${p[0]} ${p[1]}) scale(${round2(unit * 1.2)})`}
               className="pointer-events-none"
             >
-              <rect
-                x={-width / 2}
-                y={-33}
-                width={width}
-                height={20}
-                rx={6}
-                style={{ fill: "var(--surface)", stroke: "var(--line)" }}
-                strokeWidth={1}
-              />
-              <text
-                y={-19}
-                textAnchor="middle"
-                fontSize={12}
-                fontWeight={700}
-                fill="var(--map-label)"
-              >
-                {title}
-              </text>
+              <g style={{ transform: "scale(var(--pin-k, 1))" }}>
+                <rect
+                  x={-width / 2}
+                  y={-33}
+                  width={width}
+                  height={20}
+                  rx={6}
+                  style={{ fill: "var(--surface)", stroke: "var(--line)" }}
+                  strokeWidth={1}
+                />
+                <text
+                  y={-19}
+                  textAnchor="middle"
+                  fontSize={12}
+                  fontWeight={700}
+                  fill="var(--map-label)"
+                >
+                  {title}
+                </text>
+              </g>
             </g>
           );
         })()}
@@ -1101,7 +1212,7 @@ export function WorldMap() {
     momentum.current = requestAnimationFrame(step);
   };
 
-  const onPointerDown = (e: React.PointerEvent<SVGSVGElement>) => {
+  const onPointerDown = (e: React.PointerEvent<HTMLDivElement>) => {
     // 관성 이동을 잡고, 쉴 때 그리기 예약은 미룬다(지도 그림 미리보기에서 이어 간다)
     stopMomentum();
     window.clearTimeout(settleTimer.current);
@@ -1114,10 +1225,30 @@ export function WorldMap() {
     )
       commitZoom();
     e.currentTarget.setPointerCapture(e.pointerId);
-    pointers.current.set(e.pointerId, { x: e.clientX, y: e.clientY });
+    // 끌기·확대는 기울이기 전 지도 칸 위의 점으로 계산한다(toPlane)
+    const [px, py] = toPlane(e.clientX, e.clientY);
+    pointers.current.set(e.pointerId, { x: px, y: py });
     const [a, b] = [...pointers.current.values()];
+    // 마우스 오른쪽 단추·Ctrl(⌘)·Shift를 누르고 위아래로 끌면 기울이기(지도 앱과 같은 방식)
+    if (
+      !b &&
+      e.pointerType === "mouse" &&
+      (e.button === 2 || e.ctrlKey || e.metaKey || e.shiftKey)
+    ) {
+      gesture.current = {
+        x: px,
+        y: py,
+        lon: lonRef.current,
+        centerY: centerYRef.current,
+        moved: true,
+        eventId: null,
+        polity: null,
+        tilt: { y: e.clientY, from: tiltRef.current },
+      };
+      return;
+    }
     if (b) {
-      // 두 번째 손가락: 핀치 시작
+      // 두 번째 손가락: 핀치 시작(같이 위아래로 쓸면 기울이기 - 처음 움직임으로 정한다)
       gesture.current = {
         x: a.x,
         y: a.y,
@@ -1130,6 +1261,7 @@ export function WorldMap() {
           dist: Math.hypot(a.x - b.x, a.y - b.y),
           zoom: zoomRef.current,
         },
+        pair: { midY: (a.y + b.y) / 2, decided: false },
       };
       return;
     }
@@ -1137,13 +1269,13 @@ export function WorldMap() {
     // 화면 끝에 붙어 잘린 중심값 대신 실제로 보이는 중심에서 시작(미리보기 중이면 그 화면)
     const cv = view(zoomRef.current, centerYRef.current);
     gesture.current = {
-      x: e.clientX,
-      y: e.clientY,
+      x: px,
+      y: py,
       lon: lonRef.current,
       centerY: cv.y + cv.h / 2,
       moved: false,
       stale: previewing,
-      samples: [[e.timeStamp, e.clientX, e.clientY]],
+      samples: [[e.timeStamp, px, py]],
       eventId: previewing
         ? null
         : (target.closest("[data-event-id]")?.getAttribute("data-event-id") ??
@@ -1155,12 +1287,38 @@ export function WorldMap() {
     };
   };
 
-  const onPointerMove = (e: React.PointerEvent<SVGSVGElement>) => {
+  const onPointerMove = (e: React.PointerEvent<HTMLDivElement>) => {
     const g = gesture.current;
     if (!g || !pointers.current.has(e.pointerId)) return;
-    pointers.current.set(e.pointerId, { x: e.clientX, y: e.clientY });
+    // 기울이기: 위로 끌면 더 눕힌다(지도는 다시 그리지 않고 판만 기울인다)
+    if (g.tilt) {
+      applyTilt(
+        Math.min(
+          MAX_TILT,
+          Math.max(0, g.tilt.from - (e.clientY - g.tilt.y) * 0.3),
+        ),
+      );
+      return;
+    }
+    const [px, py] = toPlane(e.clientX, e.clientY);
+    pointers.current.set(e.pointerId, { x: px, y: py });
     const [a, b] = [...pointers.current.values()];
 
+    if (g.pinch && g.pair && !g.pair.decided && b) {
+      // 두 손가락이 옆으로 나란히 같이 위아래로 움직이면(거리는 그대로) 기울이기, 아니면 핀치
+      const moveY = (a.y + b.y) / 2 - g.pair.midY;
+      const spread = Math.hypot(a.x - b.x, a.y - b.y) - g.pinch.dist;
+      if (Math.abs(moveY) < 12 && Math.abs(spread) < 12) return;
+      g.pair.decided = true;
+      if (
+        Math.abs(moveY) > 2 * Math.abs(spread) &&
+        Math.abs(a.x - b.x) > Math.abs(a.y - b.y)
+      ) {
+        g.tilt = { y: e.clientY - moveY, from: tiltRef.current };
+        g.pinch = undefined;
+        return;
+      }
+    }
     if (g.pinch && b) {
       const dist = Math.hypot(a.x - b.x, a.y - b.y);
       // 손가락을 뗄 때 그린다(onPointerUp)
@@ -1172,8 +1330,9 @@ export function WorldMap() {
       );
       return;
     }
-    const dx = e.clientX - g.x;
-    const dy = e.clientY - g.y;
+    if (b) return;
+    const dx = px - g.x;
+    const dy = py - g.y;
     if (!g.moved && Math.hypot(dx, dy) < TAP_SLOP) return;
     if (!g.moved) {
       g.moved = true;
@@ -1181,7 +1340,7 @@ export function WorldMap() {
     }
     const unitsPerPixel =
       view(zoomRef.current, centerYRef.current).h / (mapRect()?.height ?? 1);
-    g.samples?.push([e.timeStamp, e.clientX, e.clientY]);
+    g.samples?.push([e.timeStamp, px, py]);
     if (g.samples && g.samples.length > 6) g.samples.shift();
     const nextLon = g.lon - dx * unitsPerPixel * (360 / MAP_WIDTH);
     const nextY = g.centerY - dy * unitsPerPixel;
@@ -1196,9 +1355,16 @@ export function WorldMap() {
     updateCenterY(nextY);
   };
 
-  const onPointerUp = (e: React.PointerEvent<SVGSVGElement>) => {
+  const onPointerUp = (e: React.PointerEvent<HTMLDivElement>) => {
     pointers.current.delete(e.pointerId);
     const g = gesture.current;
+    // 기울이기가 끝나면 저장(손가락이 남아 있어도 이어서 끌지 않는다)
+    if (g?.tilt) {
+      if (pointers.current.size === 0) gesture.current = null;
+      setTilt(tiltRef.current);
+      return;
+    }
+    const [px, py] = toPlane(e.clientX, e.clientY);
     // 핀치가 끝나면(손가락 하나라도 떼면) 미리보기 배율을 그린다 - 지도 그림 미리보기면 이어지는 끌기도 그림으로 하고 쉴 때 그린다
     if (g?.pinch && !snapPreviewing()) commitZoom();
     if (pointers.current.size > 0) {
@@ -1224,8 +1390,8 @@ export function WorldMap() {
       const recent = (g.samples ?? []).filter(([t]) => e.timeStamp - t < 100);
       const [t0, x0, y0] = recent[0] ?? [0, 0, 0];
       const dt = e.timeStamp - t0;
-      const vx = dt > 0 ? (e.clientX - x0) / dt : 0;
-      const vy = dt > 0 ? (e.clientY - y0) / dt : 0;
+      const vx = dt > 0 ? (px - x0) / dt : 0;
+      const vy = dt > 0 ? (py - y0) / dt : 0;
       if (
         !g.pinch &&
         recent.length > 1 &&
@@ -1256,7 +1422,7 @@ export function WorldMap() {
       ) {
         lastTap.current = null;
         touchZoomAt.current = now;
-        zoomAt(zoomRef.current * 2, e.clientX, e.clientY);
+        zoomAt(zoomRef.current * 2, px, py);
         return;
       }
       lastTap.current = { t: now, x: e.clientX, y: e.clientY };
@@ -1278,63 +1444,92 @@ export function WorldMap() {
   };
 
   return (
-    <>
-      <svg
-        ref={svgRef}
-        viewBox={`${round1(v.x)} ${round1(v.y)} ${round1(v.w)} ${round1(v.h)}`}
-        preserveAspectRatio={size ? "none" : "xMidYMid slice"}
-        // 화면 1px = 지도 몇 단위(국경선 굵기용). vector-effect: non-scaling-stroke는 배율이 바뀔 때마다 WebKit이
-        // 국경 수백 개의 선 모양을 다시 계산해(손을 뗀 뒤 다시 그릴 때 35~55ms) 굵기를 직접 나눈다. 크기를 재기 전(서버 HTML)은 화면 높이 800px로 어림
-        style={
-          {
-            "--px": round4(v.h / (size?.h ?? 800)),
-          } as React.CSSProperties
-        }
-        role="img"
-        aria-label={fill(messages.ui.mapLabel, {
-          year: formatPeriod(period, locale),
-        })}
-        className="absolute inset-0 block h-full w-full cursor-grab touch-none select-none active:cursor-grabbing"
-        onPointerDown={onPointerDown}
-        onPointerMove={onPointerMove}
-        onPointerUp={onPointerUp}
-        onPointerCancel={(e) => {
-          pointers.current.delete(e.pointerId);
-          // 핀치·끌기 미리보기가 남아 있으면 그린다(지도 그림이면 쉴 때)
-          if (gesture.current?.pinch || gesture.current?.moved) settle();
-          gesture.current = null;
-        }}
-        onDoubleClick={(e) => {
-          // 손가락 두 번 탭은 onPointerUp에서 이미 확대했다
-          if (Date.now() - touchZoomAt.current < 600) return;
-          zoomAt(zoomRef.current * 2, e.clientX, e.clientY);
-        }}
-      >
-        <rect
-          x={round1(v.x)}
-          y={0}
-          width={round1(v.w)}
-          height={MAP_HEIGHT}
-          fill="var(--map-ocean)"
+    // 손짓은 지도 칸이 받는다 - 핀은 위의 핀 svg에, 나라는 아래 국경 svg에 있어서
+    <div
+      ref={hostRef}
+      data-map-frame
+      // 기울이면 먼 쪽 너머로 하늘이 보인다
+      style={{
+        background: "linear-gradient(var(--map-sky), var(--map-ocean))",
+      }}
+      className="absolute inset-0 cursor-grab touch-none overflow-hidden select-none active:cursor-grabbing"
+      onPointerDown={onPointerDown}
+      onPointerMove={onPointerMove}
+      onPointerUp={onPointerUp}
+      onPointerCancel={(e) => {
+        pointers.current.delete(e.pointerId);
+        // 핀치·끌기 미리보기가 남아 있으면 그린다(지도 그림이면 쉴 때)
+        if (gesture.current?.pinch || gesture.current?.moved) settle();
+        gesture.current = null;
+      }}
+      onDoubleClick={(e) => {
+        // 손가락 두 번 탭은 onPointerUp에서 이미 확대했다
+        if (Date.now() - touchZoomAt.current < 600) return;
+        const [x, y] = toPlane(e.clientX, e.clientY);
+        zoomAt(zoomRef.current * 2, x, y);
+      }}
+      // 오른쪽 단추로 끌어 기울이므로 메뉴는 띄우지 않는다
+      onContextMenu={(e) => e.preventDefault()}
+    >
+      {/* 기울이는 판(applyTilt) - 아래 가운데를 축으로 */}
+      <div ref={planeRef} className="absolute inset-0 origin-bottom">
+        <svg
+          ref={svgRef}
+          viewBox={`${round1(v.x)} ${round1(v.y)} ${round1(v.w)} ${round1(v.h)}`}
+          preserveAspectRatio={size ? "none" : "xMidYMid slice"}
+          // 화면 1px = 지도 몇 단위(국경선 굵기용). vector-effect: non-scaling-stroke는 배율이 바뀔 때마다 WebKit이
+          // 국경 수백 개의 선 모양을 다시 계산해(손을 뗀 뒤 다시 그릴 때 35~55ms) 굵기를 직접 나눈다. 크기를 재기 전(서버 HTML)은 화면 높이 800px로 어림
+          style={
+            {
+              "--px": round4(v.h / (size?.h ?? 800)),
+            } as React.CSSProperties
+          }
+          role="img"
+          aria-label={fill(messages.ui.mapLabel, {
+            year: formatPeriod(period, locale),
+          })}
+          className="absolute inset-0 block h-full w-full"
+        >
+          <rect
+            x={round1(v.x)}
+            y={0}
+            width={round1(v.w)}
+            height={MAP_HEIGHT}
+            fill="var(--map-ocean)"
+          />
+          <defs>
+            <clipPath id="land-clip">
+              <path d={landD} />
+            </clipPath>
+          </defs>
+          {copies.map(({ k, offset }) => (
+            <g key={k} transform={`translate(${offset} 0)`}>
+              {bordersLayer}
+            </g>
+          ))}
+        </svg>
+        {/* 확대·끌기 중에 국경 svg 대신 보이는 지도 그림(snapshot) */}
+        <div
+          ref={snapHost}
+          aria-hidden
+          className="pointer-events-none invisible absolute inset-0 overflow-hidden"
         />
-        <defs>
-          <clipPath id="land-clip">
-            <path d={landD} />
-          </clipPath>
-        </defs>
-        {copies.map(({ k, offset }) => (
-          <g key={k} transform={`translate(${offset} 0)`}>
-            {bordersLayer}
-            {overlayLayer}
-          </g>
-        ))}
-      </svg>
-      {/* 휴대폰 확대·끌기 중에 svg 대신 보이는 지도 그림(snapshot) */}
-      <div
-        ref={snapHost}
-        aria-hidden
-        className="pointer-events-none invisible absolute inset-0 overflow-hidden"
-      />
-    </>
+        {/* 핀·나라 이름: 지도 칸보다 좌우 한 화면·위아래 반 화면씩 넓게(끄는 동안 옮기기만 해도 화면 밖 핀이 보이게).
+          변환 기준점은 지도 칸 왼쪽 위(33.33% 25%) - 지도 그림과 같은 변환을 그대로 쓴다. 터치는 핀만 받는다 */}
+        <svg
+          ref={overlayRef}
+          aria-hidden
+          viewBox={`${round1(v.x - v.w)} ${round1(v.y - v.h / 2)} ${round1(v.w * 3)} ${round1(v.h * 2)}`}
+          preserveAspectRatio={size ? "none" : "xMidYMid slice"}
+          className="pointer-events-none absolute -top-1/2 -left-full block h-[200%] w-[300%] origin-[33.3333%_25%]"
+        >
+          {overlayCopies.map(({ k, offset }) => (
+            <g key={k} transform={`translate(${offset} 0)`}>
+              {overlayLayer}
+            </g>
+          ))}
+        </svg>
+      </div>
+    </div>
   );
 }

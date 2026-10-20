@@ -173,6 +173,7 @@ export const hi: Messages = {
     share: "साझा करें",
     linkCopied: "लिंक कॉपी हो गया",
     yearStep: "वर्ष अंतराल (वर्ष)",
+    mapTilt: "मानचित्र झुकाव",
     hideNames: "देशों के नाम छिपाएँ",
     showNames: "देशों के नाम दिखाएँ",
     ad: "विज्ञापन",

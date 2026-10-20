@@ -172,6 +172,7 @@ export const pt: Messages = {
     share: "Compartilhar",
     linkCopied: "Link copiado",
     yearStep: "Intervalo de anos",
+    mapTilt: "Inclinação do mapa",
     hideNames: "Ocultar nomes dos países",
     showNames: "Mostrar nomes dos países",
     ad: "Publicidade",

@@ -173,6 +173,7 @@ export const en: Messages = {
     share: "Share",
     linkCopied: "Link copied",
     yearStep: "Year step (years)",
+    mapTilt: "Map tilt",
     hideNames: "Hide country names",
     showNames: "Show country names",
     ad: "Advertisement",

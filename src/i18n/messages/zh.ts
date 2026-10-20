@@ -169,6 +169,7 @@ export const zh: Messages = {
     share: "分享",
     linkCopied: "已复制链接",
     yearStep: "年份间隔（年）",
+    mapTilt: "地图倾斜",
     hideNames: "隐藏国家名称",
     showNames: "显示国家名称",
     ad: "广告",

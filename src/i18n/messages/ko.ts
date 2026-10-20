@@ -171,6 +171,7 @@ export const ko = {
     share: "공유하기",
     linkCopied: "링크를 복사했어요",
     yearStep: "연도 단위(년)",
+    mapTilt: "지도 기울기",
     hideNames: "나라 이름 숨기기",
     showNames: "나라 이름 보이기",
     ad: "광고",

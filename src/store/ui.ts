@@ -3,6 +3,8 @@ import type { RegionId, ViewpointId } from "@/lib/types";
 import { DEFAULT_VIEWPOINT, VIEWPOINTS } from "@/data/viewpoints";
 
 export const MAX_ZOOM = 16;
+/** 지도 기울기 최대(도) - 더 기울이면 먼 쪽이 너무 작아 읽을 수 없다 */
+export const MAX_TILT = 55;
 
 type UiState = {
   /** 첫 화면 시점을 언어에 맞춘다(WorldMap이 처음 그릴 때 한 번) */
@@ -16,6 +18,9 @@ type UiState = {
   /** 지도 확대 배율 (1 = 세로 전체가 보임) */
   zoom: number;
   setZoom: (zoom: number) => void;
+  /** 지도 기울기(도, 0 = 위에서 내려다봄). 책상 위 지도를 눈높이에서 보듯 아래는 크게, 위는 작게 */
+  tilt: number;
+  setTilt: (tilt: number) => void;
   /** 모바일 사건 목록 펼침 여부 */
   panelOpen: boolean;
   /** 모바일 시트를 절반만 연 상태(지도의 점을 탭해 열었을 때 - 고른 점과 카드가 한 화면에 보이게) */
@@ -48,6 +53,8 @@ export const useUi = create<UiState>((set) => ({
   setCenterLon: (centerLon) => set({ centerLon }),
   zoom: 1,
   setZoom: (zoom) => set({ zoom: Math.min(MAX_ZOOM, Math.max(1, zoom)) }),
+  tilt: 0,
+  setTilt: (tilt) => set({ tilt: Math.min(MAX_TILT, Math.max(0, tilt)) }),
   panelOpen: false,
   panelHalf: false,
   setPanelOpen: (panelOpen) => set({ panelOpen, panelHalf: false }),

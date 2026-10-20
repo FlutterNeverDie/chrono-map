@@ -5,14 +5,21 @@ import { useEffect, useState, type RefObject } from "react";
 export type MapCover = { top: number; bottom: number };
 
 /**
+ * 지도 칸(크기를 재는 기준): 변환이 걸리지 않는 요소. 본 지도는 확대하는 동안 svg에 CSS 변환(미리보기)을 걸고
+ * 기울이면 svg를 담은 판을 눕혀서, `data-map-frame`(본 지도 손짓을 받는 칸)이 있으면 그것, 없으면 svg의 부모
+ */
+export function mapFrame(svg: SVGSVGElement): Element {
+  return svg.closest("[data-map-frame]") ?? svg.parentElement ?? svg;
+}
+
+/**
  * 지도 위에 떠서 지도를 가리는 높이(px).
  * - bottom: 아래쪽 패널(`data-map-overlay`, 모바일 시트처럼 지도 폭 거의 전체). 옆 패널(데스크톱)이면 0
  * - top: 위쪽에 떠 있는 것(`data-map-top` - 지도 제목 상자, 전쟁 지도 상단 바)의 아래 끝 + 여백
  * 지도 세로 한계를 이만큼 늘려 남쪽·북쪽 끝 지점도 가리지 않은 곳으로 옮길 수 있게 하고, 고른 점을 가리지 않은 영역 가운데에 둘 때 쓴다.
  */
 export function mapCover(svg: SVGSVGElement): MapCover {
-  // 본 지도는 확대하는 동안 svg에 CSS 변환(미리보기)을 걸어서, 변환 없는 부모(지도 칸) 기준으로 잰다
-  const r = (svg.parentElement ?? svg).getBoundingClientRect();
+  const r = mapFrame(svg).getBoundingClientRect();
   const panel = document
     .querySelector("[data-map-overlay]")
     ?.getBoundingClientRect();

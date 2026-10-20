@@ -14,6 +14,8 @@
   --accent: #c2410c;
 
   --map-ocean: #cfe6f2;
+  /* 기울인 지도의 먼 쪽 너머(하늘) */
+  --map-sky: #f6f1e4;
   --map-graticule: rgb(60 110 150 / 0.18);
   --map-land: #f4ecd6;
   --map-border: #a8997a;
@@ -45,6 +47,7 @@
   --accent: #f59e0b;
 
   --map-ocean: #0a1628;
+  --map-sky: #03070f;
   --map-graticule: rgb(255 255 255 / 0.06);
   --map-land: #1b2638;
   --map-border: #334560;
