@@ -36,9 +36,9 @@ const MAP_ICONS: Record<string, typeof MapIcon> = {
 
 /**
  * 모든 지도 화면의 하단 바: [지도 고르기(지금 지도 아이콘 → 위로 목록)] [시간 슬라이더(children)] [설정 ⚙ → 언어·테마·나라 이름·(지도별 설정)·사용 설명서·공유·문의 메일·소개/개인정보].
- * 데스크톱(lg~)은 한 줄, 모바일은 슬라이더 한 줄 + [지도 … 설정] 한 줄
- * (한 줄에 다 넣으면 좁은 폰에서 슬라이더가 50px 남짓으로 줄어 조작이 어렵다).
- * 높이는 화면 루트의 --bar-h(모바일 6.3rem, lg 5.75rem + safe-area)와 맞춘다.
+ * 모바일·데스크톱 모두 한 줄 [지도] [슬라이더] [설정] - 모바일을 두 줄([지도 … 설정])로 두었더니 가운데가 비어 어색했다.
+ * 좁은 폰에서 슬라이더가 덜 줄게 모바일은 지도 버튼의 ▴를 뺀다.
+ * 높이는 화면 루트의 --bar-h(모바일 4.25rem + 아래 안전 영역 - 10px(홈 막대와 겹치지 않을 만큼만), lg 5.75rem + 안전 영역)와 맞춘다.
  */
 export function BottomBar({
   current,
@@ -81,21 +81,21 @@ export function BottomBar({
   const here = maps.find((m) => m.section === current) ?? maps[0];
 
   return (
-    <nav className="absolute inset-x-0 bottom-0 z-30 flex h-[var(--bar-h)] flex-col border-t border-line bg-surface px-2 pt-1 pb-[env(safe-area-inset-bottom)] sm:px-4 lg:flex-row lg:pt-3 lg:items-start lg:gap-2">
-      {/* 시간 슬라이더 — 모바일 첫 줄, 데스크톱 가운데 */}
-      <div className="min-w-0 lg:order-2 lg:flex-1">{children}</div>
+    <nav className="absolute inset-x-0 bottom-0 z-30 flex h-[var(--bar-h)] flex-row items-start gap-0.5 border-t border-line bg-surface px-1 pt-2 pb-[max(env(safe-area-inset-bottom)-10px,0px)] sm:gap-2 sm:px-4 lg:pt-3 lg:pb-[env(safe-area-inset-bottom)]">
+      {/* 시간 슬라이더 — 가운데 */}
+      <div className="order-2 min-w-0 flex-1">{children}</div>
 
-      {/* 모바일은 이 줄에 [지도 … 설정], 데스크톱은 lg:contents로 슬라이더 양옆에 */}
-      <div className="mt-auto mb-0.5 flex items-center justify-between lg:contents">
+      {/* [지도] [설정]은 슬라이더 양옆에 */}
+      <div className="contents">
         {/* 지도 고르기: 지금 지도 아이콘 → 위로 펼쳐지는 목록(아이콘 + 이름) */}
-        <div className="lg:order-1">
+        <div className="order-1">
           <Popover
             label={here.label}
             side="top"
             button={
               <>
                 <here.Icon className="size-[22px]" />
-                <ChevronUpIcon className="size-4 text-muted" />
+                <ChevronUpIcon className="hidden size-4 text-muted lg:block" />
               </>
             }
           >
@@ -122,7 +122,7 @@ export function BottomBar({
             )}
           </Popover>
         </div>
-        <div className="lg:order-3">
+        <div className="order-3">
           <Popover
             label={messages.ui.settings}
             align="end"

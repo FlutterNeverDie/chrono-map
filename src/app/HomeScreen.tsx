@@ -24,7 +24,7 @@ export function HomeScreen({ locale }: { locale: Locale }) {
         events={EVENTS.map((e) => localizeEvent(e, locale))}
         rankings={RANKINGS}
       >
-        <div className="relative h-dvh w-full touch-pan-x touch-pan-y overflow-hidden bg-[var(--map-ocean)] [--bar-h:calc(6.3rem+env(safe-area-inset-bottom))] lg:[--bar-h:calc(5.75rem+env(safe-area-inset-bottom))] [--top-h:0rem]">
+        <div className="relative h-dvh w-full touch-pan-x touch-pan-y overflow-hidden bg-[var(--map-ocean)] [--bar-h:calc(4.25rem+max(env(safe-area-inset-bottom)-10px,0px))] lg:[--bar-h:calc(5.75rem+env(safe-area-inset-bottom))] [--top-h:0rem]">
           <div className="absolute inset-x-0 top-0 bottom-[var(--bar-h)]">
             <WorldMap />
           </div>

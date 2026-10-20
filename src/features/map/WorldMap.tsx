@@ -39,7 +39,11 @@ import {
 import { useBorders, type PolityProps } from "./borders";
 import { useHydrated } from "@/components/map/useHydrated";
 import { swallowNextClick } from "@/components/map/ghostClick";
-import { mapCover, useMapCover } from "@/components/map/mapCover";
+import {
+  mapCover,
+  useMapCover,
+  type MapCover,
+} from "@/components/map/mapCover";
 
 /** 이 픽셀보다 적게 움직이면 끌기가 아니라 탭으로 본다 */
 const TAP_SLOP = 5;
@@ -253,7 +257,35 @@ export function WorldMap() {
 
   /** 보이는 범위(지도 좌표). 가로는 항상 가운데 고정이고, 가로 이동은 회전(lon)으로 한다 */
   // 아래 시트(모바일 사건 목록)·위 제목 상자가 덮은 만큼은 지도를 더 옮길 수 있게 - 희망봉처럼 남쪽 끝, 북쪽 끝 사건도 가리지 않은 곳으로
-  const cover = useMapCover(svgRef);
+  const actualCover = useMapCover(svgRef);
+  // 시트를 닫아 덮은 높이가 줄어도 그 전 한계를 잡아 둔다(held) - 바로 줄이면 시트 덕에 아래(위)로 더 옮겨 둔 지도가
+  // 가운데로 끌려 들어가 움직였다(점을 눌러 옮긴 뒤 목록을 닫을 때). 지도를 원래 범위 안으로 옮기면 놓는다(아래 effect)
+  const [held, setHeld] = useState<MapCover>({ top: 0, bottom: 0 });
+  const [prevCover, setPrevCover] = useState(actualCover);
+  if (actualCover !== prevCover) {
+    setPrevCover(actualCover);
+    if (
+      actualCover.top < prevCover.top ||
+      actualCover.bottom < prevCover.bottom
+    )
+      setHeld((h) => ({
+        top: Math.max(
+          h.top,
+          actualCover.top < prevCover.top ? prevCover.top : 0,
+        ),
+        bottom: Math.max(
+          h.bottom,
+          actualCover.bottom < prevCover.bottom ? prevCover.bottom : 0,
+        ),
+      }));
+  }
+  const cover = useMemo(
+    () => ({
+      top: Math.max(actualCover.top, held.top),
+      bottom: Math.max(actualCover.bottom, held.bottom),
+    }),
+    [actualCover, held],
+  );
   const view = useCallback(
     (k: number, cy: number) => {
       const baseW = size ? (MAP_HEIGHT * size.w) / size.h : MAP_WIDTH;
@@ -269,6 +301,15 @@ export function WorldMap() {
     [size, cover],
   );
   const v = view(zoom, centerY);
+  // 잡아 둔 한계는 지도가 실제 한계 안으로 들어오면 놓는다(그리는 중에 바로 - 이전 값과 비교해 고치는 React 방식)
+  if (held.top || held.bottom) {
+    const unit = size ? v.h / size.h : 0;
+    if (
+      v.y <= MAP_HEIGHT - v.h + actualCover.bottom * unit + 0.5 &&
+      v.y >= -actualCover.top * unit - 0.5
+    )
+      setHeld({ top: 0, bottom: 0 });
+  }
 
   /** 지도 화면 크기·위치. 확대 미리보기 중에는 svg에 변환이 걸려 있어서, 변환이 없는 부모(지도 칸) 기준으로 잰다 */
   const mapRect = useCallback(
@@ -386,9 +427,12 @@ export function WorldMap() {
     updateCenterY(centerYRef.current);
     setZoom(zoomRef.current);
   }, [setZoom, updateLon, updateCenterY, view]);
+  /** previewZoom을 ref로(사건 고르기 이동 effect가 함수가 바뀔 때마다 다시 돌지 않게) */
+  const previewRef = useRef(previewZoom);
   useEffect(() => {
     commitRef.current = commitZoom;
-  }, [commitZoom]);
+    previewRef.current = previewZoom;
+  }, [commitZoom, previewZoom]);
 
   /** 화면 좌표(cx, cy)를 고정점으로 배율을 바꾼다. preview면 미리보기로 두고 settle(ms) 뒤에 그린다(0이면 손을 뗄 때 직접) */
   const zoomAt = useCallback(
@@ -679,16 +723,18 @@ export function WorldMap() {
       centerYRef.current = fromY + (toY - fromY) * k;
       zoomRef.current = fromZoom + (toZoom - fromZoom) * k;
       if (t < 1) {
-        previewZoom(true);
+        previewRef.current(true);
         frame = requestAnimationFrame(tick);
       } else {
-        commitZoom();
+        commitRef.current();
         setCenterLon(lonRef.current);
       }
     };
     frame = requestAnimationFrame(tick);
     return () => cancelAnimationFrame(frame);
-  }, [focus, setViewpoint, setCenterLon, previewZoom, commitZoom]);
+    // 새로 고른 사건(focus)에만 움직인다 - 미리보기·그리기 함수는 ref로. 함수를 의존성에 두면 시트를 닫아 가린 높이가
+    // 바뀔 때(함수가 새로 만들어짐) 이동을 처음부터 다시 해, 고른 점이 가운데로 또 움직였다
+  }, [focus, setViewpoint, setCenterLon]);
 
   // 해안선: 처음엔 가벼운 110m, 확대하면 자세한 50m로 바꾼다(한 번 받으면 계속 사용)
   const [detailedLand, setDetailedLand] = useState<typeof land | null>(null);
