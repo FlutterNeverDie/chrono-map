@@ -77,11 +77,17 @@
     75% { transform: translateX(6px); }
   }
   /* 지도에서 고른 사건 점 둘레로 퍼지는 물결(WorldMap) */
-  --animate-pin-pulse: pin-pulse 1.6s ease-out infinite;
+  /* 3번만(무한이면 가만히 있어도 지도 svg 전체를 계속 다시 합성해 휴대폰이 바빴다) */
+  --animate-pin-pulse: pin-pulse 1.6s ease-out 3 forwards;
   @keyframes pin-pulse {
     from { transform: scale(1); opacity: 0.8; }
     to { transform: scale(3.2); opacity: 0; }
   }
+}
+
+/* 지도 확대 미리보기 중에는 물결을 멈춘다(WorldMap previewZoom) */
+[data-preview] .animate-pin-pulse {
+  animation-play-state: paused;
 }
 
 html {

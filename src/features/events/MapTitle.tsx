@@ -17,7 +17,7 @@ export function MapTitle() {
   return (
     <div
       data-map-top
-      className="pointer-events-none absolute start-3 top-[calc(env(safe-area-inset-top)+0.75rem)] z-10 max-w-[calc(100%-1.5rem)] rounded-lg bg-background/85 px-3 py-1.5 shadow-sm backdrop-blur lg:max-w-[calc(100%-36rem)] xl:max-w-[calc(100%-42rem)] 2xl:max-w-[calc(100%-48rem)]"
+      className="pointer-events-none absolute start-3 top-[calc(env(safe-area-inset-top)+0.75rem)] z-10 max-w-[calc(100%-1.5rem)] rounded-lg bg-background/92 px-3 py-1.5 shadow-sm lg:max-w-[calc(100%-36rem)] xl:max-w-[calc(100%-42rem)] 2xl:max-w-[calc(100%-48rem)]"
     >
       <p className="text-lg leading-tight font-bold lg:text-2xl">
         {fill(messages.ui.worldIn, { p: formatPeriod(period, locale) })}

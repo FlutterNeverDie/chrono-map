@@ -196,6 +196,7 @@ export const hi: Messages = {
     emptyRegions: "बिना घटनाओं वाले क्षेत्र",
     openEvents: "घटना सूची खोलें",
     closeEvents: "घटना सूची बंद करें",
+    shrinkEvents: "घटनाओं की सूची छोटी करें",
     mapLabel: "{year} के आसपास का विश्व मानचित्र",
     ongoing: "जारी",
     zoomIn: "ज़ूम इन",

@@ -195,6 +195,7 @@ export const ar: Messages = {
     emptyRegions: "مناطق بلا أحداث",
     openEvents: "فتح قائمة الأحداث",
     closeEvents: "إغلاق قائمة الأحداث",
+    shrinkEvents: "تصغير قائمة الأحداث",
     mapLabel: "خريطة العالم حوالي {year}",
     ongoing: "مستمر",
     zoomIn: "تكبير",

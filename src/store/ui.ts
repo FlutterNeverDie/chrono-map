@@ -22,6 +22,8 @@ type UiState = {
   panelHalf: boolean;
   /** 열고 닫기(머리줄·접기 버튼). 열면 항상 크게 */
   setPanelOpen: (open: boolean) => void;
+  /** 크게 연 시트를 절반으로(머리줄 탭·아래로 쓸기) */
+  shrinkPanel: () => void;
   selectedEventId: string | null;
   selectEvent: (id: string | null) => void;
   /** 지도의 점을 탭해 고르기: 닫혀 있었으면 시트를 절반만 연다(이미 크게 열려 있으면 그대로) */
@@ -49,6 +51,7 @@ export const useUi = create<UiState>((set) => ({
   panelOpen: false,
   panelHalf: false,
   setPanelOpen: (panelOpen) => set({ panelOpen, panelHalf: false }),
+  shrinkPanel: () => set({ panelOpen: true, panelHalf: true }),
   selectedEventId: null,
   focus: null,
   focusOn: (coords) =>

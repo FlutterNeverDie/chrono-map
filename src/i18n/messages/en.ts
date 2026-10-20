@@ -196,6 +196,7 @@ export const en: Messages = {
     emptyRegions: "Regions without events",
     openEvents: "Open event list",
     closeEvents: "Close event list",
+    shrinkEvents: "Shrink event list",
     mapLabel: "World map, {year}",
     ongoing: "Ongoing",
     zoomIn: "Zoom in",

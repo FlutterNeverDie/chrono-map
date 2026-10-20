@@ -194,6 +194,7 @@ export const ko = {
     emptyRegions: "사건이 없는 지역",
     openEvents: "사건 목록 열기",
     closeEvents: "사건 목록 닫기",
+    shrinkEvents: "사건 목록 줄이기",
     mapLabel: "{year} 무렵 세계 지도",
     ongoing: "진행 중",
     zoomIn: "확대",

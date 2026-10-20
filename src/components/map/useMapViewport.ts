@@ -113,6 +113,10 @@ export function useMapViewport(initial: {
     v: { x: number; y: number; w: number; h: number };
   } | null>(null);
   const commitTimer = useRef(0);
+  /** 미리보기 중 지도 칸 크기(처음 한 번만 잼) - 움직일 때마다 재면 방금 바꾼 변환 때문에 레이아웃을 강제로 다시 한다 */
+  const previewRect = useRef<DOMRect | null>(null);
+  /** 미리보기 변환 쓰기는 한 프레임에 한 번(두 손가락이면 움직임 이벤트가 프레임마다 두 번) */
+  const previewFrame = useRef(0);
   const drag = useRef<{
     x: number;
     y: number;
@@ -172,16 +176,21 @@ export function useMapViewport(initial: {
   });
   /** 지도 칸 크기·위치. 미리보기 중에는 svg에 변환이 걸려 있어 변환 없는 부모 기준 */
   const mapRect = () =>
+    previewRect.current ??
     (svgRef.current?.parentElement ?? svgRef.current)?.getBoundingClientRect();
   /** 지금 기준 값(미리보기 중이면 그 값) */
   const current = () => pending.current ?? state.current;
 
-  const preview = useCallback(() => {
+  const applyPreview = useCallback(() => {
+    previewFrame.current = 0;
     const svg = svgRef.current;
     const r = rendered.current;
     const p = pending.current;
-    const rect = (svg?.parentElement ?? svg)?.getBoundingClientRect();
+    const rect =
+      previewRect.current ??
+      (svg?.parentElement ?? svg)?.getBoundingClientRect();
     if (!svg || !r || !p || !rect) return;
+    previewRect.current = rect;
     const vp = view(p.zoom, p.centerY);
     const dShift = (-normalizeLon(p.lon - r.lon) * MAP_WIDTH) / 360;
     const tx = ((r.v.x + dShift - vp.x) * rect.width) / vp.w;
@@ -190,10 +199,25 @@ export function useMapViewport(initial: {
     svg.style.willChange = "transform";
     svg.style.transform = `translate(${tx}px, ${ty}px) scale(${r.v.w / vp.w})`;
   }, [view]);
+  /** 미리보기 예약(다음 프레임에 한 번). now면 바로(focusTo는 이미 프레임마다 부른다) */
+  const preview = useCallback(
+    (now?: boolean) => {
+      if (now) {
+        cancelAnimationFrame(previewFrame.current);
+        return applyPreview();
+      }
+      if (!previewFrame.current)
+        previewFrame.current = requestAnimationFrame(applyPreview);
+    },
+    [applyPreview],
+  );
 
   /** 미리보기 값을 실제로 그린다 */
   const commit = useCallback(() => {
     window.clearTimeout(commitTimer.current);
+    cancelAnimationFrame(previewFrame.current);
+    previewFrame.current = 0;
+    previewRect.current = null;
     const p = pending.current;
     if (!p) return;
     pending.current = null;
@@ -283,7 +307,7 @@ export function useMapViewport(initial: {
           zoom: from.zoom + (k2 - from.zoom) * e,
         };
         if (p < 1) {
-          preview();
+          preview(true);
           frame = requestAnimationFrame(tick);
         } else commit();
       };

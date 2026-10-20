@@ -23,7 +23,7 @@ export function SiteHeader({
       className="pointer-events-none absolute inset-x-0 top-0 z-30 flex p-2 pt-[max(0.5rem,env(safe-area-inset-top))] lg:p-3"
     >
       {mobileTool && (
-        <div className="pointer-events-auto flex h-12 items-center rounded-lg border border-line bg-surface/95 px-1 backdrop-blur lg:hidden">
+        <div className="pointer-events-auto flex h-12 items-center rounded-lg border border-line bg-surface/95 px-1 lg:hidden">
           {mobileTool}
         </div>
       )}

@@ -192,6 +192,7 @@ export const zh: Messages = {
     emptyRegions: "无事件的地区",
     openEvents: "打开事件列表",
     closeEvents: "关闭事件列表",
+    shrinkEvents: "收起事件列表",
     mapLabel: "{year}前后的世界地图",
     ongoing: "进行中",
     zoomIn: "放大",
