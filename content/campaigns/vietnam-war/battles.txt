@@ -3,24 +3,28 @@
 @ battle-of-ap-bac
 wikipedia: Battle of Ap Bac
 when: 1963-01
+days: 1963-01-02
 coords: 106.2, 10.44
 links: 22
 
 @ battle-of-nam-dong
 wikipedia: Battle of Nam Dong
 when: 1964-07
+days: 1964-07-05 ~ 1964-07-06
 coords: 107.68, 16.12
 links: 8
 
 @ gulf-of-tonkin-incident
 wikipedia: Gulf of Tonkin incident
 when: 1964-08
+days: 1964-08-02 ~ 1964-08-04
 coords: 106.52, 19.78
 links: 38
 
 @ battle-of-binh-gia
 wikipedia: Battle of Binh Gia
 when: 1964-12 ~ 1965-01
+days: 1964-12-28 ~ 1965-01-01
 coords: 107.28, 10.65
 links: 8
 
@@ -33,42 +37,49 @@ links: 9
 @ battle-of-ong-xoai
 wikipedia: Battle of Đồng Xoài
 when: 1965-06
+days: 1965-06-09 ~ 1965-06-13
 coords: 106.9, 11.54
 links: 9
 
 @ battle-of-ia-drang
 wikipedia: Battle of Ia Drang
 when: 1965-11
+days: 1965-11-14 ~ 1965-11-18
 coords: 107.72, 13.58
 links: 29
 
 @ battle-of-long-tan
 wikipedia: Battle of Long Tan
 when: 1966-08
+days: 1966-08-18
 coords: 107.26, 10.55
 links: 16
 
 @ battle-of-dak-to
 wikipedia: Battle of Dak To
 when: 1967-11
+days: 1967-11-03 ~ 1967-11-23
 coords: 107.8, 14.65
 links: 14
 
 @ siege-of-khe-sanh
 wikipedia: Siege of Khe Sanh
 when: 1968-01 ~ 1968-07
+days: 1968-01-21 ~ 1968-07-09
 coords: 106.72, 16.65
 links: 35
 
 @ battle-of-saigon-1968
 wikipedia: Battle of Saigon (1968)
 when: 1968-01 ~ 1968-03
+days: 1968-01-30 ~ 1968-03-07
 coords: 106.67, 10.77
 links: 9
 
 @ tet-offensive
 wikipedia: Tet Offensive
 when: 1968-01 ~ 1968-09
+days: 1968-01-30 ~ 1968-09-23
 coords: 107, 11
 links: 45
 
@@ -81,47 +92,55 @@ links: 25
 @ battle-of-kham-duc
 wikipedia: Battle of Kham Duc
 when: 1968-05
+days: 1968-05-10 ~ 1968-05-12
 coords: 107.8, 15.44
 links: 8
 
 @ battle-of-hamburger-hill
 wikipedia: Battle of Hamburger Hill
 when: 1969-05
+days: 1969-05-10 ~ 1969-05-20
 coords: 107.17, 16.25
 links: 24
 
 @ operation-ivory-coast
 wikipedia: Operation Ivory Coast
 when: 1970-11
+days: 1970-11-21
 coords: 105.5, 21.14
 links: 14
 
 @ battle-of-kontum
 wikipedia: Battle of Kontum
 when: 1972-05
+days: 1972-05-26 ~ 1972-05-27
 coords: 108.01, 14.36
 links: 8
 
 @ operation-babylift
 wikipedia: Operation Babylift
 when: 1975-04
+days: 1975-04-04
 coords: 106.7, 10.84
 links: 16
 
 @ fall-of-saigon
 wikipedia: Fall of Saigon
 when: 1975-04
+days: 1975-04-30
 coords: 106.7, 10.78
 links: 40
 
 @ battle-of-xuan-loc
 wikipedia: Battle of Xuân Lộc
 when: 1975-04
+days: 1975-04-09 ~ 1975-04-21
 coords: 107.24, 10.92
 links: 12
 
 @ fall-of-phnom-penh
 wikipedia: Fall of Phnom Penh
 when: 1975-04
+days: 1975-04-17
 coords: 104.92, 11.57
 links: 14

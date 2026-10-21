@@ -1,6 +1,9 @@
 "use client";
 
-import { useEffect, useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
+import dynamic from "next/dynamic";
+import { useHydrated } from "@/components/map/useHydrated";
+import { glAvailable, markGlFailed } from "@/components/map/gl/support";
 import { useI18n } from "@/i18n/I18nProvider";
 import {
   polityColor,
@@ -11,6 +14,7 @@ import {
   labelCandidates,
 } from "@/components/map";
 import { useTopic, useTopicState } from "./store";
+import { useTopicPoints, visiblePoints } from "./points";
 import {
   currentItems,
   formatT,
@@ -18,17 +22,43 @@ import {
   topicTitle,
   visibleItems,
   itemColor,
+  itemLabelSpots,
 } from "./logic";
 
 const round2 = (v: number) => Math.round(v * 100) / 100;
+
+/** WebGL 판(기본) - 코드는 따로 받는다 */
+const TopicMapGl = dynamic(
+  () => import("./TopicMapGl").then((m) => m.TopicMapGl),
+  { ssr: false },
+);
 
 /**
  * 주제 지도: 배경은 그 해의 역사 국경(옅게), 위에 항목.
  * span(전염병): 발원지 + 그 시점까지 퍼진 지점을 선으로 잇는다.
  * persist(발명): 생긴 항목은 계속 점으로 남고, 최근 것은 크게 + 이름.
+ * 브라우저에서는 WebGL 판(TopicMapGl - 기울이기·방향 돌리기까지 본 지도와 같은 손짓), WebGL2가 없거나 실패하거나 ?svg면 svg 판.
  */
 export function TopicMap() {
+  const hydrated = useHydrated();
+  const [broken, setBroken] = useState(false);
+  if (hydrated && !broken && glAvailable())
+    return (
+      <TopicMapGl
+        onFail={() => {
+          markGlFailed();
+          setBroken(true);
+        }}
+      />
+    );
+  return <TopicMapSvg />;
+}
+
+/** svg 판(서버 HTML·WebGL을 못 쓸 때) */
+function TopicMapSvg() {
   const { locale } = useI18n();
+  const selectedPoint = useTopicState((s) => s.selectedPoint);
+  const selectPoint = useTopicState((s) => s.selectPoint);
   const topic = useTopic();
   const t = useTopicState((s) => s.t);
   const selected = useTopicState((s) => s.selected);
@@ -46,6 +76,11 @@ export function TopicMap() {
   }, [focus]);
 
   const items = useMemo(() => visibleItems(topic, t), [topic, t]);
+  const allSubs = useTopicPoints(topic, locale);
+  const subs = useMemo(
+    () => visiblePoints(allSubs, t, items),
+    [allSubs, t, items],
+  );
   const highlighted = useMemo(
     () => new Set(currentItems(topic, t).map((i) => i.id)),
     [topic, t],
@@ -54,73 +89,27 @@ export function TopicMap() {
   // 항목마다 다른 색(logic.ts의 itemColor)
   const colorOf = (id: string) => itemColor(topic, id);
 
-  // 강조 항목 이름표 자리: 고른 항목 → 중요한 순으로 위·아래·오른쪽·왼쪽을 차례로 시도하고,
-  // 다른 이름표나 **점**과 겹치면 다음 자리, 다 막히면 이름을 뺀다(고른 항목은 위에 무조건).
-  // 자리 값은 점 기준 오프셋(점 배율 좌표: 실제 크기 = 값 × unit × 1.2)
-  type Spot = { dx: number; dy: number; anchor: "middle" | "start" | "end" };
-  const labelAt = useMemo(() => {
-    const s = unit * 1.2;
-    const out = new Map<string, Spot>();
-    type Box = [number, number, number, number];
-    const overlaps = (a: Box, b: Box) =>
-      a[0] < b[2] && a[2] > b[0] && a[1] < b[3] && a[3] > b[1];
-    const isStrong = (id: string) => highlighted.has(id) || id === selected;
-    // 모든 점을 장애물로
-    const boxes: Box[] = [];
-    for (const it of items) {
-      const at = vp.project(it.coords);
-      if (!at) continue;
-      const rr = ((isStrong(it.id) ? 8 : 4.5) + 2.5) * s;
-      boxes.push([at[0] - rr, at[1] - rr, at[0] + rr, at[1] + rr]);
-    }
-    const strong = items
-      .filter((it) => isStrong(it.id))
-      .sort(
-        (a, b) =>
-          Number(b.id === selected) - Number(a.id === selected) ||
-          b.importance - a.importance,
-      );
-    for (const it of strong) {
-      const at = vp.project(it.coords);
-      if (!at) continue;
-      const r = 8;
-      const w = [...itemTitle(it, locale)].reduce(
-        (sum, ch) => sum + (ch.codePointAt(0)! >= 0x2e80 ? 12 : 7),
-        0,
-      );
-      const spots: Spot[] = [
-        { dx: 0, dy: -r - 7, anchor: "middle" },
-        { dx: 0, dy: r + 17, anchor: "middle" },
-        { dx: r + 5, dy: 4, anchor: "start" },
-        { dx: -r - 5, dy: 4, anchor: "end" },
-      ];
-      for (const spot of spots) {
-        const left =
-          spot.anchor === "middle"
-            ? spot.dx - w / 2
-            : spot.anchor === "start"
-              ? spot.dx
-              : spot.dx - w;
-        const box: Box = [
-          at[0] + left * s,
-          at[1] + (spot.dy - 11) * s,
-          at[0] + (left + w) * s,
-          at[1] + (spot.dy + 3) * s,
-        ];
-        if (it.id !== selected && boxes.some((b) => overlaps(box, b))) continue;
-        boxes.push(box);
-        out.set(it.id, spot);
-        break;
-      }
-    }
-    return out;
-  }, [items, highlighted, selected, unit, vp, locale]);
+  const labelAt = useMemo(
+    () =>
+      itemLabelSpots(
+        items,
+        (id) => highlighted.has(id) || id === selected,
+        selected,
+        vp.project,
+        vp.zoom,
+        (it) => itemTitle(it, locale),
+      ),
+    [items, highlighted, selected, vp.project, vp.zoom, locale],
+  );
 
   return (
     <svg
       {...vp.svgProps((target) => {
         const id = target.closest("[data-item]")?.getAttribute("data-item");
+        const sub = target.closest("[data-point]")?.getAttribute("data-point");
+        const p = sub && subs.find((s) => s.id === sub);
         if (id) select(id);
+        else if (p) selectPoint(p);
       })}
       role="img"
       aria-label={`${topicTitle(topic, locale)} - ${formatT(t, topic, locale)}`}
@@ -210,6 +199,29 @@ export function TopicMap() {
                     strokeWidth={round2(1 * unit)}
                   />
                 ))}
+              </g>
+            );
+          })}
+
+          {/* 작은 점(전쟁 목록의 전투): 항목 색 작은 원, 고른 점은 크게 */}
+          {subs.map((s) => {
+            const at = vp.project(s.coords);
+            if (!at) return null;
+            const on = s.id === selectedPoint?.id;
+            return (
+              <g
+                key={s.id}
+                data-point={s.id}
+                transform={`translate(${at[0]} ${at[1]}) scale(${round2(unit * 1.2)})`}
+                className="cursor-pointer"
+              >
+                <title>{`${s.title} · ${s.when}`}</title>
+                <circle r={12} fill="transparent" />
+                <circle
+                  r={(on ? 4.5 : 3) + 1.5}
+                  fill={on ? "var(--foreground)" : "var(--map-pin-stroke)"}
+                />
+                <circle r={on ? 4.5 : 3} fill={colorOf(s.item)} />
               </g>
             );
           })}
@@ -306,6 +318,30 @@ export function TopicMap() {
                 )
               );
             })}
+            {/* 고른 작은 점: 위에 이름, 아래에 때 */}
+            {selectedPoint &&
+              subs.some((s) => s.id === selectedPoint.id) &&
+              (() => {
+                const at = vp.project(selectedPoint.coords);
+                return (
+                  at && (
+                    <g
+                      transform={`translate(${at[0]} ${at[1]}) scale(${round2(unit * 1.2)})`}
+                      textAnchor="middle"
+                    >
+                      <text y={-10}>{selectedPoint.title}</text>
+                      <text
+                        y={18}
+                        fontSize={10.5}
+                        fontWeight={600}
+                        fill="var(--muted)"
+                      >
+                        {selectedPoint.when}
+                      </text>
+                    </g>
+                  )
+                );
+              })()}
           </g>
         </g>
       ))}

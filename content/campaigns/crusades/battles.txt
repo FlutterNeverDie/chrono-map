@@ -9,24 +9,28 @@ links: 19
 @ battle-of-civetot
 wikipedia: Battle of Civetot
 when: 1096
+days: 1096-10-21
 coords: 29.16, 40.43
 links: 17
 
 @ siege-of-nicaea
 wikipedia: Siege of Nicaea
 when: 1097
+days: 1097-05-14 ~ 1097-06-19
 coords: 29.72, 40.43
 links: 35
 
 @ battle-of-dorylaeum-1097
 wikipedia: Battle of Dorylaeum (1097)
 when: 1097
+days: 1097-07-01
 coords: 30.52, 39.78
 links: 35
 
 @ siege-of-antioch
 wikipedia: Siege of Antioch
 when: 1097 ~ 1098
+days: 1097-10-20 ~ 1098-06-28
 coords: 36.16, 36.2
 links: 37
 
@@ -39,12 +43,14 @@ links: 24
 @ siege-of-jerusalem-1099
 wikipedia: Siege of Jerusalem (1099)
 when: 1099
+days: 1099-06-07 ~ 1099-07-15
 coords: 35.22, 31.78
 links: 49
 
 @ battle-of-ascalon
 wikipedia: Battle of Ascalon
 when: 1099
+days: 1099-08-12 ~ 1099-08-18
 coords: 34.56, 31.67
 links: 37
 
@@ -81,72 +87,84 @@ links: 14
 @ battle-of-harran
 wikipedia: Battle of Harran
 when: 1104
+days: 1104-05-07
 coords: 39.03, 36.87
 links: 30
 
 @ battle-of-ramla-1105
 wikipedia: Battle of Ramla (1105)
 when: 1105
+days: 1105-08-27
 coords: 34.87, 31.92
 links: 16
 
 @ siege-of-sidon
 wikipedia: Siege of Sidon
 when: 1110
+days: 1110-10-19 ~ 1110-12-05
 coords: 35.4, 33.56
 links: 16
 
 @ seljuk-campaign-on-the-crusaders-1111
 wikipedia: Seljuk campaign on the Crusaders (1111)
 when: 1111
+days: 1111-09-13 ~ 1111-09-29
 coords: 36.57, 35.27
 links: 13
 
 @ battle-of-al-sannabra
 wikipedia: Battle of al-Sannabra
 when: 1113
+days: 1113-06-28
 coords: 35.57, 32.72
 links: 10
 
 @ battle-of-sarmin
 wikipedia: Battle of Sarmin
 when: 1115
+days: 1115-09-14
 coords: 36.72, 35.9
 links: 18
 
 @ battle-of-the-field-of-blood
 wikipedia: Battle of the Field of Blood
 when: 1119
+days: 1119-06-28
 coords: 36.72, 36.18
 links: 27
 
 @ battle-of-yibneh
 wikipedia: Battle of Yibneh
 when: 1123
+days: 1123-05-29
 coords: 34.75, 31.87
 links: 12
 
 @ battle-of-azaz-1125
 wikipedia: Battle of Azaz (1125)
 when: 1125
+days: 1125-06-11
 coords: 36.72, 36.18
 links: 22
 
 @ battle-of-ba-rin
 wikipedia: Battle of Ba'rin
 when: 1137
+days: 1137-08-01
 coords: 36.44, 34.88
 links: 12
 
 @ siege-of-shaizar-1138
 wikipedia: Siege of Shaizar (1138)
 when: 1138
+days: 1138-04-28 ~ 1138-05-21
 coords: 36.57, 35.27
 links: 14
 
 @ siege-of-edessa-1144
 wikipedia: Siege of Edessa (1144)
 when: 1144
+days: 1144-11-28 ~ 1144-12-24
 coords: 38.8, 37.15
 links: 25
 
@@ -159,42 +177,49 @@ links: 10
 @ battle-of-dorylaeum-1147
 wikipedia: Battle of Dorylaeum (1147)
 when: 1147
+days: 1147-10-25
 coords: 30.52, 39.78
 links: 19
 
 @ battle-of-ephesus-1147
 wikipedia: Battle of Ephesus (1147)
 when: 1147
+days: 1147-12-24
 coords: 27.34, 37.94
 links: 11
 
 @ battle-of-mount-cadmus
 wikipedia: Battle of Mount Cadmus
 when: 1148
+days: 1148-01-06
 coords: 29.22, 37.63
 links: 16
 
 @ siege-of-damascus-1148
 wikipedia: Siege of Damascus (1148)
 when: 1148
+days: 1148-07-24 ~ 1148-07-28
 coords: 36.3, 33.51
 links: 25
 
 @ battle-of-inab
 wikipedia: Battle of Inab
 when: 1149
+days: 1149-06-29
 coords: 36.95, 36.52
 links: 22
 
 @ siege-of-ascalon
 wikipedia: Siege of Ascalon
 when: 1153
+days: 1153-01-25 ~ 1153-08-22
 coords: 34.55, 31.67
 links: 21
 
 @ battle-of-lake-huleh-1157
 wikipedia: Battle of Lake Huleh (1157)
 when: 1157
+days: 1157-06-19
 coords: 35.61, 33.1
 links: 12
 
@@ -207,42 +232,49 @@ links: 12
 @ battle-of-harim
 wikipedia: Battle of Harim
 when: 1164
+days: 1164-08-12
 coords: 36.52, 36.2
 links: 15
 
 @ battle-of-al-babein
 wikipedia: Battle of al-Babein
 when: 1167
+days: 1167-03-18
 coords: 31.22, 30.02
 links: 11
 
 @ battle-of-montgisard
 wikipedia: Battle of Montgisard
 when: 1177
+days: 1177-11-25
 coords: 34.92, 31.86
 links: 38
 
 @ battle-of-marj-ayyun
 wikipedia: Battle of Marj Ayyun
 when: 1179
+days: 1179-06-10
 coords: 35.59, 33.36
 links: 23
 
 @ siege-of-jacob-s-ford
 wikipedia: Siege of Jacob's Ford
 when: 1179
+days: 1179-08-23 ~ 1179-08-30
 coords: 35.63, 33
 links: 17
 
 @ battle-of-belvoir-castle
 wikipedia: Battle of Belvoir Castle
 when: 1182
+days: 1182-07-15
 coords: 35.52, 32.6
 links: 13
 
 @ battle-of-al-fule
 wikipedia: Battle of al-Fule
 when: 1183
+days: 1183-09-30 ~ 1183-10-06
 coords: 35.3, 32.6
 links: 15
 
@@ -255,78 +287,91 @@ links: 15
 @ battle-of-cresson
 wikipedia: Battle of Cresson
 when: 1187
+days: 1187-05-01
 coords: 35.35, 32.74
 links: 22
 
 @ battle-of-hattin
 wikipedia: Battle of Hattin
 when: 1187
+days: 1187-07-03 ~ 1187-07-04
 coords: 35.46, 32.8
 links: 62
 
 @ siege-of-jerusalem-1187
 wikipedia: Siege of Jerusalem (1187)
 when: 1187
+days: 1187-09-20 ~ 1187-10-02
 coords: 35.22, 31.78
 links: 43
 
 @ siege-of-tyre-1187
 wikipedia: Siege of Tyre (1187)
 when: 1187 ~ 1188
+days: 1187-11-12 ~ 1188-01-01
 coords: 35.2, 33.27
 links: 20
 
 @ siege-of-acre-1189-1191
 wikipedia: Siege of Acre (1189–1191)
 when: 1189 ~ 1191
+days: 1189-08-28 ~ 1191-07-12
 coords: 35.08, 32.93
 links: 34
 
 @ battle-of-iconium-1190
 wikipedia: Battle of Iconium (1190)
 when: 1190
+days: 1190-05-18
 coords: 32.48, 37.87
 links: 19
 
 @ battle-of-philomelion-1190
 wikipedia: Battle of Philomelion (1190)
 when: 1190
+days: 1190-05-07
 coords: 31.42, 38.36
 links: 8
 
 @ battle-of-arsuf
 wikipedia: Battle of Arsuf
 when: 1191
+days: 1191-09-07
 coords: 34.81, 32.19
 links: 36
 
 @ battle-of-jaffa-1192
 wikipedia: Battle of Jaffa (1192)
 when: 1192
+days: 1192-08-08
 coords: 34.75, 32.05
 links: 23
 
 @ siege-of-constantinople-1203
 wikipedia: Siege of Constantinople (1203)
 when: 1203
+days: 1203-07-17 ~ 1203-08-01
 coords: 28.98, 41.02
 links: 23
 
 @ sack-of-constantinople
 wikipedia: Sack of Constantinople
 when: 1204
+days: 1204-04-08 ~ 1204-04-13
 coords: 28.95, 41.04
 links: 38
 
 @ battle-of-adramyttion-1205
 wikipedia: Battle of Adramyttion (1205)
 when: 1205
+days: 1205-03-19
 coords: 27.02, 39.58
 links: 8
 
 @ battle-of-adrianople-1205
 wikipedia: Battle of Adrianople (1205)
 when: 1205
+days: 1205-04-14
 coords: 26.57, 41.67
 links: 26
 
@@ -339,65 +384,76 @@ links: 24
 @ siege-of-jerusalem-1244
 wikipedia: Siege of Jerusalem (1244)
 when: 1244
+days: 1244-07-15
 coords: 35.22, 31.78
 links: 27
 
 @ battle-of-forbie
 wikipedia: Battle of Forbie
 when: 1244
+days: 1244-10-17 ~ 1244-10-18
 coords: 34.55, 31.61
 links: 22
 
 @ siege-of-damietta-1249
 wikipedia: Siege of Damietta (1249)
 when: 1249
+days: 1249-06-05 ~ 1249-06-06
 coords: 31.82, 31.42
 links: 15
 
 @ battle-of-mansurah-1250
 wikipedia: Battle of Mansurah (1250)
 when: 1250
+days: 1250-02-08 ~ 1250-02-11
 coords: 31.38, 31.05
 links: 20
 
 @ battle-of-fariskur-1250
 wikipedia: Battle of Fariskur (1250)
 when: 1250
+days: 1250-04-06
 coords: 31.71, 31.33
 links: 23
 
 @ battle-of-ain-jalut
 wikipedia: Battle of Ain Jalut
 when: 1260
+days: 1260-09-03
 coords: 35.36, 32.55
 links: 50
 
 @ battle-of-mari
 wikipedia: Battle of Mari
 when: 1266
+days: 1266-08-24
 coords: 36.36, 36.53
 links: 15
 
 @ siege-of-antioch-1268
 wikipedia: Siege of Antioch (1268)
 when: 1268
+days: 1268-05-14 ~ 1268-05-18
 coords: 36.15, 36.2
 links: 13
 
 @ fall-of-krak-des-chevaliers
 wikipedia: Fall of Krak des Chevaliers
 when: 1271
+days: 1271-03-03 ~ 1271-04-08
 coords: 36.3, 34.76
 links: 11
 
 @ truce-of-tripoli-1271
 wikipedia: Truce of Tripoli (1271)
 when: 1271
+days: 1271-05-09
 coords: 35.83, 34.43
 links: 8
 
 @ siege-of-acre-1291
 wikipedia: Siege of Acre (1291)
 when: 1291
+days: 1291-04-04 ~ 1291-05-18
 coords: 35.08, 32.93
 links: 36

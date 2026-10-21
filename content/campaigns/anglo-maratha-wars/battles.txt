@@ -3,95 +3,111 @@
 @ battle-of-ujjain
 wikipedia: Battle of Ujjain
 when: 1801
+days: 1801-07-18
 coords: 75.7, 23.1
 links: 3
 
 @ battle-of-poona
 wikipedia: Battle of Poona
 when: 1802
+days: 1802-10-25
 coords: 73.86, 18.53
 links: 4
 
 @ battle-of-assaye
 wikipedia: Battle of Assaye
 when: 1803
+days: 1803-09-23
 coords: 75.89, 20.24
 links: 15
 
 @ battle-of-delhi-1803
 wikipedia: Battle of Delhi (1803)
 when: 1803
+days: 1803-09-11
 coords: 77.25, 28.6
 links: 7
 
 @ siege-of-aligarh
 wikipedia: Siege of Aligarh
 when: 1803
+days: 1803-09-01 ~ 1803-09-04
 coords: 78.08, 27.88
 links: 7
 
 @ battle-of-argaon
 wikipedia: Battle of Argaon
 when: 1803
+days: 1803-11-29
 coords: 73.65, 16.78
 links: 8
 
 @ battle-of-laswari
 wikipedia: Battle of Laswari
 when: 1803
+days: 1803-11-01
 coords: 76.93, 27.55
 links: 8
 
 @ battle-of-mukandwara-pass
 wikipedia: Battle of Mukandwara Pass
 when: 1804
+days: 1804-07-08 ~ 1804-07-09
 coords: 75.99, 24.81
 links: 3
 
 @ siege-of-delhi-1804
 wikipedia: Siege of Delhi (1804)
 when: 1804
+days: 1804-10-08 ~ 1804-10-19
 coords: 77.22, 28.67
 links: 5
 
 @ battle-of-farrukhabad
 wikipedia: Battle of Farrukhabad
 when: 1804
+days: 1804-11-14
 coords: 79.63, 27.37
 links: 4
 
 @ battle-of-deeg
 wikipedia: Battle of Deeg
 when: 1804
+days: 1804-11-13
 coords: 77.33, 27.47
 links: 5
 
 @ siege-of-deeg
 wikipedia: Siege of Deeg
 when: 1804
+days: 1804-12-11 ~ 1804-12-24
 coords: 77.33, 27.47
 links: 3
 
 @ siege-of-bharatpur-1805
 wikipedia: Siege of Bharatpur (1805)
 when: 1805
+days: 1805-01-02 ~ 1805-02-22
 coords: 77.5, 27.22
 links: 6
 
 @ battle-of-khadki
 wikipedia: Battle of Khadki
 when: 1817
+days: 1817-11-05
 coords: 73.85, 18.56
 links: 7
 
 @ battle-of-mahidpur
 wikipedia: Battle of Mahidpur
 when: 1817
+days: 1817-12-21
 coords: 75.66, 23.49
 links: 4
 
 @ battle-of-koregaon
 wikipedia: Battle of Koregaon
 when: 1818
+days: 1818-01-01
 coords: 74.06, 18.65
 links: 14

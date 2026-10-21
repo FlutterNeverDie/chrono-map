@@ -3,102 +3,119 @@
 @ battle-of-baghdad-2003
 wikipedia: Battle of Baghdad (2003)
 when: 2003-04
+days: 2003-04-03 ~ 2003-04-12
 coords: 44.42, 33.31
 links: 20
 
 @ battle-of-nasiriyah
 wikipedia: Battle of Nasiriyah
 when: 2003-03
+days: 2003-03-23 ~ 2003-03-29
 coords: 46.27, 31.05
 links: 18
 
 @ battle-of-najaf-2003
 wikipedia: Battle of Najaf (2003)
 when: 2003-03 ~ 2003-04
+days: 2003-03-24 ~ 2003-04-04
 coords: 44.33, 32
 links: 12
 
 @ battle-of-basra-2003
 wikipedia: Battle of Basra (2003)
 when: 2003-03 ~ 2003-04
+days: 2003-03-21 ~ 2003-04-06
 coords: 47.8, 30.5
 links: 19
 
 @ battle-of-al-faw-2003
 wikipedia: Battle of Al Faw (2003)
 when: 2003-03
+days: 2003-03-20 ~ 2003-03-24
 coords: 48.47, 29.98
 links: 13
 
 @ battle-of-umm-qasr
 wikipedia: Battle of Umm Qasr
 when: 2003-03
+days: 2003-03-21 ~ 2003-03-25
 coords: 47.94, 30.03
 links: 18
 
 @ battle-of-samawah
 wikipedia: Battle of Samawah
 when: 2003-03 ~ 2003-04
+days: 2003-03-30 ~ 2003-04-04
 coords: 45.28, 31.32
 links: 6
 
 @ operation-viking-hammer
 wikipedia: Operation Viking Hammer
 when: 2003-03
+days: 2003-03-28 ~ 2003-03-30
 coords: 45.98, 35.18
 links: 10
 
 @ operation-northern-delay
 wikipedia: Operation Northern Delay
 when: 2003-03
+days: 2003-03-26
 coords: 44.34, 36.53
 links: 3
 
 @ battle-of-the-karbala-gap-2003
 wikipedia: Battle of the Karbala Gap (2003)
 when: 2003-04
+days: 2003-04-02 ~ 2003-04-04
 coords: 44.03, 32.62
 links: 5
 
 @ capture-of-saddam-hussein
 wikipedia: Capture of Saddam Hussein
 when: 2003-12
+days: 2003-12-13
 coords: 43.78, 34.47
 links: 20
 
 @ battle-of-najaf-2004
 wikipedia: Battle of Najaf (2004)
 when: 2004-08
+days: 2004-08-05 ~ 2004-08-27
 coords: 44.31, 32
 links: 14
 
 @ first-battle-of-fallujah
 wikipedia: First Battle of Fallujah
 when: 2004-04 ~ 2004-05
+days: 2004-04-04 ~ 2004-05-01
 coords: 43.78, 33.35
 links: 25
 
 @ battle-of-ramadi-2004
 wikipedia: Battle of Ramadi (2004)
 when: 2004-04
+days: 2004-04-06 ~ 2004-04-10
 coords: 43.3, 33.43
 links: 7
 
 @ defense-of-the-karbala-city-hall
 wikipedia: Defense of the Karbala City Hall
 when: 2004-04
+days: 2004-04-03 ~ 2004-04-06
 coords: 44.03, 32.6
 links: 3
 
 @ siege-of-sadr-city
 wikipedia: Siege of Sadr City
 when: 2004-04 ~ 2008-05
+days: 2004-04-04 ~ 2008-05-11
 coords: 44.46, 33.39
 links: 8
 
 @ battle-of-mosul-2004
 wikipedia: Battle of Mosul (2004)
 when: 2004-11
+days: 2004-11-08 ~ 2004-11-16
 coords: 43.12, 36.34
 links: 7
 
@@ -111,18 +128,21 @@ links: 25
 @ battle-of-tal-afar-2005
 wikipedia: Battle of Tal Afar (2005)
 when: 2005-09
+days: 2005-09-01 ~ 2005-09-18
 coords: 42.45, 36.37
 links: 9
 
 @ battle-of-abu-ghraib
 wikipedia: Battle of Abu Ghraib
 when: 2005-04
+days: 2005-04-02
 coords: 44.07, 33.29
 links: 3
 
 @ battle-of-amarah
 wikipedia: Battle of Amarah
 when: 2006-10
+days: 2006-10-19 ~ 2006-10-20
 coords: 47.15, 31.83
 links: 3
 
@@ -135,23 +155,27 @@ links: 9
 @ siege-of-basra-2007
 wikipedia: Siege of Basra (2007)
 when: 2007-02 ~ 2007-09
+days: 2007-02-27 ~ 2007-09-03
 coords: 47.81, 30.49
 links: 4
 
 @ operation-black-eagle
 wikipedia: Operation Black Eagle
 when: 2007-04
+days: 2007-04-06 ~ 2007-04-10
 coords: 44.93, 31.98
 links: 5
 
 @ battle-of-basra-2008
 wikipedia: Battle of Basra (2008)
 when: 2008-03
+days: 2008-03-25 ~ 2008-03-31
 coords: 47.8, 30.5
 links: 13
 
 @ battle-of-the-palm-grove
 wikipedia: Battle of the Palm Grove
 when: 2010-09
+days: 2010-09-10 ~ 2010-09-13
 coords: 44.56, 33.78
 links: 3

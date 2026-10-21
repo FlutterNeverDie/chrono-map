@@ -3,12 +3,14 @@
 @ operation-morvarid
 wikipedia: Operation Morvarid
 when: 1980-11
+days: 1980-11-29
 coords: 49.0, 29.7
 links: 11
 
 @ operation-fath-ol-mobin
 wikipedia: Operation Fath ol-Mobin
 when: 1982-03
+days: 1982-03-22 ~ 1982-03-28
 coords: 48.1, 32.45
 links: 12
 
@@ -21,23 +23,27 @@ links: 14
 @ halabja-massacre
 wikipedia: Halabja massacre
 when: 1988-03
+days: 1988-03-16
 coords: 45.98, 35.18
 links: 36
 
 @ second-battle-of-al-faw
 wikipedia: Second Battle of al-Faw
 when: 1988-04
+days: 1988-04-17
 coords: 48.47, 29.98
 links: 9
 
 @ operation-praying-mantis
 wikipedia: Operation Praying Mantis
 when: 1988-04
+days: 1988-04-18
 coords: 52.6, 26.4
 links: 18
 
 @ operation-mersad
 wikipedia: Operation Mersad
 when: 1988-07
+days: 1988-07-26 ~ 1988-07-30
 coords: 46.8, 34.15
 links: 10

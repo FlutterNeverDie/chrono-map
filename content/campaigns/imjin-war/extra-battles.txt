@@ -4,6 +4,7 @@
 @ battle-of-sangju-1592
 wikipedia: Battle of Sangju (1592)
 when: 1592-06
+days: 1592-06-03
 coords: 128.16, 36.41
 links: 15
 
@@ -16,17 +17,20 @@ links: 10
 @ battle-of-danghangpo
 wikipedia: Battle of Danghangpo
 when: 1592-07
+days: 1592-07-12
 coords: 128.39, 35.04
 links: 12
 
 @ battle-of-busan-1592
 wikipedia: Battle of Busan
 when: 1592-10
+days: 1592-10-05
 coords: 129.04, 35.1
 links: 15
 
 @ battle-of-byeokjegwan
 wikipedia: Battle of Byeokjegwan
 when: 1593-02
+days: 1593-02-27
 coords: 126.88, 37.68
 links: 12

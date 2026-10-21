@@ -3,5 +3,6 @@
 @ battle-of-marciano
 wikipedia: Battle of Marciano
 when: 1554
+days: 1554-08-02
 coords: 11.79, 43.3
 links: 7

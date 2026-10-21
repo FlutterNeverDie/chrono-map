@@ -3,6 +3,7 @@
 @ operation-paraquet
 wikipedia: Operation Paraquet
 when: 1982-04
+days: 1982-04-25
 coords: -36.51, -54.28
 links: 10
 
@@ -15,5 +16,6 @@ links: 14
 @ pebble-island-raid
 wikipedia: Pebble Island raid
 when: 1982-05
+days: 1982-05-14 ~ 1982-05-15
 coords: -59.61, -51.31
 links: 6

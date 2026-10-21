@@ -32,12 +32,19 @@ export type Theme = {
 
 export const listCampaigns = () =>
   readdirSync(CAMPAIGNS_DIR, { withFileTypes: true })
-    .filter((d) => d.isDirectory() && existsSync(`${CAMPAIGNS_DIR}/${d.name}/theme.txt`))
+    .filter(
+      (d) =>
+        d.isDirectory() && existsSync(`${CAMPAIGNS_DIR}/${d.name}/theme.txt`),
+    )
     .map((d) => d.name)
     .sort();
 
 /** "1592-04" | "1592" | "-264" → 시간값. 월 단위에서 연도만 쓰면 시작은 1월, 끝은 12월 */
-export function toTime(value: string, unit: Unit, edge: "start" | "end" = "start"): number {
+export function toTime(
+  value: string,
+  unit: Unit,
+  edge: "start" | "end" = "start",
+): number {
   const m = value.trim().match(/^(-?\d{1,4})(?:-(\d{2}))?$/);
   if (!m) throw new Error(`시간 형식이 아님("YYYY" 또는 "YYYY-MM"): ${value}`);
   const year = Number(m[1]);
@@ -45,14 +52,18 @@ export function toTime(value: string, unit: Unit, edge: "start" | "end" = "start
   const month = m[2] ? Number(m[2]) - 1 : edge === "end" ? 11 : 0;
   return year * 12 + month;
 }
-export const yearOfTime = (t: number, unit: Unit) => (unit === "year" ? t : Math.floor(t / 12));
+export const yearOfTime = (t: number, unit: Unit) =>
+  unit === "year" ? t : Math.floor(t / 12);
 
 function keyValues(file: string): [string, string][] {
   return readFileSync(file, "utf8")
     .split("\n")
     .map((l) => l.trim())
     .filter((l) => l && !l.startsWith("#") && l.includes(":"))
-    .map((l) => [l.slice(0, l.indexOf(":")).trim(), l.slice(l.indexOf(":") + 1).trim()]);
+    .map((l) => [
+      l.slice(0, l.indexOf(":")).trim(),
+      l.slice(l.indexOf(":") + 1).trim(),
+    ]);
 }
 
 export function readTheme(id: string): Theme {
@@ -63,9 +74,15 @@ export function readTheme(id: string): Theme {
     return v;
   };
   const unit = need("unit") as Unit;
-  if (unit !== "month" && unit !== "year") throw new Error(`${id}: unit은 month | year`);
-  const [a, b = a] = need("when").split("~").map((s) => s.trim());
-  const nums = (k: string) => need(k).split(",").map((s) => Number(s.trim()));
+  if (unit !== "month" && unit !== "year")
+    throw new Error(`${id}: unit은 month | year`);
+  const [a, b = a] = need("when")
+    .split("~")
+    .map((s) => s.trim());
+  const nums = (k: string) =>
+    need(k)
+      .split(",")
+      .map((s) => Number(s.trim()));
   const [lon, lat, zoom] = nums("view");
   const [west, east, south, north] = nums("search");
   const sides: Theme["sides"] = {};
@@ -76,7 +93,8 @@ export function readTheme(id: string): Theme {
     }
   const start = toTime(a, unit, "start");
   const end = toTime(b, unit, "end");
-  const localized = (prefix: string) => localizedFields((k) => kv.get(k), prefix);
+  const localized = (prefix: string) =>
+    localizedFields((k) => kv.get(k), prefix);
   return {
     id,
     wikipedia: need("wikipedia"),
@@ -104,6 +122,8 @@ export type BattleSource = {
   end: number;
   coords: [number, number];
   links: number;
+  /** 일 단위 날짜(days: 줄, npm run wars:days) - [시작, 끝] "YYYY-MM-DD", 하루면 같은 값 */
+  days?: [string, string];
   /** 직접 쓴 전투 이름·설명(title.<언어>, summary.<언어>): 맞는 위키백과 문서가 없을 때 */
   title: Partial<Record<Locale, string>>;
   summary: Partial<Record<Locale, string>>;
@@ -132,8 +152,15 @@ export function readBattles(id: string, unit: Unit): BattleSource[] {
   const extra = parseBattles(id, "extra-battles.txt", unit);
   const titles = new Set(extra.map((b) => b.wikipedia).filter(Boolean));
   const excluded = readExcluded(id);
-  return [...parseBattles(id, "battles.txt", unit).filter((b) => !b.wikipedia || !titles.has(b.wikipedia)), ...extra]
-    .filter((b) => !excluded.has(b.id) && !(b.wikipedia && excluded.has(b.wikipedia)))
+  return [
+    ...parseBattles(id, "battles.txt", unit).filter(
+      (b) => !b.wikipedia || !titles.has(b.wikipedia),
+    ),
+    ...extra,
+  ]
+    .filter(
+      (b) => !excluded.has(b.id) && !(b.wikipedia && excluded.has(b.wikipedia)),
+    )
     .sort((a, b) => a.start - b.start);
 }
 
@@ -142,21 +169,32 @@ function parseBattles(id: string, name: string, unit: Unit): BattleSource[] {
   if (!existsSync(file)) return [];
   const out: BattleSource[] = [];
   for (const block of readFileSync(file, "utf8").split(/\n\s*\n/)) {
-    const lines = block.split("\n").filter((l) => l.trim() && !l.trim().startsWith("#"));
+    const lines = block
+      .split("\n")
+      .filter((l) => l.trim() && !l.trim().startsWith("#"));
     const head = lines.find((l) => l.startsWith("@"));
     if (!head) continue;
-    const get = (k: string) => lines.find((l) => l.startsWith(`${k}:`))?.slice(k.length + 1).trim();
+    const get = (k: string) =>
+      lines
+        .find((l) => l.startsWith(`${k}:`))
+        ?.slice(k.length + 1)
+        .trim();
     const bid = head.slice(1).trim();
     const [a, b = a] = (get("when") ?? "").split("~").map((s) => s.trim());
     const [lon, lat] = (get("coords") ?? "").split(",").map(Number);
     const localized = (prefix: string) => localizedFields(get, prefix);
     const title = localized("title");
     const summary = localized("summary");
-    if ((!get("wikipedia") && !(title.ko && summary.ko)) || !a || Number.isNaN(lon))
+    if (
+      (!get("wikipedia") && !(title.ko && summary.ko)) ||
+      !a ||
+      Number.isNaN(lon)
+    )
       throw new Error(
         `content/campaigns/${id}/${name} [${bid}] when·coords와 wikipedia(없으면 title.ko·summary.ko) 필요`,
       );
     const start = toTime(a, unit, "start");
+    const [d0, d1 = d0] = (get("days") ?? "").split("~").map((s) => s.trim());
     out.push({
       id: bid,
       wikipedia: get("wikipedia") || undefined,
@@ -164,6 +202,7 @@ function parseBattles(id: string, name: string, unit: Unit): BattleSource[] {
       end: Math.max(start, toTime(b, unit, "end")),
       coords: [lon, lat],
       links: Number(get("links") ?? 0),
+      ...(d0 ? { days: [d0, d1] as [string, string] } : {}),
       title,
       summary,
     });
@@ -171,7 +210,12 @@ function parseBattles(id: string, name: string, unit: Unit): BattleSource[] {
   return out;
 }
 
-export type SideRule = { name: string; side: SideKey; from: number | null; to: number | null };
+export type SideRule = {
+  name: string;
+  side: SideKey;
+  from: number | null;
+  to: number | null;
+};
 
 /** sides.txt: "원본 이름 = a | b | n [시작 ~ 끝]" */
 export function readSides(id: string, unit: Unit): SideRule[] {
@@ -181,8 +225,13 @@ export function readSides(id: string, unit: Unit): SideRule[] {
     .forEach((raw, i) => {
       const text = raw.replace(/#.*/, "").trim();
       if (!text) return;
-      const m = text.match(/^(.+?) = (a|b|n)(?:\s+(-?[\d-]+)?\s*~\s*(-?[\d-]+)?)?$/);
-      if (!m) throw new Error(`content/campaigns/${id}/sides.txt:${i + 1} 형식 오류: ${raw}`);
+      const m = text.match(
+        /^(.+?) = (a|b|n)(?:\s+(-?[\d-]+)?\s*~\s*(-?[\d-]+)?)?$/,
+      );
+      if (!m)
+        throw new Error(
+          `content/campaigns/${id}/sides.txt:${i + 1} 형식 오류: ${raw}`,
+        );
       rules.push({
         name: m[1].trim(),
         side: m[2] as SideKey,

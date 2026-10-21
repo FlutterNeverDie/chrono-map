@@ -9,30 +9,35 @@ links: 15
 @ battle-of-arnemuiden
 wikipedia: Battle of Arnemuiden
 when: 1338
+days: 1338-09-23
 coords: 3.37, 51.65
 links: 14
 
 @ siege-of-tournai-1340
 wikipedia: Siege of Tournai (1340)
 when: 1340
+days: 1340-07-23 ~ 1340-09-25
 coords: 3.38, 50.6
 links: 9
 
 @ battle-of-sluys
 wikipedia: Battle of Sluys
 when: 1340
+days: 1340-06-24
 coords: 3.38, 51.35
 links: 39
 
 @ battle-of-saint-omer
 wikipedia: Battle of Saint-Omer
 when: 1340
+days: 1340-07-26
 coords: 2.26, 50.75
 links: 11
 
 @ battle-of-champtoceaux
 wikipedia: Battle of Champtoceaux
 when: 1341
+days: 1341-10-14
 coords: -1.29, 47.32
 links: 7
 
@@ -51,12 +56,14 @@ links: 8
 @ siege-of-brest-1342
 wikipedia: Siege of Brest (1342)
 when: 1342
+days: 1342-08-18
 coords: -4.5, 48.38
 links: 8
 
 @ battle-of-morlaix
 wikipedia: Battle of Morlaix
 when: 1342
+days: 1342-09-30
 coords: -3.74, 48.63
 links: 13
 
@@ -69,18 +76,21 @@ links: 6
 @ battle-of-auberoche
 wikipedia: Battle of Auberoche
 when: 1345
+days: 1345-10-21
 coords: 0.9, 45.21
 links: 14
 
 @ siege-of-aiguillon
 wikipedia: Siege of Aiguillon
 when: 1346
+days: 1346-04-01 ~ 1346-08-20
 coords: 0.34, 44.3
 links: 7
 
 @ battle-of-saint-pol-de-leon
 wikipedia: Battle of Saint-Pol-de-Léon
 when: 1346
+days: 1346-06-09
 coords: -3.98, 48.69
 links: 7
 
@@ -93,24 +103,28 @@ links: 20
 @ siege-of-calais-1346-1347
 wikipedia: Siege of Calais (1346–1347)
 when: 1346 ~ 1347
+days: 1346-09-04 ~ 1347-08-03
 coords: 1.85, 50.96
 links: 23
 
 @ battle-of-crecy
 wikipedia: Battle of Crécy
 when: 1346
+days: 1346-08-26
 coords: 1.89, 50.26
 links: 51
 
 @ battle-of-blanchetaque
 wikipedia: Battle of Blanchetaque
 when: 1346
+days: 1346-08-24
 coords: 1.68, 50.17
 links: 16
 
 @ battle-of-neville-s-cross
 wikipedia: Battle of Neville's Cross
 when: 1346
+days: 1346-10-17
 coords: -1.59, 54.77
 links: 18
 
@@ -123,6 +137,7 @@ links: 7
 @ battle-of-winchelsea
 wikipedia: Battle of Winchelsea
 when: 1350
+days: 1350-08-29
 coords: 0.81, 50.88
 links: 16
 
@@ -135,96 +150,112 @@ links: 5
 @ combat-of-the-thirty
 wikipedia: Combat of the Thirty
 when: 1351
+days: 1351-03-26
 coords: -2.49, 47.94
 links: 17
 
 @ battle-of-mauron
 wikipedia: Battle of Mauron
 when: 1352
+days: 1352-08-14
 coords: -2.26, 48.09
 links: 7
 
 @ battle-of-poitiers
 wikipedia: Battle of Poitiers
 when: 1356
+days: 1356-09-19
 coords: 0.4, 46.52
 links: 52
 
 @ siege-of-rennes-1356-1357
 wikipedia: Siege of Rennes (1356–1357)
 when: 1356 ~ 1357
+days: 1356-10-03 ~ 1357-07-05
 coords: -1.68, 48.11
 links: 6
 
 @ reims-campaign
 wikipedia: Reims campaign
 when: 1359 ~ 1360
+days: 1359-10-28 ~ 1360-05-08
 coords: 1.85, 50.96
 links: 6
 
 @ battle-of-brignais
 wikipedia: Battle of Brignais
 when: 1362
+days: 1362-04-06
 coords: 4.75, 45.67
 links: 8
 
 @ battle-of-cocherel
 wikipedia: Battle of Cocherel
 when: 1364
+days: 1364-05-16
 coords: 1.34, 49.06
 links: 13
 
 @ battle-of-auray
 wikipedia: Battle of Auray
 when: 1364
+days: 1364-09-29
 coords: -2.98, 47.67
 links: 26
 
 @ battle-of-najera
 wikipedia: Battle of Nájera
 when: 1367
+days: 1367-04-03
 coords: -2.7, 42.43
 links: 19
 
 @ siege-of-limoges
 wikipedia: Siege of Limoges
 when: 1370
+days: 1370-09-19
 coords: 1.26, 45.84
 links: 10
 
 @ battle-of-pontvallain
 wikipedia: Battle of Pontvallain
 when: 1370
+days: 1370-12-04
 coords: 0.21, 47.77
 links: 8
 
 @ battle-of-la-rochelle
 wikipedia: Battle of La Rochelle
 when: 1372
+days: 1372-06-23
 coords: -1.15, 46.17
 links: 20
 
 @ battle-of-roosebeke
 wikipedia: Battle of Roosebeke
 when: 1382
+days: 1382-11-27
 coords: 3.01, 50.93
 links: 12
 
 @ siege-of-harfleur
 wikipedia: Siege of Harfleur
 when: 1415
+days: 1415-08-18 ~ 1415-09-22
 coords: 0.14, 49.49
 links: 12
 
 @ battle-of-agincourt
 wikipedia: Battle of Agincourt
 when: 1415
+days: 1415-10-25
 coords: 2.14, 50.46
 links: 62
 
 @ siege-of-rouen-1418-1419
 wikipedia: Siege of Rouen (1418–1419)
 when: 1418 ~ 1419
+days: 1418-07-31 ~ 1419-01-19
 coords: 1.1, 49.44
 links: 13
 
@@ -237,96 +268,112 @@ links: 5
 @ battle-of-bauge
 wikipedia: Battle of Baugé
 when: 1421
+days: 1421-03-21
 coords: -0.1, 47.54
 links: 14
 
 @ siege-of-meaux
 wikipedia: Siege of Meaux
 when: 1421 ~ 1422
+days: 1421-10-06 ~ 1422-05-10
 coords: 2.89, 48.96
 links: 10
 
 @ battle-of-cravant
 wikipedia: Battle of Cravant
 when: 1423
+days: 1423-07-31
 coords: 3.69, 47.68
 links: 13
 
 @ battle-of-la-brossiniere
 wikipedia: Battle of La Brossinière
 when: 1423
+days: 1423-09-26
 coords: -0.74, 47.77
 links: 8
 
 @ battle-of-verneuil
 wikipedia: Battle of Verneuil
 when: 1424
+days: 1424-08-17
 coords: 0.94, 48.76
 links: 19
 
 @ siege-of-montargis
 wikipedia: Siege of Montargis
 when: 1427
+days: 1427-07-15 ~ 1427-09-05
 coords: 2.73, 48
 links: 6
 
 @ siege-of-orleans-1428-1429
 wikipedia: Siege of Orléans (1428–1429)
 when: 1428 ~ 1429
+days: 1428-10-21 ~ 1429-05-17
 coords: 1.91, 47.9
 links: 39
 
 @ battle-of-the-herrings
 wikipedia: Battle of the Herrings
 when: 1429
+days: 1429-02-21
 coords: 1.73, 48.07
 links: 18
 
 @ battle-of-patay
 wikipedia: Battle of Patay
 when: 1429
+days: 1429-06-27
 coords: 1.7, 48.05
 links: 29
 
 @ battle-of-jargeau
 wikipedia: Battle of Jargeau
 when: 1429
+days: 1429-06-20 ~ 1429-06-21
 coords: 2.12, 47.87
 links: 12
 
 @ battle-of-meung-sur-loire
 wikipedia: Battle of Meung-sur-Loire
 when: 1429
+days: 1429-06-15
 coords: 1.7, 47.83
 links: 11
 
 @ battle-of-beaugency-1429
 wikipedia: Battle of Beaugency (1429)
 when: 1429
+days: 1429-06-25 ~ 1429-06-26
 coords: 1.65, 46.8
 links: 13
 
 @ siege-of-paris-1429
 wikipedia: Siege of Paris (1429)
 when: 1429
+days: 1429-08-26 ~ 1429-09-13
 coords: 2.35, 48.86
 links: 13
 
 @ siege-of-compiegne
 wikipedia: Siege of Compiègne
 when: 1430
+days: 1430-05-29 ~ 1430-11-06
 coords: 2.82, 49.41
 links: 14
 
 @ battle-of-gerberoy
 wikipedia: Battle of Gerberoy
 when: 1435
+days: 1435-05-09
 coords: 1.85, 49.54
 links: 9
 
 @ siege-of-paris-1435-1436
 wikipedia: Siege of Paris (1435–1436)
 when: 1435 ~ 1436
+days: 1435-06-01 ~ 1436-04-17
 coords: 2.35, 48.86
 links: 7
 
@@ -339,11 +386,13 @@ links: 6
 @ battle-of-formigny
 wikipedia: Battle of Formigny
 when: 1450
+days: 1450-04-15
 coords: -0.9, 49.34
 links: 26
 
 @ battle-of-castillon
 wikipedia: Battle of Castillon
 when: 1453
+days: 1453-07-17
 coords: -0.02, 44.85
 links: 33

@@ -165,3 +165,78 @@ export function itemColor(topic: Topic, id: string): string {
   }
   return m.get(id) ?? topic.color;
 }
+
+/** 항목 이름표 자리: 점 기준 오프셋(핀 그림 단위 - 화면 크기 = 값 × 1.2/배율 지도 단위), 글자 정렬 */
+export type LabelSpot = {
+  dx: number;
+  dy: number;
+  anchor: "middle" | "start" | "end";
+};
+/**
+ * 강조 항목 이름표 자리(svg·WebGL 지도 공통): 고른 항목 → 중요한 순으로 위·아래·오른쪽·왼쪽을 차례로 시도하고,
+ * 다른 이름표나 **점**과 겹치면 다음 자리, 다 막히면 이름을 뺀다(고른 항목은 위에 무조건).
+ * project: 좌표 → 지도 좌표, zoom: 배율, title: 항목 이름
+ */
+export function itemLabelSpots(
+  items: TopicItem[],
+  isStrong: (id: string) => boolean,
+  selected: string | null,
+  project: (c: [number, number]) => readonly [number, number] | null,
+  zoom: number,
+  title: (it: TopicItem) => string,
+): Map<string, LabelSpot> {
+  const s = (1 / zoom) * 1.2;
+  const out = new Map<string, LabelSpot>();
+  type Box = [number, number, number, number];
+  const overlaps = (a: Box, b: Box) =>
+    a[0] < b[2] && a[2] > b[0] && a[1] < b[3] && a[3] > b[1];
+  // 모든 점을 장애물로
+  const boxes: Box[] = [];
+  for (const it of items) {
+    const at = project(it.coords);
+    if (!at) continue;
+    const rr = ((isStrong(it.id) ? 8 : 4.5) + 2.5) * s;
+    boxes.push([at[0] - rr, at[1] - rr, at[0] + rr, at[1] + rr]);
+  }
+  const strong = items
+    .filter((it) => isStrong(it.id))
+    .sort(
+      (a, b) =>
+        Number(b.id === selected) - Number(a.id === selected) ||
+        b.importance - a.importance,
+    );
+  for (const it of strong) {
+    const at = project(it.coords);
+    if (!at) continue;
+    const r = 8;
+    const w = [...title(it)].reduce(
+      (sum, ch) => sum + (ch.codePointAt(0)! >= 0x2e80 ? 12 : 7),
+      0,
+    );
+    const spots: LabelSpot[] = [
+      { dx: 0, dy: -r - 7, anchor: "middle" },
+      { dx: 0, dy: r + 17, anchor: "middle" },
+      { dx: r + 5, dy: 4, anchor: "start" },
+      { dx: -r - 5, dy: 4, anchor: "end" },
+    ];
+    for (const spot of spots) {
+      const left =
+        spot.anchor === "middle"
+          ? spot.dx - w / 2
+          : spot.anchor === "start"
+            ? spot.dx
+            : spot.dx - w;
+      const box: Box = [
+        at[0] + left * s,
+        at[1] + (spot.dy - 11) * s,
+        at[0] + (left + w) * s,
+        at[1] + (spot.dy + 3) * s,
+      ];
+      if (it.id !== selected && boxes.some((b) => overlaps(box, b))) continue;
+      boxes.push(box);
+      out.set(it.id, spot);
+      break;
+    }
+  }
+  return out;
+}

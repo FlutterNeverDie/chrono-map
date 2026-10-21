@@ -3,5 +3,6 @@
 @ battle-of-tours
 wikipedia: Battle of Tours
 when: 732
+days: 0732-10-10
 coords: 0.54, 46.78
 links: 60

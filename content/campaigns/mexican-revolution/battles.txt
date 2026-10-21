@@ -3,30 +3,35 @@
 @ battle-of-cuautla
 wikipedia: Battle of Cuautla
 when: 1911
+days: 1911-05-11 ~ 1911-05-19
 coords: -98.95, 18.82
 links: 6
 
 @ capture-of-mexicali
 wikipedia: Capture of Mexicali
 when: 1911
+days: 1911-01-29
 coords: -115.47, 32.66
 links: 3
 
 @ battle-of-ciudad-juarez-1911
 wikipedia: Battle of Ciudad Juárez (1911)
 when: 1911
+days: 1911-04-07 ~ 1911-05-10
 coords: -106.48, 31.72
 links: 6
 
 @ first-battle-of-torreon
 wikipedia: First Battle of Torreón
 when: 1913
+days: 1913-09-27 ~ 1913-10-01
 coords: -103.43, 25.53
 links: 3
 
 @ battle-of-tierra-blanca
 wikipedia: Battle of Tierra Blanca
 when: 1913
+days: 1913-11-23 ~ 1913-11-25
 coords: -96.35, 18.46
 links: 5
 
@@ -39,35 +44,41 @@ links: 1
 @ second-battle-of-torreon
 wikipedia: Second Battle of Torreón
 when: 1914
+days: 1914-03-21 ~ 1914-04-02
 coords: -103.43, 25.53
 links: 5
 
 @ battle-of-columbus-1916
 wikipedia: Battle of Columbus (1916)
 when: 1916
+days: 1916-03-09
 coords: -107, 31.83
 links: 11
 
 @ battle-of-guerrero
 wikipedia: Battle of Guerrero
 when: 1916
+days: 1916-03-29
 coords: -107.49, 28.55
 links: 3
 
 @ third-battle-of-torreon
 wikipedia: Third Battle of Torreón
 when: 1916
+days: 1916-12-21 ~ 1916-12-23
 coords: -103.43, 25.53
 links: 2
 
 @ battle-of-ambos-nogales
 wikipedia: Battle of Ambos Nogales
 when: 1918
+days: 1918-08-27
 coords: -110.94, 31.33
 links: 2
 
 @ battle-of-ciudad-juarez-1919
 wikipedia: Battle of Ciudad Juárez (1919)
 when: 1919
+days: 1919-06-15 ~ 1919-06-16
 coords: -106.46, 31.73
 links: 3

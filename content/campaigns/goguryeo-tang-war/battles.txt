@@ -3,5 +3,6 @@
 @ battle-of-ansi
 wikipedia: Battle of Ansi
 when: 645
+days: 0645-06-20 ~ 0645-09-18
 coords: 122.78, 40.78
 links: 9

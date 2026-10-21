@@ -9,53 +9,62 @@ links: 8
 @ battle-of-cienfuegos
 wikipedia: Battle of Cienfuegos
 when: 1898-05
+days: 1898-05-11
 coords: -80.44, 22.15
 links: 5
 
 @ battle-of-manila-bay
 wikipedia: Battle of Manila Bay
 when: 1898-05
+days: 1898-05-01
 coords: 120.93, 14.49
 links: 24
 
 @ battle-of-guantanamo-bay
 wikipedia: Battle of Guantánamo Bay
 when: 1898-06
+days: 1898-06-06 ~ 1898-06-10
 coords: -75.11, 20.02
 links: 5
 
 @ first-battle-of-manzanillo
 wikipedia: First Battle of Manzanillo
 when: 1898-06
+days: 1898-06-30
 coords: -77.12, 20.34
 links: 3
 
 @ battle-of-el-caney
 wikipedia: Battle of El Caney
 when: 1898-07
+days: 1898-07-01
 coords: -75.77, 20.06
 links: 8
 
 @ battle-of-san-juan-hill
 wikipedia: Battle of San Juan Hill
 when: 1898-07
+days: 1898-07-01
 coords: -75.8, 20.02
 links: 10
 
 @ siege-of-santiago
 wikipedia: Siege of Santiago
 when: 1898-07
+days: 1898-07-03 ~ 1898-07-17
 coords: -75.82, 20.03
 links: 7
 
 @ battle-of-santiago-de-cuba
 wikipedia: Battle of Santiago de Cuba
 when: 1898-07
+days: 1898-07-03
 coords: -75.87, 19.96
 links: 15
 
 @ battle-of-manila-1898
 wikipedia: Battle of Manila (1898)
 when: 1898-08
+days: 1898-08-13
 coords: 121, 14.58
 links: 8

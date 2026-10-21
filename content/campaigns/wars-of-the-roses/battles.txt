@@ -3,18 +3,21 @@
 @ first-battle-of-st-albans
 wikipedia: First Battle of St Albans
 when: 1455
+days: 1455-05-22
 coords: 0.34, 51.75
 links: 28
 
 @ rout-of-ludford-bridge
 wikipedia: Rout of Ludford Bridge
 when: 1459
+days: 1459-10-12
 coords: -2.72, 52.36
 links: 19
 
 @ battle-of-blore-heath
 wikipedia: Battle of Blore Heath
 when: 1459
+days: 1459-09-23
 coords: -2.42, 52.91
 links: 23
 
@@ -27,95 +30,111 @@ links: 10
 @ battle-of-northampton-1460
 wikipedia: Battle of Northampton (1460)
 when: 1460
+days: 1460-07-10
 coords: -0.88, 52.22
 links: 22
 
 @ battle-of-wakefield
 wikipedia: Battle of Wakefield
 when: 1460
+days: 1460-12-30
 coords: -1.49, 53.68
 links: 26
 
 @ battle-of-worksop
 wikipedia: Battle of Worksop
 when: 1460
+days: 1460-12-16
 coords: -1.12, 53.31
 links: 4
 
 @ battle-of-mortimer-s-cross
 wikipedia: Battle of Mortimer's Cross
 when: 1461
+days: 1461-02-02
 coords: -2.87, 52.32
 links: 22
 
 @ second-battle-of-st-albans
 wikipedia: Second Battle of St Albans
 when: 1461
+days: 1461-02-17
 coords: -0.34, 51.76
 links: 22
 
 @ battle-of-towton
 wikipedia: Battle of Towton
 when: 1461
+days: 1461-03-29
 coords: -1.27, 53.84
 links: 30
 
 @ battle-of-ferrybridge
 wikipedia: Battle of Ferrybridge
 when: 1461
+days: 1461-03-28
 coords: -1.27, 53.71
 links: 15
 
 @ battle-of-hedgeley-moor
 wikipedia: Battle of Hedgeley Moor
 when: 1464
+days: 1464-04-25
 coords: -1.92, 55.47
 links: 17
 
 @ battle-of-hexham
 wikipedia: Battle of Hexham
 when: 1464
+days: 1464-05-15
 coords: -2.1, 54.97
 links: 18
 
 @ battle-of-nibley-green
 wikipedia: Battle of Nibley Green
 when: 1469
+days: 1469-03-20
 coords: -2.4, 51.66
 links: 5
 
 @ battle-of-edgcote
 wikipedia: Battle of Edgcote
 when: 1469
+days: 1469-07-26
 coords: -1.25, 52.11
 links: 18
 
 @ battle-of-losecoat-field
 wikipedia: Battle of Losecoat Field
 when: 1470
+days: 1470-03-12
 coords: -0.54, 52.69
 links: 15
 
 @ battle-of-barnet
 wikipedia: Battle of Barnet
 when: 1471
+days: 1471-04-14
 coords: -0.2, 51.67
 links: 28
 
 @ battle-of-tewkesbury
 wikipedia: Battle of Tewkesbury
 when: 1471
+days: 1471-05-04
 coords: -2.16, 51.99
 links: 29
 
 @ battle-of-bosworth-field
 wikipedia: Battle of Bosworth Field
 when: 1485
+days: 1485-08-22
 coords: -1.41, 52.59
 links: 46
 
 @ battle-of-stoke-field
 wikipedia: Battle of Stoke Field
 when: 1487
+days: 1487-06-16
 coords: -0.89, 53.04
 links: 20

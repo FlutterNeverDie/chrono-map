@@ -5,6 +5,7 @@
   "scripts": {
     "content": "tsx scripts/build-content.ts",
     "wiki": "tsx scripts/fetch-wikipedia.ts",
+    "photos": "tsx scripts/fetch-photos.ts",
     "lands": "tsx scripts/build-lands.ts",
     "draft": "tsx scripts/draft-events.ts",
     "borders": "node scripts/build-borders.mjs",
@@ -23,15 +24,20 @@
     "postbuild": "node scripts/prune-out.mjs",
     "audit": "tsx scripts/audit-events.ts",
     "wars:months": "tsx scripts/campaigns/months.ts",
-    "threads": "tsx scripts/threads/today.ts"
+    "wars:days": "tsx scripts/campaigns/days.ts",
+    "threads": "tsx scripts/threads/today.ts",
+    "map:compare": "node --experimental-websocket scripts/dev/map-compare.mjs",
+    "map:perf": "node --experimental-websocket scripts/dev/map-perf.mjs"
   },
   "dependencies": {
     "@radix-ui/react-slider": "^1.6.0",
+    "@tanstack/react-virtual": "^3.14.21",
     "clsx": "^2.1.1",
     "d3-geo": "^3.1.1",
     "d3-scale": "^4.0.2",
     "d3-selection": "^3.0.0",
     "d3-zoom": "^3.0.0",
+    "earcut": "^3.2.4",
     "motion": "^14.1.0",
     "next": "16.4.0",
     "react": "19.3.0",
@@ -57,6 +63,7 @@
     "mapshaper": "^0.7.83",
     "prettier": "^3.9.10",
     "prettier-plugin-tailwindcss": "^0.8.1",
+    "sharp": "^0.35.5",
     "tailwindcss": "^4",
     "topojson-server": "^3.0.1",
     "tsx": "^4.23.15",

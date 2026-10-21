@@ -9,120 +9,140 @@ links: 7
 @ battle-of-kirk-kilisse
 wikipedia: Battle of Kirk Kilisse
 when: 1912-10
+days: 1912-10-24
 coords: 27.23, 41.73
 links: 14
 
 @ battle-of-lule-burgas
 wikipedia: Battle of Lule Burgas
 when: 1912-10 ~ 1912-11
+days: 1912-10-28 ~ 1912-11-02
 coords: 27.36, 41.41
 links: 15
 
 @ battle-of-kumanovo
 wikipedia: Battle of Kumanovo
 when: 1912-10
+days: 1912-10-23 ~ 1912-10-24
 coords: 21.72, 42.14
 links: 21
 
 @ battle-of-sarantaporo
 wikipedia: Battle of Sarantaporo
 when: 1912-10
+days: 1912-10-09 ~ 1912-10-10
 coords: 22.05, 40.07
 links: 13
 
 @ battle-of-kardzhali
 wikipedia: Battle of Kardzhali
 when: 1912-10
+days: 1912-10-21
 coords: 25.37, 41.65
 links: 11
 
 @ siege-of-scutari-1912-1913
 wikipedia: Siege of Scutari (1912–1913)
 when: 1912-10 ~ 1913-04
+days: 1912-10-28 ~ 1913-04-23
 coords: 19.5, 42.07
 links: 18
 
 @ battle-of-yenidje
 wikipedia: Battle of Yenidje
 when: 1912-11
+days: 1912-11-02
 coords: 22.38, 40.79
 links: 13
 
 @ first-battle-of-catalca
 wikipedia: First Battle of Çatalca
 when: 1912-11
+days: 1912-11-17 ~ 1912-11-18
 coords: 28.46, 41.14
 links: 14
 
 @ siege-of-adrianople-1912-1913
 wikipedia: Siege of Adrianople (1912–1913)
 when: 1912-11 ~ 1913-03
+days: 1912-11-03 ~ 1913-03-26
 coords: 26.56, 41.67
 links: 18
 
 @ battle-of-monastir
 wikipedia: Battle of Monastir
 when: 1912-11
+days: 1912-11-16 ~ 1912-11-19
 coords: 21.34, 41.03
 links: 17
 
 @ battle-of-prilep
 wikipedia: Battle of Prilep
 when: 1912-11
+days: 1912-11-03 ~ 1912-11-05
 coords: 21.55, 41.34
 links: 13
 
 @ battle-of-sorovich
 wikipedia: Battle of Sorovich
 when: 1912-11
+days: 1912-11-02 ~ 1912-11-06
 coords: 21.65, 40.68
 links: 10
 
 @ battle-of-driskos
 wikipedia: Battle of Driskos
 when: 1912-11
+days: 1912-11-26 ~ 1912-11-28
 coords: 20.96, 39.66
 links: 6
 
 @ battle-of-merhamli
 wikipedia: Battle of Merhamli
 when: 1912-11
+days: 1912-11-27
 coords: 26.27, 40.95
 links: 7
 
 @ battle-of-chios-1912
 wikipedia: Battle of Chios (1912)
 when: 1912-11 ~ 1913-01
+days: 1912-11-24 ~ 1913-01-03
 coords: 26.07, 38.38
 links: 4
 
 @ battle-of-lesbos-1912
 wikipedia: Battle of Lesbos (1912)
 when: 1912-11 ~ 1912-12
+days: 1912-11-21 ~ 1912-12-21
 coords: 26.28, 39.21
 links: 3
 
 @ battle-of-kaliakra-1912
 wikipedia: Battle of Kaliakra (1912)
 when: 1912-11
+days: 1912-11-21
 coords: 28.48, 43.32
 links: 11
 
 @ battle-of-elli
 wikipedia: Battle of Elli
 when: 1912-12
+days: 1912-12-16
 coords: 26.4, 40.2
 links: 13
 
 @ capture-of-korytsa
 wikipedia: Capture of Korytsa
 when: 1912-12
+days: 1912-12-20
 coords: 20.78, 40.61
 links: 8
 
 @ battle-of-lume
 wikipedia: Battle of Lumë
 when: 1912-12
+days: 1912-12-06
 coords: 20.45, 42.07
 links: 7
 
@@ -147,41 +167,48 @@ links: 8
 @ battle-of-kilkis-lachanas
 wikipedia: Battle of Kilkis–Lachanas
 when: 1913-06
+days: 1913-06-21
 coords: 22.88, 40.99
 links: 10
 
 @ battle-of-doiran-1913
 wikipedia: Battle of Doiran (1913)
 when: 1913-06
+days: 1913-06-22 ~ 1913-06-23
 coords: 22.72, 41.18
 links: 9
 
 @ battle-of-kresna-gorge
 wikipedia: Battle of Kresna Gorge
 when: 1913-07
+days: 1913-07-21 ~ 1913-07-31
 coords: 23.16, 41.8
 links: 11
 
 @ battle-of-kalimanci
 wikipedia: Battle of Kalimanci
 when: 1913-07
+days: 1913-07-19
 coords: 22.61, 41.97
 links: 8
 
 @ battle-for-knjazevac
 wikipedia: Battle for Knjaževac
 when: 1913-07
+days: 1913-07-04 ~ 1913-07-07
 coords: 22.25, 43.57
 links: 5
 
 @ siege-of-adrianople-1913
 wikipedia: Siege of Adrianople (1913)
 when: 1913-07
+days: 1913-07-22 ~ 1913-07-23
 coords: 26.56, 41.68
 links: 6
 
 @ siege-of-vidin-1913
 wikipedia: Siege of Vidin (1913)
 when: 1913-07
+days: 1913-07-12 ~ 1913-07-18
 coords: 22.88, 43.99
 links: 9

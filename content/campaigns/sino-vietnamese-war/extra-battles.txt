@@ -3,6 +3,7 @@
 @ battle-of-dong-dang-1979
 wikipedia: Battle of Đồng Đăng (1979)
 when: 1979-02
+days: 1979-02-23
 coords: 106.7, 21.95
 links: 2
 
@@ -21,6 +22,7 @@ links: 3
 @ battle-of-lao-cai
 wikipedia: Battle of Lào Cai
 when: 1979-02 ~ 1979-03
+days: 1979-02-17 ~ 1979-03-05
 coords: 103.97, 22.49
 links: 3
 

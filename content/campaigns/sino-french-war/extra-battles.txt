@@ -9,18 +9,21 @@ links: 8
 @ kep-campaign
 wikipedia: Kép campaign
 when: 1884-10
+days: 1884-10-02 ~ 1884-10-15
 coords: 106.27, 21.4
 links: 4
 
 @ battle-of-dong-dang-1885
 wikipedia: Battle of Đồng Đăng (1885)
 when: 1885-02
+days: 1885-02-23
 coords: 106.7, 21.95
 links: 7
 
 @ battle-of-phu-lam-tao
 wikipedia: Battle of Phu Lam Tao
 when: 1885-03
+days: 1885-03-23
 coords: 105.27, 21.27
 links: 4
 

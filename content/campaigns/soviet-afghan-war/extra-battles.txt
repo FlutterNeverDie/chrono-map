@@ -3,6 +3,7 @@
 @ badaber-uprising
 wikipedia: Badaber uprising
 when: 1985-04
+days: 1985-04-26 ~ 1985-04-27
 coords: 71.57, 33.96
 links: 11
 
@@ -15,6 +16,7 @@ links: 2
 @ second-battle-of-zhawar
 wikipedia: Second Battle of Zhawar
 when: 1986-02 ~ 1986-04
+days: 1986-02-28 ~ 1986-04-19
 coords: 69.9, 33.14
 links: 2
 
@@ -27,5 +29,6 @@ links: 7
 @ battle-of-arghandab-1987
 wikipedia: Battle of Arghandab (1987)
 when: 1987-05 ~ 1987-06
+days: 1987-05-22
 coords: 65.6, 31.65
 links: 6

@@ -17,6 +17,10 @@ export function localizeTopic(t: Topic, locale: Locale): Topic {
     title: keepLocales(t.title, locale),
     description: keepLocales(t.description, locale),
     linkLabel: t.linkLabel && keepLocales(t.linkLabel, locale),
+    points: t.points && {
+      ...t.points,
+      label: keepLocales(t.points.label, locale),
+    },
     items: t.items.map((i) => ({
       ...i,
       wiki: keepLocales(i.wiki, locale, ["en"]),

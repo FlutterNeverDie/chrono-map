@@ -3,48 +3,56 @@
 @ battle-of-wake-island
 wikipedia: Battle of Wake Island
 when: 1941-12
+days: 1941-12-08 ~ 1941-12-23
 coords: 166.6, 19.29
 links: 28
 
 @ battle-of-hong-kong
 wikipedia: Battle of Hong Kong
 when: 1941-12
+days: 1941-12-08 ~ 1941-12-25
 coords: 114.16, 22.28
 links: 30
 
 @ sinking-of-prince-of-wales-and-repulse
 wikipedia: Sinking of Prince of Wales and Repulse
 when: 1941-12
+days: 1941-12-10
 coords: 104.48, 3.56
 links: 25
 
 @ philippines-campaign-1941-1942
 wikipedia: Philippines campaign (1941–1942)
 when: 1941-12 ~ 1942-05
+days: 1941-12-08 ~ 1942-05-08
 coords: 121, 15
 links: 36
 
 @ south-east-asian-theatre-of-world-war-ii
 wikipedia: South-East Asian theatre of World War II
 when: 1941-12 ~ 1945-09
+days: 1941-12-08 ~ 1945-09-09
 coords: 110, 10
 links: 24
 
 @ battle-of-balikpapan-1942
 wikipedia: Battle of Balikpapan (1942)
 when: 1942-01
+days: 1942-01-23 ~ 1942-01-24
 coords: 116.82, -1.25
 links: 16
 
 @ battle-of-rabaul-1942
 wikipedia: Battle of Rabaul (1942)
 when: 1942-01 ~ 1942-02
+days: 1942-01-23
 coords: 152.17, -4.2
 links: 19
 
 @ battle-of-changsha-1941-1942
 wikipedia: Battle of Changsha (1941–1942)
 when: 1942-01
+days: 1942-01-15
 coords: 112.97, 28.2
 links: 17
 
@@ -57,114 +65,133 @@ links: 19
 @ battle-of-savo-island
 wikipedia: Battle of Savo Island
 when: 1942-08
+days: 1942-08-08 ~ 1942-08-09
 coords: 159.82, -9.13
 links: 29
 
 @ battle-of-bataan
 wikipedia: Battle of Bataan
 when: 1942-01 ~ 1942-04
+days: 1942-01-07 ~ 1942-04-09
 coords: 120.42, 14.67
 links: 20
 
 @ fall-of-singapore
 wikipedia: Fall of Singapore
 when: 1942-02
+days: 1942-02-08 ~ 1942-02-15
 coords: 103.77, 1.35
 links: 45
 
 @ bombing-of-darwin
 wikipedia: Bombing of Darwin
 when: 1942-02
+days: 1942-02-19
 coords: 130.85, -12.47
 links: 26
 
 @ battle-of-timor
 wikipedia: Battle of Timor
 when: 1942-02 ~ 1943-02
+days: 1942-02-19 ~ 1943-02-10
 coords: 123.63, -10.38
 links: 20
 
 @ marshalls-gilberts-raids
 wikipedia: Marshalls–Gilberts raids
 when: 1942-02
+days: 1942-02-01
 coords: 170, 10
 links: 16
 
 @ battle-of-the-java-sea
 wikipedia: Battle of the Java Sea
 when: 1942-02
+days: 1942-02-27
 coords: 111, -5
 links: 31
 
 @ battle-of-badung-strait
 wikipedia: Battle of Badung Strait
 when: 1942-02
+days: 1942-02-18 ~ 1942-02-20
 coords: 115.39, -8.63
 links: 16
 
 @ battle-of-christmas-island
 wikipedia: Battle of Christmas Island
 when: 1942-03 ~ 1942-04
+days: 1942-03-31 ~ 1942-04-01
 coords: 105.63, -10.49
 links: 19
 
 @ battle-of-milne-bay
 wikipedia: Battle of Milne Bay
 when: 1942-08 ~ 1942-09
+days: 1942-08-25 ~ 1942-09-07
 coords: 150.48, -10.32
 links: 19
 
 @ battle-of-the-eastern-solomons
 wikipedia: Battle of the Eastern Solomons
 when: 1942-08
+days: 1942-08-24 ~ 1942-08-25
 coords: 162.73, -8.39
 links: 26
 
 @ battle-of-the-tenaru
 wikipedia: Battle of the Tenaru
 when: 1942-08
+days: 1942-08-21
 coords: 160.07, -9.42
 links: 23
 
 @ battle-of-tulagi-and-gavutu-tanambogo
 wikipedia: Battle of Tulagi and Gavutu–Tanambogo
 when: 1942-08
+days: 1942-08-07 ~ 1942-08-09
 coords: 160.15, -9.11
 links: 18
 
 @ guadalcanal-campaign
 wikipedia: Guadalcanal campaign
 when: 1942-08 ~ 1943-02
+days: 1942-08-07 ~ 1943-02-09
 coords: 160, -9.42
 links: 46
 
 @ battle-of-edson-s-ridge
 wikipedia: Battle of Edson's Ridge
 when: 1942-09
+days: 1942-09-12 ~ 1942-09-14
 coords: 160.05, -9.45
 links: 19
 
 @ battle-for-henderson-field
 wikipedia: Battle for Henderson Field
 when: 1942-10
+days: 1942-10-23 ~ 1942-10-26
 coords: 160.05, -9.43
 links: 17
 
 @ battle-of-the-santa-cruz-islands
 wikipedia: Battle of the Santa Cruz Islands
 when: 1942-10
+days: 1942-10-25 ~ 1942-10-27
 coords: 166.72, -8.63
 links: 27
 
 @ battle-of-cape-esperance
 wikipedia: Battle of Cape Esperance
 when: 1942-10
+days: 1942-10-11 ~ 1942-10-12
 coords: 159.65, -9.1
 links: 24
 
 @ battle-of-buna-gona
 wikipedia: Battle of Buna–Gona
 when: 1942-11 ~ 1943-01
+days: 1942-11-16 ~ 1943-01-22
 coords: 148.35, -8.65
 links: 16
 
@@ -177,84 +204,98 @@ links: 22
 @ naval-battle-of-guadalcanal
 wikipedia: Naval Battle of Guadalcanal
 when: 1942-11
+days: 1942-11-13 ~ 1942-11-15
 coords: 159.9, -9.19
 links: 28
 
 @ battle-of-tassafaronga
 wikipedia: Battle of Tassafaronga
 when: 1942-11
+days: 1942-11-30
 coords: 159.83, -9.2
 links: 24
 
 @ operation-ke
 wikipedia: Operation Ke
 when: 1943-01 ~ 1943-02
+days: 1943-01-14 ~ 1943-02-07
 coords: 159.7, -9.25
 links: 20
 
 @ battle-of-rennell-island
 wikipedia: Battle of Rennell Island
 when: 1943-01
+days: 1943-01-29 ~ 1943-01-30
 coords: 160.93, -11.42
 links: 23
 
 @ battle-of-the-bismarck-sea
 wikipedia: Battle of the Bismarck Sea
 when: 1943-03
+days: 1943-03-02 ~ 1943-03-04
 coords: 148.25, -7.25
 links: 29
 
 @ operation-cartwheel
 wikipedia: Operation Cartwheel
 when: 1943-06 ~ 1944-03
+days: 1943-06-30 ~ 1944-03-20
 coords: 152.17, -4.2
 links: 17
 
 @ battle-of-kula-gulf
 wikipedia: Battle of Kula Gulf
 when: 1943-07
+days: 1943-07-06
 coords: 157.07, -7.97
 links: 19
 
 @ battle-of-vella-gulf
 wikipedia: Battle of Vella Gulf
 when: 1943-08
+days: 1943-08-06 ~ 1943-08-07
 coords: 156.82, -7.9
 links: 17
 
 @ battle-off-horaniu
 wikipedia: Battle off Horaniu
 when: 1943-08
+days: 1943-08-17 ~ 1943-08-18
 coords: 156.72, -7.7
 links: 16
 
 @ battle-of-vella-lavella-naval
 wikipedia: Battle of Vella Lavella (naval)
 when: 1943-10
+days: 1943-10-06
 coords: 156.23, -7.5
 links: 17
 
 @ battle-of-tarawa
 wikipedia: Battle of Tarawa
 when: 1943-11
+days: 1943-11-20 ~ 1943-11-23
 coords: 172.98, 1.43
 links: 36
 
 @ battle-of-changde
 wikipedia: Battle of Changde
 when: 1943-11 ~ 1943-12
+days: 1943-11-02 ~ 1943-12-20
 coords: 111.68, 29.03
 links: 18
 
 @ battle-of-makin
 wikipedia: Battle of Makin
 when: 1943-11
+days: 1943-11-21 ~ 1943-11-23
 coords: 172.79, 3.07
 links: 17
 
 @ bougainville-campaign
 wikipedia: Bougainville campaign
 when: 1943-11 ~ 1945-08
+days: 1943-11-01 ~ 1945-08-21
 coords: 155.1, -6.02
 links: 20
 
@@ -267,120 +308,140 @@ links: 28
 @ battle-of-kwajalein
 wikipedia: Battle of Kwajalein
 when: 1944-01 ~ 1944-02
+days: 1944-01-31 ~ 1944-02-03
 coords: 167.73, 8.72
 links: 18
 
 @ battle-of-eniwetok
 wikipedia: Battle of Eniwetok
 when: 1944-02
+days: 1944-02-17 ~ 1944-02-23
 coords: 162.19, 11.47
 links: 21
 
 @ operation-hailstone
 wikipedia: Operation Hailstone
 when: 1944-02
+days: 1944-02-17
 coords: 151.88, 7.34
 links: 20
 
 @ battle-of-saipan
 wikipedia: Battle of Saipan
 when: 1944-06 ~ 1944-07
+days: 1944-06-15 ~ 1944-07-09
 coords: 145.75, 15.18
 links: 33
 
 @ battle-of-the-philippine-sea
 wikipedia: Battle of the Philippine Sea
 when: 1944-06
+days: 1944-06-19 ~ 1944-06-20
 coords: 130, 20
 links: 40
 
 @ battle-of-tinian
 wikipedia: Battle of Tinian
 when: 1944-07 ~ 1944-08
+days: 1944-07-24 ~ 1944-08-01
 coords: 145.63, 15
 links: 27
 
 @ battle-of-guam-1944
 wikipedia: Battle of Guam (1944)
 when: 1944-08
+days: 1944-08-10
 coords: 144.66, 13.4
 links: 31
 
 @ battle-of-peleliu
 wikipedia: Battle of Peleliu
 when: 1944-09 ~ 1944-11
+days: 1944-09-15 ~ 1944-11-25
 coords: 134.25, 7.02
 links: 36
 
 @ battle-of-angaur
 wikipedia: Battle of Angaur
 when: 1944-09 ~ 1944-10
+days: 1944-09-15 ~ 1944-10-22
 coords: 134.13, 6.9
 links: 25
 
 @ battle-of-leyte
 wikipedia: Battle of Leyte
 when: 1944-10 ~ 1944-12
+days: 1944-10-17 ~ 1944-12-26
 coords: 125.01, 11.17
 links: 26
 
 @ battle-of-leyte-gulf
 wikipedia: Battle of Leyte Gulf
 when: 1944-10
+days: 1944-10-23 ~ 1944-10-26
 coords: 125.36, 10.37
 links: 46
 
 @ battle-of-ormoc-bay
 wikipedia: Battle of Ormoc Bay
 when: 1944-11 ~ 1944-12
+days: 1944-11-11 ~ 1944-12-21
 coords: 124.58, 10.98
 links: 15
 
 @ bombing-of-singapore-1944-1945
 wikipedia: Bombing of Singapore (1944–1945)
 when: 1944-11 ~ 1945-05
+days: 1944-11-05 ~ 1945-05-24
 coords: 103.8, 1.37
 links: 21
 
 @ battle-of-luzon
 wikipedia: Battle of Luzon
 when: 1945-01 ~ 1945-08
+days: 1945-01-09 ~ 1945-08-15
 coords: 121, 16
 links: 22
 
 @ raid-at-cabanatuan
 wikipedia: Raid at Cabanatuan
 when: 1945-01
+days: 1945-01-30
 coords: 121.04, 15.51
 links: 16
 
 @ battle-of-iwo-jima
 wikipedia: Battle of Iwo Jima
 when: 1945-02 ~ 1945-03
+days: 1945-02-08 ~ 1945-03-26
 coords: 141.32, 24.78
 links: 65
 
 @ battle-of-manila-1945
 wikipedia: Battle of Manila (1945)
 when: 1945-02 ~ 1945-03
+days: 1945-02-03 ~ 1945-03-03
 coords: 120.97, 14.58
 links: 30
 
 @ battle-of-mindanao
 wikipedia: Battle of Mindanao
 when: 1945-03 ~ 1945-08
+days: 1945-03-10 ~ 1945-08-15
 coords: 125, 8
 links: 15
 
 @ battle-of-okinawa
 wikipedia: Battle of Okinawa
 when: 1945-04 ~ 1945-06
+days: 1945-04-01 ~ 1945-06-23
 coords: 128, 26.5
 links: 58
 
 @ operation-kikusui-i
 wikipedia: Operation Kikusui I
 when: 1945-04
+days: 1945-04-07
 coords: 128.07, 30.37
 links: 38
 

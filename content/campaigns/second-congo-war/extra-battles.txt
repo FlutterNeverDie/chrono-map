@@ -3,24 +3,28 @@
 @ operation-kitona
 wikipedia: Operation Kitona
 when: 1998-08
+days: 1998-08-04 ~ 1998-08-30
 coords: 12.45, -5.92
 links: 6
 
 @ six-day-war-2000
 wikipedia: Six-Day War (2000)
 when: 2000-06
+days: 2000-06-05 ~ 2000-06-10
 coords: 25.19, 0.52
 links: 10
 
 @ 2001-bunia-clashes-and-massacre
 wikipedia: 2001 Bunia clashes and massacre
 when: 2001-01
+days: 2001-01-19
 coords: 30.25, 1.56
 links: 2
 
 @ kisangani-massacre
 wikipedia: Kisangani massacre
 when: 2002-05
+days: 2002-05-13 ~ 2002-05-15
 coords: 25.21, 0.5
 links: 5
 
@@ -33,6 +37,7 @@ links: 7
 @ bogoro-massacre
 wikipedia: Bogoro massacre
 when: 2003-02
+days: 2003-02-24
 coords: 30.28, 1.41
 links: 6
 

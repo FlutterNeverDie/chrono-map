@@ -3,156 +3,182 @@
 @ siege-of-the-alcazar
 wikipedia: Siege of the Alcázar
 when: 1936-07 ~ 1936-09
+days: 1936-07-21 ~ 1936-09-27
 coords: -4.02, 39.86
 links: 21
 
 @ battle-of-guadarrama
 wikipedia: Battle of Guadarrama
 when: 1936-07 ~ 1936-09
+days: 1936-07-24
 coords: -3.59, 41.16
 links: 9
 
 @ siege-of-the-montana-barracks
 wikipedia: Siege of the Montaña Barracks
 when: 1936-07
+days: 1936-07-18 ~ 1936-07-20
 coords: -3.72, 40.42
 links: 9
 
 @ campaign-of-gipuzkoa
 wikipedia: Campaign of Gipuzkoa
 when: 1936-07 ~ 1936-09
+days: 1936-07-20 ~ 1936-09-26
 coords: -1.98, 43.32
 links: 11
 
 @ siege-of-the-loyola-barracks
 wikipedia: Siege of the Loyola barracks
 when: 1936-07
+days: 1936-07-21 ~ 1936-07-27
 coords: -1.97, 43.31
 links: 7
 
 @ siege-of-oviedo
 wikipedia: Siege of Oviedo
 when: 1936-07 ~ 1936-10
+days: 1936-07-19 ~ 1936-10-16
 coords: -5.84, 43.36
 links: 9
 
 @ siege-of-gijon
 wikipedia: Siege of Gijón
 when: 1936-07 ~ 1936-08
+days: 1936-07-19 ~ 1936-08-16
 coords: -5.7, 43.53
 links: 10
 
 @ battle-of-monte-pelado
 wikipedia: Battle of Monte Pelado
 when: 1936-08
+days: 1936-08-28
 coords: -1.81, 42.74
 links: 9
 
 @ battle-of-badajoz-1936
 wikipedia: Battle of Badajoz (1936)
 when: 1936-08
+days: 1936-08-12 ~ 1936-08-14
 coords: -6.97, 38.87
 links: 12
 
 @ battle-of-the-sierra-guadalupe
 wikipedia: Battle of the Sierra Guadalupe
 when: 1936-08 ~ 1936-09
+days: 1936-08-17 ~ 1936-09-03
 coords: -5.4, 39.48
 links: 8
 
 @ battle-of-irun
 wikipedia: Battle of Irún
 when: 1936-08 ~ 1936-09
+days: 1936-08-19 ~ 1936-09-05
 coords: -1.78, 43.33
 links: 10
 
 @ battle-of-mallorca
 wikipedia: Battle of Mallorca
 when: 1936-08
+days: 1936-08-16
 coords: 2.98, 39.62
 links: 13
 
 @ battle-of-merida
 wikipedia: Battle of Mérida
 when: 1936-08
+days: 1936-08-10
 coords: -6.33, 38.9
 links: 12
 
 @ battle-of-siguenza
 wikipedia: Battle of Sigüenza
 when: 1936-08
+days: 1936-08-07
 coords: -2.64, 41.07
 links: 7
 
 @ battle-of-almendralejo
 wikipedia: Battle of Almendralejo
 when: 1936-08
+days: 1936-08-07 ~ 1936-08-15
 coords: -6.41, 38.68
 links: 7
 
 @ convoy-de-la-victoria
 wikipedia: Convoy de la Victoria
 when: 1936-08
+days: 1936-08-05
 coords: -5.4, 36.08
 links: 5
 
 @ cordoba-offensive
 wikipedia: Córdoba offensive
 when: 1936-08
+days: 1936-08-19 ~ 1936-08-22
 coords: -4.78, 37.88
 links: 8
 
 @ battle-of-talavera-de-la-reina-1936
 wikipedia: Battle of Talavera de la Reina (1936)
 when: 1936-09
+days: 1936-09-03
 coords: -4.83, 39.96
 links: 11
 
 @ battle-of-cerro-muriano
 wikipedia: Battle of Cerro Muriano
 when: 1936-09
+days: 1936-09-05 ~ 1936-09-06
 coords: -4.77, 38
 links: 4
 
 @ siege-of-santuario-de-nuestra-senora-de-la-cabeza
 wikipedia: Siege of Santuario de Nuestra Señora de la Cabeza
 when: 1936-09 ~ 1937-05
+days: 1936-09-14 ~ 1937-05-01
 coords: -4.06, 38.31
 links: 7
 
 @ battle-of-cape-spartel-1936
 wikipedia: Battle of Cape Spartel (1936)
 when: 1936-09
+days: 1936-09-29
 coords: -4.64, 36.25
 links: 7
 
 @ battle-of-sesena
 wikipedia: Battle of Seseña
 when: 1936-10
+days: 1936-10-29
 coords: -3.7, 40.1
 links: 9
 
 @ siege-of-madrid
 wikipedia: Siege of Madrid
 when: 1936-11
+days: 1936-11-08 ~ 1936-11-23
 coords: -3.69, 40.42
 links: 26
 
 @ battle-of-ciudad-universitaria
 wikipedia: Battle of Ciudad Universitaria
 when: 1936-11
+days: 1936-11-15
 coords: -3.73, 40.44
 links: 6
 
 @ battle-of-lopera
 wikipedia: Battle of Lopera
 when: 1936-12
+days: 1936-12-27 ~ 1936-12-29
 coords: -4.21, 37.95
 links: 10
 
 @ second-battle-of-the-corunna-road
 wikipedia: Second Battle of the Corunna Road
 when: 1936-12 ~ 1937-01
+days: 1936-12-13 ~ 1937-01-15
 coords: -3.89, 40.41
 links: 7
 
@@ -165,132 +191,154 @@ links: 8
 @ battle-of-jarama
 wikipedia: Battle of Jarama
 when: 1937-02
+days: 1937-02-06 ~ 1937-02-27
 coords: -3.5, 40.22
 links: 18
 
 @ battle-of-malaga-1937
 wikipedia: Battle of Málaga (1937)
 when: 1937-02
+days: 1937-02-03
 coords: -4.42, 36.72
 links: 14
 
 @ battle-of-guadalajara
 wikipedia: Battle of Guadalajara
 when: 1937-03
+days: 1937-03-08 ~ 1937-03-23
 coords: -3.17, 40.63
 links: 21
 
 @ battle-of-pozoblanco
 wikipedia: Battle of Pozoblanco
 when: 1937-03 ~ 1937-04
+days: 1937-03-06 ~ 1937-04-16
 coords: -4.85, 38.38
 links: 9
 
 @ biscay-campaign
 wikipedia: Biscay Campaign
 when: 1937-03 ~ 1937-07
+days: 1937-03-31 ~ 1937-07-01
 coords: -2.92, 43.25
 links: 9
 
 @ battle-of-cape-machichaco
 wikipedia: Battle of Cape Machichaco
 when: 1937-03
+days: 1937-03-05
 coords: -2.74, 43.87
 links: 7
 
 @ may-days
 wikipedia: May Days
 when: 1937-05
+days: 1937-05-03 ~ 1937-05-08
 coords: 2.17, 41.4
 links: 20
 
 @ battle-of-bilbao
 wikipedia: Battle of Bilbao
 when: 1937-06
+days: 1937-06-13 ~ 1937-06-19
 coords: -2.92, 43.25
 links: 11
 
 @ battle-of-brunete
 wikipedia: Battle of Brunete
 when: 1937-07
+days: 1937-07-06 ~ 1937-07-25
 coords: -3.98, 40.4
 links: 17
 
 @ battle-of-albarracin
 wikipedia: Battle of Albarracín
 when: 1937-07 ~ 1937-08
+days: 1937-07-05 ~ 1937-08-11
 coords: -1.44, 40.41
 links: 7
 
 @ battle-of-belchite-1937
 wikipedia: Battle of Belchite (1937)
 when: 1937-08 ~ 1937-09
+days: 1937-08-24 ~ 1937-09-07
 coords: -0.75, 41.3
 links: 18
 
 @ battle-of-santander
 wikipedia: Battle of Santander
 when: 1937-08
+days: 1937-08-14
 coords: -3.8, 43.45
 links: 12
 
 @ battle-of-cape-cherchell
 wikipedia: Battle of Cape Cherchell
 when: 1937-09
+days: 1937-09-07
 coords: 2.2, 36.91
 links: 10
 
 @ battle-of-el-mazucu
 wikipedia: Battle of El Mazucu
 when: 1937-09
+days: 1937-09-06
 coords: -4.85, 43.38
 links: 10
 
 @ battle-of-sabinanigo
 wikipedia: Battle of Sabiñánigo
 when: 1937-09 ~ 1937-11
+days: 1937-09-22 ~ 1937-11-08
 coords: -0.15, 42.63
 links: 4
 
 @ battle-of-teruel
 wikipedia: Battle of Teruel
 when: 1937-12 ~ 1938-02
+days: 1937-12-15 ~ 1938-02-22
 coords: -1.1, 40.35
 links: 22
 
 @ battle-of-alfambra
 wikipedia: Battle of Alfambra
 when: 1938-02
+days: 1938-02-05 ~ 1938-02-07
 coords: -1.12, 40.35
 links: 8
 
 @ battle-of-caspe
 wikipedia: Battle of Caspe
 when: 1938-03
+days: 1938-03-16 ~ 1938-03-17
 coords: -0.04, 41.24
 links: 8
 
 @ battle-of-lleida-1938
 wikipedia: Battle of Lleida (1938)
 when: 1938-03 ~ 1938-04
+days: 1938-03-27 ~ 1938-04-03
 coords: 0.63, 41.62
 links: 7
 
 @ battle-of-cape-palos-1938
 wikipedia: Battle of Cape Palos (1938)
 when: 1938-03
+days: 1938-03-05 ~ 1938-03-06
 coords: 0.87, 37.87
 links: 16
 
 @ battle-of-the-segre
 wikipedia: Battle of the Segre
 when: 1938-04 ~ 1939-01
+days: 1938-04-04 ~ 1939-01-03
 coords: 1, 41.62
 links: 9
 
 @ battle-of-gandesa
 wikipedia: Battle of Gandesa
 when: 1938-04
+days: 1938-04-01 ~ 1938-04-03
 coords: 0.43, 41.05
 links: 8
 
@@ -303,12 +351,14 @@ links: 6
 @ battle-of-the-ebro
 wikipedia: Battle of the Ebro
 when: 1938-07 ~ 1938-11
+days: 1938-07-25 ~ 1938-11-16
 coords: 0.48, 41.16
 links: 25
 
 @ siege-of-gandesa-1938
 wikipedia: Siege of Gandesa (1938)
 when: 1938-07 ~ 1938-11
+days: 1938-07-31
 coords: 0.43, 41.05
 links: 3
 

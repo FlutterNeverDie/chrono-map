@@ -3,12 +3,14 @@
 @ bombardment-of-san-juan
 wikipedia: Bombardment of San Juan
 when: 1898-05
+days: 1898-05-12 ~ 1898-05-18
 coords: -66.06, 18.41
 links: 4
 
 @ battle-of-las-guasimas
 wikipedia: Battle of Las Guásimas
 when: 1898-06
+days: 1898-06-24
 coords: -75.68, 20.0
 links: 6
 

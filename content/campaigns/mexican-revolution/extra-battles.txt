@@ -3,30 +3,35 @@
 @ first-battle-of-rellano
 wikipedia: First Battle of Rellano
 when: 1912
+days: 1912-03-24
 coords: -104.35, 26.75
 links: 4
 
 @ second-battle-of-rellano
 wikipedia: Second Battle of Rellano
 when: 1912
+days: 1912-05-22
 coords: -104.3, 26.7
 links: 4
 
 @ ten-tragic-days
 wikipedia: Ten Tragic Days
 when: 1913
+days: 1913-02-09
 coords: -99.13, 19.43
 links: 15
 
 @ battle-of-nogales-1913
 wikipedia: Battle of Nogales (1913)
 when: 1913
+days: 1913-03-23
 coords: -110.94, 31.31
 links: 3
 
 @ battle-of-ciudad-juarez-1913
 wikipedia: Battle of Ciudad Juárez (1913)
 when: 1913
+days: 1913-11-15
 coords: -106.42, 31.7
 links: 2
 
@@ -45,23 +50,27 @@ links: 18
 @ battle-of-zacatecas-1914
 wikipedia: Battle of Zacatecas (1914)
 when: 1914
+days: 1914-06-23
 coords: -102.58, 22.77
 links: 9
 
 @ battle-of-celaya
 wikipedia: Battle of Celaya
 when: 1915
+days: 1915-04-06 ~ 1915-04-15
 coords: -100.81, 20.52
 links: 5
 
 @ battle-of-parral
 wikipedia: Battle of Parral
 when: 1916
+days: 1916-04-12
 coords: -105.66, 26.93
 links: 3
 
 @ battle-of-carrizal
 wikipedia: Battle of Carrizal
 when: 1916
+days: 1916-06-21
 coords: -106.66, 30.57
 links: 6

@@ -6,6 +6,7 @@
 ```bash
 npm run wars:fetch -- <id>     # Wikidata에서 battles.txt 생성 + 위키백과 요약(8개 언어) 받기 (결과는 파일로 캐시)
 npm run wars:months -- <id>    # 월 단위 전쟁: Wikidata 날짜가 연까지만 있어 1월로 적힌 전투를 요약의 날짜로 바로잡기
+npm run wars:days -- <id>      # 전투마다 일 단위 날짜(days:)를 Wikidata에서 - --list로 battles.txt를 다시 만들면 다시 돌린다
 npm run wars:borders -- <id>   # public/campaigns/<id>/borders/<연도>.json (원본 Cliopatria, 먼저 npm run borders 필요)
 npm run wars:build             # src/data/generated/campaigns.json (dev/build 때 자동)
 ```
@@ -58,6 +59,9 @@ Kingdom of Italy = b 1943-10 ~
 @ battle-of-myeongnyang
 wikipedia: Battle of Myeongnyang
 when: 1597-10                     ← unit 형식. 기간이면 "1597-08 ~ 1597-10"
+days: 1597-10-25                  ← (선택) 일 단위 날짜, 기간이면 "1916-07-01 ~ 1916-11-17". wars:days가 넣는다
+                                    (Wikidata에 일까지 있고 when과 달·해가 맞을 때만, 1583년 이후 율리우스력은 그레고리력으로, 기원전 없음).
+                                    있으면 화면의 전투 때가 일까지("1916년 7월 1일~11월 17일" - campaign logic의 formatBattleWhen)
 coords: 126.31, 34.57
 links: 25                         ← 위키백과 언어판 수 = 중요도(목록 순서·표시 크기)
 ```

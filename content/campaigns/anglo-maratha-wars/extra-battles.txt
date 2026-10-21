@@ -3,5 +3,6 @@
 @ battle-of-wadgaon
 wikipedia: Battle of Wadgaon
 when: 1779
+days: 1779-01-12 ~ 1779-01-13
 coords: 73.73, 18.74
 links: 2

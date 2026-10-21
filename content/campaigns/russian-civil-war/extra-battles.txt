@@ -9,23 +9,27 @@ links: 10
 @ orel-kursk-operation
 wikipedia: Orel–Kursk operation
 when: 1919-10 ~ 1919-11
+days: 1919-10-11 ~ 1919-11-18
 coords: 36.07, 52.97
 links: 6
 
 @ great-siberian-ice-march
 wikipedia: Great Siberian Ice March
 when: 1919-11 ~ 1920-03
+days: 1919-11-14
 coords: 104.3, 52.29
 links: 13
 
 @ tambov-rebellion
 wikipedia: Tambov Rebellion
 when: 1920-08 ~ 1921-06
+days: 1920-08-19
 coords: 41.8, 52.5
 links: 31
 
 @ kronstadt-rebellion
 wikipedia: Kronstadt rebellion
 when: 1921-03
+days: 1921-03-01 ~ 1921-03-18
 coords: 29.73, 60.01
 links: 53

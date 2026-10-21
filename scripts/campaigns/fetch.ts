@@ -7,7 +7,14 @@
 // 전투 = 그 전쟁 기간에 search 범위 안에서 일어난 전투·포위전·군사작전 중 위키백과 언어판 min-links개 이상.
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { USER_AGENT, fetchSummaries, sleep } from "../lib/wikipediaApi";
-import { dirOf, listCampaigns, readBattles, readExcluded, readTheme, type Theme } from "./lib";
+import {
+  dirOf,
+  listCampaigns,
+  readBattles,
+  readExcluded,
+  readTheme,
+  type Theme,
+} from "./lib";
 
 const slug = (t: string) =>
   t
@@ -41,16 +48,26 @@ SELECT ?article (MAX(?l) AS ?links) (SAMPLE(?s) AS ?start) (SAMPLE(?e) AS ?end) 
   ?article schema:about ?b ; schema:isPartOf <https://en.wikipedia.org/> .
   OPTIONAL { ?b wdt:P582 ?e }
 } GROUP BY ?article`;
-  const res = await fetch(`https://query.wikidata.org/sparql?query=${encodeURIComponent(sparql)}`, {
-    headers: { Accept: "application/sparql-results+json", "User-Agent": USER_AGENT },
-  });
+  const res = await fetch(
+    `https://query.wikidata.org/sparql?query=${encodeURIComponent(sparql)}`,
+    {
+      headers: {
+        Accept: "application/sparql-results+json",
+        "User-Agent": USER_AGENT,
+      },
+    },
+  );
   if (!res.ok) throw new Error(`${t.id}: Wikidata 실패 ${res.status}`);
   type Cell = { value: string } | undefined;
-  const rows = ((await res.json()) as { results: { bindings: Record<string, Cell>[] } }).results.bindings;
+  const rows = (
+    (await res.json()) as { results: { bindings: Record<string, Cell>[] } }
+  ).results.bindings;
 
   const excluded = readExcluded(t.id);
   const fmt = (d: { year: number; month: number }) =>
-    t.unit === "year" ? String(d.year) : `${d.year}-${String(d.month).padStart(2, "0")}`;
+    t.unit === "year"
+      ? String(d.year)
+      : `${d.year}-${String(d.month).padStart(2, "0")}`;
   const items = rows
     .map((r) => {
       const s = parseDate(r.start?.value);
@@ -60,7 +77,9 @@ SELECT ?article (MAX(?l) AS ?links) (SAMPLE(?s) AS ?start) (SAMPLE(?e) AS ?end) 
       const a = fmt(s);
       const b = e ? fmt(e) : a;
       return {
-        wikipedia: decodeURIComponent(r.article!.value.split("/wiki/")[1]).replace(/_/g, " "),
+        wikipedia: decodeURIComponent(
+          r.article!.value.split("/wiki/")[1],
+        ).replace(/_/g, " "),
         when: b !== a && b > a ? `${a} ~ ${b}` : a,
         sort: s.year * 12 + s.month,
         coords: `${Math.round(Number(p[1]) * 100) / 100}, ${Math.round(Number(p[2]) * 100) / 100}`,
@@ -69,14 +88,19 @@ SELECT ?article (MAX(?l) AS ?links) (SAMPLE(?s) AS ?start) (SAMPLE(?e) AS ?end) 
     })
     .filter((x): x is NonNullable<typeof x> => !!x)
     // exclude-battles.txt(다른 전쟁의 전투)는 다시 만들 때도 넣지 않는다
-    .filter((x) => !excluded.has(x.wikipedia) && !excluded.has(slug(x.wikipedia)))
+    .filter(
+      (x) => !excluded.has(x.wikipedia) && !excluded.has(slug(x.wikipedia)),
+    )
     .sort((x, y) => x.sort - y.sort);
 
   writeFileSync(
     `${dirOf(t.id)}/battles.txt`,
     `# ${t.wikipedia} 전투 (Wikidata 자동 생성, 직접 고쳐도 됨). 형식은 content/campaigns/CLAUDE.md\n\n` +
       items
-        .map((b) => `@ ${slug(b.wikipedia)}\nwikipedia: ${b.wikipedia}\nwhen: ${b.when}\ncoords: ${b.coords}\nlinks: ${b.links}`)
+        .map(
+          (b) =>
+            `@ ${slug(b.wikipedia)}\nwikipedia: ${b.wikipedia}\nwhen: ${b.when}\ncoords: ${b.coords}\nlinks: ${b.links}`,
+        )
         .join("\n\n") +
       "\n",
   );
@@ -95,15 +119,23 @@ async function main() {
       await sleep(2000);
     }
     const wikiFile = `${dirOf(id)}/wikipedia.json`;
-    const cache = existsSync(wikiFile) ? JSON.parse(readFileSync(wikiFile, "utf8")) : {};
-    const titles = [theme.wikipedia, ...readBattles(id, theme.unit).map((b) => b.wikipedia)];
-    const todo = [...new Set(titles)].filter((t): t is string => !!t && !cache[t]);
+    const cache = existsSync(wikiFile)
+      ? JSON.parse(readFileSync(wikiFile, "utf8"))
+      : {};
+    const titles = [
+      theme.wikipedia,
+      ...readBattles(id, theme.unit).map((b) => b.wikipedia),
+    ];
+    const todo = [...new Set(titles)].filter(
+      (t): t is string => !!t && !cache[t],
+    );
     if (!todo.length) continue;
     console.log(`  ${id}: 위키백과 요약 ${todo.length}건 받는 중…`);
     let n = 0;
     await fetchSummaries(todo, (title, pages) => {
       cache[title] = { pages };
-      if (++n % 20 === 0) writeFileSync(wikiFile, JSON.stringify(cache, null, 2) + "\n");
+      if (++n % 20 === 0)
+        writeFileSync(wikiFile, JSON.stringify(cache, null, 2) + "\n");
     });
     writeFileSync(wikiFile, JSON.stringify(cache, null, 2) + "\n");
   }

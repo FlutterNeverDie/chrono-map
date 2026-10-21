@@ -3,6 +3,7 @@
 @ battle-of-k-z-l-tepe
 wikipedia: Battle of Kızıl Tepe
 when: 1877-08
+days: 1877-08-25
 coords: 43.1, 40.62
 links: 10
 
@@ -15,48 +16,56 @@ links: 6
 @ battle-of-svistov
 wikipedia: Battle of Svistov
 when: 1877-06
+days: 1877-06-26
 coords: 25.4, 43.61
 links: 8
 
 @ battle-of-shipka-pass
 wikipedia: Battle of Shipka Pass
 when: 1877-07 ~ 1878-01
+days: 1877-07-17 ~ 1878-01-09
 coords: 25.32, 42.77
 links: 20
 
 @ siege-of-plevna
 wikipedia: Siege of Plevna
 when: 1877-07 ~ 1877-12
+days: 1877-07-20 ~ 1877-12-10
 coords: 24.62, 43.41
 links: 21
 
 @ battle-of-nikopol
 wikipedia: Battle of Nikopol
 when: 1877-07
+days: 1877-07-16
 coords: 24.88, 43.7
 links: 14
 
 @ kavarna-massacre
 wikipedia: Kavarna massacre
 when: 1877-07 ~ 1877-08
+days: 1877-07-07 ~ 1877-08-08
 coords: 28.34, 43.43
 links: 3
 
 @ battle-of-lovcha
 wikipedia: Battle of Lovcha
 when: 1877-09
+days: 1877-09-01 ~ 1877-09-03
 coords: 24.72, 43.13
 links: 9
 
 @ battle-of-gorni-dubnik
 wikipedia: Battle of Gorni Dubnik
 when: 1877-10
+days: 1877-10-24
 coords: 24.22, 43.22
 links: 12
 
 @ battle-of-kars-1877
 wikipedia: Battle of Kars (1877)
 when: 1877-11
+days: 1877-11-17
 coords: 43.12, 40.59
 links: 10
 
@@ -69,11 +78,13 @@ links: 14
 @ battle-of-tashkessen
 wikipedia: Battle of Tashkessen
 when: 1877-12
+days: 1877-12-31
 coords: 23.78, 42.72
 links: 7
 
 @ battle-of-plovdiv-1878
 wikipedia: Battle of Plovdiv (1878)
 when: 1878-01
+days: 1878-01-17
 coords: 24, 42
 links: 9

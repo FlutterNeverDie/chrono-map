@@ -3,60 +3,70 @@
 @ battle-of-fort-bull
 wikipedia: Battle of Fort Bull
 when: 1756
+days: 1756-03-27
 coords: -75.5, 43.22
 links: 12
 
 @ siege-of-fort-st-philip-1756
 wikipedia: Siege of Fort St Philip (1756)
 when: 1756
+days: 1756-04-20 ~ 1756-06-29
 coords: 4.31, 39.87
 links: 9
 
 @ battle-of-minorca-1756
 wikipedia: Battle of Minorca (1756)
 when: 1756
+days: 1756-05-20
 coords: 4.35, 39.89
 links: 18
 
 @ siege-of-calcutta
 wikipedia: Siege of Calcutta
 when: 1756
+days: 1756-06-20
 coords: 88.34, 22.54
 links: 7
 
 @ battle-of-fort-oswego
 wikipedia: Battle of Fort Oswego
 when: 1756
+days: 1756-08-14
 coords: -76.51, 43.46
 links: 14
 
 @ siege-of-pirna
 wikipedia: Siege of Pirna
 when: 1756
+days: 1756-09-11 ~ 1756-10-14
 coords: 13.93, 50.97
 links: 16
 
 @ battle-of-lobositz
 wikipedia: Battle of Lobositz
 when: 1756
+days: 1756-10-01
 coords: 14.03, 50.51
 links: 21
 
 @ battle-of-chandannagar
 wikipedia: Battle of Chandannagar
 when: 1757
+days: 1757-03-23
 coords: 88.38, 22.86
 links: 6
 
 @ battle-of-reichenberg
 wikipedia: Battle of Reichenberg
 when: 1757
+days: 1757-04-21
 coords: 15.06, 50.77
 links: 18
 
 @ battle-of-sterboholy
 wikipedia: Battle of Štěrboholy
 when: 1757
+days: 1757-05-06
 coords: 14.56, 50.08
 links: 26
 
@@ -69,42 +79,49 @@ links: 11
 @ battle-of-kolin
 wikipedia: Battle of Kolín
 when: 1757
+days: 1757-06-18
 coords: 15.12, 50.03
 links: 28
 
 @ battle-of-plassey
 wikipedia: Battle of Plassey
 when: 1757
+days: 1757-06-23
 coords: 88.25, 23.8
 links: 58
 
 @ battle-of-hastenbeck
 wikipedia: Battle of Hastenbeck
 when: 1757
+days: 1757-07-26
 coords: 9.42, 52.08
 links: 20
 
 @ battle-of-sabbath-day-point
 wikipedia: Battle of Sabbath Day Point
 when: 1757
+days: 1757-07-23
 coords: -73.51, 43.67
 links: 6
 
 @ siege-of-fort-william-henry
 wikipedia: Siege of Fort William Henry
 when: 1757
+days: 1757-08-03 ~ 1757-08-09
 coords: -73.71, 43.42
 links: 22
 
 @ battle-of-gross-jagersdorf
 wikipedia: Battle of Gross-Jägersdorf
 when: 1757
+days: 1757-08-30
 coords: 21.46, 54.61
 links: 22
 
 @ battle-of-moys
 wikipedia: Battle of Moys
 when: 1757
+days: 1757-09-07
 coords: 15.02, 51.13
 links: 11
 
@@ -117,132 +134,154 @@ links: 9
 @ battle-of-cap-francais
 wikipedia: Battle of Cap-Français
 when: 1757
+days: 1757-10-21
 coords: -72.2, 19.8
 links: 8
 
 @ battle-of-breslau-1757
 wikipedia: Battle of Breslau (1757)
 when: 1757
+days: 1757-11-22
 coords: 17.03, 51.12
 links: 17
 
 @ battle-of-rossbach
 wikipedia: Battle of Rossbach
 when: 1757
+days: 1757-11-05
 coords: 11.89, 51.27
 links: 31
 
 @ battle-of-leuthen
 wikipedia: Battle of Leuthen
 when: 1757
+days: 1757-12-05
 coords: 16.75, 51.15
 links: 27
 
 @ battle-of-cuddalore-1758
 wikipedia: Battle of Cuddalore (1758)
 when: 1758
+days: 1758-04-29
 coords: 79.75, 11.75
 links: 11
 
 @ siege-of-olomouc
 wikipedia: Siege of Olomouc
 when: 1758
+days: 1758-05-04 ~ 1758-07-02
 coords: 17.25, 49.6
 links: 12
 
 @ battle-of-domstadtl
 wikipedia: Battle of Domstadtl
 when: 1758
+days: 1758-06-30
 coords: 17.44, 49.74
 links: 15
 
 @ battle-of-krefeld
 wikipedia: Battle of Krefeld
 when: 1758
+days: 1758-06-23
 coords: 6.51, 51.3
 links: 13
 
 @ battle-of-rheinberg
 wikipedia: Battle of Rheinberg
 when: 1758
+days: 1758-06-12
 coords: 6.6, 51.55
 links: 8
 
 @ siege-of-louisbourg-1758
 wikipedia: Siege of Louisbourg (1758)
 when: 1758
+days: 1758-06-08 ~ 1758-07-26
 coords: -59.97, 45.92
 links: 14
 
 @ battle-of-carillon
 wikipedia: Battle of Carillon
 when: 1758
+days: 1758-07-08
 coords: -73.39, 43.84
 links: 19
 
 @ battle-of-fort-frontenac
 wikipedia: Battle of Fort Frontenac
 when: 1758
+days: 1758-08-26 ~ 1758-08-28
 coords: -76.48, 44.23
 links: 10
 
 @ cherbourg-raid
 wikipedia: Cherbourg raid
 when: 1758
+days: 1758-08-07 ~ 1758-08-16
 coords: -1.63, 49.64
 links: 8
 
 @ battle-of-negapatam-1758
 wikipedia: Battle of Negapatam (1758)
 when: 1758
+days: 1758-08-03
 coords: 79.83, 10.77
 links: 9
 
 @ battle-of-tornow
 wikipedia: Battle of Tornow
 when: 1758
+days: 1758-09-26
 coords: 13.29, 53.06
 links: 12
 
 @ battle-of-zorndorf
 wikipedia: Battle of Zorndorf
 when: 1758
+days: 1758-09-05
 coords: 14.65, 52.67
 links: 27
 
 @ battle-of-fort-duquesne
 wikipedia: Battle of Fort Duquesne
 when: 1758
+days: 1758-09-13
 coords: -80.01, 40.44
 links: 14
 
 @ battle-of-saint-cast
 wikipedia: Battle of Saint-Cast
 when: 1758
+days: 1758-09-11
 coords: -2.26, 48.63
 links: 11
 
 @ battle-of-fort-ligonier
 wikipedia: Battle of Fort Ligonier
 when: 1758
+days: 1758-10-12
 coords: -79.24, 40.24
 links: 9
 
 @ battle-of-lutterberg-1758
 wikipedia: Battle of Lutterberg (1758)
 when: 1758
+days: 1758-10-10
 coords: 9.6, 51.35
 links: 13
 
 @ battle-of-hochkirch
 wikipedia: Battle of Hochkirch
 when: 1758
+days: 1758-10-14
 coords: 14.57, 51.15
 links: 23
 
 @ battle-of-condore
 wikipedia: Battle of Condore
 when: 1758
+days: 1758-12-09
 coords: 81.13, 16.18
 links: 6
 
@@ -261,288 +300,336 @@ links: 14
 @ invasion-of-guadeloupe-1759
 wikipedia: Invasion of Guadeloupe (1759)
 when: 1759
+days: 1759-01-22 ~ 1759-05-01
 coords: -61.73, 16
 links: 6
 
 @ invasion-of-martinique-1759
 wikipedia: Invasion of Martinique (1759)
 when: 1759
+days: 1759-01-16 ~ 1759-01-19
 coords: -61, 14.67
 links: 6
 
 @ siege-of-masulipatam
 wikipedia: Siege of Masulipatam
 when: 1759
+days: 1759-03-06 ~ 1759-04-07
 coords: 81.13, 16.17
 links: 7
 
 @ battle-of-bergen-1759
 wikipedia: Battle of Bergen (1759)
 when: 1759
+days: 1759-04-13
 coords: 8.75, 50.16
 links: 17
 
 @ battle-of-beauport
 wikipedia: Battle of Beauport
 when: 1759
+days: 1759-07-31
 coords: -71.15, 46.89
 links: 12
 
 @ battle-of-la-belle-famille
 wikipedia: Battle of La Belle-Famille
 when: 1759
+days: 1759-07-24
 coords: -79.05, 43.24
 links: 7
 
 @ battle-of-ticonderoga-1759
 wikipedia: Battle of Ticonderoga (1759)
 when: 1759
+days: 1759-07-27
 coords: -73.39, 43.84
 links: 13
 
 @ battle-of-fort-niagara
 wikipedia: Battle of Fort Niagara
 when: 1759
+days: 1759-07-06 ~ 1759-07-26
 coords: -79.06, 43.26
 links: 9
 
 @ le-havre-raid
 wikipedia: Le Havre raid
 when: 1759
+days: 1759-07-03 ~ 1759-07-05
 coords: 0.14, 49.44
 links: 6
 
 @ battle-of-kay
 wikipedia: Battle of Kay
 when: 1759
+days: 1759-08-03
 coords: 15.53, 52.1
 links: 15
 
 @ battle-of-minden
 wikipedia: Battle of Minden
 when: 1759
+days: 1759-08-01
 coords: 8.89, 52.33
 links: 17
 
 @ battle-of-kunersdorf
 wikipedia: Battle of Kunersdorf
 when: 1759
+days: 1759-08-12
 coords: 14.61, 52.35
 links: 29
 
 @ battle-of-the-plains-of-abraham
 wikipedia: Battle of the Plains of Abraham
 when: 1759
+days: 1759-09-13
 coords: -71.22, 46.8
 links: 31
 
 @ battle-of-hoyerswerda
 wikipedia: Battle of Hoyerswerda
 when: 1759
+days: 1759-09-25
 coords: 14.15, 51.56
 links: 13
 
 @ battle-of-frisches-haff
 wikipedia: Battle of Frisches Haff
 when: 1759
+days: 1759-09-10
 coords: 14.14, 53.8
 links: 9
 
 @ battle-of-pondicherry
 wikipedia: Battle of Pondicherry
 when: 1759
+days: 1759-09-10
 coords: 79.83, 11.93
 links: 12
 
 @ battle-of-maxen
 wikipedia: Battle of Maxen
 when: 1759
+days: 1759-11-21
 coords: 13.8, 50.92
 links: 18
 
 @ battle-of-quiberon-bay
 wikipedia: Battle of Quiberon Bay
 when: 1759
+days: 1759-11-20
 coords: -3, 47.52
 links: 18
 
 @ battle-of-meissen
 wikipedia: Battle of Meissen
 when: 1759
+days: 1759-12-03
 coords: 13.48, 51.16
 links: 12
 
 @ battle-of-wandiwash
 wikipedia: Battle of Wandiwash
 when: 1760
+days: 1760-01-22
 coords: 79.62, 12.5
 links: 16
 
 @ battle-of-carrickfergus-1760
 wikipedia: Battle of Carrickfergus (1760)
 when: 1760
+days: 1760-02-21 ~ 1760-02-26
 coords: -5.81, 54.71
 links: 6
 
 @ battle-of-sainte-foy
 wikipedia: Battle of Sainte-Foy
 when: 1760
+days: 1760-04-28
 coords: -71.24, 46.8
 links: 14
 
 @ siege-of-glatz
 wikipedia: Siege of Glatz
 when: 1760
+days: 1760-06-07 ~ 1760-07-26
 coords: 16.67, 50.43
 links: 6
 
 @ battle-of-landeshut-1760
 wikipedia: Battle of Landeshut (1760)
 when: 1760
+days: 1760-06-23
 coords: 16.03, 50.78
 links: 18
 
 @ siege-of-dresden
 wikipedia: Siege of Dresden
 when: 1760
+days: 1760-07-13 ~ 1760-07-22
 coords: 13.73, 51.05
 links: 7
 
 @ battle-of-warburg
 wikipedia: Battle of Warburg
 when: 1760
+days: 1760-07-31
 coords: 9.13, 51.5
 links: 15
 
 @ battle-of-corbach
 wikipedia: Battle of Corbach
 when: 1760
+days: 1760-07-10
 coords: 8.87, 51.28
 links: 7
 
 @ battle-of-restigouche
 wikipedia: Battle of Restigouche
 when: 1760
+days: 1760-07-08
 coords: -66.72, 48
 links: 7
 
 @ battle-of-liegnitz-1760
 wikipedia: Battle of Liegnitz (1760)
 when: 1760
+days: 1760-08-15
 coords: 16.17, 51.22
 links: 17
 
 @ battle-of-the-thousand-islands
 wikipedia: Battle of the Thousand Islands
 when: 1760
+days: 1760-08-24
 coords: -75.99, 44.33
 links: 7
 
 @ siege-of-pondicherry-1760
 wikipedia: Siege of Pondicherry (1760)
 when: 1760 ~ 1761
+days: 1760-09-04 ~ 1761-01-15
 coords: 79.83, 11.93
 links: 7
 
 @ 1760-raid-on-berlin
 wikipedia: 1760 raid on Berlin
 when: 1760
+days: 1760-10-09 ~ 1760-10-12
 coords: 13.41, 52.52
 links: 9
 
 @ battle-of-kloster-kampen
 wikipedia: Battle of Kloster Kampen
 when: 1760
+days: 1760-10-15
 coords: 6.52, 51.5
 links: 12
 
 @ battle-of-torgau
 wikipedia: Battle of Torgau
 when: 1760
+days: 1760-11-03
 coords: 12.91, 51.57
 links: 20
 
 @ battle-of-langensalza-1761
 wikipedia: Battle of Langensalza (1761)
 when: 1761
+days: 1761-02-15
 coords: 10.65, 51.11
 links: 9
 
 @ siege-of-cassel-1761
 wikipedia: Siege of Cassel (1761)
 when: 1761
+days: 1761-03-07 ~ 1761-03-24
 coords: 9.5, 51.32
 links: 8
 
 @ battle-of-grunberg
 wikipedia: Battle of Grünberg
 when: 1761
+days: 1761-03-21
 coords: 8.95, 50.6
 links: 6
 
 @ capture-of-belle-ile
 wikipedia: Capture of Belle Île
 when: 1761
+days: 1761-04-07 ~ 1761-06-08
 coords: -3.15, 47.35
 links: 7
 
 @ battle-of-villinghausen
 wikipedia: Battle of Villinghausen
 when: 1761
+days: 1761-07-15 ~ 1761-07-16
 coords: 8, 51.66
 links: 14
 
 @ invasion-of-martinique-1762
 wikipedia: Invasion of Martinique (1762)
 when: 1762
+days: 1762-01-05 ~ 1762-02-12
 coords: -61, 14.67
 links: 7
 
 @ siege-of-havana
 wikipedia: Siege of Havana
 when: 1762
+days: 1762-06-06 ~ 1762-08-13
 coords: -82.37, 23.1
 links: 15
 
 @ battle-of-wilhelmsthal
 wikipedia: Battle of Wilhelmsthal
 when: 1762
+days: 1762-06-24
 coords: 9.4, 51.42
 links: 11
 
 @ battle-of-lutterberg-1762
 wikipedia: Battle of Lutterberg (1762)
 when: 1762
+days: 1762-07-23
 coords: 9.6, 51.35
 links: 10
 
 @ battle-of-burkersdorf-1762
 wikipedia: Battle of Burkersdorf (1762)
 when: 1762
+days: 1762-07-21
 coords: 16.47, 50.79
 links: 15
 
 @ battle-of-nauheim
 wikipedia: Battle of Nauheim
 when: 1762
+days: 1762-08-30
 coords: 8.73, 50.36
 links: 7
 
 @ battle-of-valencia-de-alcantara
 wikipedia: Battle of Valencia de Alcántara
 when: 1762
+days: 1762-08-27
 coords: -7.23, 39.42
 links: 7
 
 @ siege-of-almeida-1762
 wikipedia: Siege of Almeida (1762)
 when: 1762
+days: 1762-08-16 ~ 1762-08-25
 coords: -6.91, 40.73
 links: 7
 
 @ battle-of-signal-hill
 wikipedia: Battle of Signal Hill
 when: 1762
+days: 1762-09-15
 coords: -52.68, 47.57
 links: 16
 
@@ -555,12 +642,14 @@ links: 7
 @ battle-of-freiberg
 wikipedia: Battle of Freiberg
 when: 1762
+days: 1762-10-29
 coords: 13.34, 50.91
 links: 13
 
 @ battle-of-vila-velha
 wikipedia: Battle of Vila Velha
 when: 1762
+days: 1762-10-05
 coords: -7.67, 39.65
 links: 6
 

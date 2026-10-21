@@ -3,18 +3,21 @@
 @ toussaint-rouge
 wikipedia: Toussaint Rouge
 when: 1954-11
+days: 1954-11-01
 coords: 6.35, 35.25
 links: 5
 
 @ battle-of-agounennda
 wikipedia: Battle of Agounennda
 when: 1957-05
+days: 1957-05-23 ~ 1957-05-25
 coords: 2.95, 36.15
 links: 4
 
 @ battle-of-bouzegza
 wikipedia: Battle of Bouzegza
 when: 1957-08
+days: 1957-08-12
 coords: 3.38, 36.62
 links: 5
 
@@ -27,6 +30,7 @@ links: 4
 @ bombing-of-sakiet-sidi-youssef
 wikipedia: Bombing of Sakiet Sidi Youssef
 when: 1958-02
+days: 1958-02-08
 coords: 8.36, 36.22
 links: 6
 

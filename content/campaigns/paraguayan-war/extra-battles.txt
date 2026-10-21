@@ -9,47 +9,55 @@ links: 4
 @ battle-of-tuyuti
 wikipedia: Battle of Tuyutí
 when: 1866-05
+days: 1866-05-24
 coords: -58.55, -27.2
 links: 11
 
 @ battle-of-boqueron-1866
 wikipedia: Battle of Boquerón (1866)
 when: 1866-07
+days: 1866-07-16 ~ 1866-07-18
 coords: -58.49, -27.15
 links: 5
 
 @ battle-of-curuzu
 wikipedia: Battle of Curuzú
 when: 1866-09
+days: 1866-09-01 ~ 1866-09-03
 coords: -58.6, -27.08
 links: 7
 
 @ second-battle-of-tuyuti
 wikipedia: Second Battle of Tuyutí
 when: 1867-11
+days: 1867-11-03
 coords: -58.57, -27.23
 links: 4
 
 @ battle-of-ytororo
 wikipedia: Battle of Ytororó
 when: 1868-12
+days: 1868-12-06
 coords: -57.56, -25.47
 links: 8
 
 @ battle-of-avay
 wikipedia: Battle of Avay
 when: 1868-12
+days: 1868-12-11
 coords: -57.53, -25.56
 links: 6
 
 @ battle-of-piribebuy
 wikipedia: Battle of Piribebuy
 when: 1869-08
+days: 1869-08-12
 coords: -57.04, -25.47
 links: 5
 
 @ battle-of-acosta-nu
 wikipedia: Battle of Acosta Ñu
 when: 1869-08
+days: 1869-08-16
 coords: -57.1, -25.42
 links: 12

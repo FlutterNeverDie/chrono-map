@@ -25,6 +25,7 @@ export function localizeCampaign(c: Campaign, locale: Locale): Campaign {
       wiki: keepLocales(b.wiki, locale, ["en"]),
       title: b.title && keepLocales(b.title, locale),
       summary: b.summary && keepLocales(b.summary, locale),
+      daysText: b.daysText && keepLocales(b.daysText, locale),
     })),
   };
 }

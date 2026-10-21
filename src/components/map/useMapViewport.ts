@@ -8,7 +8,14 @@ import {
   useRef,
   useState,
 } from "react";
-import { geoGraticule10, geoMercator, geoPath } from "d3-geo";
+import { geoGraticule10, geoPath } from "d3-geo";
+import {
+  MAP_HEIGHT,
+  MAP_WIDTH,
+  makeProjection,
+  normalizeLon,
+  yOfLat,
+} from "./projection";
 import { feature } from "topojson-client";
 import type { GeometryCollection, Topology } from "topojson-specification";
 import { swallowNextClick } from "./ghostClick";
@@ -23,24 +30,14 @@ import world from "world-atlas/land-110m.json";
  * - 끌기, 휠(커서 고정), 두 번 클릭 확대, focusTo(좌표)로 부드럽게 이동
  * - 지도 위에 떠 있는 패널(`data-map-overlay`)에 가리지 않도록 가운데를 비켜 잡는다
  */
-export const MAP_WIDTH = 1000;
-const SCALE = MAP_WIDTH / (2 * Math.PI);
-const mercY = (lat: number) =>
-  Math.log(Math.tan(Math.PI / 4 + (lat * Math.PI) / 360));
-export const MAP_HEIGHT = Math.round(SCALE * (mercY(82) - mercY(-58)));
-export const yOfLat = (lat: number) => SCALE * (mercY(82) - mercY(lat));
+export {
+  MAP_WIDTH,
+  MAP_HEIGHT,
+  yOfLat,
+  normalizeLon,
+  makeProjection,
+} from "./projection";
 const round1 = (v: number) => Math.round(v * 10) / 10;
-export const normalizeLon = (lon: number) =>
-  ((((lon + 180) % 360) + 360) % 360) - 180;
-export const makeProjection = (lon: number) =>
-  geoMercator()
-    .rotate([-lon, 0])
-    .scale(SCALE)
-    .translate([MAP_WIDTH / 2, SCALE * mercY(82)])
-    .clipExtent([
-      [0, 0],
-      [MAP_WIDTH, MAP_HEIGHT],
-    ]);
 export const graticule = geoGraticule10();
 const landTopo = world as unknown as Topology<{ land: GeometryCollection }>;
 export const land = feature(landTopo, landTopo.objects.land);

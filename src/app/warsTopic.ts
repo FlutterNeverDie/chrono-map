@@ -23,6 +23,12 @@ export function warsTopic(): Topic {
     title: all((l) => getMessages(l).wars.tab),
     description: all((l) => getMessages(l).wars.indexDescription),
     linkLabel: all((l) => getMessages(l).wars.openMap),
+    // 전쟁마다 전투 점(npm run wars:build가 만든 언어별 파일) - 고르면 그 전쟁 지도의 그 전투로
+    points: {
+      url: "/campaigns/points/{locale}.json",
+      link: "wars/{item}?battle={id}",
+      label: all((l) => getMessages(l).wars.openBattle),
+    },
     items: CAMPAIGNS.map((c) => {
       const month = (t: number, edge: 0 | 11) =>
         c.unit === "month" ? t : t * 12 + edge;

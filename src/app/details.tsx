@@ -25,6 +25,7 @@ import {
   battleTitle,
   campaignSummary,
   campaignTitle,
+  formatBattleWhen,
   formatRange,
 } from "@/features/campaign";
 import { CAMPAIGNS, findCampaign } from "@/features/campaign/data";
@@ -203,7 +204,7 @@ export function WarDetail({
                   className="scroll-mt-20 rounded-lg border border-line p-4 target:border-accent target:ring-2 target:ring-accent/30"
                 >
                   <p className="text-sm text-muted">
-                    {formatRange(b.start, b.end, c.unit, locale)}
+                    {formatBattleWhen(b, c, locale)}
                   </p>
                   <h3 className="mt-1 text-lg leading-snug font-semibold">
                     {battleTitle(b, locale)}

@@ -27,6 +27,20 @@ export type TopicItem = {
   page?: string;
 };
 
+/**
+ * 항목 안의 작은 점(전쟁 목록 /wars의 전투): 그 기간(월 번호)에만 보인다. 이름·때는 그 언어로 미리 적어 둔 글자.
+ * 점이 많아 페이지 HTML에 넣지 않고 지도가 따로 받는다(Topic.points.url)
+ */
+export type TopicPoint = {
+  id: string;
+  item: string;
+  start: number;
+  end: number;
+  coords: [number, number];
+  title: string;
+  when: string;
+};
+
 export type Topic = {
   id: string;
   order: number;
@@ -42,6 +56,15 @@ export type Topic = {
   title: Partial<Record<Locale, string>>;
   description: Partial<Record<Locale, string>>;
   items: TopicItem[];
+  /**
+   * (선택) 항목 안의 작은 점 파일. url의 {locale}은 언어, 파일은 { items: 항목 id[], points: [항목 번호, id, 시작, 끝, 경도, 위도, 이름, 때][] }.
+   * link는 점을 골랐을 때 가는 경로({item}·{id} 자리, 언어 접두어 없이)
+   */
+  points?: {
+    url: string;
+    link: string;
+    label: Partial<Record<Locale, string>>;
+  };
   /** (선택) 항목 link 버튼 문구 */
   linkLabel?: Partial<Record<Locale, string>>;
 };

@@ -3,30 +3,35 @@
 @ battle-of-toba-fushimi
 wikipedia: Battle of Toba–Fushimi
 when: 1868-01
+days: 1868-01-31
 coords: 135.77, 35.01
 links: 25
 
 @ battle-of-koshu-katsunuma
 wikipedia: Battle of Kōshū-Katsunuma
 when: 1868-03
+days: 1868-03-29
 coords: 138.75, 35.65
 links: 14
 
 @ battle-of-utsunomiya-castle
 wikipedia: Battle of Utsunomiya Castle
 when: 1868-05
+days: 1868-05-10 ~ 1868-05-14
 coords: 139.89, 36.55
 links: 14
 
 @ battle-of-ueno
 wikipedia: Battle of Ueno
 when: 1868-07
+days: 1868-07-04
 coords: 139.77, 35.72
 links: 17
 
 @ battle-of-hatchooki
 wikipedia: Battle of Hatchōoki
 when: 1868-08
+days: 1868-08-10
 coords: 138.89, 37.47
 links: 5
 
@@ -39,23 +44,27 @@ links: 15
 @ battle-of-bonari-pass
 wikipedia: Battle of Bonari Pass
 when: 1868-10
+days: 1868-10-06
 coords: 140.24, 37.6
 links: 6
 
 @ battle-of-noheji
 wikipedia: Battle of Noheji
 when: 1868-11
+days: 1868-11-07
 coords: 141.13, 40.86
 links: 6
 
 @ battle-of-hakodate
 wikipedia: Battle of Hakodate
 when: 1868-12 ~ 1869-06
+days: 1868-12-04 ~ 1869-06-27
 coords: 140.76, 41.8
 links: 15
 
 @ battle-of-miyako-bay
 wikipedia: Battle of Miyako Bay
 when: 1869-05
+days: 1869-05-06
 coords: 142, 39.66
 links: 12

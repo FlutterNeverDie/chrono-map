@@ -3,107 +3,125 @@
 @ battle-of-kowloon
 wikipedia: Battle of Kowloon
 when: 1839-09
+days: 1839-09-04
 coords: 114.17, 22.29
 links: 6
 
 @ battle-of-chuenpi
 wikipedia: Battle of Chuenpi
 when: 1839-11
+days: 1839-11-03
 coords: 113.61, 22.8
 links: 8
 
 @ capture-of-chusan
 wikipedia: Capture of Chusan
 when: 1840-07
+days: 1840-07-05 ~ 1840-07-06
 coords: 122.11, 30.01
 links: 7
 
 @ battle-of-the-barrier
 wikipedia: Battle of the Barrier
 when: 1840-08
+days: 1840-08-19
 coords: 113.55, 22.21
 links: 4
 
 @ second-battle-of-chuenpi
 wikipedia: Second Battle of Chuenpi
 when: 1841-01
+days: 1841-01-07
 coords: 113.66, 22.76
 links: 7
 
 @ battle-of-first-bar
 wikipedia: Battle of First Bar
 when: 1841-02
+days: 1841-02-27
 coords: 113.48, 23.07
 links: 3
 
 @ battle-of-the-bogue
 wikipedia: Battle of the Bogue
 when: 1841-02
+days: 1841-02-23 ~ 1841-02-26
 coords: 113.62, 22.8
 links: 7
 
 @ battle-of-canton-march-1841
 wikipedia: Battle of Canton (March 1841)
 when: 1841-03
+days: 1841-03-18
 coords: 113.24, 23.11
 links: 8
 
 @ battle-of-whampoa
 wikipedia: Battle of Whampoa
 when: 1841-03
+days: 1841-03-02
 coords: 113.4, 23.1
 links: 4
 
 @ battle-of-canton-may-1841
 wikipedia: Battle of Canton (May 1841)
 when: 1841-05
+days: 1841-05-21 ~ 1841-05-30
 coords: 113.24, 23.11
 links: 8
 
 @ battle-of-amoy
 wikipedia: Battle of Amoy
 when: 1841-08
+days: 1841-08-26
 coords: 118.06, 24.45
 links: 7
 
 @ capture-of-chusan-1841
 wikipedia: Capture of Chusan (1841)
 when: 1841-09 ~ 1841-10
+days: 1841-09-29 ~ 1841-10-01
 coords: 122.11, 30.01
 links: 6
 
 @ battle-of-chinhai
 wikipedia: Battle of Chinhai
 when: 1841-10
+days: 1841-10-10
 coords: 121.72, 29.96
 links: 8
 
 @ battle-of-ningpo
 wikipedia: Battle of Ningpo
 when: 1842-03
+days: 1842-03-10
 coords: 121.56, 29.87
 links: 6
 
 @ battle-of-tzeki
 wikipedia: Battle of Tzeki
 when: 1842-03
+days: 1842-03-15
 coords: 121.23, 30.17
 links: 5
 
 @ battle-of-chapu
 wikipedia: Battle of Chapu
 when: 1842-05
+days: 1842-05-18
 coords: 121.1, 30.61
 links: 7
 
 @ battle-of-woosung
 wikipedia: Battle of Woosung
 when: 1842-06
+days: 1842-06-16
 coords: 121.5, 31.38
 links: 8
 
 @ battle-of-chinkiang
 wikipedia: Battle of Chinkiang
 when: 1842-07
+days: 1842-07-21
 coords: 119.42, 32.19
 links: 7

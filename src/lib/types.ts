@@ -80,6 +80,20 @@ export type HistoryEvent = {
   sources: string[];
   /** 같은 위키백과 문서를 쓰는 전쟁 지도(/wars/<id>)가 있으면 그 id (빌드 때 자동 연결) */
   campaign?: string;
+  /** 사진(npm run photos - public/photos/<id>-s|w|l.webp)의 작가·라이선스·원본 페이지. 없으면 글만 */
+  photo?: EventPhoto;
+};
+
+/** 사건 사진 출처(위키미디어 공용, 퍼블릭 도메인·CC만) */
+export type EventPhoto = {
+  author: string;
+  license: string;
+  licenseUrl?: string;
+  /** 위키미디어 공용 파일 페이지 */
+  source: string;
+  /** 큰 사진(-l.webp) 크기 */
+  width: number;
+  height: number;
 };
 
 /** 시점별 "중요한 사건 순서"(사건 id 배열, 앞이 더 중요). content/rankings/*.txt에서 생성 */

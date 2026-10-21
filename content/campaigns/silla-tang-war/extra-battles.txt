@@ -3,5 +3,6 @@
 @ battle-of-maeso
 wikipedia: Battle of Maeso
 when: 675
+days: 0675-09-29
 coords: 127.07, 38.08
 links: 4

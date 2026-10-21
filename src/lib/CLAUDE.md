@@ -6,6 +6,6 @@
 - `year.ts`: 사건 연도 표기. `formatYear(-221, "ko") → "기원전 221년"`, `formatWhen(event, locale)`(한 해 / 기간 / 약), `formatYearRange`(사건·전쟁·주제 지도 공통 기간 표기 - 영어는 같은 기원을 한 번만: "1592~1598", "AD 66~74", "300~201 BC", 1000년 전 한 해는 "AD 9").
 - `localize.ts`: `pick(text, locale)`(요청 언어 → 영어 → 한국어), `localizedTitle`·`localizedSummary`(사건·전쟁·전투·주제 지도 항목 공통 대체 순서 - 이름: 직접 쓴 이름 → 그 언어 위키백과 → 직접 쓴 영어 → 영어 위키백과 → 직접 쓴 한국어, 설명: 그 언어 위키백과 → 직접 쓴 설명 → 영어 위키백과 → 직접 쓴 영어 → 한국어; `page`가 있으면 출처 표기 필수. 직접 쓴 설명을 위키백과보다 먼저 보이려면 빌드에서 그 언어 위키 요약을 뺀다 - `scripts/lib/wikipedia`의 `withoutOwn`, 전쟁·주제 지도만), `eventTitle`·`eventSummary`(사건용), `clipText`(검색·공유 미리보기 설명 약 160자 - 문장 끝 또는 단어 사이에서 "…").
 - `timeScale.ts`: 게이지 위치값(0~1000) ↔ 연도(비선형 축). 시작은 기원전 3500년(`MIN_YEAR`, 문명 시작 — 국경 데이터의 첫 국가 수메르 기원전 3400년).
-- `events.ts`: `visibleEvents(events, period)`(기간 ± 범위에 걸치는 사건), `isOngoing`(기간 전에 시작해 기간 안까지 이어지는 사건).
+- `events.ts`: `visibleEvents(events, period)`(기간 ± 범위에 걸치는 사건), `isOngoing`(기간 전에 시작해 기간 안까지 이어지는 사건), `clusterPins`(가까운 핀을 중요한 순 대표 핀 하나 + 나머지 수·묶인 핀 목록으로 묶기, 격자 검색), `groupTogether`(묶음 핀으로 고른 사건들을 목록에서 한 덩어리로).
 - `ranking.ts`: 시점별 정렬 `rankEvents`. 시점별 순서 데이터가 있으면 우선, 없으면 지역 가까움·importance·기간 가까움 점수. 가중치는 `RANK_WEIGHTS` 한 곳.
 - 새 함수에는 경계값(기원전/서기 경계, 0년 없음, 범위 끝, 기간 사건)을 고려한다.

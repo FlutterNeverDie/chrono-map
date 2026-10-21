@@ -3,6 +3,7 @@
 @ jintian-uprising
 wikipedia: Jintian Uprising
 when: 1851
+days: 1851-01-11
 coords: 110.08, 23.5
 links: 14
 
@@ -21,12 +22,14 @@ links: 3
 @ battle-of-nanjing-1853
 wikipedia: Battle of Nanjing (1853)
 when: 1853
+days: 1853-03-08 ~ 1853-03-19
 coords: 118.78, 32.06
 links: 6
 
 @ northern-expedition-taiping-rebellion
 wikipedia: Northern Expedition (Taiping Rebellion)
 when: 1853 ~ 1855
+days: 1853-05-08
 coords: 116.6, 37.8
 links: 6
 
@@ -39,12 +42,14 @@ links: 6
 @ battle-of-sanhe
 wikipedia: Battle of Sanhe
 when: 1858
+days: 1858-11-07 ~ 1858-11-18
 coords: 117.18, 31.5
 links: 5
 
 @ battle-of-jiangnan-1860
 wikipedia: Battle of Jiangnan (1860)
 when: 1860
+days: 1860-05-15
 coords: 118.95, 32.08
 links: 5
 
@@ -57,6 +62,7 @@ links: 4
 @ occupation-of-ningbo
 wikipedia: Occupation of Ningbo
 when: 1861
+days: 1861-12-09
 coords: 121.55, 29.87
 links: 3
 
@@ -69,6 +75,7 @@ links: 5
 @ battle-of-cixi
 wikipedia: Battle of Cixi
 when: 1862
+days: 1862-09-20
 coords: 121.45, 29.98
 links: 4
 

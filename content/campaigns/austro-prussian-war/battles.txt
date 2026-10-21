@@ -3,131 +3,153 @@
 @ battle-of-custoza-1866
 wikipedia: Battle of Custoza (1866)
 when: 1866-06
+days: 1866-06-24
 coords: 10.8, 45.38
 links: 25
 
 @ battle-of-podol
 wikipedia: Battle of Podol
 when: 1866-06
+days: 1866-06-27
 coords: 15.06, 50.57
 links: 10
 
 @ battle-of-huhnerwasser
 wikipedia: Battle of Hühnerwasser
 when: 1866-06
+days: 1866-06-26
 coords: 14.8, 50.59
 links: 10
 
 @ battle-of-gitschin
 wikipedia: Battle of Gitschin
 when: 1866-06
+days: 1866-06-29
 coords: 15.35, 50.44
 links: 12
 
 @ battle-of-burkersdorf-1866
 wikipedia: Battle of Burkersdorf (1866)
 when: 1866-06
+days: 1866-06-28
 coords: 15.92, 50.52
 links: 7
 
 @ battle-of-schweinschadel
 wikipedia: Battle of Schweinschädel
 when: 1866-06
+days: 1866-06-29
 coords: 15.99, 50.4
 links: 8
 
 @ battle-of-skalitz
 wikipedia: Battle of Skalitz
 when: 1866-06
+days: 1866-06-28
 coords: 16.07, 50.4
 links: 12
 
 @ battle-of-trautenau
 wikipedia: Battle of Trautenau
 when: 1866-06
+days: 1866-06-27
 coords: 15.92, 50.56
 links: 13
 
 @ battle-of-nachod
 wikipedia: Battle of Náchod
 when: 1866-06
+days: 1866-06-27
 coords: 16.19, 50.43
 links: 12
 
 @ battle-of-munchengratz
 wikipedia: Battle of Münchengrätz
 when: 1866-06
+days: 1866-06-28
 coords: 14.97, 50.52
 links: 10
 
 @ battle-of-koniggratz
 wikipedia: Battle of Königgrätz
 when: 1866-07
+days: 1866-07-03
 coords: 15.83, 50.21
 links: 39
 
 @ battle-of-aschaffenburg-1866
 wikipedia: Battle of Aschaffenburg (1866)
 when: 1866-07
+days: 1866-07-14
 coords: 9.16, 49.98
 links: 8
 
 @ battle-of-dermbach
 wikipedia: Battle of Dermbach
 when: 1866-07
+days: 1866-07-04
 coords: 10.19, 50.7
 links: 8
 
 @ battle-of-tauberbischofsheim
 wikipedia: Battle of Tauberbischofsheim
 when: 1866-07
+days: 1866-07-24
 coords: 9.67, 49.63
 links: 9
 
 @ battle-of-blumenau
 wikipedia: Battle of Blumenau
 when: 1866-07
+days: 1866-07-22
 coords: 17.05, 48.19
 links: 12
 
 @ battle-of-kissingen
 wikipedia: Battle of Kissingen
 when: 1866-07
+days: 1866-07-10
 coords: 10.07, 50.2
 links: 9
 
 @ battle-of-helmstadt
 wikipedia: Battle of Helmstadt
 when: 1866-07
+days: 1866-07-25
 coords: 9.71, 49.76
 links: 6
 
 @ battle-of-gerchsheim
 wikipedia: Battle of Gerchsheim
 when: 1866-07
+days: 1866-07-25
 coords: 9.78, 49.69
 links: 5
 
 @ battle-of-hundheim
 wikipedia: Battle of Hundheim
 when: 1866-07
+days: 1866-07-23
 coords: 9.46, 49.7
 links: 7
 
 @ battle-of-werbach
 wikipedia: Battle of Werbach
 when: 1866-07
+days: 1866-07-24
 coords: 9.64, 49.67
 links: 5
 
 @ battle-of-ro-brunn
 wikipedia: Battle of Roßbrunn
 when: 1866-07
+days: 1866-07-26
 coords: 9.75, 49.79
 links: 5
 
 @ battle-of-lissa-1866
 wikipedia: Battle of Lissa (1866)
 when: 1866-07
+days: 1866-07-20
 coords: 16.05, 43.18
 links: 34

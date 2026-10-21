@@ -6,6 +6,7 @@ import { eventTitle } from "@/lib/localize";
 import { formatWhen, formatYear, formatYearRange } from "@/lib/year";
 import { CC_BY_SA_4, reportIssueUrl } from "@/data/links";
 import { ExternalIcon } from "@/components/ui/icons";
+import { PhotoFigure } from "@/components/ui/PhotoFigure";
 import { formatPeriod, periodOf } from "@/lib/period";
 import { MapChips } from "./MapChips";
 import { relatedFor, type LandRow, type RelatedInput } from "./related";
@@ -33,6 +34,7 @@ export function DetailPage({
   links,
   sources = [],
   related,
+  photo,
   ad,
   children,
 }: {
@@ -46,6 +48,14 @@ export function DetailPage({
   /** 위키백과 밖 추가 출처 */
   sources?: string[];
   related: RelatedInput;
+  /** 제목 아래 큰 사진(사건 사진 - 누르면 전체 화면) */
+  photo?: {
+    src: string;
+    width: number;
+    height: number;
+    credit: string;
+    href: string;
+  };
   /** 본문 아래 광고 자리(app이 features/ads의 AdSlot을 넣는다) */
   ad?: ReactNode;
   children?: ReactNode;
@@ -55,6 +65,17 @@ export function DetailPage({
   return (
     <article>
       <h1 className="text-3xl leading-tight font-bold sm:text-4xl">{title}</h1>
+      {photo && (
+        <PhotoFigure
+          src={photo.src}
+          alt={title}
+          width={photo.width}
+          height={photo.height}
+          credit={{ text: photo.credit, href: photo.href }}
+          openLabel={messages.ui.openPhoto}
+          closeLabel={messages.ui.close}
+        />
+      )}
       <dl className="mt-6 grid grid-cols-[auto_1fr] gap-x-6 gap-y-2 text-base">
         {rows.map(([k, v]) => (
           <div key={k} className="contents">
@@ -119,11 +140,7 @@ export function DetailPage({
         <ul className="mt-2 space-y-1 text-sm text-muted">
           {sources.map((url) => (
             <li key={url}>
-              <a
-                href={url}
-                rel="noreferrer"
-                className="underline"
-              >
+              <a href={url} rel="noreferrer" className="underline">
                 {decodeURI(url)}
               </a>
             </li>

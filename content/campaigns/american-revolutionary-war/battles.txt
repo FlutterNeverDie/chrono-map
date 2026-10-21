@@ -9,600 +9,700 @@ links: 7
 @ battles-of-lexington-and-concord
 wikipedia: Battles of Lexington and Concord
 when: 1775-04
+days: 1775-04-19
 coords: -71.23, 42.45
 links: 39
 
 @ siege-of-boston
 wikipedia: Siege of Boston
 when: 1775-04 ~ 1776-03
+days: 1775-04-19 ~ 1776-03-17
 coords: -71.06, 42.36
 links: 25
 
 @ battle-of-chelsea-creek
 wikipedia: Battle of Chelsea Creek
 when: 1775-05
+days: 1775-05-28
 coords: -71.03, 42.38
 links: 9
 
 @ capture-of-fort-ticonderoga
 wikipedia: Capture of Fort Ticonderoga
 when: 1775-05
+days: 1775-05-10
 coords: -73.39, 43.84
 links: 18
 
 @ battle-off-fairhaven
 wikipedia: Battle off Fairhaven
 when: 1775-05
+days: 1775-05-14
 coords: -70.77, 41.57
 links: 4
 
 @ battle-of-bunker-hill
 wikipedia: Battle of Bunker Hill
 when: 1775-06
+days: 1775-06-17
 coords: -71.06, 42.38
 links: 38
 
 @ battle-of-machias
 wikipedia: Battle of Machias
 when: 1775-06
+days: 1775-06-11 ~ 1775-06-12
 coords: -67.38, 44.68
 links: 10
 
 @ battle-of-longue-pointe
 wikipedia: Battle of Longue-Pointe
 when: 1775-09
+days: 1775-09-25
 coords: -73.53, 45.56
 links: 8
 
 @ siege-of-fort-st-jean
 wikipedia: Siege of Fort St. Jean
 when: 1775-09 ~ 1775-11
+days: 1775-09-17 ~ 1775-11-03
 coords: -73.25, 45.3
 links: 11
 
 @ burning-of-falmouth
 wikipedia: Burning of Falmouth
 when: 1775-10
+days: 1775-10-18
 coords: -70.25, 43.65
 links: 9
 
 @ battle-of-kemp-s-landing
 wikipedia: Battle of Kemp's Landing
 when: 1775-11
+days: 1775-11-15
 coords: -76.16, 36.83
 links: 5
 
 @ battle-of-quebec-1775
 wikipedia: Battle of Quebec (1775)
 when: 1775-12
+days: 1775-12-31
 coords: -71.2, 46.82
 links: 24
 
 @ battle-of-great-bridge
 wikipedia: Battle of Great Bridge
 when: 1775-12
+days: 1775-12-09
 coords: -76.24, 36.72
 links: 9
 
 @ battle-of-the-rice-boats
 wikipedia: Battle of the Rice Boats
 when: 1776-03
+days: 1776-03-02 ~ 1776-03-03
 coords: -81.09, 32.08
 links: 5
 
 @ battle-of-the-cedars
 wikipedia: Battle of the Cedars
 when: 1776-05
+days: 1776-05-18 ~ 1776-05-27
 coords: -74.05, 45.31
 links: 11
 
 @ fortification-of-dorchester-heights
 wikipedia: Fortification of Dorchester Heights
 when: 1776-03
+days: 1776-03-04 ~ 1776-03-05
 coords: -71.05, 42.33
 links: 11
 
 @ battle-of-fort-cumberland-1776
 wikipedia: Battle of Fort Cumberland (1776)
 when: 1776-11
+days: 1776-11-10 ~ 1776-11-29
 coords: -64.29, 45.87
 links: 4
 
 @ battle-of-moore-s-creek-bridge
 wikipedia: Battle of Moore's Creek Bridge
 when: 1776-02
+days: 1776-02-27
 coords: -78.11, 34.46
 links: 10
 
 @ battle-of-saint-pierre
 wikipedia: Battle of Saint-Pierre
 when: 1776-03
+days: 1776-03-25
 coords: -70.63, 46.92
 links: 7
 
 @ battle-of-block-island
 wikipedia: Battle of Block Island
 when: 1776-04
+days: 1776-04-06
 coords: -71.25, 40.9
 links: 7
 
 @ battle-of-turtle-gut-inlet
 wikipedia: Battle of Turtle Gut Inlet
 when: 1776-06
+days: 1776-06-29
 coords: -74.84, 38.97
 links: 4
 
 @ battle-of-sullivan-s-island
 wikipedia: Battle of Sullivan's Island
 when: 1776-06
+days: 1776-06-28
 coords: -79.86, 32.76
 links: 7
 
 @ battle-of-trois-rivieres
 wikipedia: Battle of Trois-Rivières
 when: 1776-06
+days: 1776-06-08
 coords: -72.55, 46.34
 links: 15
 
 @ battle-of-long-island
 wikipedia: Battle of Long Island
 when: 1776-08
+days: 1776-08-27
 coords: -73.98, 40.67
 links: 34
 
 @ battle-of-harlem-heights
 wikipedia: Battle of Harlem Heights
 when: 1776-09
+days: 1776-09-16
 coords: -73.96, 40.81
 links: 16
 
 @ landing-at-kip-s-bay
 wikipedia: Landing at Kip's Bay
 when: 1776-09
+days: 1776-09-15
 coords: -73.97, 40.74
 links: 13
 
 @ battle-of-pell-s-point
 wikipedia: Battle of Pell's Point
 when: 1776-10
+days: 1776-10-18
 coords: -73.81, 40.87
 links: 10
 
 @ battle-of-valcour-island
 wikipedia: Battle of Valcour Island
 when: 1776-10
+days: 1776-10-11
 coords: -73.43, 44.61
 links: 18
 
 @ battle-of-white-plains
 wikipedia: Battle of White Plains
 when: 1776-10
+days: 1776-10-28
 coords: -73.78, 41.03
 links: 18
 
 @ battle-of-fort-washington
 wikipedia: Battle of Fort Washington
 when: 1776-11
+days: 1776-11-16
 coords: -73.94, 40.85
 links: 19
 
 @ battle-of-trenton
 wikipedia: Battle of Trenton
 when: 1776-12
+days: 1776-12-26
 coords: -74.76, 40.23
 links: 33
 
 @ battle-of-iron-works-hill
 wikipedia: Battle of Iron Works Hill
 when: 1776-12
+days: 1776-12-22 ~ 1776-12-23
 coords: -74.79, 39.99
 links: 6
 
 @ george-washington-s-crossing-of-the-delaware-river
 wikipedia: George Washington's crossing of the Delaware River
 when: 1776-12
+days: 1776-12-25 ~ 1776-12-26
 coords: -74.87, 40.3
 links: 13
 
 @ battle-of-the-assunpink-creek
 wikipedia: Battle of the Assunpink Creek
 when: 1777-01
+days: 1777-01-02
 coords: -74.76, 40.22
 links: 12
 
 @ battle-of-white-marsh
 wikipedia: Battle of White Marsh
 when: 1777-12
+days: 1777-12-05 ~ 1777-12-08
 coords: -75.23, 40.12
 links: 8
 
 @ battle-of-princeton
 wikipedia: Battle of Princeton
 when: 1777-01
+days: 1777-01-03
 coords: -74.67, 40.33
 links: 28
 
 @ battle-of-millstone
 wikipedia: Battle of Millstone
 when: 1777-01
+days: 1777-01-20
 coords: -74.59, 40.54
 links: 4
 
 @ siege-of-fort-stanwix
 wikipedia: Siege of Fort Stanwix
 when: 1777-08
+days: 1777-08-02 ~ 1777-08-22
 coords: -75.46, 43.21
 links: 6
 
 @ battle-of-bound-brook
 wikipedia: Battle of Bound Brook
 when: 1777-04
+days: 1777-04-13
 coords: -74.53, 40.56
 links: 10
 
 @ battle-of-ridgefield
 wikipedia: Battle of Ridgefield
 when: 1777-04
+days: 1777-04-27
 coords: -73.5, 41.31
 links: 5
 
 @ battle-of-short-hills
 wikipedia: Battle of Short Hills
 when: 1777-06
+days: 1777-06-26
 coords: -74.33, 40.75
 links: 10
 
 @ battle-of-hubbardton
 wikipedia: Battle of Hubbardton
 when: 1777-07
+days: 1777-07-07
 coords: -73.14, 43.7
 links: 10
 
 @ siege-of-fort-ticonderoga-1777
 wikipedia: Siege of Fort Ticonderoga (1777)
 when: 1777-07
+days: 1777-07-02 ~ 1777-07-06
 coords: -73.39, 43.84
 links: 11
 
 @ battle-of-fort-anne
 wikipedia: Battle of Fort Anne
 when: 1777-07
+days: 1777-07-08
 coords: -73.48, 43.43
 links: 8
 
 @ battle-of-oriskany
 wikipedia: Battle of Oriskany
 when: 1777-08
+days: 1777-08-06
 coords: -75.37, 43.18
 links: 15
 
 @ battle-of-staten-island
 wikipedia: Battle of Staten Island
 when: 1777-08
+days: 1777-08-22
 coords: -74.14, 40.58
 links: 8
 
 @ battle-of-bennington
 wikipedia: Battle of Bennington
 when: 1777-08
+days: 1777-08-16
 coords: -73.3, 42.94
 links: 16
 
 @ battle-of-machias-1777
 wikipedia: Battle of Machias (1777)
 when: 1777-08
+days: 1777-08-13 ~ 1777-08-14
 coords: -67.46, 44.71
 links: 4
 
 @ battle-of-brandywine
 wikipedia: Battle of Brandywine
 when: 1777-09
+days: 1777-09-11
 coords: -75.59, 39.87
 links: 27
 
 @ battle-of-cooch-s-bridge
 wikipedia: Battle of Cooch's Bridge
 when: 1777-09
+days: 1777-09-03
 coords: -75.73, 39.64
 links: 5
 
 @ battle-of-paoli
 wikipedia: Battle of Paoli
 when: 1777-09
+days: 1777-09-20
 coords: -75.52, 40.03
 links: 9
 
 @ siege-of-fort-mifflin
 wikipedia: Siege of Fort Mifflin
 when: 1777-09 ~ 1777-11
+days: 1777-09-26 ~ 1777-11-16
 coords: -75.21, 39.87
 links: 5
 
 @ battle-of-forts-clinton-and-montgomery
 wikipedia: Battle of Forts Clinton and Montgomery
 when: 1777-10
+days: 1777-10-06
 coords: -73.99, 41.32
 links: 7
 
 @ battle-of-germantown
 wikipedia: Battle of Germantown
 when: 1777-10
+days: 1777-10-04
 coords: -75.16, 40.02
 links: 18
 
 @ battles-of-saratoga
 wikipedia: Battles of Saratoga
 when: 1777-09 ~ 1777-10
+days: 1777-09-19
 coords: -73.64, 43
 links: 37
 
 @ battle-of-red-bank
 wikipedia: Battle of Red Bank
 when: 1777-10
+days: 1777-10-22
 coords: -75.19, 39.87
 links: 5
 
 @ battle-of-gloucester-1777
 wikipedia: Battle of Gloucester (1777)
 when: 1777-11
+days: 1777-11-25
 coords: -75.19, 39.87
 links: 4
 
 @ siege-of-boonesborough
 wikipedia: Siege of Boonesborough
 when: 1778-09
+days: 1778-09-07 ~ 1778-09-18
 coords: -84.27, 37.91
 links: 6
 
 @ battle-of-cobleskill
 wikipedia: Battle of Cobleskill
 when: 1778-05
+days: 1778-05-30
 coords: -74.49, 42.68
 links: 6
 
 @ battle-of-barren-hill
 wikipedia: Battle of Barren Hill
 when: 1778-05
+days: 1778-05-20
 coords: -75.25, 40.08
 links: 5
 
 @ battle-of-crooked-billet
 wikipedia: Battle of Crooked Billet
 when: 1778-05
+days: 1778-05-01
 coords: -75.11, 40.17
 links: 4
 
 @ mount-hope-bay-raids
 wikipedia: Mount Hope Bay raids
 when: 1778-05
+days: 1778-05-25 ~ 1778-05-30
 coords: -71.22, 41.69
 links: 6
 
 @ battle-of-monmouth
 wikipedia: Battle of Monmouth
 when: 1778-06
+days: 1778-06-28
 coords: -74.28, 40.26
 links: 24
 
 @ battle-of-alligator-creek-bridge
 wikipedia: Battle of Alligator Creek Bridge
 when: 1778-06
+days: 1778-06-30
 coords: -81.83, 30.57
 links: 4
 
 @ battle-of-wyoming
 wikipedia: Battle of Wyoming
 when: 1778-07
+days: 1778-07-03
 coords: -75.82, 41.32
 links: 15
 
 @ battle-of-rhode-island
 wikipedia: Battle of Rhode Island
 when: 1778-08
+days: 1778-08-29
 coords: -71.26, 41.6
 links: 10
 
 @ affair-at-little-egg-harbor
 wikipedia: Affair at Little Egg Harbor
 when: 1778-10
+days: 1778-10-15
 coords: -74.37, 39.55
 links: 5
 
 @ cherry-valley-massacre
 wikipedia: Cherry Valley massacre
 when: 1778-11
+days: 1778-11-11
 coords: -74.76, 42.79
 links: 9
 
 @ battle-of-minisink
 wikipedia: Battle of Minisink
 when: 1779-07
+days: 1779-07-19 ~ 1779-07-22
 coords: -74.97, 41.49
 links: 6
 
 @ battle-of-baton-rouge-1779
 wikipedia: Battle of Baton Rouge (1779)
 when: 1779-09
+days: 1779-09-20 ~ 1779-09-21
 coords: -91.13, 30.45
 links: 9
 
 @ battle-of-beaufort
 wikipedia: Battle of Beaufort
 when: 1779-02
+days: 1779-02-03
 coords: -80.74, 32.5
 links: 6
 
 @ battle-of-kettle-creek
 wikipedia: Battle of Kettle Creek
 when: 1779-02
+days: 1779-02-14
 coords: -82.89, 33.69
 links: 6
 
 @ siege-of-fort-vincennes
 wikipedia: Siege of Fort Vincennes
 when: 1779-02
+days: 1779-02-23 ~ 1779-02-25
 coords: -87.54, 38.68
 links: 4
 
 @ battle-of-brier-creek
 wikipedia: Battle of Brier Creek
 when: 1779-03
+days: 1779-03-03
 coords: -81.48, 32.81
 links: 6
 
 @ battle-of-stono-ferry
 wikipedia: Battle of Stono Ferry
 when: 1779-06
+days: 1779-06-20
 coords: -80.13, 32.76
 links: 4
 
 @ battle-of-stony-point
 wikipedia: Battle of Stony Point
 when: 1779-07
+days: 1779-07-16
 coords: -73.97, 41.24
 links: 9
 
 @ battle-of-newtown
 wikipedia: Battle of Newtown
 when: 1779-08
+days: 1779-08-29
 coords: -76.73, 42.05
 links: 9
 
 @ battle-of-paulus-hook
 wikipedia: Battle of Paulus Hook
 when: 1779-08
+days: 1779-08-19
 coords: -74.04, 40.71
 links: 5
 
 @ penobscot-expedition
 wikipedia: Penobscot Expedition
 when: 1779-08
+days: 1779-08-14
 coords: -68.81, 44.39
 links: 10
 
 @ capture-of-fort-bute
 wikipedia: Capture of Fort Bute
 when: 1779-09
+days: 1779-09-07
 coords: -91.14, 30.32
 links: 7
 
 @ siege-of-savannah-1779
 wikipedia: Siege of Savannah (1779)
 when: 1779-09 ~ 1779-10
+days: 1779-09-16 ~ 1779-10-18
 coords: -81.1, 32.05
 links: 14
 
 @ battle-of-lake-pontchartrain
 wikipedia: Battle of Lake Pontchartrain
 when: 1779-09
+days: 1779-09-10
 coords: -90.1, 30.19
 links: 8
 
 @ battle-of-fort-charlotte
 wikipedia: Battle of Fort Charlotte
 when: 1780-03
+days: 1780-03-02 ~ 1780-03-14
 coords: -88.05, 30.73
 links: 9
 
 @ siege-of-charleston
 wikipedia: Siege of Charleston
 when: 1780-03 ~ 1780-05
+days: 1780-03-29 ~ 1780-05-12
 coords: -79.93, 32.78
 links: 14
 
 @ battle-of-waxhaws
 wikipedia: Battle of Waxhaws
 when: 1780-05
+days: 1780-05-29
 coords: -80.63, 34.74
 links: 14
 
 @ battle-of-st-louis
 wikipedia: Battle of St. Louis
 when: 1780-05
+days: 1780-05-26
 coords: -90.19, 38.62
 links: 9
 
 @ battle-of-springfield
 wikipedia: Battle of Springfield
 when: 1780-06
+days: 1780-06-23
 coords: -74.31, 40.71
 links: 7
 
 @ battle-of-camden
 wikipedia: Battle of Camden
 when: 1780-08
+days: 1780-08-16
 coords: -80.61, 34.36
 links: 20
 
 @ battle-of-piqua
 wikipedia: Battle of Piqua
 when: 1780-08
+days: 1780-08-08
 coords: -83.91, 39.91
 links: 4
 
 @ battle-of-charlotte
 wikipedia: Battle of Charlotte
 when: 1780-09
+days: 1780-09-26
 coords: -80.84, 35.23
 links: 4
 
 @ battle-of-kings-mountain
 wikipedia: Battle of Kings Mountain
 when: 1780-10
+days: 1780-10-07
 coords: -81.38, 35.14
 links: 14
 
 @ battle-of-blackstock-s-farm
 wikipedia: Battle of Blackstock's Farm
 when: 1780-11
+days: 1780-11-20
 coords: -81.81, 34.68
 links: 4
 
 @ battle-at-the-village
 wikipedia: Battle at The Village
 when: 1781-01
+days: 1781-01-07
 coords: -87.91, 30.66
 links: 6
 
 @ battle-of-cowpens
 wikipedia: Battle of Cowpens
 when: 1781-01
+days: 1781-01-17
 coords: -81.82, 35.14
 links: 19
 
 @ siege-of-fort-watson
 wikipedia: Siege of Fort Watson
 when: 1781-04
+days: 1781-04-15 ~ 1781-04-23
 coords: -80.44, 33.54
 links: 4
 
 @ pyle-s-massacre
 wikipedia: Pyle's Massacre
 when: 1781-02
+days: 1781-02-25
 coords: -79.4, 36.04
 links: 4
 
 @ battle-of-guilford-court-house
 wikipedia: Battle of Guilford Court House
 when: 1781-03
+days: 1781-03-15
 coords: -79.84, 36.13
 links: 14
 
 @ battle-of-cape-henry
 wikipedia: Battle of Cape Henry
 when: 1781-03
+days: 1781-03-16
 coords: -75.15, 37.15
 links: 10
 
 @ battle-of-hobkirk-s-hill
 wikipedia: Battle of Hobkirk's Hill
 when: 1781-04
+days: 1781-04-25
 coords: -80.61, 34.27
 links: 9
 
 @ battle-of-blandford
 wikipedia: Battle of Blandford
 when: 1781-04
+days: 1781-04-25
 coords: -77.39, 37.23
 links: 5
 
@@ -615,71 +715,83 @@ links: 15
 @ siege-of-ninety-six
 wikipedia: Siege of Ninety Six
 when: 1781-05 ~ 1781-06
+days: 1781-05-22 ~ 1781-06-19
 coords: -82.02, 34.15
 links: 4
 
 @ battle-of-spencer-s-ordinary
 wikipedia: Battle of Spencer's Ordinary
 when: 1781-06
+days: 1781-06-26
 coords: -76.8, 37.32
 links: 4
 
 @ battle-of-green-spring
 wikipedia: Battle of Green Spring
 when: 1781-07
+days: 1781-07-06
 coords: -76.78, 37.24
 links: 6
 
 @ lochry-s-defeat
 wikipedia: Lochry's Defeat
 when: 1781-08
+days: 1781-08-24
 coords: -84.89, 39.03
 links: 5
 
 @ siege-of-yorktown
 wikipedia: Siege of Yorktown
 when: 1781-09 ~ 1781-10
+days: 1781-09-28 ~ 1781-10-19
 coords: -76.5, 37.23
 links: 45
 
 @ battle-of-eutaw-springs
 wikipedia: Battle of Eutaw Springs
 when: 1781-09
+days: 1781-09-08
 coords: -80.3, 33.41
 links: 11
 
 @ battle-of-groton-heights
 wikipedia: Battle of Groton Heights
 when: 1781-09
+days: 1781-09-06
 coords: -72.08, 41.35
 links: 6
 
 @ battle-of-the-chesapeake
 wikipedia: Battle of the Chesapeake
 when: 1781-09
+days: 1781-09-05
 coords: -75.54, 36.97
 links: 30
 
 @ siege-of-fort-henry-1782
 wikipedia: Siege of Fort Henry (1782)
 when: 1782-09
+days: 1782-09-11 ~ 1782-09-13
 coords: -80.72, 40.06
 links: 4
 
 @ battle-of-delaware-bay
 wikipedia: Battle of Delaware Bay
 when: 1782-04
+days: 1782-04-08
 coords: -74.97, 39.08
 links: 4
 
 @ battle-of-blue-licks
 wikipedia: Battle of Blue Licks
 when: 1782-08
+days: 1782-08-19
 coords: -83.99, 38.43
 links: 11
 
 @ colbert-raid
 wikipedia: Colbert raid
 when: 1783-04
+days: 1783-04-17
 coords: -91.35, 34.02
 links: 4

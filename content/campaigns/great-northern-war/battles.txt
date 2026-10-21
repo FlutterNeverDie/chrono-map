@@ -3,36 +3,42 @@
 @ siege-of-riga-1700
 wikipedia: Siege of Riga (1700)
 when: 1700
+days: 1700-02-22
 coords: 24.11, 56.95
 links: 10
 
 @ battle-of-narva-1700
 wikipedia: Battle of Narva (1700)
 when: 1700
+days: 1700-11-30
 coords: 28.18, 59.38
 links: 42
 
 @ battle-of-valkininkai-1700
 wikipedia: Battle of Valkininkai (1700)
 when: 1700
+days: 1700-11-18
 coords: 24.83, 54.35
 links: 6
 
 @ crossing-of-the-duna
 wikipedia: Crossing of the Düna
 when: 1701
+days: 1701-07-18
 coords: 24.07, 56.98
 links: 15
 
 @ battle-of-rauge
 wikipedia: Battle of Rauge
 when: 1701
+days: 1701-09-04
 coords: 26.91, 57.73
 links: 6
 
 @ battle-of-erastfer
 wikipedia: Battle of Erastfer
 when: 1702
+days: 1702-01-09
 coords: 26.78, 57.97
 links: 11
 
@@ -45,192 +51,224 @@ links: 7
 @ battle-of-hummelshof
 wikipedia: Battle of Hummelshof
 when: 1702
+days: 1702-07-29
 coords: 26.03, 57.78
 links: 12
 
 @ battle-of-kliszow
 wikipedia: Battle of Kliszów
 when: 1702
+days: 1702-07-19
 coords: 20.53, 50.62
 links: 16
 
 @ siege-of-noteborg-1702
 wikipedia: Siege of Nöteborg (1702)
 when: 1702
+days: 1702-10-07 ~ 1702-10-22
 coords: 31.03, 59.95
 links: 12
 
 @ battle-of-salociai-1703
 wikipedia: Battle of Saločiai (1703)
 when: 1703
+days: 1703-03-29
 coords: 24.36, 56.25
 links: 9
 
 @ battle-of-pu-tusk-1703
 wikipedia: Battle of Pułtusk (1703)
 when: 1703
+days: 1703-05-01
 coords: 21.1, 52.72
 links: 13
 
 @ siege-of-thorn-1703
 wikipedia: Siege of Thorn (1703)
 when: 1703
+days: 1703-05-26 ~ 1703-10-14
 coords: 18.62, 53.02
 links: 9
 
 @ battle-of-systerback
 wikipedia: Battle of Systerbäck
 when: 1703
+days: 1703-07-19
 coords: 29.98, 60.12
 links: 5
 
 @ battle-of-wesenberg-1704
 wikipedia: Battle of Wesenberg (1704)
 when: 1704
+days: 1704-06-15
 coords: 26.35, 59.35
 links: 5
 
 @ siege-of-narva-1704
 wikipedia: Siege of Narva (1704)
 when: 1704
+days: 1704-06-27 ~ 1704-08-09
 coords: 28.2, 59.38
 links: 18
 
 @ battle-of-poznan-1704
 wikipedia: Battle of Poznań (1704)
 when: 1704
+days: 1704-08-09
 coords: 16.92, 52.4
 links: 6
 
 @ battle-of-jakobstadt
 wikipedia: Battle of Jakobstadt
 when: 1704
+days: 1704-08-05
 coords: 25.87, 56.5
 links: 12
 
 @ storming-of-lemberg
 wikipedia: Storming of Lemberg
 when: 1704
+days: 1704-09-06
 coords: 24.03, 49.84
 links: 7
 
 @ battle-of-poniec
 wikipedia: Battle of Poniec
 when: 1704
+days: 1704-10-28
 coords: 16.82, 51.76
 links: 10
 
 @ battle-of-gemauerthof
 wikipedia: Battle of Gemauerthof
 when: 1705
+days: 1705-07-26
 coords: 23.53, 56.43
 links: 17
 
 @ battle-of-fraustadt
 wikipedia: Battle of Fraustadt
 when: 1706
+days: 1706-02-13
 coords: 16.32, 51.8
 links: 13
 
 @ battle-of-kletsk-1706
 wikipedia: Battle of Kletsk (1706)
 when: 1706
+days: 1706-04-30
 coords: 26.64, 53.06
 links: 5
 
 @ battle-of-kalisz
 wikipedia: Battle of Kalisz
 when: 1706
+days: 1706-10-29
 coords: 18.08, 51.76
 links: 11
 
 @ battle-of-holowczyn
 wikipedia: Battle of Holowczyn
 when: 1708
+days: 1708-07-14
 coords: 28.91, 54.06
 links: 17
 
 @ battle-of-malatitze
 wikipedia: Battle of Malatitze
 when: 1708
+days: 1708-09-10
 coords: 31.54, 53.86
 links: 9
 
 @ battle-of-lesnaya
 wikipedia: Battle of Lesnaya
 when: 1708
+days: 1708-10-09
 coords: 30.92, 53.54
 links: 30
 
 @ battle-of-koniecpol
 wikipedia: Battle of Koniecpol
 when: 1708
+days: 1708-11-21
 coords: 19.68, 50.78
 links: 7
 
 @ sack-of-baturyn
 wikipedia: Sack of Baturyn
 when: 1708
+days: 1708-11-01 ~ 1708-11-02
 coords: 32.87, 51.33
 links: 10
 
 @ siege-of-vepryk
 wikipedia: Siege of Vepryk
 when: 1708 ~ 1709
+days: 1708-12-24 ~ 1709-01-07
 coords: 29.81, 50.11
 links: 8
 
 @ battle-of-poltava
 wikipedia: Battle of Poltava
 when: 1709
+days: 1709-07-08
 coords: 34.55, 49.63
 links: 62
 
 @ siege-of-riga-1709-1710
 wikipedia: Siege of Riga (1709–1710)
 when: 1709 ~ 1710
+days: 1709-11-14 ~ 1710-07-04
 coords: 24.11, 56.95
 links: 7
 
 @ battle-of-helsingborg
 wikipedia: Battle of Helsingborg
 when: 1710
+days: 1710-03-10
 coords: 12.72, 56.08
 links: 14
 
 @ siege-of-viborg-1710
 wikipedia: Siege of Viborg (1710)
 when: 1710
+days: 1710-03-01 ~ 1710-06-12
 coords: 28.74, 60.71
 links: 9
 
 @ siege-of-stralsund-1711-1715
 wikipedia: Siege of Stralsund (1711–1715)
 when: 1711 ~ 1715
+days: 1711-09-07 ~ 1715-12-24
 coords: 13.08, 54.3
 links: 9
 
 @ battle-of-gadebusch
 wikipedia: Battle of Gadebusch
 when: 1712
+days: 1712-12-20
 coords: 11.11, 53.67
 links: 15
 
 @ skirmish-at-bender
 wikipedia: Skirmish at Bender
 when: 1713
+days: 1713-02-01
 coords: 29.48, 46.83
 links: 16
 
 @ battle-of-hogland-1713
 wikipedia: Battle of Hogland (1713)
 when: 1713
+days: 1713-07-10 ~ 1713-07-11
 coords: 25.6, 59.99
 links: 5
 
 @ battle-of-palkane
 wikipedia: Battle of Pälkäne
 when: 1713
+days: 1713-10-17
 coords: 24.27, 61.34
 links: 9
 
@@ -243,30 +281,35 @@ links: 11
 @ battle-of-napue
 wikipedia: Battle of Napue
 when: 1714
+days: 1714-03-02
 coords: 22.32, 63
 links: 13
 
 @ battle-of-gangut
 wikipedia: Battle of Gangut
 when: 1714
+days: 1714-08-06
 coords: 23.08, 59.94
 links: 34
 
 @ battle-of-rugen-1715
 wikipedia: Battle of Rügen (1715)
 when: 1715
+days: 1715-08-08
 coords: 13.51, 54.59
 links: 5
 
 @ battle-of-stresow
 wikipedia: Battle of Stresow
 when: 1715
+days: 1715-11-16
 coords: 13.57, 54.35
 links: 7
 
 @ battle-of-dynekilen
 wikipedia: Battle of Dynekilen
 when: 1716
+days: 1716-07-08
 coords: 11.22, 59.01
 links: 12
 
@@ -279,35 +322,41 @@ links: 5
 @ battle-of-stromstad
 wikipedia: Battle of Strömstad
 when: 1717
+days: 1717-07-08
 coords: 11.18, 58.93
 links: 5
 
 @ siege-of-fredriksten
 wikipedia: Siege of Fredriksten
 when: 1718
+days: 1718-11-20 ~ 1718-12-14
 coords: 11.4, 59.12
 links: 9
 
 @ battle-of-osel-island
 wikipedia: Battle of Ösel Island
 when: 1719
+days: 1719-06-04
 coords: 22.5, 58.42
 links: 9
 
 @ attack-on-marstrand
 wikipedia: Attack on Marstrand
 when: 1719
+days: 1719-07-10 ~ 1719-07-16
 coords: 11.58, 57.89
 links: 6
 
 @ battle-of-staket
 wikipedia: Battle of Stäket
 when: 1719
+days: 1719-08-24
 coords: 18.28, 59.3
 links: 9
 
 @ battle-of-grengam
 wikipedia: Battle of Grengam
 when: 1720
+days: 1720-08-07
 coords: 20.3, 60
 links: 15

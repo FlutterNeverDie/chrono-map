@@ -9,12 +9,14 @@ links: 20
 @ battle-of-badr
 wikipedia: Battle of Badr
 when: 624
+days: 0624-03-12
 coords: 38.77, 23.73
 links: 81
 
 @ battle-of-uhud
 wikipedia: Battle of Uhud
 when: 625
+days: 0625-03-23
 coords: 39.61, 24.5
 links: 64
 
@@ -69,6 +71,7 @@ links: 10
 @ battle-of-buzakha
 wikipedia: Battle of Buzakha
 when: 632
+days: 0632-09-01
 coords: 41.68, 27.52
 links: 13
 
@@ -99,12 +102,14 @@ links: 17
 @ battle-of-naqra
 wikipedia: Battle of Naqra
 when: 633
+days: 0633-10-01
 coords: 46.55, 24.62
 links: 8
 
 @ siege-of-damascus-634
 wikipedia: Siege of Damascus (634)
 when: 634
+days: 0634-08-21 ~ 0634-09-19
 coords: 36.29, 33.51
 links: 27
 
@@ -117,6 +122,7 @@ links: 29
 @ battle-of-marj-rahit-634
 wikipedia: Battle of Marj Rahit (634)
 when: 634
+days: 0634-04-24
 coords: 36.52, 33.6
 links: 10
 
@@ -147,12 +153,14 @@ links: 13
 @ battle-of-the-yarmuk
 wikipedia: Battle of the Yarmuk
 when: 636
+days: 0636-08-15 ~ 0636-08-20
 coords: 35.95, 32.81
 links: 61
 
 @ battle-of-al-qadisiyyah
 wikipedia: Battle of al-Qadisiyyah
 when: 636
+days: 0636-11-16 ~ 0636-11-19
 coords: 44.5, 31.58
 links: 43
 
@@ -201,6 +209,7 @@ links: 10
 @ battle-of-heliopolis
 wikipedia: Battle of Heliopolis
 when: 640
+days: 0640-07-06
 coords: 31.29, 30.13
 links: 18
 
@@ -273,12 +282,14 @@ links: 15
 @ battle-of-guadalete
 wikipedia: Battle of Guadalete
 when: 711
+days: 0711-07-19
 coords: -6.22, 36.6
 links: 44
 
 @ siege-of-constantinople-717-718
 wikipedia: Siege of Constantinople (717–718)
 when: 717 ~ 718
+days: 0717-07-15 ~ 0718-08-15
 coords: 28.98, 41.01
 links: 47
 
@@ -291,6 +302,7 @@ links: 44
 @ battle-of-toulouse-721
 wikipedia: Battle of Toulouse (721)
 when: 721
+days: 0721-06-09
 coords: 1.45, 43.6
 links: 29
 

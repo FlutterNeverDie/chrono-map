@@ -3,24 +3,28 @@
 @ operation-ceinture
 wikipedia: Operation Ceinture
 when: 1947-11 ~ 1947-12
+days: 1947-11-20 ~ 1947-12-22
 coords: 105.7, 21.75
 links: 3
 
 @ battle-of-route-coloniale-4
 wikipedia: Battle of Route Coloniale 4
 when: 1950-10
+days: 1950-10-01 ~ 1950-10-13
 coords: 106.45, 22.4
 links: 12
 
 @ battle-of-vinh-yen
 wikipedia: Battle of Vĩnh Yên
 when: 1951-01
+days: 1951-01-13 ~ 1951-01-17
 coords: 105.6, 21.31
 links: 8
 
 @ battle-of-mao-khe
 wikipedia: Battle of Mạo Khê
 when: 1951-03
+days: 1951-03-23 ~ 1951-03-28
 coords: 106.6, 21.06
 links: 6
 
@@ -33,35 +37,41 @@ links: 6
 @ operation-lorraine
 wikipedia: Operation Lorraine
 when: 1952-10 ~ 1952-11
+days: 1952-10-29 ~ 1952-11-08
 coords: 105.2, 21.45
 links: 5
 
 @ operation-hirondelle
 wikipedia: Operation Hirondelle
 when: 1953-07
+days: 1953-07-17 ~ 1953-07-19
 coords: 106.76, 21.85
 links: 3
 
 @ operation-camargue
 wikipedia: Operation Camargue
 when: 1953-07 ~ 1953-08
+days: 1953-07-28 ~ 1953-08-10
 coords: 107.35, 16.75
 links: 5
 
 @ operation-mouette
 wikipedia: Operation Mouette
 when: 1953-10 ~ 1953-11
+days: 1953-10-15 ~ 1953-11-07
 coords: 105.75, 20.35
 links: 4
 
 @ operation-castor
 wikipedia: Operation Castor
 when: 1953-11
+days: 1953-11-20 ~ 1953-11-22
 coords: 103.03, 21.41
 links: 6
 
 @ operation-atlante
 wikipedia: Operation Atlante
 when: 1954-01 ~ 1954-03
+days: 1954-01-20
 coords: 109.2, 13.3
 links: 5

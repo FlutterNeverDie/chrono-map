@@ -2,7 +2,12 @@ import type { Locale } from "@/lib/types";
 import { getMessages } from "@/i18n";
 import { I18nProvider } from "@/i18n/I18nProvider";
 import { YearGauge, YearStepSetting } from "@/features/timeline";
-import { Attribution, TiltSetting, WorldMap } from "@/features/map";
+import {
+  Attribution,
+  HeadingControl,
+  TiltSetting,
+  WorldMap,
+} from "@/features/map";
 import { EventPanel, MapTitle } from "@/features/events";
 import { EventsProvider } from "@/store/events";
 import { localizeEvent } from "@/lib/localize";
@@ -30,6 +35,8 @@ export function HomeScreen({ locale }: { locale: Locale }) {
           </div>
 
           <MapTitle />
+
+          <HeadingControl />
 
           <EventPanel ad={<AdSlot name="infeed" />} />
 

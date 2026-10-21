@@ -3,9 +3,9 @@
 //
 // 형식은 content/CLAUDE.md. 오류가 있으면 "파일:줄" 목록을 출력하고 실패한다.
 // 네트워크를 쓰지 않는다 — 위키백과 요약은 미리 `npm run wiki`로 받아 둔 파일을 쓴다.
-import { mkdirSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
-import type { Content } from "../src/lib/types";
+import type { Content, EventPhoto } from "../src/lib/types";
 import { readEvents, readRankings, root } from "./lib/content";
 import { readWikiCache, tidyPages } from "./lib/wikipedia";
 import { listCampaigns, readTheme } from "./campaigns/lib";
@@ -31,8 +31,20 @@ for (const e of events) {
   e.wiki = tidyPages(entry.pages);
 }
 
+// 사진(npm run photos가 받아 둔 public/photos + content/photos.json) - 파일이 있는 것만
+const photos: Record<string, EventPhoto | null> = existsSync(root("content/photos.json"))
+  ? JSON.parse(readFileSync(root("content/photos.json"), "utf8"))
+  : {};
+for (const e of events) {
+  const p = photos[e.id];
+  if (p && existsSync(root(`public/photos/${e.id}-s.webp`)))
+    e.photo = p;
+}
+
 // 같은 위키백과 문서를 쓰는 전쟁 지도와 연결 → 사건 카드에 "전쟁 지도로 보기"
-const campaignOf = new Map(listCampaigns().map((id) => [readTheme(id).wikipedia, id]));
+const campaignOf = new Map(
+  listCampaigns().map((id) => [readTheme(id).wikipedia, id]),
+);
 for (const e of events) {
   const id = e.wikipedia && campaignOf.get(e.wikipedia);
   if (id) e.campaign = id;

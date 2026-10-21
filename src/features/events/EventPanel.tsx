@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, type ReactNode } from "react";
+import { useEffect, useRef, type ReactNode } from "react";
 
 import clsx from "clsx";
 import { useUi } from "@/store/ui";
@@ -12,7 +12,6 @@ import { fill } from "@/i18n";
 import { useI18n } from "@/i18n/I18nProvider";
 import { ChevronUpIcon, XIcon } from "@/components/ui/icons";
 import { EventList, useRankedEvents } from "./EventList";
-import { CategoryFilter } from "./CategoryFilter";
 import { useEventUrl } from "./useEventUrl";
 
 /**
@@ -24,12 +23,16 @@ export function EventPanel({ ad }: { ad?: ReactNode } = {}) {
   const { locale, messages } = useI18n();
   useEventUrl();
   const period = usePeriod();
+  // 기간을 바꾸면 목록이 맨 위부터 새로 - 고른 동안 멈춰 둔 정렬도 지도 기준으로(store/ui frozenViewpoint)
+  const unfreeze = useUi((s) => s.unfreezeRanking);
+  useEffect(() => unfreeze(), [period.start, unfreeze]);
   const open = useUi((s) => s.panelOpen);
   const half = useUi((s) => s.panelOpen && s.panelHalf);
   const setOpen = useUi((s) => s.setPanelOpen);
   const shrink = useUi((s) => s.shrinkPanel);
   const full = open && !half;
   // 머리줄 위아래로 쓸기: 위로 = 크게, 아래로 = 한 단계 작게(크게 → 절반 → 닫힘). 쓸었으면 뒤따르는 click은 버린다
+  const scroller = useRef<HTMLDivElement>(null);
   const swipe = useRef<{ y: number; done: boolean } | null>(null);
   const step = (dir: "up" | "down") => {
     if (dir === "up") setOpen(true);
@@ -127,11 +130,8 @@ export function EventPanel({ ad }: { ad?: ReactNode } = {}) {
           </button>
         )}
       </div>
-      {/* 휴대폰 절반 시트(점을 탭해 연 때)는 분류 칩을 숨겨 고른 카드 자리를 넓힌다 - 머리줄을 눌러 크게 열면 다시 보임 */}
-      <div className={clsx(full ? "block" : "hidden", "lg:block")}>
-        <CategoryFilter />
-      </div>
       <div
+        ref={scroller}
         className={clsx(
           // 휴대폰은 아래 연도 말풍선이 목록 끝을 가려서, 끝까지 내렸을 때 마지막 줄(출처)이 그 위로 오게 여백
           "overflow-y-auto overscroll-contain px-3 pb-10 lg:pb-3",
@@ -139,7 +139,7 @@ export function EventPanel({ ad }: { ad?: ReactNode } = {}) {
           "lg:block lg:max-h-none lg:flex-1",
         )}
       >
-        <EventList ad={ad} />
+        <EventList ad={ad} scroller={scroller} />
       </div>
     </section>
   );

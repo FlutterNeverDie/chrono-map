@@ -1,13 +1,14 @@
 "use client";
 
-import { useEffect, useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
+import dynamic from "next/dynamic";
+import { useHydrated } from "@/components/map/useHydrated";
+import { glAvailable, markGlFailed } from "@/components/map/gl/support";
 import { useI18n } from "@/i18n/I18nProvider";
 import {
-  polityColor,
   useMapViewport,
   usePolities,
   usePolityNames,
-  labelCandidates,
   type PolityProps,
 } from "@/components/map";
 import { useCampaign, useCampaignState } from "./store";
@@ -16,24 +17,39 @@ import {
   battlesAt,
   campaignTitle,
   formatTime,
-  hasSides,
-  sideOf,
   yearOf,
 } from "./logic";
-import type { SideKey } from "./types";
+import { battleRadius, polityFill, polityLabels } from "./mapStyle";
 
-const SIDE_FILL: Record<SideKey, string> = {
-  a: "var(--side-a)",
-  b: "var(--side-b)",
-  n: "var(--side-n)",
-};
 const round2 = (v: number) => Math.round(v * 100) / 100;
+
+/** WebGL 판(기본) - 코드는 따로 받는다 */
+const CampaignMapGl = dynamic(
+  () => import("./CampaignMapGl").then((m) => m.CampaignMapGl),
+  { ssr: false },
+);
 
 /**
  * 전쟁 지도: 그 시점의 진영별 영토(진영이 없으면 나라별 색) + 진행 중인 전투.
- * 지도 조작(끌기·확대·이동)은 공용 useMapViewport.
+ * 브라우저에서는 WebGL 판(CampaignMapGl - 기울이기·방향 돌리기까지 본 지도와 같은 손짓), WebGL2가 없거나 실패하거나 ?svg면 svg 판.
  */
 export function CampaignMap() {
+  const hydrated = useHydrated();
+  const [broken, setBroken] = useState(false);
+  if (hydrated && !broken && glAvailable())
+    return (
+      <CampaignMapGl
+        onFail={() => {
+          markGlFailed();
+          setBroken(true);
+        }}
+      />
+    );
+  return <CampaignMapSvg />;
+}
+
+/** svg 판(서버 HTML·WebGL을 못 쓸 때). 지도 조작(끌기·확대·이동)은 공용 useMapViewport */
+function CampaignMapSvg() {
   const { locale } = useI18n();
   const c = useCampaign();
   const t = useCampaignState((s) => s.t);
@@ -48,7 +64,6 @@ export function CampaignMap() {
   );
   const polities = usePolities(`/campaigns/${c.id}/borders/${snapshot}.json`);
   const nameOf = usePolityNames(locale);
-  const sided = hasSides(c);
 
   useEffect(() => {
     if (focus) return vp.focusTo(focus.coords, c.view.zoom * 1.6);
@@ -58,60 +73,12 @@ export function CampaignMap() {
 
   const battles = useMemo(() => battlesAt(c, t), [c, t]);
   const unit = 1 / vp.zoom;
-  const fillOf = (p: PolityProps): [string, number] => {
-    if (!sided) return [polityColor(p.n), 0.45];
-    const side = sideOf(c, p.n, t);
-    return [SIDE_FILL[side], side === "n" ? 0.35 : 0.6];
-  };
+  const fillOf = (p: PolityProps) => polityFill(c, p, t);
 
-  // 이름: 확대할수록 작은 나라도, 겹치면 뺀다
-  const labels = (() => {
-    const minArea = 150_000 / (vp.zoom * vp.zoom);
-    const boxes: { x0: number; x1: number; y0: number; y1: number }[] = [];
-    const out: {
-      key: string;
-      x: number;
-      y: number;
-      size: number;
-      text: string;
-    }[] = [];
-    labelCandidates(polities, nameOf)
-      .filter(({ polity }) => polity.properties.a >= minArea)
-      .forEach(({ polity: p, text }, i) => {
-        const at = vp.project(p.properties.l!);
-        if (!at) return;
-        const size = round2(
-          Math.min(14, 8.5 + Math.log10(p.properties.a / 150_000 + 1) * 4) *
-            Math.pow(unit, 0.8),
-        );
-        const width = [...text].reduce(
-          (w, ch) => w + (ch.charCodeAt(0) > 0x2e80 ? 1 : 0.58) * size,
-          0,
-        );
-        const box = {
-          x0: at[0] - width / 2,
-          x1: at[0] + width / 2,
-          y0: at[1] - size,
-          y1: at[1] + size * 0.25,
-        };
-        if (
-          boxes.some(
-            (b) =>
-              box.x0 < b.x1 && box.x1 > b.x0 && box.y0 < b.y1 && box.y1 > b.y0,
-          )
-        )
-          return;
-        boxes.push(box);
-        out.push({
-          key: `${p.properties.n}-${i}`,
-          x: at[0],
-          y: at[1],
-          size,
-          text,
-        });
-      });
-    return out;
-  })();
+  const labels = useMemo(
+    () => polityLabels(polities, nameOf, vp.zoom, vp.project),
+    [polities, nameOf, vp.zoom, vp.project],
+  );
 
   return (
     <svg
@@ -175,7 +142,7 @@ export function CampaignMap() {
             const at = vp.project(b.coords);
             if (!at) return null;
             const on = b.id === selected;
-            const r = b.links >= 60 ? 7 : b.links >= 30 ? 5.5 : 4.5;
+            const r = battleRadius(b);
             return (
               <g
                 key={b.id}

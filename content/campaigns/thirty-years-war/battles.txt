@@ -3,54 +3,63 @@
 @ siege-of-pilsen
 wikipedia: Siege of Pilsen
 when: 1618
+days: 1618-09-19 ~ 1618-11-21
 coords: 13.38, 49.74
 links: 18
 
 @ battle-of-lomnice
 wikipedia: Battle of Lomnice
 when: 1618
+days: 1618-11-09
 coords: 14.69, 49.05
 links: 7
 
 @ battle-of-sablat
 wikipedia: Battle of Sablat
 when: 1619
+days: 1619-06-10
 coords: 14.28, 49.13
 links: 16
 
 @ battle-of-wisternitz
 wikipedia: Battle of Wisternitz
 when: 1619
+days: 1619-08-05
 coords: 16.65, 48.9
 links: 11
 
 @ battle-of-humenne
 wikipedia: Battle of Humenné
 when: 1619
+days: 1619-11-23
 coords: 21.91, 48.94
 links: 9
 
 @ palatinate-campaign
 wikipedia: Palatinate campaign
 when: 1620 ~ 1623
+days: 1620-08-30 ~ 1623-08-27
 coords: 8.02, 49.5
 links: 10
 
 @ siege-of-kreuznach
 wikipedia: Siege of Kreuznach
 when: 1620
+days: 1620-09-09 ~ 1620-09-10
 coords: 7.87, 49.85
 links: 6
 
 @ capture-of-bacharach
 wikipedia: Capture of Bacharach
 when: 1620
+days: 1620-10-01
 coords: 7.77, 50.07
 links: 7
 
 @ battle-of-white-mountain
 wikipedia: Battle of White Mountain
 when: 1620
+days: 1620-11-08
 coords: 14.32, 50.08
 links: 51
 
@@ -63,48 +72,56 @@ links: 6
 @ battle-of-mingolsheim
 wikipedia: Battle of Mingolsheim
 when: 1622
+days: 1622-04-27
 coords: 8.66, 49.22
 links: 15
 
 @ battle-of-wimpfen
 wikipedia: Battle of Wimpfen
 when: 1622
+days: 1622-05-06
 coords: 9.17, 49.2
 links: 15
 
 @ battle-of-hochst
 wikipedia: Battle of Höchst
 when: 1622
+days: 1622-06-20
 coords: 8.55, 50.1
 links: 12
 
 @ siege-of-heidelberg-1622
 wikipedia: Siege of Heidelberg (1622)
 when: 1622
+days: 1622-07-23 ~ 1622-09-19
 coords: 8.71, 49.41
 links: 5
 
 @ battle-of-fleurus-1622
 wikipedia: Battle of Fleurus (1622)
 when: 1622
+days: 1622-08-29
 coords: 4.55, 50.48
 links: 14
 
 @ battle-of-stadtlohn
 wikipedia: Battle of Stadtlohn
 when: 1623
+days: 1623-08-06
 coords: 6.95, 52.02
 links: 16
 
 @ battle-of-dessau-bridge
 wikipedia: Battle of Dessau Bridge
 when: 1626
+days: 1626-04-25
 coords: 12.25, 51.83
 links: 13
 
 @ battle-of-lutter
 wikipedia: Battle of Lutter
 when: 1626
+days: 1626-08-27
 coords: 10.24, 51.97
 links: 24
 
@@ -117,36 +134,42 @@ links: 15
 @ battle-of-wolgast
 wikipedia: Battle of Wolgast
 when: 1628
+days: 1628-09-02
 coords: 13.77, 54.05
 links: 9
 
 @ battle-of-frankfurt-an-der-oder
 wikipedia: Battle of Frankfurt an der Oder
 when: 1631
+days: 1631-04-13
 coords: 14.55, 52.35
 links: 9
 
 @ sack-of-magdeburg
 wikipedia: Sack of Magdeburg
 when: 1631
+days: 1631-05-20 ~ 1631-05-24
 coords: 11.62, 52.13
 links: 23
 
 @ battle-of-werben
 wikipedia: Battle of Werben
 when: 1631
+days: 1631-07-22
 coords: 11.97, 52.87
 links: 14
 
 @ battle-of-breitenfeld-1631
 wikipedia: Battle of Breitenfeld (1631)
 when: 1631
+days: 1631-09-17
 coords: 12.33, 51.4
 links: 35
 
 @ battle-of-rain
 wikipedia: Battle of Rain
 when: 1632
+days: 1632-04-14 ~ 1632-04-15
 coords: 10.91, 48.68
 links: 20
 
@@ -159,72 +182,84 @@ links: 7
 @ battle-of-wiesloch-1632
 wikipedia: Battle of Wiesloch (1632)
 when: 1632
+days: 1632-08-16
 coords: 8.67, 49.29
 links: 6
 
 @ battle-of-the-alte-veste
 wikipedia: Battle of the Alte Veste
 when: 1632
+days: 1632-09-09
 coords: 10.97, 49.45
 links: 13
 
 @ battle-of-furth
 wikipedia: Battle of Fürth
 when: 1632
+days: 1632-09-03
 coords: 11.02, 49.47
 links: 6
 
 @ battle-of-lutzen-1632
 wikipedia: Battle of Lützen (1632)
 when: 1632
+days: 1632-11-16
 coords: 12.16, 51.27
 links: 38
 
 @ battle-of-oldendorf
 wikipedia: Battle of Oldendorf
 when: 1633
+days: 1633-07-08
 coords: 9.25, 52.17
 links: 9
 
 @ battle-of-nordlingen-1634
 wikipedia: Battle of Nördlingen (1634)
 when: 1634
+days: 1634-09-05 ~ 1634-09-06
 coords: 10.49, 48.81
 links: 27
 
 @ battle-of-strasbourg-bridge
 wikipedia: Battle of Strasbourg Bridge
 when: 1634
+days: 1634-09-28
 coords: 7.81, 48.57
 links: 5
 
 @ battle-of-les-avins
 wikipedia: Battle of Les Avins
 when: 1635
+days: 1635-05-20
 coords: 5.28, 50.4
 links: 9
 
 @ siege-of-leuven
 wikipedia: Siege of Leuven
 when: 1635
+days: 1635-06-24 ~ 1635-07-04
 coords: 4.7, 50.87
 links: 8
 
 @ battle-of-tornavento
 wikipedia: Battle of Tornavento
 when: 1636
+days: 1636-06-22
 coords: 8.63, 45.6
 links: 8
 
 @ battle-of-wittstock
 wikipedia: Battle of Wittstock
 when: 1636
+days: 1636-10-04
 coords: 12.49, 53.16
 links: 14
 
 @ battle-of-rheinfelden
 wikipedia: Battle of Rheinfelden
 when: 1638
+days: 1638-02-28 ~ 1638-03-02
 coords: 7.8, 47.55
 links: 11
 
@@ -237,167 +272,195 @@ links: 8
 @ battle-of-wittenweiher
 wikipedia: Battle of Wittenweiher
 when: 1638
+days: 1638-08-09
 coords: 7.76, 48.34
 links: 6
 
 @ siege-of-breisach
 wikipedia: Siege of Breisach
 when: 1638
+days: 1638-08-18 ~ 1638-12-17
 coords: 7.58, 48.03
 links: 8
 
 @ battle-of-vlotho
 wikipedia: Battle of Vlotho
 when: 1638
+days: 1638-10-17
 coords: 8.85, 52.17
 links: 6
 
 @ battle-of-chemnitz
 wikipedia: Battle of Chemnitz
 when: 1639
+days: 1639-04-14
 coords: 12.92, 50.83
 links: 9
 
 @ relief-of-thionville
 wikipedia: Relief of Thionville
 when: 1639
+days: 1639-06-07
 coords: 6.17, 49.36
 links: 6
 
 @ siege-of-turin-1640
 wikipedia: Siege of Turin (1640)
 when: 1640
+days: 1640-05-22 ~ 1640-09-20
 coords: 7.7, 45.07
 links: 7
 
 @ siege-of-arras-1640
 wikipedia: Siege of Arras (1640)
 when: 1640
+days: 1640-07-09 ~ 1640-08-09
 coords: 2.78, 50.29
 links: 6
 
 @ battle-of-pre-nitz
 wikipedia: Battle of Preßnitz
 when: 1641
+days: 1641-03-27
 coords: 13.13, 50.47
 links: 5
 
 @ battle-of-la-marfee
 wikipedia: Battle of La Marfée
 when: 1641
+days: 1641-07-06
 coords: 4.94, 49.7
 links: 7
 
 @ battle-of-kempen
 wikipedia: Battle of Kempen
 when: 1642
+days: 1642-01-17
 coords: 6.54, 51.32
 links: 6
 
 @ battle-of-honnecourt
 wikipedia: Battle of Honnecourt
 when: 1642
+days: 1642-05-26
 coords: 3.2, 50.04
 links: 13
 
 @ battle-of-breitenfeld-1642
 wikipedia: Battle of Breitenfeld (1642)
 when: 1642
+days: 1642-10-23
 coords: 12.37, 51.34
 links: 17
 
 @ battle-of-rocroi
 wikipedia: Battle of Rocroi
 when: 1643
+days: 1643-05-19
 coords: 4.53, 49.92
 links: 34
 
 @ battle-of-tuttlingen
 wikipedia: Battle of Tuttlingen
 when: 1643
+days: 1643-11-24
 coords: 8.82, 47.98
 links: 10
 
 @ battle-of-listerdyb
 wikipedia: Battle of Listerdyb
 when: 1644
+days: 1644-05-16
 coords: 8.45, 55.07
 links: 9
 
 @ battle-of-freiburg
 wikipedia: Battle of Freiburg
 when: 1644
+days: 1644-08-03 ~ 1644-08-09
 coords: 7.85, 48
 links: 15
 
 @ battle-of-fehmarn-1644
 wikipedia: Battle of Fehmarn (1644)
 when: 1644
+days: 1644-10-13
 coords: 11.04, 54.67
 links: 12
 
 @ battle-of-juterbog
 wikipedia: Battle of Jüterbog
 when: 1644
+days: 1644-12-03
 coords: 13.07, 51.99
 links: 9
 
 @ battle-of-jankau
 wikipedia: Battle of Jankau
 when: 1645
+days: 1645-03-06
 coords: 14.73, 49.65
 links: 15
 
 @ siege-of-brno
 wikipedia: Siege of Brno
 when: 1645
+days: 1645-05-03 ~ 1645-08-23
 coords: 16.61, 49.2
 links: 6
 
 @ battle-of-herbsthausen
 wikipedia: Battle of Herbsthausen
 when: 1645
+days: 1645-05-02
 coords: 9.83, 49.4
 links: 8
 
 @ battle-of-nordlingen-1645
 wikipedia: Battle of Nördlingen (1645)
 when: 1645
+days: 1645-08-03
 coords: 10.62, 48.85
 links: 14
 
 @ siege-of-dunkirk-1646
 wikipedia: Siege of Dunkirk (1646)
 when: 1646
+days: 1646-09-07 ~ 1646-10-11
 coords: 2.38, 51.04
 links: 5
 
 @ battle-of-triebl
 wikipedia: Battle of Triebl
 when: 1647
+days: 1647-08-18 ~ 1647-09-05
 coords: 12.84, 49.82
 links: 7
 
 @ battle-of-prague-1648
 wikipedia: Battle of Prague (1648)
 when: 1648
+days: 1648-07-25 ~ 1648-11-01
 coords: 14.41, 50.09
 links: 15
 
 @ battle-of-zusmarshausen
 wikipedia: Battle of Zusmarshausen
 when: 1648
+days: 1648-05-17
 coords: 10.6, 48.4
 links: 14
 
 @ battle-of-wevelinghoven
 wikipedia: Battle of Wevelinghoven
 when: 1648
+days: 1648-06-14
 coords: 6.59, 51.09
 links: 5
 
 @ battle-of-lens
 wikipedia: Battle of Lens
 when: 1648
+days: 1648-08-20
 coords: 2.83, 50.43
 links: 16

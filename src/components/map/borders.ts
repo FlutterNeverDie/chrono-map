@@ -116,7 +116,6 @@ export function useMainBordersUrl(year: number): string | null {
   return `/borders/${pick}.json`;
 }
 
-
 /**
  * 이름표를 달 나라: 넓은 순(넓이가 같으면 괄호 없는 이름 먼저), 같은 이름·같은 자리는 하나만.
  * 원본 국경은 같은 땅을 여러 층으로 겹쳐 둔다(예: "Kingdom of the Franks"·"(Kingdom of the Franks)"·

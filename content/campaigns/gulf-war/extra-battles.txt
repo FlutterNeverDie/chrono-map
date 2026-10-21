@@ -9,6 +9,7 @@ links: 44
 @ battle-of-kuwait-international-airport
 wikipedia: Battle of Kuwait International Airport
 when: 1991-02
+days: 1991-02-27
 coords: 47.97, 29.24
 links: 6
 
@@ -18,5 +19,6 @@ wikipedia: Highway of Death
 title.en: Highway of Death attack
 summary.en: On the night of 26-27 February 1991, US-led coalition aircraft attacked a long column of Iraqi military and civilian vehicles retreating from Kuwait City toward Basra on Highway 80, destroying hundreds of them. Images of the wreckage on what became known as the "Highway of Death" were widely broadcast, and the coalition declared a ceasefire the next day.
 when: 1991-02
+days: 1991-02-27
 coords: 47.65, 29.38
 links: 27

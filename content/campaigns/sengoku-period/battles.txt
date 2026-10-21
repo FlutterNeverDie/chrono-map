@@ -3,24 +3,28 @@
 @ siege-of-arai
 wikipedia: Siege of Arai
 when: 1516
+days: 1516-07-11
 coords: 139.61, 35.16
 links: 5
 
 @ battle-of-arita-nakaide
 wikipedia: Battle of Arita-Nakaide
 when: 1517
+days: 1517-11-05
 coords: 132.53, 34.67
 links: 10
 
 @ siege-of-edo
 wikipedia: Siege of Edo
 when: 1524
+days: 1524-02-17
 coords: 139.73, 35.63
 links: 9
 
 @ siege-of-kamakura-1526
 wikipedia: Siege of Kamakura (1526)
 when: 1526
+days: 1526-12-15
 coords: 139.56, 35.33
 links: 6
 
@@ -45,6 +49,7 @@ links: 5
 @ battle-of-konodai-1538
 wikipedia: Battle of Kōnodai (1538)
 when: 1538
+days: 1538-10-29
 coords: 139.9, 35.78
 links: 5
 
@@ -81,12 +86,14 @@ links: 7
 @ battle-of-sezawa
 wikipedia: Battle of Sezawa
 when: 1542
+days: 1542-03-25
 coords: 138.24, 35.9
 links: 10
 
 @ battle-of-azukizaka-1542
 wikipedia: Battle of Azukizaka (1542)
 when: 1542
+days: 1542-09-19
 coords: 137.18, 34.93
 links: 10
 
@@ -111,6 +118,7 @@ links: 5
 @ siege-of-takato-1545
 wikipedia: Siege of Takatō (1545)
 when: 1545
+days: 1545-05-25 ~ 1545-05-27
 coords: 138.06, 35.83
 links: 7
 
@@ -129,12 +137,14 @@ links: 5
 @ battle-of-uedahara
 wikipedia: Battle of Uedahara
 when: 1548
+days: 1548-03-23
 coords: 138.21, 36.4
 links: 12
 
 @ battle-of-shiojiritoge
 wikipedia: Battle of Shiojiritoge
 when: 1548
+days: 1548-08-22
 coords: 138.03, 36.07
 links: 8
 
@@ -147,24 +157,28 @@ links: 5
 @ sieges-of-toishi
 wikipedia: Sieges of Toishi
 when: 1550 ~ 1551
+days: 1550-10-18 ~ 1551-06-29
 coords: 138.29, 36.42
 links: 7
 
 @ tainei-ji-incident
 wikipedia: Tainei-ji incident
 when: 1551
+days: 1551-09-28 ~ 1551-09-30
 coords: 131.16, 34.33
 links: 7
 
 @ battle-of-akatsuka
 wikipedia: Battle of Akatsuka
 when: 1552
+days: 1552-05-10
 coords: 136.95, 35.08
 links: 9
 
 @ battle-of-kiyosu-castle
 wikipedia: Battle of Kiyosu Castle
 when: 1552
+days: 1552-09-04
 coords: 136.84, 35.19
 links: 6
 
@@ -201,18 +215,21 @@ links: 5
 @ battle-of-muraki-castle
 wikipedia: Battle of Muraki Castle
 when: 1554
+days: 1554-02-25
 coords: 136.97, 35
 links: 5
 
 @ battle-of-oshikibata
 wikipedia: Battle of Oshikibata
 when: 1554
+days: 1554-07-04
 coords: 132.28, 34.36
 links: 6
 
 @ battle-of-miyajima
 wikipedia: Battle of Miyajima
 when: 1555
+days: 1555-10-16
 coords: 132.32, 34.3
 links: 12
 
@@ -225,6 +242,7 @@ links: 10
 @ battle-of-ino
 wikipedia: Battle of Inō
 when: 1556
+days: 1556-09-27
 coords: 136.89, 35.21
 links: 10
 
@@ -255,6 +273,7 @@ links: 9
 @ battle-of-okehazama
 wikipedia: Battle of Okehazama
 when: 1560
+days: 1560-06-12
 coords: 136.98, 35.06
 links: 28
 
@@ -279,6 +298,7 @@ links: 5
 @ battle-of-kyokoji
 wikipedia: Battle of Kyōkōji
 when: 1562
+days: 1562-06-20 ~ 1562-06-21
 coords: 135.64, 34.62
 links: 5
 
@@ -291,6 +311,7 @@ links: 5
 @ battle-of-azukizaka-1564
 wikipedia: Battle of Azukizaka (1564)
 when: 1564
+days: 1564-01-15
 coords: 137.18, 34.93
 links: 7
 
@@ -309,6 +330,7 @@ links: 5
 @ battle-of-fukuda-bay
 wikipedia: Battle of Fukuda Bay
 when: 1565
+days: 1565-10-18
 coords: 129.82, 32.74
 links: 8
 
@@ -321,6 +343,7 @@ links: 5
 @ siege-of-inabayama-castle
 wikipedia: Siege of Inabayama Castle
 when: 1567
+days: 1567-09-13 ~ 1567-09-27
 coords: 136.78, 35.43
 links: 10
 
@@ -357,6 +380,7 @@ links: 6
 @ battle-of-mimasetoge
 wikipedia: Battle of Mimasetoge
 when: 1569
+days: 1569-11-16
 coords: 139.29, 35.53
 links: 8
 
@@ -387,6 +411,7 @@ links: 10
 @ battle-of-anegawa
 wikipedia: Battle of Anegawa
 when: 1570
+days: 1570-07-30
 coords: 136.32, 35.42
 links: 23
 
@@ -399,12 +424,14 @@ links: 5
 @ siege-of-mount-hiei
 wikipedia: Siege of Mount Hiei
 when: 1571
+days: 1571-09-01 ~ 1571-09-12
 coords: 135.84, 35.07
 links: 13
 
 @ siege-of-futamata
 wikipedia: Siege of Futamata
 when: 1572 ~ 1573
+days: 1572-11-21 ~ 1573-01-22
 coords: 137.81, 34.86
 links: 8
 
@@ -417,12 +444,14 @@ links: 8
 @ battle-of-kizaki
 wikipedia: Battle of Kizaki
 when: 1572
+days: 1572-06-14
 coords: 130.83, 32.04
 links: 6
 
 @ siege-of-odani-castle
 wikipedia: Siege of Odani Castle
 when: 1573
+days: 1573-09-04 ~ 1573-09-26
 coords: 136.28, 35.46
 links: 9
 
@@ -447,6 +476,7 @@ links: 9
 @ battle-of-mikatagahara
 wikipedia: Battle of Mikatagahara
 when: 1573
+days: 1573-01-25
 coords: 137.7, 34.79
 links: 25
 
@@ -465,6 +495,7 @@ links: 6
 @ battle-of-nagashino
 wikipedia: Battle of Nagashino
 when: 1575
+days: 1575-06-28
 coords: 137.53, 34.92
 links: 30
 
@@ -489,12 +520,14 @@ links: 5
 @ siege-of-shigisan
 wikipedia: Siege of Shigisan
 when: 1577
+days: 1577-11-14 ~ 1577-11-19
 coords: 135.67, 34.61
 links: 8
 
 @ battle-of-tedorigawa
 wikipedia: Battle of Tedorigawa
 when: 1577
+days: 1577-11-03
 coords: 136.48, 36.48
 links: 9
 
@@ -507,18 +540,21 @@ links: 8
 @ siege-of-miki
 wikipedia: Siege of Miki
 when: 1578 ~ 1580
+days: 1578-05-05 ~ 1580-02-02
 coords: 134.99, 34.8
 links: 8
 
 @ siege-of-kozuki-castle
 wikipedia: Siege of Kōzuki Castle
 when: 1578
+days: 1578-05-24 ~ 1578-08-06
 coords: 134.32, 34.98
 links: 7
 
 @ siege-of-otate
 wikipedia: Siege of Otate
 when: 1578
+days: 1578-03-17 ~ 1578-04-23
 coords: 138.24, 37.17
 links: 7
 
@@ -543,6 +579,7 @@ links: 5
 @ siege-of-takatenjin-1581
 wikipedia: Siege of Takatenjin (1581)
 when: 1581
+days: 1581-03-22
 coords: 138.03, 34.7
 links: 6
 
@@ -573,6 +610,7 @@ links: 10
 @ battle-of-tenmokuzan
 wikipedia: Battle of Tenmokuzan
 when: 1582
+days: 1582-04-03
 coords: 138.81, 35.65
 links: 14
 
@@ -585,24 +623,28 @@ links: 8
 @ battle-of-kanagawa
 wikipedia: Battle of Kanagawa
 when: 1582
+days: 1582-07-05 ~ 1582-07-08
 coords: 139.12, 36.27
 links: 8
 
 @ battle-of-yamazaki
 wikipedia: Battle of Yamazaki
 when: 1582
+days: 1582-07-02
 coords: 135.69, 34.91
 links: 21
 
 @ battle-of-nakatomigawa
 wikipedia: Battle of Nakatomigawa
 when: 1582
+days: 1582-09-13 ~ 1582-09-14
 coords: 134.52, 34.13
 links: 5
 
 @ battle-of-shizugatake
 wikipedia: Battle of Shizugatake
 when: 1583
+days: 1583-06-11
 coords: 136.19, 35.51
 links: 20
 
@@ -615,6 +657,7 @@ links: 14
 @ siege-of-kanie
 wikipedia: Siege of Kanie
 when: 1584
+days: 1584-07-23 ~ 1584-08-08
 coords: 136.79, 35.14
 links: 6
 
@@ -627,18 +670,21 @@ links: 7
 @ battle-of-okitanawate
 wikipedia: Battle of Okitanawate
 when: 1584
+days: 1584-05-04
 coords: 130.36, 32.8
 links: 9
 
 @ siege-of-takehana
 wikipedia: Siege of Takehana
 when: 1584
+days: 1584-08-22
 coords: 136.7, 35.32
 links: 5
 
 @ siege-of-suemori
 wikipedia: Siege of Suemori
 when: 1584
+days: 1584-10-12
 coords: 136.77, 36.83
 links: 5
 
@@ -657,12 +703,14 @@ links: 6
 @ siege-of-toyama
 wikipedia: Siege of Toyama
 when: 1585
+days: 1585-09-12 ~ 1585-09-19
 coords: 137.21, 36.69
 links: 8
 
 @ battle-of-hitotoribashi
 wikipedia: Battle of Hitotoribashi
 when: 1586
+days: 1586-01-06
 coords: 140.39, 37.5
 links: 6
 
@@ -675,12 +723,14 @@ links: 5
 @ battle-of-hetsugigawa
 wikipedia: Battle of Hetsugigawa
 when: 1587
+days: 1587-01-20
 coords: 131.66, 33.14
 links: 7
 
 @ battle-of-suriagehara
 wikipedia: Battle of Suriagehara
 when: 1589
+days: 1589-07-17
 coords: 140.07, 37.56
 links: 6
 
@@ -711,24 +761,28 @@ links: 6
 @ kunohe-rebellion
 wikipedia: Kunohe rebellion
 when: 1591
+days: 1591-09-02 ~ 1591-09-04
 coords: 141.3, 40.27
 links: 6
 
 @ siege-of-dongnae
 wikipedia: Siege of Dongnae
 when: 1592
+days: 1592-04-15
 coords: 129.08, 35.2
 links: 12
 
 @ siege-of-busanjin
 wikipedia: Siege of Busanjin
 when: 1592
+days: 1592-05-24 ~ 1592-05-25
 coords: 129.05, 35.16
 links: 15
 
 @ battle-of-dadaejin
 wikipedia: Battle of Dadaejin
 when: 1592
+days: 1592-05-24
 coords: 129.04, 35.1
 links: 10
 
@@ -747,48 +801,56 @@ links: 5
 @ siege-of-fushimi-castle
 wikipedia: Siege of Fushimi Castle
 when: 1600
+days: 1600-08-27 ~ 1600-09-08
 coords: 135.78, 34.94
 links: 11
 
 @ siege-of-tanabe
 wikipedia: Siege of Tanabe
 when: 1600
+days: 1600-08-27 ~ 1600-10-19
 coords: 135.33, 35.45
 links: 7
 
 @ battle-of-gifu-castle
 wikipedia: Battle of Gifu Castle
 when: 1600
+days: 1600-09-30
 coords: 136.78, 35.43
 links: 7
 
 @ battle-of-asai
 wikipedia: Battle of Asai
 when: 1600
+days: 1600-09-16
 coords: 136.45, 36.38
 links: 6
 
 @ siege-of-shiroishi
 wikipedia: Siege of Shiroishi
 when: 1600
+days: 1600-09-01
 coords: 140.62, 38
 links: 5
 
 @ battle-of-sekigahara
 wikipedia: Battle of Sekigahara
 when: 1600
+days: 1600-10-21
 coords: 136.46, 35.37
 links: 47
 
 @ battle-of-kuisegawa
 wikipedia: Battle of Kuisegawa
 when: 1600
+days: 1600-10-20
 coords: 136.58, 35.39
 links: 6
 
 @ siege-of-otsu
 wikipedia: Siege of Ōtsu
 when: 1600
+days: 1600-10-13 ~ 1600-10-21
 coords: 135.85, 35.02
 links: 6
 
@@ -801,35 +863,41 @@ links: 8
 @ siege-of-osaka
 wikipedia: Siege of Osaka
 when: 1614 ~ 1615
+days: 1614-11-08
 coords: 135.52, 34.64
 links: 32
 
 @ battle-of-shigino
 wikipedia: Battle of Shigino
 when: 1614
+days: 1614-12-26
 coords: 135.55, 34.69
 links: 8
 
 @ battle-of-kashii
 wikipedia: Battle of Kashii
 when: 1615
+days: 1615-05-26
 coords: 135.29, 34.38
 links: 7
 
 @ battle-of-domyoji
 wikipedia: Battle of Dōmyōji
 when: 1615
+days: 1615-06-03
 coords: 135.62, 34.57
 links: 9
 
 @ battle-of-tennoji
 wikipedia: Battle of Tennōji
 when: 1615
+days: 1615-06-03
 coords: 135.51, 34.65
 links: 9
 
 @ battle-of-yao-1615
 wikipedia: Battle of Yao (1615)
 when: 1615
+days: 1615-06-02
 coords: 135.61, 34.65
 links: 7

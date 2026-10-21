@@ -3,95 +3,111 @@
 @ battle-of-chemulpo-bay
 wikipedia: Battle of Chemulpo Bay
 when: 1904-02
+days: 1904-02-09
 coords: 126.52, 37.35
 links: 19
 
 @ battle-of-port-arthur
 wikipedia: Battle of Port Arthur
 when: 1904-02
+days: 1904-02-08
 coords: 121.27, 38.78
 links: 28
 
 @ battle-of-the-yalu-river-1904
 wikipedia: Battle of the Yalu River (1904)
 when: 1904-04 ~ 1904-05
+days: 1904-04-30 ~ 1904-05-01
 coords: 124.53, 40.19
 links: 20
 
 @ battle-of-nanshan
 wikipedia: Battle of Nanshan
 when: 1904-05
+days: 1904-05-24 ~ 1904-05-26
 coords: 121.72, 39.08
 links: 16
 
 @ battle-of-te-li-ssu
 wikipedia: Battle of Te-li-Ssu
 when: 1904-06
+days: 1904-06-14 ~ 1904-06-15
 coords: 122.03, 39.77
 links: 12
 
 @ battle-of-hsimucheng
 wikipedia: Battle of Hsimucheng
 when: 1904-07
+days: 1904-07-31
 coords: 123.18, 41.27
 links: 10
 
 @ battle-of-motien-pass
 wikipedia: Battle of Motien Pass
 when: 1904-07
+days: 1904-07-17
 coords: 122.5, 40
 links: 10
 
 @ battle-of-tashihchiao
 wikipedia: Battle of Tashihchiao
 when: 1904-07
+days: 1904-07-24 ~ 1904-07-25
 coords: 122.5, 40.63
 links: 11
 
 @ battle-off-ulsan
 wikipedia: Battle off Ulsan
 when: 1904-08
+days: 1904-08-14
 coords: 129.94, 35.07
 links: 15
 
 @ battle-of-the-yellow-sea
 wikipedia: Battle of the Yellow Sea
 when: 1904-08
+days: 1904-08-10
 coords: 121.7, 38.4
 links: 28
 
 @ battle-of-korsakov
 wikipedia: Battle of Korsakov
 when: 1904-08
+days: 1904-08-20
 coords: 143, 46.83
 links: 12
 
 @ battle-of-liaoyang
 wikipedia: Battle of Liaoyang
 when: 1904-08 ~ 1904-09
+days: 1904-08-25 ~ 1904-09-05
 coords: 123.18, 41.26
 links: 22
 
 @ siege-of-port-arthur
 wikipedia: Siege of Port Arthur
 when: 1904-08 ~ 1905-01
+days: 1904-08-01 ~ 1905-01-02
 coords: 121.24, 38.8
 links: 27
 
 @ battle-of-shaho
 wikipedia: Battle of Shaho
 when: 1904-10
+days: 1904-10-05 ~ 1904-10-17
 coords: 123.46, 41.6
 links: 17
 
 @ battle-of-sandepu
 wikipedia: Battle of Sandepu
 when: 1905-01
+days: 1905-01-25 ~ 1905-01-29
 coords: 123.43, 41.78
 links: 17
 
 @ battle-of-mukden
 wikipedia: Battle of Mukden
 when: 1905-02 ~ 1905-03
+days: 1905-02-19 ~ 1905-03-10
 coords: 123.43, 41.78
 links: 29

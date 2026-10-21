@@ -39,78 +39,91 @@ links: 10
 @ battle-of-the-indus
 wikipedia: Battle of the Indus
 when: 1221
+days: 1221-11-24
 coords: 72.18, 33.77
 links: 20
 
 @ battle-of-the-kalka-river
 wikipedia: Battle of the Kalka River
 when: 1223
+days: 1223-05-31
 coords: 37.5, 47.25
 links: 49
 
 @ siege-of-kaifeng-1232
 wikipedia: Siege of Kaifeng (1232)
 when: 1232 ~ 1233
+days: 1232-04-08 ~ 1233-02-26
 coords: 114.34, 34.79
 links: 12
 
 @ siege-of-ryazan
 wikipedia: Siege of Ryazan
 when: 1237
+days: 1237-12-16 ~ 1237-12-21
 coords: 40.43, 54.4
 links: 10
 
 @ battle-of-the-sit-river
 wikipedia: Battle of the Sit River
 when: 1238
+days: 1238-03-04
 coords: 37.85, 58.07
 links: 19
 
 @ siege-of-kiev-1240
 wikipedia: Siege of Kiev (1240)
 when: 1240
+days: 1240-11-28 ~ 1240-12-06
 coords: 30.52, 50.45
 links: 18
 
 @ battle-of-mohi
 wikipedia: Battle of Mohi
 when: 1241
+days: 1241-04-11
 coords: 20.91, 47.98
 links: 39
 
 @ battle-of-kose-dag
 wikipedia: Battle of Köse Dağ
 when: 1243
+days: 1243-06-26
 coords: 39.6, 40.28
 links: 30
 
 @ siege-of-baghdad
 wikipedia: Siege of Baghdad
 when: 1258
+days: 1258-01-29 ~ 1258-02-10
 coords: 44.34, 33.35
 links: 56
 
 @ siege-of-aleppo-1260
 wikipedia: Siege of Aleppo (1260)
 when: 1260
+days: 1260-01-18 ~ 1260-01-24
 coords: 37.16, 36.2
 links: 11
 
 @ battle-of-ain-jalut
 wikipedia: Battle of Ain Jalut
 when: 1260
+days: 1260-09-03
 coords: 35.36, 32.55
 links: 50
 
 @ first-battle-of-homs
 wikipedia: First Battle of Homs
 when: 1260
+days: 1260-12-10
 coords: 36.71, 34.72
 links: 16
 
 @ battle-of-mari
 wikipedia: Battle of Mari
 when: 1266
+days: 1266-08-24
 coords: 36.36, 36.53
 links: 15
 
@@ -129,12 +142,14 @@ links: 13
 @ battle-of-elbistan
 wikipedia: Battle of Elbistan
 when: 1277
+days: 1277-04-18
 coords: 37.19, 38.2
 links: 12
 
 @ battle-of-yamen
 wikipedia: Battle of Yamen
 when: 1279
+days: 1279-03-19
 coords: 113.08, 22.27
 links: 31
 
@@ -147,6 +162,7 @@ links: 15
 @ second-battle-of-homs
 wikipedia: Second Battle of Homs
 when: 1281
+days: 1281-10-29
 coords: 36.71, 34.72
 links: 23
 
@@ -159,17 +175,20 @@ links: 14
 @ battle-of-wadi-al-khaznadar
 wikipedia: Battle of Wadi al-Khaznadar
 when: 1299
+days: 1299-12-22 ~ 1299-12-23
 coords: 36.72, 34.74
 links: 21
 
 @ battle-of-marj-al-saffar-1303
 wikipedia: Battle of Marj al-Saffar (1303)
 when: 1303
+days: 1303-04-20 ~ 1303-04-22
 coords: 36.25, 33.36
 links: 24
 
 @ battle-of-blue-waters
 wikipedia: Battle of Blue Waters
 when: 1362 ~ 1363
+days: 1362-09-24
 coords: 30.78, 48.66
 links: 29

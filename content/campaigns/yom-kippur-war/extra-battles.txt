@@ -3,11 +3,13 @@
 @ operation-badr-1973
 wikipedia: Operation Badr (1973)
 when: 1973-10
+days: 1973-10-06 ~ 1973-10-08
 coords: 32.35, 30.6
 links: 18
 
 @ battle-of-latakia
 wikipedia: Battle of Latakia
 when: 1973-10
+days: 1973-10-07
 coords: 35.73, 35.52
 links: 15

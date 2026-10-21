@@ -3,66 +3,77 @@
 @ marco-polo-bridge-incident
 wikipedia: Marco Polo Bridge incident
 when: 1937-07
+days: 1937-07-07 ~ 1937-07-09
 coords: 116.21, 39.85
 links: 50
 
 @ battle-of-shanghai
 wikipedia: Battle of Shanghai
 when: 1937-08 ~ 1937-11
+days: 1937-08-13 ~ 1937-11-26
 coords: 121.47, 31.23
 links: 36
 
 @ battle-of-xinkou
 wikipedia: Battle of Xinkou
 when: 1937-09 ~ 1937-11
+days: 1937-09-13 ~ 1937-11-11
 coords: 112, 38
 links: 13
 
 @ battle-of-pingxingguan
 wikipedia: Battle of Pingxingguan
 when: 1937-09
+days: 1937-09-24 ~ 1937-09-25
 coords: 113.96, 39.35
 links: 14
 
 @ battle-of-taiyuan
 wikipedia: Battle of Taiyuan
 when: 1937-09 ~ 1937-11
+days: 1937-09-01 ~ 1937-11-09
 coords: 112.55, 37.85
 links: 15
 
 @ defense-of-sihang-warehouse
 wikipedia: Defense of Sihang Warehouse
 when: 1937-10 ~ 1937-11
+days: 1937-10-26 ~ 1937-11-01
 coords: 121.47, 31.24
 links: 12
 
 @ battle-of-nanking
 wikipedia: Battle of Nanking
 when: 1937-12
+days: 1937-12-01 ~ 1937-12-13
 coords: 118.78, 32.01
 links: 25
 
 @ bombing-of-chongqing
 wikipedia: Bombing of Chongqing
 when: 1938-02 ~ 1943-08
+days: 1938-02-18 ~ 1943-08-23
 coords: 106.94, 29.48
 links: 14
 
 @ battle-of-taierzhuang
 wikipedia: Battle of Taierzhuang
 when: 1938-03 ~ 1938-04
+days: 1938-03-24 ~ 1938-04-07
 coords: 117.73, 34.56
 links: 21
 
 @ battle-of-xuzhou
 wikipedia: Battle of Xuzhou
 when: 1938-03 ~ 1938-05
+days: 1938-03-24 ~ 1938-05-01
 coords: 117.17, 34.27
 links: 19
 
 @ amoy-operation
 wikipedia: Amoy Operation
 when: 1938-05
+days: 1938-05-10 ~ 1938-05-12
 coords: 118.14, 24.5
 links: 6
 
@@ -81,72 +92,84 @@ links: 9
 @ battle-of-changsha-1939
 wikipedia: Battle of Changsha (1939)
 when: 1939-09 ~ 1939-10
+days: 1939-09-17 ~ 1939-10-06
 coords: 112.97, 28.2
 links: 25
 
 @ battle-of-suixian-zaoyang
 wikipedia: Battle of Suixian–Zaoyang
 when: 1939-05
+days: 1939-05-24
 coords: 112.75, 32.13
 links: 9
 
 @ battle-of-nanchang
 wikipedia: Battle of Nanchang
 when: 1939-05
+days: 1939-05-09
 coords: 115.88, 28.68
 links: 14
 
 @ battle-of-south-guangxi
 wikipedia: Battle of South Guangxi
 when: 1939-11 ~ 1940-11
+days: 1939-11-15 ~ 1940-11-30
 coords: 108.98, 23.81
 links: 12
 
 @ battle-of-wuyuan
 wikipedia: Battle of Wuyuan
 when: 1940-03 ~ 1940-04
+days: 1940-03-16 ~ 1940-04-03
 coords: 108.27, 31.09
 links: 5
 
 @ battle-of-zaoyang-yichang
 wikipedia: Battle of Zaoyang–Yichang
 when: 1940-05 ~ 1940-06
+days: 1940-05-01 ~ 1940-06-18
 coords: 112.75, 32.13
 links: 11
 
 @ hundred-regiments-offensive
 wikipedia: Hundred Regiments Offensive
 when: 1940-08 ~ 1940-12
+days: 1940-08-20 ~ 1940-12-05
 coords: 116.3, 37.45
 links: 22
 
 @ battle-of-south-henan
 wikipedia: Battle of South Henan
 when: 1941-01 ~ 1941-03
+days: 1941-01-30 ~ 1941-03-01
 coords: 113.5, 33.83
 links: 10
 
 @ battle-of-shanggao
 wikipedia: Battle of Shanggao
 when: 1941-03 ~ 1941-04
+days: 1941-03-14 ~ 1941-04-09
 coords: 114.88, 28.18
 links: 12
 
 @ battle-of-south-shanxi
 wikipedia: Battle of South Shanxi
 when: 1941-05
+days: 1941-05-07 ~ 1941-05-27
 coords: 112, 38
 links: 9
 
 @ battle-of-changsha-1941
 wikipedia: Battle of Changsha (1941)
 when: 1941-09 ~ 1941-10
+days: 1941-09-06 ~ 1941-10-08
 coords: 112.97, 28.2
 links: 20
 
 @ battle-of-changsha-1941-1942
 wikipedia: Battle of Changsha (1941–1942)
 when: 1942-01
+days: 1942-01-15
 coords: 112.97, 28.2
 links: 17
 
@@ -159,6 +182,7 @@ links: 7
 @ battle-of-west-hubei
 wikipedia: Battle of West Hubei
 when: 1943-05 ~ 1943-06
+days: 1943-05-12 ~ 1943-06-03
 coords: 112.25, 29.16
 links: 12
 
@@ -171,23 +195,27 @@ links: 8
 @ battle-of-changde
 wikipedia: Battle of Changde
 when: 1943-11 ~ 1943-12
+days: 1943-11-02 ~ 1943-12-20
 coords: 111.68, 29.03
 links: 18
 
 @ battle-of-changsha-1944
 wikipedia: Battle of Changsha (1944)
 when: 1944-05 ~ 1944-08
+days: 1944-05-27 ~ 1944-08-08
 coords: 112.97, 28.2
 links: 13
 
 @ battle-of-hengyang
 wikipedia: Battle of Hengyang
 when: 1944-06 ~ 1944-08
+days: 1944-06-22 ~ 1944-08-08
 coords: 112.57, 26.89
 links: 7
 
 @ battle-of-guilin-liuzhou
 wikipedia: Battle of Guilin–Liuzhou
 when: 1944-08 ~ 1944-11
+days: 1944-08-16 ~ 1944-11-24
 coords: 110.3, 25.27
 links: 12

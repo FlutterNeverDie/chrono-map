@@ -3,11 +3,13 @@
 @ battle-of-langensalza-1866
 wikipedia: Battle of Langensalza (1866)
 when: 1866-06
+days: 1866-06-27
 coords: 10.65, 51.11
 links: 12
 
 @ battle-of-bezzecca
 wikipedia: Battle of Bezzecca
 when: 1866-07
+days: 1866-07-21
 coords: 10.73, 45.9
 links: 11

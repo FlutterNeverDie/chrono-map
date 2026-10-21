@@ -3,30 +3,35 @@
 @ battle-of-oltenita
 wikipedia: Battle of Oltenița
 when: 1853-11
+days: 1853-11-04
 coords: 26.64, 44.09
 links: 19
 
 @ battle-of-akhaltsikhe-1853
 wikipedia: Battle of Akhaltsikhe (1853)
 when: 1853-11
+days: 1853-11-13
 coords: 42.99, 41.64
 links: 7
 
 @ battle-of-sinop
 wikipedia: Battle of Sinop
 when: 1853-11
+days: 1853-11-30
 coords: 35.15, 42.02
 links: 33
 
 @ battle-of-cetate
 wikipedia: Battle of Cetate
 when: 1853-12 ~ 1854-01
+days: 1853-12-31 ~ 1854-01-06
 coords: 23.22, 44.1
 links: 8
 
 @ battle-of-basgedikler
 wikipedia: Battle of Başgedikler
 when: 1853-12
+days: 1853-12-01
 coords: 43.56, 40.65
 links: 6
 
@@ -45,90 +50,105 @@ links: 3
 @ battle-of-nigoiti
 wikipedia: Battle of Nigoiti
 when: 1854-05
+days: 1854-05-20 ~ 1854-05-27
 coords: 42.11, 42.08
 links: 3
 
 @ battle-of-choloki-1854
 wikipedia: Battle of Choloki (1854)
 when: 1854-06
+days: 1854-06-04
 coords: 41.97, 41.85
 links: 4
 
 @ battle-of-kurekdere
 wikipedia: Battle of Kurekdere
 when: 1854-08
+days: 1854-08-06
 coords: 43.5, 40.72
 links: 10
 
 @ battle-of-the-alma
 wikipedia: Battle of the Alma
 when: 1854-09
+days: 1854-09-20
 coords: 33.67, 44.83
 links: 32
 
 @ battle-of-balaclava
 wikipedia: Battle of Balaclava
 when: 1854-10
+days: 1854-10-25
 coords: 33.57, 44.57
 links: 41
 
 @ charge-of-the-light-brigade
 wikipedia: Charge of the Light Brigade
 when: 1854-10
+days: 1854-10-25
 coords: 33.62, 44.54
 links: 28
 
 @ thin-red-line-battle-of-balaclava
 wikipedia: Thin Red Line (Battle of Balaclava)
 when: 1854-10
+days: 1854-10-25
 coords: 33.6, 44.52
 links: 10
 
 @ siege-of-sevastopol-1854-1855
 wikipedia: Siege of Sevastopol (1854–1855)
 when: 1854-10 ~ 1855-09
+days: 1854-10-17 ~ 1855-09-09
 coords: 33.52, 44.62
 links: 31
 
 @ battle-of-inkerman
 wikipedia: Battle of Inkerman
 when: 1854-11
+days: 1854-11-05
 coords: 33.59, 44.59
 links: 25
 
 @ battle-of-eupatoria
 wikipedia: Battle of Eupatoria
 when: 1855-02
+days: 1855-02-17
 coords: 33.37, 45.19
 links: 18
 
 @ battle-of-malakoff
 wikipedia: Battle of Malakoff
 when: 1855-06 ~ 1855-09
+days: 1855-06-18 ~ 1855-09-08
 coords: 33.55, 44.6
 links: 15
 
 @ battle-of-the-chernaya
 wikipedia: Battle of the Chernaya
 when: 1855-08
+days: 1855-08-16
 coords: 33.85, 44.47
 links: 17
 
 @ battle-of-the-great-redan
 wikipedia: Battle of the Great Redan
 when: 1855-09
+days: 1855-09-08
 coords: 33.52, 44.62
 links: 5
 
 @ battle-of-kinburn-1855
 wikipedia: Battle of Kinburn (1855)
 when: 1855-10
+days: 1855-10-17
 coords: 31.52, 46.56
 links: 15
 
 @ siege-of-taganrog
 wikipedia: Siege of Taganrog
 when: 1855-11
+days: 1855-11-24
 coords: 38.9, 47.23
 links: 12
 

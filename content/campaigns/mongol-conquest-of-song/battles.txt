@@ -15,5 +15,6 @@ links: 12
 @ battle-of-yamen
 wikipedia: Battle of Yamen
 when: 1279
+days: 1279-03-19
 coords: 113.08, 22.27
 links: 31

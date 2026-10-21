@@ -3,35 +3,41 @@
 @ battle-of-chipana
 wikipedia: Battle of Chipana
 when: 1879-04
+days: 1879-04-12
 coords: -70.25, -21.33
 links: 5
 
 @ battle-of-punta-gruesa
 wikipedia: Battle of Punta Gruesa
 when: 1879-05
+days: 1879-05-21
 coords: -70.17, -20.37
 links: 4
 
 @ battle-of-tarapaca
 wikipedia: Battle of Tarapacá
 when: 1879-11
+days: 1879-11-26
 coords: -69.5, -19.92
 links: 7
 
 @ battle-of-arica
 wikipedia: Battle of Arica
 when: 1880-06
+days: 1880-06-07
 coords: -70.32, -18.48
 links: 8
 
 @ battle-of-miraflores
 wikipedia: Battle of Miraflores
 when: 1881-01
+days: 1881-01-15
 coords: -77.03, -12.12
 links: 6
 
 @ battle-of-huamachuco
 wikipedia: Battle of Huamachuco
 when: 1883-07
+days: 1883-07-10
 coords: -78.05, -7.81
 links: 7

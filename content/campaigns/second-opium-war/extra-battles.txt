@@ -3,11 +3,13 @@
 @ battle-of-taku-forts-1859
 wikipedia: Battle of Taku Forts (1859)
 when: 1859-06
+days: 1859-06-24 ~ 1859-06-26
 coords: 117.71, 38.97
 links: 9
 
 @ battle-of-zhangjiawan
 wikipedia: Battle of Zhangjiawan
 when: 1860-09
+days: 1860-09-18
 coords: 116.7, 39.86
 links: 5

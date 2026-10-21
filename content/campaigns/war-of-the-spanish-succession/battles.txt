@@ -3,90 +3,105 @@
 @ battle-of-carpi
 wikipedia: Battle of Carpi
 when: 1701
+days: 1701-07-09
 coords: 11.39, 45.14
 links: 20
 
 @ battle-of-chiari
 wikipedia: Battle of Chiari
 when: 1701
+days: 1701-09-01
 coords: 9.93, 45.53
 links: 19
 
 @ battle-of-cremona
 wikipedia: Battle of Cremona
 when: 1702
+days: 1702-02-01
 coords: 10.03, 45.13
 links: 20
 
 @ battle-of-luzzara
 wikipedia: Battle of Luzzara
 when: 1702
+days: 1702-08-15
 coords: 10.7, 44.97
 links: 18
 
 @ battle-of-cadiz-1702
 wikipedia: Battle of Cádiz (1702)
 when: 1702
+days: 1702-08-23 ~ 1702-09-30
 coords: -6.3, 36.58
 links: 17
 
 @ battle-of-friedlingen
 wikipedia: Battle of Friedlingen
 when: 1702
+days: 1702-10-14
 coords: 7.64, 47.6
 links: 18
 
 @ battle-of-vigo-bay
 wikipedia: Battle of Vigo Bay
 when: 1702
+days: 1702-10-23
 coords: -8.68, 42.28
 links: 24
 
 @ siege-of-kehl-1703
 wikipedia: Siege of Kehl (1703)
 when: 1703
+days: 1703-02-20 ~ 1703-03-10
 coords: 7.81, 48.57
 links: 11
 
 @ battle-of-ekeren
 wikipedia: Battle of Ekeren
 when: 1703
+days: 1703-06-30
 coords: 4.42, 51.27
 links: 16
 
 @ first-battle-of-hochstadt
 wikipedia: First Battle of Höchstädt
 when: 1703
+days: 1703-09-20
 coords: 10.58, 48.6
 links: 17
 
 @ battle-of-speyerbach
 wikipedia: Battle of Speyerbach
 when: 1703
+days: 1703-11-15
 coords: 8.43, 49.32
 links: 11
 
 @ battle-of-schellenberg
 wikipedia: Battle of Schellenberg
 when: 1704
+days: 1704-07-02
 coords: 10.8, 48.7
 links: 22
 
 @ battle-of-blenheim
 wikipedia: Battle of Blenheim
 when: 1704
+days: 1704-08-13
 coords: 10.6, 48.65
 links: 41
 
 @ capture-of-gibraltar
 wikipedia: Capture of Gibraltar
 when: 1704
+days: 1704-08-01 ~ 1704-08-03
 coords: -5.35, 36.14
 links: 20
 
 @ battle-of-malaga-1704
 wikipedia: Battle of Málaga (1704)
 when: 1704
+days: 1704-08-24
 coords: -4.37, 36.7
 links: 19
 
@@ -99,78 +114,91 @@ links: 8
 @ battle-of-montjuic-1705
 wikipedia: Battle of Montjuïc (1705)
 when: 1705
+days: 1705-09-13 ~ 1705-09-17
 coords: 2.17, 41.37
 links: 10
 
 @ siege-of-nice-1705
 wikipedia: Siege of Nice (1705)
 when: 1705 ~ 1706
+days: 1705-03-15 ~ 1706-01-04
 coords: 7.27, 43.7
 links: 10
 
 @ battle-of-elixheim
 wikipedia: Battle of Elixheim
 when: 1705
+days: 1705-07-18
 coords: 5.01, 50.78
 links: 13
 
 @ battle-of-cassano-1705
 wikipedia: Battle of Cassano (1705)
 when: 1705
+days: 1705-08-16
 coords: 9.52, 45.53
 links: 19
 
 @ siege-of-barcelona-1705
 wikipedia: Siege of Barcelona (1705)
 when: 1705
+days: 1705-09-14 ~ 1705-10-19
 coords: 2.18, 41.38
 links: 15
 
 @ siege-of-badajoz-1705
 wikipedia: Siege of Badajoz (1705)
 when: 1705
+days: 1705-10-04 ~ 1705-10-17
 coords: -6.98, 38.88
 links: 8
 
 @ battle-of-calcinato
 wikipedia: Battle of Calcinato
 when: 1706
+days: 1706-04-19
 coords: 10.42, 45.45
 links: 15
 
 @ siege-of-barcelona-1706
 wikipedia: Siege of Barcelona (1706)
 when: 1706
+days: 1706-04-03 ~ 1706-04-27
 coords: 2.18, 41.38
 links: 12
 
 @ battle-of-ramillies
 wikipedia: Battle of Ramillies
 when: 1706
+days: 1706-05-23
 coords: 4.92, 50.64
 links: 26
 
 @ siege-of-turin
 wikipedia: Siege of Turin
 when: 1706
+days: 1706-09-07
 coords: 7.67, 45.07
 links: 25
 
 @ battle-of-almansa
 wikipedia: Battle of Almansa
 when: 1707
+days: 1707-04-25
 coords: -1.09, 38.87
 links: 26
 
 @ siege-of-xativa-1707
 wikipedia: Siege of Xàtiva (1707)
 when: 1707
+days: 1707-05-08 ~ 1707-06-06
 coords: -0.52, 38.99
 links: 8
 
 @ action-of-2-may-1707
 wikipedia: Action of 2 May 1707
 when: 1707
+days: 1707-05-02 ~ 1707-05-03
 coords: 0.24, 50.74
 links: 9
 
@@ -183,89 +211,104 @@ links: 8
 @ siege-of-toulon-1707
 wikipedia: Siege of Toulon (1707)
 when: 1707
+days: 1707-07-29 ~ 1707-08-21
 coords: 5.93, 43.13
 links: 19
 
 @ battle-at-the-lizard
 wikipedia: Battle at The Lizard
 when: 1707
+days: 1707-10-21
 coords: -5.21, 49.95
 links: 10
 
 @ battle-of-oudenarde
 wikipedia: Battle of Oudenarde
 when: 1708
+days: 1708-07-11
 coords: 3.6, 50.83
 links: 26
 
 @ siege-of-lille-1708
 wikipedia: Siege of Lille (1708)
 when: 1708
+days: 1708-08-12 ~ 1708-12-10
 coords: 3.06, 50.63
 links: 17
 
 @ battle-of-wijnendale
 wikipedia: Battle of Wijnendale
 when: 1708
+days: 1708-09-28
 coords: 3.07, 51.09
 links: 10
 
 @ battle-of-la-gudina
 wikipedia: Battle of La Gudiña
 when: 1709
+days: 1709-05-07
 coords: -7.08, 38.96
 links: 8
 
 @ battle-of-malplaquet
 wikipedia: Battle of Malplaquet
 when: 1709
+days: 1709-09-11
 coords: 3.84, 50.32
 links: 31
 
 @ battle-of-almenar
 wikipedia: Battle of Almenar
 when: 1710
+days: 1710-07-27
 coords: 0.57, 41.8
 links: 16
 
 @ battle-of-saragossa
 wikipedia: Battle of Saragossa
 when: 1710
+days: 1710-08-20
 coords: -0.89, 41.61
 links: 16
 
 @ battle-of-syracuse-1710
 wikipedia: Battle of Syracuse (1710)
 when: 1710
+days: 1710-11-09
 coords: 15.28, 37.07
 links: 8
 
 @ battle-of-villaviciosa
 wikipedia: Battle of Villaviciosa
 when: 1710
+days: 1710-12-10
 coords: -2.84, 40.79
 links: 19
 
 @ battle-of-brihuega
 wikipedia: Battle of Brihuega
 when: 1710
+days: 1710-12-08
 coords: -2.87, 40.77
 links: 14
 
 @ siege-of-bouchain-1711
 wikipedia: Siege of Bouchain (1711)
 when: 1711
+days: 1711-08-05 ~ 1711-09-12
 coords: 3.32, 50.28
 links: 10
 
 @ battle-of-denain
 wikipedia: Battle of Denain
 when: 1712
+days: 1712-07-24
 coords: 3.4, 50.33
 links: 23
 
 @ siege-of-barcelona-1713-1714
 wikipedia: Siege of Barcelona (1713–1714)
 when: 1713 ~ 1714
+days: 1713-07-25 ~ 1714-09-11
 coords: 2.17, 41.4
 links: 19

@@ -3,11 +3,13 @@
 @ battle-of-tsushima
 wikipedia: Battle of Tsushima
 when: 1905-05
+days: 1905-05-27 ~ 1905-05-28
 coords: 130.15, 34.45
 links: 53
 
 @ japanese-invasion-of-sakhalin
 wikipedia: Japanese invasion of Sakhalin
 when: 1905-07
+days: 1905-07-07 ~ 1905-07-31
 coords: 142.65, 46.75
 links: 14

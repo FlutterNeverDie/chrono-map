@@ -18,6 +18,7 @@ import {
   battlesAt,
   campaignSummary,
   campaignTitle,
+  formatBattleWhen,
   formatRange,
   formatTime,
 } from "./logic";
@@ -162,12 +163,12 @@ export function BattlePanel({ ad }: { ad?: ReactNode } = {}) {
                     className={clsx(
                       "cursor-pointer rounded-lg border bg-surface p-5 transition-colors",
                       on
-                        ? "border-accent ring-2 ring-accent/30"
+                        ? "border-accent shadow-[inset_0_0_0_1px_var(--accent)]"
                         : "border-line hover:border-muted/50",
                     )}
                   >
                     <p className="text-[15px] text-muted">
-                      {formatRange(b.start, b.end, c.unit, locale)}
+                      {formatBattleWhen(b, c, locale)}
                     </p>
                     <h3 className="mt-1.5 text-xl leading-snug font-bold lg:text-2xl xl:text-[26px]">
                       {battleTitle(b, locale)}

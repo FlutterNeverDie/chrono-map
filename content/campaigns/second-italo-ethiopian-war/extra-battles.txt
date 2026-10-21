@@ -3,53 +3,62 @@
 @ de-bonos-invasion-of-ethiopia
 wikipedia: De Bono's invasion of Ethiopia
 when: 1935-10 ~ 1935-11
+days: 1935-10-03
 coords: 38.9, 14.17
 links: 4
 
 @ christmas-offensive
 wikipedia: Christmas Offensive
 when: 1935-12
+days: 1935-12-15
 coords: 38.5, 13.75
 links: 4
 
 @ battle-of-ganale-doria
 wikipedia: Battle of Ganale Doria
 when: 1936-01
+days: 1936-01-12 ~ 1936-01-20
 coords: 40.8, 4.9
 links: 6
 
 @ first-battle-of-tembien
 wikipedia: First battle of Tembien
 when: 1936-01
+days: 1936-01-20 ~ 1936-01-24
 coords: 39.05, 13.65
 links: 7
 
 @ second-battle-of-tembien
 wikipedia: Second battle of Tembien
 when: 1936-02
+days: 1936-02-27 ~ 1936-02-29
 coords: 38.95, 13.55
 links: 6
 
 @ battle-of-shire-1936
 wikipedia: Battle of Shire (1936)
 when: 1936-02 ~ 1936-03
+days: 1936-02-29 ~ 1936-03-02
 coords: 38.28, 14.1
 links: 6
 
 @ battle-of-maychew
 wikipedia: Battle of Maychew
 when: 1936-03
+days: 1936-03-31
 coords: 39.54, 12.78
 links: 8
 
 @ battle-of-the-ogaden
 wikipedia: Battle of the Ogaden
 when: 1936-04
+days: 1936-04-14 ~ 1936-04-25
 coords: 43.3, 7.9
 links: 6
 
 @ march-of-the-iron-will
 wikipedia: March of the Iron Will
 when: 1936-04 ~ 1936-05
+days: 1936-04-26 ~ 1936-05-05
 coords: 39.63, 11.13
 links: 4

@@ -36,6 +36,8 @@ async function loadYear(year: number): Promise<Polity[]> {
 /** 선택 연도의 정치체 영역 + 현재 언어 이름표. 불러오는 동안에는 이전 값을 유지한다 */
 export function useBorders(year: number, locale: Locale) {
   const [polities, setPolities] = useState<Polity[]>([]);
+  /** 지금 polities가 어느 연도 것인지(장면 찍기가 국경을 다 받은 뒤에 찍으려고) */
+  const [loadedYear, setLoadedYear] = useState<number | null>(null);
   const [names, setNames] = useState<Record<string, string>>({});
 
   // 슬라이더를 끄는 동안 지나가는 연도마다 파일을 받지 않도록, 멈춘 연도만 받는다(공용 캐시·재시도)
@@ -43,7 +45,11 @@ export function useBorders(year: number, locale: Locale) {
   useEffect(() => {
     let alive = true;
     loadYear(settledYear)
-      .then((p) => alive && setPolities(p))
+      .then((p) => {
+        if (!alive) return;
+        setPolities(p);
+        setLoadedYear(settledYear);
+      })
       .catch(() => {});
     return () => {
       alive = false;
@@ -61,5 +67,5 @@ export function useBorders(year: number, locale: Locale) {
   }, [locale]);
 
   const nameOf = useCallback((p: PolityProps) => names[p.n] || p.n, [names]);
-  return { polities, nameOf };
+  return { polities, nameOf, ready: loadedYear === year };
 }

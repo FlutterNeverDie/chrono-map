@@ -22,6 +22,13 @@ export type Battle = {
   coords: [number, number];
   /** 위키백과 언어판 수 — 중요도 */
   links: number;
+  /** 일 단위 날짜 [시작, 끝] "YYYY-MM-DD"(하루면 같은 값) - Wikidata에 일까지 있을 때만 */
+  days?: [string, string];
+  /**
+   * days를 그 언어로 적은 글자(빌드 때 Node에서 한 번) - 서버 HTML과 브라우저가 같은 글자를 쓰게. Intl formatRange는
+   * Node와 Chrome·사파리가 띄어쓰기를 다르게 만들어("12일~14일" / "12일 ~ 14일") 하이드레이션 오류가 났다
+   */
+  daysText?: Partial<Record<Locale, string>>;
   wiki: Partial<Record<Locale, WikiPage>>;
   /** 직접 쓴 이름·설명(battles.txt의 title.<언어>, summary.<언어>) */
   title?: Partial<Record<Locale, string>>;

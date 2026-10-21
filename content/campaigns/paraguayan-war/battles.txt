@@ -3,24 +3,28 @@
 @ siege-of-salto
 wikipedia: Siege of Salto
 when: 1864-11
+days: 1864-11-22 ~ 1864-11-28
 coords: -57.96, -31.39
 links: 3
 
 @ siege-of-paysandu
 wikipedia: Siege of Paysandú
 when: 1864-12 ~ 1865-01
+days: 1864-12-03 ~ 1865-01-02
 coords: -58.08, -32.32
 links: 7
 
 @ battle-of-riachuelo
 wikipedia: Battle of Riachuelo
 when: 1865-06
+days: 1865-06-11
 coords: -58.84, -27.56
 links: 15
 
 @ battle-of-yatay
 wikipedia: Battle of Yatay
 when: 1865-08
+days: 1865-08-17
 coords: -56.72, -29.12
 links: 8
 
@@ -33,35 +37,41 @@ links: 6
 @ battle-of-estero-bellaco
 wikipedia: Battle of Estero Bellaco
 when: 1866-05
+days: 1866-05-02
 coords: -57.88, -27.18
 links: 10
 
 @ battle-of-curupayty
 wikipedia: Battle of Curupayty
 when: 1866-09
+days: 1866-09-22
 coords: -58.57, -27.11
 links: 15
 
 @ siege-of-humaita
 wikipedia: Siege of Humaitá
 when: 1867-11 ~ 1868-07
+days: 1867-11-02 ~ 1868-07-25
 coords: -58.5, -27.07
 links: 3
 
 @ passage-of-humaita
 wikipedia: Passage of Humaitá
 when: 1868-02
+days: 1868-02-19
 coords: -58.5, -27.07
 links: 7
 
 @ battle-of-lomas-valentinas
 wikipedia: Battle of Lomas Valentinas
 when: 1868-12
+days: 1868-12-21 ~ 1868-12-27
 coords: -57.52, -25.59
 links: 8
 
 @ battle-of-cerro-cora
 wikipedia: Battle of Cerro Corá
 when: 1870-03
+days: 1870-03-01
 coords: -56.03, -22.65
 links: 12

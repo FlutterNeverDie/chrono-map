@@ -52,3 +52,36 @@ export function formatYearRange(
   }
   return `${formatYear(start, locale, approx)} ~ ${formatYear(end, locale)}`;
 }
+
+/**
+ * 일 단위 날짜(서기 "YYYY-MM-DD") 표기 - 하루면 "1914년 8월 17일", 기간이면 Intl formatRange가 같은 해·달을 줄여 적는다
+ * ("1916년 7월 1일~11월 18일", "July 1 – November 18, 1916")
+ */
+export function formatDayRange(a: string, b: string, locale: Locale): string {
+  const date = (s: string) => {
+    const [y, m, d] = s.split("-").map(Number);
+    const t = new Date(Date.UTC(2000, m - 1, d));
+    t.setUTCFullYear(y);
+    return t;
+  };
+  const f = new Intl.DateTimeFormat(locale, {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+    timeZone: "UTC",
+  });
+  if (a === b) return f.format(date(a));
+  // 중국어는 Intl formatRange가 "1861/4/12 – 1861/4/14"처럼 숫자로만 적어(Node) 관례대로 직접: 1861年4月12日至14日
+  if (locale === "zh") {
+    const [y1, m1, d1] = a.split("-").map(Number);
+    const [y2, m2, d2] = b.split("-").map(Number);
+    const end =
+      y1 !== y2
+        ? `${y2}年${m2}月${d2}日`
+        : m1 !== m2
+          ? `${m2}月${d2}日`
+          : `${d2}日`;
+    return `${y1}年${m1}月${d1}日至${end}`;
+  }
+  return f.formatRange(date(a), date(b));
+}

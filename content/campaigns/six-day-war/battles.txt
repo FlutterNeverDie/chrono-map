@@ -3,11 +3,13 @@
 @ battle-of-abu-ageila
 wikipedia: Battle of Abu-Ageila
 when: 1967-06
+days: 1967-06-06
 coords: 34.26, 30.84
 links: 10
 
 @ battle-of-ammunition-hill
 wikipedia: Battle of Ammunition Hill
 when: 1967-06
+days: 1967-06-06
 coords: 35.23, 31.8
 links: 10

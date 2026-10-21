@@ -2,6 +2,7 @@ import { geoGraticule10, geoMercator } from "d3-geo";
 import { feature } from "topojson-client";
 import type { GeometryCollection, Topology } from "topojson-specification";
 import world from "world-atlas/land-110m.json";
+import { loadDetailedLand as loadShared } from "@/components/map/detailedLand";
 
 /** 평면(메르카토르) 지도. 가로 = 경도 360° 전체, 세로 = 위도 82°N ~ 58°S (그린란드 북단 ~ 남미 남단) */
 export const MAP_WIDTH = 1000;
@@ -37,13 +38,6 @@ export const graticule = geoGraticule10();
 const topology = world as unknown as Topology<{ land: GeometryCollection }>;
 export const land = feature(topology, topology.objects.land);
 
-/** 확대했을 때 쓰는 자세한 해안선(50m, 약 550KB). public/geo에 두고 필요할 때 한 번만 받는다 */
-let detailed: Promise<typeof land> | null = null;
-export function loadDetailedLand(): Promise<typeof land> {
-  detailed ??= fetch("/geo/land-50m.json")
-    .then((r) => r.json())
-    .then((t: Topology<{ land: GeometryCollection }>) =>
-      feature(t, t.objects.land),
-    );
-  return detailed;
-}
+/** 확대했을 때 쓰는 자세한 해안선(50m) - 공용(components/map)을 같이 써서 한 번만 받는다 */
+export const loadDetailedLand = () =>
+  loadShared() as Promise<typeof land>;

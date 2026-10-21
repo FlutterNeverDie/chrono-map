@@ -6,6 +6,7 @@ import {
   TopicMap,
   TopicPanel,
   TopicProvider,
+  TopicTitle,
   type Topic,
 } from "@/features/topic";
 import { localizeTopic } from "@/features/topic/data";
@@ -31,6 +32,7 @@ export function TopicScreen({
           <div className="absolute inset-x-0 top-0 bottom-[var(--bar-h)]">
             <TopicMap />
           </div>
+          <TopicTitle />
 
           <TopicPanel ad={<AdSlot name="infeed" />} />
           <div className="pointer-events-none absolute start-3 bottom-[calc(var(--bar-h)+0.5rem)] z-10 hidden rounded bg-surface/70 px-1.5 py-0.5 text-xs text-muted lg:block">

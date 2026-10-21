@@ -35,6 +35,14 @@ export async function generateMetadata({
     // 아이콘: app/icon.svg(자동) + iOS 홈 화면용 PNG
     // favicon.ico(app 루트)는 Next가 링크를 자동으로 넣는다
     icons: { icon: "/icon.svg", apple: "/apple-touch-icon.png" },
+    // 아이폰 사파리가 연도·날짜·숫자를 날짜·전화번호로 알아보고 링크 속성을 붙이면 서버 HTML과 속성이 달라
+    // 하이드레이션 경고가 났다("attributes of the server rendered HTML didn't match") - 자동 감지를 끈다
+    formatDetection: {
+      telephone: false,
+      date: false,
+      address: false,
+      email: false,
+    },
   };
 }
 

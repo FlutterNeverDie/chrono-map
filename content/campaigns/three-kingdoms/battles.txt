@@ -39,6 +39,7 @@ links: 8
 @ battle-of-xiapi
 wikipedia: Battle of Xiapi
 when: 199
+days: 0199-02-07
 coords: 118.01, 34.34
 links: 14
 

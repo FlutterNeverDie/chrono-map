@@ -3,179 +3,209 @@
 @ battle-of-monterrey
 wikipedia: Battle of Monterrey
 when: 1846-09
+days: 1846-09-21 ~ 1846-09-24
 coords: -100.31, 25.68
 links: 17
 
 @ battle-of-chino
 wikipedia: Battle of Chino
 when: 1846-09
+days: 1846-09-26 ~ 1846-09-27
 coords: -117.72, 33.99
 links: 5
 
 @ capture-of-santa-fe
 wikipedia: Capture of Santa Fe
 when: 1846-08
+days: 1846-08-08 ~ 1846-08-14
 coords: -105.96, 35.67
 links: 5
 
 @ thornton-affair
 wikipedia: Thornton Affair
 when: 1846-04
+days: 1846-04-25
 coords: -97.78, 26.06
 links: 8
 
 @ battle-of-resaca-de-la-palma
 wikipedia: Battle of Resaca de la Palma
 when: 1846-05
+days: 1846-05-09
 coords: -97.49, 25.94
 links: 11
 
 @ siege-of-fort-texas
 wikipedia: Siege of Fort Texas
 when: 1846-05
+days: 1846-05-03 ~ 1846-05-09
 coords: -97.49, 25.9
 links: 8
 
 @ battle-of-palo-alto
 wikipedia: Battle of Palo Alto
 when: 1846-05
+days: 1846-05-08
 coords: -97.47, 26.02
 links: 16
 
 @ battle-of-olompali
 wikipedia: Battle of Olómpali
 when: 1846-06
+days: 1846-06-24
 coords: -122.57, 38.15
 links: 3
 
 @ battle-of-monterey
 wikipedia: Battle of Monterey
 when: 1846-07
+days: 1846-07-07
 coords: -121.9, 36.61
 links: 7
 
 @ siege-of-los-angeles
 wikipedia: Siege of Los Angeles
 when: 1846-09
+days: 1846-09-22 ~ 1846-09-30
 coords: -118.24, 34.05
 links: 3
 
 @ first-battle-of-tabasco
 wikipedia: First Battle of Tabasco
 when: 1846-10
+days: 1846-10-24 ~ 1846-10-26
 coords: -92.93, 17.99
 links: 4
 
 @ battle-of-dominguez-rancho
 wikipedia: Battle of Dominguez Rancho
 when: 1846-10
+days: 1846-10-08
 coords: -118.32, 33.77
 links: 4
 
 @ battle-of-natividad
 wikipedia: Battle of Natividad
 when: 1846-11
+days: 1846-11-16
 coords: -121.6, 36.77
 links: 3
 
 @ battle-of-san-pasqual
 wikipedia: Battle of San Pasqual
 when: 1846-12
+days: 1846-12-06 ~ 1846-12-07
 coords: -116.99, 33.09
 links: 5
 
 @ battle-of-chapultepec
 wikipedia: Battle of Chapultepec
 when: 1847-09
+days: 1847-09-12 ~ 1847-09-13
 coords: -99.18, 19.42
 links: 19
 
 @ battle-of-la-mesa
 wikipedia: Battle of La Mesa
 when: 1847-01
+days: 1847-01-09
 coords: -118.2, 34
 links: 3
 
 @ battle-of-rio-san-gabriel
 wikipedia: Battle of Río San Gabriel
 when: 1847-01
+days: 1847-01-08 ~ 1847-01-09
 coords: -118.11, 33.99
 links: 3
 
 @ battle-of-canada
 wikipedia: Battle of Cañada
 when: 1847-01
+days: 1847-01-24
 coords: -106.04, 35.99
 links: 3
 
 @ battle-of-embudo-pass
 wikipedia: Battle of Embudo Pass
 when: 1847-01
+days: 1847-01-29
 coords: -105.9, 36.2
 links: 4
 
 @ battle-of-santa-clara-1847
 wikipedia: Battle of Santa Clara (1847)
 when: 1847-01
+days: 1847-01-02
 coords: -121.95, 37.35
 links: 4
 
 @ first-battle-of-mora
 wikipedia: First Battle of Mora
 when: 1847-01
+days: 1847-01-24
 coords: -105.33, 35.97
 links: 3
 
 @ battle-of-buena-vista
 wikipedia: Battle of Buena Vista
 when: 1847-02
+days: 1847-02-22 ~ 1847-02-23
 coords: -101.05, 25.34
 links: 14
 
 @ battle-of-sacramento-mexico
 wikipedia: Battle of Sacramento (Mexico)
 when: 1847-02
+days: 1847-02-28
 coords: -106.19, 28.87
 links: 6
 
 @ siege-of-veracruz
 wikipedia: Siege of Veracruz
 when: 1847-03
+days: 1847-03-09 ~ 1847-03-29
 coords: -96.15, 19.19
 links: 15
 
 @ battle-of-cerro-gordo
 wikipedia: Battle of Cerro Gordo
 when: 1847-04
+days: 1847-04-18
 coords: -96.91, 19.53
 links: 9
 
 @ battle-of-churubusco
 wikipedia: Battle of Churubusco
 when: 1847-08
+days: 1847-08-20
 coords: -99.15, 19.36
 links: 12
 
 @ siege-of-puebla-1847
 wikipedia: Siege of Puebla (1847)
 when: 1847-09 ~ 1847-10
+days: 1847-09-13 ~ 1847-10-12
 coords: -98.22, 19.05
 links: 5
 
 @ battle-of-molino-del-rey
 wikipedia: Battle of Molino del Rey
 when: 1847-09
+days: 1847-09-08
 coords: -99.19, 19.42
 links: 11
 
 @ battle-of-huamantla
 wikipedia: Battle of Huamantla
 when: 1847-10
+days: 1847-10-09
 coords: -97.92, 19.31
 links: 4
 
 @ battle-of-la-paz
 wikipedia: Battle of La Paz
 when: 1847-11
+days: 1847-11-16 ~ 1847-11-17
 coords: -110.3, 24.13
 links: 3

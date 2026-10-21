@@ -3,5 +3,6 @@
 @ battle-of-cheoin
 wikipedia: Battle of Cheoin
 when: 1232
+days: 1232-12-16
 coords: 127.2, 37.23
 links: 4

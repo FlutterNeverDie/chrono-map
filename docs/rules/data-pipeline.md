@@ -5,10 +5,11 @@
 | 지도 | 원본 | 네트워크(가끔, 결과 캐시) | 빌드 때 자동(네트워크 없음) |
 | --- | --- | --- | --- |
 | 본 지도 사건 | `content/events`, `rankings` | `npm run wiki` → `content/wikipedia.json` | `npm run content` |
+| 사건 사진 | `content/events` | `npm run photos` → `public/photos/<id>-s·w·l.webp` + `content/photos.json`(작가·라이선스·원본, 없음은 null - 다시 묻지 않음, `-- --force`) | `npm run content`(파일이 있는 사건만 `photo`) |
 | 사건 검수 | `content/events` | `npm run audit` → Wikidata 날짜·좌표, 동음이의 문서, 긴 기간 등 의심 목록 출력(고치지 않음, 캐시 `data-raw/`) | — |
 | 사건 후보 | — | `npm run draft` → `content/drafts` (`-- --promote 55`) | — |
 | 역사 국경 | Cliopatria 원본(`data-raw/`) | `npm run borders` → `public/borders` | `npm run lands`(상세 페이지 자리를 다스린 나라, `public/borders` + 사건·전쟁·주제 지도 항목 좌표, 입력이 그대로면 건너뜀) |
-| 전쟁 지도 | `content/campaigns/<id>` | `npm run wars:fetch` / `wars:borders` | `npm run wars:build` |
+| 전쟁 지도 | `content/campaigns/<id>` | `npm run wars:fetch` / `wars:borders` / `wars:days`(전투 일 단위 날짜) | `npm run wars:build`(+ /wars 전투 점 `public/campaigns/points/<언어>.json`) |
 | 주제 지도 | `content/topics/<id>` | `npm run topics:fetch` | `npm run topics:build` |
 | OG 이미지 글꼴 | 모든 OG 카드의 글자 | `npm run og:fonts` → `content/og-fonts` (사건 제목·문구가 바뀌면) | — (이미지는 `next build`가 생성) |
 | 스레드 "오늘의 세계사" | `content.json`(사건) | — | `npm run threads`(미리 보기, `-- --days 7`, `-- --lang en`) / `-- --post`(게시, `THREADS_ACCESS_TOKEN`) - 하루 3번(미국 동부 오전 9시·오후 1시·저녁 7시) `.github/workflows/threads-daily.yml`, 글은 `content/threads/posts.en.txt`, 글 이미지(4:5, 그 해 국경 지도)는 빌드 때 `/en/event/<id>/post.png` |

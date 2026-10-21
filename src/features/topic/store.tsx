@@ -9,13 +9,16 @@ import {
 } from "react";
 import { createStore, useStore, type StoreApi } from "zustand";
 import { keyframes } from "./logic";
-import type { Topic } from "./types";
+import type { Topic, TopicPoint } from "./types";
 
 type State = {
   t: number;
   setT: (t: number) => void;
   selected: string | null;
   select: (id: string | null) => void;
+  /** 고른 작은 점(전투) - 고르면 그 항목도 고른다 */
+  selectedPoint: TopicPoint | null;
+  selectPoint: (p: TopicPoint) => void;
   panelOpen: boolean;
   setPanelOpen: (open: boolean) => void;
   focus: { coords: [number, number]; nonce: number } | null;
@@ -39,7 +42,11 @@ export function TopicProvider({
       t: keyframes(topic)[0] ?? topic.scale[0] * 12,
       setT: (t) => set({ t: Math.round(t) }),
       selected: null,
-      select: (selected) => set({ selected, panelOpen: selected != null }),
+      select: (selected) =>
+        set({ selected, selectedPoint: null, panelOpen: selected != null }),
+      selectedPoint: null,
+      selectPoint: (p) =>
+        set({ selected: p.item, selectedPoint: p, panelOpen: true }),
       panelOpen: false,
       setPanelOpen: (panelOpen) => set({ panelOpen }),
       focus: null,

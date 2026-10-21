@@ -3,5 +3,6 @@
 @ battle-of-amba-aradam
 wikipedia: Battle of Amba Aradam
 when: 1936-02
+days: 1936-02-10 ~ 1936-02-19
 coords: 39.51, 13.33
 links: 10

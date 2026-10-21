@@ -22,6 +22,7 @@ import {
   itemColor,
 } from "./logic";
 import type { TopicItem } from "./types";
+import { pointLink } from "./points";
 
 /** 항목 목록: "이 시기"(진행 중이거나 최근 등장) / "전체"(시간 순, 고르면 그 시점으로 이동) */
 /** ad: 항목 카드 사이에 넣을 광고(3번째 뒤) — app이 넘긴다 */
@@ -32,6 +33,7 @@ export function TopicPanel({ ad }: { ad?: ReactNode } = {}) {
   const setT = useTopicState((s) => s.setT);
   const selected = useTopicState((s) => s.selected);
   const select = useTopicState((s) => s.select);
+  const selectedPoint = useTopicState((s) => s.selectedPoint);
   const focusOn = useTopicState((s) => s.focusOn);
   const open = useTopicState((s) => s.panelOpen);
   const setOpen = useTopicState((s) => s.setPanelOpen);
@@ -135,7 +137,7 @@ export function TopicPanel({ ad }: { ad?: ReactNode } = {}) {
                     className={clsx(
                       "cursor-pointer rounded-lg border bg-surface p-5 transition-colors",
                       on
-                        ? "border-accent ring-2 ring-accent/30"
+                        ? "border-accent shadow-[inset_0_0_0_1px_var(--accent)]"
                         : "border-line hover:border-muted/50",
                     )}
                   >
@@ -166,6 +168,32 @@ export function TopicPanel({ ad }: { ad?: ReactNode } = {}) {
                       }
                       className="mt-2 text-base text-muted lg:text-lg xl:text-[19px]"
                     />
+                    {/* 지도에서 고른 작은 점(전투): 이름·때와 그 자리로 가는 버튼 */}
+                    {selectedPoint?.item === it.id && (
+                      <div
+                        onClick={(e) => e.stopPropagation()}
+                        className="mt-3 cursor-default rounded-md border border-line bg-background px-4 py-3"
+                      >
+                        <p className="text-lg font-bold leading-snug">
+                          {selectedPoint.title}
+                        </p>
+                        <p className="text-[15px] text-muted">
+                          {selectedPoint.when}
+                        </p>
+                        {pointLink(topic, selectedPoint) && (
+                          <a
+                            href={localeHref(
+                              locale,
+                              pointLink(topic, selectedPoint)!,
+                            )}
+                            onClick={(e) => e.stopPropagation()}
+                            className="mt-2 inline-flex h-11 items-center rounded-md bg-foreground px-4 text-base font-semibold text-background"
+                          >
+                            {pick(topic.points?.label ?? {}, locale)}
+                          </a>
+                        )}
+                      </div>
+                    )}
                     {it.link && (
                       <a
                         href={localeHref(locale, it.link)}

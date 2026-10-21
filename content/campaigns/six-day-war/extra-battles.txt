@@ -3,12 +3,14 @@
 @ operation-focus
 wikipedia: Operation Focus
 when: 1967-06
+days: 1967-06-05
 coords: 33.8, 30.6
 links: 20
 
 @ uss-liberty-incident
 wikipedia: USS Liberty incident
 when: 1967-06
+days: 1967-06-08
 coords: 33.38, 31.39
 links: 23
 

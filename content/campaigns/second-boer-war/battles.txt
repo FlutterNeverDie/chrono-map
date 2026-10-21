@@ -3,191 +3,223 @@
 @ battle-of-talana-hill
 wikipedia: Battle of Talana Hill
 when: 1899-10
+days: 1899-10-20
 coords: 30.27, -28.16
 links: 10
 
 @ battle-of-elandslaagte
 wikipedia: Battle of Elandslaagte
 when: 1899-10
+days: 1899-10-21
 coords: 29.95, -28.4
 links: 10
 
 @ battle-of-ladysmith
 wikipedia: Battle of Ladysmith
 when: 1899-10
+days: 1899-10-30
 coords: 29.79, -28.5
 links: 8
 
 @ battle-of-kraaipan
 wikipedia: Battle of Kraaipan
 when: 1899-10
+days: 1899-10-13
 coords: 25.31, -26.3
 links: 8
 
 @ siege-of-kimberley
 wikipedia: Siege of Kimberley
 when: 1899-10 ~ 1900-02
+days: 1899-10-14 ~ 1900-02-15
 coords: 24.76, -28.74
 links: 5
 
 @ siege-of-mafeking
 wikipedia: Siege of Mafeking
 when: 1899-10 ~ 1900-05
+days: 1899-10-13 ~ 1900-05-17
 coords: 25.63, -25.85
 links: 19
 
 @ battle-of-modder-river
 wikipedia: Battle of Modder River
 when: 1899-11
+days: 1899-11-28
 coords: 24.63, -29.04
 links: 9
 
 @ battle-of-belmont-1899
 wikipedia: Battle of Belmont (1899)
 when: 1899-11
+days: 1899-11-23
 coords: 24.37, -29.42
 links: 8
 
 @ battle-of-graspan
 wikipedia: Battle of Graspan
 when: 1899-11
+days: 1899-11-25
 coords: 24.48, -29.3
 links: 6
 
 @ battle-of-willow-grange
 wikipedia: Battle of Willow Grange
 when: 1899-11
+days: 1899-11-23
 coords: 29.93, -29.1
 links: 6
 
 @ siege-of-ladysmith
 wikipedia: Siege of Ladysmith
 when: 1899-11 ~ 1900-02
+days: 1899-11-02 ~ 1900-02-28
 coords: 29.78, -28.56
 links: 16
 
 @ second-battle-of-colenso
 wikipedia: Second Battle of Colenso
 when: 1899-12
+days: 1899-12-15
 coords: 29.82, -28.73
 links: 14
 
 @ battle-of-magersfontein
 wikipedia: Battle of Magersfontein
 when: 1899-12
+days: 1899-12-11
 coords: 24.7, -28.97
 links: 17
 
 @ battle-of-stormberg
 wikipedia: Battle of Stormberg
 when: 1899-12
+days: 1899-12-10
 coords: 26.25, -31.3
 links: 14
 
 @ battle-of-spion-kop
 wikipedia: Battle of Spion Kop
 when: 1900-01
+days: 1900-01-23 ~ 1900-01-24
 coords: 29.52, -28.65
 links: 15
 
 @ battle-of-paardeberg
 wikipedia: Battle of Paardeberg
 when: 1900-02
+days: 1900-02-18 ~ 1900-02-27
 coords: 25.09, -28.98
 links: 13
 
 @ battle-of-vaal-krantz
 wikipedia: Battle of Vaal Krantz
 when: 1900-02
+days: 1900-02-05 ~ 1900-02-07
 coords: 29.63, -28.68
 links: 9
 
 @ battle-of-the-tugela-heights
 wikipedia: Battle of the Tugela Heights
 when: 1900-02
+days: 1900-02-14 ~ 1900-02-27
 coords: 29.83, -28.68
 links: 6
 
 @ bloody-sunday-1900
 wikipedia: Bloody Sunday (1900)
 when: 1900-02
+days: 1900-02-18
 coords: 25.09, -28.98
 links: 6
 
 @ battle-of-poplar-grove
 wikipedia: Battle of Poplar Grove
 when: 1900-03
+days: 1900-03-07
 coords: 25.37, -28.91
 links: 7
 
 @ sanna-s-post
 wikipedia: Sanna's Post
 when: 1900-03
+days: 1900-03-31
 coords: 26.54, -29.16
 links: 6
 
 @ battle-of-driefontein
 wikipedia: Battle of Driefontein
 when: 1900-03
+days: 1900-03-10
 coords: 25.66, -28.99
 links: 7
 
 @ battle-of-biddulphsberg
 wikipedia: Battle of Biddulphsberg
 when: 1900-05
+days: 1900-05-29
 coords: 27.6, -28.32
 links: 7
 
 @ battle-of-diamond-hill
 wikipedia: Battle of Diamond Hill
 when: 1900-06
+days: 1900-06-12
 coords: 28.47, -25.78
 links: 7
 
 @ battle-of-bergendal
 wikipedia: Battle of Bergendal
 when: 1900-08
+days: 1900-08-27
 coords: 30.09, -25.73
 links: 7
 
 @ battle-of-elands-river-1900
 wikipedia: Battle of Elands River (1900)
 when: 1900-08
+days: 1900-08-04 ~ 1900-08-16
 coords: 26.71, -25.65
 links: 6
 
 @ battle-of-bothaville
 wikipedia: Battle of Bothaville
 when: 1900-11
+days: 1900-11-06
 coords: 26.62, -27.38
 links: 7
 
 @ battle-of-nooitgedacht
 wikipedia: Battle of Nooitgedacht
 when: 1900-12
+days: 1900-12-13
 coords: 27.55, -25.86
 links: 7
 
 @ battle-of-blood-river-poort
 wikipedia: Battle of Blood River Poort
 when: 1901-09
+days: 1901-09-17
 coords: 30.53, -27.77
 links: 7
 
 @ battle-of-bakenlaagte
 wikipedia: Battle of Bakenlaagte
 when: 1901-10
+days: 1901-10-30
 coords: 29.13, -26.35
 links: 6
 
 @ battle-of-tweebosch
 wikipedia: Battle of Tweebosch
 when: 1902-03
+days: 1902-03-07
 coords: 25, -26.55
 links: 6
 
 @ battle-of-rooiwal
 wikipedia: Battle of Rooiwal
 when: 1902-04
+days: 1902-04-11
 coords: 28.2, -25.55
 links: 7

@@ -3,18 +3,21 @@
 @ battle-of-awa
 wikipedia: Battle of Awa
 when: 1868-01
+days: 1868-01-28
 coords: 135.0, 34.25
 links: 16
 
 @ fall-of-osaka-castle
 wikipedia: Fall of Osaka Castle
 when: 1868-02
+days: 1868-02-02
 coords: 135.53, 34.69
 links: 9
 
 @ fall-of-edo
 wikipedia: Fall of Edo
 when: 1868-05 ~ 1868-07
+days: 1868-05-03
 coords: 139.75, 35.69
 links: 14
 

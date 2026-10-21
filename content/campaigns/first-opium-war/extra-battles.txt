@@ -3,5 +3,6 @@
 @ sanyuanli-incident
 wikipedia: Sanyuanli incident
 when: 1841-05
+days: 1841-05-29 ~ 1841-05-30
 coords: 113.25, 23.16
 links: 7

@@ -4,6 +4,7 @@ import { I18nProvider } from "@/i18n/I18nProvider";
 import {
   BattlePanel,
   CampaignMap,
+  CampaignTitle,
   CampaignProvider,
   Legend,
   TimeGauge,
@@ -30,6 +31,7 @@ export function CampaignScreen({
           <div className="absolute inset-x-0 top-0 bottom-[var(--bar-h)]">
             <CampaignMap />
           </div>
+          <CampaignTitle />
           <SiteHeader>
             <Legend />
           </SiteHeader>

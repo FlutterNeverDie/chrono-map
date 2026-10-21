@@ -3,119 +3,139 @@
 @ shanghai-massacre
 wikipedia: Shanghai massacre
 when: 1927
+days: 1927-04-12 ~ 1927-04-15
 coords: 121.47, 31.23
 links: 24
 
 @ nanchang-uprising
 wikipedia: Nanchang Uprising
 when: 1927
+days: 1927-08-01
 coords: 115.89, 28.68
 links: 31
 
 @ autumn-harvest-uprising
 wikipedia: Autumn Harvest Uprising
 when: 1927
+days: 1927-09-07
 coords: 113.85, 27.65
 links: 21
 
 @ guangzhou-uprising
 wikipedia: Guangzhou Uprising
 when: 1927
+days: 1927-12-11
 coords: 113.26, 23.13
 links: 12
 
 @ fifth-encirclement-campaign-against-the-jiangxi-soviet
 wikipedia: Fifth encirclement campaign against the Jiangxi Soviet
 when: 1933 ~ 1934
+days: 1933-09-25 ~ 1934-10-10
 coords: 116.03, 25.89
 links: 4
 
 @ xian-incident
 wikipedia: Xi'an Incident
 when: 1936
+days: 1936-12-12 ~ 1936-12-26
 coords: 108.93, 34.27
 links: 28
 
 @ new-fourth-army-incident
 wikipedia: New Fourth Army Incident
 when: 1941
+days: 1941-01-07 ~ 1941-01-13
 coords: 118.41, 30.69
 links: 13
 
 @ shangdang-campaign
 wikipedia: Shangdang Campaign
 when: 1945
+days: 1945-09-10 ~ 1945-10-12
 coords: 113.1, 36.2
 links: 4
 
 @ second-battle-of-siping
 wikipedia: Second Battle of Siping
 when: 1946
+days: 1946-04-17 ~ 1946-05-19
 coords: 124.37, 43.17
 links: 5
 
 @ battle-of-kalgan
 wikipedia: Battle of Kalgan
 when: 1946
+days: 1946-10-10 ~ 1946-10-20
 coords: 114.88, 40.82
 links: 3
 
 @ battle-of-yanan
 wikipedia: Battle of Yan'an
 when: 1947
+days: 1947-03-19
 coords: 109.49, 36.6
 links: 1
 
 @ menglianggu-campaign
 wikipedia: Menglianggu campaign
 when: 1947
+days: 1947-05-13 ~ 1947-05-16
 coords: 118.2, 35.6
 links: 3
 
 @ liaoshen-campaign
 wikipedia: Liaoshen campaign
 when: 1948
+days: 1948-09-12 ~ 1948-11-02
 coords: 123.43, 41.8
 links: 10
 
 @ huaihai-campaign
 wikipedia: Huaihai campaign
 when: 1948 ~ 1949
+days: 1948-11-06 ~ 1949-01-10
 coords: 117.28, 34.2
 links: 9
 
 @ pingjin-campaign
 wikipedia: Pingjin campaign
 when: 1948 ~ 1949
+days: 1948-11-29 ~ 1949-01-31
 coords: 116.4, 39.9
 links: 8
 
 @ taiyuan-campaign
 wikipedia: Taiyuan campaign
 when: 1948 ~ 1949
+days: 1948-10-05 ~ 1949-04-24
 coords: 112.55, 37.87
 links: 3
 
 @ yangtze-river-crossing-campaign
 wikipedia: Yangtze River Crossing campaign
 when: 1949
+days: 1949-04-20 ~ 1949-06-02
 coords: 118.78, 32.06
 links: 9
 
 @ shanghai-campaign
 wikipedia: Shanghai Campaign
 when: 1949
+days: 1949-05-12 ~ 1949-06-02
 coords: 121.47, 31.23
 links: 3
 
 @ lanzhou-campaign
 wikipedia: Lanzhou Campaign
 when: 1949
+days: 1949-08-09 ~ 1949-08-27
 coords: 103.83, 36.06
 links: 4
 
 @ chengdu-campaign
 wikipedia: Chengdu campaign
 when: 1949
+days: 1949-12-11 ~ 1949-12-27
 coords: 104.07, 30.67
 links: 2

@@ -3,185 +3,216 @@
 @ battle-of-cotagaita
 wikipedia: Battle of Cotagaita
 when: 1810
+days: 1810-10-27
 coords: -65.66, -20.82
 links: 5
 
 @ battle-of-suipacha
 wikipedia: Battle of Suipacha
 when: 1810
+days: 1810-11-07
 coords: -65.61, -21.57
 links: 8
 
 @ siege-of-montevideo-1811
 wikipedia: Siege of Montevideo (1811)
 when: 1811
+days: 1811-05-21 ~ 1811-10-12
 coords: -56.17, -34.87
 links: 5
 
 @ battle-of-san-nicolas
 wikipedia: Battle of San Nicolás
 when: 1811
+days: 1811-03-02
 coords: -60.14, -33.36
 links: 5
 
 @ battle-of-huaqui
 wikipedia: Battle of Huaqui
 when: 1811
+days: 1811-06-20
 coords: -68.92, -16.63
 links: 9
 
 @ siege-of-montevideo-1812-1814
 wikipedia: Siege of Montevideo (1812–1814)
 when: 1812 ~ 1814
+days: 1812-10-20 ~ 1814-06-23
 coords: -56.17, -34.87
 links: 5
 
 @ battle-of-tucuman
 wikipedia: Battle of Tucumán
 when: 1812
+days: 1812-09-25
 coords: -65.22, -26.84
 links: 8
 
 @ battle-of-cerrito
 wikipedia: Battle of Cerrito
 when: 1812
+days: 1812-12-31
 coords: -56.17, -34.85
 links: 6
 
 @ battle-of-salta
 wikipedia: Battle of Salta
 when: 1813
+days: 1813-02-20
 coords: -65.4, -24.73
 links: 9
 
 @ battle-of-san-lorenzo
 wikipedia: Battle of San Lorenzo
 when: 1813
+days: 1813-02-03
 coords: -60.73, -32.75
 links: 11
 
 @ battle-of-vilcapugio
 wikipedia: Battle of Vilcapugio
 when: 1813
+days: 1813-10-01
 coords: -66.56, -19.04
 links: 5
 
 @ battle-of-viluma
 wikipedia: Battle of Viluma
 when: 1815
+days: 1815-11-28
 coords: -66.35, -17.46
 links: 8
 
 @ battle-of-chacabuco
 wikipedia: Battle of Chacabuco
 when: 1817
+days: 1817-02-12
 coords: -70.68, -32.99
 links: 21
 
 @ battle-of-cancha-rayada-1818
 wikipedia: Battle of Cancha Rayada (1818)
 when: 1818
+days: 1818-03-19
 coords: -71.65, -35.41
 links: 5
 
 @ battle-of-maipu
 wikipedia: Battle of Maipú
 when: 1818
+days: 1818-04-05
 coords: -70.77, -33.5
 links: 23
 
 @ battle-of-vargas-swamp
 wikipedia: Battle of Vargas Swamp
 when: 1819
+days: 1819-07-25
 coords: -73.07, 5.74
 links: 6
 
 @ battle-of-boyaca
 wikipedia: Battle of Boyacá
 when: 1819
+days: 1819-08-07
 coords: -73.43, 5.45
 links: 25
 
 @ battle-of-camino-real
 wikipedia: Battle of Camino Real
 when: 1820
+days: 1820-11-09
 coords: -79.12, -1.81
 links: 6
 
 @ first-battle-of-huachi
 wikipedia: First Battle of Huachi
 when: 1820
+days: 1820-11-22
 coords: -78.64, -1.31
 links: 5
 
 @ battle-of-carabobo
 wikipedia: Battle of Carabobo
 when: 1821
+days: 1821-06-24
 coords: -68.17, 10
 links: 18
 
 @ battle-of-yaguachi
 wikipedia: Battle of Yaguachi
 when: 1821
+days: 1821-08-19
 coords: -79.65, -2.17
 links: 7
 
 @ second-battle-of-huachi
 wikipedia: Second Battle of Huachi
 when: 1821
+days: 1821-09-12
 coords: -78.65, -1.3
 links: 5
 
 @ siege-of-salvador-1822-1823
 wikipedia: Siege of Salvador (1822–1823)
 when: 1822 ~ 1823
+days: 1822-03-02 ~ 1823-07-02
 coords: -38.51, -12.97
 links: 8
 
 @ battle-of-ica
 wikipedia: Battle of Ica
 when: 1822
+days: 1822-04-07
 coords: -75.78, -14.04
 links: 5
 
 @ battle-of-pichincha
 wikipedia: Battle of Pichincha
 when: 1822
+days: 1822-05-24
 coords: -78.53, -0.22
 links: 17
 
 @ battle-of-itaparica
 wikipedia: Battle of Itaparica
 when: 1823
+days: 1823-01-07 ~ 1823-01-09
 coords: -38.67, -12.98
 links: 5
 
 @ battle-of-jenipapo
 wikipedia: Battle of Jenipapo
 when: 1823
+days: 1823-03-13
 coords: -42.12, -4.78
 links: 6
 
 @ battle-of-4-may
 wikipedia: Battle of 4 May
 when: 1823
+days: 1823-05-04
 coords: -38.42, -13.05
 links: 6
 
 @ battle-of-lake-maracaibo
 wikipedia: Battle of Lake Maracaibo
 when: 1823
+days: 1823-07-24
 coords: -71.58, 10.75
 links: 8
 
 @ battle-of-junin
 wikipedia: Battle of Junín
 when: 1824
+days: 1824-08-06
 coords: -75.97, -11.21
 links: 18
 
 @ battle-of-ayacucho
 wikipedia: Battle of Ayacucho
 when: 1824
+days: 1824-12-09
 coords: -74.13, -13.04
 links: 32

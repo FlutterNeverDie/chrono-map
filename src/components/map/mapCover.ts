@@ -8,7 +8,7 @@ export type MapCover = { top: number; bottom: number };
  * 지도 칸(크기를 재는 기준): 변환이 걸리지 않는 요소. 본 지도는 확대하는 동안 svg에 CSS 변환(미리보기)을 걸고
  * 기울이면 svg를 담은 판을 눕혀서, `data-map-frame`(본 지도 손짓을 받는 칸)이 있으면 그것, 없으면 svg의 부모
  */
-export function mapFrame(svg: SVGSVGElement): Element {
+export function mapFrame(svg: Element): Element {
   return svg.closest("[data-map-frame]") ?? svg.parentElement ?? svg;
 }
 
@@ -18,7 +18,7 @@ export function mapFrame(svg: SVGSVGElement): Element {
  * - top: 위쪽에 떠 있는 것(`data-map-top` - 지도 제목 상자, 전쟁 지도 상단 바)의 아래 끝 + 여백
  * 지도 세로 한계를 이만큼 늘려 남쪽·북쪽 끝 지점도 가리지 않은 곳으로 옮길 수 있게 하고, 고른 점을 가리지 않은 영역 가운데에 둘 때 쓴다.
  */
-export function mapCover(svg: SVGSVGElement): MapCover {
+export function mapCover(svg: Element): MapCover {
   const r = mapFrame(svg).getBoundingClientRect();
   const panel = document
     .querySelector("[data-map-overlay]")
@@ -36,7 +36,7 @@ export function mapCover(svg: SVGSVGElement): MapCover {
 }
 
 /** mapCover를 상태로 - 시트를 열고 닫거나 제목이 바뀌어 크기가 달라지면 다시 잰다 */
-export function useMapCover(svgRef: RefObject<SVGSVGElement | null>): MapCover {
+export function useMapCover(svgRef: RefObject<Element | null>): MapCover {
   const [cover, setCover] = useState<MapCover>({ top: 0, bottom: 0 });
   useEffect(() => {
     const svg = svgRef.current;

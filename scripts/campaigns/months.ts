@@ -11,12 +11,27 @@ import { getJson, sleep } from "../lib/wikipediaApi";
 import { dirOf, listCampaigns, readTheme } from "./lib";
 
 const MONTHS = [
-  "January", "February", "March", "April", "May", "June",
-  "July", "August", "September", "October", "November", "December",
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
 ];
 
-type Claim = { mainsnak: { datavalue?: { value: { time: string; precision: number } } } };
-type Entity = { claims?: Record<string, Claim[]>; sitelinks?: { enwiki?: { title: string } } };
+type Claim = {
+  mainsnak: { datavalue?: { value: { time: string; precision: number } } };
+};
+type Entity = {
+  claims?: Record<string, Claim[]>;
+  sitelinks?: { enwiki?: { title: string } };
+};
 
 /** 영어 문서 제목들 → 시작 날짜 정밀도(11 일, 10 월, 9 연) */
 async function precisions(titles: string[]): Promise<Map<string, number>> {
@@ -39,8 +54,12 @@ async function precisions(titles: string[]): Promise<Map<string, number>> {
 
 /** 요약에서 그 해의 첫 월 이름(1~12). "21 July 1861", "July 21, 1861", "July 1861" */
 function monthIn(text: string, year: number): number | null {
-  const re = new RegExp(`(${MONTHS.join("|")})(?:\\s+\\d{1,2})?,?\\s+(?:\\d{1,2}\\s*[–-]\\s*\\d{1,2}\\s+\\w+\\s+)?${year}`);
-  const m = re.exec(text) ?? new RegExp(`\\d{1,2}\\s+(${MONTHS.join("|")})\\s+${year}`).exec(text);
+  const re = new RegExp(
+    `(${MONTHS.join("|")})(?:\\s+\\d{1,2})?,?\\s+(?:\\d{1,2}\\s*[–-]\\s*\\d{1,2}\\s+\\w+\\s+)?${year}`,
+  );
+  const m =
+    re.exec(text) ??
+    new RegExp(`\\d{1,2}\\s+(${MONTHS.join("|")})\\s+${year}`).exec(text);
   return m ? MONTHS.indexOf(m[1]) + 1 : null;
 }
 
@@ -51,7 +70,9 @@ async function main() {
     const theme = readTheme(id);
     if (theme.unit !== "month") continue;
     const wikiFile = `${dirOf(id)}/wikipedia.json`;
-    const wiki = existsSync(wikiFile) ? JSON.parse(readFileSync(wikiFile, "utf8")) : {};
+    const wiki = existsSync(wikiFile)
+      ? JSON.parse(readFileSync(wikiFile, "utf8"))
+      : {};
     for (const file of ["battles.txt", "extra-battles.txt"]) {
       const path = `${dirOf(id)}/${file}`;
       if (!existsSync(path)) continue;
@@ -88,8 +109,10 @@ async function main() {
         return b.replace(/^when: .+$/m, `when: ${when}`);
       });
       if (fixed.length && !dry) writeFileSync(path, out.join("\n"));
-      for (const f of fixed) console.log(`  ${id} ${dry ? "(고칠 것)" : "고침"} ${f}`);
-      for (const u of unsure) console.log(`  ${id} 확인 필요(요약에 월 없음): ${u}`);
+      for (const f of fixed)
+        console.log(`  ${id} ${dry ? "(고칠 것)" : "고침"} ${f}`);
+      for (const u of unsure)
+        console.log(`  ${id} 확인 필요(요약에 월 없음): ${u}`);
     }
   }
 }

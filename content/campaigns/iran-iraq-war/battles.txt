@@ -3,42 +3,49 @@
 @ operation-scorch-sword
 wikipedia: Operation Scorch Sword
 when: 1980-09
+days: 1980-09-30
 coords: 44.53, 33.21
 links: 11
 
 @ battle-of-khorramshahr-1980
 wikipedia: Battle of Khorramshahr (1980)
 when: 1980-09 ~ 1980-11
+days: 1980-09-22 ~ 1980-11-10
 coords: 48.17, 30.43
 links: 15
 
 @ operation-dezful
 wikipedia: Operation Dezful
 when: 1980-10
+days: 1980-10-15
 coords: 48.47, 32.38
 links: 5
 
 @ siege-of-abadan
 wikipedia: Siege of Abadan
 when: 1980-11 ~ 1981-09
+days: 1980-11-06 ~ 1981-09-27
 coords: 48.28, 30.33
 links: 16
 
 @ operation-nasr
 wikipedia: Operation Nasr
 when: 1981-01
+days: 1981-01-05 ~ 1981-01-09
 coords: 48.18, 31.56
 links: 13
 
 @ operation-tariq-al-quds
 wikipedia: Operation Tariq al-Quds
 when: 1981-12
+days: 1981-12-07
 coords: 48.04, 31.73
 links: 11
 
 @ battle-of-khorramshahr-1982
 wikipedia: Battle of Khorramshahr (1982)
 when: 1982-04 ~ 1982-05
+days: 1982-04-24 ~ 1982-05-24
 coords: 48.18, 30.43
 links: 14
 
@@ -51,6 +58,7 @@ links: 7
 @ operation-badr-1985
 wikipedia: Operation Badr (1985)
 when: 1985-03
+days: 1985-03-10 ~ 1985-03-20
 coords: 47.43, 31.02
 links: 13
 
@@ -69,12 +77,14 @@ links: 40
 @ first-battle-of-al-faw
 wikipedia: First Battle of al-Faw
 when: 1986-02
+days: 1986-02-11
 coords: 48.47, 29.98
 links: 13
 
 @ operation-karbala-4
 wikipedia: Operation Karbala-4
 when: 1986-12
+days: 1986-12-25 ~ 1986-12-27
 coords: 48.12, 30.43
 links: 9
 
@@ -87,11 +97,13 @@ links: 14
 @ uss-stark-incident
 wikipedia: USS Stark incident
 when: 1987-05
+days: 1987-05-17
 coords: 51.92, 26.78
 links: 9
 
 @ bridgeton-incident
 wikipedia: Bridgeton incident
 when: 1987-07
+days: 1987-07-24
 coords: 49.83, 27.97
 links: 5

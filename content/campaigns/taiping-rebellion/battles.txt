@@ -3,5 +3,6 @@
 @ third-battle-of-nanjing
 wikipedia: Third Battle of Nanjing
 when: 1864
+days: 1864-03-14 ~ 1864-07-19
 coords: 118.77, 32.05
 links: 9

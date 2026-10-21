@@ -1,6 +1,6 @@
 import type { Locale } from "@/lib/types";
 import { localizedSummary, localizedTitle } from "@/lib/localize";
-import { formatYear, formatYearRange } from "@/lib/year";
+import { formatDayRange, formatYear, formatYearRange } from "@/lib/year";
 import type { Battle, Campaign, SideKey, Unit } from "./types";
 
 export const yearOf = (t: number, unit: Unit) =>
@@ -76,3 +76,9 @@ export function tickYears(c: Campaign): number[] {
   for (let y = first; y <= c.endYear; y += step) if (y !== 0) out.push(y);
   return out;
 }
+
+/** 전투 때: 일 단위 날짜가 있으면 "1916년 7월 1일~11월 18일", 없으면 달(연) 단위 */
+export const formatBattleWhen = (b: Battle, c: Campaign, locale: Locale) =>
+  b.days
+    ? (b.daysText?.[locale] ?? formatDayRange(b.days[0], b.days[1], locale))
+    : formatRange(b.start, b.end, c.unit, locale);

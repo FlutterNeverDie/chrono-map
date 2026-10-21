@@ -3,30 +3,35 @@
 @ operation-chengiz-khan
 wikipedia: Operation Chengiz Khan
 when: 1971-12
+days: 1971-12-03
 coords: 74.87, 31.63
 links: 6
 
 @ operation-trident-1971
 wikipedia: Operation Trident (1971)
 when: 1971-12
+days: 1971-12-04 ~ 1971-12-05
 coords: 66.97, 24.8
 links: 11
 
 @ operation-python
 wikipedia: Operation Python
 when: 1971-12
+days: 1971-12-08 ~ 1971-12-09
 coords: 66.9, 24.7
 links: 9
 
 @ battle-of-basantar
 wikipedia: Battle of Basantar
 when: 1971-12
+days: 1971-12-04 ~ 1971-12-17
 coords: 75.25, 32.4
 links: 3
 
 @ battle-of-gazipur
 wikipedia: Battle of Gazipur
 when: 1971-12
+days: 1971-12-04 ~ 1971-12-05
 coords: 92.0, 24.5
 links: 2
 
@@ -45,24 +50,28 @@ links: 2
 @ battle-of-sylhet
 wikipedia: Battle of Sylhet
 when: 1971-12
+days: 1971-12-07 ~ 1971-12-16
 coords: 91.87, 24.9
 links: 3
 
 @ meghna-heli-bridge
 wikipedia: Meghna Heli Bridge
 when: 1971-12
+days: 1971-12-09
 coords: 91.0, 23.95
 links: 2
 
 @ tangail-airdrop
 wikipedia: Tangail Airdrop
 when: 1971-12
+days: 1971-12-11
 coords: 89.92, 24.25
 links: 2
 
 @ battle-of-shiromoni
 wikipedia: Battle of Shiromoni
 when: 1971-12
+days: 1971-12-13 ~ 1971-12-17
 coords: 89.5, 22.88
 links: 2
 

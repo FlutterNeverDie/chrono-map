@@ -9,12 +9,14 @@ links: 6
 @ battle-of-mount-jupil
 wikipedia: Battle of Mount Jupil
 when: 645
+days: 0645-06-23
 coords: 122.8, 40.72
 links: 4
 
 @ battle-of-sasu
 wikipedia: Battle of Sasu
 when: 662
+days: 0662-02-21
 coords: 125.7, 39.0
 links: 5
 

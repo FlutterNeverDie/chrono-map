@@ -67,6 +67,15 @@ export function EventDetail({
       summary={eventSummary(e, locale)}
       links={links}
       sources={e.sources}
+      photo={
+        e.photo && {
+          src: `/photos/${e.id}-l.webp`,
+          width: e.photo.width,
+          height: e.photo.height,
+          credit: `${messages.ui.photoBy}: ${e.photo.author} · ${e.photo.license}`,
+          href: e.photo.source,
+        }
+      }
       related={{
         path: `event/${e.id}`,
         coords: e.coords,

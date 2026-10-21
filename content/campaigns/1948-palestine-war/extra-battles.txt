@@ -9,24 +9,28 @@ links: 11
 @ operation-nachshon
 wikipedia: Operation Nachshon
 when: 1948-04
+days: 1948-04-05 ~ 1948-04-16
 coords: 35.08, 31.82
 links: 11
 
 @ deir-yassin-massacre
 wikipedia: Deir Yassin massacre
 when: 1948-04
+days: 1948-04-09
 coords: 35.18, 31.79
 links: 40
 
 @ kfar-etzion-massacre
 wikipedia: Kfar Etzion massacre
 when: 1948-05
+days: 1948-05-13
 coords: 35.12, 31.65
 links: 11
 
 @ operation-dani
 wikipedia: Operation Dani
 when: 1948-07
+days: 1948-07-09 ~ 1948-07-19
 coords: 34.89, 31.94
 links: 15
 
@@ -39,23 +43,27 @@ links: 9
 @ operation-yoav
 wikipedia: Operation Yoav
 when: 1948-10
+days: 1948-10-15 ~ 1948-10-22
 coords: 34.7, 31.45
 links: 11
 
 @ operation-hiram
 wikipedia: Operation Hiram
 when: 1948-10
+days: 1948-10-29 ~ 1948-10-31
 coords: 35.4, 33.02
 links: 13
 
 @ operation-horev
 wikipedia: Operation Horev
 when: 1948-12 ~ 1949-01
+days: 1948-12-22 ~ 1949-01-07
 coords: 34.45, 30.95
 links: 9
 
 @ operation-uvda
 wikipedia: Operation Uvda
 when: 1949-03
+days: 1949-03-05 ~ 1949-03-10
 coords: 34.95, 29.56
 links: 10
