@@ -68,8 +68,8 @@ export type GlPath = {
   color: number[];
 };
 
-/** 지도 좌표 → 지도 칸 px(기울이기 전): 판 위 자리 → 지도 칸 가운데를 축으로 회전 → 애니메이션 옮김 */
-const TO_FRAME = `
+/** 지도 좌표 → 지도 칸 px(기울이기 전): 판 위 자리 → 지도 칸 가운데를 축으로 회전 → 애니메이션 옮김 (영상 장면 판도 같이 쓴다) */
+export const TO_FRAME = `
 uniform vec4 u_view;   // x, y, w, h
 uniform vec4 u_plane;  // 판 w, h, 판 왼쪽, 판 위(지도 칸 기준)
 uniform vec2 u_frame;
@@ -263,7 +263,50 @@ void main() {
   o = c * f;
 }`;
 
-function compile(gl: WebGL2RenderingContext, vs: string, fs: string) {
+/** 지도 칸 px(기울이기 전) → clip: 기울이기(CSS 행렬, 원점 지도 칸 아래 가운데) 다음 clip 좌표로 */
+export function frameMatrix(view: GlView): Float32Array {
+  const { w: fw, h: fh } = view.frame;
+  let m = new DOMMatrix();
+  m = m.multiply(new DOMMatrix([2 / fw, 0, 0, -2 / fh, -1, 1]));
+  if (view.tilt)
+    m = m
+      .translate(fw / 2, fh)
+      .multiply(new DOMMatrix(view.tilt))
+      .translate(-fw / 2, -fh);
+  const mat = m.toFloat32Array();
+  // 깊이(z)는 쓰지 않는다 - 기울이면 z가 수백 px라 그대로 두면 GPU가 잘라 버린다. 대신 z = w - 2δ로 두어 눈 바로 앞(w = δ)에
+  // 가까운 면을 만든다: z를 0으로 두면 가까운 면이 w = 0이 되어, 눈 뒤로 넘어가는 삼각형(영상 장면의 먼 땅 부채꼴)을 자를 때
+  // 무한대 꼭짓점이 생겨 칠하기가 엉뚱하게 번졌다. w > δ인 점은 그대로 그려진다
+  const near = 0.01;
+  mat[2] = mat[3];
+  mat[6] = mat[7];
+  mat[10] = mat[11];
+  mat[14] = mat[15] - 2 * near;
+  return mat;
+}
+/** TO_FRAME이 쓰는 값(u_view·u_plane·u_frame·u_rot·u_tr·u_m)을 지금 프로그램에 */
+export function setFrameUniforms(
+  gl: WebGL2RenderingContext,
+  u: (name: string) => WebGLUniformLocation | null,
+  view: GlView,
+) {
+  const { w: fw, h: fh } = view.frame;
+  const rad = ((-view.heading + (view.turn?.rot ?? 0)) * Math.PI) / 180;
+  gl.uniform4f(u("u_view"), view.v.x, view.v.y, view.v.w, view.v.h);
+  gl.uniform4f(
+    u("u_plane"),
+    view.size.w,
+    view.size.h,
+    (fw - view.size.w) / 2,
+    (fh - view.size.h) / 2,
+  );
+  gl.uniform2f(u("u_frame"), fw, fh);
+  gl.uniform2f(u("u_rot"), Math.cos(rad), Math.sin(rad));
+  gl.uniform2f(u("u_tr"), view.turn?.tx ?? 0, view.turn?.ty ?? 0);
+  gl.uniformMatrix4fv(u("u_m"), false, frameMatrix(view));
+}
+
+export function compile(gl: WebGL2RenderingContext, vs: string, fs: string) {
   const make = (type: number, src: string) => {
     const s = gl.createShader(type)!;
     gl.shaderSource(s, src);
@@ -747,33 +790,10 @@ export class MapRenderer {
     gl.blendFunc(gl.ONE, gl.ONE_MINUS_SRC_ALPHA);
     gl.disable(gl.DEPTH_TEST);
 
-    // 지도 칸 px(기울이기 전) → clip: 기울이기(CSS 행렬, 원점 지도 칸 아래 가운데) 다음 clip 좌표로
-    const { w: fw, h: fh } = view.frame;
-    let m = new DOMMatrix();
-    m = m.multiply(new DOMMatrix([2 / fw, 0, 0, -2 / fh, -1, 1]));
-    if (view.tilt)
-      m = m
-        .translate(fw / 2, fh)
-        .multiply(new DOMMatrix(view.tilt))
-        .translate(-fw / 2, -fh);
-    const mat = m.toFloat32Array();
-    // 깊이(z)는 쓰지 않는다 - 기울이면 z가 수백 px라 그대로 두면 GPU가 잘라 버린다
-    mat[2] = mat[6] = mat[10] = mat[14] = 0;
-    const rad = ((-view.heading + (view.turn?.rot ?? 0)) * Math.PI) / 180;
+    const fh = view.frame.h;
     const common = (prog: ReturnType<typeof compile>) => {
       gl.useProgram(prog.p);
-      gl.uniform4f(prog.u("u_view"), view.v.x, view.v.y, view.v.w, view.v.h);
-      gl.uniform4f(
-        prog.u("u_plane"),
-        view.size.w,
-        view.size.h,
-        (fw - view.size.w) / 2,
-        (fh - view.size.h) / 2,
-      );
-      gl.uniform2f(prog.u("u_frame"), fw, fh);
-      gl.uniform2f(prog.u("u_rot"), Math.cos(rad), Math.sin(rad));
-      gl.uniform2f(prog.u("u_tr"), view.turn?.tx ?? 0, view.turn?.ty ?? 0);
-      gl.uniformMatrix4fv(prog.u("u_m"), false, mat);
+      setFrameUniforms(gl, prog.u, view);
       gl.uniform1f(prog.u("u_fade"), view.fade);
       gl.uniform1i(prog.u("u_clip"), view.clipToPlane ? 1 : 0);
     };

@@ -33,10 +33,31 @@ type SceneOf<TT> = {
   theme?: "film" | "light" | "dark";
   showYear?: boolean;
   borders?: boolean;
+  /** 해안 채우기(km, 기본 30): 해안에서 이만큼 안쪽의 나라 없는 땅을 이웃 나라 색으로(국경 원본이 해안까지 오지 않는다), 0이면 끔 */
+  coastFill?: number;
   /** 지형(산 음영·땅 색·10m 해안선·강, RMW scripts/terrain.mjs가 미리 만듦). bbox를 주면 그 지역 */
   terrain?: boolean | { bbox: [number, number, number, number] };
   /** 산 음영 세기 0~1(기본 0.8) */
   relief?: number;
+  /** 지형 땅 색: palette(기본 - Blender 시네마틱과 같은 팔레트로 다시 칠함) | css(예전 SVG판 색) | raw(토지 피복 그대로) */
+  ground?: "palette" | "css" | "raw";
+  /** 땅 팔레트(RMW blender/shots의 palette와 같은 이름: steppe, steppe_dry, green, forest, water) */
+  palette?: Partial<
+    Record<"steppe" | "steppe_dry" | "green" | "forest" | "rock" | "rock_dark" | "snow" | "water", string>
+  >;
+  /** 눈 선(고도 m, 기본 3400 - prep_terrain.py의 snowline_m) */
+  snowline?: number;
+  /** 필름 마감(RMW blender/post.py와 같은 이름 + curve 0~1) - film 테마는 기본으로 켜짐, null이면 끔 */
+  grade?: Partial<{
+    exposure: number;
+    curve: number;
+    lift: [number, number, number];
+    white: [number, number, number];
+    contrast: number;
+    saturation: number;
+    vignette: number;
+    grain: number;
+  }> | null;
   /** 부대 그림 크기 배율(기본 1 = 키 약 22px@1280 폭). unitSize는 예전 이름 */
   unitScale?: number;
   unitSize?: number;
@@ -57,6 +78,8 @@ type SceneOf<TT> = {
       flag?: FlagKind;
       horse?: string | string[];
       armor?: boolean;
+      /** 같은 편(같은 team끼리는 서로 밀어내지 않고 지나갈 수 있다 - 없으면 진영마다 따로) */
+      team?: string;
     }
   >;
   units?: Timed<
@@ -68,7 +91,14 @@ type SceneOf<TT> = {
       /** 무리가 퍼진 정도(도) */
       spread?: number;
       /** 대군: 작은 실루엣 n개가 반지름 radius(도) 무리로 흐른다(sceneSwarm). count 시간표는 실제 수(예: 2000 → 400) */
-      swarm?: { n: number; radius: number };
+      swarm?: {
+        n: number;
+        radius: number;
+        /** host(기본, 앞이 넓은 무리) | mass(둥근 덩어리) | ring(둘레를 에워쌈, 각자 가운데를 봄) */
+        shape?: "host" | "mass" | "ring";
+        /** ring 안쪽 반지름 비율(기본 0.6) */
+        inner?: number;
+      };
       size?: number;
       path: { t: TT; at: LonLat; state?: UnitState }[];
     },
@@ -94,6 +124,17 @@ type SceneOf<TT> = {
     TT
   >[];
   areas?: Timed<{ side: string; polygon: LonLat[]; opacity?: number }, TT>[];
+  /** 진지: wagons = 수레 원진(수레 n대가 반지름 radius(도) 고리로, 안쪽은 밟힌 땅). 그 둘레 포위는 units의 swarm.shape "ring" */
+  forts?: Timed<
+    {
+      kind: "wagons";
+      side: string;
+      at: LonLat;
+      radius: number;
+      n?: number;
+    },
+    TT
+  >[];
   markers?: Timed<
     { kind: "battle" | "city" | "camp"; at: LonLat; side?: string },
     TT
@@ -177,15 +218,21 @@ export function yearAt(scene: Scene, t: number): number {
   return year;
 }
 
-/** 보이는 정도 0~1: show 구간 밖은 0(들어오고 나갈 때 0.02 동안 서서히), fade 구간에서 1 → 0 */
+/**
+ * 보이는 정도 0~1: show 구간 밖은 0, 들어올 때(s0부터 0.02)·나갈 때(s1 전 0.02) 서서히 - 장면 처음(0)·끝(1)에 걸친 것은 바로 보임.
+ * fade 구간에서 1 → 0. (예전 식은 s0에서 이미 1이라 대군 수백 기가 한 프레임에 튀어나왔다 - 깜빡임 검사에서 찾음)
+ */
 export function alphaAt(
   item: { show?: number[]; fade?: number[] },
   t: number,
   from = 0,
 ): number {
   const [s0, s1] = item.show ?? [from, 1];
-  let a = Math.min(clamp01((t - s0) / 0.02 + 1), clamp01((s1 - t) / 0.02 + 1));
-  if (t < s0 || t > s1) a = 0;
+  if (t < s0 || t > s1) return 0;
+  let a = Math.min(
+    s0 <= 0 ? 1 : clamp01((t - s0) / 0.02),
+    s1 >= 1 ? 1 : clamp01((s1 - t) / 0.02),
+  );
   if (item.fade)
     a *=
       1 - clamp01((t - item.fade[0]) / (item.fade[1] - item.fade[0] || 1e-6));
@@ -367,4 +414,9 @@ export type Terrain = {
   rivers: { w: number; l: LonLat[] }[];
   color: string;
   shade: string;
+  /** 고도 그림(16비트 회색 PNG 주소) - 고도 m = 값 × height.scale - height.offset */
+  heightmap?: string;
+  height?: { offset: number; scale: number };
+  /** 격자 크기(원래 그림 가로·세로 점 수) */
+  size?: [number, number];
 };

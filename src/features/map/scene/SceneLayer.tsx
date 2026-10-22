@@ -1,9 +1,21 @@
 "use client";
 
 import { useEffect, useLayoutEffect, useRef, type ReactNode } from "react";
-import { swarmAt } from "./sceneSwarm";
+import {
+  bodyCenter,
+  bodyDepth,
+  bodyOf,
+  bodyReach,
+  levelOf,
+  swarmAt,
+} from "./sceneSwarm";
+import { landMask, toLand } from "./sceneLand";
 import { drawCrowd, type Figure, type GroupShade } from "./sceneCrowd";
-import { create } from "zustand";
+import { useScene } from "./sceneStore";
+import { SceneGl } from "./SceneGl";
+import type { GlView } from "@/components/map/gl/renderer";
+import type { Feature, FeatureCollection } from "geojson";
+import type { Polity } from "../borders";
 import { MAP_WIDTH, makeProjection } from "../baseMap";
 import { tiltTransform } from "@/components/map/tilt";
 import {
@@ -32,6 +44,7 @@ import {
   MarkerArt,
   Shadow,
   UnitArt,
+  WagonArt,
 } from "./sceneArt";
 
 /** 꺾은선 길이 */
@@ -72,12 +85,6 @@ export type SceneHost = {
   pins?: () => { id: string; x: number; y: number; more: number }[];
 };
 
-const useScene = create<{
-  scene: Scene | null;
-  t: number;
-  frames: number;
-  terrain: Terrain | null;
-}>(() => ({ scene: null, t: 0, frames: 300, terrain: null }));
 
 const projection = makeProjection(0);
 const project = (p: LonLat): [number, number] => {
@@ -100,16 +107,10 @@ html[data-scene-theme="film"] [data-map-frame] svg[role="img"] path[fill="none"]
   stroke: #9fb1bb; stroke-opacity: 0.55; stroke-width: calc(5 * var(--px)) !important;
 }
 html[data-scene-theme="film"] [data-map-frame] svg[role="img"] { filter: sepia(0.3) saturate(0.65) brightness(0.92); }
-/* 지형이 있으면 바다·땅·50m 해안선은 땅 층(ground)이 그리고, 국경 svg는 나라 색만 곱하기로 얹는다(지형이 비치게) */
-html[data-scene-terrain] [data-map-frame] svg[role="img"] { mix-blend-mode: multiply; }
-html[data-scene-terrain] [data-map-frame] svg[role="img"] > rect,
-html[data-scene-terrain] [data-map-frame] svg[role="img"] path[fill="var(--map-land)"],
-html[data-scene-terrain] [data-map-frame] svg[role="img"] path[fill="none"][stroke="var(--map-border)"] { display: none; }
-html[data-scene-terrain] { --map-region-opacity: 0.26; }
-/* 나라 경계선은 옅게(지도 전체에 강인지 경계인지 모를 진회색 선이 많았다) */
-html[data-scene-terrain] [data-map-frame] svg[role="img"] [data-polity] { stroke-opacity: 0.22; }
-/* 나라 색은 50m 해안선 대신 지형의 10m 해안선으로 자른다 - 50m와 10m 사이가 옅은 띠로 남았다 */
-html[data-scene-terrain] [data-map-frame] svg[role="img"] g[clip-path] { clip-path: url(#ground-land-raw) !important; }
+/* WebGL 장면 판(SceneGl)이 바다·땅·지형·나라 색·해안·판 층을 그리고 화면 층(대군 canvas·부대 svg)은 구워 얹는다 - 화면에는 그 판만 */
+html[data-scene-gl] [data-map-frame] svg[role="img"],
+html[data-scene-gl] [data-scene-crowd],
+html[data-scene-gl] [data-scene-sprites] { visibility: hidden; }
 `;
 
 function wait(ms: number) {
@@ -126,6 +127,8 @@ declare global {
           frames?: number;
           marks?: Record<string, number>;
           terrain?: Terrain;
+          /** 고정밀 국경: 연도 → GeoJSON 주소(scripts/scene-borders.mjs 결과) */
+          borders?: Record<string, string>;
         },
       ) => Promise<void>;
       seek: (t: number) => Promise<void>;
@@ -147,33 +150,23 @@ function useSceneApi(host: { current: SceneHost | null }) {
       // 다 그리고(React 커밋·기울기 effect) 국경·자세한 해안선을 받을 때까지, 그다음 두 프레임(그리기·굽기 끝)
       const start = performance.now();
       await frame();
-      while (!h.ready()) {
+      // 지도(국경·해안선)와 WebGL 장면 판(지형 그림·나라 삼각형)을 다 받을 때까지
+      const glReady = () => useScene.getState().gl?.ready() ?? false;
+      while (!h.ready() || !glReady()) {
         if (performance.now() - start > 20000)
           throw new Error(`장면 ${t}: 20초 안에 그리지 못함`);
         await wait(16);
       }
-      await frame();
+      // 그 시각을 WebGL 판에 한 장(판 층 + 구운 화면 층 + 마감, preserveDrawingBuffer라 캡처가 이 그림을 읽는다)
+      await useScene.getState().gl?.draw();
       await frame();
     };
     window.__scene = {
       async load(json, opts = {}) {
         const scene = resolveScene(json, opts.marks);
         const terrain = scene.terrain && opts.terrain ? opts.terrain : null;
-        if (terrain) {
-          html.dataset.sceneTerrain = "";
-          // 그림을 미리 받아 둔다(첫 프레임부터 지형이 다 보이게)
-          await Promise.all(
-            [terrain.color, terrain.shade].map(
-              (src) =>
-                new Promise((res, rej) => {
-                  const img = new Image();
-                  img.onload = () => img.decode().then(res, res);
-                  img.onerror = rej;
-                  img.src = src;
-                }),
-            ),
-          );
-        } else delete html.dataset.sceneTerrain;
+        if (terrain) html.dataset.sceneTerrain = "";
+        else delete html.dataset.sceneTerrain;
         if (!document.getElementById(STYLE_ID)) {
           const style = document.createElement("style");
           style.id = STYLE_ID;
@@ -187,7 +180,13 @@ function useSceneApi(host: { current: SceneHost | null }) {
         else if (scene.theme === "light") delete html.dataset.theme;
         if (scene.borders === false) html.dataset.sceneBorders = "off";
         else delete html.dataset.sceneBorders;
-        useScene.setState({ scene, frames: opts.frames ?? 300, t: 0, terrain });
+        useScene.setState({
+          scene,
+          frames: opts.frames ?? 300,
+          t: 0,
+          terrain,
+          borders: opts.borders ?? null,
+        });
         await seek(0);
       },
       seek,
@@ -231,324 +230,11 @@ const d = (pts: [number, number][], close = false) =>
     ? `M${pts.map(([x, y]) => `${x.toFixed(2)} ${y.toFixed(2)}`).join("L")}${close ? "Z" : ""}`
     : "";
 
-/** 꺾은선 위 일정 간격(units) 점들과 그 자리의 방향(단위 벡터) */
-function along(line: [number, number][], step: number) {
-  const out: { p: [number, number]; n: [number, number] }[] = [];
-  let carry = 0;
-  for (let i = 0; i < line.length - 1; i++) {
-    const [ax, ay] = line[i];
-    const [bx, by] = line[i + 1];
-    const len = Math.hypot(bx - ax, by - ay);
-    if (!len) continue;
-    const ux = (bx - ax) / len;
-    const uy = (by - ay) / len;
-    for (let s = carry; s < len; s += step)
-      out.push({ p: [ax + ux * s, ay + uy * s], n: [ux, uy] });
-    carry = (carry - len) % step;
-    if (carry < 0) carry += step;
-  }
-  return out;
-}
 
-function PlaneLayer({
-  scene,
-  t,
-  geo,
-}: {
-  scene: Scene;
-  t: number;
-  geo: SceneGeo;
-}) {
-  const { v, size } = geo;
-  const unit = v.h / size.h; // 화면 CSS 1px = 지도 몇 단위
-  const shift = (-geo.lon * MAP_WIDTH) / 360;
-  const color = (side?: string) =>
-    (side && scene.sides?.[side]?.color) || "#8a7a5c";
-  const items: ReactNode[] = [];
-
-  scene.areas?.forEach((a, i) => {
-    const alpha = alphaAt(a, t);
-    if (!alpha) return;
-    items.push(
-      <path
-        key={`a${i}`}
-        d={d(projectLine(a.polygon, shift, v), true)}
-        fill={color(a.side)}
-        fillOpacity={(a.opacity ?? 0.25) * alpha}
-        stroke={INK}
-        strokeOpacity={0.7 * alpha}
-        strokeWidth={2 * unit}
-        strokeDasharray={`${6 * unit} ${5 * unit}`}
-      />,
-    );
-  });
-
-  scene.lines?.forEach((l, i) => {
-    const alpha = alphaAt(l, t);
-    if (!alpha) return;
-    const line = cut(smooth(projectLine(l.path, shift, v)), growAt(l.grow, t));
-    if (line.length < 2) return;
-    const key = `l${i}`;
-    if (l.style === "river") {
-      // 물과 같은 바랜 청회색, 하류(경로 끝)로 갈수록 굵게 - 마디마다 굵기를 조금씩 늘린다
-      const parts = 8;
-      const step = Math.max(1, Math.floor(line.length / parts));
-      const segs: ReactNode[] = [];
-      for (let j = 0; j < line.length - 1; j += step) {
-        const piece = line.slice(j, Math.min(line.length, j + step + 1));
-        const k = 0.45 + 0.55 * (j / Math.max(1, line.length - 1));
-        segs.push(
-          <g key={j}>
-            <path
-              d={d(piece)}
-              stroke="#41566a"
-              strokeWidth={7 * k * unit}
-              strokeOpacity={0.5}
-            />
-            <path d={d(piece)} stroke="#6f8899" strokeWidth={3.6 * k * unit} />
-          </g>,
-        );
-      }
-      items.push(
-        <g
-          key={key}
-          opacity={alpha}
-          fill="none"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        >
-          {segs}
-        </g>,
-      );
-    } else if (l.style === "line") {
-      items.push(
-        <path
-          key={key}
-          d={d(line)}
-          fill="none"
-          stroke={INK}
-          strokeWidth={2.5 * unit}
-          opacity={alpha}
-          strokeLinecap="round"
-        />,
-      );
-    } else if (l.style === "front") {
-      // 톱니 전선: 선 왼쪽(진행 방향 기준)으로 진영 색 이빨
-      const teeth = along(line, 20 * unit).map(({ p, n }, j) => {
-        const [x, y] = p;
-        const nx = n[1];
-        const ny = -n[0];
-        const h = 9 * unit;
-        const w = 6 * unit;
-        return (
-          <path
-            key={j}
-            d={`M${x - n[0] * w} ${y - n[1] * w}L${x + nx * h} ${y + ny * h}L${x + n[0] * w} ${y + n[1] * w}Z`}
-            fill={color(l.side)}
-            stroke={INK}
-            strokeWidth={2 * unit}
-            strokeLinejoin="round"
-          />
-        );
-      });
-      items.push(
-        <g key={key} opacity={alpha}>
-          {teeth}
-          <path
-            d={d(line)}
-            fill="none"
-            stroke={INK}
-            strokeWidth={3.5 * unit}
-            strokeLinecap="round"
-          />
-        </g>,
-      );
-    } else {
-      // 참호: 지그재그 흙선
-      const zig = along(line, 7 * unit).map(({ p, n }, j) => {
-        const k = (j % 2 ? 1 : -1) * 4 * unit;
-        return [p[0] + n[1] * k, p[1] - n[0] * k] as [number, number];
-      });
-      items.push(
-        <g
-          key={key}
-          opacity={alpha}
-          fill="none"
-          strokeLinejoin="round"
-          strokeLinecap="round"
-        >
-          <path d={d(zig)} stroke={INK} strokeWidth={6 * unit} />
-          <path d={d(zig)} stroke="#7a5a3a" strokeWidth={3 * unit} />
-        </g>,
-      );
-    }
-  });
-
-  scene.markers?.forEach((m, i) => {
-    if (m.kind !== "city") return;
-    const alpha = alphaAt(m, t);
-    if (!alpha) return;
-    const [x, y] = project(m.at);
-    items.push(
-      <circle
-        key={`c${i}`}
-        cx={nearX(x, shift, v)}
-        cy={y}
-        r={6 * unit}
-        fill="#efe3c8"
-        stroke={INK}
-        strokeWidth={3 * unit}
-        opacity={alpha}
-      />,
-    );
-  });
-
-  return (
-    <svg
-      aria-hidden
-      viewBox={`${v.x} ${v.y} ${v.w} ${v.h}`}
-      preserveAspectRatio="none"
-      className="pointer-events-none absolute inset-0 block h-full w-full"
-    >
-      <defs>
-        {/* 먹선이 손으로 그린 듯 살짝 흔들리게(씨앗 고정) */}
-        <filter id="scene-ink-plane" x="-5%" y="-5%" width="110%" height="110%">
-          <feTurbulence
-            type="fractalNoise"
-            baseFrequency={0.05 / (unit / 1)}
-            numOctaves={2}
-            seed={3}
-          />
-          <feDisplacementMap in="SourceGraphic" scale={2.5 * unit} />
-        </filter>
-      </defs>
-      <g filter="url(#scene-ink-plane)">{items}</g>
-    </svg>
-  );
-}
-
-/**
- * 땅 층(지형): 국경 svg 아래. 땅 색(토지 피복) + 산 음영(overlay) + 10m 해안선·호수·강.
- * 지형 지역(bbox) 밖은 바랜 땅 색 하나(먼 쪽 - 안개가 가린다)
- */
-function GroundLayer({
-  scene,
-  terrain,
-  geo,
-}: {
-  scene: Scene;
-  terrain: Terrain;
-  geo: SceneGeo;
-}) {
-  const { v, size } = geo;
-  const unit = v.h / size.h;
-  const shift = (-geo.lon * MAP_WIDTH) / 360;
-  const [W, S, E, N] = terrain.bbox;
-  const [x0, y0] = project([W, N]);
-  const [x1, y1] = project([E, S]);
-  const X0 = nearX(x0, shift, v);
-  const X1 = X0 + (x1 - x0);
-  const rings = (list: LonLat[][]) =>
-    list.map((r) => d(projectLine(r, shift, v), true)).join("");
-  const land = rings(terrain.land);
-  const water = `M${X0} ${y0}H${X1}V${y1}H${X0}Z${land}`;
-  const film = scene.theme === "film";
-  return (
-    <svg
-      aria-hidden
-      viewBox={`${v.x} ${v.y} ${v.w} ${v.h}`}
-      preserveAspectRatio="none"
-      className="pointer-events-none absolute inset-0 block h-full w-full"
-    >
-      <defs>
-        <clipPath id="ground-land">
-          <path d={land} clipRule="evenodd" />
-        </clipPath>
-        {/* 국경 svg의 나라 색을 10m 해안선으로 자르는 데 쓴다(그쪽 좌표는 복사본 안 - 경도 0 투영 그대로) */}
-        <clipPath id="ground-land-raw">
-          <path
-            d={terrain.land.map((r) => d(r.map(project), true)).join("")}
-            clipRule="evenodd"
-          />
-        </clipPath>
-      </defs>
-      <rect x={v.x} y={v.y} width={v.w} height={v.h} fill="var(--map-land)" />
-      <image
-        href={terrain.color}
-        x={X0}
-        y={y0}
-        width={X1 - X0}
-        height={y1 - y0}
-        preserveAspectRatio="none"
-        clipPath="url(#ground-land)"
-        style={{
-          filter: film
-            ? // 초원·숲·습지 색이 살아 있게(너무 바래면 단색 양피지처럼 보였다)
-              "sepia(0.2) saturate(0.82) brightness(0.9) contrast(1.15)"
-            : undefined,
-        }}
-      />
-      {/* 물: 지형 지역 사각형에서 땅을 뺀 곳 + 호수 */}
-      <path d={water} fillRule="evenodd" fill="var(--map-ocean)" />
-      <path
-        d={rings(terrain.lakes)}
-        fillRule="evenodd"
-        fill="var(--map-ocean)"
-      />
-      {/* 산 음영(평지 = 회색 128 - overlay로 섞으면 평지는 그대로) */}
-      <image
-        href={terrain.shade}
-        x={X0}
-        y={y0}
-        width={X1 - X0}
-        height={y1 - y0}
-        preserveAspectRatio="none"
-        style={{ mixBlendMode: "overlay", opacity: scene.relief ?? 0.8 }}
-      />
-      {/* 해안: 물 쪽 옅은 띠 + 가는 먹선 */}
-      <path
-        d={land}
-        fill="none"
-        stroke="#9fb1bb"
-        strokeOpacity={0.45}
-        strokeWidth={6 * unit}
-        strokeLinejoin="round"
-      />
-      <path
-        d={land}
-        fill="none"
-        stroke="#3d4a52"
-        strokeOpacity={0.7}
-        strokeWidth={1.2 * unit}
-        strokeLinejoin="round"
-      />
-      <path
-        d={rings(terrain.lakes)}
-        fill="none"
-        stroke="#3d4a52"
-        strokeOpacity={0.5}
-        strokeWidth={1 * unit}
-      />
-      {/* 강: 물색 계열, 큰 강일수록 굵고 진하게 - 작은 강은 옅게(화면에서 1px 아래로 가늘어지면 거의 안 보이게) */}
-      <g fill="none" strokeLinecap="round" strokeLinejoin="round">
-        {terrain.rivers.map((r, i) => {
-          const px = 0.8 + r.w * 1.8;
-          return (
-            <path
-              key={i}
-              d={d(projectLine(r.l, shift, v))}
-              stroke="#5f7486"
-              strokeOpacity={
-                Math.min(0.95, 0.25 + 0.35 * r.w) * Math.min(1, px / 1.6)
-              }
-              strokeWidth={px * unit}
-            />
-          );
-        })}
-      </g>
-    </svg>
-  );
-}
+const smoothstep = (a: number, b: number, x: number) => {
+  const k = Math.min(1, Math.max(0, (x - a) / (b - a)));
+  return k * k * (3 - 2 * k);
+};
 
 /** 지도 판 위 점(판 안 CSS px) → 화면(지도 칸 안 CSS px): 돌리기(판 가운데 = 지도 칸 가운데) → 눕히기(아래 가운데 축, 원근) */
 function toScreen(geo: SceneGeo) {
@@ -582,11 +268,13 @@ function ScreenLayer({
   t,
   frames,
   geo,
+  terrain,
 }: {
   scene: Scene;
   t: number;
   frames: number;
   geo: SceneGeo;
+  terrain: Terrain | null;
 }) {
   const { v, size, frame: f } = geo;
   const shift = (-geo.lon * MAP_WIDTH) / 360;
@@ -607,44 +295,107 @@ function ScreenLayer({
   /** 대군 실루엣(canvas에 그린다 - svg로 수천 개는 너무 무거움, 그리기는 sceneCrowd) */
   const crowd: Figure[] = [];
   const shades = new Map<number, GroupShade>();
+  const team = (side: string) => scene.sides?.[side]?.team ?? side;
+  const water = terrain ? landMask(terrain) : null;
   const swarms = (scene.units ?? [])
     .map((u, group) => ({ u, group }))
     .filter(({ u }) => u.swarm && u.path.length && alphaAt(u, t, u.path[0].t))
     .map(({ u, group }) => {
-      const pos = unitAt(u.path, t);
+      const body = bodyOf(u.path, u.swarm!, t);
       const cols = Math.max(1, Math.round(Math.sqrt(u.swarm!.n * 3)));
       return {
         u,
         group,
-        pos,
+        body,
+        pos: unitAt(u.path, t),
         R: u.swarm!.radius,
+        ring: u.swarm!.shape === "ring",
+        /** 맞붙는 정도(돌격 중이면 1, 키에서 부드럽게) */
+        contact: levelOf(u.path, t, "charge"),
+        /** 밀어낼 때의 무게(살아 있는 수 - 큰 군대가 덜 밀린다, 버티고 선 무리는 3배 - 돌격해 온 쪽이 그 앞에서 멈춘다) */
+        mass:
+          Math.max(1, countAt(u.count, t) || u.swarm!.n) *
+          (1 + 2 * levelOf(u.path, t, "hold")),
         /** 무리 안 이웃 간격(도) */
         gap: (2 * u.swarm!.radius) / Math.max(1, cols - 1),
         shift: [0, 0] as [number, number],
       };
     });
-  // 다른 진영 무리끼리 겹치면 서로 밀어 틈을 둔다(실루엣 4개 폭) - 돌격 중(접전)이면 앞줄만 맞닿게 더 가까이.
-  // 한 무리가 다른 무리를 덮어 진영 경계가 안 보였다(RMW 피드백). t만으로 정해지는 계산(앞 프레임과 무관)
-  for (let a = 0; a < swarms.length; a++)
-    for (let b = a + 1; b < swarms.length; b++) {
-      const A = swarms[a];
-      const B = swarms[b];
-      if (A.u.side === B.u.side) continue;
-      const cos = Math.max(0.2, Math.cos((A.pos.at[1] * Math.PI) / 180));
-      const dx = (B.pos.at[0] - A.pos.at[0]) * cos;
-      const dy = B.pos.at[1] - A.pos.at[1];
-      const dist = Math.hypot(dx, dy) || 1e-6;
-      const contact = A.pos.state === "charge" || B.pos.state === "charge";
-      const want = contact
-        ? (A.R + B.R) * 0.45
-        : (A.R + B.R) * 0.75 + 4 * Math.max(A.gap, B.gap);
-      if (dist >= want) continue;
-      const push = (want - dist) / 2;
-      A.shift[0] -= ((dx / dist) * push) / cos;
-      A.shift[1] -= (dy / dist) * push;
-      B.shift[0] += ((dx / dist) * push) / cos;
-      B.shift[1] += (dy / dist) * push;
-    }
+  const cosOf = (lat: number) => Math.max(0.2, Math.cos((lat * Math.PI) / 180));
+  /** 무리 몸통 가운데(밀어낸 자리까지) */
+  const centerOf = (w: (typeof swarms)[number]): LonLat => {
+    const c = bodyCenter(w.body);
+    return [c[0] + w.shift[0], c[1] + w.shift[1]];
+  };
+  // 적 무리끼리 겹치면 서로 밀어 틈을 둔다(실루엣 3개 폭, 몸통 타원 기준) - 맞붙으면(돌격) 앞줄만 조금 파고들게.
+  // 한 번에 밀면 셋 이상 얽힐 때 다시 겹쳐서 여러 번 고르게 민다. 큰 군대·버티고 선 무리일수록 덜 밀린다. 같은 편(team)은 60%까지
+  // 겹쳐도 되게만 살짝(세게 밀면 거의 겹친 몽골 세 갈래가 풀 길이 없는 밀기로 크게 미끄러졌다), 둘러싸는 고리는 밀지 않는다.
+  // 한 무리는 제 반지름까지만 밀린다(장면이 정한 자리를 크게 벗어나지 않게). t만으로 정해지되, 지난 짧은 시간의
+  // 평균(아래 SMOOTH)을 써서 밀기가 빨리 바뀌는 곳도 부드럽게 움직인다(앞 프레임과 무관 - 같은 t면 같은 값).
+  // 한 무리가 다른 무리를 덮어 진영 경계가 안 보였고, 쿠만이 몽골 덩어리 안에 섞였다(RMW 피드백)
+  const separation = (tt: number) => {
+    const list = swarms.map((w) => ({
+      w,
+      /** 보이는 정도(나타나는 동안 밀기도 서서히 - 나타나는 순간 이웃 무리가 한 프레임에 밀려났다) */
+      seen: alphaAt(w.u, tt, w.u.path[0].t),
+      body: bodyOf(w.u.path, w.u.swarm!, tt),
+      contact: levelOf(w.u.path, tt, "charge"),
+      mass:
+        Math.max(1, countAt(w.u.count, tt) || w.u.swarm!.n) *
+        (1 + 2 * levelOf(w.u.path, tt, "hold")),
+      shift: [0, 0] as [number, number],
+    }));
+    const centre = (x: (typeof list)[number]): LonLat => {
+      const c = bodyCenter(x.body);
+      return [c[0] + x.shift[0], c[1] + x.shift[1]];
+    };
+    for (let pass = 0; pass < 8; pass++)
+      for (let a = 0; a < list.length; a++)
+        for (let b = a + 1; b < list.length; b++) {
+          const A = list[a];
+          const B = list[b];
+          if (A.w.ring || B.w.ring) continue;
+          const friends = team(A.w.u.side) === team(B.w.u.side);
+          const ca = centre(A);
+          const cb = centre(B);
+          const cos = cosOf((ca[1] + cb[1]) / 2);
+          const dx = (cb[0] - ca[0]) * cos;
+          const dy = cb[1] - ca[1];
+          const dist = Math.hypot(dx, dy) || 1e-6;
+          const ux = dx / dist;
+          const uy = dy / dist;
+          const reach = bodyReach(A.body, ux, uy) + bodyReach(B.body, ux, uy);
+          const contact = Math.max(A.contact, B.contact);
+          // 같은 편은 많이 겹쳐도 되게(60%까지) - 거의 같은 자리에 둔 몽골 세 갈래가 네모난 한 덩어리로 보이지 않을 만큼만
+          const want = friends
+            ? reach * 0.6
+            : reach * (1 - 0.06 * contact) + 3 * Math.max(A.w.gap, B.w.gap) * (1 - contact);
+          if (dist >= want) continue;
+          const push = (want - dist) * Math.min(A.seen, B.seen);
+          const wa = B.mass / (A.mass + B.mass);
+          A.shift[0] -= (ux * push * wa) / cos;
+          A.shift[1] -= uy * push * wa;
+          B.shift[0] += (ux * push * (1 - wa)) / cos;
+          B.shift[1] += uy * push * (1 - wa);
+        }
+    return list.map((x) => {
+      const cos = cosOf(x.body.at[1]);
+      const len = Math.hypot(x.shift[0] * cos, x.shift[1]);
+      const k = len > x.w.R ? x.w.R / len : 1;
+      return [x.shift[0] * k, x.shift[1] * k] as [number, number];
+    });
+  };
+  // 지난 0.06(약 18프레임)을 7번 재서 가까울수록 무겁게 평균 - 돌격해 들어간 몽골이 버티는 쿠만에 9프레임 만에 확 밀려났다
+  const SMOOTH = [0, 0.01, 0.02, 0.03, 0.04, 0.05, 0.06];
+  const weight = SMOOTH.map((dt) => 1 - dt / 0.07);
+  const total = weight.reduce((a, b) => a + b, 0);
+  SMOOTH.forEach((dt, k) => {
+    const sh = separation(t - dt);
+    swarms.forEach((w, i) => {
+      w.shift[0] += (sh[i][0] * weight[k]) / total;
+      w.shift[1] += (sh[i][1] * weight[k]) / total;
+    });
+  });
   // 크기: 무리 안 간격의 1.4배(빽빽한 무리는 조금 겹쳐야 무리로 보인다, 멀리서는 점, 다가가면 실루엣) 모든 무리를 같은 화면 크기로 - 보병만 점처럼 작았다
   let common = Infinity;
   let floor = 0;
@@ -664,8 +415,12 @@ function ScreenLayer({
     // 촘촘하면 조금 겹치지만 하나하나 읽힌다. 아주 멀리(키 6px 아래로 가는 원근)는 그대로 점
     floor = Math.max(floor, 18 / (48 * c0.k));
   }
-  if (Number.isFinite(common)) common = Math.max(common, floor);
-  for (const { u, group, R, shift } of swarms) {
+  // 바닥은 무리가 아주 빽빽할 때(간격 크기가 바닥의 1/4 아래)만 서서히 풀어 점 무리로 - 먼 거리 대군이 겹친 실루엣의 먹선으로
+  // 검은 갈색 덩어리가 됐다(RMW). 보통 거리는 그대로 바닥(키 18px)
+  if (Number.isFinite(common))
+    common = Math.max(common, floor * smoothstep(0.12, 0.3, common / Math.max(floor, 1e-9)));
+  for (const w of swarms) {
+    const { u, group, R, shift } = w;
     const alpha = alphaAt(u, t, u.path[0].t);
     const side = scene.sides?.[u.side];
     const horses = side?.horse
@@ -673,24 +428,67 @@ function ScreenLayer({
         ? side.horse
         : [side.horse]
       : ["#8b5e3c"];
-    const men = swarmAt(u.id, u.path, u.swarm!, u.count, t);
+    const me = centerOf(w);
+    const foes = swarms.filter(
+      (o) => o !== w && !o.ring && team(o.u.side) !== team(u.side),
+    );
+    // 패주: 가장 가까운 적의 반대쪽으로
+    let away: [number, number] | undefined;
+    let near = Infinity;
+    for (const o of foes) {
+      const c = centerOf(o);
+      const cos = cosOf(me[1]);
+      const dx = (me[0] - c[0]) * cos;
+      const dy = me[1] - c[1];
+      const d = Math.hypot(dx, dy);
+      if (d > 1e-9 && d < near) {
+        near = d;
+        away = [dx / d, dy / d];
+      }
+    }
+    const men = swarmAt(u.id, u.path, u.swarm!, u.count, t, away);
+    const anchor = unitAt(u.path, t).at;
+    const home: LonLat = [anchor[0] + shift[0], anchor[1] + shift[1]];
+    // 적 무리 몸통 안에 들어간 사람은 그 둘레 밖으로(사람마다 조금씩 다른 거리 - 한 줄로 늘어서지 않게).
+    // 맞붙은 동안은 둘레 조금 안쪽까지. 서로 다른 진영이 한 덩어리로 섞여 보이지 않게
+    for (const m of men) {
+      m.at = [m.at[0] + shift[0], m.at[1] + shift[1]];
+      for (const o of foes) {
+        const c = centerOf(o);
+        const cos = cosOf(c[1]);
+        let dx = (m.at[0] - c[0]) * cos;
+        let dy = m.at[1] - c[1];
+        let depth = bodyDepth(o.body, dx, dy);
+        const edge =
+          (1 - 0.06 * Math.max(o.contact, w.contact)) * (1 + 0.15 * m.slack);
+        if (depth >= edge) continue;
+        if (depth < 1e-6) {
+          // 한가운데면 내 무리 쪽으로
+          dx = (me[0] - c[0]) * cos || 1e-6;
+          dy = me[1] - c[1];
+          depth = bodyDepth(o.body, dx, dy);
+        }
+        // 둘레 바로 밖 띠로 펼친다(안쪽 깊이 비례) - 둘레에 그대로 모으면 한 줄로 늘어선 선이 보였다
+        const k = (edge + (edge - depth) * 0.45) / depth;
+        m.at = [c[0] + (dx * k) / cos, c[1] + dy * k];
+      }
+      // 물 위에 선 사람은 무리 가운데 쪽 땅으로(밀어내기에 밀려 바다로 나가기도 해서 - 배는 예외)
+      if (water && u.kind !== "ship") m.at = toLand(water, m.at, home, R);
+    }
     // 무리 바닥 그림자: 살아 있는 사람들의 가운데·퍼짐
     let sx = 0;
     let sy = 0;
     let live = 0;
     men.forEach((m, i) => {
       if (m.fallen >= 1) return;
-      const p = at([m.at[0] + shift[0], m.at[1] + shift[1]]);
+      const p = at(m.at);
       if (!m.fallen) {
         sx += p.x;
         sy += p.y;
         live++;
       }
       if (p.x < -60 || p.x > f.w + 60 || p.y < -60 || p.y > f.h + 60) return;
-      const q = at([
-        m.at[0] + shift[0] + m.dir[0] * 0.01,
-        m.at[1] + shift[1] + m.dir[1] * 0.01,
-      ]);
+      const q = at([m.at[0] + m.dir[0] * 0.01, m.at[1] + m.dir[1] * 0.01]);
       const fast = m.state === "charge" || m.state === "flee";
       crowd.push({
         group,
@@ -708,7 +506,7 @@ function ScreenLayer({
         alpha,
       });
     });
-    if (live) {
+    if (live && !w.ring) {
       const c = at(unitAt(u.path, t).at);
       const e = at([
         unitAt(u.path, t).at[0] +
@@ -751,12 +549,24 @@ function ScreenLayer({
     const fast = pos.state === "charge" || pos.state === "flee";
     // 진영 깃발: 무리 앞쪽에 크게 하나(섞여 싸울 때도 어느 무리인지 보이게)
     if (side?.flag && side.flag !== "none" && n >= 1) {
+      // 대군은 밀어낸 자리의 앞줄 가운데 조금 안쪽(깃발이 무리와 떨어져 떠 있었다), 작은 부대는 무리 앞쪽
+      const sw = swarms.find((w) => w.u === u);
       const len = Math.hypot(pos.dir[0], pos.dir[1]) || 1;
       const reach = (u.spread ?? 0.06 * Math.sqrt(N)) * 0.8;
-      const fp = at([
-        pos.at[0] + (pos.dir[0] / len) * reach,
-        pos.at[1] + (pos.dir[1] / len) * reach,
-      ]);
+      const fp = sw?.ring
+        ? // 고리(포위)는 가운데가 아니라 화면 아래쪽(가까운) 둘레에
+          at([pos.at[0] + sw.shift[0], pos.at[1] + sw.shift[1] - sw.R * 0.95])
+        : sw
+        ? at([
+            pos.at[0] +
+              sw.shift[0] -
+              (Math.cos(sw.body.ang) * sw.R * 0.12) / cosOf(pos.at[1]),
+            pos.at[1] + sw.shift[1] - Math.sin(sw.body.ang) * sw.R * 0.12,
+          ])
+        : at([
+            pos.at[0] + (pos.dir[0] / len) * reach,
+            pos.at[1] + (pos.dir[1] / len) * reach,
+          ]);
       const fs = fp.k * base * 2.4 * (u.size ?? 1);
       sprites.push({
         y: fp.y + 0.01,
@@ -779,7 +589,13 @@ function ScreenLayer({
       if (i >= Math.ceil(n)) return;
       // 소수 부분: 쓰러지는 중(0 → 1)
       const fall = i === Math.floor(n) ? 1 - (n - i) : 0;
-      const p = at([pos.at[0] + o[0], pos.at[1] + o[1]]);
+      // 물 위에 선 사람은 부대 가운데 쪽 땅으로(대군과 같게 - 배는 예외)
+      const ground: LonLat = [pos.at[0] + o[0], pos.at[1] + o[1]];
+      const p = at(
+        water && u.kind !== "ship"
+          ? toLand(water, ground, pos.at, u.spread ?? 0.06 * Math.sqrt(N))
+          : ground,
+      );
       if (p.x < -200 || p.x > f.w + 200 || p.y < -200 || p.y > f.h + 200)
         return;
       const s = p.k * base * (u.size ?? 1);
@@ -810,6 +626,48 @@ function ScreenLayer({
         ),
       });
     });
+  });
+
+  // 수레 원진: 고리 둘레에 수레를 줄지어(이웃 수레와 거의 맞닿게) - 화면에서 가로로 놓인 쪽은 옆모습, 세로로 놓인 쪽은 앞뒤 모습
+  scene.forts?.forEach((fo, i) => {
+    const alpha = alphaAt(fo, t);
+    if (!alpha) return;
+    const n = Math.max(6, Math.round(fo.n ?? 28));
+    const r = rng(`${i}:${fo.at.join(",")}:wagons`);
+    const cos = Math.max(0.2, Math.cos((fo.at[1] * Math.PI) / 180));
+    const color = scene.sides?.[fo.side]?.color ?? "#8a7a5c";
+    const ringAt = (a: number) =>
+      at([
+        fo.at[0] + (Math.cos(a) * fo.radius) / cos,
+        fo.at[1] + Math.sin(a) * fo.radius,
+      ]);
+    for (let j = 0; j < n; j++) {
+      const a = ((j + (r() - 0.5) * 0.25) / n) * Math.PI * 2;
+      const p = ringAt(a);
+      if (p.x < -200 || p.x > f.w + 200 || p.y < -200 || p.y > f.h + 200)
+        continue;
+      const q = ringAt(a + 0.02);
+      const tx = q.x - p.x;
+      const ty = q.y - p.y;
+      // 크기: 대군 실루엣과 같은 키(없으면 부대 기본 크기) - 이웃과 맞닿을 만큼까지는 키운다
+      const next = ringAt(a + (Math.PI * 2) / n);
+      const gap = Math.hypot(next.x - p.x, next.y - p.y);
+      const side = Math.abs(tx) > Math.abs(ty) * 0.9;
+      const fig = Number.isFinite(common) ? common * 1.6 : base;
+      const s = Math.max(p.k * fig, Math.min(p.k * base * 2.2, gap / 34));
+      sprites.push({
+        y: p.y,
+        node: (
+          <g
+            key={`w${i}-${j}`}
+            transform={`translate(${p.x.toFixed(2)} ${p.y.toFixed(2)}) scale(${(s * (side && tx < 0 ? -1 : 1)).toFixed(4)} ${s.toFixed(4)})`}
+            opacity={alpha}
+          >
+            <WagonArt view={side ? "side" : "end"} color={color} />
+          </g>
+        ),
+      });
+    }
   });
 
   scene.markers?.forEach((m, i) => {
@@ -886,7 +744,9 @@ function ScreenLayer({
     const bx = x1 - ux * hl;
     const by = y1 - uy * hl;
     const head = `M${x1} ${y1}L${bx - uy * hw} ${by + ux * hw}L${bx + uy * hw} ${by - ux * hw}Z`;
-    const dash = retreat ? `${w * 1.6} ${w * 1.1}` : undefined;
+    // 물러남(retreat) 점선: 둥근 끝이 칠한 토막 양쪽으로 굵기 절반씩 늘어나므로 그만큼 빼고 띄운다 - 그대로 두면 틈이 거의 메워져
+    // 마디진 구슬처럼 보였다(RMW). 보이는 토막 약 2.4w·틈 약 1.4w(먹 테두리는 굵어 틈이 5px 좁다)
+    const dash = retreat ? `${w * 1.4} ${w * 2.4}` : undefined;
     over.push(
       <g
         key={`r${i}`}
@@ -938,6 +798,7 @@ function ScreenLayer({
       <canvas
         ref={canvas}
         aria-hidden
+        data-scene-crowd
         style={{
           width: f.w,
           height: f.h,
@@ -948,6 +809,7 @@ function ScreenLayer({
       />
       <svg
         aria-hidden
+        data-scene-sprites
         width={f.w}
         height={f.h}
         viewBox={`0 0 ${f.w} ${f.h}`}
@@ -1005,26 +867,40 @@ function ScreenLayer({
   );
 }
 
-/** WorldMap이 두 자리에 둔다: 판 안(where="plane")과 지도 칸 위(where="screen") */
+/** WorldMap이 세 자리에 둔다: 지도 칸 맨 아래 WebGL 판(where="gl"), 판 안(where="plane"), 지도 칸 위(where="screen") */
 export function SceneLayer({
   where,
   geo,
   host,
+  gl,
 }: {
-  where: "ground" | "plane" | "screen";
+  where: "gl" | "plane" | "screen";
   geo: SceneGeo;
   host: { current: SceneHost | null };
+  gl?: {
+    getView: { current: () => GlView | null };
+    polities: Polity[];
+    land: FeatureCollection | Feature;
+  };
 }) {
   const { scene, t, frames, terrain } = useScene();
-  if (where === "ground")
-    return scene && terrain ? (
-      <GroundLayer scene={scene} terrain={terrain} geo={geo} />
+  if (where === "gl")
+    return gl ? (
+      <SceneGl getView={gl.getView} polities={gl.polities} land={gl.land} />
     ) : null;
   if (where === "screen")
     return (
-      <ScreenApi host={host} scene={scene} t={t} frames={frames} geo={geo} />
+      <ScreenApi
+        host={host}
+        scene={scene}
+        t={t}
+        frames={frames}
+        geo={geo}
+        terrain={terrain}
+      />
     );
-  return scene ? <PlaneLayer scene={scene} t={t} geo={geo} /> : null;
+  // 판 층(칠한 곳·선·도시 점·진지 땅)은 WebGL 장면 판이 그린다(scenePlane.ts)
+  return null;
 }
 
 function ScreenApi({
@@ -1033,15 +909,23 @@ function ScreenApi({
   t,
   frames,
   geo,
+  terrain,
 }: {
   host: { current: SceneHost | null };
   scene: Scene | null;
   t: number;
   frames: number;
   geo: SceneGeo;
+  terrain: Terrain | null;
 }) {
   useSceneApi(host);
   return scene ? (
-    <ScreenLayer scene={scene} t={t} frames={frames} geo={geo} />
+    <ScreenLayer
+      scene={scene}
+      t={t}
+      frames={frames}
+      geo={geo}
+      terrain={terrain}
+    />
   ) : null;
 }

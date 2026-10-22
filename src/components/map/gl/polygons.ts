@@ -16,7 +16,8 @@ export type Shape = {
   tris: number[];
 };
 
-function projectPolygon(
+/** 다각형(경위도, d3 감김 규칙) → 지도 좌표 고리들(날짜변경선·지도 끝에서 잘라 닫은 그대로 - 삼각형 없이 고리만 필요할 때) */
+export function projectPolygon(
   projection: GeoProjection,
   coordinates: Polygon["coordinates"],
 ): Ring[] {

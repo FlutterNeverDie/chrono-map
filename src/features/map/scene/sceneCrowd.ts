@@ -66,6 +66,10 @@ export function drawCrowd(
 }
 
 const INK_C = "#2b1d14";
+const smooth = (a: number, b: number, x: number) => {
+  const k = Math.min(1, Math.max(0, (x - a) / (b - a)));
+  return k * k * (3 - 2 * k);
+};
 /**
  * 대군 실루엣 하나(canvas): 키 48 단위 그림을 s배로. 화면에서 6px보다 작으면 점(무리가 점으로 묶여 보이게),
  * 크면 말·사람 실루엣과 달리는 다리(두 자세). 쓰러진 것은 누운 모양으로 흐려진다
@@ -82,7 +86,13 @@ export function drawFigure(g: CanvasRenderingContext2D, m: Figure) {
     g.globalAlpha = 1;
     return;
   }
-  if (h < 6) {
+  // 점 ↔ 실루엣은 키 7~11px에서 서로 엇갈려 옅어지고 짙어진다(멀리서 작은 실루엣의 먹선이 모여 검은 갈색 덩어리가 됐다 - 멀리서는 진영 색 점 무리)(한 크기에서 갑자기 바뀌면 원근으로 그 크기를 지나는 줄이
+  // 이음매처럼 보였고, 다가가는 카메라에서는 튀었다)
+  const base = g.globalAlpha;
+  const dot = 1 - smooth(7, 11, h);
+  if (dot > 0) {
+    // 점은 진영 색 그대로 조금 옅게(먹선 없이)
+    g.globalAlpha = base * dot * 0.85;
     g.fillStyle = m.color;
     g.beginPath();
     g.ellipse(
@@ -95,8 +105,12 @@ export function drawFigure(g: CanvasRenderingContext2D, m: Figure) {
       Math.PI * 2,
     );
     g.fill();
-    g.globalAlpha = 1;
-    return;
+    g.globalAlpha = base;
+    if (dot >= 1) {
+      g.globalAlpha = 1;
+      return;
+    }
+    g.globalAlpha = base * (1 - dot);
   }
   g.save();
   g.translate(m.x, m.y);
@@ -110,9 +124,11 @@ export function drawFigure(g: CanvasRenderingContext2D, m: Figure) {
   g.translate(0, -bob);
   g.lineJoin = "round";
   g.lineCap = "round";
-  // 작을수록 먹선을 가늘게(무리가 검게 뭉치지 않게)
-  g.strokeStyle = h < 18 ? "rgba(43,29,20,0.6)" : INK_C;
-  const thin = h < 18 ? 0.6 : 1;
+  // 작을수록 먹선을 가늘고 옅게(무리가 검게 뭉치지 않게) - 키 12~24px 사이에서 서서히(18px에서 갑자기 바꾸면 원근으로
+  // 그 크기를 지나는 곳에 밝고 어두운 경계가 생겨 포위 고리가 위아래 반으로 갈라져 보였다)
+  const k = smooth(10, 26, h);
+  g.strokeStyle = `rgba(43,29,20,${0.35 + 0.65 * k})`;
+  const thin = 0.5 + 0.5 * k;
   const swing = Math.sin(m.phase) * (m.fast ? 0.7 : 0.35);
   const leg = (x: number, y: number, a: number, w: number) => {
     g.lineWidth = w * thin;

@@ -70,12 +70,12 @@ type SceneHost = import("./scene/SceneLayer").SceneHost;
 const GlMap = dynamic(() => import("./GlMap").then((m) => m.GlMap), {
   ssr: false,
 });
-// 영상 장면(?scene)은 지형·국경 색 곱하기를 svg 층에 맞춰 짜 두어 아직 svg로(장면 층을 WebGL로 옮기는 7단계 전까지)
+// 영상 장면(?scene)은 자기 WebGL 판(scene/SceneGl)을 따로 그린다 - 사이트 WebGL 판은 쓰지 않는다
 const isGl = () =>
   glAvailable() && !new URLSearchParams(location.search).has("scene");
 
-/** 장면 최대 배율(가로 약 3° - 전투 한 곳) */
-const SCENE_MAX_ZOOM = 160;
+/** 장면 최대 배율(가로 약 0.45° - 진지 하나. 지도 좌표 float32 반올림은 x≈630에서 약 2.4m라 이 배율(1px > 10m)까지 흔들림 없음) */
+const SCENE_MAX_ZOOM = 1000;
 /** 장면 모드인가(브라우저에서만) */
 const isScene = () =>
   SCENE_DEV &&
@@ -2187,6 +2187,15 @@ export function WorldMap() {
           }}
         />
       )}
+      {/* 영상 장면 WebGL 판(바다·땅·지형·나라 색·해안·마감 - 국경 svg 대신) */}
+      {SceneLayer && sceneGeo && (
+        <SceneLayer
+          where="gl"
+          geo={sceneGeo}
+          host={sceneHost}
+          gl={{ getView: glView, polities, land: landShape }}
+        />
+      )}
       <div ref={planeRef} className="absolute inset-0 origin-bottom">
         {/* 돌리는 판(바라보는 방향) - 지도 칸 가운데를 축으로. 옆을 보면 가로·세로를 바꾼 크기로 놓고 돌려 지도 칸을 덮는다 */}
         <div
@@ -2194,10 +2203,6 @@ export function WorldMap() {
           className="absolute"
           style={turnStyle(heading, frame, square)}
         >
-          {/* 영상 장면 지형(국경 svg 아래) */}
-          {SceneLayer && sceneGeo && (
-            <SceneLayer where="ground" geo={sceneGeo} host={sceneHost} />
-          )}
           <svg
             ref={svgRef}
             viewBox={`${rv(v.x)} ${rv(v.y)} ${rv(v.w)} ${rv(v.h)}`}

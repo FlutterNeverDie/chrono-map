@@ -323,11 +323,13 @@ export function Flag({
             {...ink}
             strokeWidth={2}
           />
+          {/* 정교회 십자(위 짧은 가로대 + 가운데 + 기운 발판) - 천 끝까지 닿는 십자는 북유럽 나라 국기(스웨덴)처럼 읽혔다 */}
           {kind === "cross" && (
             <path
-              d={`M ${x - 9} ${top + 2} L ${x - 8.5} ${top + 13} M ${x - 16} ${top + 7} L ${x - 1} ${top + 7}`}
-              stroke={GOLD}
-              strokeWidth={2.5}
+              d={`M ${x - 9} ${top + 2.5} L ${x - 8.7} ${top + 12} M ${x - 11} ${top + 4.5} L ${x - 6.6} ${top + 4.5} M ${x - 12.5} ${top + 7} L ${x - 5.2} ${top + 7} M ${x - 11} ${top + 10.4} L ${x - 6.6} ${top + 9.2}`}
+              stroke="#efe3c8"
+              strokeWidth={1.6}
+              strokeLinecap="round"
             />
           )}
         </>
@@ -595,6 +597,57 @@ export function MarkerArt({
         </g>
       ))}
       <circle r={3} fill={color} {...ink} strokeWidth={1.5} />
+    </g>
+  );
+}
+
+const WOOD = "#7a5a3a";
+/**
+ * 수레 원진의 수레 하나(서 있는 그림, 땅 y=0). side: 옆모습(바퀴 둘·덮개, 폭 약 34), end: 앞뒤 모습(바퀴 둘이 양쪽, 폭 약 18) -
+ * 원진 둘레에서 화면 가로로 놓인 수레는 옆모습, 세로로 놓인 수레는 앞뒤 모습. color는 덮개 아래 띠(진영 색)
+ */
+export function WagonArt({
+  view,
+  color,
+}: {
+  view: "side" | "end";
+  color: string;
+}) {
+  if (view === "end")
+    return (
+      <g>
+        <Shadow w={14} />
+        <path d="M -8 -5 L -8 -15 L 8 -15 L 8 -5 Z" fill={WOOD} {...ink} />
+        <path
+          d="M -9 -15 C -9 -27 9 -27 9 -15 Z"
+          fill={CANVAS}
+          {...ink}
+        />
+        <path d="M -8 -15 L 8 -15" stroke={color} strokeWidth={2.5} />
+        {[-9, 9].map((x) => (
+          <ellipse key={x} cx={x} cy={-5} rx={2.2} ry={5} fill={WOOD} {...ink} strokeWidth={2} />
+        ))}
+      </g>
+    );
+  return (
+    <g>
+      <Shadow w={22} />
+      {/* 끌채 */}
+      <path d="M 15 -8 L 23 -4" {...ink} strokeWidth={2.5} />
+      <path d="M -16 -8 L 15 -8 L 13 -15 L -14 -15 Z" fill={WOOD} {...ink} />
+      <path
+        d="M -14 -15 C -14 -29 13 -29 13 -15 Z"
+        fill={CANVAS}
+        {...ink}
+      />
+      <path d="M -5 -27 L -6 -15 M 4 -27 L 4 -15" stroke={INK} strokeWidth={1.2} opacity={0.5} />
+      <path d="M -14 -15 L 13 -15" stroke={color} strokeWidth={2.5} />
+      {[-9, 8].map((x) => (
+        <g key={x}>
+          <circle cx={x} cy={-6} r={6} fill={WOOD} {...ink} strokeWidth={2.2} />
+          <path d={`M ${x - 4} ${-6} L ${x + 4} ${-6} M ${x} ${-10} L ${x} ${-2}`} stroke={INK} strokeWidth={1.2} />
+        </g>
+      ))}
     </g>
   );
 }
