@@ -1,7 +1,12 @@
 "use client";
 
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
-import type { Feature, FeatureCollection } from "geojson";
+import type {
+  Feature,
+  FeatureCollection,
+  MultiPolygon,
+  Polygon,
+} from "geojson";
 import type { GlView } from "@/components/map/gl/renderer";
 import type { Ring } from "@/components/map/gl/polygons";
 import { projectLines, projectPolygon } from "@/components/map/gl/polygons";
@@ -13,9 +18,17 @@ import {
 } from "@/components/map/gl/shapes";
 import { polityColor } from "@/components/map/polityColor";
 import type { Polity } from "../borders";
-import { yearAt, type LonLat, type Scene, type Terrain } from "./sceneData";
+import {
+  countAt,
+  yearAt,
+  yearFlowAt,
+  type LonLat,
+  type Scene,
+  type Terrain,
+} from "./sceneData";
 import { useScene } from "./sceneStore";
 import { loadHeight } from "./sceneHeight";
+import { bordersOf, mergeShapes, prepareSpread } from "./sceneSpread";
 import { planeOps } from "./scenePlane";
 import {
   GRADE,
@@ -61,9 +74,15 @@ function filmFilter(c: number[], a = 0.3, s = 0.65, b = 0.92): number[] {
   const k = 1 - a;
   const [r, g, bl] = c;
   let x = [
-    (0.393 + 0.607 * k) * r + (0.769 - 0.769 * k) * g + (0.189 - 0.189 * k) * bl,
-    (0.349 - 0.349 * k) * r + (0.686 + 0.314 * k) * g + (0.168 - 0.168 * k) * bl,
-    (0.272 - 0.272 * k) * r + (0.534 - 0.534 * k) * g + (0.131 + 0.869 * k) * bl,
+    (0.393 + 0.607 * k) * r +
+      (0.769 - 0.769 * k) * g +
+      (0.189 - 0.189 * k) * bl,
+    (0.349 - 0.349 * k) * r +
+      (0.686 + 0.314 * k) * g +
+      (0.168 - 0.168 * k) * bl,
+    (0.272 - 0.272 * k) * r +
+      (0.534 - 0.534 * k) * g +
+      (0.131 + 0.869 * k) * bl,
   ];
   const [R, G, B] = x;
   x = [
@@ -74,7 +93,9 @@ function filmFilter(c: number[], a = 0.3, s = 0.65, b = 0.92): number[] {
   return [...x.map((v) => Math.min(1, Math.max(0, v)) * b), c[3] ?? 1];
 }
 const lin = (c: number[]) =>
-  c.slice(0, 3).map((v) => (v <= 0.04045 ? v / 12.92 : ((v + 0.055) / 1.055) ** 2.4));
+  c
+    .slice(0, 3)
+    .map((v) => (v <= 0.04045 ? v / 12.92 : ((v + 0.055) / 1.055) ** 2.4));
 const withAlpha = (c: number[], a: number) => [c[0], c[1], c[2], a];
 
 /** 장면·테마로 판 모양 값을 정한다(html의 data-scene-theme가 붙은 뒤 CSS 변수를 읽는다) */
@@ -94,8 +115,9 @@ function lookOf(scene: Scene, terrain: boolean): SceneLook {
     coastFill: scene.coastFill ?? 30,
     regionOpacity: terrain
       ? 0.26
-      : Number(getComputedStyle(html).getPropertyValue("--map-region-opacity")) ||
-        0.32,
+      : Number(
+          getComputedStyle(html).getPropertyValue("--map-region-opacity"),
+        ) || 0.32,
     border: terrain
       ? { color: withAlpha(f(css("--map-border")), 0.22), width: 0.6 }
       : { color: f(css("--map-border")), width: 0.6 },
@@ -137,7 +159,11 @@ const smoothstep = (a: number, b: number, x: number) => {
 function loadImage(src: string): Promise<HTMLImageElement> {
   return new Promise((res, rej) => {
     const img = new Image();
-    img.onload = () => img.decode().then(() => res(img), () => res(img));
+    img.onload = () =>
+      img.decode().then(
+        () => res(img),
+        () => res(img),
+      );
     img.onerror = rej;
     img.src = src;
   });
@@ -170,9 +196,10 @@ async function terrainOf(t: Terrain): Promise<SceneTerrain> {
         Math.min(1, px / 1.6) *
         smoothstep(0.25, 0.6, r.w);
       if (alpha < 0.02) return [];
-      return projectLines(glProjection, { type: "LineString", coordinates: r.l }).map(
-        (line) => ({ line, width: px, color: [...river, alpha] }),
-      );
+      return projectLines(glProjection, {
+        type: "LineString",
+        coordinates: r.l,
+      }).map((line) => ({ line, width: px, color: [...river, alpha] }));
     }),
   };
 }
@@ -183,7 +210,9 @@ async function terrainOf(t: Terrain): Promise<SceneTerrain> {
  */
 let screenCanvas: HTMLCanvasElement | null = null;
 async function composeScreen(): Promise<HTMLCanvasElement | null> {
-  const crowd = document.querySelector<HTMLCanvasElement>("canvas[data-scene-crowd]");
+  const crowd = document.querySelector<HTMLCanvasElement>(
+    "canvas[data-scene-crowd]",
+  );
   const svg = document.querySelector<SVGSVGElement>("svg[data-scene-sprites]");
   if (!crowd && !svg) return null;
   const dpr = devicePixelRatio || 1;
@@ -205,11 +234,14 @@ async function composeScreen(): Promise<HTMLCanvasElement | null> {
     clone.removeAttribute("style");
     clone.removeAttribute("class");
     const html = document.documentElement;
-    const sky = getComputedStyle(html).getPropertyValue("--map-sky").trim() || "#3a3f3c";
+    const sky =
+      getComputedStyle(html).getPropertyValue("--map-sky").trim() || "#3a3f3c";
     const text = new XMLSerializer()
       .serializeToString(clone)
       .replace(/var\(--map-sky\)/g, sky);
-    const url = URL.createObjectURL(new Blob([text], { type: "image/svg+xml" }));
+    const url = URL.createObjectURL(
+      new Blob([text], { type: "image/svg+xml" }),
+    );
     try {
       const img = new Image();
       img.src = url;
@@ -258,19 +290,61 @@ export function SceneGl({
       dead = true;
     };
   }, [hiUrl]);
-  const polities = hiUrl ? (hi?.url === hiUrl ? hi.list : NONE) : sitePolities;
+  const allPolities = hiUrl
+    ? hi?.url === hiUrl
+      ? hi.list
+      : NONE
+    : sitePolities;
+  // 영역 번지기가 시작된 나라는 장면 국경에서 뺀다(그 나라는 번지기 층만 그린다) - 첫 키를 지날 때만 바뀐다
+  const spreadOff = useMemo(() => {
+    const names = new Set<string>();
+    for (const sp of scene?.spread ?? []) {
+      const start = Math.min(...sp.keys.map((k) => k.t));
+      if (t >= start)
+        for (const n of typeof sp.polity === "string" ? [sp.polity] : sp.polity)
+          names.add(n);
+    }
+    return [...names].sort().join("\n");
+  }, [scene, t]);
+  const polities = useMemo(() => {
+    if (!spreadOff) return allPolities;
+    const off = new Set(spreadOff.split("\n"));
+    return allPolities.filter((p) => !off.has(p.properties.n));
+  }, [allPolities, spreadOff]);
   /** 다 받은 것(지금 값과 같은 객체면 준비됨) */
   const loaded = useRef<{
     land: object | null;
     polities: object | null;
     terrain: object | null;
     look: object | null;
-  }>({ land: null, polities: null, terrain: null, look: null });
-  const want = useRef({ land, polities, terrain, scene, hiPending: false });
+    spread: object | null;
+    focus: object | null;
+    focusScene: object | null;
+    /** 타임랩스 다음 해(받아 올려 둔 해) */
+    next: number | null;
+  }>({
+    land: null,
+    polities: null,
+    terrain: null,
+    look: null,
+    spread: null,
+    focus: null,
+    focusScene: null,
+    next: null,
+  });
+  const want = useRef({
+    land,
+    polities,
+    allPolities,
+    terrain,
+    scene,
+    hiPending: false,
+  });
   useLayoutEffect(() => {
     want.current = {
       land,
       polities,
+      allPolities,
       terrain,
       scene,
       hiPending: !!hiUrl && hi?.url !== hiUrl,
@@ -311,6 +385,22 @@ export function SceneGl({
         const view = getView.current();
         const { scene, t } = useScene.getState();
         if (!view || !scene) return;
+        r.setTime(t);
+        r.setYearMix(yearFlowAt(scene, t).mix);
+        r.setStorm({
+          strength: scene.storm
+            ? Math.min(1, countAt(scene.storm.strength, t))
+            : 0,
+          lightning: scene.storm?.lightning ?? true,
+          wind: scene.storm?.wind ?? 0.6,
+        });
+        const w = scene.winter;
+        r.setWinter({
+          cover: w?.cover === undefined ? 0 : countAt(w.cover, t),
+          fall: w?.fall === undefined ? 0 : countAt(w.fall, t),
+          frozen: !!w?.frozen,
+          wind: w?.wind ?? 0.3,
+        });
         r.setPlane(planeOps(scene, t, view.v.h / view.size.h));
         r.setOverlay(await composeScreen());
         r.draw(view, frameRef.current);
@@ -327,6 +417,12 @@ export function SceneGl({
             l.land === w.land &&
             l.polities === w.polities &&
             l.look === w.scene &&
+            (!w.scene?.spread?.length || l.spread === w.scene) &&
+            (!w.scene ||
+              yearFlowAt(w.scene, useScene.getState().t).mix <= 0 ||
+              l.next === yearFlowAt(w.scene, useScene.getState().t).next) &&
+            (!w.scene?.focus?.length ||
+              (l.focus === w.allPolities && l.focusScene === w.scene)) &&
             (!w.terrain || l.terrain === w.terrain)
           );
         },
@@ -347,6 +443,93 @@ export function SceneGl({
     r.setLook(lookOf(scene, !!terrain));
     loaded.current.look = scene;
   }, [scene, terrain]);
+
+  // 지역 강조: 나라(그 시각 연도의 국경 - 바뀌면 다시)·다각형을 삼각형으로
+  useEffect(() => {
+    const r = renderer.current;
+    if (!r || !scene) return;
+    if (!scene.focus?.length) {
+      r.setFocus([]);
+      loaded.current.focus = allPolities;
+      loaded.current.focusScene = scene;
+      return;
+    }
+    const items = scene.focus.map((fo) => {
+      const names = fo.polity
+        ? typeof fo.polity === "string"
+          ? [fo.polity]
+          : fo.polity
+        : [];
+      const feats: Feature<Polygon | MultiPolygon>[] = allPolities.filter((p) =>
+        names.includes(p.properties.n),
+      );
+      if (fo.polygon)
+        feats.push({
+          type: "Feature",
+          properties: {},
+          geometry: {
+            type: "Polygon",
+            coordinates: [[...fo.polygon, fo.polygon[0]]],
+          },
+        });
+      const k = fo.strength ?? 1;
+      const mode = fo.mode ?? "both";
+      return {
+        feats,
+        show: fo.show,
+        dim: mode === "glow" ? 0 : (mode === "dim" ? 0.85 : 0.75) * k,
+        glow: mode === "dim" ? 0.3 * k : (mode === "glow" ? 1.2 : 1) * k,
+      };
+    });
+    return shapeAll(
+      items.flatMap((it) => it.feats),
+      (shapes) => {
+        let i = 0;
+        renderer.current?.setFocus(
+          items.map((it) => {
+            const own = shapes.slice(i, i + it.feats.length);
+            i += it.feats.length;
+            return {
+              shape: mergeShapes(own),
+              show: it.show,
+              dim: it.dim,
+              glow: it.glow,
+            };
+          }),
+        );
+        loaded.current.focus = allPolities;
+        loaded.current.focusScene = scene;
+      },
+    );
+  }, [scene, allPolities]);
+
+  // 영역 번지기: 키 연도 국경을 받아 삼각형·거리 격자를 만든다(장면이 바뀔 때 한 번)
+  useEffect(() => {
+    const r = renderer.current;
+    if (!r || !scene) return;
+    if (!scene.spread?.length) {
+      r.setSpread([]);
+      loaded.current.spread = scene;
+      return;
+    }
+    let dead = false;
+    const html = document.documentElement;
+    const f = (c: number[]) => (scene.theme === "film" ? filmFilter(c) : c);
+    prepareSpread(scene, borders ?? null, f, (c) => cssColor(c, html))
+      .then((items) => {
+        if (dead) return;
+        renderer.current?.setSpread(items);
+        loaded.current.spread = scene;
+      })
+      .catch((e) =>
+        console.error(
+          `장면 spread 준비 실패: ${e instanceof Error ? e.message : e}`,
+        ),
+      );
+    return () => {
+      dead = true;
+    };
+  }, [scene, borders]);
 
   useEffect(() => {
     renderer.current?.setLand50(landRings(land));
@@ -373,6 +556,39 @@ export function SceneGl({
       }),
     [polities, film, border],
   );
+
+  // 타임랩스: 녹아 넘어갈 다음 해 국경을 미리 받아 둔다(그 해 구간에 들어서면 바로)
+  const nextYear = scene ? yearFlowAt(scene, t).next : null;
+  useEffect(() => {
+    const r = renderer.current;
+    if (!r) return;
+    if (nextYear === null || !scene) {
+      r.setNextPolities(null, border);
+      loaded.current.next = null;
+      return;
+    }
+    let dead = false;
+    let stop = () => {};
+    const off = new Set(spreadOff ? spreadOff.split("\n") : []);
+    bordersOf(nextYear, borders ?? null).then((list) => {
+      if (dead) return;
+      const feats = list.filter((p) => !off.has(p.properties.n));
+      stop = shapeAll(feats, (shapes) => {
+        renderer.current?.setNextPolities(
+          feats.map((p, i) => {
+            const c = cssColor(polityColor(p.properties.w ?? p.properties.n));
+            return { shape: shapes[i], color: film ? filmFilter(c) : c };
+          }),
+          border,
+        );
+        loaded.current.next = nextYear;
+      });
+    });
+    return () => {
+      dead = true;
+      stop();
+    };
+  }, [nextYear, scene, borders, spreadOff, film, border]);
 
   useEffect(() => {
     if (!terrain) {

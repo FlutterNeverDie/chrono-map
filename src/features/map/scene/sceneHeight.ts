@@ -16,7 +16,7 @@ async function inflate(bytes: Uint8Array): Promise<Uint8Array> {
 /** float32 → half(IEEE 754 binary16) 비트 */
 const f32 = new Float32Array(1);
 const u32 = new Uint32Array(f32.buffer);
-function toHalf(v: number): number {
+export function toHalf(v: number): number {
   f32[0] = v;
   const x = u32[0];
   const sign = (x >>> 16) & 0x8000;

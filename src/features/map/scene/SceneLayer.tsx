@@ -9,7 +9,7 @@ import {
   levelOf,
   swarmAt,
 } from "./sceneSwarm";
-import { landMask, toLand } from "./sceneLand";
+import { landMask, toLand, toWater } from "./sceneLand";
 import { drawCrowd, type Figure, type GroupShade } from "./sceneCrowd";
 import { useScene } from "./sceneStore";
 import { SceneGl } from "./SceneGl";
@@ -31,14 +31,22 @@ import {
   smooth,
   unitAt,
   yearAt,
+  yearFlowAt,
   type LonLat,
   type Scene,
   type SceneJson,
   type Terrain,
 } from "./sceneData";
+import { faceKey, prepareFaces } from "./sceneFace";
 import {
   BattleCloud,
+  CityArt,
+  FaceMedal,
+  Bomb,
+  Flak,
+  TroopCount,
   Dust,
+  SmokeColumn,
   Flag,
   INK,
   MarkerArt,
@@ -84,7 +92,6 @@ export type SceneHost = {
   /** (개발 확인용) 지금 화면에 보이는 핀의 화면 위치(client px) - 기울이거나 돌리지 않았을 때 */
   pins?: () => { id: string; x: number; y: number; more: number }[];
 };
-
 
 const projection = makeProjection(0);
 const project = (p: LonLat): [number, number] => {
@@ -180,8 +187,11 @@ function useSceneApi(host: { current: SceneHost | null }) {
         else if (scene.theme === "light") delete html.dataset.theme;
         if (scene.borders === false) html.dataset.sceneBorders = "off";
         else delete html.dataset.sceneBorders;
+        // 인물 얼굴 메달 그림을 먼저 다 만든다(그릴 때 기다리지 않게)
+        const faces = await prepareFaces(scene);
         useScene.setState({
           scene,
+          faces,
           frames: opts.frames ?? 300,
           t: 0,
           terrain,
@@ -230,11 +240,31 @@ const d = (pts: [number, number][], close = false) =>
     ? `M${pts.map(([x, y]) => `${x.toFixed(2)} ${y.toFixed(2)}`).join("L")}${close ? "Z" : ""}`
     : "";
 
-
 const smoothstep = (a: number, b: number, x: number) => {
   const k = Math.min(1, Math.max(0, (x - a) / (b - a)));
   return k * k * (3 - 2 * k);
 };
+
+/**
+ * 얼굴 메달 크기 0~1: 나타날 때 0.03 동안 조금 넘쳤다 돌아오고(backOut, 과하지 않게), 사라질 때 0.02 동안 작아진다.
+ * 장면 처음·끝에 걸친 것은 바로
+ */
+/**
+ * 얼굴 메달 그림 배율: 지름(그림 60)이 화면 높이의 9.5%(1440p에서 약 137px - 휴대폰으로 봐도 얼굴이 또렷이) × size,
+ * 원근으로 멀어져도 줄지 않고 가까우면 조금(최대 1.3배) 커진다. 테두리·고리 굵기도 같은 비율로
+ */
+const medalPx = (frameH: number, size: number, k: number) =>
+  ((frameH * 0.095) / 60) * size * Math.max(1, Math.min(1.3, k));
+
+function medalScale(show: number[] | undefined, t: number): number {
+  const [s0, s1] = show ?? [0, 1];
+  if (t < s0 || t > s1) return 0;
+  const a = s0 <= 0 ? 1 : Math.min(1, (t - s0) / 0.03);
+  const b = s1 >= 1 ? 1 : Math.min(1, (s1 - t) / 0.02);
+  const x = a - 1;
+  const pop = 1 + 2.2 * x * x * x + 1.2 * x * x;
+  return Math.max(0, pop) * smoothstep(0, 1, b);
+}
 
 /** 지도 판 위 점(판 안 CSS px) → 화면(지도 칸 안 CSS px): 돌리기(판 가운데 = 지도 칸 가운데) → 눕히기(아래 가운데 축, 원근) */
 function toScreen(geo: SceneGeo) {
@@ -279,6 +309,7 @@ function ScreenLayer({
   const { v, size, frame: f } = geo;
   const shift = (-geo.lon * MAP_WIDTH) / 360;
   const screen = toScreen(geo);
+  const faces = useScene((s) => s.faces);
   /** 경위도 → 화면 */
   const at = (p: LonLat) => {
     const [x, y] = project(p);
@@ -286,6 +317,8 @@ function ScreenLayer({
     return screen(((X - v.x) / v.w) * size.w, ((y - v.y) / v.h) * size.h);
   };
   const time = (t * frames) / 30;
+  // 폭풍 세기(배가 크게 흔들림 - 화면 효과는 WebGL 판)
+  const storm = scene.storm ? Math.min(1, countAt(scene.storm.strength, t)) : 0;
   // 부대 그림 크기: 기본은 키 약 22px@1280(영상 44px) - 크면 보드게임 말처럼 보여 작게 많이(RMW 피드백)
   const base = (scene.unitScale ?? scene.unitSize ?? 1) * 0.45;
   /** 접전 먼지·화살표처럼 부대보다 위에 그릴 것 */
@@ -369,7 +402,8 @@ function ScreenLayer({
           // 같은 편은 많이 겹쳐도 되게(60%까지) - 거의 같은 자리에 둔 몽골 세 갈래가 네모난 한 덩어리로 보이지 않을 만큼만
           const want = friends
             ? reach * 0.6
-            : reach * (1 - 0.06 * contact) + 3 * Math.max(A.w.gap, B.w.gap) * (1 - contact);
+            : reach * (1 - 0.06 * contact) +
+              3 * Math.max(A.w.gap, B.w.gap) * (1 - contact);
           if (dist >= want) continue;
           const push = (want - dist) * Math.min(A.seen, B.seen);
           const wa = B.mass / (A.mass + B.mass);
@@ -418,7 +452,10 @@ function ScreenLayer({
   // 바닥은 무리가 아주 빽빽할 때(간격 크기가 바닥의 1/4 아래)만 서서히 풀어 점 무리로 - 먼 거리 대군이 겹친 실루엣의 먹선으로
   // 검은 갈색 덩어리가 됐다(RMW). 보통 거리는 그대로 바닥(키 18px)
   if (Number.isFinite(common))
-    common = Math.max(common, floor * smoothstep(0.12, 0.3, common / Math.max(floor, 1e-9)));
+    common = Math.max(
+      common,
+      floor * smoothstep(0.12, 0.3, common / Math.max(floor, 1e-9)),
+    );
   for (const w of swarms) {
     const { u, group, R, shift } = w;
     const alpha = alphaAt(u, t, u.path[0].t);
@@ -472,8 +509,12 @@ function ScreenLayer({
         const k = (edge + (edge - depth) * 0.45) / depth;
         m.at = [c[0] + (dx * k) / cos, c[1] + dy * k];
       }
-      // 물 위에 선 사람은 무리 가운데 쪽 땅으로(밀어내기에 밀려 바다로 나가기도 해서 - 배는 예외)
-      if (water && u.kind !== "ship") m.at = toLand(water, m.at, home, R);
+      // 물 위에 선 사람은 무리 가운데 쪽 땅으로(밀어내기에 밀려 바다로 나가기도 해서), 배는 거꾸로 물로
+      if (water && u.kind !== "plane")
+        m.at =
+          u.kind === "ship"
+            ? toWater(water, m.at, home, R)
+            : toLand(water, m.at, home, R);
     }
     // 무리 바닥 그림자: 살아 있는 사람들의 가운데·퍼짐
     let sx = 0;
@@ -504,6 +545,11 @@ function ScreenLayer({
         fast,
         fallen: m.fallen,
         alpha,
+        vessel: u.vessel,
+        moving: m.state !== "hold",
+        rock: storm,
+        aircraft: u.aircraft,
+        alt: u.altitude,
       });
     });
     if (live && !w.ring) {
@@ -557,16 +603,16 @@ function ScreenLayer({
         ? // 고리(포위)는 가운데가 아니라 화면 아래쪽(가까운) 둘레에
           at([pos.at[0] + sw.shift[0], pos.at[1] + sw.shift[1] - sw.R * 0.95])
         : sw
-        ? at([
-            pos.at[0] +
-              sw.shift[0] -
-              (Math.cos(sw.body.ang) * sw.R * 0.12) / cosOf(pos.at[1]),
-            pos.at[1] + sw.shift[1] - Math.sin(sw.body.ang) * sw.R * 0.12,
-          ])
-        : at([
-            pos.at[0] + (pos.dir[0] / len) * reach,
-            pos.at[1] + (pos.dir[1] / len) * reach,
-          ]);
+          ? at([
+              pos.at[0] +
+                sw.shift[0] -
+                (Math.cos(sw.body.ang) * sw.R * 0.12) / cosOf(pos.at[1]),
+              pos.at[1] + sw.shift[1] - Math.sin(sw.body.ang) * sw.R * 0.12,
+            ])
+          : at([
+              pos.at[0] + (pos.dir[0] / len) * reach,
+              pos.at[1] + (pos.dir[1] / len) * reach,
+            ]);
       const fs = fp.k * base * 2.4 * (u.size ?? 1);
       sprites.push({
         y: fp.y + 0.01,
@@ -582,6 +628,101 @@ function ScreenLayer({
         ),
       });
     }
+    // 인물 얼굴 메달: 깃발(없으면 부대 가운데) 위에, 부대를 따라다닌다
+    if (u.face) {
+      const face: {
+        char: string;
+        mood?: string;
+        show?: number[];
+        size?: number;
+      } = typeof u.face === "string" ? { char: u.face } : u.face;
+      const href = faces[faceKey(face.char, face.mood)];
+      const k = medalScale(face.show ?? u.show, t);
+      if (href && k > 0.001) {
+        const sw = swarms.find((w) => w.u === u);
+        const c = sw
+          ? at([pos.at[0] + sw.shift[0], pos.at[1] + sw.shift[1]])
+          : p0;
+        // 무리 위로 띄운다(대군은 무리 반지름의 화면 높이만큼, 작은 부대는 부대 그림 키만큼)
+        const lift = sw
+          ? Math.abs(at([pos.at[0], pos.at[1] + sw.R]).y - at(pos.at).y) * 0.6 +
+            c.k * base * 40
+          : c.k * base * 70;
+        const ms = medalPx(f.h, face.size ?? 1, c.k) * k;
+        const bob = Math.sin(time * 1.3 + u.id.length) * 1.2;
+        over.push(
+          <g
+            key={`${u.id}-face`}
+            transform={`translate(${c.x.toFixed(2)} ${(c.y - lift + bob).toFixed(2)}) scale(${ms.toFixed(4)})`}
+            opacity={alpha * Math.min(1, k * 1.5)}
+          >
+            <FaceMedal href={href} color={color} id={`fc-${u.id}`} />
+          </g>,
+        );
+      }
+    }
+    // 병력 숫자: 부대 오른쪽 옆(대군은 무리 몸통 오른쪽 끝), 계기판처럼 굴러감
+    if (u.troops !== undefined) {
+      const tr =
+        typeof u.troops === "object" && !Array.isArray(u.troops)
+          ? u.troops
+          : { n: u.troops };
+      const ta = alphaAt({ show: tr.show ?? u.show }, t);
+      if (ta > 0) {
+        const value = countAt(tr.n, t);
+        const top = maxCount(tr.n);
+        const digits = Math.max(
+          1,
+          Math.floor(Math.log10(Math.max(1, top))) + 1,
+        );
+        // 굴러가는 가장 낮은 자리: 세 자리 위만 보이되(20,000이면 100 자리까지), 한 프레임에 0.5칸보다 빨리 구르지 않게 올린다
+        let step = 10 ** Math.max(0, digits - 3);
+        if (Array.isArray(tr.n))
+          for (let j = 0; j < tr.n.length - 1; j++) {
+            const a = tr.n[j];
+            const b = tr.n[j + 1];
+            const perFrame =
+              Math.abs(b.n - a.n) / Math.max(1e-6, (b.t - a.t) * frames);
+            if (perFrame > 0)
+              step = Math.max(
+                step,
+                10 ** Math.ceil(Math.log10(perFrame / 0.5)),
+              );
+          }
+        step = Math.min(step, 10 ** (digits - 1));
+        const sw = swarms.find((w) => w.u === u);
+        const c = sw
+          ? at([pos.at[0] + sw.shift[0], pos.at[1] + sw.shift[1]])
+          : p0;
+        const east = sw
+          ? at([
+              pos.at[0] + sw.shift[0] + (sw.R * 0.8) / cosOf(pos.at[1]),
+              pos.at[1] + sw.shift[1],
+            ])
+          : at([
+              pos.at[0] +
+                ((u.spread ?? 0.06 * Math.sqrt(N)) * 1.3) / cosOf(pos.at[1]),
+              pos.at[1],
+            ]);
+        const fs = f.h * 0.045 * (tr.size ?? 1);
+        over.push(
+          <g
+            key={`${u.id}-troops`}
+            transform={`translate(${(Math.max(east.x, c.x) + fs * 0.25).toFixed(2)} ${(c.y + fs * 0.35).toFixed(2)})`}
+            opacity={alpha * ta}
+          >
+            <TroopCount
+              value={value}
+              step={step}
+              digits={digits}
+              fs={fs}
+              color={color}
+              id={`tc-${u.id}`}
+            />
+          </g>,
+        );
+      }
+    }
     const freq = fast ? 3 : 1.7;
     offs.forEach((o, i) => {
       const jitter = r();
@@ -592,8 +733,13 @@ function ScreenLayer({
       // 물 위에 선 사람은 부대 가운데 쪽 땅으로(대군과 같게 - 배는 예외)
       const ground: LonLat = [pos.at[0] + o[0], pos.at[1] + o[1]];
       const p = at(
-        water && u.kind !== "ship"
-          ? toLand(water, ground, pos.at, u.spread ?? 0.06 * Math.sqrt(N))
+        water && u.kind !== "plane"
+          ? (u.kind === "ship" ? toWater : toLand)(
+              water,
+              ground,
+              pos.at,
+              u.spread ?? 0.06 * Math.sqrt(N),
+            )
           : ground,
       );
       if (p.x < -200 || p.x > f.w + 200 || p.y < -200 || p.y > f.h + 200)
@@ -620,6 +766,10 @@ function ScreenLayer({
                 phase={phase}
                 horse={horse}
                 armor={side?.armor}
+                vessel={u.vessel}
+                rock={storm}
+                aircraft={u.aircraft}
+                altitude={u.altitude}
               />
             </g>
           </g>
@@ -688,6 +838,116 @@ function ScreenLayer({
           <BattleCloud time={time} grow={Math.max(0, grow)} seed={i * 1.3} />
         </g>,
       );
+      return;
+    }
+    if (m.kind === "bombing" || m.kind === "flak") {
+      // 폭격·대공포: show 구간에 n개가 고르게 흩어져(씨앗 고정) radius 안에서 터진다. 초는 프레임 기준(같은 t면 같은 그림)
+      const [s0, s1] = m.show ?? [0, 1];
+      const r = rng(`${i}:${m.kind}:${m.at.join(",")}`);
+      const n = m.n ?? (m.kind === "bombing" ? 12 : 16);
+      const rad = m.radius ?? (m.kind === "bombing" ? 0.03 : 0.05);
+      const cosL = Math.max(0.2, Math.cos((m.at[1] * Math.PI) / 180));
+      for (let j = 0; j < n; j++) {
+        const tb = s0 + (s1 - s0) * ((j + r()) / n);
+        const ang = r() * Math.PI * 2;
+        const dist = Math.sqrt(r()) * rad;
+        const hop = r();
+        const sec = ((t - tb) * frames) / 30;
+        if (sec < 0 || sec > (m.kind === "bombing" ? 6 : 3)) continue;
+        const q = at([
+          m.at[0] + (Math.cos(ang) * dist) / cosL,
+          m.at[1] + Math.sin(ang) * dist,
+        ]);
+        const sc = q.k * base * (m.size ?? 1);
+        const alt = (m.altitude ?? 110) * (0.75 + 0.5 * hop);
+        over.push(
+          m.kind === "bombing" ? (
+            <g
+              key={`bo${i}-${j}`}
+              transform={`translate(${q.x.toFixed(2)} ${q.y.toFixed(2)}) scale(${sc.toFixed(4)})`}
+            >
+              <Bomb sec={sec} drop={alt} seed={j} />
+            </g>
+          ) : (
+            <g
+              key={`fl${i}-${j}`}
+              transform={`translate(${q.x.toFixed(2)} ${(q.y - alt * sc).toFixed(2)}) scale(${sc.toFixed(4)})`}
+            >
+              <Flak sec={sec} />
+            </g>
+          ),
+        );
+      }
+      return;
+    }
+    if (m.kind === "face") {
+      const href = m.char ? faces[faceKey(m.char, m.mood)] : undefined;
+      const k = medalScale(m.show, t);
+      if (!href || k <= 0.001) return;
+      const ms = medalPx(f.h, m.size ?? 1, p.k) * k;
+      const bob = Math.sin(time * 1.3 + i) * 1.2;
+      over.push(
+        <g
+          key={`f${i}`}
+          transform={`translate(${p.x.toFixed(2)} ${(p.y + bob).toFixed(2)}) scale(${ms.toFixed(4)})`}
+          opacity={alpha * Math.min(1, k * 1.5)}
+        >
+          <FaceMedal href={href} color={color} id={`fm-${i}`} />
+        </g>,
+      );
+      return;
+    }
+    if (m.kind === "siege" || m.kind === "sack") {
+      // 포위된 성벽 도시: burn = 불길이 커졌다(앞 25%) 유지하다 끝나면 0.1 동안 잦아들어 잔불, 연기는 불길 따라 오르고 끝난 뒤
+      // 옅게 0.25 동안 남는다. fall = 앞 40% 금, 나머지 무너짐 → 폐허. 크기는 부대 기본 크기의 1.4배 × size
+      const [b0, b1] = m.burn ?? [2, 3];
+      const bd = Math.max(1e-6, b1 - b0);
+      const rise = smoothstep(b0, b0 + bd * 0.25, t);
+      const after = t > b1 ? 1 - smoothstep(b1, b1 + 0.1, t) * 0.85 : 1;
+      const burn = rise * after;
+      const charred = smoothstep(b0, b0 + bd * 0.6, t);
+      const smoke =
+        Math.max(
+          burn,
+          t > b1 ? 0.35 * (1 - smoothstep(b1, b1 + 0.25, t)) + 0.12 : 0,
+        ) * rise;
+      const [f0, f1] = m.fall ?? [2, 3];
+      const fd = Math.max(1e-6, f1 - f0);
+      const crack = smoothstep(f0, f0 + fd * 0.4, t);
+      const fall = smoothstep(f0 + fd * 0.4, f1, t);
+      // 크기: 땅 위 반지름 radius(도, 기본 0.03 ≈ 3km)가 화면에서 차지하는 폭에 맞추되(확대하면 땅과 같이 커진다 - 둘러싼
+      // 고리 대군과 맞게), 멀리서는 부대 기본 크기의 1.4배 × size보다 작아지지 않게
+      const rad = m.radius ?? 0.03;
+      const cosL = Math.max(0.2, Math.cos((m.at[1] * Math.PI) / 180));
+      const pl = at([m.at[0] - rad / cosL, m.at[1]]);
+      const pr = at([m.at[0] + rad / cosL, m.at[1]]);
+      const sc = Math.max(
+        p.k * base * 1.4 * (m.size ?? 1),
+        Math.hypot(pr.x - pl.x, pr.y - pl.y) / 100,
+      );
+      const tr = `translate(${p.x.toFixed(2)} ${p.y.toFixed(2)}) scale(${sc.toFixed(4)})`;
+      sprites.push({
+        y: p.y,
+        node: (
+          <g key={`s${i}`} transform={tr} opacity={alpha}>
+            <CityArt
+              color={color}
+              crack={crack}
+              fall={fall}
+              burn={burn}
+              charred={charred}
+              time={time}
+              seed={`${i}:${m.at.join(",")}`}
+            />
+          </g>
+        ),
+      });
+      if (smoke > 0.01)
+        over.push(
+          <g key={`sm${i}`} transform={tr} opacity={alpha}>
+            <SmokeColumn time={time} amount={smoke} seed={i} />
+          </g>,
+        );
       return;
     }
     // 나타날 때 살짝 커지며
@@ -778,7 +1038,19 @@ function ScreenLayer({
   });
 
   sprites.sort((a, b) => a.y - b.y);
-  const year = yearAt(scene, t);
+  // 연도 숫자: 해마다 끝 무렵(마지막 35%)에 한 칸 똑딱 굴러간다(이어서 구르면 프레임마다 반쯤 걸린 숫자가 보였다)
+  const yearRaw = yearFlowAt(scene, t).value;
+  const yearShown = (() => {
+    const base = Math.floor(yearRaw);
+    const k = Math.min(1, Math.max(0, (yearRaw - base - 0.65) / 0.35));
+    return base + k * k * (3 - 2 * k);
+  })();
+  const yearDigits = Math.max(
+    1,
+    ...[scene.year ?? 0, ...(scene.years ?? []).map((y) => y.year)].map(
+      (y) => String(Math.abs(Math.round(y))).length,
+    ),
+  );
   const canvas = useRef<HTMLCanvasElement>(null);
   // 대군은 그리는 중(같은 커밋)에 canvas로 - seek가 기다리는 두 프레임 안에 끝난다
   useLayoutEffect(() => {
@@ -848,19 +1120,17 @@ function ScreenLayer({
         <g filter="url(#scene-ink)">{sprites.map((s) => s.node)}</g>
         <g filter="url(#scene-ink)">{over}</g>
         {scene.showYear && (
-          <text
-            x={40}
-            y={f.h - 40}
-            fontSize={64}
-            fontWeight={800}
-            fontFamily="Georgia, 'Noto Serif', serif"
-            fill="#efe3c8"
-            stroke={INK}
-            strokeWidth={5}
-            paintOrder="stroke"
-          >
-            {year}
-          </text>
+          // 연도: 흐르는 장면(years flow)에서는 국경이 녹아 넘어갈 때 함께 굴러간다(계기판, 쉼표 없음)
+          <g transform={`translate(40 ${f.h - 40})`}>
+            <TroopCount
+              value={Math.abs(yearShown)}
+              step={1}
+              digits={yearDigits}
+              fs={64}
+              id="year"
+              commas={false}
+            />
+          </g>
         )}
       </svg>
     </>

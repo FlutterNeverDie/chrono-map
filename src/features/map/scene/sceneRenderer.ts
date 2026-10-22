@@ -6,6 +6,8 @@ import {
 } from "@/components/map/gl/renderer";
 import type { Ring, Shape } from "@/components/map/gl/polygons";
 import type { Height } from "./sceneHeight";
+import { spreadAt, type SpreadField, type SpreadItem } from "./sceneSpread";
+import { alphaAt } from "./sceneData";
 
 /**
  * 영상 장면 판(WebGL2, 개발 서버 ?scene 전용): 땅·바다·지형·나라 색·해안·강을 한 장에 그리고 마지막에 필름 마감을 건다.
@@ -161,6 +163,19 @@ float fbm(vec2 p, uint seed, int oct) {
 }
 vec3 toLin(vec3 c) { return mix(c / 12.92, pow((c + 0.055) / 1.055, vec3(2.4)), step(0.04045, c)); }
 vec3 toSrgb(vec3 c) { c = max(c, 0.0); return mix(c * 12.92, 1.055 * pow(c, vec3(1.0 / 2.4)) - 0.055, step(0.0031308, c)); }
+// 폭풍 바다(장면 storm): 큰 너울 그늘 + 바람결로 길게 흐르는 흰 물마루 - 땅 위 km 좌표에 붙어 time으로만 흐른다.
+// 화면 1px보다 잘아지는 무늬는 옅게(넓게 본 지도에서 가물거리지 않게)
+vec3 stormSea(vec3 col, vec2 m, float storm, float t) {
+  if (storm <= 0.0) return col;
+  vec2 ll = lonLat(m);
+  vec2 km = vec2(ll.x * 111.32 * cos(radians(ll.y)), ll.y * 110.57);
+  vec2 q = vec2(km.x / 2.5 + t * 0.35, km.y / 0.9);
+  float fade = 1.0 - smoothstep(0.25, 0.9, max(fwidth(q.x), fwidth(q.y)));
+  float swell = fbm(km / 12.0 + vec2(t * 0.06, 0.0), 73u, 3);
+  col *= 1.0 - storm * (0.18 + 0.22 * swell);
+  float caps = smoothstep(0.64, 0.78, fbm(q, 71u, 4)) * fade;
+  return mix(col, vec3(0.86, 0.87, 0.84), caps * storm * 0.75);
+}
 `;
 
 /** 지형: 토지 피복 → 팔레트(prep_terrain.py와 같은 식), 산 음영 overlay */
@@ -180,6 +195,7 @@ uniform bool u_hasH;
 uniform vec2 u_hSize;
 uniform float u_snowline;
 uniform float u_zoom;
+uniform float u_cover;
 uniform vec2 u_texDeg;
 out vec4 o;
 ${GEO}
@@ -228,6 +244,7 @@ void main() {
     c = mix(c, u_pal[2], veg);
     // 숲 색은 세이지와 반씩(지도 거리에서 진한 숲 색이 위장 무늬처럼 튀었다 - 시네마틱도 먼 숲은 빛·공기로 옅다)
     c = mix(c, mix(u_pal[3], u_pal[2], 0.5), clamp(dark, 0.0, 1.0) * 0.7);
+    float rockAmt = 0.0;
     if (u_hasH) {
       // 고도로(prep_terrain.py와 같은 순서): 골짜기 초록·능선 마름 → 비탈 바위 → 눈. 고도 칸은 약 0.9 km라 기울기가 실제보다 완만해
       // 바위 기준을 낮춘다
@@ -245,11 +262,21 @@ void main() {
       c = mix(c, u_pal[1], sstep(0.04, 0.7, cav) * 0.4);
       float rockm = sstep(10.0, 24.0, slope + (fine - 0.5) * 10.0);
       c = mix(c, mix(u_pal[4], u_pal[5], fine * 0.5), rockm);
+      rockAmt = rockm;
       // 눈: 흐린 고도와 섞어 봉우리 점들이 주능선을 따라 이어진 띠로 읽히게(멀리서 흰 점이 흩뿌려져 잡음 같았다), 무늬는 작게
       float hs = max(hc, mix(textureLod(u_th, uv, 1.5).r, textureLod(u_th, uv, 2.5).r, 0.5) + 250.0);
       float sn = sstep(u_snowline - 400.0, u_snowline + 300.0, hs + (blot - 0.5) * 250.0 + (fine - 0.5) * 120.0);
       sn *= sstep(58.0, 36.0, slope);
       c = mix(c, u_pal[6], clamp(sn, 0.0, 1.0));
+    }
+    // 겨울 눈(장면 winter.cover): 덮인 정도에 바람에 쓸린 얼룩, 숲은 나무가 비치고 가파른 바위는 덜 덮인다
+    if (u_cover > 0.0) {
+      // 얼룩은 크게(수십 km) + 잔물결 조금(잘면 위장 무늬처럼 보였다)
+      float patchy = fbm(km / 30.0, 21u, 4) * 0.75 + fbm(km / 5.0, 22u, 3) * 0.25;
+      float amt = sstep(0.0, 1.0, u_cover * 1.7 - 0.35 + (patchy - 0.5) * 0.9 + (fine - 0.5) * 0.15);
+      amt *= 1.0 - clamp(dark, 0.0, 1.0) * 0.45;
+      amt *= 1.0 - rockAmt * 0.55;
+      c = mix(c, u_pal[6], amt);
     }
     // 1 km 붓 자국(아주 옅게 - 판판한 단색 면이 되지 않게)
     c *= 0.96 + 0.08 * fine;
@@ -289,6 +316,19 @@ void main() {
   }
 }`;
 
+/** 바다(폭풍이면 너울·흰 물마루) */
+const OCEAN_FS = `#version 300 es
+precision highp float;
+in vec2 v_map;
+uniform vec4 u_color;
+uniform float u_storm;
+uniform float u_time;
+out vec4 o;
+${GEO}
+void main() {
+  o = vec4(stormSea(u_color.rgb, v_map, u_storm, u_time), 1.0);
+}`;
+
 /** 지형 상자 안 물: 얕은 바다는 조금 밝고 푸르게(고도가 있을 때, 호수 수면처럼 0 위는 그대로) */
 const WATER_FS = `#version 300 es
 precision highp float;
@@ -296,13 +336,16 @@ in vec2 v_map;
 uniform sampler2D u_th;
 uniform vec4 u_box;
 uniform vec4 u_color;
+uniform float u_storm;
+uniform float u_time;
 out vec4 o;
+${GEO}
 void main() {
   vec2 uv = (v_map - u_box.xy) / (u_box.zw - u_box.xy);
   float h = texture(u_th, uv).r;
   float shallow = smoothstep(-60.0, -3.0, h) * step(h, -0.5);
   vec3 c = mix(u_color.rgb, u_color.rgb * 1.12 + vec3(0.015, 0.03, 0.02), shallow * 0.6);
-  o = vec4(c, 1.0);
+  o = vec4(stormSea(c, v_map, u_storm, u_time), 1.0);
 }`;
 
 /** 나라 색: 정점마다 [r,g,b,진하기]. 곱하기면 1 → 색으로 진하기만큼(blend DST_COLOR, ZERO) */
@@ -325,6 +368,47 @@ out vec4 o;
 void main() {
   float a = v_col.a * u_alpha;
   o = u_mul ? vec4(mix(vec3(1.0), v_col.rgb, a), 1.0) : vec4(v_col.rgb * a, a);
+}`;
+
+/**
+ * 영역 번지기(장면 spread): 다음 영역 삼각형을 "앞 영역에서의 거리"(u_dist, 0~1)가 문턱 u_r보다 가까운 곳만 칠한다.
+ * 앞쪽 가장자리는 잡음으로 굴곡(앞 영역 안쪽은 굴곡 없음), 바로 뒤는 먹이 스민 띠(진하게 → 안쪽으로 바래며 나라 색).
+ * u_r < 0이면 거리 없이 다 칠한다(앞 영역·마지막 영역)
+ */
+const SPREAD_FS = `#version 300 es
+precision highp float;
+in vec2 v_map;
+${GEO}
+uniform sampler2D u_dist;
+uniform vec4 u_box;
+uniform float u_r;
+uniform float u_rough;
+uniform vec4 u_col;
+uniform vec3 u_ink;
+uniform bool u_mul;
+uniform float u_alpha;
+out vec4 o;
+void main() {
+  float a = u_alpha;
+  vec3 col = u_col.rgb;
+  if (u_r >= 0.0) {
+    vec2 uv = (v_map - u_box.xy) / (u_box.zw - u_box.xy);
+    float d = texture(u_dist, uv).r;
+    // 굴곡: 큰 물결 + 잔물결(상자 가로세로 비율 그대로 - 늘어나지 않게)
+    vec2 q = uv * vec2((u_box.z - u_box.x) / (u_box.w - u_box.y), 1.0);
+    float n = (fbm(q * 6.0, 41u, 5) - 0.5) * 2.0;
+    float amp = 0.08 * u_rough * smoothstep(0.0, 0.06, d);
+    float front = u_r * (1.0 + 0.1 * u_rough + 0.02) - (d + n * amp);
+    float px = fwidth(d) + 1e-6;
+    if (front < -px) discard;
+    float edge = smoothstep(-px, px, front);
+    // 먹 스밈 띠(앞 영역 밖에서만, 번지는 동안만)
+    float wet = (1.0 - smoothstep(0.0, 0.04, front)) * smoothstep(0.0, 0.01, d)
+      * step(1e-4, u_r) * (1.0 - smoothstep(0.96, 1.0, u_r));
+    col = mix(col, u_ink, wet * 0.6);
+    a = mix(a, max(a, 0.55), wet) * edge;
+  }
+  o = u_mul ? vec4(mix(vec3(1.0), col, a), 1.0) : vec4(col * a, a);
 }`;
 
 /** 선: 선분마다 둥근 끝 캡슐(거리로 가장자리를 부드럽게 - 기울여도 화면 1px로) */
@@ -373,6 +457,7 @@ uniform vec2 u_dash;      // 칠한 길이·빈 길이(px), 0이면 실선
 uniform float u_pxPerUnit; // 지도 1단위 = 판 위 px
 uniform float u_wobble;
 uniform float u_alpha;
+uniform vec4 u_tint;      // 색 바꾸기(얼어붙은 강 - a만큼 이 색으로)
 out vec4 o;
 ${GEO}
 void main() {
@@ -398,7 +483,8 @@ void main() {
   // 덮지 않는 곳은 버린다(스텐실을 쓰는 해안 채우기가 캡슐 밖 네모 귀퉁이까지 차지하지 않게)
   if (cov <= 0.001) discard;
   float a = v_col.a * cov * u_alpha;
-  o = u_mul ? vec4(mix(vec3(1.0), v_col.rgb, a), 1.0) : vec4(v_col.rgb * a, a);
+  vec3 lc = mix(v_col.rgb, u_tint.rgb, u_tint.a);
+  o = u_mul ? vec4(mix(vec3(1.0), lc, a), 1.0) : vec4(lc * a, a);
 }`;
 
 /** 화면 전체 네모(하늘·합치기·마감) */
@@ -423,6 +509,53 @@ in vec2 v_uv;
 uniform sampler2D u_img;
 out vec4 o;
 void main() { o = texture(u_img, v_uv); }`;
+/** 가우스 흐림 한 방향(9탭) - u_step = 텍셀 간격 × 방향 */
+const BLUR_FS = `#version 300 es
+precision highp float;
+in vec2 v_uv;
+uniform sampler2D u_img;
+uniform vec2 u_step;
+out vec4 o;
+void main() {
+  const float w[5] = float[5](0.2270270, 0.1945946, 0.1216216, 0.0540541, 0.0162162);
+  vec4 c = texture(u_img, v_uv) * w[0];
+  for (int i = 1; i < 5; i++) {
+    c += texture(u_img, v_uv + u_step * float(i)) * w[i];
+    c += texture(u_img, v_uv - u_step * float(i)) * w[i];
+  }
+  o = c;
+}`;
+/**
+ * 지역 강조(장면 focus): 흐린 가림막 m(0~u_peak, 강조할 곳 안쪽이 보이는 정도만큼)으로 - 바깥은 흐린 그림으로 바꾸며 어둡고 채도를
+ * 낮추고(u_dim), 가장자리를 따라 은은한 빛 띠와 안쪽 살짝 밝게(u_glow). 마감(필름) 전에
+ */
+const FOCUS_FS = `#version 300 es
+precision highp float;
+in vec2 v_uv;
+uniform sampler2D u_img;
+uniform sampler2D u_blur;
+uniform sampler2D u_mask;
+uniform float u_peak;
+uniform float u_dim;
+uniform float u_glow;
+out vec4 o;
+void main() {
+  vec3 c = texture(u_img, v_uv).rgb;
+  vec3 b = texture(u_blur, v_uv).rgb;
+  float m = texture(u_mask, v_uv).r;
+  // 바깥(강조 정도 - 그 자리 안쪽 정도)
+  float out_ = clamp(u_peak - m, 0.0, 1.0) * u_dim;
+  float g = dot(b, vec3(0.299, 0.587, 0.114));
+  vec3 dimmed = mix(vec3(g), b, 0.45) * 0.55;
+  c = mix(c, dimmed, out_);
+  // 가장자리 빛 띠(m이 0.5 언저리) + 안쪽 살짝 밝게
+  float k = u_peak > 0.0 ? m / u_peak : 0.0;
+  float ring = clamp(1.0 - abs(k - 0.5) * 2.0, 0.0, 1.0);
+  c += vec3(0.95, 0.85, 0.62) * ring * ring * 0.15 * u_glow * u_peak;
+  // 안쪽은 따뜻하게 살짝 밝게(테두리만 빛나면 화면 장치처럼 보였다)
+  c = mix(c, c * 1.1 + vec3(0.05, 0.035, 0.0), k * u_glow * u_peak * 0.7);
+  o = vec4(c, 1.0);
+}`;
 const GRADE_FS = `#version 300 es
 precision highp float;
 precision highp int;
@@ -439,12 +572,105 @@ uniform float u_vig;
 uniform float u_grain;
 uniform uint u_seed;
 uniform vec2 u_size;
+uniform float u_fall;
+uniform float u_time;
+uniform float u_wind;
+uniform float u_storm;
+uniform bool u_lightning;
+uniform float u_swind;
 out vec4 o;
 ${GEO}
+/**
+ * 폭풍 비·번개(장면 storm): 화면이 어두워지고(먹구름), 가늘고 긴 비 줄기 겹 셋이 바람에 비껴 빠르게 내리고, 가끔 번개로 번쩍
+ * (1.3초 칸마다 씨앗으로 정함 - 같은 t면 같은 때, 두 번 깜빡이며 빨리 사그라짐)
+ */
+vec3 stormSky(vec3 y) {
+  float px = u_size.y / 1440.0;
+  y *= 1.0 - 0.32 * u_storm;
+  y = mix(y, vec3(dot(y, vec3(0.3, 0.59, 0.11))), 0.25 * u_storm);
+  vec2 dir = normalize(vec2(u_swind, -1.0));
+  vec2 side = vec2(-dir.y, dir.x);
+  for (int L = 0; L < 3; L++) {
+    float cs = (L == 0 ? 60.0 : L == 1 ? 38.0 : 24.0) * px;
+    float speed = (L == 0 ? 2400.0 : L == 1 ? 1700.0 : 1100.0) * px;
+    float len = (L == 0 ? 70.0 : L == 1 ? 45.0 : 28.0) * px;
+    float wid = (L == 0 ? 1.4 : L == 1 ? 1.0 : 0.8) * px;
+    vec2 q = gl_FragCoord.xy - dir * speed * u_time;
+    // 줄기 방향 좌표로 칸을 나눈다(길쭉한 칸)
+    vec2 r = vec2(dot(q, side), dot(q, dir));
+    vec2 cell = floor(r / vec2(cs, cs * 3.0));
+    for (int dy = -1; dy <= 1; dy++) {
+      ivec2 c = ivec2(cell) + ivec2(0, dy);
+      if (h01(c, 81u + uint(L)) > 0.25 + 0.5 * u_storm) continue;
+      vec2 ctr = (vec2(c) + vec2(0.2 + 0.6 * h01(c, 82u + uint(L)), 0.5)) * vec2(cs, cs * 3.0);
+      vec2 dv = r - ctr;
+      float a = smoothstep(wid * 1.5, 0.0, abs(dv.x)) * smoothstep(len, len * 0.3, abs(dv.y));
+      y = mix(y, vec3(0.8, 0.82, 0.83), a * (0.22 + 0.08 * float(L)) * u_storm);
+    }
+  }
+  if (u_lightning) {
+    float slot = floor(u_time / 1.3);
+    if (h01(ivec2(int(slot), 7), 91u) < 0.3 * u_storm) {
+      float k = (u_time - slot * 1.3) / 1.3;
+      float at = 0.2 + 0.5 * h01(ivec2(int(slot), 8), 92u);
+      float dt = (k - at) * 1.3;
+      float flash = dt < 0.0 ? 0.0 : exp(-dt * 16.0) + 0.6 * exp(-max(0.0, dt - 0.12) * 20.0) * step(0.12, dt);
+      y = mix(y, vec3(0.95, 0.95, 1.0), clamp(flash, 0.0, 1.0) * 0.5);
+    }
+  }
+  return y;
+}
+/**
+ * 내리는 눈(장면 winter.fall): 화면에 겹 셋(먼 것은 작고 느리고 옅게) - 칸마다 씨앗으로 송이를 두고 time으로만 흘러 같은 프레임은
+ * 같은 그림. 바람(u_wind)만큼 옆으로 비껴 내리고 송이마다 천천히 좌우로 흔들린다. 크기는 화면 높이 1440 기준 px
+ */
+vec3 snowfall(vec3 y) {
+  float px = u_size.y / 1440.0;
+  // 눈 오는 공기: 화면이 살짝 뿌옇고 먼 쪽(위)일수록 더(맑은 날처럼 또렷하면 눈송이만 붙인 것처럼 어색했다)
+  y = mix(y, vec3(0.84, 0.84, 0.82), u_fall * (0.1 + 0.16 * v_uv.y));
+  // 떨어지는 방향(바람만큼 기울어짐)
+  vec2 fallDir = normalize(vec2(u_wind, -1.0));
+  vec2 side = vec2(-fallDir.y, fallDir.x);
+  for (int L = 0; L < 4; L++) {
+    // 겹: 0 = 가장 가까움(크고 흐릿하고 빠름) … 3 = 가장 멂(작고 느림)
+    float cs = (L == 0 ? 120.0 : L == 1 ? 70.0 : L == 2 ? 44.0 : 28.0) * px;
+    float speed = (L == 0 ? 200.0 : L == 1 ? 130.0 : L == 2 ? 85.0 : 55.0) * px;
+    float rad = (L == 0 ? 5.5 : L == 1 ? 3.2 : L == 2 ? 2.0 : 1.3) * px;
+    float op = L == 0 ? 0.55 : L == 1 ? 0.6 : L == 2 ? 0.5 : 0.38;
+    float soft = L == 0 ? 0.05 : 0.3;
+    vec2 q = gl_FragCoord.xy - fallDir * speed * u_time;
+    vec2 cell = floor(q / cs);
+    for (int dx = -1; dx <= 1; dx++) {
+      for (int dy = -1; dy <= 1; dy++) {
+        ivec2 c = ivec2(cell) + ivec2(dx, dy);
+        float r1 = h01(c, 31u + uint(L));
+        // 칸마다 송이가 있을 확률(촘촘하면 정지 화면에서 물방울 무늬처럼 보였다)
+        if (r1 > 0.12 + 0.38 * u_fall) continue;
+        float r2 = h01(c, 41u + uint(L));
+        float r3 = h01(c, 51u + uint(L));
+        float r4 = h01(c, 61u + uint(L));
+        vec2 ctr = (vec2(c) + vec2(0.15 + 0.7 * r2, 0.15 + 0.7 * r3)) * cs;
+        ctr += side * sin(u_time * (0.7 + r2) + r3 * 6.283) * cs * 0.12;
+        vec2 dv = q - ctr;
+        // 떨어지는 방향으로 조금만 길게(가까운 겹일수록) - 둥근 점만 있으면 내리는 느낌이 없었고, 길면 비처럼 보였다
+        float along = dot(dv, fallDir);
+        float across = dot(dv, side);
+        float stretch = 1.0 + speed / (450.0 * px);
+        float d = length(vec2(across, along / stretch));
+        float rr = rad * (0.6 + 0.8 * r4);
+        float a = smoothstep(rr * (1.3 + soft * 4.0), rr * soft, d) * op * (0.6 + 0.4 * r2);
+        y = mix(y, vec3(0.98, 0.97, 0.95), a * clamp(u_fall * 1.25, 0.0, 1.0));
+      }
+    }
+  }
+  return y;
+}
 vec3 aces(vec3 x) { return clamp((x * (2.51 * x + 0.03)) / (x * (2.43 * x + 0.59) + 0.14), 0.0, 1.0); }
 float white(ivec2 p) { return float(hash3(uvec3(uvec2(p), u_seed)) >> 8u) / 16777216.0; }
 void main() {
   vec3 y = texture(u_img, v_uv).rgb;
+  if (u_storm > 0.0) y = stormSky(y);
+  if (u_fall > 0.0) y = snowfall(y);
   if (!u_on) { o = vec4(y, 1.0); return; }
   // 필름 곡선: 선형으로 펴서 노출 → ACES(post.py와 같은 x 0.8) - 지도는 이미 화면 색이라 흰색 1이 1로 남게 나눠 맞춘다
   vec3 lin = toLin(y) * exp2(u_exposure);
@@ -508,6 +734,13 @@ function fans(rings: Ring[]): { pos: Float32Array; idx: Uint32Array } {
 const latOfY = (y: number) =>
   2 * Math.atan(Math.exp(2.6603061 - (y * 2 * Math.PI) / 1000)) - Math.PI / 2;
 
+/** 눈 색(지형 밖 땅을 덮을 때 - 크림빛 흰색), 얼음 색(언 호수·강 - 바랜 회청 흰색) */
+const SNOW_RGB = [0.93, 0.92, 0.89];
+const ICE_RGB = [0.8, 0.84, 0.86];
+
+/** 먹선 색 #2b1d14(sceneArt INK - 나라 색과 같은 화면 색 공간) */
+const INK_RGB = [0x2b / 255, 0x1d / 255, 0x14 / 255];
+
 /** 스텐실 비트 */
 const S_LAND10 = 0x01;
 const S_LAKE = 0x02;
@@ -521,7 +754,27 @@ export class SceneRenderer {
   private flat: Prog;
   private terrainP: Prog;
   private waterP: Prog;
+  private oceanP: Prog;
   private polity: Prog;
+  private spreadP: Prog;
+  /** 영역 번지기: 항목 + 도형마다 삼각형·거리 격자마다 텍스처 */
+  private spread: SpreadItem[] = [];
+  private spreadMesh = new Map<object, Mesh>();
+  private spreadTex = new Map<SpreadField, WebGLTexture>();
+  /** 지역 강조: 도형(삼각형)·보이는 구간·모양 */
+  private focus: { mesh: Mesh; show: number[]; dim: number; glow: number }[] = [];
+  private blurP: Prog;
+  private focusP: Prog;
+  private fx: {
+    w: number;
+    h: number;
+    tex: WebGLTexture[];
+    fbo: WebGLFramebuffer[];
+    out: WebGLTexture;
+    outFbo: WebGLFramebuffer;
+  } | null = null;
+  /** 지금 그리는 시각(spread용 - SceneGl이 그리기 전에 넣는다) */
+  private time = 0;
   private line: Prog;
   private sky: Prog;
   private copy: Prog;
@@ -533,6 +786,16 @@ export class SceneRenderer {
   private land50: Mesh | null = null;
   private coast50: Ring[] = [];
   private polities: Mesh | null = null;
+  /** 겨울(장면 winter): 눈 덮임·내리는 눈·얼음·바람 - 그릴 때마다 SceneGl이 넣는다 */
+  private winter = { cover: 0, fall: 0, frozen: false, wind: 0.3 };
+  /** 폭풍(장면 storm): 세기·번개·바람 */
+  private storm = { strength: 0, lightning: true, wind: 0.6 };
+  setStorm(s: { strength: number; lightning: boolean; wind: number }) {
+    this.storm = s;
+  }
+  /** 타임랩스: 다음 해 국경(칠·선)과 섞는 정도 */
+  private next: { fill: Mesh; lines: Mesh } | null = null;
+  private yearMix = 0;
   private borders: Mesh | null = null;
   /** 해안 채우기용: 나라마다 테두리를 나라 색으로 */
   private grow: Mesh | null = null;
@@ -590,7 +853,11 @@ export class SceneRenderer {
     this.flat = this.map;
     this.terrainP = compile(gl, MAP_VS, TERRAIN_FS);
     this.waterP = compile(gl, MAP_VS, WATER_FS);
+    this.oceanP = compile(gl, MAP_VS, OCEAN_FS);
     this.polity = compile(gl, POLITY_VS, POLITY_FS);
+    this.spreadP = compile(gl, MAP_VS, SPREAD_FS);
+    this.blurP = compile(gl, SCREEN_VS, BLUR_FS);
+    this.focusP = compile(gl, SCREEN_VS, FOCUS_FS);
     this.line = compile(gl, LINE_VS, LINE_FS);
     this.sky = compile(gl, SCREEN_VS, SKY_FS);
     this.copy = compile(gl, SCREEN_VS, COPY_FS);
@@ -611,7 +878,7 @@ export class SceneRenderer {
       gl.STATIC_DRAW,
     );
     this.quadVao = gl.createVertexArray()!;
-    for (const p of [this.sky, this.copy, this.grade]) {
+    for (const p of [this.sky, this.copy, this.grade, this.blurP, this.focusP]) {
       const loc = gl.getAttribLocation(p.p, "a_corner");
       gl.bindVertexArray(this.quadVao);
       gl.bindBuffer(gl.ARRAY_BUFFER, this.quad);
@@ -767,11 +1034,250 @@ export class SceneRenderer {
     this.coast50 = rings;
     this.rebuildCoast();
   }
+  setWinter(w: { cover: number; fall: number; frozen: boolean; wind: number }) {
+    this.winter = w;
+  }
+  /** 겨울이면 지형 밖 땅도 눈 색 쪽으로(덮인 정도만큼) */
+  private winterLand(land: number[]) {
+    const k = this.winter.cover * 0.85;
+    if (k <= 0) return land;
+    return land.map((v, i) => (i < 3 ? v + (SNOW_RGB[i] - v) * k : v));
+  }
+  /** 그릴 시각(영역 번지기) */
+  setTime(t: number) {
+    this.time = t;
+  }
+  /**
+   * 지역 강조 항목: 도형(삼각형) + show(보이는 구간, alphaAt과 같은 서서히) + dim(바깥 어둡게·흐리게 0~1) + glow(가장자리 빛 0~1)
+   */
+  setFocus(items: { shape: Shape; show?: number[]; dim: number; glow: number }[]) {
+    const gl = this.gl;
+    for (const f of this.focus) this.dropMesh(f.mesh);
+    this.focus = items.map((it) => {
+      const vao = gl.createVertexArray()!;
+      gl.bindVertexArray(vao);
+      const vb = gl.createBuffer()!;
+      gl.bindBuffer(gl.ARRAY_BUFFER, vb);
+      gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(it.shape.rings.flat().flat()), gl.STATIC_DRAW);
+      const loc = gl.getAttribLocation(this.map.p, "a_pos");
+      gl.enableVertexAttribArray(loc);
+      gl.vertexAttribPointer(loc, 2, gl.FLOAT, false, 0, 0);
+      const ib = gl.createBuffer()!;
+      gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, ib);
+      gl.bufferData(gl.ELEMENT_ARRAY_BUFFER, new Uint32Array(it.shape.tris), gl.STATIC_DRAW);
+      gl.bindVertexArray(null);
+      return {
+        mesh: { vao, bufs: [vb, ib], count: it.shape.tris.length },
+        show: it.show ?? [0, 1],
+        dim: it.dim,
+        glow: it.glow,
+      };
+    });
+  }
+  /** 지역 강조용 그림판: [가림막 둘(1/2 크기), 흐린 그림 둘(1/4 크기)] + 결과(원래 크기) */
+  private ensureFx(w: number, h: number) {
+    const gl = this.gl;
+    if (this.fx && this.fx.w === w && this.fx.h === h) return this.fx;
+    if (this.fx) {
+      for (const t of [...this.fx.tex, this.fx.out]) gl.deleteTexture(t);
+      for (const f of [...this.fx.fbo, this.fx.outFbo]) gl.deleteFramebuffer(f);
+    }
+    const make = (tw: number, th: number) => {
+      const t = gl.createTexture()!;
+      gl.bindTexture(gl.TEXTURE_2D, t);
+      gl.texStorage2D(gl.TEXTURE_2D, 1, gl.RGBA8, tw, th);
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR);
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE);
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE);
+      const f = gl.createFramebuffer()!;
+      gl.bindFramebuffer(gl.FRAMEBUFFER, f);
+      gl.framebufferTexture2D(gl.FRAMEBUFFER, gl.COLOR_ATTACHMENT0, gl.TEXTURE_2D, t, 0);
+      return [t, f] as const;
+    };
+    const hw = Math.max(1, w >> 1);
+    const hh = Math.max(1, h >> 1);
+    const qw = Math.max(1, w >> 2);
+    const qh = Math.max(1, h >> 2);
+    const parts = [make(hw, hh), make(hw, hh), make(qw, qh), make(qw, qh)];
+    const [out, outFbo] = make(w, h);
+    gl.bindFramebuffer(gl.FRAMEBUFFER, null);
+    this.fx = { w, h, tex: parts.map((p) => p[0]), fbo: parts.map((p) => p[1]), out, outFbo };
+    return this.fx;
+  }
+  /**
+   * 지역 강조 한 번: 강조할 곳을 1/2 크기 가림막에 그려(보이는 정도 = 밝기, 여럿이면 큰 쪽) 흐리게 퍼뜨리고, 그림도 1/4 크기로
+   * 흐리게 해서 FOCUS_FS로 합친다. 결과 텍스처를 돌려준다(없으면 null - 강조할 것이 안 보이는 시각)
+   */
+  private drawFocus(
+    view: GlView,
+    offs: number[],
+    src: WebGLTexture,
+    W: number,
+    H: number,
+  ): WebGLTexture | null {
+    const gl = this.gl;
+    const live = this.focus
+      .map((f) => ({ f, a: alphaAt({ show: f.show }, this.time) }))
+      .filter((x) => x.a > 0);
+    if (!live.length) return null;
+    const fx = this.ensureFx(W, H);
+    const hw = Math.max(1, W >> 1);
+    const hh = Math.max(1, H >> 1);
+    const qw = Math.max(1, W >> 2);
+    const qh = Math.max(1, H >> 2);
+    // 가림막
+    gl.bindFramebuffer(gl.FRAMEBUFFER, fx.fbo[0]);
+    gl.viewport(0, 0, hw, hh);
+    gl.clearColor(0, 0, 0, 0);
+    gl.clear(gl.COLOR_BUFFER_BIT);
+    gl.enable(gl.BLEND);
+    gl.blendEquation(gl.MAX);
+    gl.useProgram(this.map.p);
+    setFrameUniforms(gl, this.map.u, view);
+    let peak = 0;
+    let dim = 0;
+    let glow = 0;
+    for (const { f, a } of live) {
+      peak = Math.max(peak, a);
+      dim = Math.max(dim, f.dim * a);
+      glow = Math.max(glow, f.glow * a);
+      gl.uniform4f(this.map.u("u_color"), a, a, a, 1);
+      gl.bindVertexArray(f.mesh.vao);
+      for (const off of offs) {
+        gl.uniform1f(this.map.u("u_off"), off);
+        gl.drawElements(gl.TRIANGLES, f.mesh.count, gl.UNSIGNED_INT, 0);
+      }
+    }
+    gl.blendEquation(gl.FUNC_ADD);
+    gl.disable(gl.BLEND);
+    // 흐리게(가림막: 반지름 화면 높이의 약 2.5%, 그림: 약 1%) - 가로·세로 두 번씩
+    const blur = (from: WebGLTexture, via: number, to: number, w: number, h: number, px: number) => {
+      gl.useProgram(this.blurP.p);
+      gl.uniform1i(this.blurP.u("u_img"), 0);
+      gl.bindVertexArray(this.quadVao);
+      gl.viewport(0, 0, w, h);
+      gl.activeTexture(gl.TEXTURE0);
+      for (let k = 0; k < 2; k++) {
+        gl.bindFramebuffer(gl.FRAMEBUFFER, fx.fbo[via]);
+        gl.bindTexture(gl.TEXTURE_2D, k ? fx.tex[to] : from);
+        gl.uniform2f(this.blurP.u("u_step"), px / w, 0);
+        gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
+        gl.bindFramebuffer(gl.FRAMEBUFFER, fx.fbo[to]);
+        gl.bindTexture(gl.TEXTURE_2D, fx.tex[via]);
+        gl.uniform2f(this.blurP.u("u_step"), 0, px / h);
+        gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
+      }
+    };
+    if ((globalThis as { __sceneDebug?: string }).__sceneDebug === "focus0") return fx.tex[0];
+    // 가림막 0 → (1 거쳐) 0
+    blur(fx.tex[0], 1, 0, hw, hh, (hh * 0.025) / 4);
+    // 그림 → 2 → (3 거쳐) 2
+    gl.bindFramebuffer(gl.FRAMEBUFFER, fx.fbo[2]);
+    gl.viewport(0, 0, qw, qh);
+    gl.useProgram(this.copy.p);
+    gl.uniform1i(this.copy.u("u_img"), 0);
+    gl.bindTexture(gl.TEXTURE_2D, src);
+    gl.bindVertexArray(this.quadVao);
+    gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
+    blur(fx.tex[2], 3, 2, qw, qh, (qh * 0.01) / 4);
+    // 합치기
+    gl.bindFramebuffer(gl.FRAMEBUFFER, fx.outFbo);
+    gl.viewport(0, 0, W, H);
+    const p = this.focusP;
+    gl.useProgram(p.p);
+    gl.activeTexture(gl.TEXTURE0);
+    gl.bindTexture(gl.TEXTURE_2D, src);
+    gl.activeTexture(gl.TEXTURE1);
+    gl.bindTexture(gl.TEXTURE_2D, fx.tex[2]);
+    gl.activeTexture(gl.TEXTURE2);
+    gl.bindTexture(gl.TEXTURE_2D, fx.tex[0]);
+    gl.uniform1i(p.u("u_img"), 0);
+    gl.uniform1i(p.u("u_blur"), 1);
+    gl.uniform1i(p.u("u_mask"), 2);
+    gl.uniform1f(p.u("u_peak"), peak);
+    gl.uniform1f(p.u("u_dim"), dim / Math.max(peak, 1e-6));
+    gl.uniform1f(p.u("u_glow"), glow / Math.max(peak, 1e-6));
+    gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
+    gl.activeTexture(gl.TEXTURE0);
+    // 개발 확인: __sceneDebug = "focus"면 흐린 가림막을 그대로
+    if ((globalThis as { __sceneDebug?: string }).__sceneDebug === "focus") return fx.tex[0];
+    return fx.out;
+  }
+  /** 영역 번지기 항목(도형은 삼각형으로, 거리 격자는 R16F 텍스처로 올린다) */
+  setSpread(items: SpreadItem[]) {
+    const gl = this.gl;
+    for (const m of this.spreadMesh.values()) this.dropMesh(m);
+    for (const t of this.spreadTex.values()) gl.deleteTexture(t);
+    this.spreadMesh.clear();
+    this.spreadTex.clear();
+    this.spread = items;
+    const tris = (s: Shape) => {
+      if (this.spreadMesh.has(s)) return;
+      const pos = new Float32Array(s.rings.flat().flat());
+      const vao = gl.createVertexArray()!;
+      gl.bindVertexArray(vao);
+      const vb = gl.createBuffer()!;
+      gl.bindBuffer(gl.ARRAY_BUFFER, vb);
+      gl.bufferData(gl.ARRAY_BUFFER, pos, gl.STATIC_DRAW);
+      const loc = gl.getAttribLocation(this.spreadP.p, "a_pos");
+      gl.enableVertexAttribArray(loc);
+      gl.vertexAttribPointer(loc, 2, gl.FLOAT, false, 0, 0);
+      const ib = gl.createBuffer()!;
+      gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, ib);
+      gl.bufferData(gl.ELEMENT_ARRAY_BUFFER, new Uint32Array(s.tris), gl.STATIC_DRAW);
+      gl.bindVertexArray(null);
+      this.spreadMesh.set(s, { vao, bufs: [vb, ib], count: s.tris.length });
+    };
+    for (const it of items) {
+      tris(it.last);
+      for (const seg of it.segments) {
+        if (seg.from) tris(seg.from);
+        tris(seg.to);
+        const f = seg.field;
+        const tex = gl.createTexture()!;
+        gl.bindTexture(gl.TEXTURE_2D, tex);
+        gl.pixelStorei(gl.UNPACK_ALIGNMENT, 2);
+        gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL, false);
+        gl.texImage2D(gl.TEXTURE_2D, 0, gl.R16F, f.w, f.h, 0, gl.RED, gl.HALF_FLOAT, f.data);
+        gl.pixelStorei(gl.UNPACK_ALIGNMENT, 4);
+        gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR);
+        gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
+        gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE);
+        gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE);
+        this.spreadTex.set(f, tex);
+      }
+    }
+  }
   /** 나라: 삼각형 도형과 [r,g,b,진하기] */
   setPolities(list: { shape: Shape; color: number[] }[], border: number[]) {
-    const gl = this.gl;
     this.dropMesh(this.polities);
     this.dropMesh(this.borders);
+    const { fill, lines } = this.polityMeshes(list, border);
+    this.polities = fill;
+    this.borders = lines;
+    this.dropMesh(this.grow);
+    this.grow = this.makeLines(
+      list.flatMap(({ shape, color }) =>
+        shape.rings.map((line) => ({ line, width: 1, color: [color[0], color[1], color[2], 1], closed: true })),
+      ),
+    );
+  }
+  /** 타임랩스(장면 years flow)에서 녹아 넘어갈 다음 해 국경(없으면 null) */
+  setNextPolities(list: { shape: Shape; color: number[] }[] | null, border: number[]) {
+    if (this.next) {
+      this.dropMesh(this.next.fill);
+      this.dropMesh(this.next.lines);
+      this.next = null;
+    }
+    if (list) this.next = this.polityMeshes(list, border);
+  }
+  /** 다음 해 국경을 섞는 정도(0~1) */
+  setYearMix(m: number) {
+    this.yearMix = m;
+  }
+  private polityMeshes(list: { shape: Shape; color: number[] }[], border: number[]) {
+    const gl = this.gl;
     const pos: number[] = [];
     const idx: number[] = [];
     for (const { shape, color } of list) {
@@ -795,19 +1301,15 @@ export class SceneRenderer {
     gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, ib);
     gl.bufferData(gl.ELEMENT_ARRAY_BUFFER, new Uint32Array(idx), gl.STATIC_DRAW);
     gl.bindVertexArray(null);
-    this.polities = { vao, bufs: [vb, ib], count: idx.length };
-    this.dropMesh(this.grow);
-    this.grow = this.makeLines(
-      list.flatMap(({ shape, color }) =>
-        shape.rings.map((line) => ({ line, width: 1, color: [color[0], color[1], color[2], 1], closed: true })),
-      ),
-    );
     const w = this.look?.border.width ?? 0.6;
-    this.borders = this.makeLines(
-      list.flatMap(({ shape }) =>
-        shape.rings.map((line) => ({ line, width: w, color: border, closed: true })),
+    return {
+      fill: { vao, bufs: [vb, ib], count: idx.length } as Mesh,
+      lines: this.makeLines(
+        list.flatMap(({ shape }) =>
+          shape.rings.map((line) => ({ line, width: w, color: border, closed: true })),
+        ),
       ),
-    );
+    };
   }
   setTerrain(t: SceneTerrain | null) {
     const gl = this.gl;
@@ -962,6 +1464,47 @@ export class SceneRenderer {
     return this.fb;
   }
 
+  /** 영역 번지기 한 번(지금 시각): 다음 영역(문턱까지) → 앞 영역(남은 곳, 잃은 땅은 끝 무렵 서서히) */
+  private drawSpread(view: GlView, offs: number[], look: SceneLook) {
+    const gl = this.gl;
+    const p = this.spreadP;
+    gl.useProgram(p.p);
+    setFrameUniforms(gl, p.u, view);
+    gl.uniform1i(p.u("u_mul"), look.multiply ? 1 : 0);
+    gl.uniform3fv(p.u("u_ink"), INK_RGB);
+    gl.uniform1i(p.u("u_dist"), 0);
+    // 덮는 느낌이 나게 보통 나라 색보다 진하게(첫 구간 처음에는 보통 진하기에서 - 장면 국경에서 넘겨받을 때 튀지 않게)
+    const strong = (boost: number) => Math.min(0.6, look.regionOpacity * (1 + 0.5 * boost));
+    const fill = (mesh: Mesh | undefined, r: number, a: number) => {
+      if (!mesh || a <= 0) return;
+      gl.uniform1f(p.u("u_r"), r);
+      gl.uniform1f(p.u("u_alpha"), a);
+      gl.bindVertexArray(mesh.vao);
+      for (const off of offs) {
+        gl.uniform1f(p.u("u_off"), off);
+        gl.drawElements(gl.TRIANGLES, mesh.count, gl.UNSIGNED_INT, 0);
+      }
+    };
+    for (const it of this.spread) {
+      const now = spreadAt(it, this.time);
+      if (!now) continue;
+      gl.uniform4fv(p.u("u_col"), it.color);
+      gl.uniform1f(p.u("u_rough"), it.rough);
+      if (now.kind === "full") {
+        fill(this.spreadMesh.get(now.shape), -1, strong(1));
+        continue;
+      }
+      const f = now.seg.field;
+      gl.activeTexture(gl.TEXTURE0);
+      gl.bindTexture(gl.TEXTURE_2D, this.spreadTex.get(f)!);
+      gl.uniform4fv(p.u("u_box"), f.box);
+      const alpha = strong(now.boost);
+      fill(this.spreadMesh.get(now.seg.to), now.r, alpha);
+      if (now.seg.from) fill(this.spreadMesh.get(now.seg.from), -1, alpha * now.fade);
+    }
+    gl.bindVertexArray(null);
+  }
+
   /** 한 장 그린다(t·frames는 입자 씨앗). 캔버스 크기는 지도 칸 × 기기 배율 */
   draw(view: GlView, frame: number) {
     const look = this.look;
@@ -1028,8 +1571,13 @@ export class SceneRenderer {
       if (e) console.error(`장면 GL 오류 ${e} @ ${where}`);
     };
     check("시작");
-    // 바다
-    flat(look.ocean);
+    // 바다(폭풍이면 너울·흰 물마루 - 시간은 프레임 번호로)
+    if (this.storm.strength > 0) {
+      bindMap(this.oceanP, 0);
+      gl.uniform4fv(this.oceanP.u("u_color"), look.ocean);
+      gl.uniform1f(this.oceanP.u("u_storm"), this.storm.strength);
+      gl.uniform1f(this.oceanP.u("u_time"), frame / 30);
+    } else flat(look.ocean);
     cover();
     check("바다");
 
@@ -1123,7 +1671,7 @@ export class SceneRenderer {
     }
     // 상자 밖 땅(50m)
     gl.stencilFunc(gl.EQUAL, S_LAND50, S_BOX | S_LAND50);
-    flat(look.land);
+    flat(this.winterLand(look.land));
     cover();
     // 상자 안 지형
     if (t) {
@@ -1149,6 +1697,7 @@ export class SceneRenderer {
       gl.uniform2f(p.u("u_texDeg"), t.texDeg[0], t.texDeg[1]);
       gl.uniform1f(p.u("u_snowline"), look.snowline);
       gl.uniform1f(p.u("u_zoom"), view.zoom);
+      gl.uniform1f(p.u("u_cover"), this.winter.cover);
       rectOf(t.box[0], t.box[1], t.box[2], t.box[3]);
       // 상자 안 물(얕은 바다)
       if (t.th) {
@@ -1158,9 +1707,17 @@ export class SceneRenderer {
         gl.uniform1i(w.u("u_th"), 2);
         gl.uniform4f(w.u("u_box"), ...t.box);
         gl.uniform4fv(w.u("u_color"), look.ocean);
+        gl.uniform1f(w.u("u_storm"), this.storm.strength);
+        gl.uniform1f(w.u("u_time"), frame / 30);
         rectOf(t.box[0], t.box[1], t.box[2], t.box[3]);
       }
       gl.activeTexture(gl.TEXTURE0);
+      // 얼어붙은 호수(장면 winter.frozen)
+      if (this.winter.frozen) {
+        gl.stencilFunc(gl.EQUAL, S_BOX | S_LAKE, S_BOX | S_LAKE);
+        flat([...ICE_RGB, 1], tOff);
+        rectOf(t.box[0], t.box[1], t.box[2], t.box[3]);
+      }
     }
 
     // 나라 색·국경선(땅 안쪽만)
@@ -1172,17 +1729,36 @@ export class SceneRenderer {
     const S_POL = 0x40;
     const S_NEAR = 0x80;
     gl.stencilMask(S_POL);
-    gl.stencilFunc(gl.EQUAL, S_LAND | S_POL, S_LAND);
-    gl.stencilOp(gl.KEEP, gl.KEEP, gl.REPLACE);
-    if (look.polities && this.polities && this.polities.count)
-      for (const off of offs) {
-        gl.useProgram(this.polity.p);
-        setFrameUniforms(gl, this.polity.u, view);
-        gl.uniform1f(this.polity.u("u_off"), off);
-        gl.uniform1i(this.polity.u("u_mul"), look.multiply ? 1 : 0);
-        gl.uniform1f(this.polity.u("u_alpha"), look.regionOpacity);
-        gl.bindVertexArray(this.polities.vao);
-        gl.drawElements(gl.TRIANGLES, this.polities.count, gl.UNSIGNED_INT, 0);
+    // 영역 번지기가 먼저 칠하고 0x40을 켠다 - 그 자리에는 다른 나라 색(덮인 나라)을 칠하지 않는다.
+    // 비교에 0x40을 넣고(아직 안 칠한 곳만) INVERT로 켠다(REPLACE는 비교 값을 그대로 써서 0x40을 켤 수 없다)
+    const spreadOn = look.polities && this.spread.length > 0;
+    if (spreadOn) {
+      gl.stencilFunc(gl.EQUAL, S_LAND, S_LAND | S_POL);
+      gl.stencilOp(gl.KEEP, gl.KEEP, gl.INVERT);
+      this.drawSpread(view, offs, look);
+      // 이어서 나라 색도 칠하지 않은 곳만(번진 자리는 건너뜀)
+    } else {
+      gl.stencilFunc(gl.EQUAL, S_LAND | S_POL, S_LAND);
+      gl.stencilOp(gl.KEEP, gl.KEEP, gl.REPLACE);
+    }
+    // 타임랩스: 지금 해(1 - mix)와 다음 해(mix)를 겹쳐 녹아 넘어간다(번지기가 있는 장면은 겹칠 수 없어 바로 바뀜)
+    const mix = this.next && !spreadOn ? this.yearMix : 0;
+    const fills: [Mesh | null, number][] = [
+      [this.polities, 1 - mix],
+      [mix > 0 ? this.next!.fill : null, mix],
+    ];
+    if (look.polities)
+      for (const [mesh, k] of fills) {
+        if (!mesh || !mesh.count || k <= 0) continue;
+        for (const off of offs) {
+          gl.useProgram(this.polity.p);
+          setFrameUniforms(gl, this.polity.u, view);
+          gl.uniform1f(this.polity.u("u_off"), off);
+          gl.uniform1i(this.polity.u("u_mul"), look.multiply ? 1 : 0);
+          gl.uniform1f(this.polity.u("u_alpha"), look.regionOpacity * k);
+          gl.bindVertexArray(mesh.vao);
+          gl.drawElements(gl.TRIANGLES, mesh.count, gl.UNSIGNED_INT, 0);
+        }
       }
     gl.stencilMask(0);
     gl.stencilOp(gl.KEEP, gl.KEEP, gl.KEEP);
@@ -1213,15 +1789,17 @@ export class SceneRenderer {
       gl.stencilMask(0);
       gl.stencilOp(gl.KEEP, gl.KEEP, gl.KEEP);
     }
-    if (look.polities && this.borders && this.borders.count)
-      for (const off of offs) this.drawLines(view, this.borders, off, look.multiply);
+    if (look.polities && this.borders && this.borders.count && mix < 1)
+      for (const off of offs) this.drawLines(view, this.borders, off, look.multiply, { alpha: 1 - mix });
+    if (look.polities && mix > 0 && this.next!.lines.count)
+      for (const off of offs) this.drawLines(view, this.next!.lines, off, look.multiply, { alpha: mix });
     gl.disable(gl.STENCIL_TEST);
 
     // 반투명 선 겹(해안 띠·해안선·호수 둘레·강): 따로 한 장에 MAX로 그려 얹는다
     const layered = (
       mesh: Mesh,
       list: number[],
-      style: { dash?: [number, number]; wobble?: number } = {},
+      style: { dash?: [number, number]; wobble?: number; tint?: number[] } = {},
     ) => {
       if (!mesh.count) return;
       gl.bindFramebuffer(gl.FRAMEBUFFER, fb.layer);
@@ -1241,7 +1819,9 @@ export class SceneRenderer {
     };
     const coastOffs = t ? [tOff] : offs;
     for (const m of this.coastLines) layered(m, coastOffs);
-    if (t) for (const m of t.lines) layered(m, [tOff]);
+    // 강(얼었으면 얼음 색)
+    const riverStyle = this.winter.frozen ? { tint: [...ICE_RGB, 0.85] } : {};
+    if (t) for (const m of t.lines) layered(m, [tOff], riverStyle);
 
     // 판 층: 칠한 곳(짝홀 스텐실 0x20 → 덮으며 지움)·선(먹선 흔들림 1.25px - 예전 svg 필터 폭). 선 묶음은 한 겹씩 MAX로
     // (반투명 선분 캡슐이 마디마다 겹쳐 점선처럼 보였다)
@@ -1290,12 +1870,15 @@ export class SceneRenderer {
     gl.bindFramebuffer(gl.READ_FRAMEBUFFER, fb.msaa);
     gl.bindFramebuffer(gl.DRAW_FRAMEBUFFER, fb.resolve);
     gl.blitFramebuffer(0, 0, W, H, 0, 0, W, H, gl.COLOR_BUFFER_BIT, gl.NEAREST);
+    // 지역 강조(있으면 그 결과를 마감으로)
+    const focused = this.focus.length ? this.drawFocus(view, offs, fb.tex, W, H) : null;
     gl.bindFramebuffer(gl.FRAMEBUFFER, null);
     gl.viewport(0, 0, W, H);
     const g = look.grade;
     const p = this.grade;
     gl.useProgram(p.p);
-    gl.bindTexture(gl.TEXTURE_2D, fb.tex);
+    gl.activeTexture(gl.TEXTURE0);
+    gl.bindTexture(gl.TEXTURE_2D, focused ?? fb.tex);
     gl.uniform1i(p.u("u_img"), 0);
     gl.uniform1i(p.u("u_on"), g ? 1 : 0);
     if (g) {
@@ -1310,6 +1893,14 @@ export class SceneRenderer {
       gl.uniform1ui(p.u("u_seed"), (frame + 1234) >>> 0);
       gl.uniform2f(p.u("u_size"), W, H);
     }
+    // 내리는 눈(마감과 같은 셰이더 - 마감을 꺼도 눈은 내린다)
+    gl.uniform2f(p.u("u_size"), W, H);
+    gl.uniform1f(p.u("u_fall"), this.winter.fall);
+    gl.uniform1f(p.u("u_time"), frame / 30);
+    gl.uniform1f(p.u("u_wind"), this.winter.wind);
+    gl.uniform1f(p.u("u_storm"), this.storm.strength);
+    gl.uniform1i(p.u("u_lightning"), this.storm.lightning ? 1 : 0);
+    gl.uniform1f(p.u("u_swind"), this.storm.wind);
     gl.bindVertexArray(this.quadVao);
     gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
     gl.bindVertexArray(null);
@@ -1320,7 +1911,13 @@ export class SceneRenderer {
     mesh: Mesh,
     off: number,
     mul: boolean,
-    style: { dash?: [number, number]; wobble?: number; width?: number; alpha?: number } = {},
+    style: {
+      dash?: [number, number];
+      wobble?: number;
+      width?: number;
+      alpha?: number;
+      tint?: number[];
+    } = {},
   ) {
     const gl = this.gl;
     gl.useProgram(this.line.p);
@@ -1332,6 +1929,7 @@ export class SceneRenderer {
     gl.uniform1f(this.line.u("u_wobble"), style.wobble ?? 0);
     gl.uniform1f(this.line.u("u_wOverride"), style.width ?? 0);
     gl.uniform1f(this.line.u("u_alpha"), style.alpha ?? 1);
+    gl.uniform4fv(this.line.u("u_tint"), style.tint ?? [0, 0, 0, 0]);
     gl.bindVertexArray(mesh.vao);
     gl.drawArraysInstanced(gl.TRIANGLE_STRIP, 0, 4, mesh.count);
   }

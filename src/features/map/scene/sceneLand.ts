@@ -76,3 +76,13 @@ export function toLand(
   }
   return p;
 }
+
+/** 땅 위 점을 물로(배 - toLand를 거꾸로: 무리 가운데 쪽으로 가며 처음 만나는 물, 없으면 가까운 물) */
+export function toWater(
+  is: (p: LonLat) => boolean,
+  p: LonLat,
+  home: LonLat,
+  reach: number,
+): LonLat {
+  return toLand((q) => !is(q), p, home, reach);
+}

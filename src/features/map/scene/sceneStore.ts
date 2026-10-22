@@ -13,4 +13,6 @@ export const useScene = create<{
   /** 고정밀 국경(연도 → GeoJSON 주소, RMW가 scripts/scene-borders.mjs로 만들어 넘긴다) - 없으면 사이트 국경 */
   borders: Record<string, string> | null;
   gl: { ready: () => boolean; draw: () => Promise<void> } | null;
-}>(() => ({ scene: null, t: 0, frames: 300, terrain: null, borders: null, gl: null }));
+  /** 인물 얼굴 메달 그림(캐릭터/표정 → data URL, load가 다 만든 뒤 장면을 넣는다) */
+  faces: Record<string, string>;
+}>(() => ({ scene: null, t: 0, frames: 300, terrain: null, borders: null, gl: null, faces: {} }));
