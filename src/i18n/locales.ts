@@ -13,6 +13,18 @@ export const LOCALES: Locale[] = [
 ];
 export const DEFAULT_LOCALE: Locale = "ko";
 
+/** 언어 고르기 목록 순서: 쓰는 사람이 많은 언어부터(모국어 + 제2언어, Ethnologue 어림) - 주소·빌드 순서는 LOCALES 그대로 */
+export const LOCALE_MENU_ORDER: Locale[] = [
+  "en",
+  "zh",
+  "hi",
+  "es",
+  "fr",
+  "ar",
+  "pt",
+  "ko",
+];
+
 export const LOCALE_INFO: Record<
   Locale,
   { nativeName: string; dir: "ltr" | "rtl" }

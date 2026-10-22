@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, type ReactNode } from "react";
 import { useHydrated } from "./useHydrated";
 import { XIcon } from "@/components/ui/icons";
 
@@ -23,6 +23,7 @@ export function Compass({
   onTurnEnd,
   place,
   text,
+  side,
 }: {
   /** 돌린 만큼 계속 더한 방향(도) - 359 → 360도 바늘이 짧게 돈다 */
   heading: number;
@@ -33,6 +34,8 @@ export function Compass({
   onTurnEnd: () => void;
   place: string;
   text: { reset: string; hintMouse: string; hintTouch: string; close: string };
+  /** 나침반 옆(시작 쪽)에 늘 같이 보일 것 - 지도마다 유튜브 버튼 */
+  side?: ReactNode;
 }) {
   const hydrated = useHydrated();
   const [closed, setClosed] = useState(false);
@@ -69,93 +72,96 @@ export function Compass({
     <div
       className={`${place} pointer-events-none flex flex-col items-end gap-2 lg:flex-col-reverse`}
     >
-      <button
-        type="button"
-        aria-label={text.reset}
-        title={text.reset}
-        onPointerDown={(e) => {
-          const r = e.currentTarget.getBoundingClientRect();
-          e.currentTarget.setPointerCapture(e.pointerId);
-          drag.current = {
-            cx: r.left + r.width / 2,
-            cy: r.top + r.height / 2,
-            angle: 0,
-            from: heading,
-            moved: false,
-          };
-          drag.current.angle = angleAt(e.clientX, e.clientY);
-        }}
-        onPointerMove={(e) => {
-          const d = drag.current;
-          if (!d) return;
-          const turnedBy =
-            ((angleAt(e.clientX, e.clientY) - d.angle + 540) % 360) - 180;
-          if (!d.moved && Math.abs(turnedBy) < 8) return;
-          if (!d.moved) {
-            d.moved = true;
-            onTurnStart();
-          }
-          // 바늘이 손가락을 따라 돌게(바늘 = -방향)
-          onTurn(d.from - turnedBy);
-        }}
-        onPointerUp={() => {
-          const d = drag.current;
-          drag.current = null;
-          if (!d?.moved) return;
-          dragged.current = true;
-          onTurnEnd();
-        }}
-        onPointerCancel={() => {
-          const d = drag.current;
-          drag.current = null;
-          if (d?.moved) onTurnEnd();
-        }}
-        onClick={() => {
-          // 잡고 돌린 뒤 따라오는 click은 되돌리기가 아니다
-          if (dragged.current) {
-            dragged.current = false;
-            return;
-          }
-          onReset();
-        }}
-        className="pointer-events-auto flex size-12 touch-none items-center justify-center rounded-full border border-line bg-background/92 text-foreground shadow-sm transition-colors hover:bg-chip"
-      >
-        {/* 위쪽 테두리를 따라 한 호의 양 끝에 화살촉(좌우 어느 쪽으로든 돌릴 수 있다는 표시, 고정) + 바늘(빨간 쪽 = 지금 화면에서 북쪽,
+      <div className="flex items-center gap-2">
+        {side}
+        <button
+          type="button"
+          aria-label={text.reset}
+          title={text.reset}
+          onPointerDown={(e) => {
+            const r = e.currentTarget.getBoundingClientRect();
+            e.currentTarget.setPointerCapture(e.pointerId);
+            drag.current = {
+              cx: r.left + r.width / 2,
+              cy: r.top + r.height / 2,
+              angle: 0,
+              from: heading,
+              moved: false,
+            };
+            drag.current.angle = angleAt(e.clientX, e.clientY);
+          }}
+          onPointerMove={(e) => {
+            const d = drag.current;
+            if (!d) return;
+            const turnedBy =
+              ((angleAt(e.clientX, e.clientY) - d.angle + 540) % 360) - 180;
+            if (!d.moved && Math.abs(turnedBy) < 8) return;
+            if (!d.moved) {
+              d.moved = true;
+              onTurnStart();
+            }
+            // 바늘이 손가락을 따라 돌게(바늘 = -방향)
+            onTurn(d.from - turnedBy);
+          }}
+          onPointerUp={() => {
+            const d = drag.current;
+            drag.current = null;
+            if (!d?.moved) return;
+            dragged.current = true;
+            onTurnEnd();
+          }}
+          onPointerCancel={() => {
+            const d = drag.current;
+            drag.current = null;
+            if (d?.moved) onTurnEnd();
+          }}
+          onClick={() => {
+            // 잡고 돌린 뒤 따라오는 click은 되돌리기가 아니다
+            if (dragged.current) {
+              dragged.current = false;
+              return;
+            }
+            onReset();
+          }}
+          className="pointer-events-auto flex size-12 touch-none items-center justify-center rounded-full border border-line bg-background/92 text-foreground shadow-sm transition-colors hover:bg-chip"
+        >
+          {/* 위쪽 테두리를 따라 한 호의 양 끝에 화살촉(좌우 어느 쪽으로든 돌릴 수 있다는 표시, 고정) + 바늘(빨간 쪽 = 지금 화면에서 북쪽,
             판이 -heading 돌아 있으므로 같이 돈다 - 돌린 만큼 더한 값이라 359 → 360도 짧게). 시안 C(사용자 결정 2026-10-21) */}
-        <svg viewBox="0 0 24 24" aria-hidden className="size-8">
-          <circle
-            cx="12"
-            cy="12"
-            r="10"
-            fill="none"
-            stroke="currentColor"
-            strokeOpacity={0.2}
-            strokeWidth={1.5}
-          />
-          <path
-            d="M3.34 7A10 10 0 0 1 20.66 7"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth={1.6}
-            strokeLinecap="round"
-          />
-          <path d="M21.86 9.08L19.1 7.9L22.22 6.1Z" fill="currentColor" />
-          <path d="M2.14 9.08L1.78 6.1L4.9 7.9Z" fill="currentColor" />
-          <g
-            style={{
-              transform: `rotate(${-heading}deg)`,
-              transformOrigin: "12px 12px",
-            }}
-          >
-            <path d="M12 5.2 14.6 12H9.4Z" fill="var(--accent)" />
-            <path
-              d="M12 18.8 9.4 12h5.2Z"
-              fill="currentColor"
-              fillOpacity={0.45}
+          <svg viewBox="0 0 24 24" aria-hidden className="size-8">
+            <circle
+              cx="12"
+              cy="12"
+              r="10"
+              fill="none"
+              stroke="currentColor"
+              strokeOpacity={0.2}
+              strokeWidth={1.5}
             />
-          </g>
-        </svg>
-      </button>
+            <path
+              d="M3.34 7A10 10 0 0 1 20.66 7"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth={1.6}
+              strokeLinecap="round"
+            />
+            <path d="M21.86 9.08L19.1 7.9L22.22 6.1Z" fill="currentColor" />
+            <path d="M2.14 9.08L1.78 6.1L4.9 7.9Z" fill="currentColor" />
+            <g
+              style={{
+                transform: `rotate(${-heading}deg)`,
+                transformOrigin: "12px 12px",
+              }}
+            >
+              <path d="M12 5.2 14.6 12H9.4Z" fill="var(--accent)" />
+              <path
+                d="M12 18.8 9.4 12h5.2Z"
+                fill="currentColor"
+                fillOpacity={0.45}
+              />
+            </g>
+          </svg>
+        </button>
+      </div>
       {showHint && (
         <div
           role="note"

@@ -1,7 +1,7 @@
 import type { Locale } from "./types";
 
 /**
- * 연도 선택 단위. 기원전은 세기(100년), 서기는 `step`년(기본 10년, 본 지도 설정에서 5·10·30·50·100).
+ * 연도 선택 단위. 기원전은 세기(100년), 서기는 `step`년(기본 10년, 본 지도 설정에서 1·3·5·10·50·100).
  *   기원전 3세기 = -300 ~ -201,  710년대 = 710 ~ 719,  5년 단위 1490 ~ 1494
  * 앱의 "현재 선택"은 항상 이 기간 하나다(연도 하나가 아니다).
  * 기원전은 사건·국경 데이터가 성겨 설정과 상관없이 세기 단위다.
@@ -14,7 +14,7 @@ export type Period = {
 };
 
 /** 서기 연도 단위(설정에서 고름) */
-export const YEAR_STEPS = [5, 10, 30, 50, 100] as const;
+export const YEAR_STEPS = [1, 3, 5, 10, 50, 100] as const;
 export const DEFAULT_STEP = 10;
 
 export function periodOf(year: number, step: number = DEFAULT_STEP): Period {
@@ -148,7 +148,8 @@ const RANGE: Record<Locale, { bc: string; ad: string }> = {
 export function formatPeriodRange(p: Period, locale: Locale): string {
   const f = RANGE[locale];
   const [a, b] = [Math.abs(p.start), Math.abs(p.end)];
+  // 1년 단위는 범위 대신 그 해 하나: "1940년"
   return (p.start < 0 ? f.bc : f.ad)
-    .replace("{a}", String(a))
+    .replace(a === b ? "{a}~" : "{a}", a === b ? "" : String(a))
     .replace("{b}", String(b));
 }

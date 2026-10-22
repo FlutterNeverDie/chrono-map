@@ -38,6 +38,28 @@ export function keyframes(topic: Topic): number[] {
   return [...set].sort((a, b) => a - b);
 }
 
+/**
+ * 처음 시점(주소에 ?item이 없을 때): 첫 항목(왼쪽 끝)이면 점 하나만 보여서, 지도에 가장 많이 보이는 때로.
+ * span: 항목이 가장 많이 겹치는 때(같으면 중요도 합, 그다음 이른 때) / persist: 마지막 키프레임(전부 보임)
+ */
+export function startT(topic: Topic): number {
+  if (topic.start !== undefined) return topic.start;
+  const times = keyframes(topic);
+  if (!times.length) return topic.scale[0] * 12;
+  if (topic.mode === "persist") return times[times.length - 1];
+  let best = times[0];
+  let most = [-1, -1];
+  for (const t of topic.items.map((i) => i.start).sort((a, b) => a - b)) {
+    const shown = visibleItems(topic, t);
+    const score = [shown.length, shown.reduce((s, i) => s + i.importance, 0)];
+    if (score[0] > most[0] || (score[0] === most[0] && score[1] > most[1])) {
+      most = score;
+      best = t;
+    }
+  }
+  return best;
+}
+
 /** 지금 지도에 보일 항목. span: 기간 안 / persist: 이미 생긴 것 전부 */
 export function visibleItems(topic: Topic, t: number): TopicItem[] {
   return topic.mode === "span"

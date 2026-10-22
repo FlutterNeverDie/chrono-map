@@ -13,6 +13,7 @@ import {
 import { localizeCampaign } from "@/features/campaign/data";
 import { SiteHeader } from "./SiteHeader";
 import { BottomBar } from "./BottomBar";
+import { MapTiltSetting } from "@/components/map/MapTiltSetting";
 import { AdSlot } from "@/features/ads";
 
 /** 전쟁 지도 화면 (/wars/[id]). 페이지가 고른 전쟁 하나만 클라이언트로 넘긴다 */
@@ -40,7 +41,18 @@ export function CampaignScreen({
             Cliopatria (Seshat) · CC BY 4.0 · {messages.ui.wikipedia} · CC BY-SA
             4.0
           </div>
-          <BottomBar current="wars">
+          <BottomBar
+            current="wars"
+            settings={
+              <MapTiltSetting
+                label={messages.ui.mapTilt}
+                hint={{
+                  touch: messages.ui.viewHintTouch,
+                  mouse: messages.ui.viewHintMouse,
+                }}
+              />
+            }
+          >
             <TimeGauge />
           </BottomBar>
         </div>

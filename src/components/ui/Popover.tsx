@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState, type ReactNode } from "react";
+import { Fragment, useEffect, useRef, useState, type ReactNode } from "react";
 import clsx from "clsx";
 
 /**
@@ -25,6 +25,8 @@ export function Popover({
   children: (close: () => void) => ReactNode;
 }) {
   const [open, setOpen] = useState(false);
+  /** 연 횟수 - 열 때마다 내용을 새로 만들어 접었다 펴는 칸(지도 설정·문의)이 늘 접힌 채로 시작하게 */
+  const [opens, setOpens] = useState(0);
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -52,7 +54,10 @@ export function Popover({
         aria-label={label}
         aria-expanded={open}
         aria-haspopup="true"
-        onClick={() => setOpen((o) => !o)}
+        onClick={() => {
+          if (!open) setOpens((n) => n + 1);
+          setOpen(!open);
+        }}
         className={clsx(
           "flex h-10 max-w-full items-center gap-1.5 rounded-md px-2.5 text-base whitespace-nowrap hover:bg-chip",
           open && "bg-chip",
@@ -62,13 +67,16 @@ export function Popover({
       </button>
       <div
         className={clsx(
-          "absolute z-40 min-w-48 rounded-lg border border-line bg-surface p-1 shadow-lg",
-          side === "bottom" ? "top-12" : "bottom-12",
+          "absolute z-40 min-w-48 overflow-y-auto overscroll-contain rounded-lg border border-line bg-surface p-1 shadow-lg",
+          // 키 작은 휴대폰에서 메뉴가 화면 밖으로 잘리지 않게 높이를 화면 안으로(넘치면 메뉴 안에서 스크롤)
+          side === "bottom"
+            ? "top-12 max-h-[calc(100dvh-4rem)]"
+            : "bottom-12 max-h-[calc(100dvh-var(--bar-h,4rem)-max(0.5rem,env(safe-area-inset-top)))]",
           align === "start" ? "start-0" : "end-0",
           !open && "hidden",
         )}
       >
-        {children(() => setOpen(false))}
+        <Fragment key={opens}>{children(() => setOpen(false))}</Fragment>
       </div>
     </div>
   );

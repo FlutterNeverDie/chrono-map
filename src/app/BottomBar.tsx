@@ -10,8 +10,9 @@ import topicIndex from "@/data/generated/topic-index.json";
 import { ThemeToggle } from "@/components/ui/ThemeToggle";
 import { Popover } from "@/components/ui/Popover";
 import { ShareButton } from "@/components/ui/ShareButton";
-import { NamesToggle } from "@/components/ui/NamesToggle";
+import { HideToggle } from "@/components/ui/HideToggle";
 import { ContactMenu } from "./ContactMenu";
+import { MapSettings } from "./MapSettings";
 import {
   BookIcon,
   BulbIcon,
@@ -19,6 +20,7 @@ import {
   GearIcon,
   MapIcon,
   SwordsIcon,
+  TagIcon,
   TempleIcon,
   VirusIcon,
 } from "@/components/ui/icons";
@@ -46,7 +48,7 @@ export function BottomBar({
   children,
 }: {
   current: SiteSection;
-  /** 그 지도에만 있는 설정(본 지도의 연도 단위 등). 언어·테마 아래에 들어간다 */
+  /** 그 지도의 설정(연도 단위·기울기 등). 접었다 펴는 "지도 설정" 묶음 안, 나라 이름 숨기기 아래에 들어간다 */
   settings?: ReactNode;
   children: ReactNode;
 }) {
@@ -130,19 +132,23 @@ export function BottomBar({
             button={<GearIcon className="size-[22px] text-muted" />}
           >
             {() => (
-              // 한 줄씩 가득 — 아이콘 옆 여백을 눌러도 동작하게
-              <div className="flex min-w-56 flex-col">
+              // 한 줄씩 가득 — 아이콘 옆 여백을 눌러도 동작하게. 폭은 고정(지도마다 들어가는 설정이 달라도 같은 크기)
+              <div className="flex w-[19rem] max-w-[calc(100vw-2rem)] flex-col">
                 <LanguageSelect wide />
                 <ThemeToggle
                   wide
                   toDarkLabel={messages.ui.toDark}
                   toLightLabel={messages.ui.toLight}
                 />
-                <NamesToggle
-                  hideLabel={messages.ui.hideNames}
-                  showLabel={messages.ui.showNames}
-                />
-                {settings}
+                {/* 지도 설정 묶음(나라 이름·연도 단위·기울기) - 메뉴를 열 때마다 접힌 채로 */}
+                <MapSettings label={messages.ui.mapSettings}>
+                  <HideToggle
+                    flag="names"
+                    label={messages.ui.hideNames}
+                    Icon={TagIcon}
+                  />
+                  {settings}
+                </MapSettings>
                 <a
                   href={localeHref(locale, "guide")}
                   className="flex h-12 w-full items-center gap-3 rounded-md px-3 text-base text-foreground hover:bg-chip"
@@ -150,14 +156,10 @@ export function BottomBar({
                   <BookIcon className="size-[22px] shrink-0 text-muted" />
                   {messages.pages.guide}
                 </a>
-                <ShareButton
-                  label={messages.ui.share}
-                  copiedLabel={messages.ui.linkCopied}
-                />
                 {/* 문의: 주소 복사·Gmail·메일 앱(ContactMenu) */}
                 <ContactMenu />
                 {/* 소개·개인정보처리방침(애드센스 심사에도 필요한 글) — 작은 글자 한 줄 */}
-                <p className="mt-1 flex gap-1 border-t border-line px-1 pt-1 text-sm text-muted">
+                <div className="mt-1 flex items-center gap-1 border-t border-line px-1 pt-1 text-sm text-muted">
                   <a
                     href={localeHref(locale, "about")}
                     className="flex h-11 items-center rounded-md px-2 hover:bg-chip hover:text-foreground"
@@ -170,7 +172,14 @@ export function BottomBar({
                   >
                     {messages.pages.privacy}
                   </a>
-                </p>
+                  {/* 공유: 맨 아래 줄 오른쪽 끝 아이콘(한 줄 줄임) */}
+                  <span className="ms-auto">
+                    <ShareButton
+                      label={messages.ui.share}
+                      copiedLabel={messages.ui.linkCopied}
+                    />
+                  </span>
+                </div>
               </div>
             )}
           </Popover>

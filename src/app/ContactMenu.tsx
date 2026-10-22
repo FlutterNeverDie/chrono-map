@@ -3,13 +3,18 @@
 import { useState } from "react";
 import clsx from "clsx";
 import { useI18n } from "@/i18n/I18nProvider";
-import { ChevronDownIcon, MailIcon } from "@/components/ui/icons";
+import {
+  CheckIcon,
+  ChevronDownIcon,
+  CopyIcon,
+  MailIcon,
+} from "@/components/ui/icons";
 import { CONTACT_EMAIL, MAIL_TAG } from "./site";
 
 /**
  * 설정 메뉴의 "개발자에게 문의". 누르면 그 자리에서 펼쳐진다.
  * mailto만 두면 메일 앱이 없는 PC·앱 안 브라우저에서 주소가 글자 그대로 뜨거나 아무 일도 없어서
- * 주소(복사) + Gmail 웹 쓰기 + 메일 앱을 함께 둔다. 제목 앞머리는 언어와 상관없이 MAIL_TAG.
+ * 주소·복사 단추(한 줄) + Gmail 웹 쓰기 + 메일 앱을 함께 둔다. 제목 앞머리는 언어와 상관없이 MAIL_TAG.
  */
 export function ContactMenu() {
   const { messages } = useI18n();
@@ -39,25 +44,34 @@ export function ContactMenu() {
       </button>
       {open && (
         <div className="ms-9 mb-1 flex flex-col">
-          {/* 주소는 고를 수 있게(길게 눌러 복사) */}
-          <p className="px-3 py-1 text-[15px] font-medium select-all">
-            {CONTACT_EMAIL}
-          </p>
-          <button
-            type="button"
-            onClick={async () => {
-              try {
-                await navigator.clipboard.writeText(CONTACT_EMAIL);
-                setCopied(true);
-                setTimeout(() => setCopied(false), 2000);
-              } catch {}
-            }}
-            className={clsx(row, "text-start")}
-          >
-            <span aria-live="polite">
-              {copied ? messages.ui.emailCopied : messages.ui.copyEmail}
+          {/* 주소(고를 수 있게 - 길게 눌러 복사) + 복사 단추를 한 줄에 */}
+          <div className="flex items-center">
+            <p className="min-w-0 flex-1 truncate px-3 text-[15px] font-medium select-all">
+              {CONTACT_EMAIL}
+            </p>
+            <button
+              type="button"
+              aria-label={messages.ui.copyEmail}
+              title={messages.ui.copyEmail}
+              onClick={async () => {
+                try {
+                  await navigator.clipboard.writeText(CONTACT_EMAIL);
+                  setCopied(true);
+                  setTimeout(() => setCopied(false), 2000);
+                } catch {}
+              }}
+              className="flex size-11 shrink-0 items-center justify-center rounded-md text-muted hover:bg-chip hover:text-foreground"
+            >
+              {copied ? (
+                <CheckIcon className="size-5 text-accent" />
+              ) : (
+                <CopyIcon className="size-5" />
+              )}
+            </button>
+            <span aria-live="polite" className="sr-only">
+              {copied ? messages.ui.emailCopied : ""}
             </span>
-          </button>
+          </div>
           <a
             href={`https://mail.google.com/mail/?view=cm&to=${q(CONTACT_EMAIL)}&su=${q(subject)}`}
             target="_blank"

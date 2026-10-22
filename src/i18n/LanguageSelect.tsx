@@ -3,7 +3,12 @@
 import clsx from "clsx";
 import { ChevronDownIcon, GlobeIcon } from "@/components/ui/icons";
 import { useI18n } from "./I18nProvider";
-import { LOCALES, LOCALE_INFO, isLocale, switchLocalePath } from "./locales";
+import {
+  LOCALE_INFO,
+  LOCALE_MENU_ORDER,
+  isLocale,
+  switchLocalePath,
+} from "./locales";
 
 /**
  * 언어 선택. 보이는 부분은 아이콘 + 언어 이름이고, 실제 선택은 그 위에 겹친 투명한
@@ -55,7 +60,7 @@ export function LanguageSelect({ wide = false }: { wide?: boolean }) {
         }}
         className="absolute inset-0 cursor-pointer opacity-0"
       >
-        {LOCALES.map((l) => (
+        {LOCALE_MENU_ORDER.map((l) => (
           <option key={l} value={l}>
             {LOCALE_INFO[l].nativeName}
           </option>

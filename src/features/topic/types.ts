@@ -67,4 +67,6 @@ export type Topic = {
   };
   /** (선택) 항목 link 버튼 문구 */
   linkLabel?: Partial<Record<Locale, string>>;
+  /** (선택) 처음 시점(월 번호). 없으면 `startT`가 항목으로 정한다 - 전쟁 목록은 전투가 가장 많은 해 */
+  start?: number;
 };

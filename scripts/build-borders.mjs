@@ -197,7 +197,7 @@ async function fetchJson(url) {
     const res = await fetch(url, {
       headers: {
         "User-Agent":
-          "ChronoMap/0.1 (https://github.com/FlutterNeverDie/chrono-map; oasa741@gmail.com)",
+          "ChronoMap/0.1 (https://github.com/FlutterNeverDie/chrono-map; saho741@gmail.com)",
       },
     });
     if (res.ok) return res.json();

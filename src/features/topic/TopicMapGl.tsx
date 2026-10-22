@@ -13,6 +13,8 @@ import {
 import { useGlViewport } from "@/components/map/useGlViewport";
 import { useLandFor } from "@/components/map/detailedLand";
 import { Compass } from "@/components/map/Compass";
+import { YoutubeButton } from "@/components/ui/YoutubeButton";
+import { YOUTUBE_URL } from "@/lib/channel";
 import {
   GlCanvas,
   type GlArea,
@@ -378,6 +380,7 @@ export function TopicMapGl({ onFail }: { onFail: () => void }) {
       <Compass
         {...compass}
         place={COMPASS_PLACE}
+        side={<YoutubeButton href={YOUTUBE_URL} label={messages.ui.youtube} />}
         text={{
           reset: messages.ui.resetView,
           hintMouse: messages.ui.viewHintMouse,

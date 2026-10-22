@@ -13,6 +13,7 @@ import { tiltTransform, untilt } from "./tilt";
 import { swallowNextClick } from "./ghostClick";
 import { cubicBezier } from "./gl/ease";
 import type { GlView } from "./gl/renderer";
+import { useMapTilt } from "./tiltStore";
 
 /**
  * WebGL 지도 뷰포트(도메인 모름) - 주제 지도·전쟁 지도의 WebGL 판이 쓴다. 본 지도(features/map WorldMap)와 같은 손짓·카메라:
@@ -29,6 +30,8 @@ const MAX_ZOOM = 16;
 const MAX_TILT = 55;
 /** 이 픽셀보다 적게 움직이면 끌기가 아니라 탭 */
 const TAP_SLOP = 5;
+/** 핀치하다가 두 손가락이 이만큼(도) 기울면 돌리기도 같이(본 지도 WorldMap과 같은 값) */
+const SPIN_START = 15;
 
 type Size = { w: number; h: number };
 type Turn = { rot: number; tx: number; ty: number };
@@ -70,8 +73,11 @@ type Gesture = {
     heading: number;
     pivot: [number, number] | null;
   };
+  /** 두 손가락 비틀기로 돌리기(핀치와 같이): 지난 움직임 때 두 손가락 각도(도, 화면)와 방향 */
   spin?: { angle: number; from: number };
   pair?: { midY: number; angle: number; decided: boolean };
+  /** 두 손가락 가운데(화면 client px) - 지난 움직임 때. 그 밑의 지도가 손가락을 따라 옮겨 간다 */
+  mid?: [number, number];
 };
 
 export function useGlViewport(
@@ -89,7 +95,12 @@ export function useGlViewport(
   const zoomRef = useRef(initial.zoom);
   const [zoom, setZoom] = useState(initial.zoom);
   const tiltRef = useRef(0);
-  const [tilt, setTilt] = useState(0);
+  // 기울기 상태는 설정 메뉴 슬라이더와 같이 쓰는 저장소(tiltStore) - 손짓·나침반은 끝날 때 저장소에 쓰고,
+  // 슬라이더가 바꾸면(손짓·되돌리기 애니메이션 중이 아닐 때) 판에 바로 반영한다
+  const tilt = useMapTilt((s) => s.tilt);
+  const setTilt = useMapTilt((s) => s.setTilt);
+  // 지도가 처음 뜰 때는 평평하게(다른 지도에서 기울인 값이 남지 않게)
+  useEffect(() => setTilt(0), [setTilt]);
   /** 방향 0~359(판에 쓰는 값). 상태(heading)는 돌린 만큼 계속 더한 값 - 나침반 바늘이 359 → 0에서 짧게 돈다 */
   const headingRef = useRef(0);
   const [heading, setHeading] = useState(0);
@@ -116,6 +127,12 @@ export function useGlViewport(
   const momentum = useRef(0);
   /** 이동(focusTo)·되돌리기 애니메이션 중 */
   const anim = useRef(0);
+  // 설정 메뉴 슬라이더가 기울기를 바꾸면 판에 바로(손짓·되돌리기 애니메이션 중에는 그쪽이 tiltRef를 쓴다)
+  useEffect(() => {
+    if (gesture.current || anim.current || tiltRef.current === tilt) return;
+    tiltRef.current = tilt;
+    request();
+  }, [tilt]);
   const turn = useRef<Turn | null>(null);
   const settleTimer = useRef(0);
   const lastTap = useRef<{ t: number; x: number; y: number } | null>(null);
@@ -251,6 +268,20 @@ export function useGlViewport(
       lonRef.current + ((x0 - x1) * upp * 360) / MAP_WIDTH,
     );
     cyRef.current += (y0 - y1) * upp;
+    request();
+  };
+  /** 두 손가락 옮기기: 화면 점 (x0, y0) 밑에 있던 지도가 (x1, y1)로 오게 */
+  const panScreen = (x0: number, y0: number, x1: number, y1: number) => {
+    const rect = mapRect();
+    if (!rect) return;
+    const [ax, ay] = toPlane(x0, y0);
+    const [bx, by] = toPlane(x1, y1);
+    clampY();
+    const upp = view(zoomRef.current, cyRef.current).h / rect.height;
+    lonRef.current = normalizeLon(
+      lonRef.current - ((bx - ax) * upp * 360) / MAP_WIDTH,
+    );
+    cyRef.current -= (by - ay) * upp;
     request();
   };
   /** 돌리기를 끝내며 저장: 북쪽에서 4° 안이면 북쪽에 맞추고 판을 원래 크기로 */
@@ -560,6 +591,7 @@ export function useGlViewport(
           angle: (Math.atan2(b.sy - a.sy, b.sx - a.sx) * 180) / Math.PI,
           decided: false,
         },
+        mid: [(a.sx + b.sx) / 2, (a.sy + b.sy) / 2],
       };
       return;
     }
@@ -602,46 +634,63 @@ export function useGlViewport(
     const angle = b
       ? (Math.atan2(b.sy - a.sy, b.sx - a.sx) * 180) / Math.PI
       : 0;
-    if (g.spin && b) {
-      const turned = ((angle - g.spin.angle + 540) % 360) - 180;
-      spinTo(g.spin.from - turned, (a.sx + b.sx) / 2, (a.sy + b.sy) / 2);
-      return;
-    }
-    if (g.pinch && g.pair && !g.pair.decided && b) {
-      // 처음 움직임으로 정한다: 옆으로 나란히 같이 위아래 = 기울이기, 비틀기 = 돌리기, 아니면 핀치
-      const moveY = (a.sy + b.sy) / 2 - g.pair.midY;
-      const spread = Math.hypot(a.x - b.x, a.y - b.y) - g.pinch.dist;
+    if (b && g.pinch && g.pair) {
+      const mx = (a.sx + b.sx) / 2;
+      const my = (a.sy + b.sy) / 2;
       const twist = ((angle - g.pair.angle + 540) % 360) - 180;
-      if (Math.abs(moveY) < 12 && Math.abs(spread) < 12 && Math.abs(twist) < 10)
-        return;
-      g.pair.decided = true;
-      if (Math.abs(twist) >= 10 && Math.abs(spread) < 24) {
+      if (!g.pair.decided) {
+        // 처음 움직임으로 기울이기(옆으로 나란히 같이 위아래)만 따로 정한다. 아니면 핀치 + 옮기기(+ 돌리기)
+        const moveY = my - g.pair.midY;
+        const spread = Math.hypot(a.x - b.x, a.y - b.y) - g.pinch.dist;
+        if (
+          Math.abs(moveY) < 12 &&
+          Math.abs(spread) < 12 &&
+          Math.abs(twist) < 10
+        )
+          return;
+        g.pair.decided = true;
+        if (Math.abs(twist) >= 10 && Math.abs(spread) < 24) {
+          // 처음부터 비틀었으면 바로 돌리기(핀치도 그대로) - 판을 정사각형으로 바꾼 뒤 이어지는 움직임부터
+          g.spin = { angle, from: headingRef.current };
+          setSpinning(true);
+          return;
+        }
+        if (
+          Math.abs(moveY) > 2 * Math.abs(spread) &&
+          Math.abs(a.sx - b.sx) > Math.abs(a.sy - b.sy)
+        ) {
+          g.tilt = {
+            x: e.clientX,
+            y: e.clientY - moveY,
+            from: tiltRef.current,
+            heading: headingRef.current,
+            pivot: null,
+          };
+          g.pinch = undefined;
+          return;
+        }
+      } else if (!g.spin && Math.abs(twist) >= SPIN_START) {
+        // 핀치하다가 비틀어도 돌리기가 붙는다(문턱을 넘은 뒤부터)
         g.spin = { angle, from: headingRef.current };
-        g.pinch = undefined;
         setSpinning(true);
-        return;
       }
-      if (
-        Math.abs(moveY) > 2 * Math.abs(spread) &&
-        Math.abs(a.sx - b.sx) > Math.abs(a.sy - b.sy)
-      ) {
-        g.tilt = {
-          x: e.clientX,
-          y: e.clientY - moveY,
-          from: tiltRef.current,
-          heading: headingRef.current,
-          pivot: null,
-        };
-        g.pinch = undefined;
-        return;
+      // 두 손가락 가운데 밑의 지도가 손가락을 따라오게: 옮기고 → 돌리고(축 = 가운데) → 확대(고정점 = 가운데)
+      if (g.mid) panScreen(g.mid[0], g.mid[1], mx, my);
+      g.mid = [mx, my];
+      if (g.spin) {
+        // 움직임마다 더해 간다(한 번에 180°를 넘겨 비틀어도 튀지 않게)
+        g.spin.from -= ((angle - g.spin.angle + 540) % 360) - 180;
+        g.spin.angle = angle;
+        spinTo(g.spin.from, mx, my);
       }
-    }
-    if (g.pinch && b) {
-      const dist = Math.hypot(a.x - b.x, a.y - b.y);
+      // 판 위 거리는 지금 방향으로 두 손가락을 다시 옮겨 잰다(먼저 움직인 손가락은 돌리기 전 방향으로 옮겨 둔 값이라)
+      const [ax, ay] = toPlane(a.sx, a.sy);
+      const [bx, by] = toPlane(b.sx, b.sy);
+      const [qx, qy] = toPlane(mx, my);
       zoomAt(
-        g.pinch.zoom * (dist / g.pinch.dist),
-        (a.x + b.x) / 2,
-        (a.y + b.y) / 2,
+        g.pinch.zoom * (Math.hypot(ax - bx, ay - by) / g.pinch.dist),
+        qx,
+        qy,
       );
       return;
     }

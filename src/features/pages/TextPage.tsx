@@ -8,7 +8,7 @@ export type TextPageKind = "about" | "privacy" | "contact" | "guide";
 
 /** 연락용 이메일(연락처 페이지에 공개). 배포 환경변수 NEXT_PUBLIC_CONTACT_EMAIL로 바꿀 수 있다 */
 const CONTACT_EMAIL =
-  process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "oasa741@gmail.com";
+  process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "saho741@gmail.com";
 
 function content(locale: Locale, kind: TextPageKind) {
   const p = getMessages(locale).pages;

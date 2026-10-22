@@ -39,7 +39,10 @@
     go = false;
     const d = times.slice(1).map((t, i) => t - times[i]).sort((a, b) => a - b);
     const q = (p) => Math.round(d[Math.min(d.length - 1, Math.floor(d.length * p))]);
-    return { name, frames: d.length, p50: q(0.5), p90: q(0.9), max: Math.round(d[d.length - 1] ?? 0), over50: d.filter((x) => x > 50).length };
+    // 손짓 뒤 방향(나침반 바늘) - 비틀기가 실제로 돌렸는지
+    const needle = document.querySelector('button g[style*="rotate("]')?.style.transform.match(/-?[\d.]+/)?.[0];
+    const heading = needle ? Math.round(((-Number(needle) % 360) + 360) % 360) : 0;
+    return { name, frames: d.length, p50: q(0.5), p90: q(0.9), max: Math.round(d[d.length - 1] ?? 0), over50: d.filter((x) => x > 50).length, heading };
   }
   window.__measureGestures = async () => {
     const el = (document.querySelector("[data-map-frame]") ?? document.querySelector("svg.touch-none"));
@@ -54,6 +57,12 @@
     out.push(await run("비틀기(회전)", el, (k) => {
       const a = (k * 60 * Math.PI) / 180;
       return [[cx - 90 * Math.cos(a), cy - 90 * Math.sin(a)], [cx + 90 * Math.cos(a), cy + 90 * Math.sin(a)]];
+    }));
+    // 실제 손처럼 벌리면서 비틀기(돌리기가 핀치에 붙는지 - 처음 움직임은 벌리기가 앞서고 비틀기는 뒤에 커진다)
+    out.push(await run("핀치하며 비틀기", el, (k) => {
+      const a = (k * k * 90 * Math.PI) / 180;
+      const r = 70 + k * 60;
+      return [[cx - r * Math.cos(a), cy - r * Math.sin(a)], [cx + r * Math.cos(a), cy + r * Math.sin(a)]];
     }));
     out.push(await run("두 손가락 기울이기", el, (k) => [[cx - 80, cy + 60 - k * 140], [cx + 80, cy + 60 - k * 140]]));
     out.push(await run("끌기(돌리고 기울인 뒤)", el, (k) => [[cx - 100 + k * 200, cy - k * 60]]));

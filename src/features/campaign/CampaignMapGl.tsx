@@ -6,6 +6,8 @@ import { MAP_HEIGHT, usePolities, usePolityNames } from "@/components/map";
 import { useGlViewport } from "@/components/map/useGlViewport";
 import { useLandFor } from "@/components/map/detailedLand";
 import { Compass } from "@/components/map/Compass";
+import { YoutubeButton } from "@/components/ui/YoutubeButton";
+import { YOUTUBE_URL } from "@/lib/channel";
 import { GlCanvas, type GlArea } from "@/components/map/gl/GlCanvas";
 import type { AtlasSpec } from "@/components/map/gl/atlas";
 import { glProjection } from "@/components/map/gl/shapes";
@@ -161,6 +163,7 @@ export function CampaignMapGl({ onFail }: { onFail: () => void }) {
       <Compass
         {...compass}
         place={COMPASS_PLACE}
+        side={<YoutubeButton href={YOUTUBE_URL} label={messages.ui.youtube} />}
         text={{
           reset: messages.ui.resetView,
           hintMouse: messages.ui.viewHintMouse,

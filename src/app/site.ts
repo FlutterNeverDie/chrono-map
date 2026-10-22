@@ -5,7 +5,7 @@ export const SITE_URL = (
 
 /** 문의 메일(설정 메뉴 "개발자에게 문의"). 연락처 페이지(features/pages/TextPage)와 같은 주소 */
 export const CONTACT_EMAIL =
-  process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "oasa741@gmail.com";
+  process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "saho741@gmail.com";
 
 /** 문의 메일 제목 앞머리 - 언어와 상관없이 같게 해서 받은 편지함에서 한 번에 거른다 */
 export const MAIL_TAG = "[History Map World]";

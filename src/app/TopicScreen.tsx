@@ -6,11 +6,13 @@ import {
   TopicMap,
   TopicPanel,
   TopicProvider,
+  TopicStepSetting,
   TopicTitle,
   type Topic,
 } from "@/features/topic";
 import { localizeTopic } from "@/features/topic/data";
 import { BottomBar } from "./BottomBar";
+import { MapTiltSetting } from "@/components/map/MapTiltSetting";
 import { AdSlot } from "@/features/ads";
 
 /** 주제 지도 화면 (/maps/[id]) — 역병·발명 등, 그리고 전쟁 지도 첫 화면(/wars). 페이지가 고른 지도 하나만 클라이언트로 넘긴다 */
@@ -39,7 +41,21 @@ export function TopicScreen({
             {messages.ui.wikipedia} · CC BY-SA 4.0 · Cliopatria (Seshat) · CC BY
             4.0
           </div>
-          <BottomBar current={section}>
+          <BottomBar
+            current={section}
+            settings={
+              <>
+                <TopicStepSetting />
+                <MapTiltSetting
+                  label={messages.ui.mapTilt}
+                  hint={{
+                    touch: messages.ui.viewHintTouch,
+                    mouse: messages.ui.viewHintMouse,
+                  }}
+                />
+              </>
+            }
+          >
             <TopicGauge />
           </BottomBar>
         </div>

@@ -3,6 +3,8 @@
 import { useUi } from "@/store/ui";
 import { useI18n } from "@/i18n/I18nProvider";
 import { Compass } from "@/components/map/Compass";
+import { YoutubeButton } from "@/components/ui/YoutubeButton";
+import { YOUTUBE_URL } from "@/lib/channel";
 
 /** 휴대폰은 오른쪽 위(아래는 사건 시트·하단 바), 데스크톱은 지도 오른쪽 아래(사건 패널 왼쪽·하단 바 위) */
 const PLACE =
@@ -33,6 +35,7 @@ export function HeadingControl() {
         setSpinning(false);
       }}
       place={PLACE}
+      side={<YoutubeButton href={YOUTUBE_URL} label={messages.ui.youtube} />}
       text={{
         reset: messages.ui.resetView,
         hintMouse: messages.ui.viewHintMouse,

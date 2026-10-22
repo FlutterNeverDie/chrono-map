@@ -187,3 +187,44 @@ export const TagIcon = ({ className }: IconProps) => (
     <circle cx="7.5" cy="7.5" r="1.5" />
   </svg>
 );
+
+/** 복사(겹친 두 장) */
+export const CopyIcon = ({ className }: IconProps) => (
+  <svg {...base} className={className}>
+    <rect x="9" y="9" width="12" height="12" rx="2" />
+    <path d="M5 15H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1" />
+  </svg>
+);
+
+/** 됐음(체크) */
+export const CheckIcon = ({ className }: IconProps) => (
+  <svg {...base} className={className}>
+    <path d="m5 12.5 4.5 4.5L19 7.5" />
+  </svg>
+);
+
+/** 유튜브 로고(빨간 둥근 사각 + 흰 재생 삼각형 - 선 아이콘이 아니라 채운 그림, 색은 유튜브 그대로) */
+export const YoutubeIcon = ({ className }: IconProps) => (
+  <svg viewBox="0 0 24 24" aria-hidden className={className}>
+    <rect x="1.5" y="5" width="21" height="14" rx="4" fill="#ff0000" />
+    <path d="M10 9v6l5.2-3z" fill="#fff" />
+  </svg>
+);
+
+/** 조절 막대(설정 묶음 - 세 줄 위 손잡이) */
+export const SlidersIcon = ({ className }: IconProps) => (
+  <svg {...base} className={className}>
+    <path d="M4 6h9M17 6h3M4 12h3M11 12h9M4 18h11M19 18h1" />
+    <circle cx="15" cy="6" r="2" />
+    <circle cx="9" cy="12" r="2" />
+    <circle cx="17" cy="18" r="2" />
+  </svg>
+);
+
+/** 달력(연도 단위) */
+export const CalendarIcon = ({ className }: IconProps) => (
+  <svg {...base} className={className}>
+    <rect x="3" y="5" width="18" height="16" rx="2" />
+    <path d="M3 10h18M8 3v4M16 3v4" />
+  </svg>
+);

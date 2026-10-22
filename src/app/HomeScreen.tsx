@@ -5,6 +5,7 @@ import { YearGauge, YearStepSetting } from "@/features/timeline";
 import {
   Attribution,
   HeadingControl,
+  PinsToggle,
   TiltSetting,
   WorldMap,
 } from "@/features/map";
@@ -48,6 +49,7 @@ export function HomeScreen({ locale }: { locale: Locale }) {
             current="chronomap"
             settings={
               <>
+                <PinsToggle />
                 <YearStepSetting />
                 <TiltSetting />
               </>

@@ -12,7 +12,16 @@ import type { Topic } from "@/features/topic";
 export function warsTopic(): Topic {
   const all = (pick: (l: Locale) => string) =>
     Object.fromEntries(LOCALES.map((l) => [l, pick(l)]));
+  // 처음 시점: 전투가 가장 많은 해의 한가운데(동시에 벌어진 전쟁 수는 비슷한 해가 많아 전투 수로 - 지금은 1942년)
+  const perYear = new Map<number, number>();
+  for (const c of CAMPAIGNS)
+    for (const b of c.battles) {
+      const y = c.unit === "month" ? Math.floor(b.start / 12) : b.start;
+      perYear.set(y, (perYear.get(y) ?? 0) + 1);
+    }
+  const busiest = [...perYear].reduce((a, b) => (b[1] > a[1] ? b : a))[0];
   return {
+    start: busiest * 12 + 6,
     id: "wars",
     order: 0,
     mode: "span",

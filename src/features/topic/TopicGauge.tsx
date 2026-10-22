@@ -19,8 +19,8 @@ const button =
   "flex size-12 shrink-0 items-center justify-center rounded-md text-muted transition-colors hover:bg-chip hover:text-foreground";
 
 /**
- * 비선형 시간 슬라이더. ◀ ▶는 "다음 항목이 등장하거나 퍼진 시점"으로 건너뛴다
- * (빈 시기를 한 달씩 넘기지 않게).
+ * 비선형 시간 슬라이더. ◀ ▶는 연도 단위(설정 - 본 지도와 같은 값)만큼 움직이되, 그 안에 바뀌는 게 없으면
+ * "다음 항목이 등장하거나 퍼진 시점"까지 건너뛴다(빈 시기를 한 단위씩 넘기지 않게 - 발명 지도는 100만 년 전부터).
  */
 export function TopicGauge() {
   const { locale, messages } = useI18n();
@@ -29,8 +29,16 @@ export function TopicGauge() {
   const setT = useTopicState((s) => s.setT);
   const scale = useMemo(() => topicScale(topic), [topic]);
   const frames = useMemo(() => keyframes(topic), [topic]);
-  const next = (from: number) => frames.find((f) => f > from);
-  const prev = (from: number) => [...frames].reverse().find((f) => f < from);
+  const step = useTopicState((s) => s.step) * 12;
+  const first = topic.scale[0] * 12;
+  const end = topic.scale[topic.scale.length - 1] * 12 + 11;
+  const next = (from: number) =>
+    Math.min(end, Math.max(from + step, frames.find((f) => f > from) ?? end));
+  const prev = (from: number) =>
+    Math.max(
+      first,
+      Math.min(from - step, frames.findLast((f) => f < from) ?? first),
+    );
 
   const pos = scale.toPos(t);
   return (
@@ -38,7 +46,7 @@ export function TopicGauge() {
       <button
         type="button"
         aria-label={messages.ui.prevItem}
-        onClick={() => setT(prev(t) ?? t)}
+        onClick={() => setT(prev(t))}
         className={button}
       >
         <ChevronLeftIcon className="size-6" />
@@ -106,7 +114,7 @@ export function TopicGauge() {
       <button
         type="button"
         aria-label={messages.ui.nextItem}
-        onClick={() => setT(next(t) ?? t)}
+        onClick={() => setT(next(t))}
         className={button}
       >
         <ChevronRightIcon className="size-6" />
