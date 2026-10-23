@@ -35,12 +35,14 @@ export type Figure = {
 export type GroupShade = {
   x: number;
   y: number;
+  /** 그리는 순서(작은 것부터) */
+  z: number;
   rx: number;
   ry: number;
   alpha: number;
 };
 
-/** 무리마다 바닥 그림자를 깔고, 무리는 화면 아래(가까운) 순서로, 무리 안에서는 위에서 아래로 그린다(서로 섞이지 않게) */
+/** 무리마다 바닥 그림자를 깔고, 무리는 층·화면 아래(가까운) 순서로, 무리 안에서는 위에서 아래로 그린다(서로 섞이지 않게) */
 export function drawCrowd(
   g: CanvasRenderingContext2D,
   figures: Figure[],
@@ -53,7 +55,7 @@ export function drawCrowd(
     groups.set(f.group, list);
   }
   const order = [...groups.entries()].sort(
-    (a, b) => (shades.get(a[0])?.y ?? 0) - (shades.get(b[0])?.y ?? 0),
+    (a, b) => (shades.get(a[0])?.z ?? 0) - (shades.get(b[0])?.z ?? 0),
   );
   for (const [id, list] of order) {
     const sh = shades.get(id);
@@ -105,7 +107,10 @@ export function drawFigure(g: CanvasRenderingContext2D, m: Figure) {
   if (dot > 0) {
     // 점은 진영 색 그대로 조금 옅게(먹선 없이)
     g.globalAlpha = base * dot * 0.85;
-    g.fillStyle = m.color;
+    // 기병 점은 진영 색과 말 색의 가운데(점 → 실루엣으로 바뀔 때 흰 말이 갑자기 많아진 것처럼 보였다 - 사용자)
+    const cav0 = m.kind === "cavalry" || m.kind === "horse-archer";
+    g.fillStyle =
+      cav0 && m.horse.startsWith("#") ? mixHex(m.color, m.horse, 0.5) : m.color;
     g.beginPath();
     g.ellipse(
       m.x,

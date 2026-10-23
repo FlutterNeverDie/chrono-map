@@ -7,7 +7,9 @@ import {
   bodyOf,
   bodyReach,
   levelOf,
+  setSceneSeconds,
   swarmAt,
+  tOf,
 } from "./sceneSwarm";
 import { landMask, toLand, toWater } from "./sceneLand";
 import { drawCrowd, type Figure, type GroupShade } from "./sceneCrowd";
@@ -317,6 +319,7 @@ function ScreenLayer({
     return screen(((X - v.x) / v.w) * size.w, ((y - v.y) / v.h) * size.h);
   };
   const time = (t * frames) / 30;
+  setSceneSeconds(frames / 30);
   // 폭풍 세기(배가 크게 흔들림 - 화면 효과는 WebGL 판)
   const storm = scene.storm ? Math.min(1, countAt(scene.storm.strength, t)) : 0;
   // 부대 그림 크기: 기본은 키 약 22px@1280(영상 44px) - 크면 보드게임 말처럼 보여 작게 많이(RMW 피드백)
@@ -387,7 +390,14 @@ function ScreenLayer({
         for (let b = a + 1; b < list.length; b++) {
           const A = list[a];
           const B = list[b];
-          if (A.w.ring || B.w.ring) continue;
+          // 고리·밀지 않는 무리(press: false - 포위처럼 일부러 겹침)는 밀어내지 않는다
+          if (
+            A.w.ring ||
+            B.w.ring ||
+            A.w.u.press === false ||
+            B.w.u.press === false
+          )
+            continue;
           const friends = team(A.w.u.side) === team(B.w.u.side);
           const ca = centre(A);
           const cb = centre(B);
@@ -419,9 +429,9 @@ function ScreenLayer({
       return [x.shift[0] * k, x.shift[1] * k] as [number, number];
     });
   };
-  // 지난 0.06(약 18프레임)을 7번 재서 가까울수록 무겁게 평균 - 돌격해 들어간 몽골이 버티는 쿠만에 9프레임 만에 확 밀려났다
-  const SMOOTH = [0, 0.01, 0.02, 0.03, 0.04, 0.05, 0.06];
-  const weight = SMOOTH.map((dt) => 1 - dt / 0.07);
+  // 지난 3초를 7번 재서 가까울수록 무겁게 평균 - 돌격해 들어간 몽골이 버티는 쿠만에 9프레임 만에 확 밀려났다
+  const SMOOTH = [0, 1, 2, 3, 4, 5, 6].map((k) => tOf(0.5 * k));
+  const weight = SMOOTH.map((dt) => 1 - dt / tOf(3.5));
   const total = weight.reduce((a, b) => a + b, 0);
   SMOOTH.forEach((dt, k) => {
     const sh = separation(t - dt);
@@ -467,7 +477,12 @@ function ScreenLayer({
       : ["#8b5e3c"];
     const me = centerOf(w);
     const foes = swarms.filter(
-      (o) => o !== w && !o.ring && team(o.u.side) !== team(u.side),
+      (o) =>
+        o !== w &&
+        !o.ring &&
+        o.u.press !== false &&
+        u.press !== false &&
+        team(o.u.side) !== team(u.side),
     );
     // 패주: 가장 가까운 적의 반대쪽으로
     let away: [number, number] | undefined;
@@ -483,7 +498,7 @@ function ScreenLayer({
         away = [dx / d, dy / d];
       }
     }
-    const men = swarmAt(u.id, u.path, u.swarm!, u.count, t, away);
+    const men = swarmAt(u.id, u.path, u.swarm!, u.count, t, away, u.fallFrom);
     const anchor = unitAt(u.path, t).at;
     const home: LonLat = [anchor[0] + shift[0], anchor[1] + shift[1]];
     // 적 무리 몸통 안에 들어간 사람은 그 둘레 밖으로(사람마다 조금씩 다른 거리 - 한 줄로 늘어서지 않게).
@@ -493,20 +508,18 @@ function ScreenLayer({
       for (const o of foes) {
         const c = centerOf(o);
         const cos = cosOf(c[1]);
-        let dx = (m.at[0] - c[0]) * cos;
-        let dy = m.at[1] - c[1];
-        let depth = bodyDepth(o.body, dx, dy);
+        const dx = (m.at[0] - c[0]) * cos;
+        const dy = m.at[1] - c[1];
+        const depth = bodyDepth(o.body, dx, dy);
         const edge =
           (1 - 0.06 * Math.max(o.contact, w.contact)) * (1 + 0.15 * m.slack);
         if (depth >= edge) continue;
-        if (depth < 1e-6) {
-          // 한가운데면 내 무리 쪽으로
-          dx = (me[0] - c[0]) * cos || 1e-6;
-          dy = me[1] - c[1];
-          depth = bodyDepth(o.body, dx, dy);
-        }
+        // 깊이 들어간 병사는 그대로(섞여 싸움), 가장자리 쪽만 서서히 밖으로 - 한가운데 병사를 내 무리 쪽으로 빼면 적 무리
+        // 가운데가 지나가는 순간 빼는 방향이 뒤집혀 반대편으로 순간이동했다(사용자 "몽골 말이 엄청 빠르게")
+        const wpush = smoothstep(0.35, 0.65, depth / edge);
+        if (wpush <= 0) continue;
         // 둘레 바로 밖 띠로 펼친다(안쪽 깊이 비례) - 둘레에 그대로 모으면 한 줄로 늘어선 선이 보였다
-        const k = (edge + (edge - depth) * 0.45) / depth;
+        const k = 1 + ((edge + (edge - depth) * 0.45) / depth - 1) * wpush;
         m.at = [c[0] + (dx * k) / cos, c[1] + dy * k];
       }
       // 물 위에 선 사람은 무리 가운데 쪽 땅으로(밀어내기에 밀려 바다로 나가기도 해서), 배는 거꾸로 물로
@@ -561,9 +574,12 @@ function ScreenLayer({
         unitAt(u.path, t).at[1],
       ]);
       const rx = Math.hypot(e.x - c.x, e.y - c.y) * 1.15;
+      // 그리는 순서는 층, 그다음 부대 기준점(밀린 만큼 포함)의 화면 y - 살아 있는 병사 가운데로 하면 쓰러질수록 움직여 순서가 중간에 뒤집혔다
+      const z = at(centerOf(w)).y;
       shades.set(group, {
         x: sx / live,
         y: sy / live,
+        z: (u.layer ?? 0) * 1e6 + z,
         rx,
         ry: rx * 0.42,
         alpha,

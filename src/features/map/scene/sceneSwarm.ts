@@ -142,10 +142,15 @@ const smoothstep = (a: number, b: number, x: number) => {
 
 /** 사람마다 고정 값(대형 자리·흔들림·쓰러지는 차례) - id·수·모양이 같으면 한 번만 만든다 */
 const cache = new Map<string, Person[]>();
-function people(id: string, swarm: Swarm, n: number): Person[] {
+function people(
+  id: string,
+  swarm: Swarm,
+  n: number,
+  fallFrom: "front" | "edge",
+): Person[] {
   const shape = swarm.shape ?? "host";
   const inner = swarm.inner ?? 0.6;
-  const key = `${id}:${n}:${shape}:${inner}`;
+  const key = `${id}:${n}:${shape}:${inner}:${fallFrom}`;
   const hit = cache.get(key);
   if (hit) return hit;
   const r = rng(`${id}:swarm`);
@@ -160,7 +165,8 @@ function people(id: string, swarm: Swarm, n: number): Person[] {
     // 옆·뒤 둘레는 굴곡지고 서서히 드물어져 뒤로 낙오병이 늘어진다. 사각형·평행사변형 덩어리로 보이던 것(RMW 피드백)
     // 앞줄: 거의 반듯하되 양 끝이 뒤로 휘고 무리마다 조금 물결(여러 무리가 나란히 서면 앞줄이 한 줄 자처럼 이어져 상자처럼 보였다)
     const wave = valueNoise(`${id}:front`);
-    const front = (x: number) => -0.15 * x * x + (wave(x * 1.8 + 5, 0.5) - 0.5) * 0.08;
+    const front = (x: number) =>
+      -0.15 * x * x + (wave(x * 1.8 + 5, 0.5) - 0.5) * 0.08;
     const side = outline(`${id}:side`, 0.22);
     const back = outline(`${id}:back`, 0.3);
     spots = scatter(r, n, [-1.6, -2.0, 1.6, 0.05], 1.5, (x, y) => {
@@ -198,9 +204,11 @@ function people(id: string, swarm: Swarm, n: number): Person[] {
       },
     );
   }
-  // 쓰러지는 차례: 앞줄(적과 맞닿은 쪽)일수록 먼저 - 무작위를 조금 섞어서
+  // 쓰러지는 차례: 앞줄(적과 맞닿은 쪽)일수록 먼저, edge면 가장자리부터(감싸 들어오는 포위) - 무작위를 조금 섞어서
   const score = spots.map(([x, y]) =>
-    shape === "host" ? -y + r() * 0.6 : -Math.hypot(x, y) + r() * 0.6,
+    shape === "host" && fallFrom === "front"
+      ? -y + r() * 0.6
+      : -Math.hypot(x, y) + r() * 0.6,
   );
   const order = spots.map((_, i) => i).sort((a, b) => score[a] - score[b]);
   const rank = new Array<number>(n);
@@ -253,6 +261,53 @@ const TURN = 0.035;
  * 그 시각 대형이 바라보는 땅 위 각도. 경로 키를 지나 방향이 바뀌면 TURN 동안 짧은 쪽으로 돈다(180°면 늘 같은 쪽).
  * 멈춘 구간(같은 자리 두 키)은 앞 구간 방향 그대로
  */
+/** 이보다 크게 방향이 바뀌면 대형을 돌리지 않고 제자리에서 돌아선다(앞줄·뒷줄이 바뀜) */
+const FLIP = (100 * Math.PI) / 180;
+/**
+ * 장면 길이(초) - 무리 동작 시간(쓰러짐·돌아섬·상태 전환·패주)을 초로 정해 두고 t로 바꿀 때 쓴다. t 비율로 두면 긴 장면에서
+ * 느려지고(3분이면 쓰러진 병사가 9초 남음) 짧은 장면에서 튀었다. SceneLayer가 frames/30으로 정한다
+ */
+let seconds = 48;
+export const setSceneSeconds = (s: number) => {
+  seconds = Math.max(1, s);
+};
+/** 초 → t */
+export const tOf = (sec: number) => sec / seconds;
+/** 돌아선 뒤 대형이 새 모양으로 자리 잡는 시간 */
+const REFORM = () => tOf(2);
+const wrapPi = (d: number) => {
+  let x = (((d % (Math.PI * 2)) + Math.PI * 3) % (Math.PI * 2)) - Math.PI;
+  if (Math.abs(Math.abs(x) - Math.PI) < 1e-3) x = Math.PI;
+  return x;
+};
+const flipCache = new WeakMap<Path, number[]>();
+/**
+ * 크게(FLIP 넘게) 방향을 바꾸는 키 시각들: 그 키 뒤 움직이는 방향과 그 전 마지막으로 움직인 방향의 차이 - 후퇴하다 돌아서 돌격,
+ * 쿠만 패주처럼 반대로 갈 때 대형째 빙글 돌던 것(사용자 "한 바퀴 돌면서 이동")을 제자리 돌아서기로
+ */
+function flipsOf(path: Path): number[] {
+  let out = flipCache.get(path);
+  if (out) return out;
+  out = [];
+  const dirAt = (tt: number) => {
+    const u = unitAt(path, tt);
+    return Math.hypot(u.dir[0], u.dir[1]) > 1e-9
+      ? angleOf(u.dir, u.at[1])
+      : null;
+  };
+  for (let i = 1; i < path.length - 1; i++) {
+    const now = dirAt(path[i].t + 1e-4);
+    if (now === null) continue;
+    let before: number | null = null;
+    for (let j = i; before === null && j > 0; j--)
+      before = dirAt(path[j].t - 1e-4);
+    if (before !== null && Math.abs(wrapPi(now - before)) > FLIP)
+      out.push(path[i].t);
+  }
+  flipCache.set(path, out);
+  return out;
+}
+
 export function headingAt(path: Path, t: number): number {
   const dirAt = (tt: number) => {
     const u = unitAt(path, tt);
@@ -273,9 +328,9 @@ export function headingAt(path: Path, t: number): number {
   for (let j = i; before === null && j > 0; j--)
     before = dirAt(path[j].t - 1e-4);
   if (before === null) return now;
-  let diff = now - before;
-  diff = ((diff % (Math.PI * 2)) + Math.PI * 3) % (Math.PI * 2) - Math.PI;
-  if (Math.abs(Math.abs(diff) - Math.PI) < 1e-3) diff = Math.PI;
+  const diff = wrapPi(now - before);
+  // 크게 바꾸면 돌리지 않는다(병사가 제자리에서 돌아선다 - swarmAt)
+  if (Math.abs(diff) > FLIP) return now;
   return before + diff * smoothstep(0, 1, (t - key) / TURN);
 }
 
@@ -295,7 +350,15 @@ export function bodyOf(path: Path, swarm: Swarm, t: number): Body {
   const shape = swarm.shape ?? "host";
   if (shape === "host") {
     const c = levelOf(path, t, "charge");
-    return { at: u.at, ang, cy: -0.45 * R * (1 + 0.2 * c), rx: R, ry: 0.5 * R * (1 + 0.25 * c) };
+    // 돌아선 뒤에는 대형이 뒤집혀 있다(옛 뒷줄이 앞) - 몸통도 앞쪽으로
+    const flipped = flipsOf(path).filter((k) => k <= t).length % 2 === 1;
+    return {
+      at: u.at,
+      ang,
+      cy: (flipped ? 0.45 : -0.45) * R * (1 + 0.2 * c),
+      rx: R,
+      ry: 0.5 * R * (1 + 0.25 * c),
+    };
   }
   return { at: u.at, ang, cy: 0, rx: R, ry: R };
 }
@@ -329,10 +392,11 @@ export function swarmAt(
   t: number,
   /** 패주할 때 달아날 쪽(땅 위 단위 벡터, 가장 가까운 적의 반대쪽) - 없으면 대형 뒤쪽 */
   away?: [number, number],
+  fallFrom: "front" | "edge" = "front",
 ): Soldier[] {
   const n = Math.max(1, Math.round(swarm.n));
   const shape = swarm.shape ?? "host";
-  const ps = people(id, swarm, n);
+  const ps = people(id, swarm, n, fallFrom);
   const R = swarm.radius;
   const ang = headingAt(path, t);
   const fx = Math.cos(ang);
@@ -341,33 +405,63 @@ export function swarmAt(
   const flee = now.state === "flee";
   const since = flee ? fleeSince(path, t) : 0;
   const run = away ?? [-fx, -fy];
+  // 크게 방향을 바꾼(제자리에서 돌아선) 횟수가 홀수면 대형이 뒤집혀 있다
+  const flips = shape === "ring" ? [] : flipsOf(path).filter((k) => k <= t);
+  const odd = flips.length % 2 === 1;
+  const lastFlip = flips.length ? flips[flips.length - 1] : -Infinity;
+  const sinceFlip = t - lastFlip;
+  const oldAng = flips.length ? headingAt(path, lastFlip - 1e-4) : ang;
   const out: Soldier[] = [];
   for (let i = 0; i < n; i++) {
     const p = ps[i];
     // 뒷줄일수록 늦게(경로를 따라 흐르게) - 방향은 무리 전체가 같다
     // 뒷줄일수록 늦게 - 사람마다 늦음이 달라 뒤쪽 끝이 들쭉날쭉(모두 같으면 경로와 나란한 반듯한 옆선·뒷선이 생겨 행군 대형이 네모 상자처럼 보였다)
-    const ti = t - p.depth * 0.035 * p.lag;
-    const u = p.depth ? unitAt(path, ti) : now;
-    const cos = cosLat(u.at[1]);
-    const fast = levelOf(path, ti, "charge");
-    let ox: number;
-    let oy: number;
-    let face: [number, number] = [fx, fy];
-    if (shape === "ring") {
-      ox = p.x * R;
-      oy = p.y * R;
-      const d = Math.hypot(ox, oy) || 1;
-      face = [-ox / d, -oy / d];
-    } else {
+    /** 대형 안 자리(경위도 기준 위치 + 땅 위 거리): flipped면 제자리에서 돌아선 뒤(옛 뒷줄이 앞 - 자리를 거꾸로 읽는다) */
+    const place = (a: number, flipped: boolean) => {
+      const dEff = flipped ? 1 - p.depth : p.depth;
+      const sg = flipped ? -1 : 1;
+      const tt = t - dEff * 0.035 * p.lag;
+      const uu = dEff || flipped ? unitAt(path, tt) : now;
+      const ax = Math.cos(a);
+      const ay = Math.sin(a);
+      const fast = levelOf(path, tt, "charge");
+      if (shape === "ring") return { u: uu, ox: p.x * R, oy: p.y * R, tt };
       // 대형 안 자리(앞 = +): 돌격이면 깊이가 늘어나고 앞줄이 사람마다 다른 빠르기로 튀어나간다
       // 뒤로 갈수록 옆으로 조금 넓고 사람마다 흐트러지게
-      const wide = (p.x * (1 + 0.18 * p.depth) + p.flare * 0.1 * p.depth) * R;
-      let deep = p.y * R * (1 + fast * 0.25);
+      const wide = sg * (p.x * (1 + 0.18 * dEff) + p.flare * 0.1 * dEff) * R;
+      let deep = sg * p.y * R * (1 + fast * 0.25);
       // 행군 중에는 앞줄도 물결지게(나란히 선 무리의 앞줄이 한 줄 자처럼 이어져 상자처럼 보였다) - 맞붙는 돌격·버팀에서는 반듯하게
-      deep += levelOf(path, ti, "march") * p.fwave * R * 0.35 * (1 - p.depth * 0.6);
-      deep += fast * R * 0.18 * (1 - p.depth) * p.dash;
-      ox = fx * deep + fy * wide; // 오른쪽 = (fy, -fx)
-      oy = fy * deep - fx * wide;
+      deep +=
+        levelOf(path, tt, "march") * p.fwave * R * 0.35 * (1 - dEff * 0.6);
+      deep += fast * R * 0.18 * (1 - dEff) * p.dash;
+      return {
+        u: uu,
+        ox: ax * deep + ay * wide,
+        oy: ay * deep - ax * wide,
+        tt,
+      }; // 오른쪽 = (ay, -ax)
+    };
+    let pl = place(ang, odd);
+    // 돌아선 직후 REFORM 동안: 돌아서기 전 대형(그 방향 그대로)에서 새 대형으로 자리를 옮겨 간다(한 프레임에 튀지 않게)
+    if (sinceFlip < REFORM()) {
+      const k = smoothstep(0, 1, sinceFlip / REFORM());
+      const o = place(oldAng, !odd);
+      const c0 = cosLat(o.u.at[1]);
+      const c1 = cosLat(pl.u.at[1]);
+      const lon =
+        (o.u.at[0] + o.ox / c0) * (1 - k) + (pl.u.at[0] + pl.ox / c1) * k;
+      const lat = (o.u.at[1] + o.oy) * (1 - k) + (pl.u.at[1] + pl.oy) * k;
+      pl = { u: { ...pl.u, at: [lon, lat] }, ox: 0, oy: 0, tt: pl.tt };
+    }
+    const u = pl.u;
+    const ti = pl.tt;
+    const cos = cosLat(u.at[1]);
+    let ox = pl.ox;
+    let oy = pl.oy;
+    let face: [number, number] = [fx, fy];
+    if (shape === "ring") {
+      const d = Math.hypot(ox, oy) || 1;
+      face = [-ox / d, -oy / d];
     }
     // 흔들림(사람마다 다른 느린 물결)
     const w = p.wob;
@@ -375,7 +469,7 @@ export function swarmAt(
     oy += Math.sin(ti * 33 * w[2] + w[1]) * R * 0.02;
     if (flee) {
       // 패주: 달아날 쪽 60% + 사람마다 무작위 40%, 짧게(무리 반지름의 1배 안) - 시간에 따라 서서히
-      const k = clamp01(since * 6) * p.flee[2] * R;
+      const k = clamp01(since / tOf(8)) * p.flee[2] * R;
       const dx = run[0] * 0.6 + p.flee[0] * 0.55;
       const dy = run[1] * 0.6 + p.flee[1] * 0.55;
       ox += dx * k;
@@ -388,7 +482,7 @@ export function swarmAt(
       at: [u.at[0] + ox / cos, u.at[1] + oy],
       dir: [face[0] / cos, face[1]],
       state: u.state,
-      fallen: t < tf ? 0 : clamp01((t - tf) / 0.08) * 0.8 + 0.2,
+      fallen: t < tf ? 0 : clamp01((t - tf) / tOf(2.4)) * 0.8 + 0.2,
       phase: p.phase,
       slack: p.slack,
     });
@@ -400,7 +494,7 @@ export function swarmAt(
  * 그 시각 state인 정도 0~1: 상태가 바뀌는 키에서 SHIFT 동안 부드럽게 옮겨 간다(돌격 쏠림·맞붙는 거리가 한 프레임에 튀지 않게).
  * 상태 판정은 unitAt과 같다
  */
-const SHIFT = 0.03;
+const SHIFT = () => tOf(1.5);
 export function levelOf(path: Path, t: number, state: UnitState): number {
   const on = (x: number) => (unitAt(path, x).state === state ? 1 : 0);
   let change = -Infinity;
@@ -408,9 +502,9 @@ export function levelOf(path: Path, t: number, state: UnitState): number {
     if (k.t > t) break;
     if (on(k.t) !== on(k.t - 1e-6)) change = k.t;
   }
-  if (t - change >= SHIFT) return on(t);
+  if (t - change >= SHIFT()) return on(t);
   const before = on(change - 1e-6);
-  return before + (on(t) - before) * smoothstep(0, SHIFT, t - change);
+  return before + (on(t) - before) * smoothstep(0, SHIFT(), t - change);
 }
 
 /** 패주 상태가 시작된 뒤 지난 시간(t 단위) */

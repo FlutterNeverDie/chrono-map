@@ -33,7 +33,14 @@ type SceneOf<TT> = {
    * 국경 연도 키. flow: 앞 키에서 이 키까지 연도가 t에 따라 흐른다(타임랩스 - every년마다 국경이 바뀌고, 바뀌기 전 blend(기본 0.35)
    * 동안 앞뒤 국경이 녹아 넘어간다, showYear 숫자도 그때 굴러감). 고정밀 국경은 그 사이 every년마다 필요(RMW가 만듦)
    */
-  years?: { t: TT; year: number; flow?: boolean; every?: number; blend?: number; ease?: Ease }[];
+  years?: {
+    t: TT;
+    year: number;
+    flow?: boolean;
+    every?: number;
+    blend?: number;
+    ease?: Ease;
+  }[];
   theme?: "film" | "light" | "dark";
   showYear?: boolean;
   borders?: boolean;
@@ -47,7 +54,17 @@ type SceneOf<TT> = {
   ground?: "palette" | "css" | "raw";
   /** 땅 팔레트(RMW blender/shots의 palette와 같은 이름: steppe, steppe_dry, green, forest, water) */
   palette?: Partial<
-    Record<"steppe" | "steppe_dry" | "green" | "forest" | "rock" | "rock_dark" | "snow" | "water", string>
+    Record<
+      | "steppe"
+      | "steppe_dry"
+      | "green"
+      | "forest"
+      | "rock"
+      | "rock_dark"
+      | "snow"
+      | "water",
+      string
+    >
   >;
   /** 눈 선(고도 m, 기본 3400 - prep_terrain.py의 snowline_m) */
   snowline?: number;
@@ -111,6 +128,12 @@ type SceneOf<TT> = {
         inner?: number;
       };
       size?: number;
+      /** false면 적 무리와 겹쳐도 서로 밀어내거나 빼내지 않는다(포위처럼 일부러 겹칠 때) */
+      press?: boolean;
+      /** 무리 그리는 층(기본 0) - 큰 쪽을 나중에(위에). 같은 층 안에서는 화면 아래(가까운) 무리가 위 */
+      layer?: number;
+      /** 쓰러지는 차례: front(기본, 앞줄부터) | edge(가장자리 - 무리 가운데에서 먼 사람부터) */
+      fallFrom?: "front" | "edge";
       /**
        * 배 종류(kind "ship"): galley(갤리선 - 노)·sail(범선, 기본)·junk(정크선 - 몽골·고려 함대)·warship(근대 군함).
        * 대군(swarm)이면 함대 대형으로, 움직이면 항적, 수가 줄면 불타다 가라앉는다. 지형이 있으면 물 위로
@@ -126,7 +149,9 @@ type SceneOf<TT> = {
        * 인물 얼굴 메달(부대를 따라다님): RMW public/chars의 캐릭터 id, 또는 {char, mood(표정 폴더 - front 기본·angry·happy·sad·shocked),
        * show(메달만 따로 나타날 구간), size(배율, 기본 1 - 지름이 화면 높이의 9.5%)}. 진영 색 테두리, 나타날 때 살짝 튀어 오르고 사라질 때 작아진다
        */
-      face?: string | { char: string; mood?: string; show?: [TT, TT]; size?: number };
+      face?:
+        | string
+        | { char: string; mood?: string; show?: [TT, TT]; size?: number };
       /**
        * 병력 숫자(부대 옆, 계기판처럼 굴러감): 수 하나, 시간표 [{t, n}](사이를 이어서 줄어듦), 또는 {n, show, size}.
        * 천 단위 쉼표, 숫자만(언어 무관), 크기는 글자 높이가 화면 높이의 4.5% × size
@@ -134,7 +159,11 @@ type SceneOf<TT> = {
       troops?:
         | number
         | { t: TT; n: number }[]
-        | { n: number | { t: TT; n: number }[]; show?: [TT, TT]; size?: number };
+        | {
+            n: number | { t: TT; n: number }[];
+            show?: [TT, TT];
+            size?: number;
+          };
       path: { t: TT; at: LonLat; state?: UnitState }[];
     },
     TT
@@ -176,7 +205,15 @@ type SceneOf<TT> = {
    */
   markers?: Timed<
     {
-      kind: "battle" | "city" | "camp" | "siege" | "sack" | "face" | "bombing" | "flak";
+      kind:
+        | "battle"
+        | "city"
+        | "camp"
+        | "siege"
+        | "sack"
+        | "face"
+        | "bombing"
+        | "flak";
       /** bombing·flak: 터지는 수(기본 12·16), show 구간에 고르게 흩어져 radius(도) 안에서. flak은 altitude 높이 둘레 공중 */
       n?: number;
       altitude?: number;
@@ -302,7 +339,10 @@ export function ease(k: number, kind: Ease = "inOut"): number {
 const lonGap = (a: number, b: number) => ((((b - a) % 360) + 540) % 360) - 180;
 
 /** 따라가는 부대 자리: 지난 0.04를 9번 잰 평균(흔들림 없이 조금 늦게) */
-function followAt(path: { t: number; at: LonLat; state?: UnitState }[], t: number): LonLat {
+function followAt(
+  path: { t: number; at: LonLat; state?: UnitState }[],
+  t: number,
+): LonLat {
   let x = 0;
   let y = 0;
   for (let i = 0; i < 9; i++) {
@@ -314,17 +354,14 @@ function followAt(path: { t: number; at: LonLat; state?: UnitState }[], t: numbe
 }
 
 /** 카메라 키의 그 시각 가운데: at 그대로, 또는 따라가는 부대 자리 + 가는 쪽 앞 여유(멈추면 여유도 서서히 0) */
-function keyAt(
-  scene: Scene,
-  key: Scene["camera"][number],
-  t: number,
-): LonLat {
+function keyAt(scene: Scene, key: Scene["camera"][number], t: number): LonLat {
   if (!key.follow) {
     if (!key.at) throw new Error("장면: camera 키에 at이나 follow가 필요하다");
     return key.at;
   }
   const u = scene.units?.find((x) => x.id === key.follow);
-  if (!u?.path.length) throw new Error(`장면: camera follow "${key.follow}" 부대가 없다`);
+  if (!u?.path.length)
+    throw new Error(`장면: camera follow "${key.follow}" 부대가 없다`);
   const p = followAt(u.path, t);
   const q = followAt(u.path, t - 0.05);
   const cos = Math.max(0.2, Math.cos((p[1] * Math.PI) / 180));
@@ -333,7 +370,8 @@ function keyAt(
   const dy = p[1] - q[1];
   const d = Math.hypot(dx, dy);
   const width = 450 / key.zoom;
-  const lead = (key.lead ?? 0.12) * width * (d > 0 ? Math.min(1, d / (0.02 * width)) : 0);
+  const lead =
+    (key.lead ?? 0.12) * width * (d > 0 ? Math.min(1, d / (0.02 * width)) : 0);
   if (!d) return p;
   return [p[0] + (dx / d) * (lead / cos), p[1] + (dy / d) * lead];
 }
@@ -370,13 +408,17 @@ export function yearFlowAt(scene: Scene, t: number) {
     const k = keys[i];
     const prev = keys[i - 1];
     if (k.flow && prev && t >= prev.t && t < k.t) {
-      const u = ease(clamp01((t - prev.t) / (k.t - prev.t || 1e-6)), k.ease ?? "linear");
+      const u = ease(
+        clamp01((t - prev.t) / (k.t - prev.t || 1e-6)),
+        k.ease ?? "linear",
+      );
       const span = k.year - prev.year;
       const dir = span < 0 ? -1 : 1;
       const every = Math.max(1, k.every ?? 1) * dir;
       const v = prev.year + span * u;
       const y0 = prev.year + Math.floor((v - prev.year) / every) * every;
-      const y1 = dir > 0 ? Math.min(k.year, y0 + every) : Math.max(k.year, y0 + every);
+      const y1 =
+        dir > 0 ? Math.min(k.year, y0 + every) : Math.max(k.year, y0 + every);
       const frac = y1 === y0 ? 0 : (v - y0) / (y1 - y0);
       const blend = k.blend ?? 0.35;
       const k01 = clamp01((frac - (1 - blend)) / blend);
@@ -498,7 +540,11 @@ export function unitAt(
   t: number,
 ): { at: LonLat; state: UnitState; dir: LonLat } {
   if (t <= path[0].t || path.length === 1) {
-    const d = path[1] ? sub(path[1].at, path[0].at) : ([1, 0] as LonLat);
+    // 방향은 처음 움직이는 구간 쪽(멈춘 구간과 같은 규칙 - 첫 프레임 뒤에 방향이 바뀌어 대형이 한 번 튀었다)
+    let d: LonLat = [0, 0];
+    for (let j = 0; j < path.length - 1 && !Math.hypot(...d); j++)
+      d = sub(path[j + 1].at, path[j].at);
+    if (!Math.hypot(...d)) d = [1, 0];
     return { at: path[0].at, state: path[0].state ?? "hold", dir: d };
   }
   let i = 0;
@@ -508,23 +554,70 @@ export function unitAt(
   if (t >= b.t) {
     return { at: b.at, state: b.state ?? "hold", dir: sub(b.at, a.at) };
   }
-  const u = clamp01((t - a.t) / (b.t - a.t || 1e-6));
-  const p0 = path[Math.max(0, i - 1)].at;
-  const p3 = path[Math.min(path.length - 1, i + 2)].at;
-  const f = (k: number, j: 0 | 1) => {
-    const [x0, x1, x2, x3] = [p0[j], a.at[j], b.at[j], p3[j]];
+  // 멈춘 구간(같은 자리 두 키): 그 자리에 가만히, 방향은 직전(처음이면 다음) 움직임 쪽 - 곡선으로 이으면 앞뒤 키 쪽으로
+  // 살짝 튀어나갔다 돌아와 방향이 뒤집혀, 멈춘 동안 대형이 한 프레임에 반 바퀴 돌았다(사용자 "한 바퀴 돌면서")
+  if (Math.hypot(...sub(b.at, a.at)) <= 1e-9) {
+    let dir: LonLat = [0, 0];
+    for (let j = i; j > 0 && !Math.hypot(...dir); j--)
+      dir = sub(path[j].at, path[j - 1].at);
+    for (let j = i + 1; j < path.length - 1 && !Math.hypot(...dir); j++)
+      dir = sub(path[j + 1].at, path[j].at);
+    return { at: a.at, state: a.state ?? "hold", dir };
+  }
+  // 가감속: 멈춰 있다 출발하는 구간은 서서히 빨라지고, 멈추는 구간은 서서히 느려진다(사이가 계속 움직이면 그대로 이어서) -
+  // 키에서 속도가 0에서 바로 최고로 튀어 "갑자기 쑥" 움직였다(사용자)
+  const still = (x: LonLat, y: LonLat) =>
+    Math.hypot(x[0] - y[0], x[1] - y[1]) < 1e-9;
+  // 방향을 크게(100° 넘게) 바꾸는 키도 한 번 멈추는 자리로 친다 - 곡선이 앞 구간 빠르기를 이어받아 지나쳤다가 돌아와
+  // 구간 한가운데서 방향이 뒤집혔다(쿠만이 대형째 빙글)
+  const turns = (j: number) => {
+    if (j <= 0 || j >= path.length - 1) return false;
+    const d0 = sub(path[j].at, path[j - 1].at);
+    const d1 = sub(path[j + 1].at, path[j].at);
+    const l = Math.hypot(...d0) * Math.hypot(...d1);
     return (
-      0.5 *
-      (2 * x1 +
-        (-x0 + x2) * k +
-        (2 * x0 - 5 * x1 + 4 * x2 - x3) * k * k +
-        (-x0 + 3 * x1 - 3 * x2 + x3) * k * k * k)
+      l > 0 &&
+      (d0[0] * d1[0] + d0[1] * d1[1]) / l < Math.cos((100 * Math.PI) / 180)
+    );
+  };
+  const restA = i === 0 || still(path[i - 1].at, a.at) || turns(i);
+  const restB =
+    i + 2 >= path.length || still(b.at, path[i + 2].at) || turns(i + 1);
+  const lin = clamp01((t - a.t) / (b.t - a.t || 1e-6));
+  const warp = (x: number) =>
+    restA && restB
+      ? x * x * (3 - 2 * x)
+      : restA
+        ? x * x * (2 - x)
+        : restB
+          ? 1 - (1 - x) * (1 - x) * (1 + x)
+          : x;
+  const u = warp(lin);
+  // 멈추는 자리에서는 곡선이 앞뒤로 튀어나가지 않게 그 끝을 기준점으로
+  const p0 = restA ? a.at : path[Math.max(0, i - 1)].at;
+  const p3 = restB ? b.at : path[Math.min(path.length - 1, i + 2)].at;
+  // 키에서의 기울기: 앞뒤 구간 길이 비율로(구간 길이가 크게 다르면 - 짧은 구간 뒤 긴 구간 - 같은 비율 곡선은 짧은 구간 한가운데서
+  // 반대로 튀어나갔다 돌아왔다). 길이가 같으면 예전 곡선(캣멀롬)과 같다
+  const len = (x: LonLat, y: LonLat) => Math.hypot(x[0] - y[0], x[1] - y[1]);
+  const lab = len(a.at, b.at);
+  const wa = lab / (len(p0, a.at) + lab || 1);
+  const wb = lab / (lab + len(b.at, p3) || 1);
+  const f = (k: number, j: 0 | 1) => {
+    const ma = (b.at[j] - p0[j]) * wa;
+    const mb = (p3[j] - a.at[j]) * wb;
+    const k2 = k * k;
+    const k3 = k2 * k;
+    return (
+      (2 * k3 - 3 * k2 + 1) * a.at[j] +
+      (k3 - 2 * k2 + k) * ma +
+      (-2 * k3 + 3 * k2) * b.at[j] +
+      (k3 - k2) * mb
     );
   };
   const at: LonLat = [f(u, 0), f(u, 1)];
   const next: LonLat = [
-    f(Math.min(1, u + 0.01), 0),
-    f(Math.min(1, u + 0.01), 1),
+    f(Math.min(1, warp(Math.min(1, lin + 0.01)) + 1e-4), 0),
+    f(Math.min(1, warp(Math.min(1, lin + 0.01)) + 1e-4), 1),
   ];
   const moving = Math.hypot(...sub(b.at, a.at)) > 1e-6;
   return {
